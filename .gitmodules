@@ -1,0 +1,3 @@
+[submodule "translator/translation_for_latex_sub"]
+	path = translator/translation_for_latex_sub
+	url = https://github.com/saba-phoenix/translation_for_latex.git
