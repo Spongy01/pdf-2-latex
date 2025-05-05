@@ -47,6 +47,7 @@ def pattern_matcher(content_range,latex_content,book_page_data,page_numbers, max
 
 def create_page_seperators(BOOK_PATH, TEX_PATH, OUTPUT_TEX_PATH):
     # read books
+    print("\n=== Step 1: Creating Page Separators ===")
     book_pdf, latex_content = read_files(BOOK_PATH, TEX_PATH)
 
     # preprocess book metadata
@@ -66,7 +67,7 @@ def create_page_seperators(BOOK_PATH, TEX_PATH, OUTPUT_TEX_PATH):
         file.write(new_latex_content)
 
     print(f"Page Breaks created successfully at\n\t{OUTPUT_TEX_PATH}")
-
+    return book_pdf, new_latex_content, page_numbers
 
 if __name__ == '__main__':
     # running as main function

@@ -1,0 +1,11 @@
+{
+    "book": "../../files/data-science_book/all_files/data-science.pdf",
+    "tex": "../../files/data-science_book/all_files/data-science_raw.tex",
+    "bib": "../../files/data-science_book/all_files/data-science-bib.pdf",
+    "index": "../../files/data-science_book/all_files/data-science-index.pdf",
+    "filename": "data-science-third-run",
+    "batch_size": 400,
+    "sequential": false,
+    "skip": [],
+    "bib_json": "../../files/data-science_book/all_files/data-science-bib.json"
+}

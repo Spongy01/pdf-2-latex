@@ -407,7 +407,10 @@ def add_indexes(latex_content, index, book_len, toc):
 
 
 def create_indexing(INDEX_PATH, TEX_PATH, CONTENT_PATH , OUTPUT_TEX_PATH):
-
+    print("\n=== Step 4: Adding Indexing ===")
+    print(f"Creating index from: {INDEX_PATH}")
+    print(f"Using LaTeX file: {TEX_PATH}")
+    print(f"Using content book: {CONTENT_PATH}")
     # Create index
     index = create_index(INDEX_PATH)
 
@@ -429,7 +432,7 @@ def create_indexing(INDEX_PATH, TEX_PATH, CONTENT_PATH , OUTPUT_TEX_PATH):
     # Write the updated LaTeX content to a new file
     with open(OUTPUT_TEX_PATH, "w", encoding="utf-8") as file:
         file.write(latex_content)
-
+    return OUTPUT_TEX_PATH
 
 if __name__ == '__main__':
     # running as main function
