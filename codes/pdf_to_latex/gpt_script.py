@@ -135,9 +135,6 @@ def process_part(index, start_idx, end_idx, tex_start_pos, tex_end_pos, counter,
 def format_with_gpt(book_path=None, tex_path=None, output_tex_file=None, batch_size=5, max_parts=None, use_parallel=True):
     """Main function to process the book and convert it to properly formatted LaTeX."""
     # Set default paths if not provided
-    book_path = book_path or "../../files/data-science_book/data-science.pdf"
-    tex_path = tex_path or "../../files/data-science_book/outputs/data-science_pg_sep_bib.tex"
-    output_tex_file = output_tex_file or "../../files/data-science_book/outputs/data-science_cleaned_2p__toc.tex"
     print("\n=== Step 3: Formatting with GPT ===")
     # Load environment variables for API key
     load_dotenv()
@@ -169,8 +166,12 @@ def format_with_gpt(book_path=None, tex_path=None, output_tex_file=None, batch_s
     for i in range(len(doc)):
         page = doc[i]
         page_numbers.append(page.get_label())
+        if page.get_label() is None or not page.get_label().isdigit():
+            page_numbers[i] = i + 1
         book_page_data[i] = page.get_text("text").replace("\n", " ")
-    
+    print("Total Pages in Book: ", len(book_page_data))
+    print("Total Pages in LaTeX: ", len(page_breaks))
+    # print(book_page_data)
     # If max_parts is specified, limit the number of parts to process
     if max_parts:
         parts = min(max_parts, len(page_breaks))
@@ -285,46 +286,50 @@ Errors in formatting can **significantly impact the final compiled document.** F
             futures_list = []  # Store pending API calls
             
             print(f"Processing {parts} parts with parallel execution (batch size: {batch_size})...")
-            
+
             for idx, page in enumerate(tqdm(page_breaks[:parts])):
-                end_idx = page_numbers.index(page)
-                tex_end_pos = page_positions[int(page)]
-                
-                # Submit task to thread pool
-                future = executor.submit(
-                    process_part, 
-                    idx, 
-                    start_idx, 
-                    end_idx, 
-                    tex_start_pos, 
-                    tex_end_pos, 
-                    counter, 
-                    first_part, 
-                    parts, 
-                    page, 
-                    doc, 
-                    tex_file_contents,
-                    first_page_command,
-                    next_pages_prompt
-                )
-                futures_list.append(future)
-                
-                # Update positions for next iteration
-                tex_start_pos = tex_end_pos + 1
-                start_idx = end_idx + 1
-                first_part = 0
-                counter += 1
-                
-                # Process completed futures when batch is full
-                if len(futures_list) >= batch_size:
-                    for future in tqdm(as_completed(futures_list), desc="Processing batch"):
-                        index, response, page = future.result()
-                        responses_dict[index] = (response, page)
-                    futures_list = []  # Clear batch
+                try: 
+                    end_idx = page_numbers.index(int(page))
+                    tex_end_pos = page_positions[int(page)]                    
+                    # Submit task to thread pool
+                    future = executor.submit(
+                        process_part, 
+                        idx, 
+                        start_idx, 
+                        end_idx, 
+                        tex_start_pos, 
+                        tex_end_pos, 
+                        counter, 
+                        first_part, 
+                        parts, 
+                        page, 
+                        doc, 
+                        tex_file_contents,
+                        first_page_command,
+                        next_pages_prompt
+                    )
+                    futures_list.append(future)
                     
-                    # Add a small delay to avoid rate limits
-                    time.sleep(2)
-            
+                    # Update positions for next iteration
+                    tex_start_pos = tex_end_pos + 1
+                    start_idx = end_idx + 1
+                    first_part = 0
+                    counter += 1
+                    # Process completed futures when batch is full
+                    if len(futures_list) >= batch_size:
+                        for future in tqdm(as_completed(futures_list), desc="Processing batch"):
+                            try:
+                                index, response, page = future.result()
+                                responses_dict[index] = (response, page)
+                            except Exception as e:
+                                print(f"[ERROR] Error while processing future: {e}")
+                        futures_list = []  # Clear batch
+                        
+                        time.sleep(2)
+
+                except Exception as e:
+                    print(f"[ERROR] Error during iteration {idx} for page {page}: {e}")
+
             # Process any remaining futures
             for future in tqdm(as_completed(futures_list), desc="Processing remaining"):
                 index, response, page = future.result()
@@ -348,7 +353,7 @@ Errors in formatting can **significantly impact the final compiled document.** F
         print(f"Processing {parts} parts sequentially...")
         
         for page in tqdm(page_breaks[:parts]):
-            end_idx = page_numbers.index(page)
+            end_idx = page_numbers.index(int(page))
             text_data = get_pages_data(start_idx, end_idx, doc)
             
             tex_end_pos = page_positions[int(page)]

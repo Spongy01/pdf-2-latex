@@ -23,14 +23,18 @@ def pattern_matcher(content_range,latex_content,book_page_data,page_numbers, max
     matched_count = 0
     # latex_content = latex_content.copy()
     not_matched_count = 0
-
+    
     if stop_counter is None:
         stop_counter = len(book_page_data)
 
     for page_num, page_data in tqdm(book_page_data.items()):
+        if len(page_data) == 0:
+            continue
+
         if stop_counter == 0:
             break
         to_match = page_data[content_range:]
+        
         matches = find_near_matches(to_match, latex_content, max_l_dist=max_l_dist)
         if matches:
             latex_content = add_linebreak_comment(matches[0], latex_content, page_numbers[page_num])
@@ -56,6 +60,9 @@ def create_page_seperators(BOOK_PATH, TEX_PATH, OUTPUT_TEX_PATH):
     for i in range(len(book_pdf)):
         page = book_pdf[i]
         page_numbers.append(page.get_label())
+        # check if label is integer
+        if page.get_label() is None or not page.get_label().isdigit():
+            page_numbers[i] = i + 1
         book_page_data[i] = page.get_text("text").replace("\n", " ")
 
     # match page end patterns to add pagebreaks
