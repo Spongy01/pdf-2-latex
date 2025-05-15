@@ -131,29 +131,53 @@ def process_bibliography(pdf_path=None, tex_path=None, output_json_path=None, ou
         
         # Define prompt for OpenAI API
         prompt = r""" 
-            I am going to pass the extracted text from a PDF file of a textbook. It contains a bibliography section. 
-            I want you to extract the references mentioned in the bibliography section. This should be a dictionary and the dictionary's keys 
-            should be the key given as [something] for the references in the text. The values should be the full references in bibtex format. You can return the bibtex. 
-            Create the bibtext format yourself. Understand what the bibtex format should be for each reference and return that as a string. For example, the
-            bibtex format for a reference "Andrew Abela. Advanced Presentations by Design: Creating Communi-cation that Drives Action. Pfeier, 2nd edition, 2013."
-            should be:
-            @book{abela2008advanced,
-                title={Advanced presentations by design: Creating communication that drives action},
-                author={Abela, Andrew},
-                year={2008},
-                publisher={John Wiley \& Sons}
-            }
-            So if the text exists like this in the book:
-            [Abe13]\nAndrew Abela. Advanced Presentations by Design: Creating Communi-\ncation that Drives Action. Pfeiﬀer, 2nd edition, 2013.
-            Then the output should be:
-            {
-                "Abe13": "@book{abela2008advanced,\n    title={Advanced presentations by design: Creating communication that drives action},\n    author={Abela, Andrew},\n    year={2008},\n    publisher={John Wiley \& Sons}\n}"
-            }
-            Only and only extract the information from the text I provide. If you are not sure about the information,
-            do not make any assumptions. Just return the information as it is.
-            What is most important to me is that the citation key is created for each reference. Return ONLY and ONLY the dictionary, so that I can use it
-            in my code. Do not return any other text.
-        """
+
+        I am going to pass the extracted text from a PDF file of a textbook. It contains a bibliography section. 
+        I want you to extract the references mentioned in the bibliography section. This should be a dictionary and the dictionary's keys 
+        should be the key given as [something] for the references in the text.
+
+        Some entries may also be in numbered format, like:
+        1. Accenture: 2017 Cost of Cyber Crime Study. Tech. rep. (2017). Web publication: https://www.accenture.com/... [Accessed 22-June-2023]
+
+        In these cases, the dictionary key should be the number (e.g., "1", "2", ...), and the value should still be a correct BibTeX entry.
+        Use the correct entry type (`@book`, `@techreport`, `@misc`, etc.) based on the format of the reference.
+
+        You can return the bibtex. Create the bibtex format yourself. Understand what the bibtex format should be for each reference and return that as a string. 
+        If a URL is present, include it as `url={...}`. If there is an "Accessed" date, include it as `note={Accessed: ...}`.
+
+        Do not hallucinate or make up information. Only use what is in the text.
+
+        Here is an example of a reference and the BibTeX you should return:
+
+        **Example (Bracketed citation):**
+
+        Text:
+        [Abe13] Andrew Abela. Advanced Presentations by Design: Creating Communi-
+        cation that Drives Action. Pfeiﬀer, 2nd edition, 2013.
+
+        Output:
+        {
+            "Abe13": "@book{abela2013advanced,\n    title={Advanced presentations by design: Creating communication that drives action},\n    author={Abela, Andrew},\n    year={2013},\n    publisher={Pfeiffer}\n}"
+        }
+
+        **Example (Numbered citation):**
+
+        Text:
+        1. Accenture: 2017 Cost of Cyber Crime Study. Tech. rep. (2017). Web publication: https://www.accenture.com/_acnmedia/PDF-62/Accenture-2017CostCybercrime-US-FINAL.pdf [Accessed 22-June-2023]
+
+        Output:
+        {
+            "1": "@techreport{accenture2017cyber,\n  title={2017 Cost of Cyber Crime Study},\n  author={Accenture},\n  year={2017},\n  institution={Accenture},\n  url={https://www.accenture.com/_acnmedia/PDF-62/Accenture-2017CostCybercrime-US-FINAL.pdf},\n  note={Accessed: 22-June-2023}\n}"
+        }
+
+        Only and only extract the information from the text I provide. If you are not sure about the information,
+        do not make any assumptions. Just return the information as it is.
+
+        What is most important to me is that the citation key is created for each reference. 
+        Return ONLY and ONLY the dictionary (in JSON-style), so that I can use it in my code. Do not return any other text.
+
+
+        Here is the text: """
         
         print(f"Sending request to OpenAI API using model: {model}")
         

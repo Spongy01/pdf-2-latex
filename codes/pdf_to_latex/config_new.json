@@ -1,0 +1,11 @@
+{
+    "book": "../../files/cybersec_book/all_files/cybersec_book.pdf",
+    "tex": "../../files/cybersec_book/all_files/cybersec_book.tex",
+    "bib": "../../files/cybersec_book/all_files/cybersec_book_bib.pdf",
+    "index": "../../files/cybersec_book/all_files/cybersec_book_index.pdf",
+    "filename": "cybersec_book-first-run",
+    "batch_size": 600,
+    "sequential": false,
+    "skip": [],
+    "bib_json_commented": "../../files/data-science_book/all_files/data-science-bib.json"
+}
