@@ -169,7 +169,7 @@ def pattern_matcher(content_range, latex_content, book_page_data, page_numbers, 
         print(f"🧩 Trying match with snippet: \"{to_match[:100]}...\"")
 
         match_found = False
-        for distance in range(16, 28, 4):
+        for distance in range(16, 20, 4):
             matches = find_near_matches(to_match, latex_content, max_l_dist=distance)
             if matches:
                 print(f"✅ Match found with max_l_dist={distance} at {matches[0].start}–{matches[0].end}")

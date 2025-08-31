@@ -179,98 +179,101 @@ def format_with_gpt(book_path=None, tex_path=None, output_tex_file=None, batch_s
         parts = len(page_breaks)
     
     # Define prompt templates from the document
-    first_page_command = """
-You will receive an unformatted LaTeX (.tex) file part of a book along with a separate JSON file containing formatting instructions.  
-Your task is to format the LaTeX file part according to the JSON data while ensuring proper structure and presentation for a book.  
+    first_page_command = r"""
+You will receive an unformatted LaTeX (.tex) segment from the beginning of a book, along with a JSON array containing formatting metadata for that segment.
 
-### **Formatting Guidelines:**  
+Each JSON object represents a span of text with:
+- `text`: the content
+- `is_italic`, `is_bold`, `is_superscript`: formatting flags
 
-**1. Apply JSON Formatting Instructions:**  
-   - Modify only the necessary parts based on JSON data.  
-   - Do **not** make arbitrary changes—only apply specified formatting corrections.  
+Your task is to apply the formatting **strictly as specified in the JSON**, and restructure the LaTeX file into a **compilable, clean, book-style format**.
 
-**2. Book Structure:**  
-   - The given tex file considers the document as an article, but you need to treat it as a book in the imports section as well as the actual data.
-   - Add a usepackage command for indexing, makeidx and \makeindex in the import section
-   - Generate table of contents dynamically.
-   - Organize content into proper **chapters, sections, and subsections** 
-   - **Do not assume chapter starts based on recurring text** (e.g., headers repeated on every page).  
-   - If chapter names and numbers appear on every page in the JSON, **ignore them** when determining chapter breaks.  
-   - **Remove hardcoded numbering** for chapters and sections, allowing LaTeX to handle it automatically.  
-   - Make the Contents Page dynamically if contents is present in the .tex file part. Do not hardcode the table of contents.
+### Formatting Instructions:
 
-**3. Image Handling:**  
-   - Convert all instances of `\includegraphics{}` into a proper `figure` environment:  
+1. **Apply JSON Formatting**
+   - Only apply formatting (`\textit`, `\textbf`, etc.) when the JSON flags require it.
+   - Do NOT guess or infer formatting.
 
-**4. Table Formatting:**  
-   - Ensure tables are properly structured with appropriate spacing, alignment, and captions for readability.  
+2. **Document Setup**
+   - Treat the document as a book, not an article.
+   - Add `\documentclass{book}` and appropriate `\usepackage` lines (e.g., `makeidx`).
+   - Include `\makeindex`, `\tableofcontents`, and `\begin{document}` at the start.
 
-**5. Italics Handling:**  
-   - Apply italics **only** to content explicitly marked as italicized in the JSON data.  
+3. **Structure**
+   - Use `\chapter`, `\section`, `\subsection` only if already indicated in the `.tex` input.
+   - Remove hardcoded numbers like "Chapter 1", "Section 1.1" — let LaTeX number them.
+   - Do NOT create chapters based on repeated headers in the JSON.
 
-**6. Document Setup:**  
-   - This is the **first part of the book**, so include **all necessary LaTeX imports and the document class**.  
-   - **Do not modify LaTeX package imports unless explicitly required in the JSON file.** 
-   - Do **not** manually start or end the document unless such commands are explicitly present.  
+4. **Images**
+   - Replace all `\includegraphics{...}` calls with a full `figure` environment.
+   - Add `\caption{}` if an image caption is present near it.
 
-**7. Strict Output Requirements:**  
-   - The output **must be pure LaTeX code**—**no explanations, comments, or markdown syntax.**  
-   - The formatted output will be **directly appended** to the `.tex` file, so it must be immediately compilable.  
+5. **Tables**
+   - Reformat any visible tables into LaTeX `tabular` environments with clean alignment.
 
-**8. Accuracy and Consistency:**  
-   - Since the book is processed in parts, formatting should be **consistent across all sections**.  
-   - **Do not introduce new formatting styles** that conflict with previous or upcoming sections.  
-   - Ensure that all content is preserved and formatted correctly—no missing text, no misinterpretations.  
+6. **Math & Escaping**
+   - Use math mode (`$...$`) for anything with subscripts like `PK_A`, `SK_B`, etc.
+   - Escape characters like `_`, `#`, `%`, `&`, `\`.
 
-**Final Note:**  
-Errors in formatting can **significantly affect the compiled document.** Ensure precise execution of all instructions while preserving the document's original meaning and intent.  
-  
+7. **Output Format**
+   - Output must be **pure LaTeX only**.
+   - **DO NOT include markdown, explanations, triple backticks, or comments.**
+   - Your output will be directly compiled. It must be clean, valid LaTeX.
+
+8. **Accuracy & Completeness**
+   - Keep all text from the original intact.
+   - Maintain structural and formatting consistency across all parts of the book.
+
+---
+
+**❗ FINAL REMINDER: Output ONLY valid LaTeX. No explanations, comments, or markdown.**
+
 """
 
-    next_pages_prompt = """
-You will receive a portion of a LaTeX (.tex) file part of a book along with a separate JSON file containing formatting instructions.  
-Your task is to format this LaTeX file part according to the provided JSON data while maintaining consistency with previous sections.  
+    next_pages_prompt = r"""
+You will receive a middle or later segment of an unformatted LaTeX (.tex) file along with a JSON array containing formatting metadata.
 
-### **Formatting Guidelines:**  
+Your job is to **format this `.tex` content** using the JSON span information, maintaining consistency with earlier sections of the book.
 
-**1. Apply JSON Formatting Instructions:**  
-   - Modify only the necessary parts as specified in the JSON data.  
-   - Do **not** assume formatting—only apply explicit corrections.  
+Each JSON span has:
+- `text`
+- `is_italic`, `is_bold`, `is_superscript`
 
-**2. Maintain Book Structure:**
-   - The given tex file considers the document as an article, but you need to treat it as a book in the actual data.
-   - Organize content into proper **chapters, sections, and subsections** only if explicitly marked in the `.tex` file.  
-   - **Do not assume chapter starts based on recurring text** (e.g., headers repeated on every page).  
-   - If chapter names and numbers appear on every page in the JSON, **ignore them** when determining chapter breaks.  
-   - **Remove hardcoded numbering** on chapters, sections and subsections and rely on LaTeX's automatic numbering system strictly.
-   - Dont use * tags like \section*{section name} as they remove the latex numbering system.  
-   - Make the Contents Page dynamically if contents is present in the .tex file part. Do not hardcode the table of contents.
-**3. Image Handling:**  
-   - Convert `\includegraphics{}` into a properly formatted `figure` environment:  
+### Formatting Instructions:
 
+1. **Formatting from JSON**
+   - Only apply italics, bold, superscripts when marked in JSON.
+   - Do NOT apply formatting by guessing or inference.
 
-**4. Table Formatting:**  
-   - Ensure tables are properly structured, aligned, and formatted for readability.  
+2. **Book Structure**
+   - Use `\chapter`, `\section`, `\subsection` **only if already present** in the `.tex` input.
+   - Do NOT guess chapter breaks based on page headers or repeated titles.
+   - Strip hardcoded numbering from headings (e.g., "1 Introduction" → `\section{Introduction}`).
+   - DO NOT use `\section*` — allow LaTeX to number everything.
 
-**5. Italics Handling:**  
-   - Apply italics **only** to content explicitly marked as italicized in the JSON data.  
+3. **Figures & Tables**
+   - Wrap each `\includegraphics{...}` in a `figure` environment.
+   - Format any visible table-like structures into readable LaTeX tables.
 
-**6. Document Integrity:**  
-   - **Do not add any LaTeX preamble, document class, or import statements.**  
-   - **Do not modify LaTeX package imports unless explicitly required in the JSON file.** 
-   - **Do not include `\begin{document}` or `\end{document}`** unless explicitly present in the provided `.tex` file.  
+4. **Math & Special Characters**
+   - Use `$...$` for math expressions like `PK_A`, `SK_B`, `x_1`.
+   - Escape `_`, `%`, `#`, `&`, `\`, and similar LaTeX-sensitive characters.
 
-**7. Strict Output Requirements:**  
-   - The output **must be pure LaTeX code**—no explanations, comments, or markdown syntax.  
-   - The formatted output will be **directly appended** to an existing `.tex` file, so it must be immediately compilable.  
+5. **Document Boundaries**
+   - Do NOT add `\documentclass`, `\usepackage`, `\begin{document}`, or `\end{document}`.
+   - Only format what’s in the given file segment.
 
-**8. Accuracy and Consistency:**  
-   - Ensure formatting is **consistent with previous sections** of the book.  
-   - **Do not introduce new formatting styles** that conflict with earlier parts.  
-   - Ensure **all content is retained**, formatted correctly, and adheres to the document's original intent.  
+6. **Output Requirements**
+   - Output must be **pure LaTeX code**, ready to be appended to an existing file.
+   - **No Markdown**, no explanations, no code block markers (e.g., ```latex), no comments.
 
-**Final Note:**  
-Errors in formatting can **significantly impact the final compiled document.** Follow the instructions precisely to maintain a high-quality, structured LaTeX book.  
+7. **Consistency**
+   - Formatting style must match previous parts.
+   - Do NOT introduce any new structural or styling changes.
+
+---
+
+**❗ FINAL REMINDER: Output ONLY valid LaTeX. No explanations, comments, or markdown.**
 
 """
     
