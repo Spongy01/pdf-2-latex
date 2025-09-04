@@ -134,9 +134,9 @@ def read_files(BOOK_PATH, TEX_PATH):
     print("✅ Successfully read PDF and LaTeX files.\n")
     return book_pdf, latex_content
 
-def add_linebreak_comment(match, latex_content, page_num):
-    print(f"✏️ Adding linebreak comment at index {match.end} for page {page_num}")
-    end_index = match.end
+def add_linebreak_comment(start_from, match, latex_content, page_num):
+    print(f"✏️ Adding linebreak comment at index {start_from + match.end} for page {page_num}")
+    end_index = start_from + match.end
     content = "\n%---- Page End Break Here ---- Page : " + str(page_num) + "\n"
     latex_content = latex_content[:end_index] + content + latex_content[end_index:]
     return latex_content
@@ -147,7 +147,7 @@ def normalize(text):
 def pattern_matcher(content_range, latex_content, book_page_data, page_numbers, stop_counter=None):
     matched_count = 0
     not_matched_count = 0
-
+    start_from = 0
     if stop_counter is None:
         stop_counter = len(book_page_data)
     print(f"🔍 Starting pattern matching for {stop_counter} pages (adaptive max_l_dist)...")
@@ -169,11 +169,12 @@ def pattern_matcher(content_range, latex_content, book_page_data, page_numbers, 
         print(f"🧩 Trying match with snippet: \"{to_match[:100]}...\"")
 
         match_found = False
-        for distance in range(16, 20, 4):
-            matches = find_near_matches(to_match, latex_content, max_l_dist=distance)
+        for distance in range(0, 16, 2):
+            matches = find_near_matches(to_match, latex_content[start_from:], max_l_dist=distance)
             if matches:
                 print(f"✅ Match found with max_l_dist={distance} at {matches[0].start}–{matches[0].end}")
-                original_latex_content = add_linebreak_comment(matches[0], original_latex_content, page_numbers[page_num])
+                original_latex_content = add_linebreak_comment(start_from, matches[0], original_latex_content, page_numbers[page_num])
+                start_from += matches[0].end  # Update start_from to avoid re-matching
                 matched_count += 1
                 match_found = True
                 break

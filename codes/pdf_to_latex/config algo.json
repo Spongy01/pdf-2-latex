@@ -1,0 +1,10 @@
+{
+    "book": "../../files/algorithms/inputs/algorithms.pdf",
+    "tex": "../../files/algorithms/inputs/algorithms.tex",
+    "bib": "../../files/algorithms/inputs/algorithms_bib.pdf",
+    "index": "../../files/algorithms/inputs/algorithms_index.pdf",
+    "output":"../../files/algorithms/outputs/",
+    "batch_size": 600,
+    "sequential": false,
+    "skip": []
+}

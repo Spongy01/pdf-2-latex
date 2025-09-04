@@ -21,7 +21,7 @@ api_key = os.getenv("API_KEY")
 OPENAI_API_KEY = api_key
 client = OpenAI(api_key=OPENAI_API_KEY)
 
-def get_api_response(prompt, text, model="gpt-4o-mini"):
+def get_api_response(prompt, text, model="gpt-5"):
     """
     Get response from OpenAI API.
     
@@ -87,7 +87,7 @@ def replace_citations(tex_filename, bib_dict, output_filename="updated.tex"):
     print(f"Updated LaTeX file saved as {output_filename}")
 
 
-def process_bibliography(pdf_path=None, tex_path=None, output_json_path=None, output_bib_path=None, output_tex_path=None, model="gpt-4o", bib_json=None):
+def process_bibliography(pdf_path=None, tex_path=None, output_json_path=None, output_bib_path=None, output_tex_path=None, model="gpt-5", bib_json=None):
     """
     Process a PDF bibliography and update LaTeX citations.
     

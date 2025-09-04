@@ -95,7 +95,7 @@ def generate_response(data, command, prev_response="", temperature=1):
     prompt_content = first_page_prompt if prev_response == "" else default_page_prompt
     
     response = client.chat.completions.create(
-        model="gpt-4o",
+        model="gpt-5",
         messages=[
             {"role": "system", "content": "You are a helpful assistant. You convert PDF documents to LaTeX."},
             {"role": "user", "content": f"{prompt_content}"}
@@ -127,7 +127,11 @@ def process_part(index, start_idx, end_idx, tex_start_pos, tex_end_pos, counter,
         combined_data += f"\n\nThis is the {counter} part of the book, do not close the LaTeX document with end document"
 
     command = first_page_command if first_part == 1 else next_pages_prompt
-    response = generate_response(combined_data, command, "")
+    try:
+        response = generate_response(combined_data, command, "")
+    except Exception as e:
+        print(f"[ERROR] Error generating response for part {index}, page {page}: {e}")
+        response = ""
     response = remove_latex_and_ticks(response)
 
     return index, response, page
@@ -326,6 +330,7 @@ Each JSON span has:
                                 responses_dict[index] = (response, page)
                             except Exception as e:
                                 print(f"[ERROR] Error while processing future: {e}")
+                                print(f"print")
                         futures_list = []  # Clear batch
                         
                         time.sleep(2)
