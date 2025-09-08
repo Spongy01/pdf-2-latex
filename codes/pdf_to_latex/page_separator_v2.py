@@ -529,8 +529,9 @@ def create_page_separators(BOOK_PATH, TEX_PATH, OUTPUT_TEX_PATH):
     for i in range(len(book_pdf)):
         page = book_pdf[i]
         label = page.get_label()
-        if label is None or not label.isdigit():
-            label = i + 1
+        # if label is None or not label.isdigit():
+        #     label = i + 1
+        label = i + 1
         page_numbers.append(label)
         text = page.get_text("text").replace("\n", " ")
         book_page_data[i] = text
