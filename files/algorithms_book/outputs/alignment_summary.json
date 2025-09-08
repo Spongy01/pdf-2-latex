@@ -3,10 +3,10 @@
   "latex_file": "/home/sysaba1/pdf-2-latex/files/algorithms_book/inputs/algorithms.tex",
   "total_pages": 800,
   "total_spans": 86237,
-  "total_boundaries_found": 753,
+  "total_boundaries_found": 751,
   "output_files": {
     "extracted_spans": "/home/sysaba1/pdf-2-latex/files/algorithms_book/outputs/extracted_spans.json",
-    "page_boundaries": "/home/sysaba1/pdf-2-latex/files/algorithms_book/outputs/page_boundaries.json",
+    "page_boundaries": "/home/sysaba1/pdf-2-latex/files/algorithms_book/outputs/page_boundaries_raw.json",
     "processed_latex": "/home/sysaba1/pdf-2-latex/files/algorithms_book/outputs/processed_latex.txt"
   },
   "page_statistics": [

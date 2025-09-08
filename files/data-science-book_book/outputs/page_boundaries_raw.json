@@ -108,6 +108,14 @@
     "method": "exact_match"
   },
   {
+    "page_number": 19,
+    "latex_position": 1066686,
+    "content_length": 1970,
+    "page_last_content": "ience, https://doi.org/10.1007/978-3-319-55444-0_1",
+    "last_location": 1084528,
+    "method": "exact_match"
+  },
+  {
     "page_number": 20,
     "latex_position": 34776,
     "content_length": 2580,
@@ -296,6 +304,14 @@
     "latex_position": 89606,
     "content_length": 1030,
     "page_last_content": ".kaggle.com/c/pkdd-15-taxi-trip-time-prediction-ii",
+    "last_location": 1084528,
+    "method": "exact_match"
+  },
+  {
+    "page_number": 44,
+    "latex_position": 1066686,
+    "content_length": 1681,
+    "page_last_content": "ience, https://doi.org/10.1007/978-3-319-55444-0_2",
     "last_location": 1084528,
     "method": "exact_match"
   },
@@ -504,6 +520,14 @@
     "latex_position": 158862,
     "content_length": 399,
     "page_last_content": "r.https://www.kaggle.com/c/shelter-animal-outcomes",
+    "last_location": 1084528,
+    "method": "exact_match"
+  },
+  {
+    "page_number": 74,
+    "latex_position": 1066686,
+    "content_length": 1885,
+    "page_last_content": "ience, https://doi.org/10.1007/978-3-319-55444-0_3",
     "last_location": 1084528,
     "method": "exact_match"
   },
@@ -796,6 +820,14 @@
     "method": "exact_match"
   },
   {
+    "page_number": 111,
+    "latex_position": 1066686,
+    "content_length": 1936,
+    "page_last_content": "ience, https://doi.org/10.1007/978-3-319-55444-0_4",
+    "last_location": 1084528,
+    "method": "exact_match"
+  },
+  {
     "page_number": 112,
     "latex_position": 258987,
     "content_length": 2318,
@@ -978,6 +1010,14 @@
     "latex_position": 321929,
     "content_length": 1722,
     "page_last_content": " ad.https://www.kaggle.com/c/job-salary-prediction",
+    "last_location": 1084528,
+    "method": "exact_match"
+  },
+  {
+    "page_number": 137,
+    "latex_position": 1066686,
+    "content_length": 1360,
+    "page_last_content": "ience, https://doi.org/10.1007/978-3-319-55444-0_5",
     "last_location": 1084528,
     "method": "exact_match"
   },
@@ -1223,6 +1263,14 @@
     "latex_position": 401829,
     "content_length": 1335,
     "page_last_content": "hour?https://www.kaggle.com/c/how-much-did-it-rain",
+    "last_location": 1084528,
+    "method": "exact_match"
+  },
+  {
+    "page_number": 171,
+    "latex_position": 1066686,
+    "content_length": 1837,
+    "page_last_content": "ience, https://doi.org/10.1007/978-3-319-55444-0_6",
     "last_location": 1084528,
     "method": "exact_match"
   },
@@ -1549,6 +1597,14 @@
     "method": "exact_match"
   },
   {
+    "page_number": 217,
+    "latex_position": 1066686,
+    "content_length": 1700,
+    "page_last_content": "ience, https://doi.org/10.1007/978-3-319-55444-0_7",
+    "last_location": 1084528,
+    "method": "exact_match"
+  },
+  {
     "page_number": 218,
     "latex_position": 499926,
     "content_length": 2801,
@@ -1828,6 +1884,14 @@
     "method": "exact_match"
   },
   {
+    "page_number": 253,
+    "latex_position": 1066686,
+    "content_length": 1753,
+    "page_last_content": "ience, https://doi.org/10.1007/978-3-319-55444-0_8",
+    "last_location": 1084528,
+    "method": "exact_match"
+  },
+  {
     "page_number": 254,
     "latex_position": 595107,
     "content_length": 2554,
@@ -2038,6 +2102,14 @@
     "latex_position": 660245,
     "content_length": 1065,
     "page_last_content": "w.kaggle.com/c/accelerometer-biometric-competition",
+    "last_location": 1084528,
+    "method": "exact_match"
+  },
+  {
+    "page_number": 282,
+    "latex_position": 1066686,
+    "content_length": 1511,
+    "page_last_content": "ience, https://doi.org/10.1007/978-3-319-55444-0_9",
     "last_location": 1084528,
     "method": "exact_match"
   },
@@ -2304,6 +2376,14 @@
     "latex_position": 743607,
     "content_length": 2774,
     "page_last_content": "data set, construct the best fitting line with (a)",
+    "last_location": 1084528,
+    "method": "exact_match"
+  },
+  {
+    "page_number": 318,
+    "latex_position": 1066686,
+    "content_length": 1572,
+    "page_last_content": "ence, https://doi.org/10.1007/978-3-319-55444-0_10",
     "last_location": 1084528,
     "method": "exact_match"
   },
@@ -2669,6 +2749,14 @@
     "method": "exact_match"
   },
   {
+    "page_number": 365,
+    "latex_position": 1066686,
+    "content_length": 2011,
+    "page_last_content": "ence, https://doi.org/10.1007/978-3-319-55444-0_11",
+    "last_location": 1084528,
+    "method": "exact_match"
+  },
+  {
     "page_number": 366,
     "latex_position": 862603,
     "content_length": 2828,
@@ -2956,6 +3044,14 @@
     "method": "exact_match"
   },
   {
+    "page_number": 405,
+    "latex_position": 1066686,
+    "content_length": 2062,
+    "page_last_content": "ence, https://doi.org/10.1007/978-3-319-55444-0_12",
+    "last_location": 1084528,
+    "method": "exact_match"
+  },
+  {
     "page_number": 406,
     "latex_position": 965510,
     "content_length": 1954,
@@ -3195,6 +3291,14 @@
     "method": "exact_match"
   },
   {
+    "page_number": 436,
+    "latex_position": 1066686,
+    "content_length": 1787,
+    "page_last_content": "ence, https://doi.org/10.1007/978-3-319-55444-0_13",
+    "last_location": 1084528,
+    "method": "exact_match"
+  },
+  {
     "page_number": 437,
     "latex_position": 1045943,
     "content_length": 2628,
@@ -3207,6 +3311,14 @@
     "latex_position": 1047593,
     "content_length": 1526,
     "page_last_content": " on the servicesprovided by Algorist Technologies.",
+    "last_location": 1084528,
+    "method": "exact_match"
+  },
+  {
+    "page_number": 439,
+    "latex_position": 1066686,
+    "content_length": 1879,
+    "page_last_content": "Science, https://doi.org/10.1007/978-3-319-55444-0",
     "last_location": 1084528,
     "method": "exact_match"
   },

@@ -1,8 +1,4 @@
-import copy
 import json
-import os
-import re
-import string
 import fitz  # PyMuPDF
 from dataclasses import dataclass, asdict
 from typing import List, Dict, Any, Optional, Tuple

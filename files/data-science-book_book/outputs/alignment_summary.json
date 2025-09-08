@@ -3,10 +3,11 @@
   "latex_file": "/home/sysaba1/pdf-2-latex/files/data-science-book_book/inputs/data-science-book.tex",
   "total_pages": 456,
   "total_spans": 43722,
-  "total_boundaries_found": 441,
+  "total_boundaries_found": 427,
   "output_files": {
+    "marked_latex": "/home/sysaba1/pdf-2-latex/files/data-science-book_book/outputs/data-science-book_with_page_markers.tex",
     "extracted_spans": "/home/sysaba1/pdf-2-latex/files/data-science-book_book/outputs/extracted_spans.json",
-    "page_boundaries": "/home/sysaba1/pdf-2-latex/files/data-science-book_book/outputs/page_boundaries.json",
+    "page_boundaries": "/home/sysaba1/pdf-2-latex/files/data-science-book_book/outputs/page_boundaries_raw.json",
     "processed_latex": "/home/sysaba1/pdf-2-latex/files/data-science-book_book/outputs/processed_latex.txt"
   },
   "page_statistics": [

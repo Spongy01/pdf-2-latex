@@ -119,6 +119,13 @@
     "method": "fuzzy_matching"
   },
   {
+    "page_number": 19,
+    "latex_position": 6566,
+    "content_length": 26,
+    "page_last_content": "Practical Algorithm Design",
+    "method": "fuzzy_matching"
+  },
+  {
     "page_number": 21,
     "latex_position": 22945,
     "content_length": 1934,
@@ -2868,6 +2875,13 @@
     "content_length": 2276,
     "page_last_content": " and career. Follow me on Twitterat @StevenSkiena!",
     "last_location": 1927780
+  },
+  {
+    "page_number": 448,
+    "latex_position": 6673,
+    "content_length": 35,
+    "page_last_content": "The Hitchhiker\u2019s Guide toAlgorithms",
+    "method": "fuzzy_matching"
   },
   {
     "page_number": 450,

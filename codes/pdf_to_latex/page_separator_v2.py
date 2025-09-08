@@ -5,8 +5,8 @@ import re
 import string
 import fitz  # PyMuPDF
 from dataclasses import dataclass, asdict
+from tqdm import tqdm
 from typing import List, Dict, Any, Optional, Tuple
-from enum import IntFlag
 from codes.pdf_to_latex.pdf_text_extractor import PDFTextExtractor
 
 
@@ -37,7 +37,7 @@ class LatexProcessor:
                 current_offset += len(paragraph) + 2  # +2 for \n\n
                 continue
 
-            print(f"Processing paragraph {para_idx + 1}/{len(paragraphs)}...")
+            # print(f"Processing paragraph {para_idx + 1}/{len(paragraphs)}...")
 
             # Process this paragraph
             para_plain_text, para_positions = self._process_single_paragraph(
@@ -79,6 +79,22 @@ class LatexProcessor:
             nonlocal plain_text, positions
 
             if isinstance(node, LatexCharsNode):
+                print(f"Node pos: {node.pos}, chars: '{node.chars}', offset: {offset}")
+                print(
+                    f"Adding positions: {node.pos + offset} to {node.pos + offset + len(node.chars)}"
+                )
+                # write these to a file for debugging
+                with open(
+                    "files/data-science-book_book/outputs/latex_positions_debug.txt",
+                    "a",
+                    encoding="utf-8",
+                ) as f:
+                    f.write(
+                        f"Node pos: {node.pos}, chars: '{node.chars}', offset: {offset}\n"
+                    )
+                    f.write(
+                        f"Adding positions: {node.pos + offset} to {node.pos + offset + len(node.chars)}\n"
+                    )
                 plain_text += node.chars
                 positions.extend(
                     range(node.pos + offset, node.pos + offset + len(node.chars))
@@ -118,12 +134,17 @@ class LatexProcessor:
 
         return plain_text, positions
 
-    def clean_text_for_matching(self, text: str) -> str:
-        """Clean text for matching by normalizing to alphanumeric only."""
-        # Convert to lowercase and keep only alphanumeric characters
-        cleaned = "".join(c.lower() for c in text if c.isalpha())
+    def clean_text_with_mapping(self, text: str) -> Tuple[str, List[int]]:
+        """Clean text and maintain mapping from cleaned positions to original positions."""
+        cleaned = ""
+        position_mapping = []
 
-        return cleaned
+        for i, char in enumerate(text):
+            if char.isalpha():
+                cleaned += char.lower()
+                position_mapping.append(i)
+
+        return cleaned, position_mapping
 
     def find_text_in_positions(
         self,
@@ -133,29 +154,39 @@ class LatexProcessor:
         min_match_length: int = 50,
     ) -> Optional[int]:
         """Find target text within search text and return the LaTeX position."""
-        clean_target = self.clean_text_for_matching(target_text)
-        clean_search = self.clean_text_for_matching(search_text)
-
+        clean_target, _ = self.clean_text_with_mapping(target_text)
+        clean_search, search_position_mapping = self.clean_text_with_mapping(
+            search_text
+        )
         if len(clean_target) < min_match_length:
             return None
 
-        # Try to find exact match
+        # Find match in cleaned text
         pos = clean_search.find(clean_target)
         if pos != -1:
-            end_pos = pos + len(clean_target) - 1
-            if end_pos < len(positions):
-                return positions[end_pos]
+            end_pos_cleaned = pos + len(clean_target) - 1
+            # Map back to original search_text position
+            if end_pos_cleaned < len(search_position_mapping):
+                original_pos = search_position_mapping[end_pos_cleaned]
+                # Then map to LaTeX position
+                if original_pos < len(positions):
+                    return positions[original_pos]
 
         # Try fuzzy matching with suffixes
         for suffix_len in range(
             min(len(clean_target) // 2, 200), min_match_length - 1, -10
         ):
             suffix = clean_target[-suffix_len:]
+            # Find match in cleaned text
             pos = clean_search.find(suffix)
             if pos != -1:
-                end_pos = pos + len(suffix) - 1
-                if end_pos < len(positions):
-                    return positions[end_pos]
+                end_pos_cleaned = pos + len(suffix) - 1
+                # Map back to original search_text position
+                if end_pos_cleaned < len(search_position_mapping):
+                    original_pos = search_position_mapping[end_pos_cleaned]
+                    # Then map to LaTeX position
+                    if original_pos < len(positions):
+                        return positions[original_pos]
 
         return None
 
@@ -213,8 +244,10 @@ class LatexProcessor:
                 target_text, search_text, positions, min_match_length
             )
 
-        clean_target = self.clean_text_for_matching(target_text)
-        clean_search = self.clean_text_for_matching(search_text)
+        clean_target, _ = self.clean_text_with_mapping(target_text)
+        clean_search, search_position_mapping = self.clean_text_with_mapping(
+            search_text
+        )
 
         # Save in output directory
         output_dir = "/home/sysaba1/pdf-2-latex/files/algorithms_book/outputs/"
@@ -224,18 +257,17 @@ class LatexProcessor:
             f.write(clean_search)
 
         clean_target = clean_target[-200:]  # Use only the last 200 chars for matching
-        # print(f"Fuzzy matching target (last 200 chars):")
-        # print(clean_target)
-
-        # if len(clean_target) < min_match_length:
-        #     return None
 
         # Strategy 1: Try exact match first (fastest)
         pos = clean_search.find(clean_target)
         if pos != -1:
-            end_pos = pos + len(clean_target) - 1
-            if end_pos < len(positions):
-                return positions[end_pos]
+            end_pos_cleaned = pos + len(clean_target) - 1
+            # Map back to original search_text position
+            if end_pos_cleaned < len(search_position_mapping):
+                original_search_pos = search_position_mapping[end_pos_cleaned]
+                # Map to LaTeX position
+                if original_search_pos < len(positions):
+                    return positions[original_search_pos]
 
         # Strategy 2: Sliding window fuzzy matching
         target_len = len(clean_target)
@@ -255,9 +287,12 @@ class LatexProcessor:
                 best_ratio = ratio
                 best_match_pos = i + target_len - 1
 
-        if best_match_pos is not None and best_match_pos < len(positions):
-            # print(f"Fuzzy match found with {best_ratio}% similarity")
-            return positions[best_match_pos]
+        if best_match_pos is not None:
+            # Map fuzzy match position back through the position chain
+            if best_match_pos < len(search_position_mapping):
+                original_search_pos = search_position_mapping[best_match_pos]
+                if original_search_pos < len(positions):
+                    return positions[original_search_pos]
 
         # # Strategy 3: Try with partial ratio (subsequence matching)
         # for i in range(0, len(clean_search) - target_len + 1, step_size):
@@ -285,7 +320,7 @@ class LatexProcessor:
 
         boundaries = []
 
-        for page_info in self.pdf_pages:
+        for page_info in tqdm(self.pdf_pages):
             page_num = page_info["page_number"]
             page_content = page_info["content"]
 
@@ -303,7 +338,9 @@ class LatexProcessor:
                         "page_number": page_num,
                         "latex_position": latex_position,
                         "content_length": len(page_content),
+                        "page_last_content": page_content[-50:],
                         "last_location": self.positions[-1],
+                        "method": "exact_match",
                     }
                 )
                 # print(f"Page {page_num} ends at LaTeX position {latex_position}")
@@ -319,12 +356,13 @@ class LatexProcessor:
                             "page_number": page_num,
                             "latex_position": latex_position,
                             "content_length": len(page_content),
-                            "method": "single_page_fallback",
+                            "page_last_content": page_content[-50:],
+                            "method": "exact_match_fallback",
                         }
                     )
-                    print(
-                        f"Page {page_num} ends at LaTeX position {latex_position} (fallback)"
-                    )
+                    # print(
+                    #     f"Page {page_num} ends at LaTeX position {latex_position} (fallback)"
+                    # )
                 else:
                     # print(
                     #     f"Error: Still could not find boundary for page {page_num}, going for fuzzy matching  ..."
@@ -342,6 +380,7 @@ class LatexProcessor:
                                 "page_number": page_num,
                                 "latex_position": latex_position,
                                 "content_length": len(page_content),
+                                "page_last_content": page_content[-50:],
                                 "method": "fuzzy_matching",
                             }
                         )
@@ -382,6 +421,59 @@ class LatexProcessor:
                 )
 
         return modified_content
+
+
+def find_longest_increasing_subsequence(boundaries: List[Dict]) -> List[Dict]:
+    """Find the longest increasing subsequence of LaTeX positions."""
+    if not boundaries:
+        return []
+
+    # Sort by page number to maintain order
+    sorted_boundaries = sorted(boundaries, key=lambda x: x["page_number"])
+
+    n = len(sorted_boundaries)
+    if n == 0:
+        return []
+
+    # dp[i] stores the length of LIS ending at index i
+    dp = [1] * n
+    # parent[i] stores the previous index in the LIS ending at i
+    parent = [-1] * n
+
+    # Fill dp array
+    for i in range(1, n):
+        for j in range(i):
+            # Check if latex_position is increasing
+            if (
+                sorted_boundaries[j]["latex_position"]
+                < sorted_boundaries[i]["latex_position"]
+                and dp[j] + 1 > dp[i]
+            ):
+                dp[i] = dp[j] + 1
+                parent[i] = j
+
+    # Find the index with maximum LIS length
+    max_length = max(dp)
+    max_index = dp.index(max_length)
+
+    # Reconstruct the LIS
+    lis_boundaries = []
+    current = max_index
+
+    while current != -1:
+        lis_boundaries.append(sorted_boundaries[current])
+        current = parent[current]
+
+    # Reverse to get correct order
+    lis_boundaries.reverse()
+
+    print(f"Original boundaries: {len(boundaries)}")
+    print(f"LIS boundaries: {len(lis_boundaries)}")
+    print(
+        f"Filtered out: {len(boundaries) - len(lis_boundaries)} inconsistent boundaries"
+    )
+
+    return lis_boundaries
 
 
 def main():
@@ -509,10 +601,10 @@ def main():
     for page_info in page_contents:
         if page_info["content"].strip():  # Only add non-empty pages
             latex_processor.add_pdf_page(page_info["content"], page_info["page_number"])
-            print(
-                f"Added page {page_info['page_number']} "
-                f"({page_info['character_count']} chars)"
-            )
+            # print(
+            #     f"Added page {page_info['page_number']} "
+            #     f"({page_info['character_count']} chars)"
+            # )
 
     # Find page boundaries
     print("\nFinding page boundaries in LaTeX...")
@@ -520,11 +612,24 @@ def main():
         boundaries = latex_processor.find_page_boundaries()
         print(f"Found {len(boundaries)} page boundaries")
 
-        # Save boundary information
-        boundaries_path = os.path.join(output_path, "page_boundaries.json")
+        # Save original boundary information
+        boundaries_path = os.path.join(output_path, "page_boundaries_raw.json")
         with open(boundaries_path, "w", encoding="utf-8") as f:
             json.dump(boundaries, f, indent=2)
-        print(f"Saved boundary information to: {boundaries_path}")
+        print(f"Saved raw boundary information to: {boundaries_path}")
+
+        # Find longest increasing subsequence
+        print("\nFiltering boundaries using longest increasing subsequence...")
+        filtered_boundaries = find_longest_increasing_subsequence(boundaries)
+
+        # Save filtered boundaries
+        filtered_boundaries_path = os.path.join(output_path, "page_boundaries.json")
+        with open(filtered_boundaries_path, "w", encoding="utf-8") as f:
+            json.dump(filtered_boundaries, f, indent=2)
+        print(f"Saved filtered boundary information to: {filtered_boundaries_path}")
+
+        # Use filtered boundaries for page markers
+        boundaries = filtered_boundaries
 
     except Exception as e:
         print(f"Error finding page boundaries: {e}")
@@ -533,25 +638,25 @@ def main():
         traceback.print_exc()
         return
 
-    # # Insert page markers
-    # print("\nInserting page markers into LaTeX...")
-    # try:
-    #     marked_latex = latex_processor.insert_page_markers(boundaries)
+    # Insert page markers
+    print("\nInserting page markers into LaTeX...")
+    try:
+        marked_latex = latex_processor.insert_page_markers(boundaries)
 
-    #     # Save marked LaTeX
-    #     output_latex_path = os.path.join(
-    #         output_path, "data-science-book_with_page_markers.tex"
-    #     )
-    #     with open(output_latex_path, "w", encoding="utf-8") as f:
-    #         f.write(marked_latex)
-    #     print(f"Saved LaTeX with page markers to: {output_latex_path}")
+        # Save marked LaTeX
+        output_latex_path = os.path.join(
+            output_path, f"{book_name}_with_page_markers.tex"
+        )
+        with open(output_latex_path, "w", encoding="utf-8") as f:
+            f.write(marked_latex)
+        print(f"Saved LaTeX with page markers to: {output_latex_path}")
 
-    # except Exception as e:
-    #     print(f"Error inserting page markers: {e}")
-    #     import traceback
+    except Exception as e:
+        print(f"Error inserting page markers: {e}")
+        import traceback
 
-    #     traceback.print_exc()
-    #     return
+        traceback.print_exc()
+        return
 
     # Generate summary
     print("\nGenerating summary report...")
@@ -563,7 +668,7 @@ def main():
             "total_spans": len(spans),
             "total_boundaries_found": len(boundaries),
             "output_files": {
-                # "marked_latex": output_latex_path,
+                "marked_latex": output_latex_path,
                 "extracted_spans": spans_output_path,
                 "page_boundaries": boundaries_path,
                 "processed_latex": latex_debug_path,
