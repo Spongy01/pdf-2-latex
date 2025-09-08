@@ -22,28 +22,55 @@ class LatexProcessor:
     def detex_with_positions(
         self, content: str, offset: int = 0
     ) -> Tuple[str, List[int]]:
-        """Convert LaTeX to plain text while tracking character positions."""
-        try:
-            from pylatexenc.latexwalker import (
-                LatexWalker,
-                LatexCharsNode,
-                LatexGroupNode,
-                LatexMacroNode,
-                LatexEnvironmentNode,
-            )
-        except ImportError:
-            print("Warning: pylatexenc not available, using simple text processing")
-            # Simple fallback - just remove basic LaTeX commands
-            simple_text = re.sub(r"\\[a-zA-Z]+\{([^}]*)\}", r"\1", content)
-            simple_text = re.sub(r"\\[a-zA-Z]+", "", simple_text)
-            return simple_text, list(range(offset, offset + len(simple_text)))
+        """Convert LaTeX to plain text paragraph by paragraph while tracking character positions."""
 
-        lw = LatexWalker(content)
+        # Split content into paragraphs
+        paragraphs = content.split("\n\n")
+
+        all_plain_text = ""
+        all_positions = []
+        current_offset = offset
+
+        for para_idx, paragraph in enumerate(paragraphs):
+            if not paragraph.strip():  # Skip empty paragraphs
+                # Still track the position of the newlines
+                current_offset += len(paragraph) + 2  # +2 for \n\n
+                continue
+
+            print(f"Processing paragraph {para_idx + 1}/{len(paragraphs)}...")
+
+            # Process this paragraph
+            para_plain_text, para_positions = self._process_single_paragraph(
+                paragraph, current_offset
+            )
+
+            # Append to overall results
+            all_plain_text += para_plain_text
+            all_positions.extend(para_positions)
+
+            # Update offset for next paragraph
+            current_offset += len(paragraph) + 2  # +2 for \n\n separator
+
+        return all_plain_text, all_positions
+
+    def _process_single_paragraph(
+        self, paragraph: str, offset: int
+    ) -> Tuple[str, List[int]]:
+        """Process a single paragraph with pylatexenc."""
+        from pylatexenc.latexwalker import (
+            LatexWalker,
+            LatexCharsNode,
+            LatexGroupNode,
+            LatexMacroNode,
+            LatexEnvironmentNode,
+        )
+
+        lw = LatexWalker(paragraph)
         try:
             nodes, _, _ = lw.get_latex_nodes()
         except Exception as e:
-            print(f"Warning: LaTeX parsing error: {e}")
-            return content, list(range(offset, offset + len(content)))
+            print(f"Warning: LaTeX parsing error in paragraph: {e}")
+            return paragraph, list(range(offset, offset + len(paragraph)))
 
         plain_text = ""
         positions = []
@@ -94,7 +121,7 @@ class LatexProcessor:
     def clean_text_for_matching(self, text: str) -> str:
         """Clean text for matching by normalizing to alphanumeric only."""
         # Convert to lowercase and keep only alphanumeric characters
-        cleaned = "".join(c.lower() for c in text if c.isalnum())
+        cleaned = "".join(c.lower() for c in text if c.isalpha())
 
         return cleaned
 
@@ -145,6 +172,14 @@ class LatexProcessor:
             document_content = document_match.group(1)
             document_start = document_match.start(1)
 
+            # save document_content for debugging
+            with open(
+                "files/algorithms_book/outputs/document_content.tex",
+                "w",
+                encoding="utf-8",
+            ) as f:
+                f.write(document_content)
+
             self.plain_text, self.positions = self.detex_with_positions(
                 document_content, document_start
             )
@@ -159,32 +194,107 @@ class LatexProcessor:
             {"page_number": page_number, "content": page_content.strip()}
         )
 
+    def fuzzy_find_text_in_positions(
+        self,
+        target_text: str,
+        search_text: str,
+        positions: List[int],
+        min_match_length: int = 35,
+        similarity_threshold: int = 80,
+    ) -> Optional[int]:
+        """Find target text using fuzzy string matching library."""
+        try:
+            from fuzzywuzzy import fuzz, process
+        except ImportError:
+            print(
+                "Warning: fuzzywuzzy not installed. Install with: pip install fuzzywuzzy python-Levenshtein"
+            )
+            return self.find_text_in_positions(
+                target_text, search_text, positions, min_match_length
+            )
+
+        clean_target = self.clean_text_for_matching(target_text)
+        clean_search = self.clean_text_for_matching(search_text)
+
+        # Save in output directory
+        output_dir = "/home/sysaba1/pdf-2-latex/files/algorithms_book/outputs/"
+        clean_search_path = os.path.join(output_dir, "cleaned_latex_text.txt")
+
+        with open(clean_search_path, "w", encoding="utf-8") as f:
+            f.write(clean_search)
+
+        clean_target = clean_target[-200:]  # Use only the last 200 chars for matching
+        # print(f"Fuzzy matching target (last 200 chars):")
+        # print(clean_target)
+
+        # if len(clean_target) < min_match_length:
+        #     return None
+
+        # Strategy 1: Try exact match first (fastest)
+        pos = clean_search.find(clean_target)
+        if pos != -1:
+            end_pos = pos + len(clean_target) - 1
+            if end_pos < len(positions):
+                return positions[end_pos]
+
+        # Strategy 2: Sliding window fuzzy matching
+        target_len = len(clean_target)
+        best_match_pos = None
+        best_ratio = 0
+
+        # Use a sliding window approach
+        step_size = max(1, target_len // 10)  # Adjust step size based on target length
+
+        for i in range(0, len(clean_search) - target_len + 1, step_size):
+            window = clean_search[i : i + target_len]
+
+            # Use ratio for partial string matching
+            ratio = fuzz.ratio(clean_target, window)
+
+            if ratio > best_ratio and ratio >= similarity_threshold:
+                best_ratio = ratio
+                best_match_pos = i + target_len - 1
+
+        if best_match_pos is not None and best_match_pos < len(positions):
+            # print(f"Fuzzy match found with {best_ratio}% similarity")
+            return positions[best_match_pos]
+
+        # # Strategy 3: Try with partial ratio (subsequence matching)
+        # for i in range(0, len(clean_search) - target_len + 1, step_size):
+        #     window = clean_search[i : i + target_len]
+
+        #     # Use partial_ratio for subsequence matching
+        #     ratio = fuzz.partial_ratio(clean_target, window)
+
+        #     if (
+        #         ratio > best_ratio and ratio >= similarity_threshold - 10
+        #     ):  # Lower threshold for partial
+        #         best_ratio = ratio
+        #         best_match_pos = i + target_len - 1
+
+        # if best_match_pos is not None and best_match_pos < len(positions):
+        #     print(f"Partial fuzzy match found with {best_ratio}% similarity")
+        #     return positions[best_match_pos]
+
+        return None
+
     def find_page_boundaries(self) -> List[Dict]:
         """Find LaTeX positions where each PDF page ends."""
         if not self.plain_text or not self.pdf_pages:
             raise ValueError("Must process LaTeX document and add PDF pages first")
 
         boundaries = []
-        cumulative_content = ""
 
         for page_info in self.pdf_pages:
             page_num = page_info["page_number"]
             page_content = page_info["content"]
 
-            # Add this page's content to cumulative content
-            cumulative_content += (
-                " " + page_content if cumulative_content else page_content
-            )
-
-            # print("Cumulative content length:", len(cumulative_content))
-            # print("Cumulative content sample:", cumulative_content)
-
             # Find where this cumulative content ends in the LaTeX
             latex_position = self.find_text_in_positions(
-                cumulative_content,
+                page_content,
                 self.plain_text,
                 self.positions,
-                min_match_length=100,
+                min_match_length=50,
             )
 
             if latex_position is not None:
@@ -193,15 +303,15 @@ class LatexProcessor:
                         "page_number": page_num,
                         "latex_position": latex_position,
                         "content_length": len(page_content),
-                        "cumulative_length": len(cumulative_content),
+                        "last_location": self.positions[-1],
                     }
                 )
-                print(f"Page {page_num} ends at LaTeX position {latex_position}")
+                # print(f"Page {page_num} ends at LaTeX position {latex_position}")
             else:
-                print(f"Warning: Could not find boundary for page {page_num}")
+                # print(f"Warning: Could not find boundary for page {page_num}")
                 # Try with just the current page content
                 latex_position = self.find_text_in_positions(
-                    page_content, self.plain_text, self.positions, min_match_length=50
+                    page_content, self.plain_text, self.positions, min_match_length=35
                 )
                 if latex_position is not None:
                     boundaries.append(
@@ -209,14 +319,39 @@ class LatexProcessor:
                             "page_number": page_num,
                             "latex_position": latex_position,
                             "content_length": len(page_content),
-                            "cumulative_length": len(cumulative_content),
                             "method": "single_page_fallback",
                         }
                     )
                     print(
                         f"Page {page_num} ends at LaTeX position {latex_position} (fallback)"
                     )
-
+                else:
+                    # print(
+                    #     f"Error: Still could not find boundary for page {page_num}, going for fuzzy matching  ..."
+                    # )
+                    latex_position = self.fuzzy_find_text_in_positions(
+                        page_content,
+                        self.plain_text,
+                        self.positions,
+                        min_match_length=50,
+                        similarity_threshold=80,
+                    )
+                    if latex_position is not None:
+                        boundaries.append(
+                            {
+                                "page_number": page_num,
+                                "latex_position": latex_position,
+                                "content_length": len(page_content),
+                                "method": "fuzzy_matching",
+                            }
+                        )
+                        # print(
+                        #     f"Page {page_num} ends at LaTeX position {latex_position} (fuzzy match)"
+                        # )
+                    # else:
+                    # print(
+                    #     f"Error: Could not find boundary for page {page_num} even with fuzzy matching."
+                    # )
         return boundaries
 
     def insert_page_markers(self, boundaries: List[Dict]) -> str:
@@ -251,10 +386,17 @@ class LatexProcessor:
 
 def main():
     """Main function to run the PDF-LaTeX alignment process."""
+    book_name = "data-science-book"
+    # book_name = "algorithms"
+    # book_name = "assembly"
     # File paths
-    pdf_path = "/home/sysaba1/pdf-2-latex/files/data-science-book_book/inputs/data-science-book.pdf"
-    latex_path = "/home/sysaba1/pdf-2-latex/files/data-science-book_book/inputs/data-science-book.tex"
-    output_path = "/home/sysaba1/pdf-2-latex/files/data-science-book_book/outputs/"
+    pdf_path = (
+        f"/home/sysaba1/pdf-2-latex/files/{book_name}_book/inputs/{book_name}.pdf"
+    )
+    latex_path = (
+        f"/home/sysaba1/pdf-2-latex/files/{book_name}_book/inputs/{book_name}.tex"
+    )
+    output_path = f"/home/sysaba1/pdf-2-latex/files/{book_name}_book/outputs/"
 
     # Create output directory
     os.makedirs(output_path, exist_ok=True)
@@ -344,10 +486,10 @@ def main():
             f"Processed LaTeX document: {len(latex_processor.plain_text)} plain text characters"
         )
 
-        print(f"Sample of processed LaTeX text:")
-        print(
-            latex_processor.plain_text[:1000]
-        )  # Print the first 500 characters as a sample
+        # print(f"Sample of processed LaTeX text:")
+        # print(
+        #     latex_processor.plain_text[:1000]
+        # )  # Print the first 500 characters as a sample
 
         # Save processed LaTeX for debugging
         latex_debug_path = os.path.join(output_path, "processed_latex.txt")
@@ -422,9 +564,9 @@ def main():
             "total_boundaries_found": len(boundaries),
             "output_files": {
                 # "marked_latex": output_latex_path,
-                # "extracted_spans": spans_output_path,
-                # "page_boundaries": boundaries_path,
-                # "processed_latex": latex_debug_path,
+                "extracted_spans": spans_output_path,
+                "page_boundaries": boundaries_path,
+                "processed_latex": latex_debug_path,
             },
             "page_statistics": page_contents,
         }
