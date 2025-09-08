@@ -230,7 +230,7 @@ Your task is to apply the formatting **strictly as specified in the JSON**, and 
 
 ---
 
-**❗ FINAL REMINDER: Output ONLY valid LaTeX. No explanations, comments, or markdown.**
+**❗ FINAL REMINDER: Output ONLY valid LaTeX. No explanations, comments, or markdown.\n Only output corresponding data which is in latex. In many instances you will have more text data in json format than what is in latex. Ignore that.**
 
 """
 
@@ -277,7 +277,7 @@ Each JSON span has:
 
 ---
 
-**❗ FINAL REMINDER: Output ONLY valid LaTeX. No explanations, comments, or markdown.**
+**❗ FINAL REMINDER: Output ONLY valid LaTeX. No explanations, comments, or markdown.\n Only output corresponding data which is in latex. In many instances you will have more text data in json format than what is in latex. Ignore that.**
 
 """
     
