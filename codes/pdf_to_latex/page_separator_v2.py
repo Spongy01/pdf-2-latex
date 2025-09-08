@@ -79,22 +79,22 @@ class LatexProcessor:
             nonlocal plain_text, positions
 
             if isinstance(node, LatexCharsNode):
-                print(f"Node pos: {node.pos}, chars: '{node.chars}', offset: {offset}")
-                print(
-                    f"Adding positions: {node.pos + offset} to {node.pos + offset + len(node.chars)}"
-                )
+                # print(f"Node pos: {node.pos}, chars: '{node.chars}', offset: {offset}")
+                # print(
+                #     f"Adding positions: {node.pos + offset} to {node.pos + offset + len(node.chars)}"
+                # )
                 # write these to a file for debugging
-                with open(
-                    "files/data-science-book_book/outputs/latex_positions_debug.txt",
-                    "a",
-                    encoding="utf-8",
-                ) as f:
-                    f.write(
-                        f"Node pos: {node.pos}, chars: '{node.chars}', offset: {offset}\n"
-                    )
-                    f.write(
-                        f"Adding positions: {node.pos + offset} to {node.pos + offset + len(node.chars)}\n"
-                    )
+                # with open(
+                #     "files/data-science-book_book/outputs/latex_positions_debug.txt",
+                #     "a",
+                #     encoding="utf-8",
+                # ) as f:
+                #     f.write(
+                #         f"Node pos: {node.pos}, chars: '{node.chars}', offset: {offset}\n"
+                #     )
+                #     f.write(
+                #         f"Adding positions: {node.pos + offset} to {node.pos + offset + len(node.chars)}\n"
+                #     )
                 plain_text += node.chars
                 positions.extend(
                     range(node.pos + offset, node.pos + offset + len(node.chars))
@@ -394,7 +394,7 @@ class LatexProcessor:
         return boundaries
 
     def insert_page_markers(self, boundaries: List[Dict]) -> str:
-        """Insert page end markers into the LaTeX document."""
+        """Insert page end markers into the LaTeX document after the next natural break."""
         if not boundaries:
             return self.latex_content
 
@@ -409,18 +409,47 @@ class LatexProcessor:
             page_num = boundary["page_number"]
             position = boundary["latex_position"]
 
-            # Insert page marker at the position
+            # Find the next natural break point after the position
+            break_position = self._find_next_break_point(modified_content, position)
+
+            # Insert page marker at the break position
             marker = f"\n% END OF PAGE {page_num}\n"
 
-            # Insert the marker at the calculated position
-            if position < len(modified_content):
+            if break_position < len(modified_content):
                 modified_content = (
-                    modified_content[: position + 1]
+                    modified_content[:break_position]
                     + marker
-                    + modified_content[position + 1 :]
+                    + modified_content[break_position:]
                 )
 
         return modified_content
+
+    def _find_next_break_point(self, content: str, start_position: int) -> int:
+        """Find the next \\\\ or \\n\\n after the given position."""
+        if start_position >= len(content):
+            return len(content)
+
+        # Search for the next occurrence of either pattern
+        search_start = start_position + 1
+
+        # Find next \\\\
+        double_backslash = content.find("\\\\", search_start)
+
+        # Find next \\n\\n
+        double_newline = content.find("\n\n", search_start)
+
+        # Choose whichever comes first (ignore -1 results)
+        candidates = []
+        if double_backslash != -1:
+            candidates.append(double_backslash + 2)  # Position after \\\\
+        if double_newline != -1:
+            candidates.append(double_newline + 2)  # Position after \\n\\n
+
+        if candidates:
+            return min(candidates)
+        else:
+            # No break found, insert at end of content
+            return len(content)
 
 
 def find_longest_increasing_subsequence(boundaries: List[Dict]) -> List[Dict]:
@@ -478,8 +507,8 @@ def find_longest_increasing_subsequence(boundaries: List[Dict]) -> List[Dict]:
 
 def main():
     """Main function to run the PDF-LaTeX alignment process."""
-    book_name = "data-science-book"
-    # book_name = "algorithms"
+    # book_name = "data-science-book"
+    book_name = "algorithms"
     # book_name = "assembly"
     # File paths
     pdf_path = (
@@ -509,7 +538,7 @@ def main():
     # Open PDF document
     try:
         doc = fitz.open(pdf_path)
-        print(f"Successfully opened PDF with {len(doc)} pages")
+        # print(f"Successfully opened PDF with {len(doc)} pages")
     except Exception as e:
         print(f"Error opening PDF: {e}")
         return
@@ -518,30 +547,30 @@ def main():
     try:
         with open(latex_path, "r", encoding="utf-8") as f:
             latex_content = f.read()
-        print(f"Successfully read LaTeX file ({len(latex_content)} characters)")
+        # print(f"Successfully read LaTeX file ({len(latex_content)} characters)")
     except Exception as e:
         print(f"Error reading LaTeX file: {e}")
         return
 
     # Initialize extractor
-    print("\nExtracting PDF text data...")
+    # print("\nExtracting PDF text data...")
     extractor = PDFTextExtractor(skip_first_block=True)
 
     try:
         spans = extractor.extract_document_text(doc)
-        print(f"Extracted {len(spans)} text spans from PDF")
+        # print(f"Extracted {len(spans)} text spans from PDF")
 
         # Save extracted spans
         spans_output_path = os.path.join(output_path, "extracted_spans.json")
         extractor.save_to_file(spans, spans_output_path)
-        print(f"Saved extracted spans to: {spans_output_path}")
+        # print(f"Saved extracted spans to: {spans_output_path}")
 
     except Exception as e:
         print(f"Error extracting PDF text: {e}")
         return
 
     # Get page contents
-    print("Preparing page contents for alignment...")
+    # print("Preparing page contents for alignment...")
     page_contents = []
 
     MAX_PAGES = 3000  # Limit to first 30 pages for testing
@@ -560,10 +589,10 @@ def main():
                 }
             )
 
-            print(
-                f"Page {page_num + 1}: {page_stats.get('total_characters', 0)} chars, "
-                f"{page_stats.get('total_words', 0)} words"
-            )
+            # print(
+            #     f"Page {page_num + 1}: {page_stats.get('total_characters', 0)} chars, "
+            #     f"{page_stats.get('total_words', 0)} words"
+            # )
 
         except Exception as e:
             print(f"Error processing page {page_num + 1}: {e}")
@@ -597,7 +626,7 @@ def main():
         return
 
     # Add PDF pages to processor
-    print("\nAdding PDF pages to processor...")
+    # print("\nAdding PDF pages to processor...")
     for page_info in page_contents:
         if page_info["content"].strip():  # Only add non-empty pages
             latex_processor.add_pdf_page(page_info["content"], page_info["page_number"])
@@ -612,11 +641,11 @@ def main():
         boundaries = latex_processor.find_page_boundaries()
         print(f"Found {len(boundaries)} page boundaries")
 
-        # Save original boundary information
-        boundaries_path = os.path.join(output_path, "page_boundaries_raw.json")
-        with open(boundaries_path, "w", encoding="utf-8") as f:
-            json.dump(boundaries, f, indent=2)
-        print(f"Saved raw boundary information to: {boundaries_path}")
+        # # Save original boundary information
+        # boundaries_path = os.path.join(output_path, "page_boundaries_raw.json")
+        # with open(boundaries_path, "w", encoding="utf-8") as f:
+        #     json.dump(boundaries, f, indent=2)
+        # print(f"Saved raw boundary information to: {boundaries_path}")
 
         # Find longest increasing subsequence
         print("\nFiltering boundaries using longest increasing subsequence...")
@@ -670,7 +699,7 @@ def main():
             "output_files": {
                 "marked_latex": output_latex_path,
                 "extracted_spans": spans_output_path,
-                "page_boundaries": boundaries_path,
+                "page_boundaries": filtered_boundaries_path,
                 "processed_latex": latex_debug_path,
             },
             "page_statistics": page_contents,
@@ -684,9 +713,6 @@ def main():
     except Exception as e:
         print(f"Error generating summary: {e}")
 
-    # Close PDF document
-    doc.close()
-
     print("\n" + "=" * 60)
     print("PDF-LaTeX ALIGNMENT COMPLETED SUCCESSFULLY!")
     print("=" * 60)
@@ -699,6 +725,9 @@ def main():
     print("  - alignment_summary.json (process summary)")
     print("  - extracted_spans.json (PDF text data)")
     print("  - page_boundaries.json (boundary information)")
+
+    # Close PDF document
+    doc.close()
 
 
 if __name__ == "__main__":
