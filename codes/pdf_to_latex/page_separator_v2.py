@@ -1,4 +1,3 @@
-import copy
 import json
 import os
 import re
@@ -7,7 +6,7 @@ import fitz  # PyMuPDF
 from dataclasses import dataclass, asdict
 from tqdm import tqdm
 from typing import List, Dict, Any, Optional, Tuple
-from codes.pdf_to_latex.pdf_text_extractor import PDFTextExtractor
+from pdf_text_extractor import PDFTextExtractor
 
 
 class LatexProcessor:
@@ -203,13 +202,13 @@ class LatexProcessor:
             document_content = document_match.group(1)
             document_start = document_match.start(1)
 
-            # save document_content for debugging
-            with open(
-                "files/algorithms_book/outputs/document_content.tex",
-                "w",
-                encoding="utf-8",
-            ) as f:
-                f.write(document_content)
+            # # save document_content for debugging
+            # with open(
+            #     "files/algorithms_book/outputs/document_content.tex",
+            #     "w",
+            #     encoding="utf-8",
+            # ) as f:
+            #     f.write(document_content)
 
             self.plain_text, self.positions = self.detex_with_positions(
                 document_content, document_start
@@ -413,7 +412,7 @@ class LatexProcessor:
             break_position = self._find_next_break_point(modified_content, position)
 
             # Insert page marker at the break position
-            marker = f"\n% END OF PAGE {page_num}\n"
+            marker = "\n%---- Page End Break Here ---- Page : " + str(page_num) + "\n"
 
             if break_position < len(modified_content):
                 modified_content = (
@@ -458,7 +457,7 @@ def find_longest_increasing_subsequence(boundaries: List[Dict]) -> List[Dict]:
         return []
 
     # Sort by page number to maintain order
-    sorted_boundaries = sorted(boundaries, key=lambda x: x["page_number"])
+    sorted_boundaries = boundaries.copy()
 
     n = len(sorted_boundaries)
     if n == 0:
@@ -505,230 +504,109 @@ def find_longest_increasing_subsequence(boundaries: List[Dict]) -> List[Dict]:
     return lis_boundaries
 
 
-def main():
-    """Main function to run the PDF-LaTeX alignment process."""
-    # book_name = "data-science-book"
-    book_name = "algorithms"
-    # book_name = "assembly"
-    # File paths
-    pdf_path = (
-        f"/home/sysaba1/pdf-2-latex/files/{book_name}_book/inputs/{book_name}.pdf"
-    )
-    latex_path = (
-        f"/home/sysaba1/pdf-2-latex/files/{book_name}_book/inputs/{book_name}.tex"
-    )
-    output_path = f"/home/sysaba1/pdf-2-latex/files/{book_name}_book/outputs/"
+def create_page_separators(BOOK_PATH, TEX_PATH, OUTPUT_TEX_PATH):
+    """Create page separators with v1 interface and v2 processing."""
+    print("\n=== 🛠️ Step 1: Creating Page Separators ===")
 
-    # Create output directory
-    os.makedirs(output_path, exist_ok=True)
+    # Read files
+    print(f"🔍 Reading book from: {BOOK_PATH}")
+    print(f"🔍 Reading LaTeX from: {TEX_PATH}")
 
-    print("Starting PDF-LaTeX alignment process...")
-    print(f"PDF file: {pdf_path}")
-    print(f"LaTeX file: {latex_path}")
-
-    # Verify files exist
-    if not os.path.exists(pdf_path):
-        print(f"Error: PDF file not found at {pdf_path}")
-        return
-
-    if not os.path.exists(latex_path):
-        print(f"Error: LaTeX file not found at {latex_path}")
-        return
-
-    # Open PDF document
     try:
-        doc = fitz.open(pdf_path)
-        # print(f"Successfully opened PDF with {len(doc)} pages")
-    except Exception as e:
-        print(f"Error opening PDF: {e}")
-        return
-
-    # Read LaTeX content
-    try:
-        with open(latex_path, "r", encoding="utf-8") as f:
+        book_pdf = fitz.open(BOOK_PATH)
+        with open(TEX_PATH, "r", encoding="utf-8") as f:
             latex_content = f.read()
-        # print(f"Successfully read LaTeX file ({len(latex_content)} characters)")
+        print("✅ Successfully read PDF and LaTeX files.\n")
     except Exception as e:
-        print(f"Error reading LaTeX file: {e}")
-        return
+        print(f"Error reading files: {e}")
+        return None, None, None
 
-    # Initialize extractor
-    # print("\nExtracting PDF text data...")
+    # Extract text from PDF pages with proper labeling (v1 approach)
+    print("📄 Extracting text from PDF pages...\n")
+    book_page_data = {}
+    page_numbers = []
+
+    for i in range(len(book_pdf)):
+        page = book_pdf[i]
+        label = page.get_label()
+        if label is None or not label.isdigit():
+            label = i + 1
+        page_numbers.append(label)
+        text = page.get_text("text").replace("\n", " ")
+        book_page_data[i] = text
+        # print(f"📄 Page {i} (Label: {label}) text length: {len(text)}")
+
+    # Initialize advanced extractor for more detailed processing
+    print("\n🔧 Starting advanced pattern matcher...")
     extractor = PDFTextExtractor(skip_first_block=True)
 
     try:
-        spans = extractor.extract_document_text(doc)
-        # print(f"Extracted {len(spans)} text spans from PDF")
-
-        # Save extracted spans
-        spans_output_path = os.path.join(output_path, "extracted_spans.json")
-        extractor.save_to_file(spans, spans_output_path)
-        # print(f"Saved extracted spans to: {spans_output_path}")
-
+        spans = extractor.extract_document_text(book_pdf)
+        print(f"Extracted {len(spans)} text spans from PDF")
     except Exception as e:
         print(f"Error extracting PDF text: {e}")
-        return
-
-    # Get page contents
-    # print("Preparing page contents for alignment...")
-    page_contents = []
-
-    MAX_PAGES = 3000  # Limit to first 30 pages for testing
-
-    for page_num in range(min(len(doc), MAX_PAGES)):
-        try:
-            page_text = extractor.get_page_text_content(spans, page_num)
-            page_stats = extractor.get_page_statistics(spans, page_num)
-
-            page_contents.append(
-                {
-                    "page_number": page_num + 1,  # 1-indexed for display
-                    "content": page_text,
-                    "character_count": page_stats.get("total_characters", 0),
-                    "word_count": page_stats.get("total_words", 0),
-                }
-            )
-
-            # print(
-            #     f"Page {page_num + 1}: {page_stats.get('total_characters', 0)} chars, "
-            #     f"{page_stats.get('total_words', 0)} words"
-            # )
-
-        except Exception as e:
-            print(f"Error processing page {page_num + 1}: {e}")
-            continue
+        return book_pdf, latex_content, page_numbers
 
     # Process LaTeX document
-    print("\nProcessing LaTeX document...")
+    print("Processing LaTeX document...")
     try:
         latex_processor = LatexProcessor()
         latex_processor.process_latex_document(latex_content)
         print(
             f"Processed LaTeX document: {len(latex_processor.plain_text)} plain text characters"
         )
-
-        # print(f"Sample of processed LaTeX text:")
-        # print(
-        #     latex_processor.plain_text[:1000]
-        # )  # Print the first 500 characters as a sample
-
-        # Save processed LaTeX for debugging
-        latex_debug_path = os.path.join(output_path, "processed_latex.txt")
-        with open(latex_debug_path, "w", encoding="utf-8") as f:
-            f.write(latex_processor.plain_text)
-        print(f"Saved processed LaTeX text to: {latex_debug_path}")
-
     except Exception as e:
         print(f"Error processing LaTeX: {e}")
-        import traceback
+        return book_pdf, latex_content, page_numbers
 
-        traceback.print_exc()
-        return
+    # Use the page labels from the extraction loop for alignment
+    print("Adding PDF pages to processor...")
+    for i in range(len(book_pdf)):
+        page_content = book_page_data[i]
+        page_label = page_numbers[i]
 
-    # Add PDF pages to processor
-    # print("\nAdding PDF pages to processor...")
-    for page_info in page_contents:
-        if page_info["content"].strip():  # Only add non-empty pages
-            latex_processor.add_pdf_page(page_info["content"], page_info["page_number"])
-            # print(
-            #     f"Added page {page_info['page_number']} "
-            #     f"({page_info['character_count']} chars)"
-            # )
+        if page_content.strip():  # Only add non-empty pages
+            latex_processor.add_pdf_page(page_content, page_label)
 
     # Find page boundaries
-    print("\nFinding page boundaries in LaTeX...")
+    print("Finding page boundaries in LaTeX...")
     try:
         boundaries = latex_processor.find_page_boundaries()
         print(f"Found {len(boundaries)} page boundaries")
 
-        # # Save original boundary information
-        # boundaries_path = os.path.join(output_path, "page_boundaries_raw.json")
-        # with open(boundaries_path, "w", encoding="utf-8") as f:
-        #     json.dump(boundaries, f, indent=2)
-        # print(f"Saved raw boundary information to: {boundaries_path}")
-
-        # Find longest increasing subsequence
-        print("\nFiltering boundaries using longest increasing subsequence...")
+        # Filter using longest increasing subsequence
         filtered_boundaries = find_longest_increasing_subsequence(boundaries)
-
-        # Save filtered boundaries
-        filtered_boundaries_path = os.path.join(output_path, "page_boundaries.json")
-        with open(filtered_boundaries_path, "w", encoding="utf-8") as f:
-            json.dump(filtered_boundaries, f, indent=2)
-        print(f"Saved filtered boundary information to: {filtered_boundaries_path}")
-
-        # Use filtered boundaries for page markers
-        boundaries = filtered_boundaries
+        print(f"Using {len(filtered_boundaries)} consistent boundaries")
+        # save boundaries to json for debugging
+        with open(
+            "/home/sysaba1/pdf-2-latex/files/data-science-book_book/outputs/page_boundaries.json",
+            "w",
+            encoding="utf-8",
+        ) as f:
+            json.dump(filtered_boundaries, f, indent=4)
 
     except Exception as e:
         print(f"Error finding page boundaries: {e}")
-        import traceback
-
-        traceback.print_exc()
-        return
+        return book_pdf, latex_content, page_numbers
 
     # Insert page markers
-    print("\nInserting page markers into LaTeX...")
+    print("Inserting page markers into LaTeX...")
     try:
-        marked_latex = latex_processor.insert_page_markers(boundaries)
+        new_latex_content = latex_processor.insert_page_markers(filtered_boundaries)
 
-        # Save marked LaTeX
-        output_latex_path = os.path.join(
-            output_path, f"{book_name}_with_page_markers.tex"
-        )
-        with open(output_latex_path, "w", encoding="utf-8") as f:
-            f.write(marked_latex)
-        print(f"Saved LaTeX with page markers to: {output_latex_path}")
+        # Save to output file
+        os.makedirs(os.path.dirname(OUTPUT_TEX_PATH), exist_ok=True)
+        with open(OUTPUT_TEX_PATH, "w", encoding="utf-8") as file:
+            file.write(new_latex_content)
+
+        print(f"\n✅ Page Breaks inserted and written to:\n\t📁 {OUTPUT_TEX_PATH}")
 
     except Exception as e:
         print(f"Error inserting page markers: {e}")
-        import traceback
+        return book_pdf, latex_content, page_numbers
 
-        traceback.print_exc()
-        return
-
-    # Generate summary
-    print("\nGenerating summary report...")
-    try:
-        summary = {
-            "pdf_file": pdf_path,
-            "latex_file": latex_path,
-            "total_pages": len(doc),
-            "total_spans": len(spans),
-            "total_boundaries_found": len(boundaries),
-            "output_files": {
-                "marked_latex": output_latex_path,
-                "extracted_spans": spans_output_path,
-                "page_boundaries": filtered_boundaries_path,
-                "processed_latex": latex_debug_path,
-            },
-            "page_statistics": page_contents,
-        }
-
-        summary_path = os.path.join(output_path, "alignment_summary.json")
-        with open(summary_path, "w", encoding="utf-8") as f:
-            json.dump(summary, f, indent=2)
-        print(f"Saved alignment summary to: {summary_path}")
-
-    except Exception as e:
-        print(f"Error generating summary: {e}")
-
-    print("\n" + "=" * 60)
-    print("PDF-LaTeX ALIGNMENT COMPLETED SUCCESSFULLY!")
-    print("=" * 60)
-    print(f"✓ Processed {len(doc)} PDF pages")
-    print(f"✓ Found {len(boundaries)} page boundaries")
-    print(f"✓ Generated LaTeX with page markers")
-    print(f"✓ All output files saved to: {output_path}")
-    print("\nCheck the output directory for:")
-    print("  - data-science-book_with_page_markers.tex (main output)")
-    print("  - alignment_summary.json (process summary)")
-    print("  - extracted_spans.json (PDF text data)")
-    print("  - page_boundaries.json (boundary information)")
-
-    # Close PDF document
-    doc.close()
+    return book_pdf, new_latex_content, page_numbers
 
 
 if __name__ == "__main__":
-    main()
+    create_page_separators()

@@ -29,7 +29,7 @@ import time
 from indexer import create_indexing
 from gpt_script import format_with_gpt
 from bib import process_bibliography
-from page_seperator import create_page_seperators
+from page_separator_v2 import create_page_separators
 
 
 def setup_folders(file_path, tex_file_path, file_name=None):
@@ -105,6 +105,9 @@ def run_pipeline(
         file_name = os.path.splitext(os.path.basename(book_path))[0]
 
     paths = setup_folders(book_path, tex_path, file_name)
+    # print("Paths set up:")
+    # for key, value in paths.items():
+    #     print(f"  {key}: {value}")
 
     # Initialize OpenAI client
     load_dotenv()
@@ -127,9 +130,13 @@ def run_pipeline(
 
     # Step 1: Create page separators (if not skipped)
     current_tex_path = paths["tex_path"]
+    print("Book path:", paths["book_path"])
+    print("Current tex path:", current_tex_path)
+    print("Page separator path:", paths["pg_sep_path"])
+
     if 1 not in skip_steps:
         try:
-            book_pdf, latex_with_pages, page_numbers = create_page_seperators(
+            book_pdf, latex_with_pages, page_numbers = create_page_separators(
                 paths["book_path"], current_tex_path, paths["pg_sep_path"]
             )
             current_tex_path = paths["pg_sep_path"]
