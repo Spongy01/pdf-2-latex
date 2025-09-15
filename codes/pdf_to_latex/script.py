@@ -33,7 +33,7 @@ from page_separator_v2 import create_page_separators
 from cleaner import clean_it_up
 
 
-def setup_folders(file_path, tex_file_path, file_name=None):
+def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
     """Set up folder structure for the conversion process."""
 
     # Extract file_name if not provided
@@ -44,26 +44,26 @@ def setup_folders(file_path, tex_file_path, file_name=None):
     current_dir = os.path.dirname(os.path.abspath(__file__))
     root_dir = os.path.abspath(os.path.join(current_dir, "../../"))
 
-    book_folder = os.path.join(root_dir, f"files/{file_name}_book/inputs/")
-    tex_folder = os.path.join(root_dir, f"files/{file_name}_book/inputs/")
-    output_folder = os.path.join(root_dir, f"files/{file_name}_book/outputs/")
+    # book_folder = os.path.join(root_dir, f"files/{file_name}_book/inputs/")
+    # tex_folder = os.path.join(root_dir, f"files/{file_name}_book/inputs/")
+    # output_folder = os.path.join(root_dir, f"files/{file_name}_book/outputs/")
 
-    os.makedirs(book_folder, exist_ok=True)
-    os.makedirs(tex_folder, exist_ok=True)
+    # os.makedirs(book_folder, exist_ok=True)
+    # os.makedirs(tex_folder, exist_ok=True)
     os.makedirs(output_folder, exist_ok=True)
 
     # Define paths
-    book_path = os.path.join(book_folder, f"{file_name}.pdf")
-    tex_path = os.path.join(tex_folder, f"{file_name}.tex")
+    book_path = file_path
+    tex_path = tex_file_path
 
     # Copy files if they don't exist
-    if not os.path.exists(book_path) and os.path.exists(file_path):
-        shutil.copy2(file_path, book_path)
-        print(f"Copied {file_path} -> {book_path}")
+    # if not os.path.exists(book_path) and os.path.exists(file_path):
+    #     shutil.copy2(file_path, book_path)
+    #     print(f"Copied {file_path} -> {book_path}")
 
-    if not os.path.exists(tex_path) and os.path.exists(tex_file_path):
-        shutil.copy2(tex_file_path, tex_path)
-        print(f"Copied {tex_file_path} -> {tex_path}")
+    # if not os.path.exists(tex_path) and os.path.exists(tex_file_path):
+    #     shutil.copy2(tex_file_path, tex_path)
+    #     print(f"Copied {tex_file_path} -> {tex_path}")
 
     # Return paths
     paths = {
@@ -106,7 +106,7 @@ def run_pipeline(
     if file_name is None:
         file_name = os.path.splitext(os.path.basename(book_path))[0]
 
-    paths = setup_folders(book_path, tex_path, file_name)
+    paths = setup_folders(book_path, tex_path, output_folder, file_name)
     # print("Paths set up:")
     # for key, value in paths.items():
     #     print(f"  {key}: {value}")
