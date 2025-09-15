@@ -231,6 +231,7 @@ class LatexProcessor:
         positions: List[int],
         min_match_length: int = 35,
         similarity_threshold: int = 80,
+        OUTPUT_DIR: str = "",
     ) -> Optional[int]:
         """Find target text using fuzzy string matching library."""
         try:
@@ -249,7 +250,7 @@ class LatexProcessor:
         )
 
         # Save in output directory
-        output_dir = "/home/sysaba1/pdf-2-latex/files/algorithms_book/outputs/"
+        output_dir = OUTPUT_DIR if OUTPUT_DIR else "."
         clean_search_path = os.path.join(output_dir, "cleaned_latex_text.txt")
 
         with open(clean_search_path, "w", encoding="utf-8") as f:
@@ -312,7 +313,7 @@ class LatexProcessor:
 
         return None
 
-    def find_page_boundaries(self) -> List[Dict]:
+    def find_page_boundaries(self, OUTPUT_DIR) -> List[Dict]:
         """Find LaTeX positions where each PDF page ends."""
         if not self.plain_text or not self.pdf_pages:
             raise ValueError("Must process LaTeX document and add PDF pages first")
@@ -372,6 +373,7 @@ class LatexProcessor:
                         self.positions,
                         min_match_length=50,
                         similarity_threshold=80,
+                        OUTPUT_DIR=OUTPUT_DIR,
                     )
                     if latex_position is not None:
                         boundaries.append(
@@ -504,7 +506,7 @@ def find_longest_increasing_subsequence(boundaries: List[Dict]) -> List[Dict]:
     return lis_boundaries
 
 
-def create_page_separators(BOOK_PATH, TEX_PATH, OUTPUT_TEX_PATH):
+def create_page_separators(BOOK_PATH, TEX_PATH, OUTPUT_TEX_PATH, OUTPUT_DIR):
     """Create page separators with v1 interface and v2 processing."""
     print("\n=== 🛠️ Step 1: Creating Page Separators ===")
 
@@ -572,7 +574,7 @@ def create_page_separators(BOOK_PATH, TEX_PATH, OUTPUT_TEX_PATH):
     # Find page boundaries
     print("Finding page boundaries in LaTeX...")
     try:
-        boundaries = latex_processor.find_page_boundaries()
+        boundaries = latex_processor.find_page_boundaries(OUTPUT_DIR)
         print(f"Found {len(boundaries)} page boundaries")
 
         # Filter using longest increasing subsequence
@@ -580,7 +582,7 @@ def create_page_separators(BOOK_PATH, TEX_PATH, OUTPUT_TEX_PATH):
         print(f"Using {len(filtered_boundaries)} consistent boundaries")
         # save boundaries to json for debugging
         with open(
-            "/home/sysaba1/pdf-2-latex/files/data-science-book_book/outputs/page_boundaries.json",
+            f"{OUTPUT_DIR}/page_boundaries.json",
             "w",
             encoding="utf-8",
         ) as f:

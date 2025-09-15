@@ -30,6 +30,7 @@ from indexer import create_indexing
 from gpt_script import format_with_gpt
 from bib import process_bibliography
 from page_separator_v2 import create_page_separators
+from cleaner import clean_it_up
 
 
 def setup_folders(file_path, tex_file_path, file_name=None):
@@ -72,6 +73,7 @@ def setup_folders(file_path, tex_file_path, file_name=None):
         "pg_sep_path": os.path.join(output_folder, f"{file_name}_pg_sep.tex"),
         "bib_path": os.path.join(output_folder, f"{file_name}_pg_sep_bib.tex"),
         "final_path": os.path.join(output_folder, f"{file_name}_cleaned_final.tex"),
+        "cleaned_path": os.path.join(output_folder, f"{file_name}_cleaned.tex"),
         "indexed_path": os.path.join(output_folder, f"{file_name}_final_indexed.tex"),
         "bib_json_path": os.path.join(output_folder, f"{file_name}_bib.json"),
         "bib_output_path": os.path.join(output_folder, f"{file_name}_references.bib"),
@@ -137,7 +139,7 @@ def run_pipeline(
     if 1 not in skip_steps:
         try:
             book_pdf, latex_with_pages, page_numbers = create_page_separators(
-                paths["book_path"], current_tex_path, paths["pg_sep_path"]
+                paths["book_path"], current_tex_path, paths["pg_sep_path"], paths["output_folder"]
             )
             current_tex_path = paths["pg_sep_path"]
             results["steps_completed"].append(1)
@@ -189,8 +191,18 @@ def run_pipeline(
         if os.path.exists(paths["final_path"]):
             current_tex_path = paths["final_path"]
 
-    # Step 4: Process indexing (if not skipped and index_path provided)
-    if 4 not in skip_steps and index_path:
+    if 4 not in skip_steps:
+        try:
+            current_tex_path = clean_it_up(
+                current_tex_path, paths["book_path"], paths["cleaned_path"]
+            )
+            results["steps_completed"].append(4)
+            results["cleaning_output"] = current_tex_path
+        except Exception as e:
+            print(f"Error in Step 4 (Cleaning): {e}")
+
+    # Step 5: Process indexing (if not skipped and index_path provided)
+    if 5 not in skip_steps and index_path:
         try:
             current_tex_path = create_indexing(
                 index_path, current_tex_path, paths["book_path"], paths["indexed_path"]
@@ -198,9 +210,9 @@ def run_pipeline(
             results["steps_completed"].append(4)
             results["indexing_output"] = current_tex_path
         except Exception as e:
-            print(f"Error in Step 4 (Indexing): {e}")
+            print(f"Error in Step 5 (Indexing): {e}")
     else:
-        print("Skipping Step 4: Indexing")
+        print("Skipping Step 5: Indexing")
 
     # Final result
     results["final_output"] = current_tex_path
