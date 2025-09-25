@@ -1,0 +1,20 @@
+{
+  "scoring_method": "similarity",
+  "timestamp": "2025-09-25T13:27:30.778985",
+  "total_books": 1,
+  "valid_books": 0,
+  "average_score": 0.0,
+  "results": [
+    {
+      "book_name": "ai",
+      "input_file": "/Users/era/Documents/Projects/pdf-2-latex/files/ai/inputs/ai.tex",
+      "output_file": "/Users/era/Documents/Projects/pdf-2-latex/files/ai/outputs/ai_cleaned_final.tex",
+      "scoring_method": "similarity",
+      "timestamp": "2025-09-25T13:27:30.778970",
+      "valid": false,
+      "score": 0.0,
+      "error": "Missing files for book: ai",
+      "details": {}
+    }
+  ]
+}
