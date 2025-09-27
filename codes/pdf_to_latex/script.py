@@ -31,10 +31,11 @@ from gpt_script import format_with_gpt
 from bib import process_bibliography
 from page_separator_v2 import create_page_separators
 from cleaner import clean_it_up
+from version_controller import get_next_version, update_version_file
 
 
 def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
-    """Set up folder structure for the conversion process."""
+    """Set up folder structure for the conversion process with version control."""
 
     # Extract file_name if not provided
     if file_name is None:
@@ -44,32 +45,36 @@ def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
     current_dir = os.path.dirname(os.path.abspath(__file__))
     root_dir = os.path.abspath(os.path.join(current_dir, "../../"))
 
-    # book_folder = os.path.join(root_dir, f"files/{file_name}_book/inputs/")
-    # tex_folder = os.path.join(root_dir, f"files/{file_name}_book/inputs/")
-    # output_folder = os.path.join(root_dir, f"files/{file_name}_book/outputs/")
+    # Book folder (main folder for this book)
+    book_folder = os.path.join(root_dir, f"files/{file_name}")
+    os.makedirs(book_folder, exist_ok=True)
 
-    # os.makedirs(book_folder, exist_ok=True)
-    # os.makedirs(tex_folder, exist_ok=True)
+    # Get next version
+    version_number, version_folder, is_new_book = get_next_version(
+        book_folder, output_folder
+    )
+
+    # Use version folder as output folder if not explicitly provided
+    if output_folder is None:
+        output_folder = version_folder
+
+    # Create version-specific output folder
     os.makedirs(output_folder, exist_ok=True)
+
+    # Update version tracking
+    update_version_file(book_folder, version_number, output_folder, file_name)
 
     # Define paths
     book_path = file_path
     tex_path = tex_file_path
-
-    # Copy files if they don't exist
-    # if not os.path.exists(book_path) and os.path.exists(file_path):
-    #     shutil.copy2(file_path, book_path)
-    #     print(f"Copied {file_path} -> {book_path}")
-
-    # if not os.path.exists(tex_path) and os.path.exists(tex_file_path):
-    #     shutil.copy2(tex_file_path, tex_path)
-    #     print(f"Copied {tex_file_path} -> {tex_path}")
 
     # Return paths
     paths = {
         "book_path": book_path,
         "tex_path": tex_path,
         "output_folder": output_folder,
+        "version_number": version_number,
+        "book_folder": book_folder,
         "pg_sep_path": os.path.join(output_folder, f"{file_name}_pg_sep.tex"),
         "bib_path": os.path.join(output_folder, f"{file_name}_pg_sep_bib.tex"),
         "final_path": os.path.join(output_folder, f"{file_name}_cleaned_final.tex"),
@@ -139,7 +144,10 @@ def run_pipeline(
     if 1 not in skip_steps:
         try:
             book_pdf, latex_with_pages, page_numbers = create_page_separators(
-                paths["book_path"], current_tex_path, paths["pg_sep_path"], paths["output_folder"]
+                paths["book_path"],
+                current_tex_path,
+                paths["pg_sep_path"],
+                paths["output_folder"],
             )
             current_tex_path = paths["pg_sep_path"]
             results["steps_completed"].append(1)
