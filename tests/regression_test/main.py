@@ -303,8 +303,8 @@ def main():
     parser.add_argument("--all", action="store_true", help="Test all discovered books")
     parser.add_argument(
         "--scoring-method",
-        default="similarity",
-        help="Scoring method to use (default: similarity)",
+        default="diff",
+        help="Scoring method to use (default: diff)",
     )
     parser.add_argument(
         "--output-dir",
