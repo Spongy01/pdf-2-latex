@@ -1,0 +1,20 @@
+{
+  "scoring_method": "multi-metric",
+  "timestamp": "2025-09-27T22:51:12.224340",
+  "total_books": 1,
+  "valid_books": 1,
+  "average_score": 64.9,
+  "results": [
+    {
+      "book_name": "data-science",
+      "input_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/inputs/data-science.tex",
+      "output_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/outputs/data-science_final_indexed.tex",
+      "scoring_method": "multi-metric",
+      "timestamp": "2025-09-27T22:51:12.220179",
+      "valid": true,
+      "score": 64.9,
+      "details": {},
+      "error": null
+    }
+  ]
+}

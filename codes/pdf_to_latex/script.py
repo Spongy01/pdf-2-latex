@@ -31,6 +31,7 @@ from gpt_script import format_with_gpt
 from bib import process_bibliography
 from page_separator_v2 import create_page_separators
 from cleaner import clean_it_up
+import subprocess
 
 
 def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
@@ -66,6 +67,7 @@ def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
     #     print(f"Copied {tex_file_path} -> {tex_path}")
 
     # Return paths
+
     paths = {
         "book_path": book_path,
         "tex_path": tex_path,
@@ -207,7 +209,7 @@ def run_pipeline(
             current_tex_path = create_indexing(
                 index_path, current_tex_path, paths["book_path"], paths["indexed_path"]
             )
-            results["steps_completed"].append(4)
+            results["steps_completed"].append(5)
             results["indexing_output"] = current_tex_path
         except Exception as e:
             print(f"Error in Step 5 (Indexing): {e}")
@@ -222,6 +224,18 @@ def run_pipeline(
     print(f"\nPDF to LaTeX conversion pipeline completed in {duration}")
     print(f"Steps completed: {results['steps_completed']}")
     print(f"Final output: {results['final_output']}")
+
+    print("Compiling the final LaTeX document to a PDF...")
+    compile_result = subprocess.run([
+    "latexmk",
+    f"-outdir={paths['output_folder']}",
+    results['final_output']
+    ],
+    capture_output=True, text=True
+    )
+    
+    # print("stdout:\n", compile_result.stdout)
+    # print("stderr:\n", compile_result.stderr)
 
     return results
 

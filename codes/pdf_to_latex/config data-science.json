@@ -4,7 +4,7 @@
     "bib": "../../files/data-science/inputs/data-science-bib.pdf",
     "index": "../../files/data-science/inputs/data-science-index.pdf",
     "output":"../../files/data-science/outputs/",
-    "filename": "data-science-book",
+    "filename": "data-science",
     "batch_size": 600,
     "sequential": false,
     "skip": []
