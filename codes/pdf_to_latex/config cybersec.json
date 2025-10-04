@@ -1,0 +1,10 @@
+{
+    "book": "../../files/cybersec/inputs/cybersec.pdf",
+    "tex": "../../files/cybersec/inputs/cybersec.tex",
+    "bib": "../../files/cybersec/inputs/cybersec-bib.pdf",
+    "index": "../../files/cybersec/inputs/cybersec-index.pdf",
+    "output":"../../files/cybersec/outputs/",
+    "batch_size": 600,
+    "sequential": false,
+    "skip": []
+}

@@ -1,8 +1,8 @@
 {
-    "book": "../../files/ai/inputs/ai_book.pdf",
+    "book": "../../files/ai/inputs/ai.pdf",
     "tex": "../../files/ai/inputs/ai.tex",
-    "bib": "../../files/ai/inputs/ai_book_bib.pdf",
-    "index": "../../files/ai/inputs/ai_book_index.pdf",
+    "bib": "../../files/ai/inputs/ai_bib.pdf",
+    "index": "../../files/ai/inputs/ai_index.pdf",
     "output":"../../files/ai/outputs/",
     "batch_size": 600,
     "sequential": false,

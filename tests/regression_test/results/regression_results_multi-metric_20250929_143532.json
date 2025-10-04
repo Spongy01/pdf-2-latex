@@ -1,0 +1,37 @@
+{
+  "scoring_method": "multi-metric",
+  "timestamp": "2025-09-29T14:35:32.753191",
+  "total_books": 1,
+  "valid_books": 1,
+  "average_score": 0.0,
+  "results": [
+    {
+      "book_name": "algorithms",
+      "input_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/inputs/algorithms.tex",
+      "output_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/algorithms_final_indexed.tex",
+      "scoring_method": "multi-metric",
+      "timestamp": "2025-09-29T14:35:32.747699",
+      "valid": true,
+      "score": 0.0,
+      "details": {
+        "Score": -80.9,
+        "Latex Errors": 5,
+        "Latex Warnings": 4,
+        "Bibtex (metadata)": -1,
+        "Bibtex extracted (json)": 61,
+        "Entries Cited": 42,
+        "Chapters (metadata)": 22,
+        "Chapters (output)": 9,
+        "Sections (metadata)": 200,
+        "Sections (output)": 88,
+        "Subsections (metadata)": 126,
+        "Subsections (output)": 220,
+        "Figures (metadata)": 251,
+        "Figures (output)": 158,
+        "Tables (metadata)": 32,
+        "Tables (output)": 7
+      },
+      "error": null
+    }
+  ]
+}

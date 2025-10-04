@@ -94,7 +94,7 @@ class RegressionTester:
         """Validate that required book files exist"""
         book_dir = self.files_dir / book_name
         input_file = book_dir / "inputs" / f"{book_name}.tex"
-        output_file = book_dir / "outputs" / f"{book_name}_final_indexed.tex"
+        output_file = book_dir / "outputs" / f"{book_name}_cleaned.tex"
 
         errors = []
         if not book_dir.exists():
@@ -122,7 +122,7 @@ class RegressionTester:
             if item.is_dir():
                 # Check if it has the expected structure
                 input_file = item / "inputs" / f"{item.name}.tex"
-                output_file = item / "outputs" / f"{item.name}_final_indexed.tex"
+                output_file = item / "outputs" / f"{item.name}_cleaned.tex"
                 if input_file.exists() and output_file.exists():
                     books.append(item.name)
 

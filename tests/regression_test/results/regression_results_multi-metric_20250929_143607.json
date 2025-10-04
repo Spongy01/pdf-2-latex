@@ -1,0 +1,37 @@
+{
+  "scoring_method": "multi-metric",
+  "timestamp": "2025-09-29T14:36:07.836902",
+  "total_books": 1,
+  "valid_books": 1,
+  "average_score": 0.0,
+  "results": [
+    {
+      "book_name": "cybersec",
+      "input_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/inputs/cybersec.tex",
+      "output_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/outputs/cybersec_final_indexed.tex",
+      "scoring_method": "multi-metric",
+      "timestamp": "2025-09-29T14:36:07.832578",
+      "valid": true,
+      "score": 0.0,
+      "details": {
+        "Score": -89.1,
+        "Latex Errors": 0,
+        "Latex Warnings": 1,
+        "Bibtex (metadata)": -1,
+        "Bibtex extracted (json)": 101,
+        "Entries Cited": 19,
+        "Chapters (metadata)": 21,
+        "Chapters (output)": 16,
+        "Sections (metadata)": 80,
+        "Sections (output)": 177,
+        "Subsections (metadata)": 169,
+        "Subsections (output)": 268,
+        "Figures (metadata)": 93,
+        "Figures (output)": 158,
+        "Tables (metadata)": 49,
+        "Tables (output)": 19
+      },
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+\xpg@aux {}{english}
+\contentsline {section}{\numberline {0.1}to Assembly}{7}{section.0.1}%
+\contentsline {section}{\numberline {0.2}A Concise Introduction}{7}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Advisory Editors}{7}{section.0.3}%
+\contentsline {section}{\numberline {0.4}Guide to Assembly Language }{8}{section.0.4}%
+\contentsline {section}{\numberline {0.5}Purpose}{8}{section.0.5}%
+\contentsline {section}{\numberline {0.6}Need}{9}{section.0.6}%
+\contentsline {section}{\numberline {0.7}Importance of Assembly Language}{9}{section.0.7}%
+\contentsline {section}{\numberline {0.8}Comparison to Computer Organization and Other Assembly Language Textbooks}{9}{section.0.8}%
+\contentsline {section}{\numberline {0.9}Features of This Text}{10}{section.0.9}%
+\contentsline {section}{\numberline {0.10}Features New to the Second Edition}{10}{section.0.10}%
+\contentsline {section}{\numberline {0.11}Brief Overview of the Chapters and Appendices}{11}{section.0.11}%
+\contentsline {section}{\numberline {0.12}Scope}{13}{section.0.12}%
+\contentsline {section}{\numberline {0.13}Audience}{13}{section.0.13}%
+\contentsline {section}{\numberline {0.14}Acknowledgements}{13}{section.0.14}%
+\contentsline {section}{\numberline {0.15}Feedback}{14}{section.0.15}%
+\contentsline {chapter}{\numberline {1}Iteration Structures}{17}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Pre-test Loop Structure}{17}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Post-test Loop Structures}{20}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Fixed-Iteration Loop Structures}{22}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Loops and Input/Output}{25}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Nested Loops}{29}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Complete Program: Implementing the Power Function}{31}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Summary}{33}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Exercises (Items Marked with an * Have Solutions in Appendix D)}{33}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Introduction}{36}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Logic Instructions}{37}{section.1.10}%
+\contentsline {section}{\numberline {1.11}Logical Shift Instructions}{41}{section.1.11}%
+\contentsline {section}{\numberline {1.12}Arithmetic Shift Instructions}{45}{section.1.12}%
+\contentsline {section}{\numberline {1.13}Rotate Instructions}{48}{section.1.13}%
+\contentsline {section}{\numberline {1.14}Stack Operations}{50}{section.1.14}%
+\contentsline {section}{\numberline {1.15}Swapping Using Registers, the Stack, and the xchg Instruction}{52}{section.1.15}%
+\contentsline {section}{\numberline {1.16}Complete Program: Simulating an OCR Machine}{54}{section.1.16}%
+\contentsline {section}{\numberline {1.17}Sample Input/Output}{56}{section.1.17}%
+\contentsline {section}{\numberline {1.18}Summary}{57}{section.1.18}%
+\contentsline {section}{\numberline {1.19}Exercises (Items Marked with an * Have Solutions in Appendix D)}{58}{section.1.19}%
+\contentsline {section}{\numberline {1.20}Procedures and Macros}{59}{section.1.20}%
+\contentsline {section}{\numberline {1.21}Procedures}{59}{section.1.21}%
+\contentsline {section}{\numberline {1.22}Complete Program: Implementing the Power Function in a Procedure}{63}{section.1.22}%
+\contentsline {section}{\numberline {1.23}Saving and Restoring Registers}{66}{section.1.23}%
+\contentsline {section}{\numberline {1.24}Macros}{67}{section.1.24}%
+\contentsline {section}{\numberline {1.25}Conditional Assembly}{73}{section.1.25}%
+\contentsline {section}{\numberline {1.26}Swap Macro Revisited Using Conditional Assembly}{76}{section.1.26}%
+\contentsline {section}{\numberline {1.27}Power Function Macro Using Conditional Assembly}{79}{section.1.27}%
+\contentsline {section}{\numberline {1.28}Complete Program: Implementing a Macro Calculator}{82}{section.1.28}%
+\contentsline {section}{\numberline {1.29}Summary}{88}{section.1.29}%
+\contentsline {section}{\numberline {1.30}Exercises (Items Marked with an * Have Solutions in Appendix D)}{89}{section.1.30}%
+\contentsline {section}{\numberline {1.31}Arrays}{90}{section.1.31}%
+\contentsline {section}{\numberline {1.32}Array Declaration and Addressing}{90}{section.1.32}%
+\contentsline {section}{\numberline {1.33}Indexing Using the Base Register}{93}{section.1.33}%
+\contentsline {section}{\numberline {1.34}Searching}{96}{section.1.34}%
+\contentsline {section}{\numberline {1.35}Indexing Using the esi and edi Registers}{99}{section.1.35}%
+\contentsline {section}{\numberline {1.36}Lengthof and Sizeof Operators}{104}{section.1.36}%
+\contentsline {section}{\numberline {1.37}Complete Program: Implementing a Queue}{105}{section.1.37}%
+\contentsline {section}{\numberline {1.38}Complete Program: Implementing the Selection Sort}{113}{section.1.38}%
+\contentsline {section}{\numberline {1.39}Summary}{117}{section.1.39}%
+\contentsline {section}{\numberline {1.40}Exercises (Items Marked with an * Have Solutions in Appendix D)}{117}{section.1.40}%
+\contentsline {section}{\numberline {1.41}Introduction}{119}{section.1.41}%
+\contentsline {section}{\numberline {1.42}String Instructions: Moving Strings (movsb)}{120}{section.1.42}%
+\contentsline {section}{\numberline {1.43}String Instructions: Scanning (scasb), Storing (stosb), and Loading (lodsb)}{124}{section.1.43}%
+\contentsline {section}{\numberline {1.44}Array of Strings}{125}{section.1.44}%
+\contentsline {section}{\numberline {1.45}names1}{126}{section.1.45}%
+\contentsline {section}{\numberline {1.46}String Instructions: Comparing Strings (cmpsb)}{127}{section.1.46}%
+\contentsline {section}{\numberline {1.47}Complete Program: Searching an Array of Strings}{131}{section.1.47}%
+\contentsline {section}{\numberline {1.48}Summary}{133}{section.1.48}%
+\contentsline {section}{\numberline {1.49}Exercises (Items Marked with an * Have Solutions in Appendix D)}{134}{section.1.49}%
+\contentsline {subsection}{\numberline {1.49.1}Floating-Point Instructions}{135}{subsection.1.49.1}%
+\contentsline {section}{\numberline {1.50}Memory Storage}{135}{section.1.50}%
+\contentsline {section}{\numberline {1.51}Floating-Point Register Stack}{136}{section.1.51}%
+\contentsline {section}{\numberline {1.52}Pushing and Popping}{136}{section.1.52}%
+\contentsline {section}{\numberline {1.53}Simple Arithmetic Expressions}{137}{section.1.53}%
+\contentsline {section}{\numberline {1.54}Complex Arithmetic Expressions}{139}{section.1.54}%
+\contentsline {section}{\numberline {1.55}Mixing Floating-Point and Integers}{141}{section.1.55}%
+\contentsline {section}{\numberline {1.56}Input/Output}{144}{section.1.56}%
+\contentsline {subsection}{\numberline {1.56.1}float and real4}{144}{subsection.1.56.1}%
+\contentsline {subsection}{\numberline {1.56.2}double and real8}{145}{subsection.1.56.2}%
+\contentsline {subsection}{\numberline {1.56.3}long double and real10}{147}{subsection.1.56.3}%
+\contentsline {subsection}{\numberline {1.56.4}Inline Assembly}{148}{subsection.1.56.4}%
+\contentsline {section}{\numberline {1.57}Comparisons and Selection Structures}{148}{section.1.57}%
+\contentsline {section}{\numberline {1.58}Complete Program: Implementing an Iteration Structure}{151}{section.1.58}%
+\contentsline {section}{\numberline {1.59}Complete Program: Implementing an Array}{153}{section.1.59}%
+\contentsline {section}{\numberline {1.60}Summary}{155}{section.1.60}%
+\contentsline {section}{\numberline {1.61}Exercises (Items Marked with an * Have Solutions in Appendix D)}{156}{section.1.61}%
+\contentsline {section}{\numberline {1.62}-Bit Processing}{157}{section.1.62}%
+\contentsline {section}{\numberline {1.63}Four General Purpose Registers}{158}{section.1.63}%
+\contentsline {section}{\numberline {1.64}Other 64-Bit Registers}{161}{section.1.64}%
+\contentsline {subsection}{\numberline {1.64.1}-Bit Integer Output}{161}{subsection.1.64.1}%
+\contentsline {subsection}{\numberline {1.64.2}-Bit Integer Input}{165}{subsection.1.64.2}%
+\contentsline {section}{\numberline {1.65}Logic and Arithmetic Applications}{167}{section.1.65}%
+\contentsline {subsection}{\numberline {1.65.1}Shift and Rotate}{167}{subsection.1.65.1}%
+\contentsline {subsection}{\numberline {1.65.2}Logic}{168}{subsection.1.65.2}%
+\contentsline {subsection}{\numberline {1.65.3}Arithmetic}{169}{subsection.1.65.3}%
+\contentsline {section}{\numberline {1.66}Control Structures}{170}{section.1.66}%
+\contentsline {section}{\numberline {1.67}Arrays}{173}{section.1.67}%
+\contentsline {section}{\numberline {1.68}Procedures and Macros}{173}{section.1.68}%
+\contentsline {subsection}{\numberline {1.68.1}Calling 64-Bit Procedures}{173}{subsection.1.68.1}%
+\contentsline {subsection}{\numberline {1.68.2}Using a Macro to Call printf}{175}{subsection.1.68.2}%
+\contentsline {section}{\numberline {1.69}Complete Program: Reversing an Array}{177}{section.1.69}%
+\contentsline {section}{\numberline {1.70}Summary}{179}{section.1.70}%
+\contentsline {section}{\numberline {1.71}Exercises (Items Marked with an * Have Solutions in Appendix D)}{179}{section.1.71}%
+\contentsline {section}{\numberline {1.72}Introduction}{181}{section.1.72}%
+\contentsline {section}{\numberline {1.73}inc and dec Instructions}{181}{section.1.73}%
+\contentsline {section}{\numberline {1.74}mov Instruction}{183}{section.1.74}%
+\contentsline {section}{\numberline {1.75}add and sub Instructions}{187}{section.1.75}%
+\contentsline {section}{\numberline {1.76}mov offset and lea Instructions}{189}{section.1.76}%
+\contentsline {section}{\numberline {1.77}jmp Instructions}{190}{section.1.77}%
+\contentsline {section}{\numberline {1.78}Instruction Timings}{192}{section.1.78}%
+\contentsline {section}{\numberline {1.79}Floating-Point and 64-Bit Instructions}{193}{section.1.79}%
+\contentsline {subsection}{\numberline {1.79.1}Floating-Point Instructions}{193}{subsection.1.79.1}%
+\contentsline {subsection}{\numberline {1.79.2}-Bit Instructions}{193}{subsection.1.79.2}%
+\contentsline {subsection}{\numberline {1.79.3}Memory Addressing}{196}{subsection.1.79.3}%
+\contentsline {section}{\numberline {1.80}Complete Program: 32-Bit Assembly Listing}{197}{section.1.80}%
+\contentsline {section}{\numberline {1.81}Complete Program: Floating-Point and 64-Bit Assembly Listing}{199}{section.1.81}%
+\contentsline {section}{\numberline {1.82}Summary}{201}{section.1.82}%
+\contentsline {section}{\numberline {1.83}Exercises (Items Marked with an * Have Solutions in Appendix D)}{201}{section.1.83}%
+\contentsline {section}{\numberline {1.84}Appendix A: Directions for MASM in Visual Studio 2019 Community Edition}{204}{section.1.84}%
+\contentsline {section}{\numberline {1.85}A. 1 C Programs with Inline Assembly}{204}{section.1.85}%
+\contentsline {section}{\numberline {1.86}A. 2 32-Bit Integer and Floating-Point MASM Programs}{205}{section.1.86}%
+\contentsline {section}{\numberline {1.87}A. 3 64-Bit Integer MASM Programs}{206}{section.1.87}%
+\contentsline {section}{\numberline {1.88}A. 4 MASM Assembly Listings (.1st File)}{207}{section.1.88}%
+\contentsline {section}{\numberline {1.89}Appendix B: Binary, Hexadecimal, Logic, Arithmetic, and Data Representation}{208}{section.1.89}%
+\contentsline {section}{\numberline {1.90}B. 1 Decimal and Binary Numbers}{208}{section.1.90}%
+\contentsline {section}{\numberline {1.91}B. 2 Hexadecimal Numbers}{210}{section.1.91}%
+\contentsline {section}{\numberline {1.92}B. 3 Overview of Logic}{212}{section.1.92}%
+\contentsline {section}{\numberline {1.93}B. 4 Unsigned Numbers and Addition}{214}{section.1.93}%
+\contentsline {section}{\numberline {1.94}B. 5 Signed Numbers}{216}{section.1.94}%
+\contentsline {section}{\numberline {1.95}B. 6 Addition and Subtraction of Signed Numbers}{218}{section.1.95}%
+\contentsline {section}{\numberline {1.96}B. 7 Floating-Point Numbers}{220}{section.1.96}%
+\contentsline {section}{\numberline {1.97}B. 8 Characters}{224}{section.1.97}%
+\contentsline {section}{\numberline {1.98}B. 9 Hex/ASCII Table}{226}{section.1.98}%
+\contentsline {section}{\numberline {1.99}B. 10 Summary}{226}{section.1.99}%
+\contentsline {section}{\numberline {1.100}B. 11 Exercises (Items Marked with an * Have Solutions in Appendix D)}{227}{section.1.100}%
+\contentsline {section}{\numberline {1.101}Appendix C: Selected Assembly Language Instructions}{230}{section.1.101}%
+\contentsline {section}{\numberline {1.102}Chapter 1}{238}{section.1.102}%
+\contentsline {section}{\numberline {1.103}Chapter 2}{239}{section.1.103}%
+\contentsline {section}{\numberline {1.104}Chapter 3}{239}{section.1.104}%
+\contentsline {section}{\numberline {1.105}Chapter 5}{240}{section.1.105}%
+\contentsline {section}{\numberline {1.106}Chapter 6}{241}{section.1.106}%
+\contentsline {section}{\numberline {1.107}Chapter 7}{241}{section.1.107}%
+\contentsline {section}{\numberline {1.108}Chapter 8}{241}{section.1.108}%
+\contentsline {section}{\numberline {1.109}Chapter 9}{241}{section.1.109}%
+\contentsline {section}{\numberline {1.110}Chapter10}{242}{section.1.110}%
+\contentsline {section}{\numberline {1.111}Chapter11}{242}{section.1.111}%
+\contentsline {section}{\numberline {1.112}Chapter12}{242}{section.1.112}%
+\contentsline {section}{\numberline {1.113}Appendix B}{242}{section.1.113}%
+\contentsline {section}{\numberline {1.114}Glossary}{243}{section.1.114}%
+\contentsline {chapter}{\numberline {2}References}{247}{chapter.2}%
+\contentsline {section}{\numberline {2.1}A}{247}{section.2.1}%
+\contentsline {section}{\numberline {2.2}B}{248}{section.2.2}%
+\contentsline {section}{\numberline {2.3}C}{248}{section.2.3}%
+\contentsline {section}{\numberline {2.4}D}{249}{section.2.4}%
+\contentsline {section}{\numberline {2.5}E}{249}{section.2.5}%
+\contentsline {section}{\numberline {2.6}F}{250}{section.2.6}%
+\contentsline {section}{\numberline {2.7}H}{250}{section.2.7}%
+\contentsline {section}{\numberline {2.8}I}{250}{section.2.8}%
+\contentsline {section}{\numberline {2.9}J}{251}{section.2.9}%
+\contentsline {section}{\numberline {2.10}L}{252}{section.2.10}%
+\contentsline {section}{\numberline {2.11}M}{252}{section.2.11}%
+\contentsline {section}{\numberline {2.12}N}{252}{section.2.12}%
+\contentsline {section}{\numberline {2.13}O}{253}{section.2.13}%
+\contentsline {section}{\numberline {2.14}P}{253}{section.2.14}%
+\contentsline {section}{\numberline {2.15}Q}{253}{section.2.15}%
+\contentsline {section}{\numberline {2.16}R}{253}{section.2.16}%
+\contentsline {section}{\numberline {2.17}S}{254}{section.2.17}%
