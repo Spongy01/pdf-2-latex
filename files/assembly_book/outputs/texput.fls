@@ -1,5 +1,0 @@
-PWD /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/codes/pdf_to_latex
-INPUT /usr/local/texlive/2025/texmf.cnf
-INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt
-OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly_book/outputs/texput.log

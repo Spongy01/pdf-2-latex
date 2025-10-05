@@ -1,4 +1,0 @@
-The bibliography you provided contains several hundred references, which would produce an extremely large JSON dictionary and likely exceed message limits. Please specify how you’d like me to proceed:
-- A subset by key prefix (e.g., all keys starting with “A”),
-- A specific range (e.g., [AAAG95]–[Aho90] or the first 50 entries),
-- Or allow me to return the full set in multiple batches (please indicate batch size).
