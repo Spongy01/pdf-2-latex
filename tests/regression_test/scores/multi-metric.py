@@ -99,6 +99,13 @@ def calculate_score(input_file_path: str, output_file_path: str) -> float:
     print("Output - ", end="")
     print(f"Figures: {num_figures_out}, Tables: {num_tables_out}")  
 
+    # get index entries from metadata
+    num_index_entries = metadata.get("index_entries", -1)
+    # caluclate index entries in output file
+    num_index_entries_out = len(re.findall(r'\\index\{', output_content))
+    print("Index Entries - ", end="")
+    print(f"Metadata: {num_index_entries}, Output: {num_index_entries_out}")
+
     # --- Compute Score ---
     score = 100.0
     
@@ -133,6 +140,11 @@ def calculate_score(input_file_path: str, output_file_path: str) -> float:
         if num_tables != num_tables_out:
             score -= abs(num_tables - num_tables_out) * 0.5  # each mismatch costs 0.5 points
 
+    # Deduct points for index entries mismatches
+    if num_index_entries != -1:
+        if num_index_entries != num_index_entries_out:
+            score -= abs(num_index_entries - num_index_entries_out) * 0.2  # each mismatch costs 0.2 points
+
     # Ensure score is within 0-100
     # score = max(0.0,  score)
     result = {}
@@ -152,5 +164,7 @@ def calculate_score(input_file_path: str, output_file_path: str) -> float:
     result["Figures (output)"] = num_figures_out
     result["Tables (metadata)"] = num_tables
     result["Tables (output)"] = num_tables_out
+    result["Index Entries (metadata)"] = num_index_entries
+    result["Index Entries (output)"] = num_index_entries_out
     return result
 

@@ -34,6 +34,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
 import logging
+import csv
 
 # Setup logging
 logging.basicConfig(
@@ -108,6 +109,38 @@ class RegressionTester:
             for error in errors:
                 logger.error(error)
             return False, str(input_file), str(output_file)
+        
+        # check for results.csv
+        results_csv = book_dir / "outputs" / "results.csv"
+        if not results_csv.exists():
+            # create an empty results.csv file
+            headers = [
+                "book_name",
+                "scoring_method",
+                "timestamp",
+                "Score",
+                "Latex Errors",
+                "Latex Warnings",
+                "Bibtex (metadata)",
+                "Bibtex extracted (json)",
+                "Entries Cited",
+                "Chapters (metadata)",
+                "Chapters (output)",
+                "Sections (metadata)",
+                "Sections (output)",
+                "Subsections (metadata)",
+                "Subsections (output)",
+                "Figures (metadata)",
+                "Figures (output)",
+                "Tables (metadata)",
+                "Tables (output)",
+                "Index Entries (metadata)",
+                "Index Entries (output)"
+            ]
+
+            with open(results_csv, "w", newline='') as csvfile:
+                writer = csv.writer(csvfile)
+                writer.writerow(headers)
 
         return True, str(input_file), str(output_file)
 
@@ -195,9 +228,37 @@ class RegressionTester:
 
         for book_name in book_names:
             result = self.test_book(book_name)
+            self.append_to_csv(book_name, result)
             results.append(result)
 
         return results
+    
+    def append_to_csv(self, book_name: str, result: Dict) -> None:
+        """Append individual book result to results.csv"""
+        book_dir = self.files_dir / book_name
+        results_csv = book_dir / "outputs" / "results.csv"
+
+        if not results_csv.exists():
+            logger.error(f"Results CSV file does not exist: {results_csv}")
+            return
+
+        # Prepare row data
+        row = [
+            result.get("book_name", ""),
+            result.get("scoring_method", ""),
+            result.get("timestamp", "")
+        ]
+        details = result.get("details", {})
+        for key in details:
+            row.append(details.get(key, -1))
+        # Append to CSV
+        try:
+            with open(results_csv, "a", newline='') as csvfile:
+                writer = csv.writer(csvfile)
+                writer.writerow(row)
+            logger.info(f"Appended results to CSV: {results_csv}")
+        except Exception as e:
+            logger.error(f"Error appending to CSV {results_csv}: {e}")
 
     def save_results(self, results: List[Dict], filename: str = None) -> str:
         """Save results to JSON file"""
