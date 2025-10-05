@@ -69,9 +69,9 @@
 \maketitle
 \tableofcontents
 
-\section{\textbf{TEXTS IN COMPUTER SCIENCE}}
-\section{\textbf{THE}}
-\section{\textbf{Data Science Design}}
+\section*{\textbf{TEXTS IN COMPUTER SCIENCE}}
+\section*{\textbf{THE}}
+\section*{\textbf{Data Science Design}}
 \textbf{MANUAL}
 
 \begin{figure}[htbp]
@@ -79,11 +79,11 @@
 \includegraphics[width=\textwidth]{2025_03_17_ca60ec0bfd96dcf8e028g-001}
 \end{figure}
 
-\section{Steven S. Slaiena}
+\section*{Steven S. Slaiena}
 A) Springer
 
-\section{\textbf{Steven S. Skiena}}
-\section{The Data Science Design Manual}
+\section*{\textbf{Steven S. Skiena}}
+\section*{The Data Science Design Manual}
 Springer
 %---- Page End Break Here ---- Page : 4
 ISSN 1868-0941\\
@@ -104,7 +104,7 @@ This Springer imprint is published by Springer Nature\\
 The registered company is Springer International Publishing AG\\
 The registered company address is: Gewerbestrasse 11, 6330 Cham, Switzerland
 
-\chapter{Preface}
+\section{Preface}
 Making sense of the world around us requires obtaining and analyzing data from our environment. Several technology trends have recently collided, providing new opportunities to apply our data analysis savvy to greater challenges than ever before.
 %---- Page End Break Here ---- Page : 5
 Computer storage capacity has increased exponentially; indeed remembering has become so cheap that it is almost impossible to get computer systems to forget. Sensing devices increasingly monitor everything that can be observed: video streams, social media interactions, and the position of anything that moves. Cloud computing enables us to harness the power of massive numbers of machines to manipulate this data. Indeed, hundreds of computers are summoned each time you do a Google search, scrutinizing all of your previous activity just to decide which is the best ad to show you next.
@@ -185,9 +185,311 @@ If you have a procedure with ten parameters, you probably missed some.
 \section{Caveat}
 It is traditional for the author to magnanimously accept the blame for whatever deficiencies remain. I don't. Any errors, deficiencies, or problems in this book are somebody else's fault, but I would appreciate knowing about them so as to determine who is to blame.
 
-\tableofcontents
-
-\chapter{What is Data Science?}
+\section{Contents}
+1 What is Data Science? ..... 1\\
+1.1 Computer Science, Data Science, and Real Science ..... 2\\
+1.2 Asking Interesting Questions from Data ..... 4\\
+1.2.1 The Baseball Encyclopedia ..... 5\\
+1.2.2 The Internet Movie Database (IMDb) ..... 7\\
+1.2.3 Google Ngrams ..... 10\\
+1.2.4 New York Taxi Records ..... 11\\
+1.3 Properties of Data ..... 14\\
+1.3.1 Structured vs. Unstructured Data ..... 14\\
+1.3.2 Quantitative vs. Categorical Data ..... 15\\
+1.3.3 Big Data vs. Little Data ..... 15\\
+1.4 Classification and Regression ..... 16\\
+1.5 Data Science Television: The Quant Shop ..... 17\\
+1.5.1 Kaggle Challenges ..... 19\\
+1.6 About the War Stories ..... 19\\
+1.7 War Story: Answering the Right Question ..... 21\\
+1.8 Chapter Notes ..... 22\\
+1.9 Exercises ..... 23\\
+2 Mathematical Preliminaries ..... 27\\
+2.1 Probability ..... 27\\
+2.1.1 Probability vs. Statistics ..... 29\\
+2.1.2 Compound Events and Independence ..... 30\\
+2.1.3 Conditional Probability ..... 31\\
+2.1.4 Probability Distributions ..... 32\\
+2.2 Descriptive Statistics ..... 34\\
+2.2.1 Centrality Measures ..... 34\\
+2.2.2 Variability Measures ..... 36\\
+2.2.3 Interpreting Variance ..... 37\\
+2.2.4 Characterizing Distributions ..... 39\\
+2.3 Correlation Analysis ..... 40\\
+2.3.1 Correlation Coefficients: Pearson and Spearman Rank ..... 41\\
+2.3.2 The Power and Significance of Correlation ..... 43\\
+2.3.3 Correlation Does Not Imply Causation! ..... 45\\
+%---- Page End Break Here ---- Page : 12
+2.3.4 Detecting Periodicities by Autocorrelation ..... 46\\
+2.4 Logarithms ..... 47\\
+2.4.1 Logarithms and Multiplying Probabilities ..... 48\\
+2.4.2 Logarithms and Ratios ..... 48\\
+2.4.3 Logarithms and Normalizing Skewed Distributions ..... 49\\
+2.5 War Story: Fitting Designer Genes ..... 50\\
+2.6 Chapter Notes ..... 52\\
+2.7 Exercises ..... 53\\
+\textbf{3} \textbf{Data Munging} ..... \textbf{57}\\
+3.1 Languages for Data Science ..... 57\\
+3.1.1 The Importance of Notebook Environments ..... 59\\
+3.1.2 Standard Data Formats ..... 61\\
+3.2 Collecting Data ..... 64\\
+3.2.1 Hunting ..... 64\\
+3.2.2 Scraping ..... 67\\
+3.2.3 Logging ..... 68\\
+3.3 Cleaning Data ..... 69\\
+3.3.1 Errors vs. Artifacts ..... 69\\
+3.3.2 Data Compatibility ..... 72\\
+3.3.3 Dealing with Missing Values ..... 76\\
+3.3.4 Outlier Detection ..... 78\\
+3.4 War Story: Beating the Market ..... 79\\
+3.5 Crowdsourcing ..... 80\\
+3.5.1 The Penny Demo ..... 81\\
+3.5.2 When is the Crowd Wise? ..... 82\\
+3.5.3 Mechanisms for Aggregation ..... 83\\
+3.5.4 Crowdsourcing Services ..... 84\\
+3.5.5 Gamification ..... 88\\
+3.6 Chapter Notes ..... 90\\
+3.7 Exercises ..... 90\\
+\textbf{4} \textbf{Scores and Rankings} ..... \textbf{95}\\
+4.1 The Body Mass Index (BMI) ..... 96\\
+4.2 Developing Scoring Systems ..... 99\\
+4.2.1 Gold Standards and Proxies ..... 99\\
+4.2.2 Scores vs. Rankings ..... 100\\
+4.2.3 Recognizing Good Scoring Functions ..... 101\\
+4.3 Z-scores and Normalization ..... 103\\
+4.4 Advanced Ranking Techniques ..... 104\\
+4.4.1 Elo Rankings ..... 104\\
+4.4.2 Merging Rankings ..... 108\\
+4.4.3 Digraph-based Rankings ..... 109\\
+4.4.4 PageRank ..... 111\\
+4.5 War Story: Clyde's Revenge ..... 111\\
+4.6 Arrow's Impossibility Theorem ..... 114\\
+%---- Page End Break Here ---- Page : 13
+4.7 War Story: Who's Bigger? ..... 115\\
+4.8 Chapter Notes ..... 118\\
+4.9 Exercises ..... 119\\
+\textbf{5 Statistical Analysis} ..... \textbf{121}\\
+5.1 Statistical Distributions ..... 122\\
+5.1.1 The Binomial Distribution ..... 123\\
+5.1.2 The Normal Distribution ..... 124\\
+5.1.3 Implications of the Normal Distribution ..... 126\\
+5.1.4 Poisson Distribution ..... 127\\
+5.1.5 Power Law Distributions ..... 129\\
+5.2 Sampling from Distributions ..... 132\\
+5.2.1 Random Sampling beyond One Dimension ..... 133\\
+5.3 Statistical Significance ..... 135\\
+5.3.1 The Significance of Significance ..... 135\\
+5.3.2 The T-test: Comparing Population Means ..... 137\\
+5.3.3 The Kolmogorov-Smirnov Test ..... 139\\
+5.3.4 The Bonferroni Correction ..... 141\\
+5.3.5 False Discovery Rate ..... 142\\
+5.4 War Story: Discovering the Fountain of Youth? ..... 143\\
+5.5 Permutation Tests and P-values ..... 145\\
+5.5.1 Generating Random Permutations ..... 147\\
+5.5.2 DiMaggio's Hitting Streak ..... 148\\
+5.6 Bayesian Reasoning ..... 150\\
+5.7 Chapter Notes ..... 151\\
+5.8 Exercises ..... 151\\
+\textbf{6 Visualizing Data} ..... \textbf{155}\\
+6.1 Exploratory Data Analysis ..... 156\\
+6.1.1 Confronting a New Data Set ..... 156\\
+6.1.2 Summary Statistics and Anscombe's Quartet ..... 159\\
+6.1.3 Visualization Tools ..... 160\\
+6.2 Developing a Visualization Aesthetic ..... 162\\
+6.2.1 Maximizing Data-Ink Ratio ..... 163\\
+6.2.2 Minimizing the Lie Factor ..... 164\\
+6.2.3 Minimizing Chartjunk ..... 165\\
+6.2.4 Proper Scaling and Labeling ..... 167\\
+6.2.5 Effective Use of Color and Shading ..... 168\\
+6.2.6 The Power of Repetition ..... 169\\
+6.3 Chart Types ..... 170\\
+6.3.1 Tabular Data ..... 170\\
+6.3.2 Dot and Line Plots ..... 174\\
+6.3.3 Scatter Plots ..... 177\\
+6.3.4 Bar Plots and Pie Charts ..... 179\\
+6.3.5 Histograms ..... 183\\
+6.3.6 Data Maps ..... 187\\
+%---- Page End Break Here ---- Page : 14
+6.4 Great Visualizations ..... 189\\
+6.4.1 Marey's Train Schedule ..... 189\\
+6.4.2 Snow's Cholera Map ..... 191\\
+6.4.3 New York's Weather Year ..... 192\\
+6.5 Reading Graphs ..... 192\\
+6.5.1 The Obscured Distribution ..... 193\\
+6.5.2 Overinterpreting Variance ..... 193\\
+6.6 Interactive Visualization ..... 195\\
+6.7 War Story: TextMapping the World ..... 196\\
+6.8 Chapter Notes ..... 198\\
+6.9 Exercises ..... 199\\
+\textbf{7 Mathematical Models ..... 201}\\
+7.1 Philosophies of Modeling ..... 201\\
+7.1.1 Occam's Razor ..... 201\\
+7.1.2 Bias-Variance Trade-Offs ..... 202\\
+7.1.3 What Would Nate Silver Do? ..... 203\\
+7.2 A Taxonomy of Models ..... 205\\
+7.2.1 Linear vs. Non-Linear Models ..... 206\\
+7.2.2 Blackbox vs. Descriptive Models ..... 206\\
+7.2.3 First-Principle vs. Data-Driven Models ..... 207\\
+7.2.4 Stochastic vs. Deterministic Models ..... 208\\
+7.2.5 Flat vs. Hierarchical Models ..... 209\\
+7.3 Baseline Models ..... 210\\
+7.3.1 Baseline Models for Classification ..... 210\\
+7.3.2 Baseline Models for Value Prediction ..... 212\\
+7.4 Evaluating Models ..... 212\\
+7.4.1 Evaluating Classifiers ..... 213\\
+7.4.2 Receiver-Operator Characteristic (ROC) Curves ..... 218\\
+7.4.3 Evaluating Multiclass Systems ..... 219\\
+7.4.4 Evaluating Value Prediction Models ..... 221\\
+7.5 Evaluation Environments ..... 224\\
+7.5.1 Data Hygiene for Evaluation ..... 225\\
+7.5.2 Amplifying Small Evaluation Sets ..... 226\\
+7.6 War Story: 100\% Accuracy ..... 228\\
+7.7 Simulation Models ..... 229\\
+7.8 War Story: Calculated Bets ..... 230\\
+7.9 Chapter Notes ..... 233\\
+7.10 Exercises ..... 234\\
+\textbf{8 Linear Algebra ..... 237}\\
+8.1 The Power of Linear Algebra ..... 237\\
+8.1.1 Interpreting Linear Algebraic Formulae ..... 238\\
+8.1.2 Geometry and Vectors ..... 240\\
+8.2 Visualizing Matrix Operations ..... 241\\
+8.2.1 Matrix Addition ..... 242\\
+%---- Page End Break Here ---- Page : 15
+8.2.2 Matrix Multiplication ..... 243\\
+8.2.3 Applications of Matrix Multiplication ..... 244\\
+8.2.4 Identity Matrices and Inversion ..... 248\\
+8.2.5 Matrix Inversion and Linear Systems ..... 250\\
+8.2.6 Matrix Rank ..... 251\\
+8.3 Factoring Matrices ..... 252\\
+8.3.1 Why Factor Feature Matrices? ..... 252\\
+8.3.2 LU Decomposition and Determinants ..... 254\\
+8.4 Eigenvalues and Eigenvectors ..... 255\\
+8.4.1 Properties of Eigenvalues ..... 255\\
+8.4.2 Computing Eigenvalues ..... 256\\
+8.5 Eigenvalue Decomposition ..... 257\\
+8.5.1 Singular Value Decomposition ..... 258\\
+8.5.2 Principal Components Analysis ..... 260\\
+8.6 War Story: The Human Factors ..... 262\\
+8.7 Chapter Notes ..... 263\\
+8.8 Exercises ..... 263\\
+\textbf{9} \textbf{Linear and Logistic Regression} ..... \textbf{267}\\
+9.1 Linear Regression ..... 268\\
+9.1.1 Linear Regression and Duality ..... 268\\
+9.1.2 Error in Linear Regression ..... 269\\
+9.1.3 Finding the Optimal Fit ..... 270\\
+9.2 Better Regression Models ..... 272\\
+9.2.1 Removing Outliers ..... 272\\
+9.2.2 Fitting Non-Linear Functions ..... 273\\
+9.2.3 Feature and Target Scaling ..... 274\\
+9.2.4 Dealing with Highly-Correlated Features ..... 277\\
+9.3 War Story: Taxi Deriver ..... 277\\
+9.4 Regression as Parameter Fitting ..... 279\\
+9.4.1 Convex Parameter Spaces ..... 280\\
+9.4.2 Gradient Descent Search ..... 281\\
+9.4.3 What is the Right Learning Rate? ..... 283\\
+9.4.4 Stochastic Gradient Descent ..... 285\\
+9.5 Simplifying Models through Regularization ..... 286\\
+9.5.1 Ridge Regression ..... 286\\
+9.5.2 LASSO Regression ..... 287\\
+9.5.3 Trade-Offs between Fit and Complexity ..... 288\\
+9.6 Classification and Logistic Regression ..... 289\\
+9.6.1 Regression for Classification ..... 290\\
+9.6.2 Decision Boundaries ..... 291\\
+9.6.3 Logistic Regression ..... 292\\
+9.7 Issues in Logistic Classification ..... 295\\
+9.7.1 Balanced Training Classes ..... 295\\
+9.7.2 Multi-Class Classification ..... 297\\
+9.7.3 Hierarchical Classification ..... 298\\
+%---- Page End Break Here ---- Page : 16
+9.7.4 Partition Functions and Multinomial Regression ..... 299\\
+9.8 Chapter Notes ..... 300\\
+9.9 Exercises ..... 301\\
+\textbf{10 Distance and Network Methods} ..... \textbf{303}\\
+10.1 Measuring Distances ..... 303\\
+10.1.1 Distance Metrics ..... 304\\
+10.1.2 The $L_{k}$ Distance Metric ..... 305\\
+10.1.3 Working in Higher Dimensions ..... 307\\
+10.1.4 Dimensional Egalitarianism ..... 308\\
+10.1.5 Points vs. Vectors ..... 309\\
+10.1.6 Distances between Probability Distributions ..... 310\\
+10.2 Nearest Neighbor Classification ..... 311\\
+10.2.1 Seeking Good Analogies ..... 312\\
+10.2.2 $k$-Nearest Neighbors ..... 313\\
+10.2.3 Finding Nearest Neighbors ..... 315\\
+10.2.4 Locality Sensitive Hashing ..... 317\\
+10.3 Graphs, Networks, and Distances ..... 319\\
+10.3.1 Weighted Graphs and Induced Networks ..... 320\\
+10.3.2 Talking About Graphs ..... 321\\
+10.3.3 Graph Theory ..... 323\\
+10.4 PageRank ..... 325\\
+10.5 Clustering ..... 327\\
+10.5.1 $k$-means Clustering ..... 330\\
+10.5.2 Agglomerative Clustering ..... 336\\
+10.5.3 Comparing Clusterings ..... 341\\
+10.5.4 Similarity Graphs and Cut-Based Clustering ..... 341\\
+10.6 War Story: Cluster Bombing ..... 344\\
+10.7 Chapter Notes ..... 345\\
+10.8 Exercises ..... 346\\
+\textbf{11 Machine Learning} ..... \textbf{351}\\
+11.1 Naive Bayes ..... 354\\
+11.1.1 Formulation ..... 354\\
+11.1.2 Dealing with Zero Counts (Discounting) ..... 356\\
+11.2 Decision Tree Classifiers ..... 357\\
+11.2.1 Constructing Decision Trees ..... 359\\
+11.2.2 Realizing Exclusive Or ..... 361\\
+11.2.3 Ensembles of Decision Trees ..... 362\\
+11.3 Boosting and Ensemble Learning ..... 363\\
+11.3.1 Voting with Classifiers ..... 363\\
+11.3.2 Boosting Algorithms ..... 364\\
+11.4 Support Vector Machines ..... 366\\
+11.4.1 Linear SVMs ..... 369\\
+11.4.2 Non-linear SVMs ..... 369\\
+11.4.3 Kernels ..... 371\\
+%---- Page End Break Here ---- Page : 17
+11.5 Degrees of Supervision ..... 372\\
+11.5.1 Supervised Learning ..... 372\\
+11.5.2 Unsupervised Learning ..... 372\\
+11.5.3 Semi-supervised Learning ..... 374\\
+11.5.4 Feature Engineering ..... 375\\
+11.6 Deep Learning ..... 377\\
+11.6.1 Networks and Depth ..... 378\\
+11.6.2 Backpropagation ..... 382\\
+11.6.3 Word and Graph Embeddings ..... 383\\
+11.7 War Story: The Name Game ..... 385\\
+11.8 Chapter Notes ..... 387\\
+11.9 Exercises ..... 388\\
+\textbf{12 Big Data: Achieving Scale} ..... \textbf{391}\\
+12.1 What is Big Data? ..... 392\\
+12.1.1 Big Data as Bad Data ..... 392\\
+12.1.2 The Three Vs ..... 394\\
+12.2 War Story: Infrastructure Matters ..... 395\\
+12.3 Algorithmics for Big Data ..... 397\\
+12.3.1 Big Oh Analysis ..... 397\\
+12.3.2 Hashing ..... 399\\
+12.3.3 Exploiting the Storage Hierarchy ..... 401\\
+12.3.4 Streaming and Single-Pass Algorithms ..... 402\\
+12.4 Filtering and Sampling ..... 403\\
+12.4.1 Deterministic Sampling Algorithms ..... 404\\
+12.4.2 Randomized and Stream Sampling ..... 406\\
+12.5 Parallelism ..... 406\\
+12.5.1 One, Two, Many ..... 407\\
+12.5.2 Data Parallelism ..... 409\\
+12.5.3 Grid Search ..... 409\\
+12.5.4 Cloud Computing Services ..... 410\\
+12.6 MapReduce ..... 410\\
+12.6.1 Map-Reduce Programming ..... 412\\
+12.6.2 MapReduce under the Hood ..... 414\\
+12.7 Societal and Ethical Implications ..... 416\\
+12.8 Chapter Notes ..... 419\\
+12.9 Exercises ..... 419\\
+\textbf{13 Coda} ..... \textbf{423}\\
+13.1 Get a Job! ..... 423\\
+13.2 Go to Graduate School! ..... 424\\
+13.3 Professional Consulting Services ..... 425\\
+\textbf{14 Bibliography} ..... \textbf{427}
+%---- Page End Break Here ---- Page : 18
+\section{Chapter 1}
+\section{What is Data Science?}
 What is data science? Like any emerging field, it hasn't been completely defined yet, but you know enough about it to be interested or else you wouldn't be reading this book.
 
 I think of data science as lying at the intersection of computer science, statistics, and substantive application domains. From computer science comes machine learning and high-performance computing technologies for dealing with scale. From statistics comes a long tradition of exploratory data analysis, significance testing, and visualization. From application domains in business and the sciences comes challenges worthy of battle, and evaluation standards to assess when they have been adequately conquered.
@@ -241,7 +543,7 @@ on a full Facebook or Twitter-level of scale. Indeed, I will devote Chapter 12 t
 
 This is a fair question, one I will finesse a bit so as to maximize the potential readership of this book. But I do believe that the better such engineers understand the full data analysis pipeline, the more likely they will be able to build powerful tools capable of providing important insights. A major goal of this book is providing big data engineers with the intellectual tools to think like big data scientists.
 
-\section{Asking Interesting Questions from Data}
+\subsection{Asking Interesting Questions from Data}
 Good data scientists develop an inherent curiosity about the world around them, particularly in the associated domains and applications they are working on. They enjoy talking shop with the people whose data they work with. They ask them questions: What is the coolest thing you have learned about this field? Why did you get interested in it? What do you hope to learn by analyzing your data set? Data scientists always ask questions.
 
 Good data scientists have wide-ranging interests. They read the newspaper every day to get a broader perspective on what is exciting. They understand that the world is an interesting place. Knowing a little something about everything equips them to play in other people's backyards. They are brave enough to get out of their comfort zones a bit, and driven to learn more once they get there.
@@ -452,7 +754,7 @@ Similarly we can use the taxi data to measure transportation flows across the ci
 
 Data like this is essential to designing better transportation systems. It is wasteful for a single rider to travel from point $a$ to point $b$ when there is another rider at point $a+\epsilon$ who also wants to get there. Analysis of the taxi data enables accurate simulation of a ride sharing system, so we can accurately evaluate the demands and cost reductions of such a service.
 
-\section{Properties of Data}
+\subsection{Properties of Data}
 This book is about techniques for analyzing data. But what is the underlying stuff that we will be studying? This section provides a brief taxonomy of the properties of data, so we can better appreciate and understand what we will be working on.
 
 \subsection{Structured vs. Unstructured Data}
@@ -518,7 +820,7 @@ Perhaps the best way to see the intended distinction is to look at a variety of 
 
 Keep your eyes open for classification and regression problems as you encounter them in your life, and in this book.
 
-\section{Data Science Television: The Quant Shop}
+\subsection{Data Science Television: The Quant Shop}
 I believe that hands-on experience is necessary to internalize basic principles. Thus when I teach data science, I like to give each student team an interesting but messy forecasting challenge, and demand that they build and evaluate a predictive model for the task.
 
 These forecasting challenges are associated with events where the students must make testable predictions. They start from scratch: finding the relevant data sets, building their own evaluation environments, and devising their model. Finally, I make them watch the event as it unfolds, so as to witness the vindication or collapse of their prediction.
@@ -556,7 +858,7 @@ Performing well on Kaggle challenges is an excellent credential to put on your r
 
 The exercises at the end of each chapter point to expired Kaggle challenges, loosely connected to the material in that chapter. Be forewarned that Kaggle provides a misleading glamorous view of data science as applied machine learning, because it presents extremely well-defined problems with the hard work of data collection and cleaning already done for you. Still, I encourage you to check it out for inspiration, and as a source of data for new projects.
 
-\section{About the War Stories}
+\subsection{About the War Stories}
 Genius and wisdom are two distinct intellectual gifts. \textit{Genius} shows in discovering the right answer, making imaginative mental leaps which overcome obstacles and challenges. \textit{Wisdom} shows in avoiding obstacles in the first place, providing a sense of direction or guiding light that keeps us moving soundly in the right direction.
 %---- Page End Break Here ---- Page : 37
 Genius is manifested in technical strength and depth, the ability to see things and do things that other people cannot. In contrast, wisdom comes from experience and general knowledge. It comes from listening to others. Wisdom comes from humility, observing how often you have been wrong in the past and figuring out why you were wrong, so as to better recognize future traps and avoid them.
@@ -576,7 +878,7 @@ mortals, and served as the basis for our book \emph{Who's Bigger?: Where Histori
 
 All this experience drives what I teach in this book, especially the tales that I describe as war stories. \emph{Every one of these war stories is true.} Of course, the stories improve somewhat in the retelling, and the dialogue has been punched up to make them more interesting to read. However, I have tried to honestly trace the process of going from a raw problem to a solution, so you can watch how it unfolded.
 
-\section{War Story: Answering the Right Question}
+\subsection{War Story: Answering the Right Question}
 Our research group at Stony Brook University developed an NLP-based system for analyzing millions of news, blogs and social media messages, and reducing this text to trends concerning all the entities under discussion. Counting the number of mentions each name receives in a text stream (volume) is easy, in principle. Determining whether the connotation of a particular reference is positive or negative (sentiment analysis) is hard. But our system did a pretty good job, particularly when aggregated over many references.
 
 This technology served as the foundation for a social media analysis company named General Sentiment. It was exciting living through a start-up starting up, facing the challenges of raising money, hiring staff, and developing new products.
@@ -604,7 +906,7 @@ But each sale required entering a new universe, involving considerable effort an
 
 Of course, the customer is always right. It was our fault that we could not explain to them the best way to use our technology. The lesson here is that the world will not beat a path to your door just for a new source of data. You must be able to supply the right questions before you can turn data into money.
 
-\section{Chapter Notes}
+\subsection{Chapter Notes}
 The idea of using historical records from baseball players to establish that lefthanders have shorter lifespans is due to Halpern and Coren HC88, \cite{halpern1991handedness}, but their conclusion remains controversial. The percentage of left-handers in the population has been rapidly growing, and the observed effects may be a function of survivorship bias [\cite{mcmanus2004right}]. So lefties, hang in there! Full disclosure: I am one of you.
 
 The discipline of quantitative baseball analysis is sometimes called \emph{sabermetrics}, and its leading light is a fellow named Bill James. I recommend budding data scientists read his \emph{Historical Baseball Abstract} \cite{james2010new} as an excellent example of how one turns numbers into knowledge and understanding. \emph{Time Magazine} once said of James: "Much of the joy of reading him comes from the extravagant spectacle of a first-rate mind wasting itself on baseball." I thank \href{http://sports-reference.com}{http://sports-reference.com} for permission to use images of their website in this book. Ditto to Amazon, the owner of IMDb.
@@ -613,6 +915,7 @@ The potential of ride-sharing systems in New York was studied by Santi et. al. [
 
 The Lydia system for sentiment analysis is described in \cite{godbole2007large}. Methods to identify changes in word meaning through analysis of historical text corpora like Google Ngram are reported in \cite{kulkarni2015statistically}.
 
+\subsection{Exercises}
 \section{Identifying Data Sets}
 1-1. \emph{[3]} Identify where interesting data sets relevant to the following domains can be found on the web:\\
 (a) Books.\\
@@ -682,7 +985,7 @@ For each of these data sources, explain what you must do to turn this data into 
 1-14. \textit{[3]} How did you become interested in data science?\\
 1-15. \textit{[3]} Do you think data science is an art or a science?
 
-\subsection{Kaggle Challenges}
+\section{Kaggle Challenges}
 1-16. Who survived the shipwreck of the Titanic?\\
 \href{https://www.kaggle.com/c/titanic}{https://www.kaggle.com/c/titanic}\\
 1-17. Where is a particular taxi cab going?\\
@@ -906,7 +1209,7 @@ Just be aware of which distribution you are looking at. Cumulative distributions
 %---- Page End Break Here ---- Page : 50
 An amusing example of the difference between cumulative and incremental distributions is shown in Figure 2.3 Both distributions show exactly the same data on Apple iPhone sales, but which curve did Apple CEO Tim Cook choose to present at a major shareholder event? The cumulative distribution (red) shows that sales are exploding, right? But it presents a misleading view of growth rate, because incremental change is the derivative of this function, and hard to visualize. Indeed, the sales-per-quarter plot (blue) shows that the rate of iPhone sales actually had declined for the last two periods before the presentation.
 
-\section{Descriptive Statistics}
+\subsection{Descriptive Statistics}
 Descriptive statistics provide ways of capturing the properties of a given data set or sample. They summarize observed data, and provide a language to talk about it. Representing a group of elements by a new derived element, like mean, min, count, or sum reduces a large data set to a small summary statistic: aggregation as data reduction.
 
 Such statistics can become features in their own right when taken over natural groups or clusters in the full data set. There are two main types of descriptive statistics:
@@ -1037,7 +1340,7 @@ We will see that even tighter bounds hold when we know the distribution is well-
 %---- Page End Break Here ---- Page : 56
 \emph{Take-Home Lesson}: Report both the mean and standard deviation to characterize your distribution, written as $\mu \pm \sigma$.
 
-\section{Correlation Analysis}
+\subsection{Correlation Analysis}
 Suppose we are given two variables $x$ and $y$, represented by a sample of $n$ points of the form $\left(x_{i}, y_{i}\right)$, for $1 \leq i \leq n$. We say that $x$ and $y$ are \emph{correlated} when the value of $x$ has some predictive power on the value of $y$.
 
 The \emph{correlation coefficient} $r(X, Y)$ is a statistic that measures the degree to which $Y$ is a function of $X$, and vice versa. The value of the correlation coefficient ranges from $-1$ to $1$, where $1$ means fully correlated and $0$ implies no relation, or independent variables. Negative correlations imply that the variables are \emph{anti-correlated}, meaning that when $X$ goes up, $Y$ goes down.
@@ -1191,7 +1494,7 @@ Generally speaking, the autocorrelation function for many quantities tends to be
 
 Computing the full autocorrelation function requires calculating $n-1$ different correlations on points of the time series, which can get expensive for large $n$. Fortunately, there is an efficient algorithm based on the \emph{fast Fourier transform} (FFT), which makes it possible to construct the autocorrelation function even for very long sequences.
 
-\section{Logarithms}
+\subsection{Logarithms}
 The \emph{logarithm} is the inverse exponential function $y=b^{x}$, an equation that can be rewritten as $x=\log _{b} y$. This definition is the same as saying that
 $$
 b^{\log _{b} y}=y .
@@ -1259,7 +1562,7 @@ The logarithm is the transformation of choice for power law variables. Hit your 
 
 Sometimes taking the logarithm proves too drastic a hit, and a less dramatic non-linear transformation like the square root works better to normalize a distribution. The acid test is to plot a frequency distribution of the transformed values and see if it looks bell-shaped: grossly-symmetric, with a bulge in the middle. That is when you know you have the right function.
 
-\section{War Story: Fitting Designer Genes}
+\subsection{War Story: Fitting Designer Genes}
 The word \textit{bioinformatician} is life science speak for "data scientist," the practitioner of an emerging discipline which studies massive collections of DNA sequence data looking for patterns. Sequence data is very interesting to work\\
 with, and I have played bioinformatician in research projects since the very beginnings of the human genome project.
 %---- Page End Break Here ---- Page : 67
@@ -1322,7 +1625,7 @@ Knowing that certain pairs of codons were bad did not explain \textit{why} they 
 
 There are two take-home lessons from this story. First, developing numerical scoring functions which highlight specific aspects of items can be very useful to reveal patterns. Indeed, Chapter 4 will focus on the development of such systems. Second, hitting such quantities with a logarithm can make them even more useful, enabling us to see the forest for the trees.
 
-\section{Chapter Notes}
+\subsection{Chapter Notes}
 There are many excellent introductions to probability theory available, including [\cite{tijms2012understanding}, \cite{bertsekas2008introduction}. The same goes for elementary statistics, with good introductory texts including \cite{james2013introduction}, \cite{wheelan2013naked}. The brief history of probability theory in this chapter is based on Weaver \cite{weaver1982lady}.
 
 In its strongest form, the efficient market hypothesis states that the stock market is essentially unpredictable using public information. My personal advice is that you should invest in index funds that do not actively try to predict the direction of the market. Malkiel's \textit{A Random Walk Down Wall Street} [\cite{malkiel1999random}]\\
@@ -1334,6 +1637,7 @@ The comic strip in Figure 2.10 comes from Randall Munroe's webcomic \textit{xkcd
 
 The war story of Section 2.5 revolves around our work on how the phenomenon of codon pair bias affects gene translation. Figure 2.14 comes from my collaborator Justin Gardin. See [CPS ${ }^{+} 08, \mathrm{MCP}^{+} 10$, \cite{skiena2012redesigning}] for discussions of how we exploited codon pair bias to design vaccines for viral diseases like polio and the flu.
 
+\subsection{Exercises}
 \section{Probability}
 2-1. \textit{[3]} Suppose that $80 \%$ of people like peanut butter, $89 \%$ like jelly, and $78 \%$ like both. Given that a randomly sampled person likes peanut butter, what is the probability that she also likes jelly?\\[0pt]
 2-2. \textit{[3]} Suppose that $P(A)=0.3$ and $P(B)=0.7$.\\
@@ -1429,7 +1733,7 @@ Which strategy should you choose to maximize your reward? That is, for what outc
 %---- Page End Break Here ---- Page : 72
 2-32. \textit{[5]} What is the difference between a skewed distribution and a uniform one?
 
-\subsection{Kaggle Challenges}
+\section{Kaggle Challenges}
 2-33. Cause-effect pairs: correlation vs. causation.\\
 \href{https://www.kaggle.com/c/cause-effect-pairs}{https://www.kaggle.com/c/cause-effect-pairs}\\
 2-34. Predict the next "random number" in a sequence.\\
@@ -1437,7 +1741,7 @@ Which strategy should you choose to maximize your reward? That is, for what outc
 2-35. Predict the fate of animals at a pet shelter.\\
 \href{https://www.kaggle.com/c/shelter-animal-outcomes}{https://www.kaggle.com/c/shelter-animal-outcomes}
 %---- Page End Break Here ---- Page : 73
-\chapter{Data Munging}
+\section{Data Munging}
 On two occasions I have been asked, "Pray, Mr. Babbage, if you put into the machine wrong figures, will the right answers come out?" ... I am not able rightly to apprehend the kind of confusion of ideas that could provoke such a question.
 
 \hfill -- Charles Babbage
@@ -1450,7 +1754,7 @@ While practical questions like "What is the best library or programming language
 
 The first step in any data science project is getting your hands on the right data. But this is often distressingly hard. This chapter will survey the richest hunting grounds for data resources, and then introduce techniques for cleaning what you kill. Wrangling your data so you that can safely analyze it is critical for meaningful results. As Babbage himself might have said more concisely, "garbage in, garbage out."
 
-\section{Languages for Data Science}
+\subsection{Languages for Data Science}
 In theory, every sufficiently powerful programming language is capable of expressing any algorithm worth computing. But in practice, certain programming languages prove much better than others at specific tasks. Better here might denote \textit{easier for the programmer} or perhaps \textit{more computationally efficient}, depending upon the mission at hand.
 
 The primary data science programming languages to be aware of are:
@@ -1569,7 +1873,7 @@ Because library functions that support reading and writing JSON objects are read
   \item \textit{Protocol buffers}: These are a language/platform-neutral way of serializing structured data for communications and storage across applications. They are essentially lighter weight versions of XML (where you define the format of your structured data), designed to communicate small amounts of data across programs like JSON. This data format is used for much of the intermachine communication at Google. Apache Thrift is a related standard, used at Facebook.
 \end{itemize}
 %---- Page End Break Here ---- Page : 80
-\section{Collecting Data}
+\subsection{Collecting Data}
 The most critical issue in any data science or modeling project is finding the right data set. Identifying viable data sources is an art, one that revolves around three basic questions:
 
 \begin{itemize}
@@ -1684,7 +1988,7 @@ The important considerations in designing any logging system are:
   \item Use a human-readable format or transactions database, so you can understand exactly what is in there when the time comes, months or years later, to sit down and analyze your data.
 \end{itemize}
 
-\section{Cleaning Data}
+\subsection{Cleaning Data}
 ``Garbage in, garbage out'' is the fundamental principle of data analysis. The road from raw data to a clean, analyzable data set can be a long one.
 
 Many potential issues can arise in cleaning data for analysis. In this section, we discuss identifying processing artifacts and integrating diverse data sets. Our focus here is the processing \emph{before} we do our real analysis, to make sure that the garbage never gets in in the first place.
@@ -1886,7 +2190,7 @@ It is too simple to just delete the rows containing outlier fields and move on. 
 
 But it is better to figure out whether he is indicative of other figures that we should consider removing. Observe that Methuselah had no firmly established birth and death dates. Perhaps the published ages of anybody without dates should be considered suspicious enough to prune. By contrast, the person with the shortest lifespan in Wikipedia (John I, King of France) lived only five days. But his birth (November 15) and death (November 20) dates in 1316 convinces me that his lifespan was accurate.
 
-\section{War Story: Beating the Market}
+\subsection{War Story: Beating the Market}
 Every time we met, my graduate student Wenbin told me we were making money. But he sounded less and less confident every time I asked.
 
 Our Lydia sentiment analysis system took in massive text feeds of news and social media, reducing them to daily time series of frequency and sentiment for the millions of different people, places, and organizations mentioned within. When somebody wins a sports championship, many articles get written describing how great an athlete they are. But when this player then gets busted on drug charges, the tone of the articles about them immediately changes. By keeping count of the relative frequency of association with positive words (``victorious'') vs. negative words (``arrested'') in the text stream, we can construct sentiment signals for any news-worthy entity.
@@ -1911,7 +2215,7 @@ Our paper on this analysis ZS10 has been well received, and Wenbin has gone on t
 
 The take-home lesson is that cleanliness is important when there is money on the line. Further, it is better to design a clean environment at the beginning of analysis instead of furiously washing up at the end.
 
-\section{Crowdsourcing}
+\subsection{Crowdsourcing}
 No single person has all the answers. Not even me. Much of what passes for wisdom is how we aggregate expertise, assembling opinions from the knowledge and experience of others.\\
 %---- Page End Break Here ---- Page : 97
 \begin{figure}[t]
@@ -2067,7 +2371,7 @@ provide encouragement to reach the next level. Awarding badges and providing lea
 %---- Page End Break Here ---- Page : 106
 The primary design principle of games such as FoldIt is to abstract the domain technicality away, into the scoring function. The game is configured so players need not really understand issues of molecular dynamics, just that certain changes make the scores go up while others make them go down. The player will build their own intuition about the domain as they play, resulting in designs which may never occur to experts skilled in the art.
 
-\section{Chapter Notes}
+\subsection{Chapter Notes}
 The Charles Babbage quote from the start of this chapter is from his book \textit{Passages from the Life of a Philosopher} \cite{babbage2011passages}. I recommend Padua's graphic novel \cite{padua2015thrilling} for an amusing but meaningful (albeit fictitious) introduction to his work and relationship with Ada Lovelace.
 
 Many books deal with hands-on practical matters of data wrangling in particular programming languages. Particularly useful are the O'Reilly books for data science in Python, including \cite{grus2015data}, \cite{mckinney2012python}.
@@ -2080,7 +2384,8 @@ The clever idea of using accelerometers in cell phones to detect earthquakes com
 
 Kittur \cite{kittur2008crowdsourcing} reports on experiences with crowdsourcing user studies on Amazon Turk. Our use of CrowdFlower to identify appropriate descriptions of historical figures was presented in \cite{chen2015vector}. Methods for gamification in instruction are discussed in \cite{deterding2011from} \cite{kapp2012gamification}. Recaptchas are introduced in Von Ahn, et al. [VAMM$^{+}$08]. The large-scale collection of psychological trait data via mobile apps is due to Kosinski, et al. \cite{kosinski2013private}.
 
-\chapter{Data Munging}
+\subsection{Exercises}
+\section{Data Munging}
 3-1. \textit{[3]} Spend two hours getting familiar with one of the following programming languages: Python, R, MatLab, Wolfram Alpha/Language. Then write a brief paper with your impressions on its characteristics:
 %---- Page End Break Here ---- Page : 107
 \begin{itemize}
@@ -2160,12 +2465,12 @@ Data Cleaning
 3-18. \textit{[5]} Explain selection bias. Why is it important? How can data management procedures like handling missing data make it worse?\\[0pt]
 3-19. \textit{[3]} How do you efficiently scrape web data?
 
-\subsection{Kaggle Challenges}
+\section{Kaggle Challenges}
 3-20. Partially sunny, with a chance of hashtags. \href{https://www.kaggle.com/c/crowdflower-weather-twitter}{https://www.kaggle.com/c/crowdflower-weather-twitter}\\
 3-21. Predict end of day stock returns, without being deceived by noise. \href{https://www.kaggle.com/c/the-winton-stock-market-challenge}{https://www.kaggle.com/c/the-winton-stock-market-challenge}\\
 3-22. Data cleaning and the analysis of historical climate change. \href{https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data}{https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data}
 %---- Page End Break Here ---- Page : 110
-\chapter{Scores and Rankings}
+\section{Scores and Rankings}
 Money is a scoreboard where you can rank how you're doing against other people.
 
 \begin{itemize}
@@ -2193,7 +2498,7 @@ In this chapter, we will use scoring and ranking functions as our first foray in
 
 But I think it is important to appreciate scoring functions for what they are: useful, heuristic ways to tease understanding from large data sets. A scoring function is sometimes called a \emph{statistic}, which lends it greater dignity and respect. We will introduce several methods for getting meaningful scores from data.
 
-\section{The Body Mass Index (BMI)}
+\subsection{The Body Mass Index (BMI)}
 Everybody loves to eat, and our modern world of plenty provides numerous opportunities for doing so. The result is that a sizable percentage of the population are above their optimal body weight. But how can you tell whether you are one of them?
 
 The \emph{body mass index} (BMI) is a score or statistic designed to capture whether your weight is under control. It is defined as
@@ -2257,7 +2562,7 @@ In Chapter 6, we will discuss visualization techniques to highlight the presenta
 
 The breakdown of BMI by position is also revealing, and shown in Figure 4.3. In basketball, the guards are quick and sleek while the centers are tall and intimidating. So all of these positions segregate neatly by size. In football, the skill players (the quarterbacks, kickers, and punters) prove to be considerably smaller than the sides of beef on the line.
 
-\section{Developing Scoring Systems}
+\subsection{Developing Scoring Systems}
 \textit{Scores} are functions that map the features of each entity to a numerical value of merit. This section will look at the basic approaches for building effective scoring systems, and evaluating them.
 
 \subsection{Gold Standards and Proxies}
@@ -2345,7 +2650,7 @@ Generally speaking, summing up Z-scores using the correct signs (plus for positi
   \item \emph{Breaks ties in meaningful ways}: Ranking functions are of very limited value when there are bunches of ties. Ranking the handiness of people by how many fingers they have won't be very revealing. There will be a very select group with twelve, a vast majority tied with ten, and then small groups of increasingly disabled accident victims until we get down to zero. In general, scores should be real numbers over a healthy range, in order to minimize the likelihood of ties. Introducing secondary features to break ties is valuable, and makes sense provided these features also correlate with the property you care about.
 \end{itemize}
 
-\section{Z-scores and Normalization}
+\subsection{Z-scores and Normalization}
 An important principle of data science is that we must try to make it as easy as possible for our models to do the right thing. Machine learning techniques like linear regression purport to find the line optimally fitting to a given data set. But it is critical to normalize all the different variables to make their range/distribution comparable before we try to use them to fit something.
 
 \emph{Z-scores} will be our primary method of normalization. The Z-score transform is computed:
@@ -2370,7 +2675,7 @@ Z-scores are best used on normally distributed variables, which, after all, are 
 
 Your biggest data analysis sins will come in using improperly normalized variables in your analysis. What can we do to bring Bill Gates down to size? We can hit him with a log, as we discussed in Section 2.4
 
-\section{Advanced Ranking Techniques}
+\subsection{Advanced Ranking Techniques}
 Most bread-and-butter ranking tasks are solved by computing scores as linear combinations of features, and then sorting them. In the absence of any gold standard, these methods produce statistics which are often revealing and informative.
 
 That said, several powerful techniques have been developed to compute rankings from specific types of inputs: the results of paired comparisons, relationship networks, and even assemblies of other rankings. We review these methods here, for inspiration.
@@ -2516,7 +2821,7 @@ However, it is exceedingly unlikely that a real set of features or voters will a
 
 But there are natural heuristics. A good clue as to where a vertex $v$ belongs is the difference $d_{v}$ between its in-degree and its out-degree. When $d_{v}$ is highly negative, it probably belongs near the front of the permutation, since it dominates many elements but is dominated by only a few. One can build a decent ranking permutation by sorting the vertices according to these differences. Even better is incrementally inserting the most negative (or most positive) vertex $v$ into its logical position, deleting the edges incident on $v$, and then adjusting the counts before positioning the next best vertex.
 %---- Page End Break Here ---- Page : 126
-\section{PageRank}
+\subsection{PageRank}
 There is a different and more famous method to order the vertices in a network by importance: the PageRank algorithm underpinning Google's search engine.
 
 The web is constructed of webpages, most of which contain links to other webpages. Your webpage linking to mine is an implicit endorsement that you think my page is pretty good. If it is interpreted as a vote that ``you think my page is better than yours,'' we can construct the network of links and treat it as a maximum acyclic-subgraph problem, discussed in the previous subsection.
@@ -2525,7 +2830,7 @@ But dominance isn't really the right interpretation for links on the web. PageRa
 
 The details here are interesting, but I will defer a deeper discussion to Section 10.4, when we discuss network analysis. However, I hope this brief introduction to PageRank helps you appreciate the following tale.
 
-\section{War Story: Clyde's Revenge}
+\subsection{War Story: Clyde's Revenge}
 During my sophomore year of high school, I had the idea of writing a program to predict the outcome of professional football games. I wasn't all that interested in football as a sport, but I observed several of my classmates betting their lunch money on the outcome of the weekend football games. It seemed clear to me that writing a program which accurately predicted the outcome of football games could have significant value, and be a very cool thing to do besides.
 
 In retrospect, the program I came up with now seems hopelessly crude. My program would average the points scored by team $x$ and the points allowed by team $y$ to predict the number of points $x$ will score against $y$.
@@ -2608,7 +2913,7 @@ On their data set, this Clyde-light model picked $59.02 \%$ of all games correct
 
 There are several important lessons here. First, garbage in, garbage out. If you don't prepare a clean, properly normalized data set, the most advanced machine learning algorithms can't save you. Second, simple scores based on a modest amount of domain-specific knowledge can do surprisingly well. Further, they help keep you honest. Build and evaluate simple, understandable baselines before you invest in more powerful approaches. Clyde going baseline left their machine learning model defenseless.
 
-\section{Arrow's Impossibility Theorem}
+\subsection{Arrow's Impossibility Theorem}
 We have seen several approaches to construct rankings or scoring functions from data. If we have a gold standard reporting the ``right'' relative order for at least some of the entities, then this could be used to train or evaluate our scoring function to agree with these rankings to the greatest extent possible.
 
 But without a gold standard, it can be shown that no best ranking system exists. This is a consequence of \emph{Arrow's impossibility theorem}, which proves that no election system for aggregating permutations of preferences satisfies the following desirable and innocent-looking properties:
@@ -2650,7 +2955,7 @@ Arrow's theorem is very surprising, but does it mean that we should give up on r
 
 \textit{Take-Home Lesson}: We do not seek correct rankings, because this is an illdefined objective. Instead, we seek rankings that are useful and interesting.
 
-\section{War Story: Who's Bigger?}
+\subsection{War Story: Who's Bigger?}
 My students sometimes tell me that I am history. I hope this isn't true quite yet, but I am very interested in history, as is my former postdoc Charles Ward. Charles and I got to chatting about who the most significant figures in history\\
 %---- Page End Break Here ---- Page : 131
 were, and how you might measure this. Like most people, we found our answers in Wikipedia.
@@ -2725,7 +3030,7 @@ Some of this reflects cultural differences. These critics had a different implic
 
 What is the moral here? Try to anticipate the concerns of the audience for your rankings. We were encouraged to explicitly call our measure \textit{meme-strength} instead of \textit{significance}. In retrospect, using this less-loaded name would have permitted our readers to better appreciate what we were doing. We probably also should have discouraged readers from latching on to our top 100 rankings, and instead concentrate on relative orderings within groups of interest: who were the top musicians, scientists, and artists? This might have proved less controversial, better helping people build trust in what we were doing.
 
-\section{Chapter Notes}
+\subsection{Chapter Notes}
 Langville and Meyer \cite{lngville2012whos} provide a through introduction to most of the ranking methods discussed here, including Elo and PageRank.
 %---- Page End Break Here ---- Page : 134
 One important topic not covered in this chapter is \emph{learning to rank} methods, which exploit gold standard ranking data to train appropriate scoring functions. Such ground truth data is generally not available, but proxies can sometimes be found. When evaluating search engines, the observation that a user clicked the (say) fourth item presented to them can be interpreted as a vote that it should have been higher ranked than the three placed above it. SVMrank \cite{joachims2002optimizing} presents a method for learning ranking functions from such data.
@@ -2734,7 +3039,8 @@ The heuristic proposed minimizing edge conflicts in a vertex order is due to Ead
 
 The war stories of this chapter were drawn very closely from my books \emph{Calculated Bets} and \emph{Who's Bigger?} Don't sue me for self-plagiarism.
 
-\chapter{Scores and Rankings}
+\subsection{Exercises}
+\section{Scores and Rankings}
 4-1. \emph{[3]} Let $X$ represent a random variable drawn from the normal distribution defined by $\mu=2$ and $\sigma=3$. Suppose we observe $X=5.08$. Find the Z-score of $x$, and determine how many standard deviations away from the mean that $x$ is.\\
 $4-2$. \emph{[3]} What percentage of the standard normal distribution $(\mu=0, \sigma=1)$ is found in each region?\\
 (a) $Z>1.13$.\\
@@ -2773,7 +3079,7 @@ Construct a sensible ranking function reflecting quality or popularity. How well
 
 4-12. \textit{[5]} How would you forecast sales for a particular book, based on Amazon public data?
 
-\subsection{Kaggle Challenges}
+\section{Kaggle Challenges}
 4-13. Rating chess players from game positions.\\
 \href{https://www.kaggle.com/c/chess}{https://www.kaggle.com/c/chess}\\
 4-14. Develop a financial credit scoring system.\\
@@ -2781,7 +3087,7 @@ Construct a sensible ranking function reflecting quality or popularity. How well
 4-15. Predict the salary of a job from its ad.\\
 \href{https://www.kaggle.com/c/job-salary-prediction}{https://www.kaggle.com/c/job-salary-prediction}
 %---- Page End Break Here ---- Page : 136
-\chapter{Statistical Analysis}
+\section{Statistical Analysis}
 It is easy to lie with statistics, but easier to lie without them.
 
 \begin{itemize}
@@ -2802,7 +3108,7 @@ Figure 5.1 illustrates the process of statistical reasoning. There is an underly
 
 Ideally, we will learn to think like a statistician: enough so as to remain vigilant and guard against overinterpretation and error, while retaining our confidence to play with data and take it where it leads us.
 
-\section{Statistical Distributions}
+\subsection{Statistical Distributions}
 Every variable that we observe defines a particular frequency distribution, which reflects how often each particular value arises. The unique properties of variables like height, weight, and IQ are captured by their distributions. But the shapes of these distributions are themselves not unique: to a great extent, the world's rich variety of data appear only in a small number of classical forms.
 
 These classical distributions have two nice properties: (1) they describe shapes of frequency distributions that arise often in practice, and (2) they can often be described mathematically using closed-form expressions with very few parameters. Once abstracted from specific data observations, they become \textit{probability distributions}, worthy of independent study.
@@ -3052,7 +3358,7 @@ neatly on a line. This is the main characteristic of a power law. By the way, th
 
 \textit{Take-Home Lesson}: Be on the lookout for power law distributions. They reflect the inequalities of the world, which means that they are everywhere.
 
-\section{Sampling from Distributions}
+\subsection{Sampling from Distributions}
 Sampling points from a given probability distribution is a common operation, one which it is pays to know how to do. Perhaps you need test data from a power law distribution to run a simulation, or to verify that your program operates under extreme conditions. Testing whether your data in fact fits a particular distribution requires something to compare it against, and that should generally be properly-generated synthetic data drawn from the canonical distribution.
 
 There is a general technique for sampling from any given probability distribution, called inverse transform sampling. Recall that we can move between the probability density function $P$ and the cumulative density function $C$ by integration and differentiation. We can move back and forth between them because:
@@ -3274,7 +3580,7 @@ The situation is illustrated in Figure 5.14. The $p$-values are sorted in increa
 
 The Benjamini-Hochberg procedure recognizes that if many values are really significant to a certain standard, a certain fraction of them should be significant to a much higher standard. The diagonal line in Figure 5.14 appropriately enforces this level of quality control.
 
-\section{War Story: Discovering the Fountain of Youth?}
+\subsection{War Story: Discovering the Fountain of Youth?}
 It had been a beautiful wedding. We were very happy for Rachel and David, the bride and groom. I had eaten like a king, danced with my lovely wife, and was enjoying a warm post-prime rib glow when it hit me that something was off. I looked around the room and did a double-take. Somehow, for the first time in many years, I had become younger than most of the people in the crowd.
 
 This may not seem like a big deal to you, but that is because you the reader probably \textit{are} younger than most people in many settings. But trust me, there will come a time when you notice such things. I remember when I first realized that I had been attending college at the time when most of my students were being born. Then they started being born when I was in graduate school. Today's college students were not only born after I became a professor, but after I got tenure here. So how could I be younger than most of the people at this wedding?
@@ -3412,7 +3718,7 @@ longest streak of any major league hitter is only 44 games, so it is out of line
 
 Hitting streaks can be thought of as runs between games without hits, and so can be modeled using a Poisson distribution. But Monte Carlo simulations provide answers without detailed mathematics. Permutation tests give us insight with minimal knowledge and intellectual effort.
 
-\section{Bayesian Reasoning}
+\subsection{Bayesian Reasoning}
 The conditional probability $P(A \mid B)$ measures the likelihood of event $A$ given knowledge that event $B$ has occurred. We will rely on conditional probability throughout this book, because it lets us update our confidence in an event in response to fresh evidence, like observed data.
 
 \textit{Bayes' Theorem} is an important tool for working with conditional probabilities, because it lets us turn the conditionals around:
@@ -3439,7 +3745,7 @@ Bayesian reasoning is an important way to look at the world. Walking into Rachel
 
 We will use Bayesian reasoning to build classifiers in Section 11.1 But keep this philosophy in mind as you analyze data. You should come to each task with a prior conception of what the answers should be, and then revise in accordance with statistical evidence.
 
-\section{Chapter Notes}
+\subsection{Chapter Notes}
 Every data scientist should take a good elementary statistics course. Representative texts include Freedman [\cite{freedman2007statistics}] and James et al. [JWHT13. Wheelan Whe13 is a gentler introduction, with Huff \cite{huff2010how} the classic treatise on how best to lie with statistics.
 
 Donoho \cite{donoho2015fifty} presents a fascinating history of data science from the vantage point of a statistician. It makes an effective case that most of the major principles of today's data science were originally developed by statisticians, although they were not quickly embraced by the discipline at large. Modern statisticians have begun having much more satisfying conversations with computer scientists on these matters as interests have mutually converged.
@@ -3448,7 +3754,7 @@ Vigen Vig15 presents an amusing collection of spurious correlations drawn from a
 
 It has been demonstrated that the size of American families is reasonably well fit by a Poisson distribution. In fact, an analysis of household size distributions from 104 countries suggests that the "I've had enough" model works around the world \cite{jennings1999household}.
 
-\section{Exercises}
+\subsection{Exercises}
 5-1. [5] Explain which distribution seems most appropriate for the following phenomenon: binomial, normal, Poisson, or power law?\\
 %---- Page End Break Here ---- Page : 167
 (a) The number of leaves on a fully grown oak tree.\\
@@ -3522,7 +3828,7 @@ For games of $n$ periods, how often does the better team win, and how often does
 
 5-18. \textit{[5]} You are about to get on a plane to Seattle. Should you bring an umbrella? You call three random friends of yours who live there and ask each independently whether it is raining. Each of friends has a $2/3$ chance of telling you the truth and a $1/3$ chance of lying. All three friends tell you that it is raining. What is the probability that it is actually raining in Seattle?
 
-\subsection{Kaggle Challenges}
+\section{Kaggle Challenges}
 5-19. Decide whether a car bought at an auction is a bad buy.\\
 \href{https://www.kaggle.com/c/DontGetKicked}{https://www.kaggle.com/c/DontGetKicked}
 
@@ -3710,7 +4016,7 @@ Such systems can be readily built in programming languages like Python, using st
 \caption{Which painting do you like better? Forming intelligent preferences in art or visualizations depend upon having a distinctive visual aesthetic.}
 \end{figure}
 
-\section{Developing a Visualization Aesthetic}
+\subsection{Developing a Visualization Aesthetic}
 Sensible appreciation of art or wine requires developing a particular taste or aesthetic. It isn't so much about whether you like something, but figuring out why you like it. Art experts talk about the range of a painter's palate, use of light, or the energy/tension of a composition. Wine connoisseurs testify to the fragrance, body, acidity, and clarity of their favorite plonk, and how much oak or tannin it contains. They always have something better to say than "that tastes good."
 
 Distinguishing good/bad visualizations requires developing a design aesthetic, and a vocabulary to talk about data representations. Figure 6.4 presents two famous landmarks in Western painting. Which one is better? This question is meaningless without a sense of aesthetics and a vocabulary to describe it.
@@ -3862,7 +4168,7 @@ There are many applications of small multiple charts. We can use them to break d
 
 Time series plots enable us to compare the same quantities at different calendar points. Even better is to compare multiple time series, either as lines on the same plot, or multiple plots in a logical array reflecting their relationship.
 
-\section{Chart Types}
+\subsection{Chart Types}
 In this section, we will survey the rationale behind the primary types of data visualizations. For each chart, I present best practices for using them, and outline the degrees of freedom you have to make your presentation as effective as possible.
 %---- Page End Break Here ---- Page : 185
 Nothing says ``Here's a plot of some data'' like a thoughtlessly-produced graphic, created using the default settings of some software tool. My students present me with such undigested data products way too often, and this section is somewhat of a personal reaction against it.
@@ -4212,7 +4518,7 @@ However, the conventional rendering avoids two problems. To do it "right," these
 
 \textit{Cartograms} are maps distorted such that regions reflect some underlying variable, like population. Figure 6.25 (right) plots the electoral results of 2012 on a map where the area of each state is proportional to its population/electoral votes. Only now does the magnitude of Obama's victory become clear: those giant red Midwestern states shrink down to an appropriate size, yielding a map of more blue than red.
 
-\section{Great Visualizations}
+\subsection{Great Visualizations}
 Developing your own visualization aesthetic gives you a language to talk about what you like and what you don't like. I now encourage you to apply your judgment to assess the merits and demerits of certain charts and graphs.
 
 In this section, we will look at a select group of classic visualizations which I consider great. There are a large number of terrible graphics I would love to contrast them against, but I was taught that it is not nice to make fun of people.
@@ -4273,7 +4579,7 @@ What is so great about that? First, it shows $6 \times 365 = 2190$ numbers in a 
 
 This single graphic is rich, clear, and informative. Be inspired by it.
 
-\section{Reading Graphs}
+\subsection{Reading Graphs}
 What you see isn't always what you get. I have seen many graphs brought to me by my students over the years. Some have been amazing, and most others good enough to get the job done.
 %---- Page End Break Here ---- Page : 208
 \begin{figure}[!htbp]
@@ -4316,7 +4622,7 @@ No. We just overinterpreted variance. The first clue is that what looked very st
 
 How could we fix it? The right thing to do here is to threshold the plot by only showing the values with enough data support, perhaps at length 500 or a bit more. Beyond that, we might bin them by length and take the average, in order to prove that the jumping effect goes away.
 
-\section{Interactive Visualization}
+\subsection{Interactive Visualization}
 The charts and graphs we have discussed so far were all static images, designed to be studied by the viewer, but not manipulated. Interactive visualization techniques are becoming increasingly important for exploratory data analysis.
 
 Mobile apps, notebooks, and webpages with interactive visualization widgets can be especially effective in presenting data, and disseminating it to larger audiences to explore. Providing viewers with the power to play with the actual data helps ensure that the story presented by a graphic is the true and complete story.
@@ -4341,7 +4647,7 @@ Recent trends in cloud-based visualization encourage you to upload your data to 
 
 The possible sticking point is security, since you are giving your data to a third party. I hope and trust that the CIA analysts have access to their own inhouse solutions which keep their data confidential. But feel free to experiment with these tools in less sensitive situations.
 
-\section{War Story: TextMapping the World}
+\subsection{War Story: TextMapping the World}
 My biggest experience in data visualization came as a result of our large scale news/sentiment analysis system. TextMap presented a news analysis dashboard, for every entity whose name appeared in news articles of the time. Barack Obama's page is shown in Figure 6.33. Our dashboard was made up of a variety of subcomponents:
 
 \begin{itemize}
@@ -4370,13 +4676,14 @@ What are the take-home lessons from this experience? There is a lot I still find
 
 One lesson here is the power of providing alternate views of the same data. The reference time series and news sector distribution were exactly the same data, but provided quite different insights when presented in different ways. All songs are made from the same notes, but how you arrange them makes for different kinds of music.
 
-\section{Chapter Notes}
+\subsection{Chapter Notes}
 I strongly recommend Edward Tufte's books Tuf83, Tuf90, Tuf97 to anyone interested in the art of scientific visualization. You don't even have to read them. Just look at the pictures for effective contrasts between good and bad graphics, and plots that really convey stories in data.
 
 Similarly good books on data visualization are Few [\cite{few2009now}] and far between. Interesting blogs about data visualization are \href{http://flowingdata.com}{http://flowingdata.com} and \href{http://viz.wtf}{http://viz.wtf}. The first focuses on great visualizations, the second seeking out the disasters. The story of Snow's cholera map is reported in Johnson \cite{johnson2007ghost}.
 
 The chartjunk removal example from Section 6.2.3 was inspired by an example by Tim Bray at \href{http://www.tbray.org}{http://www.tbray.org}. Anscombe's quartet was first presented in \cite{anscombe1973graphs}. The basic architecture of our Lydia/TextMap news analysis system is reported in Lloyd et al. \cite{lloyd2005lydia}, with additional papers describing heatmaps [MBL$^{+}$06] and the Access user interface \cite{bautin2010access}.
 %---- Page End Break Here ---- Page : 214
+\subsection{Exercises}
 \section{Exploratory Data Analysis}
 6-1. \emph{[5]} Provide answers to the questions associated with the following data sets, available at \href{http://www.data-manual.com/data}{http://www.data-manual.com/data}.\\
 (a) Analyze the \emph{movie} data set. What is the range of movie gross in the United States? Which type of movies are most likely to succeed in the market? Comedy? PG-13? Drama?\\
@@ -4429,14 +4736,15 @@ The chartjunk removal example from Section 6.2.3 was inspired by an example by T
 6-12. \textit{[5]} Explain Tufte's concept of chart junk.\\
 6-13. \textit{[8]} How would you to determine whether the statistics published in an article are either wrong or presented to support a biased view?
 
-\subsection{Kaggle Challenges}
+\section{Kaggle Challenges}
 6-14. Analyze data from San Francisco Bay Area bike sharing. \href{https://www.kaggle.com/benhamner/sf-bay-area-bike-share}{https://www.kaggle.com/benhamner/sf-bay-area-bike-share}\\
 6-15. Predict whether West Nile virus is present in a given time and place.\\
 \href{https://www.kaggle.com/c/predict-west-nile-virus}{https://www.kaggle.com/c/predict-west-nile-virus}\\
 6-16. What type of crime is most likely at a given time and place?\\
 \href{https://www.kaggle.com/c/sf-crime}{https://www.kaggle.com/c/sf-crime}
 %---- Page End Break Here ---- Page : 216
-\chapter{Mathematical Models}
+\section{Chapter 7}
+\section{Mathematical Models}
 \begin{displayquote}
 All models are wrong, but some models are useful.
 
@@ -4451,7 +4759,7 @@ This chapter will concentrate on designing and validating models. Effectively fo
 
 Accurately evaluating the performance of a model can be surprisingly hard, but it is essential for knowing how to interpret the resulting predictions. The best forecasting system is not necessarily the most accurate one, but the model with the best sense of its boundaries and limitations.
 
-\section{Philosophies of Modeling}
+\subsection{Philosophies of Modeling}
 Engineers and scientists are often leery of the p-word (philosophy). But it pays to think in some fundamental way about what we are trying to do, and why. Recall that people turn to data scientists for wisdom, instead of programs.
 
 In this section, we will turn to different ways of thinking about models to help shape the way we build them.
@@ -4530,7 +4838,7 @@ $$
 although admittedly now greater than that of a random citizen.\\
 Factoring in prior probabilities is essential to getting the right interpretation from this classifier. Bayesian reasoning starts from the prior distribution, then weighs further evidence by how strongly it should impact the probability of the event.
 
-\section{A Taxonomy of Models}
+\subsection{A Taxonomy of Models}
 Models come in, well, many different models. Part of developing a philosophy of modeling is understanding your available degrees of freedom in design and\\
 %---- Page End Break Here ---- Page : 221
 implementation. In this section, we will look at model types along several different dimensions, reviewing the primary technical issues which arise to distinguish each class.
@@ -4606,7 +4914,7 @@ I am always reluctant to believe that machine learning models prove better than 
 %---- Page End Break Here ---- Page : 225
 derstand. Even when employing deep learning, it pays to sketch out a rough hierarchical structure that likely exists for your network to find. For example, any image processing network should generalize from patches of pixels to edges, and then from boundaries to sub-objects to scene analysis as we move to higher layers. This influences the architecture of your network, and helps you validate it. Do you see evidence that your network is making the right decisions for the right reasons?
 
-\section{Baseline Models}
+\subsection{Baseline Models}
 A wise man once observed that a broken clock is right twice a day. As modelers we strive to be better than this, but proving that we are requires some level of rigorous evaluation.
 
 The first step to assess the complexity of your task involves building \textit{baseline models}: the simplest reasonable models that produce answers we can compare against. More sophisticated models \textit{should} do better than baseline models, but verifying that they really do and, if so by how much, puts its performance into the proper context.
@@ -4654,7 +4962,7 @@ In value prediction problems, we are given a collection of feature-value pairs $
 
 Baseline models must be fair: they should be simple but not stupid. You want to present a target that you hope or expect to beat, but not a sitting duck. You should feel relieved when you beat your baseline, but not boastful or smirking.
 
-\section{Evaluating Models}
+\subsection{Evaluating Models}
 Congratulations! You have built a predictive model for classification or value prediction. Now, how good is it?
 
 This innocent-looking question does not have a simple answer. We will detail the key technical issues in the sections below. But the informal \textit{sniff test} is perhaps the most important criteria for evaluating a model. Do you \textit{really} believe that it is doing a good job on your training and testing instances?
@@ -5002,7 +5310,7 @@ $\mathbf{8}$ & COHA\_News\_2000 & NB & 16.220065 & 12 & 0.035599 \\
 
 Figure 7.10: Evaluation environment results for predicting the year of authorship for documents, comparing the monkey (left) to a naive Bayes classifier (right).
 
-\section{Evaluation Environments}
+\subsection{Evaluation Environments}
 A substantial part of any data science project revolves around building a reasonable evaluation environment. In particular, you need a \textit{single-command program} to run your model on the evaluation data, and produce plots/reports on its effectiveness, as shown in Figure 7.9
 
 Why single command? If it is not easy to run, you won't try it often enough. If the results are not easy to read and interpret, you will not glean enough information to make it worth the effort.
@@ -5102,7 +5410,7 @@ We shifted direction and got into the business of reading handwritten survey for
 
 The fundamental lesson here is that no pattern recognition system for any reasonable problem will bat $100 \%$ all the time. The only way never to be wrong is to never make a prediction. Careful evaluation is necessary to measure how well your system is working and where it is making mistakes, in order to make the system better.
 
-\section{Simulation Models}
+\subsection{Simulation Models}
 There is an important class of first-principle models which are not primarily data driven, yet which prove very valuable for understanding widely diverse phenomena. \textit{Simulations} are models that attempt to replicate real-world systems and processes, so we can observe and analyze their behavior.
 
 Simulations are important for demonstrating the validity of our understanding of a system. A simple simulation which captures much of the behavioral complexity of a system must explain how it works, by Occam's razor. Famous physicist Richard Feynman said, "What I cannot create, I do not understand." What you cannot simulate, and get some level of accuracy in the observed results, you do not understand.
@@ -5116,7 +5424,7 @@ The accuracy of such a simulation rests on the probabilities that you assign to 
 
 A critical aspect of effective simulation is evaluation. Programming errors and modeling inadequacies are common enough that no simulation can be accepted on faith. The key is to hold back one or more classes of observations of the system from direct incorporation in your model. This provides behavior that is out of sample, so we can compare the distribution of results from the simulation with these observations. If they don't jibe, your simulation is just jive. Don't let it go live.
 
-\section{War Story: Calculated Bets}
+\subsection{War Story: Calculated Bets}
 Where there is gambling there is money, and where there is money there will be models. During our family trips to Florida as a kid, I developed a passion for the sport of jai-alai. And, as I learned how to build mathematical models as a grown-up, I grew obsessed with developing a profitable betting system for the sport.
 
 Jai-alai is a sport of Basque origin where opposing players or teams alternate hurling a ball against the wall and catching it, until one of them finally misses and loses the point. The throwing and catching is done with an enlarged basket or \textit{cesta}, the ball or \textit{pelota} is made of goat skin and hard rubber, and the wall is of granite or concrete; ingredients which lead to fast and exciting action captured in Figure 7.11. In the United States, jai-alai is most associated with the state of Florida, which permits gambling on the results of matches.
@@ -5207,13 +5515,14 @@ My simulation provided information on which outcomes were most likely. It did no
 
 The bottom line is that we did it, with $544 \%$ returns on our initial stake. The full story of our gambling system is reported in my book \textit{Calculated Bets} [Ski01]. Check it out: I bet you will like it. It is fun reading about successful models, but even more fun to build them.
 
-\section{Chapter Notes}
+\subsection{Chapter Notes}
 Silver [Sil12] is an excellent introduction to the complexities of models and forecasting in a variety of domains. Textbooks on mathematical modeling issues include Bender [\cite{bender2012introduction}] and Giordano [\cite{giordano2013first}].
 %---- Page End Break Here ---- Page : 249
 The Google Flu Trends project is an excellent case study in both the power and limitation of big data analysis. See Ginsberg et al. [GMP $^{+}$09] for the original description, and Lazer et al. [\cite{lazer2014parable}] for a fascinating post-mortem on how it all went wrong.
 
 Technical aspects of the OCR system presented in Section 7.6 is reported in Sazaklis et. al. \cite{sazaklis1997geometric}. The work on year of authorship detection (and associated evaluation environment example) is from my students Vivek Kulkarni, Parth Dandiwala, and Yingtao Tian \cite{kulkarni2017dating}.
 
+\subsection{Exercises}
 \section{Properties of Models}
 7-1. \textit{[3]} Quantum physics is much more complicated than Newtonian physics. Which model passes the Occam's Razor test, and why?\\[0pt]
 7-2. \textit{[5]} Identify a set of models of interest. For each of these, decide which properties these models have:\\
@@ -5311,13 +5620,14 @@ $7-20$. \textit{[5]} A test has a true positive rate of $100 \%$ and false posit
 7-22. \textit{[3]} What do you think about the idea of injecting noise into your data set to test the sensitivity of your models?\\[0pt]
 7-23. \textit{[5]} How would you define and measure the predictive power of a metric?
 
-\subsection{Kaggle Challenges}
+\section{Kaggle Challenges}
 $7-24$. Will a particular grant application be funded?\\
 \href{https://www.kaggle.com/c/unimelb}{https://www.kaggle.com/c/unimelb}\\
 $7-25$. Who will win the NCAA basketball tournament? \href{https://www.kaggle.com/c/march-machine-learning-mania-2016}{https://www.kaggle.com/c/march-machine-learning-mania-2016}\\
 $7-26$. Predict the annual sales in a given restaurant. \href{https://www.kaggle.com/c/restaurant-revenue-prediction}{https://www.kaggle.com/c/restaurant-revenue-prediction}
 %---- Page End Break Here ---- Page : 252
-\chapter{Linear Algebra}
+\section{Chapter 8}
+\section{Linear Algebra}
 We often hear that mathematics consists mainly of "proving theorems." Is a writer's job mainly that of "writing sentences?"
 
 \begin{itemize}
@@ -5330,7 +5640,7 @@ Linear algebra is the mathematics of matrices: the properties of arrangements of
 
 You presumably took a course in linear algebra at some point, but perhaps have forgotten much of it. Here I will review most of what you need to know: the basic operations on matrices, why they are useful, and how to build an intuition for what they do.
 
-\section{The Power of Linear Algebra}
+\subsection{The Power of Linear Algebra}
 Why is linear algebra so powerful? It regulates how matrices work, and matrices are everywhere. Matrix representations of important objects include:
 
 \begin{itemize}
@@ -5435,7 +5745,7 @@ The cosine function is exactly the correlation of two mean-zero variables. For u
 
 \emph{Take-Home Lesson}: The dot product of two vectors measures similarity in exactly the same way as the Pearson correlation coefficient.
 
-\section{Visualizing Matrix Operations}
+\subsection{Visualizing Matrix Operations}
 I assume that you have had some previous exposure to the basic matrix operations of transposition, multiplication, and inversion. This section is intended as a refresher, rather than an introduction.
 %---- Page End Break Here ---- Page : 257
 \begin{figure}
@@ -5847,7 +6157,7 @@ Linear systems can be "almost" of lower rank, which results in a greater danger 
 
 Be aware of the vagaries of numerical computation when evaluating your results. For example, it is a good practice to compute $AX$ for any purported solution $X$, and see how well $AX$ \textit{really} compares to $Y$. In theory the difference will be zero, but in practice you may be surprised how rough the calculation really is.
 
-\section{Factoring Matrices}
+\subsection{Factoring Matrices}
 \textit{Factoring} matrix $A$ into matrices $B$ and $C$ represents a particular aspect of division. We have seen that any non-singular matrix $M$ has an inverse $M^{-1}$, so the identity matrix $I$ can be factored as $I=MM^{-1}$. This proves that some matrices (like $I$) can be factored, and further that they might have many distinct factorizations. In this case, every possible non-singular $M$ defines a different factorization.
 
 Matrix factorization is an important abstraction in data science, leading to concise feature representations and ideas like topic modeling. It plays an important part in solving linear systems, through special factorizations like LUdecomposition.
@@ -5900,7 +6210,7 @@ Figure 8.11 illustrates the LU decomposition of the Lincoln memorial. There is a
 \caption{Figure 8.11: The LU decomposition of the Lincoln memorial (left), with the product $L \cdot U$ (center). The rows of the LU matrix were permuted during calculation, but when properly ordered fully reconstructed the image (right).}
 \end{figure}
 
-\section{Eigenvalues and Eigenvectors}
+\subsection{Eigenvalues and Eigenvectors}
 Multiplying a vector $U$ by a square matrix $A$ can have the same effect as multiplying it by a scalar $l$. Consider this pair of examples. Indeed, check them out by hand:
 
 $$
@@ -6008,7 +6318,7 @@ Faster algorithms for eigenvalue/vector computations are based on a matrix facto
 
 The largest eigenvalues and their associated vectors are, generally speaking, more important that the rest. Why? Because they make a larger contribution to approximating the matrix $A$. Thus high-performance linear algebra systems use special routines for finding the $k$ largest (and smallest) eigenvalues and then iterative methods to reconstruct the vectors for each.
 
-\section{Eigenvalue Decomposition}
+\subsection{Eigenvalue Decomposition}
 Any $n \times n$ symmetric matrix $M$ can be decomposed into the sum of its $n$ eigenvector products. We call the $n$ eigenpairs $\left(\lambda_{i}, U_{i}\right)$, for $1 \leq i \leq n$. By convention we sort by size, so $\lambda_{i} \geq \lambda_{i-i}$ for all $i$.
 
 Since each eigenvector $U_{i}$ is an $n \times 1$ matrix, multiplying it by its transpose yields an $n \times n$ matrix product, $U_{i} U_{i}^{T}$. This has exactly the same dimensions as the original matrix $M$. We can compute the linear combination of these matrices weighted by its corresponding eigenvalue. In fact, this reconstructs the original matrix, since:
@@ -6103,7 +6413,7 @@ Relatively few components suffice to capture the basic structure of the point se
 
 \textit{Take-Home Lesson}: PCA and SVD are essentially two different approaches to computing the same thing. They should serve equally well as low-dimensional approximations of a feature matrix.
 %---- Page End Break Here ---- Page : 277
-\section{War Story: The Human Factors}
+\subsection{War Story: The Human Factors}
 I first came to be amazed by the power of dimension reduction methods like PCA and SVD in the course of our analysis of historical figures for our book \textit{Who's Bigger}. Recall (from the war story of Section 4.7) how we analyzed the structure and content of Wikipedia, ultimately extracting a half-dozen features like PageRank and article length for each of the $800,000+$ articles about people in the English edition. This reduced each of these people to a six-dimensional feature vector, which we would analyze to judge their relative significance.
 
 But things proved not as straightforward as we thought. Wildly different people were ranked highest by each particular variable. It wasn't clear how to interpret them. "There is so much variance and random noise in our features," my co-author Charles observed. "Let's identify the major factors underlying these observed variables that really show what is going on."
@@ -6164,9 +6474,10 @@ two distinct types of fame, without any labeled training examples or even a prec
 
 This celebrity-gravitas continuum serves as an instructive example of the power of dimension reduction methods. All the factors/vectors/components all must, by definition, be orthogonal to each other. This means that they each measure different things, in a way that two correlated input variables do not. It pays to do some exploratory data analysis on your main components to try to figure out what they really mean, in the context of your application. The factors are yours to name as you wish, just like a cat or a dog, so choose names you will be happy to live with.
 
-\section{Chapter Notes}
+\subsection{Chapter Notes}
 There are many popular textbooks providing introductions to linear algebra, including \cite{lay2015linear}, \cite{strang2011introduction}, \cite{tucker1988unified}. Klein \cite{klein2013coding} presents an interesting introduction to linear algebra for computer science, with an emphasis on programming and applications like coding theory and computer graphics.
 
+\subsection{Exercises}
 \section{Basic Linear Algebra}
 8-1. \emph{[3]} Give a pair of square matrices $A$ and $B$ such that:\\
 (a) $AB = BA$ (it commutes).\\
@@ -6234,7 +6545,7 @@ $$
 
 8-22. \textit{[5]} Explain the difference between ``long'' and ``wide'' format data. When might each arise in practice?
 
-\subsection{Kaggle Challenges}
+\section{Kaggle Challenges}
 8-23. Tell what someone is looking at from analysis of their brain waves.\\
 \href{https://www.kaggle.com/c/decoding-the-human-brain}{https://www.kaggle.com/c/decoding-the-human-brain}\\
 8-24. Decide whether a particular student will answer a given question correctly. \href{https://www.kaggle.com/c/WhatDoYouKnow}{https://www.kaggle.com/c/WhatDoYouKnow}\\
@@ -6358,7 +6669,7 @@ $$
 \caption{Removing outlier points (left) can result in much more meaningful fits (right).}
 \end{figure}
 %---- Page End Break Here ---- Page : 286
-\section{Better Regression Models}
+\subsection{Better Regression Models}
 Given a matrix $A$ of $n$ points, each of $m-1$ dimensions, and an $n \times 1$ target array $b$, we can invert and multiply the appropriate matrices to get the desired coefficient matrix $w$. This defines a regression model. Done!
 
 However, there are several steps one can take which can lead to better regression models. Some of these involve manipulating the input data to increase the likelihood of an accurate model, but others require more conceptual issues of what our model \emph{should} look like.
@@ -6475,7 +6786,7 @@ This is confusing, but even worse things can happen. The rows in the covariance 
 
 The solution here is to identify feature pairs which correlate excessively strongly, by computing the appropriate covariance matrix. If they are lurking, you can eliminate either variable with little loss of power. Better is to eliminate these correlations entirely, by combining the features. This is one of the problems solved by dimension reduction, using techniques like singular value decomposition that we discussed in Section 8.5.1
 
-\section{War Story: Taxi Deriver}
+\subsection{War Story: Taxi Deriver}
 I am proud of many things in my life, but perhaps most so of being a New Yorker. I live in the most exciting city on earth, the true center of the universe. Astronomers, at least the good ones, will tell you that each new year starts when the ball drops in Times Square, and then radiates out from New York at the speed of light to the rest of the world.
 
 New York cab drivers are respected around the world for their savvy and street smarts. It is customary to tip the driver for each ride, but there is no established tradition of how much that should be. In New York restaurants, the "right" amount to tip the waiter is to double the tax, but I am unaware of any such heuristic for taxi tipping. My algorithm is to round up to the nearest dollar and then toss in a couple of bucks depending upon how fast he got me there. But I have always felt unsure. Am I a cheapskate? Or maybe a sucker?
@@ -6518,7 +6829,7 @@ codes. Indeed, recall our map of such tipping behavior, presented back in Figure
 
 It took several minutes for the solver to find the best fit on such a large data set, but that it finished at all meant some algorithm faster and more robust than matrix inversion had to be involved. These algorithms view regression as a parameter fitting problem, as we will discuss in the next section.
 
-\section{Regression as Parameter Fitting}
+\subsection{Regression as Parameter Fitting}
 The closed form formula for linear regression, $w=\left(A^{T} A\right)^{-1} A^{T} b$, is concise and elegant. However, it has some issues which make it suboptimal for computation in practice. Matrix inversion is slow for large systems, and prone to numerical instability. Further, the formulation is brittle: the linear algebra magic here is hard to extend to more general optimization problems.
 
 But there is an alternate way to formulate and solve linear regression problems, which proves better in practice. This approach leads to faster algorithms, more robust numerics, and can be readily adapted to other learning algorithms. It models linear regression as a \emph{parameter fitting} problem, and deploys search algorithms to find the best values that it can for these parameters.
@@ -6667,7 +6978,7 @@ descent leads to very fast optimization for convex functions, with the details b
 
 It can be expensive to make random choices at every step of the search. Better is to randomize the order of the training examples once, to avoid systematic artifacts in how they are presented, and then build our batches by simply marching down the list. This way we can insure that all $n$ of our training instances eventually do contribute to the search, ideally several times as we repeatedly sweep through all examples over the course of optimization.
 
-\section{Simplifying Models through Regularization}
+\subsection{Simplifying Models through Regularization}
 Linear regression is happy to determine the \emph{best possible} linear fit to any collection of $n$ data points, each specified by $m-1$ independent variables and a given target value. But the "best" fit may not be what we \emph{really} want.
 
 The problem is this. Most of the $m-1$ possible features may be uncorrelated with the target, and thus have no real predictive power. Typically, these will show as variables with small coefficients. However, the regression algorithm will use these values to nudge the line so as to reduce least square error on the given training examples. Using noise (the uncorrelated variables) to fit noise (the residual left from a simple model on the genuinely correlated variables) is asking for trouble.
@@ -6990,13 +7301,14 @@ P(A \mid E)=\frac{P(E \mid A) P(A)}{P(E)}
 $$
 Computing this as a real probability requires knowing the denominator $P(E)$, which can be a murky thing to compute. But comparing $P(A \mid E)$ to $P(B \mid E)$ in order to determine whether label $A$ is more likely than label $B$ does not require knowing $P(E)$, since it is the same in both expressions. Like a physicist, we can waive it away, mumbling about the "partition function."
 
-\section{Chapter Notes}
+\subsection{Chapter Notes}
 Linear and logistic regression are standard topics in statistics and optimization. Textbooks on linear/logistic regression and its applications include (JWHT13, \cite{weisberg2005applied}.
 
 The treatment of the gradient descent approach to solving regression here was inspired by Andrew Ng , as presented in his Coursera machine learning course. I strongly recommend his video lectures to those interested in a more thorough treatment of the subject.
 
 The discovery that butter production in Bangladesh accurately forecasted the S\&P 500 stock index is due to Leinweber \cite{leinweber2007stupid}. Unfortunately, like most spurious correlations it broke down immediately after its discovery, and no longer has predictive power.
 %---- Page End Break Here ---- Page : 315
+\subsection{Exercises}
 \section{Linear Regression}
 9-1. \textit{[3]} Construct an example on $n \ge 6$ points where the optimal regression line is $y = x$, even though none of the input points lie directly on this line.
 
@@ -7047,14 +7359,15 @@ Implement such a logistic regression classifier, and extend it to other sports l
 
 9-18. \emph{[5]} How do we train a logistic regression model? How do we interpret its coefficients?
 
-\subsection{Kaggle Challenges}
+\section{Kaggle Challenges}
 9-19. Identify what is being cooked, given the list of ingredients.\\
 \href{https://www.kaggle.com/c/whats-cooking}{https://www.kaggle.com/c/whats-cooking}\\
 9-20. Which customers are satisfied with their bank?\\
 \href{https://www.kaggle.com/c/santander-customer-satisfaction}{https://www.kaggle.com/c/santander-customer-satisfaction}\\
 9-21. What does a worker need access to in order to do their job?
 
-\chapter{Distance and Network Methods}
+\section{Chapter 10}
+\section{Distance and Network Methods}
 \begin{abstract}
 When a measure becomes a target, it ceases to be a measure.
 \end{abstract}
@@ -7069,7 +7382,7 @@ There is a close connection between collections of points in space and vertices 
 
 Several of the important problems on geometric data readily generalize to network data, including nearest neighbor classification and clustering. Thus we treat both topics together in this chapter, to better exploit the synergies between them.
 
-\section{Measuring Distances}
+\subsection{Measuring Distances}
 The most basic issue in the geometry of points $p$ and $q$ in $d$ dimensions is how best to measure the distance between them. It might not be obvious that there is any issue here to speak of, since the traditional \emph{Euclidean} metric is \emph{obviously}\\
 how you measure distances. The Euclidean matrix defines
 \[
@@ -7394,7 +7707,7 @@ Note that LSH has exactly the opposite goal from traditional hash functions used
 
 Locality sensitive hashing has other applications in data science, beyond nearest neighbor search. Perhaps the most important is constructing compressed feature representations from complicated objects, say video or music streams. LSH codes constructed from intervals of these streams define numerical values potentially suitable as features for pattern matching or model building.
 
-\section{Graphs, Networks, and Distances}
+\subsection{Graphs, Networks, and Distances}
 A \textit{graph} $G=(V, E)$ is defined on a set of \textit{vertices} $V$, and contains a set of \textit{edges} $E$ of ordered or unordered pairs of vertices from $V$. In modeling a road network, the vertices may represent the cities or junctions, certain pairs of which are directly connected by roads/edges. In analyzing human interactions, the vertices typically represent people, with edges connecting pairs of related souls.
 
 Many other modern data sets are naturally modeled in terms of graphs or networks:
@@ -7490,7 +7803,7 @@ I take the opportunity here to review the connections of these fundamental probl
   \item \emph{Topological sorting}: Ranking problems (recall Chapter 4) impose a pecking order on a collection of items according to some merit criteria. \emph{Topological sorting} ranks the vertices of a directed acyclic graph (DAG) so edge $(i, j)$ implies that $i$ ranks above $j$ in the pecking order. Given a collection of observed constraints of the form " $i$ should rank above $j$," topological sorting defines an item-order consistent with these observations.
 \end{itemize}
 %---- Page End Break Here ---- Page : 339
-\section{PageRank}
+\subsection{PageRank}
 It is often valuable to categorize the relative importance of vertices in a graph. Perhaps the simplest notion is based on vertex \emph{degree}, the number of edges connecting vertex $v$ to the rest of the graph. The more connected a vertex is, the more important it probably is.
 
 The degree of vertex $v$ makes a good feature to represent the item associated with $v$. But even better is \emph{PageRank} [\cite{brin1998anatomy}], the original secret sauce behind Google's search engine. PageRank ignores the textual content of webpages, to focus only on the structure of the hyperlinks between pages. The more important pages (vertices) should have higher in-degree than lesser pages, for sure. But the importance of the pages that link to you also matter. Having a large stable of contacts recommending you for a job is great, but it is even better when one of them is currently serving as the President of the United States.
@@ -7575,7 +7888,7 @@ Adding and deleting sets of edges from a given network gives rise to different n
 
 PageRank on this graph favors a slightly different cohort of people, shown in Table 10.1 (right). Jesus, Linnaeus and \emph{Aristotle (384-322 b.c.)} [8] are now gone, replaced by three recent U.S. presidents - who clearly have direct connections from many important people. So which version of PageRank is better, PR1 or PR2? Both seem to capture reasonable notions of centrality with a substantial but not overwhelming correlation (0.68), so both make sense as potential features in a data set.
 
-\section{Clustering}
+\subsection{Clustering}
 \emph{Clustering} is the problem of grouping points by similarity. Often items come from a small number of logical "sources" or "explanations", and clustering is a good way to reveal these origins. Consider what would happen if an alien species were to come across height and weight data for a large number of humans. They would presumably figure out that there seem to be two clusters representing distinct populations, one consistently bigger than the other. If the aliens were really on the ball, they might call these populations 'men" and "women". Indeed, the two height-weight clusters in Figure 10.11 are both highly\\
 %---- Page End Break Here ---- Page : 342
 \begin{figure}
@@ -7865,7 +8178,7 @@ This approach is called \emph{spectral clustering}. We construct an appropriatel
   \item Do your clusters look sensible to you when appropriately visualized? Understand that clustering is never perfect, because the algorithm can't read your mind. But is it good enough?
 \end{itemize}
 
-\section{War Story: Cluster Bombing}
+\subsection{War Story: Cluster Bombing}
 My host at the research labs of a major media/tech company during my sabbatical was Amanda Stent, the leader of their natural language processing (NLP) group. She is exceptionally efficient, excessively polite, and generally imperturbable. But with enough provocation she can get her dander up, and I heard the exasperation in her voice when she muttered "Product people!"
 
 Part of her mission at the lab was to interface with company product groups which needed expertise in language technologies. The offenders here were with the news product, responsible for showing users recent articles of interest to them. The article clustering module was an important part of this effort, because it grouped together all articles written about the same story/event. Users did not want to read ten different articles about the same baseball game or Internet meme. Showing users repeated stories from a single article cluster proved highly annoying, and chased them away from our site.
@@ -7886,7 +8199,7 @@ What are the morals of this tale? A man has got to know his limitations, and so 
 
 The second moral is that feature engineering and distance functions matter in clustering much more than the specific algorithmic approach. Those product people dreamed of a high-powered algorithm which would solve all their problems, yet were only clustering on the headlines. Headlines are designed to attract attention, not explain the story. The best newspaper headlines in history, such as "Headless Body Found in Topless Bar" and "Ford to City, Drop Dead" would be impossible to link to more sober ledes associated with the same stories.
 
-\section{Chapter Notes}
+\subsection{Chapter Notes}
 Distance computations are a basis of the field of computational geometry, the study of algorithms and data structures for manipulating point sets. Excellent introductions to computational geometry include [O'R01 \cite{deberg2000computational}.
 
 Samet \cite{samet2006foundations} is the best reference on kd-trees and other spatial data structures for nearest neighbor search. All major (and many minor) variants are developed in substantial detail. A shorter survey \cite{samet2005multidimensional} is also available. Indyk \cite{indyk2004nearest} ably surveys recent results in approximate nearest neighbor search in high dimensions, based on random projection methods.
@@ -7895,7 +8208,9 @@ Graph theory is the study of the abstract properties of graphs, with West \cite{
 
 Clustering, also known as \emph{cluster analysis}, is a classical topic in statistics and computer science. Representative treatments include Everitt et al. [\cite{everitt2011cluster}] and James et al. JWHT13.
 %---- Page End Break Here ---- Page : 360
-\subsection{Distance Metrics}
+\subsection{Exercises}
+
+\section{Distance Metrics}
 10-1. \textit{[3]} Prove that Euclidean distance is in fact a metric.
 
 10-2. \textit{[5]} Prove that $L_{p}$ distance is a metric, for all $p \geq 1$.
@@ -8008,7 +8323,7 @@ Plot the points and the final clusters.
 10-31. \textit{[5]} How can you deal with correlated features in your data set by reducing the dimensionality of the data.\\
 10-32. \textit{[5]} Explain what a local optimum is. Why is it important in \textit{k}-means clustering?
 
-\subsection{Kaggle Challenges}
+\section{Kaggle Challenges}
 10-33. Which people are most influential in a given social network?\\
 \href{https://www.kaggle.com/c/predict-who-is-more-influential-in-a-social-network}{https://www.kaggle.com/c/predict-who-is-more-influential-in-a-social-network}
 %---- Page End Break Here ---- Page : 364
@@ -8340,7 +8655,7 @@ This fraction can be interpreted as a probability, but even better might be to f
 %---- Page End Break Here ---- Page : 376
 fraction of trees picking class $C_{1}$ on input vector $X_{i}$. Run the entire training set through the decision tree ensemble. Now define a logistic regression problem where $f_{i}$ is input variable and the class of $X_{i}$ the output variable. The resulting logit function will determine an appropriate confidence level, for any observed fraction of agreement.
 
-\section{Boosting and Ensemble Learning}
+\subsection{Boosting and Ensemble Learning}
 The idea of aggregating large numbers of noisy ``predictors'' into one stronger classifier applies to algorithms as well as crowds. It is often the case that many different features all weakly correlate with the dependent variable. So what is the best way we can combine them into one stronger classifier?
 
 \subsection{Voting with Classifiers}
@@ -8444,7 +8759,7 @@ The danger of overfitting is particularly severe when the training data is not a
 
 \emph{Take-Home Lesson}: Boosting can take advantage of weak classifiers in an effective way. However, it can behave in particularly pathological ways when a fraction of your training examples are incorrectly annotated.
 
-\section{Support Vector Machines}
+\subsection{Support Vector Machines}
 \emph{Support vector machines} (SVMs) are an important way of building non-linear classifiers. They can be viewed as a relative of logistic regression, which sought\\
 %---- Page End Break Here ---- Page : 380
 \begin{figure}[htbp]
@@ -8542,7 +8857,7 @@ This would work to eliminate the space bottleneck, but we would still pay a heav
 
 Support vector machines require experience to use effectively. There are many different kernel functions available, beyond the distance kernel I presented here. Each have advantages on certain data sets, so there is a need to futz with the options of tools like LibSVM to get the best performance. They work best on medium-sized data sets, with thousands but not millions of points.
 %---- Page End Break Here ---- Page : 385
-\section{Degrees of Supervision}
+\subsection{Degrees of Supervision}
 There is a natural distinction between machine learning approaches based on the degree and nature of the \textit{supervision} employed in amassing training and evaluation data. Like any taxonomy, there is some fuzziness around the margins, making it an unsatisfying exercise to try to label exactly what a given system is and is not doing. However, like any \textit{good} taxonomy it gives you a frame to guide your thinking, and suggests approaches that might lead to better results.
 
 The methods discussed so far in this chapter assume that we are given training data with class labels or target variables, leaving our task as one to train classifier or regression systems. But getting to the point of having labeled data is usually the hard part. Machine learning algorithms generally perform better the more data you can give them, but annotation is often difficult and expensive. Modulating the degree of supervision provides a way to raise the volume so your classifier can hear what is going on.
@@ -8632,7 +8947,7 @@ Defining these products and ratios requires domain-specific information, and car
 
 Don't be shy here. The difference between a good model and a bad model usually comes down to quality of its feature engineering. Advanced machine learning algorithms are glamorous, but it is the data preparation that produces the results.
 
-\section{Deep Learning}
+\subsection{Deep Learning}
 The machine learning algorithms we have studied here do not really scale well to \emph{huge} data sets, for several reasons. Models like linear regression generally have relatively few parameters, say one coefficient per column, and hence cannot really benefit from enormous numbers of training examples. If the data has a good linear fit, you will be able to find it with a small data set. And if doesn't, well, you didn't really want to find it anyway.
 
 \emph{Deep learning} is an incredibly exciting recent development in machine learning. It is based on \emph{neural networks}, a popular approach from the 1980s which then fell substantially out of style. But over the past five years something happened, and suddenly multi-layer (deep) networks began wildly out-performing traditional approaches on classical problems in computer vision and natural language processing.
@@ -8793,7 +9108,7 @@ Our vocabulary can be chosen to be the set of distinct vertex IDs, from 1 to $n$
 
 DeepWalk is an excellent illustration of how word embeddings can be used to capture meaning from any large-scale corpus of sequences, irrespective of whether they are drawn from a natural language. The same idea plays an important role in the following war story.
 
-\section{War Story: The Name Game}
+\subsection{War Story: The Name Game}
 My brother uses the name \textit{Thor Rabinowitz} whenever he needs an alias for a restaurant reservation or online form. To understand this war story, you first have to appreciate why this is very funny.
 
 \begin{itemize}
@@ -8843,7 +9158,7 @@ With very few \textit{Thors} corresponding with very few \textit{Rabinowitzes}, 
 
 The moral of this story is the power of word embeddings to effortlessly capture structure latent in any long sequence of symbols, where order matters. Programs like word2vec are great fun to play with, and remarkably easy to use. Experiment with any interesting data set you have, and you will be surprised at the properties it uncovers.
 
-\section{Chapter Notes}
+\subsection{Chapter Notes}
 Good introductions to machine learning include Bishop [\cite{bishop2007pattern}] and Friedman et al. [\cite{friedman2001elements}]. Deep learning is currently the most exciting area of machine learning, with the book by Goodfellow, Bengio, and Courville [\cite{goodfellow2016deep}] serving as the most comprehensive treatment.
 
 Word embeddings were introduced by Mikolov et al. [\cite{mikolov2013efficient}], along with their powerful implementation of word2vec. Goldberg and Levy [G14] have shown that word2vec is implicitly factoring the pointwise mutual information matrix of word co-locations. In fact, the neural network model is not really fundamental to what it is doing. Our DeepWalk approach to graph embeddings is described in Perozzi et al. [\cite{perozzi2014deepwalk}].
@@ -8856,6 +9171,7 @@ Word embeddings were introduced by Mikolov et al. [\cite{mikolov2013efficient}],
 
 The Titanic survival examples are derived from the Kaggle competition \href{https://www.kaggle.com/c/titanic}{https://www.kaggle.com/c/titanic}. The war story on fake name generation is a result of work with Shuchu Han, Yifan Hu, Baris Coskun, and Meizhu Liu at Yahoo labs.
 
+\subsection{Exercises}
 \section{Classification}
 11-1. \textit{[3]} Using the naive Bayes classifier of Figure 11.2, decide whether (Cloudy,High, Normal) and (Sunny,Low,High) are beach days.
 
@@ -8901,7 +9217,7 @@ The Titanic survival examples are derived from the Kaggle competition \href{http
 11-16. \textit{[5]} Do you think fifty small decision trees are better than a large one? Why?\\[0pt]
 11-17. \textit{[8]} How would you come up with a program to identify plagiarism in documents?
 
-\subsection{Kaggle Challenges}
+\section{Kaggle Challenges}
 11-18. How relevant are given search results to the user?\\
 \href{https://www.kaggle.com/c/crowdflower-search-relevance}{https://www.kaggle.com/c/crowdflower-search-relevance}\\
 11-19. Did a movie reviewer like or dislike the film?\\
@@ -8909,7 +9225,7 @@ The Titanic survival examples are derived from the Kaggle competition \href{http
 11-20. From sensor data, determine which home appliance is currently in use. \href{https://www.kaggle.com/c/belkin-energy-disaggregation-competition}{https://www.kaggle.com/c/belkin-energy-disaggregation-competition}
 %---- Page End Break Here ---- Page : 404
 \noindent\textbf{Chapter 12}
-\chapter{Big Data: Achieving Scale}
+\section{Big Data: Achieving Scale}
 \begin{quote}
 A change in quantity also entails a change in quality.
 \end{quote}
@@ -8931,7 +9247,7 @@ Big data requires a larger scale of infrastructure than the projects we have con
 
 Working with data generally gets harder with size. In this section, I will try to sensitize you to the general issues associated with massive data sets. It is important to understand why size matters, so you will be able to contribute to projects that operate at that scale.
 
-\section{What is Big Data?}
+\subsection{What is Big Data?}
 How big is big? Any number I give you will be out of date by the time I type it, but here are some 2016 statistics I stumbled across, primarily at \url{http://www.internetlivestats.com/}:
 \begin{itemize}
   \item Twitter: 600 million tweets per day.
@@ -8994,7 +9310,7 @@ Data velocity is perhaps the place where data science differs most substantially
 
 The management set sometimes defines a fourth V: \textit{veracity}, a measure for how much we trust the underlying data. Here we are faced with the problem of eliminating spam and other artifacts resulting from the collection process, beyond the level of normal cleaning.
 
-\section{War Story: Infrastructure Matters}
+\subsection{War Story: Infrastructure Matters}
 I should have recognized the depth of Mikhail's distress the instant he lifted his eyebrow at me.
 
 My Ph.D. student Mikhail Bautin is perhaps the best programmer I have ever seen. Or you have ever seen, probably. Indeed, he finished in \textit{1st place} at the 12th International Olympiad in Informatics with a perfect score, marking him as the best high school-level programmer in the world that year.
@@ -9025,7 +9341,7 @@ The take-home lesson here is that infrastructure matters. Most of this book talk
 %---- Page End Break Here ---- Page : 410
 But civilization does not run right without effective plumbing. Infrastructures that are clean, efficient, scalable, and maintainable, built using modern software technologies, are essential to effective data science. Operations that reduce technical debt like refactoring, and upgrading libraries/tools to currently supported versions are not no-ops or procrastinating, but the key to making it easier to do the stuff you really want to do.
 
-\section{Algorithmics for Big Data}
+\subsection{Algorithmics for Big Data}
 Big data requires efficient algorithms to work on it. In this section, we will delve briefly into the basic algorithmic issues associated with big data: asymptotic complexity, hashing, and streaming models to optimize I/O performance in large data files.
 
 I do not have the time or space here to provide a comprehensive introduction to the design and analysis of combinatorial algorithms. However, I can confidently recommend \textit{The Algorithm Design Manual} [ki08] as an excellent book on these matters, if you happen to be looking for one.
@@ -9165,7 +9481,7 @@ But even if we cannot compute something exactly, we can often come up with an es
 
 \emph{Sketching} involves using what storage we do have to keep track of a partial representation of the sequence. Perhaps this is a frequency histogram of items binned by value, or a small hash table of values we have seen to date. The quality of our estimate increases with the amount of memory we have to store our sketch. \emph{Random sampling} is an immensely useful tool for constructing sketches, and is the focus of Section 12.4
 
-\section{Filtering and Sampling}
+\subsection{Filtering and Sampling}
 One important benefit of big data is that with sufficient volume you can afford to throw most of your data away. And this can be quite worthwhile, to make\\
 %---- Page End Break Here ---- Page : 417
 your analysis cleaner and easier.\\
@@ -9221,7 +9537,7 @@ Obtaining a fixed size random sample from a stream is a trickier problem, becaus
 
 To solve this problem, we will maintain a uniformly selected sample in an array of size $k$, updated as each new element arrives from the stream. The probability that the $n$th stream element belongs in the sample is $k / n$, and so we will insert it into our array if random number $r \leq k / n$. Doing so must kick a current resident out of the table, and selecting which current array element is the victim can be done with another call to the random number generator.
 
-\section{Parallelism}
+\subsection{Parallelism}
 Two heads are better than one, and a hundred heads better than two. Computing technology has matured in ways that make it increasingly feasible to commandeer multiple processing elements on demand for your application. Microprocessors routinely have 4 cores and beyond, making it worth thinking about parallelism even on individual machines. The advent of data centers and cloud\\
 %---- Page End Break Here ---- Page : 420
 computing has made it easy to rent large numbers of machines on demand, enabling even small-time operators to take advantage of big distributed infrastructures.
@@ -9300,7 +9616,7 @@ Spot pricing and reserved instances can lead to lower hourly costs for special u
 
 Fortunately, it can be free to experiment. All the major cloud providers provide some free time to new users, so you can play with the setup and decide on their dime whether it is appropriate for you.
 
-\section{MapReduce}
+\subsection{MapReduce}
 Google’s MapReduce paradigm for distributed computing has spread widely through open-source implementations like Hadoop and Spark. It offers a simple programming model with several benefits, including straightforward scaling to
 
 \begin{figure}[htbp]
@@ -9404,7 +9720,7 @@ The full big data ecosystem consists of many different species. An important cla
 %---- Page End Break Here ---- Page : 429
 The big data software ecosystem evolves much more rapidly than the foundational matters discussed in this book. Google searches and a scan of the O'Reilly book catalog should reveal the latest technologies when you are ready to get down to business.
 
-\section{Societal and Ethical Implications}
+\subsection{Societal and Ethical Implications}
 Our ability to get into serious trouble increases with size. A car can cause a more serious accident than a bicycle, and an airplane more serious carnage than an automobile.
 
 Big data can do great things for the world, but it also holds the power to hurt individuals and society at large. Behaviors that are harmless on a small scale, like scraping, become intellectual property theft in the large. Describing the accuracy of your model in an excessively favorable light is common for PowerPoint presentations, but has real implications when your model then governs credit authorization or access to medical treatment. Losing access to your email account is a bonehead move, but not properly securing personal data for 100 million customers becomes potentially criminal.
@@ -9443,7 +9759,7 @@ Ethical issues in data science are serious enough that professional organization
 %---- Page End Break Here ---- Page : 432
 I encourage you to read these documents to help you develop your sense of ethical issues and standards of professional behavior. Recall that people turn to data scientists for wisdom and consul, more than just code. Do what you can to prove worthy of this trust.
 
-\section{Chapter Notes}
+\subsection{Chapter Notes}
 There exist no shortage of books on the topic of big data analysis. Leskovec, Rajarman and Ullman [RU14 is perhaps the most comprehensive of these, and a good place to turn for a somewhat deeper treatment of the topics we discuss here. This book and some companion videos are available at http: \href{//www.mmds.org}{//www.mmds.org}.
 
 My favorite hands-on resources on software technologies are generally books from O'Reilly Media. In the context of this chapter, I recommend their books on data analytics with Hadoop [\cite{bengfort2016data}] and Spark \cite{ryza2015advanced}].
@@ -9452,6 +9768,7 @@ O'Neil O'N16 provides a thought-provoking look at the social dangers of big data
 
 The analogy of disk/cache speeds to tortoise/escape velocity is due to Michael Bender.
 
+\subsection{Exercises}
 \section{Parallel and Distributed Processing}
 12-1. \textit{[3]} What is the difference between parallel processing and distributed processing?
 
@@ -9514,7 +9831,7 @@ The analogy of disk/cache speeds to tortoise/escape velocity is due to Michael B
 %---- Page End Break Here ---- Page : 434
 12-21. \textit{[3]} What are hash table collisions? How can they be avoided? How frequently do they occur?
 
-\subsection{Kaggle Challenges}
+\section{Kaggle Challenges}
 12-22. Which customers will become repeat buyers? \href{https://www.kaggle.com/c/acquire-valued-shoppers-challenge}{https://www.kaggle.com/c/acquire-valued-shoppers-challenge}\\
 12-23. Which customers are worth sending junk mail to? \href{https://www.kaggle.com/c/springleaf-marketing-response}{https://www.kaggle.com/c/springleaf-marketing-response}
 
@@ -9549,12 +9866,13 @@ Graduate programs in data science are rapidly emerging from host departments of 
 %---- Page End Break Here ---- Page : 437
 If you have a strong computer science background and the right stuff, I would encourage you to continue your studies, ideally by coming to work with us at Stony Brook! My group does research in a variety of interesting topics in data science, as you can tell from the war stories. Please check us out at \href{http://www.data-manual.com/gradstudy}{http://www.data-manual.com/gradstudy}.
 
-\section{Professional Consulting Services}
+\subsection{Professional Consulting Services}
 Algorist Technologies is a consulting firm that provides its clients with short-term, expert help in data science and algorithm design. Typically, an Algorist consultant is called in for one to three days worth of intensive on site discussion and analysis with the client's own development staff. Algorist has built an impressive record of performance improvements with several companies and applications, as well as expert witness services and longer-term consulting.
 
 Visit \href{http://www.algorist.com/consulting}{www.algorist.com/consulting} for more information on the services provided by Algorist Technologies.
 %---- Page End Break Here ---- Page : 438
-\chapter{Bibliography}
+\section{Chapter}
+\section{Bibliography}
 [Abe13] Andrew Abela. \textit{Advanced Presentations by Design: Creating Communication that Drives Action}. Pfeiffer, 2nd edition, 2013.\\[0pt]
 [Ans73] Francis J Anscombe. Graphs in statistical analysis. \textit{The American Statistician}, 27(1):17–21, 1973.\\[0pt]
 [Bab11] Charles Babbage. \textit{Passages from the Life of a Philosopher}. Cambridge University Press, 2011.\\[0pt]
@@ -9668,7 +9986,7 @@ Visit \href{http://www.algorist.com/consulting}{www.algorist.com/consulting} for
 [ZS09] Wenbin Zhang and Steven Skiena. Improving movie gross prediction through news analysis. In \textit{Proceedings of the 2009 IEEE/WIC/ACM International Joint Conference on Web Intelligence and Intelligent Agent Technology-Volume 01}, pages 301-304. IEEE Computer Society, 2009.\\[0pt]
 [ZS10] Wenbin Zhang and Steven Skiena. Trading strategies to exploit blog and news sentiment. In \textit{Proc. Int. Conf. Weblogs and Social Media (ICWSM)}, 2010.
 %---- Page End Break Here ---- Page : 445
-\chapter{Index}
+\section{Index}
 A/B testing, 86\\
 Aaron Schwartz case, 68\\
 AB testing, 137\\

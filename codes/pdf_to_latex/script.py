@@ -32,6 +32,7 @@ from bib import process_bibliography
 from page_separator_v2 import create_page_separators
 from cleaner import clean_it_up
 import subprocess
+import shutil
 
 
 def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
@@ -74,14 +75,25 @@ def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
         "output_folder": output_folder,
         "pg_sep_path": os.path.join(output_folder, f"{file_name}_pg_sep.tex"),
         "bib_path": os.path.join(output_folder, f"{file_name}_pg_sep_bib.tex"),
-        "final_path": os.path.join(output_folder, f"{file_name}_cleaned_final.tex"),
+        "gpt_path": os.path.join(output_folder, f"{file_name}_gpt.tex"),
         "cleaned_path": os.path.join(output_folder, f"{file_name}_cleaned.tex"),
-        "indexed_path": os.path.join(output_folder, f"{file_name}_final_indexed.tex"),
+        "indexed_path": os.path.join(output_folder, f"{file_name}_indexed.tex"),
         "bib_json_path": os.path.join(output_folder, f"{file_name}_bib.json"),
         "bib_output_path": os.path.join(output_folder, f"{file_name}_references.bib"),
+        "final_path": os.path.join(output_folder, f"{file_name}_final.tex"),
     }
 
     return paths
+
+def store_final(out_tex_path, final_output_path):
+    """Store the final output to a designated path."""
+    if os.path.exists(out_tex_path):
+        shutil.copy2(out_tex_path, final_output_path)
+        print(f"Stored final output: {out_tex_path} -> {final_output_path}")
+    else:
+        print(f"Final output file does not exist: {out_tex_path}")
+
+
 
 
 # ------------- MAIN PIPELINE FUNCTION -------------
@@ -142,7 +154,7 @@ def run_pipeline(
         try:
             book_pdf, latex_with_pages, page_numbers = create_page_separators(
                 paths["book_path"], current_tex_path, paths["pg_sep_path"], paths["output_folder"]
-            )
+            )  # Directly writes to ouptut path provided, pg_sep_path
             current_tex_path = paths["pg_sep_path"]
             results["steps_completed"].append(1)
             results["page_separator_output"] = current_tex_path
@@ -176,10 +188,10 @@ def run_pipeline(
     # Step 3: Format with AI (if not skipped)
     if 3 not in skip_steps:
         try:
-            current_tex_path = format_with_gpt(
+            current_tex_path = format_with_gpt( # here the output current_tex_path is final_path that is _cleaned_final.tex
                 paths["book_path"],
                 current_tex_path,
-                paths["final_path"],
+                paths["gpt_path"],
                 batch_size=batch_size,
                 max_parts=max_parts,
                 use_parallel=use_parallel,
@@ -190,12 +202,12 @@ def run_pipeline(
             print(f"Error in Step 3 (AI Formatting): {e}")
     else:
         print("Skipping Step 3: AI Formatting")
-        if os.path.exists(paths["final_path"]):
-            current_tex_path = paths["final_path"]
+        if os.path.exists(paths["gpt_path"]):
+            current_tex_path = paths["gpt_path"]
 
     if 4 not in skip_steps:
         try:
-            current_tex_path = clean_it_up(
+            current_tex_path = clean_it_up( # output file is _cleaned.tex
                 current_tex_path, paths["book_path"], paths["cleaned_path"]
             )
             results["steps_completed"].append(4)
@@ -219,6 +231,10 @@ def run_pipeline(
     # Final result
     results["final_output"] = current_tex_path
 
+    # store to the final output path
+    store_final(current_tex_path, paths["final_path"])
+
+
     end_time = datetime.now()
     duration = end_time - start_time
     print(f"\nPDF to LaTeX conversion pipeline completed in {duration}")
@@ -226,13 +242,21 @@ def run_pipeline(
     print(f"Final output: {results['final_output']}")
 
     print("Compiling the final LaTeX document to a PDF...")
-    compile_result = subprocess.run([
-    "latexmk",
-    f"-outdir={paths['output_folder']}",
-    results['final_output']
-    ],
-    capture_output=True, text=True
-    )
+    log_path = os.path.join(paths["output_folder"], "compile_log.txt")
+
+    with open(log_path, "w", encoding="utf-8") as log_file:
+        compile_result = subprocess.run(
+            [
+                "latexmk",
+                f"-outdir={paths['output_folder']}",
+                paths["final_path"]
+            ],
+            stdout=log_file,
+            stderr=subprocess.STDOUT,
+            text=True
+        )
+    print(f"Compilation complete. Log saved to: {log_path}")
+
     
     # print("stdout:\n", compile_result.stdout)
     # print("stderr:\n", compile_result.stderr)
