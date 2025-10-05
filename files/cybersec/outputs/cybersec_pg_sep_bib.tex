@@ -11,7 +11,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-\usepackage[version=\cite{ref4}]{mhchem}
+\usepackage[version=\cite{ale2009risk}]{mhchem}
 \usepackage{stmaryrd}
 \usepackage{fvextra, csquotes}
 \usepackage{multirow}
@@ -47,7 +47,7 @@
 
 %New command to display footnote whose markers will always be hidden
 \let\svthefootnote\thefootnote
-\newcommand\blfootnotetext[\cite{ref1}]{%
+\newcommand\blfootnotetext[\cite{accenture2017cost}]{%
   \let\thefootnote\relax\footnote{#1}%
   \addtocounter{footnote}{-1}%
   \let\thefootnote\svthefootnote%
@@ -55,7 +55,7 @@
 
 %Overriding the \footnotetext command to hide the marker if its value is `0`
 \let\svfootnotetext\footnotetext
-\renewcommand\footnotetext[\cite{ref2}][?]{%
+\renewcommand\footnotetext[\cite{alberts2001octave}][?]{%
   \if\relax#1\relax%
     \ifnum\value{footnote}=0\blfootnotetext{#2}\else\svfootnotetext{#2}\fi%
   \else%
@@ -77,7 +77,7 @@
 The UTiCS concept centers on high-quality, ideally and generally quite concise books in softback format. For advanced undergraduate textbooks that are likely to be longer and more expository, Springer continues to offer the highly regarded Texts in Computer Science series, to which we refer potential authors.
 
 
-%---- Page End Break Here ---- Page : \cite{ref3}
+%---- Page End Break Here ---- Page : \cite{alberts2003octaveintro}
 
 
 \section*{Introduction to Cybersecurity }
@@ -86,9 +86,9 @@ The UTiCS concept centers on high-quality, ideally and generally quite concise b
 
 ISSN 2197-1781 (electronic)\\
 Undergraduate Topics in Computer Science\\
-ISBN 978-3-031-41462-\cite{ref6}\\
+ISBN 978-3-031-41462-\cite{arief2015understanding2}\\
 ISBN 978-3-031-41463-3 (eBook)\\
-\href{https://doi.org/\cite{ref10}.1007/978-3-031-41463-3}{https://doi.org/10.1007/978-3-031-41463-3}\\
+\href{https://doi.org/\cite{barth2011rfc6265}.1007/978-3-031-41463-3}{https://doi.org/10.1007/978-3-031-41463-3}\\
 © The Editor(s) (if applicable) and The Author(s), under exclusive license to Springer Nature Switzerland AG 2024
 
 This work is subject to copyright. All rights are solely and exclusively licensed by the Publisher, whether the whole or part of the material is concerned, specifically the rights of translation, reprinting, reuse of illustrations, recitation, broadcasting, reproduction on microfilms or in any other physical way, and transmission or information storage and retrieval, electronic adaptation, computer software, or by similar or dissimilar methodology now known or hereafter developed.\\
@@ -96,11 +96,11 @@ The use of general descriptive names, registered names, trademarks, service mark
 The publisher, the authors, and the editors are safe to assume that the advice and information in this book are believed to be true and accurate at the date of publication. Neither the publisher nor the authors or the editors give a warranty, expressed or implied, with respect to the material contained herein or for any errors or omissions that may have been made. The publisher remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
 
 This Springer imprint is published by the registered company Springer Nature Switzerland AG\\
-The registered company address is: Gewerbestrasse \cite{ref11}, 6330 Cham, Switzerland\\
+The registered company address is: Gewerbestrasse \cite{bartock2016sp800184}, 6330 Cham, Switzerland\\
 Paper in this product is recyclable.
 
 
-%---- Page End Break Here ---- Page : \cite{ref5}
+%---- Page End Break Here ---- Page : \cite{anderson2012measuring}
 \section*{Preface}
 \begin{center}
 \includegraphics[max width=\textwidth]{2025_05_12_ac3bc46a6f93dd973caag-006}
@@ -121,7 +121,7 @@ going somewhat more into detail with technical aspects of IT systems which affec
 
 A problem for all readers, irrespective of their mother tongue, is that the whole area of cybersecurity is awash with acronyms, most of which are so accepted in technical circles that it is meaningsless to try to avoid using them. To help the reader, a short explanation of all the technical acronyms which are used in this book is provided in an appendix.
 
-The book concludes with a numbered list of references to publicly available documents related to the topics presented in the main text. (References to these documents in the main text appear in square brackets - so for example [\cite{ref34}] refers to reference number 34 in the list.)
+The book concludes with a numbered list of references to publicly available documents related to the topics presented in the main text. (References to these documents in the main text appear in square brackets - so for example [\cite{falliere2011stuxnet}] refers to reference number 34 in the list.)
 
 To get the most out of the book, it is important that the reader doesn't just read the text. All the chapters contain exercises which illustrate important aspects of the topic dealt with in the chapter. There are both theoretical exercises and exercises which involve you in trying something out in practice on a computer. Here it is best if you have an experimental attitude to things, and are willing to throw yourself out into experiments if you do not completely understand what is happening. In this way you will get a much better understanding of how things hang together - and a smaller risk of just becoming a "desktop expert" without any useful practical experience.
 
@@ -132,18 +132,18 @@ Lyngby,
 July 2023.
 
 \section*{Acknowledgments}
-Parts of this textbook have previously appeared in the work "What's Cybersecurity All About?" (ISBN 978875020023 \cite{ref9}), written by the author and published by Polyteknisk Forlag, Copenhagen, and are reproduced here with their kind permission.\\
-%---- Page End Break Here ---- Page : \cite{ref7}
+Parts of this textbook have previously appeared in the work "What's Cybersecurity All About?" (ISBN 978875020023 \cite{ayers2014mobileforensics}), written by the author and published by Polyteknisk Forlag, Copenhagen, and are reproduced here with their kind permission.\\
+%---- Page End Break Here ---- Page : \cite{arief2015understanding1}
 
 Chapter 3 contains material which is copyright by Carnegie Mellon University ${ }^{1}$ and which is reproduced here under the following conditions:
 
-This textbook has been created by Robin Sharp using, incorporating and/or based on Figure 2 - OCTAVE Phases on page 5 and text from Section 3.1-OCTAVE Method Processes on pages 11-\cite{ref12} from the User Guide, "Introduction to the OCTAVE Approach" by Christopher J. Alberts, Audrey J. Dorofee, James F. Stevens and Carol Woody © 2003 Carnegie Mellon University and Table 7: Graphical Representation of Threat Trees on page \cite{ref50} of the Technical Report, "Introducing OCTAVE Allegro: Improving the Information Security Risk Assessment Process" by Richard A. Caralli, James F. Stevens, Lisa R. Young and William R. Wilson, CMU/SEI-2007-TR-012, ESC-TR-2007-012 (c) 2007 Carnegie Mellon University, with special permission from its Software Engineering Institute.\\
+This textbook has been created by Robin Sharp using, incorporating and/or based on Figure 2 - OCTAVE Phases on page 5 and text from Section 3.1-OCTAVE Method Processes on pages 11-\cite{boozallan2009tools} from the User Guide, "Introduction to the OCTAVE Approach" by Christopher J. Alberts, Audrey J. Dorofee, James F. Stevens and Carol Woody © 2003 Carnegie Mellon University and Table 7: Graphical Representation of Threat Trees on page \cite{itut1972g711} of the Technical Report, "Introducing OCTAVE Allegro: Improving the Information Security Risk Assessment Process" by Richard A. Caralli, James F. Stevens, Lisa R. Young and William R. Wilson, CMU/SEI-2007-TR-012, ESC-TR-2007-012 (c) 2007 Carnegie Mellon University, with special permission from its Software Engineering Institute.\\
 ANY MATERIAL OF CARNEGIE MELLON UNIVERSITY AND/OR ITS SOFTWARE ENGINEERING INSTITUTE CONTAINED HEREIN IS FURNISHED ON AN "AS-IS" BASIS. CARNEGIE MELLON UNIVERSITY MAKES NO WARRANTIES OF ANY KIND, EITHER EXPRESSED OR IMPLIED, AS TO ANY MATTER INCLUDING, BUT NOT LIMITED TO, WARRANTY OF FITNESS FOR PURPOSE OR MERCHANTABILITY, EXCLUSIVITY, OR RESULTS OBTAINED FROM USE OF THE MATERIAL. CARNEGIE MELLON UNIVERSITY DOES NOT MAKE ANY WARRANTY OF ANY KIND WITH RESPECT TO FREEDOM FROM PATENT, TRADEMARK, OR COPYRIGHT INFRINGEMENT.\\
 This textbook has not been reviewed nor is it endorsed by Carnegie Mellon University or its Software Engineering Institute.
 
 Figure 9.3 comes from my previous colleague Jens Fagertun here at DTU Compute and is reproduced here with his kind permission.
 
-Figures 1.3, 11.\cite{ref8} and \cite{ref13}.3 are original artworks by Peter Heydenreich and are reproduced here with his kind permission.
+Figures 1.3, 11.\cite{wp29_2017_dpia} and \cite{caralli2007allegro}.3 are original artworks by Peter Heydenreich and are reproduced here with his kind permission.
 
 1 TM Carnegie Mellon, CERT and OCTAVE are registered trademarks of Carnegie Mellon University. SM Operationally Critical Threat, Asset, and Vulnerability Evaluation is a service mark of Carnegie Mellon University.
 
@@ -160,60 +160,60 @@ Figures 1.3, 11.\cite{ref8} and \cite{ref13}.3 are original artworks by Peter He
 1.4.1 CIA Targets ..... 10\\
 1.4.2 Security Policies ..... 11\\
 1.5 Reader's Guide ..... 13\\
-1.5.1 A Short Note on Notation ..... \cite{ref15}\\
-Exercises ..... \cite{ref16}\\
-2 Technique and Human Beings ..... \cite{ref17}\\
-2.1 Psychological Attacks ..... \cite{ref18}\\
-2.1.1 Curiosity ..... \cite{ref19}\\
+1.5.1 A Short Note on Notation ..... \cite{comer2007internetbook}\\
+Exercises ..... \cite{comer2014computernetworks}\\
+2 Technique and Human Beings ..... \cite{commoncriteria2012part1}\\
+2.1 Psychological Attacks ..... \cite{coso2013internalcontrol}\\
+2.1.1 Curiosity ..... \cite{coe2001cybercrime}\\
 2.1.2 Helpfulness ..... 19\\
-2.1.3 Sympathy and Hate ..... \cite{ref20}\\
+2.1.3 Sympathy and Hate ..... \cite{coe2005terrorism}\\
 2.1.4 Belief in Authority ..... 20\\
-2.1.5 The Brain's Two Modes of Operation ..... \cite{ref22}\\
-2.1.6 Uncertainty in Decision Making ..... \cite{ref23}\\
-2.2 Phishing ..... \cite{ref25}\\
-2.3 Humans vs. Machines ..... \cite{ref27}\\
-2.4 Can Psychological Attacks Be Prevented? ..... \cite{ref29}\\
-2.4.1 Motivation ..... \cite{ref30}\\
-2.4.2 Training ..... \cite{ref31}\\
+2.1.5 The Brain's Two Modes of Operation ..... \cite{cc30}\\
+2.1.6 Uncertainty in Decision Making ..... \cite{crocker2013rfc6376}\\
+2.2 Phishing ..... \cite{dhamija2006why}\\
+2.3 Humans vs. Machines ..... \cite{dworkin2001sp80038a}\\
+2.4 Can Psychological Attacks Be Prevented? ..... \cite{edpb2020video}\\
+2.4.1 Motivation ..... \cite{eu1999signatures}\\
+2.4.2 Training ..... \cite{eu2014eidas}\\
 Exercises ..... 34\\
-3 Risk ..... \cite{ref37}\\
+3 Risk ..... \cite{fireeye2020redline}\\
 3.1 What Is Risk? ..... 37\\
-3.2 Threats in IT Systems ..... \cite{ref40}\\
+3.2 Threats in IT Systems ..... \cite{freed1996rfc2046}\\
 %---- Page End Break Here ---- Page : 9
 
-3.3 Countermeasures ..... \cite{ref41}\\
-3.4 Risk Management ..... \cite{ref42}\\
-3.5 Systematic Security Analysis ..... \cite{ref43}\\
+3.3 Countermeasures ..... \cite{halderman2008coldboot}\\
+3.4 Risk Management ..... \cite{housley2009rfc5652}\\
+3.5 Systematic Security Analysis ..... \cite{hovemeyer2007nullpointer}\\
 3.5.1 ISO/IEC 27002 ..... 43\\
-3.5.2 OCTAVE® ..... \cite{ref45}\\
-3.6 Risk Management as a PDCA Process ..... \cite{ref53}\\
-Exercises ..... \cite{ref55}\\
-4 Cryptography ..... \cite{ref57}\\
+3.5.2 OCTAVE® ..... \cite{iso1993mpeg}\\
+3.6 Risk Management as a PDCA Process ..... \cite{jones2006fair}\\
+Exercises ..... \cite{kahneman2012thinking}\\
+4 Cryptography ..... \cite{kent2006sp80086}\\
 4.1 Some Central Concepts ..... 57\\
-4.1.1 Cryptosystems ..... \cite{ref58}\\
-4.1.2 Cryptanalysis ..... \cite{ref59}\\
-4.2 Symmetric Encryption ..... \cite{ref60}\\
+4.1.1 Cryptosystems ..... \cite{kitterman2014rfc7208}\\
+4.1.2 Cryptanalysis ..... \cite{kosinski2013private}\\
+4.2 Symmetric Encryption ..... \cite{kurose2016topdown}\\
 4.2.1 Substitution Ciphers ..... 60\\
-4.2.2 Random Permutation ..... \cite{ref61}\\
-4.2.3 Polyalphabetic Ciphers ..... \cite{ref64}\\
+4.2.2 Random Permutation ..... \cite{lewand2000cryptological}\\
+4.2.3 Polyalphabetic Ciphers ..... \cite{mcafee2014netlosses}\\
 4.2.4 Vigenère Ciphers ..... 64\\
-4.2.5 Transposition Ciphers ..... \cite{ref65}\\
-4.3 Modern Ideas ..... \cite{ref66}\\
-4.3.1 One-Time Pads ..... \cite{ref67}\\
-4.3.2 Confusion and Diffusion ..... \cite{ref68}\\
+4.2.5 Transposition Ciphers ..... \cite{mitnick2003deception}\\
+4.3 Modern Ideas ..... \cite{moriarty2014rfc7292}\\
+4.3.1 One-Time Pads ..... \cite{morris1979password}\\
+4.3.2 Confusion and Diffusion ..... \cite{nist2018framework}\\
 4.3.3 DES ..... 68\\
-4.3.4 AES ..... \cite{ref72}\\
-4.3.5 Symmetric Stream Ciphers ..... \cite{ref73}\\
-4.4 Asymmetric Cryptosystems ..... \cite{ref79}\\
-4.4.1 Trapdoor Functions ..... \cite{ref80}\\
+4.3.4 AES ..... \cite{ramsdell2010rfc5751}\\
+4.3.5 Symmetric Stream Ciphers ..... \cite{reschke2015rfc7617}\\
+4.4 Asymmetric Cryptosystems ..... \cite{sciberras2006rfc4519}\\
+4.4.1 Trapdoor Functions ..... \cite{seltzer2008ethical}\\
 4.4.2 Modular Arithmetic ..... 80\\
-4.4.3 The RSA Cryptosystem ..... \cite{ref82}\\
-4.5 A Comparison of PKCS and SKCS ..... \cite{ref88}\\
-Exercises ..... \cite{ref90}\\
-5 Applied Cryptography ..... \cite{ref95}\\
+4.4.3 The RSA Cryptosystem ..... \cite{singh1999codebook}\\
+4.5 A Comparison of PKCS and SKCS ..... \cite{tor_overview}\\
+Exercises ..... \cite{deltorto2001rfc3156}\\
+5 Applied Cryptography ..... \cite{whatwg2022html}\\
 5.1 Integrity ..... 95\\
-5.1.1 Cryptographic Hash Functions ..... \cite{ref96}\\
-5.1.2 MAC ..... \cite{ref100}\\
+5.1.1 Cryptographic Hash Functions ..... \cite{wheeler2001flawfinder}\\
+5.1.2 MAC ..... \cite{williams2012acpo}\\
 5.2 Electronic Signatures ..... 102\\
 5.2.1 Verification of Electronic Signatures ..... 102\\
 5.2.2 Electronic Signatures with a PKCS ..... 103\\
@@ -312,7 +312,7 @@ Exercises ..... 169\\
 8.12.2 DKIM ..... 222\\
 8.13 Security in SNMP ..... 224\\
 8.13.1 Risks and Countermeasures in Using SNMP ..... 225\\
-8.\cite{ref14} Critical Infrastructure Protection ..... 226\\
+8.\cite{casey2008impact} Critical Infrastructure Protection ..... 226\\
 8.15 Evaluation of Network Security ..... 228\\
 Exercises ..... 231\\
 %---- Page End Break Here ---- Page : 12
@@ -513,9 +513,9 @@ When such a system of systems is created, it is not irrelevant how the individua
 Today cyberattacks-attacks on computers through the complex of communication networks which make up the Internet-are a permanent threat to information security in all sorts of computers and computer-like units such as smartphones, intelligent televisions, control units in supply networks and other automated industrial plant. Some examples since 2010:
 
 \begin{itemize}
-  \item US OPM: In USA, a cyberattack on the Office of Public Management (OPM) in 2015 compromised personal data from \cite{ref21}.5 million citizens. These data were stored in a database at OPM and were used in connection with applications for national security approval. The attackers are estimated to have had access to this database for more than a year.
+  \item US OPM: In USA, a cyberattack on the Office of Public Management (OPM) in 2015 compromised personal data from \cite{cc25}.5 million citizens. These data were stored in a database at OPM and were used in connection with applications for national security approval. The attackers are estimated to have had access to this database for more than a year.
   \item CSC Danmark: In Denmark, a cyberattack on the company CSC Danmark A/S in 2012 compromised personal data from the registries covering driving licenses, criminal records and civil registration numbers. These had been outsourced to CSC by the Danish government. Information in these registries is stored in databases on a so-called mainframe-a computer with large computing capacity and the ability to deal with many simultaneous transactions. The attackers broke in by cheating the authorisation system which should have prevented unauthorised access to the stored data. They could then masquerade as system administrators with high privileges, who had more or less unlimited access to the system.
-  \item APT1: A large-scale attack on at least 141 (mostly western) companies and other organisations was carried out in 2009-12, mainly for purposes of industrial espionage. Many things indicate that the attacks originated from an organisation known as APT1, which is associated with the Chinese People's Liberation Army (PLA) [\cite{ref63}]. APT is an acronym for Advanced Persistent Threat, a type of attack which is carried out over a long period of time through the use of malware which is stored in the victims' computers in a way which makes it hard to detect. This\\
+  \item APT1: A large-scale attack on at least 141 (mostly western) companies and other organisations was carried out in 2009-12, mainly for purposes of industrial espionage. Many things indicate that the attacks originated from an organisation known as APT1, which is associated with the Chinese People's Liberation Army (PLA) [\cite{mandiant2013apt1}]. APT is an acronym for Advanced Persistent Threat, a type of attack which is carried out over a long period of time through the use of malware which is stored in the victims' computers in a way which makes it hard to detect. This\\
 %---- Page End Break Here ---- Page : 20
 
 malware collects up data-in the nature of things, typically confidential dataand sends them from the victim's computer to an external collection point (a process known as exfiltration), where they can be analysed.
@@ -587,7 +587,7 @@ Some simple, but typical, examples of data assets are:
 \end{itemize}
 
 
-%---- Page End Break Here ---- Page : \cite{ref24}
+%---- Page End Break Here ---- Page : \cite{dahse2014php}
 As can be seen, these are valuable pieces of information. For some of them it is even a legal requirement to keep them confidential. Software assets include the computer's operating system, utility programs and applications, while equipment assets include units such as the system's physical computers, printers, scanners, networks and other infrastructure.
 
 \subsection*{1.4.1 CIA Targets}
@@ -639,7 +639,7 @@ At a university, CYBERU, one might for example be able to find the following sta
 \end{itemize}
 
 
-%---- Page End Break Here ---- Page : \cite{ref26}
+%---- Page End Break Here ---- Page : \cite{dunkelman2010kasumi}
 In a public hospital, one might correspondingly find the following rules in the detailed part of the policy:
 
 \begin{itemize}
@@ -668,7 +668,7 @@ Perfect protection of an IT system against attack is something you can dream abo
 A classic technique for maintaining confidentiality of data is to use cryptography to transform the data to a form which cannot be understood by anyone who does not know the secret needed for transforming them back to their original form. In Chap. 4 we look first at classic forms of cryptography, some of which go back to antiquity, and then at modern techniques which are more suitable for use in computers and which build on a mathematical foundation. One of the advantages of modern cryptographic techniques is that they can be used for much more than just hiding data from prying eyes-for example to ensure integrity, for checking identity and for making electronic signatures. Chapter 5 focuses on some of the most important applications of cryptography which can be used in connection with cybersecurity.
 
 
-%---- Page End Break Here ---- Page : \cite{ref28}
+%---- Page End Break Here ---- Page : \cite{ec2021sccs}
 As mentioned previously, cybersecurity is information security rethought in a network-oriented world, so it is important to understand how networks work. The last two chapters with general background material, Chaps. 6 and 7, therefore deal with how modern networks which are used for communication between IT systems are built up and looks at some of their most important properties.
 
 The following three chapters are concerned with the risks and possibilities for counteracting them within specific areas. Chapter 8 deals with security in different types of network, Chap. 9 deals with how operating systems support security in IT systems, while Chap. 10 deals with security risks which are associated with software products which have either been designed or applied in a way which opens up for attacks of various types.
@@ -717,7 +717,7 @@ You should check that you understand their definitions and can give examples of 
 
 %---- Page End Break Here ---- Page : 30
 \section*{Further Reading}
-Many organisations-both companies which develop security products and industrial organisations whose members report security breaches - publish annual reports with statistics for various categories of security "events" which have been reported during the year. These reports can give a fascinating impression of how often things go wrong with respect to cybersecurity and which forms of attack are prevalent at the moment. A good and very readable example from 2021 is Verizon's "2021 Data Breach Investigations Report" [\cite{ref93}].
+Many organisations-both companies which develop security products and industrial organisations whose members report security breaches - publish annual reports with statistics for various categories of security "events" which have been reported during the year. These reports can give a fascinating impression of how often things go wrong with respect to cybersecurity and which forms of attack are prevalent at the moment. A good and very readable example from 2021 is Verizon's "2021 Data Breach Investigations Report" [\cite{verizon2021dbir}].
 
 Udi Arief and his colleagues have published a pair of articles, "Understanding Cybercrime from its Stakeholders' Perspectives", Parts 1 and 2, which discuss cybercriminality and how the criminals and their victims respectively consider the matter [7, 6]. They can be recommended.
 
@@ -729,7 +729,7 @@ Ultima Thule Hospital has a security policy which amongst other things contains 
   \item In every department of the hospital, the chief consultant has unlimited access to all patient records for patients which have been treated in the department.
   \item A department's nurses have access to read the patient records for all patients who are being treated in the department.
   \item Persons who are not associated with the hospital have no access to the patient record system.
-  \item The hospital has the aim that the patient record system should be available for online reading for at least $\cite{ref99}.5 \%$ of the time, measured over a 3 -month period, and it must be available for insertion of new patient records and changes to existing records for $90 \%$ of the time, measured over the same period.
+  \item The hospital has the aim that the patient record system should be available for online reading for at least $\cite{wikipedia2023oslist}.5 \%$ of the time, measured over a 3 -month period, and it must be available for insertion of new patient records and changes to existing records for $90 \%$ of the time, measured over the same period.
 \end{enumerate}
 
 How would you classify these rules in relation to CIA targets? (In other words, for each rule you should try to say to what extent it is related to a target for confidentiality, integrity and/or availability.)
@@ -777,7 +777,7 @@ Typical techniques for getting people to behave in an inappropriate manner explo
 \end{itemize}
 
 People often use the general term social engineering to cover all techniques which exploit humans' psychological properties in order to get them to reveal confidential information, give attackers access to places where they should not be allowed to go, perform a crime and so on. The idea has been known since antiquity. In the old days,\\
-%---- Page End Break Here ---- Page : \cite{ref33}
+%---- Page End Break Here ---- Page : \cite{evans2002elsa}
 
 the attacker would typically meet up with the victim and talk him into behaving in the desired manner. Later on, attackers went over to using telephones. And nowadays the most common mode of attack is via internet-based media such as e-mail, texting or use of the social media.
 
@@ -823,7 +823,7 @@ Sympathy and hate are very powerful emotions which can often get people to forge
 Many people believe unconditionally what people "higher up in the system" tell them. This can also be exploited by sending them instructions which appear to come
 
 
-%---- Page End Break Here ---- Page : \cite{ref35}
+%---- Page End Break Here ---- Page : \cite{felt2011android}
 Fig. 2.3 An e-mail with a message from the police?\\
 \includegraphics[max width=\textwidth, center]{2025_05_12_ac3bc46a6f93dd973caag-036}
 
@@ -855,7 +855,7 @@ A well-known experiment with the aim of investigating people's tendency to belie
 \end{itemize}
 
 
-%---- Page End Break Here ---- Page : \cite{ref36}
+%---- Page End Break Here ---- Page : \cite{ferguson2010cryptographyengineering}
 26 out of 40 participants (65\%) were willing to obey these orders right up to the highest voltage ( 450 V ), even if they could hear cries of pain, which apparently came from the victim ${ }^{1}$. None of the participants stopped before the voltage reached 300 V .
 
 There has been a good deal of discussion about what Milgram's experiment really shows. It seems clear that ordinary people can be got to perform outrageous acts when they are dictated by an authority. But quite a lot of things indicate that a vital condition for people actually obeying the orders is that the "authority" pushes them into it, so that they have no time to think carefully about the matter. We shall look at this aspect of the human psyche in the following section.
@@ -881,7 +881,7 @@ If you are pressed to give a quick response, you have to rely on System 1.
 
 \footnotetext{${ }^{1}$ In reality the sounds came from a tape recorder.
 }\subsection*{2.1.6 Uncertainty in Decision Making}
-Very often you have to make a decision where the best choice is not obvious. What people do in such situations has been investigated by a number of researchers in cognitive psychology, especially Daniel Kahneman and Amos Tversky [\cite{ref56}]. The final decision is affected by a number of factors, which people are mostly not conscious of, including:
+Very often you have to make a decision where the best choice is not obvious. What people do in such situations has been investigated by a number of researchers in cognitive psychology, especially Daniel Kahneman and Amos Tversky [\cite{kahneman1982judgment}]. The final decision is affected by a number of factors, which people are mostly not conscious of, including:
 
 
 %---- Page End Break Here ---- Page : 37
@@ -907,7 +907,7 @@ Anchoring is a really fundamental mechanism in the brain, and is very difficult 
 Anchoring even plays a role in activities such as perception and recall. For example, one group was asked whether the annual average temperature in Germany was higher or lower than $20^{\circ} \mathrm{C}$. This group was then much better at recognising words with a relation to summertime, which they only saw for a very short time, than a group who were asked whether the average temperature was higher or lower than $5^{\circ} \mathrm{C}$. Such observations indicate how one can fool people into thinking (and behaving) in a particular way by getting them to take part in some apparently harmless preliminary activity-a technique commonly known as priming..
 
 
-%---- Page End Break Here ---- Page : \cite{ref38}
+%---- Page End Break Here ---- Page : \cite{frankel2008sp800113}
 \section*{Attribution}
 Attribution is in this context the activity of trying to find the reasons for human behaviour. You can for example think how you would react if you are driving to work in a car and another driver cuts in in front of you, so you have to brake suddenly. What would you say to yourself? Would it be "Stupid cow" (or something even ruder) or would it be "She's probably had a bad day"? It is most likely to be the first of these possibilities, because you attribute the behaviour to certain internal attributes of the person, without thinking very much about the external factors.
 
@@ -957,13 +957,13 @@ Most people who are asked in this case choose Program B2.\\
 It is important to notice that it is only the formulations of the two alternatives which are different- Programs A1 and A2 give the same result ( 400 die and 200 are saved), and Programs B1 and B2 likewise give the same result. But when people have to choose, they give more weight to outcomes which are presented as being certain than on outcomes which are just given as high or low probabilities. Program A1 therefore sounds better than B1, while A2 sounds worse than B2.
 
 
-%---- Page End Break Here ---- Page : \cite{ref39}
+%---- Page End Break Here ---- Page : \cite{freed1996rfc2045}
 By exploiting this kind of eftect, an attacker can get people to make particular choices, so that for example they preferentially choose particular links to click on in a web-based system. Maybe some of the links are fraudulent and give the attacker a greater "profit" (and the user a greater "loss").
 
 \begin{abstract}
 Affect\\
 Most people are not good at statistics. They can be fooled by getting a very dramatic formulation to affect their feelings. Suppose, for example, you ask people to consider two diseases where there is high risk of a deadly outcome by asking: Which of the following diseases is worst: (a) A disease which kills 1286 persons out of every 10000 who are infected? (b) A disease where the probability of dying is $24.14 \%$ ?\\
-Here most people answer that (a) is worst, even if there is really only a $12.\cite{ref86} \%$ probability of dying of it. This seems to be because people imagine a row of more than 1000 corpses, while the large number of dead in case (b) is hidden in the statistics. So this is also a way to get users to make particular choices which are not necessarily to their advantage.
+Here most people answer that (a) is worst, even if there is really only a $12.\cite{tanenbaum2012structured} \%$ probability of dying of it. This seems to be because people imagine a row of more than 1000 corpses, while the large number of dead in case (b) is hidden in the statistics. So this is also a way to get users to make particular choices which are not necessarily to their advantage.
 \end{abstract}
 
 \subsection*{2.2 Phishing}
@@ -1065,9 +1065,9 @@ There are two main threads which run through the body of research:
 It is important to recognize that these two questions can be answered independently of one another-it is quite possible to influence people to have a high level of motivation, and then observe that they are unable to operate securely due to lack of training. And vice-versa, it is possible to train people to behave securely, but fail to motivate them to do so in practice. Let us look at the two areas in turn.
 
 
-%---- Page End Break Here ---- Page : \cite{ref44}
+%---- Page End Break Here ---- Page : \cite{iana2022uri}
 \subsection*{2.4.1 Motivation}
-The question of what it is that motivates people to achieve a good climate for conventional industrial safety within an organisation was investigated in 1997 by Williamson and her co-workers [\cite{ref101}]. They carried out a questionnaire-based study of 1560 workers in a wide range of jobs, and found five important factors which affect safety (either positively or negatively):
+The question of what it is that motivates people to achieve a good climate for conventional industrial safety within an organisation was investigated in 1997 by Williamson and her co-workers [\cite{williamson1997safetyclimate}]. They carried out a questionnaire-based study of 1560 workers in a wide range of jobs, and found five important factors which affect safety (either positively or negatively):
 
 \begin{enumerate}
   \item Personal motivation: Items which the respondent believes are necessary in order for him/her to behave more safely.
@@ -1081,7 +1081,7 @@ To achieve better levels of safety, it is evidently important to counteract the 
 
 Looking back to the start of this chapter, factors 1 and 2 are significant for avoiding dangerous behaviour, while factors 3,4 and 5 are aspects of the problem of having an incorrect mindset. If we now consider how these ideas fit into the area of cybersecurity, it is very common to meet people who believe that "accidents always happen to other people" (Optimism) or that "Murphy's law applies" (Fatalism), or who have ideas about IT systems which do not correspond to reality, but which provide them with excuses for not taking precautions. The example at the start of the chapter is just one example of this.
 
-Another possible approach to motivation is to use fear appeals to change people's attitudes. This has been a common approach in public campaigns in several areas, particularly those related to health issues and road safety ("Smoking can damage your health", "Speed kills!", . . .), and several psychological theories have been developed to explain how fear appeals work and should be applied. One well-known example is Rogers' Protection Motivation Theory, which in its most recent formulation [\cite{ref75}] postulates that an attitude change leading a person to (intend to) adopt a "good" response depends on that person's motivation for protection, which in turn depends on the results of four cognitive processes:
+Another possible approach to motivation is to use fear appeals to change people's attitudes. This has been a common approach in public campaigns in several areas, particularly those related to health issues and road safety ("Smoking can damage your health", "Speed kills!", . . .), and several psychological theories have been developed to explain how fear appeals work and should be applied. One well-known example is Rogers' Protection Motivation Theory, which in its most recent formulation [\cite{rogers1983pmt}] postulates that an attitude change leading a person to (intend to) adopt a "good" response depends on that person's motivation for protection, which in turn depends on the results of four cognitive processes:
 
 \begin{enumerate}
   \item Perception of the severity of the threat;
@@ -1093,7 +1093,7 @@ Another possible approach to motivation is to use fear appeals to change people'
 In the context of IT security, this means that a fear appeal to users will be effective at getting them to protect themselves if the problem is serious, if it is likely to affect those users, if it can be avoided by taking suitable action and if the users are confident that they can in fact perform the action.
 \end{enumerate}
 
-Rogers' theory was for example used by Weirich and Sasse as the basis for a campaign to persuade users to use secure passwords [\cite{ref94}]. They found that many of the users initially could not see that poor use of passwords (lack of secrecy, use of weak passwords etc.) constituted a threat. It was therefore necessary to provide a suitable fear appeal in order to rectify the situation.
+Rogers' theory was for example used by Weirich and Sasse as the basis for a campaign to persuade users to use secure passwords [\cite{weirich2001pgp}]. They found that many of the users initially could not see that poor use of passwords (lack of secrecy, use of weak passwords etc.) constituted a threat. It was therefore necessary to provide a suitable fear appeal in order to rectify the situation.
 
 Fear appeals are in general, however, not very effective. This often seems to be because people lack belief in their own ability to cope with the threat-i.e. they lack belief in their self-efficacy. This typically gets them to produce a counter-reaction to the fear appeal, so that they resist changing their behaviour in the desired direction. For example, they may convince themselves that the problem is unimportant or they may just mentally refuse to think about the problem at all.
 
@@ -1103,7 +1103,7 @@ One notable feature of many of the studies on motivation with respect to IT secu
 Simple schemes for training IT users to behave securely often rely on giving these users sets of instructions for what to do. For many people, this prescriptive approach does not work well, since the users typically do not get any explanation of why they need to do this or that. Moreover, many users-especially inexperienced ones often do not really understand the terms used in the instructions.
 
 Better results seem to be achievable when more interactive approaches are used. Competitions and quizzes, where participants compete to be best at avoiding psychological attacks seem to have a lasting effect on people's abilities to keep themselves safe. Putting the users into an interactive (e-learning) environment where they are exposed to examples of both genuine mails and phishing mails of various types seem\\
-%---- Page End Break Here ---- Page : \cite{ref46}
+%---- Page End Break Here ---- Page : \cite{iso1994jpeg}
 
 \includegraphics[max width=\textwidth, center]{2025_05_12_ac3bc46a6f93dd973caag-047}
 
@@ -1116,7 +1116,7 @@ to be particularly effective for giving the necessary training, and for improvin
 Fig. 2.7, taken from an investigation performed in Denmark in 2009, illustrates the idea. Participants are presented with the image shown at the top of the figure, and are asked whether they would be willing to click on the link. Possible answers are "yes", "no" or "don't know". The image is interactive: initially, the box showing the true destination of the link in the center of the image is not visible, but this information will appear if the participant moves the mouse cursor (the red arrow in the figure) over the link, as in most modern web browsers. Immediately after answering the question, the participant is given feedback, as shown at the bottom of the figure. The feedback is positive (bottom left) if the answer indicates safe behaviour and negative (bottom right) if it indicates unsafe behaviour, including "don't know".
 
 When users were shown a series of such situations, their ability to distinguish safe from unsafe situations increased significantly. Figure 2.8, from the same investigation as Fig. 2.7, shows the result of testing several hundred participants, who were all members of the general public, with a series of six such situations. The participants had been asked to say whether they regarded themselves as beginners, experienced\\
-%---- Page End Break Here ---- Page : \cite{ref47}
+%---- Page End Break Here ---- Page : \cite{isaca2012cobit5}
 
 \includegraphics[max width=\textwidth, center]{2025_05_12_ac3bc46a6f93dd973caag-048}
 
@@ -1161,7 +1161,7 @@ Do you personally know someone who has been fooled by a phishing attempt? How di
 
 \subsection*{2.4 Social engineering}
 For this exercise you should imagine that you work in the headquarters of a large company with branches in several european countries. One day you see an Englishspeaking gentleman, who is on his way up the stairs to the management level. He\\
-%---- Page End Break Here ---- Page : \cite{ref49}
+%---- Page End Break Here ---- Page : \cite{iso2013_27002}
 
 is expensively dressed in a worsted suit with a very fine tie, and he is carrying a very nice leather attaché case. You have never seen him before, and he doesn't seem to have the usual guest ID card, which visitors to the company must normally bear visibly on their clothes. You ask him what his business is, but he looks thoroughly insulted, just says that he has a meeting with James Cowley, who is the managing director, in two minutes and that he doesn't have time for discussions with you. What do you do then?
 
@@ -1209,13 +1209,13 @@ To be successful with an attack of this type, the attacker has to do some homewo
 How easy is this to do? Maybe much of this information can be found on the company's webpages. Maybe they have a Facebook account which will reveal suitable details. Maybe they issue an annual report with information which could be used. Maybe you can just ring to the company and ask. Choose one or more companies or institutions which you know and see whether you can collect up enough information which could be used in a CEO fraud attack. (But, of course, don't get tempted to actually perform the attack...)
 
 
-%---- Page End Break Here ---- Page : \cite{ref51}
+%---- Page End Break Here ---- Page : \cite{itut1993x520}
 \section*{Chapter 3}
 \section*{Risk}
 When you need to consider how to prevent possible security breaches in an IT system, it is important to have an understanding of how serious the various types of breach would be for the system in question. There is no point in doing very much to protect against unimportant attacks or faults. In many commercial contexts people follow the principle that you should not use more money to protect yourself than you risk losing if a breach actually occurs. The loss cannot always be evaluated in terms of money - it might be a matter of losing goodwill or damaging your reputation. But an analysis of what could happen and how to counteract possible damage is the basis for all serious work with IT security. The practical approach to this is typically to evaluate the risks of having an IT system running.
 
 \subsection*{3.1 What Is Risk?}
-The word risk is used here in its technical sense, where it is understood to mean the quantitative probability that an error situation occurs [\cite{ref76}] and gives rise to damage. In IT security, "damage" is synonymous with a breach of the security policy. It is important to understand that this is an objective definition of risk, which must not be confused with subjective risk, which also takes human factors such as public attitudes, trust and personality into consideration.
+The word risk is used here in its technical sense, where it is understood to mean the quantitative probability that an error situation occurs [\cite{royalsociety1992risk}] and gives rise to damage. In IT security, "damage" is synonymous with a breach of the security policy. It is important to understand that this is an objective definition of risk, which must not be confused with subjective risk, which also takes human factors such as public attitudes, trust and personality into consideration.
 
 Quantitative evaluation of (objective) risk is a necessary discipline in many areas-investment, moneylending, medicine, transport, technical development \href{http://etc.in}{etc.in} addition to IT security [76], and what people do in practice depends strongly on traditions within the area under consideration. In IT security, people say that damage occurs when a threat is realised against some weakness in the system. A weakness which can be exploited to damage the system is known as a vulnerability. This idea is illustrated in Fig. 3.1, where the threat is a shark and the vulnerability is a welding fault in the shark cage.
 
@@ -1261,7 +1261,7 @@ In the two figures, 3.2 and 3.3, we have here used a 3-point scale (low, medium,
   \item Compensation to employees for failure to meet obligations of employment\\
 or combinations of such elements.\\
 Just exactly what should be understood by a low, medium or high value naturally depends on the IT system's size and purpose. A consequence corresponding to a loss\\
-%---- Page End Break Here ---- Page : \cite{ref54}
+%---- Page End Break Here ---- Page : \cite{jonsson2003rfc3447}
 
 of 10000 euros can seem very high for a small company but low for a large concern with a turnover of billions. And there can likewise be differing views on how often threats should turn up in order for the frequency to be classified as high, medium or low. In the end, it is up to the management-or, for a system at home, the system owner-to decide where the limits should be set.
 \end{itemize}
@@ -1560,7 +1560,7 @@ When the analysis group has reached agreement on which assets are critical, they
 Regardless of how you find the potential threats, they then have to be described in more detail. This is done in OCTAVE by creating threat profiles for each threat.
 
 
-%---- Page End Break Here ---- Page : \cite{ref62}
+%---- Page End Break Here ---- Page : \cite{ligh2014memoryforensics}
 \subsection*{3.5.2.2 OCTAVE Threat Profiles}
 Each threat which is identified is described by a threat profile which characterises it in relation to five standard properties:
 
@@ -1729,9 +1729,9 @@ You should check that you understand their definitions and can give examples of 
 
 \section*{Further Reading}
 Two good introductions to the concept of risk in a general, not IT-specfic, context are the previously mentioned report "Risk: Analysis, Perception and Management" from the British Royal Society [76], and Ben Ale's book "Risk: An Introduction" [4]. Methods for evaluating risk in an IT context are described in detail in the references\\
-%---- Page End Break Here ---- Page : \cite{ref69}
+%---- Page End Break Here ---- Page : \cite{nystrom2000rfc2986}
 [0pt]
-given in Sect. 3.5-and in even more detail in the various parts of the standards in the ISO27000 series, especially ISO/IEC Standard 27005 [\cite{ref48}]. It is only fair to say that the standards make heavy reading, so they are probably not the first place to look when you want to start reading about the subject.
+given in Sect. 3.5-and in even more detail in the various parts of the standards in the ISO27000 series, especially ISO/IEC Standard 27005 [\cite{iso2011_27005}]. It is only fair to say that the standards make heavy reading, so they are probably not the first place to look when you want to start reading about the subject.
 
 This chapter only gives a very short introduction to some of the ideas behind the original OCTAVE method. For more detail, the report "Introducing OCTAVE Allegro: Improving the information security risk assessment process" [13], describing the more modern OCTAVE Allegro version, can be recommended.
 
@@ -1748,7 +1748,7 @@ Use the methods from OCTAVE to analyse these risks. You should in the first inst
 
 \subsection*{3.2 Internal and eksternal attackers}
 Methods such as OCTAVE distinguish between threats where a human actor accesses an asset via a network or by having physical access to the equipment where the asset is to be found. Try to look at this in another way: See whether you can find data which shows whether most security breaches are caused by internal users (employees in a\\
-%---- Page End Break Here ---- Page : \cite{ref70}
+%---- Page End Break Here ---- Page : \cite{owasp2021top10}
 
 company or family members in a private home) or by external users (outsiders who have no connection with the company or the home).
 
@@ -1773,7 +1773,7 @@ Use the approach from OCTAVE to perform a risk analysis for your smartphone. (If
 \end{enumerate}
 
 
-%---- Page End Break Here ---- Page : \cite{ref71}
+%---- Page End Break Here ---- Page : \cite{patterson2020cod}
 \section*{Chapter 4}
 \section*{Cryptography}
 Cryptography (from the Greek words for hidden writing) is a discipline which is concerned with techniques for secure handling of data, when there are attackers present. Cryptography is therefore one of the two fundamental techniques which can be used to prevent disclosure of confidential data. (The other-access control-is discussed in Chap. 9.) As such it is a central element in every system for preserving confidentiality, both for data which are stored in individual computers and for data which is transmitted between computers. Modern computer-based cryptographic techniques can, however, be used to achieve security targets other than confidentiality, and these uses of cryptography will be discussed in the next chapter in this book.
@@ -1852,11 +1852,11 @@ Whether an attack is usable in practice for revealing confidential data depends 
 \end{itemize}
 
 Most (but not all) cryptosystems can be attacked with a brute-force attack, even if you only have a single ciphertext to analyse. In such an attack, you try all possible keys one after the other until you find the one which works as decryption key. But this can take a very long time - in a modern cryptosystem for use in a computer,\\
-%---- Page End Break Here ---- Page : \cite{ref74}
+%---- Page End Break Here ---- Page : \cite{robshaw2008estream}
 
 the key will perhaps be a number with 128 binary digits (bits), so you may need to try $2^{128}$ keys to be quite certain to find the right one. $2^{128}$ is a very large number, about $3.4 \times 10^{38}$ ( 340 billion billion billion billion). Even with modern computers it is infeasible to perform such an attack.
 
-For a cryptanalyst, discovery of a type of attack which required fewer attempts than a brute-force attack would mean that the cryptosystem was broken. However, this does not necessarily mean that the breach can be used for anything in practice. If the key has 128 bits, the "breach" could perhaps be that you could find the key by trying only $2^{108}$ candidate keys - i.e. roughly $3.2 \times 10^{\cite{ref32}}(320000$ billion billion billion). It would still be infeasible to perform the attack in a reasonable time using today's technology. So you don't necessarily need to go into a panic, if you read in the newspaper that this or that cryptosystem has been broken, unless the people who are responsible for the break have actually been able to demonstrate that their method works in practice.
+For a cryptanalyst, discovery of a type of attack which required fewer attempts than a brute-force attack would mean that the cryptosystem was broken. However, this does not necessarily mean that the breach can be used for anything in practice. If the key has 128 bits, the "breach" could perhaps be that you could find the key by trying only $2^{108}$ candidate keys - i.e. roughly $3.2 \times 10^{\cite{eu2016gdpr}}(320000$ billion billion billion). It would still be infeasible to perform the attack in a reasonable time using today's technology. So you don't necessarily need to go into a panic, if you read in the newspaper that this or that cryptosystem has been broken, unless the people who are responsible for the break have actually been able to demonstrate that their method works in practice.
 
 \subsection*{4.2 Symmetric Encryption}
 The basic idea in symmetric encryption is that you have some information which should only be revealed to particular parties. These parties share a secret which is used as the encryption and usually also the decryption key.
@@ -1899,7 +1899,7 @@ Fig. 4.3 Relative frequencies for the use of letters from the English alphabet i
 Fig. 4.4 Relative frequencies for the use of letters from the Danish alphabet in Danish texts. (Data source: \href{http://practicalcryptography.com/cryptanalysis}{practicalcryptography.com/cryptanalysis})
 
 
-%---- Page End Break Here ---- Page : \cite{ref77}
+%---- Page End Break Here ---- Page : \cite{schmitt2017tallinn}
 Correspondingly, you can find the frequencies with which individual characters appear in the ciphertext. A reasonable first guess is then that the commonest character in the ciphertext stands for the commonest character in texts in the relevant language, and so on. This is unfortunately not always the case, as there is a certain statistical variation in the frequencies of different letters in different texts. But with a bit of experimenting it is usually relatively easy to decipher texts which are encrypted using monoalphabetic ciphers.
 
 Frequency analysis is naturally not limited to use on western european languagesor to use on ciphertexts which only consist of letters. The "alphabet" can be any collection of symbols, as in the pigpen cipher, where the ciphertext is a sequence of geometric symbols. Or as in the Sherlock Holmes story "The Adventure of the Dancing Men" by Arthur Conan Doyle, as shown in Fig. 4.5.\\
@@ -1917,7 +1917,7 @@ Table 4.1 Distribution of two-letter combinations in ordinary English texts. (Da
 \hline
 \multicolumn{2}{|l|}{Bigram Frequency (\%)} & \multicolumn{2}{|l|}{Bigram Frequency (\%)} & \multicolumn{2}{|l|}{Bigram Frequency (\%)} & \multicolumn{2}{|l|}{Bigram Frequency (\%)} \\
 \hline
-th & 1.\cite{ref52} & he & 1.28 & in & 0.94 & er & 0.94 \\
+th & 1.\cite{itut1999ecommerce} & he & 1.28 & in & 0.94 & er & 0.94 \\
 \hline
 an & 0.82 & re & 0.68 & nd & 0.63 & at & 0.59 \\
 \hline
@@ -1936,7 +1936,7 @@ al & 0.09 & de & 0.09 & se & 0.08 & le & 0.08 \\
 sa & 0.06 & si & 0.05 & ar & 0.04 & ve & 0.04 \\
 \hline
 ra & 0.04 & ld & 0.02 & ur & 0.02 &  &  \\
-%---- Page End Break Here ---- Page : \cite{ref78}
+%---- Page End Break Here ---- Page : \cite{schneier1996applied}
 
 \hline
 \end{tabular}
@@ -2106,7 +2106,7 @@ The basic principles for the design of modern ciphers were formulated by Claude 
 It is also important to notice that modern encryption methods are not limited to encrypting texts, but can hide the information content in data of any type. This is very much a development which has taken place since computer technology has become widespread. Modern computers deal with all sorts of information in the form of binary data, i.e. sequences of the binary digits ("bits") 0 and 1. For texts, the coding is very simple, as the individual characters in the alphabet are represented by standardised sequences of bits. For example, if the encoding of characters follows the ASCII standard, the text SECRET is represented as follows:
 
 
-%---- Page End Break Here ---- Page : \cite{ref81}
+%---- Page End Break Here ---- Page : \cite{shekhyusef2015rfc7616}
 \begin{center}
 \begin{tabular}{lcccccc}
 Text: & S & E & C & R & E & T \\
@@ -2183,7 +2183,7 @@ Feistel networks are especially easy to use because decryption uses the same Fei
 
 \subsection*{4.3.3 DES}
 Data Encryption Standard (DES) has been a standard method for symmetric encryption since 1977, when it was published as the standard FIPS PUB 46 in USA. It was\\
-%---- Page End Break Here ---- Page : \cite{ref83}
+%---- Page End Break Here ---- Page : \cite{smart2016cryptographymadesimple}
 
 \includegraphics[max width=\textwidth, center]{2025_05_12_ac3bc46a6f93dd973caag-084}
 
@@ -2196,7 +2196,7 @@ DES is a block cipher, which encrypts data in 64-bit blocks. The key has 56 bits
 This may sound amazingly complicated, but really it is just a monoalphabetic substitution cipher, where each symbol in the "alphabet" is a 64-bit bit sequence. So the "alphabet" consists of all possible sequences of 64 bits. It can therefore in principle be attacked like any other monoalphabetic substitution cipher. As early as 1999, the Electronic Frontier Foundation (EFF) succeeded in decrypting a DESencrypted message in 22 hours, by using a purpose-built machine known as Deep Crack, which only cost 250000 USD—a quite moderate sum for a government intelligence agency or a criminal organisation. With the fast computers available today, this time can be reduced to an hour or less, so DES' 56-bit key is much too small for real security. The use of DES is therefore strongly deprecated for uses where confidentiality of data is important.
 
 To achieve better security while keeping the building blocks from DES, it is common to use Triple-DES (3DES) with three different keys:\\
-%---- Page End Break Here ---- Page : \cite{ref84}
+%---- Page End Break Here ---- Page : \cite{stallings2018computersecurity}
 
 \includegraphics[max width=\textwidth, center]{2025_05_12_ac3bc46a6f93dd973caag-085}
 
@@ -2215,7 +2215,7 @@ $$
 When the message to be encrypted is longer than a single 64-bit DES block, there are several ways to organise the encryption. The simplest is to encrypt the blocks one after the other, using the same key. If the message does not fill a whole number of blocks, the last block is padded out with a neutral bit pattern (often just a sequence of 0-bits). This is known as Electronic Codebook mode (or ECB mode, for short). This is illustrated in Fig. 4.9, where the shading in the last block indicates the padding.
 
 ECB mode is not very secure-two blocks of plaintext with the same content always give the same ciphertext for a given key. This makes it possible to use a technique known as differential cryptanalysis to find the key. However, there are a number of more complex ways of using DES which give better security. An example of this is the Cipher Block Chaining (or CBC, for short) mode illustrated in Fig. 4.10. Here the $i$ 'th block of plaintext is combined with the $(i-1)$ 'th block of ciphertext\\
-%---- Page End Break Here ---- Page : \cite{ref85}
+%---- Page End Break Here ---- Page : \cite{stinson2018cryptography}
 
 \includegraphics[max width=\textwidth, center]{2025_05_12_ac3bc46a6f93dd973caag-086(1)}
 
@@ -2268,7 +2268,7 @@ The four steps are:
 \end{enumerate}
 
 
-%---- Page End Break Here ---- Page : \cite{ref87}
+%---- Page End Break Here ---- Page : \cite{tews2007wep}
 The number of rounds depends on the key size: It is 10 for 128-bit keys, 12 for 192-bit keys and 14 for 256-bit keys.
 
 AES is considered to be very secure. But, like all other block ciphers, it must be used in a suitable mode (such as CBC or better), when the plaintext is longer than a single block. AES has been exposed to many types of cryptanalysis, and is now also approved for encryption of classified material. Interestingly enough, some of the documents made public by Edward Snowdon show that the american NSA had tried to break AES, but had not been able to do so by using any known cryptanalytic methods.
@@ -2326,7 +2326,7 @@ A simple LFSR with three bits in its state is shown in Fig. 4.14. The current st
 It requires care to decide which state bits are to be led out and used in calculating the value of the bit to be shifted into the register. Mathematically, their positions in
 
 
-%---- Page End Break Here ---- Page : \cite{ref89}
+%---- Page End Break Here ---- Page : \cite{todorov2008trustworthiness}
 Fig. 4.15 Some slghtly more advanced trinomials
 
 $$
@@ -2389,7 +2389,7 @@ Even if RC4 has been a much used stream cipher since its design in 1987, it has 
 \end{itemize}
 
 
-%---- Page End Break Here ---- Page : \cite{ref91}
+%---- Page End Break Here ---- Page : \cite{nsa2013ant}
 RC4 does not in itself have any possibility of providing a nonce which can be combined with a long-term key. So it is up to the individual application which uses RC4 to decide how such a combination is to be produced. Many applications just extend the long-term key with the digits of the nonce. But due to weaknesses in RC4's Key Scheduling Algorithm this practice opens up for attacks based on related keys.
 
 \begin{itemize}
@@ -2414,7 +2414,7 @@ Even if the attackers do not know the message $m$, they may know the format of t
 \begin{itemize}
   \item Statistical skew: In a perfect sequence of random numbers, all numbers would appear equally often, seen over a long period of time. As early as 1995, Andrew Roos discovered that there probably was some skew in the distribution of values in the bytestream generated by RC4. Later work has shown that the first bytes in the keystream after initialisation are noticeably non-random, and are correlated with the value of the key. To avoid this problem, it is recommended that the first 3072 bytes of the keystream are thrown away before encryption of the plaintext is actually begun.\\
 In 2013, a group from Royal Holloway University in London found out that skew in the distribution of values in the keystream could be used to derive the actual plaintext, if one could collect up ciphertext from at least $2^{26}$ (about 67 million) identical messages which were encrypted with different keys. One way to do this would be to use malware which for example gets a user's browser to perform repeated attempts at sending an HTTPS request to a server. This attack is especially effective for deriving the first bytes in the plaintext, so it is particularly\\
-%---- Page End Break Here ---- Page : \cite{ref92}
+%---- Page End Break Here ---- Page : \cite{verizon2016dbir}
 
 suited to revealing cookies and passwords, which are often sent at the start of HTTPS exchanges.\\
 It is at present an almost feasible task to perform this attack, and there has been some speculation as to whether a government intelligence service could have the resources to break RC4's encryption in this way. One immediate consequence of this was that the use of RC4 in connection with the widely-used communication protocol $T L S$, which we look more closely at in Chap. 8, was forbidden.
@@ -2653,7 +2653,7 @@ $$
 \end{itemize}
 
 
-%---- Page End Break Here ---- Page : \cite{ref97}
+%---- Page End Break Here ---- Page : \cite{wheeler2015securehowto}
 $$
 \operatorname{gcd}(p,(q-1) \times(r-1))=1
 $$
@@ -2696,7 +2696,7 @@ In this example, such that: $23 \times s \equiv 1(\bmod 216)$
 Note that this is an idealised example with extremely small values. In practice, $q$ and $r$ must be large, randomly chosen prime numbers which are not too close to one another, since if the difference between them is less than $2 n^{1 / 4}$, it is very easy to factorise $n$ using Fermat's method (see Sect. B. 2 in Appendix B). Moreover, the prime factors of ( $q-1$ ) and ( $r-1$ ) must not all be small. And the plaintext will typically be much longer than a single letter, and therefore correspond to a number much larger than 65,
 
 
-%---- Page End Break Here ---- Page : \cite{ref98}
+%---- Page End Break Here ---- Page : \cite{wheeler2020heartbleed}
 \subsection*{4.4.3.2 Calculation Efficiency}
 At school, most people learn that the result of an exponentiation, for example $x^{y}$, is worked out by multiplying $y$ copies of the number $x$ together. So for example $2^{4}=2 \times 2 \times 2 \times 2$. This is manageable when both $x$ and $y$ are small numbers, but very hard work when $x$ or $y$ or both of them are large.
 

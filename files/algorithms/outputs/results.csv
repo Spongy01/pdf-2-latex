@@ -1,0 +1,2 @@
+book_name,scoring_method,timestamp,Score,Latex Errors,Latex Warnings,Bibtex (metadata),Bibtex extracted (json),Entries Cited,Chapters (metadata),Chapters (output),Sections (metadata),Sections (output),Subsections (metadata),Subsections (output),Figures (metadata),Figures (output),Tables (metadata),Tables (output),Index Entries (metadata),Index Entries (output)
+algorithms,multi-metric,2025-10-05T19:44:14.363728,-74.9,4,4,-1,44,26,22,12,200,101,126,215,251,149,32,5,-1,529

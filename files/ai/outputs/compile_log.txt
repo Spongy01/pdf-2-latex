@@ -1,0 +1,809 @@
+Rc files read:
+  .latexmkrc
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'xelatex -interaction=nonstopmode -synctex=1  -recorder -output-directory="/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs"  "../../files/ai/outputs/ai_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(../../files/ai/outputs/ai_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/underscore/underscore.sty)
+==> First Aid for underscore.sty applied!
+(/usr/local/texlive/2025/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bbold/bbold.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file ai_final.idx
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+)))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+outputs/ai_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+[1]
+[2]
+No file ai_final.toc.
+
+[3]
+[4]
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+outputs/ai_final.toc)
+! Unable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg
+-009.jpg'.
+<to be read again> 
+                   }
+l.91 ...ter]{2025_05_12_af19cd5e0d1b8a465ffeg-009}
+                                                  
+
+LaTeX Warning: Citation `braitenberg1984vehicles' on page 5 undefined on input 
+line 96.
+
+
+LaTeX Warning: Reference `fig:1.1' on page 5 undefined on input line 96.
+
+
+[5]
+
+LaTeX Warning: Citation `britannica1991encyclopedia' on page 6 undefined on inp
+ut line 98.
+
+
+LaTeX Warning: Citation `rich1983ai' on page 6 undefined on input line 104.
+
+
+Overfull \hbox (4.60292pt too wide) in paragraph at lines 107--108
+[]\TU/Georgia(0)/m/n/10 Artificial Intelligence is the study of how to make com
+puters do things
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+[6]
+Overfull \hbox (1.24678pt too wide) in paragraph at lines 125--126
+[]\TU/Georgia(0)/m/n/10 There are many interesting philosophical questions surr
+ounding intelligence
+! Unable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg
+-011.jpg'.
+<to be read again> 
+                   }
+l.129 ...er]{2025_05_12_af19cd5e0d1b8a465ffeg-011}
+                                                  
+
+LaTeX Warning: Citation `scipresents1998intelligence' on page 7 undefined on in
+put line 134.
+
+
+LaTeX Warning: Citation `sciam1997mysteries' on page 7 undefined on input line 
+134.
+
+
+[7]
+xdvipdfmx:fatal: Image inclusion failed. Could not find file: ./images/2025_05_12_af19cd5e0d1b8a465ffeg-009.jpg
+
+No output PDF file written.
+
+
+LaTeX Warning: Citation `turing1950computing' on page 8 undefined on input line
+ 137.
+
+
+LaTeX Warning: Citation `weizenbaum1966eliza' on page 8 undefined on input line
+ 141.
+
+
+LaTeX Warning: Citation `godel1931diskussion' on page 8 undefined on input line
+ 151.
+
+
+LaTeX Warning: Citation `godel1931formal' on page 8 undefined on input line 151
+.
+
+
+LaTeX Warning: Citation `turing1937computable' on page 8 undefined on input lin
+e 153.
+
+
+LaTeX Warning: Citation `samuel1959checkers1' on page 8 undefined on input line
+ 161.
+
+
+LaTeX Warning: Citation `newell1983ltm' on page 8 undefined on input line 165.
+
+
+LaTeX Warning: Citation `newell1961gps' on page 8 undefined on input line 171.
+
+
+LaTeX Warning: Citation `robinson1965resolution' on page 8 undefined on input l
+ine 175.
+
+
+LaTeX Warning: Citation `minsky1969perceptrons' on page 8 undefined on input li
+ne 179.
+
+
+LaTeX Warning: Citation `dedombal1972computer' on page 8 undefined on input lin
+e 183.
+
+
+LaTeX Warning: Citation `mcdermott1982r1' on page 8 undefined on input line 189
+.
+
+
+LaTeX Warning: Citation `rumelhart1986pdp' on page 8 undefined on input line 19
+1.
+
+
+LaTeX Warning: Citation `sejnowski1986nettalk' on page 8 undefined on input lin
+e 191.
+
+
+LaTeX Warning: Citation `pearl1988probabilistic' on page 8 undefined on input l
+ine 193.
+
+
+LaTeX Warning: Citation `cheeseman1985defense' on page 8 undefined on input lin
+e 193.
+
+
+Overfull \hbox (1023.7038pt too wide) in paragraph at lines 149--196
+ [] 
+
+[8Latexmk: Getting log file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.log'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.fls'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.log'
+Latexmk: References changed.
+Latexmk: Missing input file 'ai_final.toc' message in .log file:
+  No file ai_final.toc.
+Latexmk: Missing input file './images/2025_05_12_af19cd5e0d1b8a465ffeg-009.jpg' message in .log file:
+  ! Unable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg-009.jpg'.
+Latexmk: Missing input file './images/2025_05_12_af19cd5e0d1b8a465ffeg-011.jpg' message in .log file:
+  ! Unable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg-011.jpg'.
+Latexmk: Index file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.idx' was written
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: applying rule 'makeindex /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.idx'...
+Rule 'makeindex /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.idx':  Reasons for rerun
+Category 'other':
+  Rerun of 'makeindex /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.idx' forced or previously required:
+    Reason or flag: 'Initial set up of rule'
+
+------------
+Run number 1 of rule 'makeindex /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.idx'
+------------
+Latexmk: Change directory to '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/'.
+------------
+Running 'makeindex  -o "ai_final.ind" "ai_final.idx"'
+------------
+This is makeindex, version 2.17 [TeX Live 2025] (kpathsea + Thai support).
+Scanning input file ai_final.idx...done (0 entries accepted, 0 rejected).
+Nothing written in ai_final.ind.
+Transcript written in ai_final.ilg.
+Latexmk: Change directory back to '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/codes/pdf_to_latex'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.aux
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.ind
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.toc
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'xelatex -interaction=nonstopmode -synctex=1  -recorder -output-directory="/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs"  "../../files/ai/outputs/ai_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(../../files/ai/outputs/ai_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/underscore/underscore.sty)
+==> First Aid for underscore.sty applied!
+(/usr/local/texlive/2025/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bbold/bbold.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file ai_final.idx
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+)))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+outputs/ai_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+outputs/ai_final.out)
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+outputs/ai_final.out)
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+[1]
+[2]
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+outputs/ai_final.toc)
+[3]
+[4]
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+outputs/ai_final.toc)
+! Unable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg
+-009.jpg'.
+<to be read again> 
+                   }
+l.91 ...ter]{2025_05_12_af19cd5e0d1b8a465ffeg-009}
+                                                  
+
+LaTeX Warning: Citation `braitenberg1984vehicles' on page 5 undefined on input 
+line 96.
+
+
+LaTeX Warning: Reference `fig:1.1' on page 5 undefined on input line 96.
+
+
+[5]
+
+LaTeX Warning: Citation `britannica1991encyclopedia' on page 6 undefined on inp
+ut line 98.
+
+
+LaTeX Warning: Citation `rich1983ai' on page 6 undefined on input line 104.
+
+
+Overfull \hbox (4.60292pt too wide) in paragraph at lines 107--108
+[]\TU/Georgia(0)/m/n/10 Artificial Intelligence is the study of how to make com
+puters do things
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+[6]
+Overfull \hbox (1.24678pt too wide) in paragraph at lines 125--126
+[]\TU/Georgia(0)/m/n/10 There are many interesting philosophical questions surr
+ounding intelligence
+! Unable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg
+-011.jpg'.
+<to be read again> 
+                   }
+l.129 ...er]{2025_05_12_af19cd5e0d1b8a465ffeg-011}
+                                                  
+
+LaTeX Warning: Citation `scipresents1998intelligence' on page 7 undefined on in
+put line 134.
+
+
+LaTeX Warning: Citation `sciam1997mysteries' on page 7 undefined on input line 
+134.
+
+
+[7]
+xdvipdfmx:fatal: Image inclusion failed. Could not find file: ./images/2025_05_12_af19cd5e0d1b8a465ffeg-009.jpg
+
+No output PDF file written.
+
+
+LaTeX Warning: Citation `turing1950computing' on page 8 undefined on input line
+ 137.
+
+
+LaTeX Warning: Citation `weizenbaum1966eliza' on page 8 undefined on input line
+ 141.
+
+
+LaTeX Warning: Citation `godel1931diskussion' on page 8 undefined on input line
+ 151.
+
+
+LaTeX Warning: Citation `godel1931formal' on page 8 undefined on input line 151
+.
+
+
+LaTeX Warning: Citation `turing1937computable' on page 8 undefined on input lin
+e 153.
+
+
+LaTeX Warning: Citation `samuel1959checkers1' on page 8 undefined on input line
+ 161.
+
+
+LaTeX Warning: Citation `newell1983ltm' on page 8 undefined on input line 165.
+
+
+LaTeX Warning: Citation `newell1961gps' on page 8 undefined on input line 171.
+
+
+LaTeX Warning: Citation `robinson1965resolution' on page 8 undefined on input l
+ine 175.
+
+
+LaTeX Warning: Citation `minsky1969perceptrons' on page 8 undefined on input li
+ne 179.
+
+
+LaTeX Warning: Citation `dedombal1972computer' on page 8 undefined on input lin
+e 183.
+
+
+LaTeX Warning: Citation `mcdermott1982r1' on page 8 undefined on input line 189
+.
+
+
+LaTeX Warning: Citation `rumelhart1986pdp' on page 8 undefined on input line 19
+1.
+
+
+LaTeX Warning: Citation `sejnowski1986nettalk' on page 8 undefined on input lin
+e 191.
+
+
+LaTeX Warning: Citation `pearl1988probabilistic' on page 8 undefined on input l
+ine 193.
+
+
+LaTeX Warning: Citation `cheeseman1985defense' on page 8 undefined on input lin
+e 193.
+
+
+Overfull \hbox (1023.7038pt too wide) in paragraph at lines 149--196
+ [] 
+
+[8Latexmk: Getting log file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.log'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.fls'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.log'
+Latexmk: References changed.
+Latexmk: Missing input file './images/2025_05_12_af19cd5e0d1b8a465ffeg-009.jpg' message in .log file:
+  ! Unable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg-009.jpg'.
+Latexmk: Index file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.idx' was written
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.out
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'xelatex -interaction=nonstopmode -synctex=1  -recorder -output-directory="/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs"  "../../files/ai/outputs/ai_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(../../files/ai/outputs/ai_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/underscore/underscore.sty)
+==> First Aid for underscore.sty applied!
+(/usr/local/texlive/2025/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bbold/bbold.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file ai_final.idx
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+)))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+outputs/ai_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+outputs/ai_final.out)
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+outputs/ai_final.out)
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+[1]
+[2]
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+outputs/ai_final.toc)
+[3]
+[4]
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+outputs/ai_final.toc)
+! Unable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg
+-009.jpg'.
+<to be read again> 
+                   }
+l.91 ...ter]{2025_05_12_af19cd5e0d1b8a465ffeg-009}
+                                                  
+
+LaTeX Warning: Citation `braitenberg1984vehicles' on page 5 undefined on input 
+line 96.
+
+
+LaTeX Warning: Reference `fig:1.1' on page 5 undefined on input line 96.
+
+
+[5]
+
+LaTeX Warning: Citation `britannica1991encyclopedia' on page 6 undefined on inp
+ut line 98.
+
+
+LaTeX Warning: Citation `rich1983ai' on page 6 undefined on input line 104.
+
+
+Overfull \hbox (4.60292pt too wide) in paragraph at lines 107--108
+[]\TU/Georgia(0)/m/n/10 Artificial Intelligence is the study of how to make com
+puters do things
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+[6]
+Overfull \hbox (1.24678pt too wide) in paragraph at lines 125--126
+[]\TU/Georgia(0)/m/n/10 There are many interesting philosophical questions surr
+ounding intelligence
+! Unable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg
+-011.jpg'.
+<to be read again> 
+                   }
+l.129 ...er]{2025_05_12_af19cd5e0d1b8a465ffeg-011}
+                                                  
+
+LaTeX Warning: Citation `scipresents1998intelligence' on page 7 undefined on in
+put line 134.
+
+
+LaTeX Warning: Citation `sciam1997mysteries' on page 7 undefined on input line 
+134.
+
+
+[7]
+xdvipdfmx:fatal: Image inclusion failed. Could not find file: ./images/2025_05_12_af19cd5e0d1b8a465ffeg-009.jpg
+
+No output PDF file written.
+
+
+LaTeX Warning: Citation `turing1950computing' on page 8 undefined on input line
+ 137.
+
+
+LaTeX Warning: Citation `weizenbaum1966eliza' on page 8 undefined on input line
+ 141.
+
+
+LaTeX Warning: Citation `godel1931diskussion' on page 8 undefined on input line
+ 151.
+
+
+LaTeX Warning: Citation `godel1931formal' on page 8 undefined on input line 151
+.
+
+
+LaTeX Warning: Citation `turing1937computable' on page 8 undefined on input lin
+e 153.
+
+
+LaTeX Warning: Citation `samuel1959checkers1' on page 8 undefined on input line
+ 161.
+
+
+LaTeX Warning: Citation `newell1983ltm' on page 8 undefined on input line 165.
+
+
+LaTeX Warning: Citation `newell1961gps' on page 8 undefined on input line 171.
+
+
+LaTeX Warning: Citation `robinson1965resolution' on page 8 undefined on input l
+ine 175.
+
+
+LaTeX Warning: Citation `minsky1969perceptrons' on page 8 undefined on input li
+ne 179.
+
+
+LaTeX Warning: Citation `dedombal1972computer' on page 8 undefined on input lin
+e 183.
+
+
+LaTeX Warning: Citation `mcdermott1982r1' on page 8 undefined on input line 189
+.
+
+
+LaTeX Warning: Citation `rumelhart1986pdp' on page 8 undefined on input line 19
+1.
+
+
+LaTeX Warning: Citation `sejnowski1986nettalk' on page 8 undefined on input lin
+e 191.
+
+
+LaTeX Warning: Citation `pearl1988probabilistic' on page 8 undefined on input l
+ine 193.
+
+
+LaTeX Warning: Citation `cheeseman1985defense' on page 8 undefined on input lin
+e 193.
+
+
+Overfull \hbox (1023.7038pt too wide) in paragraph at lines 149--196
+ [] 
+
+[8Latexmk: Getting log file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.log'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.fls'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.log'
+Latexmk: References changed.
+Latexmk: Missing input file './images/2025_05_12_af19cd5e0d1b8a465ffeg-009.jpg' message in .log file:
+  ! Unable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg-009.jpg'.
+Latexmk: Index file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.idx' was written
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 1 reference(s)
+  Latex failed to resolve 3 citation(s)
+Latexmk: ====Undefined refs and citations with line #s in .tex file:
+  Citation `braitenberg1984vehicles' on page 5 undefined on input line 96
+  Reference `fig:1.1' on page 5 undefined on input line 96
+  Citation `britannica1991encyclopedia' on page 6 undefined on input line 98
+  Citation `rich1983ai' on page 6 undefined on input line 104
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 0.05078125
+      Refer to '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.log' and/or above output for details
+
