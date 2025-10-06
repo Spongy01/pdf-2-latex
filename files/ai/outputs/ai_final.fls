@@ -207,12 +207,6 @@ INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files
 INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.toc
 INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.toc
 OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.toc
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.toc
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.toc
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.toc
-OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.toc
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/./images/2025_05_12_af19cd5e0d1b8a465ffeg-009.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/./images/2025_05_12_af19cd5e0d1b8a465ffeg-009.jpg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -233,6 +227,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary5.tfm
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/./images/2025_05_12_af19cd5e0d1b8a465ffeg-009.jpg
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/./images/2025_05_12_af19cd5e0d1b8a465ffeg-009.jpg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm

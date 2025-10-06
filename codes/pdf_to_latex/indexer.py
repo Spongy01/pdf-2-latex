@@ -793,7 +793,8 @@ def add_indexes(latex_content, index, book_len, toc):
     for index_term, pages in tqdm(index.items()):
         for page in pages:
             # Debug for specific terms, if needed
-            debug = (index_term == 'application')  # Example term to debug
+            # debug = (index_term == 'application')  # Example term to debug
+            debug = False
             
             if debug:
                 print(f"DEBUG: Processing '{index_term}' on page {page}")
@@ -854,7 +855,12 @@ def add_indexes(latex_content, index, book_len, toc):
                             print(f"DEBUG: Inserting '{indexed_term}' at position {term_end}")
                             print(f"DEBUG: Context: ...{context_before}|HERE|{context_after}...")
                         
+                        newline_pos = latex_content.find("\n", term_end)
+                        if newline_pos != -1 and term_end < newline_pos:
+                            term_end = newline_pos
+                        
                         latex_content = latex_content[:term_end] + indexed_term + latex_content[term_end:]
+
                     
                     else:
                         # Term is not inside a command
@@ -871,6 +877,10 @@ def add_indexes(latex_content, index, book_len, toc):
                             print(f"DEBUG: Inserting '{indexed_term}' at position {term_end}")
                             print(f"DEBUG: Context: ...{context_before}|HERE|{context_after}...")
                         
+                        newline_pos = latex_content.find("\n", term_end)
+                        if newline_pos != -1 and term_end < newline_pos:
+                            term_end = newline_pos
+
                         latex_content = latex_content[:term_end] + indexed_term + latex_content[term_end:]
                     
                     matched += 1
@@ -934,6 +944,11 @@ def add_indexes(latex_content, index, book_len, toc):
                 
             page_content = latex_content[lower_bound:upper_bound]
             index_position = lower_bound + (upper_bound - lower_bound) // 2
+
+            # if index_position is before \begin{document}, move it to after
+            begin_doc_pos = latex_content.find(r"\begin{document}")
+            if begin_doc_pos != -1 and index_position < begin_doc_pos:
+                index_position = begin_doc_pos + len(r"\begin{document}")
 
             # Move forward until a newline
             next_newline_pos = latex_content.find("\n", index_position)

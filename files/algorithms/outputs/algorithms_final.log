@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.28)  5 OCT 2025 16:52
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.28)  6 OCT 2025 13:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -490,7 +490,7 @@ Package csquotes Info: ... none found.
 (/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/alg
 orithms/outputs/algorithms_final.aux)
 Runaway argument?
-{\contentsline {su 
+{\contentsline {subsection}{\numberline {0.18.4}Expressing Algorithms\ETC.
 ! File ended while scanning use of \@writefile.
 <inserted text> 
                 \par 
@@ -536,33 +536,8 @@ Package hyperref Info: Link coloring ON on input line 45.
 
 (/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/alg
 orithms/outputs/algorithms_final.out)
-Runaway argument?
-{\376\377\000B\000l\000o\000o\000m\000\040\000F\000i\000l\000t\00 
-! File ended while scanning use of \@@BOOKMARK.
-<inserted text> 
-                \par 
-l.45 \begin{document}
-                     
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-
 (/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/alg
 orithms/outputs/algorithms_final.out)
-Runaway argument?
-{\376\377\000B\000l\000o\000o\000m\000\040\000F\000i\000l\000t\00 
-! File ended while scanning use of \@@BOOKMARK.
-<inserted text> 
-                \par 
-l.45 \begin{document}
-                     
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
 \@outlinefile=\write5
 \openout5 = `algorithms_final.out'.
 
@@ -570,6 +545,7 @@ you'd better type `E' or `X' now and fix your file.
 Package chemgreek Info: Activating mapping `default' on line 45.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -603,7 +579,7 @@ orithms/outputs/algorithms_final.toc)
 -001.jpg'.
 <to be read again> 
                    }
-l.55 ...dth]{2025_03_24_35eff77eaa66f5ad98acg-001}
+l.56 ...dth]{2025_03_24_35eff77eaa66f5ad98acg-001}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -615,7 +591,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 ...dth]{2025_03_24_35eff77eaa66f5ad98acg-001}
+l.56 ...dth]{2025_03_24_35eff77eaa66f5ad98acg-001}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -629,183 +605,65 @@ File: ./images/2025_03_24_35eff77eaa66f5ad98acg-001.jpg Graphic file (type bmp)
 [3]
 
 [4]
-Chapter 1.
-
-
-[5
-
-]
-Overfull \hbox (7.93391pt too wide) in paragraph at lines 114--115
+Overfull \hbox (7.93391pt too wide) in paragraph at lines 115--116
 []\T1/lmr/m/n/10 Three as-pects of \T1/lmr/m/it/10 The Al-go-rithm De-sign Man-
 ual \T1/lmr/m/n/10 have been par-tic-u-larly beloved:
  []
 
 
 
+[5]
+
 [6]
 
 [7]
-
-[8]
-
-[9]
-
-[10
-
-]
-(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/alg
-orithms/outputs/algorithms_final.toc)
-\tf@toc=\write7
-\openout7 = `algorithms_final.toc'.
+Overfull \hbox (13.91621pt too wide) in paragraph at lines 166--528
+[] \T1/lmr/m/n/10 2.7.1 Log-a-rithms
+ []
 
 
-
-[11]
-
-[12
-
-]
-Chapter 2.
-
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 166--528
 
  []
 
 
-! LaTeX Error: \begin{document} ended by \end{itemize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.204 \end{itemize}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-\end  ...end#1\endcsname \@checkend {#1}\endgroup 
-                                                  \UseHook {env/#1/after}\if...
-l.204 \end{itemize}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-
-
-[14]
-! Unable to load picture or PDF file './images/2025_03_24_35eff77eaa66f5ad98acg
--189.jpg'.
-<to be read again> 
-                   }
-l.260 ...th]{2025_03_24_35eff77eaa66f5ad98acg-189}
-                                                  
-The requested image couldn't be read because
-it was not a recognized image format.
-
-File: ./images/2025_03_24_35eff77eaa66f5ad98acg-189.jpg Graphic file (type bmp)
-
-<./images/2025_03_24_35eff77eaa66f5ad98acg-189.jpg>
-
-
-[15]
-
-[16]
-! Unable to load picture or PDF file './images/2025_03_24_35eff77eaa66f5ad98acg
--191.jpg'.
-<to be read again> 
-                   }
-l.344 ...er]{2025_03_24_35eff77eaa66f5ad98acg-191}
-                                                  
-The requested image couldn't be read because
-it was not a recognized image format.
-
-File: ./images/2025_03_24_35eff77eaa66f5ad98acg-191.jpg Graphic file (type bmp)
-
-<./images/2025_03_24_35eff77eaa66f5ad98acg-191.jpg>
-
-
-[17]
-! Unable to load picture or PDF file './images/2025_03_24_35eff77eaa66f5ad98acg
--192.jpg'.
-<to be read again> 
-                   }
-l.372 ...th]{2025_03_24_35eff77eaa66f5ad98acg-192}
-                                                  
-The requested image couldn't be read because
-it was not a recognized image format.
-
-File: ./images/2025_03_24_35eff77eaa66f5ad98acg-192.jpg Graphic file (type bmp)
-
-<./images/2025_03_24_35eff77eaa66f5ad98acg-192.jpg>
-
-
-[18]
-! Unable to load picture or PDF file './images/2025_03_24_35eff77eaa66f5ad98acg
--193.jpg'.
-<to be read again> 
-                   }
-l.394 ...th]{2025_03_24_35eff77eaa66f5ad98acg-193}
-                                                  
-The requested image couldn't be read because
-it was not a recognized image format.
-
-
-! Package graphics Error: Division by 0.
-
-See the graphics package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.394 ...th]{2025_03_24_35eff77eaa66f5ad98acg-193}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-File: ./images/2025_03_24_35eff77eaa66f5ad98acg-193.jpg Graphic file (type bmp)
-
-<./images/2025_03_24_35eff77eaa66f5ad98acg-193.jpg>
-
-
-[19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[20]
-
-[21]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 481.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 481.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 481.
+[8]
+Underfull \vbox (badness 2189) has occurred while \output is active []
 
 
 
-[22]
-Overfull \hbox (10.16698pt too wide) in paragraph at lines 507--511
-\T1/lmr/m/n/10 For ex-am-ple: $\OT1/cmr/m/n/10 21347895537127  []  17 = 8 \OMS/
-cmsy/m/n/10 6\OT1/cmr/m/n/10 = (21347895537127  []  2342343)  []
- []
+[9]
 
+[10]
 
+[11]
 
-[23]
+[12]
+
+[13]
+
+[14]
+
+[15]
+
+[16]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
+78.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+
+[17]
+Missing character: There is no ’ ("2019) in font ec-lmri10!
 ! Unable to load picture or PDF file './images/2025_03_24_35eff77eaa66f5ad98acg
--198.jpg'.
+-022.jpg'.
 <to be read again> 
                    }
-l.527 ...th]{2025_03_24_35eff77eaa66f5ad98acg-198}
+l.599 ...th]{2025_03_24_35eff77eaa66f5ad98acg-022}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -817,32 +675,32 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.527 ...th]{2025_03_24_35eff77eaa66f5ad98acg-198}
+l.599 ...th]{2025_03_24_35eff77eaa66f5ad98acg-022}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-File: ./images/2025_03_24_35eff77eaa66f5ad98acg-198.jpg Graphic file (type bmp)
+File: ./images/2025_03_24_35eff77eaa66f5ad98acg-022.jpg Graphic file (type bmp)
 
-<./images/2025_03_24_35eff77eaa66f5ad98acg-198.jpg>
+<./images/2025_03_24_35eff77eaa66f5ad98acg-022.jpg>
 
 
-[24]
+[18]
 ! Unable to load picture or PDF file './images/2025_03_24_35eff77eaa66f5ad98acg
--199.jpg'.
+-023.jpg'.
 <to be read again> 
                    }
-l.545 ...er]{2025_03_24_35eff77eaa66f5ad98acg-199}
+l.617 ...th]{2025_03_24_35eff77eaa66f5ad98acg-023}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
 
-File: ./images/2025_03_24_35eff77eaa66f5ad98acg-199.jpg Graphic file (type bmp)
 
-<./images/2025_03_24_35eff77eaa66f5ad98acg-199.jpg>
+! Package graphics Error: Division by 0.
 
-
-[25]
-! Unable to load picture or PDF file './images/2025_03_24_35eff77eaa66f5ad98acg
--200.jpg'
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.617 ...th]{2025_03_24_35eff77

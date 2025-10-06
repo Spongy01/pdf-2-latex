@@ -1,12 +1,15 @@
 Rc files read:
   .latexmkrc
 Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
-No existing .aux file, so I'll make a simple one, and require run of *latex.
 Latexmk: applying rule 'pdflatex'...
 Rule 'pdflatex':  Reasons for rerun
-Category 'other':
-  Rerun of 'pdflatex' forced or previously required:
-    Reason or flag: 'Initial setup'
+Changed files or newly in use/created:
+  ../../files/assembly/outputs/assembly_final.tex
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/outputs/assembly_final.aux
+Category 'changed_user':
+  ../../files/assembly/outputs/assembly_final.tex
+Category 'never_run':
+  pdflatex
 
 ------------
 Run number 1 of rule 'pdflatex'
@@ -155,63 +158,64 @@ Writing index file assembly_final.idx
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/bidi/book-xetex-bidi.def)
 (/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ass
 embly/outputs/assembly_final.aux)
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ass
+embly/outputs/assembly_final.out)
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ass
+embly/outputs/assembly_final.out)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
 [1]
 [2]
-No file assembly_final.toc.
-
-Overfull \hbox (3.26732pt too wide) in paragraph at lines 106--113
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ass
+embly/outputs/assembly_final.toc)
+Overfull \hbox (3.26732pt too wide) in paragraph at lines 108--115
 []\TU/Georgia(0)/m/n/10 Iain Stewart © , Department of Computer Science, Durham
  University, Durham,[]
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--113
+Underfull \hbox (badness 10000) in paragraph at lines 108--115
 [][]
 
 [3]
-Overfull \hbox (2.37796pt too wide) in paragraph at lines 118--119
+Overfull \hbox (2.37796pt too wide) in paragraph at lines 120--121
 [][]\TU/Georgia(0)/m/n/10 More information about this series at [][][]http://ww
 w.springer.com/series/7592[][][] []
 
-Overfull \hbox (6.75647pt too wide) in paragraph at lines 128--139
+Overfull \hbox (6.75647pt too wide) in paragraph at lines 130--141
 []\TU/Georgia(0)/m/n/10 This work is subject to copyright. All rights are reser
 ved by the Publisher, whether[]
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
-[][]
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.158 \item k
-             nowledge into the nature of computer systems, organization, and...
-
-
-Underfull \hbox (badness 10000) detected at line 158
-[][]
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.159   \item H
-               aving knowledge of low-level programming concepts helps one u...
-
-
-Underfull \hbox (badness 10000) detected at line 159
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 [][]
 
 [5]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \item k
+             nowledge into the nature of computer systems, organization, and...
+
+
+Underfull \hbox (badness 10000) detected at line 161
+[][]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162   \item H
+               aving knowledge of low-level programming concepts helps one u...
+
+
+Underfull \hbox (badness 10000) detected at line 162
+[][]
 
 ! LaTeX Error: \begin{document} ended by \end{itemize}.
 
@@ -219,35 +223,48 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160 \end{itemize}
+l.163 \end{itemize}
                    
 ! Extra \endgroup.
 \end  ...end#1\endcsname \@checkend {#1}\endgroup 
                                                   \UseHook {env/#1/after}\bi...
-l.160 \end{itemize}
+l.163 \end{itemize}
                    
 
-Overfull \hbox (5.98395pt too wide) in paragraph at lines 162--162
+Overfull \hbox (5.98395pt too wide) in paragraph at lines 165--165
 [][]\TU/Georgia(0)/b/n/14.4 Comparison to Computer Organization and[]
 
 [6]
 [7]
-Overfull \hbox (10.54402pt too wide) in paragraph at lines 197--198
+Overfull \hbox (10.54402pt too wide) in paragraph at lines 200--201
 []\TU/Georgia(0)/m/n/10 guage, such as if-then, if-then-else, nested if structu
 res, and the case (switch)[]
 
-Overfull \hbox (1.1433pt too wide) in paragraph at lines 202--203
+Overfull \hbox (1.1433pt too wide) in paragraph at lines 205--206
 [][]\TU/Georgia(0)/m/n/10 Chapter 9 discusses strings, string instructions, arr
 ays of strings, and com-[]
 
 [8]
 [9]
 [10]
-(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ass
-embly/outputs/assembly_final.toc)
 [11]
 [12]
-Chapter 1.
+[13]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-018' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.397 ...th]{2025_03_24_ebe50cc223a6fbc49eecg-018}
+                                                  
+
+Overfull \hbox (1.98517pt too wide) in paragraph at lines 401--402
+[]\TU/Georgia(0)/m/n/10 guage, but the one used in this text is MASM (Microsoft
+ Assembler). The method[]
+
+[14]
 
 Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 (xeCJK)                
@@ -255,65 +272,455 @@ Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 (xeCJK)                it.
 
 
-[13]
-[14]
 [15]
 [16]
 [17]
 [18]
 [19]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-024(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.577 ...{2025_03_24_ebe50cc223a6fbc49eecg-024(1)}
+                                                  
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-024' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.588 ...th]{2025_03_24_ebe50cc223a6fbc49eecg-024}
+                                                  
+
 [20]
+Overfull \hbox (116.59676pt too wide) in paragraph at lines 601--630
+ [][][] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active
 [21]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-026' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.649 ...er]{2025_03_24_ebe50cc223a6fbc49eecg-026}
+                                                  
+
 [22]
 [23]
 [24]
 [25]
 [26]
-Overfull \hbox (20.1238pt too wide) in paragraph at lines 684--684
-[][]\TU/Georgia(0)/b/n/14.4 Complete Program: Implementing the Power[]
+Overfull \hbox (1.48898pt too wide) in paragraph at lines 782--783
+[][]\TU/Georgia(0)/m/n/10 Assuming that the variables have been declared proper
+ly, indicate whether[]
 
 [27]
 [28]
-Overfull \hbox (4.56366pt too wide) in paragraph at lines 790--790
-[][]\TU/Georgia(0)/b/n/14.4 Exercises (Items Marked with an * Have So-[]
-
 [29]
 [30]
-
-Overfull \hbox (44.13458pt too wide) has occurred while \output is active
-[]\TU/lmr/m/sl/10 1.8.  \TU/Georgia(0)/m/it/10 EXERCISES (ITEMS MARKED WITH AN 
-* HAVE SOLUTIONS IN APPENDIX D) \TU/lmr/m/n/10 31[]
 [31]
-Overfull \hbox (3.95026pt too wide) in paragraph at lines 906--907
+[32]
+[33]
+[34]
+[35]
+Overfull \hbox (2.3485pt too wide) in paragraph at lines 1108--1108
+[][]\TU/Georgia(0)/b/n/12 Exercises (Items Marked with an * Have Solutions[]
+
+[36]
+[37]
+[38]
+[39]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-046' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1307 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-046}
+                                                  
+
+[40]
+[41]
+[42]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-049' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1403 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-049}
+                                                  
+
+[43]
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1459 \hline
+             
+! Misplaced alignment tab character &.
+l.1460 cbw &
+             Convert byte to word & Extends the sign from al to ax \\
+! Misplaced alignment tab character &.
+l.1460 cbw & Convert byte to word &
+                                    Extends the sign from al to ax \\
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1461 \hline
+             
+
+Underfull \hbox (badness 10000) in paragraph at lines 1460--1461
+[][]
+! Misplaced alignment tab character &.
+l.1462 cwd &
+             Convert word to double & Extends sign from ax to eax \\
+! Misplaced alignment tab character &.
+l.1462 cwd & Convert word to double &
+                                      Extends sign from ax to eax \\
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1463 \hline
+             
+
+Underfull \hbox (badness 10000) in paragraph at lines 1462--1463
+[][]
+! Misplaced alignment tab character &.
+l.1464 cdq &
+             Convert double to quad word & Extends sign from eax to edx : ea...
+
+! Misplaced alignment tab character &.
+l.1464 cdq & Convert double to quad word &
+                                           Extends sign from eax to edx : ea...
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1465 \hline
+             
+
+Underfull \hbox (badness 10000) in paragraph at lines 1464--1465
+[][]
+! Misplaced \crcr.
+\endtabular ->\crcr 
+                    \egroup \if@RTLtab \egroup \endR \egroup \fi \egroup $\i...
+l.1466 \end{tabular}
+                    
+! Too many }'s.
+\endtabular ->\crcr \egroup 
+                            \if@RTLtab \egroup \endR \egroup \fi \egroup $\i...
+l.1466 \end{tabular}
+                    
+! Too many }'s.
+\endtabular ... \egroup \endR \egroup \fi \egroup 
+                                                  $\if@RTLtab \endR \fi \egr...
+l.1466 \end{tabular}
+                    
+! Extra }, or forgotten $.
+\endtabular ...roup $\if@RTLtab \endR \fi \egroup 
+                                                  
+l.1466 \end{tabular}
+                    
+
+! LaTeX Error: \begin{document} ended by \end{tabular}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1466 \end{tabular}
+                    
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1466 \end{tabular}
+                    
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.1466 \end{tabular}
+                    
+
+! LaTeX Error: \begin{document} ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1467 \end{center}
+                   
+! Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\bi...
+l.1467 \end{center}
+                   
+
+[44]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-051' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1483 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-051}
+                                                  
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-052' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1493 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-052}
+                                                  
+
+Overfull \hbox (14.9735pt too wide) in paragraph at lines 1499--1499
+[][]\TU/Georgia(0)/b/n/12 Implementing Unary Operators: Increment, Decre-[]
+
+[45]
+[46]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-054' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1558 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-054}
+                                                  
+
+Overfull \hbox (0.4164pt too wide) in paragraph at lines 1583--1584
+[][]\TU/Georgia(0)/m/n/10 As shown before with increment and decrement, one cou
+ld accomplish nega-[]
+
+[47]
+[48]
+[49]
+[50]
+Overfull \hbox (0.56429pt too wide) in paragraph at lines 1728--1728
+[][]\TU/Georgia(0)/b/n/12 Complete Program: Implementing I/O and Arith-[]
+
+[51]
+[52]
+Overfull \hbox (0.18396pt too wide) in paragraph at lines 1788--1789
+[][]\TU/Georgia(0)/m/n/10 Follow the order of operations when implementing arit
+hmetic statements: []
+
+Overfull \hbox (2.3485pt too wide) in paragraph at lines 1798--1798
+[][]\TU/Georgia(0)/b/n/12 Exercises (Items Marked with an * Have Solutions[]
+
+[53]
+[54]
+Overfull \hbox (0.169pt too wide) in paragraph at lines 1887--1888
+[]\TU/Georgia(0)/m/n/10 high-level control structures, they cannot be used to c
+ontrol the high-level struc-[]
+
+[55]
+Overfull \hbox (4.16835pt too wide) in paragraph at lines 1910--1911
+[]\TU/Georgia(0)/m/n/10 which indicates that these words are not actual executa
+ble instructions but rather[]
+
+[56]
+Overfull \hbox (101.60652pt too wide) in paragraph at lines 1936--1953
+ [][][] 
+
+[57]
+Overfull \hbox (82.63385pt too wide) in paragraph at lines 2019--2031
+ [][][][] 
+
+[58]
+[59]
+Overfull \hbox (1.15703pt too wide) in paragraph at lines 2057--2058
+[][]\TU/Georgia(0)/m/n/10 A few other remarks are necessary concerning the abov
+e code segment. First,[]
+
+[60]
+! Misplaced alignment tab character &.
+l.2112 then03: &
+                 \begin{tabular}{l}
+! Misplaced \crcr.
+\endtabular ->\crcr 
+                    \egroup \if@RTLtab \egroup \endR \egroup \fi \egroup $\i...
+l.2123 \end{tabular}
+                    
+! Too many }'s.
+\endtabular ->\crcr \egroup 
+                            \if@RTLtab \egroup \endR \egroup \fi \egroup $\i...
+l.2123 \end{tabular}
+                    
+! Too many }'s.
+\endtabular ... \egroup \endR \egroup \fi \egroup 
+                                                  $\if@RTLtab \endR \fi \egr...
+l.2123 \end{tabular}
+                    
+! Extra }, or forgotten $.
+\endtabular ...roup $\if@RTLtab \endR \fi \egroup 
+                                                  
+l.2123 \end{tabular}
+                    
+
+! LaTeX Error: \begin{document} ended by \end{tabular}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2123 \end{tabular}
+                    
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2123 \end{tabular}
+                    
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.2123 \end{tabular}
+                    
+
+Underfull \hbox (badness 10000) in paragraph at lines 2112--2124
+[][]
+
+[61]
+
+! LaTeX Error: \begin{document} ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2124 \end{center}
+                   
+! Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\bi...
+l.2124 \end{center}
+                   
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-071' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2155 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-071}
+                                                  
+
+[62]
+Overfull \hbox (1.9496pt too wide) in paragraph at lines 2176--2177
+[][]\TU/Georgia(0)/m/n/10 Given the previous discussion of the nested if-then-e
+lse-if structure, it should[]
+
+[63]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-072' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2197 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-072}
+                                                  
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-073' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2210 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-073}
+                                                  
+
+[64]
+[65]
+Overfull \hbox (26.5987pt too wide) in paragraph at lines 2265--2279
+ [][][] 
+
+[66]
+[67]
+[68]
+[69]
+[70]
+[71]
+[72]
+Overfull \hbox (76.42719pt too wide) in paragraph at lines 2492--2507
+ [][][] 
+
+[73]
+Overfull \hbox (18.34866pt too wide) in paragraph at lines 2546--2561
+ [][][] 
+
+[74]
+[75]
+Overfull \hbox (0.81384pt too wide) in paragraph at lines 2629--2630
+[][]\TU/Georgia(0)/m/n/10 Nested if-then-else-if structures are usually preferr
+ed over if-then-if struc-[]
+
+[76]
+[77]
+[78]
+[79]
+[80]
+Underfull \vbox (badness 1226) has occurred while \output is active
+[81]
+[82]
+[83]
+[84]
+[85]
+[86]
+[87]
+[88]
+[89]
+[90]
+[91]
+Overfull \hbox (13.9481pt too wide) in paragraph at lines 3169--3169
+[][]\TU/Georgia(0)/b/n/12 Complete Program: Implementing the Power Func-[]
+
+[92]
+[93]
+[94]
+Overfull \hbox (2.3485pt too wide) in paragraph at lines 3275--3275
+[][]\TU/Georgia(0)/b/n/12 Exercises (Items Marked with an * Have Solutions[]
+
+[95]
+[96]
+[97]
+Overfull \hbox (3.95026pt too wide) in paragraph at lines 3392--3393
 []\TU/Georgia(0)/m/n/10 compare the contents of variables or registers but chec
 k the individual bits within[]
 
-[32]
+[98]
 ! Misplaced alignment tab character &.
-l.924 ...0100 in binary, the above is a bit-wise &
+l.3410 ...100 in binary, the above is a bit-wise &
                                                    operation between flag an...
 
 
-Overfull \hbox (20.51764pt too wide) in paragraph at lines 924--925
+Overfull \hbox (20.51764pt too wide) in paragraph at lines 3410--3411
 []\TU/Georgia(0)/m/n/10 but rather assuming that flag equals 01101110 in binary
  and maskit equals 00000100[]
-
-[33]
 ! Misplaced alignment tab character &.
-l.946 ...binary, then the result of the bit-wise &
+l.3432 ...inary, then the result of the bit-wise &
                                                    operator would be 0000000...
 
 
-Overfull \hbox (36.87701pt too wide) in paragraph at lines 970--981
+[99]
+Overfull \hbox (36.87701pt too wide) in paragraph at lines 3456--3467
  [][][][] 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-[34]
-[35]
-[36]
-[37]
+[100]
+[101]
+[102]
+[103]
 
 ! LaTeX Error: File `2025\_03\_24\_ebe50cc223a6fbc49eecg-116' not found.
 
@@ -321,10 +728,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1094 ...2025\_03\_24\_ebe50cc223a6fbc49eecg-116}
+l.3580 ...2025\_03\_24\_ebe50cc223a6fbc49eecg-116}
                                                   
-
-[38]
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-116(1)' not found.
 
@@ -332,7 +737,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1108 ...2025_03_24_ebe50cc223a6fbc49eecg-116(1)}
+l.3594 ...2025_03_24_ebe50cc223a6fbc49eecg-116(1)}
                                                   
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-117' not found.
@@ -341,11 +746,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1114 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-117}
+l.3600 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-117}
                                                   
 
-[39]
-[40]
+[104]
+[105]
+[106]
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-120(1)' not found.
 
@@ -353,7 +759,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1183 ...2025_03_24_ebe50cc223a6fbc49eecg-120(1)}
+l.3669 ...2025_03_24_ebe50cc223a6fbc49eecg-120(1)}
                                                   
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-120' not found.
@@ -362,17 +768,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1189 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-120}
+l.3675 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-120}
                                                   
 
-[41]
-Overfull \hbox (3.66998pt too wide) in paragraph at lines 1207--1208
+[107]
+Overfull \hbox (3.66998pt too wide) in paragraph at lines 3693--3694
 [][]\TU/Georgia(0)/m/n/10 Assuming 32-bit words and using the sal instruction, 
 it could be implemented[]
 
-[42]
-[43]
-[44]
+[108]
+[109]
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-123' not found.
 
@@ -380,7 +785,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1279 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-123}
+l.3765 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-123}
                                                   
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-124' not found.
@@ -389,11 +794,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1285 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-124}
+l.3771 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-124}
                                                   
 
-[45]
-[46]
+[110]
+[111]
+[112]
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-126' not found.
 
@@ -401,21 +807,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1362 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-126}
+l.3848 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-126}
                                                   
 
-[47]
-Overfull \hbox (9.39754pt too wide) in paragraph at lines 1373--1374
+Overfull \hbox (3.04771pt too wide) in paragraph at lines 3858--3858
+[][]\TU/Georgia(0)/b/n/12 Swapping Using Registers, the Stack, and the xchg[]
+
+Overfull \hbox (9.39754pt too wide) in paragraph at lines 3859--3860
 []\TU/Georgia(0)/m/n/10 As another example of using the stack, assume that two 
 values need to be swapped,[]
 
-[48]
-
-Overfull \hbox (44.66592pt too wide) has occurred while \output is active
-[]\TU/lmr/m/sl/10 1.15.  \TU/Georgia(0)/m/it/10 SWAPPING USING REGISTERS, THE S
-TACK, AND THE XCHG INSTRUCTION \TU/lmr/m/n/10 49[]
-[49]
-Overfull \hbox (0.21295pt too wide) in paragraph at lines 1443--1444
+[113]
+[114]
+Overfull \hbox (0.21295pt too wide) in paragraph at lines 3929--3930
 [][]\TU/Georgia(0)/m/n/10 With respect to register usage when swapping to memor
 y locations, the stack[]
 
@@ -425,13 +829,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1450 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-130}
+l.3936 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-130}
                                                   
 
-Overfull \hbox (42.18169pt too wide) in paragraph at lines 1459--1473
+Overfull \hbox (42.18169pt too wide) in paragraph at lines 3945--3959
  [][][][] 
 
-[50]
+[115]
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-131' not found.
 
@@ -439,38 +843,36 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1481 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-131}
+l.3967 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-131}
                                                   
 
-[51]
-[52]
-[53]
-Overfull \hbox (3.85635pt too wide) in paragraph at lines 1584--1589
+[116]
+Underfull \vbox (badness 10000) has occurred while \output is active
+[117]
+[118]
+Overfull \hbox (2.3485pt too wide) in paragraph at lines 4058--4058
+[][]\TU/Georgia(0)/b/n/12 Exercises (Items Marked with an * Have Solutions[]
+
+Overfull \hbox (3.85635pt too wide) in paragraph at lines 4070--4075
 [][]\TU/Georgia(0)/m/n/10 Given the following C arithmetic instructions, implem
 ent them using arith-[]
 
-[54]
-[55]
-[56]
-[57]
-[58]
-Overfull \hbox (28.23099pt too wide) in paragraph at lines 1732--1732
-[][]\TU/Georgia(0)/b/n/14.4 Complete Program: Implementing the Power[]
+[119]
+Underfull \vbox (badness 3312) has occurred while \output is active
+[120]
+[121]
+[122]
+[123]
+Overfull \hbox (13.9481pt too wide) in paragraph at lines 4218--4218
+[][]\TU/Georgia(0)/b/n/12 Complete Program: Implementing the Power Func-[]
 
-
-Overfull \hbox (84.45517pt too wide) has occurred while \output is active
-[]\TU/lmr/m/sl/10 1.24.  \TU/Georgia(0)/m/it/10 COMPLETE PROGRAM: IMPLEMENTING 
-THE POWER FUNCTION IN A PROCEDURE \TU/lmr/m/n/10 59[]
-[59]
-[60]
-
-Overfull \hbox (84.45517pt too wide) has occurred while \output is active
-[]\TU/lmr/m/sl/10 1.24.  \TU/Georgia(0)/m/it/10 COMPLETE PROGRAM: IMPLEMENTING 
-THE POWER FUNCTION IN A PROCEDURE \TU/lmr/m/n/10 61[]
-[61]
-[62]
-[63]
-[64]
+[124]
+[125]
+[126]
+[127]
+[128]
+[129]
+[130]
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-147' not found.
 
@@ -478,19 +880,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1935 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-147}
+l.4421 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-147}
                                                   
 
-[65]
-Overfull \hbox (0.3627pt too wide) in paragraph at lines 1951--1952
+Overfull \hbox (0.3627pt too wide) in paragraph at lines 4437--4438
 []\TU/Georgia(0)/m/n/10 more paper when printing out the listing of the program
 , the possibility of avoid-[]
 
-[66]
-[67]
-[68]
-[69]
-[70]
+[131]
+[132]
+[133]
+[134]
+[135]
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-153' not found.
 
@@ -498,44 +899,47 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2100 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-153}
+l.4586 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-153}
                                                   
 
-Overfull \hbox (2.63026pt too wide) in paragraph at lines 2103--2104
+Overfull \hbox (2.63026pt too wide) in paragraph at lines 4589--4590
 [][]\TU/Georgia(0)/m/n/10 The above code segment does save a little memory unde
 r some circumstances[]
 
-[71]
-[72]
-[73]
-[74]
-[75]
-[76]
-Overfull \hbox (13.26851pt too wide) in paragraph at lines 2349--2349
-[][]\TU/Georgia(0)/b/n/14.4 Complete Program: Implementing a Macro[]
+[136]
+[137]
+[138]
+[139]
+Overfull \hbox (0.10826pt too wide) in paragraph at lines 4745--4745
+[][]\TU/Georgia(0)/b/n/12 Power Function Macro Using Conditional Assem-[]
 
-[77]
-Overfull \hbox (67.7725pt too wide) in paragraph at lines 2357--2371
+[140]
+[141]
+[142]
+Overfull \hbox (67.7725pt too wide) in paragraph at lines 4843--4857
  [][][] 
 
-[78]
-Overfull \hbox (20.07272pt too wide) in paragraph at lines 2397--2408
+[143]
+Overfull \hbox (20.07272pt too wide) in paragraph at lines 4883--4894
  [][][] 
 
-[79]
-[80]
-[81]
-[82]
-[83]
-[84]
-[85]
-Overfull \hbox (1.54921pt too wide) in paragraph at lines 2644--2645
+[144]
+[145]
+[146]
+[147]
+[148]
+[149]
+Overfull \hbox (2.3485pt too wide) in paragraph at lines 5078--5078
+[][]\TU/Georgia(0)/b/n/12 Exercises (Items Marked with an * Have Solutions[]
+
+[150]
+Overfull \hbox (1.54921pt too wide) in paragraph at lines 5130--5131
 []\TU/Georgia(0)/m/n/10 specific situations, trying to address memory locations
  by another variable name[]
 
-[86]
-[87]
-Overfull \hbox (1.48248pt too wide) in paragraph at lines 2705--2706
+[151]
+[152]
+Overfull \hbox (1.48248pt too wide) in paragraph at lines 5191--5192
 []\TU/Georgia(0)/m/n/10 example, assume that the last element of the previously
  declared numary needed[]
 
@@ -545,10 +949,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2716 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-174}
+l.5202 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-174}
                                                   
 
-[88]
+[153]
+[154]
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-175' not found.
 
@@ -556,14 +961,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2763 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-175}
+l.5249 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-175}
                                                   
 
-[89]
-[90]
-[91]
-[92]
-[93]
+[155]
+[156]
+[157]
+[158]
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-180' not found.
 
@@ -571,7 +975,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2918 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-180}
+l.5404 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-180}
                                                   
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-181' not found.
@@ -580,11 +984,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2924 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-181}
+l.5410 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-181}
                                                   
 
-[94]
-[95]
+[159]
+[160]
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-183' not found.
 
@@ -592,11 +996,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2966 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-183}
+l.5452 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-183}
                                                   
 
-[96]
-[97]
+[161]
+[162]
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-184' not found.
 
@@ -604,410 +1008,10 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3022 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-184}
-                                                  
-
-[98]
-[99]
-[100]
-Overfull \hbox (13.42319pt too wide) in paragraph at lines 3130--3130
-[][]\TU/Georgia(0)/b/n/14.4 Complete Program: Implementing a Queue []
-
-[101]
-[102]
-[103]
-[104]
-[105]
-[106]
-Overfull \hbox (3.86069pt too wide) in paragraph at lines 3401--3401
-[][]\TU/Georgia(0)/b/n/14.4 Complete Program: Implementing the Se-[]
-
-[107]
-[108]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-193' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3430 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-193}
-                                                  
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-194' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3436 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-194}
-                                                  
-
-[109]
-[110]
-[111]
-Overfull \hbox (0.8526pt too wide) in paragraph at lines 3556--3557
-[][]\TU/Georgia(0)/m/n/10 The lengthof operator returns how many elements are i
-n an array, whereas[]
-
-[112]
-Underfull \hbox (badness 10000) in paragraph at lines 3614--3620
-[][]
-
-
-Overfull \hbox (54.13458pt too wide) has occurred while \output is active
-[]\TU/lmr/m/sl/10 1.42.  \TU/Georgia(0)/m/it/10 EXERCISES (ITEMS MARKED WITH AN
- * HAVE SOLUTIONS IN APPENDIX D) \TU/lmr/m/n/10 113[]
-[113]
-[114]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-201' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3674 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-201}
-                                                  
-
-Overfull \hbox (22.75365pt too wide) in paragraph at lines 3680--3680
-[][]\TU/Georgia(0)/b/n/14.4 String Instructions: Moving Strings (movsb) []
-
-[115]
-[116]
-[117]
-[118]
-Overfull \hbox (16.67633pt too wide) in paragraph at lines 3814--3814
-[][]\TU/Georgia(0)/b/n/14.4 String Instructions: Scanning (scasb), Stor-[]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-206' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3829 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-206}
-                                                  
-
-
-Overfull \hbox (115.28683pt too wide) has occurred while \output is active
-[]\TU/lmr/m/sl/10 1.45.  \TU/Georgia(0)/m/it/10 STRING INSTRUCTIONS: SCANNING (
-SCASB), STORING (STOSB), AND LOADING (LODSB) \TU/lmr/m/n/10 119[]
-[119]
-[120]
-Overfull \hbox (5.2591pt too wide) in paragraph at lines 3896--3901
- [][][][] 
-
-[121]
-Overfull \hbox (50.11928pt too wide) in paragraph at lines 3947--3947
-[][]\TU/Georgia(0)/b/n/14.4 String Instructions: Comparing Strings (cmpsb) []
-
-Overfull \hbox (1.03674pt too wide) in paragraph at lines 3962--3963
-[][]\TU/Georgia(0)/m/n/10 First, upon completion of the segment, ecx would be 0
-. Assuming that name1[]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-210' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3970 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-210}
-                                                  
-
-[122]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-211' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3994 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-211}
-                                                  
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-211(1)' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4012 ...2025_03_24_ebe50cc223a6fbc49eecg-211(1)}
-                                                  
-
-[123]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-212' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4030 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-212}
-                                                  
-
-[124]
-[125]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-214' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4096 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-214}
-                                                  
-
-Underfull \vbox (badness 10000) has occurred while \output is active
-[126]
-[127]
-Underfull \vbox (badness 3009) has occurred while \output is active
-[128]
-[129]
-Overfull \hbox (11.20741pt too wide) in paragraph at lines 4242--4243
-[][]\TU/Georgia(0)/m/n/10 Using the esi and edi registers and a.repeat-untilcxz
- loop, determine whether[]
-
-[130]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-221' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4264 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-221}
-                                                  
-
-Overfull \hbox (1.7174pt too wide) in paragraph at lines 4279--4283
-[]\TU/Georgia(0)/m/n/10 floating-point data begin with the letter f. Initially,
- this may seem a little strange,[]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-222' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4292 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-222}
-                                                  
-
-[131]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-222(1)' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4305 ...2025_03_24_ebe50cc223a6fbc49eecg-222(1)}
-                                                  
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-223' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4321 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-223}
-                                                  
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-224(1)' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4336 ...2025_03_24_ebe50cc223a6fbc49eecg-224(1)}
-                                                  
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-224' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4345 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-224}
-                                                  
-
-[132]
-[133]
-[134]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-227(1)' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4450 ...2025_03_24_ebe50cc223a6fbc49eecg-227(1)}
-                                                  
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-227' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4457 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-227}
-                                                  
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-228(1)' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4466 ...2025_03_24_ebe50cc223a6fbc49eecg-228(1)}
-                                                  
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-228' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4473 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-228}
-                                                  
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-229' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4479 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-229}
-                                                  
-
-[135]
-[136]
-[137]
-[138]
-[139]
-[140]
-[141]
-[142]
-[143]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-238' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4820 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-238}
-                                                  
-
-[144]
-[145]
-[146]
-
-Overfull \hbox (23.97414pt too wide) has occurred while \output is active
-[]\TU/lmr/m/sl/10 1.59.  \TU/Georgia(0)/m/it/10 COMPLETE PROGRAM: IMPLEMENTING 
-AN ITERATION STRUCTURE \TU/lmr/m/n/10 147[]
-[147]
-[148]
-[149]
-[150]
-Overfull \hbox (9.72794pt too wide) in paragraph at lines 5093--5094
-[][]\TU/Georgia(0)/m/n/10 Just like with integers, use an & prior to the variab
-le when inputting floating-[]
-
-[151]
-[152]
-Overfull \hbox (0.30821pt too wide) in paragraph at lines 5151--5152
-[][]\TU/Georgia(0)/m/n/10 Change the complete program in Sect. 10.9 to implemen
-t a do-while struc-[]
-
-Overfull \hbox (91.88911pt too wide) in paragraph at lines 5168--5184
- [][][][] 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-[153]
-
-! LaTeX Error: File `2025\_03\_24\_ebe50cc223a6fbc49eecg-249' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5190 ...2025\_03\_24\_ebe50cc223a6fbc49eecg-249}
-                                                  
-
-[154]
-[155]
-Overfull \hbox (147.07385pt too wide) in paragraph at lines 5301--5320
- [][][][] 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (3.89806pt too wide) in paragraph at lines 5322--5323
-[]\TU/Georgia(0)/m/n/10 there are also eight new numbered 64-bit registers avai
-lable. They are $\OML/cmm/m/it/10 r\OT1/cmr/m/n/10 8$ \TU/Georgia(0)/m/n/10 thr
-ough[]
-
-[156]
-Overfull \hbox (2.23607pt too wide) in paragraph at lines 5343--5344
-[][]\TU/Georgia(0)/m/n/10 In the program itself, note that the following statem
-ents are no longer needed[]
-
-[157]
-[158]
-[159]
-! Undefined control sequence.
-l.5421 ... and their formatting along with the "\n
-                                                  \n" to a second printf sta...
-
-! Undefined control sequence.
-l.5421 ...nd their formatting along with the "\n\n
-                                                  " to a second printf state...
-
-
-[160]
-[161]
-[162]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-259' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5546 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-259}
-                                                  
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-259(1)' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5567 ...2025_03_24_ebe50cc223a6fbc49eecg-259(1)}
+l.5508 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-184}
                                                   
 
 [163]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-260(1)' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5607 ...2025_03_24_ebe50cc223a6fbc49eecg-260(1)}
-                                                  
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-260' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5617 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-260}
-                                                  
-
 [164]
 [165]
 [166]
@@ -1018,23 +1022,400 @@ l.5617 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-260}
 [171]
 [172]
 [173]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-193' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5916 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-193}
+                                                  
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-194' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5922 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-194}
+                                                  
+
 [174]
-Overfull \hbox (14.0924pt too wide) in paragraph at lines 6010--6017
+[175]
+[176]
+Overfull \hbox (0.8526pt too wide) in paragraph at lines 6042--6043
+[][]\TU/Georgia(0)/m/n/10 The lengthof operator returns how many elements are i
+n an array, whereas[]
+
+Overfull \hbox (2.3485pt too wide) in paragraph at lines 6045--6045
+[][]\TU/Georgia(0)/b/n/12 Exercises (Items Marked with an * Have Solutions[]
+
+[177]
+Underfull \hbox (badness 10000) in paragraph at lines 6100--6106
+[][]
+
+[178]
+[179]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-201' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6161 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-201}
+                                                  
+
+[180]
+[181]
+[182]
+[183]
+Overfull \hbox (30.9442pt too wide) in paragraph at lines 6301--6301
+[][]\TU/Georgia(0)/b/n/12 String Instructions: Scanning (scasb), Storing (stosb
+),[]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-206' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6316 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-206}
+                                                  
+
+[184]
+[185]
+Overfull \hbox (5.2591pt too wide) in paragraph at lines 6383--6388
+ [][][][] 
+
+[186]
+Overfull \hbox (1.03674pt too wide) in paragraph at lines 6449--6450
+[][]\TU/Georgia(0)/m/n/10 First, upon completion of the segment, ecx would be 0
+. Assuming that name1[]
+
+[187]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-210' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6457 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-210}
+                                                  
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-211' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6481 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-211}
+                                                  
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-211(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6499 ...2025_03_24_ebe50cc223a6fbc49eecg-211(1)}
+                                                  
+
+[188]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-212' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6517 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-212}
+                                                  
+
+[189]
+[190]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-214' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6583 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-214}
+                                                  
+
+[191]
+Overfull \hbox (2.99498pt too wide) in paragraph at lines 6616--6616
+[][]\TU/Georgia(0)/b/n/12 Complete Program: Searching an Array of Strings []
+
+[192]
+[193]
+Overfull \hbox (2.3485pt too wide) in paragraph at lines 6693--6693
+[][]\TU/Georgia(0)/b/n/12 Exercises (Items Marked with an * Have Solutions[]
+
+[194]
+Overfull \hbox (11.20741pt too wide) in paragraph at lines 6729--6730
+[][]\TU/Georgia(0)/m/n/10 Using the esi and edi registers and a.repeat-untilcxz
+ loop, determine whether[]
+
+[195]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-221' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6751 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-221}
+                                                  
+
+Overfull \hbox (1.7174pt too wide) in paragraph at lines 6766--6770
+[]\TU/Georgia(0)/m/n/10 floating-point data begin with the letter f. Initially,
+ this may seem a little strange,[]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-222' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6779 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-222}
+                                                  
+
+[196]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-222(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6792 ...2025_03_24_ebe50cc223a6fbc49eecg-222(1)}
+                                                  
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-223' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6808 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-223}
+                                                  
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-224(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6823 ...2025_03_24_ebe50cc223a6fbc49eecg-224(1)}
+                                                  
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-224' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6832 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-224}
+                                                  
+
+[197]
+[198]
+[199]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-227(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6937 ...2025_03_24_ebe50cc223a6fbc49eecg-227(1)}
+                                                  
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-227' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6944 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-227}
+                                                  
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-228(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6953 ...2025_03_24_ebe50cc223a6fbc49eecg-228(1)}
+                                                  
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-228' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6960 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-228}
+                                                  
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-229' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6966 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-229}
+                                                  
+
+[200]
+[201]
+[202]
+[203]
+[204]
+[205]
+[206]
+[207]
+[208]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-238' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7307 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-238}
+                                                  
+
+[209]
+[210]
+[211]
+[212]
+[213]
+[214]
+Underfull \vbox (badness 3009) has occurred while \output is active
+[215]
+Overfull \hbox (9.72794pt too wide) in paragraph at lines 7580--7581
+[][]\TU/Georgia(0)/m/n/10 Just like with integers, use an & prior to the variab
+le when inputting floating-[]
+
+[216]
+Overfull \hbox (0.30821pt too wide) in paragraph at lines 7638--7639
+[][]\TU/Georgia(0)/m/n/10 Change the complete program in Sect. 10.9 to implemen
+t a do-while struc-[]
+
+[217]
+Overfull \hbox (91.88911pt too wide) in paragraph at lines 7655--7671
+ [][][][] 
+
+! LaTeX Error: File `2025\_03\_24\_ebe50cc223a6fbc49eecg-249' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7677 ...2025\_03\_24\_ebe50cc223a6fbc49eecg-249}
+                                                  
+
+[218]
+[219]
+[220]
+Overfull \hbox (147.07385pt too wide) in paragraph at lines 7788--7807
+ [][][][] 
+
+Overfull \hbox (3.89806pt too wide) in paragraph at lines 7809--7810
+[]\TU/Georgia(0)/m/n/10 there are also eight new numbered 64-bit registers avai
+lable. They are $\OML/cmm/m/it/10 r\OT1/cmr/m/n/10 8$ \TU/Georgia(0)/m/n/10 thr
+ough[]
+
+[221]
+Overfull \hbox (2.23607pt too wide) in paragraph at lines 7830--7831
+[][]\TU/Georgia(0)/m/n/10 In the program itself, note that the following statem
+ents are no longer needed[]
+
+[222]
+[223]
+! Undefined control sequence.
+l.7908 ... and their formatting along with the "\n
+                                                  \n" to a second printf sta...
+
+! Undefined control sequence.
+l.7908 ...nd their formatting along with the "\n\n
+                                                  " to a second printf state...
+
+
+[224]
+[225]
+[226]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-259' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8033 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-259}
+                                                  
+
+[227]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-259(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8054 ...2025_03_24_ebe50cc223a6fbc49eecg-259(1)}
+                                                  
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-260(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8094 ...2025_03_24_ebe50cc223a6fbc49eecg-260(1)}
+                                                  
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+[228]
+
+! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-260' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8104 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-260}
+                                                  
+
+[229]
+[230]
+[231]
+[232]
+[233]
+[234]
+[235]
+[236]
+[237]
+[238]
+[239]
+Overfull \hbox (14.0924pt too wide) in paragraph at lines 8497--8504
 []\TU/Georgia(0)/m/n/10 long long num1 $\OT1/cmr/m/n/10 = 1$\TU/Georgia(0)/m/n/
 10 , num2 $\OT1/cmr/m/n/10 = 2$\TU/Georgia(0)/m/n/10 , num3 $\OT1/cmr/m/n/10 = 
 3$\TU/Georgia(0)/m/n/10 , num4 $\OT1/cmr/m/n/10 = 4$\TU/Georgia(0)/m/n/10 ; pri
 ntf("\n%lld%s%lld",[]
 
-Overfull \hbox (3.66696pt too wide) in paragraph at lines 6010--6017
+Overfull \hbox (3.66696pt too wide) in paragraph at lines 8497--8504
 []\TU/Georgia(0)/m/n/10 num1," < ", num2); printf("%s%lld%s," < ", num3," < ");
  printf("%lld\n\n",[]
 
-
-Overfull \hbox (54.13458pt too wide) has occurred while \output is active
-[]\TU/lmr/m/sl/10 1.72.  \TU/Georgia(0)/m/it/10 EXERCISES (ITEMS MARKED WITH AN
- * HAVE SOLUTIONS IN APPENDIX D) \TU/lmr/m/n/10 175[]
-[175]
-[176]
+[240]
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-275' not found.
 
@@ -1042,10 +1423,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6040 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-275}
+l.8528 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-275}
                                                   
 
-[177]
+[241]
+[242]
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-277' not found.
 
@@ -1053,13 +1435,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6139 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-277}
+l.8627 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-277}
                                                   
 
-[178]
-[179]
-[180]
-[181]
+[243]
+[244]
+[245]
+[246]
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-281' not found.
 
@@ -1067,10 +1449,10 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6358 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-281}
+l.8846 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-281}
                                                   
 
-[182]
+[247]
 
 ! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-282' not found.
 
@@ -1078,21 +1460,21 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6388 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-282}
+l.8876 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-282}
                                                   
 
-[183]
-[184]
-[185]
-[186]
-[187]
-Overfull \hbox (24.4522pt too wide) in paragraph at lines 6549--6560
+[248]
+[249]
+[250]
+[251]
+[252]
+Overfull \hbox (24.4522pt too wide) in paragraph at lines 9037--9048
  [][][] 
 
-Underfull \vbox (badness 2197) has occurred while \output is active
-[188]
-Overfull \hbox (24.4522pt too wide) in paragraph at lines 6567--6576
+Overfull \hbox (24.4522pt too wide) in paragraph at lines 9055--9064
  [][][] 
+
+[253]
 
 ! LaTeX Error: Not allowed in LR mode.
 
@@ -1100,7 +1482,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6590 \begin{center}
+l.9078 \begin{center}
                      
 
 ! LaTeX Error: Not allowed in LR mode.
@@ -1109,36 +1491,36 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6590 \begin{center}
+l.9078 \begin{center}
                      
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.6590 \begin{center}
+l.9078 \begin{center}
                      
 ! Missing } inserted.
 <inserted text> 
                 }
-l.6590 \begin{center}
+l.9078 \begin{center}
                      
 ! Missing } inserted.
 <inserted text> 
                 }
-l.6590 \begin{center}
+l.9078 \begin{center}
                      
 ! Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.6590 \begin{center}
+l.9078 \begin{center}
                      
 ! Missing { inserted.
 <inserted text> 
                 {
-l.6590 \begin{center}
+l.9078 \begin{center}
                      
 ! Interruption.
 \@vspace@calcify ...length \sp@ce@skip {#1}\vskip 
                                                   \sp@ce@skip 
-l.6628 \end{center}
+l.9116 \end{center}
                    
 ? 

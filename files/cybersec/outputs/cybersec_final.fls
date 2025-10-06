@@ -190,10 +190,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/outputs/cybersec_final.toc
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/outputs/cybersec_final.toc
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/outputs/cybersec_final.toc
-OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/outputs/cybersec_final.toc
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd
