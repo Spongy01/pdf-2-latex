@@ -1,12 +1,15 @@
 Rc files read:
   .latexmkrc
 Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
-No existing .aux file, so I'll make a simple one, and require run of *latex.
 Latexmk: applying rule 'pdflatex'...
 Rule 'pdflatex':  Reasons for rerun
-Category 'other':
-  Rerun of 'pdflatex' forced or previously required:
-    Reason or flag: 'Initial setup'
+Changed files or newly in use/created:
+  ../../files/assembly/outputs/assembly_final.tex
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/outputs/assembly_final.aux
+Category 'changed_user':
+  ../../files/assembly/outputs/assembly_final.tex
+Category 'never_run':
+  pdflatex
 
 ------------
 Run number 1 of rule 'pdflatex'
@@ -155,16 +158,17 @@ Writing index file assembly_final.idx
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/bidi/book-xetex-bidi.def)
 (/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ass
 embly/outputs/assembly_final.aux)
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ass
+embly/outputs/assembly_final.out)
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ass
+embly/outputs/assembly_final.out)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
 [1]
 [2]
-No file assembly_final.toc.
-
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ass
+embly/outputs/assembly_final.toc)
 Overfull \hbox (3.26732pt too wide) in paragraph at lines 106--113
 []\TU/Georgia(0)/m/n/10 Iain Stewart © , Department of Computer Science, Durham
  University, Durham,[]
