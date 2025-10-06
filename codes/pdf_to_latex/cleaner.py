@@ -81,17 +81,32 @@ def fix_latex_headings(input_tex: str, cleaned_toc: list) -> str:
 
     # Regex to match all LaTeX headings
     heading_pattern = re.compile(r'\\(chapter|section|subsection|subsubsection)\{(.*?)\}')
+    
+    # ask for user input for chapter level mapping
+    chapter_level = input("Enter the chapter level in the Table of Contents: ")
+    section_level = input("Enter the section level in the Table of Contents: ")
+    subsection_level = input("Enter the subsection level in the Table of Contents: ")
 
+    # Map TOC levels to LaTeX commands based on user input
+    level_to_cmd = {
+        int(chapter_level): 'chapter',
+        int(section_level): 'section',
+        int(subsection_level): 'subsection',
+    }
     def correct_heading(match):
         current_cmd = match.group(1)      # current LaTeX command
         title = match.group(2).strip()    # heading title
+
+        
+
+        
 
         # Check if this title exists in TOC
         if title in toc_map:
             toc_level = toc_map[title]
 
             # Map TOC level to LaTeX command
-            level_to_cmd = {1: 'chapter', 2: 'section', 3: 'subsection'}
+            
             correct_cmd = level_to_cmd.get(toc_level, current_cmd)
 
             if correct_cmd != current_cmd:

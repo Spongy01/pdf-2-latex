@@ -233,23 +233,22 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary5.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr5.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm
 INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/algorithms_final.toc
 INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/algorithms_final.toc
 INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/algorithms_final.toc
 OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/algorithms_final.toc
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-189.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-189.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-191.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-191.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-192.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-192.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-193.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-193.jpg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-022.jpg
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-022.jpg
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-023.jpg
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-023.jpg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
@@ -257,17 +256,23 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmri8.tfm
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-198.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-198.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-199.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-199.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-200.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-200.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-201.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-201.jpg
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-025.jpg
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-025.jpg
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-027.jpg
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-027.jpg
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-032.jpg
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-032.jpg
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-033.jpg
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-033.jpg
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-035.jpg
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/outputs/./images/2025_03_24_35eff77eaa66f5ad98acg-035.jpg
