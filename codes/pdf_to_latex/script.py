@@ -1,11 +1,13 @@
 """
 PDF to LaTeX Conversion Pipeline
 
-This script combines four key steps to convert a PDF book to a well-formatted LaTeX document:
+This script combines six key steps to convert a PDF book to a well-formatted LaTeX document:
 1. Add page separators to the LaTeX file
 2. Process bibliography and update citations
 3. Use GPT to improve formatting
-4. Add indexing to the book
+4. Clean up the LaTeX formatting
+5. Add indexing to the book
+6. Check LaTeX command balance before compilation
 
 """
 
@@ -31,6 +33,7 @@ from gpt_script import format_with_gpt
 from bib import process_bibliography
 from page_separator_v2 import create_page_separators
 from cleaner import clean_it_up
+from balance_checker import check_latex_balance
 import subprocess
 import shutil
 
@@ -93,6 +96,23 @@ def store_final(out_tex_path, final_output_path):
     else:
         print(f"Final output file does not exist: {out_tex_path}")
 
+def find_best_available_file(paths, step_order):
+    """Find the best available file from previous steps as fallback."""
+    for step in step_order:
+        if step == 1 and os.path.exists(paths["pg_sep_path"]):
+            return paths["pg_sep_path"]
+        elif step == 2 and os.path.exists(paths["bib_path"]):
+            return paths["bib_path"]
+        elif step == 3 and os.path.exists(paths["gpt_path"]):
+            return paths["gpt_path"]
+        elif step == 4 and os.path.exists(paths["cleaned_path"]):
+            return paths["cleaned_path"]
+        elif step == 5 and os.path.exists(paths["indexed_path"]):
+            return paths["indexed_path"]
+    
+    # Fallback to original tex file
+    return paths["tex_path"]
+
 
 
 
@@ -111,6 +131,7 @@ def run_pipeline(
     use_parallel=True,
     skip_steps=[],
     bib_json_path=None,
+    fix_balance=False,
 ):
     """Run the complete PDF to LaTeX conversion pipeline."""
     start_time = datetime.now()
@@ -160,6 +181,7 @@ def run_pipeline(
             results["page_separator_output"] = current_tex_path
         except Exception as e:
             print(f"Error in Step 1 (Page Separators): {e}")
+            print("Continuing with original tex file...")
     else:
         print("Skipping Step 1: Page Separators")
         if os.path.exists(paths["pg_sep_path"]):
@@ -180,10 +202,14 @@ def run_pipeline(
             results["bibliography_output"] = current_tex_path
         except Exception as e:
             print(f"Error in Step 2 (Bibliography): {e}")
+            print("Continuing with previous file...")
+            current_tex_path = find_best_available_file(paths, [1, 0])
     else:
         print("Skipping Step 2: Bibliography Processing")
         if os.path.exists(paths["bib_path"]):
             current_tex_path = paths["bib_path"]
+        else:
+            current_tex_path = find_best_available_file(paths, [1, 0])
 
     # Step 3: Format with AI (if not skipped)
     if 3 not in skip_steps:
@@ -200,10 +226,14 @@ def run_pipeline(
             results["ai_formatting_output"] = current_tex_path
         except Exception as e:
             print(f"Error in Step 3 (AI Formatting): {e}")
+            print("Continuing with previous file...")
+            current_tex_path = find_best_available_file(paths, [2, 1, 0])
     else:
         print("Skipping Step 3: AI Formatting")
         if os.path.exists(paths["gpt_path"]):
             current_tex_path = paths["gpt_path"]
+        else:
+            current_tex_path = find_best_available_file(paths, [2, 1, 0])
 
     if 4 not in skip_steps:
         try:
@@ -214,6 +244,14 @@ def run_pipeline(
             results["cleaning_output"] = current_tex_path
         except Exception as e:
             print(f"Error in Step 4 (Cleaning): {e}")
+            print("Continuing with previous file...")
+            current_tex_path = find_best_available_file(paths, [3, 2, 1, 0])
+    else:
+        print("Skipping Step 4: Cleaning")
+        if os.path.exists(paths["cleaned_path"]):
+            current_tex_path = paths["cleaned_path"]
+        else:
+            current_tex_path = find_best_available_file(paths, [3, 2, 1, 0])
 
     # Step 5: Process indexing (if not skipped and index_path provided)
     if 5 not in skip_steps and index_path:
@@ -225,14 +263,75 @@ def run_pipeline(
             results["indexing_output"] = current_tex_path
         except Exception as e:
             print(f"Error in Step 5 (Indexing): {e}")
+            print("Continuing with previous file...")
+            current_tex_path = find_best_available_file(paths, [4, 3, 2, 1, 0])
     else:
         print("Skipping Step 5: Indexing")
+        if os.path.exists(paths["indexed_path"]):
+            current_tex_path = paths["indexed_path"]
+        else:
+            current_tex_path = find_best_available_file(paths, [4, 3, 2, 1, 0])
+
+    # Step 6: Check LaTeX command balance (if not skipped)
+    if 6 not in skip_steps:
+        try:
+            if fix_balance:
+                # Apply fixes and get corrected content
+                corrected_content = check_latex_balance(
+                    current_tex_path, 
+                    paths["output_folder"],
+                    apply_fixes=True
+                )
+                # Save the corrected content back to the file
+                with open(current_tex_path, 'w', encoding='utf-8') as f:
+                    f.write(corrected_content)
+                print(f"Applied balance fixes and updated {current_tex_path}")
+                results["balance_check_output"] = "Applied fixes to LaTeX file"
+            else:
+                # Just check balance without fixing
+                balance_report_path = check_latex_balance(
+                    current_tex_path, 
+                    paths["output_folder"]
+                )
+                results["balance_check_output"] = balance_report_path
+            results["steps_completed"].append(6)
+        except Exception as e:
+            print(f"Error in Step 6 (Balance Check): {e}")
+            print("Continuing with previous file...")
+            current_tex_path = find_best_available_file(paths, [5, 4, 3, 2, 1, 0])
+    else:
+        print("Skipping Step 6: Balance Check")
+        if os.path.exists(paths["final_path"]):
+            current_tex_path = paths["final_path"]
+        else:
+            current_tex_path = find_best_available_file(paths, [5, 4, 3, 2, 1, 0])
 
     # Final result
     results["final_output"] = current_tex_path
 
+    # Ensure we always have a final file - create fallback if needed
+    if not os.path.exists(current_tex_path):
+        print(f"Warning: Current tex file {current_tex_path} does not exist!")
+        # Find the best available file as final fallback
+        current_tex_path = find_best_available_file(paths, [5, 4, 3, 2, 1, 0])
+        print(f"Using fallback file: {current_tex_path}")
+        results["final_output"] = current_tex_path
+
     # store to the final output path
     store_final(current_tex_path, paths["final_path"])
+    
+    # Verify final file was created
+    if os.path.exists(paths["final_path"]):
+        print(f"✅ Final output created successfully: {paths['final_path']}")
+    else:
+        print(f"❌ Failed to create final output file: {paths['final_path']}")
+        # Try to create a minimal final file as last resort
+        try:
+            with open(paths["final_path"], 'w', encoding='utf-8') as f:
+                f.write("\\documentclass{article}\n\\begin{document}\n\\title{Error: Pipeline Failed}\n\\author{PDF to LaTeX Converter}\n\\maketitle\n\\section{Error}\nThe PDF to LaTeX conversion pipeline encountered errors and could not complete successfully.\n\\end{document}\n")
+            print(f"Created minimal fallback file: {paths['final_path']}")
+        except Exception as e:
+            print(f"Failed to create even minimal fallback file: {e}")
 
 
     end_time = datetime.now()
@@ -243,11 +342,33 @@ def run_pipeline(
 
     print("Compiling the final LaTeX document to a PDF...")
     log_path = os.path.join(paths["output_folder"], "compile_log.txt")
+    
+    print("Cleaning old LaTeX cache...")
+    try:
+        clean_result = subprocess.run(
+            ["latexmk", "-C", paths["final_path"]],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
+        if clean_result.returncode == 0:
+            print("✅ LaTeX cache cleaned successfully")
+        else:
+            print(f"⚠️ LaTeX cache clean warning:\n{clean_result.stderr}")
+    except Exception as e:
+        print(f"⚠️ Could not clean LaTeX cache: {e}")
 
+    # Compile LaTeX
+    print("Compiling LaTeX document...")
     with open(log_path, "w", encoding="utf-8") as log_file:
         compile_result = subprocess.run(
             [
                 "latexmk",
+                "-xelatex",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-f",
+                "-gg",  # force rebuild
                 f"-outdir={paths['output_folder']}",
                 paths["final_path"]
             ],
@@ -255,7 +376,11 @@ def run_pipeline(
             stderr=subprocess.STDOUT,
             text=True
         )
-    print(f"Compilation complete. Log saved to: {log_path}")
+
+    if compile_result.returncode == 0:
+        print("✅ Compilation successful.")
+    else:
+        print("❌ Compilation failed. Check log for details.")
 
     
     # print("stdout:\n", compile_result.stdout)
@@ -310,6 +435,11 @@ if __name__ == "__main__":
     parser.add_argument(
         "--bib-json", help="Path to the JSON file for bibliography processing"
     )
+    parser.add_argument(
+        "--fix-balance",
+        action="store_true",
+        help="Apply automatic fixes to LaTeX balance issues"
+    )
     args = parser.parse_args()
 
     # Get parameters from config file if provided
@@ -337,6 +467,7 @@ if __name__ == "__main__":
                 ),
                 "skip_steps": args.skip or config.get("skip", []),
                 "bib_json_path": args.bib_json or config.get("bib_json", None),
+                "fix_balance": args.fix_balance or config.get("fix_balance", True),
             }
         else:
             print(
@@ -354,6 +485,7 @@ if __name__ == "__main__":
                 "use_parallel": not args.sequential,
                 "skip_steps": args.skip,
                 "bib_json_path": args.bib_json,
+                "fix_balance": args.fix_balance,
             }
     else:
         # No config file, use command-line arguments
@@ -372,6 +504,7 @@ if __name__ == "__main__":
             "use_parallel": not args.sequential,
             "skip_steps": args.skip,
             "bib_json_path": args.bib_json,
+            "fix_balance": args.fix_balance,
         }
 
     # Remove None values to avoid passing None to the pipeline
