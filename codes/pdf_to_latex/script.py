@@ -31,9 +31,50 @@ from gpt_script import format_with_gpt
 from bib import process_bibliography
 from page_separator_v2 import create_page_separators
 from cleaner import clean_it_up
-from version_controller import get_next_version, update_version_file
 import subprocess
 import shutil
+
+
+def get_current_version_name():
+    """
+    Get the current version name from version control.
+    Returns the name of the currently active version.
+    If no version is found or version control is not initialized,
+    returns 'original' as the default.
+    """
+    try:
+        # Get the path to version_control relative to this file
+        current_file_dir = os.path.dirname(os.path.abspath(__file__))
+        version_control_path = os.path.join(current_file_dir, "../version_control")
+
+        # Add to path if needed
+        if version_control_path not in sys.path:
+            sys.path.insert(0, version_control_path)
+
+        # Import the core module
+        from version_history import load_version_history, get_current_version
+
+        # Load version history
+        versions = load_version_history()
+
+        # Get current version
+        current = get_current_version(versions)
+
+        if current:
+            return current["name"]
+        else:
+            # Fallback to original if no current version found
+            print("⚠ Warning: No current version found, using 'original'")
+            return "original"
+
+    except ImportError as e:
+        # If version_control module not found, return default
+        print(f"⚠ Warning: Version control not found ({e}), using 'original'")
+        return "original"
+    except Exception as e:
+        # Any other error, return default
+        print(f"⚠ Warning: Error loading version ({e}), using 'original'")
+        return "original"
 
 
 def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
@@ -51,32 +92,33 @@ def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
     book_folder = os.path.join(root_dir, f"files/{file_name}")
     os.makedirs(book_folder, exist_ok=True)
 
-    # Get next version
-    version_number, version_folder, is_new_book = get_next_version(
-        book_folder, output_folder
-    )
+    # Get current version name from version control
+    version_name = get_current_version_name()
+
+    # Create version folder: files/{file_name}/{version_name}
+    version_folder = os.path.join(book_folder, version_name)
 
     # Use version folder as output folder if not explicitly provided
-    if output_folder is None:
-        output_folder = version_folder
+    # if output_folder is None:
+    output_folder = version_folder
 
     # Create version-specific output folder
     os.makedirs(output_folder, exist_ok=True)
 
-    # Update version tracking
-    update_version_file(book_folder, version_number, output_folder, file_name)
+    print(f"📁 Using version: {version_name}")
+    print(f"📂 Output folder: {output_folder}")
 
     # Define paths
     book_path = file_path
     tex_path = tex_file_path
 
     # Return paths
-
     paths = {
         "book_path": book_path,
         "tex_path": tex_path,
         "output_folder": output_folder,
-        "version_number": version_number,
+        "version_name": version_name,  # Changed from version_number
+        "version_folder": version_folder,  # Added for clarity
         "book_folder": book_folder,
         "pg_sep_path": os.path.join(output_folder, f"{file_name}_pg_sep.tex"),
         "bib_path": os.path.join(output_folder, f"{file_name}_pg_sep_bib.tex"),
