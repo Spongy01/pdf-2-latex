@@ -1,0 +1,20 @@
+{
+  "scoring_method": "multi-metric",
+  "timestamp": "2025-09-27T22:18:47.602926",
+  "total_books": 1,
+  "valid_books": 0,
+  "average_score": 0.0,
+  "results": [
+    {
+      "book_name": "data-science",
+      "input_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/inputs/data-science.tex",
+      "output_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/outputs/data-science_cleaned.tex",
+      "scoring_method": "multi-metric",
+      "timestamp": "2025-09-27T22:18:47.602916",
+      "valid": false,
+      "score": 0.0,
+      "error": "Missing files for book: data-science",
+      "details": {}
+    }
+  ]
+}

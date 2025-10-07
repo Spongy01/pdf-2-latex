@@ -1,0 +1,217 @@
+{
+  "scoring_method": "similarity",
+  "timestamp": "2025-09-25T14:13:10.484523",
+  "total_books": 2,
+  "valid_books": 2,
+  "average_score": 60.540000000000006,
+  "results": [
+    {
+      "book_name": "ai",
+      "input_file": "/Users/era/Documents/Projects/pdf-2-latex/files/ai/inputs/ai.tex",
+      "output_file": "/Users/era/Documents/Projects/pdf-2-latex/files/ai/outputs/ai_cleaned_final.tex",
+      "scoring_method": "similarity",
+      "timestamp": "2025-09-25T14:13:10.278488",
+      "valid": true,
+      "score": 61.09,
+      "details": {
+        "score": 61.09,
+        "math_preservation": 23.42,
+        "table_preservation": 77.75,
+        "citation_preservation": 100.0,
+        "environment_preservation": 100.0,
+        "structure_preservation": 3.14,
+        "quality_metrics": 92.19,
+        "details": {
+          "input_analysis": {
+            "total_length": 820054,
+            "line_count": 10399,
+            "word_count": 124712,
+            "command_count": 9716,
+            "math_equations": 4,
+            "inline_math": 4026,
+            "tables": 95,
+            "citations": 0,
+            "references": 0,
+            "environments": 14
+          },
+          "output_analysis": {
+            "total_length": 858491,
+            "line_count": 10835,
+            "word_count": 126712,
+            "command_count": 10935,
+            "math_equations": 60,
+            "inline_math": 3808,
+            "tables": 97,
+            "citations": 233,
+            "references": 1,
+            "environments": 19
+          },
+          "differences": {
+            "total_length": {
+              "input": 820054,
+              "output": 858491,
+              "change": 38437,
+              "change_percent": 4.7
+            },
+            "line_count": {
+              "input": 10399,
+              "output": 10835,
+              "change": 436,
+              "change_percent": 4.2
+            },
+            "word_count": {
+              "input": 124712,
+              "output": 126712,
+              "change": 2000,
+              "change_percent": 1.6
+            },
+            "command_count": {
+              "input": 9716,
+              "output": 10935,
+              "change": 1219,
+              "change_percent": 12.5
+            },
+            "math_equations": {
+              "input": 4,
+              "output": 60,
+              "change": 56,
+              "change_percent": 1400.0
+            },
+            "inline_math": {
+              "input": 4026,
+              "output": 3808,
+              "change": -218,
+              "change_percent": -5.4
+            },
+            "tables": {
+              "input": 95,
+              "output": 97,
+              "change": 2,
+              "change_percent": 2.1
+            },
+            "citations": {
+              "input": 0,
+              "output": 233,
+              "change": 233,
+              "change_percent": 0
+            },
+            "references": {
+              "input": 0,
+              "output": 1,
+              "change": 1,
+              "change_percent": 0
+            },
+            "environments": {
+              "input": 14,
+              "output": 19,
+              "change": 5,
+              "change_percent": 35.7
+            }
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "book_name": "assembly",
+      "input_file": "/Users/era/Documents/Projects/pdf-2-latex/files/assembly/inputs/assembly.tex",
+      "output_file": "/Users/era/Documents/Projects/pdf-2-latex/files/assembly/outputs/assembly_cleaned_final.tex",
+      "scoring_method": "similarity",
+      "timestamp": "2025-09-25T14:13:10.409529",
+      "valid": true,
+      "score": 59.99,
+      "details": {
+        "score": 59.99,
+        "math_preservation": 24.46,
+        "table_preservation": 68.06,
+        "citation_preservation": 100.0,
+        "environment_preservation": 100.0,
+        "structure_preservation": 6.07,
+        "quality_metrics": 93.55,
+        "details": {
+          "input_analysis": {
+            "total_length": 672790,
+            "line_count": 11084,
+            "word_count": 112553,
+            "command_count": 3484,
+            "math_equations": 1,
+            "inline_math": 913,
+            "tables": 117,
+            "citations": 0,
+            "references": 0,
+            "environments": 8
+          },
+          "output_analysis": {
+            "total_length": 688491,
+            "line_count": 11455,
+            "word_count": 114443,
+            "command_count": 3898,
+            "math_equations": 0,
+            "inline_math": 844,
+            "tables": 115,
+            "citations": 0,
+            "references": 1,
+            "environments": 10
+          },
+          "differences": {
+            "total_length": {
+              "input": 672790,
+              "output": 688491,
+              "change": 15701,
+              "change_percent": 2.3
+            },
+            "line_count": {
+              "input": 11084,
+              "output": 11455,
+              "change": 371,
+              "change_percent": 3.3
+            },
+            "word_count": {
+              "input": 112553,
+              "output": 114443,
+              "change": 1890,
+              "change_percent": 1.7
+            },
+            "command_count": {
+              "input": 3484,
+              "output": 3898,
+              "change": 414,
+              "change_percent": 11.9
+            },
+            "math_equations": {
+              "input": 1,
+              "output": 0,
+              "change": -1,
+              "change_percent": -100.0
+            },
+            "inline_math": {
+              "input": 913,
+              "output": 844,
+              "change": -69,
+              "change_percent": -7.6
+            },
+            "tables": {
+              "input": 117,
+              "output": 115,
+              "change": -2,
+              "change_percent": -1.7
+            },
+            "references": {
+              "input": 0,
+              "output": 1,
+              "change": 1,
+              "change_percent": 0
+            },
+            "environments": {
+              "input": 8,
+              "output": 10,
+              "change": 2,
+              "change_percent": 25.0
+            }
+          }
+        }
+      },
+      "error": null
+    }
+  ]
+}

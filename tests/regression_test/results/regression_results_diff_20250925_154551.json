@@ -1,0 +1,31 @@
+{
+  "scoring_method": "diff",
+  "timestamp": "2025-09-25T15:45:51.708901",
+  "total_books": 2,
+  "valid_books": 2,
+  "average_score": 71.67,
+  "results": [
+    {
+      "book_name": "ai",
+      "input_file": "/Users/era/Documents/Projects/pdf-2-latex/files/ai/inputs/ai.tex",
+      "output_file": "/Users/era/Documents/Projects/pdf-2-latex/files/ai/outputs/ai_cleaned.tex",
+      "scoring_method": "diff",
+      "timestamp": "2025-09-25T14:27:50.226776",
+      "valid": true,
+      "score": 73.28,
+      "details": {},
+      "error": null
+    },
+    {
+      "book_name": "assembly",
+      "input_file": "/Users/era/Documents/Projects/pdf-2-latex/files/assembly/inputs/assembly.tex",
+      "output_file": "/Users/era/Documents/Projects/pdf-2-latex/files/assembly/outputs/assembly_cleaned.tex",
+      "scoring_method": "diff",
+      "timestamp": "2025-09-25T15:41:37.668872",
+      "valid": true,
+      "score": 70.06,
+      "details": {},
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "book": "../../files/assembly/inputs/assembly.pdf",
+    "tex": "../../files/assembly/inputs/assembly.tex",
+    "bib": "../../files/assembly/inputs/assembly-bib.pdf",
+    "index": "../../files/assembly/inputs/assembly-index.pdf",
+    "output":"../../files/assembly/outputs/",
+    "batch_size": 600,
+    "sequential": false,
+    "skip": []
+}

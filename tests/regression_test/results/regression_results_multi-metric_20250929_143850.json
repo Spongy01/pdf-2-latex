@@ -1,0 +1,65 @@
+{
+  "scoring_method": "multi-metric",
+  "timestamp": "2025-09-29T14:38:50.084840",
+  "total_books": 2,
+  "valid_books": 2,
+  "average_score": 0.0,
+  "results": [
+    {
+      "book_name": "ai",
+      "input_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/inputs/ai.tex",
+      "output_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_cleaned.tex",
+      "scoring_method": "multi-metric",
+      "timestamp": "2025-09-29T14:38:50.078204",
+      "valid": true,
+      "score": 0.0,
+      "details": {
+        "Score": -60.3,
+        "Latex Errors": 10,
+        "Latex Warnings": 18,
+        "Bibtex (metadata)": -1,
+        "Bibtex extracted (json)": 116,
+        "Entries Cited": 132,
+        "Chapters (metadata)": 14,
+        "Chapters (output)": 0,
+        "Sections (metadata)": 97,
+        "Sections (output)": 137,
+        "Subsections (metadata)": 108,
+        "Subsections (output)": 197,
+        "Figures (metadata)": 56,
+        "Figures (output)": 151,
+        "Tables (metadata)": 71,
+        "Tables (output)": 18
+      },
+      "error": null
+    },
+    {
+      "book_name": "assembly",
+      "input_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/inputs/assembly.tex",
+      "output_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/outputs/assembly_cleaned.tex",
+      "scoring_method": "multi-metric",
+      "timestamp": "2025-09-29T14:38:50.082097",
+      "valid": true,
+      "score": 0.0,
+      "details": {
+        "Score": 19.099999999999994,
+        "Latex Errors": 58,
+        "Latex Warnings": 9,
+        "Bibtex (metadata)": -1,
+        "Bibtex extracted (json)": 3,
+        "Entries Cited": 0,
+        "Chapters (metadata)": 16,
+        "Chapters (output)": 2,
+        "Sections (metadata)": 126,
+        "Sections (output)": 152,
+        "Subsections (metadata)": 12,
+        "Subsections (output)": 15,
+        "Figures (metadata)": 16,
+        "Figures (output)": 53,
+        "Tables (metadata)": 32,
+        "Tables (output)": 13
+      },
+      "error": null
+    }
+  ]
+}

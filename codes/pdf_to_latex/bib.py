@@ -33,6 +33,7 @@ def get_api_response(prompt, text, model="gpt-5"):
     Returns:
         str: API response content.
     """
+    print("Sending request to OpenAI API...")
     completion = client.chat.completions.create(
         model=model,
         messages=[
@@ -40,6 +41,7 @@ def get_api_response(prompt, text, model="gpt-5"):
             {"role": "user", "content": f" {prompt}. Here is the text: {text}"}
         ]
     )
+    print("Received response from OpenAI API.")
     return completion.choices[0].message.content
 
 def save_bibtex(bib_dict, filename="references.bib"):
@@ -183,7 +185,9 @@ def process_bibliography(pdf_path=None, tex_path=None, output_json_path=None, ou
         
         # Get API response
         try:
+            print("Debug check: Before API call")
             api_response = get_api_response(prompt, bibliography, model=model)
+            print("Debug check: After API call")
             
             # Extract JSON content from API response
             text_split = api_response.split("```json\n")
