@@ -34,6 +34,16 @@ from cleaner import clean_it_up
 import subprocess
 import shutil
 
+import os, sys
+
+sys.path.append(os.path.dirname(__file__))
+# Import the core module
+from version_control.version_history import (
+    load_version_history,
+    get_current_version,
+    update_version_usage,
+)
+
 
 def get_current_version_name():
     """
@@ -44,21 +54,20 @@ def get_current_version_name():
     """
     try:
         # Get the path to version_control relative to this file
-        current_file_dir = os.path.dirname(os.path.abspath(__file__))
-        version_control_path = os.path.join(current_file_dir, "../version_control")
 
-        # Add to path if needed
-        if version_control_path not in sys.path:
-            sys.path.insert(0, version_control_path)
+        # version_control_path = os.path.join(current_file_dir, "../version_control")
 
-        # Import the core module
-        from version_history import load_version_history, get_current_version
+        # # Add to path if needed
+        # if version_control_path not in sys.path:
+        #     sys.path.insert(0, version_control_path)
 
         # Load version history
         versions = load_version_history()
 
         # Get current version
         current = get_current_version(versions)
+
+        print("Current version info:", current)
 
         if current:
             return current["name"]
@@ -289,6 +298,11 @@ def run_pipeline(
     print(f"Steps completed: {results['steps_completed']}")
     print(f"Final output: {results['final_output']}")
 
+    current_file_dir = os.path.dirname(os.path.abspath(__file__))
+    version_control_path = os.path.join(current_file_dir, "version_control")
+    # Update version usage tracking
+    update_version_usage(version_control_path, file_name, paths["version_name"])
+
     print("Compiling the final LaTeX document to a PDF...")
     log_path = os.path.join(paths["output_folder"], "compile_log.txt")
 
@@ -301,8 +315,8 @@ def run_pipeline(
         )
     print(f"Compilation complete. Log saved to: {log_path}")
 
-    # print("stdout:\n", compile_result.stdout)
-    # print("stderr:\n", compile_result.stderr)
+    print("stdout:\n", compile_result.stdout)
+    print("stderr:\n", compile_result.stderr)
 
     return results
 
