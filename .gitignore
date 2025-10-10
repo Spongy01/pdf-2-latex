@@ -3,3 +3,4 @@ codes/gpt/.env
 .DS_Store
 **/__pycache__/
 codes/pdf_to_latex/pdf2latex/
+**/.DS_Store

@@ -1,0 +1,11 @@
+[
+  {
+    "name": "original",
+    "short_name": "orig",
+    "created_at": "2025-10-07T00:00:00.000000",
+    "is_current": true,
+    "is_deleted": false,
+    "description": "Root version - cannot be deleted",
+    "is_root": true
+  }
+]
