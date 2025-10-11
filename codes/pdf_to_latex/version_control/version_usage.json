@@ -9,11 +9,6 @@
     "version": "original",
     "last_used": "2025-10-10T18:45:54.621436"
   },
-  "data-science___democheck": {
-    "book_name": "data-science",
-    "version": "democheck",
-    "last_used": "2025-10-10T18:59:46.411925"
-  },
   "cybersec___original": {
     "book_name": "cybersec",
     "version": "original",
@@ -28,5 +23,10 @@
     "book_name": "ai",
     "version": "original",
     "last_used": "2025-10-10T20:41:48.575955"
+  },
+  "data-science___TOC HiL": {
+    "book_name": "data-science",
+    "version": "TOC HiL",
+    "last_used": "2025-10-11T14:58:39.510857"
   }
 }

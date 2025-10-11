@@ -114,6 +114,17 @@ def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
     # Create version-specific output folder
     os.makedirs(output_folder, exist_ok=True)
 
+    # check if inputs folder has images folder
+    input_images_folder = os.path.join(os.path.dirname(file_path), "images")
+    output_images_folder = os.path.join(output_folder, "images")
+    if os.path.exists(input_images_folder) and os.path.isdir(input_images_folder):
+        # copy images folder from input directory to output directory
+        if os.path.exists(output_images_folder):
+            shutil.rmtree(output_images_folder)
+        shutil.copytree(input_images_folder, output_images_folder)
+        print(f"📁 Copied images folder to: {output_images_folder}")
+
+
     print(f"📁 Using version: {version_name}")
     print(f"📂 Output folder: {output_folder}")
 
