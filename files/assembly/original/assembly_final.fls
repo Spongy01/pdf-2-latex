@@ -1,9 +1,9 @@
-PWD /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/codes/pdf_to_latex
+PWD /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/original
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/original/assembly_final.tex
-OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/original/assembly_final.log
+INPUT assembly_final.tex
+OUTPUT assembly_final.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo
@@ -238,11 +238,17 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/devanagaridigits.
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bidi/book-xetex-bidi.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bidi/book-xetex-bidi.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bidi/book-xetex-bidi.def
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/original/assembly_final.aux
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/original/assembly_final.aux
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/original/assembly_final.aux
-OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/original/assembly_final.aux
-OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/original/assembly_final.out
+INPUT ./assembly_final.aux
+INPUT ./assembly_final.aux
+INPUT assembly_final.aux
+OUTPUT assembly_final.aux
+INPUT ./assembly_final.out
+INPUT ./assembly_final.out
+INPUT assembly_final.out
+INPUT assembly_final.out
+INPUT ./assembly_final.out
+INPUT ./assembly_final.out
+OUTPUT assembly_final.out
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -273,7 +279,11 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary6.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/original/assembly_final.toc
+OUTPUT assembly_final.xdv
+INPUT ./assembly_final.toc
+INPUT ./assembly_final.toc
+INPUT assembly_final.toc
+OUTPUT assembly_final.toc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
@@ -285,7 +295,103 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary5.tfm
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/original/assembly_final.toc
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/original/assembly_final.toc
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/original/assembly_final.toc
-OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/original/assembly_final.toc
+INPUT ./assembly_final.toc
+INPUT ./assembly_final.toc
+INPUT assembly_final.toc
+OUTPUT assembly_final.toc
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-116.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-116.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-116(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-116(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-117.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-117.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-120(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-120(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-120.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-120.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-123.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-123.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-124.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-124.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-126.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-126.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-130.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-130.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-131.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-131.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-147.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-147.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-153.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-153.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-174.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-174.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-175.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-175.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-180.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-180.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-181.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-181.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-183.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-183.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-184.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-184.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-193.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-193.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-194.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-194.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-201.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-201.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-206.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-206.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-210.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-210.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-211.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-211.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-211(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-211(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-212.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-212.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-214.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-214.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-221.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-221.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-222.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-222.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-222(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-222(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-223.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-223.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-224(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-224(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-224.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-224.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-227(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-227(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-227.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-227.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-228(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-228(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-228.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-228.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-229.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-229.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-238.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-238.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-249.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-249.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-259.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-259.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-259(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-259(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-260(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-260(1).jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-260.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-260.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-275.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-275.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-277.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-277.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-281.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-281.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-282.jpg
+INPUT ./images/2025_03_24_ebe50cc223a6fbc49eecg-282.jpg

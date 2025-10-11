@@ -1,137 +1,157 @@
 \begin{theindex}
 
-  \item 2/3 tree, \hyperpage{188}
+  \item 2/3 tree, \hyperpage{207}
 
   \indexspace
 
-  \item acyclic graph, \hyperpage{146}
-  \item adjacency list, \hyperpage{151}, \hyperpage{193}
-  \item adjacency matrix, \hyperpage{149}
-  \item air travel pricing, \hyperpage{81}
+  \item acyclic graph, \hyperpage{159}
+  \item adjacency list, \hyperpage{164}, \hyperpage{213}
+  \item adjacency matrix, \hyperpage{163}, \hyperpage{213}
+  \item air travel pricing, \hyperpage{89}
 
   \indexspace
 
-  \item biology, \hyperpage{32}
-  \item birthday paradox, \hyperpage{134}
-  \item bisection method, \hyperpage{103}
+  \item binomial coeﬃcients, \hyperpage{268}
+  \item biology, \hyperpage{34}
+  \item bipartite graph, \hyperpage{231}
+  \item bipartite matching, \hyperpage{231}
+  \item birthday paradox, \hyperpage{144}
+  \item bisection method, \hyperpage{112}
   \item bit vector – applications, \hyperpage{5}
-  \item Boost graph library, \hyperpage{154}
+  \item blackmail graph, \hyperpage{227}
+  \item Boost graph library, \hyperpage{167}
   \item boss’s delight, \hyperpage{3}
+  \item bottleneck spanning tree, \hyperpage{215}
   \item boundaries, \hyperpage{5}
-  \item breadth-ﬁrst search, \hyperpage{166}
-  \item breadth-ﬁrst search (BFS), \hyperpage{160}
+  \item branch and bound search, \hyperpage{258}
+  \item breadth-ﬁrst search, \hyperpage{181}, \hyperpage{265}
+  \item breadth-ﬁrst search (BFS), \hyperpage{174}
 
   \indexspace
 
-  \item conditional probability, \hyperpage{68}, \hyperpage{125}
-  \item connected component, \hyperpage{163}
-  \item container, \hyperpage{36}
-  \item convex hull, \hyperpage{68}
+  \item conditional probability, \hyperpage{74}, \hyperpage{135}
+  \item connected component, \hyperpage{179}
+  \item container, \hyperpage{38}
+  \item convex hull, \hyperpage{75}
   \item conﬁgurations, \hyperpage{5}
-  \item copying a graph, \hyperpage{83}
+  \item copying a graph, \hyperpage{91}
 
   \indexspace
 
-  \item directed acyclic graph (DAG), \hyperpage{147}
-  \item directed graph, \hyperpage{145}, \hyperpage{148}
-  \item disk access, \hyperpage{188}
-  \item distribution sort, \hyperpage{50}
-  \item divide and conquer, \hyperpage{84}, \hyperpage{100}
-  \item DNA, \hyperpage{32}
+  \item directed acyclic graph (DAG), \hyperpage{160}
+  \item directed graph, \hyperpage{157}, \hyperpage{161}
+  \item disk access, \hyperpage{207}
+  \item distance metrics, \hyperpage{220}
+  \item distribution sort, \hyperpage{54}
+  \item divide and conquer, \hyperpage{92}, \hyperpage{109}
+  \item DNA, \hyperpage{34}
+  \item DNA sequencing, \hyperpage{239}
   \item dominance orderings, \hyperpage{5}
+  \item DOS ﬁle names, \hyperpage{239}
+  \item driving time minimization, \hyperpage{282, 283}
 
   \indexspace
 
   \item Federal Sentencing Guidelines, \hyperpage{14}
-  \item Fibonacci numbers, \hyperpage{105}
-  \item FIFO, \hyperpage{36}
-  \item FIFO queue, \hyperpage{160}
+  \item Fibonacci numbers, \hyperpage{114}, \hyperpage{265}
+  \item FIFO, \hyperpage{38}
+  \item FIFO queue, \hyperpage{176}
 
   \indexspace
 
-  \item hash tables, \hyperpage{52}
-  \item heap construction, \hyperpage{105}
-  \item heapsort, \hyperpage{73}
-  \item heard-of graph, \hyperpage{148}
+  \item Hamiltonian cycle, \hyperpage{282, 283}
+  \item Hamiltonian cycle – counting, \hyperpage{229}
+  \item Hamiltonian path, \hyperpage{265}
+  \item hash tables, \hyperpage{56}
+  \item heap construction, \hyperpage{114}
+  \item heapsort, \hyperpage{79}
+  \item heard-of graph, \hyperpage{161}
   \item hierarchy, \hyperpage{5}
 
   \indexspace
 
-  \item Kruskal’s algorithm, \hyperpage{189}
+  \item Kruskal’s algorithm, \hyperpage{208}
 
   \indexspace
 
-  \item labeled graphs, \hyperpage{147}
+  \item labeled graphs, \hyperpage{160}
   \item labels, \hyperpage{5}
 
   \indexspace
 
-  \item maze, \hyperpage{159}
-  \item mergesort, \hyperpage{84}, \hyperpage{100}
-  \item minimax search, \hyperpage{112}
+  \item maximum spanning tree, \hyperpage{214}
+  \item maze, \hyperpage{173}
+  \item memoization, \hyperpage{266}
+  \item mergesort, \hyperpage{92}, \hyperpage{109}
+  \item metric, \hyperpage{220}
+  \item minimax search, \hyperpage{121}
 
   \indexspace
 
-  \item one-sided binary search, \hyperpage{102}
-  \item open addressing, \hyperpage{54}
-  \item OpenGL graphics library, \hyperpage{50}
+  \item one million, \hyperpage{245}
+  \item one-sided binary search, \hyperpage{111}
+  \item open addressing, \hyperpage{58}
+  \item OpenGL graphics library, \hyperpage{54}
+  \item optical character recognition, \hyperpage{240}
   \item ordering, \hyperpage{5}
-  \item organ transplant, \hyperpage{30}
+  \item organ transplant, \hyperpage{32}
   \item Oxford English Dictionary, \hyperpage{5}
 
   \indexspace
 
   \item packaging, \hyperpage{5}
-  \item paging, \hyperpage{188}
-  \item palindrome, \hyperpage{191}
-  \item parallel algorithms, \hyperpage{111}
-  \item probability, \hyperpage{122}
-  \item probability density function, \hyperpage{126}
-  \item probability distribution, \hyperpage{126}
-  \item probability of an event, \hyperpage{123}
-  \item probability of an outcome, \hyperpage{123}
-  \item problem instance, \hyperpage{1}
-  \item problem – deﬁnition, \hyperpage{1}
-  \item program ﬂow graph, \hyperpage{146}
+  \item paging, \hyperpage{207}
+  \item palindrome, \hyperpage{211}
+  \item parallel algorithms, \hyperpage{120}
+  \item probability, \hyperpage{132}
+  \item probability density function, \hyperpage{136}
+  \item probability distribution, \hyperpage{136}
+  \item probability of an event, \hyperpage{134}
+  \item probability of an outcome, \hyperpage{134}
+  \item problem instance, \hyperpage{2}
+  \item problem – deﬁnition, \hyperpage{2}
+  \item program ﬂow graph, \hyperpage{159}
   \item programming languages, \hyperpage{5}
-  \item proof of correctness, \hyperpage{1}
+  \item proof of correctness, \hyperpage{2}
   \item pseudocode, \hyperpage{5}
   \item psychic lotto prediction, \hyperpage{5}
-  \item push, \hyperpage{36}
+  \item push, \hyperpage{38}
 
   \indexspace
 
-  \item qsort(), \hyperpage{72}
+  \item qsort(), \hyperpage{79}
 
   \indexspace
 
-  \item self-loop, \hyperpage{149}
-  \item self-organizing tree, \hyperpage{188}
+  \item self-loop, \hyperpage{162}
+  \item self-organizing tree, \hyperpage{207}
   \item sequence, \hyperpage{5}
   \item set cover – applications, \hyperpage{5}
-  \item set data structures, \hyperpage{22}, \hyperpage{58}
+  \item set data structures, \hyperpage{23}, \hyperpage{63}
   \item shapes, \hyperpage{5}
-  \item Shiﬄett, \hyperpage{50}
-  \item string data structures, \hyperpage{58}
+  \item Shiﬄett, \hyperpage{54}
+  \item string data structures, \hyperpage{63}
   \item strings, \hyperpage{5}
-  \item strongly connected component, \hyperpage{176}
+  \item strongly connected component, \hyperpage{193}
   \item subset, \hyperpage{5}
-  \item substring matching, \hyperpage{128}
-  \item supercomputer, \hyperpage{16}
-  \item suﬃx arrays, \hyperpage{191}
-  \item suﬃx trees, \hyperpage{58}
-  \item swapping, \hyperpage{188}
+  \item substring matching, \hyperpage{138}
+  \item supercomputer, \hyperpage{17}
+  \item suﬃx arrays, \hyperpage{211}
+  \item suﬃx trees, \hyperpage{63}
+  \item swapping, \hyperpage{207}
 
   \indexspace
 
-  \item variance, \hyperpage{127}
-  \item vertex, \hyperpage{145}
-  \item virtual memory, \hyperpage{188}
+  \item variance, \hyperpage{137}
+  \item vertex, \hyperpage{157}
+  \item vertex coloring, \hyperpage{239}
+  \item virtual memory, \hyperpage{207}
+  \item Viterbi algorithm, \hyperpage{231}
 
   \indexspace
 
-  \item ﬁrst-in, ﬁrst-out (FIFO), \hyperpage{36}
+  \item ﬁrst-in, ﬁrst-out (FIFO), \hyperpage{38}
   \item ﬂat-earth model, \hyperpage{5}
-  \item ﬂight ticket pricing, \hyperpage{81}
+  \item ﬂight ticket pricing, \hyperpage{89}
 
 \end{theindex}

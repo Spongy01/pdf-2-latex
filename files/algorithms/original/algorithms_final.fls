@@ -1,9 +1,9 @@
-PWD /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/codes/pdf_to_latex
+PWD /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.tex
-OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.log
+INPUT algorithms_final.tex
+OUTPUT algorithms_final.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo
@@ -157,11 +157,11 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty
-OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.idx
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.aux
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.aux
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.aux
-OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.aux
+OUTPUT algorithms_final.idx
+INPUT ./algorithms_final.aux
+INPUT ./algorithms_final.aux
+INPUT algorithms_final.aux
+OUTPUT algorithms_final.aux
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -170,13 +170,13 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.out
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.out
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.out
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.out
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.out
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.out
-OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.out
+INPUT ./algorithms_final.out
+INPUT ./algorithms_final.out
+INPUT algorithms_final.out
+INPUT algorithms_final.out
+INPUT ./algorithms_final.out
+INPUT ./algorithms_final.out
+OUTPUT algorithms_final.out
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -209,15 +209,19 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary6.tfm
+OUTPUT algorithms_final.xdv
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmro10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.toc
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.toc
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.toc
-OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.toc
+INPUT ./algorithms_final.toc
+INPUT ./algorithms_final.toc
+INPUT algorithms_final.toc
+OUTPUT algorithms_final.toc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-001.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-001.jpg
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbxo10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
@@ -231,23 +235,32 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary5.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr5.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbxo10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.toc
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.toc
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.toc
-OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/original/algorithms_final.toc
+INPUT ./algorithms_final.toc
+INPUT ./algorithms_final.toc
+INPUT algorithms_final.toc
+OUTPUT algorithms_final.toc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-050.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-050.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-052.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-052.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-052(1).jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-052(1).jpg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-059.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-059.jpg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-066.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-066.jpg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
@@ -257,8 +270,64 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmtt.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmtt.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmtt.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ts1-lmtt10.tfm
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-088.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-088.jpg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmri8.tfm
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-096.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-096.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-097.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-097.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-098.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-098.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-101.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-101.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-105.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-105.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-106.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-106.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-107.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-107.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-110.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-110.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-115.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-115.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-117.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-117.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-127.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-127.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-133.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-133.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-144.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-144.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-147.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-147.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-148.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-148.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-149.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-149.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-152.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-152.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-153.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-153.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-167.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-167.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-170.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-170.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-173.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-173.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-174.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-174.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-179.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-179.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-189.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-189.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-191.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-191.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-192.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-192.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-193.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-193.jpg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
@@ -267,6 +336,49 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-198.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-198.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-199.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-199.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-200.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-200.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-201.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-201.jpg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmri7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmri7.tfm
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-211.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-211.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-212.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-212.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-215.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-215.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-217.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-217.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-221.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-221.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-223.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-223.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-225.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-225.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-228.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-228.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-236.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-236.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-239.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-239.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-240.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-240.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-241.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-241.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-243(1).jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-243(1).jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-243.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-243.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-243(3).jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-243(3).jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-243(2).jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-243(2).jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-245.jpg
+INPUT ./images/2025_03_24_35eff77eaa66f5ad98acg-245.jpg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmtti10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ts1-lmtti10.tfm

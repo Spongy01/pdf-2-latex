@@ -1,12 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.28)  10 OCT 2025 18:45
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.28)  11 OCT 2025 16:53
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/a
-ssembly/original/assembly_final.tex"
-
-(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ass
-embly/original/assembly_final.tex
+**assembly_final.tex
+(./assembly_final.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
@@ -1135,8 +1133,7 @@ Package fontspec Info:
 File: book-xetex-bidi.def 2025/09/04 v1.3 bidi adaptations for standard book cl
 ass for XeTeX engine
 )
-(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ass
-embly/original/assembly_final.aux)
+(./assembly_final.aux)
 \openout1 = `assembly_final.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
@@ -1163,12 +1160,9 @@ LaTeX Font Info:    ... okay on input line 90.
 Package chemgreek Info: Activating mapping `fontspec' on line 90.
 
 Package hyperref Info: Link coloring ON on input line 90.
+ (./assembly_final.out) (./assembly_final.out)
 \@outlinefile=\write3
 \openout3 = `assembly_final.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 
 Package fontspec Info: 
@@ -1228,7 +1222,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 90.
 
-! LaTeX Error: Can be used only in preamble.
+
+./assembly_final.tex:91: LaTeX Error: Can be used only in preamble.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1268,8 +1263,7 @@ LaTeX Font Info:    Font shape `TU/Georgia(0)/bx/n' in size <24.88> not availab
 le
 (Font)              Font shape `TU/Georgia(0)/b/n' tried instead on input line 
 93.
-
-No file assembly_final.toc.
+ (./assembly_final.toc)
 \tf@toc=\write4
 \openout4 = `assembly_final.toc'.
 
@@ -1313,7 +1307,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--158
  []
 
 
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
+./assembly_final.tex:161: LaTeX Error: Lonely \item--perhaps a missing list env
+ironment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1334,7 +1329,8 @@ Underfull \hbox (badness 10000) detected at line 161
 
 [5]
 
-! LaTeX Error: \begin{document} ended by \end{itemize}.
+./assembly_final.tex:162: LaTeX Error: \begin{document} ended by \end{itemize}.
+
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1346,7 +1342,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Extra \endgroup.
+./assembly_final.tex:162: Extra \endgroup.
 \end  ...end#1\endcsname \@checkend {#1}\endgroup 
                                                   \UseHook {env/#1/after}\bi...
 l.162 \end{itemize}
@@ -1380,9 +1376,7 @@ ays of strings, and com-[]
 
 [9]
 
-[10]
-(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ass
-embly/original/assembly_final.toc)
+[10] (./assembly_final.toc)
 \tf@toc=\write5
 \openout5 = `assembly_final.toc'.
 
@@ -1490,97 +1484,40 @@ Overfull \hbox (36.87701pt too wide) in paragraph at lines 975--986
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-116.jpg Graphic file (type bmp)
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-116' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1102 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-116}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-116.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
 [38]
-
-! LaTeX Error: File `2025\_03\_24\_ebe50cc223a6fbc49eecg-116(1)' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1116 ...5\_03\_24\_ebe50cc223a6fbc49eecg-116(1)}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `2025\_03\_24\_ebe50cc223a6fbc49eecg-117' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1122 ...2025\_03\_24\_ebe50cc223a6fbc49eecg-117}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-116(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-116(1).jpg>
 
 
 [39]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-117.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-117.jpg>
+
 
 [40]
 
 [41]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-120(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-120(1).jpg>
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-120.jpg Graphic file (type bmp)
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-120(1)' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1191 ...2025_03_24_ebe50cc223a6fbc49eecg-120(1)}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-120' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1197 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-120}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-120.jpg>
 
 
 [42]
+
+[43]
 Overfull \hbox (3.66998pt too wide) in paragraph at lines 1215--1216
 [][]\TU/Georgia(0)/m/n/10 Assuming 32-bit words and using the sal instruction, 
 it could be implemented[]
@@ -1588,74 +1525,32 @@ it could be implemented[]
 
 
 
-[43]
-
 [44]
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-123' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1282 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-123}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-124' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1288 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-124}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
 [45]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-123.jpg Graphic file (type bmp)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-123.jpg>
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-124.jpg Graphic file (type bmp)
 
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-124.jpg>
 
 
 [46]
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-126' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1365 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-126}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
 [47]
+
+[48]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-126.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-126.jpg>
+
 Overfull \hbox (9.39754pt too wide) in paragraph at lines 1376--1377
 []\TU/Georgia(0)/m/n/10 As another example of using the stack, assume that two 
 values need to be swapped,[]
  []
 
 
-
-[48]
 
 
 Overfull \hbox (44.66592pt too wide) has occurred while \output is active
@@ -1664,26 +1559,28 @@ TACK, AND THE XCHG INSTRUCTION \TU/lmr/m/n/10 49[]
  []
 
 [49]
+
+[50]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+
+Overfull \hbox (44.66592pt too wide) has occurred while \output is active
+[]\TU/lmr/m/sl/10 1.15.  \TU/Georgia(0)/m/it/10 SWAPPING USING REGISTERS, THE S
+TACK, AND THE XCHG INSTRUCTION \TU/lmr/m/n/10 51[]
+ []
+
+[51]
 Overfull \hbox (0.21295pt too wide) in paragraph at lines 1447--1448
 [][]\TU/Georgia(0)/m/n/10 With respect to register usage when swapping to memor
 y locations, the stack[]
  []
 
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-130.jpg Graphic file (type bmp)
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-130' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1454 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-130}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-130.jpg>
 
 Overfull \hbox (42.18169pt too wide) in paragraph at lines 1463--1477
  [][][][] 
@@ -1691,34 +1588,12 @@ Overfull \hbox (42.18169pt too wide) in paragraph at lines 1463--1477
 
 
 
-[50]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-131' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1485 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-131}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[51]
-
 [52]
 
 [53]
-Overfull \hbox (3.85635pt too wide) in paragraph at lines 1588--1593
-[][]\TU/Georgia(0)/m/n/10 Given the following C arithmetic instructions, implem
-ent them using arith-[]
- []
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-131.jpg Graphic file (type bmp)
 
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-131.jpg>
 
 
 [54]
@@ -1728,8 +1603,22 @@ ent them using arith-[]
 [56]
 
 [57]
+Overfull \hbox (3.85635pt too wide) in paragraph at lines 1588--1593
+[][]\TU/Georgia(0)/m/n/10 Given the following C arithmetic instructions, implem
+ent them using arith-[]
+ []
+
+
 
 [58]
+
+[59]
+
+[60]
+
+[61]
+
+[62]
 Overfull \hbox (28.23099pt too wide) in paragraph at lines 1738--1738
 [][]\TU/Georgia(0)/b/n/14.4 Complete Program: Implementing the Power[]
  []
@@ -1739,44 +1628,32 @@ Overfull \hbox (28.23099pt too wide) in paragraph at lines 1738--1738
 
 Overfull \hbox (84.45517pt too wide) has occurred while \output is active
 []\TU/lmr/m/sl/10 1.23.  \TU/Georgia(0)/m/it/10 COMPLETE PROGRAM: IMPLEMENTING 
-THE POWER FUNCTION IN A PROCEDURE \TU/lmr/m/n/10 59[]
+THE POWER FUNCTION IN A PROCEDURE \TU/lmr/m/n/10 63[]
  []
-
-[59]
-
-[60]
-
-
-Overfull \hbox (84.45517pt too wide) has occurred while \output is active
-[]\TU/lmr/m/sl/10 1.23.  \TU/Georgia(0)/m/it/10 COMPLETE PROGRAM: IMPLEMENTING 
-THE POWER FUNCTION IN A PROCEDURE \TU/lmr/m/n/10 61[]
- []
-
-[61]
-
-[62]
 
 [63]
 
 [64]
 
+
+Overfull \hbox (84.45517pt too wide) has occurred while \output is active
+[]\TU/lmr/m/sl/10 1.23.  \TU/Georgia(0)/m/it/10 COMPLETE PROGRAM: IMPLEMENTING 
+THE POWER FUNCTION IN A PROCEDURE \TU/lmr/m/n/10 65[]
+ []
+
 [65]
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-147' not found.
+[66]
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1941 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-147}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[67]
+
+[68]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-147.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-147.jpg>
 
 
+[69]
 Overfull \hbox (0.3627pt too wide) in paragraph at lines 1957--1958
 []\TU/Georgia(0)/m/n/10 more paper when printing out the listing of the program
 , the possibility of avoid-[]
@@ -1784,29 +1661,21 @@ Overfull \hbox (0.3627pt too wide) in paragraph at lines 1957--1958
 
 
 
-[66]
-
-[67]
-
-[68]
-
-[69]
-
 [70]
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-153' not found.
+[71]
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2103 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-153}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[72]
+
+[73]
+
+[74]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-153.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-153.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Overfull \hbox (2.63026pt too wide) in paragraph at lines 2106--2107
@@ -1816,56 +1685,61 @@ r some circumstances[]
 
 
 
-[71]
-
-[72]
-
-[73]
-
-[74]
-
 [75]
 
 [76]
-Overfull \hbox (13.26851pt too wide) in paragraph at lines 2350--2350
-[][]\TU/Georgia(0)/b/n/14.4 Complete Program: Implementing a Macro[]
- []
-
-
 
 [77]
-Overfull \hbox (67.7725pt too wide) in paragraph at lines 2358--2372
- [][][] 
- []
-
-
 
 [78]
-Overfull \hbox (20.07272pt too wide) in paragraph at lines 2398--2409
- [][][] 
- []
-
-
 
 [79]
 
 [80]
 
 [81]
+Overfull \hbox (13.26851pt too wide) in paragraph at lines 2350--2350
+[][]\TU/Georgia(0)/b/n/14.4 Complete Program: Implementing a Macro[]
+ []
+
+
+Overfull \hbox (67.7725pt too wide) in paragraph at lines 2358--2372
+ [][][] 
+ []
+
+
+Underfull \vbox (badness 1789) has occurred while \output is active []
+
+
 
 [82]
 
 [83]
+Overfull \hbox (20.07272pt too wide) in paragraph at lines 2398--2409
+ [][][] 
+ []
+
+
 
 [84]
+
+[85]
+
+[86]
+
+[87]
+
+[88]
 
 
 Overfull \hbox (49.13458pt too wide) has occurred while \output is active
 []\TU/lmr/m/sl/10 1.31.  \TU/Georgia(0)/m/it/10 EXERCISES (ITEMS MARKED WITH AN
- * HAVE SOLUTIONS IN APPENDIX D) \TU/lmr/m/n/10 85[]
+ * HAVE SOLUTIONS IN APPENDIX D) \TU/lmr/m/n/10 89[]
  []
 
-[85]
+[89]
+
+[90]
 Overfull \hbox (1.54921pt too wide) in paragraph at lines 2645--2646
 []\TU/Georgia(0)/m/n/10 specific situations, trying to address memory locations
  by another variable name[]
@@ -1873,9 +1747,7 @@ Overfull \hbox (1.54921pt too wide) in paragraph at lines 2645--2646
 
 
 
-[86]
-
-[87]
+[91]
 Overfull \hbox (1.48248pt too wide) in paragraph at lines 2703--2704
 []\TU/Georgia(0)/m/n/10 example, assume that the last element of the previously
  declared numary needed[]
@@ -1887,234 +1759,104 @@ Underfull \hbox (badness 10000) in paragraph at lines 2710--2712
  []
 
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-174' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2715 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-174}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[88]
-
-[89]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-175' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2762 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-175}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[90]
-
-[91]
 
 [92]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-174.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-174.jpg>
+
 
 [93]
 
 [94]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-175.jpg Graphic file (type bmp)
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-180' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2929 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-180}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-181' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2935 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-181}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-175.jpg>
 
 
 [95]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-183' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2977 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-183}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 
 [96]
 
 [97]
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-184' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3033 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-184}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
 [98]
 
 [99]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-180.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-180.jpg>
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-181.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-181.jpg>
+
 
 [100]
+
+[101]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-183.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-183.jpg>
+
+
+[102]
+
+[103]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-184.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-184.jpg>
+
+
+[104]
+
+[105]
+
+[106]
+
+[107]
 Overfull \hbox (13.42319pt too wide) in paragraph at lines 3141--3141
 [][]\TU/Georgia(0)/b/n/14.4 Complete Program: Implementing a Queue []
  []
 
 
 
-[101]
+[108]
 
-[102]
+[109]
 
-[103]
+[110]
 
-[104]
+[111]
 Underfull \hbox (badness 10000) in paragraph at lines 3296--3298
 [][]
  []
 
 
 
-[105]
+[112]
 Overfull \hbox (3.86069pt too wide) in paragraph at lines 3301--3301
 [][]\TU/Georgia(0)/b/n/14.4 Complete Program: Implementing the Se-[]
  []
 
 
 
-[106]
+[113]
 Overfull \hbox (1.61757pt too wide) in paragraph at lines 3328--3329
 [][]\TU/Georgia(0)/m/n/10 However, the above algorithm is somewhat inefficient 
 because it keeps swap-[]
  []
 
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-193.jpg Graphic file (type bmp)
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-193' not found.
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-193.jpg>
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3332 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-193}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-194.jpg Graphic file (type bmp)
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-194' not found.
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-194.jpg>
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3338 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-194}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[107]
-
-[108]
-
-[109]
-Overfull \hbox (0.8526pt too wide) in paragraph at lines 3459--3460
-[][]\TU/Georgia(0)/m/n/10 The lengthof operator returns how many elements are i
-n an array, whereas[]
- []
-
-
-
-[110]
-
-
-Overfull \hbox (54.13458pt too wide) has occurred while \output is active
-[]\TU/lmr/m/sl/10 1.41.  \TU/Georgia(0)/m/it/10 EXERCISES (ITEMS MARKED WITH AN
- * HAVE SOLUTIONS IN APPENDIX D) \TU/lmr/m/n/10 111[]
- []
-
-[111]
-
-[112]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-201' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3573 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-201}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[113]
-Overfull \hbox (22.75365pt too wide) in paragraph at lines 3578--3578
-[][]\TU/Georgia(0)/b/n/14.4 String Instructions: Moving Strings (movsb) []
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
@@ -2123,118 +1865,38 @@ Overfull \hbox (22.75365pt too wide) in paragraph at lines 3578--3578
 [115]
 
 [116]
-Overfull \hbox (16.67633pt too wide) in paragraph at lines 3708--3708
-[][]\TU/Georgia(0)/b/n/14.4 String Instructions: Scanning (scasb), Stor-[]
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-206' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3723 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-206}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-
-Overfull \hbox (115.28683pt too wide) has occurred while \output is active
-[]\TU/lmr/m/sl/10 1.44.  \TU/Georgia(0)/m/it/10 STRING INSTRUCTIONS: SCANNING (
-SCASB), STORING (STOSB), AND LOADING (LODSB) \TU/lmr/m/n/10 117[]
- []
 
 [117]
+Overfull \hbox (0.8526pt too wide) in paragraph at lines 3459--3460
+[][]\TU/Georgia(0)/m/n/10 The lengthof operator returns how many elements are i
+n an array, whereas[]
+ []
+
+
 
 [118]
-Overfull \hbox (5.2591pt too wide) in paragraph at lines 3790--3795
- [][][] 
+
+
+Overfull \hbox (54.13458pt too wide) has occurred while \output is active
+[]\TU/lmr/m/sl/10 1.41.  \TU/Georgia(0)/m/it/10 EXERCISES (ITEMS MARKED WITH AN
+ * HAVE SOLUTIONS IN APPENDIX D) \TU/lmr/m/n/10 119[]
  []
-
-
 
 [119]
-Overfull \hbox (50.11928pt too wide) in paragraph at lines 3843--3843
-[][]\TU/Georgia(0)/b/n/14.4 String Instructions: Comparing Strings (cmpsb) []
- []
-
-
-Overfull \hbox (1.03674pt too wide) in paragraph at lines 3858--3859
-[][]\TU/Georgia(0)/m/n/10 First, upon completion of the segment, ecx would be 0
-. Assuming that name1[]
- []
-
-
 
 [120]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-201.jpg Graphic file (type bmp)
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-210' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3866 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-210}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-211' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3890 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-211}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-201.jpg>
 
 
 [121]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-211(1)' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3910 ...2025_03_24_ebe50cc223a6fbc49eecg-211(1)}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-212' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3928 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-212}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (22.75365pt too wide) in paragraph at lines 3578--3578
+[][]\TU/Georgia(0)/b/n/14.4 String Instructions: Moving Strings (movsb) []
+ []
 
 
 
@@ -2242,29 +1904,95 @@ If that doesn't work, type  X <return>  to quit.
 
 [123]
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-214' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3994 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-214}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
 [124]
+Overfull \hbox (16.67633pt too wide) in paragraph at lines 3708--3708
+[][]\TU/Georgia(0)/b/n/14.4 String Instructions: Scanning (scasb), Stor-[]
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-206.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-206.jpg>
+
+
+
+Overfull \hbox (115.28683pt too wide) has occurred while \output is active
+[]\TU/lmr/m/sl/10 1.44.  \TU/Georgia(0)/m/it/10 STRING INSTRUCTIONS: SCANNING (
+SCASB), STORING (STOSB), AND LOADING (LODSB) \TU/lmr/m/n/10 125[]
+ []
 
 [125]
 
 [126]
+Overfull \hbox (5.2591pt too wide) in paragraph at lines 3790--3795
+ [][][] 
+ []
+
+
 
 [127]
+Overfull \hbox (50.11928pt too wide) in paragraph at lines 3843--3843
+[][]\TU/Georgia(0)/b/n/14.4 String Instructions: Comparing Strings (cmpsb) []
+ []
+
+
+
+[128]
+Overfull \hbox (1.03674pt too wide) in paragraph at lines 3858--3859
+[][]\TU/Georgia(0)/m/n/10 First, upon completion of the segment, ecx would be 0
+. Assuming that name1[]
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-210.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-210.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-211.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-211.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-211(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-211(1).jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[129]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-212.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-212.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[130]
+
+[131]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-214.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-214.jpg>
+
+
+[132]
+
+[133]
+
+[134]
+
+
+Overfull \hbox (54.13458pt too wide) has occurred while \output is active
+[]\TU/lmr/m/sl/10 1.50.  \TU/Georgia(0)/m/it/10 EXERCISES (ITEMS MARKED WITH AN
+ * HAVE SOLUTIONS IN APPENDIX D) \TU/lmr/m/n/10 135[]
+ []
+
+[135]
 Overfull \hbox (10.12018pt too wide) in paragraph at lines 4140--4141
 [][]\TU/Georgia(0)/m/n/10 Using the esi and edi registers and a repeat-untilcxz
  loop, determine whether[]
@@ -2275,260 +2003,123 @@ LaTeX Font Info:    Font shape `TU/Georgia(0)/bx/n' in size <12> not available
 4143.
 
 
-[128]
+[136]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-221.jpg Graphic file (type bmp)
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-221' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4162 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-221}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-221.jpg>
 
 Overfull \hbox (3.32549pt too wide) in paragraph at lines 4177--4181
 []\TU/Georgia(0)/m/n/10 floating-point data begin with the letter f . Initially
 , this may seem a little strange,[]
  []
 
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-222.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-222.jpg>
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-222(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-222(1).jpg>
 
 
-[129]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-222' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4190 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-222}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-222(1)' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4203 ...2025_03_24_ebe50cc223a6fbc49eecg-222(1)}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
+[137]
 Underfull \hbox (badness 10000) in paragraph at lines 4214--4215
 [][]
  []
 
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-223.jpg Graphic file (type bmp)
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-223' not found.
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-223.jpg>
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4218 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-223}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4229--4230
 [][]
  []
 
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-224(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-224(1).jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-224.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-224.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-[130]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-224(1)' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4233 ...2025_03_24_ebe50cc223a6fbc49eecg-224(1)}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-224' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4242 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-224}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[131]
-
-[132]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-227(1)' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4347 ...2025_03_24_ebe50cc223a6fbc49eecg-227(1)}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-227' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4354 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-227}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-228(1)' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4363 ...2025_03_24_ebe50cc223a6fbc49eecg-228(1)}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-228' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4370 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-228}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-229' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4376 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-229}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[133]
-
-[134]
-
-[135]
-
-[136]
-
-[137]
 
 [138]
 
 [139]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-227(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-227(1).jpg>
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-227.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-227.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-228(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-228(1).jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-228.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-228.jpg>
+
 
 [140]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-229.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-229.jpg>
+
 
 [141]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-238' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4713 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-238}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 
 [142]
 
 [143]
-Underfull \vbox (badness 1460) has occurred while \output is active []
-
-
 
 [144]
 
-
-Overfull \hbox (23.97414pt too wide) has occurred while \output is active
-[]\TU/lmr/m/sl/10 1.59.  \TU/Georgia(0)/m/it/10 COMPLETE PROGRAM: IMPLEMENTING 
-AN ITERATION STRUCTURE \TU/lmr/m/n/10 145[]
- []
-
 [145]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [146]
 
 [147]
 
 [148]
+
+[149]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-238.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-238.jpg>
+
+
+[150]
+
+[151]
+
+[152]
+
+
+Overfull \hbox (23.97414pt too wide) has occurred while \output is active
+[]\TU/lmr/m/sl/10 1.59.  \TU/Georgia(0)/m/it/10 COMPLETE PROGRAM: IMPLEMENTING 
+AN ITERATION STRUCTURE \TU/lmr/m/n/10 153[]
+ []
+
+[153]
+
+[154]
+
+[155]
 Overfull \hbox (9.72794pt too wide) in paragraph at lines 4988--4989
 [][]\TU/Georgia(0)/m/n/10 Just like with integers, use an & prior to the variab
 le when inputting floating-[]
@@ -2536,9 +2127,15 @@ le when inputting floating-[]
 
 
 
-[149]
+[156]
 
-[150]
+
+Overfull \hbox (54.13458pt too wide) has occurred while \output is active
+[]\TU/lmr/m/sl/10 1.62.  \TU/Georgia(0)/m/it/10 EXERCISES (ITEMS MARKED WITH AN
+ * HAVE SOLUTIONS IN APPENDIX D) \TU/lmr/m/n/10 157[]
+ []
+
+[157]
 Overfull \hbox (0.30821pt too wide) in paragraph at lines 5052--5053
 [][]\TU/Georgia(0)/m/n/10 Change the complete program in Sect. 10.9 to implemen
 t a do-while struc-[]
@@ -2546,31 +2143,19 @@ t a do-while struc-[]
 
 
 
-[151]
+[158]
 Overfull \hbox (90.97122pt too wide) in paragraph at lines 5069--5085
  [][][] 
  []
 
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-249.jpg Graphic file (type bmp)
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-249' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5091 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-249}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-249.jpg>
 
 
+[159]
 
-[152]
-
-[153]
+[160]
 Overfull \hbox (150.40385pt too wide) in paragraph at lines 5183--5196
  [][][][] 
  []
@@ -2584,7 +2169,9 @@ ough[]
 
 
 
-[154]
+[161]
+
+[162]
 Overfull \hbox (2.23607pt too wide) in paragraph at lines 5220--5221
 [][]\TU/Georgia(0)/m/n/10 In the program itself, note that the following statem
 ents are no longer needed[]
@@ -2592,12 +2179,10 @@ ents are no longer needed[]
 
 
 
-[155]
+[163]
 
-[156]
-
-[157]
-! Undefined control sequence.
+[164]
+./assembly_final.tex:5298: Undefined control sequence.
 l.5298 ... and their formatting along with the "\n
                                                    \n" to a second printf st...
 The control sequence at the end of the top line
@@ -2606,7 +2191,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./assembly_final.tex:5298: Undefined control sequence.
 l.5298 ...d their formatting along with the "\n \n
                                                   " to a second printf state...
 The control sequence at the end of the top line
@@ -2617,89 +2202,34 @@ and I'll forget about whatever was undefined.
 
 
 
-[158]
-
-[159]
-
-[160]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-259' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5422 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-259}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-259(1)' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5442 ...2025_03_24_ebe50cc223a6fbc49eecg-259(1)}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[161]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-260(1)' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5482 ...2025_03_24_ebe50cc223a6fbc49eecg-260(1)}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-260' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5493 ...r]{2025_03_24_ebe50cc223a6fbc49eecg-260}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[162]
-
-[163]
-
-[164]
-
 [165]
 
 [166]
 
 [167]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-259.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-259.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-259(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-259(1).jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 [168]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-260(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-260(1).jpg>
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-260.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-260.jpg>
+
 
 [169]
 
@@ -2708,6 +2238,20 @@ If that doesn't work, type  X <return>  to quit.
 [171]
 
 [172]
+
+[173]
+
+[174]
+
+[175]
+
+[176]
+
+[177]
+
+[178]
+
+[179]
 Overfull \hbox (14.0924pt too wide) in paragraph at lines 5885--5892
 []\TU/Georgia(0)/m/n/10 long long num1 $\OT1/cmr/m/n/10 = 1$\TU/Georgia(0)/m/n/
 10 , num2 $\OT1/cmr/m/n/10 = 2$\TU/Georgia(0)/m/n/10 , num3 $\OT1/cmr/m/n/10 = 
@@ -2723,86 +2267,148 @@ Overfull \hbox (3.66696pt too wide) in paragraph at lines 5885--5892
 
 
 
+[180]
 
-Overfull \hbox (54.13458pt too wide) has occurred while \output is active
-[]\TU/lmr/m/sl/10 1.73.  \TU/Georgia(0)/m/it/10 EXERCISES (ITEMS MARKED WITH AN
- * HAVE SOLUTIONS IN APPENDIX D) \TU/lmr/m/n/10 173[]
- []
+[181]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-275.jpg Graphic file (type bmp)
 
-[173]
-
-[174]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-275' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5915 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-275}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-275.jpg>
 
 
+[182]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-277.jpg Graphic file (type bmp)
 
-[175]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-277' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6014 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-277}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-277.jpg>
 
 
+[183]
 
-[176]
+[184]
 
-[177]
+[185]
 
-[178]
-
-[179]
+[186]
 Underfull \hbox (badness 10000) in paragraph at lines 6229--6230
 [][]
  []
 
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-281.jpg Graphic file (type bmp)
 
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-281' not found.
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-281.jpg>
+
+
+[187]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-282.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-282.jpg>
+
+
+[188]
+
+[189]
+
+[190]
+
+[191]
+
+[192]
+Overfull \hbox (24.4522pt too wide) in paragraph at lines 6426--6437
+ [][][] 
+ []
+
+
+
+[193]
+Overfull \hbox (24.4522pt too wide) in paragraph at lines 6444--6453
+ [][][] 
+ []
+
+
+./assembly_final.tex:6467: LaTeX Error: Not allowed in LR mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6233 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-281}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
+l.6467 \begin{center}
+                     
+You've lost some text.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-
-[180]
-
-! LaTeX Error: File `2025_03_24_ebe50cc223a6fbc49eecg-282' not found.
+./assembly_final.tex:6467: LaTeX Error: Not allowed in LR mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6263 ...h]{2025_03_24_ebe50cc223a6fbc49eecg-282}
-                                                  
-I could not locate the file with any of thes
+l.6467 \begin{center}
+                     
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./assembly_final.tex:6467: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.6467 \begin{center}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./assembly_final.tex:6467: Missing } inserted.
+<inserted text> 
+                }
+l.6467 \begin{center}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./assembly_final.tex:6467: Missing } inserted.
+<inserted text> 
+                }
+l.6467 \begin{center}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./assembly_final.tex:6467: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.6467 \begin{center}
+                     
+I'm guessing that you meant to end an alignment here.
+
+./assembly_final.tex:6467: Missing { inserted.
+<inserted text> 
+                {
+l.6467 \begin{center}
+                     
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./assembly_final.tex:6505: Interruption.
+<to be read again> 
+                   \vskip 
+l.6505 \end{center}
+                   
+? X
+ 
+Here is how much of TeX's memory you used:
+ 21606 strings out of 468389
+ 493495 string characters out of 5440620
+ 1316718 words of memory out of 5000000
+ 49695 multiletter control sequences out of 15000+600000
+ 637032 words of font info for 140 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 83i,16n,92p,1417b,1062s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Output written on assembly_final.xdv (193 pages, 3775352 bytes).

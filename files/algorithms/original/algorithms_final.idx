@@ -1,6 +1,6 @@
-\indexentry{problem – deﬁnition|hyperpage}{1}
-\indexentry{problem instance|hyperpage}{1}
-\indexentry{proof of correctness|hyperpage}{1}
+\indexentry{problem – deﬁnition|hyperpage}{2}
+\indexentry{problem instance|hyperpage}{2}
+\indexentry{proof of correctness|hyperpage}{2}
 \indexentry{boss’s delight|hyperpage}{3}
 \indexentry{bit vector – applications|hyperpage}{5}
 \indexentry{boundaries|hyperpage}{5}
@@ -21,74 +21,99 @@
 \indexentry{pseudocode|hyperpage}{5}
 \indexentry{set cover – applications|hyperpage}{5}
 \indexentry{Federal Sentencing Guidelines|hyperpage}{14}
-\indexentry{supercomputer|hyperpage}{16}
-\indexentry{set data structures|hyperpage}{22}
-\indexentry{organ transplant|hyperpage}{30}
-\indexentry{biology|hyperpage}{32}
-\indexentry{DNA|hyperpage}{32}
-\indexentry{container|hyperpage}{36}
-\indexentry{FIFO|hyperpage}{36}
-\indexentry{ﬁrst-in, ﬁrst-out (FIFO)|hyperpage}{36}
-\indexentry{push|hyperpage}{36}
-\indexentry{distribution sort|hyperpage}{50}
-\indexentry{Shiﬄett|hyperpage}{50}
-\indexentry{OpenGL graphics library|hyperpage}{50}
-\indexentry{hash tables|hyperpage}{52}
-\indexentry{open addressing|hyperpage}{54}
-\indexentry{set data structures|hyperpage}{58}
-\indexentry{string data structures|hyperpage}{58}
-\indexentry{suﬃx trees|hyperpage}{58}
-\indexentry{conditional probability|hyperpage}{68}
-\indexentry{convex hull|hyperpage}{68}
-\indexentry{qsort()|hyperpage}{72}
-\indexentry{heapsort|hyperpage}{73}
-\indexentry{air travel pricing|hyperpage}{81}
-\indexentry{ﬂight ticket pricing|hyperpage}{81}
-\indexentry{copying a graph|hyperpage}{83}
-\indexentry{divide and conquer|hyperpage}{84}
-\indexentry{mergesort|hyperpage}{84}
-\indexentry{divide and conquer|hyperpage}{100}
-\indexentry{mergesort|hyperpage}{100}
-\indexentry{one-sided binary search|hyperpage}{102}
-\indexentry{bisection method|hyperpage}{103}
-\indexentry{Fibonacci numbers|hyperpage}{105}
-\indexentry{heap construction|hyperpage}{105}
-\indexentry{parallel algorithms|hyperpage}{111}
-\indexentry{minimax search|hyperpage}{112}
-\indexentry{probability|hyperpage}{122}
-\indexentry{probability of an event|hyperpage}{123}
-\indexentry{probability of an outcome|hyperpage}{123}
-\indexentry{conditional probability|hyperpage}{125}
-\indexentry{probability density function|hyperpage}{126}
-\indexentry{probability distribution|hyperpage}{126}
-\indexentry{variance|hyperpage}{127}
-\indexentry{substring matching|hyperpage}{128}
-\indexentry{birthday paradox|hyperpage}{134}
-\indexentry{directed graph|hyperpage}{145}
-\indexentry{vertex|hyperpage}{145}
-\indexentry{acyclic graph|hyperpage}{146}
-\indexentry{program ﬂow graph|hyperpage}{146}
-\indexentry{directed acyclic graph (DAG)|hyperpage}{147}
-\indexentry{labeled graphs|hyperpage}{147}
-\indexentry{directed graph|hyperpage}{148}
-\indexentry{heard-of graph|hyperpage}{148}
-\indexentry{self-loop|hyperpage}{149}
-\indexentry{adjacency matrix|hyperpage}{149}
-\indexentry{adjacency list|hyperpage}{151}
-\indexentry{Boost graph library|hyperpage}{154}
-\indexentry{maze|hyperpage}{159}
-\indexentry{breadth-ﬁrst search (BFS)|hyperpage}{160}
-\indexentry{FIFO queue|hyperpage}{160}
-\indexentry{connected component|hyperpage}{163}
-\indexentry{breadth-ﬁrst search|hyperpage}{166}
-\indexentry{strongly connected component|hyperpage}{176}
-\indexentry{2/3 tree|hyperpage}{188}
-\indexentry{disk access|hyperpage}{188}
-\indexentry{paging|hyperpage}{188}
-\indexentry{self-organizing tree|hyperpage}{188}
-\indexentry{swapping|hyperpage}{188}
-\indexentry{virtual memory|hyperpage}{188}
-\indexentry{Kruskal’s algorithm|hyperpage}{189}
-\indexentry{palindrome|hyperpage}{191}
-\indexentry{suﬃx arrays|hyperpage}{191}
-\indexentry{adjacency list|hyperpage}{193}
+\indexentry{supercomputer|hyperpage}{17}
+\indexentry{set data structures|hyperpage}{23}
+\indexentry{organ transplant|hyperpage}{32}
+\indexentry{biology|hyperpage}{34}
+\indexentry{DNA|hyperpage}{34}
+\indexentry{container|hyperpage}{38}
+\indexentry{FIFO|hyperpage}{38}
+\indexentry{ﬁrst-in, ﬁrst-out (FIFO)|hyperpage}{38}
+\indexentry{push|hyperpage}{38}
+\indexentry{distribution sort|hyperpage}{54}
+\indexentry{Shiﬄett|hyperpage}{54}
+\indexentry{OpenGL graphics library|hyperpage}{54}
+\indexentry{hash tables|hyperpage}{56}
+\indexentry{open addressing|hyperpage}{58}
+\indexentry{set data structures|hyperpage}{63}
+\indexentry{string data structures|hyperpage}{63}
+\indexentry{suﬃx trees|hyperpage}{63}
+\indexentry{conditional probability|hyperpage}{74}
+\indexentry{convex hull|hyperpage}{75}
+\indexentry{qsort()|hyperpage}{79}
+\indexentry{heapsort|hyperpage}{79}
+\indexentry{air travel pricing|hyperpage}{89}
+\indexentry{ﬂight ticket pricing|hyperpage}{89}
+\indexentry{copying a graph|hyperpage}{91}
+\indexentry{divide and conquer|hyperpage}{92}
+\indexentry{mergesort|hyperpage}{92}
+\indexentry{divide and conquer|hyperpage}{109}
+\indexentry{mergesort|hyperpage}{109}
+\indexentry{one-sided binary search|hyperpage}{111}
+\indexentry{bisection method|hyperpage}{112}
+\indexentry{Fibonacci numbers|hyperpage}{114}
+\indexentry{heap construction|hyperpage}{114}
+\indexentry{parallel algorithms|hyperpage}{120}
+\indexentry{minimax search|hyperpage}{121}
+\indexentry{probability|hyperpage}{132}
+\indexentry{probability of an event|hyperpage}{134}
+\indexentry{probability of an outcome|hyperpage}{134}
+\indexentry{conditional probability|hyperpage}{135}
+\indexentry{probability density function|hyperpage}{136}
+\indexentry{probability distribution|hyperpage}{136}
+\indexentry{variance|hyperpage}{137}
+\indexentry{substring matching|hyperpage}{138}
+\indexentry{birthday paradox|hyperpage}{144}
+\indexentry{directed graph|hyperpage}{157}
+\indexentry{vertex|hyperpage}{157}
+\indexentry{acyclic graph|hyperpage}{159}
+\indexentry{program ﬂow graph|hyperpage}{159}
+\indexentry{directed acyclic graph (DAG)|hyperpage}{160}
+\indexentry{labeled graphs|hyperpage}{160}
+\indexentry{directed graph|hyperpage}{161}
+\indexentry{heard-of graph|hyperpage}{161}
+\indexentry{self-loop|hyperpage}{162}
+\indexentry{adjacency matrix|hyperpage}{163}
+\indexentry{adjacency list|hyperpage}{164}
+\indexentry{Boost graph library|hyperpage}{167}
+\indexentry{maze|hyperpage}{173}
+\indexentry{breadth-ﬁrst search (BFS)|hyperpage}{174}
+\indexentry{FIFO queue|hyperpage}{176}
+\indexentry{connected component|hyperpage}{179}
+\indexentry{breadth-ﬁrst search|hyperpage}{181}
+\indexentry{strongly connected component|hyperpage}{193}
+\indexentry{2/3 tree|hyperpage}{207}
+\indexentry{disk access|hyperpage}{207}
+\indexentry{paging|hyperpage}{207}
+\indexentry{self-organizing tree|hyperpage}{207}
+\indexentry{swapping|hyperpage}{207}
+\indexentry{virtual memory|hyperpage}{207}
+\indexentry{Kruskal’s algorithm|hyperpage}{208}
+\indexentry{palindrome|hyperpage}{211}
+\indexentry{suﬃx arrays|hyperpage}{211}
+\indexentry{adjacency list|hyperpage}{213}
+\indexentry{adjacency matrix|hyperpage}{213}
+\indexentry{maximum spanning tree|hyperpage}{214}
+\indexentry{bottleneck spanning tree|hyperpage}{215}
+\indexentry{distance metrics|hyperpage}{220}
+\indexentry{metric|hyperpage}{220}
+\indexentry{blackmail graph|hyperpage}{227}
+\indexentry{Hamiltonian cycle – counting|hyperpage}{229}
+\indexentry{bipartite graph|hyperpage}{231}
+\indexentry{bipartite matching|hyperpage}{231}
+\indexentry{Viterbi algorithm|hyperpage}{231}
+\indexentry{DNA sequencing|hyperpage}{239}
+\indexentry{DOS ﬁle names|hyperpage}{239}
+\indexentry{vertex coloring|hyperpage}{239}
+\indexentry{optical character recognition|hyperpage}{240}
+\indexentry{one million|hyperpage}{245}
+\indexentry{branch and bound search|hyperpage}{258}
+\indexentry{breadth-ﬁrst search|hyperpage}{265}
+\indexentry{Hamiltonian path|hyperpage}{265}
+\indexentry{Fibonacci numbers|hyperpage}{265}
+\indexentry{memoization|hyperpage}{266}
+\indexentry{binomial coeﬃcients|hyperpage}{268}
+\indexentry{driving time minimization|hyperpage}{282}
+\indexentry{Hamiltonian cycle|hyperpage}{282}
+\indexentry{driving time minimization|hyperpage}{283}
+\indexentry{Hamiltonian cycle|hyperpage}{283}
