@@ -1,0 +1,2675 @@
+Rc files read:
+  .latexmkrc
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'xelatex -interaction=nonstopmode -synctex=1  -recorder -output-directory="/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck"  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/democheck/data-science_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/underscore/underscore.sty)
+==> First Aid for underscore.sty applied!
+(/usr/local/texlive/2025/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file data-science_final.idx
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-bengali.ldf
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/devanagaridigits.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/bengalidigits.sty))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/democheck/data-science_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+
+[1]
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+[2]
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+No file data-science_final.toc.
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.72 \section{\textbf{THE}}
+                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.72 \section{\textbf{THE}}
+                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.73 \section{\textbf{Data Science Design}}
+                                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.73 \section{\textbf{Data Science Design}}
+                                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.73 \section{\textbf{Data Science Design}}
+                                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.73 \section{\textbf{Data Science Design}}
+                                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.74 \section{\textbf{MANUAL}}
+                              
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.74 \section{\textbf{MANUAL}}
+                              
+
+! LaTeX Error: File `2025_03_17_ca60ec0bfd96dcf8e028g-001' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...dth]{2025_03_17_ca60ec0bfd96dcf8e028g-001}
+                                                  
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.81 \section{Steven S. Slaiena}
+                                
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.81 \section{Steven S. Slaiena}
+                                
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.81 \section{Steven S. Slaiena}
+                                
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.81 \section{Steven S. Slaiena}
+                                
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.82 A
+      ) Springer
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.82 A) S
+         pringer
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.84 \section{\textbf{Steven S. Skiena}}
+                                        
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.84 \section{\textbf{Steven S. Skiena}}
+                                        
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.84 \section{\textbf{Steven S. Skiena}}
+                                        
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.84 \section{\textbf{Steven S. Skiena}}
+                                        
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.86 S
+      pringer
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.88 I
+      SSN 1868-0941\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.88 ISSN 1
+           868-0941\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.89 I
+      SSN 1868-095X (electronic)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.89 ISSN 1
+           868-095X (electronic)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.89 ISSN 1868-095X (
+                     electronic)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.90 T
+      exts in Computer Science\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.90 Texts i
+            n Computer Science\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.90 Texts in C
+               omputer Science\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.90 Texts in Computer S
+                        cience\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.91 I
+      SBN 978-3-319-55443-3\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.91 ISBN 9
+           78-3-319-55443-3\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.92 I
+      SBN 978-3-319-55444-0 (eBook)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.92 ISBN 9
+           78-3-319-55444-0 (eBook)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.92 ISBN 978-3-319-55444-0 (
+                             eBook)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.93 ...https://doi.org/10.1007/978-3-319-55444-0}
+                                                  \\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 L
+      ibrary of Congress Control Number: 2017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 Library o
+              f Congress Control Number: 2017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 Library of C
+                 ongress Control Number: 2017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 Library of Congress C
+                          ontrol Number: 2017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 Library of Congress Control N
+                                  umber: 2017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 Library of Congress Control Number: 2
+                                          017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 T
+      his book was advertised with a copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This b
+           ook was advertised with a copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book w
+                as advertised with a copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book was a
+                    dvertised with a copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book was advertised w
+                               ith a copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book was advertised with a
+                                     copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book was advertised with a c
+                                      opyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book was advertised with a copyright h
+                                                older in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...k was advertised with a copyright holder i
+                                                  n the name of the publishe...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...as advertised with a copyright holder in t
+                                                  he name of the publisher i...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...dvertised with a copyright holder in the n
+                                                  ame of the publisher in er...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...ised with a copyright holder in the name o
+                                                  f the publisher in error, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...d with a copyright holder in the name of t
+                                                  he publisher in error, whe...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...th a copyright holder in the name of the p
+                                                  ublisher in error, whereas...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...ight holder in the name of the publisher i
+                                                  n error, whereas the autho...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...t holder in the name of the publisher in e
+                                                  rror, whereas the author(s...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...r in the name of the publisher in error, w
+                                                  hereas the author(s) holds...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ... name of the publisher in error, whereas t
+                                                  he author(s) holds the cop...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...e of the publisher in error, whereas the a
+                                                  uthor(s) holds the copyrig...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...ublisher in error, whereas the author(s) h
+                                                  olds the copyright.\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...er in error, whereas the author(s) holds t
+                                                  he copyright.\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...n error, whereas the author(s) holds the c
+                                                  opyright.\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.96 \textcopyright
+                   {} The Author(s) 2017\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.96 \textcopyright{} T
+                       he Author(s) 2017\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.96 \textcopyright{} The A
+                           uthor(s) 2017\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.96 \textcopyright{} The Author(s) 2
+                                     017\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 T
+      his work is subject to copyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This w
+           ork is subject to copyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work i
+                s subject to copyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work is s
+                   ubject to copyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work is subject t
+                           o copyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work is subject to c
+                              opyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work is subject to copyright. A
+                                         ll rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work is subject to copyright. All r
+                                             ights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...work is subject to copyright. All rights a
+                                                  re reserved by the Publish...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... is subject to copyright. All rights are r
+                                                  eserved by the Publisher, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ct to copyright. All rights are reserved b
+                                                  y the Publisher, whether t...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...to copyright. All rights are reserved by t
+                                                  he Publisher, whether the ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...opyright. All rights are reserved by the P
+                                                  ublisher, whether the whol...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ll rights are reserved by the Publisher, w
+                                                  hether the whole or part o...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...s are reserved by the Publisher, whether t
+                                                  he whole or part of the ma...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...e reserved by the Publisher, whether the w
+                                                  hole or part of the materi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...rved by the Publisher, whether the whole o
+                                                  r part of the material is ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...d by the Publisher, whether the whole or p
+                                                  art of the material is con...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...the Publisher, whether the whole or part o
+                                                  f the material is concerne...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... Publisher, whether the whole or part of t
+                                                  he material is concerned, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...lisher, whether the whole or part of the m
+                                                  aterial is concerned, spec...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...hether the whole or part of the material i
+                                                  s concerned, specifically ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...her the whole or part of the material is c
+                                                  oncerned, specifically the...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...le or part of the material is concerned, s
+                                                  pecifically the rights of ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... the material is concerned, specifically t
+                                                  he rights of translation, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... material is concerned, specifically the r
+                                                  ights of translation, repr...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...al is concerned, specifically the rights o
+                                                  f translation, reprinting,...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...is concerned, specifically the rights of t
+                                                  ranslation, reprinting, re...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... specifically the rights of translation, r
+                                                  eprinting, reuse of illust...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...y the rights of translation, reprinting, r
+                                                  euse of illustrations, rec...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...rights of translation, reprinting, reuse o
+                                                  f illustrations, recitatio...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...hts of translation, reprinting, reuse of i
+                                                  llustrations, recitation, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ion, reprinting, reuse of illustrations, r
+                                                  ecitation, broadcasting, r...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ing, reuse of illustrations, recitation, b
+                                                  roadcasting, reproduction ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...illustrations, recitation, broadcasting, r
+                                                  eproduction on microfilms ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ..., recitation, broadcasting, reproduction o
+                                                  n microfilms or in any oth...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ecitation, broadcasting, reproduction on m
+                                                  icrofilms or in any other ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...broadcasting, reproduction on microfilms o
+                                                  r in any other physical wa...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...adcasting, reproduction on microfilms or i
+                                                  n any other physical way, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...asting, reproduction on microfilms or in a
+                                                  ny other physical way, and...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ng, reproduction on microfilms or in any o
+                                                  ther physical way, and tra...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...production on microfilms or in any other p
+                                                  hysical way, and transmiss...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...n on microfilms or in any other physical w
+                                                  ay, and transmission or in...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...microfilms or in any other physical way, a
+                                                  nd transmission or informa...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ofilms or in any other physical way, and t
+                                                  ransmission or information...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...any other physical way, and transmission o
+                                                  r information storage and ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... other physical way, and transmission or i
+                                                  nformation storage and ret...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...cal way, and transmission or information s
+                                                  torage and retrieval, elec...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... and transmission or information storage a
+                                                  nd retrieval, electronic a...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... transmission or information storage and r
+                                                  etrieval, electronic adapt...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...on or information storage and retrieval, e
+                                                  lectronic adaptation, comp...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...mation storage and retrieval, electronic a
+                                                  daptation, computer softwa...
+(That makes 100 errors; please try again.)
+Output written on /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Projec
+t/local/files/data-science/democheck/data-science_final.pdf (2 pages).
+SyncTeX written on /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.synctex.gz.
+Transcript written on /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Pr
+oject/local/files/data-science/democheck/data-science_final.log.
+Latexmk: Getting log file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.log'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.fls'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.log'
+Latexmk: References changed.
+Latexmk: Missing input file 'data-science_final.toc' message in .log file:
+  No file data-science_final.toc.
+Latexmk: Missing input file '2025_03_17_ca60ec0bfd96dcf8e028g-001' message in .log file:
+  ! LaTeX Error: File `2025_03_17_ca60ec0bfd96dcf8e028g-001' not found.
+Latexmk: Log file says output to '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.pdf'
+Latexmk: Index file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.idx' was written
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: applying rule 'makeindex /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.idx'...
+Rule 'makeindex /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.idx':  Reasons for rerun
+Category 'other':
+  Rerun of 'makeindex /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.idx' forced or previously required:
+    Reason or flag: 'Initial set up of rule'
+
+------------
+Run number 1 of rule 'makeindex /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.idx'
+------------
+Latexmk: Change directory to '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/'.
+------------
+Running 'makeindex  -o "data-science_final.ind" "data-science_final.idx"'
+------------
+This is makeindex, version 2.17 [TeX Live 2025] (kpathsea + Thai support).
+Scanning input file data-science_final.idx....done (13 entries accepted, 0 rejected).
+Sorting entries....done (55 comparisons).
+Generating output file data-science_final.ind....done (47 lines written, 0 warnings).
+Output written in data-science_final.ind.
+Transcript written in data-science_final.ilg.
+Latexmk: Change directory back to '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/codes/pdf_to_latex'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.aux
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.ind
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.toc
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'xelatex -interaction=nonstopmode -synctex=1  -recorder -output-directory="/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck"  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/democheck/data-science_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/underscore/underscore.sty)
+==> First Aid for underscore.sty applied!
+(/usr/local/texlive/2025/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file data-science_final.idx
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-bengali.ldf
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/devanagaridigits.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/bengalidigits.sty))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/democheck/data-science_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/democheck/data-science_final.out)
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/democheck/data-science_final.out)
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+
+[1]
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+[2]
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/democheck/data-science_final.toc)
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.72 \section{\textbf{THE}}
+                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.72 \section{\textbf{THE}}
+                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.73 \section{\textbf{Data Science Design}}
+                                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.73 \section{\textbf{Data Science Design}}
+                                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.73 \section{\textbf{Data Science Design}}
+                                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.73 \section{\textbf{Data Science Design}}
+                                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.74 \section{\textbf{MANUAL}}
+                              
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.74 \section{\textbf{MANUAL}}
+                              
+
+! LaTeX Error: File `2025_03_17_ca60ec0bfd96dcf8e028g-001' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...dth]{2025_03_17_ca60ec0bfd96dcf8e028g-001}
+                                                  
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.81 \section{Steven S. Slaiena}
+                                
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.81 \section{Steven S. Slaiena}
+                                
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.81 \section{Steven S. Slaiena}
+                                
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.81 \section{Steven S. Slaiena}
+                                
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.82 A
+      ) Springer
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.82 A) S
+         pringer
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.84 \section{\textbf{Steven S. Skiena}}
+                                        
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.84 \section{\textbf{Steven S. Skiena}}
+                                        
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.84 \section{\textbf{Steven S. Skiena}}
+                                        
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.84 \section{\textbf{Steven S. Skiena}}
+                                        
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.86 S
+      pringer
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.88 I
+      SSN 1868-0941\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.88 ISSN 1
+           868-0941\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.89 I
+      SSN 1868-095X (electronic)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.89 ISSN 1
+           868-095X (electronic)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.89 ISSN 1868-095X (
+                     electronic)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.90 T
+      exts in Computer Science\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.90 Texts i
+            n Computer Science\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.90 Texts in C
+               omputer Science\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.90 Texts in Computer S
+                        cience\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.91 I
+      SBN 978-3-319-55443-3\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.91 ISBN 9
+           78-3-319-55443-3\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.92 I
+      SBN 978-3-319-55444-0 (eBook)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.92 ISBN 9
+           78-3-319-55444-0 (eBook)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.92 ISBN 978-3-319-55444-0 (
+                             eBook)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.93 ...https://doi.org/10.1007/978-3-319-55444-0}
+                                                  \\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 L
+      ibrary of Congress Control Number: 2017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 Library o
+              f Congress Control Number: 2017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 Library of C
+                 ongress Control Number: 2017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 Library of Congress C
+                          ontrol Number: 2017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 Library of Congress Control N
+                                  umber: 2017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 Library of Congress Control Number: 2
+                                          017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 T
+      his book was advertised with a copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This b
+           ook was advertised with a copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book w
+                as advertised with a copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book was a
+                    dvertised with a copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book was advertised w
+                               ith a copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book was advertised with a
+                                     copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book was advertised with a c
+                                      opyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book was advertised with a copyright h
+                                                older in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...k was advertised with a copyright holder i
+                                                  n the name of the publishe...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...as advertised with a copyright holder in t
+                                                  he name of the publisher i...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...dvertised with a copyright holder in the n
+                                                  ame of the publisher in er...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...ised with a copyright holder in the name o
+                                                  f the publisher in error, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...d with a copyright holder in the name of t
+                                                  he publisher in error, whe...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...th a copyright holder in the name of the p
+                                                  ublisher in error, whereas...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...ight holder in the name of the publisher i
+                                                  n error, whereas the autho...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...t holder in the name of the publisher in e
+                                                  rror, whereas the author(s...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...r in the name of the publisher in error, w
+                                                  hereas the author(s) holds...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ... name of the publisher in error, whereas t
+                                                  he author(s) holds the cop...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...e of the publisher in error, whereas the a
+                                                  uthor(s) holds the copyrig...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...ublisher in error, whereas the author(s) h
+                                                  olds the copyright.\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...er in error, whereas the author(s) holds t
+                                                  he copyright.\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...n error, whereas the author(s) holds the c
+                                                  opyright.\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.96 \textcopyright
+                   {} The Author(s) 2017\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.96 \textcopyright{} T
+                       he Author(s) 2017\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.96 \textcopyright{} The A
+                           uthor(s) 2017\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.96 \textcopyright{} The Author(s) 2
+                                     017\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 T
+      his work is subject to copyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This w
+           ork is subject to copyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work i
+                s subject to copyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work is s
+                   ubject to copyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work is subject t
+                           o copyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work is subject to c
+                              opyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work is subject to copyright. A
+                                         ll rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work is subject to copyright. All r
+                                             ights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...work is subject to copyright. All rights a
+                                                  re reserved by the Publish...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... is subject to copyright. All rights are r
+                                                  eserved by the Publisher, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ct to copyright. All rights are reserved b
+                                                  y the Publisher, whether t...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...to copyright. All rights are reserved by t
+                                                  he Publisher, whether the ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...opyright. All rights are reserved by the P
+                                                  ublisher, whether the whol...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ll rights are reserved by the Publisher, w
+                                                  hether the whole or part o...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...s are reserved by the Publisher, whether t
+                                                  he whole or part of the ma...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...e reserved by the Publisher, whether the w
+                                                  hole or part of the materi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...rved by the Publisher, whether the whole o
+                                                  r part of the material is ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...d by the Publisher, whether the whole or p
+                                                  art of the material is con...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...the Publisher, whether the whole or part o
+                                                  f the material is concerne...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... Publisher, whether the whole or part of t
+                                                  he material is concerned, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...lisher, whether the whole or part of the m
+                                                  aterial is concerned, spec...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...hether the whole or part of the material i
+                                                  s concerned, specifically ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...her the whole or part of the material is c
+                                                  oncerned, specifically the...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...le or part of the material is concerned, s
+                                                  pecifically the rights of ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... the material is concerned, specifically t
+                                                  he rights of translation, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... material is concerned, specifically the r
+                                                  ights of translation, repr...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...al is concerned, specifically the rights o
+                                                  f translation, reprinting,...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...is concerned, specifically the rights of t
+                                                  ranslation, reprinting, re...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... specifically the rights of translation, r
+                                                  eprinting, reuse of illust...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...y the rights of translation, reprinting, r
+                                                  euse of illustrations, rec...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...rights of translation, reprinting, reuse o
+                                                  f illustrations, recitatio...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...hts of translation, reprinting, reuse of i
+                                                  llustrations, recitation, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ion, reprinting, reuse of illustrations, r
+                                                  ecitation, broadcasting, r...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ing, reuse of illustrations, recitation, b
+                                                  roadcasting, reproduction ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...illustrations, recitation, broadcasting, r
+                                                  eproduction on microfilms ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ..., recitation, broadcasting, reproduction o
+                                                  n microfilms or in any oth...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ecitation, broadcasting, reproduction on m
+                                                  icrofilms or in any other ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...broadcasting, reproduction on microfilms o
+                                                  r in any other physical wa...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...adcasting, reproduction on microfilms or i
+                                                  n any other physical way, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...asting, reproduction on microfilms or in a
+                                                  ny other physical way, and...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ng, reproduction on microfilms or in any o
+                                                  ther physical way, and tra...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...production on microfilms or in any other p
+                                                  hysical way, and transmiss...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...n on microfilms or in any other physical w
+                                                  ay, and transmission or in...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...microfilms or in any other physical way, a
+                                                  nd transmission or informa...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ofilms or in any other physical way, and t
+                                                  ransmission or information...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...any other physical way, and transmission o
+                                                  r information storage and ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... other physical way, and transmission or i
+                                                  nformation storage and ret...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...cal way, and transmission or information s
+                                                  torage and retrieval, elec...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... and transmission or information storage a
+                                                  nd retrieval, electronic a...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... transmission or information storage and r
+                                                  etrieval, electronic adapt...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...on or information storage and retrieval, e
+                                                  lectronic adaptation, comp...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...mation storage and retrieval, electronic a
+                                                  daptation, computer softwa...
+(That makes 100 errors; please try again.)
+Output written on /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Projec
+t/local/files/data-science/democheck/data-science_final.pdf (2 pages).
+SyncTeX written on /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.synctex.gz.
+Transcript written on /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Pr
+oject/local/files/data-science/democheck/data-science_final.log.
+Latexmk: Getting log file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.log'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.fls'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.log'
+Latexmk: Missing input file '2025_03_17_ca60ec0bfd96dcf8e028g-001' message in .log file:
+  ! LaTeX Error: File `2025_03_17_ca60ec0bfd96dcf8e028g-001' not found.
+Latexmk: Log file says output to '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.pdf'
+Latexmk: Index file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.idx' was written
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.out
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'xelatex -interaction=nonstopmode -synctex=1  -recorder -output-directory="/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck"  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/democheck/data-science_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/underscore/underscore.sty)
+==> First Aid for underscore.sty applied!
+(/usr/local/texlive/2025/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file data-science_final.idx
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-bengali.ldf
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/devanagaridigits.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/bengalidigits.sty))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/democheck/data-science_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/democheck/data-science_final.out)
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/democheck/data-science_final.out)
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+
+[1]
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+[2]
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.70 \tableofcontents
+                     
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/democheck/data-science_final.toc)
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.72 \section{\textbf{THE}}
+                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.72 \section{\textbf{THE}}
+                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.73 \section{\textbf{Data Science Design}}
+                                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.73 \section{\textbf{Data Science Design}}
+                                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.73 \section{\textbf{Data Science Design}}
+                                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.73 \section{\textbf{Data Science Design}}
+                                           
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.74 \section{\textbf{MANUAL}}
+                              
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.74 \section{\textbf{MANUAL}}
+                              
+
+! LaTeX Error: File `2025_03_17_ca60ec0bfd96dcf8e028g-001' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...dth]{2025_03_17_ca60ec0bfd96dcf8e028g-001}
+                                                  
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.81 \section{Steven S. Slaiena}
+                                
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.81 \section{Steven S. Slaiena}
+                                
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.81 \section{Steven S. Slaiena}
+                                
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.81 \section{Steven S. Slaiena}
+                                
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.82 A
+      ) Springer
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.82 A) S
+         pringer
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.84 \section{\textbf{Steven S. Skiena}}
+                                        
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.84 \section{\textbf{Steven S. Skiena}}
+                                        
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.84 \section{\textbf{Steven S. Skiena}}
+                                        
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.84 \section{\textbf{Steven S. Skiena}}
+                                        
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.85 \section{The Data Science Design Manual}
+                                             
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.86 S
+      pringer
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.88 I
+      SSN 1868-0941\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.88 ISSN 1
+           868-0941\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.89 I
+      SSN 1868-095X (electronic)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.89 ISSN 1
+           868-095X (electronic)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.89 ISSN 1868-095X (
+                     electronic)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.90 T
+      exts in Computer Science\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.90 Texts i
+            n Computer Science\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.90 Texts in C
+               omputer Science\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.90 Texts in Computer S
+                        cience\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.91 I
+      SBN 978-3-319-55443-3\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.91 ISBN 9
+           78-3-319-55443-3\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.92 I
+      SBN 978-3-319-55444-0 (eBook)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.92 ISBN 9
+           78-3-319-55444-0 (eBook)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.92 ISBN 978-3-319-55444-0 (
+                             eBook)\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.93 ...https://doi.org/10.1007/978-3-319-55444-0}
+                                                  \\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 L
+      ibrary of Congress Control Number: 2017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 Library o
+              f Congress Control Number: 2017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 Library of C
+                 ongress Control Number: 2017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 Library of Congress C
+                          ontrol Number: 2017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 Library of Congress Control N
+                                  umber: 2017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.94 Library of Congress Control Number: 2
+                                          017943201\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 T
+      his book was advertised with a copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This b
+           ook was advertised with a copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book w
+                as advertised with a copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book was a
+                    dvertised with a copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book was advertised w
+                               ith a copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book was advertised with a
+                                     copyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book was advertised with a c
+                                      opyright holder in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 This book was advertised with a copyright h
+                                                older in the name of the pub...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...k was advertised with a copyright holder i
+                                                  n the name of the publishe...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...as advertised with a copyright holder in t
+                                                  he name of the publisher i...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...dvertised with a copyright holder in the n
+                                                  ame of the publisher in er...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...ised with a copyright holder in the name o
+                                                  f the publisher in error, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...d with a copyright holder in the name of t
+                                                  he publisher in error, whe...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...th a copyright holder in the name of the p
+                                                  ublisher in error, whereas...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...ight holder in the name of the publisher i
+                                                  n error, whereas the autho...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...t holder in the name of the publisher in e
+                                                  rror, whereas the author(s...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...r in the name of the publisher in error, w
+                                                  hereas the author(s) holds...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ... name of the publisher in error, whereas t
+                                                  he author(s) holds the cop...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...e of the publisher in error, whereas the a
+                                                  uthor(s) holds the copyrig...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...ublisher in error, whereas the author(s) h
+                                                  olds the copyright.\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...er in error, whereas the author(s) holds t
+                                                  he copyright.\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.95 ...n error, whereas the author(s) holds the c
+                                                  opyright.\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.96 \textcopyright
+                   {} The Author(s) 2017\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.96 \textcopyright{} T
+                       he Author(s) 2017\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.96 \textcopyright{} The A
+                           uthor(s) 2017\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.96 \textcopyright{} The Author(s) 2
+                                     017\\
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 T
+      his work is subject to copyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This w
+           ork is subject to copyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work i
+                s subject to copyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work is s
+                   ubject to copyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work is subject t
+                           o copyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work is subject to c
+                              opyright. All rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work is subject to copyright. A
+                                         ll rights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 This work is subject to copyright. All r
+                                             ights are reserved by the Publi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...work is subject to copyright. All rights a
+                                                  re reserved by the Publish...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... is subject to copyright. All rights are r
+                                                  eserved by the Publisher, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ct to copyright. All rights are reserved b
+                                                  y the Publisher, whether t...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...to copyright. All rights are reserved by t
+                                                  he Publisher, whether the ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...opyright. All rights are reserved by the P
+                                                  ublisher, whether the whol...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ll rights are reserved by the Publisher, w
+                                                  hether the whole or part o...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...s are reserved by the Publisher, whether t
+                                                  he whole or part of the ma...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...e reserved by the Publisher, whether the w
+                                                  hole or part of the materi...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...rved by the Publisher, whether the whole o
+                                                  r part of the material is ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...d by the Publisher, whether the whole or p
+                                                  art of the material is con...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...the Publisher, whether the whole or part o
+                                                  f the material is concerne...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... Publisher, whether the whole or part of t
+                                                  he material is concerned, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...lisher, whether the whole or part of the m
+                                                  aterial is concerned, spec...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...hether the whole or part of the material i
+                                                  s concerned, specifically ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...her the whole or part of the material is c
+                                                  oncerned, specifically the...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...le or part of the material is concerned, s
+                                                  pecifically the rights of ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... the material is concerned, specifically t
+                                                  he rights of translation, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... material is concerned, specifically the r
+                                                  ights of translation, repr...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...al is concerned, specifically the rights o
+                                                  f translation, reprinting,...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...is concerned, specifically the rights of t
+                                                  ranslation, reprinting, re...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... specifically the rights of translation, r
+                                                  eprinting, reuse of illust...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...y the rights of translation, reprinting, r
+                                                  euse of illustrations, rec...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...rights of translation, reprinting, reuse o
+                                                  f illustrations, recitatio...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...hts of translation, reprinting, reuse of i
+                                                  llustrations, recitation, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ion, reprinting, reuse of illustrations, r
+                                                  ecitation, broadcasting, r...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ing, reuse of illustrations, recitation, b
+                                                  roadcasting, reproduction ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...illustrations, recitation, broadcasting, r
+                                                  eproduction on microfilms ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ..., recitation, broadcasting, reproduction o
+                                                  n microfilms or in any oth...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ecitation, broadcasting, reproduction on m
+                                                  icrofilms or in any other ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...broadcasting, reproduction on microfilms o
+                                                  r in any other physical wa...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...adcasting, reproduction on microfilms or i
+                                                  n any other physical way, ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...asting, reproduction on microfilms or in a
+                                                  ny other physical way, and...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ng, reproduction on microfilms or in any o
+                                                  ther physical way, and tra...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...production on microfilms or in any other p
+                                                  hysical way, and transmiss...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...n on microfilms or in any other physical w
+                                                  ay, and transmission or in...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...microfilms or in any other physical way, a
+                                                  nd transmission or informa...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...ofilms or in any other physical way, and t
+                                                  ransmission or information...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...any other physical way, and transmission o
+                                                  r information storage and ...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... other physical way, and transmission or i
+                                                  nformation storage and ret...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...cal way, and transmission or information s
+                                                  torage and retrieval, elec...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... and transmission or information storage a
+                                                  nd retrieval, electronic a...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ... transmission or information storage and r
+                                                  etrieval, electronic adapt...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...on or information storage and retrieval, e
+                                                  lectronic adaptation, comp...
+
+! Undefined control sequence.
+<XeTeXinterchartoks> \lgcfont 
+                              
+l.97 ...mation storage and retrieval, electronic a
+                                                  daptation, computer softwa...
+(That makes 100 errors; please try again.)
+Output written on /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Projec
+t/local/files/data-science/democheck/data-science_final.pdf (2 pages).
+SyncTeX written on /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.synctex.gz.
+Transcript written on /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Pr
+oject/local/files/data-science/democheck/data-science_final.log.
+Latexmk: Getting log file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.log'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.fls'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.log'
+Latexmk: Missing input file '2025_03_17_ca60ec0bfd96dcf8e028g-001' message in .log file:
+  ! LaTeX Error: File `2025_03_17_ca60ec0bfd96dcf8e028g-001' not found.
+Latexmk: Log file says output to '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.pdf'
+Latexmk: Index file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.idx' was written
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/democheck/data-science_final.log' and/or above output for details
+

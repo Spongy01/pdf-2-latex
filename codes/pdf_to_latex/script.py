@@ -34,9 +34,60 @@ from cleaner import clean_it_up
 import subprocess
 import shutil
 
+import os, sys
+
+sys.path.append(os.path.dirname(__file__))
+# Import the core module
+from version_control.version_history import (
+    load_version_history,
+    get_current_version,
+    update_version_usage,
+)
+
+
+def get_current_version_name():
+    """
+    Get the current version name from version control.
+    Returns the name of the currently active version.
+    If no version is found or version control is not initialized,
+    returns 'original' as the default.
+    """
+    try:
+        # Get the path to version_control relative to this file
+
+        # version_control_path = os.path.join(current_file_dir, "../version_control")
+
+        # # Add to path if needed
+        # if version_control_path not in sys.path:
+        #     sys.path.insert(0, version_control_path)
+
+        # Load version history
+        versions = load_version_history()
+
+        # Get current version
+        current = get_current_version(versions)
+
+        print("Current version info:", current)
+
+        if current:
+            return current["name"]
+        else:
+            # Fallback to original if no current version found
+            print("⚠ Warning: No current version found, using 'original'")
+            return "original"
+
+    except ImportError as e:
+        # If version_control module not found, return default
+        print(f"⚠ Warning: Version control not found ({e}), using 'original'")
+        return "original"
+    except Exception as e:
+        # Any other error, return default
+        print(f"⚠ Warning: Error loading version ({e}), using 'original'")
+        return "original"
+
 
 def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
-    """Set up folder structure for the conversion process."""
+    """Set up folder structure for the conversion process with version control."""
 
     # Extract file_name if not provided
     if file_name is None:
@@ -46,33 +97,38 @@ def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
     current_dir = os.path.dirname(os.path.abspath(__file__))
     root_dir = os.path.abspath(os.path.join(current_dir, "../../"))
 
-    # book_folder = os.path.join(root_dir, f"files/{file_name}_book/inputs/")
-    # tex_folder = os.path.join(root_dir, f"files/{file_name}_book/inputs/")
-    # output_folder = os.path.join(root_dir, f"files/{file_name}_book/outputs/")
+    # Book folder (main folder for this book)
+    book_folder = os.path.join(root_dir, f"files/{file_name}")
+    os.makedirs(book_folder, exist_ok=True)
 
-    # os.makedirs(book_folder, exist_ok=True)
-    # os.makedirs(tex_folder, exist_ok=True)
+    # Get current version name from version control
+    version_name = get_current_version_name()
+
+    # Create version folder: files/{file_name}/{version_name}
+    version_folder = os.path.join(book_folder, version_name)
+
+    # Use version folder as output folder if not explicitly provided
+    # if output_folder is None:
+    output_folder = version_folder
+
+    # Create version-specific output folder
     os.makedirs(output_folder, exist_ok=True)
+
+    print(f"📁 Using version: {version_name}")
+    print(f"📂 Output folder: {output_folder}")
 
     # Define paths
     book_path = file_path
     tex_path = tex_file_path
 
-    # Copy files if they don't exist
-    # if not os.path.exists(book_path) and os.path.exists(file_path):
-    #     shutil.copy2(file_path, book_path)
-    #     print(f"Copied {file_path} -> {book_path}")
-
-    # if not os.path.exists(tex_path) and os.path.exists(tex_file_path):
-    #     shutil.copy2(tex_file_path, tex_path)
-    #     print(f"Copied {tex_file_path} -> {tex_path}")
-
     # Return paths
-
     paths = {
         "book_path": book_path,
         "tex_path": tex_path,
         "output_folder": output_folder,
+        "version_name": version_name,  # Changed from version_number
+        "version_folder": version_folder,  # Added for clarity
+        "book_folder": book_folder,
         "pg_sep_path": os.path.join(output_folder, f"{file_name}_pg_sep.tex"),
         "bib_path": os.path.join(output_folder, f"{file_name}_pg_sep_bib.tex"),
         "gpt_path": os.path.join(output_folder, f"{file_name}_gpt.tex"),
@@ -85,6 +141,7 @@ def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
 
     return paths
 
+
 def store_final(out_tex_path, final_output_path):
     """Store the final output to a designated path."""
     if os.path.exists(out_tex_path):
@@ -92,8 +149,6 @@ def store_final(out_tex_path, final_output_path):
         print(f"Stored final output: {out_tex_path} -> {final_output_path}")
     else:
         print(f"Final output file does not exist: {out_tex_path}")
-
-
 
 
 # ------------- MAIN PIPELINE FUNCTION -------------
@@ -153,8 +208,11 @@ def run_pipeline(
     if 1 not in skip_steps:
         try:
             book_pdf, latex_with_pages, page_numbers = create_page_separators(
-                paths["book_path"], current_tex_path, paths["pg_sep_path"], paths["output_folder"]
-            )  # Directly writes to ouptut path provided, pg_sep_path
+                paths["book_path"],
+                current_tex_path,
+                paths["pg_sep_path"],
+                paths["output_folder"],
+            )
             current_tex_path = paths["pg_sep_path"]
             results["steps_completed"].append(1)
             results["page_separator_output"] = current_tex_path
@@ -188,7 +246,7 @@ def run_pipeline(
     # Step 3: Format with AI (if not skipped)
     if 3 not in skip_steps:
         try:
-            current_tex_path = format_with_gpt( # here the output current_tex_path is final_path that is _cleaned_final.tex
+            current_tex_path = format_with_gpt(  # here the output current_tex_path is final_path that is _cleaned_final.tex
                 paths["book_path"],
                 current_tex_path,
                 paths["gpt_path"],
@@ -207,7 +265,7 @@ def run_pipeline(
 
     if 4 not in skip_steps:
         try:
-            current_tex_path = clean_it_up( # output file is _cleaned.tex
+            current_tex_path = clean_it_up(  # output file is _cleaned.tex
                 current_tex_path, paths["book_path"], paths["cleaned_path"]
             )
             results["steps_completed"].append(4)
@@ -234,32 +292,31 @@ def run_pipeline(
     # store to the final output path
     store_final(current_tex_path, paths["final_path"])
 
-
     end_time = datetime.now()
     duration = end_time - start_time
     print(f"\nPDF to LaTeX conversion pipeline completed in {duration}")
     print(f"Steps completed: {results['steps_completed']}")
     print(f"Final output: {results['final_output']}")
 
+    current_file_dir = os.path.dirname(os.path.abspath(__file__))
+    version_control_path = os.path.join(current_file_dir, "version_control")
+    # Update version usage tracking
+    update_version_usage(version_control_path, file_name, paths["version_name"])
+
     print("Compiling the final LaTeX document to a PDF...")
     log_path = os.path.join(paths["output_folder"], "compile_log.txt")
 
     with open(log_path, "w", encoding="utf-8") as log_file:
         compile_result = subprocess.run(
-            [
-                "latexmk",
-                f"-outdir={paths['output_folder']}",
-                paths["final_path"]
-            ],
+            ["latexmk", f"-outdir={paths['output_folder']}", paths["final_path"]],
             stdout=log_file,
             stderr=subprocess.STDOUT,
-            text=True
+            text=True,
         )
     print(f"Compilation complete. Log saved to: {log_path}")
 
-    
-    # print("stdout:\n", compile_result.stdout)
-    # print("stderr:\n", compile_result.stderr)
+    print("stdout:\n", compile_result.stdout)
+    print("stderr:\n", compile_result.stderr)
 
     return results
 

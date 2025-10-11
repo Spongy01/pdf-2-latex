@@ -1,0 +1,39 @@
+{
+  "scoring_method": "multi-metric",
+  "timestamp": "2025-10-10T18:46:56.005825",
+  "total_books": 1,
+  "valid_books": 1,
+  "average_score": 0.0,
+  "results": [
+    {
+      "book_name": "assembly",
+      "input_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/inputs/assembly.tex",
+      "output_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/outputs/assembly_final.tex",
+      "scoring_method": "multi-metric",
+      "timestamp": "2025-10-10T18:46:55.995089",
+      "valid": true,
+      "score": 0.0,
+      "details": {
+        "Score": 18.0,
+        "Latex Errors": 53,
+        "Latex Warnings": 5,
+        "Bibtex (metadata)": -1,
+        "Bibtex extracted (json)": 3,
+        "Entries Cited": 0,
+        "Chapters (metadata)": 16,
+        "Chapters (output)": 2,
+        "Sections (metadata)": 126,
+        "Sections (output)": 159,
+        "Subsections (metadata)": 12,
+        "Subsections (output)": 15,
+        "Figures (metadata)": 16,
+        "Figures (output)": 55,
+        "Tables (metadata)": 32,
+        "Tables (output)": 14,
+        "Index Entries (metadata)": -1,
+        "Index Entries (output)": 0
+      },
+      "error": null
+    }
+  ]
+}

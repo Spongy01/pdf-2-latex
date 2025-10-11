@@ -1,0 +1,2251 @@
+Rc files read:
+  .latexmkrc
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'xelatex -interaction=nonstopmode -synctex=1  -recorder -output-directory="/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/original"  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/original/ai_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+original/ai_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/underscore/underscore.sty)
+==> First Aid for underscore.sty applied!
+(/usr/local/texlive/2025/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bbold/bbold.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file ai_final.idx
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+original/ai_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+No file ai_final.toc.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+[1]
+[2]
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+original/ai_final.toc)
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-009' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...ter]{2025_05_12_af19cd5e0d1b8a465ffeg-009}
+                                                  
+
+LaTeX Warning: Citation `bra84' on page 3 undefined on input line 93.
+
+
+[3]
+
+LaTeX Warning: Citation `bri91' on page 4 undefined on input line 95.
+
+
+LaTeX Warning: Citation `ric83' on page 4 undefined on input line 101.
+
+
+Overfull \hbox (4.60292pt too wide) in paragraph at lines 104--105
+[]\TU/Georgia(0)/m/n/10 Artificial Intelligence is the study of how to make com
+puters do things
+
+[4]
+Overfull \hbox (1.24678pt too wide) in paragraph at lines 122--123
+[]\TU/Georgia(0)/m/n/10 There are many interesting philosophical questions surr
+ounding intelligence
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-011' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 ...er]{2025_05_12_af19cd5e0d1b8a465ffeg-011}
+                                                  
+
+LaTeX Warning: Citation `spe98' on page 5 undefined on input line 131.
+
+
+LaTeX Warning: Citation `spe97' on page 5 undefined on input line 131.
+
+
+[5]
+
+LaTeX Warning: Citation `tur50' on page 6 undefined on input line 134.
+
+
+LaTeX Warning: Citation `wei66' on page 6 undefined on input line 138.
+
+
+LaTeX Warning: Citation `tur37' on page 6 undefined on input line 150.
+
+
+LaTeX Warning: Citation `sam59' on page 6 undefined on input line 158.
+
+
+LaTeX Warning: Citation `nss83' on page 6 undefined on input line 161.
+
+
+LaTeX Warning: Citation `ns61' on page 6 undefined on input line 167.
+
+
+LaTeX Warning: Citation `rob65' on page 6 undefined on input line 171.
+
+
+LaTeX Warning: Citation `mp69' on page 6 undefined on input line 175.
+
+
+LaTeX Warning: Citation `ddls72' on page 6 undefined on input line 178.
+
+
+LaTeX Warning: Citation `mcd82' on page 6 undefined on input line 184.
+
+
+LaTeX Warning: Citation `rm86' on page 6 undefined on input line 186.
+
+
+LaTeX Warning: Citation `sr86' on page 6 undefined on input line 186.
+
+
+LaTeX Warning: Citation `pea88' on page 6 undefined on input line 188.
+
+
+LaTeX Warning: Citation `che85' on page 6 undefined on input line 188.
+
+
+Overfull \hbox (1064.77313pt too wide) in paragraph at lines 146--191
+ [] 
+
+[6]
+
+LaTeX Warning: Citation `roba' on page 7 undefined on input line 200.
+
+
+LaTeX Warning: Citation `shm16' on page 7 undefined on input line 226.
+
+
+Overfull \hbox (1067.50426pt too wide) in paragraph at lines 196--229
+ [] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+[7]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-015' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.240 ...th]{2025_05_12_af19cd5e0d1b8a465ffeg-015}
+                                                  
+
+Overfull \hbox (0.73477pt too wide) in paragraph at lines 246--247
+[]\TU/Georgia(0)/m/n/10 In the 1940s, based on results from neuroscience, McCul
+loch, Pitts and Hebb
+
+Overfull \hbox (4.70839pt too wide) in paragraph at lines 249--250
+\TU/Georgia(0)/m/n/10 Newell and Simon introduced Logic Theorist, the first aut
+omatic theorem prover,
+
+[8]
+
+LaTeX Warning: Citation `rn10' on page 9 undefined on input line 260.
+
+
+Overfull \hbox (8.77057pt too wide) in paragraph at lines 272--276
+\TU/Georgia(0)/m/n/10 hensibility, the clean semantics of conditional probabili
+ty, and from the centuries-
+
+Overfull \hbox (5.15782pt too wide) in paragraph at lines 272--276
+\TU/Georgia(0)/m/n/10 old, mathematically grounded probability theory. The weak
+nesses of logic, which
+
+[9]
+
+LaTeX Warning: Citation `se90' on page 10 undefined on input line 277.
+
+
+Overfull \hbox (0.31581pt too wide) in paragraph at lines 281--282
+\TU/Georgia(0)/m/n/10 area of statistical data analysis for extraction of knowl
+edge from large databases.
+
+[10]
+
+LaTeX Warning: Citation `ss16' on page 11 undefined on input line 303.
+
+
+[11]
+
+LaTeX Warning: Citation `mmzm72' on page 12 undefined on input line 312.
+
+
+LaTeX Warning: Citation `ran12' on page 12 undefined on input line 312.
+
+
+LaTeX Warning: Citation `pae16' on page 12 undefined on input line 312.
+
+
+[12]
+
+LaTeX Warning: Citation `pik14' on page 13 undefined on input line 321.
+
+
+LaTeX Warning: Citation `gp58' on page 13 undefined on input line 331.
+
+
+LaTeX Warning: Citation `fel14' on page 13 undefined on input line 331.
+
+
+LaTeX Warning: Citation `gk09' on page 13 undefined on input line 331.
+
+
+Overfull \hbox (3.56418pt too wide) in paragraph at lines 331--335
+\TU/Georgia(0)/m/n/10 highly prosperous, more sustainable human world with less
+ environmental dam-
+
+Overfull \hbox (2.55757pt too wide) in paragraph at lines 331--335
+\TU/Georgia(0)/m/n/10 age and more local trade. The reader may study the litera
+ture and assess whether
+
+Overfull \hbox (10.11288pt too wide) in paragraph at lines 331--335
+\TU/Georgia(0)/m/n/10 physicist Stephen Hawking. In a community-driven intervie
+w on [][]www.reddit.com[][]
+
+[13]
+[14]
+
+LaTeX Warning: Citation `ghz14' on page 15 undefined on input line 358.
+
+
+LaTeX Warning: Citation `gs15' on page 15 undefined on input line 358.
+
+
+Overfull \hbox (5.15501pt too wide) in paragraph at lines 356--359
+\TU/Georgia(0)/m/n/10 sponsibilities and expenses, such as refueling, technical
+ service, cleaning, search-
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-023' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.373 ...th]{2025_05_12_af19cd5e0d1b8a465ffeg-023}
+                                                  
+
+[15]
+
+LaTeX Warning: Citation `spr16' on page 16 undefined on input line 377.
+
+
+[16]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-024' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.402 ...th]{2025_05_12_af19cd5e0d1b8a465ffeg-024}
+                                                  
+
+Overfull \hbox (94.31067pt too wide) in paragraph at lines 411--424
+ [] 
+
+[17]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-026' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.449 ...th]{2025_05_12_af19cd5e0d1b8a465ffeg-026}
+                                                  
+
+LaTeX Warning: Citation `fna09' on page 18 undefined on input line 455.
+
+
+LaTeX Warning: Citation `dee11' on page 18 undefined on input line 455.
+
+
+[18]
+Overfull \hbox (4.28325pt too wide) in paragraph at lines 458--459
+\TU/Georgia(0)/m/n/10 chine Learning, Knowledge Representation and Reasoning, a
+nd mas-
+
+Overfull \hbox (3.71524pt too wide) in paragraph at lines 468--469
+\TU/Georgia(0)/m/n/10 pending on your interest level, develop a simple or compl
+ex chatterbot, or change
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 470--472
+
+
+Overfull \hbox (1.65521pt too wide) in paragraph at lines 473--474
+\TU/Georgia(0)/m/n/10 Many well-known inference processes, learning processes, 
+etc. are NP-complete
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--478
+
+
+[20]
+[21]
+Overfull \hbox (2.3858pt too wide) in paragraph at lines 537--538
+[]\TU/Georgia(0)/m/n/10 Because every proposition variable can take on two trut
+h values, every propo-
+
+[22]
+[23]
+[24]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-035' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.691 ...er]{2025_05_12_af19cd5e0d1b8a465ffeg-035}
+                                                  
+
+[25]
+[26]
+
+LaTeX Warning: Citation `ber89' on page 27 undefined on input line 777.
+
+
+[27]
+Overfull \hbox (0.81029pt too wide) in paragraph at lines 781--782
+[]\TU/Georgia(0)/m/n/10 To solve this kind of problem we proceed in three steps
+: formalization, trans-
+
+[28]
+[29]
+[30]
+Overfull \hbox (11.75533pt too wide) in paragraph at lines 948--949
+[]\TU/Georgia(0)/m/n/10 Before application of the inference rule, $\OML/cmm/m/i
+t/10 B[]; B[]; [] ; B[]$\TU/Georgia(0)/m/n/10 —the current subgoals—
+
+[31]
+[32]
+Overfull \hbox (2.7979pt too wide) in paragraph at lines 975--979
+[]\TU/Georgia(0)/m/n/10 Exercise 2.3 Transform the following formulas into conj
+unctive normal form: 
+
+Overfull \hbox (5.14784pt too wide) in paragraph at lines 1009--1013
+[]\TU/Georgia(0)/m/n/10 Exercise 2.12 Prove the following equivalences, which a
+re important for work-
+
+[33]
+
+Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
+(xeCJK)                
+(xeCJK)                Try to use `\setCJKmonofont[<...>]{<...>}' to define
+(xeCJK)                it.
+
+
+Overfull \hbox (4.87927pt too wide) in paragraph at lines 1048--1049
+\TU/Georgia(0)/m/n/10 at_-xy_-position_-(35, 79) $\OMS/cmsy/m/n/10 ^$ \TU/Georg
+ia(0)/m/n/10 Robot_-12_-is_-situated_-at_-xy_-position_-
+
+[34]
+Overfull \hbox (119.83084pt too wide) in paragraph at lines 1085--1120
+ [] 
+
+Underfull \vbox (badness 2564) has occurred while \output is active
+[35] (/usr/local/texlive/2025/texmf-dist/tex/latex/bbold/Ubbold.fd)
+[36]
+Overfull \hbox (5.39212pt too wide) in paragraph at lines 1158--1159
+\TU/Georgia(0)/m/n/10 numbers with $\OML/cmm/m/it/10 x > y$\TU/Georgia(0)/m/n/1
+0 , meaning the set $\OML/cmm/m/it/10 G \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OT
+1/cmr/m/n/10 (4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3)\OML/cmm/m/it/10 ; \OT1/cmr
+/m/n/10 (4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/
+10 (4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (3
+\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (3\OML/
+cmm/m/it/10 ; \OT1/cmr/m/n/10 1)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (2\OML/cmm/m
+/it/10 ; \OT1/cmr/m/n/10 1)\OMS/cmsy/m/n/10 g$\TU/Georgia(0)/m/n/10 .
+
+Overfull \hbox (17.1371pt too wide) in paragraph at lines 1182--1183
+[]\TU/Georgia(0)/m/n/10 The truth of quantifierless formulas follows from the t
+ruth of atomic formulas-
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
+
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-049' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1194 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-049}
+                                                  
+
+[38]
+[39]
+Overfull \hbox (7.30962pt too wide) in paragraph at lines 1298--1299
+[]\TU/Georgia(0)/m/n/10 Quantifiers are an important component of predicate log
+ic’s expressive power.
+
+[40]
+Overfull \hbox (4.30453pt too wide) detected at line 1374
+\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 " [] :
+
+Overfull \hbox (1.31679pt too wide) in paragraph at lines 1386--1387
+[]\TU/Georgia(0)/m/n/10 Theorem 3.2 Every predicate logic formula can be transf
+ormed into an equiv-
+
+[41]
+Overfull \hbox (13.95068pt too wide) in paragraph at lines 1418--1420
+\TU/Georgia(0)/m/n/10 are eliminated from the outside inward, where a formula o
+f the form $\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x[] [] \OMS/cmsy/m/n/10 8\OML/cm
+m/m/it/10 x[]\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 y'$
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-055' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1423 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-055}
+                                                  
+
+LaTeX Warning: Citation `ede91' on page 42 undefined on input line 1427.
+
+
+[42]
+Overfull \hbox (42.77402pt too wide) in paragraph at lines 1441--1449
+ [][] 
+
+[43]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-057' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1470 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-057}
+                                                  
+
+[44]
+Overfull \hbox (3.49171pt too wide) in paragraph at lines 1524--1531
+ [] 
+
+Overfull \hbox (4.7452pt too wide) in paragraph at lines 1533--1534
+[]\TU/Georgia(0)/m/n/10 where $\OML/cmm/m/it/10 ^^[[]$ \TU/Georgia(0)/m/n/10 is
+ the most general unifier. The other unifiers result from $\OML/cmm/m/it/10 ^^[
+[]$ \TU/Georgia(0)/m/n/10 through
+
+LaTeX Warning: Citation `bib82' on page 45 undefined on input line 1535.
+
+
+[45]
+Overfull \hbox (9.28397pt too wide) in paragraph at lines 1557--1559
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 :[]\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 ; x\OT
+1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 _ :[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; x\OT1
+/cmr/m/n/10 ))[] \OMS/cmsy/m/n/10 ^ \OT1/cmr/m/n/10 ([]([]\OML/cmm/m/it/10 ; x\
+OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 _ []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; x\OT
+1/cmr/m/n/10 ))[]$\TU/Georgia(0)/m/n/10 . 
+
+[46]
+[47]
+
+LaTeX Warning: Citation `lov78' on page 48 undefined on input line 1608.
+
+
+LaTeX Warning: Citation `mcc' on page 48 undefined on input line 1613.
+
+
+Overfull \hbox (6.95697pt too wide) in paragraph at lines 1613--1614
+\TU/Georgia(0)/m/n/10 Implementations of proof calculi on computers are called 
+theorem provers. Along
+
+LaTeX Warning: Citation `kal01' on page 48 undefined on input line 1615.
+
+
+LaTeX Warning: Citation `lsbb92' on page 48 undefined on input line 1621.
+
+
+LaTeX Warning: Citation `sch02' on page 48 undefined on input line 1621.
+
+
+[48]
+
+LaTeX Warning: Citation `npw02' on page 49 undefined on input line 1626.
+
+
+Overfull \hbox (12.82852pt too wide) in paragraph at lines 1626--1627
+\TU/Georgia(0)/m/n/10 finding a proof, the next best thing is to build systems 
+that work semi-automatically
+
+LaTeX Warning: Citation `ss06' on page 49 undefined on input line 1628.
+
+
+LaTeX Warning: Citation `cad' on page 49 undefined on input line 1628.
+
+
+[49]
+[50]
+[51]
+
+LaTeX Warning: Citation `fs97' on page 52 undefined on input line 1764.
+
+
+LaTeX Warning: Citation `sch01' on page 52 undefined on input line 1764.
+
+
+[52]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-068' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1788 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-068}
+                                                  
+
+Overfull \hbox (13.24382pt too wide) detected at line 1798
+[][]
+
+[53]
+
+LaTeX Warning: Citation `set09' on page 54 undefined on input line 1805.
+
+
+LaTeX Warning: Citation `va06' on page 54 undefined on input line 1807.
+
+
+[54]
+
+LaTeX Warning: Citation `new00' on page 55 undefined on input line 1812.
+
+
+LaTeX Warning: Citation `fit96' on page 55 undefined on input line 1812.
+
+
+LaTeX Warning: Citation `cl73' on page 55 undefined on input line 1812.
+
+
+[55]
+
+LaTeX Warning: Citation `ps09' on page 56 undefined on input line 1866.
+
+
+[56]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-072' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1870 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-072}
+                                                  
+
+LaTeX Warning: Citation `ess89' on page 57 undefined on input line 1878.
+
+
+Overfull \hbox (3.20775pt too wide) in paragraph at lines 1880--1881
+\TU/Georgia(0)/m/n/10 are stored as positive, and the attributes of all unsucce
+ssful resolutions are stored
+
+LaTeX Warning: Citation `sb04' on page 57 undefined on input line 1882.
+
+
+[57]
+Overfull \hbox (0.30768pt too wide) in paragraph at lines 1889--1890
+[]\TU/Georgia(0)/m/n/10 Theorem 4.1 The set of valid formulas in first-order pr
+edicate logic is semide-
+
+Overfull \hbox (3.52675pt too wide) in paragraph at lines 1891--1892
+[]\TU/Georgia(0)/m/n/10 This theorem implies that there are programs (theorem p
+rovers) which, given
+
+Overfull \hbox (6.5338pt too wide) in paragraph at lines 1900--1902
+\TU/Georgia(0)/m/n/10 is a second-order proposition because it quantifies over 
+a predicate. Gödel proved
+
+[58]
+[59]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-076' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1958 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-076}
+                                                  
+
+[60]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-078' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2024 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-078}
+                                                  
+
+[61]
+Overfull \hbox (34.14946pt too wide) in paragraph at lines 2047--2060
+ [] 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2062 \hline
+             
+! Misplaced \crcr.
+\endtabular ->\crcr 
+                    \egroup \egroup $\egroup 
+l.2063 \end{tabular}
+                    
+! Too many }'s.
+\endtabular ->\crcr \egroup 
+                            \egroup $\egroup 
+l.2063 \end{tabular}
+                    
+! Too many }'s.
+\endtabular ->\crcr \egroup \egroup 
+                                    $\egroup 
+l.2063 \end{tabular}
+                    
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.2063 \end{tabular}
+                    
+
+! LaTeX Error: \begin{document} ended by \end{tabular}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2063 \end{tabular}
+                    
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2063 \end{tabular}
+                    
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.2063 \end{tabular}
+                    
+
+! LaTeX Error: \begin{document} ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2064 \end{center}
+                   
+! Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.2064 \end{center}
+                   
+
+[62]
+Overfull \hbox (3.87885pt too wide) in paragraph at lines 2080--2081
+\TU/Georgia(0)/m/n/10 components, a purely declarative description is often ins
+ufficient. Robert Kowal-
+
+LaTeX Warning: Citation `bra11' on page 63 undefined on input line 2086.
+
+
+LaTeX Warning: Citation `cm94' on page 63 undefined on input line 2086.
+
+
+LaTeX Warning: Citation `wie04' on page 63 undefined on input line 2086.
+
+
+LaTeX Warning: Citation `dia04' on page 63 undefined on input line 2086.
+
+
+[63]
+[64]
+[65]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-083' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2187 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-083}
+                                                  
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-084' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2196 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-084}
+                                                  
+
+[66]
+[67]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-086' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2264 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-086}
+                                                  
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-086(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2271 ...2025_05_12_af19cd5e0d1b8a465ffeg-086(1)}
+                                                  
+
+[68]
+[69]
+[70]
+
+LaTeX Warning: Citation `cep15b' on page 71 undefined on input line 2414.
+
+
+LaTeX Warning: Citation `cep15a' on page 71 undefined on input line 2414.
+
+
+Underfull \vbox (badness 1226) has occurred while \output is active
+[71]
+
+LaTeX Warning: Citation `fre97' on page 72 undefined on input line 2419.
+
+
+[72]
+Overfull \hbox (8.25656pt too wide) in paragraph at lines 2471--2472
+[]\TU/Georgia(0)/m/n/10 Represented somewhat more conveniently, we have the fol
+lowing room sched-
+
+[73]
+Overfull \hbox (6.41118pt too wide) in paragraph at lines 2490--2491
+\TU/Georgia(0)/m/n/10 Europe’s leading programming languages in AI, along with 
+procedural languages.
+
+LaTeX Warning: Citation `bar98' on page 74 undefined on input line 2494.
+
+
+Overfull \hbox (4.35551pt too wide) in paragraph at lines 2497--2498
+\TU/Georgia(0)/m/n/10 and right-neutral elements of semi-groups with PROLOG. Wh
+ich problems come
+
+[74]
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.2515 }
+        
+
+Underfull \hbox (badness 10000) in paragraph at lines 2514--2517
+
+
+Overfull \hbox (34.35162pt too wide) in paragraph at lines 2521--2522
+\TU/Georgia(0)/m/n/10 append, and accrev, for example by carrying out time meas
+urements (time(+Goal)
+
+[75]
+Overfull \hbox (2.42487pt too wide) in paragraph at lines 2541--2542
+[]\TU/Georgia(0)/m/n/10 Every resident prefers a specific drink, smokes a speci
+fic brand of cigarette,
+
+LaTeX Warning: Citation `ert93' on page 76 undefined on input line 2568.
+
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-096' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2572 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-096}
+                                                  
+
+[76]
+Overfull \hbox (3.59837pt too wide) in paragraph at lines 2590--2591
+\TU/Georgia(0)/m/n/10 simple thought exercise, we can quickly recognize that th
+ere is no realistic chance
+
+[77]
+
+LaTeX Warning: Citation `nil98' on page 78 undefined on input line 2596.
+
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-098(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2605 ...2025_05_12_af19cd5e0d1b8a465ffeg-098(1)}
+                                                  
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-098' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2611 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-098}
+                                                  
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-099' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2612 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-099}
+                                                  
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-099(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2620 ...2025_05_12_af19cd5e0d1b8a465ffeg-099(1)}
+                                                  
+
+[78]
+Overfull \hbox (6.92357pt too wide) in paragraph at lines 2628--2629
+[]\TU/Georgia(0)/m/n/10 Before we begin describing the search algorithms, a few
+ new terms are needed.
+
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 2678--2684
+
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-101' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2687 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-101}
+                                                  
+
+[80]
+Overfull \hbox (5.51924pt too wide) in paragraph at lines 2704--2705
+\TU/Georgia(0)/m/n/10 two application-specific functions “GoalReached” and “Suc
+cessors” are provided. 
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-103' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2723 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-103}
+                                                  
+
+[81]
+Overfull \hbox (4.06743pt too wide) in paragraph at lines 2740--2742
+\TU/Georgia(0)/m/n/10 Analysis Depth-first search requires much less memory tha
+n breadth-first search
+
+[82]
+Underfull \hbox (badness 10000) in paragraph at lines 2758--2759
+
+
+! LaTeX Error: File `2025\_05\_12\_af19cd5e0d1b8a465ffeg-105(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2762 ...5\_05\_12\_af19cd5e0d1b8a465ffeg-105(1)}
+                                                  
+
+! LaTeX Error: File `2025\_05\_12\_af19cd5e0d1b8a465ffeg-105' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2768 ...2025\_05\_12\_af19cd5e0d1b8a465ffeg-105}
+                                                  
+
+[83]
+[84]
+Overfull \hbox (139.07722pt too wide) in paragraph at lines 2828--2841
+ [] 
+
+[85]
+
+LaTeX Warning: Citation `clr90' on page 86 undefined on input line 2865.
+
+
+Overfull \hbox (0.44493pt too wide) in paragraph at lines 2872--2875
+[]\TU/Georgia(0)/m/n/10 We humans successfully use heuristic processes for all 
+kinds of things. When
+
+[86]
+Overfull \hbox (5.7643pt too wide) in paragraph at lines 2876--2877
+[]\TU/Georgia(0)/m/n/10 A heuristic evaluation function $\OML/cmm/m/it/10 f\OT1
+/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )$ \TU/Georgia(0)/m/n/10 for sta
+tes is used to mathematically model
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-110' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2901 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-110}
+                                                  
+
+[87]
+Underfull \hbox (badness 10000) in paragraph at lines 2918--2920
+
+
+[88]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-111' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2923 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-111}
+                                                  
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-112' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2929 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-112}
+                                                  
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2941 \hline
+             
+! Misplaced alignment tab character &.
+l.2942 heuristic rating &
+                          120 & 163 & 236 & 257 & 318 \\
+! Misplaced alignment tab character &.
+l.2942 heuristic rating & 120 &
+                                163 & 236 & 257 & 318 \\
+! Misplaced alignment tab character &.
+l.2942 heuristic rating & 120 & 163 &
+                                      236 & 257 & 318 \\
+! Misplaced alignment tab character &.
+l.2942 heuristic rating & 120 & 163 & 236 &
+                                            257 & 318 \\
+! Misplaced alignment tab character &.
+l.2942 heuristic rating & 120 & 163 & 236 & 257 &
+                                                  318 \\
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2943 \hline
+             
+
+Underfull \hbox (badness 10000) in paragraph at lines 2942--2943
+
+! Misplaced \crcr.
+\endtabular ->\crcr 
+                    \egroup \egroup $\egroup 
+l.2944 \end{tabular}
+                    
+! Too many }'s.
+\endtabular ->\crcr \egroup 
+                            \egroup $\egroup 
+l.2944 \end{tabular}
+                    
+! Too many }'s.
+\endtabular ->\crcr \egroup \egroup 
+                                    $\egroup 
+l.2944 \end{tabular}
+                    
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.2944 \end{tabular}
+                    
+
+! LaTeX Error: \begin{document} ended by \end{tabular}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2944 \end{tabular}
+                    
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2944 \end{tabular}
+                    
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.2944 \end{tabular}
+                    
+
+! LaTeX Error: \begin{document} ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2945 \end{center}
+                   
+! Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.2945 \end{center}
+                   
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2949.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 2949.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\star' on input line 2949.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2949.
+
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-113' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2970 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-113}
+                                                  
+
+Underfull \hbox (badness 1221) in paragraph at lines 2971--2971
+\TU/Georgia(0)/m/n/10 Frankfurt to Ulm. In the boxes below the name of the city
+ $\OML/cmm/m/it/10 s$ \TU/Georgia(0)/m/n/10 we show
+
+[89]
+
+! LaTeX Error: File `2025\_05\_12\_af19cd5e0d1b8a465ffeg-114' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2984 ...2025\_05\_12\_af19cd5e0d1b8a465ffeg-114}
+                                                  
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2996.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 2996.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\star' on input line 2996.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2996.
+
+
+[90]
+
+LaTeX Warning: Citation `bat16' on page 91 undefined on input line 3005.
+
+
+! LaTeX Error: File `2025\_05\_12\_af19cd5e0d1b8a465ffeg-115' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3011 ...2025\_05\_12\_af19cd5e0d1b8a465ffeg-115}
+                                                  
+
+Overfull \hbox (137.27708pt too wide) in paragraph at lines 3018--3031
+ [][] 
+
+[91]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3042.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 3042.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\star' on input line 3042.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3042.
+
+
+Overfull \hbox (0.17773pt too wide) in paragraph at lines 3047--3047
+[]\TU/Georgia(0)/b/n/12 Empirical Comparison of the Search Algorithms 
+
+[92]
+Overfull \hbox (74.9731pt too wide) in paragraph at lines 3088--3117
+ [][] 
+
+[93]
+Overfull \hbox (5.03749pt too wide) in paragraph at lines 3130--3131
+[]\TU/Georgia(0)/m/n/10 Heuristics naturally only give a significant advantage 
+if the heuristic is “good”.
+
+[94]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-120(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3147 ...2025_05_12_af19cd5e0d1b8a465ffeg-120(1)}
+                                                  
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-120' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3153 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-120}
+                                                  
+
+[95]
+[96]
+
+LaTeX Warning: Citation `pea84' on page 97 undefined on input line 3215.
+
+
+LaTeX Warning: Citation `Nil98' on page 97 undefined on input line 3217.
+
+
+[97]
+
+LaTeX Warning: Citation `RN10' on page 98 undefined on input line 3223.
+
+
+LaTeX Warning: Citation `fra05' on page 98 undefined on input line 3247.
+
+
+LaTeX Warning: Citation `lar00' on page 98 undefined on input line 3247.
+
+
+[98]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-124' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3256 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-124}
+                                                  
+
+LaTeX Warning: Citation `ks06' on page 99 undefined on input line 3264.
+
+
+[99]
+Overfull \hbox (7.49516pt too wide) in paragraph at lines 3275--3276
+\TU/Georgia(0)/m/n/10 did Gerald Tersauro build a learning backgammon program n
+amed TD-Gammon,
+
+LaTeX Warning: Citation `wik13' on page 100 undefined on input line 3287.
+
+
+[100]
+Overfull \hbox (0.5811pt too wide) in paragraph at lines 3293--3294
+[]\TU/Georgia(0)/m/n/10 The experts agree that ”truly intelligent” algorithms a
+re needed here.
+
+Overfull \hbox (0.53064pt too wide) in paragraph at lines 3293--3294
+\TU/Georgia(0)/m/n/10 Combinatoric enumeration of all possibilities is the wron
+g approach.
+
+LaTeX Warning: Citation `tz16' on page 101 undefined on input line 3296.
+
+
+[101]
+Overfull \hbox (3.90468pt too wide) in paragraph at lines 3305--3307
+\TU/Georgia(0)/m/n/10 (b) Calculate the average branching factor for the 8-puzz
+le for uninformed search
+
+[102]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-128' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3363 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-128}
+                                                  
+
+[103]
+
+LaTeX Warning: Citation `win' on page 104 undefined on input line 3387.
+
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-129' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3391 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-129}
+                                                  
+
+[104]
+Underfull \hbox (badness 10000) in paragraph at lines 3402--3403
+
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-131' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3406 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-131}
+                                                  
+
+LaTeX Warning: Citation `sho76' on page 105 undefined on input line 3414.
+
+
+LaTeX Warning: Citation `elk93' on page 105 undefined on input line 3421.
+
+
+LaTeX Warning: Citation `Pea88' on page 105 undefined on input line 3423.
+
+
+LaTeX Warning: Citation `Che85' on page 105 undefined on input line 3423.
+
+
+LaTeX Warning: Citation `whi96' on page 105 undefined on input line 3423.
+
+
+LaTeX Warning: Citation `jen01' on page 105 undefined on input line 3423.
+
+
+[105]
+
+LaTeX Warning: Citation `ros09' on page 106 undefined on input line 3428.
+
+
+LaTeX Warning: Citation `fpp07' on page 106 undefined on input line 3428.
+
+
+[106]
+Overfull \hbox (2.7545pt too wide) in paragraph at lines 3486--3487
+\TU/Georgia(0)/m/n/10 probabilities. This definition hits its limit when the nu
+mber of elementary events
+
+Overfull \hbox (3.87886pt too wide) in paragraph at lines 3486--3487
+\TU/Georgia(0)/m/n/10 becomes infinite. Because we are only looking at finite e
+vent spaces here, though,
+
+[107]
+
+LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
+(Font)              using `U/stmry/m/n' instead on input line 3513.
+
+
+[108]
+Overfull \hbox (2.26292pt too wide) in paragraph at lines 3533--3546
+ [] 
+
+[109]
+Overfull \hbox (68.84781pt too wide) detected at line 3608
+[]
+
+Overfull \hbox (1.4634pt too wide) in paragraph at lines 3619--3621
+\TU/Georgia(0)/m/n/10 continue with the variables $\OML/cmm/m/it/10 X[]; [] ; X
+[]$ \TU/Georgia(0)/m/n/10 until just one variable is left. Marginal-
+
+[110]
+[111]
+
+LaTeX Warning: Citation `hl04' on page 112 undefined on input line 3672.
+
+
+[112]
+[113]
+
+LaTeX Warning: Citation `jay57' on page 114 undefined on input line 3713.
+
+
+LaTeX Warning: Citation `jay03' on page 114 undefined on input line 3713.
+
+
+LaTeX Warning: Citation `che83' on page 114 undefined on input line 3713.
+
+
+LaTeX Warning: Citation `nil86' on page 114 undefined on input line 3713.
+
+
+LaTeX Warning: Citation `kan89' on page 114 undefined on input line 3713.
+
+
+LaTeX Warning: Citation `kk92' on page 114 undefined on input line 3713.
+
+
+[114]
+[115]
+
+LaTeX Warning: Citation `sw76' on page 116 undefined on input line 3794.
+
+
+LaTeX Warning: Citation `ste07' on page 116 undefined on input line 3796.
+
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-144' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3813 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-144}
+                                                  
+
+[116]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-145' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3839 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-145}
+                                                  
+
+[117]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-147' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3892 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-147}
+                                                  
+
+LaTeX Warning: Citation `ada75' on page 118 undefined on input line 3899.
+
+
+[118]
+
+LaTeX Warning: Citation `rm96' on page 119 undefined on input line 3948.
+
+
+LaTeX Warning: Citation `sch96' on page 119 undefined on input line 3948.
+
+
+LaTeX Warning: Citation `es99' on page 119 undefined on input line 3948.
+
+
+LaTeX Warning: Citation `se00' on page 119 undefined on input line 3948.
+
+
+Overfull \hbox (0.97336pt too wide) in paragraph at lines 3948--3949
+\TU/Georgia(0)/m/n/10 Ent optimization usually cannot be carried out symbolical
+ly for non-trivial prob-
+
+[119]
+[120]
+Overfull \hbox (13.85243pt too wide) in paragraph at lines 4000--4007
+ [] 
+
+LaTeX Warning: Citation `le999' on page 121 undefined on input line 4016.
+
+
+LaTeX Warning: Citation `dd91' on page 121 undefined on input line 4019.
+
+
+LaTeX Warning: Citation `opb94' on page 121 undefined on input line 4024.
+
+
+LaTeX Warning: Citation `ofy95' on page 121 undefined on input line 4024.
+
+
+Overfull \hbox (13.97841pt too wide) in paragraph at lines 4021--4027
+\TU/Georgia(0)/m/n/10 health insurance company AOK Baden-Württemberg, the Raven
+sburg-Weingarten
+
+[121]
+Overfull \hbox (9.26328pt too wide) in paragraph at lines 4041--4042
+\TU/Georgia(0)/m/n/10 Complex probabilistic relationships appear frequently in 
+medicine. With Lexmed,
+
+[122]
+Overfull \hbox (118.26373pt too wide) in paragraph at lines 4046--4083
+ [] 
+
+[123]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-153' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4101 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-153}
+                                                  
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-154' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4124 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-154}
+                                                  
+
+Overfull \hbox (312.11469pt too wide) in paragraph at lines 4118--4164
+ [] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+[124]
+Overfull \hbox (6.66238pt too wide) in paragraph at lines 4169--4170
+\TU/Georgia(0)/m/n/10 The usage of Lexmed is simple and self-explanatory. The d
+octor visits the Lexmed
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-155' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4176 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-155}
+                                                  
+
+[125]
+Overfull \hbox (3.24597pt too wide) in paragraph at lines 4191--4191
+[]\TU/Georgia(0)/b/n/14.4 Learning of Rules by Statistical Induction 
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-156' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4199 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-156}
+                                                  
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 4224--4224
+[]\TU/lmtt/m/n/10 P([Leuco7=0-6k] | [Diag4=negativ] * [Age10=16-20]) = [0.132,0
+.156];[] 
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 4224--4224
+[]\TU/lmtt/m/n/10 P([Leuco7=6-8k] | [Diag4=negativ] * [Age10=16-20]) = [0.257,0
+.281];[] 
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 4224--4224
+[]\TU/lmtt/m/n/10 P([Leuco7=8-10k] | [Diag4=negativ] * [Age10=16-20]) = [0.250,
+0.274];[] 
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 4224--4224
+[]\TU/lmtt/m/n/10 P([Leuco7=10-12k] | [Diag4=negativ] * [Age10=16-20]) = [0.159
+,0.183];[] 
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 4224--4224
+[]\TU/lmtt/m/n/10 P([Leuco7=12-15k] [Diag4=negativ] * [Age10=16-20]) = [0.087,0
+.112];[] 
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 4224--4224
+[]\TU/lmtt/m/n/10 P([Leuco7=15-20k] | [Diag4=negativ] * [Age10=16-20]) = [0.032
+,0.056];[] 
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 4224--4224
+[]\TU/lmtt/m/n/10 P([Leuco7=20k-] | [Diag4=negativ] * [Age10=16-20]) = [0.000,0
+.023];[] 
+
+[126]
+Overfull \hbox (6.75pt too wide) in paragraph at lines 4224--4224
+[]\TU/lmtt/m/n/10 P([Leuco7=0-6k] | [Diag4=negativ] * [Age10=21-25]) = [0.132,0
+.172];[] 
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 4224--4224
+[]\TU/lmtt/m/n/10 P([Leuco7=6-8k] | [Diag4=negativ] * [Age10=21-25]) = [0.227,0
+.266];[] 
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 4224--4224
+[]\TU/lmtt/m/n/10 P([Leuco7=8-10k] | [Diag4=negativ] * [Age10=21-25]) = [0.211,
+0.250];[] 
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 4224--4224
+[]\TU/lmtt/m/n/10 P([Leuco7=10-12k] | [Diag4=negativ] * [Age10=21-25]) = [0.166
+,0.205];[] 
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 4224--4224
+[]\TU/lmtt/m/n/10 P([Leuco7=12-15k] | [Diag4=negativ] * [Age10=21-25]) = [0.081
+,0.120];[] 
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 4224--4224
+[]\TU/lmtt/m/n/10 P([Leuco7=15-20k] | [Diag4=negativ] * [Age10=21-25]) = [0.041
+,0.081];[] 
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 4224--4224
+[]\TU/lmtt/m/n/10 P([Leuco7=20k-] | [Diag4=negativ] * [Age10=21-25]) = [0.004,0
+.043];[] 
+
+LaTeX Warning: Citation `hon94' on page 127 undefined on input line 4249.
+
+
+[127]
+Overfull \hbox (4.22859pt too wide) in paragraph at lines 4257--4266
+ [] 
+
+Overfull \hbox (2.879pt too wide) in paragraph at lines 4279--4298
+ [] 
+
+[128]
+[129]
+[130]
+Underfull \hbox (badness 10000) in paragraph at lines 4364--4366
+
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-161' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4369 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-161}
+                                                  
+
+LaTeX Warning: Citation `omyl96' on page 131 undefined on input line 4375.
+
+
+LaTeX Warning: Citation `zsr99' on page 131 undefined on input line 4375.
+
+
+[131]
+Overfull \hbox (14.95503pt too wide) in paragraph at lines 4387--4388
+\TU/Georgia(0)/m/n/10 since 1999 and has performed there very well. It is also 
+available at [][]www.lexmed.de[][],
+
+[132]
+Overfull \hbox (39.53548pt too wide) in paragraph at lines 4402--4405
+\TU/Georgia(0)/m/n/10 All entries in the distribution can thus be calculated fr
+om the $\OML/cmm/m/it/10 d$ \TU/Georgia(0)/m/n/10 values $\OML/cmm/m/it/10 P []
+ ; [] ; P []$\TU/Georgia(0)/m/n/10 .
+
+[133]
+Overfull \hbox (31.51172pt too wide) in paragraph at lines 4440--4440
+[]\TU/Georgia(0)/b/n/12 Graphical Representation of Knowledge as a Bayesian
+
+[134]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-165' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4447 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-165}
+                                                  
+
+[135]
+Overfull \hbox (29.65761pt too wide) detected at line 4508
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 J; Bur; Al\OT1/cmr/m/n/10 ) = [](\OML/cmm/m
+/it/10 J \OMS/cmsy/m/n/10 j \OML/cmm/m/it/10 Bur; Al\OT1/cmr/m/n/10 )[](\OML/cm
+m/m/it/10 Al \OMS/cmsy/m/n/10 j \OML/cmm/m/it/10 Bur\OT1/cmr/m/n/10 )[](\OML/cm
+m/m/it/10 Bur\OT1/cmr/m/n/10 ) = [](\OML/cmm/m/it/10 J \OMS/cmsy/m/n/10 j \OML/
+cmm/m/it/10 Al\OT1/cmr/m/n/10 )[](\OML/cmm/m/it/10 Al \OMS/cmsy/m/n/10 j \OML/c
+mm/m/it/10 Bur\OT1/cmr/m/n/10 )[](\OML/cmm/m/it/10 Bur\OT1/cmr/m/n/10 )\OML/cmm
+/m/it/10 ;
+
+Overfull \hbox (2.30957pt too wide) detected at line 4515
+[]
+
+Overfull \hbox (35.35373pt too wide) detected at line 4526
+[][]
+
+[136]
+Overfull \hbox (43.1106pt too wide) detected at line 4542
+[][]
+
+Overfull \hbox (39.40239pt too wide) detected at line 4552
+[][]
+
+[137]
+Overfull \hbox (17.25pt too wide) in paragraph at lines 4600--4600
+[]\TU/lmtt/m/n/10 var Alarm{t,f}, Burglary{t,f}, Earthquake{t,f}, John{t,f}, Ma
+ry{t,f};[] 
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-169' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4606 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-169}
+                                                  
+
+LaTeX Warning: Citation `coz98' on page 138 undefined on input line 4612.
+
+
+[138]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-171' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4645 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-171}
+                                                  
+
+[139]
+Overfull \hbox (0.37935pt too wide) detected at line 4659
+[][]
+
+[140]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-172' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4674 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-172}
+                                                  
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-173' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4680 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-173}
+                                                  
+
+Underfull \hbox (badness 10000) in paragraph at lines 4687--4687
+[][][]\TU/Georgia(0)/m/n/8 If for example three nodes $\OML/cmm/m/it/8 X[]; X[]
+; X[]$ \TU/Georgia(0)/m/n/8 form a cycle, then there are the edges
+
+[141]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-174' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4707 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-174}
+                                                  
+
+Overfull \hbox (10.14748pt too wide) in paragraph at lines 4717--4718
+\TU/Georgia(0)/m/n/10 A DAG is a graph without cycles, that is, without paths o
+f the form $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A; [] ; A\OT1/cmr/m/n/10 )$\TU/Ge
+orgia(0)/m/n/10 . 
+
+Overfull \hbox (9.8195pt too wide) in paragraph at lines 4721--4729
+[]\TU/Georgia(0)/m/n/10 Two variables $\OML/cmm/m/it/10 A$ \TU/Georgia(0)/m/n/1
+0 and $\OML/cmm/m/it/10 B$ \TU/Georgia(0)/m/n/10 are called conditionally indep
+endent given $\OML/cmm/m/it/10 C$ \TU/Georgia(0)/m/n/10 if $[]\OT1/cmr/m/n/10 (
+\OML/cmm/m/it/10 A; B \OMS/cmsy/m/n/10 j
+
+Overfull \hbox (7.98592pt too wide) in paragraph at lines 4721--4729
+\TU/Georgia(0)/m/n/10 A variable in a Bayesian network is conditionally indepen
+dent of all non-successor
+
+Overfull \hbox (1.75429pt too wide) in paragraph at lines 4733--4734
+\TU/Georgia(0)/m/n/10 tems, we have introduced probabilistic logic for reasonin
+g with uncertain knowl-
+
+Overfull \hbox (3.7457pt too wide) in paragraph at lines 4733--4734
+\TU/Georgia(0)/m/n/10 edge. After introducing the language |\TU/STSong(0)/m/n/1
+0 —| \TU/Georgia(0)/m/n/10 propositional logic augmented with prob-
+
+[142]
+Overfull \hbox (4.7494pt too wide) in paragraph at lines 4737--4738
+\TU/Georgia(0)/m/n/10 modeling with Bayesian networks the approach is quite cle
+ar: according to causal
+
+Overfull \hbox (1.34576pt too wide) in paragraph at lines 4743--4744
+\TU/Georgia(0)/m/n/10 place the well-established, but too weak linear scoring s
+ystems used in medicine.
+
+[143]
+
+LaTeX Warning: Citation `dhs01' on page 144 undefined on input line 4747.
+
+
+[144]
+Overfull \hbox (87.2006pt too wide) in paragraph at lines 4827--4828
+[]\TU/Georgia(0)/m/n/10 Exercise 7.6 Use the PIT system ([][]http://www.pit-sys
+tems.de[][]) or SPIRIT ([][]http://www.xspirit.de[][])
+
+[145]
+Underfull \hbox (badness 10000) in paragraph at lines 4833--4834
+
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4838 \end{itemize}
+                    
+! Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.4838 \end{itemize}
+                    
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-178' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4862 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-178}
+                                                  
+
+LaTeX Warning: Citation `ert11' on page 146 undefined on input line 4871.
+
+
+Overfull \hbox (0.42943pt too wide) in paragraph at lines 4865--4875
+\TU/Georgia(0)/m/n/10 (h) In the original Bayesian network of the alarm example
+, the earthquake nodes
+
+[146]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-179' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4912 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-179}
+                                                  
+
+[147]
+
+LaTeX Warning: Citation `bcds08' on page 148 undefined on input line 4950.
+
+
+LaTeX Warning: Citation `rgh06' on page 148 undefined on input line 4950.
+
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-181' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4956 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-181}
+                                                  
+
+[148]
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.4979 \hline
+             
+! Misplaced alignment tab character &.
+l.4980 Merchandise class &
+                           B & A & A & B & $\ldots$ \\
+! Misplaced alignment tab character &.
+l.4980 Merchandise class & B &
+                               A & A & B & $\ldots$ \\
+! Misplaced alignment tab character &.
+l.4980 Merchandise class & B & A &
+                                   A & B & $\ldots$ \\
+! Misplaced alignment tab character &.
+l.4980 Merchandise class & B & A & A &
+                                       B & $\ldots$ \\
+! Misplaced alignment tab character &.
+l.4980 Merchandise class & B & A & A & B &
+                                           $\ldots$ \\
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.4981 \hline
+             
+
+Underfull \hbox (badness 10000) in paragraph at lines 4980--4981
+
+! Misplaced \crcr.
+\endtabular ->\crcr 
+                    \egroup \egroup $\egroup 
+l.4982 \end{tabular}
+                    
+! Too many }'s.
+\endtabular ->\crcr \egroup 
+                            \egroup $\egroup 
+l.4982 \end{tabular}
+                    
+! Too many }'s.
+\endtabular ->\crcr \egroup \egroup 
+                                    $\egroup 
+l.4982 \end{tabular}
+                    
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.4982 \end{tabular}
+                    
+
+! LaTeX Error: \begin{document} ended by \end{tabular}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4982 \end{tabular}
+                    
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4982 \end{tabular}
+                    
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.4982 \end{tabular}
+                    
+
+! LaTeX Error: \begin{document} ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4983 \end{center}
+                   
+! Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.4983 \end{center}
+                   
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-182(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4987 ...2025_05_12_af19cd5e0d1b8a465ffeg-182(1)}
+                                                  
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-182' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4993 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-182}
+                                                  
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-183' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5004 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-183}
+                                                  
+
+[149]
+
+LaTeX Warning: Citation `mit97' on page 150 undefined on input line 5013.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5021--5023
+
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-184' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5026 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-184}
+                                                  
+
+Overfull \hbox (0.87083pt too wide) in paragraph at lines 5029--5034
+[]\TU/Georgia(0)/m/n/10 but also the mapping from a patient’s 15 symptoms to th
+e decision of whether
+
+[150]
+Underfull \vbox (badness 10000) has occurred while \output is active
+[151]
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.5093 \hline
+             
+! Misplaced \crcr.
+\endtabular ->\crcr 
+                    \egroup \egroup $\egroup 
+l.5094 \end{tabular}
+                    
+! Too many }'s.
+\endtabular ->\crcr \egroup 
+                            \egroup $\egroup 
+l.5094 \end{tabular}
+                    
+! Too many }'s.
+\endtabular ->\crcr \egroup \egroup 
+                                    $\egroup 
+l.5094 \end{tabular}
+                    
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.5094 \end{tabular}
+                    
+
+! LaTeX Error: \begin{document} ended by \end{tabular}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5094 \end{tabular}
+                    
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5094 \end{tabular}
+                    
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.5094 \end{tabular}
+                    
+
+! LaTeX Error: \begin{document} ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5095 \end{center}
+                   
+! Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.5095 \end{center}
+                   
+
+[152]
+Overfull \hbox (351.1018pt too wide) in paragraph at lines 5127--5162
+ [][] 
+
+[153]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-188(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5182 ...2025_05_12_af19cd5e0d1b8a465ffeg-188(1)}
+                                                  
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-188' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5188 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-188}
+                                                  
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-189' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5203 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-189}
+                                                  
+
+[154]
+
+LaTeX Warning: Citation `ros58' on page 155 undefined on input line 5226.
+
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-190' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5230 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-190}
+                                                  
+
+[155]
+Overfull \hbox (1.03954pt too wide) in paragraph at lines 5260--5261
+[]\TU/Georgia(0)/m/n/10 Example 8.2 A perceptron is to be trained on the sets $
+\OML/cmm/m/it/10 M[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (0\OML
+/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 8)\OML/cmm/m/
+it/10 ; \OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 
+:\OT1/cmr/m/n/10 6)\OMS/cmsy/m/n/10 g$
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-192' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5286 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-192}
+                                                  
+
+[156]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-193' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5314 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-193}
+                                                  
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-193(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5320 ...2025_05_12_af19cd5e0d1b8a465ffeg-193(1)}
+                                                  
+
+[157]
+Overfull \hbox (0.2683pt too wide) in paragraph at lines 5346--5347
+\TU/Georgia(0)/m/n/10 For a perceptron, knowledge available in the training dat
+a is extracted and saved
+
+[158]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-195' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5355 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-195}
+                                                  
+
+[159]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-196(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5388 ...2025_05_12_af19cd5e0d1b8a465ffeg-196(1)}
+                                                  
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-196' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5394 ...h]{2025_05_12_af19cd5e0d1b8a465ffeg-196}
+                                                  
+
+Overfull \hbox (59.25pt too wide) in paragraph at lines 5408--5408
+[]    \TU/lmtt/m/n/10 $V=\left\{k\right.$ nearest neighbors in $\left.M_{+} \cu
+p M_{-}\right\}$[] 
+
+Overfull \hbox (90.75pt too wide) in paragraph at lines 5408--5408
+[]    \TU/lmtt/m/n/10 If $\quad\left|M_{+} \cap V\right|>\left|M_{-} \cap V\rig
+ht|$ Then Return(,,+")[] 
+
+Overfull \hbox (85.5pt too wide) in paragraph at lines 5408--5408
+[]    \TU/lmtt/m/n/10 ElseIf $\left|M_{+} \cap V\right|<\left|M_{-} \cap V\righ
+t|$ Then Return(,,-")[] 
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-197' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5414 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-197}
+                                                  
+
+[160]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-198(1)' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5427 ...2025_05_12_af19cd5e0d1b8a465ffeg-198(1)}
+                                                  \\
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-198' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5428 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-198}
+                                                  
+
+[161]
+[162]
+
+! LaTeX Error: File `2025_05_12_af19cd5e0d1b8a465ffeg-200' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5471 ...r]{2025_05_12_af19cd5e0d1b8a465ffeg-200}
+                                                  
+
+LaTeX Warning: Citation `sa94' on page 163 undefined on input line 5477.
+
+
+LaTeX Warning: Citation `se10' on page 163 undefined on input line 5477.
+
+
+Overfull \hbox (1.57202pt too wide) in paragraph at lines 5475--5478
+[]\TU/Georgia(0)/m/n/10 To get a feeling for these methods, in Fig. 8.19 the $\
+OML/cmm/m/it/10 k$\TU/Georgia(0)/m/n/10 -nearest neighbor method
+
+[163]

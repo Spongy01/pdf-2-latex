@@ -1,0 +1,804 @@
+\begin{theindex}
+
+  \item 132, \hyperpage{167}
+  \item 138, \hyperpage{201}, \hyperpage{360}
+  \item 234, \hyperpage{236}, \hyperpage{269}, \hyperpage{310}, 
+		\hyperpage{347}
+  \item 296, \hyperpage{341}
+  \item 359, \hyperpage{168}
+
+  \indexspace
+
+  \item A/B testing, \hyperpage{75}
+  \item Aaron Schwartz case, \hyperpage{56}
+  \item AB testing, \hyperpage{126}
+  \item academic data, \hyperpage{55}
+  \item accuracy, \hyperpage{187}, \hyperpage{201}
+  \item activation function, \hyperpage{340}
+  \item AdaBoost, \hyperpage{324}
+  \item add-one discounting, \hyperpage{319}
+  \item agglomerative cluster trees, \hyperpage{303}
+  \item aggregation mechanisms, \hyperpage{72}
+  \item Akaike information criterion, \hyperpage{259}
+  \item algorithm analysis, \hyperpage{355}
+  \item Amazon Turk, \hyperpage{55}, \hyperpage{72}
+    \subitem tasks assigned, \hyperpage{74}
+    \subitem Turkers, \hyperpage{73}
+  \item American basketball players, \hyperpage{85}
+  \item analogies, \hyperpage{279}
+  \item anchoring, \hyperpage{71}
+  \item angular distance, \hyperpage{277}
+  \item Anscombe’s Quartet, \hyperpage{145}
+  \item AOL, \hyperpage{53}
+  \item API, \hyperpage{54}
+  \item Apple iPhone sales, \hyperpage{26}
+  \item application program interfaces, \hyperpage{54}
+  \item area under the ROC curve, \hyperpage{193}
+  \item Aristotle, \hyperpage{293, 294}
+  \item Arrow’s impossibility theorem, \hyperpage{73}
+  \item artifacts, \hyperpage{57}
+  \item Ascombe quartet, \hyperpage{244}
+  \item asking interesting questions, \hyperpage{1}
+  \item associativity, \hyperpage{217}
+  \item autocorrelation, \hyperpage{37}
+    \subitem average link, \hyperpage{305}
+    \subitem Babbage, Charles, \hyperpage{47}, \hyperpage{78}
+    \subitem backpropagation, \hyperpage{341}
+    \subitem Bacon, Kevin, \hyperpage{8}
+    \subitem bag of words, \hyperpage{7}
+    \subitem bagging, \hyperpage{323}
+    \subitem balanced training classes, \hyperpage{265}
+    \subitem bar charts, \hyperpage{162}
+    \subitem Barzun, Jacques, \hyperpage{4}
+    \subitem baseball encyclopedia, \hyperpage{4}
+    \subitem baseline models, \hyperpage{184}
+    \subitem Bayes’ theorem, \hyperpage{136}, \hyperpage{180}, 
+		\hyperpage{268}
+    \subitem Baysian information criteria, \hyperpage{259}
+    \subitem bell-shaped, \hyperpage{110}, \hyperpage{128}
+    \subitem bias, \hyperpage{178}, \hyperpage{376}
+    \subitem bias–variance trade-oﬀ, \hyperpage{178}
+    \subitem big data, \hyperpage{350}
+    \subitem big data engineer, \hyperpage{1}
+    \subitem big oh analysis, \hyperpage{355}
+    \subitem binary relations, \hyperpage{287}
+    \subitem binary search, \hyperpage{356}
+    \subitem binomial distribution, \hyperpage{110}
+
+  \indexspace
+
+  \item bioinformatician, \hyperpage{41}
+  \item Blumenstock, Josh, \hyperpage{19}
+  \item Body Mass Index, \hyperpage{84}, \hyperpage{160}
+  \item Bonferroni correction, \hyperpage{128}
+  \item boosting, \hyperpage{324}
+    \subitem algorithms, \hyperpage{323}
+  \item bootstrapping, \hyperpage{334}
+  \item Borda’s method, \hyperpage{95}
+  \item box plots, \hyperpage{159}
+  \item Box, George, \hyperpage{91}
+  \item box-and-whisker plots, \hyperpage{159}
+  \item bubble plots, \hyperpage{162}
+  \item bupkis, \hyperpage{350}
+  \item Bush, George W., \hyperpage{293}
+
+  \indexspace
+
+  \item cache memory, \hyperpage{359}
+  \item canonical representation, \hyperpage{358}
+  \item canonization, \hyperpage{358}
+  \item CAPTCHAs, \hyperpage{77}
+  \item Carroll, Lewis, \hyperpage{381}
+  \item cartograms, \hyperpage{169}
+  \item Center for Disease Control, \hyperpage{179}
+  \item center of mass, \hyperpage{298}
+  \item centrality measures, \hyperpage{26}
+  \item centroids, \hyperpage{297}
+  \item character code uniﬁcation, \hyperpage{64}
+  \item characteristic equation, \hyperpage{230}
+  \item characterizing distributions, \hyperpage{30}
+  \item chart types, \hyperpage{154}
+    \subitem bar charts, \hyperpage{162}
+    \subitem data maps, \hyperpage{168}
+    \subitem dot and line plots, \hyperpage{158}
+    \subitem histograms, \hyperpage{165}
+    \subitem pie charts, \hyperpage{162}
+    \subitem scatter plots, \hyperpage{160}
+    \subitem tabular data, \hyperpage{156}
+  \item cicada, \hyperpage{37}
+  \item classiﬁcation, \hyperpage{7}, \hyperpage{184}, 
+		\hyperpage{259}
+    \subitem balanced, \hyperpage{192}
+    \subitem binary, \hyperpage{260}, \hyperpage{280}
+    \subitem Clinton, Bill, \hyperpage{293}
+    \subitem Clinton, Bill], \hyperpage{293}
+    \subitem closest pair of points, \hyperpage{356}
+    \subitem cloud computing services, \hyperpage{368}
+    \subitem clustering, \hyperpage{294}, \hyperpage{334}
+    \subitem Clyde, \hyperpage{52}, \hyperpage{100}
+    \subitem coeﬃcient vector, \hyperpage{242}
+    \subitem Cohen’s d, \hyperpage{123}
+    \subitem collaborative ﬁltering, \hyperpage{8}
+    \subitem communication, \hyperpage{366}, \hyperpage{374}
+    \subitem commutativity, \hyperpage{216}
+    \subitem company data, \hyperpage{53}
+    \subitem computer scientist, \hyperpage{1}
+    \subitem conditional probability, \hyperpage{22, 23}
+    \subitem Condorcet jury theorem, \hyperpage{73}
+    \subitem confusion matrix, \hyperpage{187}, \hyperpage{194}
+    \subitem connected components, \hyperpage{291}
+    \subitem contingency table, \hyperpage{187}
+    \subitem convex, \hyperpage{251}
+    \subitem convex hull, \hyperpage{330}
+    \subitem coordination, \hyperpage{366}
+    \subitem correlation and causation, \hyperpage{21}, \hyperpage{122}
+    \subitem cosine similarity, \hyperpage{276}
+    \subitem cross validation, \hyperpage{201}
+    \subitem CrowdFlower, \hyperpage{55}, \hyperpage{72}, 
+		\hyperpage{75}
+    \subitem multi-class, \hyperpage{266}
+    \subitem regression, \hyperpage{259}
+  \item crowdsourcing, \hyperpage{55}, \hyperpage{69}
+    \subitem bad uses, \hyperpage{75}
+  \item crowdsourcing services, \hyperpage{73}
+  \item cryptographic hashing, \hyperpage{358}
+  \item CSV ﬁles, \hyperpage{28}
+  \item cumulative density function, \hyperpage{25}
+  \item currency conversion, \hyperpage{34}
+  \item curve, \hyperpage{192}
+  \item cut, \hyperpage{307}
+  \item C–language, \hyperpage{49}
+
+  \indexspace
+
+  \item damping factor, \hyperpage{292}
+  \item Darwin, Charles, \hyperpage{70}
+  \item data, \hyperpage{210}, \hyperpage{348}
+    \subitem big vs. little, \hyperpage{7}
+    \subitem cleaning, \hyperpage{57}
+    \subitem collecting, \hyperpage{53}
+    \subitem compatibility, \hyperpage{60}
+    \subitem errors, \hyperpage{57}
+    \subitem for evaluation, \hyperpage{199}
+    \subitem for testing, \hyperpage{199}
+    \subitem for training, \hyperpage{199}
+    \subitem logging, \hyperpage{56}
+    \subitem properties, \hyperpage{7}
+    \subitem quantitative vs. categorical, \hyperpage{7}
+    \subitem scraping, \hyperpage{55}
+    \subitem structured, \hyperpage{7}
+    \subitem types, \hyperpage{7}
+    \subitem unstructured, \hyperpage{7}
+    \subitem visualizing, \hyperpage{141}
+  \item data analysis, \hyperpage{361}
+  \item data centrism, \hyperpage{1}
+  \item data cleaning, \hyperpage{336}
+  \item data errors, \hyperpage{375}
+  \item data formats, \hyperpage{28}
+    \subitem evaluation, \hyperpage{200}
+  \item data munging, \hyperpage{47}
+  \item data parallelism, \hyperpage{367}
+  \item data partition, \hyperpage{361}
+  \item data processing, \hyperpage{9}
+  \item data reduction, \hyperpage{295}
+  \item data science, \hyperpage{1}
+    \subitem languages, \hyperpage{47}
+    \subitem models, \hyperpage{184}
+  \item data science television, \hyperpage{7}
+  \item data scientist, \hyperpage{1}
+    \subitem data sources, \hyperpage{53}
+    \subitem data visualization, \hyperpage{141}
+    \subitem data-driven, \hyperpage{142}
+    \subitem de M´er´e, Chevalier, \hyperpage{21}
+    \subitem decision boundaries, \hyperpage{261}
+    \subitem decision tree classiﬁers, \hyperpage{268}, 
+		\hyperpage{319}
+    \subitem decision trees, \hyperpage{319}
+    \subitem deep learning, \hyperpage{178}, \hyperpage{314}, 
+		\hyperpage{337}
+    \subitem DeepWalk, \hyperpage{344}
+    \subitem degree of vertex, \hyperpage{292}
+    \subitem depth, \hyperpage{338}
+    \subitem derivative, \hyperpage{252}
+    \subitem descriptive statistics, \hyperpage{26}
+    \subitem developing scoring systems, \hyperpage{87}
+    \subitem dictionary maintenance, \hyperpage{357}
+    \subitem DiMaggio, \hyperpage{135}
+    \subitem dimension reduction, \hyperpage{248}, \hyperpage{336}
+    \subitem dimensional egalitarianism, \hyperpage{275}
+    \subitem dimensions, \hyperpage{342}
+    \subitem dinosaur vertebra, \hyperpage{67}
+    \subitem directed acyclic graph, \hyperpage{97}
+    \subitem directed graph, \hyperpage{288}
+    \subitem discounting, \hyperpage{183}, \hyperpage{318}
+    \subitem disk storage, \hyperpage{359}
+    \subitem distance methods, \hyperpage{271}
+    \subitem distance metrics, \hyperpage{272}
+    \subitem distances, \hyperpage{146}
+    \subitem distributed processing, \hyperpage{365}
+    \subitem distributed ﬁle system, \hyperpage{354}
+    \subitem divide and conquer, \hyperpage{369}
+    \subitem DNA sequences, \hyperpage{185}
+  \item dot product, \hyperpage{214}
+  \item duality, \hyperpage{241}
+  \item duplicate removal, \hyperpage{358}
+
+  \indexspace
+
+  \item E-step, \hyperpage{300}
+  \item edge cuts, \hyperpage{291}
+  \item edges, \hyperpage{146}
+  \item eigenvalues, \hyperpage{229}
+    \subitem computation, \hyperpage{230}
+    \subitem decomposition, \hyperpage{231}
+    \subitem properties of, \hyperpage{229}
+  \item Elizabeth II, \hyperpage{293}
+  \item Elo rankings, \hyperpage{91}
+  \item embedded graph, \hyperpage{290}
+  \item embedding, \hyperpage{288}
+  \item Emoji Dick, \hyperpage{75}
+  \item Engels, Friedrich, \hyperpage{350}
+  \item ensemble learning, \hyperpage{324}
+  \item entropy, \hyperpage{277}
+    \subitem determined, \hyperpage{224}
+    \subitem underdetermined, \hyperpage{224}
+  \item error, \hyperpage{178}, \hyperpage{195}
+    \subitem absolute, \hyperpage{195}
+    \subitem detection, \hyperpage{141}
+    \subitem mean squared, \hyperpage{197}, \hyperpage{297}
+    \subitem relative, \hyperpage{196}
+    \subitem residual, \hyperpage{241}
+    \subitem root mean squared, \hyperpage{197}
+    \subitem squared, \hyperpage{196}
+    \subitem statistics, \hyperpage{194}
+  \item errors vs. artifacts, \hyperpage{57}
+  \item ethical implications, \hyperpage{374}
+  \item Euclidean metric, \hyperpage{271}
+    \subitem environments, \hyperpage{198}
+    \subitem statistics, \hyperpage{187}
+  \item event, \hyperpage{20}
+  \item Excel, \hyperpage{49}
+  \item exclusive or, \hyperpage{322}
+  \item exercises, \hyperpage{17}, \hyperpage{43}, \hyperpage{78}, 
+		\hyperpage{90}, \hyperpage{106}, \hyperpage{137}
+  \item expectation maximization, \hyperpage{300}
+  \item expected value, \hyperpage{20}
+    \subitem experiment, \hyperpage{19}
+    \subitem exploratory data analysis, \hyperpage{141, 142}
+    \subitem F-score, \hyperpage{189}
+    \subitem Facebook, \hyperpage{15}
+    \subitem false negatives, \hyperpage{187}
+    \subitem false positives, \hyperpage{187}
+    \subitem fast Fourier transform, \hyperpage{38}
+    \subitem fault tolerance, \hyperpage{366}
+    \subitem feature engineering, \hyperpage{335}
+    \subitem feature scaling, \hyperpage{246}
+    \subitem Fermat, Pierre de, \hyperpage{22}
+    \subitem Feynman, Richard, \hyperpage{203}
+    \subitem FFT, \hyperpage{38}
+    \subitem FoldIt, \hyperpage{77}
+    \subitem football, \hyperpage{100}
+    \subitem formulation, \hyperpage{316}
+    \subitem Freedom of Information Act, \hyperpage{7}, \hyperpage{54}
+    \subitem frequency counting, \hyperpage{358}
+    \subitem frequency distributions, \hyperpage{85}
+    \subitem furthest link, \hyperpage{305}
+    \subitem Galton, Francis, \hyperpage{70}
+    \subitem games with a purpose, \hyperpage{76}
+    \subitem gamiﬁcation, \hyperpage{76}
+    \subitem garbage in, garbage out, \hyperpage{1}, \hyperpage{57}
+    \subitem Gates, Bill, \hyperpage{61}
+    \subitem Gaussian distribution, \hyperpage{111}
+    \subitem Gaussian noise, \hyperpage{112}
+    \subitem General Sentiment, \hyperpage{7}
+    \subitem genius, \hyperpage{7}
+    \subitem ﬁltering, \hyperpage{360}
+    \subitem ﬁnancial market, \hyperpage{112}
+    \subitem ﬁnancial uniﬁcation, \hyperpage{34}
+    \subitem ﬁt and complexity, \hyperpage{258}
+  \item eﬀect size, \hyperpage{123}
+
+  \indexspace
+
+  \item geometric mean, \hyperpage{27}
+  \item geometric point sets, \hyperpage{211}
+  \item geometry, \hyperpage{213}
+  \item Gini impurity, \hyperpage{321}
+  \item Global Positioning System, \hyperpage{7}
+  \item gold standards, \hyperpage{87}
+  \item good scoring functions, \hyperpage{89}
+  \item Goodhart, Charles, \hyperpage{271}
+    \subitem AlphaGo, \hyperpage{333}
+    \subitem TensorFlow, \hyperpage{337}
+  \item Goodhart’s law, \hyperpage{271}
+  \item Google Flu Trends, \hyperpage{352}
+  \item Google News, \hyperpage{193}
+  \item Google Ngrams, \hyperpage{9}
+  \item Google Scholar, \hyperpage{55}
+  \item government data, \hyperpage{54}
+  \item gradient descent search, \hyperpage{252}
+  \item graph embeddings, \hyperpage{343}
+  \item graph theory, \hyperpage{290}
+  \item graphs, \hyperpage{146}, \hyperpage{211}, \hyperpage{288}
+    \subitem cuts, \hyperpage{307}
+    \subitem dense, \hyperpage{289}
+    \subitem directed, \hyperpage{288}
+    \subitem embedded, \hyperpage{290}
+    \subitem labeled, \hyperpage{290}
+    \subitem non-simple, \hyperpage{289}
+    \subitem simple, \hyperpage{289}
+    \subitem sparse, \hyperpage{289}
+    \subitem topological, \hyperpage{290}
+    \subitem undirected, \hyperpage{288}
+    \subitem unlabeled, \hyperpage{290}
+    \subitem unweighted, \hyperpage{289}
+    \subitem weighted, \hyperpage{287}, \hyperpage{290}
+  \item Gray, Dorian, \hyperpage{224}
+  \item grid indexes, \hyperpage{281}
+  \item grid search, \hyperpage{367}
+
+  \indexspace
+
+  \item Hadoop distributed ﬁle system, \hyperpage{372}
+  \item Hamming, Richard W., \hyperpage{1}
+  \item hash functions, \hyperpage{357}
+    \subitem applications, \hyperpage{355}
+  \item hashing, \hyperpage{357}
+  \item heatmaps, \hyperpage{161}
+    \subitem hedge fund, \hyperpage{1}
+    \subitem hierarchy, \hyperpage{267}
+    \subitem higher dimensions, \hyperpage{275}, \hyperpage{331}
+    \subitem histograms, \hyperpage{24}, \hyperpage{165}, 
+		\hyperpage{196}
+    \subitem Hitler, Adolf, \hyperpage{293}
+    \subitem HTML, \hyperpage{55}
+    \subitem hypothesis development, \hyperpage{294}
+    \subitem hypothesis driven, \hyperpage{142}, \hyperpage{350}
+    \subitem Imagenet, \hyperpage{339}
+    \subitem IMDb, \hyperpage{6}
+    \subitem independence, \hyperpage{22}, \hyperpage{110}, 
+		\hyperpage{316}
+    \subitem information gain, \hyperpage{321}
+    \subitem information theoretic entropy, \hyperpage{321}
+    \subitem infrastructure, \hyperpage{354}
+    \subitem inner product, \hyperpage{216}
+    \subitem institutional review board, \hyperpage{76}
+    \subitem Internet Movie Database, \hyperpage{6}
+    \subitem Internet of Things, \hyperpage{56}
+    \subitem inverse transform sampling, \hyperpage{119}
+    \subitem inﬂation rates, \hyperpage{65}
+    \subitem IPython, \hyperpage{28}
+    \subitem IQ testing, \hyperpage{77}
+    \subitem Jaccard distance, \hyperpage{306}
+    \subitem Jaccard similarity, \hyperpage{306}
+    \subitem Jackson, Michael [136], \hyperpage{235}
+    \subitem Java, \hyperpage{49}
+    \subitem Jesus, \hyperpage{293}
+    \subitem JSON, \hyperpage{52}
+    \subitem k-means clustering, \hyperpage{307}, \hyperpage{367}
+    \subitem k-mediods algorithm, \hyperpage{298}
+    \subitem k-nearest neighbors, \hyperpage{279}
+    \subitem kd-trees, \hyperpage{282}
+    \subitem kernels, \hyperpage{332}
+    \subitem Kolmogorov-Smirnov test, \hyperpage{127}
+
+  \indexspace
+
+  \item Kruskal’s algorithm, \hyperpage{304}
+  \item Kullback-Leibler divergence, \hyperpage{278}
+
+  \indexspace
+
+  \item labeled graphs, \hyperpage{290}
+  \item Lang, Andrew, \hyperpage{239}
+  \item Laplace, \hyperpage{318}
+  \item Laplacian, \hyperpage{307}
+  \item large-scale question, \hyperpage{8}
+  \item latent Dirichlet allocation, \hyperpage{334}
+  \item learning rate, \hyperpage{130}, \hyperpage{342}
+  \item learning to rank, \hyperpage{106}
+  \item least squares regression, \hyperpage{242}
+  \item lie factor, \hyperpage{148}
+  \item Lincoln, Abraham, \hyperpage{215}
+  \item line charts, \hyperpage{158}
+    \subitem advantages, \hyperpage{158}
+    \subitem best practices, \hyperpage{159}
+  \item line hatchings, \hyperpage{160}
+  \item linear algebra, \hyperpage{210}
+    \subitem interpretation, \hyperpage{211}
+    \subitem power of, \hyperpage{210}
+  \item linear equation, \hyperpage{211}
+  \item linear programming, \hyperpage{331}
+  \item linear regression, \hyperpage{185}, \hyperpage{239}
+    \subitem error, \hyperpage{241}
+    \subitem solving, \hyperpage{242}
+  \item linear support vector machines, \hyperpage{331}
+  \item linear systems, \hyperpage{223}
+  \item Linnaeus, Carl, \hyperpage{293}
+  \item live data, \hyperpage{353}
+  \item locality, \hyperpage{358}
+  \item locality sensitive hashing, \hyperpage{285}
+  \item logarithm, \hyperpage{38}
+    \subitem issues, \hyperpage{264}
+  \item logistic function, \hyperpage{340}
+  \item logistic regression, \hyperpage{328}
+  \item logit, \hyperpage{340}
+  \item logit function, \hyperpage{93}, \hyperpage{262}
+  \item loss function, \hyperpage{251}, \hyperpage{264}
+  \item LU decomposition, \hyperpage{116}
+  \item lumpers, \hyperpage{295}
+
+  \indexspace
+
+  \item M-step, \hyperpage{300}
+  \item machine learning, \hyperpage{313}
+    \subitem main memory, \hyperpage{359}
+    \subitem major league baseball, \hyperpage{5}
+    \subitem MapReduce, \hyperpage{365}, \hyperpage{368}
+    \subitem MapReduce runtime system, \hyperpage{373}
+    \subitem matchings, \hyperpage{291}
+    \subitem Mathematica, \hyperpage{28}, \hyperpage{49}
+    \subitem Matlab, \hyperpage{48}
+    \subitem matrix, \hyperpage{7}, \hyperpage{209}, \hyperpage{241}, 
+		\hyperpage{334}
+    \subitem matrix multiplication, \hyperpage{216}, \hyperpage{356}
+    \subitem maximum margin separator, \hyperpage{329}
+    \subitem mean, \hyperpage{24}, \hyperpage{72}, \hyperpage{112}, 
+		\hyperpage{118}, \hyperpage{125}, \hyperpage{186}
+    \subitem measurement error, \hyperpage{112}
+    \subitem median, \hyperpage{27}, \hyperpage{72}, \hyperpage{119}, 
+		\hyperpage{185}, \hyperpage{360}
+    \subitem mergesort, \hyperpage{356}
+    \subitem metadata, \hyperpage{6}
+  \item method centrism, \hyperpage{1}
+  \item metric, \hyperpage{271}
+    \subitem global, \hyperpage{255}
+    \subitem identity, \hyperpage{272}
+    \subitem local, \hyperpage{255}
+    \subitem positivity, \hyperpage{272}
+    \subitem symmetry, \hyperpage{272}
+    \subitem triangle inequality, \hyperpage{272}
+  \item minimum spanning tree, \hyperpage{291}, \hyperpage{304}
+  \item missing values, \hyperpage{65}, \hyperpage{336}
+  \item mixture model, \hyperpage{298}
+  \item Moby Dick, \hyperpage{75}
+  \item mode, \hyperpage{27}
+  \item model-driven, \hyperpage{375}
+  \item modeling, \hyperpage{91}, \hyperpage{294}, \hyperpage{374}
+    \subitem ad hoc, \hyperpage{182}
+    \subitem baseline, \hyperpage{184}
+    \subitem blackbox, \hyperpage{181}
+    \subitem data science, \hyperpage{184}
+    \subitem data-driven, \hyperpage{182}
+    \subitem deep learning, \hyperpage{183}
+    \subitem descriptive, \hyperpage{181}
+    \subitem deterministic, \hyperpage{182}
+    \subitem evaluating, \hyperpage{185}
+    \subitem Google’s forecasting, \hyperpage{179}
+    \subitem hierarchical, \hyperpage{183}
+    \subitem linear, \hyperpage{181}
+    \subitem live, \hyperpage{180}
+    \subitem machine learning, \hyperpage{182}
+    \subitem neural network, \hyperpage{181}
+    \subitem non-linear, \hyperpage{181}
+    \subitem overﬁt, \hyperpage{179}
+    \subitem philosophies of, \hyperpage{91}
+    \subitem principles for eﬀectiveness, \hyperpage{179}
+    \subitem simplifying, \hyperpage{256}
+    \subitem simulation, \hyperpage{203}
+    \subitem stochastic, \hyperpage{182}
+    \subitem taxonomy of, \hyperpage{180}
+    \subitem underﬁt, \hyperpage{178}
+    \subitem ﬁrst-principle, \hyperpage{182}
+    \subitem ﬂat, \hyperpage{183}
+  \item Moneyball, \hyperpage{4}
+  \item monkey, \hyperpage{187}
+  \item monotonic, \hyperpage{275}
+    \subitem Mosteller, Frederick, \hyperpage{108}
+    \subitem multiedge, \hyperpage{289}
+    \subitem multinomial regression, \hyperpage{268}
+    \subitem multiplying probabilities, \hyperpage{39}
+    \subitem naive Bayes, \hyperpage{316}, \hyperpage{324}
+    \subitem name uniﬁcation, \hyperpage{64}
+    \subitem Napoleon, \hyperpage{293}
+    \subitem NASA, \hyperpage{61}
+    \subitem National Football League, \hyperpage{52}
+    \subitem natural language processing, \hyperpage{7}
+    \subitem nearest centroid, \hyperpage{305}
+    \subitem nearest neighbor, \hyperpage{302}, \hyperpage{355}
+    \subitem nearest neighbor classiﬁcation, \hyperpage{278}
+    \subitem negative class, \hyperpage{186}
+    \subitem network methods, \hyperpage{271}
+    \subitem networks, \hyperpage{96}, \hyperpage{146}, \hyperpage{211}, 
+		\hyperpage{338}
+    \subitem Netﬂix prize, \hyperpage{8}
+    \subitem neural networks, \hyperpage{337}
+    \subitem new data set, \hyperpage{142}
+    \subitem New York, \hyperpage{248}
+    \subitem Nixon, Richard, \hyperpage{293}
+    \subitem NLP-based system, \hyperpage{15}
+    \subitem no free lunch theorem, \hyperpage{315}
+    \subitem non-linear classiﬁers, \hyperpage{168}
+    \subitem non-linearity, \hyperpage{319}, \hyperpage{337}, 
+		\hyperpage{340}
+    \subitem norm, \hyperpage{257}
+    \subitem normal, \hyperpage{111}
+
+  \indexspace
+
+  \item normal distribution, \hyperpage{68}, \hyperpage{96}, 
+		\hyperpage{111}
+    \subitem implications, \hyperpage{112}
+  \item normality testing, \hyperpage{128}
+  \item normalization, \hyperpage{90}, \hyperpage{336}
+  \item normalizing skewed distribution, \hyperpage{40}
+  \item norms, \hyperpage{276}
+  \item NoSQL databases, \hyperpage{373}
+  \item notebook environments, \hyperpage{49}
+  \item numerical conversions, \hyperpage{61}
+
+  \indexspace
+
+  \item Obama, Barack, \hyperpage{293}
+  \item Obama, Barack [91], \hyperpage{294}
+  \item Obama, Barack], \hyperpage{293}
+  \item Occam, William of, \hyperpage{178}
+  \item Occam’s razor, \hyperpage{91}, \hyperpage{184}, 
+		\hyperpage{256}
+  \item Oh G-d, \hyperpage{160}
+    \subitem local, \hyperpage{255}
+  \item Oracle of Bacon, \hyperpage{8}
+  \item outlier, \hyperpage{105}
+    \subitem detection, \hyperpage{67}
+  \item outlier detection, \hyperpage{295}
+    \subitem removing, \hyperpage{244}
+  \item overlap percentage, \hyperpage{126}
+  \item overﬁtting, \hyperpage{178}, \hyperpage{266}
+  \item ownership, \hyperpage{375}
+
+  \indexspace
+
+  \item p-values, \hyperpage{132}
+  \item packing data, \hyperpage{185}
+  \item PageRank, \hyperpage{88}, \hyperpage{100}, \hyperpage{292}
+  \item pairwise correlations, \hyperpage{144}
+  \item parallel processing, \hyperpage{365}
+  \item parallelism, \hyperpage{186}
+  \item parameter ﬁtting, \hyperpage{250}
+    \subitem convex, \hyperpage{251}
+  \item partition function, \hyperpage{268}
+  \item Pascal, Blaise, \hyperpage{22}
+  \item Pascal’s triangle, \hyperpage{110}
+  \item paths, \hyperpage{219}
+  \item Pearson correlation coeﬃcient, \hyperpage{32}
+  \item penalty function, \hyperpage{263}
+  \item performance of models, \hyperpage{30}
+    \subitem periodic table, \hyperpage{168}
+    \subitem Perl, \hyperpage{49}
+    \subitem permutation, \hyperpage{218}
+    \subitem personal wealth, \hyperpage{61}
+    \subitem pie charts, \hyperpage{162}
+    \subitem point spread, \hyperpage{52}
+    \subitem points vs. vectors, \hyperpage{276}
+    \subitem Poisson distribution, \hyperpage{113}
+    \subitem position evaluation function, \hyperpage{333}
+    \subitem positive class, \hyperpage{186}
+    \subitem power law distribution, \hyperpage{116}
+    \subitem power law function, \hyperpage{247}
+    \subitem precision, \hyperpage{1}, \hyperpage{187}, \hyperpage{195}
+    \subitem prefetching, \hyperpage{359}
+    \subitem principal components, \hyperpage{233}
+    \subitem prior probability, \hyperpage{316}
+    \subitem privacy, \hyperpage{376}
+    \subitem probabilistic, \hyperpage{179}
+    \subitem probability, \hyperpage{20, 21}, \hyperpage{316}
+    \subitem probability density function, \hyperpage{24}
+    \subitem probability distribution, \hyperpage{24}
+    \subitem probability of an event, \hyperpage{20}
+    \subitem probability of an outcome, \hyperpage{20}
+    \subitem probability vs. statistics, \hyperpage{21}
+    \subitem program ﬂow graph, \hyperpage{289}
+    \subitem programming languages, \hyperpage{47}
+    \subitem protocol buﬀers, \hyperpage{52}
+    \subitem proxies, \hyperpage{87}
+    \subitem psychologists, \hyperpage{77}
+    \subitem Pubmed, \hyperpage{58}
+    \subitem pure partition, \hyperpage{321}
+    \subitem Pythagorean theorem, \hyperpage{274}
+    \subitem Python, \hyperpage{48}, \hyperpage{55}
+    \subitem Quant Shop, \hyperpage{7}
+    \subitem R, \hyperpage{47}
+    \subitem Rand index, \hyperpage{306}
+
+  \indexspace
+
+  \item random access machine, \hyperpage{355}
+  \item random sampling, \hyperpage{186}, \hyperpage{360}
+  \item random variable, \hyperpage{20}
+    \subitem class rank, \hyperpage{88}
+    \subitem search results, \hyperpage{88}
+    \subitem top sports teams, \hyperpage{88}
+    \subitem university rankings, \hyperpage{88}
+  \item rankings, \hyperpage{83}
+    \subitem digraph-based, \hyperpage{96}
+    \subitem historical, \hyperpage{103}
+    \subitem merging, \hyperpage{95}
+    \subitem techniques, \hyperpage{91}
+  \item ratio, \hyperpage{38}
+    \subitem unit, \hyperpage{214}
+  \item Reagan, Ronald, \hyperpage{293}
+  \item rearrangement operations, \hyperpage{211}
+  \item recall, \hyperpage{191}, \hyperpage{195}
+  \item rectiﬁed linear units, \hyperpage{340}
+  \item rectiﬁer, \hyperpage{340}
+  \item redundancy, \hyperpage{351}
+  \item regression, \hyperpage{7}
+    \subitem application, \hyperpage{320}
+    \subitem for classiﬁcation, \hyperpage{260}
+    \subitem LASSO, \hyperpage{257}
+    \subitem logistic, \hyperpage{259}, \hyperpage{262}
+    \subitem ridge, \hyperpage{256}
+  \item regression models, \hyperpage{244}
+    \subitem removing outliers, \hyperpage{244}
+  \item regularization, \hyperpage{256}, \hyperpage{336}
+  \item reinforcement learning, \hyperpage{333}
+  \item Richter scale, \hyperpage{118}
+  \item right-sizing training data, \hyperpage{361}
+  \item road network, \hyperpage{289}
+  \item robustness, \hyperpage{1}, \hyperpage{84}, \hyperpage{320}
+  \item Roosevelt, Franklin D., \hyperpage{293}
+  \item Rota, Gian-Carlo, \hyperpage{210}
+
+  \indexspace
+
+  \item sabermetrics, \hyperpage{16}
+  \item sample space, \hyperpage{19}
+  \item sampling, \hyperpage{119}, \hyperpage{360, 361}
+    \subitem beyond one dimension, \hyperpage{120}
+    \subitem by truncation, \hyperpage{361}
+    \subitem scale invariant, \hyperpage{119}
+    \subitem scaling constant, \hyperpage{263}
+    \subitem scatter plots, \hyperpage{86}, \hyperpage{160}
+    \subitem Schaumann, Jan, \hyperpage{313}
+    \subitem scientist, \hyperpage{1}
+    \subitem scores, \hyperpage{83}
+    \subitem scores vs. rankings, \hyperpage{88}
+    \subitem scoring functions, \hyperpage{83}
+    \subitem security, \hyperpage{377}
+    \subitem self-loop, \hyperpage{289}
+    \subitem semi-supervised learning, \hyperpage{334}
+    \subitem Shakespeare, William, \hyperpage{293}
+    \subitem sharp, \hyperpage{187}
+    \subitem Sheep Market, \hyperpage{75}
+    \subitem shortest paths, \hyperpage{291}
+    \subitem signal to noise ratio, \hyperpage{28}
+    \subitem signiﬁcance level, \hyperpage{127}
+    \subitem Silver, Nate, \hyperpage{179}
+    \subitem similarity graphs, \hyperpage{306}
+    \subitem similarity matrix, \hyperpage{307}
+    \subitem simple graph, \hyperpage{289}
+    \subitem single-command program, \hyperpage{198}
+    \subitem single-pass algorithm, \hyperpage{185}
+    \subitem singular value decomposition, \hyperpage{231}
+    \subitem sketching, \hyperpage{360}
+    \subitem skew, \hyperpage{371}
+    \subitem small evaluation set, \hyperpage{200}
+    \subitem social media, \hyperpage{350}
+    \subitem Social Network–movie, \hyperpage{92}
+    \subitem spam, \hyperpage{351}
+    \subitem spam ﬁltering, \hyperpage{351}
+    \subitem Spears, Britney [566], \hyperpage{235}
+    \subitem spectral clustering, \hyperpage{307}
+  \item spidering, \hyperpage{55}
+  \item splitters, \hyperpage{295}
+  \item sports performance, \hyperpage{29}
+  \item SQL databases, \hyperpage{52}
+  \item standard deviation, \hyperpage{28}, \hyperpage{112}, 
+		\hyperpage{119}
+  \item statistical analysis, \hyperpage{108}, \hyperpage{204}
+  \item statistical distributions, \hyperpage{109}
+  \item statistical proxy, \hyperpage{6}
+  \item statistical signiﬁcance, \hyperpage{122}
+  \item statistics, \hyperpage{21}
+  \item stochastic gradient descent, \hyperpage{255}
+  \item stock market, \hyperpage{28}, \hyperpage{68}, \hyperpage{112}
+  \item Stony Brook University, \hyperpage{7}
+  \item stop words, \hyperpage{372}
+  \item storage hierarchy, \hyperpage{359}
+  \item streaming, \hyperpage{185}
+  \item summary statistics, \hyperpage{143}, \hyperpage{145}
+  \item supervised learning, \hyperpage{333}
+  \item supervision, \hyperpage{333}
+    \subitem degrees of, \hyperpage{333}
+  \item support vector machines, \hyperpage{314}, \hyperpage{328}
+  \item support vectors, \hyperpage{330}
+  \item Surowiecki, James, \hyperpage{71}
+  \item sweat equity, \hyperpage{55}
+
+  \indexspace
+
+  \item T-test, \hyperpage{126}
+  \item tangent line, \hyperpage{254}
+  \item target scaling, \hyperpage{246}
+    \subitem records from New York, \hyperpage{14}
+    \subitem sublinear, \hyperpage{247}
+    \subitem tipping model, \hyperpage{256}
+    \subitem tipping rate, \hyperpage{7}, \hyperpage{248}
+  \item taxi driver, \hyperpage{248}
+  \item terms of service, \hyperpage{56}
+  \item test statistic, \hyperpage{66}
+  \item text analysis, \hyperpage{228}
+  \item theory of relativity, \hyperpage{131}
+  \item Tikhonov regularization, \hyperpage{257}
+  \item time uniﬁcation, \hyperpage{34}
+  \item Titanic, \hyperpage{165}, \hyperpage{319}
+  \item top-k success rate, \hyperpage{193}
+  \item topic modeling, \hyperpage{334}
+  \item topological graph, \hyperpage{290}
+    \subitem chartjunk, \hyperpage{147}, \hyperpage{149}
+    \subitem colors, \hyperpage{147}, \hyperpage{152}
+    \subitem data-ink ratio, \hyperpage{147, 148}
+    \subitem lie factor, \hyperpage{147, 148}
+    \subitem repetition, \hyperpage{148}, \hyperpage{153}
+    \subitem scaling and labeling, \hyperpage{147}, \hyperpage{151}
+    \subitem topological sorting, \hyperpage{97}, \hyperpage{291}
+    \subitem transparency, \hyperpage{375}
+    \subitem tree, \hyperpage{266}, \hyperpage{301}
+    \subitem true negatives, \hyperpage{187}
+    \subitem true positives, \hyperpage{187}
+    \subitem truncation, \hyperpage{363}
+    \subitem Tufte, Edward, \hyperpage{141}, \hyperpage{147}
+    \subitem Twitter, \hyperpage{350}, \hyperpage{364}
+    \subitem U.S. presidential elections, \hyperpage{168}, 
+		\hyperpage{179}
+    \subitem uncertainty, \hyperpage{159}
+    \subitem undirected graph, \hyperpage{288}
+    \subitem uniform distribution, \hyperpage{186}
+    \subitem uniform sampling, \hyperpage{363}
+    \subitem uninvertible, \hyperpage{358}
+    \subitem unit conversions, \hyperpage{60}
+    \subitem UNIX time, \hyperpage{34}
+    \subitem unlabeled graphs, \hyperpage{290}
+    \subitem unrepresentative participation, \hyperpage{351}
+    \subitem unsupervised learning, \hyperpage{333}
+    \subitem unweighted graph, \hyperpage{289}
+    \subitem urban transportation network, \hyperpage{14}
+    \subitem validation data, \hyperpage{83}
+    \subitem value prediction, \hyperpage{184}
+    \subitem variability measures, \hyperpage{28}
+    \subitem variance, \hyperpage{28}, \hyperpage{178}, \hyperpage{360}
+    \subitem variation coeﬃcient, \hyperpage{126}
+    \subitem variety, \hyperpage{352}
+    \subitem vectors, \hyperpage{213}
+    \subitem velocity, \hyperpage{352}
+    \subitem veracity, \hyperpage{353}
+    \subitem vertex, \hyperpage{146}
+    \subitem vertices, \hyperpage{146}
+    \subitem visualization, \hyperpage{361}
+    \subitem visualization aesthetic, \hyperpage{147}
+
+  \indexspace
+
+  \item volume, \hyperpage{352}
+  \item Voronoi diagrams, \hyperpage{281}
+  \item voting, \hyperpage{324}
+    \subitem with classiﬁers, \hyperpage{324}
+
+  \indexspace
+
+  \item web crawling, \hyperpage{56}
+  \item weighted average, \hyperpage{73}
+    \subitem weighted graph, \hyperpage{289}
+    \subitem Welch’s t-statistic, \hyperpage{66}
+    \subitem Wikipedia, \hyperpage{7}, \hyperpage{68}, \hyperpage{103}, 
+		\hyperpage{293}
+    \subitem wisdom, \hyperpage{7}
+    \subitem wisdom of crowds, \hyperpage{70}
+    \subitem Wolfram Alpha, \hyperpage{49}, \hyperpage{131}
+    \subitem word embeddings, \hyperpage{116}, \hyperpage{342}
+    \subitem word2vec, \hyperpage{343}
+    \subitem XML, \hyperpage{28}
+    \subitem Z-score, \hyperpage{90}, \hyperpage{275}, \hyperpage{336}
+    \subitem Zipf’s law, \hyperpage{118}, \hyperpage{319}
+
+\end{theindex}
