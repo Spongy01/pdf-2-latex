@@ -25,10 +25,11 @@ def calculate_score(input_file_path: str, output_file_path: str) -> float:
 
 
     output_directory = os.path.dirname(output_file_path)
+    input_directory = os.path.dirname(input_file_path)
     base_name = os.path.splitext(os.path.basename(output_file_path))[0]
 
     log_file_path = os.path.join(output_directory, base_name + ".log")
-    metadata_file_path = os.path.join(output_directory, "metadata.json")
+    metadata_file_path = os.path.join(input_directory, "metadata.json")
 
     # get number of errors from log file
     num_errors = 0
@@ -148,6 +149,8 @@ def calculate_score(input_file_path: str, output_file_path: str) -> float:
     # Ensure score is within 0-100
     # score = max(0.0,  score)
     result = {}
+    # round off score to 2 decimal places
+    score = round(score, 2)
     result["Score"] = score
     result["Latex Errors"] = num_errors
     result["Latex Warnings"] = num_warnings

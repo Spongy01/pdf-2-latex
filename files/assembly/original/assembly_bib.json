@@ -1,0 +1,5 @@
+{
+  "1": "@techreport{ieee7542019,\n  title={IEEE standard for floating-point arithmetic},\n  institution={IEEE},\n  number={754-2019},\n  year={2019},\n  url={https://standards.ieee.org/standard/754-2019.html}\n}",
+  "2": "@book{dandamudi2005introduction,\n  title={Introduction to assembly language},\n  author={Dandamudi SP},\n  year={2005},\n  edition={2nd},\n  publisher={Springer}\n}",
+  "3": "@book{streib2017guide,\n  title={Guide to data structures},\n  author={Streib JT and Soma T},\n  year={2017},\n  publisher={Springer}\n}"
+}

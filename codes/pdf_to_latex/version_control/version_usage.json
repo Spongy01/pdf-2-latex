@@ -1,0 +1,32 @@
+{
+  "data-science___original": {
+    "book_name": "data-science",
+    "version": "original",
+    "last_used": "2025-10-10T18:10:07.085261"
+  },
+  "assembly___original": {
+    "book_name": "assembly",
+    "version": "original",
+    "last_used": "2025-10-10T18:45:54.621436"
+  },
+  "data-science___democheck": {
+    "book_name": "data-science",
+    "version": "democheck",
+    "last_used": "2025-10-10T18:59:46.411925"
+  },
+  "cybersec___original": {
+    "book_name": "cybersec",
+    "version": "original",
+    "last_used": "2025-10-10T20:28:51.164702"
+  },
+  "algorithms___original": {
+    "book_name": "algorithms",
+    "version": "original",
+    "last_used": "2025-10-10T20:29:19.857084"
+  },
+  "ai___original": {
+    "book_name": "ai",
+    "version": "original",
+    "last_used": "2025-10-10T20:41:48.575955"
+  }
+}

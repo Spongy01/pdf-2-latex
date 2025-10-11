@@ -10,10 +10,10 @@ File Structure Expected:
     files/
     ├── ai/
     │   ├── inputs/ai.tex
-    │   └── outputs/ai_final.tex
+    │   └── <version>/ai_final.tex
     ├── physics/
     │   ├── inputs/physics.tex
-    │   └── outputs/physics_final.tex
+    │   └── <version>/physics_final.tex
     tests/
     └── regression_test/
         ├── main.py (this file)
@@ -35,6 +35,30 @@ import seaborn as sns
 from datetime import datetime
 import logging
 import csv
+from pathlib import Path
+import importlib.util
+import os
+
+
+# Robust import for excel_registry:
+# - Prefer package-relative import when running as module
+# - Fall back to loading the file by path when running main.py directly
+try:
+    from .excel_registry import update_master_excel
+except Exception:
+    try:
+        # Try to load module from the same directory as this script
+        here = Path(__file__).resolve().parent
+        registry_path = here / "excel_registry.py"
+        spec = importlib.util.spec_from_file_location("excel_registry", str(registry_path))
+        excel_mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(excel_mod)
+        update_master_excel = excel_mod.update_master_excel
+    except Exception:
+        # Final fallback: leave a stub that warns when called
+        def update_master_excel(results_dir, book_name, result):
+            logger = __import__("logging").getLogger(__name__)
+            logger.warning("excel_registry unavailable; skipping master excel update")
 
 # Setup logging
 logging.basicConfig(
@@ -57,6 +81,8 @@ class RegressionTester:
         # Results go in the specified output directory within test directory
         self.results_dir = self.test_dir / output_dir
         self.results_dir.mkdir(exist_ok=True)
+        # Current version subdirectory (if any)
+        self.current_version = self.get_current_version_name()
 
         # Load scoring function
         self.scoring_function = self._load_scoring_function(scoring_method)
@@ -64,6 +90,41 @@ class RegressionTester:
 
         logger.info(f"Files directory: {self.files_dir}")
         logger.info(f"Results directory: {self.results_dir}")
+        logger.info(f"Using current version: {self.current_version or 'legacy outputs/'}")
+        logger.info(f"Using scoring method: {scoring_method}")
+
+
+    def get_current_version_name(self):
+        """
+        Get the current version name from version control.
+        Returns the name of the currently active version.
+        If no version is found or version control is not initialized,
+        returns 'original' as the default.
+        """
+        # Directly read the version_history.json file in the project's version_control
+        try:
+            repo_root = self.test_dir.parent.parent
+            vh_path = repo_root / "codes" / "pdf_to_latex" / "version_control" / "version_history.json"
+            if not vh_path.exists():
+                logger.warning(f"version_history.json not found at {vh_path}; using 'original'")
+                return "original"
+
+            with open(vh_path, "r", encoding="utf-8") as f:
+                versions = json.load(f)
+
+            # versions is expected to be a list of version entries
+            for v in versions:
+                if isinstance(v, dict) and v.get("is_current"):
+                    name = v.get("name")
+                    logger.info(f"Detected current version from JSON: {name}")
+                    return name or "original"
+
+            logger.warning("No version marked is_current in version_history.json; using 'original'")
+            return "original"
+        except Exception as e:
+            logger.warning(f"Error reading version_history.json ({e}); using 'original'")
+            return "original"
+
 
     def _load_scoring_function(self, method_name: str):
         """Dynamically load scoring function from scores/{method_name}.py"""
@@ -95,7 +156,9 @@ class RegressionTester:
         """Validate that required book files exist"""
         book_dir = self.files_dir / book_name
         input_file = book_dir / "inputs" / f"{book_name}.tex"
-        output_file = book_dir / "outputs" / f"{book_name}_final.tex"
+        # Use the version-specific directory for outputs
+        version_dir = book_dir / (self.current_version or "")
+        output_file = version_dir / f"{book_name}_final.tex"
 
         errors = []
         if not book_dir.exists():
@@ -110,39 +173,13 @@ class RegressionTester:
                 logger.error(error)
             return False, str(input_file), str(output_file)
         
-        # check for results.csv
-        results_csv = book_dir / "outputs" / "results.csv"
-        if not results_csv.exists():
-            # create an empty results.csv file
-            headers = [
-                "book_name",
-                "scoring_method",
-                "timestamp",
-                "Score",
-                "Latex Errors",
-                "Latex Warnings",
-                "Bibtex (metadata)",
-                "Bibtex extracted (json)",
-                "Entries Cited",
-                "Chapters (metadata)",
-                "Chapters (output)",
-                "Sections (metadata)",
-                "Sections (output)",
-                "Subsections (metadata)",
-                "Subsections (output)",
-                "Figures (metadata)",
-                "Figures (output)",
-                "Tables (metadata)",
-                "Tables (output)",
-                "Index Entries (metadata)",
-                "Index Entries (output)"
-            ]
-
-            with open(results_csv, "w", newline='') as csvfile:
-                writer = csv.writer(csvfile)
-                writer.writerow(headers)
+        # We no longer create per-book CSV files; results are written only to the master Excel.
 
         return True, str(input_file), str(output_file)
+
+    def _book_version_dir(self, book_name: str) -> Path:
+        """Return path to the book's current-version directory."""
+        return self.files_dir / book_name / (self.current_version or "")
 
     def discover_books(self) -> List[str]:
         """Discover all available books in the files directory"""
@@ -155,9 +192,13 @@ class RegressionTester:
             if item.is_dir():
                 # Check if it has the expected structure
                 input_file = item / "inputs" / f"{item.name}.tex"
-                output_file = item / "outputs" / f"{item.name}_final.tex"
-                if input_file.exists() and output_file.exists():
+                # Only consider the current-version directory (no fallback to outputs/)
+                version_dir = item / (self.current_version or "")
+                output_file = version_dir / f"{item.name}_final.tex"
+                if input_file.exists():
                     books.append(item.name)
+                else:
+                    logger.info(f"Skipping {item.name}: no input book for version '{self.current_version}'")
 
         logger.info(f"Discovered {len(books)} books: {books}")
         return sorted(books)
@@ -228,37 +269,35 @@ class RegressionTester:
 
         for book_name in book_names:
             result = self.test_book(book_name)
-            self.append_to_csv(book_name, result)
+            # Only append and update master excel for valid results (i.e., version dir and files present)
+            if result.get("valid"):
+                self.append_to_csv(book_name, result)
+            else:
+                logger.info(f"Skipping CSV/master update for {book_name} (invalid or missing version folder)")
+
             results.append(result)
 
         return results
     
     def append_to_csv(self, book_name: str, result: Dict) -> None:
-        """Append individual book result to results.csv"""
-        book_dir = self.files_dir / book_name
-        results_csv = book_dir / "outputs" / "results.csv"
+        """Record book result in the master Excel only (no per-book CSVs).
 
-        if not results_csv.exists():
-            logger.error(f"Results CSV file does not exist: {results_csv}")
+        If the book doesn't have the current-version directory, the update is skipped
+        and a message is logged.
+        """
+        version_dir = self._book_version_dir(book_name)
+
+        if not version_dir.exists():
+            logger.error(f"Skipping master update: version directory not found for {book_name}: {version_dir}")
             return
 
-        # Prepare row data
-        row = [
-            result.get("book_name", ""),
-            result.get("scoring_method", ""),
-            result.get("timestamp", "")
-        ]
-        details = result.get("details", {})
-        for key in details:
-            row.append(details.get(key, -1))
-        # Append to CSV
         try:
-            with open(results_csv, "a", newline='') as csvfile:
-                writer = csv.writer(csvfile)
-                writer.writerow(row)
-            logger.info(f"Appended results to CSV: {results_csv}")
+            results_dir = Path(self.test_dir) / "results"
+            results_dir.mkdir(exist_ok=True)
+            update_master_excel(results_dir, book_name, result)
+            logger.info(f"Updated master excel with results for {book_name}")
         except Exception as e:
-            logger.error(f"Error appending to CSV {results_csv}: {e}")
+            logger.error(f"Failed to update master excel for {book_name}: {e}")
 
     def save_results(self, results: List[Dict], filename: str = None) -> str:
         """Save results to JSON file"""
