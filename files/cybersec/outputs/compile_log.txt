@@ -1,8 +1,0 @@
-Rc files read:
-  .latexmkrc
-Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
-Latexmk: Nothing to do for '../../files/cybersec/outputs/cybersec_final.tex'.
-Latexmk: All targets (/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/outputs/cybersec_final.pdf) are up-to-date
-Collected error summary (may duplicate other messages):
-  pdflatex: gave an error in previous invocation of latexmk.
-

@@ -25,6 +25,8 @@ Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
 
+<<<<<<< HEAD
+=======
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
 ) (/usr/local/texlive/2025/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
@@ -70,6 +72,7 @@ ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
 (/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 
+>>>>>>> origin/master
 (/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 ))) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 For additional information on amsmath, use the `?' option.
@@ -143,27 +146,28 @@ d by the Publisher, whether
 
 [3]
 [4]
-Chapter 1.
 
 LaTeX Warning: Citation `skiena2008algorithm' on page 5 undefined on input line
  118.
 
 
 [5]
+<<<<<<< HEAD
+Overfull \hbox (20.02608pt too wide) in paragraph at lines 143--144
+[]\TU/Georgia(0)/m/it/10 Take-Home Lessons\TU/Georgia(0)/m/n/10 : Highlighted "
+take-home" lesson boxes scattered through
+=======
 [6]
 Overfull \hbox (0.25722pt too wide) in paragraph at lines 135--136
 \TU/Georgia(0)/m/n/10 This book covers enough material for an \TU/Georgia(0)/m/
 it/10 ``Introduction to Data Science'' \TU/Georgia(0)/m/n/10 course
+>>>>>>> origin/master
 
 Overfull \hbox (1.57036pt too wide) in paragraph at lines 145--146
 \TU/Georgia(0)/m/n/10 questions, reflecting the questions students might encoun
 ter when search-
 
-[7]
-xdvipdfmx:fatal: Image inclusion failed. Could not find file: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-001.jpg
-
-No output PDF file written.
-
+[6]
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -184,6 +188,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< HEAD
+l.154 \item \textit
+                   {Chapter Notes}: Finally, each tutorial chapter concludes...
+
+
+Underfull \hbox (badness 10000) detected at line 154
+=======
 l.152   \item \emph
                    {Data Science Television}: Data science remains mysteriou...
 
@@ -202,6 +213,7 @@ l.155   \item \emph
 
 
 Underfull \hbox (badness 10000) detected at line 155
+>>>>>>> origin/master
 [][]
 
 ! LaTeX Error: \begin{document} ended by \end{itemize}.
@@ -210,11 +222,29 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< HEAD
+l.155 \end{itemize}
+=======
 l.156 \end{itemize}
+>>>>>>> origin/master
                    
 ! Extra \endgroup.
 \end  ...end#1\endcsname \@checkend {#1}\endgroup 
                                                   \UseHook {env/#1/after}\if...
+<<<<<<< HEAD
+l.155 \end{itemize}
+                   
+
+Overfull \hbox (1.0873pt too wide) in paragraph at lines 158--159
+\TU/Georgia(0)/m/n/10 meaning that they don't always process statistical eviden
+ce with as much alacrity
+
+[7]
+xdvipdfmx:fatal: Image inclusion failed. Could not find file: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-001.jpg
+
+No output PDF file written.
+
+=======
 l.156 \end{itemize}
                    
 
@@ -223,6 +253,7 @@ Overfull \hbox (1.0873pt too wide) in paragraph at lines 159--160
 ce with as much alacrity
 
 Underfull \vbox (badness 4254) has occurred while \output is active
+>>>>>>> origin/master
 [8Latexmk: Getting log file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/outputs/data-science_final.log'
 Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/outputs/data-science_final.fls'
 Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/outputs/data-science_final.log'

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.28)  6 OCT 2025 13:05
+=======
 This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.28)  5 OCT 2025 21:08
+>>>>>>> origin/master
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1083,17 +1087,26 @@ d by the Publisher, whether
 [3]
 
 [4]
+<<<<<<< HEAD
+=======
 Chapter 1.
 LaTeX Font Info:    Font shape `TU/Georgia(0)/bx/n' in size <20.74> not availab
 le
 (Font)              Font shape `TU/Georgia(0)/b/n' tried instead on input line 
 108.
+>>>>>>> origin/master
 
 LaTeX Warning: Citation `skiena2008algorithm' on page 5 undefined on input line
  118.
 
 
 
+<<<<<<< HEAD
+[5]
+Overfull \hbox (20.02608pt too wide) in paragraph at lines 143--144
+[]\TU/Georgia(0)/m/it/10 Take-Home Lessons\TU/Georgia(0)/m/n/10 : Highlighted "
+take-home" lesson boxes scattered through
+=======
 [5
 
 ]
@@ -1102,6 +1115,7 @@ LaTeX Warning: Citation `skiena2008algorithm' on page 5 undefined on input line
 Overfull \hbox (0.25722pt too wide) in paragraph at lines 135--136
 \TU/Georgia(0)/m/n/10 This book covers enough material for an \TU/Georgia(0)/m/
 it/10 ``Introduction to Data Science'' \TU/Georgia(0)/m/n/10 course
+>>>>>>> origin/master
  []
 
 
@@ -1112,7 +1126,7 @@ ter when search-
 
 
 
-[7]
+[6]
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -1136,6 +1150,9 @@ Underfull \hbox (badness 10000) detected at line 151
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
+<<<<<<< HEAD
+ ...                                    
+=======
  ...                                              
                                                   
 l.152   \item \emph
@@ -1155,3 +1172,4 @@ Underfull \hbox (badness 10000) detected at line 152
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
+>>>>>>> origin/master

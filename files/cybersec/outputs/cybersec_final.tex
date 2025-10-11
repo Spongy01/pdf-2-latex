@@ -23,6 +23,8 @@
 \tableofcontents
 
 \section{\textbf{Undergraduate Topics in Computer Science}}
+\section{Robin Sharp}
+\section{A Multidisciplinary Challenge}
 \section{\textbf{Undergraduate Topics in Computer Science}}
 ‘Undergraduate Topics in Computer Science’ (UTiCS) delivers high-quality instructional content for undergraduates studying in all areas of computing and information science. From core foundational and theoretical material to final-year topics and applications, UTiCS books take a fresh, concise, and modern approach and are ideal for self-study or for a one- or two-semester course. The texts are authored by established experts in their fields, reviewed by an international advisory board, and contain numerous examples and problems, many of which include fully worked solutions.
 
@@ -46,7 +48,7 @@ This Springer imprint is published by the registered company Springer Nature Swi
 The registered company address is: Gewerbestrasse 11, 6330 Cham, Switzerland\\
 Paper in this product is recyclable.
 
-\chapter{Preface}
+\section{Preface}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=\textwidth]{2025_05_12_ac3bc46a6f93dd973caag-006}
@@ -76,7 +78,7 @@ Lyngby,
 
 July 2023.
 
-\chapter{Acknowledgments}
+\section{Acknowledgments}
 Parts of this textbook have previously appeared in the work "What's Cybersecurity All About?" (ISBN 978875020023 \cite{ayers2014mobileforensics}), written by the author and published by Polyteknisk Forlag, Copenhagen, and are reproduced here with their kind permission.\\
 
 Chapter 3 contains material which is copyright by Carnegie Mellon University ${ }^{1}$ and which is reproduced here under the following conditions:
@@ -91,7 +93,1028 @@ Figures 1.3, 11.\cite{wp29_2017_dpia} and \cite{caralli2007allegro}.3 are origin
 
 1 TM Carnegie Mellon, CERT and OCTAVE are registered trademarks of Carnegie Mellon University. SM Operationally Critical Threat, Asset, and Vulnerability Evaluation is a service mark of Carnegie Mellon University.
 
-\tableofcontents
+\section{Contents}
+1 Introduction: Why Cybersecurity? ..... 1\\
+%---- Page End Break Here ---- Page : 8
+\newpage
+\noindent 1.1 Information Security and Cybersecurity \dotfill 1\\
+\noindent 1.1.1 The Development of the Internet \dotfill 2\\
+\noindent 1.2 How Do Computers Work Together? \dotfill 3\\
+\noindent 1.2.1 Systems of Systems \dotfill 4\\
+\noindent 1.3 Cyberattacks Today \dotfill 5\\
+\noindent 1.4 Security Targets \dotfill 9\\
+\noindent 1.4.1 CIA Targets \dotfill 10\\
+\noindent 1.4.2 Security Policies \dotfill 11\\
+\noindent 1.5 Reader's Guide \dotfill 13\\
+\noindent 1.5.1 A Short Note on Notation \dotfill \cite{comer2007internetbook}\\
+\noindent Exercises \dotfill \cite{comer2014computernetworks}\\
+\noindent 2 Technique and Human Beings \dotfill \cite{commoncriteria2012part1}\\
+\noindent 2.1 Psychological Attacks \dotfill \cite{coso2013internalcontrol}\\
+\noindent 2.1.1 Curiosity \dotfill \cite{coe2001cybercrime}\\
+\noindent 2.1.2 Helpfulness \dotfill 19\\
+\noindent 2.1.3 Sympathy and Hate \dotfill \cite{coe2005terrorism}\\
+\noindent 2.1.4 Belief in Authority \dotfill 20\\
+\noindent 2.1.5 The Brain's Two Modes of Operation \dotfill \cite{cc30}\\
+\noindent 2.1.6 Uncertainty in Decision Making \dotfill \cite{crocker2013rfc6376}\\
+\noindent 2.2 Phishing \dotfill \cite{dhamija2006why}\\
+\noindent 2.3 Humans vs. Machines \dotfill \cite{dworkin2001sp80038a}\\
+\noindent 2.4 Can Psychological Attacks Be Prevented? \dotfill \cite{edpb2020video}\\
+\noindent 2.4.1 Motivation \dotfill \cite{eu1999signatures}\\
+\noindent 2.4.2 Training \dotfill \cite{eu2014eidas}\\
+\noindent Exercises \dotfill 34\\
+\noindent 3 Risk \dotfill \cite{fireeye2020redline}\\
+\noindent 3.1 What Is Risk? \dotfill 37\\
+\noindent 3.2 Threats in IT Systems \dotfill \cite{freed1996rfc2046}\\
+%---- Page End Break Here ---- Page : 9
+3.3 Countermeasures ..... \cite{halderman2008coldboot}\\
+3.4 Risk Management ..... \cite{housley2009rfc5652}\\
+3.5 Systematic Security Analysis ..... \cite{hovemeyer2007nullpointer}\\
+3.5.1 ISO/IEC 27002 ..... 43\\
+3.5.2 OCTAVE® ..... \cite{iso1993mpeg}\\
+3.6 Risk Management as a PDCA Process ..... \cite{jones2006fair}\\
+Exercises ..... \cite{kahneman2012thinking}\\
+\textbf{4 Cryptography} ..... \cite{kent2006sp80086}\\
+4.1 Some Central Concepts ..... 57\\
+4.1.1 Cryptosystems ..... \cite{kitterman2014rfc7208}\\
+4.1.2 Cryptanalysis ..... \cite{kosinski2013private}\\
+4.2 Symmetric Encryption ..... \cite{kurose2016topdown}\\
+4.2.1 Substitution Ciphers ..... 60\\
+4.2.2 Random Permutation ..... \cite{lewand2000cryptological}\\
+4.2.3 Polyalphabetic Ciphers ..... \cite{mcafee2014netlosses}\\
+4.2.4 Vigenère Ciphers ..... 64\\
+4.2.5 Transposition Ciphers ..... \cite{mitnick2003deception}\\
+4.3 Modern Ideas ..... \cite{moriarty2014rfc7292}\\
+4.3.1 One-Time Pads ..... \cite{morris1979password}\\
+4.3.2 Confusion and Diffusion ..... \cite{nist2018framework}\\
+4.3.3 DES ..... 68\\
+4.3.4 AES ..... \cite{ramsdell2010rfc5751}\\
+4.3.5 Symmetric Stream Ciphers ..... \cite{reschke2015rfc7617}\\
+4.4 Asymmetric Cryptosystems ..... \cite{sciberras2006rfc4519}\\
+4.4.1 Trapdoor Functions ..... \cite{seltzer2008ethical}\\
+4.4.2 Modular Arithmetic ..... 80\\
+4.4.3 The RSA Cryptosystem ..... \cite{singh1999codebook}\\
+4.5 A Comparison of PKCS and SKCS ..... \cite{tor_overview}\\
+Exercises ..... \cite{deltorto2001rfc3156}\\
+\textbf{5 Applied Cryptography} ..... \cite{whatwg2022html}\\
+5.1 Integrity ..... 95\\
+5.1.1 Cryptographic Hash Functions ..... \cite{wheeler2001flawfinder}\\
+5.1.2 MAC ..... \cite{williams2012acpo}\\
+5.2 Electronic Signatures ..... 102\\
+5.2.1 Verification of Electronic Signatures ..... 102\\
+5.2.2 Electronic Signatures with a PKCS ..... 103\\
+5.2.3 Digital Signature Standard (DSS) ..... 104\\
+5.2.4 Planning for the Future ..... 106\\
+5.3 Authentication ..... 107\\
+5.3.1 Types of Evidence ..... 107\\
+5.3.2 Authentication with an SKCS ..... 108\\
+5.3.3 Authentication with a PKCS ..... 110\\
+5.4 Key Distribution ..... 111\\
+%---- Page End Break Here ---- Page : 10
+5.4.1 Diffie-Hellman Key Agreement ..... 112\\
+5.4.2 More Secure Key Agreements ..... 113\\
+5.5 Certificates ..... 113\\
+5.5.1 How Are Certificates Issued in a PKI? ..... 115\\
+5.5.2 Access to Certificates ..... 116\\
+5.6 Trust Models ..... 116\\
+5.6.1 The Hierarchical Trust Model ..... 117\\
+5.6.2 The Web-of-trust Model ..... 118\\
+5.6.3 The Reputation-based Trust Model ..... 118\\
+5.7 Establishing an Identity ..... 119\\
+Exercises ..... 122\\
+\textbf{6} \textbf{Communication Networks} ..... 125\\
+6.1 Basic Network Concepts ..... 125\\
+6.1.1 Layered Architectures ..... 126\\
+6.1.2 Services ..... 127\\
+6.1.3 Protocols ..... 128\\
+6.2 Communication in the Internet ..... 130\\
+6.2.1 Data Transfer Between Layers ..... 131\\
+6.2.2 Addressing ..... 132\\
+6.2.3 TCP and UDP Ports ..... 135\\
+6.2.4 Functions in TCP and IP ..... 136\\
+6.2.5 DNS ..... 139\\
+6.2.6 How Do the Layers Work Together? ..... 140\\
+6.3 Technology ..... 141\\
+6.3.1 Shared Cable-based Media ..... 143\\
+6.3.2 Wireless Networks ..... 144\\
+6.3.3 Mobile Telephones on the Net ..... 146\\
+Exercises ..... 150\\
+\textbf{7} \textbf{Network Applications} ..... 153\\
+7.1 Mail Transfer ..... 153\\
+7.1.1 Mail Relays ..... 156\\
+7.1.2 The Structure of a Mail ..... 157\\
+7.1.3 MIME ..... 158\\
+7.2 Transfer of Web Pages ..... 162\\
+Exercises ..... 169\\
+\textbf{8} \textbf{Network Security} ..... 171\\
+8.1 Protection Based on Cryptographic Methods ..... 171\\
+8.1.1 The Application Layer ..... 172\\
+8.1.2 The Transport Layer ..... 173\\
+8.1.3 The Internet Layer ..... 173\\
+8.1.4 The Link Layer ..... 174\\
+8.1.5 The Physical Layer ..... 175\\
+%---- Page End Break Here ---- Page : 11
+8.2 Encryption in the Application Layer . . . . . . . . . . . . . . . . . . . . . . . 175\\
+8.3 Virtual Private Networks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 178\\
+8.3.1 Tunneling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 178\\
+8.4 Secure Socket Layer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 182\\
+8.4.1 SSL Protocol Architecture . . . . . . . . . . . . . . . . . . . . 183\\
+8.4.2 SSL/TLS Security Parameter Sets . . . . . . . . . . . . . . . 184\\
+8.4.3 Protocols Secured with SSL/TLS . . . . . . . . . . . . . . . 185\\
+8.5 Risks in Using Certificates . . . . . . . . . . . . . . . . . . . . . . . . . . . 187\\
+8.6 Firewalls . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 189\\
+8.6.1 Types of Firewall . . . . . . . . . . . . . . . . . . . . . . . . . . . 189\\
+8.6.2 Placement of Firewalls . . . . . . . . . . . . . . . . . . . . . . . 192\\
+8.6.3 Residual Risks Connected with Firewalls . . . . . . . . . 195\\
+8.6.4 Personal Firewalls . . . . . . . . . . . . . . . . . . . . . . . . . . 195\\
+8.7 Intrusion Detection Systems (IDS) . . . . . . . . . . . . . . . . . . . . . 196\\
+8.7.1 Principles of Operation . . . . . . . . . . . . . . . . . . . . . . . 196\\
+8.7.2 Network IDSs (NIDS) . . . . . . . . . . . . . . . . . . . . . . . . 198\\
+8.7.3 Host IDSs (HIDS) . . . . . . . . . . . . . . . . . . . . . . . . . . . 198\\
+8.8 Security in Wireless Networks . . . . . . . . . . . . . . . . . . . . . . . 199\\
+8.8.1 Original WiFi Security (WEP) . . . . . . . . . . . . . . . . . . 200\\
+8.8.2 Development of Security in IEEE 802.11 . . . . . . . . . 201\\
+8.8.3 Security in Bluetooth . . . . . . . . . . . . . . . . . . . . . . . . 202\\
+8.9 Security in the Mobile Telephone Network . . . . . . . . . . . . . 204\\
+8.9.1 Security in GSM . . . . . . . . . . . . . . . . . . . . . . . . . . . . 204\\
+8.9.2 Can the A5 Functions Be Broken in Practice? . . . . . . 206\\
+8.9.3 Security in UMTS . . . . . . . . . . . . . . . . . . . . . . . . . . . 207\\
+8.9.4 False BTSs and Surveillance . . . . . . . . . . . . . . . . . . . 208\\
+8.9.5 Is Your Mobile Device Secure? . . . . . . . . . . . . . . . . . 209\\
+8.10 Denial of Service (DoS) Attacks. . . . . . . . . . . . . . . . . . . . . . . 211\\
+8.10.1 DoS Attacks in the Application Layer . . . . . . . . . . . 211\\
+8.10.2 DoS Attacks in the Transport Layer . . . . . . . . . . . . 213\\
+8.10.3 DoS Attacks in the Internet Layer . . . . . . . . . . . . . 214\\
+8.10.4 DoS Attacks in the Link and Physical Layers . . . . . . 215\\
+8.10.5 Distributed DoS Attacks . . . . . . . . . . . . . . . . . . . . . 216\\
+8.10.6 Permanent DoS Attacks . . . . . . . . . . . . . . . . . . . . . . 217\\
+8.10.7 Risks and Countermeasures for DOS Attacks . . . . . . 218\\
+8.11 Security in DNS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 218\\
+8.11.1 Countermeasures for Use in DNS . . . . . . . . . . . . . . . 219\\
+8.12 Security in SMTP . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 220\\
+8.12.1 SPF . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 220\\
+8.12.2 DKIM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 222\\
+8.13 Security in SNMP . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 224\\
+8.13.1 Risks and Countermeasures in Using SNMP . . . . . . 225\\
+8.14 Critical Infrastructure Protection . . . . . . . . . . . . . . . . . . . . . . 226\\
+8.15 Evaluation of Network Security . . . . . . . . . . . . . . . . . . . . . . . 228\\
+Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 231\\
+%---- Page End Break Here ---- Page : 12
+\textbf{9} \textbf{Security in Operating Systems} ..... 235\\
+9.1 User Authentication ..... 236\\
+9.1.1 Biometric Authentication ..... 237\\
+9.1.2 Passwords ..... 241\\
+9.1.3 Pattern Locks ..... 246\\
+9.1.4 Trends in User Authentication ..... 247\\
+9.1.5 Authentication Through the Net ..... 247\\
+9.2 Authorisation, Protection \& Rights ..... 250\\
+9.2.1 Who Decides? ..... 251\\
+9.2.2 Access Control Matrices ..... 252\\
+9.2.3 Access Control Lists ..... 252\\
+9.2.4 Directories ..... 253\\
+9.2.5 Capabilities ..... 253\\
+9.3 Access Control in File Systems ..... 254\\
+9.3.1 Unix-style File Protection ..... 255\\
+9.3.2 setuid and setgid ..... 257\\
+9.3.3 Windows NT ACLs ..... 258\\
+9.4 Access Control for Other System Components ..... 259\\
+9.4.1 Access Control in the Memory ..... 260\\
+9.4.2 Access Control for Hardware Units ..... 263\\
+9.4.3 Access Control for the CPU ..... 264\\
+9.4.4 Access Control in Android ..... 265\\
+9.4.5 Bypassing Access Control: Rootkits ..... 266\\
+9.4.6 The Reference Monitor revisited ..... 267\\
+9.5 Encryption in the Operating System ..... 268\\
+9.6 Job Scheduling ..... 270\\
+9.7 Updating the Operating System ..... 271\\
+9.8 Is Your OS Genuine? ..... 272\\
+9.9 What the OS Cannot Do ..... 273\\
+Exercises ..... 276\\
+\textbf{10 Software security} ..... 281\\
+10.1 Classes of Security Failure in Software ..... 281\\
+10.1.1 Buffer Overflow ..... 282\\
+10.1.2 Buffer Overflow Vulnerabilities ..... 283\\
+10.1.3 Buffer Overread ..... 284\\
+10.1.4 Incomplete Mediation ..... 285\\
+10.1.5 Time-of-check to Time-of-use (TOCTTOU) ..... 285\\
+10.1.6 Detection of Programming Errors ..... 286\\
+10.2 Malicious Code ..... 289\\
+10.2.1 Virus Attacks ..... 290\\
+10.2.2 Worm attacks ..... 292\\
+10.2.3 Antivirus Systems ..... 293\\
+10.3 SQL Injection ..... 296\\
+10.3.1 Countermeasures ..... 298\\
+%---- Page End Break Here ---- Page : 13
+10.4 LDAP Injection ..... 299\\
+10.4.1 LDAP Searches ..... 302\\
+10.5 HTTP-based Applications ..... 304\\
+10.5.1 HTTP Authentication ..... 305\\
+10.5.2 HTTP Cookies ..... 309\\
+10.5.3 SessionIDs ..... 312\\
+10.5.4 Webforms ..... 313\\
+10.5.5 Mobile code ..... 316\\
+10.5.6 Web Server Vulnerabilities ..... 317\\
+10.6 Targets for Software Security ..... 320\\
+Exercises ..... 322\\
+\textbf{11 Incident Handling and System Availability} ..... 325\\
+11.1 Reacting to Security Incidents ..... 325\\
+11.1.1 Incident Reporting ..... 326\\
+11.1.2 Investigation of Security Incidents ..... 327\\
+11.2 Business Continuity Planning ..... 333\\
+11.2.1 The BCP Process ..... 334\\
+11.2.2 BCP Analysis ..... 334\\
+11.2.3 BCP Resource Requirements ..... 335\\
+11.3 Disaster Recovery Planning ..... 335\\
+11.3.1 Phases of Recovery ..... 336\\
+11.3.2 DRP Strategies ..... 337\\
+11.3.3 DRP Testing ..... 341\\
+11.4 Security Awareness ..... 342\\
+Exercises ..... 344\\
+\textbf{12 Law and Ethics} ..... 347\\
+12.1 Computer Crime ..... 348\\
+12.1.1 Which Acts Must Be Considered Illegal? ..... 349\\
+12.1.2 Which Powers Must Be Available? ..... 350\\
+12.1.3 Jurisdiction ..... 351\\
+12.1.4 International Rules in the Convention ..... 352\\
+12.1.5 Anti-terror Laws ..... 352\\
+12.2 Protection of Personal Data ..... 353\\
+12.2.1 Important Concepts ..... 355\\
+12.2.2 General Rules ..... 355\\
+12.2.3 Classes of Personal Data ..... 356\\
+12.2.4 Transfer of Personal Data to Third Countries ..... 358\\
+12.2.5 The Data Subject's Rights ..... 358\\
+12.2.6 Security of Processing ..... 359\\
+12.2.7 Leakages ..... 360\\
+12.2.8 Authorities ..... 360\\
+12.2.9 Codes of Conduct and Certification ..... 361\\
+12.2.10 Legal Responsibility and Penalties ..... 362\\
+%---- Page End Break Here ---- Page : 14
+12.3 Protection of Healthcare Data ..... 363\\
+12.3.1 Who Has Access to Health Data? ..... 363\\
+12.4 Ethics ..... 364\\
+12.4.1 Datamining ..... 365\\
+12.4.2 Tracking ..... 366\\
+12.4.3 Protection Against Breaches of Privacy ..... 368\\
+Exercises ..... 370\\
+\textbf{13 Epilogue} ..... 373\\
+\textbf{A What's in the Box?} ..... 381\\
+A. 1 Hardware ..... 381\\
+A.1.1 Disks ..... 384\\
+A.1.2 Input and Output (I/O) Units ..... 387\\
+A.1.3 Attachment of I/O Units ..... 388\\
+A.1.4 Communication Units ..... 389\\
+A.1.5 Power Supplies ..... 390\\
+A. 2 Software ..... 390\\
+A.2.1 The Operating System ..... 391\\
+A.2.2 Firmware ..... 392\\
+A.2.3 Utility Programs ..... 393\\
+A.2.4 Application Programs ..... 393\\
+Exercises ..... 395\\
+\textbf{B Mathematics} ..... 397\\
+B. 1 Basic Concepts ..... 397\\
+B. 2 Fermat's Factorisation Algorithm ..... 401\\
+B. 3 Euclid's Algorithm ..... 403\\
+B. 4 Euclid's Extended Algorithm ..... 404\\
+B.4.1 Calculation of an Inverse modulo $n$ ..... 405\\
+B. 5 The Chinese Remainder Theorem ..... 406\\
+B. 6 Why Does RSA Work? ..... 407\\
+B. 7 A Common-modulus Attack on RSA ..... 409\\
+B. 8 The Birthday Paradox ..... 410\\
+\textbf{C Acronyms} ..... 411\\
+\textbf{References} ..... 421\\
+\textbf{Index} ..... 427\\
+%---- Page End Break Here ---- Page : 15
+\section{Chapter 1}
+\section{Introduction: Why Cybersecurity?}
+\subsection{Information Security and Cybersecurity}
+Information security is an old discipline, whose aim is to ensure that only the right people can get hold of and possibly also change or delete information. The need for this was recognised in ancient times: People used codes to conceal the content of messages, they stored information in safe places, and they used messengers whom they could trust, if a message had to be delivered to someone. To be on the safe side, people in certain cultures would kill the messenger in order to prevent him from revealing the message's content.
+
+The introduction of computers for processing information led to a renewed interest in information security. At first this was only an important issue for governments and especially the military, who were the primary users of the first computers. Electronic communication among networks of computers was first developed in the 1970s, and documents on information security did not consider the dangers which might be associated with communication. Even in 1983, when the US Department of Defense (DoD) produced a series of publications on computer security-known as the Rainbow Series, as the individual publications had different coloured front pages - the focus was mostly on large centralised computers, where user terminals, if any, were directly connected to the computer by dedicated cables rather than a network as we know it today.
+
+The world of today is quite differently organised, with possibilities for communicating all around us-via the telephone network, WiFi, Bluetooth, cables and optical links-and where practically all electronic equipment can be connected for a modest price to a communication network and be given a unique place in \emph{"cyberspace"}, where others can communicate with it. This gives users many new opportunitiesbut unfortunately also new threats which they have to protect themselves against. Cybersecurity is information security rethought to fit this new network-oriented world.
+
+\subsection{The Development of the Internet}
+To understand the need for cybersecurity it is useful to look at the development of the Internet. When the Internet was first developed in the 1970s, its users were mainly a small group of technically educated people who had an experimental attitude to this new way of communicating, who were willing to accept a certain degree of risk in making use of it, and who could themselves evaluate the dangers which might be associated with the activities which use of the net could support. The main focus for the original design of the Internet was to offer a useful collection of simple services which were relatively insensitive to faults in the communication network itself. Security was not considered an important issue.
+
+During the 1990s the situation changed dramatically, in particular due to four developments:
+
+\begin{enumerate}
+  \item \textbf{New services:} A large number of new, more complex services were developed and made available to users of the Internet. The aim of many of these services was to support applications such as banking, commerce and public administration, or to support the establishment of social groups such as meetings and discussion fora. For applications such as these, a security breach could have serious economic or personal consequences for the parties involved. A large-scale breakdown of security could even threaten the functioning of society as a whole.
+  \item \textbf{Malware:} Evil-minded persons began to develop so-called malware-software whose aim is to breach the security on computers in which it is installed. Malware could easily be distributed via e-mail, be offered on websites which unsuspecting users could be attracted to, or be installed through the net without the user's knowledge. In many cases the users could be kept unaware of the breach in their computer's security for a long period of time, so for example their business secrets or personal data could be read by outsiders or their system could be used to launch attacks on other computers.
+  \item \textbf{Exploitation of insecure behaviour:} Criminals began to exploit Internet services such as e-mail directly to perform criminal activities which they would previously have performed offline-for example, establishing paedofile contacts to young people or collecting personal or confidential information via social engineering. Such activities are seldom based on technical security breaches, but instead exploit the users' poor understanding of what constitutes safe behaviour on the Internet, where it is in many situations possible to hide one's true identity.
+  \item \textbf{Users' lack of expertise:} As a consequence of the easy access to new Internet services and their usefulness, millions of people with no technical background and no understanding of the risks began to use the Internet. In some countries, this development was promoted by the government, which encouraged the entire population to use Internet services for all public administration.
+\end{enumerate}
+%---- Page End Break Here ---- Page : 17
+\subsection{How Do Computers Work Together?}
+Computers seldom work completely alone, as many of the tasks which computers are set to perform nowadays require cooperation from other computers. These other computers can be placed quite close by: for example, a printer or scanner for a home computer is often itself a small computer with its own CPU, storage, operating system and other software, and which is connected to the home computer via a home network based on cabled or wireless communication.
+
+But they can also be far away, perhaps in a distant country, and be set going on tasks which the local computer cannot itself perform. In this case, too, the computers involved are connected via a network - nowadays probably the Internet. There are several ways in which their cooperation can be organised:
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{2025_05_12_ac3bc46a6f93dd973caag-018}
+\caption{A server with a client}
+\end{figure}
+
+\begin{itemize}
+  \item The remote computer can operate as a so-called \textit{server}, which offers particular services for your own computer, which is a \textit{client} for these services. This form of organisation is illustrated in Fig. 1.1. There are many examples of this, such as:
+  \item A web server, which offers to send web pages to the client.
+  \item A mail server, which offers to transmit mail to or from the client.
+  \item A file server, which offers to make a file system available for the client, which can then handle files via the network.
+  \item A server which offers a search service for documents from the Internet-as we know it from services such as Google, Yahoo, Bing and so on.
+  \item A time server, which offers to make a very accurate clock service available.
+  \item The remote computer makes computing power or storage space available with the help of a large collection of computers connected in a so-called \textit{cloud}.
+  \item The remote computer operates as a partner in a so-called \textit{peer-to-peer (P2P)} network, where all participants cooperate on an equal footing. This is in contrast to a client-server organisation, where the client can ask the server to perform a service, but not vice-versa.
+  \item The remote computer is a little piece of apparatus which is controlled from your computer. Only your imagination sets the limits for what sort of apparatus it could be. For example you might use:
+  \item sensors, which for example measure temperature, weight, pH values, wind speed, electricity consumption, movement or whether a window is open or closed.
+  \item actuators, which for example open and close the windows, turn lights on and off, move the piece being turned on a mechanical lathe, or move the X-ray source over the patient.
+  \item household apparatus such as a washing machine, oven or refrigerator.
+  \item entertainment devices such as a sound system, TV or MP3 player.
+\end{itemize}
+%---- Page End Break Here ---- Page : 18
+This type of organisation is often known as the \textit{Internet of Things} (or just \textit{IOT} for short).
+
+These were some of the positive aspects of using networks: that you get access to many more possibilities and potentially much larger computing power and storage space than if you had to do everything on your own computer. But, as we have already pointed out, there is also the negative aspect that communication through the network can lead to unwanted effects in the form of malware and cyberattacks directed at your computer. We look more closely at this in Chap. 8.
+
+\subsection{Systems of Systems}
+A computer, together with the units which are directly attached to it, is often called a \textit{computer system}. But the discussion above about computers which are connected
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{2025_05_12_ac3bc46a6f93dd973caag-019}
+\caption{A cloud consisting of a collection of three clusters of computer systems}
+\end{figure}
+%---- Page End Break Here ---- Page : 19
+by networks shows clearly that a computer system can be a part of an even larger system-a \textit{system of systems}. A good example of this is a \textit{cloud}, which the user thinks of as a single unit, but which in practice usually consists of a collection of \textit{clusters}, possibly distributed over the whole world, where each cluster consists of a collection of connected computer systems, as illustrated in Fig. 1.2.
+
+When such a system of systems is created, it is not irrelevant how the individual participating systems are put together. It is essential for the system's overall function that necessary information can be moved round through the network-so for example a client for a webserver can send requests to see particular web pages to the server, and the server can send the contents of the web page back. At the same time, it is essential for the system's cybersecurity that only those transfers of information which are needed for the system to function are permitted. In such complex networks this is obviously quite a challenge.
+
+\subsection{Cyberattacks Today}
+Today cyberattacks-attacks on computers through the complex of communication networks which make up the Internet-are a permanent threat to information security in all sorts of computers and computer-like units such as smartphones, intelligent televisions, control units in supply networks and other automated industrial plant. Some examples since 2010:
+
+\begin{itemize}
+  \item \textbf{US OPM:} In USA, a cyberattack on the \textit{Office of Public Management (OPM)} in 2015 compromised personal data from \cite{cc25}.5 million citizens. These data were stored in a database at OPM and were used in connection with applications for national security approval. The attackers are estimated to have had access to this database for more than a year.
+  \item \textbf{CSC Danmark:} In Denmark, a cyberattack on the company CSC Danmark A/S in 2012 compromised personal data from the registries covering driving licenses, criminal records and civil registration numbers. These had been outsourced to CSC by the Danish government. Information in these registries is stored in databases on a so-called \textit{mainframe}-a computer with large computing capacity and the ability to deal with many simultaneous transactions. The attackers broke in by cheating the authorisation system which should have prevented unauthorised access to the stored data. They could then masquerade as system administrators with high privileges, who had more or less unlimited access to the system.
+  \item \textbf{APT1:} A large-scale attack on at least 141 (mostly western) companies and other organisations was carried out in 2009-12, mainly for purposes of industrial espionage. Many things indicate that the attacks originated from an organisation known as APT1, which is associated with the Chinese People's Liberation Army (PLA) [\cite{mandiant2013apt1}]. APT is an acronym for \textit{Advanced Persistent Threat}, a type of attack which is carried out over a long period of time through the use of malware which is stored in the victims' computers in a way which makes it hard to detect. This
+\end{itemize}
+%---- Page End Break Here ---- Page : 20
+malware collects up data—in the nature of things, typically confidential data—and sends them from the victim’s computer to an external collection point (a process known as \emph{exfiltration}), where they can be analysed.
+  \item \textbf{Stuxnet:} A number of attacks on industrial systems which were controlled by Siemens Step7 control software were carried out in 2010. They affected mainly a group of systems in Iran which were used to control gas centrifuges for the enrichment of uranium. The attack was based on a computer worm, a type of malware which distributes itself through the net to potential victim computers [34]. There are many indications that the attacks, which apparently resulted in the destruction of some of the centrifuges and possibly in the collection of data with a view to industrial espionage, originated from government organisations in USA or Israel.
+  \item \textbf{Semalt:} Semalt is a service which offers a special type of fraud: false upgrading of web pages in ranking systems like those used by Google and other search machines. When a webpage has a high ranking, its owners can demand larger fees from people who, for example, want to place advertisements on the page. Upgrading can be achieved by getting a large number of computers to generate false references to the page which is to be upgraded. Investigation of Semalt in 2015 revealed that it used a \emph{botnet} for this purpose. A botnet is a collection of computers which have been infected with malware which makes it possible to control them through the net without their owners being aware of this. The investigations indicated that Semalt’s botnet involved about 300000 computers, many of them in private homes.
+  \item \textbf{CryptoLocker:} In 2013-14, a large number of users were attacked by malware known as CryptoLocker. This encrypted certain types of file on the computer’s harddisk and any connected shared network drives, and demanded payment for getting the files decrypted again. This type of malware is often called \emph{cryptographic ransomware}. In the case of CryptoLocker, it was distributed in the form of attachments to e-mails, apparently sent from ordinary businesses, but in fact faked mails sent out by using a botnet. Infection took place if the recipient of the mail opened the attachment. It is estimated that about 250000 computers were infected before the botnet was destroyed, so that the attacks stopped.
+  \item \textbf{NotPetya:} In June 2017, a large number of computers in different countries were attacked by the computer worm NotPetya. This worm encrypted the so-called Master Boot Record, which contains information for use when the computer is started up, on the computer’s disk. It then spread itself to other computers in the same network by stealing login information for these computers, which it could find on the attacked computer. To the owners of the attacked computers, NotPetya looked like another example of \emph{ransomware}, but it turned out to be impossible to pay the ransom, as the mail address to which it should be sent had been shut down, and the people behind the attack could never have re-established the encrypted data, even if the money could have been paid. So in practice the worm behaved as a purely destructive weapon.\\
+The attack affected a number of large international companies, including Mærsk Line, FedEx and Nuance Communications, causing them considerable expense. For example, the shipping company Mærsk estimated that it had cost them around\\
+%---- Page End Break Here ---- Page : 21
+€ 250 million in recovery costs and loss of profit. The attack is believed to have been set going by the Russian military, as part of an attack on Ukraine which eventually spread to other countries.
+  \item \textbf{Orion:} In 2020, an extensive attack on networks used by government departments and important industrial companies in several countries compromised large quantities of confidential data. The attack was specifically directed at networks using the security product Orion, a software system used to provide IT staff with remote access to corporate networks. The attack was a so-called \textit{supply-chain attack}, in which the software was infected with malware via a fake update.\\
+The malware appears to have been active in the victim systems for several months before it was detected by the security company FireEye. who were investigating a separate attack, probably initiated by the same attackers, in which some of FireEye's software tools had been stolen and subsequently used in some of the networks affected by the Orion attack. These tools were advanced hacking tools used by FireEye to check the level of security in their customers' organisations, so the consequences of the two related attacks may turn out to be extremely serious. There appear to be indications that the attacks were carried out by Russian hackers.
+  \item \textbf{Microsoft Exchange Server:} Starting in January 2021, a wave of data breaches were observed on Microsoft Exchange servers. The attacks were based on a set of four previously unknown exploits, which enabled the attackers to login on the servers, gain system administrator rights and install backdoors, so that they could return to the attacked systems at any time. About 250000 servers world-wide are believed to have been affected, particularly within the government, military, manufacturing, finance, software development and healthcare sectors.\\
+In the first instance, the attackers used the exploits as a spying tool to access e-mails and calendar information stored on the servers. Subsequently the same exploits were used to perform ransomware attacks which made the servers unusable. The attacks are believed to have been set going by the Chinese APT group known as Hafnium, later joined by several other Chinese hacker groups.
+  \item \textbf{Colonial Pipeline:} In May 2021, the oil pipeline company Colonial Pipeline, which transports fuel among states in the East Coast region of USA, was the victim of a ransomware attack. Although the attack only directly paralysed the company's billing system, Colonial Pipeline halted all operations in the pipeline, in case the attackers had also obtained access to the actual fuel distribution systems. This caused an acute fuel shortage in the eastern parts of USA. To restrict the extent of this shortage as far as possible, the company paid the attackers the ransom of approximately 4.4 million USD. This is an example of a cyberattack on what is known as \textit{critical infrastructure}, i.e. infrastructure which is critically necessary for the functioning of society.\\
+The attack appears to have made use of services made available by a group known as DarkSide, which appears to be based in Russia. According to their own statements, they are not a state-sponsored or political unit: "Our goal is to make money". Analysis by the firm Elliptic in 2021 showed that during the previous year, the DarkSide group had received sums of around 90 million USD via ransomware attacks.\\
+%---- Page End Break Here ---- Page : 22
+\begin{figure}
+\centering
+\includegraphics[max width=\textwidth, center]{2025_05_12_ac3bc46a6f93dd973caag-023}
+\end{figure}
+\end{itemize}
+
+\textbf{Fig. 1.3} Cyberattacks don't involve physical guns and rockets, but can be just as damaging. (Illustration: Peter Heydenreich, reproduced with the artist's permission)
+
+\begin{itemize}
+  \item \textbf{Russian invasion of Ukraine:} In Spring 2022, before and during the Russian invasion of Ukraine, infrastructure in the Ukraine and news media in Russia were exposed to significant cyberattacks. These formed an element in a so-called \textit{hybrid warfare} strategy, where warring parties combine the use of traditional military weapons with attacks in cyberspace. Because of the military nature of the activities, details of the modes of attack, their effect and cost are not readily available, although numerous examples have been publicly reported. It is widely believed that this type of hybrid warfare will play an increasing role in military planning in the years to come.
+\end{itemize}
+
+As can be seen, some of these attacks (APT1, Stuxnet, NotPetya, Orion and the Microsoft Exchange data breach) were very probably set going by government organisations with large resources at their disposal, while others were started by criminals for various purposes: collection of personal data (US PM, CSC Danmark), fraud (Semalt) or extortion (CryptoLocker, Colonial Pipeline). The attacks typically had many victims, and cost the individuals or organisations which were hit considerable inconvenience and in many cases large sums of money.
+
+In order to reach so many victims, several of these attacks used \textit{botnets}. In this context, botnets offer a form of illegal infrastructure which can be used to send out spam mail, inhibit access to net-based services (so-called DoS attacks) or perform various types of fraud. Previously, botnets which were even more extensive than the ones in the examples above have been seen, with more than 2 million computers under "external control". The more computers there are in a botnet, the more money its organisers can demand from clients who want to rent time on the botnet.
+
+Essentially, the organisers of the botnet offer the botnet as a \textit{service} which criminals can use to perform cyberattacks on victims of their own choice. More recently, many ransomware systems have also been offered as services to cybercriminals, with facilities for setting up the attack and laundering the financial proceeds, which usually have to be paid by the victim in some kind of cryptocurrency. Such services\\
+%---- Page End Break Here ---- Page : 23
+form the basis for an extensive criminal underground economy with an estimated annual turnover of many billions of Euros.
+
+Nobody knows exactly how much money the attacks cost society. In 2014, the security company McAfee produced an estimate that the sum was about 400 billion USD a year worldwide [64], but this figure has subsequently been questioned. On one hand one can argue that it should be smaller, as security companies have an interest in exaggerating the dangers, so that more people will buy their security products [5]. On the other hand, one can argue that it should be bigger, because it is based on a survey, where respondents might have had an interest in hiding embarassing episodes. In 2017, the security company Accenture found that 254 (presumably rather large) companies had used an \textit{average} of 11.7 million USD in clearing up after cyberattacks in the course of the year [1], and that the average cost of dealing with a single data breach was 2.4 million USD. It is difficult to scale this up to a global figure, but one thing at least is clear: cyberattacks by whatever means are no longer something that teenage kids perform for fun. They are a big business opportunity for criminals who want to get money from the victims of the attack, and can even be weapons which can be used to exert economic or military pressure on the chosen victims.
+
+\subsection{Security Targets}
+The overall aim of cybersecurity and information security is in general terms to ensure that the following requirements are met:\\
+Requirements 1.1 Authorised persons must be able to do what they are authorised to, while unauthorised persons must be prevented from doing anything.
+
+What you are allowed to do in an IT system is typically defined in relation to a set of \textit{assets}, which are the things that are important for the personal owner, company or institution, and which must be protected. The authorised users of the IT system are allowed an appropriate degree of access to some of these assets (and possibly have permission to modify or delete them).
+
+Which assets are involved depends on what sort of IT system we are dealing with. There is a big difference between a smartphone, a home PC and an IT system in a company or institution!
+
+IT assets fall into three classes. They can be:
+
+\begin{enumerate}
+  \item \textbf{Data}, which are to be processed or just stored in the IT system.
+  \item \textbf{Software}, which is used to process data, or
+  \item \textbf{Equipment}, which makes up the physical setup of the IT system.
+\end{enumerate}
+
+Some simple, but typical, examples of data assets are:
+
+\begin{itemize}
+  \item The customer base for a company
+  \item Electronic health records in a hospital
+  \item Tax information kept by a local authority
+  \item Grade sheets at a university
+  \item Exam papers in electronic form on a teacher's tablet
+  \item Documents of ownership in a real estate registry
+  \item Criminal records held by the police
+  \item Membership records for a trade union
+  \item Access codes for e-banking on a home PC
+  \item Private photos on a smartphone
+\end{itemize}
+
+As can be seen, these are valuable pieces of information. For some of them it is even a legal requirement to keep them confidential. Software assets include the computer's operating system, utility programs and applications, while equipment assets include units such as the system's physical computers, printers, scanners, networks and other infrastructure.
+
+\subsection{CIA Targets}
+Given a collection of assets, there are three main targets for information security, described here in Definition 1.1.
+
+\noindent\textbf{Definition (CIA Targets)}
+\begin{itemize}
+  \item \textbf{Confidentiality}, which means that the individual assets are only accessible to authorised parties.\\
+\textit{This target is almost only used in relation to data assets and covers properties such as secrecy and privacy.}
+  \item \textbf{Integrity}, which means that the individual assets can only be modified by authorised parties in authorised ways.\\
+\textit{This target covers properties such as protection against unauthorised modification, deletion or insertion of data, re-use of others' messages, corruption of messages sent via the net and so on.}
+  \item \textbf{Availability}, which means that authorised parties can access the assets to an agreed extent.\\
+\textit{This target covers properties such as giving a response within an agreed response time, providing a service in a fair manner, maintenance of the necessary capacity, orderly breakdown and similar conditions.}
+\end{itemize}
+
+In everyday language these main targets are often just called the \textit{CIA targets} after the first letters in their names: \textbf{C}, \textbf{I} and \textbf{A}.
+%---- Page End Break Here ---- Page : 25
+\subsection{Security Policies}
+A security policy describes the overall targets for an IT system's security. In a company or institution, it typically consists of two parts:
+
+\begin{enumerate}
+  \item A set of general aims, suitable for publication, to demonstrate the company's attention to the matter. The management has a duty to inform their stakeholders about the company's attitude to protecting its assets, and this part of the security policy describes this attitude in general terms. As a minimum, this part of the policy will usually contain information about the aims of the policy, its area of applicability and the desired level of security.
+  \item Some detailed rules for what various groups of people may or may not do with the company's assets. These rules are typically formulated as a collection of CIA targets and are normally kept confidential within the company. Outsiders should not be able to pry into the company's detailed rules for the protection of data and the maintenance of IT services.
+\end{enumerate}
+
+At a university, CYBERU, one might for example be able to find the following statement in the general part of the security policy:
+
+\section{General aims}
+\begin{itemize}
+  \item The aim of this policy is to define the general framework for protecting CYBERU's information. In particular, the policy must ensure that critical and sensitive information and information systems preserve the required degree of confidentiality, integrity and availability.
+  \item The knowledge which CYBERU has accumulated over the years and the knowledge which the university is building up today form an important part of our heritage. Preservation of information security is therefore of vital importance for CYPERU's credibility and ability to function in the modern world.
+\end{itemize}
+
+\section{Applicability}
+\begin{itemize}
+  \item This policy covers information which belongs to CYBERU, together with information which is in CYBERU's custody.
+  \item The policy covers all of CYBERU's information which is created, processed or stored in information processing systems. The policy applies to employees, students and persons with temporary attachment to the university.
+  \item If operational services or other tasks are outsourced, the contract with the external party must ensure that CYBERU's level of security is maintained.
+\end{itemize}
+
+\section{Security level}
+\begin{itemize}
+  \item CYBERU uses a level of information security which as a minimum corresponds to the basic security level in the standard \textit{ISO/IEC 27002}.
+  \item The management has decided that this is described in the codes of practice and procedures which are currently valid at any given moment of time. It has also decided that information security is to be integrated into all functional procedures, operational tasks and projects.
+  \item It is CYBERU's policy to protect its information and exclusively permit use of, access to and publication of information in accordance with the general rules of the policy, with any necessary adjustments to accomodate new legal or regulatory requirements.
+  \item CYBERU determines, on the basis of a risk analysis, the necessary security mechanisms, corresponding to the significance of individual classes of information, and which ensure that legal requirements, agreements with external parties and license conditions are met. The risk analysis is revised once a year, so that the management can keep itself informed about the current risk situation.
+\end{itemize}
+
+In a public hospital, one might correspondingly find the following rules in the detailed part of the policy:
+
+\begin{itemize}
+  \item Only the senior doctor in the relevant department may have access to patient data in category 3B.
+  \item To protect against misuse of open sessions on the hospital's computers, logins will only be valid as long as the computer user's ID card is inserted in the card reader. The personnel are forbidden to leave the computer without removing the ID card.
+  \item The hospital's IT systems must as a general rule be available for looking up patient data 24/7. Breakdowns of the entire system must not last longer than 2 minutes, and the accumulated time during which the system is unavailable must not exceed 8 minutes per 24-hour period.
+\end{itemize}
+
+The two first rules here are (partial) targets for confidentiality, and the third is a (partial) target for availability. The rules here are—as you might expect in a hospital—related to the handling of patient records, but there would typically also be sets of rules for the use of e-mail, web-based services, backup, outsourcing, protection of networks, dealing with cyberattacks and so on.
+
+In a private home—especially where we have to consider small IT systems such as smartphones and the like—it is unusual to write down a security policy. But the user of the equipment has (or ought to have...) certain expectations about how secure the system should be. Many of the digital services which are offered by banks, insurance companies and public administration require a certain level of security to be maintained. The conditions of use of certain ID cards or credit cards, for example, stipulate that they may only be used on \textit{“a unit in which the operating system, Internet browser and other programs are continually updated with the latest security updates”}. That this actually happens must be a part of the user's security policy.
+%---- Page End Break Here ---- Page : 27
+\subsection{Reader's Guide}
+This book gives an introduction to some of the mechanisms in IT systems which make it possible for cyberattacks to take place, and briefly describes what you can do to achieve some reasonable security targets. Achievment of cybersecurity is not a simple task, as you need to have a basic grasp of a large number of separate disciplines, which cover not only the technical aspects of IT systems, but also topics such as risk management, cryptography, user psychology and the legal frameworks which define what is lawful behaviour in the modern network-based world. Cybersecurity is very definitely a multi-disciplinary challenge.
+
+The book falls roughly into two parts, where Chaps. 2-7 deal with basic ideas, while Chaps 8-12 focus on cybersecurity within specific areas with significance for IT systems.
+
+To understand much of the material, it is important that you have a clear idea about what an IT system actually consists of, as many attacks are based on affecting parts of the system which ordinary users don't usually think about. If you do not have this knowledge, then you should look first at Appendix A where you can find a short introduction to the architecture of IT systems including both their central hardware and software components.
+
+Many people believe that technical mechanisms can protect their IT system against all attacks-and that it is therefore just a matter of getting hold of enough antivirus programs, boxes with protective equipment and similar aids. This is unfortunately incorrect. The users of IT systems play a considerable role in the spread of many attacks, and in Chap. 2 we look at some of the basic psychological tricks which attackers use to lead users astray, and at some ways of getting users to behave more carefully in order to resist such attacks,
+
+Perfect protection of an IT system against attack is something you can dream about, but hardly achieve in practice-if for no other reason, then because you only have a limited budget. To get most protection for the money, you need to focus on the types of security breach which have the biggest consequences for the company, institution or private home in which the IT system is installed. This means that you have to analyse the threats and risks which the system is exposed to, in order to find the most important ones. How you can perform such a risk analysis is the topic of Chap. 3, where we also look at some accepted methods for systematic security analysis of IT systems.
+
+A classic technique for maintaining confidentiality of data is to use cryptography to transform the data to a form which cannot be understood by anyone who does not know the secret needed for transforming them back to their original form. In Chap. 4 we look first at classic forms of cryptography, some of which go back to antiquity, and then at modern techniques which are more suitable for use in computers and which build on a mathematical foundation. One of the advantages of modern cryptographic techniques is that they can be used for much more than just hiding data from prying eyes-for example to ensure integrity, for checking identity and for making electronic signatures. Chapter 5 focuses on some of the most important applications of cryptography which can be used in connection with cybersecurity.
+
+As mentioned previously, cybersecurity is information security rethought in a network-oriented world, so it is important to understand how networks work. The last two chapters with general background material, Chaps. 6 and 7, therefore deal with how modern networks which are used for communication between IT systems are built up and looks at some of their most important properties.
+
+The following three chapters are concerned with the risks and possibilities for counteracting them within specific areas. Chapter 8 deals with security in different types of network, Chap. 9 deals with how operating systems support security in IT systems, while Chap. 10 deals with security risks which are associated with software products which have either been designed or applied in a way which opens up for attacks of various types.
+
+As there is no such thing as perfect protection, an important aspect of cybersecurity is planning what to do if an attack succeeds in spite of all precautions. The result of the attack can be more or less catastrophic for the attacked system and its users. In Chap. 11 we look at some strategies for investigating what has happened and for re-establishing normal operation of the system after breakdowns of various degrees of seriousness.
+
+Chapter 12 deals with a number of legal and ethical problems associated with cybersecurity. The legal framework is to a large extent defined by the Council of Europe's conventions on cybercrime, countering terrorism, and protection of personal data, all of which have led to changes in the law in the countries which have ratified these conventions. In addition, many countries have legal frameworks which specifically deal with the processing of medical data. These laws deal with punishable offences, but there are a large number of activities which are legal but hardly acceptable from an ethical point of view, as they interfere with people's right to privacy. We finish by looking at some of these dubious activities and how you can protect yourself against them.
+
+The main part of the book ends with a short epilogue, which considers the question of whether-in the light of what has been said in the previous chapters-it is really possible to achieve cybersecurity in practice.
+
+There are three appendices with information which you may well find useful. If you feel you don't know enough about computer system architecture, you can in Appendix A find an overview of what a modern IT system is made up of. Cryptography is nowadays, as mentioned above, a highly mathematical discipline. But since readers of this book cannot be expected to have more knowledge of mathematics than you can get from a school-leaving exam, the use of mathematics in Chaps. 4 and 5 has been cut down to a minimum. If you need to know more about the necessary mathematics, you can find it in Appendix B. Finally, Appendix C contains a list of the acronyms used in this book, with a short explanation of each.
+%---- Page End Break Here ---- Page : 29
+\subsection{A Short Note on Notation}
+This book uses mathematical notation which is fairly standard and which is in general explained in Appendix B. What you may find unusual is that the chapters which deal with cryptography use a colour code to emphasise certain properties. Cryptographc functions, such as functions for encryption, decryption and evaluation of cryptographic checksums, are printed in a green calligraphic font ( $\mathcal{E}, \mathcal{D}, \mathcal{H}, \ldots$ ). Quantities which are to be kept secret are printed in red, while quantities which are publicly known are printed in blue.
+
+Finally there is the contentious question of what numbers are called. In this book, the word \emph{billion} will denote the number 1000000000 .
+
+\section{Useful concepts which you should now know about}
+In this chapter, the following concepts were introduced:
+
+\begin{itemize}
+  \item A computer system
+  \item IOT
+  \item A server
+  \item A client
+  \item A cluster
+  \item A cloud
+  \item A system of systems
+  \item Malware
+  \item An APT
+  \item A botnet
+  \item Ransomware
+  \item Security target
+  \item An asset
+  \item CIA targets
+  \item Confidentiality
+  \item Integrity
+  \item Availability
+  \item A security policy
+\end{itemize}
+
+You should check that you understand their definitions and can give examples of contexts where they play a role.
+%---- Page End Break Here ---- Page : 30
+\section{Further Reading}
+Many organisations-both companies which develop security products and industrial organisations whose members report security breaches - publish annual reports with statistics for various categories of security "events" which have been reported during the year. These reports can give a fascinating impression of how often things go wrong with respect to cybersecurity and which forms of attack are prevalent at the moment. A good and very readable example from 2021 is Verizon's \emph{"2021 Data Breach Investigations Report"} [\cite{verizon2021dbir}].
+
+Udi Arief and his colleagues have published a pair of articles, \emph{"Understanding Cybercrime from its Stakeholders' Perspectives", Parts 1 and 2}, which discuss cybercriminality and how the criminals and their victims respectively consider the matter [7, 6]. They can be recommended.
+
+\section{Exercises}
+\subsection{Security targets in Ultima Thule Hospital}
+Ultima Thule Hospital has a security policy which amongst other things contains the following rules:
+
+\begin{enumerate}
+  \item In every department of the hospital, the chief consultant has unlimited access to all patient records for patients which have been treated in the department.
+  \item A department's nurses have access to read the patient records for all patients who are being treated in the department.
+  \item Persons who are not associated with the hospital have no access to the patient record system.
+  \item The hospital has the aim that the patient record system should be available for online reading for at least $\cite{wikipedia2023oslist}.5 \%$ of the time, measured over a 3 -month period, and it must be available for insertion of new patient records and changes to existing records for $90 \%$ of the time, measured over the same period.
+\end{enumerate}
+
+How would you classify these rules in relation to CIA targets? (In other words, for each rule you should try to say to what extent it is related to a target for confidentiality, integrity and/or availability.)
+
+\subsection{A security policy for a private home}
+Write a security policy for the IT assets in your home. The policy should give a list of the assets which it covers, and give a set of rules for who should have access to the individual assets. Remember that there may be many more assets than you might imagine in the first instance-even a small IT system for use at home can contain many pieces of equipment and software for many applications. (If you run out of ideas, you may find some help in Appendix A.)
+%---- Page End Break Here ---- Page : 31
+\section{Chapter 2}
+\section{Technique and Human Beings}
+It is wrong to imagine that all attacks on a computer can be avoided with the help of technical assistance-extra programs or small boxes filled with protective equipment. Even a very well protected computer can be compromised by its users, if they behave in an inappropriate manner. Study of how humans interact with computerised systems has been an established discipline since at least the 1960s. For many years the focus was on design of the human-machine interface in order to avoid situations where an operator misunderstood what was going on or overlooked important warnings appearing on an often very complex control panel in a plane, train, ship, power station, nuclear plant or other similar system, leading to very costly accidents.
+
+The possibility of cyberattacks adds an extra dimension to all this, since what the users experience may originate from the attackers rather than from the computer system itself, and may be deliberately designed to confuse the users or get them to behave in a dangerous manner. This is nowadays a much more important threat to security than simple misunderstanding or confusion, and it needs quite a different approach for dealing with it.
+
+It is often helpful to visualise the mechanisms which protect the system against security breaches as a series of barriers, which deal with preventing various types of threat. This idea is illustrated in Fig. 2.1. Some of these barriers are technical, operating within the physical computer system, while others are psychological, affecting the users of the system. None of these barriers is perfect-they all have defects of various sorts, some serious, others less so. But in a well-designed system they should complement one another, so that a threat which exploits a weakness in one barrier will be blocked by one of the other barriers. If this is not the case, some threats will be able to pass through all the barriers and a security breach can occur.
+
+An example of a combination of conditions which could give rise to a breach might be:
+
+\begin{itemize}
+  \item \textbf{Incorrect mindset} for the user-for example: a belief that \emph{"this computer is my personal laptop, so nobody else has access to it, even when I use the Internet"}.
+This has the effect that the user has no motivation for taking precautions against attackers who will take over control of the computer via the Internet.
+\end{itemize}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\textwidth]{2025_05_12_ac3bc46a6f93dd973caag-033}
+\caption{How security breaches arise.}
+\end{figure}
+
+\begin{itemize}
+  \item \textbf{Dangerous behaviour} by the user-for example: clicking on a link in an e-mail sent by someone who you don't know, in order to download a file. This implies that the user uncritically accepts downloads from the Internet.
+  \item \textbf{Insufficient technical protection}-for example: that the computer's antivirus system is not set up to check downloaded files automatically for malware.
+The effect of this is that downloads containing malware such as backdoors, which give the attacker access to the computer, will not be detected.
+\end{itemize}
+
+Getting IT users to have a mindset which reflects reality and to behave in a safe manner is largely a question of effective motivation and training which we look at later in this chapter. Later on in this book we shall look more closely at the various technical methods which are used to protect the computer. But it is important to realise that the computer and its user(s) make up a sociotechnical system, i.e. an integrated system, where both parts- the computer and the user- can give rise to lack of security. So let us start by looking at which mechanisms can be used to fool the user into doing something inappropriate.
+
+\subsection{Psychological Attacks}
+Typical techniques for getting people to behave in an inappropriate manner exploit certain properties of the human psyche, especially:
+
+\begin{itemize}
+  \item Curiosity
+  \item Helpfulness
+  \item Sympathy and hate
+  \item Trust in authorities
+  \item Uncertainty in decision making
+\end{itemize}
+
+People often use the general term \emph{social engineering} to cover all techniques which exploit humans' psychological properties in order to get them to reveal confidential information, give attackers access to places where they should not be allowed to go, perform a crime and so on. The idea has been known since antiquity. In the old days, the attacker would typically meet up with the victim and talk him into behaving in the desired manner. Later on, attackers went over to using telephones. And nowadays the most common mode of attack is via internet-based media such as e-mail, texting or use of the social media.
+
+\subsection{Curiosity}
+Most people are curious. This property can be used to get them to do something inappropriate. For example, some researchers performed an experiment in which they left 10 USB memory sticks on the parking lot in front of the main office of a large company. Each of these USB sticks contained a so-called \emph{backdoor}. If the stick was inserted into the type of PC used at this company, it would be possible for the external attacker to get access to the PC as if he were the genuine user of the computer. At least 3 employees of the company took one of these sticks and put it into his computer "to see what it had on it". In this case the "external attacker" was just one of the researchers, but the employees didn't know this, so in principle their curiosity could have been very serious for the company.
+
+\subsection{Helpfulness}
+Most people would like to help others, especially friends and colleagues, who seem to have a problem. This means that it is usually relatively easy to get people to behave like Laila Jones in Fig. 2.2:
+
+\begin{displayquote}
+  \begin{displayquote}
+"Human Resources, Laila Jones"\\
+\emph{"Hi Laila, this is Michael from the IT Security section."}\\
+"Yes?"\\
+$\gg$ \emph{"Am I disturbing you?"}
+  \end{displayquote}
+  \begin{displayquote}
+"No, it's OK. I'm just finishing off some paper-work."\\
+\emph{"Oh, fine. We're trying to set up an IT security seminar for new employees and we need to get hold of a few just to try it out. It would be really great if I could have the names and telephone numbers of everyone who has joined the company within the last month. Can you help me with this?"}\\
+$\gg$ "I won't have time until this afternoon. Is that early enough? What's your extension number?"
+  \end{displayquote}
+  \begin{displayquote}
+\emph{"That's fine. You don't need to rush - I have a meeting which lasts most of the day. The easiest will be if I ring again when I get back to my desk. It'll probably be after 4 o'clock."}
+  \end{displayquote}
+\end{displayquote}
+
+\textbf{Fig. 2.2} An attacker rings to Laila Jones...
+The attacker pretends to be another employee with an important task to do, and he asks for some information. This sounds fairly plausible. So it is easy to imagine that Laila Jones gives Michael a list with the names and extension numbers for all the new
+%---- Page End Break Here ---- Page : 34
+employees when he rings again at half past four. But "Michael" isn't an employee. He is an external attacker who would like to get hold of contact information for new employees, as these are probably not quite up to the mark with respect to IT security at their new place of work. They are likely to be easy targets for further attacks.
+
+There are of course many other ways in which helpfulness can be exploited to get people to take part in criminal activities. For example to facilitate money-laundering: The victim receives a mail, text or message via social media explaining that the sender has a problem transferring some money from A to B, and could the victim help by allowing the funds to pass via his or her account? The sender may even promise that the victim will receive a small percentage of the funds as a reward for this help. Surprisingly many people fall for this form of persuasion.
+
+\subsection{Sympathy and Hate}
+By stimulating feelings of sympathy or hate, it is possible to get people to change their opinions or to do things which they would otherwise not have any motivation for. This property has for centuries been exploited in political and religious propaganda.
+
+In recent years this has been used to get people to follow the ideals of islamic jihad, both in the form of physical war and via cyberattacks. It has also been used to affect elections, most notably the US presidential election in 2016, where Russian "trolls" used false social media accounts to send out messages whose apparent purpose was partly to sow discord between segments of the population (black vs. white, christians vs. muslims etc.), and partly to agitate more directly for or against the individual candidates. This form of impact campaign with false originators and wholly or partly fictitious messages ("fake news") is also a form of cyberattack, which is typically amplified via the inherent mechanisms in social media for "liking" and reposting messages.
+
+Sympathy and hate are very powerful emotions which can often get people to forget all about rules of safe behaviour on the Internet. This can be exploited by cybercriminals to perform various forms of fraud. Faced with web pages containing dramatic images of starving children or people who are homeless after floods or other natural disasters, it is only natural to feel sympathy for the victims and respond to urgent appeals for help by sending money to a supposed relief fund without checking whether it is genuine. It is also well-known that the appeal can be made even more effective, if a victim of the (real or imaginary) disaster can be identified as a named person, an effect known as the \emph{named victim bias}.
+
+\subsection{Belief in Authority}
+Many people believe unconditionally what people "higher up in the system" tell them. This can also be exploited by sending them instructions which appear to come
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{2025_05_12_ac3bc46a6f93dd973caag-036}
+\caption{An e-mail with a message from the police?}
+\end{figure}
+
+METROPOLITAN POLICE
+
+\emph{Ref.: ITC-18-2B35}
+
+This is a warning of currently active IT criminality, which we ask you to forward to your friends, family and other contacts.\\
+Over the next few days, do not try to open any electronic message with the subject "POSTCARD FROM HALLMARK", regardless of who appears to have sent it to you. It contains a virus which will delete your entire hard disk.\\
+Delete the message immediately, and turn off your computer. We urge you to pass this warning on to all your contacts as soon as possible. This will be to everyone's benefit.
+
+\emph{Thank you for your cooperation.}\\
+James Harrison\\
+Detective Inspector,\\
+IT Crime Section\\
+from a public authority- such as the police, the tax people or the health servicesa financial institution, or a senior person in the company which they work for.
+
+A simple example, which turns up from time to time, is e-mails which apparently come from the police, with a text something like the one in Fig. 2.3. Really many people who receive this type of mail will do as it says, just because it seems to come from a person in authority. In this case, the attack works like a sort of chain letter, where more and more copies of the mail circulate in the Internet. This is harmful, because it can overload the Internet and therefore delay more important traffic- in addition to being extremely irritating for the recipients of the mail.
+
+More serious examples of the effects of unreflected belief in authority appear when spoofed mails, apparently from a senior figure in an organisation, are sent to a more junior member of the staff. Most commonly, the aim is to cause a fraudulent transfer of funds to a bank account controlled by the attacker-a phenomenon known as \emph{CEO fraud}. But of course there are many other possibilities, such as giving orders to turn off some vital network component or to close down a power distribution sub-system as part of a cyberattack.
+
+A well-known experiment with the aim of investigating people's tendency to believe in authority was performed in the 1960s by Stanley Milgram, a researcher at Yale University in USA. The participants in the experiment were people with many different backgrounds and levels of education. They were told that they should give a victim electric shocks at increasing voltages \emph{"to investigate the threshold of pain"}. One of the participants acted as an authority who gave commands to the participants who controlled the voltage:
+\begin{itemize}
+  \item \emph{"Please continue"}
+  \item \emph{"The experiment requires that you continue"}
+  \item \emph{"It is absolutely essential that you continue"}
+  \item \emph{"You have no other choice- you must go on"}
+\end{itemize}
+
+26 out of 40 participants (65\%) were willing to obey these orders right up to the highest voltage (450 V), even if they could hear cries of pain, which apparently came from the victim.\footnote{In reality the sounds came from a tape recorder.} None of the participants stopped before the voltage reached 300 V.
+
+There has been a good deal of discussion about what Milgram's experiment really shows. It seems clear that ordinary people \emph{can} be got to perform outrageous acts when they are dictated by an authority. But quite a lot of things indicate that a vital condition for people actually obeying the orders is that the "authority" pushes them into it, so that they \emph{have no time to think} carefully about the matter. We shall look at this aspect of the human psyche in the following section.
+
+\subsection{The Brain's Two Modes of Operation}
+Time to reflect is of great significance for which decisions people make. If you doubt this, then try to give a group of people the problem shown in Fig. 2.4. It is important that they \emph{only} have 5 seconds to answer the question.
+
+\section{Problem}
+An electric lawnmower with battery costs $€ 440$ in total.\\
+The mower costs $€ 400$ more than the battery.\\
+What does the battery cost?\\
+You have 5 seconds to find the answer.\\
+
+\textbf{Fig. 2.4} A problem which must be solved very quickly
+
+If you try this out, you will probably find that a high proportion of people give the wrong answer. This is not because they are just plain stupid: When a group of bright students from the best universities in USA were asked to solve a similar problem, more than 50\% gave the wrong answer. I get similar results here at the Technical University of Denmark when I ask my own students, who are expected to have a good mathematical background. The typical mistake is to answer that the battery costs $€ 40$. If that were true, the mower alone would cost $€ 440$ ($€ 400$ more than the battery), so mower+battery would cost $€ 480$.
+
+Modern psychological theory postulates that there are two mechanisms that the brain uses for problem solving. They are often called \emph{System 1} and \emph{System 2}.
+
+\textbf{System 1} works very fast on the basis of intuition and previous experience.\\
+\textbf{System 2} works much slower, but can "work things out" from basic principles, logical reasoning and (where necessary) mathematics.
+
+If you are pressed to give a quick response, you have to rely on System 1.
+
+\subsection{Uncertainty in Decision Making}
+Very often you have to make a decision where the best choice is not obvious. What people do in such situations has been investigated by a number of researchers in cognitive psychology, especially Daniel Kahneman and Amos Tversky [\cite{kahneman1982judgment}]. The final decision is affected by a number of factors, which people are mostly not conscious of, including:
+%---- Page End Break Here ---- Page : 37
+\begin{itemize}
+  \item Anchoring
+  \item Attribution
+  \item Framing
+  \item Affect
+\end{itemize}
+
+An attacker can exploit these factors to get a victim to make a particular decision.
+
+\section{Anchoring}
+Anchoring is the phenomenon that we tend to relate to things which we have just seen or heard. For example, Kahneman and Tversky asked two different groups of people the same main question:
+
+\begin{itemize}
+  \item ``What percentage of african countries are members of UN?''\\
+(This was in the 1980s, when relatively few African countries were members.) Group 1 were also given the supplementary question \textit{``Is it larger or smaller than $10\%$?''}, whereas Group 2 was given the supplementary question \textit{``Is it larger or smaller than $65\%$?''} The average of the answers from Group 2 (45\%) was noticeably larger than the average from Group 1 (25\%). The supplementary question had got Group 2 to ``think bigger'' than Group 1.
+\end{itemize}
+
+Anchoring is a really fundamental mechanism in the brain, and is very difficult to escape from. If, for example, the participants were not given a supplementary question, but had just seen a wheel of fortune which stopped at 10, then they gave answers which on average were lower than if they had seen the wheel stop at 65.
+
+Anchoring even plays a role in activities such as perception and recall. For example, one group was asked whether the annual average temperature in Germany was higher or lower than $20^{\circ}\mathrm{C}$. This group was then much better at recognising words with a relation to summertime, which they only saw for a very short time, than a group who were asked whether the average temperature was higher or lower than $5^{\circ}\mathrm{C}$. Such observations indicate how one can fool people into thinking (and behaving) in a particular way by getting them to take part in some apparently harmless preliminary activity—a technique commonly known as \textit{priming}..
+
+\section{Attribution}
+Attribution is in this context the activity of trying to find the reasons for human behaviour. You can for example think how you would react if you are driving to work in a car and another driver cuts in in front of you, so you have to brake suddenly. What would you say to yourself? Would it be \textit{``Stupid cow''} (or something even ruder) or would it be \textit{``She’s probably had a bad day''}? It is most likely to be the first of these possibilities, because you attribute the behaviour to certain internal attributes of the person, without thinking very much about the external factors.
+
+This phenomenon, that you have a tendency to overestimate the internal factors and underestimate the external factors when you have to explain other people's behaviour, is often called \textit{the fundamental attribution error}. It is probably a result of a tendency to focus more on the situation than the individual, especially if you don't know much about the other person.
+
+\section{Framing}
+There are many way of formulating a given question, but the way in which you choose to formulate it often has a considerable effect on how people answer. This is a well-known phenomenon which can introduce bias in people's responses to opinion polls and other surveys. The formulation creates a kind of frame within which the question is to be understood. An example:
+
+\begin{center}
+\begin{tabular}{|l|}
+\hline
+A new type of influenza is expected to result in 600 people dying during\\
+the coming winter.\\
+You must choose between two proposals for how to deal with the disease.\\
+\hline
+\end{tabular}
+\end{center}
+
+The first formulation of the two alternative proposals is:
+
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Program A1: & Will result in 200 lives being saved. \\
+Program B1: & There is a probability of $1/3$ that 600 lives will be saved, \\
+            & and a $2/3$ probability that no lives will be saved. \\
+\hline
+\end{tabular}
+\end{center}
+
+Most people who are asked choose Program A1.\\
+The alternative formulation of the two proposals is:
+
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Program A2: & Will result in 400 people dying. \\
+Program B2: & There is a probability of $1/3$ that nobody dies, and a $2/3$ \\
+            & probability that 600 people die. \\
+\hline
+\end{tabular}
+\end{center}
+
+Most people who are asked in this case choose Program B2.\\
+It is important to notice that it is only the \textit{formulations} of the two alternatives which are different—Programs A1 and A2 give the same result (400 die and 200 are saved), and Programs B1 and B2 likewise give the same result. But when people have to choose, they give more weight to outcomes which are presented as being certain than on outcomes which are just given as high or low probabilities. Program A1 therefore sounds better than B1, while A2 sounds worse than B2.
+
+By exploiting this kind of eftect, an attacker can get people to make particular choices, so that for example they preferentially choose particular links to click on in a web-based system. Maybe some of the links are fraudulent and give the attacker a greater ``profit'' (and the user a greater ``loss'').
+
+\section{Affect}
+Most people are not good at statistics. They can be fooled by getting a very dramatic formulation to affect their feelings. Suppose, for example, you ask people to consider two diseases where there is high risk of a deadly outcome by asking: Which of the following diseases is worst: (a) A disease which kills 1286 persons out of every 10000 who are infected? (b) A disease where the probability of dying is $24.14\%$?\\
+Here most people answer that (a) is worst, even if there is really only a $12.86\%$ probability of dying of it. This seems to be because people imagine a row of more than 1000 corpses, while the large number of dead in case (b) is hidden in the statistics. So this is also a way to get users to make particular choices which are not necessarily to their advantage.
+
+\subsection{Phishing}
+Phishing is a very common form of attack, in which various techniques are used to get people to reveal personal or other confidential information. The word ``phishing'' is derived from the ordinary English word ``fishing'', which nicely describes what the attacker (``the phisher'') does—he or she fishes for information. Just like when you go out fishing, you need some bait, which you think the victim will bite on. Most often this is sent in an e-mail or text message, which possibly includes a harmful attachment or a link to a harmful web page, but phishing can also take place via social media such as Facebook, Twitter and LinkedIn.
+
+The bait must appear to be attractive or even essential for the victim. For example it might be a message like one of the following:
+
+\begin{itemize}
+  \item You have won a prize in a lottery
+  \item You must update your credit card
+  \item You can get money back from the tax authorities
+  \item You can play an exciting new online game
+  \item You need to take action to stop your bank account being emptied by hackers
+  \item Your boss would like your comments on some topic
+  \item You need to read an important report
+  \item The sender would like to have a collaboration with you about something which you might be expected to be interested in.
+\end{itemize}
+%---- Page End Break Here ---- Page : 40
+The list of possibilities is almost endless. And then the victim is asked to send some confidential information or type them in on a webpage or open an attached file, which will automatically find the desired information on the victim's computer and send it to the phisher. In a private context it could for example be some personal data, such as credit card data, PIN codes, passwords, stored e-mails, private photos etc. In an industrial company it could be internal information, patent data or lists of customers. In the public sector it could be data about health, social problems or criminal records and so on. All of these are very sensitive pieces of information which the victim should not disclose. Phishing is therefore a real problem for society.
+
+Initially, phishing mails were mass mailings, where the sender's hope was that maybe just a few of every million recipients would fall into the trap. If you are going to cheat people of a large sum of money, even a low success rate is satisfactory. But as all the mails in an attack would be more or less identical, it is relatively easy for large organisations or suppliers of Internet services to detect and block the attack. Nowadays we therefore commonly see attacks which are specifically directed at individual persons. This technique is known as \textit{spearphishing}, by analogy with the fishing technique where you use a spear to catch specific fish, instead of using a large net to catch a large number of fish, most of which are of little value. The chosen targets are typically highly placed persons with responsibility within companies and public institutions. They are all too often not particularly careful in relation to threats via e-mail, and it is therefore relatively easy to get them to accept the phishing mail's message. And because they are placed high up in the company hierarchy, they almost certainly have access to information whit is worth a lot of money to the phisher.
+
+Phishing mails exploit many of the techniques which have been mentioned earlier in this chapter. So, in addition to the more or less plausible information which acts as bait, they are often characterised by:
+
+\begin{itemize}
+  \item \textbf{Short deadlines:} You must hurry to react, otherwise something terrible will happen. You mustn't use time to think about the matter!
+  \item \textbf{Appeals to authority:} The message refers to an important person (probably one that you know). Perhaps it even looks as though this person sent the mail.
+  \item \textbf{False sender information:} The "sender", whose mail address can be seen in the "From" field in the mail, is not the real sender. The mail is- as they say"\textit{spoofed}".
+  \item \textbf{False links:} The web address, which you see when you read the mail (or the attached file or the web page) does not correspond to the address which is actually given in the link.
+  \item \textbf{Cybersquatting:} The e-mail addresses and links look like ones which you know. But if you study each of them carefully, you will discover that there are some small but important deviations - for example, that it says dansskebank. dk instead of \href{http://danskebank.dk}{danskebank.dk}; or it says \href{mailto:Oliver@matrix.eu}{Oliver@matrix.eu}, where the first character is the digit ' 0 ', instead of 0liver@matrix. eu, where the first character is the capital letter 'O'.
+\end{itemize}
+
+These features can be very difficult to see through, and research shows that even experienced IT users can be fooled by a well-designed phishing mail [25]. The basic\\
+%---- Page End Break Here ---- Page : 41
+problem is that the recipient is exposed to \textit{cognitive overload}- in other words, they need to use more information than the brain can handle- when they need to check all the indicators for a "legal" mail or web page. It is necessary to:
+
+\begin{itemize}
+  \item Check whether the sender's name really is the one given in the "From" field in the mail. (Most mail clients and apps can show the address from which the mail was sent, though this can also be spoofed.)
+  \item Check all links in e-mails and web pages to see whether the link really is to the address which can be seen in the text. (Most mail clients show the true link address if the mouse is held over the link in the text.)
+  \item Check whether the message looks reasonable. Would you expect a message like this from the (supposed) sender? Are you being asked to send information such as passwords, which you should never send to other people? Are there revealing phrases in the text which the sender would never use?
+  \item Check the language. Is the mail filled with spelling errors or poor grammar?
+  \item Check that any web addresses given in the message are OK. Are they spelt exactly as you would expect?\\
+It can be hard work, especially for people with no competences in IT.
+\end{itemize}
+
+\subsection{Humans vs. Machines}
+Computers have no psyche, so they cannot be talked into performing inappropriate acts by the use of the methods discussed in this chapter. So far they are not particularly good at extracting useful information from a noise-filled picture. These two properties are used in so-called \textit{CAPTCHA} systems for controlling access to services via the Internet\footnote{CAPTCHA stands for \textbf{C}ompletely \textbf{A}utomated \textbf{P}rogram to \textbf{T}ell \textbf{C}omputers and \textbf{H}umans \textbf{A}part.}. When a user tries to get access to the service, an image is displayed with some (typically slightly distorted) letters and digits on a noisy background, as in Fig. 2.5.
+
+\begin{figure}[htbp]
+\centering
+\caption{Typical images for use in a CAPTCHA system}
+a.\\
+\includegraphics[max width=\textwidth, center]{2025_05_12_ac3bc46a6f93dd973caag-042}\\
+b.\\
+\includegraphics[max width=\textwidth, center]{2025_05_12_ac3bc46a6f93dd973caag-042(1)}
+\end{figure}
+
+The user is asked to type in the sequence of characters which can be seen in the image, and is only granted access if they are typed in correctly. For a human, it is usually a simple task to separate the characters from the background, whereas it is dfficult for a computer to do so. CAPTCHA systems are therefore used to hinder automated, computer-based attacks on IT services. They are particularly used in attempts to:
+%---- Page End Break Here ---- Page : 42
+\begin{itemize}
+  \item Hinder computer generated, irrelevant comments (so-called "Comment Spam") in blogs and web fora.
+  \item Protect web page registration.
+  \item Ensure that only humans vote in online polls.
+  \item Hinder attempts to find IT users' passwords by automated submission of words chosen from a large dictionary.
+\end{itemize}
+
+As technology for image analysis on computers develops, there is a need for more complex CAPTCHA images, as in Figur 2.5(b). Up till now it has been possible to keep a little bit ahead in the battle to keep automated attacks out.
+
+No protection is perfect, and inventive attackers have found a way to get round CAPTCHA protection. You just need to use some of the techniques presented earlier in this chapter to persuade some humans to help in decoding the CAPTCHA images. For example, you can send the images as part of a fake computer game. This is essentially a type of \textit{trojan horse}, with an apparently innocent function (the game), but also a hidden, malicious function. A good example of this is \textit{Melissa Strip}, spread by the Troj/CAPTCHA-A malware. Players in the game were enticed into reading some CAPTCHA images by being promised that the young woman "Melissa" would take more and more clothes off, every time that the player decoded a new CAPTCHA image and correctly typed in the sequence of characters found in it.
+
+When the sequences of characters are sent back to the computer that sent the images, it can use them to get access to the desired IT service. The entire procedure
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{2025\_05\_12\_ac3bc46a6f93dd973caag-043}
+\end{figure}
+
+\textbf{Fig. 2.6} The procedure used in attacks based on Melissa Strip.\\
+(1) The attacker (the "man-in-the-middle") attempts to use a service on a server.\\
+(2) The server sends a CAPTCHA image which must be read.\\
+(3) The attacker forwards the image to a human, who has been enticed to take part in the "game".\\
+(4) The human sends the text in the CAPTCHA image back to the attacker.\\
+(5) The attacker sends the text to the server, which accepts the attacker.
+%---- Page End Break Here ---- Page : 43
+is illustrated in Fig. 2.6. It is worth noticing that the attacker never attacks the victim directly, but just places itself between two innocent parties and manipulates the traffic between them. This way of organising an attack, which is very common, is often called a \emph{man-in-the-middle} (or just \emph{MitM}) attack. We will see more examples of MitM attacks in later chapters.
+
+\subsection{Can Psychological Attacks Be Prevented?}
+Of course the real answer to this question is "no", since it is not possible to change the human psyche. However, a number of approaches are commonly used for reducing the success rate of psychological attacks. The simplest is just to publish sets of rules for secure behaviour on the net, such as the set of rules suggested above for checking web pages or incoming e-mails for indications of phishing attempts. This type of prescriptive approach for what to do (i.e. an approach giving rules of the type "Do this. . .", "Don't do that. . .") is very popular among large organisations and government agencies, as it is simple and can be implemented with the help of a web page or a little brochure. However, it is not clear how effective it is. In the real world, people drive cars without using the safety belts, exceed speed limits, talk or send text messages on their cellphones while driving, go out swimming alone, move about on building sites without wearing a safety helmet and have unsafe sex- even though there are massive campaigns to persuade them not to do such things because of the dangers involved.
+
+This obvious discrepancy has motivated a good deal of research on why these approaches do not have the hoped-for effect. It is clear from the examples given above that this is not a problem which only affects the field of cybersecurity-or even, more generally, information security. Much of the earliest work was carried out in the 1980s and 1990s, and focused on how to achieve a high level of industrial safety. and it is only relatively recently that the many different psychological theories developed in that context have been applied to IT security.
+
+There are two main threads which run through the body of research:
+
+\begin{itemize}
+  \item \textbf{Motivation:} How should one motivate individuals to achieve and maintain a high level of safety or security?
+  \item \textbf{Training:} How can individuals be trained most effectively to operate safely or securely?
+\end{itemize}
+
+It is important to recognize that these two questions can be answered independently of one another-it is quite possible to influence people to have a high level of motivation, and then observe that they are unable to operate securely due to lack of training. And vice-versa, it is possible to train people to behave securely, but fail to motivate them to do so in practice. Let us look at the two areas in turn.
+
+\subsection{Motivation}
+The question of what it is that motivates people to achieve a good climate for conventional industrial safety within an organisation was investigated in 1997 by Williamson and her co-workers [\cite{williamson1997safetyclimate}]. They carried out a questionnaire-based study of 1560 workers in a wide range of jobs, and found five important factors which affect safety (either positively or negatively):
+
+\begin{enumerate}
+  \item \textbf{Personal motivation:} Items which the respondent believes are necessary in order for him/her to behave more safely.
+  \item \textbf{Positive safety practice:} Items which the respondent recognises as existing good practice with respect to safety.
+  \item \textbf{Risk justification:} Excuses or reasons for not behaving safely.
+  \item \textbf{Fatalism:} Belief that failures of safety will inevitably occur.
+  \item \textbf{Optimism:} Belief that the probability of having an accident is low.
+\end{enumerate}
+
+To achieve better levels of safety, it is evidently important to counteract the demotivating beliefs associated with Risk justification, Fatalism and Optimism, and to reinforce the motivating beliefs by providing personal motivators and ensuring that examples of good practice remain highly visible to everyone in the organisation. Although the Williamson study relates to conventional safety, the authors of the study point out that the beliefs observed were more or less invariable over a large range of workplaces and job types. Although this never seems to have been checked, there are therefore reasonable grounds for believing that the results will also be valid for IT security.
+
+Looking back to the start of this chapter, factors 1 and 2 are significant for avoiding dangerous behaviour, while factors 3,4 and 5 are aspects of the problem of having an incorrect mindset. If we now consider how these ideas fit into the area of cybersecurity, it is very common to meet people who believe that "\emph{accidents always happen to other people}" (Optimism) or that "\emph{Murphy's law applies}" (Fatalism), or who have ideas about IT systems which do not correspond to reality, but which provide them with excuses for not taking precautions. The example at the start of the chapter is just one example of this.
+
+Another possible approach to motivation is to use \emph{fear appeals} to change people's attitudes. This has been a common approach in public campaigns in several areas, particularly those related to health issues and road safety ("Smoking can damage your health", "Speed kills!", . . .), and several psychological theories have been developed to explain how fear appeals work and should be applied. One well-known example is Rogers' \emph{Protection Motivation Theory}, which in its most recent formulation [\cite{rogers1983pmt}] postulates that an attitude change leading a person to (intend to) adopt a "good" response depends on that person's motivation for protection, which in turn depends on the results of four cognitive processes:
+
+\begin{enumerate}
+  \item Perception of the severity of the threat;
+  \item Perception of the probability of the threat materialising;
+  \item Perception of the efficacy of the response to cope with the threat;
+  \item Perception of the individual's own ability to produce this response (often known as self-efficacy).\\
+\end{enumerate}
+%---- Page End Break Here ---- Page : 45
+In the context of IT security, this means that a fear appeal to users will be effective at getting them to protect themselves if the problem is serious, if it is likely to affect those users, if it can be avoided by taking suitable action and if the users are confident that they can in fact perform the action.
+\end{enumerate}
+
+Rogers' theory was for example used by Weirich and Sasse as the basis for a campaign to persuade users to use secure passwords [\cite{weirich2001pgp}]. They found that many of the users initially could not see that poor use of passwords (lack of secrecy, use of weak passwords etc.) constituted a threat. It was therefore necessary to provide a suitable fear appeal in order to rectify the situation.
+
+Fear appeals are in general, however, not very effective. This often seems to be because people lack belief in their own ability to cope with the threat-i.e. they lack belief in their \emph{self-efficacy}. This typically gets them to produce a counter-reaction to the fear appeal, so that they resist changing their behaviour in the desired direction. For example, they may convince themselves that the problem is unimportant or they may just mentally refuse to think about the problem at all.
+
+One notable feature of many of the studies on motivation with respect to IT security is that they have taken place within \emph{enterprises} rather than in the population as a whole. The reasons for this are rarely stated, but probably reflect the fact that enterprises are affected by requirements for good IT governance, which gives them a motivation for investigating their own situation. Companies also have a variety of tools at their disposal for motivating users to behave securely, such as disciplinary action against users who do not follow the enterprise's security policy-an artificial fear appeal which can be very effective. Citizens in general cannot be motivated by such means, and have to be motivated by spelling out the consequences of insecure behaviour for their own economical or personal situation. A typical approach is to use media-based awareness campaigns focusing on areas where citizens have been victims of currently popular forms of attack.
+
+\subsection{Training}
+Simple schemes for training IT users to behave securely often rely on giving these users sets of instructions for what to do. For many people, this prescriptive approach does not work well, since the users typically do not get any explanation of why they need to do this or that. Moreover, many users-especially inexperienced ones often do not really understand the terms used in the instructions.
+
+Better results seem to be achievable when more interactive approaches are used. Competitions and quizzes, where participants compete to be best at avoiding psychological attacks seem to have a lasting effect on people's abilities to keep themselves safe. Putting the users into an interactive (e-learning) environment where they are exposed to examples of both genuine mails and phishing mails of various types seem to be particularly effective for giving the necessary training, and for improving levels of awareness of the risks of psychological cyberattacks in general.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\textwidth]{2025\_05\_12\_ac3bc46a6f93dd973caag-047}
+  \caption{An example from an e-learning environment used in the Danish CitAware project for improving users' abilities for avoiding psychological attacks.\\
+  Above: A situation to which the user must respond.\\
+  Below: Possible responses from the e-learning system.}
+\end{figure}
+
+Fig. 2.7, taken from an investigation performed in Denmark in 2009, illustrates the idea. Participants are presented with the image shown at the top of the figure, and are asked whether they would be willing to click on the link. Possible answers are "yes", "no" or "don't know". The image is interactive: initially, the box showing the true destination of the link in the center of the image is not visible, but this information will appear if the participant moves the mouse cursor (the red arrow in the figure) over the link, as in most modern web browsers. Immediately after answering the question, the participant is given feedback, as shown at the bottom of the figure. The feedback is positive (bottom left) if the answer indicates safe behaviour and negative (bottom right) if it indicates unsafe behaviour, including "don't know".
+
+When users were shown a series of such situations, their ability to distinguish safe from unsafe situations increased significantly. Figure 2.8, from the same investigation as Fig. 2.7, shows the result of testing several hundred participants, who were all members of the general public, with a series of six such situations. The participants had been asked to say whether they regarded themselves as beginners, experienced users or experts, and although these three classes of users clearly had different levels of competence, where the least experienced of them had a very poor idea of what to do at the start of the series, all three classes could distinguish safe from unsafe situations more than $80\%$ of the time at the end of the series. This approach has subsequently been applied in campaigns in industrial companies, who were characterised by having users with a wide variety of backgrounds, with similarly positive results.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\textwidth]{2025\_05\_12\_ac3bc46a6f93dd973caag-048}
+  \caption{Results from the CitAware e-learning system, when users were exposed to a series of situations where they should judge whether the situation was safe or unsafe.}
+\end{figure}
+
+\section{Useful concepts which you should now know about}
+In this chapter, the following concepts were introduced:
+
+\begin{itemize}
+  \item Social engineering
+  \item Cognitive psychology
+  \item Anchoring
+  \item Attribution
+  \item Framing
+  \item Affect
+  \item Phishing
+  \item Spearphishing
+  \item Cybersquatting
+  \item CAPTCHA
+  \item Man-in-the-middle
+\end{itemize}
+
+You should check that you understand their definitions and can give examples of contexts where they play a role.
+
+\section{Further Reading}
+A very readable book on social engineering, with particular focus on computer security is Kevin Mitnick's book \emph{The Art of - Deception: Controlling the Human Element of Computer Security} [65]. Mitnick became famous-or maybe notorious is a better word-due to his activities, many of which were indeed based on social engineering, as a hacker in USA in the 1980s.
+
+Many of the ideas described in this chapter come from the area of \emph{cognitive psychology}, which is the study of those processes which are related to perception, memory, thinking and language. This is a discipline where there is a very large body of literature. Of particular interest in relation to cybersecurity is Kahneman, Slovic and Tversky's book \emph{Judgment under Uncertainty: Heuristics and Biases} [56], which deals with how people make decisions, when these are based on uncertain information.
+
+Another book by Kahneman, which can be strongly recommended, is \emph{Thinking, Fast and Slow} [55], which presents the two ways in which the brain works, with numerous examples. It is both entertaining and instructive.
+
+\section{Exercises}
+\subsection{Cyberssecurity in Ultima Thule Hospital}
+Ultima Thule Hospital has to decide whether money should be spent on buying new IT equipment or spent on better IT security. One group in the hospital's management think that new IT equipment will save 150 lives a year, while another group are of the opinion that better IT security will save $60 \%$ of 250 lives. Which group do you think was largest? You might like to try to search on the web to see if you can find support for your point of view.
+
+\subsection{Phishing (1)}
+Phishing is often considered as a big problem, especially in connection with ebanking. Search on the net for examples of successful phishing attacks. Are there, in your opinion, a lot or just a few? This question is related to human perception of risk. Search for references related to risk perception and make a short literature list on the subject.
+
+\subsection{Phishing (2)}
+Do you personally know someone who has been fooled by a phishing attempt? How did the attack take place and on what sort of equipment (e.g. on a PC via a web page, via e-mail, on a smartphone, via Facebook,...)?
+
+\subsection{Social engineering}
+For this exercise you should imagine that you work in the headquarters of a large company with branches in several european countries. One day you see an Englishspeaking gentleman, who is on his way up the stairs to the management level. He is expensively dressed in a worsted suit with a very fine tie, and he is carrying a very nice leather attaché case. You have never seen him before, and he doesn't seem to have the usual guest ID card, which visitors to the company must normally bear visibly on their clothes. You ask him what his business is, but he looks thoroughly insulted, just says that he has a meeting with James Cowley, who is the managing director, in two minutes and that he doesn't have time for discussions with you. What do you do then?
+
+\subsection{Changing passwords}
+It is well known that many phishing attacks are attempts to get people to reveal their user id and password for a computer system or a web page which requires you to log in. When such attacks succeed in a company, the company's IT support staff may need to get all the users to change their passwords. How can they do this in such a way that the users do not believe that this is just another phishing attack, where they are being asked to type in their user ids and passwords?
+
+\subsection{An e-mail from the bank}
+For this exercise you should imagine that you are a customer of the Danish bank \emph{DanskeBank}. One day you receive the e-mail which is shown in Fig. 2.9.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\textwidth]{2025\_05\_12\_ac3bc46a6f93dd973caag-050}
+  \caption{An e-mail about your bank account}
+\end{figure}
+
+Would you click on the link in the mail? If you would not click on it, you should give one or more reasons for ignoring the e-mail. If you are in doubt about what you would do, you should give some suggestions for what you could do to decide whether this mail is a genuine mail from the bank or a fake which is trying to lead you astray.
+
+\subsection{CEO fraud}
+As mentioned in the text, CEO fraud is a form of attack based on people's trust in authorities. The attack is typically based on the use of a spoofed e-mail which appears to come from an important person in the company or institution which is being attacked, as in the following example:
+%---- Page End Break Here ---- Page : 50
+\textbf{From:} Henry Sotherby <ceo@hstrading.com>\\
+\textbf{To:} Simon Jones <simon.jones@hstrading.com>\\
+\textbf{Subject:} Urgent change (000)\\
+\textbf{Date:} 27 January 2021
+
+Hi Simon,
+
+This is a great meeting here in Florence. I'll give you all a
+briefing on it when I get back.
+I just heard from Andrea Dolores at Infomin that they would
+like their invoices paid into a new account. She didn't say why.
+But anyway, here are the details:
+\\
+Bank name: Grossbury Investment Bank\\
+Bank address: 153 Kings Road, Grossbury\\
+Account number: 123-45679-081\\
+Account name: Infomin CEOF
+
+As far as I remember, there is an invoice to be paid tomorrow,
+so please change the details to the above ASAP.
+
+Truly yours,\\
+Henry Sotherby
+
+\textbf{Fig. 2.10} A mail from the CEO?
+
+To be successful with an attack of this type, the attacker has to do some homework: find the name and e-mail address of the CEO (or other important person), find the name and e-mail of some suitable person to target in the finance department of the CEO's company, and find the name of some important person in a company which regularly sells goods or services to the targeted company.
+
+How easy is this to do? Maybe much of this information can be found on the company's webpages. Maybe they have a Facebook account which will reveal suitable details. Maybe they issue an annual report with information which could be used. Maybe you can just ring to the company and ask. Choose one or more companies or institutions which you know and see whether you can collect up enough information which could be used in a CEO fraud attack. (But, of course, don't get tempted to actually perform the attack...)
 
 \chapter{Risk}
 When you need to consider how to prevent possible security breaches in an IT system, it is important to have an understanding of how serious the various types of breach would be for the system in question. There is no point in doing very much to protect against unimportant attacks or faults. In many commercial contexts people follow the principle that you should not use more money to protect yourself than you risk losing if a breach actually occurs. The loss cannot always be evaluated in terms of money - it might be a matter of losing goodwill or damaging your reputation. But an analysis of what could happen and how to counteract possible damage is the basis for all serious work with IT security. The practical approach to this is typically to evaluate the \textit{risks} of having an IT system running.
@@ -148,7 +1171,7 @@ In the two figures, 3.2 and 3.3, we have here used a 3-point scale (low, medium,
 
 or combinations of such elements. Just exactly what should be understood by a low, medium or high value naturally depends on the IT system's size and purpose. A consequence corresponding to a loss of 10000 euros can seem very high for a small company but low for a large concern with a turnover of billions. And there can likewise be differing views on how often threats should turn up in order for the frequency to be classified as high, medium or low. In the end, it is up to the management-or, for a system at home, the system owner-to decide where the limits should be set.
 
-\section{Threats in IT Systems}
+\subsection{Threats in IT Systems}
 Many IT users believe mistakenly that the only threat which can prevent the correct operation of their computers is attackers who hack their way into the computer. In reality, the threat pattern is much more varied, and the threats can be related to many different aspects of the computer's operation. We can distinguish between at least four main groups of threats:
 
 \section{Hardware related threats}
@@ -224,7 +1247,7 @@ In later chapters we return to a more detailed presentation of various forms of 
 %---- Page End Break Here ---- Page : 56
 Ways of dealing with damage can naturally be combined. Notice that some of them ( 1,2 and 3 ) are \emph{proactive} steps, which reduce the risk before the damage takes place, while others (4 and 5) are \emph{reactive} steps which are taken when the damage has in fact occurred.
 
-\section{Risk Management}
+\subsection{Risk Management}
 \emph{Risk management} deals with all the activities which are related to evaluating and reducing risks. The part of it whose aim is to reduce risk to an acceptable level is often called \emph{risk mitigation}. There are five generally recognised strategies for this:
 
 \section{Definition (Risk mitigation stategies)}
@@ -251,7 +1274,7 @@ Irrespective of which strategy you choose, risk management must give a balance b
 
 This last factor is unfortunately often forgotten by system designers, with the result that ordinary users spend a lot of time just trying to do simple tasks such as logging in to the system, transferring data or communicating with friends or colleagues, If security measures do not give a usable system, users will find ways to avoid them!
 
-\section{Systematic Security Analysis}
+\subsection{Systematic Security Analysis}
 In order to develop a secure system, it is an advantage to use a systematic method, and over the years a number of systematic procedures for security analysis of IT systems have been developed. Some well-known examples are:
 %---- Page End Break Here ---- Page : 57
 \begin{itemize}
@@ -568,7 +1591,7 @@ The resulting residual risk matrix can be seen in Fig. 3.10.
 
 After this one would typically consider whether the residual risk is too high-that is to say, whether it lies in a yellow or red area in the residual risk matrix. If the residual risk is too high, more or better countermeasures must be introduced, or other forms of risk mitigation must be used. This activity lies outside OCTAVE's Phase 1. We return to the choice of countermeasures in later chapters.
 
-\section{Risk Management as a PDCA Process}
+\subsection{Risk Management as a PDCA Process}
 Risk management should not be a one-time activity. The risk profile changes with time, as new forms of attack are developed or known threats appear more often. The situation must be re-evaluated at regular intervals. This means that risk management most often takes the form of a so-called \textit{PDCA process} with four characteristic phases (Plan, Do, Check, Act), which in the case of risk management are as follows:
 
 \begin{itemize}
@@ -611,6 +1634,7 @@ Two good introductions to the concept of risk in a general, not IT-specfic, cont
 
 This chapter only gives a very short introduction to some of the ideas behind the original OCTAVE method. For more detail, the report ``\textit{Introducing OCTAVE Allegro: Improving the information security risk assessment process}'' [13], describing the more modern OCTAVE Allegro version, can be recommended.
 
+\section{Exercises}
 \subsection{The patient record system}
 In Ultima Thule Hospital, an analysis of the patient record system revealed the following aspects of the system which caused concern:\\
 a) A doctor who does not belong in a particular department of the hospital can accidently get to activate the system in that department and change the records for one or more patients.\\
@@ -726,7 +1750,7 @@ Most (but not all) cryptosystems can be attacked with a \textit{brute-force atta
 
 For a cryptanalyst, discovery of a type of attack which required fewer attempts than a brute-force attack would mean that the cryptosystem was \textit{broken}. However, this does not necessarily mean that the breach can be used for anything in practice. If the key has 128 bits, the “breach” could perhaps be that you could find the key by trying only $2^{108}$ candidate keys – i.e. roughly $3.2 \times 10^{32}$ (320 000 billion billion billion). It would still be infeasible to perform the attack in a reasonable time using today's technology. So you don't necessarily need to go into a panic, if you read in the newspaper that this or that cryptosystem has been broken, unless the people who are responsible for the break have actually been able to demonstrate that their method works in practice.
 
-\section{Symmetric Encryption}
+\subsection{Symmetric Encryption}
 The basic idea in symmetric encryption is that you have some information which should only be revealed to particular parties. These parties share a secret which is used as the encryption and usually also the decryption key.
 
 This approach covers a number of classical encryption techniques:
@@ -961,7 +1985,7 @@ The two ekstra characters ``..'' in this example are used to fill out the block 
 
 It is clear that transposition does not change the frequency with which the individual characters appear in the ciphertext. But it breaks up the text, so that characters which often appear next to one another in the plaintext are separated in the ciphertext. This makes it very difficult to exploit knowledge of bigrams and trigrams in the language concerned.
 
-\section{Modern Ideas}
+\subsection{Modern Ideas}
 There are two obvious problems with the historical encryption methods:
 
 \begin{enumerate}
@@ -1295,7 +2319,7 @@ SOSEMANUK & \\
 
 The submitted proposals were exposed to various forms of cryptanalysis in three project phases, where only the best ones in a given phase went on to the next phase. The final result was a \emph{portfolio} with four stream ciphers under the software profile and three under the hardware profile, as shown Table 4.3. Three of these stream ciphers were also accepted in versions with extended key lengths: HC-256 and Salsa20/12 with 256-bit keys and MICKEY-128 2.0 with 128-bit keys. All the stream ciphers in the portfolio are described in [74], which gives details of which forms of cryptanalysis the individual proposals had been exposed to and which performance they could offer. A modfied version of Salsa20 with 256-bit keys, known as ChaCha20, has been adopted as a replacement for RC4 in the most recent versions of SSL/TLS (see Sect. 8.4).
 %---- Page End Break Here ---- Page : 93
-\section{Asymmetric Cryptosystems}
+\subsection{Asymmetric Cryptosystems}
 Asymmetric cryptosystems are characterised by the fact that everyone who uses the cryptosystem has both a secret and a public key, which is why they are also known as \emph{Public Key Cryptosystems (PKCS)}. Here it is important to know which party we are talking about, so it is traditional to give them characteristic names. For example for two parties: Alice and Bob. Suppose they have keys as follows:
 
 \begin{center}
@@ -1489,6 +2513,7 @@ The inverse function $\mathcal{E}^{-1}$ corresponds to evaluation of a $p$'th ro
 
 For the RSA-algorithm to work both for encryption and decryption, it must be true that if $e=d^{p} \bmod n$, where $p$ one of the (either public or private) exponents and $n$ the chosen modulus, then $d=e^{s} \bmod n$, where $s$ is the other exponent. Showing that this is the case requires some mathematics, which you can find in Sect. B.6 in Appendix B.
 
+\subsection{An Example of the Use of RSA:}
 \section{Evaluating the set of keys:}
 \begin{enumerate}
   \item Choose two prime numbers, say: $q=13$ and $r=19$.
@@ -1669,7 +2694,7 @@ power. It is therefore necessary to use larger and larger key sizes in order to 
   \item Methods for even faster factorisation of large integers may be developed. Firstly, one can imagine that algorithms faster than NFS are discovered. And secondly, that new techniques based on quantum computers will become usable in practice. It is known that algorithms for quantum computers can be used to solve the mathematical \textit{hard problems} which form the basis of all the current commonly used public key cryptosystems. Development of public key cryptosystems which cannot be broken by using quantum computers is currently a very active area for research.
 \end{enumerate}
 
-\section{A Comparison of PKCS and SKCS}
+\subsection{A Comparison of PKCS and SKCS}
 In addition to the obvious differences with respect to the need to keep all the keys secret, there are a number of other differences between PKCSs and SKCSs. In brief:
 
 \textbf{Key size:} For a corresponding grade of security, RSA requires much larger keys (larger moduli, $n$) than DES or AES.\\
@@ -1756,6 +2781,7 @@ There are a large number of classical texts on cryptography which explain the ma
 
 If you want to understand cryptography and its effects and weaknesses better, it is a really good idea to do some practical experiments with different encryption algorithms and techniques for cryptanalysis. There are quite a number of tools for this purpose, both commercially available and as open source software. A good example of an open source product is CrypTool, which makes it possible to try out a long series of both classical and modern cryptoalgorithms and various methods of cryptanalysis. It is available in two versions for Windows and a platform-independent version for Linux, Mac OS and Windows. Further information can be found (in English or German) on CrypTool's portal, at URI \href{https://www.cryptool.org}{https://www.cryptool.org}.
 
+\section{Exercises}
 \subsection{Cryptanalysis 1}
 The letters in the following text are encrypted with a Vigenère cipher, while all the other characters have been left as in the plaintext. Use Kasiski's technique to discover the key and find the plaintext.
 
@@ -2034,7 +3060,7 @@ c_i=\mathcal{E}(m_i \oplus c_{i-1}, k)
 \]
 This means that the ciphertext from the very last block of plaintext contains information from all the previous blocks, and therefore can be used to check integrity. This so-called CBC-MAC is often used together with encryption of the blocks in CTR mode; this combination is known as CCM mode.
 %---- Page End Break Here ---- Page : 115
-\section{Electronic Signatures}
+\subsection{Electronic Signatures}
 Electronic signatures are used as proof of a document's origin and to ensure \textit{nonrepudiation} of sending or receiving. The basic requirements for an electronic signature, shown in Requirements 5.3, are in principle the same as for ordinary written signatures.
 
 \section{Requirements (Properties of a electronic signature)}
@@ -2287,7 +3313,7 @@ Correspondingly, in Message 4 Bob asks Sam to send Alice's certificate, which Sa
 
 This form of authentication is known as \textit{three-way strong authentication}. Kerberos uses a variant of this in which the nonces are replaced by timestamps. It is important to notice that the trustworthy server does not get to see the two parties' \textit{secret keys}; in a PKCS, a party's private key will normally only be found in its owner's system. There are a few exceptions: for example the public electronic identity system, MitID, in Denmark uses a PKCS in which the private keys are kept under specially secured conditions in the issuer's systems.
 
-\section{Key Distribution}
+\subsection{Key Distribution}
 Key distribution is the general term for activities whose purpose is to make a shared secret available to two or more parties. Often this is, as we have seen, an integral part of the authentication process.
 
 Key distribution can be based on two fundamental techniques:
@@ -2333,7 +3359,7 @@ Message $3 \quad A \rightarrow B: \mathcal{E}\left(S_{A}\left(\alpha^{x_{B}}, \a
 \textbf{Fig. 5.15} The station-to-station protocol for key agreement\\
 Here the notation $S_{i}(m)$ means message $m$ signed by $i$.
 
-\section{Certificates}
+\subsection{Certificates}
 Certificates are digital documents which guarantee which public key belongs to a given subject. They are an essential ingredient in so-called \textit{Public Key Infrastructure} (\textit{PKI}) systems, where they are used to determine identity. They are used in all contexts where it is necessary to know a subject's public key—for example, when verifying electronic signatures and for authentication. The certificates in a PKI system are issued by a \textit{Certificate Authority (CA)}, which the owner and potential recipients of the certificate need to trust.
 
 The completely essential components in a certificate are, as we have seen, the owner's identity and public key, signed with the issuer's electronic signature, but in practice most certificates contain additional information. The commonest structure today is for so-called \textit{X.509v3 certificates} — that is to say, they follow version 3 of the ITU-T standard X.509. This structure is shown in Fig. 5.16.
@@ -2418,7 +3444,7 @@ Observant readers who have looked at Fig. 5.16 will realise that this strategy h
 
 Some parties who need a certificate try to take the easy way out and create a so-called \emph{self-signed certificate} - that is to say, a certificate signed with the owner's own private key. As this type of certificate does not have a chain of trust back to a recognised root certificate, it is in general of doubtful value except between parties who already know and trust one another. Many web browsers, for example, will for security reasons refuse to accept web pages from servers which only identify themselves by means of a self-signed certificate.
 
-\section{Trust Models}
+\subsection{Trust Models}
 Trust between humans is a psychological phenomenon, and there are many factors which can be used to evaluate whether a human being is trustworthy, such as behaviour, previous experiences, tone of voice and even appearance (see, for example, [89]).
 %---- Page End Break Here ---- Page : 130
 In the computer world the central question is how one can trust that a claim made by a subject A is true or false. For example: how can you decide whether A's claim that it has a given public key $PK_{A}$ is true or false? There have been many proposals for how to answer this type of question, but they can be collected into classes which are based on different \emph{trust models}.
@@ -2466,7 +3492,7 @@ In most systems based on this model, a subject $X$ calculates a \emph{"trust val
 
 In this connection it is important to notice that the three models are well-suited for creating somewhat different forms of trust. The hierarchical and web-of-trust models make it possible to trust a subject's (i.e. a person's or computer system's) \emph{identity}, based on the idea "If you have that public key, then you are that subject". The reputation-based trust model makes it possible to trust a subject's \emph{behaviour}-not just when the subject claims to have a particular identity, but also in general, that the subject behaves correctly and follows the rules of the game.
 
-\section{Establishing an Identity}
+\subsection{Establishing an Identity}
 In order for some party, say Alice, to obtain any sort of documentation for identity, such as a certificate, it is obviously essential that Alice is able to produce suitable evidence which demonstrates that she really is who she claims to be. How easy this is to do depends on two main factors:
 
 \begin{enumerate}
@@ -2542,6 +3568,7 @@ Bruce Schneier's classic book \textit{Applied Cryptography} [78] gives a good in
 
 A more modern book is Niels Ferguson, Bruce Schneier and Tadayoshi Kohno's \textit{Cryptography Engineering: Design Principles and Practical Applications} [36] from 2010. It gives a good description of the principles behind various cryptographic techniques and how they are used in practical situations.
 
+\section{Exercises}
 \subsection{Hash functions}
 Investigate which hash functions are used in your computer. (They are used, amongst other things, to create electronic signatures and certificates.)
 
@@ -2735,7 +3762,7 @@ You should also notice that there can be technological limitations in the indivi
 \caption{Adding PCI to a PDU.}
 \end{figure}
 
-\section{Communication in the Internet}
+\subsection{Communication in the Internet}
 The Internet is based on a reference model with five layers, which are shown in Fig. 6.4. The four lowest layers together provide a communication service which permits transfer of data between processes which are running in arbitrary systems connected to the network:
 \begin{itemize}
   \item \textbf{Physical:} transfers signals in the form of changing electrical voltages, light pulses, or radio waves in a medium which directly connects two systems.
@@ -2994,7 +4021,7 @@ When the PDU reaches the final destination, www. y. com, it is decapsulated laye
 
 In many cases, this procedure can be made more efficient by \textit{caching} (= storage of copies) of the results of DNS and ARP lookups. As mentioned previously, almost all systems contain a local \textit{resolver}, in which results from the latest or most frequent DNS lookups are saved. The results from ARP lookups are correspondingly saved locally in an \textit{ARP-cache}. Unfortunately, although caching improves response times in the network, it introduces new security risks, which we will look at in the following chapters.
 
-\section{Technology}
+\subsection{Technology}
 The network's communication nodes are basically responsible for receiving PDUs on incoming links and sending PDUs on via one of the outgoing links in the direction of the desired destination. In view of this main aim, most of the communication nodes
 
 \begin{figure}[htbp]
@@ -3216,6 +4243,7 @@ For readers without any special technical background, Douglas Comer's book \emph
 
 For even more details about how the Internet works it is necessary to consult the Internet's own documentation, which is assembled from a large number of so-called \emph{RFCs}, each of which is identified by a number. For example, RFC793 describes in detail how TCP works. RFC stands for \emph{Request for Comments}, and the typical RFC is a proposed description of a protocol for use in the Internet. As the name implies, interested parties can comment on it and suggest changes or corrections. Eventually this process may lead to the publication of a new, revised RFC, which gets a new number. If after 6 months there is general agreement on the text, the RFC is given a status of \emph{Draft Standard}. After at least another 4 months, it can be promoted to an \emph{Internet Standard}, where it gets an extra number which identifies it in the series of full standards (STDs). RFC793, for example, is \emph{Internet Standard STD7}. If a modified version of the protocol is developed at a later date, it gets a completely new RFC number. The current status of all RFCs is published at regular intervals in a catalogue which (of course) itself is an RFC, published as STD1, with the title \emph{``Internet Protocol Standards''}. It is easy to find the RFCs on the Internet. The RFC editor maintains a website, \href{https://www.rfc-editor.org}{https://www.rfc-editor.org}, where it is possible to search for RFCs using various criteria, such as the RFC's number or status, or by a search based on keywords.
 
+\section{Exercises}
 
 Which IP addresses do the systems with the following Internet names have?\\
 a) \href{http://www.dr.dk}{www.dr.dk}\\
@@ -3490,7 +4518,7 @@ common composed type is message, which is typically used when a whole mail, poss
 %---- Page End Break Here ---- Page : 175
 It should be clear that it is the mail application which puts the parts together and specifies appropriate MIME types for the individual parts. So when the user for example asks the application to attach one or more files, a multipart entity will be constructed with one part which contains the actual text for the mail and another part with a suitable MIME type for each of the attached files. The application's choice of a "suitable MIME type" is typically controlled by a configuration file or registry key, which the user in many cases has a certain amount of control over.
 
-\section{Transfer of Web Pages}
+\subsection{Transfer of Web Pages}
 The protocol \textit{HTTP} ("HyperText Transfer Protocol") is a client-server protocol which is used to transfer hypertext documents to or from webservers in the Internet. \textit{Hypertext} is a generic term for the content of documents which potentially can contain different types of information, such as:
 
 \begin{itemize}
@@ -3779,6 +4807,7 @@ In this chapter, the following concepts were introduced:
 
 You should check that you understand their definitions and can give examples of contexts where they play a role.
 
+\section{Exercises}
 \subsection{Tracing e-mail}
 As discussed in Section 7.1.2, it is mandatory for every MTA which an e-mail passes to add a header line with the keyword Received: to the mail, so the recipient can trace the mail's path through the Internet. When our friends Ingvar Bonesen and Bent Fuppesen have being working on their "client destructor" for a while, Bent receives a new mail from Ingvar with the header lines shown below.
 %---- Page End Break Here ---- Page : 183
@@ -3832,7 +4861,7 @@ It is an essential principle that all traffic which passes through a communicati
 
 Network security is concerned with how to counteract these problems. We start by looking at how you can protect wanted traffic by using cryptographic methods. Then we discuss how unwanted traffic can be detected and blocked. We look specifically at wireless networks, including the mobile telehone network, and at threats to availability in networks. The chapter finishes with a discussion of security in connection with the use of certain central services in the Internet.
 
-\section{Protection Based on Cryptographic Methods}
+\subsection{Protection Based on Cryptographic Methods}
 It looks like a good idea to use cryptographic techniques, as discussed in Chaps. 4 and 5, to ensure confidentiality, integrity and authentication of the parties. So the first question is: what shall we encrypt? In a layered architecture PCI is added in each layer, as illustrated in Fig.~\ref{fig:embed-pdus}. So you need to make a choice: Which data and which PCI do you want to protect against monitoring, modification or sender falsification? It is possible in principle to introduce security measures in all layers. But the practical and economical consequences of doing it in the individual layers are very different. In the following figures, the encrypted part of the PDUs is indicated by a solid filled area, and the PCI by different types of hatching.
 
 \begin{figure}[ht]
@@ -3935,7 +4964,7 @@ This solution is illustrated in Fig. 8.6.
 
 The advantage of securing the Physical layer is that the communication is completely hidden from all outsiders. In the Internet, this solution is obviously completely impractical, as there is in general no direct physical connection the whole way from sender to receiver!
 
-\section{Encryption in the Application Layer}
+\subsection{Encryption in the Application Layer}
 As stated previously, it is rarely particularly practical to perform encryption in the Application layer, as it must be done individually for each application. Nevertheless, there is a well-known example of the use of this approach: for encryption and signing of e-mail. There are even two variants, both of them based on PKCSs but using different trust models:
 
 \begin{itemize}
@@ -4048,7 +5077,7 @@ Type & Subtypes & Explanation \\
 \end{tabular}
 \end{center}
 
-\section{Virtual Private Networks}
+\subsection{Virtual Private Networks}
 A Virtual Private Network (VPN), is defined in [38] as follows:
 
 \section{Definition (Virtual Private Network)}
@@ -4132,7 +5161,7 @@ Figure 8.13 shows the principle of Tor's operation. The sender chooses a path fr
 
 As in any form of secure tunneling, the application data which are to be sent to the destination are encrypted and encapsulated by the sender a number of times corresponding to how many intermediate nodes there are in the path. In each Tor node which is passed, a layer of encryption is taken off-just enough to reveal the address of the next node to be passed. This process is shown schematically in the lower part of the figure. At the exit node (T4), only one layer of encryption is left. When this is decrypted, the original application data (indicated by hatching) are revealed in an IP PDU whose destination address is the final receiver's, but where the source address is the exit node's. As the whole route is never revealed at any stage, it is very difficult to determine who the two parties that communicate via Tor are. It is pointless to monitor the net in order to trace the traffic, as Tor has more than 7000 nodes, distributed over the whole world.
 
-\section{Secure Socket Layer}
+\subsection{Secure Socket Layer}
 Secure Socket Layer (SSL) is a protocol suite which is used to introduce security in the Transport layer. It was originally developed by Netscape to provide security in client-server connections. Later, its development was taken over by the developers of the Internet, who called their version Transport Layer Security (TLS). SSL is also often implemented in routers in order to create a tunnel between two networks typically LANs.
 
 Strictly speaking, "SSL" is a family of protocol suites:
@@ -4318,7 +5347,7 @@ A further problem with the use of STARTTLS (and TLS in general) is that it only 
 
 While use of SSL/TLS makes it easy for law-abiding users to ensure confidentiality and integrity of the messages which are exchanged by applications, it also makes it easy for criminals who would like to hide transfers of material such as spam mail or malware. Filters which should hopefully get rid of this cannot see that the SSL/TLS encrypted messages contain undesirable material. This means that the network's architecture must be designed so that traffic is decrypted before it is sent through a malware filter.
 
-\section{Risks in Using Certificates}
+\subsection{Risks in Using Certificates}
 The widespread use of certificates to document the relation between a subject and its public encryption key in S/MIME, SSL/TLS and handling of electronic signatures presupposes that you can have complete confidence in the certificates' contents. If the chain of certificates back to a trustworthy root certificate is unbroken, then you have reasonable grounds for optimism, when you need to consider whether a certificate contains trustworthy information. But the security which electronic signatures give can be cancelled in various ways. Firstly because each certificate has a limited period of validity. And secondly because a certificate can be revoked at any time. It is easy to check whether the period of validity has run out. But an effective check of whether the certificate has been revoked is significantly more difficult to achieve.
 %---- Page End Break Here ---- Page : 201
 As mentioned in Chap. 5, every CA maintains a \emph{CRL}-a list of the certificates which it has issued that have subsequently been revoked. When Alice receives a certificate and wants to check its validity, she can in principle request the issuing CA to send her the current CRL, and see whether the certificate is on the list. In practice, this approach is used very rarely: the CRLs are often very large, and it leads to a huge waste of resources (and noticeable delays) if you fetch a CRL every time you get hold of a new certificate.
@@ -4337,7 +5366,7 @@ Use of OCSP sounds like a good, efficient solution. But things aren't that simpl
 
 Most recent versions of web browsers and mail clients support OCSP, but not in the simple form described above. They use an extension known as \emph{OCSP stapling}. With \emph{OCSP stapling}, it is the \emph{certificate owner's} duty to fetch a signed message with status information for the certificate from the responder at regular intervals, and to send this status information together with the certificate, when this has to be sent to any other party. This means that the receiver of a certificate does not need to wait while it itself fetches the status information. And so it also avoids the dilemma: if a certificate arrives at all, it brings an evaluation of its own validity with it.
 %---- Page End Break Here ---- Page : 202
-\section{Firewalls}
+\subsection{Firewalls}
 Firewalls (FWs) offer a completely different way of securing IT systems. Instead of protecting data against modification and making them unreadable for people without knowledge of the decryption keys, firewalls are used to control the traffic on its way into or out of a network, so only permitted traffic according to the security policy is allowed to pass. There are some rather obvious rules for how a FW must operate, given here as Requirements 8.1.
 
 \section{Requirements (Operation of a firewall)}
@@ -4474,7 +5503,7 @@ A typical personal firewall can be set up to block unauthorised incoming or outg
 
 The main weakness of most personal firewalls is that they are software based, and typically installed in a system with a perfectly ordinary operating system. They can therefore be put out of action by malware or hacking, leaving the computer essentially unprotected.
 
-\section{Intrusion Detection Systems (IDS)}
+\subsection{Intrusion Detection Systems (IDS)}
 Intrusion Detection Systems (IDSs) are systems which detect and react to attempts to attack computers or networks. An attack or attempted attack can show up in different ways:
 
 \begin{itemize}
@@ -4634,7 +5663,7 @@ you should only let a unit be detectable for short periods, when it is completel
 
 There are a number of attacks which are very specific for Bluetooth. \textit{Bluesnarfing} and \textit{Bluebugging} are both attacks based on various vulnerabilities in older implementations of firmware for Bluetooth. Bluesnarfing enabled the attacker to read data stored on the attacked unit, such as lists of contacts, calendar data, pictures and so on. With Bluebugging, a backdoor was uploaded to the unit, so the attacker can control the unit from outside and, for example, initiate or eavesdrop on telephone conversations. \textit{Bluejacking} is not directly harmful: basically, it just sends unasked-for messages which turn up on the screen of the telephone or computer. But the message can perhaps persuade the recipient to react in an unsuitable manner, for example by putting the sender into the list of contacts. This may lead to further attacks which are based on the fact that people in the list of contacts are usually to be trusted. But who knows what the attacker can come up with?
 
-\section{Security in the Mobile Telephone Network}
+\subsection{Security in the Mobile Telephone Network}
 Communication in the mobile telephone network is exposed to the same risks as in networks based on WiFi technology and must be protected to maintain message integrity, confidentiality and authentication of the parties. Also in this case, there has been a considerable development over the years in order to keep up with attackers' attempts to breach the security.
 
 \subsection{Security in GSM}
@@ -4762,7 +5791,7 @@ then your phone app will be activated to call the number +4598765432. But corres
 
 then your phone app will be activated to show your phone's IMEI. And, of course, if you click on a link where the MMI code is the manufacturer's code for wiping the phone, then your phone will be wiped. Some, but not all, AV software for phones can check for dangerous links based on tel schemes. But it is always a good idea to check for yourself what the real target of the link is - on most tablets and smartphones with touch-sensitive screens, this can be revealed by pressing on and holding the link.
 
-\section{Denial of Service (DoS) Attacks}
+\subsection{Denial of Service (DoS) Attacks}
 DoS attacks are attacks whose aim is to prevent authorised users from getting access to a resource. The purpose of this is not to steal or modify data or to reveal confidential information, but solely to reduce the system's \emph{availability}. This reduced availability is nevertheless not always the primary aim of the attack, but may just serve to divert the victim's attention from other forms of attack which have been set going at the same time. DoS attacks are most often directed at network services, especially webbased services, but DoS against operating systems or individual applications is also possible. The attack can in many cases be made more effective if several parties collaborate to carry it out. It is then called a \emph{Distributed DoS attack}, or just a \emph{DDoS} \emph{attack}.
 
 DoS attacks are basically only possible because the amount of resources in any physical system is limited. When an activity requires a certain amount of resources in order to be performed, there is therefore a natural limit to how many instances of this activity can be in progress at the same time. As activities in all layers of the reference model require resources, DoS attacks can be directed at all layers. In the following sections we look at some typical forms of attack in the individual layers.
@@ -4884,7 +5913,7 @@ The really big risks from DoS attacks are loss of income and loss of user confid
 
 In general, attempts are made to stop DoS attacks by filtering the traffic with the help of a firewall. However, this only works if you can decide where the traffic really comes from. Attacks based on traffic with spoofed source addresses, as in SYN spoof and many DDoS attacks, are much more difficult to deal with. A PF firewall at the entrance to the victim's network (an \textit{ingress filter}) cannot easily identify incoming spoofed PDUs and will anyway be heavily loaded during the attack. If possible, you should therefore try to encourage the use of \textit{egress filters} (packet filters at the exit) in the networks where the spoofed PDUs are generated.
 
-\section{Security in DNS}
+\subsection{Security in DNS}
 DNS, as we have seen in Sect. 6.2.5, is a central element in the Internet. Basically, DNS depends on a collection of servers which work as a distributed database that describes the relationship between Internet names and the corresponding IP addresses. It should be clear from the description in Sect. 6.2.5 of how DNS operates, that the relation between a particular name and the corresponding address can potentially be found in three different places:
 
 \begin{enumerate}
@@ -4912,7 +5941,7 @@ full extent. A special problem is presented by \textit{zone transfers}, where da
 
 It is worth noticing that DNSSEC does not provide \textit{confidentiality} of the exchanged messages, as they are signed but not encrypted. This is in fact a feature of the design of the Internet, as DNS data are considered to be publicly available everywhere. This opens up for a new vulnerability, known as \textit{Zone Walking}, which enables an attacker to build up a map of a domain's structure and relationships. This can be exploited later to direct attacks towards key systems in the domain.
 
-\section{Security in SMTP}
+\subsection{Security in SMTP}
 As we have seen in Chap. 7, the basic SMTP protocol contains a vulnerability which allows senders to hide their true identity, so they can send mail which appears to come from someone else. This form of \textit{spoofing} is typically used by spammers and fraudsters and is a constant nuisance in the modern Internet.
 
 To protect against this, a number of mechanisms for authentication of the sender have been suggested. Two such mechanisms are in especially common use:
@@ -5070,7 +6099,7 @@ Essentially, the verifier follows the same procedure as the signer, but with che
 
 If there are no results indicating failure, the verification is considered successful. There is no mandatory way of announcing the result to MTAs which are "downstream" of the verifier, but an Authentication-Results header field is commonly used for this purpose, as we have seen in Fig. 8.33
 
-\section{Security in SNMP}
+\subsection{Security in SNMP}
 Simple Network Management Protocol (SNMP) is a simple, lightweight client-server protocol, which makes it possible to read or change how network units are configured.
 
 \begin{itemize}
@@ -5103,7 +6132,7 @@ Possible countermeasures include:
   \item To keep SNMP software updated with the latest patches.
 \end{itemize}
 %---- Page End Break Here ---- Page : 239
-\section{Critical Infrastructure Protection}
+\subsection{Critical Infrastructure Protection}
 Even if most networks cover a somewhat limited area-a home, a company's domicile, a factory, a university or similar-you should remember that there are also some very large networks which most often are established to support particular functions in society. Two examples which have been mentioned previously in this book are the telephone network and the Internet itself. But in the modern computerised world, there are also networks for handling, amongst other things:
 
 \begin{itemize}
@@ -5148,7 +6177,7 @@ It is said that some significant attacks on critical infrastructure have been se
 
 controlled by an external agent, who can use them to read or modify the traffic passing through the plug. It is probably a reasonable assumption that other countries' security services have access to similar equipment, which can be used both defensively for surveillance of terrorists and other criminals, or more offensively for industrial or military espionage-or attacks on critical infrastructure. CIP requires constant alertness!
 
-\section{Evaluation of Network Security}
+\subsection{Evaluation of Network Security}
 The security in a network should always be evaluated! An evaluation for a business network will typically involve the following elements:
 %---- Page End Break Here ---- Page : 242
 \begin{itemize}
@@ -5225,6 +6254,7 @@ The computer security division of USA's \textit{National Institute of Standards 
 published as part of NIST's SP800 report series; a catalog of all reports in the series can be found at URI \href{http://csrc.nist.gov/publications/PubsSPs.html}{http://csrc.nist.gov/publications/PubsSPs.html}. All the reports can be read and downloaded free of charge.
 
 Many general texts on computer security, such as the 3rd. edition of Stallings and Brown's book \emph{``Computer Security: Principles and Practice''}, contain technically more detailed information on various aspects of network security.
+
 
 \subsection{Cybersquatting}
 A security risk which is not discussed in this chapter is \emph{cybersquatting}: unauthorised registration of a domain or system name, which is identical to (or almost identical to) the name of a known domain or system. For example: dansskebank.dk, which can easily be read as \href{http://danskebank.dk}{danskebank.dk}. Or \href{http://nowhere.com}{nowhere.com} instead of \href{http://nowhere.co.uk}{nowhere.co.uk}. Cybersquatting is often used by criminals in phishing attempts and similar attacks, in order to fool inattentive users into opening a web page which contains malware.
@@ -5756,7 +6786,7 @@ it access to an object. A subject's set of capabilities shows, like a directory,
 
 From a security point of view, capabilities make it easy to answer the question: "Which objects can a given subject access and in what way?". This is a central question when dealing with security breaches, where one might be interested in knowing which objects a suspicious subject could have affected. ACLs, on the other hand, make it easy to answer the inverse question: "Which subjects can access a given object and in what way?". This is a central question when you have to perform access control, but not very helpful in connection with handling security events. There is therefore currently a resurgence of interest in capabilities, which have previously been considered as using too many resources for practical application. The development of experimental systems such as \textit{Capsicum} (for FreeBSD and Linux) and Google's \textit{Fuchsia} reflect this trend.
 
-\section{Access Control in File Systems}
+\subsection{Access Control in File Systems}
 All modern OSs offer a hierarchically organised file system with files, folders, subfolders and so on. The file system can be local and/or give access to files on other physical IT systems. Files (especially if there is access to them from several systems) will often be able to be \textit{shared} by several users.
 %---- Page End Break Here ---- Page : 267
 There are a number of standard software components which provide access through the net and which support sharing. Two of the most commonly used are:
@@ -5931,7 +6961,7 @@ The rules for gaining access to an object with this type of ACL are:
 \end{itemize}
 This gives a much more fine-grained model than in traditional Unix systems, at the cost of much greater complexity.
 
-\section{Access Control for Other System Components}
+\subsection{Access Control for Other System Components}
 The files are far from the only system components which must be protected. A good system for access control will control access to all resources in the IT system. But the mechanisms vary from one type of resource to another.
 %---- Page End Break Here ---- Page : 272
 \begin{figure}[htbp]
@@ -6094,7 +7124,7 @@ same subject on the same file, until the file is closed again at the end of proc
   \item \textbf{Demonstration of correctness:} In many common operating systems, the control mechanism is so complex that it is no longer realistic to demonstrate its correctness. Only a few Unix variants, especially FreeBSD, have been analysed thoroughly. Windows XP is believed to have been designed to be based on a Reference Monitor, but due to the system's complexity it is doubtful whether correctness could in practice be demonstrated.
 \end{itemize}
 
-\section{Encryption in the Operating System}
+\subsection{Encryption in the Operating System}
 An alternative way of protecting data against unwanted readers is to \textit{encrypt} the data, so it becomes unimportant whether an unauthorised person or process gains access to an area where sensitive data is stored-it will anyway not be possible to understand or exploit these data unless you have the necessary decryption functions and keys.
 
 Encryption for protecting stored data can be introduced in different ways. Three of the most common are:
@@ -6119,7 +7149,7 @@ When the keys are stored and fetched by using software, it is possible for a tec
 
 This is especially thought to be a problem if an attacker finds or steals a laptop PC or tablet which is running or in the \textit{standby state}, as it can then be woken up without going through the entire startup procedure. The machine can be attacked by a so-called \textit{cold boot} attack, where the machine is restarted from a removable disk containing a simple OS, which is used to copy the machine's memory into a file. Even if the machine is turned off during the restart procedure, the content of the memory will survive for a few seconds - long enough to copy it for further investigation. The attack does not work if the machine is completely turned off or in the \textit{hibernate} state, as it is then necessary to go through the normal startup procedure where the contents of the memory are initialised and any keys therefore disappear.
 %---- Page End Break Here ---- Page : 282
-\section{Job Scheduling}
+\subsection{Job Scheduling}
 Most OSs have a system for scheduling when particular jobs are to be set going. There can, for example, be a need for this:
 \begin{itemize}
   \item Based on time: E.g. backup every night at 02.00.
@@ -6159,7 +7189,7 @@ Job scheduling systems make it much easier for a system administrator to organis
 \end{figure}
 \end{itemize}
 
-\section{Updating the Operating System}
+\subsection{Updating the Operating System}
 Vulnerabilities in OSs are regularly discovered and need to be repaired or removed. All reputable OS suppliers send out corrections, which the system administrator must install. In many organisations this is, however, not a trivial task, as (especially in large organisations) the deployed versions of the OS are not $100 \%$ alike.
 
 Failure to update the OS will typically leave the way open for attacks from malicious programs of various sorts: \emph{Viruses, worms, spyware, adware, Trojan horses,} \emph{. . .}. A spectacular example of this was the spreading of the ransomware worm \emph{WannaCry} in Spring 2017. This malware infected unupdated computers (typically with an older version of Windows such as Windows XP, 7 or 8) in at least 150 countries, and affected private citizens, companies and critical functions of society such as hospitals and railways.
@@ -6179,7 +7209,7 @@ Remember that you can also help yourself by some simple precautions:
   \item Remember that other things, such as antivirus signatures and certificates, also need to be kept up to date.
 \end{itemize}
 
-\section{Is Your OS Genuine?}
+\subsection{Is Your OS Genuine?}
 The idea behind enabling automatic updates to the OS is that you should then be reasonably certain only to receive genuine updates to the OS, and not the false updates which from time to time get sent out by attackers. However, this may not really be true.
 
 One reason for this is that systems for automatic downloading of OS updates often have a negative aspect: They make use of an underlying service, such as Windows BITS ("Background Intelligent Transfer Service"), which ensures that downloading takes place in periods when the network is relatively lightly loaded. A clever attacker can develop software which contains deliberately designed vulnerabilities or even directly malicious features, which also makes use of this service. If the attacker succeeds in installing this software in the victim's computer, then it will instruct the downloading service to download a new copy of the software if the previous copy is deleted. The computer's administrator needs to be able to prevent this happening, and in general prevent fake or malicious software from being installed.
@@ -6200,7 +7230,7 @@ Of course you can only trust that drivers and OSs signed using a KEK are genuine
 \caption{Trust in a UEFI-based system}
 \end{figure}
 
-\section{What the OS Cannot Do}
+\subsection{What the OS Cannot Do}
 This chapter may have given you the idea that a well-designed operating system can give you good protection against many forms of attack. However, it is important to realise that there are limits to what it can achieve without the collaboration of the
 %---- Page End Break Here ---- Page : 286
 user or system administrator. Someone has to choose which rights to give individual users, which cryptographic functions to use, which authentication mechanisms to use and so on. Someone has to select suitable hardware and/or software for malware detection and intrusion detection, activities which traditionally lie outside the OS itself. Someone also has to make sure that updates are regularly and correctly installed.
@@ -6268,6 +7298,7 @@ internationally standardised catalogue of security related requirements, which f
 
 Depending on how strict requirements are placed on the evaluation, the system is certified to a so-called \emph{Evaluation Assurance Level (EAL)} between 1 and 7, where EAL1 can be achieved by simple functional test, while EAL7 requires a stringent, formal verification. The web site www.commoncriteriaportal.org contains a good introduction to the method [17] and a long series of examples of requirement specifications.
 
+\section{Exercises}
 
 A typical pattern lock for user authentication requires the user to draw at least 5 connected straight line segments, where each segment joins two points out of the nine which are the "basic pattern" for the lock. How many different patterns can be drawn? (Two patterns which go through the same points, but where the starting point in one pattern is the finishing point in the other, count as \emph{different} patterns.)
 
@@ -6565,7 +7596,7 @@ Mechanisms with compiler flags to include code for checking for buffer overflow,
 %---- Page End Break Here ---- Page : 300
 It would be nice if these techniques were used more extensively. David wheeler has produced an interesting analysis of the difficulty of detecting the Heartbleed bug [98], where he points out that very few of the practical tools available at the time would have found the bug if used alone, so a combinaion of tools of various types should always be used to validate security-critical software. Other experiences confirm this advice. For example, Apple uses static analysis to check for malware in the apps in their App Store, but found that careful masking of the malware could prevent detection if only this form of analysis was used.
 
-\section{Malicious Code}
+\subsection{Malicious Code}
 Malicious code—often known as \emph{malware}—is concisely defined by:\\
 \textbf{Definition 10.1} Malicious code is code which deliberately attempts to breach the security policy of the computer on which it is executed.
 
@@ -6707,7 +7738,7 @@ In practice there is a race between software developers and hackers to find expl
 %---- Page End Break Here ---- Page : 307
 For the designers of certain types of malware, vulnerabilities which are not publicly known are of particular interest, as long as they remain unpublished. For example, the aim of \emph{spyware} is typically to collect information about users' activities and private data and send this information to the operators of the spyware without this being detected by the owner of the infected system for as long as possible. Unpublished vulnerabilities offer a way of introducing the spyware into the target system in a discreet manner which avoids detection. This approach has been used in a number of systems for surveillance, such as the controversial \emph{Pegasus} system developed by the Israeli company NSO. Pegasus is a spyware system which can be used to target mobile phones running iOS or Android operating systems, and exploited previously unknown vulnerabilities to achieve \emph{privilege escalation}, so as to be able to access the camera, the microphone and data stored in the memory, SIM card and SD card on the targeted phones, without the user of the phone realising this. It is also publicly known that government security agencies collect previously unknown vulnerabilities which can be exploited for various forms of surveillance or for use in counterattacks to cyberattacks. A clear example of this was the development of the EternalBlue backdoor malware developed by the NSA in USA on the basis of an unpublished vulnerability in the implementation of Microsoft's SMB protocol, and used for about 5 years until it leaked out (or was stolen), so that Microsoft were notified and patched the vulnerability.
 
-\section{SQL Injection}
+\subsection{SQL Injection}
 SQL injection is a type of attack on applications which use SQL databases. The attacker sends the application some specially formed, deviant data, which gets the database to execute SQL commands which reveal or even alter the database's contents in an undesirable way.
 
 Let us for example imagine an application for changing user passwords which are stored in an SQL database in a table called usertable, which contains user information such as the username, password, personal name and job title for each user. A small portion of the table might contain data something like those shown in Table 10.1 (except in reality the passwords in column pwd would be stored in encrypted form).
@@ -6811,7 +7842,7 @@ single sign (+ or -) and possibly with a single comma or decimal point to separa
 
 In this case the text is quite harmless, but in other cases it could be a text which would lead to SQL injection. To avoid that kind of attack, input data must be \textit{canonified}-that is to say, converted to a standard form where characters represented by hexadecimal numbers are replaced by the characters themselves, before escaping of metacharacters is carried out.
 
-\section{LDAP Injection}
+\subsection{LDAP Injection}
 Lightweight Directory Access Protocol, most often known by the abbreviation \textit{LDAP}, is used to get hold of information about subjects and objects within a single system or an entire, possibly very large, network. Many organisations use LDAP databases to store information about their employees and other persons associated with the organisation, and about IT equipment and IT processes within the organisation. An LDAP database is therefore a goldmine for an attacker who wants to collect information about the organisation as a basis for a subsequent directed attack.
 
 The information is stored in a hierarchical structure known as a \textit{Directory Information Tree} (often abbreviated to \textit{DIT}), as in the example in Fig. 10.9. The hierarchy is organised as a so-called \textit{X. 500 Directory}, where each individual person, administrative unit and IT unit is described by a set of \textit{attributes}. An object is identified by a \textit{Distinguished Name (DN)}, which is a collection of sufficiently many attributes to unambiguously define the object. Each individual node in the hierarchy (one of the small boxes in the figure) describes an object of a particular class, with a number of attributes. Some of the most common classes are shown in Table 10.2.
@@ -7029,7 +8060,7 @@ which will reveal the name and phone number of all persons, with any name, who h
 
 Just as in the case of SQL injection, it is necessary to check the user's input in order to avoid LDAP injection. Many forms of attack can, for example, be avoided by using \emph{type control} or \emph{escaping} of the metacharacters, which play a special role in the formulation of LDAP filters. The metacharacters are replaced by a backslash followed by the two hexadecimal digits which represent the metacharacter, before the LDAP command is constructed. Table 10.4 shows the characters and their values after escaping.
 
-\section{HTTP-based Applications}
+\subsection{HTTP-based Applications}
 As we have seen in Chap. 6, HTTP is a client/server protocol for handling documents.
 
 \begin{itemize}
@@ -7619,7 +8650,7 @@ There are a number of technologies used for this purpose; well-known examples ar
 
 Use of technologies for dynamically generating web content is not risk-free. As this is a question of software which is executed on the web server itself, any errors in a component will impact the server's basic functionality. In many cases the component is used to take over some of the load from central parts of the application, for example to access a database. It will then typically be the component's task to check input from the client, in order to prevent SQL injection. Another common way of using these components is for authentication of the client's user and for checking that this user has authorisation to use the application's data and software components. In all these cases the component plays a critical role with respect to maintaining the desired level of security. It is clear that development of components for dynamic generation of content must be carried out with great care.
 
-\section{Targets for Software Security}
+\subsection{Targets for Software Security}
 The main aim is to produce trustworthy programs - that is to say, programs whose code has been stringently developed and analysed. Such programs should have the properties shown in Requirements 10.1.
 
 Requirements 10.1 (Properties of trustworthy programs)\\
@@ -7683,6 +8714,7 @@ A general review and evaluation of a long series of tools for evaluating softwar
 
 A number of organisations produce regular reports on trends in malware, software vulnerabilities and the like. Some of these form part of a general report about data breaches observed during the year, such as the previously mentioned \emph{"2021 Data Breach Investigations Report"} from Verizon [93]. Others are more specialised. A particular effort goes into analysing software vulnerabilities in web applications, where there are many forms of attack, of which we have only discussed a small number in this chapter. The non-commercial organisation OWASP (Open Web Application Security Project) produces a report covering this area from time to time, in addition to offering testing tools and publishing much other information on web security. The latest version of the report is currently from 2021 [70].
 
+\section{Exercises}
 \subsection{Basic authentication i HTTP}
 In the basic form of authentication in HTTP described in Sect. 10.5.1, a base64 encoding of the user's userid and password, separated by a colon (:), is sent as authentication data from the client to the server. In the text, the claim is made that it is easy to convert the encoded value back to its plaintext form.
 
@@ -7703,7 +8735,7 @@ In Chap. 9 it was stated that the first generation of rootkits could easily be d
 
 Many newer types of rootkit rely instead on introducing completely new software components, either as modules for the operating system or as new contents for the boot sector on the disk, which is used during system startup. These hiding places are not normally checked by apps for detecting rootkits. Is it possible instead to use techniques such as static program analysis to detect whether incoming traffic from the net contains program code which writes in these areas? If you believe that static analysis can be used, can you find practical examples of tools which (at least on an experimental basis) can be used for rootkit detection? If you do not believe that static analysis can be used, you should explain why.
 
-\subsection{-day attacks}
+\subsection{0-day attacks}
 Many of the most spectacular cyberattacks in recent years have been so-called 0-day (``zero-day'') attacks — that is to say attacks which exploit vulnerabilities which have not previously been publicly known. Which mechanisms presented in this chapter would you use to detect a backdoor which had been installed with the help of an attack of this type? Give reasons for your choice.
 %---- Page End Break Here ---- Page : 335
 \subsection{The BlottoX worm}
@@ -7730,6 +8762,7 @@ Imagine you are the person responsible for cybersecurity in the company Target L
 \subsection{TOCTTOU flaws}
 In this chapter it is claimed that there are many types of TOCTTOU flaw which can threaten the security of an IT system. Two examples are given: (1) Access to files in Unix systems and (2) Authentication, which is often performed long before the result is used. Can you find other examples? There are at least two which you can find by careful reading of this book—and even more, if you search on the Internet.
 %---- Page End Break Here ---- Page : 336
+\section{Chapter 11}
 \section{Incident Handling and System Availability}
 Nobody is perfect—and nor are systems for protecting against cybersecurity threats. So it is necessary not only to take steps to protect your computer systems, but also to plan a suitable reaction, if things should go wrong. There are three elements in this:
 
@@ -7741,7 +8774,7 @@ Nobody is perfect—and nor are systems for protecting against cybersecurity thr
 
 The first two elements cover the immediate reaction, when a so-called \emph{security incident} takes place, and they are often together known as the \emph{Incident Response}. The third element will in practice normally lead to the production of plans for restarting operations after incidents of varying degrees of seriousness—from the trivial, where it is only necessary to restore a single file from a backup copy, to the extremely serious, where large parts of an organisation's computer systems have been rendered unusable by an extensive cyberattack or a violent physical disaster, with the result that the organisation's primary activities cannot be performed for a significant period of time.
 
-\section{Reacting to Security Incidents}
+\subsection{Reacting to Security Incidents}
 It is important to decide how to react when an IT security incident is detected. In practice the reaction will depend on how you have discovered that something which seems to be in conflict with the security policy has taken place. There are really many ways in which this may happen, including:
 
 \begin{itemize}
@@ -7888,7 +8921,7 @@ an ordinary file system filled with encrypted random data. Within this file syst
 %---- Page End Break Here ---- Page : 344
 which really have to be hidden are encrypted and stored. As the container's content is encrypted, it cannot be distinguished from the encrypted random data which the outer container was initialised with. It is to all intents and purposes invisible. The now outdated TrueCrypt and its successor VeraCrypt only allow you to create a single hidden container of this type, but LibreCrypt and BestCrypt, for example, make it possible to have several hidden containers, which can make the investigator's task significantly harder.
 
-\section{Business Continuity Planning}
+\subsection{Business Continuity Planning}
 In most businesses and other organisations, it is important to be able to resume normal activities as soon as possible after an emergency situation. \textit{Business Continuity Planning (BCP)} is a discipline which is used to ensure that this is possible. The main aim of BCP is described in Requirements 11.1:
 
 \section{Requirements (BCP target)}
@@ -7937,7 +8970,7 @@ A significant part of BCP is to make a plan for how many resources are needed to
 
 It is important to remember that a significant incident puts a heavy psychological strain on the people involved. If you see video recordings from sessions where staff are training to handle incidents, it is common to observe a sense of panic as the trainees see the situation getting more and more out of control. The BCP should stress the importance of keeping calm and doing what the person in charge instructs you to do. This is even more important in the case of a full-scale disaster, which we consider next.
 
-\section{Disaster Recovery Planning}
+\subsection{Disaster Recovery Planning}
 A special task within BCP is the planning of reactions to disasters of various types. A disaster is in this context an incident which is so extensive that it leads to operation of the IT system being interrupted for a significantly long period. This area of BCP is generally known as \emph{Disaster Recovery Planning}, or just \emph{DRP}. Since incidents due to cyberattacks differ in many ways from incidents due to natural or man-made disasters of other types, the more specific term \emph{Cyberincident Recovery Planning}, or just \emph{CIRP}, is often used in such cases instead.
 
 One of the central ideas in DRP is to introduce sufficient \emph{redundancy} ${ }^{1}$ into the systems, so it is possible to survive a disastrous failure in some of them by using the others. For example, you could set up a diesel generator which can be started if there is a failure in the electricity supply. Or you might maintain a complete copy of an important database in another location. Or you may need alternative possibilities for communication if the usual network infrastructure has been damaged or taken over by attackers.
@@ -8095,7 +9128,7 @@ With exercises or conformance tests it is at least possible to check many import
 
 In a security-conscious company or organisation, the security policy should demand regular execution of such exercises and/or tests. This ensures that the staff are kept in training with respect to how they should behave if a real disaster strikes.
 %---- Page End Break Here ---- Page : 353
-\section{Security Awareness}
+\subsection{Security Awareness}
 It should be clear that many of the activities described in this chapter require participation from all members of the organisation. Everyone must, for example, remember to report suspicious events, everyone must arrange for backup of important data assets, and everyone must have a clear idea of what to do if a disaster strikes the organisation. The organisation's security policy will therefore very often require steps to be taken to increase the IT users' awareness of security issues. To some extent this resembles the need for \emph{motivation} of users to behave securely, which we looked at in Chap. 2, but the focus is different, as the intention here is to get \emph{all} members of the organisation to act in the best interests of the organisation, rather than just focussing on how to behave most securely in their own area of activity. Even the cleaning staff and other auxiliary staff, especially those who may be around at all hours of the day and night where they may observe unusual things going on, need to be kept aware of the need to be alert to security risks!
 
 A typical formulation, again for the (fictive) organisation NNNN, might look as in Fig. 11.7.
@@ -8164,6 +9197,7 @@ Maintaining business continuity is a topic which business managers are very much
 A collection of articles on recovery after disasters is \emph{IT Disaster Recovery}, which can be found at URI \href{https://www.continuitycentral.com/itc.htm}{https://www.continuitycentral.com/itc.htm}. NIST in USA have produced an excellent, more specific report on recovery after cybersecurity events, \emph{Guide for Cybersecurity Event Recovery} [11].
 
 There is a lot of literature about investigation of possible cyberattacks, both generally and in specific operating systems. NIST have produced both a general report \emph{Guide to Integrating Forensic Techniques into Incident Response} [57] and a more specific report on investigation of mobile equipment, \emph{Guidelines on Mobile Device Forensics} [9]. The authorities in many countries often have local sets of instructions which specify how such forensic investigation must be carried out in order for the evidence to be valid in a subsequent court case. An example from the UK is the police guide \emph{Good Practice Guide for Computer-Based Electronic Evidence} [100].
+
 
 \subsection{The recovery plan}
 You are working on the task of writing a plan for recovery after disasters that can be imagined to strike your company, which develops and sells medical equipment. What reaction will you demand for the following incidents?\\
@@ -8331,7 +9365,7 @@ It must furthermore be a crime to help others to perform such activities or to e
 
 As it is clear that public provocation, recruiting and possibly training can easily take place through the Internet with the help of computers, it will often be necessary for the authorities to collect up stored computer data, traffic data and/or the content of communications, to act as evidence, just as in the case of "ordinary" cybercrime. In many countries this has led to changes in the criminal law (or the laws governing the administration of justice) which exceed the changes which follow from accession to the Convention on Cybercrime. This has made this convention somewhat controversial, especially among civil rights groups and others who are afraid that they are a step on the way to a "Big Brother" society of constant surveillance.
 
-\section{Protection of Personal Data}
+\subsection{Protection of Personal Data}
 In the large majority of European countries, laws about the protection of personal data were introduced in response to yet another Council of Europe convention: \textit{Treaty 108: Convention for the Protection of Individuals with regard to Automatic Processing of Personal Data}, published in 1981 and ratified by all the members of the Council of Europe and acceded to by nine non-members. Within the European Community (now the European Union), the content of this convention was incorporated in 1995 into a directive, $95 / 46 / \mathrm{EC}$, which formed the basis of laws in this area in the EU.
 
 An EU directive is, however, a framework which allows member states a good deal of variation in how they formulate relevant laws in their country. This is unsatisfactory, as it may lead to different degrees of protection of personal data in different\\
@@ -8516,7 +9550,7 @@ Some countries do not have the concept of an administrative fine in their legal 
 
 The idea behind these changes in relation to the old EU Directive is quite clearly to tighten things up, so that relevant actors will take the protection of personal data more seriously. This is plainly necessary, as experience shows that otherwise insufficient effort will be put into the matter. For example, in 1999, four years after the introduction of the old EU Directive, the International Telecommunication Union (ITU-T) investigated current practice in e-commerce applications [52]. The results revealed that personal data were often handled in a very sloppy manner. For example, only 40\% of ITU-T's members required written consent for disclosure of personal data to third parties, and only $30 \%$ had restrictions on the export of personal data. Twelve years later, in 2011, the situation was still far from $100 \%$ satisfactory, so tough new measures were obviously needed!
 %---- Page End Break Here ---- Page : 374
-\section{Protection of Healthcare Data}
+\subsection{Protection of Healthcare Data}
 Health data are considered to be a particularly sensitive form of personal data, and processing of such data is regulated not only by GDPR, as we have seen above, but also in many countries by specific laws which regulate the healthcare sector.
 
 In this context it is important to realise that healthcare services collect up many different sorts of information about people, especially patients. Health IT systems are used to process large numbers of patient records, X-ray images, video recordings, DNA profiles, static and dynamic scanning images, biological analysis results (e.g. of blood or tissue samples) and so on. This information is stored in many places, including:
@@ -8554,7 +9588,7 @@ Even without access to the actual EPR, a patient's health data may get surprisin
 
 This spreading of health information increases the risk of leaks of the sensitive data, as people without any direct role in providing health services have technical access to the data and can misuse them.
 
-\section{Ethics}
+\subsection{Ethics}
 Disclosure of personal data, including medical records, is a criminal offence. Many people also consider it as an \textit{unethical} act, as it goes against people's idea that their private life is something which they would like to keep to themselves. Unfortunately there are many other acts which go against people's desire for privacy, but which are not technically criminal, even if many people consider them unethical.
 
 Figure 12.3 shows an (imaginary) scenario, which illustrates the problem. What can one conclude from this information which the credit card company has collected? It is not information which according to the law requires special protection, and Peter has very probably not thought twice about giving the bank, the insurance company and the issuer of the card his personal data. But is it ethically defensible to link them, so an episode in Peter's life, where he may have an "explanation problem", gets revealed?
@@ -8670,6 +9704,7 @@ Of the sets of laws described in this chapter, GDPR is probably the one which ca
 
 With respect to the ethical problems and especially the challenges which arise from the use of modern statistical methods for analysis of large amounts of data, Seltzer and Anderson's article in \emph{"Encyclopedia of Quantitative Risk Analysis and Assessment"} [80] can be thoroughly recommended..
 
+\section{Exercises}
 \subsection{Publication of pictures}
 Is it legal in the country where you live to publish on a web page:\\
 a) A picture of a school end-of-term party?\\
@@ -9190,6 +10225,7 @@ A general introduction to computer systems and their constituents is Andrew S. T
 
 After reading this appendix, you may be wondering why you need to know about all this. The short answer is that, during a typical cyberattack, portions of data or program code will be stored in various hardware components in the computer, and this will affect the normal functioning of various software components in the system. So it can be important to be aware of which components there might be. You will find several concrete examples in other parts of the book, especially Chaps. 9 on operating systems and 10 on software.
 
+
 \section{What is in \emph{your} box?}
 Investigate what you have in your own equipment, including as many of the following items as you own or have access to:
 
@@ -9207,7 +10243,7 @@ Try to be as precise in your description as possible-with respect to cybersecuri
   \item \textbf{Software:} Operating system, software for text processing, drawing, image processing, spreadsheets.
 \end{itemize}
 %---- Page End Break Here ---- Page : 407
-\chapter{Appendix B Mathematics}
+\section{Appendix B Mathematics}
 This appendix gives a short introduction to some of the mathematics which forms the foundation for modern cryptography.
 
 \section{Basic Concepts}
@@ -9771,7 +10807,7 @@ The same sort of calculation can be used to solve a number of problems. For exam
 
 It is this result which explains why the number of attempts to find a collision when you use a hash function (that is to say, a message which gives the same hash value as a given message) is of the order of magnitude $2^{n / 2}\left(=\sqrt{2^{n}}\right)$, where $n$ is the number of bits in the hash function's value. This is because the number of possible hash values is then $2^{n}$, and this number corresponds to the number of different colours, $N$, in the problem with the balls described above.
 
-\chapter{Appendix C Acronyms}
+\section{Appendix C Acronyms}
 As mentioned in the preface to this book, the whole subject area is characterised by the frequent use of acronyms, which are mostly abbreviations for English terms. This appendix gives the full text corresponding to each abbreviation, together with a short explanation.
 %---- Page End Break Here ---- Page : 421
 \begin{center}
@@ -10206,7 +11242,7 @@ XSS & Cross-Site Scripting: A vulnerability, typically found in web-based applic
 \end{tabular}
 \end{center}
 
-\chapter{References}
+\section{References}
 \begin{enumerate}
   \item Accenture: 2017 Cost of Cyber Crime Study. Tech. rep. (2017). Web publication: \href{https://www.accenture.com/_acnmedia/PDF-62/Accenture-2017CostCybercrime-US-FINAL.pdf}{https://www.accenture.com/\_acnmedia/PDF-62/Accenture-2017CostCybercrime-US-FINAL.pdf} [Accessed 22-June-2023]
   \item Alberts, C., Dorofee, A.: OCTAVE Method Implementation Guide Version 2.0, Volume 1: Introduction. Tech. rep., Software Engineering Institute, Carnegie Mellon University (2001). Web publication: \href{https://resources.sei.cmu.edu/asset_files/UsersGuide/2001_012_001_51564.pdf}{https://resources.sei.cmu.edu/asset\_files/UsersGuide/2001\_012\_001\_51564.pdf} [Accessed 22-June-2023]
@@ -10445,6 +11481,7 @@ XSS & Cross-Site Scripting: A vulnerability, typically found in web-based applic
 
 101. Williamson, A.M., Feyer, A.M., Cairns, D., Biancotti, D.: The development of a measure of safety climate: The role of safety perceptions and attitudes. Safety Science \textbf{25}(1), 15–27 (1997)
 %---- Page End Break Here ---- Page : 436
+\section{Index}
 \section{Symbols}
 0-day attack 295, 323\\
 3-way handshake 138\\
