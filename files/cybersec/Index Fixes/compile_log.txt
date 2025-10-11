@@ -1,0 +1,555 @@
+Rc files read:
+  .latexmkrc
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'xelatex -interaction=nonstopmode -synctex=1  -recorder -output-directory="/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes"  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/Index Fixes/cybersec_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file cybersec_final.idx
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/Index Fixes/cybersec_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+[1]
+[2]
+No file cybersec_final.toc.
+
+[3]
+[4]
+Chapter 1.
+! Unable to load picture or PDF file './images/2025_05_12_ac3bc46a6f93dd973caag
+-006.jpg'.
+<to be read again> 
+                   }
+l.48 ...]{2025\_05\_12\_ac3bc46a6f93dd973caag-006}
+                                                  
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...]{2025\_05\_12\_ac3bc46a6f93dd973caag-006}
+                                                  
+
+[5]
+
+LaTeX Warning: Citation `falliere2011stuxnet' on page 6 undefined on input line
+ 65.
+
+
+[6]
+Chapter 2.
+
+LaTeX Warning: Citation `ayers2014mobileforensics' on page 7 undefined on input
+ line 76.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+
+LaTeX Warning: Citation `booz2009toolsreview' on page 7 undefined on input line
+ 80.
+
+
+LaTeX Warning: Citation `itut1972g711' on page 7 undefined on input line 80.
+
+
+Overfull \hbox (8.15341pt too wide) in paragraph at lines 80--83
+\TU/lmr/m/n/10 NISHED ON AN ”AS-IS” BASIS. CARNEGIE MELLON UNIVERSITY MAKES
+
+[7]
+
+LaTeX Warning: Citation `art29wp2017dpia' on page 8 undefined on input line 86.
+
+
+
+LaTeX Warning: Citation `caralli2007allegro' on page 8 undefined on input line 
+86.
+
+
+[8]
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/Index Fixes/cybersec_final.toc)
+[9]
+[10]
+Chapter 3.
+
+[11]
+xdvipdfmx:fatal: Image inclusion failed. Could not find file: ./images/2025_05_12_ac3bc46a6f93dd973caag-006.jpg
+
+No output PDF file written.
+
+! Unable to load picture or PDF file './images/2025_05_12_ac3bc46a6f93dd973caag
+-033.jpg'.
+<to be read again> 
+                   }
+l.106 ...th]{2025_05_12_ac3bc46a6f93dd973caag-033}
+                                                  
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 ...th]{2025_05_12_ac3bc46a6f93dd973caag-033}
+                                                  
+
+[12Latexmk: Getting log file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.log'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.fls'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.log'
+Latexmk: References changed.
+Latexmk: Missing input file 'cybersec_final.toc' message in .log file:
+  No file cybersec_final.toc.
+Latexmk: Missing input file './images/2025_05_12_ac3bc46a6f93dd973caag-006.jpg' message in .log file:
+  ! Unable to load picture or PDF file './images/2025_05_12_ac3bc46a6f93dd973caag-006.jpg'.
+Latexmk: Missing input file './images/2025_05_12_ac3bc46a6f93dd973caag-033.jpg' message in .log file:
+  ! Unable to load picture or PDF file './images/2025_05_12_ac3bc46a6f93dd973caag-033.jpg'.
+Latexmk: Index file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.idx' was written
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: applying rule 'makeindex /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.idx'...
+Rule 'makeindex /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.idx':  Reasons for rerun
+Category 'other':
+  Rerun of 'makeindex /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.idx' forced or previously required:
+    Reason or flag: 'Initial set up of rule'
+
+------------
+Run number 1 of rule 'makeindex /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.idx'
+------------
+Latexmk: Change directory to '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/'.
+------------
+Running 'makeindex  -o "cybersec_final.ind" "cybersec_final.idx"'
+------------
+This is makeindex, version 2.17 [TeX Live 2025] (kpathsea + Thai support).
+Scanning input file cybersec_final.idx...done (0 entries accepted, 0 rejected).
+Nothing written in cybersec_final.ind.
+Transcript written in cybersec_final.ilg.
+Latexmk: Change directory back to '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/codes/pdf_to_latex'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.aux
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.ind
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.toc
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'xelatex -interaction=nonstopmode -synctex=1  -recorder -output-directory="/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes"  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/Index Fixes/cybersec_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file cybersec_final.idx
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/Index Fixes/cybersec_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/Index Fixes/cybersec_final.out)
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/Index Fixes/cybersec_final.out)
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+[1]
+[2]
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/Index Fixes/cybersec_final.toc)
+[3]
+[4]
+Chapter 1.
+! Unable to load picture or PDF file './images/2025_05_12_ac3bc46a6f93dd973caag
+-006.jpg'.
+<to be read again> 
+                   }
+l.48 ...]{2025\_05\_12\_ac3bc46a6f93dd973caag-006}
+                                                  
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...]{2025\_05\_12\_ac3bc46a6f93dd973caag-006}
+                                                  
+
+[5]
+
+LaTeX Warning: Citation `falliere2011stuxnet' on page 6 undefined on input line
+ 65.
+
+
+[6]
+Chapter 2.
+
+LaTeX Warning: Citation `ayers2014mobileforensics' on page 7 undefined on input
+ line 76.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+
+LaTeX Warning: Citation `booz2009toolsreview' on page 7 undefined on input line
+ 80.
+
+
+LaTeX Warning: Citation `itut1972g711' on page 7 undefined on input line 80.
+
+
+Overfull \hbox (8.15341pt too wide) in paragraph at lines 80--83
+\TU/lmr/m/n/10 NISHED ON AN ”AS-IS” BASIS. CARNEGIE MELLON UNIVERSITY MAKES
+
+[7]
+
+LaTeX Warning: Citation `art29wp2017dpia' on page 8 undefined on input line 86.
+
+
+
+LaTeX Warning: Citation `caralli2007allegro' on page 8 undefined on input line 
+86.
+
+
+[8]
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/Index Fixes/cybersec_final.toc)
+[9]
+[10]
+xdvipdfmx:fatal: Image inclusion failed. Could not find file: ./images/2025_05_12_ac3bc46a6f93dd973caag-006.jpg
+
+No output PDF file written.
+
+Chapter 3.
+
+[11Latexmk: Getting log file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.log'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.fls'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.log'
+Latexmk: References changed.
+Latexmk: Missing input file './images/2025_05_12_ac3bc46a6f93dd973caag-006.jpg' message in .log file:
+  ! Unable to load picture or PDF file './images/2025_05_12_ac3bc46a6f93dd973caag-006.jpg'.
+Latexmk: Index file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.idx' was written
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.out
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'xelatex -interaction=nonstopmode -synctex=1  -recorder -output-directory="/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes"  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/Index Fixes/cybersec_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file cybersec_final.idx
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/Index Fixes/cybersec_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/Index Fixes/cybersec_final.out)
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/Index Fixes/cybersec_final.out)
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+[1]
+[2]
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/Index Fixes/cybersec_final.toc)
+[3]
+[4]
+Chapter 1.
+! Unable to load picture or PDF file './images/2025_05_12_ac3bc46a6f93dd973caag
+-006.jpg'.
+<to be read again> 
+                   }
+l.48 ...]{2025\_05\_12\_ac3bc46a6f93dd973caag-006}
+                                                  
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...]{2025\_05\_12\_ac3bc46a6f93dd973caag-006}
+                                                  
+
+[5]
+
+LaTeX Warning: Citation `falliere2011stuxnet' on page 6 undefined on input line
+ 65.
+
+
+[6]
+Chapter 2.
+
+LaTeX Warning: Citation `ayers2014mobileforensics' on page 7 undefined on input
+ line 76.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+
+LaTeX Warning: Citation `booz2009toolsreview' on page 7 undefined on input line
+ 80.
+
+
+LaTeX Warning: Citation `itut1972g711' on page 7 undefined on input line 80.
+
+
+Overfull \hbox (8.15341pt too wide) in paragraph at lines 80--83
+\TU/lmr/m/n/10 NISHED ON AN ”AS-IS” BASIS. CARNEGIE MELLON UNIVERSITY MAKES
+
+[7]
+
+LaTeX Warning: Citation `art29wp2017dpia' on page 8 undefined on input line 86.
+
+
+
+LaTeX Warning: Citation `caralli2007allegro' on page 8 undefined on input line 
+86.
+
+
+[8]
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/Index Fixes/cybersec_final.toc)
+[9]
+[10]
+xdvipdfmx:fatal: Image inclusion failed. Could not find file: ./images/2025_05_12_ac3bc46a6f93dd973caag-006.jpg
+
+No output PDF file written.
+
+Chapter 3.
+
+[11Latexmk: Getting log file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.log'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.fls'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.log'
+Latexmk: References changed.
+Latexmk: Missing input file './images/2025_05_12_ac3bc46a6f93dd973caag-006.jpg' message in .log file:
+  ! Unable to load picture or PDF file './images/2025_05_12_ac3bc46a6f93dd973caag-006.jpg'.
+Latexmk: Index file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.idx' was written
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 7 citation(s)
+Latexmk: ====Undefined refs and citations with line #s in .tex file:
+  Citation `falliere2011stuxnet' on page 6 undefined on input line 65
+  Citation `ayers2014mobileforensics' on page 7 undefined on input line 76
+  Citation `booz2009toolsreview' on page 7 undefined on input line 80
+  Citation `itut1972g711' on page 7 undefined on input line 80
+  Citation `art29wp2017dpia' on page 8 undefined on input line 86
+  Citation `art29wp2017dpia' on page 8 undefined on input line 86
+  Citation `caralli2007allegro' on page 8 undefined on input line 86
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 0.05078125
+      Refer to '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/Index Fixes/cybersec_final.log' and/or above output for details
+

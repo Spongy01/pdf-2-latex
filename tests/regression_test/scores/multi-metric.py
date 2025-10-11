@@ -31,6 +31,7 @@ def calculate_score(input_file_path: str, output_file_path: str) -> float:
     log_file_path = os.path.join(output_directory, base_name + ".log")
     metadata_file_path = os.path.join(input_directory, "metadata.json")
 
+    print(f"Metadata file path: {metadata_file_path}")
     # get number of errors from log file
     num_errors = 0
     num_warnings = 0
@@ -51,10 +52,15 @@ def calculate_score(input_file_path: str, output_file_path: str) -> float:
     # get bibs from the book name_bib.json file in the output directory as well
     num_bibtex_json = -1
     json_files = glob.glob(os.path.join(output_directory, "*_bib.json"))
+    print(f"Looking for bib json files in {output_directory}, found: {json_files}")
     if json_files:
         with open(json_files[0], "r") as f:
-            bib_data = json.load(f)
-            num_bibtex_json = len(bib_data)
+            try:
+                bib_data = json.load(f)
+                num_bibtex_json = len(bib_data)
+            except json.JSONDecodeError as e:
+                print(f"Error decoding JSON from {json_files[0]}: {e}")
+                num_bibtex_json = -1
 
 
     # get the number of \cite commands in the output file as well

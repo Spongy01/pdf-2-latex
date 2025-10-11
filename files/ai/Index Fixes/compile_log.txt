@@ -1,0 +1,230 @@
+Rc files read:
+  .latexmkrc
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/Index Fixes/ai_final.tex
+Category 'changed_user':
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/Index Fixes/ai_final.tex
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'xelatex -interaction=nonstopmode -synctex=1  -recorder -output-directory="/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/Index Fixes"  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/Index Fixes/ai_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+Index Fixes/ai_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/underscore/underscore.sty)
+==> First Aid for underscore.sty applied!
+(/usr/local/texlive/2025/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bbold/bbold.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y) (/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file ai_final.idx
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+Index Fixes/ai_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+Index Fixes/ai_final.out)
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+Index Fixes/ai_final.out)
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+
+[1]
+[2]
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+Index Fixes/ai_final.toc)
+[3]
+[4]
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+Index Fixes/ai_final.toc)
+[5]
+[6]
+Chapter 1.
+
+Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
+(xeCJK)                
+(xeCJK)                Try to use `\setCJKmonofont[<...>]{<...>}' to define
+(xeCJK)                it.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+Overfull \hbox (27.75pt too wide) in paragraph at lines 98--98
+[]    \TU/lmtt/m/n/10 $\wedge$ Robot_12_is_situated_at_xy_position_(10, 93) $\v
+ee \ldots$[] 
+
+[7]
+Overfull \hbox (537.0pt too wide) in paragraph at lines 107--107
+[]    \TU/lmtt/m/n/10 $\exists x_{u} \exists y_{u} \exists x_{v} \exists y_{v}$
+ position $\left(u, x_{u}, y_{u}\right) \wedge$ position $\left(v, x_{v}, y_{v}
+\right) \wedge x_{u}>x_{v}$,[] 
+
+Overfull \hbox (119.83084pt too wide) in paragraph at lines 136--171
+ [] 
+
+[8] (/usr/local/texlive/2025/texmf-dist/tex/latex/bbold/Ubbold.fd)
+[9]
+Overfull \hbox (17.1371pt too wide) in paragraph at lines 222--223
+[]\TU/Georgia(0)/m/n/10 The truth of quantifierless formulas follows from the t
+ruth of atomic formulas-
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+! Unable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg
+-049.jpg'.
+<to be read again> 
+                   }
+l.234 ...th]{2025_05_12_af19cd5e0d1b8a465ffeg-049}
+                                                  
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.234 ...th]{2025_05_12_af19cd5e0d1b8a465ffeg-049}
+                                                  
+
+[10]
+Overfull \hbox (489.97401pt too wide) detected at line 248
+[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 ; []
+; []\OT1/cmr/m/n/10 ); ([]\OML/cmm/m/it/10 ; []; []\OT1/cmr/m/n/10 ); ([]\OML/c
+mm/m/it/10 ; []; []\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 ([]\OML/
+cmm/m/it/10 ; []; []\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 ([]\OML
+/cmm/m/it/10 ; []; []\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 ([]\OM
+L/cmm/m/it/10 ; []; []\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g
+
+Overfull \hbox (9.3945pt too wide) in paragraph at lines 257--259
+\TU/Georgia(0)/m/n/10 Under the interpretation $\U/bbold/m/n/10 I\OT1/cmr/m/n/1
+0 ([]) = []$\TU/Georgia(0)/m/n/10 , $\U/bbold/m/n/10 I\OT1/cmr/m/n/10 ([]) = []
+$\TU/Georgia(0)/m/n/10 , $\U/bbold/m/n/10 I\OT1/cmr/m/n/10 ([]) = []$\TU/Georgi
+a(0)/m/n/10 ,
+
+[11]
+
+! Package amsmath Error: \tag not allowed here.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.289 ...\Rightarrow y=x && \text{(symmetry)} \tag
+                                                  {3.1}\\
+
+Overfull \hbox (7.30962pt too wide) in paragraph at lines 318--319
+[]\TU/Georgia(0)/m/n/10 Quantifiers are an important component of predicate log
+ic’s expressive power.
+
+[12]
+xdvipdfmx:fatal: Image inclusion failed. Could not find file: ./images/2025_05_12_af19cd5e0d1b8a465ffeg-049.jpg
+
+No output PDF file written.
+
+[13Latexmk: Getting log file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/Index Fixes/ai_final.log'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/Index Fixes/ai_final.fls'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/Index Fixes/ai_final.log'
+Latexmk: References changed.
+Latexmk: Missing input file './images/2025_05_12_af19cd5e0d1b8a465ffeg-049.jpg' message in .log file:
+  ! Unable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg-049.jpg'.
+Latexmk: Index file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/Index Fixes/ai_final.idx' was written
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 0.05078125
+      Refer to '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/Index Fixes/ai_final.log' and/or above output for details
+

@@ -48,5 +48,30 @@
     "book_name": "assembly",
     "version": "TOC HiL",
     "last_used": "2025-10-11T15:39:14.260576"
+  },
+  "cybersec___Index Fixes": {
+    "book_name": "cybersec",
+    "version": "Index Fixes",
+    "last_used": "2025-10-11T17:55:05.265257"
+  },
+  "ai___Index Fixes": {
+    "book_name": "ai",
+    "version": "Index Fixes",
+    "last_used": "2025-10-11T19:15:55.051717"
+  },
+  "data-science___Index Fixes": {
+    "book_name": "data-science",
+    "version": "Index Fixes",
+    "last_used": "2025-10-11T17:56:53.004872"
+  },
+  "assembly___Index Fixes": {
+    "book_name": "assembly",
+    "version": "Index Fixes",
+    "last_used": "2025-10-11T18:09:14.055907"
+  },
+  "algorithms___Index Fixes": {
+    "book_name": "algorithms",
+    "version": "Index Fixes",
+    "last_used": "2025-10-11T18:10:26.290742"
   }
 }

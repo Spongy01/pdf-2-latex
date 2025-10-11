@@ -1,0 +1,727 @@
+Rc files read:
+  .latexmkrc
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'xelatex -interaction=nonstopmode -synctex=1  -recorder -output-directory="/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes"  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/Index Fixes/data-science_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/underscore/underscore.sty)
+==> First Aid for underscore.sty applied!
+(/usr/local/texlive/2025/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file data-science_final.idx
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-bengali.ldf
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/devanagaridigits.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/bengalidigits.sty))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/Index Fixes/data-science_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+[1]
+[2]
+No file data-science_final.toc.
+! Unable to load picture or PDF file './images/2025_03_17_ca60ec0bfd96dcf8e028g
+-001.jpg'.
+<to be read again> 
+                   }
+l.79 ...dth]{2025_03_17_ca60ec0bfd96dcf8e028g-001}
+                                                  
+
+Overfull \hbox (6.75647pt too wide) in paragraph at lines 86--100
+\TU/Georgia(0)/m/n/10 This work is subject to copyright. All rights are reserve
+d by the Publisher, whether
+
+[3]
+[4]
+Chapter 1.
+
+LaTeX Warning: Citation `skiena2008algorithm' on page 5 undefined on input line
+ 116.
+
+
+[5]
+[6]
+Overfull \hbox (20.02608pt too wide) in paragraph at lines 142--143
+[]\TU/Georgia(0)/m/it/10 Take-Home Lessons\TU/Georgia(0)/m/n/10 : Highlighted "
+take-home" lesson boxes scattered through
+
+Overfull \hbox (1.57036pt too wide) in paragraph at lines 143--145
+\TU/Georgia(0)/m/n/10 questions, reflecting the questions students might encoun
+ter when search-
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+
+[7]
+xdvipdfmx:fatal: Image inclusion failed. Could not find file: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-001.jpg
+
+No output PDF file written.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148   \item \emph
+                   {Kaggle Challenges}: Kaggle (\href{http://www.kaggle.com}...
+
+
+Underfull \hbox (badness 10000) detected at line 148
+[][]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149   \item \emph
+                   {Data Science Television}: Data science remains mysteriou...
+
+
+Underfull \hbox (badness 10000) detected at line 149
+[][]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152   \item \emph
+                   {Chapter Notes}: Finally, each tutorial chapter concludes...
+
+
+Underfull \hbox (badness 10000) detected at line 152
+[][]
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 \end{itemize}
+                   
+! Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.153 \end{itemize}
+                   
+
+Overfull \hbox (1.0873pt too wide) in paragraph at lines 156--157
+\TU/Georgia(0)/m/n/10 meaning that they don't always process statistical eviden
+ce with as much alacrity
+
+[8Latexmk: Getting log file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.log'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.fls'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.log'
+Latexmk: References changed.
+Latexmk: Missing input file 'data-science_final.toc' message in .log file:
+  No file data-science_final.toc.
+Latexmk: Missing input file './images/2025_03_17_ca60ec0bfd96dcf8e028g-001.jpg' message in .log file:
+  ! Unable to load picture or PDF file './images/2025_03_17_ca60ec0bfd96dcf8e028g-001.jpg'.
+Latexmk: Index file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.idx' was written
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: applying rule 'makeindex /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.idx'...
+Rule 'makeindex /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.idx':  Reasons for rerun
+Category 'other':
+  Rerun of 'makeindex /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.idx' forced or previously required:
+    Reason or flag: 'Initial set up of rule'
+
+------------
+Run number 1 of rule 'makeindex /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.idx'
+------------
+Latexmk: Change directory to '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/'.
+------------
+Running 'makeindex  -o "data-science_final.ind" "data-science_final.idx"'
+------------
+This is makeindex, version 2.17 [TeX Live 2025] (kpathsea + Thai support).
+Scanning input file data-science_final.idx...done (0 entries accepted, 0 rejected).
+Nothing written in data-science_final.ind.
+Transcript written in data-science_final.ilg.
+Latexmk: Change directory back to '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/codes/pdf_to_latex'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.aux
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.ind
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.toc
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'xelatex -interaction=nonstopmode -synctex=1  -recorder -output-directory="/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes"  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/Index Fixes/data-science_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/underscore/underscore.sty)
+==> First Aid for underscore.sty applied!
+(/usr/local/texlive/2025/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file data-science_final.idx
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-bengali.ldf
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/devanagaridigits.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/bengalidigits.sty))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/Index Fixes/data-science_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/Index Fixes/data-science_final.out)
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/Index Fixes/data-science_final.out)
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+[1]
+[2]
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/Index Fixes/data-science_final.toc)
+! Unable to load picture or PDF file './images/2025_03_17_ca60ec0bfd96dcf8e028g
+-001.jpg'.
+<to be read again> 
+                   }
+l.79 ...dth]{2025_03_17_ca60ec0bfd96dcf8e028g-001}
+                                                  
+
+Overfull \hbox (6.75647pt too wide) in paragraph at lines 86--100
+\TU/Georgia(0)/m/n/10 This work is subject to copyright. All rights are reserve
+d by the Publisher, whether
+
+[3]
+[4]
+Chapter 1.
+
+LaTeX Warning: Citation `skiena2008algorithm' on page 5 undefined on input line
+ 116.
+
+
+[5]
+[6]
+Overfull \hbox (20.02608pt too wide) in paragraph at lines 142--143
+[]\TU/Georgia(0)/m/it/10 Take-Home Lessons\TU/Georgia(0)/m/n/10 : Highlighted "
+take-home" lesson boxes scattered through
+
+Overfull \hbox (1.57036pt too wide) in paragraph at lines 143--145
+\TU/Georgia(0)/m/n/10 questions, reflecting the questions students might encoun
+ter when search-
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+
+[7]
+xdvipdfmx:fatal: Image inclusion failed. Could not find file: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-001.jpg
+
+No output PDF file written.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148   \item \emph
+                   {Kaggle Challenges}: Kaggle (\href{http://www.kaggle.com}...
+
+
+Underfull \hbox (badness 10000) detected at line 148
+[][]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149   \item \emph
+                   {Data Science Television}: Data science remains mysteriou...
+
+
+Underfull \hbox (badness 10000) detected at line 149
+[][]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152   \item \emph
+                   {Chapter Notes}: Finally, each tutorial chapter concludes...
+
+
+Underfull \hbox (badness 10000) detected at line 152
+[][]
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 \end{itemize}
+                   
+! Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.153 \end{itemize}
+                   
+
+Overfull \hbox (1.0873pt too wide) in paragraph at lines 156--157
+\TU/Georgia(0)/m/n/10 meaning that they don't always process statistical eviden
+ce with as much alacrity
+
+[8Latexmk: Getting log file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.log'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.fls'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.log'
+Latexmk: References changed.
+Latexmk: Missing input file './images/2025_03_17_ca60ec0bfd96dcf8e028g-001.jpg' message in .log file:
+  ! Unable to load picture or PDF file './images/2025_03_17_ca60ec0bfd96dcf8e028g-001.jpg'.
+Latexmk: Index file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.idx' was written
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.out
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'xelatex -interaction=nonstopmode -synctex=1  -recorder -output-directory="/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes"  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/Index Fixes/data-science_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/underscore/underscore.sty)
+==> First Aid for underscore.sty applied!
+(/usr/local/texlive/2025/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file data-science_final.idx
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-bengali.ldf
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/devanagaridigits.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/bengalidigits.sty))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/Index Fixes/data-science_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/Index Fixes/data-science_final.out)
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/Index Fixes/data-science_final.out)
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+[1]
+[2]
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/Index Fixes/data-science_final.toc)
+! Unable to load picture or PDF file './images/2025_03_17_ca60ec0bfd96dcf8e028g
+-001.jpg'.
+<to be read again> 
+                   }
+l.79 ...dth]{2025_03_17_ca60ec0bfd96dcf8e028g-001}
+                                                  
+
+Overfull \hbox (6.75647pt too wide) in paragraph at lines 86--100
+\TU/Georgia(0)/m/n/10 This work is subject to copyright. All rights are reserve
+d by the Publisher, whether
+
+[3]
+[4]
+Chapter 1.
+
+LaTeX Warning: Citation `skiena2008algorithm' on page 5 undefined on input line
+ 116.
+
+
+[5]
+[6]
+Overfull \hbox (20.02608pt too wide) in paragraph at lines 142--143
+[]\TU/Georgia(0)/m/it/10 Take-Home Lessons\TU/Georgia(0)/m/n/10 : Highlighted "
+take-home" lesson boxes scattered through
+
+Overfull \hbox (1.57036pt too wide) in paragraph at lines 143--145
+\TU/Georgia(0)/m/n/10 questions, reflecting the questions students might encoun
+ter when search-
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+
+[7]
+xdvipdfmx:fatal: Image inclusion failed. Could not find file: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-001.jpg
+
+No output PDF file written.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148   \item \emph
+                   {Kaggle Challenges}: Kaggle (\href{http://www.kaggle.com}...
+
+
+Underfull \hbox (badness 10000) detected at line 148
+[][]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149   \item \emph
+                   {Data Science Television}: Data science remains mysteriou...
+
+
+Underfull \hbox (badness 10000) detected at line 149
+[][]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152   \item \emph
+                   {Chapter Notes}: Finally, each tutorial chapter concludes...
+
+
+Underfull \hbox (badness 10000) detected at line 152
+[][]
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 \end{itemize}
+                   
+! Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.153 \end{itemize}
+                   
+
+Overfull \hbox (1.0873pt too wide) in paragraph at lines 156--157
+\TU/Georgia(0)/m/n/10 meaning that they don't always process statistical eviden
+ce with as much alacrity
+
+[8Latexmk: Getting log file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.log'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.fls'
+Latexmk: Examining '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.log'
+Latexmk: References changed.
+Latexmk: Missing input file './images/2025_03_17_ca60ec0bfd96dcf8e028g-001.jpg' message in .log file:
+  ! Unable to load picture or PDF file './images/2025_03_17_ca60ec0bfd96dcf8e028g-001.jpg'.
+Latexmk: Index file '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.idx' was written
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 1 citation(s)
+Latexmk: ====Undefined refs and citations with line #s in .tex file:
+  Citation `skiena2008algorithm' on page 5 undefined on input line 116
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 0.05078125
+      Refer to '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/Index Fixes/data-science_final.log' and/or above output for details
+

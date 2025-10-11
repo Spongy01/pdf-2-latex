@@ -1,0 +1,20 @@
+{
+  "scoring_method": "multi-metric",
+  "timestamp": "2025-10-11T18:35:21.691471",
+  "total_books": 1,
+  "valid_books": 1,
+  "average_score": 0.0,
+  "results": [
+    {
+      "book_name": "ai",
+      "input_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/inputs/ai.tex",
+      "output_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/Index Fixes/ai_final.tex",
+      "scoring_method": "multi-metric",
+      "timestamp": "2025-10-11T18:35:21.673012",
+      "valid": true,
+      "score": 0.0,
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "details": {}
+    }
+  ]
+}
