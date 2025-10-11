@@ -211,8 +211,6 @@ INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files
 INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.toc
 INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.toc
 OUTPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/ai_final.toc
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/./images/2025_05_12_af19cd5e0d1b8a465ffeg-009.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/./images/2025_05_12_af19cd5e0d1b8a465ffeg-009.jpg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -233,19 +231,11 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary5.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary8.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/stmaryrd/stmary6.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/./images/2025_05_12_af19cd5e0d1b8a465ffeg-011.jpg
-INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/./images/2025_05_12_af19cd5e0d1b8a465ffeg-011.jpg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bbold/Ubbold.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bbold/Ubbold.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bbold/Ubbold.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/bbold/bbold10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/bbold/bbold7.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/bbold/bbold5.tfm
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/./images/2025_05_12_af19cd5e0d1b8a465ffeg-049.jpg
+INPUT /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/outputs/./images/2025_05_12_af19cd5e0d1b8a465ffeg-049.jpg

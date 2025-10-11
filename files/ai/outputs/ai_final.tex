@@ -73,935 +73,7 @@ Intelligence
 
 \tableofcontents
 
-\subsection{What Is Artificial Intelligence?}
-The term artificial intelligence stirs emotions. For one thing there is our fascination with intelligence, which seemingly imparts to us humans a special place among life forms. Questions arise such as "What is intelligence?", "How can one measure intelligence?" or "How does the brain work?". All these questions are meaningful when trying to understand artificial intelligence. However, the central question for the engineer, especially for the computer scientist, is the question of the intelligent machine that behaves like a person, showing intelligent behavior.
-
-The attribute artificial might awaken much different associations. It brings up fears of intelligent cyborgs. It recalls images from science fiction novels. It raises the question of whether our highest good, the soul, is something we should try to understand, model, or even reconstruct.
-
-With such different offhand interpretations, it becomes difficult to define the term artificial intelligence or AI simply and robustly. Nevertheless I would like to try, using examples and historical definitions, to characterize the field of AI. In 1955, John McCarthy, one of the pioneers of AI, was the first to define the term artificial intelligence, roughly as follows:
-
-The goal of AI is to develop machines that behave as though they were intelligent.
-
-To test this definition, the reader might imagine the following scenario. Fifteen or so small robotic vehicles are moving on an enclosed four by four meter square surface. One can observe various behavior patterns. Some vehicles form small groups with relatively little movement. Others move peacefully through the space and gracefully avoid any collision. Still others appear to follow a leader. Aggressive behaviors are also observable. Is what we are seeing intelligent behavior?
-
-According to McCarthy's definition the aforementioned robots can be described as intelligent. The psychologist Valentin Braitenberg has shown that this seemingly
-
-\begin{figure}[ht]
-\centering
-\includegraphics[max width=\textwidth, center]{2025_05_12_af19cd5e0d1b8a465ffeg-009}
-\caption{Two very simple Braitenberg vehicles and their reactions to a light source}
-\label{fig:1.1}
-\end{figure}
-
-complex behavior can be produced by very simple electrical circuits [\cite{braitenberg1984vehicles}]. So-called Braitenberg vehicles have two wheels, each of which is driven by an independent electric motor. The speed of each motor is influenced by a light sensor on the front of the vehicle as shown in Fig.~\ref{fig:1.1}. The more light that hits the sensor, the faster the motor runs. Vehicle 1 in the left part of the figure, according to its configuration, moves away from a point light source. Vehicle 2 on the other hand moves toward the light source. Further small modifications can create other behavior patterns, such that with these very simple vehicles we can realize the impressive behavior described above.
-
-Clearly the above definition is insufficient because AI has the goal of solving difficult practical problems which are surely too demanding for the Braitenberg vehicle. In the Encyclopedia Britannica [\cite{britannica1991encyclopedia}] one finds a Definition that goes like:
-
-\begin{displayquote}
-AI is the ability of digital computers or computer controlled robots to solve problems that are normally associated with the higher intellectual processing capabilities of humans ...
-\end{displayquote}
-
-But this definition also has weaknesses. It would admit for example that a computer with large memory that can save a long text and retrieve it on demand displays intelligent capabilities, for memorization of long texts can certainly be considered a higher intellectual processing capability of humans, as can for example the quick multiplication of two 20-digit numbers. According to this definition, then, every computer is an AI system. This dilemma is solved elegantly by the following definition by Elaine Rich [\cite{rich1983ai}]:
-
-\begin{displayquote}
-Artificial Intelligence is the study of how to make computers do things at which, at the moment, people are better.
-\end{displayquote}
-
-Rich, tersely and concisely, characterizes what AI researchers have been doing for the last 50 years. Even in the year 2050, this definition will be up to date.
-
-Tasks such as the execution of many computations in a short amount of time are the strong points of digital computers. In this regard they outperform humans by many multiples. In many other areas, however, humans are far superior to machines. For instance, a person entering an unfamiliar room will recognize the surroundings within fractions of a second and, if necessary, just as swiftly make decisions and plan actions. To date, this task is too demanding for autonomous\footnote{An autonomous robot works independently, without manual support, in particular without remote control.} robots. According to Rich's definition, this is therefore a task for AI. In fact, research on autonomous robots is an important, current theme in AI. Construction of chess computers, on the other hand, has lost relevance because they already play at or above the level of grandmasters.
-
-It would be dangerous, however, to conclude from Rich's definition that AI is only concerned with the pragmatic implementation of intelligent processes. Intelligent systems, in the sense of Rich's definition, cannot be built without a deep understanding of human reasoning and intelligent action in general, because of which neuroscience (see Sect. 1.1.1) is of great importance to AI. This also shows that the other cited definitions reflect important aspects of AI.
-
-A particular strength of human intelligence is adaptivity. We are capable of adjusting to various environmental conditions and change our behavior accordingly through learning. Precisely because our learning ability is so vastly superior to that of computers, machine learning is, according to Rich's definition, a central subfield of AI.
-
-\subsection{Brain Science and Problem Solving}
-Through research of intelligent systems we can try to understand how the human brain works and then model or simulate it on the computer. Many ideas and principles in the field of neural networks (see Chap. 9) stem from brain science with the related field of neuroscience.
-
-A very different approach results from taking a goal-oriented line of action, starting from a problem and trying to find the most optimal solution. How humans solve the problem is treated as unimportant here. The method, in this approach, is secondary. First and foremost is the optimal intelligent solution to the problem. Rather than employing a fixed method (such as, for example, predicate logic) AI has as its constant goal the creation of intelligent agents for as many different tasks as possible. Because the tasks may be very different, it is unsurprising that the methods currently employed in AI are often also quite different. Similar to medicine, which encompasses many different, often life-saving diagnostic and therapy procedures, AI also offers a broad palette of effective solutions for widely varying applications. For mental inspiration, consider Fig. 1.2 on page 4. Just as in medicine, there is no universal method for all application areas of AI, rather a great number of possible solutions for the great number of various everyday problems, big and small.
-
-Cognitive science is devoted to research into human thinking at a somewhat higher level. Similarly to brain science, this field furnishes practical AI with many important ideas. On the other hand, algorithms and implementations lead to further important conclusions about how human reasoning functions. Thus these three fields benefit from a fruitful interdisciplinary exchange. The subject of this book, however, is primarily problem-oriented AI as a subdiscipline of computer science.
-
-There are many interesting philosophical questions surrounding intelligence and artificial intelligence. We humans have consciousness; that is, we can think about
-
-\begin{figure}[ht]
-\centering
-\includegraphics[max width=\textwidth, center]{2025_05_12_af19cd5e0d1b8a465ffeg-011}
-\caption{A small sample of the solutions offered by AI}
-\label{fig:1.2}
-\end{figure}
-%---- Page End Break Here ---- Page : 10
-ourselves and even ponder that we are able to think about ourselves. How does consciousness come to be? Many philosophers and neurologists now believe that the mind and consciousness are linked with matter, that is, with the brain. The question of whether machines could one day have a mind or consciousness could at some point in the future become relevant. The mind-body problem in particular concerns whether or not the mind is bound to the body. We will not discuss these questions here. The interested reader may consult [\cite{scipresents1998intelligence}, \cite{sciam1997mysteries}] and is invited, in the course of AI technology studies, to form a personal opinion about these questions.
-%---- Page End Break Here ---- Page : 11
-\subsection{The Turing Test and Chatterbots}
-Alan Turing made a name for himself as an early pioneer of AI with his definition of an intelligent machine, in which the machine in question must pass the following test. The test person Alice sits in a locked room with two computer terminals. One terminal is connected to a machine, the other with a non-malicious person Bob. Alice can type questions into both terminals. She is given the task of deciding, after five minutes, which terminal belongs to the machine. The machine passes the test if it can trick Alice at least $30 \%$ of the time [\cite{turing1950computing}].
-
-While the test is very interesting philosophically, for practical AI, which deals with problem solving, it is not a very relevant test. The reasons for this are similar to those mentioned above related to Braitenberg vehicles (see Exercise 1.3 on page 21).
-
-The AI pioneer and social critic Joseph Weizenbaum developed a program named Eliza, which is meant to answer a test subject's questions like a human psychologist [\cite{weizenbaum1966eliza}]. He was in fact able to demonstrate success in many cases. Supposedly his secretary often had long discussions with the program. Today in the internet there are many so-called chatterbots, some of whose initial responses are quite impressive. After a certain amount of time, however, their artificial nature becomes apparent. Some of these programs are actually capable of learning, while others possess extraordinary knowledge of various subjects, for example geography or software development. There are already commercial applications for chatterbots in online customer support and there may be others in the field of e-learning. It is conceivable that the learner and the e-learning system could communicate through a chatterbot. The reader may wish to compare several chatterbots and evaluate their intelligence in Exercise 1.1 on page 20.
-
-\subsection{The History of AI}
-AI draws upon many past scientific achievements which are not mentioned here, for AI as a science in its own right has only existed since the middle of the Twentieth Century. Table 1.1 on page 6, with the most important AI milestones, and a graphical representation of the main movements of AI in Fig. 1.3 on page 8 complement the following text.
-
-Table 1.1 Milestones in the development of AI from G\"odel to today
-%---- Page End Break Here ---- Page : 12
-\begin{center}
-\begin{tabular}{|l|l|}
-\hline
-1931 & The Austrian Kurt Gödel shows that in first-order predicate logic all true statements are derivable [\cite{godel1931diskussion}]. In higher-order logics, on the other hand, there are true statements that are unprovable [\cite{godel1931formal}]. (In [Göd31b] Gödel showed that predicate logic extended with the axioms of arithmetic is incomplete.) \\
-\hline
-1937 & Alan Turing points out the limits of intelligent machines with the halting problem [\cite{turing1937computable}]. \\
-\hline
-1943 & McCulloch and Pitts model neural networks and make the connection to propositional logic. \\
-\hline
-1950 & Alan Turing defines machine intelligence with the Turing test and writes about learning machines and genetic algorithms [Tur50]. \\
-\hline
-1951 & Marvin Minsky develops a neural network machine. With 3000 vacuum tubes he simulates 40 neurons. \\
-\hline
-1955 & Arthur Samuel (IBM) builds a learning checkers program that plays better than its developer [\cite{samuel1959checkers1}]. \\
-\hline
-\multirow[t]{2}{*}{1956} & McCarthy organizes a conference in Dartmouth College. Here the name Artificial Intelligence was first introduced. \\
-\hline
- & Newell and Simon of Carnegie Mellon University (CMU) present the Logic Theorist, the first symbol-processing computer program [\cite{newell1983ltm}]. \\
-\hline
-1958 & McCarthy invents at MIT (Massachusetts Institute of Technology) the high-level language LISP. He writes programs that are capable of modifying themselves. \\
-\hline
-1959 & Gelernter (IBM) builds the Geometry Theorem Prover. \\
-\hline
-1961 & The General Problem Solver (GPS) by Newell and Simon imitates human thought [\cite{newell1961gps}]. \\
-\hline
-1963 & McCarthy founds the AI Lab at Stanford University. \\
-\hline
-1965 & Robinson invents the resolution calculus for predicate logic [\cite{robinson1965resolution}] (Sect. 3.5). \\
-\hline
-1966 & Weizenbaum's program Eliza carries out dialog with people in natural language [Wei66] (Sect. 1.1.2). \\
-\hline
-1969 & Minsky and Papert show in their book Perceptrons that the perceptron, a very simple neural network, can only represent linear functions [\cite{minsky1969perceptrons}] (Sect. 1.1.2). \\
-\hline
-\multirow[t]{2}{*}{1972} & French scientist Alain Colmerauer invents the logic programming language PROLOG (Chap. 5). \\
-\hline
- & British physician de Dombal develops an expert system for diagnosis of acute abdominal pain [\cite{dedombal1972computer}]. It goes unnoticed in the mainstream AI community of the time (Sect. 7.3). \\
-\hline
-1976 & Shortliffe and Buchanan develop MYCIN, an expert system for diagnosis of infectious diseases, which is capable of dealing with uncertainty (Chap. 7). \\
-\hline
-1981 & Japan begins, at great expense, the "Fifth Generation Project" with the goal of building a powerful PROLOG machine. \\
-\hline
-1982 & R1, the expert system for configuring computers, saves Digital Equipment Corporation 40 million dollars per year [\cite{mcdermott1982r1}]. \\
-\hline
-1986 & Renaissance of neural networks through, among others, Rumelhart, Hinton and Sejnowski [\cite{rumelhart1986pdp}]. The system Nettalk learns to read texts aloud [\cite{sejnowski1986nettalk}] (Chap. 9). \\
-\hline
-1990 & Pearl [\cite{pearl1988probabilistic}], Cheeseman [\cite{cheeseman1985defense}], Whittaker, Spiegelhalter bring probability theory into AI with Bayesian networks (Sect. 7.4). Multi-agent systems become popular. \\
-\hline
-\end{tabular}
-\end{center}
-
-Table 1.1 (continued)
-%---- Page End Break Here ---- Page : 13
-\begin{table}[htbp]
-\centering
-\begin{tabular}{|l|l|}
-\hline
-1992 & Tesauros TD-gammon program demonstrates the advantages of reinforcement learning. \\
-\hline
-1993 & Worldwide RoboCup initiative to build soccer-playing autonomous robots [\cite{robocupsite}]. \\
-\hline
-1995 & From statistical learning theory, Vapnik develops support vector machines, which are very important today. \\
-\hline
-1997 & IBM's chess computer Deep Blue defeats the chess world champion Gary Kasparov. \\
-\hline
- & First international RoboCup competition in Japan. \\
-\hline
-2003 & The robots in RoboCup demonstrate impressively what AI and robotics are capable of achieving. \\
-\hline
-2006 & Service robotics becomes a major AI research area. \\
-\hline
-2009 & First Google self-driving car drives on the California freeway. \\
-\hline
-2010 & Autonomous robots begin to improve their behavior through learning. \\
-\hline
-2011 & IBM's "Watson" beats two human champions on the television game show "Jeopardy!". Watson understands natural language and can answer difficult questions very quickly (Sect. 1.4). \\
-\hline
-\multirow[t]{4}{*}{2015} & Daimler premiers the first autonomous truck on the Autobahn. \\
-\hline
- & Google self-driving cars have driven over one million miles and operate within cities. \\
-\hline
- & Deep learning (Sect. 11.9) enables very good image classification. \\
-\hline
- & Paintings in the style of the Old Masters can be automatically generated with deep learning. AI becomes creative! \\
-\hline
-2016 & The Go program AlphaGo by Google DeepMind [\cite{silver2016alphago}] beats the European champion 5:0 in January and Korean Lee Sedol, one of the world's best Go players, 4:1 in March. Deep learning techniques applied to pattern recognition, as well as reinforcement learning and Monte Carlo tree search lead to this success. \\
-\hline
-\end{tabular}
-\end{table}
-
-\subsection{The First Beginnings}
-In the 1930s Kurt Gödel, Alonso Church, and Alan Turing laid important foundations for logic and theoretical computer science. Of particular interest for AI are Gödel's theorems. The completeness theorem states that first-order predicate logic is complete. This means that every true statement that can be formulated in predicate logic is provable using the rules of a formal calculus. On this basis, automatic theorem provers could later be constructed as implementations of formal calculi. With the incompleteness theorem, Gödel showed that in higher-order logics there exist true statements that are unprovable. ${ }^{2}$ With this he uncovered painful limits of formal systems.
-
-Alan Turing's proof of the undecidability of the halting problem also falls into this time period. He showed that there is no program that can decide whether a given arbitrary program (and its respective input) will run in an infinite loop. With
-
-\footnotetext{${ }^{2}$ Higher-order logics are extensions of predicate logic, in which not only variables, but also function symbols or predicates can appear as terms in a quantification. Indeed, Gödel only showed that any system that is based on predicate logic and can formulate Peano arithmetic is incomplete.
-}
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=\textwidth]{2025_05_12_af19cd5e0d1b8a465ffeg-015}
-\caption{History of the various AI areas. The width of the bars indicates prevalence of the method's use}
-\end{figure}
-%---- Page End Break Here ---- Page : 14
-this Turing also identified a limit for intelligent programs. It follows, for example, that there will never be a universal program verification system.\textsuperscript{3}
-
-In the 1940s, based on results from neuroscience, McCulloch, Pitts and Hebb designed the first mathematical models of neural networks. However, computers at that time lacked sufficient power to simulate simple brains.
-
-\subsection{Logic Solves (Almost) All Problems}
-AI as a practical science of thought mechanization could of course only begin once there were programmable computers. This was the case in the 1950s. Newell and Simon introduced Logic Theorist, the first automatic theorem prover, and thus also showed that with computers, which actually only work with numbers, one can also process symbols. At the same time McCarthy introduced, with the language LISP, a programming language specially created for the processing of symbolic structures. Both of these systems were introduced in 1956 at the historic Dartmouth Conference, which is considered the birthday of AI.
-
-In the US, LISP developed into the most important tool for the implementation of symbol-processing AI systems. Thereafter the logical inference rule known as resolution developed into a complete calculus for predicate logic.
-
-\footnotetext{This statement applies to "total correctness", which implies a proof of correct execution as well as a proof of termination for every valid input.}
-
-In the 1970s the logic programming language PROLOG was introduced as the European counterpart to LISP. PROLOG offers the advantage of allowing direct programming using Horn clauses, a subset of predicate logic. Like LISP, PROLOG has data types for convenient processing of lists.
-
-Until well into the 1980s, a breakthrough spirit dominated AI, especially among many logicians. The reason for this was the string of impressive achievements in symbol processing. With the Fifth Generation Computer Systems project in Japan and the ESPRIT program in Europe, heavy investment went into the construction of intelligent computers.
-
-For small problems, automatic provers and other symbol-processing systems sometimes worked very well. The combinatorial explosion of the search space, however, defined a very narrow window for these successes. This phase of AI was described in [\cite{russell2010aima}] as the "Look, Ma, no hands!" era.
-
-Because the economic success of AI systems fell short of expectations, funding for logic-based AI research in the United States fell dramatically during the 1980s.
-
-\subsection{The New Connectionism}
-During this phase of disillusionment, computer scientists, physicists, and Cognitive scientists were able to show, using computers which were now sufficiently powerful, that mathematically modeled neural networks are capable of learning using training examples, to perform tasks which previously required costly programming. Because of the fault-tolerance of such systems and their ability to recognize patterns, considerable successes became possible, especially in pattern recognition. Facial recognition in photos and handwriting recognition are two example applications. The system Nettalk was able to learn speech from example texts [SR86]. Under the name connectionism, a new subdiscipline of AI was born.
-
-Connectionism boomed and the subsidies flowed. But soon even here feasibility limits became obvious. The neural networks could acquire impressive capabilities, but it was usually not possible to capture the learned concept in simple formulas or logical rules. Attempts to combine neural nets with logical rules or the knowledge of human experts met with great difficulties. Additionally, no satisfactory solution to the structuring and modularization of the networks was found.
-
-\subsection{Reasoning Under Uncertainty}
-AI as a practical, goal-driven science searched for a way out of this crisis. One wished to unite logic's ability to explicitly represent knowledge with neural networks' strength in handling uncertainty. Several alternatives were suggested.
-
-The most promising, probabilistic reasoning, works with conditional probabilities for propositional calculus formulas. Since then many diagnostic and expert systems have been built for problems of everyday reasoning using Bayesian\\
-networks. The success of Bayesian networks stems from their intuitive comprehensibility, the clean semantics of conditional probability, and from the centuries-old, mathematically grounded probability theory.
-%---- Page End Break Here ---- Page : 16
-The weaknesses of logic, which can only work with two truth values, can be solved by fuzzy logic, which pragmatically introduces infinitely many values between zero and one. Though even today its theoretical foundation is not totally firm, it is being successfully utilized, especially in control engineering.
-
-A much different path led to the successful synthesis of logic and neural networks under the name hybrid systems. For example, neural networks were employed to learn heuristics for reduction of the huge combinatorial search space in proof discovery [\cite{suttner1990heuristics}].
-
-Methods of decision tree learning from data also work with probabilities. Systems like CART, ID3 and C4.5 can quickly and automatically build very accurate decision trees which can represent propositional logic concepts and then be used as expert systems. Today they are a favorite among machine learning techniques (Sect. 8.4).
-
-Since about 1990, data mining has developed as a subdiscipline of AI in the area of statistical data analysis for extraction of knowledge from large databases. Data mining brings no new techniques to AI, rather it introduces the requirement of using large databases to gain explicit knowledge. One application with great market potential is steering ad campaigns of big businesses based on analysis of many millions of purchases by their customers. Typically, machine learning techniques such as decision tree learning come into play here.
-
-\subsection{Distributed, Autonomous and Learning Agents}
-Distributed artificial intelligence, DAI, has been an active area research since about 1985. One of its goals is the use of parallel computers to increase the efficiency of problem solvers. It turned out, however, that because of the high computational complexity of most problems, the use of "intelligent" systems is more beneficial than parallelization itself.
-
-A very different conceptual approach results from the development of autonomous software agents and robots that are meant to cooperate like human teams. As with the aforementioned Braitenberg vehicles, there are many cases in which an individual agent is not capable of solving a problem, even with unlimited resources. Only the cooperation of many agents leads to the intelligent behavior or to the solution of a problem. An ant colony or a termite colony is capable of erecting buildings of very high architectural complexity, despite the fact that no single ant comprehends how the whole thing fits together. This is similar to the situation of provisioning bread for a large city like New York [RN10]. There is no central planning agency for bread, rather there are hundreds of bakers that know their respective areas of the city and bake the appropriate amount of bread at those locations.
-
-Active skill acquisition by robots is an exciting area of current research. There are robots today, for example, that independently learn to walk or to perform various motorskills related to soccer (Chap. 10). Cooperative learning of multiple robots to solve problems together is still in its infancy.
-%---- Page End Break Here ---- Page : 17
-\subsection{AI Grows Up}
-The above systems offered by AI today are not a universal recipe, but a workshop with a manageable number of tools for very different tasks. Most of these tools are well-developed and are available as finished software libraries, often with convenient user interfaces. The selection of the right tool and its sensible use in each individual case is left to the AI developer or knowledge engineer. Like any other artisanship, this requires a solid education, which this book is meant to promote.
-
-More than nearly any other science, AI is interdisciplinary, for it draws upon interesting discoveries from such diverse fields as logic, operations research, statistics, control engineering, image processing, linguistics, philosophy, psychology, and neurobiology. On top of that, there is the subject area of the particular application. To successfully develop an AI project is therefore not always so simple, but almost always extremely exciting.
-
-\subsection{The AI Revolution}
-Around the year 2010 after about 25 years of research on neural networks, scientists could start harvesting the fruits of their research. The very powerful deep learning networks can for example learn to classify images with very high arruracy. Since image classification is of crucial importance for all types of smart robots, this initiated the AI revolution which in turn leads to smart self-driving cars and service robots.
-
-\subsection{AI and Society}
-There have been many scientific books and science fiction novels written on all aspects of this subject. Due to great advances in AI research, we have been on the brink of the age of autonomous robots and the Internet of Things since roughly 2005. Thus we are increasingly confronted with AI in everyday life. The reader, who may soon be working as an AI developer, must also deal with the social impact of this work. As an author of a book on AI techniques, I have the crucial task of examining this topic. I would like to deal with some particularly important aspects of AI which are of great practical relevance for our lives.
-
-\subsection{Does AI Destroy Jobs?}
-In January 2016, the World Econonic Forum published a study [\cite{schwab2016futurejobs}], frequently cited by the German press, predicting that "industry 4.0 " would destroy over five million jobs in the next five years. This forecast is hardly surprising because automation in factories, offices, administration, transportation, in the home and in many other areas has led to continually more work being done by computers, machines and robots. AI has been one of the most important factors in this trend since about 2010.
-%---- Page End Break Here ---- Page : 18
-Presumably, the majority of people would gladly leave physically hard, dirty and unhealthy jobs and tasks to machines. Thus automation is a complete blessing for humanity, assuming it does not result in negative side effects, such as harm to the environment. Many of the aforementioned unpleasant jobs can be done faster, more precisely, and above all cheaper by machines. This seems almost like a trend towards paradise on Earth, where human beings do less and less unpleasant work and have correspondingly more time for the good things in life. This seems almost like a trend towards paradise on earth. We have to do less and less unpleasant work and in turn have more time for the good things in life. ${ }^{4}$ All the while, we would enjoy the same (or potentially even increasing) prosperity, for the economy would not employ these machines if they did not markedly raise productivity.
-
-Unfortunately we are not on the road to paradise. For several decades, we have worked more than 40 hours per week, have been stressed, complained of burnout and other sicknesses, and suffered a decline in real wages. How can this be, if productivity is continually increasing? Many economists say that the reason for this is competitive pressure. In an effort to compete and deliver the lowest priced goods to market, companies need to lower production costs and thus lay off workers. This results in the aforementioned unemployment. In order to avoid a drop in sales volume due to reduced prices, more products need to be manufactured and sold. The economy must grow!
-
-If the economy continues to grow in a country in which the population is no longer growing (as is the case in most modern industrialized countries), each citizen must necessarily consume more. For that to happen, new markets must be created, ${ }^{5}$ and marketing has the task of convincing us that we want the new products. This is-allegedly-the only way to "sustainably" ensure prosperity. Apparently there seems to be no escape from this growth/consumption spiral. This has two fatal consequences. For one thing, this increase in consumption should make people happier, but it is having quite the opposite effect: mental illness is increasing.
-
-Even more obvious and, above all, fatal, are economic growth's effects on our living conditions. It is no secret that the earth's growth limit has long been exceeded [\cite{meadows1972grenzen}, \cite{randers2012forecast}], and that we are overexploiting nature's nonrenewable resources. We are therefore living at the expense of our children and grandchildren, who consequently will have poorer living conditions than we have today. It is also known that every additional dollar of economic growth is an additional burden on the environment-for example through additional $\mathrm{CO}_{2}$ concentration in the atmosphere and the resulting climate change [\cite{paech2016befreiung}]. We are destroying our own basis of existence. Thus it is obvious that we should abandon this path of growth for the sake of a livable future. But how?
-
-\footnotetext{4 Those of us, such as scientists, computer scientists and engineers, who enjoy it may of course continue our work.\\
-5 Many EU and German Ministry of Education and Research funding programs for example require that scientists who submit proposals show evidence that their research will open up new markets.
-}
-%---- Page End Break Here ---- Page : 19
-Let's think back to the road to paradise that AI is supposedly preparing for us. Apparently, as we practice it, it does not lead to paradise. Understanding this problem and finding the right path is one of the central tasks of today. Because of inherent complexities, this problem can not be fully dealt with in an introductory AI textbook. However, I would like to provide the reader with a little food for thought.
-
-Although productivity is growing steadily in almost all areas of the economy, workers are required to work as hard as ever. They do not benefit from the increase in productivity. So, we must ask, where do the profits go? Evidently not to the people to whom they are owed, i.e. the workers. Instead, part of the profits is spent on investment and thus on further growth and the rest is taken by the capital owners, while employees work the same hours for declining real wages [\cite{piketty2014kapital}]. This leads to ever-increasing capital concentration among a few rich individuals and private banks, while on the other hand increasing poverty around the world is creating political tensions that result in war, expulsion and flight.
-
-What is missing is a fair and just distribution of profits. How can this be achieved? Politicians and economists are continually trying to optimize our economic system, but politics has not offered a sustainable solution, and too few economists are investigating this highly exciting economic question. Obviously the attempt to optimize the parameters of our current capitalist economic system has not lead to a more equitable distribution of wealth, but to the opposite.
-
-This is why economists and financial scientists must begin to question the system and look for alternatives. We should ask ourselves how to change the rules and laws of the economy so that all people profit from increased productivity. A growing community of economists and sustainability scientists have offered interesting solutions, a few of which I will briefly describe here.
-
-Problem Number One is the creation of fiat money by the banks. New moneywhich is needed, among other things, to keep our growing economy going-is now being created by private banks. This is made possible by the fact that banks have to own only a small part, namely the minimum cash reserve ratio, of the money they give as loans. In the EU in 2016, the minimum cash reserve ratio is one percent.
-
-States then borrow this money from private banks in the form of government bonds and thus fall into debt. This is how our current government debt crises have developed. This problem can be solved easily by prohibiting creation of money by the banks by increasing the minimum cash reserve ratio to $100 \%$. State central banks will then get back the monopoly on creating money, and the newly created money can be used directly by the state for the purposes of social welfare. It should be evident that this simple measure would significantly ease the problem of public debt.
-
-Further interesting components of such an economic reform could be the conversion of the current interest rate system to the so-called natural economic order [\cite{gesell1958natural}], and the introduction of the "economy for the common good" [\cite{felber2014gemeinwohl}] and the biophysical economy [\cite{grahl2009loch}, \cite{kuemmel2011secondlaw}]. The practical implementation of the economy for the common good would involve a tax reform, the most important elements of which would be the abolition of the income tax and substantially increased value\\
-added tax on energy and resource consumption. We would thus arrive at a highly prosperous, more sustainable human world with less environmental damage and more local trade. The reader may study the literature and assess whether the ideas quoted here are interesting and, if necessary, help to make the required changes.
-%---- Page End Break Here ---- Page : 20
-To conclude this section, I would like to quote the famous physicist Stephen Hawking. In a community-driven interview on \href{http://www.reddit.com}{www.reddit.com} he gave the following answer to whether he had any thoughts about unemployment caused by automation:
-
-\begin{displayquote}
-If machines produce everything we need, the outcome will depend on how things are distributed. Everyone can enjoy a life of luxurious leisure if the machine-produced wealth is shared, or most people can end up miserably poor if the machine-owners successfully lobby against wealth redistribution. So far, the trend seems to be toward the second option, with technology driving ever-increasing inequality.
-\end{displayquote}
-
-Another Hawking quotation is also fitting. During the same interview, \textsuperscript{6} to an AI professor's question about which moral ideas he should impart to his students, Hawking answered:
-
-\begin{displayquote}
-... Please encourage your students to think not only about how to create AI, but also about how to ensure its beneficial use.
-\end{displayquote}
-
-As a consequence we should question the reasonableness of AI applications such as the export of intelligent cruise missiles to "allied" Arab states, the deployment of humanoid combat robots, etc.
-
-\subsection{AI and Transportation}
-In the past 130 years, automotive industry engineers have made great strides. In Germany, one out of every two people owns their own car. These cars are highly reliable. This makes us very mobile and we use this very convenient mobility in work, everyday life and leisure. Moreover, we are dependent on it. Today, we can not get by without a motor vehicle, especially in rural areas with weak public transportation infrastructure, as for instance in Upper Swabia, where the author and his students live.
-
-The next stage of increased convenience in road transportation is now imminent. In a few years, we will be able to buy electric self-driving cars, i.e. robotic cars, which will autonomously bring us to almost any destination. All passengers in the robotic car would be able to read, work or sleep during the trip. This is possible on public transit already, but passengers in a robotic car would be able to do this at any time and on any route.
-
-Autonomous vehicles that can operate independently could also travel without passengers. This will lead to yet another increase in convenience: robotic taxis. Via a smartphone app, we will be able to order the optimal taxi, in terms of size and equipment, for any conceivable transportation purpose. We will be able to choose whether we want to travel alone in the taxi or whether we are willing to share a ride with
-
-\footnotetext{\textsuperscript{6} \href{https://www.reddit.com/user/Prof-Stephen-Hawking}{https://www.reddit.com/user/Prof-Stephen-Hawking}.}
-other passengers. We will not need our own car anymore. All associated responsibilities and expenses, such as refueling, technical service, cleaning, searching for parking, buying and selling, garage rent, etc. are void, which saves us money and effort.
-%---- Page End Break Here ---- Page : 21
-Besides the immediate gains in comfort and convenience, robotic cars will offer other significant advantages. For example, according to a McKinsey study [\cite{gao2014auto}], we will need far fewer cars and, above all, far fewer parking places in the era of self-driving cars, which will lead to an immense reduction in resource consumption. According to a Lawrence Berkeley National Laboratory study [\cite{greenblatt2015taxis}], electric self-driving cars will cause a $90 \%$ reduction in green house emissions per passenger mile due to the vehicles' energy efficiency and the optimized fit between the vehicle and its purpose. Due to their optimal resource utilization, robotic taxis will be much more environmentally friendly than, for example, heavy buses, which often run at low capacity, especially in rural areas. Overall, robot taxis will contribute dramatically to energy savings and thus, among other things, to a significant improvement in $\mathrm{CO}_{2}$ and climate problems.
-
-Passenger safety will be much higher than it is today. Experts currently estimate future accident rates between zero and ten percent compared to today. Emotional driving ("road rage"), distracted driving and driving under the influence of drugs and alcohol will no longer exist.
-
-Taxi drivers losing their jobs is often cited as a disadvantage of robotic cars. It is almost certain that there will no longer be taxi drivers from about 2030 onwards, but that is not necessarily a problem. As explained in the previous section, our society just needs to deal with the newly gained productivity properly.
-
-In addition to the many advantages mentioned above, robotic cars have two critical problems. Firstly, the so-called rebound effect will nullify at least some of the gains in resource, energy and time savings. Shorter driving times as well as more comfortable and cheaper driving will tempt us to drive more. We can only deal with this problem by rethinking our attitude towards consumption and quality of life. Do we have to use the entire time saved for more activities? Here we are all invited to critical reflection.
-
-Another problem we should take seriously is that the robotic cars will need to be networked. In principle, this gives hackers and terrorists the ability to access and manipulate the vehicles' controls through security holes in their network protocols. If a hacker manages to do this once, he could repeat the attack on a grand scale, potentially bringing entire vehicle fleets to a halt, causing accidents, spying on vehicle occupants, or initiating other criminal actions. Here, as in other areas such as home automation and the Internet of Things, IT security experts will be needed to ensure the highest possible security guarantees using tools of the trade such as cryptographic methods. By the way, improved machine learning algorithms will be useful in detecting hacking attacks.
-
-\subsection{Service Robotics}
-In a few years, shortly after self-driving cars, the next bit of consumption bait on the shelves of electronics stores will be service robots. Recently the Google subsidiary
-%---- Page End Break Here ---- Page : 22
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=\textwidth]{2025_05_12_af19cd5e0d1b8a465ffeg-023}
-\caption{The assistance robot Marvin, deployed in the AsRoBe research project}
-\end{figure}
-
-Boston Dynamics provided an impressive example in its humanoid robot Atlas. ${ }^{7}$ Like the new cars, service robots offer a large gain in comfort and convenience which we would probably like to enjoy. One need only imagine such a robot dutifully cleaning and scrubbing after a party from night until morning without a grumble. Or think of the help that an assistance robot like Marvin, shown in Fig. 1.4, could provide to the elderly ${ }^{8}$ or to people with disabilities [\cite{staehle2016marvin}].
-
-In contrast to the robotic cars, however, these benefits come with costlier trade-offs. Completely new markets would be created, more natural resources and more energy would be consumed, and it is not even certain that people's lives would be simplified by the use of service robots in all areas. One of the first applications for robots like Atlas, developed by Boston Dynamics in contract with Google, will probably be military combat.
-
-It is therefore all the more important that, before these robots come to market, we engage in social discourse on this topic. Science fiction films, such as "Ex Machina" (2015) with its female androids, the chilling "I, Robot" (2004) or the humorous "Robot and Frank" (2012), which depicts the pleasant side of a service robot as an old man's helper, can also contribute to such a discussion.
-
-\footnotetext{${ }^{7}$ \href{https://youtu.be/rVlhMGQgDkY}{https://youtu.be/rVlhMGQgDkY}.\\
-${ }^{8}$ In the coming demographic shift, assistance robots could become important for the elderly and thus for our whole society.
-}
-
-\subsection{Agents}
-Although the term intelligent agents is not new to AI, only in recent years has it gained prominence through [RN10], among others. Agent denotes rather generally a system that processes information and produces an output from an input. These agents may be classified in many different ways.
-
-In classical computer science, software agents are primarily employed (Fig. 1.5). In this case the agent consists of a program that calculates a result from user input.
-
-In robotics, on the other hand, hardware agents (also called autonomous robots) are employed, which additionally have sensors and actuators at their disposal (Fig. 1.6). The agent can perceive its environment with the sensors. With the actuators it carries out actions and changes its environment.
-
-With respect to the intelligence of the agent, there is a distinction between reflex agents, which only react to input, and agents with memory, which can also include the past in their decisions. For example, a driving robot that through its sensors knows its exact position (and the time) has no way, as a reflex agent, of determining its velocity. If, however, it saves the position, at short, discrete time steps, it can thus easily calculate its average velocity in the previous time interval.
-
-If a reflex agent is controlled by a deterministic program, it represents a function of the set of all inputs to the set of all outputs. An agent with memory, on the other hand, is in general not a function. Why? (See Exercise 1.5 on page 21.) Reflex agents are sufficient in cases where the problem to be solved involves a Markov decision process. This is a process in which only the current state is needed to determine the optimal next action (see Chap. 10).
-
-A mobile robot which should move from room 112 to room 179 in a building takes actions different from those of a robot that should move to room 105. In other words, the actions depend on the goal. Such agents are called goal-based.
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=\textwidth]{2025_05_12_af19cd5e0d1b8a465ffeg-024}
-\caption{A software agent with user interaction}
-\end{figure}
-
-Fig. 1.6 A hardware agent
-%---- Page End Break Here ---- Page : 24
-Example 1.1 A spam filter is an agent that puts incoming emails into wanted or unwanted (spam) categories, and deletes any unwanted emails. Its goal as a goalbased agent is to put all emails in the right category. In the course of this not-so-simple task, the agent can occasionally make mistakes. Because its goal is to classify all emails correctly, it will attempt to make as few errors as possible. However, that is not always what the user has in mind. Let us compare the following two agents. Out of 1,000 emails, Agent 1 makes only 12 errors. Agent 2 on the other hand makes 38 errors with the same 1,000 emails. Is it therefore worse than Agent 1? The errors of both agents are shown in more detail in the following table, the so-called "confusion matrix":
-
-\begin{center}
-\begin{tabular}{|l|l|l|l|l|l|l|l|}
-\hline
-\multicolumn{4}{|c|}{Agent 1:} & \multicolumn{4}{|c|}{Agent 2:} \\
-\hline
-\multicolumn{2}{|c|}{\multirow{2}{*}{}} & \multicolumn{2}{|c|}{correct class} & \multicolumn{2}{|c|}{\multirow{2}{*}{}} & \multicolumn{2}{|c|}{correct class} \\
-\hline
- &  & wanted & spam &  &  & wanted & spam \\
-\hline
-\multirow{2}{*}{spam filter decides} & wanted & 189 & 1 & \multirow{2}{*}{spam filter decides} & wanted & 200 & 38 \\
-\hline
- & spam & 11 & 799 &  & spam & 0 & 762 \\
-\hline
-\end{tabular}
-\end{center}
-
-Agent 1 in fact makes fewer errors than Agent 2, but those few errors are severe because the user loses 11 potentially important emails. Because there are in this case two types of errors of differing severity, each error should be weighted with the appropriate cost factor (see Sect. 7.3.5 and Exercise 1.7 on page 21).
-
-The sum of all weighted errors gives the total cost caused by erroneous decisions. The goal of a cost-based agent is to minimize the cost of erroneous decisions in the long term, that is, on average. In Sect. 7.3 we will become familiar with the medical diagnosis system LEXMED as an example of a cost-based agent.
-
-Analogously, the goal of a utility-based agent is to maximize the utility derived from correct decisions in the long term, that is, on average. The sum of all decisions weighted by their respective utility factors gives the total utility.
-
-Of particular interest in AI are Learning agents, which are capable of changing themselves given training examples or through positive or negative feedback, such that the average utility of their actions grows over time (see Chap. 8).
-
-As mentioned in Sect. 1.2.5, distributed agents are increasingly coming into use, whose intelligence are not localized in one agent, but rather can only be seen through cooperation of many agents.
-
-The design of an agent is oriented, along with its objective, strongly toward its environment, or alternately its picture of the environment, which strongly depends on it sensors. The environment is observable if the agent always knows the complete state of the world. Otherwise the environment is only partially observable. If an action always leads to the same result, then the environment is deterministic. Otherwise it is nondeterministic. In a discrete environment only finitely many states and actions occur, whereas a continuous environment boasts infinitely many states or actions.
-
-\subsection{Knowledge-Based Systems}
-An agent is a program that implements a mapping from perceptions to actions. For simple agents this way of looking at the problem is sufficient. For complex applications in which the agent must be able to rely on a large amount of information and is meant to do a difficult task, programming the agent can be very costly and unclear how to proceed. Here AI provides a clear path to follow that will greatly simplify the work.
-%---- Page End Break Here ---- Page : 25
-First we separate knowledge from the system or program, which uses the knowledge to, for example, reach conclusions, answer queries, or come up with a plan. This system is called the inference mechanism. The knowledge is stored in a knowledge base (KB). Acquisition of knowledge in the knowledge base is denoted Knowledge Engineering and is based on various knowledge sources such as human experts, the knowledge engineer, and databases. Active learning systems can also acquire knowledge through active exploration of the world (see Chap. 10). In Fig. 1.7 the general architecture of knowledge-based systems is presented.
-
-Moving toward a separation of knowledge and inference has several crucial advantages. The separation of knowledge and inference can allow inference systems to be implemented in a largely application-independent way. For example, application of a medical expert system to other diseases is much easier by replacing the knowledge base rather than by programming a whole new system.
-
-Through the decoupling of the knowledge base from inference, knowledge can be stored declaratively. In the knowledge base there is only a description of the knowledge, which is independent from the inference system in use. Without this clear separation, knowledge and processing of inference steps would be interwoven, and any changes to the knowledge would be very costly.
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=\textwidth]{2025_05_12_af19cd5e0d1b8a465ffeg-026}
-\caption{Structure of a classic knowledge-processing system}
-\end{figure}
-
-Formal language as a convenient interface between man and machine lends itself to the representation of knowledge in the knowledge base. In the following chapters we will get to know a whole series of such languages. First, in Chaps. 2 and 3 there are propositional calculus and first-order predicate logic (PL1). But other formalisms such as probabilistic logic and decision trees are also presented. We start with propositional calculus and the related inference systems. Building on that, we will present predicate logic, a powerful language that is accessible by machines and very important in AI.
-%---- Page End Break Here ---- Page : 26
-As an example for a large scale knowledge based system we want to refer to the software agent "Watson". Developed at IBM together with a number of universities, Watson is a question answering program, that can be fed with clues given in natural language. It works on a knowledge base comprising four terabytes of hard disk storage, including the full text of Wikipedia [\cite{ferrucci2009openqa}]. Watson was developed within IBM's DeepQA project which is characterized in [\cite{deepqa2011project}] as follows:
-
-\begin{displayquote}
-The DeepQA project at IBM shapes a grand challenge in Computer Science that aims to illustrate how the wide and growing accessibility of natural language content and the integration and advancement of Natural Language Processing, Information Retrieval, Machine Learning, Knowledge Representation and Reasoning, and massively parallel computation can drive open-domain automatic Question Answering technology to a point where it clearly and consistently rivals the best human performance.
-\end{displayquote}
-
-In the U.S. television quiz show "Jeopardy!", in February 2011, Watson defeated the two human champions Brad Rutter and Ken Jennings in a two-game, combined-point match and won the one million dollar price. One of Watson's particular strengths was its very fast reaction to the questions with the result that Watson often hit the buzzer (using a solenoid) faster than its human competitors and then was able to give the first answer to the question.
-
-The high performance and short reaction times of Watson were due to an implementation on 90 IBM Power 750 servers, each of which contains 32 processors, resulting in 2880 parallel processors.
-
-\subsection{Exercises}
-Exercise 1.1 Test some of the chatterbots available on the internet. Start for example with \href{http://www.hs-weingarten.de/}{www.hs-weingarten.de/} \~{}ertel/aibook in the collection of links under Turingtest/Chatterbots, or at \href{http://www.simonlaven.com}{www.simonlaven.com} or \href{http://www.alicebot.org}{www.alicebot.org}. Write down a starting question and measure the time it takes, for each of the various programs, until you know for certain that it is not a human.
-
-Exercise 1.2 At \href{http://www.pandorabots.com}{www.pandorabots.com} you will find a server on which you can build a chatterbot with the markup language AIML quite easily. Depending on your interest level, develop a simple or complex chatterbot, or change an existing one.
-
-Exercise 1.3 Give reasons for the unsuitability of the Turing test as a definition of "artificial intelligence" in practical AI.\\
-%---- Page End Break Here ---- Page : 27
-\section{Exercise 1.4}
-Many well-known inference processes, learning processes, etc. are NP-complete or even undecidable. What does this mean for AI?
-
-\section{Exercise 1.5}
-(a) Why is a deterministic agent with memory not a function from the set of all inputs to the set of all outputs, in the mathematical sense?\\
-(b) How can one change the agent with memory, or model it, such that it becomes equivalent to a function but does not lose its memory?\\
-
-\section{Exercise 1.6}
-Let there be an agent with memory that can move within a plane. From its sensors, it receives at clock ticks of a regular interval $\Delta t$ its exact position $(x, y)$ in Cartesian coordinates.\\
-(a) Give a formula with which the agent can calculate its velocity from the current time $t$ and the previous measurement of $t-\Delta t$.\\
-(b) How must the agent be changed so that it can also calculate its acceleration? Provide a formula here as well.
-
-\section{Exercise 1.7}
-(a) Determine for both agents in Example 1.1 on page 18 the costs created by the errors and compare the results. Assume here that having to manually delete a spam email costs one cent and retrieving a deleted email, or the loss of an email, costs one dollar.\\
-(b) Determine for both agents the profit created by correct classifications and compare the results. Assume that for every desired email recognized, a profit of one dollar accrues and for every correctly deleted spam email, a profit of one cent.
-
-\section{Propositional Logic}
-In propositional logic, as the name suggests, propositions are connected by logical operators. The statement "the street is wet" is a proposition, as is "it is raining". These two propositions can be connected to form the new proposition\\
-%---- Page End Break Here ---- Page : 28
-If it is raining the street is wet. Written more formally, it is raining $\Rightarrow$ the street is wet. This notation has the advantage that the elemental propositions appear again in unaltered form. So that we can work with propositional logic precisely, we will begin with a definition of the set of all propositional logic formulas.
-
-\subsection{Syntax}
-Definition 2.1 Let $Op=\{\neg, \wedge, \vee, \Rightarrow, \Leftrightarrow, (, )\}$ be the set of logical operators and $\Sigma$ a set of symbols. The sets $Op$, $\Sigma$ and $\{t, f\}$ are pairwise disjoint. $\Sigma$ is called the signature and its elements are the proposition variables. The set of propositional logic formulas is now recursively defined:
-\begin{itemize}
-  \item $t$ and $f$ are (atomic) formulas.
-  \item All proposition variables, that is all elements from $\Sigma$, are (atomic) formulas.
-  \item If $A$ and $B$ are formulas, then $\neg A$, $(A)$, $A \wedge B$, $A \vee B$, $A \Rightarrow B$, $A \Leftrightarrow B$ are also formulas.
-\end{itemize}
-
-This elegant recursive definition of the set of all formulas allows us to generate infinitely many formulas. For example, given $\Sigma=\{A, B, C\}$,
-\[
-A \wedge B, \quad A \wedge B \wedge C, \quad A \wedge A \wedge A, \quad C \wedge B \vee A, \quad (\neg A \wedge B) \Rightarrow (\neg C \vee A)
-\]
-are formulas. $(((A)) \vee B)$ is also a syntactically correct formula.
-
-Definition 2.2 We read the symbols and operators in the following way:
-\begin{center}
-\begin{tabular}{lll}
-$t$ & ``true'' & \\
-$f$ & ``false'' & \\
-$\neg A$ & ``not $A$'' & (negation) \\
-$A \wedge B$ & ``$A$ and $B$'' & (conjunction) \\
-$A \vee B$ & ``$A$ or $B$'' & (disjunction) \\
-$A \Rightarrow B$ & ``if $A$ then $B$'' & (implication (also called material implication)) \\
-$A \Leftrightarrow B$ & ``$A$ if and only if $B$'' & (equivalence) \\
-\end{tabular}
-\end{center}
-
-The formulas defined in this way are so far purely syntactic constructions without meaning. We are still missing the semantics.
-
-\subsection{Semantics}
-In propositional logic there are two truth values: $t$ for ``true'' and $f$ for ``false''. We begin with an example and ask ourselves whether the formula $A \wedge B$ is true. The answer is: it depends on whether the variables $A$ and $B$ are true. For example, if $A$ stands for ``It is raining today'' and $B$ for ``It is cold today'' and these are both true, then $A \wedge B$ is true. If, however, $B$ represents ``It is hot today'' (and this is false), then $A \wedge B$ is false.
-
-We must obviously assign truth values that reflect the state of the world to proposition variables. Therefore we define
-\begin{displayquote}
-Definition 2.3 A mapping $I: \Sigma \rightarrow \{t, f\}$, which assigns a truth value to every proposition variable, is called an interpretation.
-\end{displayquote}
-
-Because every proposition variable can take on two truth values, every propositional logic formula with $n$ different variables has $2^{n}$ different interpretations. We define the truth values for the basic operations by showing all possible interpretations in a truth table (see Table 2.1 on page 25).
-
-Table 2.1 Definition of the logical operators by truth table
-%---- Page End Break Here ---- Page : 30
-\begin{center}
-\begin{tabular}{llllllll}
-\hline
-$A$ & $B$ & $(A)$ & $\neg A$ & $A \wedge B$ & $A \vee B$ & $A \Rightarrow B$ & $A \Leftrightarrow B$ \\
-\hline
-$t$ & $t$ & $t$ & $f$ & $t$ & $t$ & $t$ & $t$ \\
-\hline
-$t$ & $f$ & $t$ & $f$ & $f$ & $t$ & $f$ & $f$ \\
-\hline
-$f$ & $t$ & $f$ & $t$ & $f$ & $t$ & $t$ & $f$ \\
-\hline
-$f$ & $f$ & $f$ & $t$ & $f$ & $f$ & $t$ & $t$ \\
-\hline
-\end{tabular}
-\end{center}
-
-The empty formula is true for all interpretations. In order to determine the truth value for complex formulas, we must also define the order of operations for logical operators. If expressions are parenthesized, the term in the parentheses is evaluated first. For unparenthesized formulas, the priorities are ordered as follows, beginning with the strongest binding: $\neg, \wedge, \vee, \Rightarrow, \Leftrightarrow$.
-
-To clearly differentiate between the equivalence of formulas and syntactic equivalence, we define
-
-Definition 2.4 Two formulas $F$ and $G$ are called semantically equivalent if they take on the same truth value for all interpretations. We write $F \equiv G$.
-
-Semantic equivalence serves above all to be able to use the meta-language, that is, natural language, to talk about the object language, namely logic. The statement " $A \equiv B$ " conveys that the two formulas $A$ and $B$ are semantically equivalent. The statement " $A \Leftrightarrow B$ " on the other hand is a syntactic object of the formal language of propositional logic.
-
-According to the number of interpretations in which a formula is true, we can divide formulas into the following classes:
-
-Definition 2.5 A formula is called
-
-\begin{itemize}
-  \item Satisfiable if it is true for at least one interpretation.
-  \item Logically valid or simply valid if it is true for all interpretations. True formulas are also called tautologies.
-  \item Unsatisfiable if it is not true for any interpretation.
-\end{itemize}
-
-Every interpretation that satisfies a formula is called a model of the formula.
-
-Clearly the negation of every generally valid formula is unsatisfiable. The negation of a satisfiable, but not generally valid formula $F$ is satisfiable.
-
-We are now able to create truth tables for complex formulas to ascertain their truth values. We put this into action immediately using equivalences of formulas which are important in practice.
-
-Theorem 2.1 The operations $\wedge, \vee$ are commutative and associative, and the following equivalences are generally valid:
-
-$$
-\begin{array}{rlrlrl}
-\neg A \vee B & & \Leftrightarrow & A \Rightarrow B & & \text{(\emph{implication})} \\
-A \Rightarrow B & & \Leftrightarrow & \neg B \Rightarrow \neg A & & \text{(\emph{contraposition})} \\
-(A \Rightarrow B) \wedge(B \Rightarrow A) & & \Leftrightarrow & (A \Leftrightarrow B) & & \text{(\emph{equivalence})} \\
-\neg(A \wedge B) & & \Leftrightarrow & \neg A \vee \neg B & & \text{(\emph{De Morgan's law})} \\
-\neg(A \vee B) & & \Leftrightarrow & \neg A \wedge \neg B & & \\
-A \vee(B \wedge C) & & \Leftrightarrow & (A \vee B) \wedge(A \vee C) & & \text{(\emph{distributive law})} \\
-A \wedge(B \vee C) & & \Leftrightarrow & (A \wedge B) \vee(A \wedge C) & & \\
-A \vee \neg A & & \Leftrightarrow & w & & \text{(\emph{tautology})} \\
-A \wedge \neg A & & \Leftrightarrow & f & \text{(\emph{contradiction})} \\
-A \vee f & & \Leftrightarrow A & & \\
-A \vee w & & \Leftrightarrow w & & \\
-A \wedge f & & \Leftrightarrow f & & \\
-A \wedge w & & \Leftrightarrow A & &
-\end{array}
-$$
-
-Proof To show the first equivalence, we calculate the truth table for $\neg A \vee B$ and $A \Rightarrow B$ and see that the truth values for both formulas are the same for all interpretations. The formulas are therefore equivalent, and thus all the values of the last column are " $t$ "s.
-
-\begin{center}
-\begin{tabular}{llllll}
-\hline
-$A$ & $B$ & $\neg A$ & $\neg A \vee B$ & $A \Rightarrow B$ & $(\neg A \vee B) \Leftrightarrow(A \Rightarrow B)$ \\
-\hline
-$t$ & $t$ & $f$ & $t$ & $t$ & $t$ \\
-\hline
-$t$ & $f$ & $f$ & $f$ & $f$ & $t$ \\
-\hline
-$f$ & $t$ & $t$ & $t$ & $t$ & $t$ \\
-\hline
-$f$ & $f$ & $t$ & $t$ & $t$ & $t$ \\
-\hline
-\end{tabular}
-\end{center}
-
-The proofs for the other equivalences are similar and are recommended as exercises for the reader (Exercise 2.2 on page 37).
-
-\subsection{Proof Systems}
-In AI we are interested in taking existing knowledge and from that deriving new knowledge or answering questions. In propositional logic this means showing that a knowledge base KB-that is, a (possibly extensive) propositional logic formulaa formula $Q^{1}$ follows. Thus, we first define the term "entailment".
-
-\footnotetext{${ }^{1}$ Here $Q$ stands for query.
-}Definition 2.6 A formula $K B$ entails a formula $Q$ (or $Q$ follows from $K B$ ) if every model of $K B$ is also a model of $Q$. We write $K B \models Q$.
-
-In other words, in every interpretation in which $K B$ is true, $Q$ is also true. More succinctly, whenever $K B$ is true, $Q$ is also true. Because, for the concept of entailment, interpretations of variables are brought in, we are dealing with a semantic concept.
-
-Every formula that is not valid chooses so to speak a subset of the set of all interpretations as its model. Tautologies such as $A \vee \neg A$, for example, do not restrict the number of satisfying interpretations because their proposition is empty. The empty formula is therefore true in all interpretations. For every tautology $T$ then $\emptyset \models T$. Intuitively this means that tautologies are always true, without restriction of the interpretations by a formula. For short we write $\models T$. Now we show an important connection between the semantic concept of entailment and syntactic implication.
-
-Theorem 2.2 (Deduktionstheorem)
-
-$$
-A \models B \text { if and only if } \models A \Rightarrow B \text {. }
-$$
-
-Proof Observe the truth table for implication:
-
-\begin{center}
-\begin{tabular}{lll}
-\hline
-$A$ & $B$ & $A \Rightarrow B$ \\
-\hline
-$t$ & $t$ & $t$ \\
-\hline
-$t$ & $f$ & $f$ \\
-\hline
-$f$ & $t$ & $t$ \\
-\hline
-$f$ & $f$ & $t$ \\
-\hline
-\end{tabular}
-\end{center}
-
-An arbitrary implication $A \Rightarrow B$ is clearly always true except with the interpretation $A \longmapsto t, B \longmapsto f$. Assume that $A \models B$ holds. This means that for every interpretation that makes $A$ true, $B$ is also true. The critical second row of the truth table does not even apply in that case. Therefore $A \Rightarrow B$ is true, which means that $A \Rightarrow B$ is a tautology. Thus one direction of the statement has been shown.
-
-Now assume that $A \Rightarrow B$ holds. Thus the critical second row of the truth table is also locked out. Every model of $A$ is then also a model of $B$. Then $A \models B$ holds.
-
-If we wish to show that $K B$ entails $Q$, we can also demonstrate by means of the truth table method that $K B \Rightarrow Q$ is a tautology. Thus we have our first proof system for propositional logic, which is easily automated. The disadvantage of this method is the very long computation time in the worst case. Specifically, in the worst case\\
-with $n$ proposition variables, for all $2^{n}$ interpretations of the variables the formula $K B \Rightarrow Q$ must be evaluated. The computation time grows therefore exponentially with the number of variables. Therefore this process is unusable for large variable counts, at least in the worst case.
-%---- Page End Break Here ---- Page : 33
-If a formula $KB$ entails a formula $Q$, then by the deduction theorem $KB \Rightarrow Q$ is a tautology. Therefore the negation $\neg(KB \Rightarrow Q)$ is unsatisfiable. We have
-$$
-\neg(KB \Rightarrow Q) \equiv \neg(\neg KB \vee Q) \equiv KB \wedge \neg Q.
-$$
-Therefore, $KB \wedge \neg Q$ is also unsatisfiable. We formulate this simple, but important consequence of the deduction theorem as a theorem.
-
-Theorem 2.3 (Proof by contradiction) $KB \models Q$ if and only if $KB \wedge \neg Q$ is unsatisfiable.
-
-To show that the query $Q$ follows from the knowledge base $KB$, we can also add the negated query $\neg Q$ to the knowledge base and derive a contradiction. Because of the equivalence $A \wedge \neg A \Leftrightarrow f$ from Theorem 2.1 on page 26 we know that a contradiction is unsatisfiable. Therefore, $Q$ has been proved. This procedure, which is frequently used in mathematics, is also used in various automatic proof calculi such as the resolution calculus and in the processing of PROLOG programs.
-
-One way of avoiding having to test all interpretations with the truth table method is the syntactic manipulation of the formulas $KB$ and $Q$ by application of inference rules with the goal of greatly simplifying them, such that in the end we can instantly see that $KB \models Q$. We call this syntactic process derivation and write $KB \vdash Q$. Such syntactic proof systems are called calculi. To ensure that a calculus does not generate errors, we define two fundamental properties of calculi.
-
-Definition 2.7 A calculus is called sound if every derived proposition follows semantically. That is, if it holds for formulas $KB$ and $Q$ that
-$$
-\text{if } KB \vdash Q \text{ then } KB \models Q.
-$$
-A calculus is called complete if all semantic consequences can be derived. That is, for formulas $KB$ and $Q$ the following holds:
-$$
-\text{if } KB \models Q \text{ then } KB \vdash Q.
-$$
-The soundness of a calculus ensures that all derived formulas are in fact semantic consequences of the knowledge base. The calculus does not produce any "false consequences". The completeness of a calculus, on the other hand, ensures that the calculus does not overlook anything. A complete calculus always finds a proof if
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=\textwidth]{2025_05_12_af19cd5e0d1b8a465ffeg-035}
-\caption{Syntactic derivation and semantic entailment. $\operatorname{Mod}(X)$ represents the set of models of a formula $X$.}
-\end{figure}
-%---- Page End Break Here ---- Page : 34
-the formula to be proved follows from the knowledge base. If a calculus is sound and complete, then syntactic derivation and semantic entailment are two equivalent relations (see Fig. 2.1).
-
-To keep automatic proof systems as simple as possible, these are usually made to operate on formulas in conjunctive normal form.
-
-Definition 2.8 A formula is in conjunctive normal form (CNF) if and only if it consists of a conjunction
-$$
-K_{1} \wedge K_{2} \wedge \cdots \wedge K_{m}
-$$
-of clauses. A clause $K_{i}$ consists of a disjunction
-$$
-\left(L_{i 1} \vee L_{i 2} \vee \cdots \vee L_{i n_{i}}\right)
-$$
-of literals. Finally, a literal is a variable (positive literal) or a negated variable (negative literal).
-
-The formula $(A \vee B \vee \neg C) \wedge(A \vee B) \wedge(\neg B \vee \neg C)$ is in conjunctive normal form. The conjunctive normal form does not place a restriction on the set of formulas because:
-
-Theorem 2.4 Every propositional logic formula can be transformed into an equivalent conjunctive normal form.
-
-Example 2.1 We put $A \vee B \Rightarrow C \wedge D$ into conjunctive normal form by using the equivalences from Theorem 2.1 on page 26:
-$$
-\begin{aligned}
-A & \vee B \Rightarrow C \wedge D & & \\
-& \equiv \neg(A \vee B) \vee(C \wedge D) & & \text { (implication) } \\
-& \equiv(\neg A \wedge \neg B) \vee(C \wedge D) & & \text { (de Morgan) } \\
-& \equiv(\neg A \vee(C \wedge D)) \wedge(\neg B \vee(C \wedge D)) & & \text { (distributive law) } \\
-& \equiv((\neg A \vee C) \wedge(\neg A \vee D)) \wedge((\neg B \vee C) \wedge(\neg B \vee D)) & & \text { (distributive law) } \\
-& \equiv(\neg A \vee C) \wedge(\neg A \vee D) \wedge(\neg B \vee C) \wedge(\neg B \vee D) & & \text { (associative law) }
-\end{aligned}
-$$
-
-We are now only missing a calculus for syntactic proof of propositional logic formulas. We start with the modus ponens, a simple, intuitive rule of inference, which, from the validity of $A$ and $A \Rightarrow B$, allows the derivation of $B$. We write this formally as
-$$
-\frac{A, \quad A \Rightarrow B}{B} .
-$$
-This notation means that we can derive the formula(s) below the line from the comma-separated formulas above the line. Modus ponens as a rule by itself, while sound, is not complete. If we add additional rules we can create a complete calculus, which, however, we do not wish to consider here. Instead we will investigate the resolution rule
-\begin{equation*}
-\frac{A \vee B, \quad \neg B \vee C}{A \vee C} \tag{2.1}
-\end{equation*}
-as an alternative. The derived clause is called resolvent. Through a simple transformation we obtain the equivalent form
-$$
-\frac{A \vee B, \quad B \Rightarrow C}{A \vee C} .
-$$
-If we set $A$ to $f$, we see that the resolution rule is a generalization of the modus ponens. The resolution rule is equally usable if $C$ is missing or if $A$ and $C$ are missing. In the latter case the empty clause can be derived from the contradiction $B \wedge \neg B$ (Exercise 2.7 on page 38).
-
-\subsection{Resolution}
-We now generalize the resolution rule again by allowing clauses with an arbitrary number of literals. With the literals $A_{1}, \ldots, A_{m}, B, C_{1}, \ldots, C_{n}$ the general resolution rule reads
-\begin{equation*}
-\frac{\left(A_{1} \vee \cdots \vee A_{m} \vee B\right), \quad\left(\neg B \vee C_{1} \vee \cdots \vee C_{n}\right)}{\left(A_{1} \vee \cdots \vee A_{m} \vee C_{1} \vee \cdots \vee C_{n}\right)} . \tag{2.2}
-\end{equation*}
-We call the literals $B$ and $\neg B$ complementary. The resolution rule deletes a pair of complementary literals from the two clauses and combines the rest of the literals into a new clause.
-%---- Page End Break Here ---- Page : 36
-To prove that from a knowledge base $K B$, a query $Q$ follows, we carry out a proof by contradiction. Following Theorem 2.3 on page 28 we must show that a contradiction can be derived from $K B \wedge \neg Q$. In formulas in conjunctive normal form, a contradiction appears in the form of two clauses $(A)$ and $(\neg A)$, which lead to the empty clause as their resolvent. The following theorem ensures us that this process really works as desired.
-
-For the calculus to be complete, we need a small addition, as shown by the following example. Let the formula ( $A \vee A$ ) be given as our knowledge base. To show by the resolution rule that from there we can derive ( $A \wedge A$ ), we must show that the empty clause can be derived from $(A \vee A) \wedge(\neg A \vee \neg A)$. With the resolution rule alone, this is impossible. With factorization, which allows deletion of copies of literals from clauses, this problem is eliminated. In the example, a double application of factorization leads to $(A) \wedge(\neg A)$, and a resolution step to the empty clause.
-
-\begin{displayquote}
-Theorem 2.5 The resolution calculus for the proof of unsatisfiability of formulas in conjunctive normal form is sound and complete.
-\end{displayquote}
-
-Because it is the job of the resolution calculus to derive a contradiction from $K B \wedge \neg Q$, it is very important that the knowledge base $K B$ is consistent:
-
-Definition 2.9 A formula $K B$ is called consistent if it is impossible to derive from it a contradiction, that is, a formula of the form $\phi \wedge \neg \phi$.
-
-Otherwise anything can be derived from $K B$ (see Exercise 2.8 on page 38). This is true not only of resolution, but also for many other calculi.
-
-Of the calculi for automated deduction, resolution plays an exceptional role. Thus we wish to work a bit more closely with it. In contrast to other calculi, resolution has only two inference rules, and it works with formulas in conjunctive normal form. This makes its implementation simpler. A further advantage compared to many calculi lies in its reduction in the number of possibilities for the application of inference rules in every step of the proof, whereby the search space is reduced and computation time decreased.
-
-As an example, we start with a simple logic puzzle that allows the important steps of a resolution proof to be shown.
-
-Example 2.2 Logic puzzle number 7, entitled $A$ charming English family, from the German book [\cite{berrondo1989fallgruben}] reads (translated to English):
-%---- Page End Break Here ---- Page : 37
-Despite studying English for seven long years with brilliant success, I must admit that when I hear English people speaking English I'm totally perplexed. Recently, moved by noble feelings, I picked up three hitchhikers, a father, mother, and daughter, who I quickly realized were English and only spoke English. At each of the sentences that follow I wavered between two possible interpretations. They told me the following (the second possible meaning is in parentheses): The father: "We are going to Spain (we are from Newcastle)." The mother: "We are not going to Spain and are from Newcastle (we stopped in Paris and are not going to Spain)." The daughter: "We are not from Newcastle (we stopped in Paris)." What about this charming English family?
-
-To solve this kind of problem we proceed in three steps: formalization, transformation into normal form, and proof. In many cases formalization is by far the most difficult step because it is easy to make mistakes or forget small details. (Thus practical exercise is very important. See Exercises 2.9-2.11 on page 38.)
-
-Here we use the variables $S$ for "We are going to Spain", $N$ for "We are from Newcastle", and $P$ for "We stopped in Paris" and obtain as a formalization of the three propositions of father, mother, and daughter
-
-$$
-(S \vee N) \wedge[(\neg S \wedge N) \vee(P \wedge \neg S)] \wedge(\neg N \vee P) .
-$$
-
-Factoring out $\neg S$ in the middle sub-formula brings the formula into CNF in one step. Numbering the clauses with subscripted indices yields
-
-$$
-K B \equiv(S \vee N)_{1} \wedge(\neg S)_{2} \wedge(P \vee N)_{3} \wedge(\neg N \vee P)_{4} .
-$$
-
-Now we begin the resolution proof, at first still without a query $Q$. An expression of the form " $\operatorname{Res}(m, n)$ : $\langle\text { clause }\rangle_{k}$ " means that $\langle$ clause $\rangle$ is obtained by resolution of clause $m$ with clause $n$ and is numbered $k$.
-
-$$
-\begin{array}{ll}
-\operatorname{Res}(1,2): & (N)_{5} \\
-\operatorname{Res}(3,4): & (P)_{6} \\
-\operatorname{Res}(1,4): & (S \vee P)_{7}
-\end{array}
-$$
-
-We could have derived clause $P$ also from $\operatorname{Res}(4,5)$ or $\operatorname{Res}(2,7)$. Every further resolution step would lead to the derivation of clauses that are already available. Because it does not allow the derivation of the empty clause, it has therefore been shown that the knowledge base is non-contradictory. So far we have derived $N$ and $P$. To show that $\neg S$ holds, we add the clause $(S)_{8}$ to the set of clauses as a negated query. With the resolution step
-
-$$
-\operatorname{Res}(2,8): \quad()_{9}
-$$
-
-the proof is complete. Thus $\neg S \wedge N \wedge P$ holds. The "charming English family" evidently comes from Newcastle, stopped in Paris, but is not going to Spain.
-
-Example 2.3 Logic puzzle number 28 from [Ber89], entitled The High Jump, reads\\
-%---- Page End Break Here ---- Page : 38
-Three girls practice high jump for their physical education final exam. The bar is set to 1.20 meters. ``I bet'', says the first girl to the second, ``that I will make it over if, and only if, you don't''. If the second girl said the same to the third, who in turn said the same to the first, would it be possible for all three to win their bets?
-
-We show through proof by resolution that not all three can win their bets.\\
-Formalization:
-
-The first girl's jump succeeds: $A, \quad$ First girl's bet: $(A \Leftrightarrow \neg B)$,\\
-the second girl's jump succeeds: $B, \quad$ second girl's bet: $(B \Leftrightarrow \neg C)$,\\
-the third girl's jump succeeds: $C. \quad$ third girl's bet: $(C \Leftrightarrow \neg A)$.\\
-Claim: the three cannot all win their bets:
-
-$$
-Q \equiv \neg\big((A \Leftrightarrow \neg B) \wedge (B \Leftrightarrow \neg C) \wedge (C \Leftrightarrow \neg A)\big)
-$$
-
-It must now be shown by resolution that $\neg Q$ is unsatisfiable.\\
-Transformation into CNF: First girl's bet:
-
-$$
-(A \Leftrightarrow \neg B) \equiv (A \Rightarrow \neg B) \wedge (\neg B \Rightarrow A) \equiv (\neg A \vee \neg B) \wedge (A \vee B)
-$$
-
-The bets of the other two girls undergo analogous transformations, and we obtain the negated claim
-
-$$
-\begin{aligned}
-\neg Q \equiv & \;(\neg A \vee \neg B)_{1} \wedge (A \vee B)_{2} \wedge (\neg B \vee \neg C)_{3} \wedge (B \vee C)_{4} \wedge (\neg C \vee \neg A)_{5} \\
-& \wedge (C \vee A)_{6}\, .
-\end{aligned}
-$$
-
-From there we derive the empty clause using resolution:
-
-$$
-\begin{array}{ll}
-\operatorname{Res}(1,6): & (C \vee \neg B)_{7} \\
-\operatorname{Res}(4,7): & (C)_{8} \\
-\operatorname{Res}(2,5): & (B \vee \neg C)_{9} \\
-\operatorname{Res}(3,9): & (\neg C)_{10} \\
-\operatorname{Res}(8,10): & ()
-\end{array}
-$$
-
-Thus the claim has been proved.
-
-\subsection{Horn Clauses}
-A clause in conjunctive normal form contains positive and negative literals and can be represented in the form
-
-$$
-\bigl(\neg A_{1} \vee \cdots \vee \neg A_{m} \vee B_{1} \vee \cdots \vee B_{n}\bigr)
-$$
-
-with the variables $A_{1}, \ldots, A_{m}$ and $B_{1}, \ldots, B_{n}$. This clause can be transformed in two simple steps into the equivalent form
-
-$$
-A_{1} \wedge \cdots \wedge A_{m} \Rightarrow B_{1} \vee \cdots \vee B_{n}\, .
-$$
-
-This implication contains the premise, a conjunction of variables and the conclusion, a disjunction of variables. For example, ``If the weather is nice and there is snow on the ground, I will go skiing or I will work.'' is a proposition of this form. The receiver of this message knows for certain that the sender is not going swimming. A significantly clearer statement would be ``If the weather is nice and there is snow on the ground, I will go skiing.''. The receiver now has definite information. Thus we call clauses with at most one positive literal definite clauses. These clauses have the advantage that they only allow one conclusion and are thus distinctly simpler to interpret. Many relations can be described by clauses of this type. We therefore define
-
-Definition 2.10 Clauses with at most one positive literal of the form
-
-$$
-\bigl(\neg A_{1} \vee \cdots \vee \neg A_{m} \vee B\bigr) \quad \text{or} \quad \bigl(\neg A_{1} \vee \cdots \vee \neg A_{m}\bigr) \quad \text{or} \quad B
-$$
-
-or (equivalently)
-
-$$
-A_{1} \wedge \cdots \wedge A_{m} \Rightarrow B \quad \text{or} \quad A_{1} \wedge \cdots \wedge A_{m} \Rightarrow f \quad \text{or} \quad B
-$$
-
-are named Horn clauses (after their inventor). A clause with a single positive literal is a fact. In clauses with negative and one positive literal, the positive literal is called the head.
-
-To better understand the representation of Horn clauses, the reader may derive them from the definitions of the equivalences we have currently been using (Exercise 2.12 on page 38).
-
-Horn clauses are easier to handle not only in daily life, but also in formal reasoning, as we can see in the following example. Let the knowledge base consist of the following clauses (the ``$\wedge$'' binding the clauses is left out here and in the text that follows):
-
-\[
-\begin{array}{l}
-(\text{nice\_weather})_{1} \\
-(\text{snowfall})_{2} \\
-(\text{snowfall} \Rightarrow \text{snow})_{3} \\
-(\text{nice\_weather} \wedge \text{snow} \Rightarrow \text{skiing})_{4}
-\end{array}
-\]
-
-If we now want to know whether skiing holds, this can easily be derived. A slightly generalized modus ponens suffices here as an inference rule:
-
-$$
-\frac{A_{1} \wedge \cdots \wedge A_{m}, \quad A_{1} \wedge \cdots \wedge A_{m} \Rightarrow B}{B}\, .
-$$
-
-The proof of ``skiing'' has the following form ($\mathrm{MP}(i_{1}, \ldots, i_{k})$ represents application of the modus ponens on clauses $i_{1}$ to $i_{k}$):
-
-$$
-\begin{array}{ll}
-\operatorname{MP}(2,3): & (\text{snow})_{5} \\
-\operatorname{MP}(1,5,4): & (\text{skiing})_{6}\, .
-\end{array}
-$$
-
-With modus ponens we obtain a complete calculus for formulas that consist of propositional logic Horn clauses. In the case of large knowledge bases, however, modus ponens can derive many unnecessary formulas if one begins with the wrong clauses. Therefore, in many cases it is better to use a calculus that starts with the query and works backward until the facts are reached. Such systems are designated backward chaining, in contrast to forward chaining systems, which start with facts and finally derive the query, as in the above example with the modus ponens.
-
-For backward chaining of Horn clauses, SLD resolution is used. SLD stands for ``Selection rule driven linear resolution for definite clauses''. In the above example, augmented by the negated query $(\text{skiing} \Rightarrow f)$
-
-\[
-\begin{array}{l}
-(\text{nice\_weather})_{1} \\
-(\text{snowfall})_{2} \\
-(\text{snowfall} \Rightarrow \text{snow})_{3} \\
-(\text{nice\_weather} \wedge \text{snow} \Rightarrow \text{skiing})_{4} \\
-(\text{skiing} \Rightarrow f)_{5}
-\end{array}
-\]
-
-we carry out SLD resolution beginning with the resolution steps that follow from this clause
-
-$$
-\begin{array}{ll}
-\operatorname{Res}(5,4): & (\text{nice\_weather} \wedge \text{snow} \Rightarrow f)_{6} \\
-\operatorname{Res}(6,1): & (\text{snow} \Rightarrow f)_{7} \\
-\operatorname{Res}(7,3): & (\text{snowfall} \Rightarrow f)_{8} \\
-\operatorname{Res}(8,2): & ()
-\end{array}
-$$
-
-and derive a contradiction with the empty clause. Here we can easily see ``linear resolution'', which means that further processing is always done on the currently derived clause. This leads to a great reduction of the search space. Furthermore, the\\
-literals of the current clause are always processed in a fixed order (for example, from right to left) (``Selection rule driven''). The literals of the current clause are called subgoal. The literals of the negated query are the goals. The inference rule for one step reads
-%---- Page End Break Here ---- Page : 41
-$$
-\frac{A_{1} \wedge \cdots \wedge A_{m} \Rightarrow B_{1}, \quad B_{1} \wedge B_{2} \wedge \cdots \wedge B_{n} \Rightarrow f}{A_{1} \wedge \cdots \wedge A_{m} \wedge B_{2} \wedge \cdots \wedge B_{n} \Rightarrow f} .
-$$
-
-Before application of the inference rule, $B_{1}, B_{2}, \ldots, B_{n}$-the current subgoals-must be proved. After the application, $B_{1}$ is replaced by the new subgoal $A_{1} \wedge \cdots \wedge A_{m}$. To show that $B_{1}$ is true, we must now show that $A_{1} \wedge \cdots \wedge A_{m}$ are true. This process continues until the list of subgoals of the current clauses (the so-called goal stack) is empty. With that, a contradiction has been found. If, for a subgoal $\neg B_{i}$, there is no clause with the complementary literal $B_{i}$ as its clause head, the proof terminates and no contradiction can be found. The query is thus unprovable.
-
-SLD resolution plays an important role in practice because programs in the logic programming language PROLOG consist of predicate logic Horn clauses, and their processing is achieved by means of SLD resolution (see Exercise 2.13 on page 38, or Chap. 5).
-
-\subsection{Computability and Complexity}
-The truth table method, as the simplest semantic proof system for propositional logic, represents an algorithm that can determine every model of any formula in finite time. Thus the sets of unsatisfiable, satisfiable, and valid formulas are decidable. The computation time of the truth table method for satisfiability grows in the worst case exponentially with the number $n$ of variables because the truth table has $2^{n}$ rows. An optimization, the method of semantic trees, avoids looking at variables that do not occur in clauses, and thus saves computation time in many cases, but in the worst case it is likewise exponential.
-
-In resolution, in the worst case the number of derived clauses grows exponentially with the number of initial clauses. To decide between the two processes, we can therefore use the rule of thumb that in the case of many clauses with few variables, the truth table method is preferable, and in the case of few clauses with many variables, resolution will probably finish faster.
-
-The question remains: can proof in propositional logic go faster? Are there better algorithms? The answer: probably not. After all, S. Cook, the founder of complexity theory, has shown that the 3-SAT problem is NP-complete. 3-SAT is the set of all CNF formulas whose clauses have exactly three literals. Thus it is clear that there is probably (modulo the P/NP problem) no polynomial algorithm for 3-SAT, and thus probably not a general one either. For Horn clauses, however, there is an algorithm in which the computation time for testing satisfiability grows only linearly as the number of literals in the formula increases.
-
-\subsection{Applications and Limitations}
-Theorem provers for propositional logic are part of the developer's everyday toolset in digital technology. For example, the verification of digital circuits and the generation of test patterns for testing of microprocessors in fabrication are some of these tasks. Special proof systems that work with binary decision diagrams (BDD) are also employed as a data structure for processing propositional logic formulas.
-%---- Page End Break Here ---- Page : 42
-In AI, propositional logic is employed in simple applications. For example, simple expert systems can certainly work with propositional logic. However, the variables must all be discrete, with only a few values, and there may not be any cross-relations between variables. Complex logical connections can be expressed much more elegantly using predicate logic.
-
-Probabilistic logic is a very interesting and current combination of propositional logic and probabilistic computation that allows modeling of uncertain knowledge. It is handled thoroughly in Chap. 7.
-
-\subsection{Exercises}
-\#7 Exercise 2.1 Give a Backus-Naur form grammar for the syntax of propositional logic.
-
-Exercise 2.2 Show that the following formulas are tautologies:\\
-(a) $\neg(A \wedge B) \Leftrightarrow \neg A \vee \neg B$\\
-(b) $A \Rightarrow B \Leftrightarrow \neg B \Rightarrow \neg A$\\
-(c) $((A \Rightarrow B) \wedge(B \Rightarrow A)) \Leftrightarrow(A \Leftrightarrow B)$\\
-(d) $(A \vee B) \wedge(\neg B \vee C) \Rightarrow(A \vee C)$
-
-Exercise 2.3 Transform the following formulas into conjunctive normal form:\\
-(a) $A \Leftrightarrow B$\\
-(b) $A \wedge B \Leftrightarrow A \vee B$\\
-(c) $A \wedge(A \Rightarrow B) \Rightarrow B$
-
-Exercise 2.4 Check the following statements for satisfiability or validity.\\
-(a) $(\text{play\_lottery} \wedge \text{six\_right}) \Rightarrow \text{winner}$\\
-(b) $(\text{play\_lottery} \wedge \text{six\_right} \wedge (\text{six\_right} \Rightarrow \text{win})) \Rightarrow \text{win}$\\
-(c) $\neg(\neg\,\text{gas\_in\_tank} \wedge (\text{gas\_in\_tank} \vee \neg\,\text{car\_starts}) \Rightarrow \neg\,\text{car\_starts})$
-
-Exercise 2.5 Using the programming language of your choice, program a theorem prover for propositional logic using the truth table method for formulas in conjunctive normal form. To avoid a costly syntax check of the formulas, you may represent clauses as lists or sets of literals, and the formulas as lists or sets of clauses. The program should indicate whether the formula is unsatisfiable, satisfiable, or true, and output the number of different interpretations and models.
-
-\section{Exercise}
-(a) Show that modus ponens is a valid inference rule by showing that $A \wedge(A \Rightarrow B) \models B$.\\
-%---- Page End Break Here ---- Page : 43
-(b) Show that the resolution rule (2.1) is a valid inference rule.
-
-\begin{itemize}
-  \item Exercise 2.7 Show by application of the resolution rule that, in conjunctive normal form, the empty clause is equivalent to the false statement.
-  \item Exercise 2.8 Show that, with resolution, one can "derive" any arbitrary clause from a knowledge base that contains a contradiction.
-\end{itemize}
-
-Exercise 2.9 Formalize the following logical functions with the logical operators and show that your formula is valid. Present the result in CNF.\\
-(a) The XOR operation (exclusive or) between two variables.\\
-(b) The statement at least two of the three variables $A, B, C$ are true.
-
-\begin{itemize}
-  \item Exercise 2.10 Solve the following case with the help of a resolution proof: "If the criminal had an accomplice, then he came in a car. The criminal had no accomplice and did not have the key, or he had the key and an accomplice. The criminal had the key. Did the criminal come in a car or not?"
-\end{itemize}
-
-Exercise 2.11 Show by resolution that the formula from\\
-(a) Exercise 2.2(d) is a tautology.\\
-(b) Exercise 2.4(c) is unsatisfiable.
-
-Exercise 2.12 Prove the following equivalences, which are important for working with Horn clauses:\\
-(a) $\left(\neg A_{1} \vee \cdots \vee \neg A_{m} \vee B\right) \equiv A_{1} \wedge \cdots \wedge A_{m} \Rightarrow B$\\
-(b) $\left(\neg A_{1} \vee \cdots \vee \neg A_{m}\right) \equiv A_{1} \wedge \cdots \wedge A_{m} \Rightarrow f$\\
-(c) $A \equiv w \Rightarrow A$
-
-Exercise 2.13 Show by SLD resolution that the following Horn clause set is unsatisfiable.
-
-\begin{center}
-\begin{tabular}{lll}
-$(A)_{1}$ & $(D)_{4}$ & $(A \wedge D \Rightarrow G)_{7}$ \\
-$(B)_{2}$ & $(E)_{5}$ & $(C \wedge F \wedge E \Rightarrow H)_{8}$ \\
-$(C)_{3}$ & $(A \wedge B \wedge C \Rightarrow F)_{6}$ & $(H \Rightarrow f)_{9}$ \\
-\end{tabular}
-\end{center}
-
-\# $\rightarrow$ Exercise 2.14 In Sect. 2.6 it says: "Thus it is clear that there is probably (modulo the P/NP problem) no polynomial algorithm for 3-SAT, and thus probably not a general one either." Justify the "probably" in this sentence.
-
-\subsection{First-order Predicate Logic}
+\chapter{First-order Predicate Logic}
 Many practical, relevant problems cannot be or can only very inconveniently be formulated in the language of propositional logic, as we can easily recognize in the following example. The statement
 %---- Page End Break Here ---- Page : 44
 \begin{displayquote}
@@ -1040,7 +112,7 @@ Position(number, xPosition, yPosition). The above relation must no longer be enu
 Where $\forall u$ is read as ``for every $u$'' and $\exists v$ as ``there exists $v$''.
 In this chapter we will define the syntax and semantics of first-order predicate logic (PL1), show that many applications can be modeled with this language and that there is a complete and sound calculus for this language.
 
-\subsection{Syntax}
+\section{Syntax}
 First we solidify the syntactic structure of terms.
 
 Definition 3.1 Let $V$ be a set of variables, $K$ a set of constants, and $F$ a set of function symbols. The sets $V, K$ and $F$ are pairwise disjoint. We define the set of terms recursively:
@@ -1108,7 +180,7 @@ $\forall x\, \forall y\, \forall z\, ((\operatorname{rel}(x,y) \wedge \operatorn
 %---- Page End Break Here ---- Page : 47
 In Table 3.1 several examples of PL1 formulas are given along with their intuitive interpretations.
 
-\subsection{Semantics}
+\section{Semantics}
 In propositional logic, every variable is directly assigned a truth value by an interpretation. In predicate logic, the meaning of formulas is recursively defined over the construction of the formula, in that we first assign constants, variables, and function symbols to objects in the real world.
 
 Definition 3.3 An interpretation II is defined as
@@ -1261,7 +333,7 @@ Definition 3.5 We write $\varphi[x / t]$ for the formula that results when we re
 
 Example 3.3 If, in the formula $\forall x \ x=y$, the free variable $y$ is replaced by the term $x+1$, the result is $\forall x \ x=x+1$. With correct substitution we obtain the formula $\forall x \ x=y+1$, which has a very different semantic.
 
-\subsection{Quantifiers and Normal Forms}
+\section{Quantifiers and Normal Forms}
 By Definition 3.4 on page 43, the formula $\forall x \ p(x)$ is true if and only if it is true for all interpretations of the variable $x$. Instead of the quantifier, one could write $p(a_{1}) \wedge \cdots \wedge p(a_{n})$ for all constants $a_{1} \cdots a_{n}$ in $K$. For $\exists x \ p(x)$ one could write $p(a_{1}) \vee \cdots \vee p(a_{n})$. From this it follows with de Morgan's law that
 
 \[
@@ -1407,7 +479,7 @@ When skolemizing a formula in prenex normal form, all existential quantifiers ar
 %---- Page End Break Here ---- Page : 54
 The procedure for transforming a formula in conjunctive normal form is summarized in the pseudocode represented in Fig. 3.2. Skolemization has polynomial runtime in the number of literals. When transforming into normal form, the number of literals in the normal form can grow exponentially, which can lead to exponential computation time and exponential memory usage. The reason for this is the repeated application of the distributive law. The actual problem, which results from a large number of clauses, is the combinatorial explosion of the search space for a subsequent resolution proof. However, there is an optimized transformation algorithm which only spawns polynomially many literals [\cite{eder1991relative}].
 
-\subsection{Proof Calculi}
+\section{Proof Calculi}
 For reasoning in predicate logic, various calculi of natural reasoning such as Gentzen calculus or sequent calculus, have been developed. As the name suggests, these calculi are meant to be applied by humans, since the inference rules are more or less intuitive and the calculi work on arbitrary PL1 formulas. In the next section we will primarily concentrate on the resolution calculus, which is in practice the most important efficient, automatizable calculus for formulas in conjunctive normal form. Here, using Example 3.2 on page 43 we will give a very small ``natural'' proof. We use the inference rule
 $$
 \frac{A,\quad A \Rightarrow B}{B} \quad \text{(modus ponens, MP) and} \quad \frac{\forall x\, A}{A[x/t]} \quad (\forall\text{-elimination, } \forall E).
@@ -1442,7 +514,7 @@ Theorem 3.4 (Correctness) There are calculi with which only true propositions ca
 
 In fact, nearly all known calculi are correct. After all, it makes little sense to work with incorrect proof methods. Provability and semantic consequence are therefore equivalent concepts, as long as correct and complete calculus is being used. Thereby first-order predicate logic becomes a powerful tool for mathematics and AI. The aforementioned calculi of natural deduction are rather unsuited for automatization. Only resolution calculus, which was introduced in 1965 and essentially works with only one simple inference rule, enabled the construction of powerful automated theorem provers, which later were employed as inference machines for expert systems.
 
-\subsection{Resolution}
+\section{Resolution}
 Indeed, the correct and complete resolution calculus triggered a logic euphoria during the 1970s. Many scientists believed that one could formulate almost every task of knowledge representation and reasoning in PL1 and then solve it with an automated prover. Predicate logic, a powerful, expressive language, together with a complete proof calculus seemed to be the universal intelligent machine for representing knowledge and solving many difficult problems (Fig. 3.3).
 
 If one feeds a set of axioms (that is, a knowledge base) and a query into such a logic machine as input, the machine searches for a proof and returns it-for one exists and will be found-as output. With Gödel's completeness theorem and the work of Herbrand as a foundation, much was invested into the mechanization of logic. The vision of a machine that could, with an arbitrary non-contradictory PL1 knowledge base, prove any true query was very enticing. Accordingly, until now many proof calculi for PL1 are being developed and realized in the form of theorem provers. As an example, here we describe the historically important and widely used resolution calculus and show its capabilities. The reason for selecting resolution as an example of a proof calculus in this book is, as stated, its historical and
@@ -1585,7 +657,7 @@ Somewhat more general is paramodulation, which works with conditional equations 
 
 The equation $t_{1}=t_{2}$ allows the substitution of the term $t_{1}$ by $t_{2}$ as well as the substitution $t_{2}$ by $t_{1}$. It is usually pointless to reverse a substitution that has already been carried out. On the contrary, equations are frequently used to simplify terms. They are thus often used in one direction only. Equations which are only used in one direction are called directed equations. Efficient processing of directed equations is accomplished by so-called term rewriting systems. For formulas with many equations there exist special equality provers.
 
-\subsection{Automated Theorem Provers}
+\section{Automated Theorem Provers}
 Implementations of proof calculi on computers are called theorem provers. Along with specialized provers for subsets of PL1 or special applications, there exist today a whole line of automated provers for the full predicate logic and higher-order logics, of which only a few will be discussed here. An overview of the most important systems can be found in [\cite{mccuneARsystems}].
 
 One of the oldest resolution provers was developed at the Argonne National Laboratory in Chicago. Based on early developments starting in 1963, Otter [\cite{kalman2001otter}], was created in 1984. Above all, Otter was successfully applied in specialized areas of mathematics, as one can learn from its home page:
@@ -1605,7 +677,7 @@ Anyone searching for a high-performance prover should look at the current result
 
 The many top positions of German systems at CASC show that German research groups in the area of automated theorem proving are playing a leading role, today as well as in the past.
 
-\subsection{Mathematical Examples}
+\section{Mathematical Examples}
 We now wish to demonstrate the application of an automated prover with the aforementioned prover E [Sch02]. E is a specialized equality prover which greatly shrinks the search space through an optimized treatment of equality.
 
 We want to prove that left- and right-neutral elements in a semigroup are equal. First we formalize the claim step by step.
@@ -1729,7 +801,7 @@ unixprompt> eproof halbgr1a.lop
 \end{verbatim}
 The reader might now take a closer look at the capabilities of E (Exercise 3.9 on page 64).
 
-\subsection{Applications}
+\section{Applications}
 In mathematics automated theorem provers are used for certain specialized tasks. For example, the important four color theorem of graph theory was first proved in 1976 with the help of a special prover. However, automated provers still play a minor role in mathematics.
 
 On the other hand, in the beginning of AI, predicate logic was of great importance for the development of expert systems in practical applications. Due to its problems modeling uncertainty (see Sect. 4.4), expert systems today are most often developed using other formalisms.
@@ -1780,12 +852,12 @@ As a basic description framework, the World Wide Web Consortium developed the la
 %---- Page End Break Here ---- Page : 68
 A difficulty when building a description of the innumerable websites is the expenditure of work and also checking the correctness of the semantic descriptions. Here machine learning systems for the automatic generation of descriptions can be very helpful. An interesting use of "automatic" generation of semantics in the web was introduced by Luis von Ahn of Carnegie Mellon University [\cite{vonahn2006gwap}]. He developed computer games in which the players, distributed over the network, are supposed to collaboratively describe pictures with key words. Thus the pictures are assigned semantics in a fun way at no cost.
 
-\subsection{Summary}
+\section{Summary}
 We have provided the most important foundations, terms, and procedures of predicate logic and we have shown that even one of the most difficult intellectual tasks, namely the proof of mathematical theorems, can be automated. Automated provers can be employed not only in mathematics, but rather, in particular, in verification tasks in computer science. For everyday reasoning, however, predicate logic in most cases is ill-suited. In the next and the following chapters we show its weak points and some interesting modern alternatives. Furthermore, we will show in Chap. 5 that one can program elegantly with logic and its procedural extensions.
 
 Anyone interested in first-order logic, resolution and other calculi for automated provers will find good advanced instruction in [\cite{newborn2000atp}, \cite{fitting1996firstorder}, Bib82, Lov78, \cite{chang1973symbolic}]. References to Internet resources can be found on this book's web site.
 
-\subsection{Exercises}
+\section{Exercises}
 Exercise 3.1 Let the three-place predicate "child" and the one-place predicate "female" from Example 3.2 on page 43 be given. Define:\\
 (a) A one-place predicate "male".\\
 (b) A two-place predicate "father" and "mother".\\
@@ -1830,7 +902,7 @@ Exercise 3.9 Obtain the theorem prover E [Sch02] or another prover and prove the
 (b) Russell's paradox from Example 3.7 on page 54.\\
 (c) The claim from Exercise 3.8.
 
-\subsection{The Search Space Problem}
+\section{The Search Space Problem}
 As already mentioned in several places, in the search for a proof there are almost always many (depending on the calculus, potentially infinitely many) possibilities for the application of inference rules at every step. The result is the aforementioned explosive growth of the search space (Fig. 4.1 on page 66). In the worst case, all of these possibilities must be tried in order to find the proof, which is usually not possible in a reasonable amount of time.
 %---- Page End Break Here ---- Page : 70
 If we compare automated provers or inference systems with mathematicians or human experts who have experience in special domains, we make interesting observations. For one thing, experienced mathematicians can prove theorems which are far out of reach for automated provers. On the other hand, automated provers perform tens of thousands of inferences per second. A human in contrast performs maybe one inference per second. Although human experts are much slower on the object level (that is, in carrying out inferences), they apparently solve difficult problems much faster.
@@ -1857,7 +929,7 @@ A different, more successful approach to improving mathematical reasoning is fol
 
 In summary, one can say that, because of the search space problem, automated provers today can only prove relatively simple theorems in special domains with few axioms.
 
-\subsection{Decidability and Incompleteness}
+\section{Decidability and Incompleteness}
 First-order predicate logic provides a powerful tool for the representation of knowledge and reasoning. We know that there are correct and complete calculi and theorem provers. When proving a theorem, that is, a true statement, such a prover is very helpful because, due to completeness, one knows after finite time that the statement really is true. What if the statement is not true? The completeness theorem (Theorem 3.3 on page 50) does not answer this question. ${ }^{2}$ Specifically, there is no process that can prove or refute any formula from PL1 in finite time, for it holds that
 
 Theorem 4.1 The set of valid formulas in first-order predicate logic is semidecidable.
@@ -1886,7 +958,7 @@ in the language of arithmetic. This formula is true for the following reason. As
 
 The deeper background of this theorem is that mathematical theories (axiom systems) and, more generally, languages become incomplete if the language becomes too powerful. A similar example is set theory. This language is so powerful that one can formulate paradoxes with it. These are statements that contradict themselves, such as the statement we already know from Example 3.7 on page 54 about the barbers who all shave those who do not shave themselves (see Exercise 4.2 on page 73). The dilemma consists therein that with languages which are powerful enough to describe mathematics and interesting applications, we are smuggling contradictions and incompletenesses through the back door. This does not mean, however, that higher-order logics are wholly unsuited for formal methods. There are certainly formal systems as well as provers for higher-order logics.
 
-\subsection{The Flying Penguin}
+\section{The Flying Penguin}
 With a simple example we will demonstrate a fundamental problem of logic and possible solution approaches. Given the statements
 %---- Page End Break Here ---- Page : 74
 \begin{enumerate}
@@ -1988,7 +1060,7 @@ An interesting approach for modeling problems such as the Tweety example is prob
 \caption{Probability density of the continuous variable rainfall}
 \end{figure}
 
-\subsection{Modeling Uncertainty}
+\section{Modeling Uncertainty}
 Two-valued logic can and should only model circumstances in which there is true, false, and no other truth values. For many tasks in everyday reasoning, two-valued logic is therefore not expressive enough. The rule
 
 $$
@@ -2049,7 +1121,7 @@ Continuous probabilistic logic & $\infty$ & yes \\
 \section{Exercise}
 Use an automated theorem prover (for example E [Sch02]) and apply it to all five different axiomatizations of the Tweety example from Sect.\ 4.3. Validate the example's statements.
 %---- Page End Break Here ---- Page : 79
-\subsection{Logic Programming with PROLOG}
+\chapter{Logic Programming with PROLOG}
 
 Compared to classical programming languages such as C or Pascal, Logic makes it possible to express relationships elegantly, compactly, and declaratively. Automated theorem provers are even capable of deciding whether a knowledge base logically entails a query. Proof calculus and knowledge stored in the knowledge base are strictly separated. A formula described in clause normal form can be used as input data for any theorem prover, independent of the proof calculus used. This is of great value for reasoning and the representation of knowledge.
 
@@ -2082,12 +1154,12 @@ $\neg\left(A_{1} \wedge \ldots \wedge A_{m}\right)$ & $?-\mathrm{A}_{1}, \ldots,
 
 Here $A_{1}, \ldots, A_{m}, A, B$ are literals. The literals are, as in PL1, constructed from predicate symbols with terms as arguments. As we can see in the above table, in PROLOG there are no negations in the strict logical sense because the sign of a literal is determined by its position in the clause.
 
-\subsection{PROLOG Systems and Implementations}
+\section{PROLOG Systems and Implementations}
 An overview of current PROLOG systems is available in the collection of links on this book's home page. To the reader we recommend the very powerful and freely available (under GNU public licenses) systems GNU-PROLOG [Dia04] and SWI-PROLOG. For the following examples, SWI-PROLOG [Wie04] was used.
 
 Most modern PROLOG systems work with an interpreter based on the Warren abstract machine (WAM). PROLOG source code is compiled into so-called WAM code, which is then interpreted by the WAM. The fastest implementations of a WAM manage up to 10 million logical inferences per second (LIPS) on a 1 GHz PC.
 
-\subsection{Simple Examples}
+\section{Simple Examples}
 We begin with the family relationships from Example 3.2 on page 43. The small knowledge base $K B$ is coded—without the facts for the predicate female—as a PROLOG program named \href{http://rel.pl}{rel.pl} in Fig. 5.1.
 
 The program can be loaded and compiled in the PROLOG interpreter with the command
@@ -2170,7 +1242,7 @@ We must distinguish here between declarative and procedural semantics of PROLOG 
 %---- Page End Break Here ---- Page : 83
 With the query descendant (clyde, karen), in contrast, the PROLOG execution does not terminate. We can see this clearly in the and-or tree presented in Fig. 5.3. In this representation the branches, represented by , lead from the head of a clause to the subgoals. Because all subgoals of a clause must be solved, these are and branches. All other branches are or branches, of which at least one must be unifiable with its parent nodes. The two outlined facts represent the solution to the query. The PROLOG interpreter does not terminate here, however, because it works by using a depth-first search with backtracking (see Sect. 6.2.2) and thus first chooses the infinitely deep path to the far left.
 
-\subsection{Execution Control and Procedural Elements}
+\section{Execution Control and Procedural Elements}
 As we have seen in the family relationship example, it is important to control the execution of PROLOG. Avoiding unnecessary backtracking especially can lead to large increases in efficiency. One means to this end is the cut. By inserting an exclamation mark into a clause, we can prevent backtracking over this point. In the following program, the predicate max ( $\mathrm{X}, \mathrm{Y}, \operatorname{Max}$ ) computes the maximum of the two numbers X and Y.
 
 \begin{verbatim}
@@ -2213,7 +1285,7 @@ Restricting ourselves to Horn clauses does not cause a big problem in most cases
 
 Indeed, there are certainly problem statements which cannot be described by Horn clauses. An example is Russell's paradox from Example 3.7 on page 54, which contains the non-Horn clause (shaves(barber, $X$) $\vee$ shaves $(X, X)$).
 
-\subsection{Lists}
+\section{Lists}
 As a high-level language, PROLOG has, like the language LISP, the convenient generic list data type. A list with the elements $A, 2,2, B, 3,4,5$ has the form\\
 %---- Page End Break Here ---- Page : 85
 [A, 2, 2, B, 3, 4, 5]
@@ -2290,7 +1362,7 @@ The corresponding PROLOG program reads
 2 accrev([H|T],A,R) :- accrev(T,[H|A],R).
 \end{verbatim}
 
-\subsection{Self-modifying Programs}
+\section{Self-modifying Programs}
 PROLOG programs are not fully compiled, rather, they are interpreted by the WAM. Therefore it is possible to modify programs at runtime. A program can even modify itself. With commands such as assert and retract, facts and rules can be added to the knowledge base or taken out of it.
 
 A simple application of the variant asserta is the addition of derived facts to the beginning of the knowledge base with the goal of avoiding a repeated, potentially time-expensive derivation (see Exercise 5.8 on page 89). If in our family relationship example we replace the two rules for the predicate descendant with
@@ -2317,7 +1389,7 @@ descendant(mary, karen).
 
 By manipulating rules with assert and retract, even programs that change themselves completely can be written. This idea became known under the term genetic programming. It allows the construction of arbitrarily flexible learning programs. In practice, however, it turns out that, due to the huge number of senseless possible changes, changing the code by trial and error rarely leads to a performance increase. Systematic changing of rules, on the other hand, makes programming so much more complex that, so far, such programs that extensively modify their own code have not been successful. In Chap. 8 we will show how machine learning has been quite successful. However, only very limited modifications of the program code are being conducted here.
 
-\subsection{A Planning Example}
+\section{A Planning Example}
 Example 5.1 The following riddle serves as a problem statement for a typical PROLOG program.
 
 A farmer wants to bring a cabbage, a goat, and a wolf across a river, but his boat is so small that he can only take them across one at a time. The farmer thought it over and then said to himself: "If I first bring the wolf to the other side, then the goat will eat the cabbage. If I transport the cabbage first, then the goat will be eaten by the wolf. What should I do?"
@@ -2382,7 +1454,7 @@ As in all planning tasks, the state of the world changes as actions are carried 
 
 Predicate logic and simpler sub-languages for the description and solution of planning tasks play an increasingly important role for intelligent robots. To solve complex tasks, robots often work on symbolic relational descriptions of the world. The classic application for a service robot is recognizing an audible command linguistically and then converting it into a logical formula. Then a planner has the task of finding a plan which eventually reaches a state in which the formula becomes true. Even more interesting is when the robot learns to meet the goals of its trainer by observing them and then use the symbolic planner to achieve the goals [\cite{cubek2015hllfd}]. One very exciting thing about this is that the robot is able to take numerical sensor values such as pixel images and turn them into a symbolic description of situations. This generally very difficult task is known in AI as symbol grounding. Robotics developers have found interesting solutions to this problem for certain tasks [\cite{cubek2015symbolgrounding}].
 
-\subsection{Constraint Logic Programming}
+\section{Constraint Logic Programming}
 The programming of scheduling systems, in which many (sometimes complex) logical and numerical conditions must be fulfilled, can be very expensive and difficult with conventional programming languages. This is precisely where logic could be useful. One simply writes all logical conditions in PL1 and then enters a query. Usually this approach fails miserably. The reason is the penguin problem discussed in Sect. 4.3. The fact penguin (tweety) does ensure that penguin (tweety) is true. However, it does not rule out that raven (tweety) is also true. To rule this out with additional axioms is very inconvenient (Sect. 4.3).
 
 Constraint Logic Programming (CLP), which allows the explicit formulation of constraints for variables, offers an elegant and very efficient mechanism for solving this problem. The interpreter constantly monitors the execution of the program for adherence to all of its constraints. The programmer is fully relieved of the task of controlling the constraints, which in many cases can greatly simplify programming. This is expressed in the following quotation by Eugene C. Freuder from [\cite{freuder1997holyGrail}]:
@@ -2452,7 +1524,7 @@ Subject & Math & German & English & Physics \\
 
 GNU-PROLOG has, like most other CLP languages, a so-called finite domain constraint solver, with which variables can be assigned a finite range of integers. This need not necessarily be an interval as in the example. We can also input a list of values. As an exercise the user is invited, in Exercise 5.9 on page 89, to create a CLP program, for example with GNU-PROLOG, for a not-so-simple logic puzzle. This puzzle, supposedly created by Einstein, can very easily be solved with a CLP system. If we tried using PROLOG without constraints, on the other hand, we could easily grind our teeth out. Anyone who finds an elegant solution with PROLOG or a prover, please let it find its way to the author.
 
-\subsection{Summary}
+\section{Summary}
 Unification, lists, declarative programming, and the relational view of procedures, in which an argument of a predicate can act as both input and output, allow the development of short, elegant programs for many problems. Many programs would be significantly longer and thus more difficult to understand if written in a procedural language. Furthermore, these language features save the programmer time. Therefore PROLOG is also an interesting tool for rapid prototyping, particularly for AI applications. The CLP extension of PROLOG is helpful not only for logic puzzles, but also for many optimization and scheduling tasks.
 
 Since its invention in 1972, in Europe PROLOG has developed into one of Europe's leading programming languages in AI, along with procedural languages. In the U.S., on the other hand, the natively invented language LISP dominates the AI market.
@@ -2461,7 +1533,7 @@ PROLOG is not a theorem prover. This is intentional, because a programmer must b
 
 Recommended as advanced literature are [Bra11] and [CM94], as well as the handbooks [Wie04, Dia04] and, on the topic of CLP, [\cite{bartak1998online}].
 
-\subsection{Exercises}
+\section{Exercises}
 Exercise 5.1 Try to prove the theorem from Sect. 3.7 about the equality of left- and right-neutral elements of semi-groups with PROLOG. Which problems come up? What is the cause of this?
 
 \paragraph{Exercise 5.2}
@@ -2528,7 +1600,7 @@ Question: To whom does the fish belong?\\
 (a) First solve the puzzle manually.\\
 (b) Write a CLP program (for example with GNU-PROLOG) to solve the puzzle. Orient yourself with the room scheduling problem in Fig. 5.5 on page 86.
 
-\subsection{Introduction}
+\section{Introduction}
 The search for a solution in an extremely large search tree presents a problem for nearly all inference systems. From the starting state there are many possibilities for the first inference step. For each of these possibilities there are again many possibilities in the next step, and so on. Even in the proof of a very simple formula from [\cite{ertel1993parallele}] with three Horn clauses, each with at most three literals, the search tree for SLD resolution has the following shape:\\
 %---- Page End Break Here ---- Page : 95
 \begin{figure}[t]
@@ -2825,7 +1897,7 @@ The complexity of the search with the full cycle check therefore only increases 
 
 In summary, we can conclude that the cycle check implies hardly any additional overhead and is therefore worthwhile for applications with repeatedly occurring nodes.
 
-\subsection{Heuristic Search}
+\section{Heuristic Search}
 Heuristics are problem-solving strategies which in many cases find a solution faster than uninformed search. However, this is not guaranteed. Heuristic search could require a lot more time and can even result in the solution not being found.
 
 We humans successfully use heuristic processes for all kinds of things. When buying vegetables at the supermarket, for example, we judge the various options for a pound of strawberries using only a few simple criteria like price, appearance, source of production, and trust in the seller, and then we decide on the best option by gut feeling. It might theoretically be better to subject the strawberries to a basic chemical analysis before deciding whether to buy them. For example, the strawberries might be poisoned. If that were the case the analysis would have been worth the trouble. However, we do not carry out this kind of analysis because there is a very high probability that our heuristic selection will succeed and will quickly get us to our goal of eating tasty strawberries.
@@ -3078,14 +2150,14 @@ A computation of the effective branching factor according to (6.1) on page 96 yi
 
 Heuristic search thus has an important practical significance because it can solve problems which are far out of reach for uninformed search.
 
-\subsection{Summary}
+\section{Summary}
 Of the various search algorithms for uninformed search, iterative deepening is the only practical one because it is complete and can get by with very little memory. However, for difficult combinatorial search problems, even iterative deepening usually fails due to the size of the search space. Heuristic search helps here through its reduction of the effective branching factor. The IDA ${ }^{\star}$-algorithm, like iterative deepening, is complete and requires very little memory.
 
 Heuristics naturally only give a significant advantage if the heuristic is "good". When solving difficult search problems, the developer's actual task consists of designing heuristics which greatly reduce the effective branching factor. In Sect. 6.5 we will deal with this problem and also show how machine learning techniques can be used to automatically generate heuristics.
 
 In closing, it remains to note that heuristics have no performance advantage for unsolvable problems because the unsolvability of a problem can only be established when the complete search tree has been searched through. For decidable problems such as the 8 -puzzle this means that the whole search tree must be traversed up to a maximal depth whether a heuristic is being used or not. The heuristic is always a disadvantage in this case, attributable to the computational cost of evaluating the heuristic. This disadvantage can usually be estimated by a constant factor independent of the size of the problem. For undecidable problems such as the proof of PL1 formulas, the search tree can be infinitely deep. This means that, in the unsolvable case, the search potentially never ends. In summary we can say the following: for solvable problems, heuristics often reduce computation time dramatically, but for unsolvable problems the cost can even be higher with heuristics.
 
-\subsection{Games with Opponents}
+\section{Games with Opponents}
 Games for two players, such as chess, checkers, Othello, and Go are deterministic because every action (a move) results in the same child state given the same parent state. In contrast, backgammon is non-deterministic because its child state depends on the result of a dice roll. These games are all observable because every player always knows the complete game state. Many card games, such as poker, for example, are only partially observable because the player does not know the other players' cards, or only has partial knowledge about them.
 %---- Page End Break Here ---- Page : 118
 The problems discussed so far in this chapter were deterministic and observable. In the following we will look at games which, too, are deterministic and observable. Furthermore, we will limit ourselves to zero-sum games. These are games in which every gain one player makes means a loss of the same value for the opponent. The sum of the gain and loss is always equal to zero. This is true of the games chess, checkers, Othello, and Go, mentioned above.
@@ -3172,7 +2244,7 @@ Minimax search can be generalized to all games with non-deterministic actions, s
 Max, dice, Min, dice, ... ,\\[0pt]
 where each dice roll node branches six ways. Because we cannot predict the value of the die, we average the values of all rolls and conduct the search as described with the average values from [RN10].
 
-\subsection{Heuristic Evaluation Functions}
+\section{Heuristic Evaluation Functions}
 How do we find a good heuristic evaluation function for the task of searching? Here there are fundamentally two approaches. The classical way uses the knowledge of human experts. The knowledge engineer is given the usually difficult task of formalizing the expert's implicit knowledge in the form of a computer program. We now want to show how this process can be simplified in the chess program example.
 %---- Page End Break Here ---- Page : 122
 In the first step, experts are questioned about the most important factors in the selection of a move. Then it is attempted to quantify these factors. We obtain a list of relevant features or attributes. These are then (in the simplest case) combined into a linear evaluation function $B(s)$ for positions, which could look like:
@@ -3214,7 +2286,7 @@ As easy as this sounds, it is very difficult in practice. A central problem with
 
 Monte Carlo tree search (MCTS) [\cite{kocsis2006uct}] works quite similarly. To improve the heuristic rating of a game state $s$, a random number of search tree branches starting from this state are either explored to the end and evaluated, or stopped at a certain depth and then the leaf nodes are evaluated heuristically. The evaluation $B(s)$ of state $s$ is given as the mean of all leaf node scores. The use of MCTS paths requires only a small part of the entire exponentially exploding tree to be searched. This is illustrated in Fig. 6.22. For many computer-simulated games, such as chess, this algorithm can be used to achieve better play for the same computational effort or to reduce computational effort for the same difficulty level [KS06]. This method was used together with machine learning algorithms in 2016 by the program AlphaGo, described in Sect. 10.10, which was the first Go program to defeat world-class human players [SHM ${ }^{+} 16$ ].
 
-\subsection{State of the Art}
+\section{State of the Art}
 For evaluation of the quality of the heuristic search processes, I would like to repeat Elaine Rich's definition [Ric83]:
 
 Artificial Intelligence is the study of how to make computers do things at which, at the moment, people are better.
@@ -3373,7 +2445,7 @@ Since about the mid-1980s, probability theory has had more and more influence in
 
 In this chapter we will select an elegant, but for an instruction book somewhat unusual, entry point into this field. After a short introduction to the most important foundations needed here for reasoning with probability, we will begin with a simple, but important example for reasoning with uncertain and incomplete knowledge. In a quite natural, almost compelling way, we will be led to the method of maximum entropy (MaxEnt). Then we will show the usefulness of this method in practice using the medical expert system lexmed. Finally we will introduce the now widespread reasoning with Bayesian networks, and show the relationship between the two methods.
 
-\subsection{Computing with Probabilities}
+\section{Computing with Probabilities}
 The reader who is familiar with probability theory can skip this section. For everyone else we will give a quick ramp-up and recommend a few appropriate textbooks such as [\cite{ross2009introprob}, \cite{freedman2007statistics}].
 
 Probability is especially well-suited for modeling reasoning under uncertainty. One reason for this is that probabilities are intuitively easy to interpret, which can be seen in the following elementary example.
@@ -3675,7 +2747,7 @@ ${ }^{4}$ The author is not a medical doctor. Therefore these computations shoul
 %---- Page End Break Here ---- Page : 140
 From this example we learn, among other things, that it is important to consider which probabilities we are really interested in as a buyer, expecially when it comes to security. When the arguments of a conditional probability are interchanged, the value can change dramatically when the prior probabilities differ significantly.
 
-\subsection{The Principle of Maximum Entropy}
+\section{The Principle of Maximum Entropy}
 We will now show, using an inference example, that a calculus for reasoning under uncertainty can be realized using probability theory. However, we will soon see that the well-worn probabilistic paths quickly come to an end. Specifically, when too little knowledge is available to solve the necessary equations, new ideas are needed. The American physicist E.T. Jaynes did pioneering work in this area in the 1950s. He claimed that given missing knowledge, one can maximize the entropy of the desired probability distribution, and applied this principle to many examples in [\cite{jaynes1957itsm}, \cite{jaynes2003probability}]. This principle was then further developed [\cite{cheeseman1983generalised}, \cite{nilsson1986probabilistic}, \cite{kane1989maxent}, \cite{kapur1992entropy}] and is now mature and can be applied technologically, which we will show in the example of the lexmed project in Sect. 7.3.
 
 \subsection{An Inference Rule for Probabilities}
@@ -3969,7 +3041,7 @@ In this example we can easily see that probability intervals are often very help
 
 It has already been shown in [Pea88] that this example can be solved using probabilistic logic, even without MaxEnt. In [Sch96] it is shown for a number of demanding benchmarks for non-monotonic reasoning that these can be solved elegantly with MaxEnt. In the following section we introduce a successful practical application of MaxEnt in the form of a medical expert system.
 
-\subsection{Lexmed, an Expert System for Diagnosing Appendicitis}
+\section{Lexmed, an Expert System for Diagnosing Appendicitis}
 The medical expert system Lexmed, which uses the MaxEnt method, was developed at the Ravensburg-Weingarten University of Applied Sciences by Manfred Schramm, Walter Rampf, and the author, in cooperation with the Weingarten 14-Nothelfer Hospital [SE00, \cite{lexmed1999}]. ${ }^{8}$ The acronym Lexmed stands for learning expert system for medical diagnosis.
 
 \subsection{Appendicitis Diagnosis with Formal Methods}
@@ -4332,7 +3404,7 @@ Despite this success it has become evident that it is very difficult to market s
 
 A further issue is the desire of many patients for personal advice and care from the doctor, together with the fear that, with the introduction of expert systems, the patient will only communicate with the machine. This fear, however, is wholly unfounded. Even in the long term, medical expert systems cannot replace the doctor. They can, however, just like laser surgery and magnetic resonance imaging, be used advantageously for all participants. Since the first medical computer diagnostic system of de Dombal in 1972, almost 40 years have passed. It remains to be seen whether medicine will wait another 40 years until computer diagnostics becomes an established medical tool.
 
-\subsection{Reasoning with Bayesian Networks}
+\section{Reasoning with Bayesian Networks}
 One problem with reasoning using probability in practice was already pointed out in Sect. 7.1. If $d$ variables $X_{1}, \ldots, X_{d}$ with $n$ values each are used, then the associated probability distribution has $n^{d}$ total values. This means that in the worst case the memory use and computation time for determining the specified probabilities grows exponentially with the number of variables.
 
 In practice the applications are usually very structured and the distribution contains many redundancies. This means that it can be heavily reduced with the appropriate methods. The use of Bayesian networks has proved its power here and is one of the AI techniques which have been successfully used in practice. Bayesian networks utilize knowledge about the independence of variables to simplify the model.
@@ -4658,7 +3730,7 @@ Chain rule: $\boldsymbol{P}\left(X_{1}, \ldots, X_{n}\right)=\prod_{i=1}^{n} \bo
 
 In [Pea88] and [Jen01] the term d-separation is introduced for Bayesian networks, from which a theorem similar to Theorem 7.6 on page 168 follows. We will refrain from introducing this term and thereby reach a somewhat simpler, though not a theoretically as clean representation.
 
-\subsection{Summary}
+\section{Summary}
 In a way that reflects the prolonged, sustained trend toward probabilistic systems, we have introduced probabilistic logic for reasoning with uncertain knowledge. After introducing the language—propositional logic augmented with probabilities or probability intervals—we chose the natural, if unusual approach via the method of maximum entropy as an entry point and showed how we can model non-monotonic reasoning with this method. Bayesian networks were then introduced as a special case of the MaxEnt method.
 
 Why are Bayesian networks a special case of MaxEnt? When building a Bayesian network, assumptions about independence are made which are unnecessary for the MaxEnt method. Furthermore, when building a Bayesian network, all CPTs must be completely filled in so that a complete probability distribution can be constructed. Otherwise reasoning is restricted or impossible. With MaxEnt, on the other hand, the developer can formulate all the knowledge he has at his disposal in the form of probabilities. MaxEnt then completes the model and generates the distribution. Even if (for example when interviewing an expert) only vague propositions are available, this can be suitably modeled. A proposition such as ``I am pretty sure that $A$ is true.'' can for example be modeled using $P(A) \in[0.6,1]$ as a probability interval. When building a Bayesian network, a concrete value must be given for the probability, if necessary by guessing. This means, however, that the expert or the developer put ad hoc information into the system. One further advantage of MaxEnt is the possibility of formulating (almost) arbitrary propositions. For Bayesian networks the CPTs must be filled.
@@ -4675,7 +3747,7 @@ In the Lexmed example we showed that it is possible to build an expert system fo
 
 Today Bayesian reasoning is a large, independent field, which we can only briefly describe here. We have completely left out the handling of continuous variables. For the case of normally distributed random variables there are procedures and systems. For arbitrary distributions, however, the computational complexity is a big problem. In addition to the directed networks that are heavily based on causality, there are also undirected networks. Connected with this is a discussion about the meaning and usefulness of causality in Bayesian networks. The interested reader is directed to excellent textbooks such as [Pea88, Jen01, Whi96, \cite{duda2001pattern}], as well as the proceedings of the annual conference of the Association for Uncertainty in Artificial Intelligence (AUAI) (\href{http://www.auai.org}{www.auai.org}).
 
-\subsection{Exercises}
+\section{Exercises}
 Exercise 7.1 Prove the proposition from Theorem 7.1 on page 129.\\
 Exercise 7.2 The gardening hobbyist Max wants to statistically analyze his yearly harvest of peas. For every pea pod he picks he measures its length $x_{i}$ in centimeters and its weight $y_{i}$ in grams. He divides the peas into two classes, the good and the bad (empty pods). The measured data ($x_{i}, y_{i}$) are
 
@@ -4979,7 +4051,7 @@ Because the two described tasks of machine learning and data mining are formally
 
 Because of the huge commercial impact of data mining techniques, there are now many sophisticated optimizations and a whole line of powerful data mining systems, which offer a large palette of convenient tools for the extraction of knowledge from data. Such a system is introduced in Sect. 8.10.
 
-\subsection{Data Analysis}
+\section{Data Analysis}
 Statistics provides a number of ways to describe data with simple parameters. From these we choose a few which are especially important for the analysis of training data and test these on a subset of the Lexmed data from Sect. 7.3. In this example dataset, the symptoms $x_{1}, \ldots, x_{15}$ of $N=473$ patients, concisely described in
 
 Table 8.2 Description of variables $x_{1}, \ldots, x_{16}$. A slightly different formalization was used in Table 7.2 on page 147
@@ -5296,7 +4368,7 @@ If we compare the perceptron formula with the scoring method presented in Sect. 
 
 In Chap. 9 we will become familiar with a generalization of the perceptron in the form of the back-propagation algorithm, which can divide non linearly separable sets through the use of multiple layers, and which possesses a better learning rule.
 
-\subsection{The Nearest Neighbor Method}
+\section{The Nearest Neighbor Method}
 For a perceptron, knowledge available in the training data is extracted and saved in a compressed form in the weights $w_{i}$. Thereby information about the data is lost. This is exactly what is desired, however, if the system is supposed to generalize from the training data to new data. Generalization in this case is a time-intensive process with the goal of finding a compact representation of data in the form of a function which classifies new data as good as possible.
 
 Memorization of all data by simply saving them is quite different. Here the learning is extremely simple. However, as previously mentioned, the saved knowledge is not so easily applicable to new, unknown examples. Such an approach is very unfit for learning how to ski, for example. A beginner can never become a good skier just by watching videos of good skiers. Evidently, when learning movements of this type are automatically carried out, something similar happens as in the case of the perceptron. After sufficiently long practice, the knowledge stored in training examples is transformed into an internal representation in the brain.
@@ -5439,7 +4511,7 @@ As previously mentioned, training is accomplished in all variants of the nearest
 \caption{To determine avalanche hazard, a function is approximated from training data. Here for comparison are a local model (solid line), and a global model (dashed line)}
 \end{figure}
 
-\subsection{Summary and Outlook}
+\section{Summary and Outlook}
 Because nothing happens in the learning phase of the presented nearest neighbor methods, such algorithms are also denoted lazy learning, in contrast to eager learning, in which the learning phase can be expensive, but application to new examples is very efficient. The perceptron and all other neural networks, decision tree learning, and the learning of Bayesian networks are eager learning methods. Since the lazy learning methods need access to the memory with all training data for approximating a new input, they are also called memory-based learning.
 
 To compare these two classes of learning processes, we will use as an example the task of determining the current avalanche hazard from the amount of newly fallen snow in a certain area of Switzerland.\footnote{The three day total of snowfall is in fact an important feature for determining the hazard level. In practice, however, additional attributes are used [\cite{brabec2001lawinenprognose}]. The example used here is simplified.} In Fig. 8.20 values determined by experts are entered, which we want to use as training data. During the application of a eager learning algorithm which undertakes a linear approximation of the data, the dashed line shown in the figure is calculated. Due to the restriction to a straight line, the error is relatively large with a maximum of about 1.5 hazard levels. During lazy learning, nothing is calculated before a query for the current hazard level arrives. Then the answer is calculated from several nearest neighbors, that is, locally. It could result in the curve shown in the figure, which is put together from line segments and shows much smaller errors. The advantage of the lazy method is its locality. The approximation is taken locally from the current new snow level and not globally. Thus for fundamentally equal classes of functions (for example linear functions), the lazy algorithms are better.
@@ -5501,7 +4573,7 @@ Modeling The domains of the application must be modeled in a formal context. Her
 Similarity Finding a suitable similarity metric for symbolic, non-numerical features. Transformation Even if a similar case is found, it is not yet clear how the transformation mapping and its inverse should look.\\
 Indeed there are practical CBR systems for diagnostic applications in use today. However, due to the reasons mentioned, these remain far behind human experts in performance and flexibility. An interesting alternative to CBR are the Bayesian networks presented in Chap. 7. Often the symbolic problem representation can also be mapped quite well to discrete or continuous numerical features. Then the mentioned inductive learning methods such as decision trees or neural networks can be used successfully.
 
-\subsection{Decision Tree Learning}
+\section{Decision Tree Learning}
 Decision tree learning is an extraordinarily important algorithm for AI because it is very powerful, but also simple and efficient for extracting knowledge from data. Compared to the two already introduced learning algorithms, it has an important advantage. The extracted knowledge is not only available and usable as a black box function, but rather it can be easily understood, interpreted, and controlled by humans in the form of a readable decision tree. This also makes decision tree learning an important tool for data mining.
 
 We will discuss function and application of decision tree learning using the C4.5 algorithm. C4.5 was introduced in 1993 by the Australian Ross Quinlan and is an improvement of its predecessor ID3 (Iterative Dichotomiser 3, 1986). It is freely available for noncommercial use [\cite{quinlan1993c45}]. A further development, which works even more efficiently and can take into account the costs of decisions, is C5.0 [Qui93].
@@ -5975,14 +5047,14 @@ Missing values can occur not only during learning, but also during classificatio
 
 \footnotetext{${ }^{8}$ It would be better to use the error on the test data directly. At least when the amount of training data is sufficient to justify a separate testing set.
 }
-\subsection{Summary}
+\section{Summary}
 Learning of decision trees is a favorite approach to classification tasks. The reasons for this are its simple application and speed. On a dataset of about 10000 Lexmed data points with 15 attributes each, C4.5 requires about 0.3 s for learning. This is very fast compared to other learning algorithms.
 %---- Page End Break Here ---- Page : 217
 For the user it is also important, however, that the decision tree as a learned model can be understood and potentially changed. It is also not difficult to automatically transform a decision tree into a series of if-then-else statements and thus efficiently build it into an existing program.
 
 Because a greedy algorithm is used for construction of the tree as well as during pruning, the trees are in general suboptimal. The discovered decision tree does usually have a relatively small error rate. However, there is potentially a better tree, because the heuristic greedy search of C4.5 prefers small trees and attributes with high information gain at the top of the tree. For attributes with many values, the presented formula for the information gain shows weaknesses. Alternatives to this are given in [Mit97].
 
-\subsection{Cross-Validation and Overfitting}
+\section{Cross-Validation and Overfitting}
 As discussed in Sect. 8.4.7, many learning algorithms have the problem of overfitting. Powerful learning algorithms, such as for example decision tree learning, can adapt the complexity of the learned model to the complexity of the training data. This leads to overfitting if there is noise in the data.
 
 With cross-validation one attempts to optimize the model complexity such that it minimizes the classification or approximation error on an unknown test data set. This requires the model complexity to be controllable by a parameter $\gamma$. For decision trees this is, for example, the size of the tree. For the $k$ nearest neighbor method from Sect. 8.3, the parameter is $k$, the number of nearest neighbors, while for neural networks it is the number of hidden neurons (see Chap. 9).
@@ -6082,7 +5154,7 @@ In fact, research into learning of Bayesian networks is still in full swing, and
 \caption{The maximal network with five variables and edges $(V_{i},V_{j})$ which fulfill the condition $i<j$}
 \end{figure}
 
-\subsection{The Naive Bayes Classifier}
+\section{The Naive Bayes Classifier}
 In Fig. 7.14 on page 166 the diagnosis of appendicitis was modeled as a Bayesian network. Because directed edges start at a diagnosis node and none end there, Bayes’ formula must be used to answer a diagnosis query. For the symptoms $S_{1}, \ldots, S_{n}$ and the $k$-value diagnosis $D$ with the values $b_{1}, \ldots, b_{k}$ we calculate the probability
 $$
 P\left(D \mid S_{1}, \ldots, S_{n}\right)=\frac{P\left(S_{1}, \ldots, S_{n} \mid D\right) \cdot P(D)}{P\left(S_{1}, \ldots, S_{n}\right)}
@@ -6187,7 +5259,7 @@ which is equivalent to (8.9) on page 221. Please note that the index $i$ in the 
 
 Despite its simplicity, naive Bayes delivers excellent results for text classification. Spam filters which work with naive Bayes achieve error rates of well under one percent. The systems DSPAM and CRM114 can even be so well trained that they only incorrectly classify one in 7000 or 8000 emails respectively. This corresponds to a correctness of nearly $99.99 \%$.
 
-\subsection{One-Class Learning}
+\section{One-Class Learning}
 Classification tasks in supervised learning require all training data to be given class labels. However, there are applications for which only one class of labels is available. A classic example is detecting errors in complex technical systems. The task is to recognize whether a device is defective or not. This sounds like an ordinary two-class problem. In the training data, the state of the device (good or defective) must be provided manually. In practice, the classifier training happens during deployment of the device or later on demand while it is being used in production. Data capture in the error-free condition is not a problem. Collection of data from the defective system however is problematic due to the following reasons:
 
 \begin{itemize}
@@ -6441,7 +5513,7 @@ Finally we should reiterate that all of the methods we have described are only h
 \caption{A partition generated by the EM algorithm with $k=4$}
 \end{figure}
 
-\subsection{Data Mining in Practice}
+\section{Data Mining in Practice}
 All the learning algorithms presented so far can be used as tools for data mining. For the user it is, however, sometimes quite troublesome to get used to new software tools for each application and furthermore to put the data to be analyzed into the appropriate format for each particular case.
 
 A number of data mining systems address these problems. Most of these systems offer a convenient graphical user interface with diverse tools for visualization of the data, for preprocessing such as manipulation of missing values, and for analysis. For analysis, the learning algorithms presented here are used, among others.
@@ -6479,7 +5551,7 @@ In summary, we can say the following about KNIME (and similar tools): for projec
 
 However, it should also be mentioned that the user of this type of data mining system should bring along solid prior knowledge of machine learning and the use of data mining techniques. The software alone cannot analyze data, but in the hand of a specialist it becomes a powerful tool for the extraction of knowledge from data. For the beginner in the fascinating field of machine learning, such a system offers an ideal and simple opportunity to test one's knowledge practically and to compare the various algorithms. The reader may verify this in Exercise 8.22 on page 243.
 
-\subsection{Summary}
+\section{Summary}
 We have thoroughly covered several algorithms from the established field of supervised learning, including decision tree learning, Bayesian networks, and the nearest neighbor method. These algorithms are stable and efficiently usable in various applications and thus belong to the standard repertoire in AI and data mining. The same is true for the clustering algorithms, which work without a ``supervisor'' and can be found, for example, in search engine applications. Reinforcement learning as another field of machine learning uses no supervisor either. In contrast to supervised learning, where the learner receives the correct actions or answers as the labels in the training data, in reinforcement learning only now and then positive or negative feedback is received from the environment. In Chap. 10 we will show how this works. Not quite as hard is the task in semi-supervised learning, a young sub-area of machine learning, where only very few out of a large number of training data are labeled.
 
 Supervised learning is now a well established area with lots of successful applications. For supervised learning of data with continuous labels any function approximation algorithm can be employed. Thus there are many algorithms from various areas of mathematics and computer science. In Chap. 9 we will introduce various types of neural networks, least squares algorithms and support vector machines, which are all function approximators. Nowadays, Gaussian processes are very popular because they are very universal and easy to apply and provide the user with an estimate of the uncertainty of the output values [\cite{rasmussen2006gpml}].
@@ -7007,14 +6079,14 @@ Statistical independence can be achieved, for example, with uncorrelated random 
 
 Hopfield networks in the presented form only work well when patterns with roughly $50 \%$ 1-bits are learned. If the bits are very asymmetrically distributed, then the neurons must be equipped with a threshold [\cite{rojas1996neural}]. In physics this is analogous to the application of an outer magnetic field, which also brings about an asymmetry of the spin $1 / 2$ and the spin $-1 / 2$ states.
 
-\subsection{Summary and Outlook}
+\section{Summary and Outlook}
 Through its biological plausibility, the well understood mathematical model, and above all through the impressive simulations in pattern recognition, the Hopfield model contributed to a wave of excitement about neural networks and to the rise of neuroinformatics as an important branch of AI.\footnote{Even the author was taken up by this wave, which carried him from physics into AI in 1987.} Subsequently many further network models were developed. On one hand, networks without back-couplings were investigated because their dynamics is significantly easier to understand than recurrent Hopfield networks. On the other hand, attempts were made to improve the storage capacity of the networks, which we will go into in the next section.
 
 A special problem of many neural models was already evident in the Hopfield model. Even if there is a guarantee of convergence, it is not certain whether the network will converge to a learned state or get stuck at a local minimum. The Boltzmann machine, with continuous activation values and a probabilistic update rule for its network dynamics, was developed as an attempt to solve this problem. Using a "temperature" parameter, we can vary the amount of random state changes and thus attempt to escape local minima, with the goal of finding a stable global minimum. This algorithm is called "simulated annealing". Annealing is a process of heat treating metals with the goal of making the metal stronger and more "stable".
 %---- Page End Break Here ---- Page : 259
 The Hopfield model carries out a search for a minimum of the energy function in the space of activation values. It thereby finds the pattern saved in the weights, and which is thus represented in the energy function. The Hopfield dynamics can also be applied to other energy functions, as long as the weight matrix is symmetric and the diagonal elements are zero. This was successfully demonstrated by Hopfield and Tank on the traveling salesman problem [\cite{hopfield1985optimization}, \cite{zell1994simulation}]. The task here is, given $n$ cities and their distance matrix, to find the shortest round trip that visits each city exactly once.
 
-\subsection{Neural Associative Memory}
+\section{Neural Associative Memory}
 A traditional list memory can in the simplest case be a text file in which strings of digits are saved line by line. If the file is sorted by line, then the search for an element can be done very quickly in logarithmic time, even for very large files.
 
 List memory can also be used to create mappings, however. For example, a telephone book is a mapping from the set of all entered names to the set of all telephone numbers. This mapping is implemented as a simple table, typically saved in a database.
@@ -7393,7 +6465,7 @@ The perceptron and the delta rule are iterative algorithms for which the time un
 
 For least squares, learning consists of setting up and solving a linear system of equations for the weight vector. There is thus a hard limit on the computation time. Because of this, the least squares method is always preferable when incremental learning is not needed.
 
-\subsection{The Backpropagation Algorithm}
+\section{The Backpropagation Algorithm}
 With the backpropagation algorithm, we now introduce the most-used neural model. The reason for its widespread use its universal versatility for arbitrary approximation tasks. The algorithm originates directly from the incremental delta rule. In contrast to the delta rule, it applies a nonlinear sigmoid function on the weighted sum of the inputs as its activation function. Furthermore, a backpropagation network can have more than two layers of neurons. The algorithm became known through the article [\cite{rumelhart1986backprop}] in the legendary PDP collection [RM86].
 
 In Fig. 9.18 on page 270 a typical backpropagation network with an input layer, a hidden layer, and an output layer is shown. Since the current output value $x_{j}^{p}$ of the output layer neuron is compared with the target output value $t_{j}^{p}$, these are drawn parallel to each other. Other than the input neurons, all neurons calculate their current value $x_{j}$ by the rule
@@ -7572,7 +6644,7 @@ The central nonlinear transformation of the vector space is called the kernel, b
 
 The mathematics used here is very interesting, but too extensive for an initial introduction. To delve deeper into this promising young branch of machine learning, we refer the reader to [\cite{scholkopf2002kernels}, Alp04] and [\cite{burges1998tutorial}].
 
-\subsection{Deep Learning}
+\section{Deep Learning}
 In Chaps. 8 and 9 we saw that there are many good learning algorithms today which are capable of learning non-trivial, sometimes complex classifications or approximations for all sorts of applications, such as diagnosis and prognosis based on sensor inputs. We have also seen that, up to now, generation of features has not been successful. Instead it is the job of a data scientist to find a sensible small set of features, which can then be used as input for the learning algorithm.
 
 Why do we not simply use all available sensor data, i.e. a direct image of the world, as input? For example, for object recognition in a photo we could use all ten million pixels as an input vector, which has a length of 30 million (in the case of RGB or HSV images, which each have three color values). What is the problem with this approach? The answer is known as the "curse of the dimensionality". This means, among other things, that training time grows very fast, often exponentially, with the dimension of the input data. To keep computation times within bounds, we must therefore first reduce the input data to short feature vectors. As described above, this mapping is usually created manually. However, for many applications, such as object classification in images it is difficult if not impossible to manually find the formula for features. One old method for automatic reduction of dimensions is principal component analysis (PCA) [Ert15], which determines the directions of highest variance (i.e. the principal component) in the vector space of the training data and projects the data into the subspace of the principal components using a linear transformation. Because of the missing nonlearity of the compression mapping PCA is not as powerful as the new methods described below.
@@ -7659,7 +6731,7 @@ as part of the Google Street View Project with photos of home address numbers [N
 
 In addition to many other applications, there are impressive variants of deep learning for creatively generating works of art.
 
-\subsection{Creativity}
+\section{Creativity}
 With deep learning, programs have emerged that can, for example, compose jazz melodies [\cite{bickerman2010jazz}]. A recurrent neural network is used in [\cite{karpathy2015rnn}] to generate texts, syntactically correct XML code, even L\textsuperscript{A}TEX source with mathematical notation and short computer programs. Hence recurrent neural networks can learn grammar. A program trained on Shakespeare's body of work can, from scratch, generate new texts such as:
 
 \begin{verbatim}
@@ -7697,7 +6769,7 @@ Then the photograph is replaced by the old work of art which is applied to anoth
 
 Now, to transfer the syle of the painting onto the photo, both methods are combined. We apply gradient descent search on a pixel image with white noise but now we minimize a linear combination of both of the above distance functions. Thus an image in the style of the painting with the content of the photo is created.
 
-\subsection{Applications of Neural Networks}
+\section{Applications of Neural Networks}
 In addition to the applications given as examples thus far, there are countless applications for neural networks in all areas of industry, especially for deep learning. Pattern recognition in all of its forms is a very important area, whether analysis of photos to recognize people or faces, recognition of fish swarms in sonar readings, recognition and classification of military vehicles in radar scans, or any number of other applications. Neural networks can also be trained to recognize spoken language and hand written text.
 
 Neural networks are not only used for recognizing objects and scenes. They can be trained to control self driving cars or robots based on sensor data, as well as for heuristically controlling search in backgammon and chess computers. An interesting use of networks for reinforcement learning is described in Sect. 10.8
@@ -7706,7 +6778,7 @@ For quite some time, neural networks, in addition to statistical methods, have b
 %---- Page End Break Here ---- Page : 288
 Other machine learning algorithms can as well be used for many of these applications. Due to the great commercial success of data mining, decision tree learning and support vector machines, there are neural algorithms for many applications as well as others that are not biologically motivated at all. The field of neural networks is a subarea of machine learning.
 
-\subsection{Summary and Outlook}
+\section{Summary and Outlook}
 With the perceptron, the delta rule, backpropagation, and, built upon them, deep learning, we have introduced the most important class of feedforward networks and shown their relationship to scores and naive Bayes, and also to the method of least squares.
 
 Nearest to their biological role models are the fascinating Hopfield networks. However, due to their complex dynamics, they are difficult to handle in practice.
@@ -7753,7 +6825,7 @@ Exercise 9.6 In order to show that backpropagation networks can divide non linea
   \item Exercise 9.8 Two non linearly separable two-dimensional sets of training data $M_{+}$ and $M_{-}$ are given. All points in $M_{+}$ are within the unit circle $x_{1}^{2}+x_{2}^{2}=1$ and all points in $M_{-}$ are outside. Give a coordinate transform $f: \mathbb{R}^{2} \rightarrow \mathbb{R}^{2}$ which makes the data linearly separable. Give the equation of the dividing line and sketch the two spaces and the data points.
 \end{itemize}
 
-\subsection{Introduction}
+\section{Introduction}
 All of the learning algorithms described so far-except the clustering algorithms belong to the class of supervised learning. In supervised learning, the agent is supposed to learn a mapping from the input variables to the output variables. Here it is important that for each individual training example, all values for both input variables and output variables are provided. In other words, we need a teacher or a database in which the mapping to be learned is approximately defined for a sufficient number of input values. The sole task of the machine learning algorithm is to filter out the noise from the data and find a function which approximates the mapping well, even between the given data points.
 %---- Page End Break Here ---- Page : 291
 In reinforcement learning the situation is different and more difficult because no training data is available. We begin with a simple illustrative example from robotics, which then is used as an application for the various algorithms.
@@ -7845,7 +6917,7 @@ rewarded with positive changes to $x$, and movements to the left are punished wi
 
 In Fig. 10.3 the state space for two variants of this is shown in simplified form. ${ }^{1}$ In the left example, both joints have two positions, and in the middle example they each have four positions. An optimal policy is given in Fig. 10.3 right.
 
-\subsection{The Task}
+\section{The Task}
 As shown in Fig. 10.4 on page 292, we distinguish between the agent and its environment. At time $t$ the world, which includes the agent and its environment, is described by a state $s_{t} \in \mathcal{S}$. The set $\mathcal{S}$ is an abstraction of the actual possible states
 
 \footnotetext{${ }^{1}$ The arm movement space consisting of arcs is rendered as a right-angled grid.
@@ -7885,7 +6957,7 @@ That is, it is at least as good as all other policies according to the defined v
 
 The agents discussed here, or their policies, only use information about the current state $s_{t}$ to determine the next state, and not the prior history. This is justified if the reward of an action only depends on the current state and current actions. Such processes are called Markov decision processes (MDP). In many applications, especially in robotics, the actual state of the agent is not exactly known, which makes planning actions even more difficult. The reason for this may be a noisy sensor signal. We call such a process a partially observable Markov decision process (POMDP).
 
-\subsection{Uninformed Combinatorial Search}
+\section{Uninformed Combinatorial Search}
 The simplest possibility of finding a successful policy is the combinatorial enumeration of all policies, as described in Chap. 6. However, even in the simple Example 10.1 on page 289 there are a very many policies, which causes combinatorial search to be associated with extremely high computational cost. In Fig. 10.5 the number of possible actions is given for every state. From that, the number of possible policies is calculated as the product of the given values, as shown in Table 10.2 on page 294.
 
 For arbitrary values of $n_{x}$ and $n_{y}$ there are always four corner nodes with two possible actions, $2\left(n_{x}-2\right)+2\left(n_{y}-2\right)$ edge nodes with three actions, and $\left(n_{x}-2\right)\left(n_{y}-2\right)$ inner nodes with four actions. Thus there are
@@ -7945,7 +7017,7 @@ Here we see that policy $\pi_{1}$ is superior to policy $\pi_{2}$ when gamma $=0
 \caption{Two different policies for the example}
 \end{figure}
 
-\subsection{Value Iteration and Dynamic Programming}
+\section{Value Iteration and Dynamic Programming}
 In the naive approach of enumerating all policies, much redundant work is performed, because many policies are for the most part identical. They may only differ slightly. Nevertheless every policy is completely newly generated and evaluated. This suggests saving intermediate results for parts of policies and reusing them. This approach to solving optimization problems was introduced as dynamic programming by Richard Bellman already in 1957 [\cite{bellman1957dynamic}]. Bellman recognized that for an optimal policy it is the case that:
 
 Independent of the starting state $s_{t}$ and the first action $a_{t}$, all subsequent decisions proceeding from every possible successor state $s_{t+1}$ must be optimal.
@@ -8030,7 +7102,7 @@ $$
 
 In (10.7) on page 296 we see that the agent in state $s_{t}$ must know the immediate reward $r_{t}$ and the successor state $s_{t+1}=\delta\left(s_{t}, a_{t}\right)$ to choose the optimal action $a_{t}$. It must also have a model of the functions $r$ and $\delta$. Since this is not the case for many practical applications, algorithms are needed which can also work without knowledge of $r$ and $\delta$. Section 10.6 is dedicated to such an algorithm.
 
-\subsection{A Learning Walking Robot and Its Simulation}
+\section{A Learning Walking Robot and Its Simulation}
 A graphical user interface for simple experiments with reinforcement learning is shown in Fig. 10.9 [\cite{tokic2009crawler}]. The user can observe reinforcement learning for differently sized two-dimensional state spaces. For better generalization, backpropagation networks are used to save the state (see Sect. 10.8). The feedback editor shown at the bottom right, with which the user can manually supply feedback about the environment, is especially interesting for experiments. Not shown is the menu for setting up the parameters for value iteration and backpropagation learning.
 
 \begin{figure}[htbp]
@@ -8055,7 +7127,7 @@ The reader may (lacking a real robot) model various surfaces or servo defects by
 
 \footnotetext{${ }^{2}$ Further information and related sources about crawling robots are available through \href{http://www.hs-weingarten.de/}{www.hs-weingarten.de/} \~{} ertel/kibuch.}
 
-\subsection{Q-Learning}
+\section{Q-Learning}
 A policy based on evaluation of possible successor states is clearly not useable if the agent does not have a model of the world, that is, when it does not know which state a possible action leads to. In most realistic applications the agent cannot resort to such a model of the world. For example, a robot which is supposed to grasp complex objects cannot predict whether the object will be securely held in its grip after a gripping action, or whether it will remain in place.
 %---- Page End Break Here ---- Page : 302
 If there is no model of the world, an evaluation of an action $a_{t}$ carried out in state $s_{t}$ is needed even if it is still unknown where this action leads to. Thus we now work with an evaluation function $Q\left(s_{t}, a_{t}\right)$ for states with their associated actions. With this function, the choice of the optimal action is made by the rule
@@ -8283,12 +7355,12 @@ $$
 
 The new $Q$ value $\hat{Q}_{n}(s, a)$ can clearly be represented as the old $\hat{Q}_{n-1}(s, a)$ plus $\alpha$ times a correction term which is the same as the $Q$ value's change in this step. The correction term is called the TD-error, or temporal difference error, and the above equation for changing the $Q$ value is a special case of TD-Learning, an important class of learning algorithms [SB98]. For $\alpha=1$ we obtain the Q-learning described above. For $\alpha=0$ the $\hat{Q}$ values are completely unchanged. Thus no learning takes place.
 
-\subsection{Exploration and Exploitation}
+\section{Exploration and Exploitation}
 For Q-learning so far, only a coarse algorithm schema has been given. Especially lacking is a description of the choice of the starting state each time and the actions to be carried out in the inner loop of Fig. 10.11 on page 301. For the selection of the next action there are two possibilities. Among the possible actions, one can be chosen randomly. In the long term this results in a uniform exploration of all possible actions or policies, but with very slow convergence. An alternative to this is the exploitation of previously learned $\hat{Q}$ values. Here the agent always chooses the action with the highest $\hat{Q}$ value. This results in relatively fast convergence of a specific trajectory. Other paths, however, remain unvisited all the way to the end. In the extreme case then we can obtain non-optimal policies. In Theorem 10.1 on page 301 it is therefore required that every state-action pair is visited infinitely many times. It is recommended to use a combination of exploration and exploitation with a high exploration portion at the beginning and reduce it more and more over time.
 
 The choice of the starting state also influences the speed of learning. In the first three pictures in Fig. 10.12 on page 302 we can clearly see that, for the first iterations, only the $Q$ values in the immediate vicinity of state-action pairs are changed by immediate reward. Starting farther away from this kind of point results in much unnecessary work. This suggests transferring prior knowledge about state-action pairs with immediate reward into starting states nearby these points. In the course of learning then more distant starting states can be selected.
 
-\subsection{Approximation, Generalization and Convergence}
+\section{Approximation, Generalization and Convergence}
 As Q-learning has been described so far, a table with all $Q$ values is explicitly saved in a table. This is only possible when working with a finite state space with finitely many actions. If the state space is infinite, however, for example in the case of continuous variables, then it is neither possible to save all $Q$ values nor to visit all state-action pairs during learning.
 %---- Page End Break Here ---- Page : 307
 Nonetheless there is a simple way of using Q-learning and value iteration on continuous variables. The $Q(s, a)$ table is replaced by a neural network, for example a backpropagation network with the input variables $s, a$ and the $Q$ value as the target output. For every update of a $Q$ value, the neural network is presented a training example with $(s, a)$ as input and $Q(s, a)$ as target output. At the end we have a finite representation of the function $Q(s, a)$. Since we only ever have finitely many training examples, but the function $Q(s, a)$ is defined for infinitely many inputs, we thus automatically obtain a generalization if the network size is chosen appropriately (see Chap. 9). Instead of a neural network, we can also use another supervised learning algorithm or a function approximator such as a support vector machine or a Gaussian process.
@@ -8301,7 +7373,7 @@ However, by bundling together multiple states, the agent can no longer different
 
 Also very promising are so-called policy improvement methods and their derived policy gradient methods, in which $Q$ values are not changed, but rather the policy is changed directly. In this scheme a policy is searched for in the space of all policies, which maximizes the cumulative discounted reward ((10.1) on page 292). One possibility of achieving this is by following the gradient of the cumulative reward to a maximum. The policy found in this way then clearly optimizes the cumulative reward. In [\cite{peters2008policygradients}] it is shown that this algorithm can greatly speed up learning in applications with large state spaces, such as those which occur for humanoid robots.
 
-\subsection{Applications}
+\section{Applications}
 The practical utility of reinforcement learning has meanwhile been shown many times over. From a large number of examples of this, we will briefly present a small selection.
 
 TD-learning, together with a backpropagation network with 40 to 80 hidden neurons was used very successfully in TD-gammon, a backgammon-playing program [\cite{tesauro1995tdgammon}]. The only immediate reward for the program is the result at the end of the game. An optimized version of the program with a two-move lookahead was trained against itself in 1.5 million games. It went on to defeat world-class players and plays as well as the three best human players.
@@ -8316,7 +7388,7 @@ Today it is also possible to learn to control a real car in only 20 minutes usin
 
 Real robots still have difficulty learning in high-dimensional state-action spaces because, compared to a simulation, real robots get feedback from the environment relatively slowly. Due to time limitations, the many millions of necessary training cycles are therefore not realizable. Here, besides fast learning algorithms, methods are needed which allow at least parts of the learning to happen offline, that is, without feedback from the environment.
 
-\subsection{AlphaGo, the Breakthrough in Go}
+\section{AlphaGo, the Breakthrough in Go}
 Although alpha-beta pruning has been used successfully by chess computers, it cannot achieve the same success in Go programs due to the game's large branching factor of roughly 250, as was described in Sect. 6.6.2. It has been known for some time that in Go the next move should be chosen using pattern recognition algorithms on the current board position. Yet all prior attempts had not been very successful. This changed when Google DeepMind presented AlphaGo in [SHM ${}^{+}$16]. This program uses Monte Carlo tree search (MCTS) to generate training data, deep learning to evaluate board positions and reinforcement learning to improve its strategy by playing against itself. Roughly sketched, the algorithm works as follows:
 %---- Page End Break Here ---- Page : 309
 The learning process's most important goal is to learn a policy $p$ which, for a position $s$, calculates the probability $p(a \mid s)$ of winning for every possible move $a$. If this probability function is found, then it will be used in the game such that when in a position $s$, the best of all possible moves
@@ -8353,7 +7425,7 @@ The Final AlphaGo Game Policy and its Performance AlphaGo's actual playing algor
 
 In summary, AlphaGo represents a great milestone in the history of AI. This achievement was made possible by using deep learning and by the astounding engineering effort of a large team of experts in the various areas of machine learning.
 
-\subsection{Curse of Dimensionality}
+\section{Curse of Dimensionality}
 Despite success in recent years, reinforcement learning remains an active area of research in AI, not least because even the best learning algorithms known today are still impractical for high-dimensional state and action spaces due to their gigantic computation time. This problem is known as the "curse of dimensionality".
 
 In the search for solutions to this problem, scientists observe animals and humans during learning. Here we notice that learning in nature takes place on many levels of abstraction. A baby first learns simple motor and language skills on the lowest level. When these are well learned, they are saved and can later be called up any time and used. Translated into the language of computer science, this means that every learned ability is encapsulated in a module and then, on a higher level, represents an action. By using such complex actions on a higher level, the action space becomes greatly reduced and thus learning is accelerated. In a similar way, states can be abstracted and thus the state space can be shrunk. This learning on multiple levels is called hierarchical learning [\cite{barto2003hierarchical}].
@@ -8366,7 +7438,7 @@ The first possibility is classical programming. The programmer provides the agen
 
 If traditional programming becomes too complex, we can begin training the robot or agent by having a human proscribe the right actions. In the simplest case, this is done by manual remote-control of the robot. The robot then saves the proscribed action for each state and generalizes using a supervised learning algorithm such as backpropagation or decision tree learning. This so-called demonstration learning [BCDS08, SE10] thus also provides an initial policy for the subsequent reinforcement learning.
 
-\subsection{Summary and Outlook}
+\section{Summary and Outlook}
 Today we have access to well-functioning and established learning algorithms for training our machines. The task for the human trainer or developer, however, is still demanding for complex applications. There are namely many possibilities for how to structure the training of a robot and it will not be successful without experimentation. This experimentation can be very tedious in practice because each new learning project must be designed and programmed. Tools are needed here which, besides the various learning algorithms, also offer the trainer the ability to combine these with traditional programming and demonstration learning. One of the first of this kind of tool is the Teaching-Box [\cite{ertel2009teachingbox}], which in addition to an extensive program library also offers templates for the configuration of learning projects and for communication between the robot and the environment. For example, the human teacher can give the robot further feedback from the keyboard or through a speech interface in addition to feedback from the environment.
 %---- Page End Break Here ---- Page : 312
 Reinforcement learning is a fascinating and active area of research that will be increasingly used in the future. More and more robot control systems, but also other programs, will learn through feedback from the environment. Today there exist a multitude of variations of the presented algorithms and also completely different algorithms. The scaling problem remains unsolved. For small action and state spaces with few degrees of freedom, impressive results can be achieved. If the number of degrees of freedom in the state space grows to 18, for example for a simple humanoid robot, then learning becomes very expensive.
@@ -8407,7 +7479,7 @@ Exercise 10.6 A robot arm with $n$ joints (dimensions) and $\ell$ discrete state
 (c) To reduce the number of possible strategies, assume that the number of possible actions per joint is always equal to 2 and that the robot can only move one joint at a time. Give a new formula for the number of strategies and create the associated table.\\
 (d) With the calculated result, justify that an agent which operates autonomously and adaptively with $n=8$ and $l=10$ can certainly be called intelligent.
 
-\subsection{Introduction}
+\section{Introduction}
 Exercise 1.3 Many well-known inference processes, learning processes, etc. are NP-complete or even undecidable. What does this mean for AI?
 %---- Page End Break Here ---- Page : 314
 Exercise 1.4 If a problem is NP-complete or can be described as "hard", that means that there are instances in which the problem cannot be solved in an acceptable amount of time. This is the so-called worst case. In some applications we have to live with the fact that in the worst case an efficient solution is impossible. This means that even in the future there will be practically relevant problems which in certain special cases are unsolvable.
@@ -8426,7 +7498,7 @@ AI will therefore neither find a universal formula, nor build a super machine wi
 (a) Costs for agent $1=11 \cdot 100$ cents $+1 \cdot 1$ cent $=1{,}101$ cents. Costs for $2=0 \cdot 100$ cents $+38 \cdot 1$ cent $=38$ cents. Therefore agent 2 saves $1{,}101$ cents $-38$ cents $=1{,}063$ cents.\\
 (b) Profit for agent $1=189 \cdot 100$ cents $+799 \cdot 1$ cent $=19{,}699$ cents. Profit for agent $2=200 \cdot 100$ cents $+762 \cdot 1$ cent $=20{,}762$ cents. Agent 2 therefore has $20{,}762$ cents $-19{,}699$ cents $=1{,}063$ cents higher profit. If one assesses the lost profits due to errors, the utility-based agent makes the same decisions as a cost-based agent.
 
-\subsection{Propositional Logic}
+\section{Propositional Logic}
 Exercise 2.1 With the signature $\Sigma=\left\{\sigma_{1}, \sigma_{2}, \ldots, \sigma_{n}\right\}$ and the grammar variables $\langle\text{formula}\rangle$, the syntax of propositional logic can be defined as follows:
 $$
 \begin{aligned}
@@ -8601,7 +7673,7 @@ Exercise 3.9 The LOP input files are:
 (a) He shaves himself if and only if he does not shave. (contradiction)\\
 (b) The set of all sets which do not contain themselves. It contains itself if and only if it does not contain itself.
 
-\subsection{PROLOG}
+\section{PROLOG}
 Exercise 5.1 PROLOG signals a stack overflow. The reason is PROLOG's depth-first search, which always chooses the first unifiable predicate in the input file. With recursive predicates such as equality, this causes a non-terminating recursion.
 
 \section{Exercise 5.2}
@@ -9296,7 +8368,7 @@ $$
 Sentences 1 and 2 are most similar w.r.t. the distance metric $d_{s}$.
 Exercise 8.22 Help for problems with KNIME: www.knime.org/forum
 
-\subsection{Neural Networks}
+\section{Neural Networks}
 
 Exercise 9.1 We want to show that $f(\Theta+x)+f(\Theta-x)=1$.
 $$
@@ -9463,7 +8535,7 @@ $81^{100}$ \\
 \end{tabular}
 (d) $10^{120411998}$ different policies can never be explored combinatorially, even if all of the available computers in the world were to operate on them in parallel. Thus ``intelligent'' algorithms are necessary to find an optimal or nearly optimal policy.
 
-\subsection{References}
+\chapter{References}
 [\cite{acm2009survey}] A survey of robot learning from demonstration. Robotics and Autonomous Systems, 57:469-483, 2009
 [Ada75] E.W. Adams. The Logic of Conditionals, volume 86 of Synthese Library. D. Reidel Publishing Company, 1975
 [Alp04] E. Alpaydin. Introduction to Machine Learning. MIT Press, 2004
@@ -9938,7 +9010,7 @@ $81^{100}$ \\
 [ZSR+99] A. Zielke, H. Sitter, T.A. Rampp, E. Sch"afer, C. Hasse, W. Lorenz, and M. Rothmund. Überprüfung eines diagnostischen Scoresystems (Ohmann-Score) für die akute Appendizitis. Chirurg 70, 777-783 (1999)
 [\cite{zimmerli1994ki}] W.C. Zimmerli, S. Wolf (eds.), Künstliche Intelligenz - Philosophische Probleme (Philipp Reclam, Stuttgart, 1994)
 %---- Page End Break Here ---- Page : 350
-\subsection{Index}
+\chapter{Index}
 
 A\\
 A*-algorithm, 107, 273\\

@@ -620,7 +620,7 @@ These are interesting questions. But even more interesting are questions about d
 ers have taken the field over the past 150 years, providing a large, extensivelydocumented cohort of men who can serve as a proxy for even larger, less welldocumented populations. Indeed, we can use this baseball player data to answer questions like:
 
 \begin{itemize}
-  \item Do left-handed people have shorter lifespans than right-handers? Handedness is not captured in most demographic data sets, but has been diligently assembled here. Indeed, analysis of this data set has been used to show that right-handed people live longer than lefties [\cite{halpern1988do}]
+  \item Do left-handed people have shorter lifespans than right-handers? Handedness is not captured in most demographic data sets, but has been diligently assembled here. Indeed, analysis of this data set has been used to show that right-handed people live longer than lefties [\cite{halpern1988right}]
   \item How often do people return to live in the same place where they were born? Locations of birth and death have been extensively recorded in this data set. Further, almost all of these people played at least part of their career far from home, thus exposing them to the wider world at a critical time in their youth.
   \item Do player salaries generally reflect past, present, or future performance?
   \item To what extent have heights and weights been increasing in the population at large?
@@ -943,13 +943,13 @@ Of course, the customer is always right. It was our fault that we could not expl
 \subsection*{1.8 Chapter Notes}
 The idea of using historical records from baseball players to establish that lefthanders have shorter lifespans is due to Halpern and Coren HC88, \cite{halpern1991handedness}, but their conclusion remains controversial. The percentage of left-handers in the population has been rapidly growing, and the observed effects may be a function of survivorship bias [\cite{mcmanus2004right}]. So lefties, hang in there! Full disclosure: I am one of you.
 
-The discipline of quantitative baseball analysis is sometimes called sabermetrics, and its leading light is a fellow named Bill James. I recommend budding data scientists read his Historical Baseball Abstract \cite{james2010new} as an excellent example of how one turns numbers into knowledge and understanding. Time Magazine once said of James: "Much of the joy of reading him comes from the extravagant spectacle of a first-rate mind wasting itself on baseball." I thank \href{http://sports-reference.com}{http://sports-reference.com} for permission to use images of their website in this book. Ditto to Amazon, the owner of IMDb.
+The discipline of quantitative baseball analysis is sometimes called sabermetrics, and its leading light is a fellow named Bill James. I recommend budding data scientists read his Historical Baseball Abstract \cite{james2010abstract} as an excellent example of how one turns numbers into knowledge and understanding. Time Magazine once said of James: "Much of the joy of reading him comes from the extravagant spectacle of a first-rate mind wasting itself on baseball." I thank \href{http://sports-reference.com}{http://sports-reference.com} for permission to use images of their website in this book. Ditto to Amazon, the owner of IMDb.
 
 
 %---- Page End Break Here ---- Page : 40
 The potential of ride-sharing systems in New York was studied by Santi et. al. SRS $^{+} 14$, who showed that almost $95 \%$ of the trips could have been shared with no more than five minutes delay per trip.
 
-The Lydia system for sentiment analysis is described in \cite{godbole2007large}. Methods to identify changes in word meaning through analysis of historical text corpora like Google Ngram are reported in \cite{kulkarni2015statistically}.
+The Lydia system for sentiment analysis is described in \cite{godbole2007large}. Methods to identify changes in word meaning through analysis of historical text corpora like Google Ngram are reported in \cite{kulkarni2015linguistic}.
 
 \subsection*{1.9 Exercises}
 \section*{Identifying Data Sets}
@@ -1687,13 +1687,13 @@ Knowing that certain pairs of codons were bad did not explain why they were bad.
 There are two take-home lessons from this story. First, developing numerical scoring functions which highlight specific aspects of items can be very useful to reveal patterns. Indeed, Chapter 4 will focus on the development of such systems. Second, hitting such quantities with a logarithm can make them even more useful, enabling us to see the forest for the trees.
 
 \subsection*{2.6 Chapter Notes}
-There are many excellent introductions to probability theory available, including [\cite{tijms2012understanding}, \cite{bertsekas2008introduction}. The same goes for elementary statistics, with good introductory texts including \cite{james2013introduction}, \cite{wheelan2013naked}. The brief history of probability theory in this chapter is based on Weaver \cite{weaver1982lady}.
+There are many excellent introductions to probability theory available, including [\cite{tijms2012understanding}, \cite{bertsekas2008introduction}. The same goes for elementary statistics, with good introductory texts including \cite{james2013isl}, \cite{wheelan2013naked}. The brief history of probability theory in this chapter is based on Weaver \cite{weaver1982lady}.
 
 In its strongest form, the efficient market hypothesis states that the stock market is essentially unpredictable using public information. My personal advice is that you should invest in index funds that do not actively try to predict the direction of the market. Malkiel's A Random Walk Down Wall Street [\cite{malkiel1999random}]\\
 %---- Page End Break Here ---- Page : 69
 
 is an excellent introduction to such investment thinking.\\
-The Fast Fourier Transform (FFT) provides an $O(n \log n)$ time algorithm to compute the full autocorrelation function of an $n$-element sequence, where the straightforward computation of $n$ correlations takes $O\left(n^{2}\right)$. Bracewell [\cite{bracewell1999fourier}] and Brigham [\cite{brigham1988fast}] are excellent introductions to Fourier transforms and the FFT. See also the exposition in Press \href{http://et.al}{et.al}. \cite{press2007numerical}.
+The Fast Fourier Transform (FFT) provides an $O(n \log n)$ time algorithm to compute the full autocorrelation function of an $n$-element sequence, where the straightforward computation of $n$ correlations takes $O\left(n^{2}\right)$. Bracewell [\cite{bracewell1999fourier}] and Brigham [\cite{brigham1988fft}] are excellent introductions to Fourier transforms and the FFT. See also the exposition in Press \href{http://et.al}{et.al}. \cite{press2007numerical}.
 
 The comic strip in Figure 2.10 comes from Randall Munroe's webcomic $x k c d$, specifically \href{https://xkcd.com/552}{https://xkcd.com/552}, and is reprinted with permission.
 
@@ -2501,7 +2501,7 @@ The failure of space missions due to numerical computing errors has been well ch
 
 The clever idea of using accelerometers in cell phones to detect earthquakes comes from Faulkner et al. $\left[\mathrm{FCH}^{+} 14\right]$. Representative studies of large sets of Flickr images includes Kisilevich et al. $\mathrm{KKK}^{+} 10$.
 
-Kittur [\cite{kittur2008crowdsourcing}] reports on experiences with crowdsourcing user studies on Amazon Turk. Our use of CrowdFlower to identify appropriate descriptions of historical figures was presented in \cite{chen2015vector}. Methods for gamification in instruction are discussed in \cite{deterding2011from} \cite{kapp2012gamification}. Recaptchas are introduced in Von Ahn, et al. $\mathrm{VAMM}^{+} 08$. The large-scale collection of psychological trait data via mobile apps is due to Kosinski, et al. \cite{kosinski2013private}.
+Kittur [\cite{kittur2008crowdsourcing}] reports on experiences with crowdsourcing user studies on Amazon Turk. Our use of CrowdFlower to identify appropriate descriptions of historical figures was presented in \cite{chen2015vector}. Methods for gamification in instruction are discussed in \cite{deterding2011gamification} \cite{kapp2012gamification}. Recaptchas are introduced in Von Ahn, et al. $\mathrm{VAMM}^{+} 08$. The large-scale collection of psychological trait data via mobile apps is due to Kosinski, et al. \cite{kosinski2013private}.
 
 \subsection*{3.7 Exercises}
 \section*{Data Munging}
@@ -3160,13 +3160,13 @@ Some of this reflects cultural differences. These critics had a different implic
 What is the moral here? Try to anticipate the concerns of the audience for your rankings. We were encouraged to explicitly call our measure meme-strength instead of significance. In retrospect, using this less-loaded name would have permitted our readers to better appreciate what we were doing. We probably also should have discouraged readers from latching on to our top 100 rankings, and instead concentrate on relative orderings within groups of interest: who were the top musicians, scientists, and artists? This might have proved less controversial, better helping people build trust in what we were doing.
 
 \subsection*{4.8 Chapter Notes}
-Langville and Meyer \cite{lngville2012whos}] provide a through introduction to most of the ranking methods discussed here, including Elo and PageRank.
+Langville and Meyer \cite{langville2012whos}] provide a through introduction to most of the ranking methods discussed here, including Elo and PageRank.
 
 
 %---- Page End Break Here ---- Page : 134
 One important topic not covered in this chapter is learning to rank methods, which exploit gold standard ranking data to train appropriate scoring functions. Such ground truth data is generally not available, but proxies can sometimes be found. When evaluating search engines, the observation that a user clicked the (say) fourth item presented to them can be interpreted as a vote that it should have been higher ranked than the three placed above it. SVMrank \cite{joachims2002optimizing}] presents a method for learning ranking functions from such data.
 
-The heuristic proposed minimizing edge conflicts in a vertex order is due to Eades et. al. \cite{eades1993fast}]. My presentation of Arrow's impossibility theorem is based on notes from Watkins \cite{watkins2016arrows}.
+The heuristic proposed minimizing edge conflicts in a vertex order is due to Eades et. al. \cite{eades1993feedback}]. My presentation of Arrow's impossibility theorem is based on notes from Watkins \cite{watkins2016arrows}.
 
 The war stories of this chapter were drawn very closely from my books Calculated Bets and Who's Bigger? Don't sue me for self-plagiarism.
 
@@ -3568,7 +3568,7 @@ For example, suppose I get suckered into betting tails on a coin which comes up 
 
 But here is the thing. Although it is now crystal clear that I had been tricked into using a biased coin, the consequences of this act are not substantial. For almost any issue in life worth flipping over, I would be willing to take the short side of the coin, because the stakes are just not high enough. At $\$ 1$ bet per flip, my expected loss even after 100,000 tosses would only be $\$ 1,000$ bucks.
 
-Significance tells you how unlikely it is that something is due to chance, but not whether it is important. We really care about effect size, the magnitude of difference between the two groups. We informally categorize a medium-level effect size as visible to the naked eye by a careful observer. On this scale, large effects pop out, and small effects are not completely trivial [\cite{sullivan2012using}]. There are several statistics which try to measure the effect size, including:
+Significance tells you how unlikely it is that something is due to chance, but not whether it is important. We really care about effect size, the magnitude of difference between the two groups. We informally categorize a medium-level effect size as visible to the naked eye by a careful observer. On this scale, large effects pop out, and small effects are not completely trivial [\cite{sullivan2012effect}]. There are several statistics which try to measure the effect size, including:
 
 \begin{itemize}
   \item Cohen's $d$ : The importance of the difference between two means $\mu$ and $\mu^{\prime}$ depends on the absolute magnitude of the change, but also the natural variation of the distributions as measured by $\sigma$ or $\sigma^{\prime}$. This effect size can be measured by:
@@ -9389,7 +9389,7 @@ With very few Thors corresponding with very few Rabinowitzes, these correspondin
 The moral of this story is the power of word embeddings to effortlessly capture structure latent in any long sequence of symbols, where order matters. Programs like word2vec are great fun to play with, and remarkably easy to use. Experiment with any interesting data set you have, and you will be surprised at the properties it uncovers.
 
 \subsection*{11.8 Chapter Notes}
-Good introductions to machine learning include Bishop [\cite{bishop2007pattern}] and Friedman et al. [\cite{friedman2001elements}]. Deep learning is currently the most exciting area of machine learning, with the book by Goodfellow, Bengio, and Courville [\cite{goodfellow2016deep}] serving as the most comprehensive treatment.
+Good introductions to machine learning include Bishop [\cite{bishop2007prml}] and Friedman et al. [\cite{friedman2001elements}]. Deep learning is currently the most exciting area of machine learning, with the book by Goodfellow, Bengio, and Courville [\cite{goodfellow2016deep}] serving as the most comprehensive treatment.
 
 Word embeddings were introduced by Mikolov et al. [\cite{mikolov2013efficient}], along with their powerful implementation of word2vec. Goldberg and Levy [G14] have shown that word2vec is implicitly factoring the pointwise mutual information matrix of word co-locations. In fact, the neural network model is not really fundamental to what it is doing. Our DeepWalk approach to graph embeddings is described in Perozzi et al. [\cite{perozzi2014deepwalk}].\\
 \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-402}
@@ -10045,7 +10045,7 @@ I encourage you to read these documents to help you develop your sense of ethica
 \subsection*{12.8 Chapter Notes}
 There exist no shortage of books on the topic of big data analysis. Leskovec, Rajarman and Ullman [RU14 is perhaps the most comprehensive of these, and a good place to turn for a somewhat deeper treatment of the topics we discuss here. This book and some companion videos are available at http: \href{//www.mmds.org}{//www.mmds.org}.
 
-My favorite hands-on resources on software technologies are generally books from O'Reilly Media. In the context of this chapter, I recommend their books on data analytics with Hadoop [\cite{bengfort2016data}] and Spark \cite{ryza2015advanced}].
+My favorite hands-on resources on software technologies are generally books from O'Reilly Media. In the context of this chapter, I recommend their books on data analytics with Hadoop [\cite{bengfort2016hadoop}] and Spark \cite{ryza2015advanced}].
 
 O'Neil O'N16 provides a thought-provoking look at the social dangers of big data analysis, emphasizing the misuse of opaque models relying on proxy data sources that create feedback loops which exacerbate the problems they are trying to solve.
 

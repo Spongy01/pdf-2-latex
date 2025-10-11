@@ -1,0 +1,69 @@
+{
+  "scoring_method": "multi-metric",
+  "timestamp": "2025-10-06T14:20:26.535978",
+  "total_books": 2,
+  "valid_books": 2,
+  "average_score": 0.0,
+  "results": [
+    {
+      "book_name": "cybersec",
+      "input_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/inputs/cybersec.tex",
+      "output_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/outputs/cybersec_final.tex",
+      "scoring_method": "multi-metric",
+      "timestamp": "2025-10-06T14:20:26.527881",
+      "valid": true,
+      "score": 0.0,
+      "details": {
+        "Score": -171.0,
+        "Latex Errors": 179,
+        "Latex Warnings": 15,
+        "Bibtex (metadata)": -1,
+        "Bibtex extracted (json)": 101,
+        "Entries Cited": 8,
+        "Chapters (metadata)": 21,
+        "Chapters (output)": 13,
+        "Sections (metadata)": 80,
+        "Sections (output)": 168,
+        "Subsections (metadata)": 169,
+        "Subsections (output)": 254,
+        "Figures (metadata)": 93,
+        "Figures (output)": 147,
+        "Tables (metadata)": 49,
+        "Tables (output)": 17,
+        "Index Entries (metadata)": -1,
+        "Index Entries (output)": 6
+      },
+      "error": null
+    },
+    {
+      "book_name": "assembly",
+      "input_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/inputs/assembly.tex",
+      "output_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/outputs/assembly_final.tex",
+      "scoring_method": "multi-metric",
+      "timestamp": "2025-10-06T14:20:26.532805",
+      "valid": true,
+      "score": 0.0,
+      "details": {
+        "Score": 18.099999999999994,
+        "Latex Errors": 53,
+        "Latex Warnings": 4,
+        "Bibtex (metadata)": -1,
+        "Bibtex extracted (json)": 3,
+        "Entries Cited": 0,
+        "Chapters (metadata)": 16,
+        "Chapters (output)": 2,
+        "Sections (metadata)": 126,
+        "Sections (output)": 159,
+        "Subsections (metadata)": 12,
+        "Subsections (output)": 15,
+        "Figures (metadata)": 16,
+        "Figures (output)": 55,
+        "Tables (metadata)": 32,
+        "Tables (output)": 14,
+        "Index Entries (metadata)": -1,
+        "Index Entries (output)": 0
+      },
+      "error": null
+    }
+  ]
+}
