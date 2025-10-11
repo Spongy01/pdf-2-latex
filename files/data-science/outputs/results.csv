@@ -1,3 +1,11 @@
+
 book_name,scoring_method,timestamp,Score,Latex Errors,Latex Warnings,Bibtex (metadata),Bibtex extracted (json),Entries Cited,Chapters (metadata),Chapters (output),Sections (metadata),Sections (output),Subsections (metadata),Subsections (output),Figures (metadata),Figures (output),Tables (metadata),Tables (output),Index Entries (metadata),Index Entries (output)
 data-science,multi-metric,2025-10-05T19:44:14.358061,-2.700000000000003,4,2,-1,106,92,13,16,105,182,179,195,178,158,74,3,-1,862
+<<<<<<< HEAD
 data-science,multi-metric,2025-10-06T13:11:41.672529,-2.200000000000003,4,2,-1,106,92,13,5,105,110,179,261,178,158,74,3,-1,862
+=======
+data-science,multi-metric,2025-10-10T18:19:11.457121,-2.700000000000003,4,2,-1,106,92,13,16,105,182,179,195,178,158,74,3,-1,862
+data-science,multi-metric,2025-10-10T18:24:34.986233,-2.700000000000003,4,2,-1,106,92,13,16,105,182,179,195,178,158,74,3,-1,862
+data-science,multi-metric,2025-10-10T18:28:03.737928,-2.700000000000003,4,2,-1,106,92,13,16,105,182,179,195,178,158,74,3,-1,862
+data-science,multi-metric,2025-10-10T19:00:35.678880,-2.700000000000003,4,2,-1,106,92,13,16,105,182,179,195,178,158,74,3,-1,862
+>>>>>>> origin/master

@@ -1,0 +1,20 @@
+{
+  "scoring_method": "multi-metric",
+  "timestamp": "2025-10-10T19:11:39.946315",
+  "total_books": 1,
+  "valid_books": 1,
+  "average_score": 0.0,
+  "results": [
+    {
+      "book_name": "assembly",
+      "input_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/inputs/assembly.tex",
+      "output_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/democheck/assembly_final.tex",
+      "scoring_method": "multi-metric",
+      "timestamp": "2025-10-10T19:11:39.939413",
+      "valid": true,
+      "score": 0.0,
+      "error": "[Errno 2] No such file or directory: '/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/democheck/metadata.json'",
+      "details": {}
+    }
+  ]
+}

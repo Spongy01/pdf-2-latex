@@ -1,3 +1,4 @@
-book_name,scoring_method,timestamp,Score,Latex Errors,Latex Warnings,Bibtex (metadata),Bibtex extracted (json),Entries Cited,Chapters (metadata),Chapters (output),Sections (metadata),Sections (output),Subsections (metadata),Subsections (output),Figures (metadata),Figures (output),Tables (metadata),Tables (output),Index Entries (metadata),Index Entries (output)
-ai,multi-metric,2025-10-05T19:44:14.370209,-49.099999999999994,0,6,-1,233,232,14,0,97,140,108,194,56,154,71,16,-1,0
-ai,multi-metric,2025-10-06T13:11:41.685712,-59.099999999999994,0,6,-1,233,232,14,0,97,149,108,205,56,154,71,16,-1,0
+note, book_name,scoring_method,timestamp,Score,Latex Errors,Latex Warnings,Bibtex (metadata),Bibtex extracted (json),Entries Cited,Chapters (metadata),Chapters (output),Sections (metadata),Sections (output),Subsections (metadata),Subsections (output),Figures (metadata),Figures (output),Tables (metadata),Tables (output),Index Entries (metadata),Index Entries (output)
+orig,ai,multi-metric,2025-10-05T19:44:14.370209,-49.099999999999994,0,6,-1,233,232,14,0,97,140,108,194,56,154,71,16,-1,0
+toc_update, ai,multi-metric,2025-10-06T14:16:16.491064,-62.7,10,2,-1,233,192,14,4,97,202,108,96,56,147,71,15,-1,0
+index_fix, ai,multi-metric,2025-10-06T13:11:41.685712,-59.099999999999994,0,6,-1,233,232,14,0,97,149,108,205,56,154,71,16,-1,0

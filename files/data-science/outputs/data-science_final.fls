@@ -9,6 +9,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty

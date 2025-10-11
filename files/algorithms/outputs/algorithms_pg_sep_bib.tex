@@ -10012,7 +10012,7 @@ Techniques such as dynamic programming and backtracking can be used to generate 
 
 More details about the war stories in this chapter are available in published papers. See Dawson et al. $\left[\mathrm{DRR}^{+} 95\right]$ for more on the Prolog trie minimization problem. Our algorithm for phase-balancing power loads from Section 10.6 (page 331) is reported in Wang et al. WSR13. Two-dimensional bar codes, presented in Section 10.4 (page 326), were developed largely through the efforts of Theo Pavlidis and Ynjiun Wang at Stony Brook [PSW92].
 
-The dynamic programming algorithm presented for parsing is known as the CKY algorithm after its three independent inventors (Cocke, Kasami, and Younger). See You67. The generalization of parsing to edit distance is due to Aho and Peterson AP72.
+The dynamic programming algorithm presented for parsing is known as the CKY algorithm after its three independent inventors (Cocke, Kasami, and Younger). See You67. The generalization of parsing to edit distance is due to Aho and Peterson \cite{aho1972minimum}.
 
 \subsection*{10.11 Exercises}
 
@@ -13221,7 +13221,7 @@ The primary competitive forum for high-performance sorting is an annual competit
 
 Sorting has a well-known $\Omega(n \lg n)$ lower bound under the algebraic decision tree model [BO83]. Determining the exact number of comparisons required for sorting $n$ elements, for small values of $n$, has generated considerable study. See \cite{aigner1988combinatorial}, Raw92 for expositions and Peczarski Pec04 Pec07 for the latest results.
 
-This lower-bound does not hold under different models of computation. Fredman and Willard FW93 present an $O(n \sqrt{\lg n})$ algorithm for sorting under a model of computation that permits arithmetic operations on keys. Andersson [And05] surveys algorithms for fast sorting on such non-standard models of computation.
+This lower-bound does not hold under different models of computation. Fredman and Willard FW93 present an $O(n \sqrt{\lg n})$ algorithm for sorting under a model of computation that permits arithmetic operations on keys. Andersson [\cite{andersson2005searching}] surveys algorithms for fast sorting on such non-standard models of computation.
 
 Related problems: Dictionaries (see page 440), searching (see page 510, topological sorting (see page 546.
 ![](https://cdn.mathpix.com/cropped/2025_03_24_35eff77eaa66f5ad98acg-520.jpg?height=583&width=1241&top_left_y=201&top_left_x=355)
@@ -13522,7 +13522,7 @@ Nijenhuis and Wilf NW78 remains a valuable resource on generating combinatorial 
 
 Combinatorica PS03 provides Mathematica implementations of algorithms to construct random and sequential integer partitions, compositions, strings,
 and Young tableaux, as well as to count and manipulate these objects. See Section 22.1.8 (page 716 .
-Notes: The best reference on algorithms for generating both integer and set partitions is Knuth Knu11. Good expositions include KS99, NW78 Rus03 PS03. Andrews And98 is the primary reference on integer partitions and related topics, with \cite{andrews2004integer} his more accessible introduction. Mansour Man12 is a recent book on set partitions.
+Notes: The best reference on algorithms for generating both integer and set partitions is Knuth Knu11. Good expositions include KS99, NW78 Rus03 PS03. Andrews \cite{andrews1998theory} is the primary reference on integer partitions and related topics, with \cite{andrews2004integer} his more accessible introduction. Mansour Man12 is a recent book on set partitions.
 
 
 %---- Page End Break Here ---- Page : 536
@@ -13757,7 +13757,7 @@ An algorithm for solving 3-SAT in worst-case $O^{*}\left(1.4802^{n}\right)$ appe
 
 The primary reference on NP-completeness is GJ79, featuring a list of roughly 400 NP-complete problems. The book remains an extremely useful reference; it is perhaps the book I reach for most often. Good expositions of Cook's theorem [Coo71], where satisfiability is proven hard, include CLRS09, GJ79, KT06]. The importance of Cook's result became clear in Karp's paper Kar72, showing the hardness of more than twenty different combinatorial problems.
 
-A linear-time algorithm for 2-SAT appears in APT79. See WW95 for an interesting application of 2-SAT to map labeling. The best heuristic known approximates maximum 2-SAT to within a factor of 1.0741 [FG95].
+A linear-time algorithm for 2-SAT appears in \cite{aspvall1979linear}. See WW95 for an interesting application of 2-SAT to map labeling. The best heuristic known approximates maximum 2-SAT to within a factor of 1.0741 [FG95].
 
 Related problems: Constrained optimization (see page 478), traveling salesman problem (see page 594).
 
@@ -13777,7 +13777,7 @@ Many advanced graph algorithms are difficult to program, but good implementation
 
 See Atallah \cite{atallah2017algorithms}, Thulasiraman TABN16, and van Leeuwen vL90a for up-to-date surveys on all areas of graph algorithms. Books of interest include:
 - Sedgewick SW11 - The graph algorithms volume of this algorithms text provides a comprehensive but gentle introduction to the field.
-- Ahuja, Magnanti, and Orlin AMO93 - While purporting to be a book on network flows, it covers the gamut of graph algorithms with an emphasis on operations research. Strongly recommended.
+- Ahuja, Magnanti, and Orlin \cite{ahuja1993network} - While purporting to be a book on network flows, it covers the gamut of graph algorithms with an emphasis on operations research. Strongly recommended.
 - Even Eve11 - A respected advanced text on graph algorithms, with a particularly thorough treatment of planarity-testing algorithms.
 ![](https://cdn.mathpix.com/cropped/2025_03_24_35eff77eaa66f5ad98acg-551.jpg?height=593&width=1245&top_left_y=194&top_left_x=358)
 
@@ -13952,7 +13952,7 @@ Combinatorica PS03 provides Mathematica implementations of Kruskal's MST algorit
 My (biased) preference for C language implementations of all basic graph algorithms, including minimum spanning trees, is the library associated with this book. See Section 22.1.9 (page 716 for details.
 Notes: The minimum spanning tree problem dates back to Boruvka's algorithm in 1926, well before Prim's Pri57 and Kruskal's Kru56 algorithms. Prim's algorithm was then rediscovered by Dijkstra Dij59. See GH85 for more on the interesting history of MST algorithms. Wu and Chao WC04 have written a monograph on minimum spanning tree and related problems.
 
-The fastest implementations of Prim's and Kruskal's algorithms use Fibonacci heaps FT87. However, pairing heaps have been proposed to realize the same bounds with less overhead. Experiments with pairing heaps are reported in [SV87. Efficient parallel algorithms for models like Map-Reduce are presented by Andoni ANOY14.
+The fastest implementations of Prim's and Kruskal's algorithms use Fibonacci heaps FT87. However, pairing heaps have been proposed to realize the same bounds with less overhead. Experiments with pairing heaps are reported in [SV87. Efficient parallel algorithms for models like Map-Reduce are presented by Andoni \cite{andoni2014parallel}.
 
 A simple combination of Boruvka's algorithm with Prim's algorithm yields an $O(m \lg \lg n)$ algorithm. Run Borukva's algorithm for $\lg \lg n$ iterations, yielding a forest of at most $n / \lg n$ trees. Now create a graph $G^{\prime}$ with one vertex representing each tree in this forest, with the weight of the edge between trees $T_{i}$ and $T_{j}$ set to the lightest edge $(x, y)$, where $x \in T_{i}$ and $y \in T_{j}$. The MST of $G^{\prime}$ coupled with the edges selected by Boruvka's algorithm yields the MST of $G$. Prim's algorithm (implemented with Fibonacci heaps) will take $O(m)$ time on this $n / \lg n$ vertex, $m$ edge graph.
 
@@ -14656,7 +14656,7 @@ $$
 The "min" ensures that we insert the vertex in the position that adds the smallest amount of distance to the tour, while the "max" ensures that we pick the worst such vertex first. This seems to work well because it "roughs out" a partial tour first before filling in details. Such tours are typically only $5 \%$ to $10 \%$ longer than optimal.
 - K-optimal tours - More powerful are the Kernighan-Lin or $k$-opt heuristics. The method applies local refinements to an initially arbitrary tour in the hopes of improving it. In particular, we delete a subset of $k$ edges from the tour so that the $k$ remaining subchains can be rewired to form a new, hopefully improved, tour. A tour is $k$-optimal when no subset of $k$ edges can be deleted and rewired to reduce the cost. Two-opting a tour is a fast and effective way to improve any other heuristic. Experiments suggest that 3-optimal tours are usually within a few percent of optimal cost. For $k>3$, the computation time increases considerably faster than the solution quality. Simulated annealing provides an alternate mechanism to employ edge flips to improve heuristic tours.
 
-Implementations: Concorde is a program for the symmetric traveling salesman problem and related network optimization problems, written in ANSI C. This record-setting program by Applegate, Bixby, Chvatal, and Cook \cite{applegate2007traveling}] has obtained the optimal solutions to at least 106 of TSPLIB's 110 instances; the largest of which has 85,900 cities. Concorde is available for academic research use from http://www.math. uwaterloo.ca/tsp. It is the clear choice
+Implementations: Concorde is a program for the symmetric traveling salesman problem and related network optimization problems, written in ANSI C. This record-setting program by Applegate, Bixby, Chvatal, and Cook \cite{applegate2007tsp}] has obtained the optimal solutions to at least 106 of TSPLIB's 110 instances; the largest of which has 85,900 cities. Concorde is available for academic research use from http://www.math. uwaterloo.ca/tsp. It is the clear choice
 among available TSP codes. Their website features very interesting material on the history and applications of TSP.
 
 
@@ -14671,7 +14671,7 @@ Experimental results on heuristic methods for solving large TSPs include Ben92a 
 
 The Christofides heuristic Chr76 is an improvement over the minimum spanning tree heuristic and guarantees a tour whose cost is at most $3 / 2$ times optimal on Euclidean graphs. It runs in $O\left(n^{3}\right)$, where the bottleneck is the time it takes to find a minimum-weight perfect matching (see Section 18.6 (page 562). An exciting recent result yields a constant-factor approximation for the more general case of asymmetric TSP STV17. The minimum spanning tree heuristic is due to RSL77.
 
-Polynomial-time approximation schemes for Euclidean TSP have been developed by Arora Aro98 and Mitchell Mit99, which offer $1+\epsilon$ factor approximations in polynomial time for any $\epsilon>0$. They are of great theoretical interest, although any practical consequences remain to be determined.
+Polynomial-time approximation schemes for Euclidean TSP have been developed by Arora \cite{arora1998polynomial} and Mitchell Mit99, which offer $1+\epsilon$ factor approximations in polynomial time for any $\epsilon>0$. They are of great theoretical interest, although any practical consequences remain to be determined.
 
 The history of progress on optimal TSP solutions is inspiring. In 1954, Dantzig, Fulkerson, and Johnson solved a symmetric TSP instance of 42 US cities [DFJ54]. In 1980, Padberg and Hong solved an instance on 318 vertices PH80. Applegate et al. ABCC07 have solved problems that are almost 300 times larger than this. Some of this increase is due to improved hardware, but most is due to better algorithms. The rate of growth demonstrates that exact solutions to NP-complete problems can be obtained for surprisingly large instances if the stakes are high enough.
 
@@ -15336,7 +15336,7 @@ Section 20.4 (page 634) gives a complete collection of Voronoi diagram implement
 
 Notes: Approximate nearest-neighbor search in high dimensions has been a very active area of research for the past twenty years, with recent results providing a general framework for a broad class of distance metrics $\mathrm{ANN}^{+}$18. Andoni and Indyk \cite{andoni2008near}, \cite{andoni2018approximate} ably survey recent results in approximate nearest-neighbor search in high dimensions based on locality sensitive hashing and random projection methods. Both theoretical and empirical results BM01 ML14 WSSJ14 indicate that these methods preserve distances quite nicely.
 
-The theoretical guarantees underlying Arya and Mount's approximate nearestneighbor code $A N N$ AM93, $\mathrm{AMN}^{+} 98$ are somewhat different. A sparse weighted graph structure is built from the data set, and the nearest neighbor is found by starting at a random point and greedily walking towards the query point in the graph. The closest point found over several random trials is declared the winner. Similar
+The theoretical guarantees underlying Arya and Mount's approximate nearestneighbor code $A N N$ \cite{arya1993approximate}, $\mathrm{AMN}^{+} 98$ are somewhat different. A sparse weighted graph structure is built from the data set, and the nearest neighbor is found by starting at a random point and greedily walking towards the query point in the graph. The closest point found over several random trials is declared the winner. Similar
 data structures hold promise for other problems in high-dimensional spaces. Nearestneighbor search was a subject of the Fifth DIMACS challenge, as reported in GJM02].
 
 
@@ -15580,7 +15580,7 @@ structing offset contours defining the polygonal regions within $P$ whose points
 %---- Page End Break Here ---- Page : 664
 VRONI Hel01 is a robust and efficient program for computing Voronoi diagrams of line segments, points, and arcs in the plane. It can readily compute medial-axis transforms of polygons, because it can construct Voronoi diagrams of arbitrary line segments. VRONI has been tested on thousands of synthetic and real-world data sets, some with over a million vertices. For more information, see http://www.cosy.sbg.ac.at/~held/projects/vroni/vroni.html. Other programs for constructing Voronoi diagrams are discussed in Section 20.4 (page 634).
 
-Programs that reconstruct or interpolate point clouds often are based on medial-axis transforms. Cocone (http://www.cse.ohio-state.edu/~tamaldey/ cocone.html) constructs an approximate medial-axis transform of the polyhedral surface it interpolates from points in $E^{3}$. See Dey06 for the theory behind Cocone. Powercrust \cite{amenta2001power}, \cite{amenta2001powerballs} constructs a discrete approximation to the medial-axis transform, and then reconstructs the surface from this transform. When the point samples are sufficiently dense, the algorithm is guaranteed to produce a geometrically and topologically correct approximation to the surface. It is available at https://web.cs.ucdavis.edu/~amenta/powercrust. html.
+Programs that reconstruct or interpolate point clouds often are based on medial-axis transforms. Cocone (http://www.cse.ohio-state.edu/~tamaldey/ cocone.html) constructs an approximate medial-axis transform of the polyhedral surface it interpolates from points in $E^{3}$. See Dey06 for the theory behind Cocone. Powercrust \cite{amenta2001power}, \cite{amenta2001power2} constructs a discrete approximation to the medial-axis transform, and then reconstructs the surface from this transform. When the point samples are sufficiently dense, the algorithm is guaranteed to produce a geometrically and topologically correct approximation to the surface. It is available at https://web.cs.ucdavis.edu/~amenta/powercrust. html.
 
 Notes: The book by Siddiqi and Pizer [SP08] offers a comprehensive treatment of medial representations and algorithms. Surveys of thinning approaches in image processing and computer graphics, include LLS92, Ogn93, SBdB16 TDS ${ }^{+} 16$. The medial-axis transformation was introduced for shape similarity studies in biology Blu67. Computational topology is an emerging field for the formal analysis of shape: see the book by Edelsbrunner and Harer [EH10]. Good expositions on the medial-axis transform include dBvKOS08, O'R01 Pav82.
 
@@ -15718,7 +15718,7 @@ Notes: Veltkamp Vel01 is an excellent survey on shape matching from a computatio
 
 The optimal alignment of $n$ and $m$-vertex convex polygons subject to translation (but not rotation) can be computed in $O((n+m) \log (n+m))$ time dBDK ${ }^{+} 98$. An approximation of the optimal overlap under translation and rotation is due to Ahn, et al. $\mathrm{ACP}^{+} 07$.
 
-A linear-time algorithm for computing the Hausdorff distance between two convex polygons is given in Atallah Ata83, with algorithms for the general case reported in HK90.
+A linear-time algorithm for computing the Hausdorff distance between two convex polygons is given in Atallah \cite{atallah1983linear}, with algorithms for the general case reported in HK90.
 
 Related problems: Graph isomorphism (see page 610), thinning (see page 655.
 ![](https://cdn.mathpix.com/cropped/2025_03_24_35eff77eaa66f5ad98acg-675.jpg?height=591&width=1240&top_left_y=195&top_left_x=171)
@@ -15814,7 +15814,7 @@ starting point for any serious project using arrangements. A recent book by Foge
 A robust code for constructing and topologically sweeping an arrangement in C++ is provided at https://www.cs.tufts.edu/research/geometry/other/ sweep/. An extension of topological sweep to deal with the visibility complex of a collection of pairwise disjoint convex planar sets has been provided in CGAL.
 
 Arrange is a package for maintaining arrangements of polygons in either the plane or on the sphere. Polygons may be degenerate, and hence represent arrangements of lines. A randomized incremental construction algorithm is used, and efficient point location on the arrangement is supported. Arrange is written in C by Michael Goldwasser and is available from http://euler.slu. edu/~goldwasser/publications/.
-Notes: Edelsbrunner Ede87 provides a comprehensive treatment of the combinatorial theory of arrangements, plus algorithms on arrangements with applications. It is an essential reference for anyone seriously interested in the subject. Recent surveys of combinatorial and algorithmic results include AS00 HS18. Good expositions on constructing arrangements include dBvKOS08 O'R01. Implementation issues related to arrangements as implemented in CGAL are discussed in [FWH04 HH00].
+Notes: Edelsbrunner Ede87 provides a comprehensive treatment of the combinatorial theory of arrangements, plus algorithms on arrangements with applications. It is an essential reference for anyone seriously interested in the subject. Recent surveys of combinatorial and algorithmic results include \cite{agarwal2000arrangements} HS18. Good expositions on constructing arrangements include dBvKOS08 O'R01. Implementation issues related to arrangements as implemented in CGAL are discussed in [FWH04 HH00].
 
 Arrangements generalize naturally beyond two dimensions. Instead of lines, the space decomposition is defined by planes (or beyond three dimensions, hyperplanes). The zone theorem states that any arrangement of $n d$-dimensional hyperplanes has total complexity $O\left(n^{d}\right)$, and any single hyperplane intersects cells of complexity $O\left(n^{d-1}\right)$. This provides the justification for incremental construction algorithms for arrangements. Walking around the boundary of each cell to find the next cell that the hyperplane intersects takes time proportional to the number of cells created by inserting the hyperplane.
 
@@ -15940,7 +15940,7 @@ SYMPHONY is a mixed-integer linear programming solver that includes a set partit
 
 Notes: An old but classic survey article on set cover is BP76, with more recent approximation and complexity analysis surveyed in Pas97. See CFT99 CFT00 for extensive computational studies of integer programming-based set cover heuristics and exact algorithms. An excellent exposition on algorithms and reduction rules for set cover is presented in SDK83.
 
-Good expositions of the greedy heuristic for set cover include [CLRS09 Hoc96]. An example demonstrating that the greedy heuristic for set cover can be as bad as $\lg n$ is presented in Joh74 PS98. This is not a defect of the heuristic. Indeed, it is provably hard to approximate set cover to within an approximation factor better than $(1-o(1)) \ln n$ Fei98. Better results are possible for restricted set cover problems arising from geometric instances, like finding the smallest number of points to stab a given set of circles AP14 MR10.
+Good expositions of the greedy heuristic for set cover include [CLRS09 Hoc96]. An example demonstrating that the greedy heuristic for set cover can be as bad as $\lg n$ is presented in Joh74 PS98. This is not a defect of the heuristic. Indeed, it is provably hard to approximate set cover to within an approximation factor better than $(1-o(1)) \ln n$ Fei98. Better results are possible for restricted set cover problems arising from geometric instances, like finding the smallest number of points to stab a given set of circles \cite{agarwal2014near} MR10.
 
 Knuth's volume 4A Knu11 contains a fascinating discussion of Boolean logic optimization reminiscent of set cover.
 

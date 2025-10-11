@@ -1,0 +1,39 @@
+{
+  "scoring_method": "multi-metric",
+  "timestamp": "2025-10-10T19:00:35.691432",
+  "total_books": 1,
+  "valid_books": 1,
+  "average_score": 0.0,
+  "results": [
+    {
+      "book_name": "data-science",
+      "input_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/inputs/data-science.tex",
+      "output_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data-science/outputs/data-science_final.tex",
+      "scoring_method": "multi-metric",
+      "timestamp": "2025-10-10T19:00:35.678880",
+      "valid": true,
+      "score": 0.0,
+      "details": {
+        "Score": -2.700000000000003,
+        "Latex Errors": 4,
+        "Latex Warnings": 2,
+        "Bibtex (metadata)": -1,
+        "Bibtex extracted (json)": 106,
+        "Entries Cited": 92,
+        "Chapters (metadata)": 13,
+        "Chapters (output)": 16,
+        "Sections (metadata)": 105,
+        "Sections (output)": 182,
+        "Subsections (metadata)": 179,
+        "Subsections (output)": 195,
+        "Figures (metadata)": 178,
+        "Figures (output)": 158,
+        "Tables (metadata)": 74,
+        "Tables (output)": 3,
+        "Index Entries (metadata)": -1,
+        "Index Entries (output)": 862
+      },
+      "error": null
+    }
+  ]
+}

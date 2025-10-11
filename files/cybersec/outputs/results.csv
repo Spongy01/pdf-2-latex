@@ -1,3 +1,5 @@
-book_name,scoring_method,timestamp,Score,Latex Errors,Latex Warnings,Bibtex (metadata),Bibtex extracted (json),Entries Cited,Chapters (metadata),Chapters (output),Sections (metadata),Sections (output),Subsections (metadata),Subsections (output),Figures (metadata),Figures (output),Tables (metadata),Tables (output),Index Entries (metadata),Index Entries (output)
-cybersec,multi-metric,2025-10-05T19:44:14.379776,-171.0,179,15,-1,101,8,21,13,80,168,169,254,93,147,49,17,-1,6
-cybersec,multi-metric,2025-10-06T13:11:41.697835,-206.8,207,63,-1,101,57,21,8,80,155,169,335,93,157,49,17,-1,6
+note, book_name,scoring_method,timestamp,Score,Latex Errors,Latex Warnings,Bibtex (metadata),Bibtex extracted (json),Entries Cited,Chapters (metadata),Chapters (output),Sections (metadata),Sections (output),Subsections (metadata),Subsections (output),Figures (metadata),Figures (output),Tables (metadata),Tables (output),Index Entries (metadata),Index Entries (output)
+orig,cybersec,multi-metric,2025-10-05T19:44:14.379776,-171.0,179,15,-1,101,8,21,13,80,168,169,254,93,147,49,17,-1,6
+toc_update, cybersec,multi-metric,2025-10-06T14:20:26.527881,-171.0,179,15,-1,101,8,21,13,80,168,169,254,93,147,49,17,-1,6
+index_fix, cybersec,multi-metric,2025-10-06T13:11:41.697835,-206.8,207,63,-1,101,57,21,8,80,155,169,335,93,157,49,17,-1,6
+
