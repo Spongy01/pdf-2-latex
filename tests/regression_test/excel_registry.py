@@ -18,6 +18,7 @@ from typing import List, Dict, Optional
 from openpyxl import Workbook, load_workbook
 from openpyxl.utils import get_column_letter
 from openpyxl.styles import Alignment
+from openpyxl.styles import PatternFill
 
 
 MASTER_FILENAME = "master_results.xlsx"
@@ -139,6 +140,105 @@ def _add_version_block(ws, version_name: str, books: List[str]) -> int:
     return start_col
 
 
+def _to_number(val):
+    """Try to coerce a cell value to a float for comparison. Return None if not numeric."""
+    if val is None:
+        return None
+    if isinstance(val, (int, float)):
+        return float(val)
+    if isinstance(val, str):
+        s = val.strip()
+        if s == "":
+            return None
+        # allow commas in numbers
+        s = s.replace(",", "")
+        try:
+            return float(s)
+        except Exception:
+            return None
+    return None
+
+
+def _color_master_by_version(ws):
+    """Compare each version block with the previous block and color cells.
+
+    Rules:
+    - For 'Latex Errors' and 'Latex Warnings': increase -> red, decrease -> green
+    - For other numeric metrics: increase -> green, decrease -> red
+    - If values are equal or non-numeric or previous missing: no fill
+    """
+    max_col = ws.max_column
+    # gather version blocks as (version_name, start, end)
+    blocks = []
+    seen_versions = set()
+    for col in range(2, max_col + 1):
+        v = ws.cell(row=1, column=col).value
+        if v and v not in seen_versions:
+            found = _find_version_block(ws, v)
+            if found:
+                start, end = found
+                blocks.append((v, start, end))
+                seen_versions.add(v)
+
+    # sort by start column to ensure left-to-right chronological order
+    blocks.sort(key=lambda x: x[1])
+
+    red_fill = PatternFill(start_color="FFC7CE", end_color="FFC7CE", fill_type="solid")
+    green_fill = PatternFill(start_color="C6EFCE", end_color="C6EFCE", fill_type="solid")
+
+    # rows with metrics start at row 3
+    metric_start = 3
+    metric_end = metric_start + len(METRIC_ROWS) - 1
+
+    negative_metrics = {"Latex Errors", "Latex Warnings"}
+
+    # iterate over blocks and compare each to previous
+    for i in range(1, len(blocks)):
+        _, cur_start, cur_end = blocks[i]
+        _, prev_start, prev_end = blocks[i - 1]
+
+        # for each book column in current block
+        for cur_col in range(cur_start, cur_end + 1):
+            book = ws.cell(row=2, column=cur_col).value
+            if not book:
+                continue
+            # find matching book in previous block
+            prev_col = None
+            for c in range(prev_start, prev_end + 1):
+                if ws.cell(row=2, column=c).value == book:
+                    prev_col = c
+                    break
+            if prev_col is None:
+                continue
+
+            # compare metric rows
+            for row in range(metric_start, metric_end + 1):
+                cell_cur = ws.cell(row=row, column=cur_col)
+                cell_prev = ws.cell(row=row, column=prev_col)
+                val_cur = _to_number(cell_cur.value)
+                val_prev = _to_number(cell_prev.value)
+
+                # only act on numeric comparisons where previous exists
+                if val_cur is None or val_prev is None:
+                    continue
+                if val_cur == val_prev:
+                    continue
+
+                metric_label = ws.cell(row=row, column=1).value
+                if metric_label in negative_metrics:
+                    # for errors/warnings: increase -> red, decrease -> green
+                    if val_cur > val_prev:
+                        cell_cur.fill = red_fill
+                    else:
+                        cell_cur.fill = green_fill
+                else:
+                    # for other numeric metrics: increase -> green, decrease -> red
+                    if val_cur > val_prev:
+                        cell_cur.fill = green_fill
+                    else:
+                        cell_cur.fill = red_fill
+
+
 def update_master_excel(results_dir: Path, book_name: str, result: Dict) -> None:
     """Update (or create) the master Excel file with metrics for a single book and the current version."""
     wb = _load_or_create(results_dir)
@@ -217,5 +317,11 @@ def update_master_excel(results_dir: Path, book_name: str, result: Dict) -> None
         value = mapping.get(metric, "")
         ws.cell(row=row_idx, column=target_col, value=value)
 
-    # Save workbook
+    # Color cells by comparing versions, then save workbook
+    try:
+        _color_master_by_version(ws)
+    except Exception:
+        # best-effort coloring: don't fail the update if coloring errors
+        pass
+
     wb.save(_master_path(results_dir))
