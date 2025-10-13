@@ -130,8 +130,12 @@ def _add_version_block(ws, version_name: str, books: List[str]) -> int:
         col = start_col + i
         ws.cell(row=2, column=col, value=book)
 
-    # Merge top row across block and set version name
-    end_col = start_col + len(books) - 1 if books else start_col
+    # Add an extra column for average score (label in row 2 only)
+    avg_col = start_col + len(books)
+    ws.cell(row=2, column=avg_col, value="avg.")
+
+    # Merge top row across block (include avg column) and set version name
+    end_col = avg_col if books else start_col
     merge_range = f"{get_column_letter(start_col)}1:{get_column_letter(end_col)}1"
     ws.merge_cells(merge_range)
     ws.cell(row=1, column=start_col, value=version_name)
@@ -157,6 +161,39 @@ def _to_number(val):
         except Exception:
             return None
     return None
+
+
+def _ensure_avg_column(ws, start_col: int) -> int:
+    """Ensure the version block starting at start_col has an 'avg.' column at its end.
+
+    Returns the avg column index.
+    This is safe to call for blocks created before the avg feature existed.
+    """
+    # scan row 2 from start_col to find the last non-empty header cell
+    col = start_col
+    max_col = ws.max_column
+    # walk right while there is a book/label in row 2
+    while col <= max_col and ws.cell(row=2, column=col).value is not None:
+        col += 1
+    last_filled = col - 1
+
+    # if last_filled cell already says 'avg.' then return it
+    if last_filled >= start_col and ws.cell(row=2, column=last_filled).value == "avg.":
+        return last_filled
+
+    # otherwise add avg at next column after last_filled
+    avg_col = last_filled + 1
+    ws.cell(row=2, column=avg_col, value="avg.")
+
+    # update merged header for the version to include the new avg column
+    # find the merged region start cell (row1,start_col) and extend merge to avg_col
+    try:
+        ws.merge_cells(f"{get_column_letter(start_col)}1:{get_column_letter(avg_col)}1")
+    except Exception:
+        # fall back: set value and alignment on start_col
+        pass
+
+    return avg_col
 
 
 def _color_master_by_version(ws):
@@ -275,10 +312,14 @@ def update_master_excel(results_dir: Path, book_name: str, result: Dict) -> None
     else:
         start_col, end_col = block
 
+    # Ensure avg column exists for this block (handles older workbooks)
+    avg_col = _ensure_avg_column(ws, start_col)
+
     # Locate the column for the requested book within the version block
     # Recompute block boundaries for new workbook if needed
     if not block:
-        end_col = start_col + len(books) - 1
+        # end_col includes the avg column
+        end_col = start_col + len(books)
 
     try:
         book_index = books.index(book_name)
@@ -286,11 +327,14 @@ def update_master_excel(results_dir: Path, book_name: str, result: Dict) -> None
         # Book not found in discovered list: append it at the end of the current block
         book_index = len(books)
         books.append(book_name)
-        # expand the merged area and write the book name
-        col = start_col + book_index
-        ws.cell(row=2, column=col, value=book_name)
-        # update merge to include new column
-        new_end = start_col + len(books) - 1
+        # rewrite the book name row for the block so avg column stays at the end
+        for i, b in enumerate(books):
+            ws.cell(row=2, column=start_col + i, value=b)
+        # write avg header after the last book
+        avg_col = start_col + len(books)
+        ws.cell(row=2, column=avg_col, value="avg.")
+        # update merge to include new avg column
+        new_end = avg_col
         ws.merge_cells(f"{get_column_letter(start_col)}1:{get_column_letter(new_end)}1")
 
     target_col = start_col + book_index
@@ -316,6 +360,27 @@ def update_master_excel(results_dir: Path, book_name: str, result: Dict) -> None
     for row_idx, metric in enumerate(METRIC_ROWS, start=3):
         value = mapping.get(metric, "")
         ws.cell(row=row_idx, column=target_col, value=value)
+
+    # Recompute average Score for this version block (avg column is just after last book)
+    try:
+        score_row_idx = 3 + METRIC_ROWS.index("Score")
+    except ValueError:
+        score_row_idx = None
+
+    if score_row_idx is not None:
+        # book score columns are start_col .. start_col+len(books)-1 (avg is at start_col+len(books))
+        score_values = []
+        for c in range(start_col, start_col + len(books)):
+            v = _to_number(ws.cell(row=score_row_idx, column=c).value)
+            if v is not None:
+                score_values.append(v)
+        avg_col = start_col + len(books)
+        if score_values:
+            avg_val = sum(score_values) / len(score_values)
+            ws.cell(row=score_row_idx, column=avg_col, value=avg_val)
+        else:
+            # clear avg if no scores
+            ws.cell(row=score_row_idx, column=avg_col, value=None)
 
     # Color cells by comparing versions, then save workbook
     try:

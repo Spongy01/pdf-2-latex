@@ -1,0 +1,39 @@
+{
+  "scoring_method": "multi-metric",
+  "timestamp": "2025-10-12T22:05:27.654435",
+  "total_books": 1,
+  "valid_books": 1,
+  "average_score": 0.0,
+  "results": [
+    {
+      "book_name": "ai",
+      "input_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/inputs/ai.tex",
+      "output_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/original/ai_final.tex",
+      "scoring_method": "multi-metric",
+      "timestamp": "2025-10-12T22:05:27.639126",
+      "valid": true,
+      "score": 0.0,
+      "details": {
+        "Score": -60.8,
+        "Latex Errors": 11,
+        "Latex Warnings": 133,
+        "Bibtex (metadata)": -1,
+        "Bibtex extracted (json)": 233,
+        "Entries Cited": 232,
+        "Chapters (metadata)": 14,
+        "Chapters (output)": 0,
+        "Sections (metadata)": 97,
+        "Sections (output)": 128,
+        "Subsections (metadata)": 108,
+        "Subsections (output)": 195,
+        "Figures (metadata)": 56,
+        "Figures (output)": 150,
+        "Tables (metadata)": 71,
+        "Tables (output)": 14,
+        "Index Entries (metadata)": -1,
+        "Index Entries (output)": 0
+      },
+      "error": null
+    }
+  ]
+}
