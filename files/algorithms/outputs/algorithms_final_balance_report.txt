@@ -1,0 +1,125 @@
+================================================================================
+LATEX COMMAND BALANCE ANALYSIS REPORT
+================================================================================
+File: post-correction
+Total commands found: 1083
+Total issues found: 9
+
+SUMMARY STATISTICS:
+----------------------------------------
+Environments found: 15
+Max nesting depth: 10
+Average nesting depth: 6.17
+
+ISSUES BY TYPE:
+----------------------------------------
+mismatch: 1
+unclosed: 8
+
+ISSUES BY ENVIRONMENT:
+----------------------------------------
+document: 2
+center: 1
+tabular: 4
+aligned: 1
+itemize: 1
+
+DETAILED ISSUES:
+----------------------------------------
+1. MISMATCH - document
+   Line 16133: \end{document} found but expected \end{itemize} (opened at line 10208)
+   Severity: error
+
+2. UNCLOSED - document
+   Line 45: \begin{document} opened but never closed
+   Severity: error
+
+3. UNCLOSED - center
+   Line 944: \begin{center} opened but never closed
+   Severity: error
+
+4. UNCLOSED - tabular
+   Line 945: \begin{tabular} opened but never closed
+   Severity: error
+
+5. UNCLOSED - tabular
+   Line 3426: \begin{tabular} opened but never closed
+   Severity: error
+
+6. UNCLOSED - tabular
+   Line 3591: \begin{tabular} opened but never closed
+   Severity: error
+
+7. UNCLOSED - tabular
+   Line 6596: \begin{tabular} opened but never closed
+   Severity: error
+
+8. UNCLOSED - aligned
+   Line 9124: \begin{aligned} opened but never closed
+   Severity: error
+
+9. UNCLOSED - itemize
+   Line 10208: \begin{itemize} opened but never closed
+   Severity: error
+
+ENVIRONMENT USAGE ANALYSIS:
+----------------------------------------
+align*:
+  Begins: 1, Ends: 1
+  Unclosed: 0, Balance ratio: 1.00
+
+aligned:
+  Begins: 20, Ends: 19
+  Unclosed: 1, Balance ratio: 0.95
+
+array:
+  Begins: 10, Ends: 10
+  Unclosed: 0, Balance ratio: 1.00
+
+center:
+  Begins: 11, Ends: 10
+  Unclosed: 1, Balance ratio: 0.91
+
+document:
+  Begins: 1, Ends: 1
+  Unclosed: 0, Balance ratio: 1.00
+
+enumerate:
+  Begins: 13, Ends: 13
+  Unclosed: 0, Balance ratio: 1.00
+
+figure:
+  Begins: 149, Ends: 149
+  Unclosed: 0, Balance ratio: 1.00
+
+gathered:
+  Begins: 4, Ends: 4
+  Unclosed: 0, Balance ratio: 1.00
+
+itemize:
+  Begins: 201, Ends: 200
+  Unclosed: 1, Balance ratio: 1.00
+
+minipage:
+  Begins: 3, Ends: 3
+  Unclosed: 0, Balance ratio: 1.00
+
+table:
+  Begins: 5, Ends: 5
+  Unclosed: 0, Balance ratio: 1.00
+
+tabular:
+  Begins: 40, Ends: 36
+  Unclosed: 4, Balance ratio: 0.90
+
+thebibliography:
+  Begins: 1, Ends: 1
+  Unclosed: 0, Balance ratio: 1.00
+
+theindex:
+  Begins: 1, Ends: 1
+  Unclosed: 0, Balance ratio: 1.00
+
+verbatim:
+  Begins: 85, Ends: 85
+  Unclosed: 0, Balance ratio: 1.00

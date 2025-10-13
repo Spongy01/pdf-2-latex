@@ -1,0 +1,91 @@
+================================================================================
+LATEX COMMAND BALANCE ANALYSIS REPORT
+================================================================================
+File: post-correction
+Total commands found: 1257
+Total issues found: 5
+
+SUMMARY STATISTICS:
+----------------------------------------
+Environments found: 11
+Max nesting depth: 8
+Average nesting depth: 2.80
+
+ISSUES BY TYPE:
+----------------------------------------
+mismatch: 1
+unclosed: 4
+
+ISSUES BY ENVIRONMENT:
+----------------------------------------
+document: 2
+center: 1
+tabular: 2
+
+DETAILED ISSUES:
+----------------------------------------
+1. MISMATCH - document
+   Line 9014: \end{document} found but expected \end{tabular} (opened at line 6586)
+   Severity: error
+
+2. UNCLOSED - document
+   Line 90: \begin{document} opened but never closed
+   Severity: error
+
+3. UNCLOSED - center
+   Line 6583: \begin{center} opened but never closed
+   Severity: error
+
+4. UNCLOSED - tabular
+   Line 6584: \begin{tabular} opened but never closed
+   Severity: error
+
+5. UNCLOSED - tabular
+   Line 6586: \begin{tabular} opened but never closed
+   Severity: error
+
+ENVIRONMENT USAGE ANALYSIS:
+----------------------------------------
+aligned:
+  Begins: 1, Ends: 1
+  Unclosed: 0, Balance ratio: 1.00
+
+array:
+  Begins: 6, Ends: 6
+  Unclosed: 0, Balance ratio: 1.00
+
+center:
+  Begins: 66, Ends: 65
+  Unclosed: 1, Balance ratio: 0.98
+
+document:
+  Begins: 1, Ends: 1
+  Unclosed: 0, Balance ratio: 1.00
+
+enumerate:
+  Begins: 19, Ends: 19
+  Unclosed: 0, Balance ratio: 1.00
+
+figure:
+  Begins: 55, Ends: 55
+  Unclosed: 0, Balance ratio: 1.00
+
+itemize:
+  Begins: 20, Ends: 20
+  Unclosed: 0, Balance ratio: 1.00
+
+minipage:
+  Begins: 7, Ends: 7
+  Unclosed: 0, Balance ratio: 1.00
+
+table:
+  Begins: 14, Ends: 14
+  Unclosed: 0, Balance ratio: 1.00
+
+tabular:
+  Begins: 102, Ends: 100
+  Unclosed: 2, Balance ratio: 0.98
+
+verbatim:
+  Begins: 339, Ends: 339
+  Unclosed: 0, Balance ratio: 1.00

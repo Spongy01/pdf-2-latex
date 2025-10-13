@@ -1,0 +1,52 @@
+{
+  "pre_correction": {
+    "total_commands": 1703,
+    "total_issues": 5,
+    "issues_by_type": {
+      "mismatch": 5
+    },
+    "issues_by_environment": {
+      "tabular": 2,
+      "center": 2,
+      "enumerate": 1
+    }
+  },
+  "post_correction": {
+    "total_commands": 1698,
+    "total_issues": 0,
+    "issues_by_type": {},
+    "issues_by_environment": {}
+  },
+  "fixes_applied": 11,
+  "fixes_details": [
+    "Line 650: Removed duplicate/orphaned \\end{tabular} command",
+    "Line 651: Removed duplicate/orphaned \\end{center} command",
+    "Line 1862: Removed duplicate/orphaned \\end{enumerate} command",
+    "Line 9376: Removed duplicate/orphaned \\end{tabular} command",
+    "Line 9377: Removed duplicate/orphaned \\end{center} command",
+    "Line 11117: Removed \\end{document} from middle of file",
+    "Line 11181: Added \\end{document} to close 1 unclosed environments",
+    "Line 11181: Removed \\end{document} from middle of file",
+    "Line 11181: Added \\end{document} to close 1 unclosed environments",
+    "Line 11181: Removed \\end{document} from middle of file",
+    "Line 11181: Added \\end{document} to close 1 unclosed environments"
+  ],
+  "environments_found": [
+    "array",
+    "center",
+    "document",
+    "enumerate",
+    "figure",
+    "itemize",
+    "minipage",
+    "table",
+    "tabular",
+    "thebibliography",
+    "verbatim"
+  ],
+  "nesting_depth_stats": {
+    "max_depth": 5,
+    "avg_depth": 2.160188457008245,
+    "total_nested": 849
+  }
+}

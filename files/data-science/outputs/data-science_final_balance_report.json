@@ -1,0 +1,41 @@
+{
+  "pre_correction": {
+    "total_commands": 816,
+    "total_issues": 0,
+    "issues_by_type": {},
+    "issues_by_environment": {}
+  },
+  "post_correction": {
+    "total_commands": 816,
+    "total_issues": 0,
+    "issues_by_type": {},
+    "issues_by_environment": {}
+  },
+  "fixes_applied": 6,
+  "fixes_details": [
+    "Line 10021: Removed \\end{document} from middle of file",
+    "Line 10021: Added \\end{document} to close 1 unclosed environments",
+    "Line 10021: Removed \\end{document} from middle of file",
+    "Line 10021: Added \\end{document} to close 1 unclosed environments",
+    "Line 10021: Removed \\end{document} from middle of file",
+    "Line 10021: Added \\end{document} to close 1 unclosed environments"
+  ],
+  "environments_found": [
+    "abstract",
+    "aligned",
+    "array",
+    "center",
+    "displayquote",
+    "document",
+    "enumerate",
+    "gathered",
+    "itemize",
+    "tabular",
+    "verbatim"
+  ],
+  "nesting_depth_stats": {
+    "max_depth": 5,
+    "avg_depth": 2.2769607843137254,
+    "total_nested": 408
+  }
+}

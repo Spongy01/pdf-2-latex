@@ -1,0 +1,14 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "/Users/jrathi/Projects/pdf-2-latex/files/algorithms/balance-checker/algorithms_final.xdv" "/Users/jrathi/Projects/pdf-2-latex/files/algorithms/balance-checker/algorithms_final.pdf" "/Users/jrathi/Projects/pdf-2-latex/files/algorithms/balance-checker/algorithms_final" 0 -1
+  "/Users/jrathi/Projects/pdf-2-latex/files/algorithms/balance-checker/algorithms_final.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "/Users/jrathi/Projects/pdf-2-latex/files/algorithms/balance-checker/algorithms_final.pdf"
+  (rewritten before read)
+["xelatex"] 0 "/Users/jrathi/Projects/pdf-2-latex/files/algorithms/balance-checker/algorithms_final.tex" "/Users/jrathi/Projects/pdf-2-latex/files/algorithms/balance-checker/algorithms_final.xdv" "algorithms_final" 0 -1
+  "/Users/jrathi/Projects/pdf-2-latex/files/algorithms/balance-checker/algorithms_final.aux" 0 -1 0 "xelatex"
+  "/Users/jrathi/Projects/pdf-2-latex/files/algorithms/balance-checker/algorithms_final.tex" 0 -1 0 ""
+  (generated)
+  "/Users/jrathi/Projects/pdf-2-latex/files/algorithms/balance-checker/algorithms_final.aux"
+  "/Users/jrathi/Projects/pdf-2-latex/files/algorithms/balance-checker/algorithms_final.log"
+  "/Users/jrathi/Projects/pdf-2-latex/files/algorithms/balance-checker/algorithms_final.xdv"
+  (rewritten before read)

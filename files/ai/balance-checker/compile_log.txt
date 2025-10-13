@@ -1,0 +1,526 @@
+Rc files read:
+  .latexmkrc
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.aux
+  /Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.tex
+Category 'changed_user':
+  /Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.tex
+Category 'never_run':
+  xelatex
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -interaction=nonstopmode -file-line-error -recorder -output-directory="/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker"  "/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-xetex.de
+f))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e
+.sty) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/varwidth/varwidth.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lineno/lineno.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atveryend-ltx.sty
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/underscore/underscore.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/bbold/bbold.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/xtemplate/xtempla
+te.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-english.ld
+f) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file ai_final.idx
+(/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.aux)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.out)
+(/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.out)
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.toc)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+Overfull \hbox (9.43217pt too wide) in paragraph at lines 72--282
+[] \TU/Georgia(0)/m/n/10 11.4 Lim-
+
+[1]
+Underfull \vbox (badness 10000) has occurred while \output is active
+[2]
+Overfull \vbox (1449.0pt too high) has occurred while \output is active
+[3]
+/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.tex:297: U
+nable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg-00
+9.jpg'.
+<to be read again> 
+                   }
+l.297 ...th]{2025_05_12_af19cd5e0d1b8a465ffeg-009}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.tex:297: P
+ackage graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.297 ...th]{2025_05_12_af19cd5e0d1b8a465ffeg-009}
+                                                  
+
+LaTeX Warning: Citation `braitenberg1984vehicles' on page 4 undefined on input 
+line 300.
+
+
+[4]
+
+LaTeX Warning: Citation `britannica1991encyclopedia' on page 5 undefined on inp
+ut line 302.
+
+
+LaTeX Warning: Citation `rich1983ai' on page 5 undefined on input line 308.
+
+
+Overfull \hbox (4.60292pt too wide) in paragraph at lines 311--312
+[]\TU/Georgia(0)/m/n/10 Artificial Intelligence is the study of how to make com
+puters do things
+
+[5]
+/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.tex:335: U
+nable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg-01
+1.jpg'.
+<to be read again> 
+                   }
+l.335 ...th]{2025_05_12_af19cd5e0d1b8a465ffeg-011}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.tex:335: P
+ackage graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.335 ...th]{2025_05_12_af19cd5e0d1b8a465ffeg-011}
+                                                  
+
+LaTeX Warning: Citation `scientificamerican1998exploring' on page 6 undefined o
+n input line 339.
+
+
+LaTeX Warning: Citation `scientificamerican1997mysteries' on page 6 undefined o
+n input line 339.
+
+
+Overfull \hbox (1.24678pt too wide) in paragraph at lines 332--341
+[]\TU/Georgia(0)/m/n/10 There are many interesting philosophical questions surr
+ounding intelligence
+
+[6]
+
+LaTeX Warning: Citation `turing1950computing' on page 7 undefined on input line
+ 342.
+
+
+LaTeX Warning: Citation `weizenbaum1966eliza' on page 7 undefined on input line
+ 346.
+
+
+LaTeX Warning: Citation `godel1931diskussion' on page 7 undefined on input line
+ 357.
+
+
+LaTeX Warning: Citation `godel1931unentscheidbare' on page 7 undefined on input
+ line 357.
+
+
+LaTeX Warning: Citation `turing1937computable' on page 7 undefined on input lin
+e 359.
+
+
+LaTeX Warning: Citation `samuel1959checkers1' on page 7 undefined on input line
+ 367.
+
+
+LaTeX Warning: Citation `newell1983logicmachine' on page 7 undefined on input l
+ine 371.
+
+
+LaTeX Warning: Citation `newell1961gps' on page 7 undefined on input line 377.
+
+
+LaTeX Warning: Citation `robinson1965resolution' on page 7 undefined on input l
+ine 381.
+
+
+LaTeX Warning: Citation `minsky1969perceptrons' on page 7 undefined on input li
+ne 385.
+
+
+LaTeX Warning: Citation `dedombal1972cad' on page 7 undefined on input line 389
+.
+
+
+LaTeX Warning: Citation `mcdermott1982r1' on page 7 undefined on input line 395
+.
+
+
+LaTeX Warning: Citation `rumelhart1986pdp' on page 7 undefined on input line 39
+7.
+
+
+LaTeX Warning: Citation `sejnowski1986nettalk' on page 7 undefined on input lin
+e 397.
+
+
+LaTeX Warning: Citation `pearl1988probabilistic' on page 7 undefined on input l
+ine 399.
+
+
+LaTeX Warning: Citation `cheeseman1985defense' on page 7 undefined on input lin
+e 399.
+
+
+Overfull \hbox (1023.7038pt too wide) in paragraph at lines 355--402
+ [][] 
+
+LaTeX Warning: Citation `robocupsite' on page 7 undefined on input line 411.
+
+
+LaTeX Warning: Citation `silver2016go' on page 7 undefined on input line 437.
+
+
+Overfull \hbox (1067.50426pt too wide) in paragraph at lines 407--440
+ [][] 
+
+[7]
+[8]
+/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.tex:452: U
+nable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg-01
+5.jpg'.
+<to be read again> 
+                   }
+l.452 ...th]{2025_05_12_af19cd5e0d1b8a465ffeg-015}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.tex:452: P
+ackage graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.452 ...th]{2025_05_12_af19cd5e0d1b8a465ffeg-015}
+                                                  
+
+Overfull \hbox (0.73477pt too wide) in paragraph at lines 458--459
+[]\TU/Georgia(0)/m/n/10 In the 1940s, based on results from neuroscience, McCul
+loch, Pitts and Hebb
+
+[9]
+Overfull \hbox (4.70839pt too wide) in paragraph at lines 461--462
+\TU/Georgia(0)/m/n/10 Newell and Simon introduced Logic Theorist, the first aut
+omatic theorem prover,
+
+LaTeX Warning: Citation `russell2010aima' on page 10 undefined on input line 46
+9.
+
+
+[10]
+Overfull \hbox (8.77057pt too wide) in paragraph at lines 481--485
+\TU/Georgia(0)/m/n/10 hensibility, the clean semantics of conditional probabili
+ty, and from the centuries-
+
+Overfull \hbox (5.15782pt too wide) in paragraph at lines 481--485
+\TU/Georgia(0)/m/n/10 old, mathematically grounded probability theory. The weak
+nesses of logic, which
+
+LaTeX Warning: Citation `suttner1990heuristics' on page 11 undefined on input l
+ine 486.
+
+
+Overfull \hbox (0.31581pt too wide) in paragraph at lines 490--491
+\TU/Georgia(0)/m/n/10 area of statistical data analysis for extraction of knowl
+edge from large databases.
+
+[11]
+Underfull \vbox (badness 1824) has occurred while \output is active
+[12]
+
+LaTeX Warning: Citation `schwab2016futurejobs' on page 13 undefined on input li
+ne 512.
+
+
+[13]
+
+LaTeX Warning: Citation `meadows1972limits' on page 14 undefined on input line 
+521.
+
+
+LaTeX Warning: Citation `randers2012forecast' on page 14 undefined on input lin
+e 521.
+
+
+LaTeX Warning: Citation `paech2016befreiung' on page 14 undefined on input line
+ 521.
+
+
+LaTeX Warning: Citation `piketty2014kapital' on page 14 undefined on input line
+ 525.
+
+
+[14]
+
+LaTeX Warning: Citation `gesell1958natural' on page 15 undefined on input line 
+535.
+
+
+LaTeX Warning: Citation `felber2014gemeinwohl' on page 15 undefined on input li
+ne 535.
+
+
+LaTeX Warning: Citation `grahl2009loch' on page 15 undefined on input line 535.
+
+
+
+LaTeX Warning: Citation `kummel2011secondlaw' on page 15 undefined on input lin
+e 535.
+
+
+[15]
+
+LaTeX Warning: Citation `gao2014auto' on page 16 undefined on input line 562.
+
+
+LaTeX Warning: Citation `greenblatt2015taxis' on page 16 undefined on input lin
+e 562.
+
+
+Overfull \hbox (5.15501pt too wide) in paragraph at lines 560--563
+\TU/Georgia(0)/m/n/10 sponsibilities and expenses, such as refueling, technical
+ service, cleaning, search-
+
+[16]
+/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.tex:577: U
+nable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg-02
+3.jpg'.
+<to be read again> 
+                   }
+l.577 ...er]{2025_05_12_af19cd5e0d1b8a465ffeg-023}
+                                                  
+
+LaTeX Warning: Citation `staehle2016marvin' on page 17 undefined on input line 
+581.
+
+
+[17]
+/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.tex:606: U
+nable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg-02
+4.jpg'.
+<to be read again> 
+                   }
+l.606 ...er]{2025_05_12_af19cd5e0d1b8a465ffeg-024}
+                                                  
+
+[18]
+Overfull \hbox (94.31067pt too wide) in paragraph at lines 615--628
+ [] 
+
+[19]
+/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.tex:653: U
+nable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg-02
+6.jpg'.
+<to be read again> 
+                   }
+l.653 ...th]{2025_05_12_af19cd5e0d1b8a465ffeg-026}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.tex:653: P
+ackage graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.653 ...th]{2025_05_12_af19cd5e0d1b8a465ffeg-026}
+                                                  
+
+LaTeX Warning: Citation `ferrucci2009openqa' on page 20 undefined on input line
+ 659.
+
+
+LaTeX Warning: Citation `deepqa2011project' on page 20 undefined on input line 
+659.
+
+
+Overfull \hbox (4.28325pt too wide) in paragraph at lines 662--663
+\TU/Georgia(0)/m/n/10 chine Learning, Knowledge Representation and Reasoning, a
+nd mas-
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 674--676
+
+
+Overfull \hbox (1.65521pt too wide) in paragraph at lines 677--678
+\TU/Georgia(0)/m/n/10 Many well-known inference processes, learning processes, 
+etc. are NP-complete
+
+Underfull \hbox (badness 10000) in paragraph at lines 680--682
+
+
+[21]
+[22]
+Overfull \hbox (2.3858pt too wide) in paragraph at lines 732--733
+[]\TU/Georgia(0)/m/n/10 Because every proposition variable can take on two trut
+h values, every propo-
+
+[23]
+[24]
+[25]
+[26]
+/Users/jrathi/Projects/pdf-2-latex/files/ai/balance-checker/ai_final.tex:887: U
+nable to load picture or PDF file './images/2025_05_12_af19cd5e0d1b8a465ffeg-03
+5.jpg'.
+<to be read again> 
+                   }
+l.887 ...er]{2025_05_12_af19cd5e0d1b8a465ffeg-035}
+                                                  
+
+[27]
+[28]
+
+LaTeX Warning: Citation `berrondo1989fallgruben' on page 29 undefined on input 
+line 973.
+
+
+Overfull \hbox (0.81029pt too wide) in paragraph at lines 977--978
+[]\TU/Georgia(0)/m/n/10 To solve this kind of problem we proceed in three steps
+: formalization, trans-
+
+[29]
+[30]
+[31]
+[32]
+Overfull \hbox (11.75533pt too wide) in paragraph at lines 1144--1145
+[]\TU/Georgia(0)/m/n/10 Before application of the inference rule, $\OML/cmm/m/i
+t/10 B[]; B[]; [] ; B[]$\TU/Georgia(0)/m/n/10 —the current subgoals—
+
+[33]
+Overfull \hbox (2.7979pt too wide) in paragraph at lines 1171--1175
+[]\TU/Georgia(0)/m/n/10 Exercise 2.3 Transform the following formulas into conj
+unctive normal form: 
+
+[34]
+Overfull \hbox (5.14784pt too wide) in paragraph at lines 1205--1209
+[]\TU/Georgia(0)/m/n/10 Exercise 2.12 Prove the following equivalences, which a
+re important for work-
+
+Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
+(xeCJK)                
+(xeCJK)                Try to use `\setCJKmonofont[<...>]{<...>}' to define
+(xeCJK)                it.
+
+
+[35]
+Overfull \hbox (27.75pt too wide) in paragraph at lines 1247--1247
+[]    \TU/lmtt/m/n/10 $\wedge$ Robot_12_is_situated_at_xy_position_(10, 93) $\v
+ee \ldots$[] 
+
+Overfull \hbox (537.0pt too wide) in paragraph at lines 1256--1256
+[]    \TU/lmtt/m/n/10 $\exists x_{u} \exists y_{u} \exists x_{v} \exists y_{v}$
+ position $\left(u, x_{u}, y_{u}\right) \wedge$ position $\left(v, x_{v}, y_{v}
+\right) \wedge x_{u}>x_{v}$,[] 
+
+[36]
+Overfull \hbox (119.55313pt too wide) in paragraph at lines 1285--1320
+ [] 
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/bbold/Ubbold.fd)
+[37]
+[38]

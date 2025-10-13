@@ -1,0 +1,86 @@
+================================================================================
+LATEX COMMAND BALANCE ANALYSIS REPORT
+================================================================================
+File: post-correction
+Total commands found: 1510
+Total issues found: 0
+
+SUMMARY STATISTICS:
+----------------------------------------
+Environments found: 16
+Max nesting depth: 6
+Average nesting depth: 2.51
+
+ISSUES BY TYPE:
+----------------------------------------
+
+ISSUES BY ENVIRONMENT:
+----------------------------------------
+
+No balance issues found! ✓
+
+ENVIRONMENT USAGE ANALYSIS:
+----------------------------------------
+abstract:
+  Begins: 1, Ends: 1
+  Unclosed: 0, Balance ratio: 1.00
+
+align*:
+  Begins: 1, Ends: 1
+  Unclosed: 0, Balance ratio: 1.00
+
+aligned:
+  Begins: 25, Ends: 25
+  Unclosed: 0, Balance ratio: 1.00
+
+array:
+  Begins: 5, Ends: 5
+  Unclosed: 0, Balance ratio: 1.00
+
+center:
+  Begins: 54, Ends: 54
+  Unclosed: 0, Balance ratio: 1.00
+
+document:
+  Begins: 1, Ends: 1
+  Unclosed: 0, Balance ratio: 1.00
+
+enumerate:
+  Begins: 101, Ends: 101
+  Unclosed: 0, Balance ratio: 1.00
+
+equation*:
+  Begins: 2, Ends: 2
+  Unclosed: 0, Balance ratio: 1.00
+
+figure:
+  Begins: 147, Ends: 147
+  Unclosed: 0, Balance ratio: 1.00
+
+gathered:
+  Begins: 1, Ends: 1
+  Unclosed: 0, Balance ratio: 1.00
+
+itemize:
+  Begins: 259, Ends: 259
+  Unclosed: 0, Balance ratio: 1.00
+
+minipage:
+  Begins: 4, Ends: 4
+  Unclosed: 0, Balance ratio: 1.00
+
+quote:
+  Begins: 2, Ends: 2
+  Unclosed: 0, Balance ratio: 1.00
+
+table:
+  Begins: 17, Ends: 17
+  Unclosed: 0, Balance ratio: 1.00
+
+tabular:
+  Begins: 104, Ends: 104
+  Unclosed: 0, Balance ratio: 1.00
+
+verbatim:
+  Begins: 31, Ends: 31
+  Unclosed: 0, Balance ratio: 1.00

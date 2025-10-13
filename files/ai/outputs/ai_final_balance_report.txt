@@ -1,0 +1,118 @@
+================================================================================
+LATEX COMMAND BALANCE ANALYSIS REPORT
+================================================================================
+File: post-correction
+Total commands found: 1186
+Total issues found: 4
+
+SUMMARY STATISTICS:
+----------------------------------------
+Environments found: 19
+Max nesting depth: 6
+Average nesting depth: 3.57
+
+ISSUES BY TYPE:
+----------------------------------------
+mismatch: 2
+unclosed: 2
+
+ISSUES BY ENVIRONMENT:
+----------------------------------------
+center: 2
+document: 2
+
+DETAILED ISSUES:
+----------------------------------------
+1. MISMATCH - center
+   Line 2039: \end{center} found but expected \end{tabular} (opened at line 1181)
+   Severity: error
+
+2. MISMATCH - document
+   Line 10824: \end{document} found but expected \end{center} (opened at line 1180)
+   Severity: error
+
+3. UNCLOSED - document
+   Line 60: \begin{document} opened but never closed
+   Severity: error
+
+4. UNCLOSED - center
+   Line 1180: \begin{center} opened but never closed
+   Severity: error
+
+ENVIRONMENT USAGE ANALYSIS:
+----------------------------------------
+align*:
+  Begins: 17, Ends: 17
+  Unclosed: 0, Balance ratio: 1.00
+
+aligned:
+  Begins: 49, Ends: 49
+  Unclosed: 0, Balance ratio: 1.00
+
+array:
+  Begins: 22, Ends: 22
+  Unclosed: 0, Balance ratio: 1.00
+
+cases:
+  Begins: 14, Ends: 14
+  Unclosed: 0, Balance ratio: 1.00
+
+center:
+  Begins: 42, Ends: 42
+  Unclosed: 0, Balance ratio: 1.00
+
+displayquote:
+  Begins: 15, Ends: 15
+  Unclosed: 0, Balance ratio: 1.00
+
+document:
+  Begins: 1, Ends: 1
+  Unclosed: 0, Balance ratio: 1.00
+
+enumerate:
+  Begins: 9, Ends: 9
+  Unclosed: 0, Balance ratio: 1.00
+
+equation:
+  Begins: 1, Ends: 1
+  Unclosed: 0, Balance ratio: 1.00
+
+equation*:
+  Begins: 53, Ends: 53
+  Unclosed: 0, Balance ratio: 1.00
+
+figure:
+  Begins: 154, Ends: 154
+  Unclosed: 0, Balance ratio: 1.00
+
+gather*:
+  Begins: 1, Ends: 1
+  Unclosed: 0, Balance ratio: 1.00
+
+gathered:
+  Begins: 2, Ends: 2
+  Unclosed: 0, Balance ratio: 1.00
+
+itemize:
+  Begins: 29, Ends: 29
+  Unclosed: 0, Balance ratio: 1.00
+
+minipage:
+  Begins: 1, Ends: 1
+  Unclosed: 0, Balance ratio: 1.00
+
+pmatrix:
+  Begins: 2, Ends: 2
+  Unclosed: 0, Balance ratio: 1.00
+
+table:
+  Begins: 16, Ends: 16
+  Unclosed: 0, Balance ratio: 1.00
+
+tabular:
+  Begins: 103, Ends: 103
+  Unclosed: 0, Balance ratio: 1.00
+
+verbatim:
+  Begins: 62, Ends: 62
+  Unclosed: 0, Balance ratio: 1.00

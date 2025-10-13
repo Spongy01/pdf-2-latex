@@ -1,0 +1,22 @@
+{
+  "pre_correction": {
+    "total_commands": 0,
+    "total_issues": 0,
+    "issues_by_type": {},
+    "issues_by_environment": {}
+  },
+  "post_correction": {
+    "total_commands": 0,
+    "total_issues": 0,
+    "issues_by_type": {},
+    "issues_by_environment": {}
+  },
+  "fixes_applied": 0,
+  "fixes_details": [],
+  "environments_found": [],
+  "nesting_depth_stats": {
+    "max_depth": 0,
+    "avg_depth": 0,
+    "total_nested": 0
+  }
+}

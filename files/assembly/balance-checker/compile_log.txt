@@ -1,0 +1,157 @@
+Rc files read:
+  .latexmkrc
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /Users/jrathi/Projects/pdf-2-latex/files/assembly/balance-checker/assembly_final.tex
+Category 'changed_user':
+  /Users/jrathi/Projects/pdf-2-latex/files/assembly/balance-checker/assembly_final.tex
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -interaction=nonstopmode -file-line-error -recorder -output-directory="/Users/jrathi/Projects/pdf-2-latex/files/assembly/balance-checker"  "/Users/jrathi/Projects/pdf-2-latex/files/assembly/balance-checker/assembly_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/jrathi/Projects/pdf-2-latex/files/assembly/balance-checker/assembly_fin
+al.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.
+sty (/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-xetex.de
+f))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e
+.sty) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atveryend-ltx.sty
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphicx.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/varwidth/varwidth.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/soul/soul.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/soul/soul-ori.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/etexcmds/etexcmds.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/xtemplate/xtempla
+te.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/newunicodechar/newunicodecha
+r.sty) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file assembly_final.idx
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-english.ld
+f)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-dutch.ldf
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/babelsh.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-thai.ldf)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-hebrew.ldf
+
+! LaTeX Error: File `bidi.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-hebrew.ldf:
+5: Emergency stop.
+<read *> 
+         
+l.5 \RequireBidi
+                ^^M
+No pages of output.
+Transcript written on /Users/jrathi/Projects/pdf-2-latex/files/assembly/balance
+-checker/assembly_final.log.
+Latexmk: Getting log file '/Users/jrathi/Projects/pdf-2-latex/files/assembly/balance-checker/assembly_final.log'
+Latexmk: Examining '/Users/jrathi/Projects/pdf-2-latex/files/assembly/balance-checker/assembly_final.fls'
+Latexmk: Examining '/Users/jrathi/Projects/pdf-2-latex/files/assembly/balance-checker/assembly_final.log'
+Latexmk: Missing input file 'bidi.sty' message in .log file:
+  ! LaTeX Error: File `bidi.sty' not found.
+Latexmk: Log file says no output from latex
+Latexmk: For rule 'xelatex', no output was made
+Latexmk: Index file '/Users/jrathi/Projects/pdf-2-latex/files/assembly/balance-checker/assembly_final.idx' was written
+Latexmk: Using bibtex to make bibliography file(s).
+Failure to make '/Users/jrathi/Projects/pdf-2-latex/files/assembly/balance-checker/assembly_final.xdv'
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  xelatex: Command for 'xelatex' gave return code 1
+      Refer to '/Users/jrathi/Projects/pdf-2-latex/files/assembly/balance-checker/assembly_final.log' and/or above output for details
+

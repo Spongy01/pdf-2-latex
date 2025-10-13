@@ -1,0 +1,492 @@
+\xpg@aux {}{french}
+\contentsline {section}{\numberline {0.1}\textbf {Undergraduate Topics in Computer Science}}{14}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Robin Sharp}{14}{section.0.2}%
+\contentsline {section}{\numberline {0.3}A Multidisciplinary Challenge}{14}{section.0.3}%
+\contentsline {section}{\numberline {0.4}\textbf {Undergraduate Topics in Computer Science}}{14}{section.0.4}%
+\contentsline {section}{\numberline {0.5}Introduction to Cybersecurity }{14}{section.0.5}%
+\contentsline {section}{\numberline {0.6}Preface}{15}{section.0.6}%
+\contentsline {section}{\numberline {0.7}Acknowledgments}{17}{section.0.7}%
+\contentsline {section}{\numberline {0.8}Contents}{17}{section.0.8}%
+\contentsline {section}{\numberline {0.9}Chapter}{24}{section.0.9}%
+\contentsline {section}{\numberline {0.10}Introduction: Why Cybersecurity?}{24}{section.0.10}%
+\contentsline {subsection}{\numberline {0.10.1}Information Security and Cybersecurity}{24}{subsection.0.10.1}%
+\contentsline {subsection}{\numberline {0.10.2}The Development of the Internet}{24}{subsection.0.10.2}%
+\contentsline {subsection}{\numberline {0.10.3}How Do Computers Work Together?}{25}{subsection.0.10.3}%
+\contentsline {subsection}{\numberline {0.10.4}Systems of Systems}{27}{subsection.0.10.4}%
+\contentsline {subsection}{\numberline {0.10.5}Cyberattacks Today}{27}{subsection.0.10.5}%
+\contentsline {subsection}{\numberline {0.10.6}Security Targets}{32}{subsection.0.10.6}%
+\contentsline {subsection}{\numberline {0.10.7}CIA Targets}{33}{subsection.0.10.7}%
+\contentsline {subsection}{\numberline {0.10.8}Security Policies}{33}{subsection.0.10.8}%
+\contentsline {section}{\numberline {0.11}General aims}{34}{section.0.11}%
+\contentsline {section}{\numberline {0.12}Applicability}{34}{section.0.12}%
+\contentsline {section}{\numberline {0.13}Security level}{34}{section.0.13}%
+\contentsline {subsection}{\numberline {0.13.1}Reader's Guide}{35}{subsection.0.13.1}%
+\contentsline {subsection}{\numberline {0.13.2}A Short Note on Notation}{37}{subsection.0.13.2}%
+\contentsline {section}{\numberline {0.14}Useful concepts which you should now know about}{37}{section.0.14}%
+\contentsline {section}{\numberline {0.15}Further Reading}{38}{section.0.15}%
+\contentsline {section}{\numberline {0.16}Exercises}{39}{section.0.16}%
+\contentsline {subsection}{\numberline {0.16.1}Security targets in Ultima Thule Hospital}{39}{subsection.0.16.1}%
+\contentsline {subsection}{\numberline {0.16.2}A security policy for a private home}{39}{subsection.0.16.2}%
+\contentsline {chapter}{\numberline {1}Technique and Human Beings}{41}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Psychological Attacks}{42}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Curiosity}{43}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Helpfulness}{43}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Sympathy and Hate}{44}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Belief in Authority}{45}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}The Brain's Two Modes of Operation}{46}{subsection.1.1.5}%
+\contentsline {section}{\numberline {1.2}Problem}{46}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Uncertainty in Decision Making}{47}{subsection.1.2.1}%
+\contentsline {section}{\numberline {1.3}Anchoring}{47}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Attribution}{48}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Framing}{48}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Phishing}{49}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Humans vs. Machines}{51}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Can Psychological Attacks Be Prevented?}{53}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Motivation}{54}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}Training}{56}{subsection.1.5.5}%
+\contentsline {section}{\numberline {1.6}Useful concepts which you should now know about}{57}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Further Reading}{57}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Exercises}{58}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Cyberssecurity in Ultima Thule Hospital}{58}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}Phishing (1)}{58}{subsection.1.8.2}%
+\contentsline {subsection}{\numberline {1.8.3}Phishing (2)}{58}{subsection.1.8.3}%
+\contentsline {subsection}{\numberline {1.8.4}Social engineering}{58}{subsection.1.8.4}%
+\contentsline {subsection}{\numberline {1.8.5}Changing passwords}{59}{subsection.1.8.5}%
+\contentsline {subsection}{\numberline {1.8.6}An e-mail from the bank}{59}{subsection.1.8.6}%
+\contentsline {subsection}{\numberline {1.8.7}CEO fraud}{59}{subsection.1.8.7}%
+\contentsline {chapter}{\numberline {2}Risk}{61}{chapter.2}%
+\contentsline {section}{\numberline {2.1}What Is Risk?}{61}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Threats in IT Systems}{63}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Hardware related threats:}{63}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Software related threats:}{64}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Data related threats}{64}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Liveware related threats}{64}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Countermeasures}{65}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Risk Management}{66}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Definition (Risk mitigation stategies)}{66}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Systematic Security Analysis}{66}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}ISO/IEC 27002}{67}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}OCTAVE®}{69}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}OCTAVE Phase 1}{70}{subsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.6.5}OCTAVE Threat Profiles}{71}{subsection.2.6.5}%
+\contentsline {subsection}{\numberline {2.6.6}OCTAVE Threat Classes}{72}{subsection.2.6.6}%
+\contentsline {section}{\numberline {2.7}Definition (OCTAVE Threat Classes:)}{72}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Threat Analysis}{72}{subsection.2.7.1}%
+\contentsline {section}{\numberline {2.8}Threat 1}{72}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Threat 2}{73}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Threat 3}{74}{section.2.10}%
+\contentsline {subsection}{\numberline {2.10.1}Risk Management as a PDCA Process}{75}{subsection.2.10.1}%
+\contentsline {section}{\numberline {2.11}Useful concepts which you should now know about}{76}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Further Reading}{77}{section.2.12}%
+\contentsline {section}{\numberline {2.13}Exercises}{77}{section.2.13}%
+\contentsline {subsection}{\numberline {2.13.1}The patient record system}{77}{subsection.2.13.1}%
+\contentsline {subsection}{\numberline {2.13.2}Internal and eksternal attackers}{78}{subsection.2.13.2}%
+\contentsline {subsection}{\numberline {2.13.3}Cyberespionage}{78}{subsection.2.13.3}%
+\contentsline {subsection}{\numberline {2.13.4}Objective and subjective risk}{78}{subsection.2.13.4}%
+\contentsline {subsection}{\numberline {2.13.5}Risk Analysis for a smartphone}{78}{subsection.2.13.5}%
+\contentsline {chapter}{\numberline {3}Cryptography}{81}{chapter.3}%
+\contentsline {subsection}{\numberline {3.0.1}Some Central Concepts}{81}{subsection.3.0.1}%
+\contentsline {subsection}{\numberline {3.0.2}Cryptosystems}{82}{subsection.3.0.2}%
+\contentsline {subsection}{\numberline {3.0.3}Cryptanalysis}{83}{subsection.3.0.3}%
+\contentsline {section}{\numberline {3.1}Definition 4.2 (Attack classes)}{83}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Symmetric Encryption}{84}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Substitution Ciphers}{84}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Random Permutation}{85}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Polyalphabetic Ciphers}{86}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Vigen\`ere Ciphers}{86}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}Transposition Ciphers}{88}{subsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.1.7}Modern Ideas}{89}{subsection.3.1.7}%
+\contentsline {subsection}{\numberline {3.1.8}One-Time Pads}{90}{subsection.3.1.8}%
+\contentsline {subsection}{\numberline {3.1.9}Confusion and Diffusion}{91}{subsection.3.1.9}%
+\contentsline {subsection}{\numberline {3.1.10}DES}{92}{subsection.3.1.10}%
+\contentsline {subsection}{\numberline {3.1.11}Modes of Operation}{93}{subsection.3.1.11}%
+\contentsline {subsection}{\numberline {3.1.12}AES}{94}{subsection.3.1.12}%
+\contentsline {subsection}{\numberline {3.1.13}Symmetric Stream Ciphers}{95}{subsection.3.1.13}%
+\contentsline {subsection}{\numberline {3.1.14}Shift Register Based Bit Generators}{96}{subsection.3.1.14}%
+\contentsline {subsection}{\numberline {3.1.15}An Alternative Approach: RC4}{98}{subsection.3.1.15}%
+\contentsline {subsection}{\numberline {3.1.16}eStream Stream Ciphers}{100}{subsection.3.1.16}%
+\contentsline {subsection}{\numberline {3.1.17}Asymmetric Cryptosystems}{100}{subsection.3.1.17}%
+\contentsline {section}{\numberline {3.2}! WARNING: Mathematics ahead!}{101}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Trapdoor Functions}{101}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Modular Arithmetic}{102}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}The RSA Cryptosystem}{104}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}An Example of the Use of RSA:}{106}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Calculation Efficiency}{106}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}The Security of RSA}{108}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}A Comparison of PKCS and SKCS}{111}{subsection.3.2.7}%
+\contentsline {section}{\numberline {3.3}Useful concepts which you should now know about}{111}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Further Reading}{113}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Exercises}{113}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Cryptanalysis 1}{113}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Cryptanalysis 2}{114}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}AES128 in ECB mode}{114}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}AES128 in CBC mode}{115}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}AES with two related keys}{115}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}RC4}{115}{subsection.3.5.6}%
+\contentsline {subsection}{\numberline {3.5.7}The team marches in}{116}{subsection.3.5.7}%
+\contentsline {subsection}{\numberline {3.5.8}RSA decryption}{116}{subsection.3.5.8}%
+\contentsline {subsection}{\numberline {3.5.9}Choosing an RSA modulus}{116}{subsection.3.5.9}%
+\contentsline {chapter}{\numberline {4}Applied Cryptography}{119}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Integrity}{119}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Cryptographic Hash Functions}{120}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}MAC}{123}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Requirements (Properties of a MAC)}{123}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Electronic Signatures}{125}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Requirements (Properties of a electronic signature)}{125}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Verification of Electronic Signatures}{125}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Electronic Signatures with a PKCS}{126}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Digital Signature Standard (DSS)}{127}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Formation of a signature:}{128}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Verification of a signature:}{128}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Efficiency:}{129}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Security in DSA:}{129}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Planning for the Future}{129}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Authentication}{130}{subsection.4.7.2}%
+\contentsline {section}{\numberline {4.8}Requirements (Properties of an authentication protocol)}{130}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Types of Evidence}{131}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Authentication with an SKCS}{132}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}Authentication with a PKCS}{133}{subsection.4.8.3}%
+\contentsline {subsection}{\numberline {4.8.4}Key Distribution}{134}{subsection.4.8.4}%
+\contentsline {subsection}{\numberline {4.8.5}Diffie-Hellman Key Agreement}{135}{subsection.4.8.5}%
+\contentsline {subsection}{\numberline {4.8.6}More Secure Key Agreements}{136}{subsection.4.8.6}%
+\contentsline {subsection}{\numberline {4.8.7}Certificates}{136}{subsection.4.8.7}%
+\contentsline {subsection}{\numberline {4.8.8}How Are Certificates Issued in a PKI?}{138}{subsection.4.8.8}%
+\contentsline {subsection}{\numberline {4.8.9}Access to Certificates}{139}{subsection.4.8.9}%
+\contentsline {subsection}{\numberline {4.8.10}Trust Models}{140}{subsection.4.8.10}%
+\contentsline {subsection}{\numberline {4.8.11}The Hierarchical Trust Model}{140}{subsection.4.8.11}%
+\contentsline {subsection}{\numberline {4.8.12}The Web-of-trust Model}{141}{subsection.4.8.12}%
+\contentsline {subsection}{\numberline {4.8.13}The Reputation-based Trust Model}{141}{subsection.4.8.13}%
+\contentsline {subsection}{\numberline {4.8.14}Establishing an Identity}{142}{subsection.4.8.14}%
+\contentsline {section}{\numberline {4.9}Useful concepts which you should now know about}{144}{section.4.9}%
+\contentsline {section}{\numberline {4.10}Further Reading}{145}{section.4.10}%
+\contentsline {section}{\numberline {4.11}Exercises}{145}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Hash functions}{145}{subsection.4.11.1}%
+\contentsline {subsection}{\numberline {4.11.2}Integrity with encryption}{146}{subsection.4.11.2}%
+\contentsline {subsection}{\numberline {4.11.3}Double encryption}{146}{subsection.4.11.3}%
+\contentsline {subsection}{\numberline {4.11.4}Needham and Schroeders original SKCS protocol}{146}{subsection.4.11.4}%
+\contentsline {subsection}{\numberline {4.11.5}Malleability}{147}{subsection.4.11.5}%
+\contentsline {chapter}{\numberline {5}Communication Networks}{149}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Basic Network Concepts}{149}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Layered Architectures}{150}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Services}{151}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Protocols}{152}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Communication in the Internet}{154}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Data Transfer Between Layers}{155}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}Addressing}{155}{subsection.5.1.6}%
+\contentsline {subsection}{\numberline {5.1.7}Internet Names}{156}{subsection.5.1.7}%
+\contentsline {subsection}{\numberline {5.1.8}IP Addresses}{157}{subsection.5.1.8}%
+\contentsline {subsection}{\numberline {5.1.9}TCP and UDP Ports}{158}{subsection.5.1.9}%
+\contentsline {subsection}{\numberline {5.1.10}Functions in TCP and IP}{159}{subsection.5.1.10}%
+\contentsline {subsection}{\numberline {5.1.11}DNS}{161}{subsection.5.1.11}%
+\contentsline {subsection}{\numberline {5.1.12}How Do the Layers Work Together?}{162}{subsection.5.1.12}%
+\contentsline {subsection}{\numberline {5.1.13}Technology}{163}{subsection.5.1.13}%
+\contentsline {subsection}{\numberline {5.1.14}Shared Cable-based Media}{164}{subsection.5.1.14}%
+\contentsline {subsection}{\numberline {5.1.15}Wireless Networks}{165}{subsection.5.1.15}%
+\contentsline {subsection}{\numberline {5.1.16}IEEE 802.11 Modes of Operation}{167}{subsection.5.1.16}%
+\contentsline {subsection}{\numberline {5.1.17}Mobile Telephones on the Net}{167}{subsection.5.1.17}%
+\contentsline {section}{\numberline {5.2}Useful concepts which you should now know about}{169}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Further Reading}{171}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Exercises}{171}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}TCP ports}{172}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Registration databases}{172}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Geolocation}{172}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Identities in the mobile network}{173}{subsection.5.4.4}%
+\contentsline {chapter}{\numberline {6}Network Applications}{175}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Mail Transfer}{175}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Mail Relays}{177}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}The Structure of a Mail}{178}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}MIME}{180}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Transfer of Web Pages}{183}{subsection.6.1.4}%
+\contentsline {section}{\numberline {6.2}Classic Danish Recipes}{186}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Useful concepts which you should now know about}{190}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Exercises}{191}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Tracing e-mail}{191}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Character encoding in e-mail}{192}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Header fields in HTTP}{192}{subsection.6.4.3}%
+\contentsline {section}{\numberline {6.5}\textsuperscript {! Watch out!}}{193}{section.6.5}%
+\contentsline {chapter}{\numberline {7}Network Security}{195}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Protection Based on Cryptographic Methods}{196}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}The Application Layer}{196}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}The Transport Layer}{196}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}The Internet Layer}{197}{subsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.1.4}The Link Layer}{198}{subsection.7.1.4}%
+\contentsline {subsection}{\numberline {7.1.5}The Physical Layer}{198}{subsection.7.1.5}%
+\contentsline {subsection}{\numberline {7.1.6}Encryption in the Application Layer}{199}{subsection.7.1.6}%
+\contentsline {subsection}{\numberline {7.1.7}Virtual Private Networks}{201}{subsection.7.1.7}%
+\contentsline {section}{\numberline {7.2}Definition (Virtual Private Network)}{201}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Tunneling}{201}{subsection.7.2.1}%
+\contentsline {section}{\numberline {7.3}Definition (Tunneling)}{202}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}"Site-to-site" Tunneling}{202}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Secure Site-to-site Tunneling in a VPN}{202}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Secure Host-to-site Tunneling in a VPN}{202}{subsection.7.3.3}%
+\contentsline {subsection}{\numberline {7.3.4}Which Layers Are Used for VPNs?}{203}{subsection.7.3.4}%
+\contentsline {subsection}{\numberline {7.3.5}Anonymous Communication in the Internet}{203}{subsection.7.3.5}%
+\contentsline {subsection}{\numberline {7.3.6}Secure Socket Layer}{204}{subsection.7.3.6}%
+\contentsline {subsection}{\numberline {7.3.7}SSL Protocol Architecture}{205}{subsection.7.3.7}%
+\contentsline {subsection}{\numberline {7.3.8}SSL/TLS Security Parameter Sets}{206}{subsection.7.3.8}%
+\contentsline {subsection}{\numberline {7.3.9}Protocols Secured with SSL/TLS}{207}{subsection.7.3.9}%
+\contentsline {subsection}{\numberline {7.3.10}Risks in Using Certificates}{209}{subsection.7.3.10}%
+\contentsline {subsection}{\numberline {7.3.11}Firewalls}{211}{subsection.7.3.11}%
+\contentsline {section}{\numberline {7.4}Requirements (Operation of a firewall)}{211}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Types of Firewall}{211}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Placement of Firewalls}{213}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}Residual Risks Connected with Firewalls}{215}{subsection.7.4.3}%
+\contentsline {subsection}{\numberline {7.4.4}Personal Firewalls}{215}{subsection.7.4.4}%
+\contentsline {subsection}{\numberline {7.4.5}Intrusion Detection Systems (IDS)}{216}{subsection.7.4.5}%
+\contentsline {subsection}{\numberline {7.4.6}Principles of Operation}{217}{subsection.7.4.6}%
+\contentsline {subsection}{\numberline {7.4.7}Network IDSs (NIDS)}{218}{subsection.7.4.7}%
+\contentsline {subsection}{\numberline {7.4.8}Host IDSs (HIDS)}{218}{subsection.7.4.8}%
+\contentsline {subsection}{\numberline {7.4.9}Security in Wireless Networks}{219}{subsection.7.4.9}%
+\contentsline {subsection}{\numberline {7.4.10}Original WiFi Security (WEP)}{220}{subsection.7.4.10}%
+\contentsline {section}{\numberline {7.5}Open System authentication:}{220}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Shared Key authentication:}{220}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}Development of Security in IEEE 802.11}{221}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}Security in Bluetooth}{222}{subsection.7.6.2}%
+\contentsline {subsection}{\numberline {7.6.3}Security in the Mobile Telephone Network}{224}{subsection.7.6.3}%
+\contentsline {subsection}{\numberline {7.6.4}Security in GSM}{224}{subsection.7.6.4}%
+\contentsline {subsection}{\numberline {7.6.5}Can the A5 Functions Be Broken in Practice?}{225}{subsection.7.6.5}%
+\contentsline {subsection}{\numberline {7.6.6}Security in UMTS}{226}{subsection.7.6.6}%
+\contentsline {subsection}{\numberline {7.6.7}False BTSs and Surveillance}{227}{subsection.7.6.7}%
+\contentsline {subsection}{\numberline {7.6.8}Is Your Mobile Device Secure?}{229}{subsection.7.6.8}%
+\contentsline {subsection}{\numberline {7.6.9}Denial of Service (DoS) Attacks}{230}{subsection.7.6.9}%
+\contentsline {subsection}{\numberline {7.6.10}DoS Attacks in the Application Layer}{230}{subsection.7.6.10}%
+\contentsline {subsection}{\numberline {7.6.11}DoS Attacks in the Transport Layer}{232}{subsection.7.6.11}%
+\contentsline {subsection}{\numberline {7.6.12}DoS Attacks in the Internet Layer}{233}{subsection.7.6.12}%
+\contentsline {subsection}{\numberline {7.6.13}DoS Attacks in the Link and Physical Layers}{234}{subsection.7.6.13}%
+\contentsline {subsection}{\numberline {7.6.14}Distributed DoS Attacks}{234}{subsection.7.6.14}%
+\contentsline {subsection}{\numberline {7.6.15}Permanent DoS Attacks}{235}{subsection.7.6.15}%
+\contentsline {subsection}{\numberline {7.6.16}Risks and Countermeasures for DOS Attacks}{235}{subsection.7.6.16}%
+\contentsline {subsection}{\numberline {7.6.17}Security in DNS}{236}{subsection.7.6.17}%
+\contentsline {subsection}{\numberline {7.6.18}Countermeasures for Use in DNS}{237}{subsection.7.6.18}%
+\contentsline {subsection}{\numberline {7.6.19}Security in SMTP}{238}{subsection.7.6.19}%
+\contentsline {subsection}{\numberline {7.6.20}SPF}{238}{subsection.7.6.20}%
+\contentsline {subsection}{\numberline {7.6.21}DKIM}{240}{subsection.7.6.21}%
+\contentsline {subsection}{\numberline {7.6.22}Security in SNMP}{242}{subsection.7.6.22}%
+\contentsline {subsection}{\numberline {7.6.23}Risks and Countermeasures in Using SNMP}{243}{subsection.7.6.23}%
+\contentsline {subsection}{\numberline {7.6.24}Critical Infrastructure Protection}{244}{subsection.7.6.24}%
+\contentsline {subsection}{\numberline {7.6.25}Evaluation of Network Security}{246}{subsection.7.6.25}%
+\contentsline {section}{\numberline {7.7}Useful concepts which you should now know about}{247}{section.7.7}%
+\contentsline {section}{\numberline {7.8}Further Reading}{249}{section.7.8}%
+\contentsline {section}{\numberline {7.9}Exercises}{249}{section.7.9}%
+\contentsline {subsection}{\numberline {7.9.1}Cybersquatting}{249}{subsection.7.9.1}%
+\contentsline {subsection}{\numberline {7.9.2}Monitoring wireless personal networks}{249}{subsection.7.9.2}%
+\contentsline {subsection}{\numberline {7.9.3}Using unencrypted wireless networks}{250}{subsection.7.9.3}%
+\contentsline {subsection}{\numberline {7.9.4}The false AP}{250}{subsection.7.9.4}%
+\contentsline {subsection}{\numberline {7.9.5}Blacklisting}{250}{subsection.7.9.5}%
+\contentsline {subsection}{\numberline {7.9.6}Disposable alias names}{250}{subsection.7.9.6}%
+\contentsline {subsection}{\numberline {7.9.7}Server certificates}{251}{subsection.7.9.7}%
+\contentsline {subsection}{\numberline {7.9.8}Spam and malware filtering}{251}{subsection.7.9.8}%
+\contentsline {subsection}{\numberline {7.9.9}DMZ networks}{251}{subsection.7.9.9}%
+\contentsline {subsection}{\numberline {7.9.10}Cybersecurity in medical equipment}{251}{subsection.7.9.10}%
+\contentsline {subsection}{\numberline {7.9.11}A company's web servers}{252}{subsection.7.9.11}%
+\contentsline {chapter}{\numberline {8}Security in Operating Systems}{253}{chapter.8}%
+\contentsline {section}{\numberline {8.1}User Authentication}{254}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Biometric Authentication}{255}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Passwords}{257}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Password Strength}{258}{subsection.8.1.3}%
+\contentsline {subsection}{\numberline {8.1.4}Protection of Passwords}{259}{subsection.8.1.4}%
+\contentsline {subsection}{\numberline {8.1.5}Choosing Passwords}{260}{subsection.8.1.5}%
+\contentsline {subsection}{\numberline {8.1.6}One-time Passwords}{261}{subsection.8.1.6}%
+\contentsline {subsection}{\numberline {8.1.7}Pattern Locks}{263}{subsection.8.1.7}%
+\contentsline {subsection}{\numberline {8.1.8}Trends in User Authentication}{263}{subsection.8.1.8}%
+\contentsline {subsection}{\numberline {8.1.9}Authentication Through the Net}{264}{subsection.8.1.9}%
+\contentsline {subsection}{\numberline {8.1.10}Authorisation, Protection \& Rights}{266}{subsection.8.1.10}%
+\contentsline {subsection}{\numberline {8.1.11}Who Decides?}{267}{subsection.8.1.11}%
+\contentsline {subsection}{\numberline {8.1.12}Access Control Matrices}{269}{subsection.8.1.12}%
+\contentsline {subsection}{\numberline {8.1.13}Access Control Lists}{269}{subsection.8.1.13}%
+\contentsline {subsection}{\numberline {8.1.14}Directories}{270}{subsection.8.1.14}%
+\contentsline {subsection}{\numberline {8.1.15}Capabilities}{270}{subsection.8.1.15}%
+\contentsline {subsection}{\numberline {8.1.16}Access Control in File Systems}{271}{subsection.8.1.16}%
+\contentsline {subsection}{\numberline {8.1.17}Unix-style File Protection}{271}{subsection.8.1.17}%
+\contentsline {section}{\numberline {8.2}Problems with Unix-style File Protection}{273}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}setuid and setgid}{274}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Windows NT ACLs}{274}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Access Control for Other System Components}{276}{subsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.2.4}Access Control in the Memory}{276}{subsection.8.2.4}%
+\contentsline {subsection}{\numberline {8.2.5}Access Control for Hardware Units}{279}{subsection.8.2.5}%
+\contentsline {subsection}{\numberline {8.2.6}Access Control for the CPU}{280}{subsection.8.2.6}%
+\contentsline {subsection}{\numberline {8.2.7}Access Control in Android}{281}{subsection.8.2.7}%
+\contentsline {subsection}{\numberline {8.2.8}Bypassing Access Control: Rootkits}{282}{subsection.8.2.8}%
+\contentsline {subsection}{\numberline {8.2.9}The Reference Monitor revisited}{283}{subsection.8.2.9}%
+\contentsline {subsection}{\numberline {8.2.10}Encryption in the Operating System}{284}{subsection.8.2.10}%
+\contentsline {subsection}{\numberline {8.2.11}Job Scheduling}{285}{subsection.8.2.11}%
+\contentsline {subsection}{\numberline {8.2.12}Updating the Operating System}{287}{subsection.8.2.12}%
+\contentsline {subsection}{\numberline {8.2.13}Is Your OS Genuine?}{288}{subsection.8.2.13}%
+\contentsline {subsection}{\numberline {8.2.14}What the OS Cannot Do}{289}{subsection.8.2.14}%
+\contentsline {section}{\numberline {8.3}Useful concepts which you should now know about}{290}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Further Reading}{291}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Exercises}{292}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}A policy for choosing passwords}{293}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}Multi-factor authentication}{293}{subsection.8.5.2}%
+\contentsline {subsection}{\numberline {8.5.3}Windows Registry and Unix /proc}{293}{subsection.8.5.3}%
+\contentsline {subsection}{\numberline {8.5.4}Data encryption in the cloud}{294}{subsection.8.5.4}%
+\contentsline {subsection}{\numberline {8.5.5}Capabilities and protection rings}{294}{subsection.8.5.5}%
+\contentsline {subsection}{\numberline {8.5.6}Threats to Kerberos}{294}{subsection.8.5.6}%
+\contentsline {subsection}{\numberline {8.5.7}The principle of least privilege}{294}{subsection.8.5.7}%
+\contentsline {subsection}{\numberline {8.5.8}Password secrecy}{295}{subsection.8.5.8}%
+\contentsline {section}{\numberline {8.6}Chapter 10}{295}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Software security}{295}{section.8.7}%
+\contentsline {subsection}{\numberline {8.7.1}Classes of Security Failure in Software}{296}{subsection.8.7.1}%
+\contentsline {subsection}{\numberline {8.7.2}Buffer Overflow}{296}{subsection.8.7.2}%
+\contentsline {subsection}{\numberline {8.7.3}Buffer Overflow Vulnerabilities}{298}{subsection.8.7.3}%
+\contentsline {subsection}{\numberline {8.7.4}Buffer Overread}{298}{subsection.8.7.4}%
+\contentsline {subsection}{\numberline {8.7.5}Incomplete Mediation}{299}{subsection.8.7.5}%
+\contentsline {subsection}{\numberline {8.7.6}Time-of-check to Time-of-use (TOCTTOU)}{300}{subsection.8.7.6}%
+\contentsline {subsection}{\numberline {8.7.7}Detection of Programming Errors}{301}{subsection.8.7.7}%
+\contentsline {subsection}{\numberline {8.7.8}Malicious Code}{304}{subsection.8.7.8}%
+\contentsline {subsection}{\numberline {8.7.9}Virus Attacks}{305}{subsection.8.7.9}%
+\contentsline {subsection}{\numberline {8.7.10}Worm attacks}{306}{subsection.8.7.10}%
+\contentsline {subsection}{\numberline {8.7.11}Antivirus Systems}{307}{subsection.8.7.11}%
+\contentsline {subsection}{\numberline {8.7.12}Exploitation of Unpublished Vulnerabilities}{310}{subsection.8.7.12}%
+\contentsline {subsection}{\numberline {8.7.13}SQL Injection}{311}{subsection.8.7.13}%
+\contentsline {subsection}{\numberline {8.7.14}Countermeasures}{312}{subsection.8.7.14}%
+\contentsline {section}{\numberline {8.8}\%x41\%x4c\%x49\%x43\%x45}{313}{section.8.8}%
+\contentsline {subsection}{\numberline {8.8.1}LDAP Injection}{314}{subsection.8.8.1}%
+\contentsline {subsection}{\numberline {8.8.2}LDAP Searches}{316}{subsection.8.8.2}%
+\contentsline {subsection}{\numberline {8.8.3}HTTP-based Applications}{318}{subsection.8.8.3}%
+\contentsline {subsection}{\numberline {8.8.4}HTTP Authentication}{319}{subsection.8.8.4}%
+\contentsline {subsection}{\numberline {8.8.5}HTTP Basic Authentication}{319}{subsection.8.8.5}%
+\contentsline {section}{\numberline {8.9}A Short Interlude: Base64 Encoding}{320}{section.8.9}%
+\contentsline {subsection}{\numberline {8.9.1}HTTP Digest Authentication}{321}{subsection.8.9.1}%
+\contentsline {subsection}{\numberline {8.9.2}Vulnerabilities in HTTP Authentication}{323}{subsection.8.9.2}%
+\contentsline {subsection}{\numberline {8.9.3}HTTP Cookies}{323}{subsection.8.9.3}%
+\contentsline {subsection}{\numberline {8.9.4}SessionIDs}{326}{subsection.8.9.4}%
+\contentsline {subsection}{\numberline {8.9.5}Webforms}{327}{subsection.8.9.5}%
+\contentsline {subsection}{\numberline {8.9.6}Mobile code}{330}{subsection.8.9.6}%
+\contentsline {subsection}{\numberline {8.9.7}Security with Java Applets}{330}{subsection.8.9.7}%
+\contentsline {subsection}{\numberline {8.9.8}Security with ActiveX}{331}{subsection.8.9.8}%
+\contentsline {subsection}{\numberline {8.9.9}Security Zones}{331}{subsection.8.9.9}%
+\contentsline {subsection}{\numberline {8.9.10}Web Server Vulnerabilities}{332}{subsection.8.9.10}%
+\contentsline {subsection}{\numberline {8.9.11}XSS: Cross-site Scripting}{333}{subsection.8.9.11}%
+\contentsline {subsection}{\numberline {8.9.12}Dynamic Generation of Content}{334}{subsection.8.9.12}%
+\contentsline {subsection}{\numberline {8.9.13}Targets for Software Security}{335}{subsection.8.9.13}%
+\contentsline {section}{\numberline {8.10}\textbf {Useful concepts which you should now know about}}{335}{section.8.10}%
+\contentsline {subsection}{\numberline {8.10.1}Basic authentication i HTTP}{337}{subsection.8.10.1}%
+\contentsline {subsection}{\numberline {8.10.2}A myth about the Internet? (1)}{337}{subsection.8.10.2}%
+\contentsline {subsection}{\numberline {8.10.3}A myth about the Internet? (2)}{338}{subsection.8.10.3}%
+\contentsline {subsection}{\numberline {8.10.4}Detection of rootkits}{338}{subsection.8.10.4}%
+\contentsline {subsection}{\numberline {8.10.5}0-day attacks}{338}{subsection.8.10.5}%
+\contentsline {subsection}{\numberline {8.10.6}The BlottoX worm}{339}{subsection.8.10.6}%
+\contentsline {subsection}{\numberline {8.10.7}TOCTTOU flaws}{340}{subsection.8.10.7}%
+\contentsline {chapter}{\numberline {9}Incident Handling and System Availability}{341}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Reacting to Security Incidents}{341}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Incident Reporting}{342}{subsection.9.1.1}%
+\contentsline {section}{\numberline {9.2}Duty to report suspicious events}{343}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Investigation of Security Incidents}{343}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Investigation of Smartphones}{347}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Investigation of Encrypted Data}{348}{subsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.2.4}Business Continuity Planning}{349}{subsection.9.2.4}%
+\contentsline {section}{\numberline {9.3}Requirements (BCP target)}{350}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}The BCP Process}{350}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}BCP Analysis}{350}{subsection.9.3.2}%
+\contentsline {subsection}{\numberline {9.3.3}BCP Resource Requirements}{351}{subsection.9.3.3}%
+\contentsline {subsection}{\numberline {9.3.4}Disaster Recovery Planning}{351}{subsection.9.3.4}%
+\contentsline {subsection}{\numberline {9.3.5}Phases of Recovery}{352}{subsection.9.3.5}%
+\contentsline {subsection}{\numberline {9.3.6}DRP Strategies}{353}{subsection.9.3.6}%
+\contentsline {subsection}{\numberline {9.3.7}DRP Testing}{357}{subsection.9.3.7}%
+\contentsline {subsection}{\numberline {9.3.8}Security Awareness}{358}{subsection.9.3.8}%
+\contentsline {section}{\numberline {9.4}\textit {Look after your private data! Data thieves are after them.}}{359}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Useful concepts which you should now know about}{359}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Further reading}{360}{section.9.6}%
+\contentsline {section}{\numberline {9.7}Exercises}{361}{section.9.7}%
+\contentsline {subsection}{\numberline {9.7.1}The recovery plan}{361}{subsection.9.7.1}%
+\contentsline {subsection}{\numberline {9.7.2}Testing the recovery plan}{361}{subsection.9.7.2}%
+\contentsline {subsection}{\numberline {9.7.3}Backup in the cloud}{361}{subsection.9.7.3}%
+\contentsline {subsection}{\numberline {9.7.4}Incidents and disasters}{362}{subsection.9.7.4}%
+\contentsline {subsection}{\numberline {9.7.5}Memory analysis}{362}{subsection.9.7.5}%
+\contentsline {subsection}{\numberline {9.7.6}The awareness campaign}{362}{subsection.9.7.6}%
+\contentsline {subsection}{\numberline {9.7.7}Impact analysis}{362}{subsection.9.7.7}%
+\contentsline {section}{\numberline {9.8}Chapter 12}{363}{section.9.8}%
+\contentsline {section}{\numberline {9.9}Law and Ethics}{363}{section.9.9}%
+\contentsline {subsection}{\numberline {9.9.1}Computer Crime}{364}{subsection.9.9.1}%
+\contentsline {subsection}{\numberline {9.9.2}Which Acts Must Be Considered Illegal?}{364}{subsection.9.9.2}%
+\contentsline {subsection}{\numberline {9.9.3}Which Powers Must Be Available?}{366}{subsection.9.9.3}%
+\contentsline {subsection}{\numberline {9.9.4}Jurisdiction}{367}{subsection.9.9.4}%
+\contentsline {subsection}{\numberline {9.9.5}International Rules in the Convention}{367}{subsection.9.9.5}%
+\contentsline {subsection}{\numberline {9.9.6}Anti-terror Laws}{368}{subsection.9.9.6}%
+\contentsline {subsection}{\numberline {9.9.7}Protection of Personal Data}{369}{subsection.9.9.7}%
+\contentsline {section}{\numberline {9.10}Definition (GDPR terms (Source: [32]))}{370}{section.9.10}%
+\contentsline {subsection}{\numberline {9.10.1}Important Concepts}{370}{subsection.9.10.1}%
+\contentsline {subsection}{\numberline {9.10.2}General Rules}{370}{subsection.9.10.2}%
+\contentsline {subsection}{\numberline {9.10.3}Classes of Personal Data}{371}{subsection.9.10.3}%
+\contentsline {section}{\numberline {9.11}Definition (Sensitive personal data (Source: [32]))}{372}{section.9.11}%
+\contentsline {subsection}{\numberline {9.11.1}Transfer of Personal Data to Third Countries}{373}{subsection.9.11.1}%
+\contentsline {subsection}{\numberline {9.11.2}The Data Subject's Rights}{374}{subsection.9.11.2}%
+\contentsline {subsection}{\numberline {9.11.3}Security of Processing}{375}{subsection.9.11.3}%
+\contentsline {subsection}{\numberline {9.11.4}Leakages}{376}{subsection.9.11.4}%
+\contentsline {subsection}{\numberline {9.11.5}Authorities}{376}{subsection.9.11.5}%
+\contentsline {subsection}{\numberline {9.11.6}Codes of Conduct and Certification}{377}{subsection.9.11.6}%
+\contentsline {subsection}{\numberline {9.11.7}Legal Responsibility and Penalties}{377}{subsection.9.11.7}%
+\contentsline {subsection}{\numberline {9.11.8}Protection of Healthcare Data}{378}{subsection.9.11.8}%
+\contentsline {subsection}{\numberline {9.11.9}Who Has Access to Health Data?}{379}{subsection.9.11.9}%
+\contentsline {subsection}{\numberline {9.11.10}Ethics}{380}{subsection.9.11.10}%
+\contentsline {subsection}{\numberline {9.11.11}Datamining}{381}{subsection.9.11.11}%
+\contentsline {subsection}{\numberline {9.11.12}Tracking}{382}{subsection.9.11.12}%
+\contentsline {subsection}{\numberline {9.11.13}Protection Against Breaches of Privacy}{384}{subsection.9.11.13}%
+\contentsline {subsection}{\numberline {9.11.14}Publication of pictures}{386}{subsection.9.11.14}%
+\contentsline {subsection}{\numberline {9.11.15}Publication of personal identity numbers}{386}{subsection.9.11.15}%
+\contentsline {subsection}{\numberline {9.11.16}Public web pages for a hospital}{386}{subsection.9.11.16}%
+\contentsline {subsection}{\numberline {9.11.17}A hospital database system}{387}{subsection.9.11.17}%
+\contentsline {subsection}{\numberline {9.11.18}Checking a hospital's files}{387}{subsection.9.11.18}%
+\contentsline {subsection}{\numberline {9.11.19}Access to the EPR system}{387}{subsection.9.11.19}%
+\contentsline {subsection}{\numberline {9.11.20}Patient data in an EPR}{387}{subsection.9.11.20}%
+\contentsline {subsection}{\numberline {9.11.21}The Erewhon Gospel Choir (1)}{387}{subsection.9.11.21}%
+\contentsline {subsection}{\numberline {9.11.22}The Erewhon Gospel Choir (2)}{388}{subsection.9.11.22}%
+\contentsline {subsection}{\numberline {9.11.23}Collection of content data from communication}{388}{subsection.9.11.23}%
+\contentsline {subsection}{\numberline {9.11.24}False Facebook profiles}{388}{subsection.9.11.24}%
+\contentsline {subsection}{\numberline {9.11.25}Security targets for personal information}{388}{subsection.9.11.25}%
+\contentsline {section}{\numberline {9.12}Epilogue}{389}{section.9.12}%
+\contentsline {section}{\numberline {9.13}What's in the Box?}{396}{section.9.13}%
+\contentsline {section}{\numberline {9.14}Hardware}{396}{section.9.14}%
+\contentsline {section}{\numberline {9.15}Disks}{398}{section.9.15}%
+\contentsline {section}{\numberline {9.16}Input and Output (I/O) Units}{401}{section.9.16}%
+\contentsline {section}{\numberline {9.17}Attachment of I/O Units}{402}{section.9.17}%
+\contentsline {section}{\numberline {9.18}Communication Units}{403}{section.9.18}%
+\contentsline {section}{\numberline {9.19}Power Supplies}{404}{section.9.19}%
+\contentsline {section}{\numberline {9.20}Software}{404}{section.9.20}%
+\contentsline {section}{\numberline {9.21}The Operating System}{405}{section.9.21}%
+\contentsline {section}{\numberline {9.22}Firmware}{406}{section.9.22}%
+\contentsline {section}{\numberline {9.23}Utility Programs}{407}{section.9.23}%
+\contentsline {section}{\numberline {9.24}Application Programs}{407}{section.9.24}%
+\contentsline {section}{\numberline {9.25}What is in \emph {your} box?}{410}{section.9.25}%
+\contentsline {section}{\numberline {9.26}Mathematics}{410}{section.9.26}%
+\contentsline {section}{\numberline {9.27}Basic Concepts}{410}{section.9.27}%
+\contentsline {section}{\numberline {9.28}Fermat's Factorisation Algorithm}{414}{section.9.28}%
+\contentsline {section}{\numberline {9.29}Euclid's Algorithm}{415}{section.9.29}%
+\contentsline {section}{\numberline {9.30}Algorithm (Euclid's Algorithm)}{416}{section.9.30}%
+\contentsline {section}{\numberline {9.31}Euclid's Extended Algorithm}{417}{section.9.31}%
+\contentsline {section}{\numberline {9.32}Algorithm (Euclid's Extended Algorithm)}{417}{section.9.32}%
+\contentsline {section}{\numberline {9.33}Calculation of an Inverse modulo $n$}{418}{section.9.33}%
+\contentsline {section}{\numberline {9.34}The Chinese Remainder Theorem}{419}{section.9.34}%
+\contentsline {section}{\numberline {9.35}Theorem (Chinese Remainder Theorem)}{419}{section.9.35}%
+\contentsline {section}{\numberline {9.36}Why Does RSA Work?}{420}{section.9.36}%
+\contentsline {section}{\numberline {9.37}A Common-modulus Attack on RSA}{421}{section.9.37}%
+\contentsline {section}{\numberline {9.38}The Birthday Paradox}{422}{section.9.38}%
+\contentsline {section}{\numberline {9.39}Appendix C Acronyms}{423}{section.9.39}%
+\contentsline {section}{\numberline {9.40}References}{428}{section.9.40}%
+\contentsline {section}{\numberline {9.41}Index}{440}{section.9.41}%
+\contentsline {section}{\numberline {9.42}Symbols}{440}{section.9.42}%
+\contentsline {section}{\numberline {9.43}B}{443}{section.9.43}%
+\contentsline {section}{\numberline {9.44}C}{445}{section.9.44}%
+\contentsline {section}{\numberline {9.45}D}{448}{section.9.45}%
+\contentsline {section}{\numberline {9.46}E}{450}{section.9.46}%
+\contentsline {section}{\numberline {9.47}F}{451}{section.9.47}%
+\contentsline {section}{\numberline {9.48}G}{453}{section.9.48}%
+\contentsline {section}{\numberline {9.49}H}{454}{section.9.49}%
+\contentsline {section}{\numberline {9.50}I}{456}{section.9.50}%
+\contentsline {section}{\numberline {9.51}J}{457}{section.9.51}%
+\contentsline {section}{\numberline {9.52}K}{458}{section.9.52}%
+\contentsline {section}{\numberline {9.53}L}{458}{section.9.53}%
+\contentsline {section}{\numberline {9.54}M}{459}{section.9.54}%
+\contentsline {section}{\numberline {9.55}N}{462}{section.9.55}%
+\contentsline {section}{\numberline {9.56}0}{462}{section.9.56}%
+\contentsline {section}{\numberline {9.57}P}{463}{section.9.57}%
+\contentsline {section}{\numberline {9.58}Q}{465}{section.9.58}%
+\contentsline {section}{\numberline {9.59}R}{465}{section.9.59}%
+\contentsline {section}{\numberline {9.60}S}{467}{section.9.60}%
+\contentsline {section}{\numberline {9.61}T}{472}{section.9.61}%
+\contentsline {section}{\numberline {9.62}U}{473}{section.9.62}%
+\contentsline {section}{\numberline {9.63}V}{474}{section.9.63}%
+\contentsline {section}{\numberline {9.64}W}{475}{section.9.64}%
+\contentsline {section}{\numberline {9.65}X}{478}{section.9.65}%
+\contentsline {section}{\numberline {9.66}Z}{478}{section.9.66}%

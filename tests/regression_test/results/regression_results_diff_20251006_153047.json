@@ -1,0 +1,42 @@
+{
+  "scoring_method": "diff",
+  "timestamp": "2025-10-06T15:30:47.207445",
+  "total_books": 3,
+  "valid_books": 1,
+  "average_score": 31.47,
+  "results": [
+    {
+      "book_name": "data-science",
+      "input_file": "/Users/jrathi/Projects/pdf-2-latex/files/data-science/inputs/data-science.tex",
+      "output_file": "/Users/jrathi/Projects/pdf-2-latex/files/data-science/outputs/data-science_final.tex",
+      "scoring_method": "diff",
+      "timestamp": "2025-10-06T15:30:47.198213",
+      "valid": true,
+      "score": 94.41,
+      "details": {},
+      "error": null
+    },
+    {
+      "book_name": "\u2014scoring-method",
+      "input_file": "/Users/jrathi/Projects/pdf-2-latex/files/\u2014scoring-method/inputs/\u2014scoring-method.tex",
+      "output_file": "/Users/jrathi/Projects/pdf-2-latex/files/\u2014scoring-method/outputs/\u2014scoring-method_final.tex",
+      "scoring_method": "diff",
+      "timestamp": "2025-10-06T15:30:47.207338",
+      "valid": false,
+      "score": 0.0,
+      "error": "Missing files for book: \u2014scoring-method",
+      "details": {}
+    },
+    {
+      "book_name": "multi-metri",
+      "input_file": "/Users/jrathi/Projects/pdf-2-latex/files/multi-metri/inputs/multi-metri.tex",
+      "output_file": "/Users/jrathi/Projects/pdf-2-latex/files/multi-metri/outputs/multi-metri_final.tex",
+      "scoring_method": "diff",
+      "timestamp": "2025-10-06T15:30:47.207417",
+      "valid": false,
+      "score": 0.0,
+      "error": "Missing files for book: multi-metri",
+      "details": {}
+    }
+  ]
+}

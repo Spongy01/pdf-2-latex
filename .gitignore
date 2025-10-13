@@ -5,3 +5,4 @@ codes/gpt/.env
 codes/pdf_to_latex/pdf2latex/
 **/.DS_Store
 .github/
+archive/

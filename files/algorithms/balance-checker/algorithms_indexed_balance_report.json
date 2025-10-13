@@ -1,0 +1,75 @@
+{
+  "pre_correction": {
+    "total_commands": 1590,
+    "total_issues": 20,
+    "issues_by_type": {
+      "mismatch": 14,
+      "unclosed": 6
+    },
+    "issues_by_environment": {
+      "itemize": 6,
+      "tabular": 6,
+      "center": 1,
+      "verbatim": 5,
+      "aligned": 1,
+      "document": 1
+    }
+  },
+  "post_correction": {
+    "total_commands": 1576,
+    "total_issues": 8,
+    "issues_by_type": {
+      "mismatch": 2,
+      "unclosed": 6
+    },
+    "issues_by_environment": {
+      "itemize": 3,
+      "document": 2,
+      "tabular": 3
+    }
+  },
+  "fixes_applied": 19,
+  "fixes_details": [
+    "Line 13435: Removed 1 duplicate \\end commands on same line",
+    "Line 3133: Removed duplicate/orphaned \\end{itemize} command",
+    "Line 4855: Removed duplicate/orphaned \\end{itemize} command",
+    "Line 5519: Removed duplicate/orphaned \\end{tabular} command",
+    "Line 5520: Removed duplicate/orphaned \\end{center} command",
+    "Line 5718: Removed duplicate/orphaned \\end{itemize} command",
+    "Line 7366: Removed duplicate/orphaned \\end{verbatim} command",
+    "Line 7614: Removed duplicate/orphaned \\end{verbatim} command",
+    "Line 8243: Removed duplicate/orphaned \\end{tabular} command",
+    "Line 8340: Removed duplicate/orphaned \\end{tabular} command",
+    "Line 9537: Removed duplicate/orphaned \\end{aligned} command",
+    "Line 10564: Removed duplicate/orphaned \\end{verbatim} command",
+    "Line 11334: Removed duplicate/orphaned \\end{verbatim} command",
+    "Line 11596: Removed duplicate/orphaned \\end{verbatim} command",
+    "Line 21233: Added \\end{document} to close 6 unclosed environments",
+    "Line 21233: Removed \\end{document} from middle of file",
+    "Line 21233: Added \\end{document} to close 6 unclosed environments",
+    "Line 21233: Removed \\end{document} from middle of file",
+    "Line 21233: Added \\end{document} to close 6 unclosed environments"
+  ],
+  "environments_found": [
+    "aligned",
+    "array",
+    "center",
+    "displayquote",
+    "document",
+    "enumerate",
+    "figure",
+    "gathered",
+    "itemize",
+    "quote",
+    "table",
+    "tabular",
+    "thebibliography",
+    "theindex",
+    "verbatim"
+  ],
+  "nesting_depth_stats": {
+    "max_depth": 8,
+    "avg_depth": 2.617721518987342,
+    "total_nested": 790
+  }
+}

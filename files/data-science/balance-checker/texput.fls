@@ -1,0 +1,5 @@
+PWD /Users/jrathi/Projects/pdf-2-latex/codes/pdf_to_latex
+INPUT /usr/local/texlive/2025basic/texmf.cnf
+INPUT /usr/local/texlive/2025basic/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2025basic/texmf-var/web2c/xetex/xelatex.fmt
+OUTPUT /Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/texput.log

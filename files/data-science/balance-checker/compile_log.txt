@@ -1,0 +1,3965 @@
+Rc files read:
+  .latexmkrc
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-science_final.aux
+  /Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-science_final.tex
+Category 'changed_user':
+  /Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-science_final.tex
+Category 'never_run':
+  xelatex
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -interaction=nonstopmode -file-line-error -recorder -output-directory="/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker"  "/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-science_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-sci
+ence_final.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025basic/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.
+sty (/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/varwidth/varwidth.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atveryend-ltx.sty
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty))) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-xetex.de
+f))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e
+.sty) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+))) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/underscore/underscore.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lineno/lineno.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf)
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file data-science_final.idx
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-english.ld
+f)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-bengali.ld
+f
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/devanagaridigits
+.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/bengalidigits.st
+y)
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `bengali'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+)
+(/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-sci
+ence_final.aux)
+Runaway argument?
+{\contentsline {figure}{\numberline {5.22}{\ignorespace 
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:64: File ended while scanning use of \@writefile.
+<inserted text> 
+                \par 
+l.64 \begin{document}
+                     \index{asking interesting questions}\index{autocorrelat...
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-sci
+ence_final.out)
+Runaway argument?
+{\376\377\000I\000m\000p 
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:64: File ended while scanning use of \@@BOOKMARK.
+<inserted text> 
+                \par 
+l.64 \begin{document}
+                     \index{asking interesting questions}\index{autocorrelat...
+
+
+(/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-sci
+ence_final.out)
+Runaway argument?
+{\376\377\000I\000m\000p 
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:64: File ended while scanning use of \@@BOOKMARK.
+<inserted text> 
+                \par 
+l.64 \begin{document}
+                     \index{asking interesting questions}\index{autocorrelat...
+
+
+(/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-sci
+ence_final.toc)
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:74: Unable to load picture or PDF file './images/2025_03_17_ca60e
+c0bfd96dcf8e028g-001.jpg'.
+<to be read again> 
+                   }
+l.74 ...dth]{2025_03_17_ca60ec0bfd96dcf8e028g-001}
+                                                  
+
+Overfull \hbox (6.75647pt too wide) in paragraph at lines 82--96
+\TU/Georgia(0)/m/n/10 This work is subject to copyright. All rights are reserve
+d by the Publisher, whether
+
+[1]
+[2]
+
+LaTeX Warning: Citation `skiena2008algorithm' on page 3 undefined on input line
+ 112.
+
+
+[3]
+Overfull \hbox (20.02608pt too wide) in paragraph at lines 138--139
+[]\TU/Georgia(0)/m/it/10 Take-Home Lessons\TU/Georgia(0)/m/n/10 : Highlighted "
+take-home" lesson boxes scattered through
+
+Overfull \hbox (1.57036pt too wide) in paragraph at lines 139--141
+\TU/Georgia(0)/m/n/10 questions, reflecting the questions students might encoun
+ter when search-
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
+
+
+[4]
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:144: LaTeX Error: Lonely \item--perhaps a missing list environmen
+t.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144   \item \textit
+                     {Kaggle Challenges}: Kaggle (\href{http://www.kaggle.co...
+
+
+Underfull \hbox (badness 10000) detected at line 144
+[][]
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:145: LaTeX Error: Lonely \item--perhaps a missing list environmen
+t.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145   \item \textit
+                     {Data Science Television}: Data science remains mysteri...
+
+
+Underfull \hbox (badness 10000) detected at line 145
+[][]
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:148: LaTeX Error: Lonely \item--perhaps a missing list environmen
+t.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148   \item \textit
+                     {Chapter Notes}: Finally, each tutorial chapter conclud...
+
+
+Underfull \hbox (badness 10000) detected at line 148
+[][]
+
+Overfull \hbox (1.0873pt too wide) in paragraph at lines 152--153
+\TU/Georgia(0)/m/n/10 meaning that they don't always process statistical eviden
+ce with as much alacrity
+
+[5]
+[6] (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+[7]
+[8]
+[9]
+[10]
+[11]
+[12]
+Underfull \vbox (badness 10000) has occurred while \output is active
+[13]
+Overfull \hbox (1.56245pt too wide) in paragraph at lines 496--497
+\TU/Georgia(0)/m/n/10 amounts of social media, logging, and sensor data. After 
+you have amassed
+
+LaTeX Warning: Citation `lewis2004moneyball' on page 14 undefined on input line
+ 498.
+
+
+LaTeX Warning: Citation `silver2012signal' on page 14 undefined on input line 4
+98.
+
+
+Overfull \hbox (5.49805pt too wide) in paragraph at lines 503--503
+[]\TU/Georgia(0)/b/n/12 Computer Science, Data Science, and Real Science 
+
+[14]
+Overfull \hbox (2.29301pt too wide) in paragraph at lines 513--515
+\TU/Georgia(0)/m/n/10 By contrast, bad computer scientists worry about producin
+g plausiblelook-
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--516
+
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:519: LaTeX Error: Lonely \item--perhaps a missing list environmen
+t.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.519   \item \textit
+                     {Precision}: Nothing is ever completely true or false i...
+
+
+Underfull \hbox (badness 10000) detected at line 519
+[][]
+
+[15]
+Overfull \hbox (0.49648pt too wide) in paragraph at lines 543--544
+\TU/Georgia(0)/m/n/10 Good data scientists develop an inherent curiosity about 
+the world around them,
+
+[16]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:561: Unable to load picture or PDF file './images/2025_03_17_ca60
+ec0bfd96dcf8e028g-023.jpg'.
+<to be read again> 
+                   }
+l.561 ...er]{2025_03_17_ca60ec0bfd96dcf8e028g-023}
+                                                  
+
+[17]
+Overfull \hbox (1.49472pt too wide) in paragraph at lines 572--573
+[]\TU/Georgia(0)/m/n/10 This historical baseball record is available at [][]htt
+p://www[][]. baseball-reference
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--573
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:576: Unable to load picture or PDF file './images/2025_03_17_ca60
+ec0bfd96dcf8e028g-024.jpg'.
+<to be read again> 
+                   }
+l.576 ...er]{2025_03_17_ca60ec0bfd96dcf8e028g-024}
+                                                  
+
+[18]
+
+LaTeX Warning: Citation `halpern1988do' on page 19 undefined on input line 602.
+
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:621: Unable to load picture or PDF file './images/2025_03_17_ca60
+ec0bfd96dcf8e028g-026.jpg'.
+<to be read again> 
+                   }
+l.621 ...th]{2025_03_17_ca60ec0bfd96dcf8e028g-026}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:621: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.621 ...th]{2025_03_17_ca60ec0bfd96dcf8e028g-026}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:627: Unable to load picture or PDF file './images/2025_03_17_ca60
+ec0bfd96dcf8e028g-026(1).jpg'.
+<to be read again> 
+                   }
+l.627 ...{2025_03_17_ca60ec0bfd96dcf8e028g-026(1)}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:627: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.627 ...{2025_03_17_ca60ec0bfd96dcf8e028g-026(1)}
+                                                  
+
+[19]
+
+LaTeX Warning: Citation `bell2007lessons' on page 20 undefined on input line 65
+4.
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:658: Unable to load picture or PDF file './images/2025_03_17_ca60
+ec0bfd96dcf8e028g-028.jpg'.
+<to be read again> 
+                   }
+l.658 ...er]{2025_03_17_ca60ec0bfd96dcf8e028g-028}
+                                                  
+
+[20]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:667: Missing $ inserted.
+<inserted text> 
+                $
+l.667 ... applied to cultural trend analysis [MAV^
+                                                  {+}11]. Figure 1.5 uses th...
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:668: Missing $ inserted.
+<inserted text> 
+                $
+l.668 
+      
+
+Overfull \hbox (1681.39764pt too wide) in paragraph at lines 667--668
+\TU/Georgia(0)/m/n/10 years, and has been widely applied to cultural trend anal
+ysis [MAV$[]\OT1/cmr/m/n/10 11]\OML/cmm/m/it/10 :Figure\OT1/cmr/m/n/10 1\OML/cm
+m/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 usesthisdatatoshowhowtheword[]fell
+outoffavorwhenthinkingaboutcomputing:[]wasthepopulartermassociatedwiththecomput
+ingfieldduringthepunchedcardandspinningmagnetictapeeraofthe\OT1/cmr/m/n/10 1950
+\OML/cmm/m/it/10 s:TheNgramsdatashowsthattherapidriseof[]didnoteclipse[]until\O
+T1/cmr/m/n/10 1980\OML/cmm/m/it/10 :Eventoday; []remainsalmostinvisibleonthissc
+ale:$ 
+
+[21]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:696: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.696 \hline
+            
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:696: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.696 \hline
+            
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:696: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.696 \hline
+            
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:696: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.696 \hline
+            
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:697: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.697 ...3.9998 & 40.74334 & -73.9428 & 40.80662 &
+                                                   2 & 0 & 30.8 \\
+
+Overfull \hbox (278.53044pt too wide) in paragraph at lines 693--718
+ [] 
+
+Underfull \vbox (badness 7576) has occurred while \output is active
+[22]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:735: Unable to load picture or PDF file './images/2025_03_17_ca60
+ec0bfd96dcf8e028g-031.jpg'.
+<to be read again> 
+                   }
+l.735 ...th]{2025_03_17_ca60ec0bfd96dcf8e028g-031}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:735: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.735 ...th]{2025_03_17_ca60ec0bfd96dcf8e028g-031}
+                                                  
+
+[23]
+Overfull \hbox (0.2979pt too wide) in paragraph at lines 743--744
+[]\TU/Georgia(0)/m/n/10 Which drivers take their unsuspecting out-of-town passe
+ngers for a "ride,"
+
+LaTeX Warning: Citation `starov2015gis' on page 24 undefined on input line 747.
+
+
+
+[24]
+[25]
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 804--805
+
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:808: LaTeX Error: Lonely \item--perhaps a missing list environmen
+t.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.808   \item \textit
+                     {Regression}: Another common task is to forecast a give...
+
+
+Underfull \hbox (badness 10000) detected at line 808
+[][]
+
+[27]
+Overfull \hbox (2.02252pt too wide) in paragraph at lines 825--826
+\TU/Georgia(0)/m/n/10 data sets, building their own evaluation environments, an
+d devising their model.
+
+Underfull \hbox (badness 10000) in paragraph at lines 836--837
+
+
+[28]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:841: Unable to load picture or PDF file './images/2025_03_17_ca60
+ec0bfd96dcf8e028g-036.jpg'.
+<to be read again> 
+                   }
+l.841 ...er]{2025_03_17_ca60ec0bfd96dcf8e028g-036}
+                                                  \index{standard deviation}...
+
+
+[29]
+
+LaTeX Warning: Citation `skiena2001calculated' on page 30 undefined on input li
+ne 873.
+
+
+LaTeX Warning: Citation `zhang2009improving' on page 30 undefined on input line
+ 873.
+
+
+LaTeX Warning: Citation `zhang2010trading' on page 30 undefined on input line 8
+73.
+
+
+LaTeX Warning: Citation `hong2010wisdom' on page 30 undefined on input line 873
+.
+
+
+Overfull \hbox (0.20578pt too wide) in paragraph at lines 873--874
+\TU/Georgia(0)/m/n/10 scraping for data collection, statistical analysis, simul
+ation/modeling, and
+
+LaTeX Warning: Citation `skiena2013whos' on page 30 undefined on input line 876
+.
+
+
+[30]
+[31]
+
+LaTeX Warning: Citation `halpern1991handedness' on page 32 undefined on input l
+ine 910.
+
+
+LaTeX Warning: Citation `mcmanus2004right' on page 32 undefined on input line 9
+10.
+
+
+LaTeX Warning: Citation `james2010new' on page 32 undefined on input line 912.
+
+
+[32]
+
+LaTeX Warning: Citation `godbole2007large' on page 33 undefined on input line 9
+16.
+
+
+LaTeX Warning: Citation `kulkarni2015statistically' on page 33 undefined on inp
+ut line 916.
+
+
+Underfull \vbox (badness 7631) has occurred while \output is active
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 951--952
+
+
+[34]
+[35]
+[36]
+Chapter 1.
+
+[37]
+Overfull \hbox (3.37482pt too wide) detected at line 1024
+[][]
+
+[38]
+[39]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1096: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-047.jpg'.
+<to be read again> 
+                   }
+l.1096 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-047}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1096: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1096 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-047}
+                                                  
+
+Overfull \hbox (2.31418pt too wide) in paragraph at lines 1099--1101
+[]\TU/Georgia(0)/m/n/10 Figure 2.1: Venn diagrams illustrating set difference (
+left), intersection (mid-
+
+[40]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1161: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-049.jpg'.
+<to be read again> 
+                   }
+l.1161 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-049}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1161: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1161 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-049}
+                                                  
+
+[41]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1178: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-050.jpg'.
+<to be read again> 
+                   }
+l.1178 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-050}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1178: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1178 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-050}
+                                                  
+
+[42]
+[43]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1250: Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.1250 }
+        
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1254: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-053.jpg'.
+<to be read again> 
+                   }
+l.1254 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-053}
+                                                  
+
+[44]
+Overfull \hbox (4.32753pt too wide) in paragraph at lines 1260--1262
+\TU/Georgia(0)/m/n/10 is meaningful, but interesting peaks only get revealed th
+rough proper buck-
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+[45]
+Overfull \hbox (0.41347pt too wide) in paragraph at lines 1279--1280
+[]\TU/Georgia(0)/m/n/10 An often confusing matter concerns the denominator in t
+he formula for stan-
+
+Overfull \hbox (0.66052pt too wide) in paragraph at lines 1282--1283
+\TU/Georgia(0)/m/n/10 observations capture unrepresentative circumstances, like
+ measuring rush hour
+
+[46]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1300: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-055.jpg'.
+<to be read again> 
+                   }
+l.1300 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-055}
+                                                  
+
+[47]
+Overfull \hbox (2.94276pt too wide) in paragraph at lines 1328--1329
+\TU/Georgia(0)/m/n/10 Distributions do not necessarily have much probability ma
+ss exactly at the mean.
+
+Overfull \hbox (2.90527pt too wide) in paragraph at lines 1332--1333
+[]\TU/Georgia(0)/m/n/10 To be precise, regardless of how your data is distribut
+ed, at least $\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (1/\OML/c
+mm/m/it/10 k[]\OT1/cmr/m/n/10 ))$\TU/Georgia(0)/m/n/10 th
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 1349--1349
+[][][]\TU/Georgia(0)/m/n/8 https://research.collegeboard.org/sites/default/file
+s/publications/2012/9/researchreport-
+
+[49]
+[50]
+Underfull \hbox (badness 1248) in paragraph at lines 1378--1378
+[][][]$[][]$ [][]\TU/Georgia(0)/m/n/8 http://webspace.pugetsound.edu/facultypag
+es/cjones/chidev/Paper/Articles/[][] Anderson-
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1382: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-059.jpg'.
+<to be read again> 
+                   }
+l.1382 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-059}
+                                                  
+
+Overfull \hbox (9.97722pt too wide) in paragraph at lines 1386--1386
+[]\TU/Georgia(0)/b/n/14.4 The Spearman Rank Correlation Coefficient 
+
+Overfull \hbox (1.14752pt too wide) in paragraph at lines 1394--1395
+[]\TU/Georgia(0)/m/n/10 Summing up over all pairs of points and normalizing pro
+perly gives us Spear-
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1404: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-060(2).jpg'.
+<to be read again> 
+                   }
+l.1404 ...2025_03_17_ca60ec0bfd96dcf8e028g-060(2)}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1405: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-060.jpg'.
+<to be read again> 
+                   }
+l.1405 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-060}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1406: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-060(1).jpg'.
+<to be read again> 
+                   }
+l.1406 ...2025_03_17_ca60ec0bfd96dcf8e028g-060(1)}
+                                                  
+
+[51]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1427: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-061(1).jpg'.
+<to be read again> 
+                   }
+l.1427 ...2025_03_17_ca60ec0bfd96dcf8e028g-061(1)}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1427: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1427 ...2025_03_17_ca60ec0bfd96dcf8e028g-061(1)}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1433: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-061.jpg'.
+<to be read again> 
+                   }
+l.1433 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-061}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1433: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1433 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-061}
+                                                  
+
+[52]
+Overfull \hbox (15.31471pt too wide) in paragraph at lines 1448--1449
+\TU/Georgia(0)/m/n/10 ing large numbers of features. Any single feature/correla
+tion might explain/predict
+
+Overfull \hbox (8.10326pt too wide) in paragraph at lines 1460--1461
+[]\TU/Georgia(0)/m/n/10 Still, \TU/Georgia(0)/m/it/10 correlation implies causa
+tion \TU/Georgia(0)/m/n/10 is a common error in thinking, even among
+
+[53]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1464: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-063(2).jpg'.
+<to be read again> 
+                   }
+l.1464 ...2025_03_17_ca60ec0bfd96dcf8e028g-063(2)}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1464: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1464 ...2025_03_17_ca60ec0bfd96dcf8e028g-063(2)}
+                                                  
+
+Underfull \hbox (badness 10000) in paragraph at lines 1465--1465
+[]\TU/Georgia(0)/m/n/10 Figure 1.9: []Correlation does not imply causation. (So
+urce
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1470: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-063.jpg'.
+<to be read again> 
+                   }
+l.1470 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-063}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1471: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-063(1).jpg'.
+<to be read again> 
+                   }
+l.1471 ...2025_03_17_ca60ec0bfd96dcf8e028g-063(1)}
+                                                  
+
+[54]
+Overfull \hbox (8.8045pt too wide) in paragraph at lines 1496--1497
+[]\TU/Georgia(0)/m/n/10 Exponential functions grow at a very fast rate: conside
+r $\OML/cmm/m/it/10 b \OT1/cmr/m/n/10 = []$\TU/Georgia(0)/m/n/10 .
+
+[55]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1533: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-066.jpg'.
+<to be read again> 
+                   }
+l.1533 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-066}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1533: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1533 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-066}
+                                                  
+
+[56]
+Overfull \hbox (5.47656pt too wide) in paragraph at lines 1543--1543
+[]\TU/Georgia(0)/b/n/12 Logarithms and Normalizing Skewed Distributions 
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1550: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-067.jpg'.
+<to be read again> 
+                   }
+l.1550 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-067}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1550: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1550 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-067}
+                                                  
+
+[57]
+[58]
+
+LaTeX Warning: Citation `tijms2012understanding' on page 59 undefined on input 
+line 1626.
+
+
+LaTeX Warning: Citation `bertsekas2008introduction' on page 59 undefined on inp
+ut line 1626.
+
+
+LaTeX Warning: Citation `james2013introduction' on page 59 undefined on input l
+ine 1626.
+
+
+LaTeX Warning: Citation `wheelan2013naked' on page 59 undefined on input line 1
+626.
+
+
+LaTeX Warning: Citation `weaver1982lady' on page 59 undefined on input line 162
+6.
+
+
+[59]
+
+LaTeX Warning: Citation `malkiel1999random' on page 60 undefined on input line 
+1628.
+
+
+LaTeX Warning: Citation `bracewell1999fourier' on page 60 undefined on input li
+ne 1632.
+
+
+LaTeX Warning: Citation `brigham1988fast' on page 60 undefined on input line 16
+32.
+
+
+LaTeX Warning: Citation `press2007numerical' on page 60 undefined on input line
+ 1632.
+
+
+Overfull \hbox (0.433pt too wide) in paragraph at lines 1634--1635
+[]\TU/Georgia(0)/m/n/10 The comic strip in Figure 2.10 comes from Randall Munro
+e's webcomic \TU/Georgia(0)/m/it/10 xkcd\TU/Georgia(0)/m/n/10 ,
+
+LaTeX Warning: Citation `skiena2012redesigning' on page 60 undefined on input l
+ine 1636.
+
+
+[60]
+Overfull \hbox (7.97423pt too wide) in paragraph at lines 1678--1682
+[]\TU/Georgia(0)/m/n/10 2-11. \TU/Georgia(0)/m/it/10 [3] \TU/Georgia(0)/m/n/10 
+What would be the correlation coefficient between the annual salaries
+
+Overfull \hbox (0.65164pt too wide) in paragraph at lines 1688--1691
+[]\TU/Georgia(0)/m/n/10 2-13. \TU/Georgia(0)/m/it/10 [5] \TU/Georgia(0)/m/n/10 
+Use data or literature found in a Google search to estimate/measure
+
+Overfull \hbox (5.34889pt too wide) in paragraph at lines 1710--1713
+\TU/Georgia(0)/m/n/10 interesting correlations. Perhaps start with what is avai
+lable at [][]http://www.data-
+
+Underfull \vbox (badness 1694) has occurred while \output is active
+[61]
+[62]
+[63]
+[64]
+Chapter 2.
+
+[65]
+Overfull \hbox (1.5479pt too wide) in paragraph at lines 1776--1777
+[]\TU/Georgia(0)/m/n/10 Perhaps the biggest strike against Python is efficiency
+: interpreted languages
+
+[66]
+
+LaTeX Warning: Citation `barron2010apples' on page 67 undefined on input line 1
+793.
+
+
+Overfull \hbox (78.7392pt too wide) in paragraph at lines 1793--1794
+\TU/Georgia(0)/m/n/10 of algorithms and pre-digested data sources. Check it out
+ at [][]http://www.wolframalpha.com[][].
+
+[67]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:1816: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-077.jpg'.
+<to be read again> 
+                   }
+l.1816 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-077}
+                                                  
+
+[68]
+Overfull \hbox (1.26033pt too wide) in paragraph at lines 1854--1856
+[]\TU/Georgia(0)/m/it/10 CSV (comma separated value) files\TU/Georgia(0)/m/n/10
+ : These files provide the simplest, most
+
+Overfull \hbox (0.3196pt too wide) in paragraph at lines 1854--1856
+\TU/Georgia(0)/m/n/10 spection. But subtleties revolve around special character
+s and text strings:
+
+[69]
+[70]
+[71]
+[72]
+[73]
+Overfull \hbox (3.05643pt too wide) in paragraph at lines 1964--1965
+\TU/Georgia(0)/m/n/10 tounderstand formatting languages like HTML and/or JavaSc
+ript. Your browser
+
+[74]
+Overfull \hbox (1.2698pt too wide) in paragraph at lines 1966--1967
+\TU/Georgia(0)/m/n/10 grams themselves, and hence highly predictable in their f
+ormat. But such scripts
+
+Overfull \hbox (2.96391pt too wide) in paragraph at lines 1976--1977
+[]\TU/Georgia(0)/m/n/10 Please understand that politeness limits how rapidly yo
+u should spider/crawl
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+[75]
+[76]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2015: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-087.jpg'.
+<to be read again> 
+                   }
+l.2015 ...2025\_03\_17\_ca60ec0bfd96dcf8e028g-087}
+                                                  
+
+[77]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2033: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-088.jpg'.
+<to be read again> 
+                   }
+l.2033 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-088}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2033: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2033 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-088}
+                                                  
+
+[78]
+Overfull \hbox (2.80605pt too wide) in paragraph at lines 2061--2062
+[]\TU/Georgia(0)/m/n/10 These types of data comparability issues arise whenever
+ data sets are merged.
+
+[79]
+Overfull \hbox (3.70122pt too wide) in paragraph at lines 2083--2084
+[]\TU/Georgia(0)/m/n/10 Numerical representation issues can take credit for des
+troying another rocket
+
+[80]
+Overfull \hbox (0.3871pt too wide) in paragraph at lines 2102--2103
+\TU/Georgia(0)/m/n/10 Characters in text strings are assigned numerical represe
+ntations, with the map-
+
+[81]
+
+LaTeX Warning: Citation `reingold2001calendrical' on page 82 undefined on input
+ line 2115.
+
+
+[82]
+[83]
+Overfull \hbox (0.40175pt too wide) in paragraph at lines 2157--2158
+\TU/Georgia(0)/m/n/10 enough training data, provided the missing values are abs
+ent for non-systematic
+
+Underfull \hbox (badness 10000) in paragraph at lines 2169--2170
+
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2173: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2173   \item \emph
+                    {Imputation by nearest neighbor}: What if we identify th...
+
+
+Underfull \hbox (badness 10000) detected at line 2173
+[][]
+
+Overfull \hbox (9.2953pt too wide) in paragraph at lines 2176--2177
+[]\TU/Georgia(0)/m/n/10 This approach requires a distance function to identify 
+the most similar records.
+
+[84]
+
+LaTeX Warning: Citation `goldenberg2016biggest' on page 85 undefined on input l
+ine 2189.
+
+
+[85]
+Overfull \hbox (4.74258pt too wide) in paragraph at lines 2202--2203
+\TU/Georgia(0)/m/n/10 Every time we met, my graduate student Wenbin told me we 
+were making money.
+
+[86]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2231: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-098.jpg'.
+<to be read again> 
+                   }
+l.2231 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-098}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2231: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2231 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-098}
+                                                  
+
+[87]
+[88]
+
+LaTeX Warning: Citation `surowiecki2005wisdom' on page 89 undefined on input li
+ne 2267.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2272--2273
+
+
+Overfull \hbox (7.64545pt too wide) in paragraph at lines 2275--2276
+[]\TU/Georgia(0)/m/n/10 Why? Because the question at hand benefits greatly from
+ specialized knowl-
+
+[89]
+[90]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2308: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-102.jpg'.
+<to be read again> 
+                   }
+l.2308 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-102}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2308: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2308 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-102}
+                                                  
+
+Overfull \hbox (0.17746pt too wide) in paragraph at lines 2316--2317
+\TU/Georgia(0)/m/n/10 interest in crowdsourcing will be to produce human annota
+tions that serve
+
+[91]
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2321: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2321   \item \textit
+                      {Putting humans into the machine}: There still exist m...
+
+
+Underfull \hbox (badness 10000) detected at line 2321
+[][]
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2324: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2324   \item \textit
+                      {Independent creative efforts}: Crowdsourcing can be u...
+
+
+Underfull \hbox (badness 10000) detected at line 2324
+[][]
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2326: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2326   \item T
+                he Sheep Market (\href{http://www.thesheepmarket.com}{http:/...
+
+
+Underfull \hbox (badness 10000) detected at line 2326
+[][]
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2327: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2327   \item E
+                moji Dick (\href{http://www.emojidick.com}{http://www.emojid...
+
+
+Underfull \hbox (badness 10000) detected at line 2327
+[][]
+
+[92]
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2328: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2328   \item E
+                conomic/psychological experiments: Crowdsourcing has proven ...
+
+
+Underfull \hbox (badness 10000) detected at line 2328
+[][]
+
+[93]
+[94]
+Overfull \hbox (4.35388pt too wide) in paragraph at lines 2367--2368
+[]\TU/Georgia(0)/m/it/10 CAPTCHAs for optical character recognition (OCR)\TU/Ge
+orgia(0)/m/n/10 : CAPTCHAs are those
+
+Overfull \hbox (3.69472pt too wide) in paragraph at lines 2371--2372
+[]\TU/Georgia(0)/m/n/10 By turning these surveys into game apps ("What are \TU/
+Georgia(0)/m/it/10 your \TU/Georgia(0)/m/n/10 personality traits?")
+
+[95]
+
+LaTeX Warning: Citation `babbage2011passages' on page 96 undefined on input lin
+e 2384.
+
+
+LaTeX Warning: Citation `padua2015thrilling' on page 96 undefined on input line
+ 2384.
+
+
+LaTeX Warning: Citation `grus2015data' on page 96 undefined on input line 2386.
+
+
+
+LaTeX Warning: Citation `mckinney2012python' on page 96 undefined on input line
+ 2386.
+
+
+Overfull \hbox (3.14157pt too wide) in paragraph at lines 2388--2389
+\TU/Georgia(0)/m/n/10 ing, is reported in my book \TU/Georgia(0)/m/it/10 Calcul
+ated Bets \TU/Georgia(0)/m/n/10 [Ski01]. It is a quick and fun overview
+
+LaTeX Warning: Citation `gleick1996bug' on page 96 undefined on input line 2390
+.
+
+
+Overfull \hbox (5.30054pt too wide) in paragraph at lines 2390--2391
+\TU/Georgia(0)/m/n/10 well chronicled in popular media. See Gleick [[]] and Ste
+phenson et al. [SMB$[]$99]
+
+LaTeX Warning: Citation `kittur2008crowdsourcing' on page 96 undefined on input
+ line 2394.
+
+
+LaTeX Warning: Citation `chen2015vector' on page 96 undefined on input line 239
+4.
+
+
+LaTeX Warning: Citation `deterding2011from' on page 96 undefined on input line 
+2394.
+
+
+LaTeX Warning: Citation `kapp2012gamification' on page 96 undefined on input li
+ne 2394.
+
+
+LaTeX Warning: Citation `kosinski2013private' on page 96 undefined on input lin
+e 2394.
+
+
+[96]
+[97]
+[98]
+Overfull \hbox (49.12352pt too wide) in paragraph at lines 2478--2482
+\TU/Georgia(0)/m/n/10 3-20. Partially sunny, with a chance of hashtags. [][]htt
+ps://www.kaggle.com/c/crowdflower-
+
+Overfull \hbox (106.43149pt too wide) in paragraph at lines 2478--2482
+[][] \TU/Georgia(0)/m/n/10 3-21. Predict end of day stock returns, without bein
+g deceived by noise. [][]https://www.kaggle.com/c/the-
+
+Overfull \hbox (153.52652pt too wide) in paragraph at lines 2478--2482
+\TU/Georgia(0)/m/n/10 3-22. Data cleaning and the analysis of historical climat
+e change. [][]https://www.kaggle.com/berkeleyearth/climate-
+
+[99]
+[100]
+Chapter 3.
+
+[101]
+Overfull \hbox (0.38708pt too wide) in paragraph at lines 2503--2504
+\TU/Georgia(0)/m/n/10 unvalidated approaches, different grading systems general
+ly produce sim-
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 2510.
+
+
+Overfull \hbox (2.22258pt too wide) in paragraph at lines 2513--2514
+[]\TU/Georgia(0)/m/n/10 The \TU/Georgia(0)/m/it/10 body mass index \TU/Georgia(
+0)/m/n/10 (BMI) is a score or statistic designed to capture whether
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2529: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-113.jpg'.
+<to be read again> 
+                   }
+l.2529 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-113}
+                                                  
+
+[102]
+Overfull \hbox (3.7346pt too wide) in paragraph at lines 2544--2545
+\TU/Georgia(0)/m/n/10 Consider professional athletes in American football (NFL)
+ and basketball (NBA): 
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2554: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-114(1).jpg'.
+<to be read again> 
+                   }
+l.2554 ...2025_03_17_ca60ec0bfd96dcf8e028g-114(1)}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2555: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-114.jpg'.
+<to be read again> 
+                   }
+l.2555 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-114}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2560: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-114(2).jpg'.
+<to be read again> 
+                   }
+l.2560 ...2025_03_17_ca60ec0bfd96dcf8e028g-114(2)}
+                                                  
+
+[103]
+[104]
+Overfull \hbox (11.90489pt too wide) in paragraph at lines 2597--2598
+\TU/Georgia(0)/m/n/10 by sorting the output of some scoring system. Popular exa
+mples of rankings/rating
+
+[105]
+Underfull \hbox (badness 10000) in paragraph at lines 2603--2604
+
+
+Overfull \hbox (6.40164pt too wide) in paragraph at lines 2615--2616
+[]\TU/Georgia(0)/m/it/10 What is the underluing distribution of scores? \TU/Geo
+rgia(0)/m/n/10 By definition, the top ranked
+
+[106]
+Overfull \hbox (5.34184pt too wide) in paragraph at lines 2634--2636
+[]\TU/Georgia(0)/m/it/10 Produces generally satisfying results on outliers\TU/G
+eorgia(0)/m/n/10 : Ideally you know enough
+
+[107]
+Overfull \hbox (10.50299pt too wide) in paragraph at lines 2660--2661
+\TU/Georgia(0)/m/n/10 it is critical to normalize all the different variables t
+o make their range/distribution
+
+[108]
+[109]
+Overfull \hbox (3.90761pt too wide) in paragraph at lines 2688--2689
+[]\TU/Georgia(0)/m/n/10 That said, several powerful techniques have been develo
+ped to compute rank-
+
+Overfull \hbox (2.12538pt too wide) in paragraph at lines 2691--2693
+\TU/Georgia(0)/m/n/10 Rankings are often formed by analyzing sequences of binar
+y comparisons, which
+
+[110]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2721: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-122.jpg'.
+<to be read again> 
+                   }
+l.2721 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-122}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2721: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2721 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-122}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2745: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-123.jpg'.
+<to be read again> 
+                   }
+l.2745 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-123}
+                                                  
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+[111]
+Underfull \hbox (badness 5008) in paragraph at lines 2774--2774
+[]\TU/Georgia(0)/m/n/10 Table 3.1: []Borda's method for constructing the consen
+sus ranking of
+
+[112]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2792: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-125.jpg'.
+<to be read again> 
+                   }
+l.2792 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-125}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2792: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2792 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-125}
+                                                  
+
+[113]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2811: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-126.jpg'.
+<to be read again> 
+                   }
+l.2811 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-126}
+                                                  
+
+Overfull \hbox (29.05605pt too wide) in paragraph at lines 2819--2820
+\TU/Georgia(0)/m/n/10 distinct orders consistent with the directed edges: $\OMS
+/cmsy/m/n/10 f\OML/cmm/m/it/10 A; B; C; D; E\OMS/cmsy/m/n/10 g$ \TU/Georgia(0)/
+m/n/10 and $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 A; C; B; D; E\OMS/cmsy/m/n/10 g$
+\TU/Georgia(0)/m/n/10 .[][][] 
+
+[114]
+Overfull \hbox (8.23953pt too wide) in paragraph at lines 2830--2831
+[]\TU/Georgia(0)/m/n/10 But dominance isn't really the right interpretation for
+ links on the web. PageR-
+
+Overfull \hbox (0.28261pt too wide) in paragraph at lines 2847--2850
+\TU/Georgia(0)/m/n/10 teams with better defenses. Similarly, the more points te
+am $\OML/cmm/m/it/10 x$ \TU/Georgia(0)/m/n/10 has scored against
+
+[115]
+Overfull \hbox (6.45222pt too wide) in paragraph at lines 2855--2855
+[]\TU/Georgia(0)/b/it/14.4 Even crude mathematical models can have
+
+Overfull \hbox (1.59694pt too wide) in paragraph at lines 2856--2857
+\TU/Georgia(0)/m/n/10 As an audacious 16 year-old, I wrote to our local newspap
+er, \TU/Georgia(0)/m/it/10 The New Brunswick
+
+[116]
+
+LaTeX Font Warning: Font shape `TU/KohinoorBangla(0)/m/sl' undefined
+(Font)              using `TU/KohinoorBangla(0)/m/n' instead on input line 2884
+.
+
+[117]
+Underfull \hbox (badness 10000) in paragraph at lines 2885--2887
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:2890: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-129.jpg'.
+<to be read again> 
+                   }
+l.2890 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-129}
+                                                  
+
+Overfull \hbox (18.81192pt too wide) in paragraph at lines 2897--2904
+\TU/Georgia(0)/m/n/10 The Home News is publishing the column in the sports sect
+ion to test the younuster's
+
+[118]
+[119]
+[120]
+Underfull \vbox (badness 10000) has occurred while \output is active
+[121]
+Overfull \hbox (1.73868pt too wide) in paragraph at lines 3006--3007
+\TU/Georgia(0)/m/n/10 rankings, autograph prices, sports statistics, history te
+xtbooks, and Hall of Fame
+
+Underfull \hbox (badness 10000) in paragraph at lines 3013--3014
+
+
+[122]
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3018: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3018 \item \textit
+                    {Outliers}: Sniff tests are important to evaluating the ...
+
+
+Underfull \hbox (badness 10000) detected at line 3018
+[][]
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3020: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3020 \item \textit
+                    {Pigeonhole constraints}: Most reviewers saw only the ra...
+
+
+Underfull \hbox (badness 10000) detected at line 3020
+[][]
+
+LaTeX Warning: Citation `langville2012whos' on page 123 undefined on input line
+ 3027.
+
+
+LaTeX Warning: Citation `joachims2002optimizing' on page 123 undefined on input
+ line 3029.
+
+
+[123]
+
+LaTeX Warning: Citation `eades1993fast' on page 124 undefined on input line 303
+1.
+
+
+LaTeX Warning: Citation `watkins2016arrows' on page 124 undefined on input line
+ 3031.
+
+
+[124]
+[125]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3090: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-137.jpg'.
+<to be read again> 
+                   }
+l.3090 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-137}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3090: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3090 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-137}
+                                                  
+
+Overfull \hbox (1.77382pt too wide) in paragraph at lines 3099--3100
+\TU/Georgia(0)/m/n/10 Every variable that we observe defines a particular frequ
+ency distribution, which
+
+Overfull \hbox (7.93137pt too wide) in paragraph at lines 3101--3102
+[]\TU/Georgia(0)/m/n/10 These classical distributions have two nice properties:
+ (1) they describe shapes
+
+[126]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3115: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-139(1).jpg'.
+<to be read again> 
+                   }
+l.3115 ...2025_03_17_ca60ec0bfd96dcf8e028g-139(1)}
+                                                  \\
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3116: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-139.jpg'.
+<to be read again> 
+                   }
+l.3116 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-139}
+                                                  
+
+[127]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3142: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-140.jpg'.
+<to be read again> 
+                   }
+l.3142 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-140}
+                                                  
+
+[128]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3170: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-142.jpg'.
+<to be read again> 
+                   }
+l.3170 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-142}
+                                                  
+
+[129]
+Overfull \hbox (8.17062pt too wide) in paragraph at lines 3196--3197
+\TU/Georgia(0)/m/n/10 The \TU/Georgia(0)/m/it/10 Poisson distribution \TU/Georg
+ia(0)/m/n/10 measures the frequency of intervals between rare events.
+
+[130]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3212: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-144.jpg'.
+<to be read again> 
+                   }
+l.3212 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-144}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3218: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-144(1).jpg'.
+<to be read again> 
+                   }
+l.3218 ...2025_03_17_ca60ec0bfd96dcf8e028g-144(1)}
+                                                  
+
+[131]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3232: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-145.jpg'.
+<to be read again> 
+                   }
+l.3232 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-145}
+                                                  
+
+[132]
+Underfull \vbox (badness 10000) has occurred while \output is active
+[133]
+[134]
+[135]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3360: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-149.jpg'.
+<to be read again> 
+                   }
+l.3360 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-149}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3360: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3360 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-149}
+                                                  
+
+Overfull \hbox (1.80019pt too wide) in paragraph at lines 3372--3373
+[]\TU/Georgia(0)/m/n/10 If you are working with a popular probability distribut
+ion in a well-supported
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3378: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-150.jpg'.
+<to be read again> 
+                   }
+l.3378 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-150}
+                                                  
+
+[136]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3394: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-151.jpg'.
+<to be read again> 
+                   }
+l.3394 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-151}
+                                                  
+
+LaTeX Warning: Citation `vigen2015spurious' on page 137 undefined on input line
+ 3395.
+
+
+LaTeX Warning: Citation `vigen2015spurious' on page 137 undefined on input line
+ 3395.
+
+
+[137]
+Overfull \hbox (1.27013pt too wide) in paragraph at lines 3403--3404
+\TU/Georgia(0)/m/n/10 about whether an observation is meaningful or not. The cl
+assical example comes
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3409: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-152.jpg'.
+<to be read again> 
+                   }
+l.3409 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-152}
+                                                  
+
+LaTeX Warning: Citation `sullivan2012using' on page 138 undefined on input line
+ 3419.
+
+
+[138]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3436: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-153.jpg'.
+<to be read again> 
+                   }
+l.3436 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-153}
+                                                  
+
+[139]
+Overfull \hbox (4.06906pt too wide) in paragraph at lines 3463--3464
+\TU/Georgia(0)/m/n/10 pothesis would require much more evidence if the numbers 
+jumped around
+
+[140]
+Overfull \hbox (19.20763pt too wide) in paragraph at lines 3485--3486
+\TU/Georgia(0)/m/n/10 according to the distance between their respective means.
+ Instead, the \TU/Georgia(0)/m/it/10 Kolmogorov-
+
+Underfull \vbox (badness 4403) has occurred while \output is active
+[141]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3491: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-156.jpg'.
+<to be read again> 
+                   }
+l.3491 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-156}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3492: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-156(1).jpg'.
+<to be read again> 
+                   }
+l.3492 ...2025_03_17_ca60ec0bfd96dcf8e028g-156(1)}
+                                                  
+
+[142]
+Overfull \hbox (0.74028pt too wide) in paragraph at lines 3529--3530
+\TU/Georgia(0)/m/n/10 Using the cumulative distribution method we described, st
+atistically-sound ran-
+
+[143]
+Overfull \hbox (13.25037pt too wide) in paragraph at lines 3551--3552
+[]\TU/Georgia(0)/m/n/10 The \TU/Georgia(0)/m/it/10 Benjamini-Hochberg \TU/Georg
+ia(0)/m/n/10 procedure for minimizing \TU/Georgia(0)/m/it/10 false discovery ra
+te \TU/Georgia(0)/m/n/10 (FDR)
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3558: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-159.jpg'.
+<to be read again> 
+                   }
+l.3558 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-159}
+                                                  
+
+[144]
+[145]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3598: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-161.jpg'.
+<to be read again> 
+                   }
+l.3598 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-161}
+                                                  
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3606.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3606.
+
+
+Overfull \hbox (0.8936pt too wide) in paragraph at lines 3607--3608
+\TU/Georgia(0)/m/n/10 Traditional statistical significance tests prove quite ef
+fective at deciding whether
+
+[146]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3612: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-162(1).jpg'.
+<to be read again> 
+                   }
+l.3612 ...2025_03_17_ca60ec0bfd96dcf8e028g-162(1)}
+                                                  \\
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3613: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-162.jpg'.
+<to be read again> 
+                   }
+l.3613 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-162}
+                                                  
+
+Overfull \hbox (0.11723pt too wide) in paragraph at lines 3609--3616
+[]\TU/Georgia(0)/m/it/10 Permutation tests \TU/Georgia(0)/m/n/10 allow a more g
+eneral and computationally idiot-proof way
+
+[147]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3662: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-164.jpg'.
+<to be read again> 
+                   }
+l.3662 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-164}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3662: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3662 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-164}
+                                                  
+
+[148]
+Overfull \hbox (4.59804pt too wide) in paragraph at lines 3673--3674
+\TU/Georgia(0)/m/n/10 One of baseball's most amazing records is Joe DiMaggio's 
+56-game hitting streak.
+
+Overfull \hbox (3.4584pt too wide) in paragraph at lines 3675--3676
+[]\TU/Georgia(0)/m/n/10 But back in 1941, Joe DiMaggio succeeded in getting hit
+s in 56 straight games,
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3681: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-165.jpg'.
+<to be read again> 
+                   }
+l.3681 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-165}
+                                                  
+
+[149]
+Overfull \hbox (2.08401pt too wide) in paragraph at lines 3691--3692
+\TU/Georgia(0)/m/n/10 ceived four chances to hit, and succeeded with a probabil
+ity of $\OML/cmm/m/it/10 p \OT1/cmr/m/n/10 =$ $(2214/6821) =
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3699: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-166.jpg'.
+<to be read again> 
+                   }
+l.3699 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-166}
+                                                  
+
+[150]
+
+LaTeX Warning: Citation `freedman2007statistics' on page 151 undefined on input
+ line 3734.
+
+
+LaTeX Warning: Citation `huff2010how' on page 151 undefined on input line 3734.
+
+
+
+LaTeX Warning: Citation `donoho2015fifty' on page 151 undefined on input line 3
+736.
+
+
+LaTeX Warning: Citation `jennings1999household' on page 151 undefined on input 
+line 3740.
+
+
+[151]
+[152]
+[153]
+Overfull \hbox (2.29195pt too wide) in paragraph at lines 3836--3837
+\TU/Georgia(0)/m/n/10 hoping to knock her out of the upcoming Olympic games. Fo
+rtunately, he missed
+
+[154]
+Overfull \hbox (31.61134pt too wide) in paragraph at lines 3854--3855
+\TU/Georgia(0)/m/n/10 NHANES, available at [][]https://www.statcrunch.com/app/i
+ndex.php?dataid=1406047[][].
+
+[155]
+[156]
+Overfull \hbox (26.44446pt too wide) in paragraph at lines 3895--3907
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 3912--3913
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3916: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-175.jpg'.
+<to be read again> 
+                   }
+l.3916 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-175}
+                                                  
+
+[157]
+[158]
+Underfull \hbox (badness 10000) in paragraph at lines 3967--3968
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3974: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-177.jpg'.
+<to be read again> 
+                   }
+l.3974 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-177}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3974: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3974 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-177}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:3992: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-178.jpg'.
+<to be read again> 
+                   }
+l.3992 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-178}
+                                                  
+
+[159]
+
+LaTeX Warning: Citation `tufte1983visual' on page 160 undefined on input line 4
+001.
+
+
+LaTeX Warning: Citation `tufte1990envisioning' on page 160 undefined on input l
+ine 4001.
+
+
+LaTeX Warning: Citation `tufte1997visual' on page 160 undefined on input line 4
+001.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4007--4008
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4012: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-179.jpg'.
+<to be read again> 
+                   }
+l.4012 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-179}
+                                                  
+
+[160]
+[161]
+Overfull \hbox (14.5911pt too wide) in paragraph at lines 4050--4051
+[]\TU/Georgia(0)/m/it/10 Presenting means without variance\TU/Georgia(0)/m/n/10
+ : The data values $\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 100\OML/cmm/m/it/10 ; \OT
+1/cmr/m/n/10 100\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 100\OML/cmm/m/it/10 ; \OT1/c
+mr/m/n/10 100\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 100\OMS/cmsy/m/n/10 g$
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4061: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-181.jpg'.
+<to be read again> 
+                   }
+l.4061 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-181}
+                                                  
+
+[162]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4078: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-182.jpg'.
+<to be read again> 
+                   }
+l.4078 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-182}
+                                                  
+
+Overfull \hbox (2.1767pt too wide) in paragraph at lines 4089--4090
+\TU/Georgia(0)/m/n/10 tributes nothing to the interpretation of the graphic. Re
+moving it increases
+
+Overfull \hbox (6.6143pt too wide) in paragraph at lines 4090--4091
+\TU/Georgia(0)/m/n/10 tribute information, particularly the upper and rightmost
+ boundaries which
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4096: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-183.jpg'.
+<to be read again> 
+                   }
+l.4096 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-183}
+                                                  
+
+[163]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4113: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-184.jpg'.
+<to be read again> 
+                   }
+l.4113 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-184}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4113: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4113 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-184}
+                                                  
+
+[164]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4130: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-185.jpg'.
+<to be read again> 
+                   }
+l.4130 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-185}
+                                                  
+
+[165]
+Overfull \hbox (3.3464pt too wide) in paragraph at lines 4152--4153
+[]\TU/Georgia(0)/m/it/10 Take-Home Lesson\TU/Georgia(0)/m/n/10 : You have the p
+ower and responsibility to produce mean-
+
+LaTeX Warning: Citation `abela2013advanced' on page 166 undefined on input line
+ 4154.
+
+
+Overfull \hbox (4.45108pt too wide) in paragraph at lines 4160--4161
+\TU/Georgia(0)/m/n/10 thing about the process of how it was obtained: an averag
+e salary of $\OT1/cmr/m/n/10 $79\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 815$
+
+[166]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4180: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-187.jpg'.
+<to be read again> 
+                   }
+l.4180 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-187}
+                                                  
+
+Overfull \hbox (5.82686pt too wide) in paragraph at lines 4185--4186
+[]\TU/Georgia(0)/m/it/10 Multivariate visualization\TU/Georgia(0)/m/n/10 : Geom
+etry gets complicated to understand once
+
+Overfull \hbox (2.251pt too wide) in paragraph at lines 4196--4197
+[]\TU/Georgia(0)/m/it/10 Right-justify uniform-precision numbers\TU/Georgia(0)/
+m/n/10 : Visually comparing 3.1415 with
+
+[167]
+Overfull \hbox (60.97765pt too wide) in paragraph at lines 4204--4224
+ [] 
+
+Overfull \hbox (92.29112pt too wide) in paragraph at lines 4229--4249
+ [] 
+
+[168]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4251: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.4251 \hline
+             
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4257: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-190.jpg'.
+<to be read again> 
+                   }
+l.4257 ...2025\_03\_17\_ca60ec0bfd96dcf8e028g-190}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4257: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4257 ...2025\_03\_17\_ca60ec0bfd96dcf8e028g-190}
+                                                  
+
+[169]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4285: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-192.jpg'.
+<to be read again> 
+                   }
+l.4285 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-192}
+                                                  
+
+Underfull \hbox (badness 4291) in paragraph at lines 4286--4286
+[]\TU/Georgia(0)/m/n/10 Figure 3.34: []Figure 6.13: Box and whisker plots conci
+sely show the
+
+[170]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4302: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-193.jpg'.
+<to be read again> 
+                   }
+l.4302 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-193}
+                                                  
+
+[171]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4324: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-194.jpg'.
+<to be read again> 
+                   }
+l.4324 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-194}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4324: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4324 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-194}
+                                                  
+
+[172]
+Overfull \hbox (2.19568pt too wide) in paragraph at lines 4335--4336
+\TU/Georgia(0)/m/n/10 using techniques such as principal component analysis and
+ self-organizing 
+
+Underfull \hbox (badness 10000) in paragraph at lines 4335--4336
+
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4342: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4342 \item \textit
+                    {Three-dimensional-scatter plots help only when there is...
+
+
+Underfull \hbox (badness 10000) detected at line 4342
+[][]
+
+Overfull \hbox (0.55832pt too wide) in paragraph at lines 4342--4344
+[]\TU/Georgia(0)/m/it/10 Three-dimensional-scatter plots help only when there i
+s real structure to show\TU/Georgia(0)/m/n/10 :
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4345: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4345 \item \textit
+                    {Bubble plots vary color and size to represent additiona...
+
+
+Underfull \hbox (badness 10000) detected at line 4345
+[][]
+
+[173]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4354: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-196.jpg'.
+<to be read again> 
+                   }
+l.4354 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-196}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4359: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-197.jpg'.
+<to be read again> 
+                   }
+l.4359 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-197}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4375: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-198.jpg'.
+<to be read again> 
+                   }
+l.4375 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-198}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4381: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-198(1).jpg'.
+<to be read again> 
+                   }
+l.4381 ...2025_03_17_ca60ec0bfd96dcf8e028g-198(1)}
+                                                  
+
+[174]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4398: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-199.jpg'.
+<to be read again> 
+                   }
+l.4398 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-199}
+                                                  
+
+[175]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4412: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-200.jpg'.
+<to be read again> 
+                   }
+l.4412 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-200}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4426: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-201.jpg'.
+<to be read again> 
+                   }
+l.4426 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-201}
+                                                  
+
+[176]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4432: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-202(1).jpg'.
+<to be read again> 
+                   }
+l.4432 ...2025_03_17_ca60ec0bfd96dcf8e028g-202(1)}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4432: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4432 ...2025_03_17_ca60ec0bfd96dcf8e028g-202(1)}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4438: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-202.jpg'.
+<to be read again> 
+                   }
+l.4438 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-202}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4438: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4438 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-202}
+                                                  
+
+Underfull \hbox (badness 10000) in paragraph at lines 4447--4448
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4452: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-203.jpg'.
+<to be read again> 
+                   }
+l.4452 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-203}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4452: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4452 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-203}
+                                                  
+
+[177]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4469: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-204.jpg'.
+<to be read again> 
+                   }
+l.4469 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-204}
+                                                  
+
+Overfull \hbox (4.93517pt too wide) in paragraph at lines 4486--4489
+\TU/Georgia(0)/m/n/10 However, the conventional rendering avoids two problems. 
+To do it "right,"
+
+[178]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4508: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-206.jpg'.
+<to be read again> 
+                   }
+l.4508 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-206}
+                                                  
+
+[179]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4524: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-207.jpg'.
+<to be read again> 
+                   }
+l.4524 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-207}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4524: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4524 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-207}
+                                                  
+
+[180]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4539: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-208.jpg'.
+<to be read again> 
+                   }
+l.4539 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-208}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4560: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-209.jpg'.
+<to be read again> 
+                   }
+l.4560 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-209}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4560: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4560 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-209}
+                                                  
+
+[181]
+Overfull \hbox (4.4903pt too wide) in paragraph at lines 4567--4568
+\TU/Georgia(0)/m/n/10 Figure 6.30 portrays the frequency of 10,000 English word
+s, sorted by frequency.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4578--4579
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4582: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-210.jpg'.
+<to be read again> 
+                   }
+l.4582 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-210}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4582: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4582 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-210}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4588: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-210(1).jpg'.
+<to be read again> 
+                   }
+l.4588 ...2025_03_17_ca60ec0bfd96dcf8e028g-210(1)}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4588: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4588 ...2025_03_17_ca60ec0bfd96dcf8e028g-210(1)}
+                                                  
+
+[182]
+Overfull \hbox (2.55919pt too wide) in paragraph at lines 4607--4608
+[]\TU/Georgia(0)/m/n/10 There are also excesses which tend to arise in interact
+ive visualization. Knobs
+
+Overfull \hbox (7.43431pt too wide) in paragraph at lines 4609--4610
+\TU/Georgia(0)/m/n/10 them, the best interactive presentations show a narrative
+, such as moving through
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4613: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-212.jpg'.
+<to be read again> 
+                   }
+l.4613 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-212}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4613: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4613 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-212}
+                                                  
+
+[183]
+Overfull \hbox (0.62854pt too wide) in paragraph at lines 4624--4625
+\TU/Georgia(0)/m/n/10 board, for every entity whose name appeared in news artic
+les of the time. Barack
+
+[184]
+[185]
+
+LaTeX Warning: Citation `few2009now' on page 186 undefined on input line 4654.
+
+
+LaTeX Warning: Citation `johnson2007ghost' on page 186 undefined on input line 
+4654.
+
+
+Overfull \hbox (28.36755pt too wide) in paragraph at lines 4654--4655
+\TU/Georgia(0)/m/n/10 teresting blogs about data visualization are [][]http://f
+lowingdata.com[][] and [][]http://viz.wtf[][].
+
+LaTeX Warning: Citation `anscombe1973graphs' on page 186 undefined on input lin
+e 4656.
+
+
+LaTeX Warning: Citation `lloyd2005lydia' on page 186 undefined on input line 46
+56.
+
+
+LaTeX Warning: Citation `bautin2010access' on page 186 undefined on input line 
+4656.
+
+
+Overfull \hbox (25.00548pt too wide) in paragraph at lines 4666--4674
+[]\TU/Georgia(0)/m/n/10 6-2. \TU/Georgia(0)/m/it/10 [3] \TU/Georgia(0)/m/n/10 F
+or one or more of the data sets from [][]http://www.data-manual.com/data[][],
+
+Overfull \hbox (23.63016pt too wide) in paragraph at lines 4676--4685
+\TU/Georgia(0)/m/n/10 6-3. \TU/Georgia(0)/m/it/10 [5] \TU/Georgia(0)/m/n/10 Sea
+rch your favorite news websites until you find ten interesting charts/plots,
+
+[186]
+Overfull \hbox (118.77554pt too wide) in paragraph at lines 4712--4718
+[]\TU/Georgia(0)/m/n/10 6-14. Analyze data from San Francisco Bay Area bike sha
+ring. [][]https://www.kaggle.com/benhamner/sf-
+
+[187]
+[188]
+Chapter 4.
+
+[189]
+[190]
+Overfull \hbox (0.33913pt too wide) in paragraph at lines 4777--4779
+\TU/Georgia(0)/m/n/10 probabilistic answers. Logistic regression provides a con
+fidence along with each
+
+[191]
+Overfull \hbox (6.07426pt too wide) in paragraph at lines 4787--4791
+\TU/Georgia(0)/m/n/10 Google's Flu Trends forecasting model predicted disease o
+utbreaks by mon-
+
+[192]
+[193]
+Overfull \hbox (9.55397pt too wide) in paragraph at lines 4823--4824
+\TU/Georgia(0)/m/n/10 scriptions include higher-order polynomials, logarithms, 
+and exponentials. These
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4838: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-223.jpg'.
+<to be read again> 
+                   }
+l.4838 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-223}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4838: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4838 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-223}
+                                                  
+
+LaTeX Warning: Citation `nguyen2015deep' on page 194 undefined on input line 48
+39.
+
+
+LaTeX Warning: Citation `nguyen2015deep' on page 194 undefined on input line 48
+39.
+
+
+[194]
+[195]
+Overfull \hbox (0.54692pt too wide) in paragraph at lines 4864--4865
+[]\TU/Georgia(0)/m/it/10 Stochastic \TU/Georgia(0)/m/n/10 is a fancy word meani
+ng "randomly determined." Techniques that
+
+Overfull \hbox (10.48366pt too wide) in paragraph at lines 4874--4875
+[]\TU/Georgia(0)/m/n/10 There are certain advantages of deterministic models, h
+owever. First-principle
+
+[196]
+[197]
+[198]
+Overfull \hbox (1.84575pt too wide) in paragraph at lines 4924--4925
+[]\TU/Georgia(0)/m/it/10 Clairvoyance\TU/Georgia(0)/m/n/10 : There are circumst
+ances when even the best possible model
+
+[199]
+[200]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:4975: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-230.jpg'.
+<to be read again> 
+                   }
+l.4975 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-230}
+                                                  
+
+Overfull \hbox (0.37277pt too wide) in paragraph at lines 4985--4986
+[]\TU/Georgia(0)/m/it/10 True Negatives (TN)\TU/Georgia(0)/m/n/10 : Here the cl
+assifier correctly determines that a mem-
+
+[201]
+Overfull \hbox (0.11205pt too wide) in paragraph at lines 5005--5007
+[]\TU/Georgia(0)/m/n/10 By multiplying such fractions by 100, we can get a perc
+entage accuracy score. 
+
+[202]
+Overfull \hbox (26.30386pt too wide) in paragraph at lines 5051--5061
+ [] 
+
+[203]
+Overfull \hbox (2.54562pt too wide) in paragraph at lines 5085--5086
+[]\TU/Georgia(0)/m/n/10 The F-score and related evaluation metrics were develop
+ed to evaluate mean-
+
+[204]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5102: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-234.jpg'.
+<to be read again> 
+                   }
+l.5102 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-234}
+                                                  
+
+Underfull \vbox (badness 2512) has occurred while \output is active
+[205]
+Overfull \hbox (3.59567pt too wide) in paragraph at lines 5121--5122
+\TU/Georgia(0)/m/n/10 tives (if this example was in fact a negative). At the ve
+ry left, we achieve true/false
+
+[206]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5140: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-236.jpg'.
+<to be read again> 
+                   }
+l.5140 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-236}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5140: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5140 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-236}
+                                                  
+
+[207]
+[208]
+Underfull \hbox (badness 10000) in paragraph at lines 5183--5184
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5188: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-238.jpg'.
+<to be read again> 
+                   }
+l.5188 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-238}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5211: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-239.jpg'.
+<to be read again> 
+                   }
+l.5211 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-239}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5211: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5211 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-239}
+                                                  
+
+[209]
+Overfull \hbox (1.04303pt too wide) in paragraph at lines 5219--5220
+\TU/Georgia(0)/m/n/10 number, in order to compare the performance of different 
+value prediction mod-
+
+[210]
+[211]
+[212]
+[213]
+Overfull \hbox (1.24084pt too wide) in paragraph at lines 5342--5343
+\TU/Georgia(0)/m/n/10 models are each trained on different sets of $\OML/cmm/m/
+it/10 n \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1$ \TU/Georgia(0)/m/n/10 examples,
+ to determine whether
+
+Overfull \hbox (0.48508pt too wide) in paragraph at lines 5352--5353
+\TU/Georgia(0)/m/n/10 to avoid overfitting creates new training instances by ad
+ding random noise
+
+[214]
+[215]
+[216]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5410: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-247.jpg'.
+<to be read again> 
+                   }
+l.5410 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-247}
+                                                  
+
+[217]
+[218]
+[219]
+
+LaTeX Warning: Citation `bender2012introduction' on page 220 undefined on input
+ line 5490.
+
+
+LaTeX Warning: Citation `giordano2013first' on page 220 undefined on input line
+ 5490.
+
+
+LaTeX Warning: Citation `lazer2014parable' on page 220 undefined on input line 
+5492.
+
+
+LaTeX Warning: Citation `sazaklis1997geometric' on page 220 undefined on input 
+line 5494.
+
+
+LaTeX Warning: Citation `kulkarni2017dating' on page 220 undefined on input lin
+e 5494.
+
+
+[220]
+[221]
+Overfull \hbox (7.5082pt too wide) in paragraph at lines 5577--5578
+[]\TU/Georgia(0)/m/n/10 Rigorous testing will probably confirm that your models
+ are not strong enough
+
+[222]
+Overfull \hbox (40.159pt too wide) in paragraph at lines 5600--5601
+\TU/Georgia(0)/m/n/10 7-24. Will a particular grant application be funded? [][]
+https://www.kaggle.com/c/unimelb[][] 
+
+Overfull \hbox (60.83203pt too wide) in paragraph at lines 5602--5603
+[]\TU/Georgia(0)/m/n/10 7-25. Who will win the NCAA basketball tournament? [][]
+https://www.kaggle.com/c/march-
+
+Overfull \hbox (67.27pt too wide) in paragraph at lines 5604--5606
+[]\TU/Georgia(0)/m/n/10 7-26. Predict the annual sales in a given restaurant. [
+][]https://www.kaggle.com/c/restaurant-
+
+[223]
+Overfull \hbox (7.83664pt too wide) in paragraph at lines 5635--5636
+\TU/Georgia(0)/m/n/10 trix multiplication, and how vertex clusters relate to th
+e eigenvalues/vectors
+
+[224]
+[225]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5678: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-256.jpg'.
+<to be read again> 
+                   }
+l.5678 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-256}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5678: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5678 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-256}
+                                                  
+
+[226]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5705: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-257.jpg'.
+<to be read again> 
+                   }
+l.5705 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-257}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5705: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5705 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-257}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5728: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-258.jpg'.
+<to be read again> 
+                   }
+l.5728 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-258}
+                                                  
+
+[227]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5757: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-259.jpg'.
+<to be read again> 
+                   }
+l.5757 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-259}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5757: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5757 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-259}
+                                                  
+
+[228]
+[229]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5872: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-261.jpg'.
+<to be read again> 
+                   }
+l.5872 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-261}
+                                                  
+
+[230]
+[231]
+Underfull \hbox (badness 10000) in paragraph at lines 5918--5920
+
+
+Overfull \hbox (28.0347pt too wide) detected at line 5926
+\OML/cmm/m/it/10 P \OT1/cmr/m/n/10 = []  \OML/cmm/m/it/10 M \OT1/cmr/m/n/10 = [
+]  \OML/cmm/m/it/10 PM \OT1/cmr/m/n/10 = []
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5932: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-263.jpg'.
+<to be read again> 
+                   }
+l.5932 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-263}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:5932: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5932 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-263}
+                                                  
+
+[232]
+Overfull \hbox (7.30116pt too wide) in paragraph at lines 5948--5949
+\TU/Georgia(0)/m/n/10 Matrices with this property are called \TU/Georgia(0)/m/i
+t/10 permutation matrices\TU/Georgia(0)/m/n/10 , because the nonzero
+
+Overfull \hbox (1.80412pt too wide) in paragraph at lines 5958--5959
+[]\TU/Georgia(0)/m/n/10 Observe that the identity matrix corresponds to the per
+mutation $\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/1
+0 ; [] ; n\OT1/cmr/m/n/10 )$\TU/Georgia(0)/m/n/10 . 
+
+Overfull \hbox (1.40108pt too wide) in paragraph at lines 5967--5968
+[]\TU/Georgia(0)/m/n/10 The \TU/Georgia(0)/m/it/10 rotation matrix $\OML/cmm/m/
+it/10 R[]$ \TU/Georgia(0)/m/n/10 performs the transformation of rotating points
+ about
+
+[233]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6001: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-265.jpg'.
+<to be read again> 
+                   }
+l.6001 ...2025\_03\_17\_ca60ec0bfd96dcf8e028g-265}
+                                                  
+
+[234]
+[235]
+[236]
+[237]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6150: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-269.jpg'.
+<to be read again> 
+                   }
+l.6150 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-269}
+                                                  
+
+[238]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6187: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-271.jpg'.
+<to be read again> 
+                   }
+l.6187 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-271}
+                                                  
+
+[239]
+Overfull \hbox (0.2431pt too wide) in paragraph at lines 6227--6228
+[]\TU/Georgia(0)/m/n/10 Each eigenvalue has an associated eigenvector. They alw
+ays come in pairs. 
+
+[240]
+[241]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6313: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-274.jpg'.
+<to be read again> 
+                   }
+l.6313 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-274}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6319: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-274(1).jpg'.
+<to be read again> 
+                   }
+l.6319 ...2025_03_17_ca60ec0bfd96dcf8e028g-274(1)}
+                                                  
+
+[242]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6334: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-275.jpg'.
+<to be read again> 
+                   }
+l.6334 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-275}
+                                                  
+
+[243]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6362: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-276.jpg'.
+<to be read again> 
+                   }
+l.6362 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-276}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6379: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-277(1).jpg'.
+<to be read again> 
+                   }
+l.6379 ...2025_03_17_ca60ec0bfd96dcf8e028g-277(1)}
+                                                  \\
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6380: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-277.jpg'.
+<to be read again> 
+                   }
+l.6380 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-277}
+                                                  
+
+[244]
+Overfull \hbox (1.3629pt too wide) in paragraph at lines 6392--6394
+\TU/Georgia(0)/m/n/10 to computing the same thing. They should serve equally we
+ll as low-dimensional
+
+[245]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6445: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.6445 \hline
+             
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6445: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.6445 \hline
+             
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6445: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.6445 \hline
+             
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6445: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.6445 \hline
+             
+
+Overfull \hbox (114.27649pt too wide) in paragraph at lines 6412--6449
+ [][] 
+
+[246]
+
+LaTeX Warning: Citation `lay2015linear' on page 247 undefined on input line 645
+7.
+
+
+LaTeX Warning: Citation `strang2011introduction' on page 247 undefined on input
+ line 6457.
+
+
+LaTeX Warning: Citation `tucker1988unified' on page 247 undefined on input line
+ 6457.
+
+
+LaTeX Warning: Citation `klein2013coding' on page 247 undefined on input line 6
+457.
+
+
+[247]
+[248]
+Overfull \hbox (4.03813pt too wide) in paragraph at lines 6547--6548
+[]\TU/Georgia(0)/m/n/10 Linear regression is a bread-and-butter modeling techni
+que that should serve
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6551: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-283.jpg'.
+<to be read again> 
+                   }
+l.6551 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-283}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6551: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6551 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-283}
+                                                  
+
+[249]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6567: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-284.jpg'.
+<to be read again> 
+                   }
+l.6567 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-284}
+                                                  
+
+[250]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6594: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-285.jpg'.
+<to be read again> 
+                   }
+l.6594 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-285}
+                                                  
+
+[251]
+[252]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6651: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-287.jpg'.
+<to be read again> 
+                   }
+l.6651 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-287}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6651: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6651 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-287}
+                                                  
+
+Overfull \hbox (4.27089pt too wide) in paragraph at lines 6670--6673
+[]\TU/Georgia(0)/m/n/10 Figure 9.4 shows the best-fitting regression line with 
+(left) and without (right)
+
+[253]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6693: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-289.jpg'.
+<to be read again> 
+                   }
+l.6693 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-289}
+                                                  
+
+[254]
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6716: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6716 \item \textit
+                    {Inappropriate formulations}: The model given above to p...
+
+
+Underfull \hbox (badness 10000) detected at line 6716
+[][]
+
+[255]
+Overfull \hbox (1.30592pt too wide) in paragraph at lines 6731--6732
+[]\TU/Georgia(0)/m/n/10 Using Z-scores in regression addresses the question of 
+interpretability. Since
+
+Overfull \hbox (5.27155pt too wide) in paragraph at lines 6745--6746
+\TU/Georgia(0)/m/n/10 Small-scale variables need small-scale targets, in order 
+to be realized using small-
+
+[256]
+[257]
+Overfull \hbox (16.32655pt too wide) in paragraph at lines 6770--6771
+[]\TU/Georgia(0)/m/n/10 The solution here is to identify feature pairs which co
+rrelate excessively strongly,
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+[258]
+Underfull \vbox (badness 2707) has occurred while \output is active
+[259]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6841: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-295.jpg'.
+<to be read again> 
+                   }
+l.6841 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-295}
+                                                  
+
+[260]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6858: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-296.jpg'.
+<to be read again> 
+                   }
+l.6858 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-296}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6858: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6858 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-296}
+                                                  
+
+Overfull \hbox (0.78793pt too wide) in paragraph at lines 6864--6865
+[]\TU/Georgia(0)/m/n/10 Figure 9.7 shows the surface we get for the full regres
+sion problem in $[]$
+
+[261]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6875: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-297.jpg'.
+<to be read again> 
+                   }
+l.6875 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-297}
+                                                  
+
+Overfull \hbox (13.2163pt too wide) in paragraph at lines 6889--6889
+[]\TU/Georgia(0)/b/n/14.4 Gradient descent search in two dimensions 
+
+Underfull \vbox (badness 1838) has occurred while \output is active
+[262]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6921: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-299(1).jpg'.
+<to be read again> 
+                   }
+l.6921 ...2025_03_17_ca60ec0bfd96dcf8e028g-299(1)}
+                                                  \\
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6922: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-299.jpg'.
+<to be read again> 
+                   }
+l.6922 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-299}
+                                                  
+
+[263]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:6940: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-300.jpg'.
+<to be read again> 
+                   }
+l.6940 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-300}
+                                                  
+
+[264]
+[265]
+[266]
+Overfull \hbox (8.99635pt too wide) in paragraph at lines 6997--6998
+\TU/Georgia(0)/m/n/10 Ridge regression optimizes to select small coefficients. 
+Because of sum-of-squares
+
+[267]
+Underfull \vbox (badness 2073) has occurred while \output is active
+[268]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7061: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-305.jpg'.
+<to be read again> 
+                   }
+l.7061 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-305}
+                                                  
+
+[269]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7085: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-306.jpg'.
+<to be read again> 
+                   }
+l.7085 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-306}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7103: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-307(1).jpg'.
+<to be read again> 
+                   }
+l.7103 ...2025_03_17_ca60ec0bfd96dcf8e028g-307(1)}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7108: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-307.jpg'.
+<to be read again> 
+                   }
+l.7108 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-307}
+                                                  
+
+[270]
+[271]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7154: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-309.jpg'.
+<to be read again> 
+                   }
+l.7154 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-309}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7154: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7154 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-309}
+                                                  
+
+[272]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7176: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-310.jpg'.
+<to be read again> 
+                   }
+l.7176 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-310}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7176: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7176 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-310}
+                                                  
+
+[273]
+Underfull \hbox (badness 10000) in paragraph at lines 7204--7205
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7209: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-312.jpg'.
+<to be read again> 
+                   }
+l.7209 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-312}
+                                                  
+
+[274]
+Overfull \hbox (3.92474pt too wide) in paragraph at lines 7224--7225
+[]\TU/Georgia(0)/m/n/10 Consider the hair-color numbering above. Should \TU/Geo
+rgia(0)/m/it/10 red \TU/Georgia(0)/m/n/10 hair lie between \TU/Georgia(0)/m/it/
+10 brown
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7230: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-313.jpg'.
+<to be read again> 
+                   }
+l.7230 ...2025\_03\_17\_ca60ec0bfd96dcf8e028g-313}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7230: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7230 ...2025\_03\_17\_ca60ec0bfd96dcf8e028g-313}
+                                                  
+
+[275]
+[276]
+Overfull \hbox (4.94336pt too wide) in paragraph at lines 7261--7261
+[]\TU/Georgia(0)/b/n/12 Partition Functions and Multinomial Regression 
+
+[277]
+
+LaTeX Warning: Citation `weisberg2005applied' on page 278 undefined on input li
+ne 7282.
+
+
+Overfull \hbox (15.09499pt too wide) in paragraph at lines 7282--7283
+\TU/Georgia(0)/m/n/10 tion. Textbooks on linear/logistic regression and its app
+lications include (JWHT13,
+
+LaTeX Warning: Citation `leinweber2007stupid' on page 278 undefined on input li
+ne 7286.
+
+
+[278]
+Overfull \hbox (17.10938pt too wide) in paragraph at lines 7326--7329
+[][]\TU/Georgia(0)/m/n/10 http://www.nytimes.com/2015/03/22/opinion/sunday/maki
+ng-march-madness-
+
+[279]
+[280]
+Chapter 5.
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7344: LaTeX Error: Environment abstract undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7344 \begin{abstract}
+                       
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7346: LaTeX Error: \begin{document} ended by \end{abstract}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7346 \end{abstract}
+                     
+
+[281]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7393: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-320.jpg'.
+<to be read again> 
+                   }
+l.7393 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-320}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7393: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7393 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-320}
+                                                  
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 7397.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 7397.
+
+
+[282]
+Underfull \hbox (badness 10000) in paragraph at lines 7410--7411
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7415: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-321(1).jpg'.
+<to be read again> 
+                   }
+l.7415 ...2025_03_17_ca60ec0bfd96dcf8e028g-321(1)}
+                                                  \\
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7415: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7415 ...2025_03_17_ca60ec0bfd96dcf8e028g-321(1)}
+                                                  \\
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7416: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-321.jpg'.
+<to be read again> 
+                   }
+l.7416 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-321}
+                                                  \\
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7416: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7416 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-321}
+                                                  \\
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7417: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-321(3).jpg'.
+<to be read again> 
+                   }
+l.7417 ...2025_03_17_ca60ec0bfd96dcf8e028g-321(3)}
+                                                  \\
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7417: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7417 ...2025_03_17_ca60ec0bfd96dcf8e028g-321(3)}
+                                                  \\
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7418: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-321(2).jpg'.
+<to be read again> 
+                   }
+l.7418 ...2025_03_17_ca60ec0bfd96dcf8e028g-321(2)}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7418: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7418 ...2025_03_17_ca60ec0bfd96dcf8e028g-321(2)}
+                                                  
+
+[283]
+Overfull \hbox (12.76039pt too wide) in paragraph at lines 7451--7452
+\TU/Georgia(0)/m/n/10 thing where $\OML/cmm/m/it/10 d > \OT1/cmr/m/n/10 3$\TU/G
+eorgia(0)/m/n/10 . Usually, the best we can do is to think about higher-dimensi
+onal
+
+[284]
+Overfull \hbox (3.61008pt too wide) in paragraph at lines 7457--7458
+[]\TU/Georgia(0)/m/n/10 This makes the choice of distance metric most important
+ in high-dimensional
+
+[285]
+[286]
+Overfull \hbox (14.5328pt too wide) in paragraph at lines 7515--7516
+[]\TU/Georgia(0)/m/n/10 Suppose that $\OML/cmm/m/it/10 R$ \TU/Georgia(0)/m/n/10
+ can take on any of exactly $\OML/cmm/m/it/10 d$ \TU/Georgia(0)/m/n/10 possible
+ values, say $\OML/cmm/m/it/10 R \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OML/cmm/m
+/it/10 r[]; [] ; r[]\OMS/cmsy/m/n/10 g$\TU/Georgia(0)/m/n/10 .
+
+[287]
+[288]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7561: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-327.jpg'.
+<to be read again> 
+                   }
+l.7561 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-327}
+                                                  
+
+Overfull \hbox (7.81416pt too wide) in paragraph at lines 7568--7569
+[]\TU/Georgia(0)/m/it/10 Non-linearity\TU/Georgia(0)/m/n/10 : Nearest neighbor 
+classifiers have decision boundaries which
+
+[289]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 7588.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 7588.
+
+
+[290]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7597: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-329.jpg'.
+<to be read again> 
+                   }
+l.7597 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-329}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7597: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7597 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-329}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7613: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-330.jpg'.
+<to be read again> 
+                   }
+l.7613 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-330}
+                                                  
+
+[291]
+Overfull \hbox (1.14426pt too wide) in paragraph at lines 7620--7621
+\TU/Georgia(0)/m/n/10 Perhaps the biggest limitation of nearest neighbor classi
+fication methods is their
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7628: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-331.jpg'.
+<to be read again> 
+                   }
+l.7628 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-331}
+                                                  
+
+[292]
+Overfull \hbox (2.48215pt too wide) in paragraph at lines 7646--7647
+[]\TU/Georgia(0)/m/n/10 Although these techniques can indeed speed nearest neig
+hbor search in mod-
+
+[293]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7663: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-333.jpg'.
+<to be read again> 
+                   }
+l.7663 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-333}
+                                                  
+
+[294]
+Overfull \hbox (6.34987pt too wide) in paragraph at lines 7680--7681
+\TU/Georgia(0)/m/n/10 nearest neighbor search. Perhaps the most important is co
+nstructing compressed
+
+Overfull \hbox (3.46033pt too wide) in paragraph at lines 7690--7691
+[]\TU/Georgia(0)/m/it/10 Genetic networks\TU/Georgia(0)/m/n/10 : Here the verti
+ces represent the different genes/proteins
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7697: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-335.jpg'.
+<to be read again> 
+                   }
+l.7697 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-335}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7697: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7697 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-335}
+                                                  
+
+[295]
+[296]
+Overfull \hbox (31.65532pt too wide) in paragraph at lines 7718--7719
+[]\TU/Georgia(0)/m/it/10 Take-Home Lesson\TU/Georgia(0)/m/n/10 : Point sets can
+ be meaningfully represented by graphs/distance
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7734: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-337.jpg'.
+<to be read again> 
+                   }
+l.7734 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-337}
+                                                  
+
+[297]
+Overfull \hbox (2.21837pt too wide) in paragraph at lines 7742--7744
+\TU/Georgia(0)/m/n/10 drive-time, or speed limit, depending upon the applicatio
+n. In \TU/Georgia(0)/m/it/10 unweighted
+
+[298]
+[299]
+
+LaTeX Warning: Citation `brin1998anatomy' on page 300 undefined on input line 7
+780.
+
+
+[300]
+[301]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7860: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-342.jpg'.
+<to be read again> 
+                   }
+l.7860 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-342}
+                                                  
+
+[302]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7875: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-343.jpg'.
+<to be read again> 
+                   }
+l.7875 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-343}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7875: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7875 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-343}
+                                                  
+
+Underfull \hbox (badness 10000) in paragraph at lines 7885--7886
+
+
+[303]
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7889: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7889   \item \textit
+                      {Data reduction}: Dealing with millions or billions of...
+
+
+Underfull \hbox (badness 10000) detected at line 7889
+[][]
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7890: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7890   \item \textit
+                      {Outlier detection}: Certain items resulting from any ...
+
+
+Underfull \hbox (badness 10000) detected at line 7890
+[][]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7902: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-345.jpg'.
+<to be read again> 
+                   }
+l.7902 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-345}
+                                                  
+
+[304]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 7908.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 7908.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 7915.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 7915.
+
+
+[305]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7933: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-347.jpg'.
+<to be read again> 
+                   }
+l.7933 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-347}
+                                                  
+
+[306]
+[307]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7973: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-349(1).jpg'.
+<to be read again> 
+                   }
+l.7973 ...2025_03_17_ca60ec0bfd96dcf8e028g-349(1)}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7978: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-349.jpg'.
+<to be read again> 
+                   }
+l.7978 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-349}
+                                                  
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+[308]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7995: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-351.jpg'.
+<to be read again> 
+                   }
+l.7995 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-351}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:7995: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7995 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-351}
+                                                  
+
+[309]
+[310]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8024: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-353.jpg'.
+<to be read again> 
+                   }
+l.8024 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-353}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8024: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8024 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-353}
+                                                  
+
+Underfull \vbox (badness 1953) has occurred while \output is active
+[311]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8041: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-354.jpg'.
+<to be read again> 
+                   }
+l.8041 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-354}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8041: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8041 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-354}
+                                                  
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8047: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-354(1).jpg'.
+<to be read again> 
+                   }
+l.8047 ...2025_03_17_ca60ec0bfd96dcf8e028g-354(1)}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8047: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8047 ...2025_03_17_ca60ec0bfd96dcf8e028g-354(1)}
+                                                  
+
+[312]
+[313]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8115: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-357.jpg'.
+<to be read again> 
+                   }
+l.8115 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-357}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8115: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8115 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-357}
+                                                  
+
+[314]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8138: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-358.jpg'.
+<to be read again> 
+                   }
+l.8138 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-358}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8138: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8138 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-358}
+                                                  
+
+[315]
+[316]
+[317]
+Overfull \hbox (2.48485pt too wide) in paragraph at lines 8190--8192
+\TU/Georgia(0)/m/n/10 and computer science. Representative treatments include E
+veritt et al. [ELLS11]
+
+[318]
+Overfull \hbox (12.35849pt too wide) in paragraph at lines 8244--8248
+[]\TU/Georgia(0)/m/n/10 10-17. \TU/Georgia(0)/m/it/10 [5] \TU/Georgia(0)/m/n/10
+ For a data set with points at positions $\OT1/cmr/m/n/10 (4\OML/cmm/m/it/10 ; 
+\OT1/cmr/m/n/10 10)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (7\OML/cmm/m/it/10 ; \OT1
+/cmr/m/n/10 10)(4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8)\OML/cmm/m/it/10 ; \OT1/c
+mr/m/n/10 (6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8)\OML/cmm/m/it/10 ; \OT1/cmr/m/
+n/10 (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4)$\TU/Georgia(0)/m/n/10 ,
+
+Overfull \hbox (39.60129pt too wide) in paragraph at lines 8249--8258
+\TU/Georgia(0)/m/n/10 propose available data that might make it feasible to emp
+loy nearest-neighbor/analogical
+
+[319]
+[320]
+Overfull \hbox (9.99512pt too wide) in paragraph at lines 8308--8315
+[][]\TU/Georgia(0)/m/n/10 https://www.kaggle.com/c/predict-who-is-more-influent
+ial-in-a-social-network[][]
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8318: LaTeX Error: Environment abstract undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8318 \begin{abstract}
+                       
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8322: LaTeX Error: \begin{document} ended by \end{abstract}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8322 \end{abstract}
+                     
+
+Overfull \hbox (0.28976pt too wide) in paragraph at lines 8326--8327
+\TU/Georgia(0)/m/n/10 and computing power available crossed a magic threshold w
+here machine learn-
+
+[321]
+Overfull \hbox (4.13416pt too wide) in paragraph at lines 8333--8334
+\TU/Georgia(0)/m/n/10 separation boundaries with enough pieces to approximate a
+rbitrary curves.
+
+Overfull \hbox (2.61072pt too wide) in paragraph at lines 8334--8335
+[]\TU/Georgia(0)/m/it/10 Interpretability: \TU/Georgia(0)/m/n/10 Powerful metho
+ds like deep learning often produce mod-
+
+[322]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8360: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.8360 \hline
+             
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8360: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.8360 \hline
+             
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8360: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.8360 \hline
+             
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8360: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.8360 \hline
+             
+
+Overfull \hbox (127.09294pt too wide) in paragraph at lines 8343--8370
+ [] 
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8372: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.8372 \hline
+             
+
+[323]
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8416: LaTeX Error: Not allowed in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8416 \begin{center}
+                     
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8416: Improper \prevdepth.
+\addpenalty ...ance \@tempskipb \ifdim \prevdepth 
+                                                  >\maxdepth \maxdepth \else...
+l.8416 \begin{center}
+                     
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8416: Improper \prevdepth.
+\addpenalty ... \maxdepth \else \ifdim \prevdepth 
+                                                  = -\@m \p@ \z@ \else \prev...
+l.8416 \begin{center}
+                     
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8416: Improper \prevdepth.
+<recently read> \prevdepth 
+                           
+l.8416 \begin{center}
+                     
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8416: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.8416 \begin{center}
+                     
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8416: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.8416 \begin{center}
+                     
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8416: Missing } inserted.
+<inserted text> 
+                }
+l.8416 \begin{center}
+                     
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8416: Missing } inserted.
+<inserted text> 
+                }
+l.8416 \begin{center}
+                     
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8416: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.8416 \begin{center}
+                     
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8416: Missing { inserted.
+<inserted text> 
+                {
+l.8416 \begin{center}
+                     
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8416: Missing } inserted.
+<inserted text> 
+                }
+l.8416 \begin{center}
+                     
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8416: Missing $ inserted.
+<inserted text> 
+                $
+l.8416 \begin{center}
+                     
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8416: Missing } inserted.
+<inserted text> 
+                }
+l.8416 \begin{center}
+                     
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8416: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8416 \begin{center}
+                     
+
+Overfull \hbox (27.25694pt too wide) in paragraph at lines 8412--8416
+ [] 
+
+[324]
+[325]
+Overfull \hbox (113.98317pt too wide) detected at line 8479
+[][]
+
+Overfull \hbox (74.61305pt too wide) detected at line 8487
+[][]
+
+[326]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8529: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-372.jpg'.
+<to be read again> 
+                   }
+l.8529 ...r]{2025_03_17_ca60ec0bfd96dcf8e028g-372}
+                                                  
+
+[327]
+[328]
+[329]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8587: Unable to load picture or PDF file './images/2025_03_17_ca6
+0ec0bfd96dcf8e028g-375.jpg'.
+<to be read again> 
+                   }
+l.8587 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-375}
+                                                  
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/balance-checker/data-scie
+nce_final.tex:8587: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8587 ...h]{2025_03_17_ca60ec0bfd96dcf8e028g-375}
+                                                  
+
+[330]
+[331]
+[332]

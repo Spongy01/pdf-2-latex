@@ -1,0 +1,70 @@
+================================================================================
+LATEX COMMAND BALANCE ANALYSIS REPORT
+================================================================================
+File: post-correction
+Total commands found: 1129
+Total issues found: 3
+
+SUMMARY STATISTICS:
+----------------------------------------
+Environments found: 8
+Max nesting depth: 5
+Average nesting depth: 2.24
+
+ISSUES BY TYPE:
+----------------------------------------
+mismatch: 1
+unclosed: 2
+
+ISSUES BY ENVIRONMENT:
+----------------------------------------
+document: 2
+array: 1
+
+DETAILED ISSUES:
+----------------------------------------
+1. MISMATCH - document
+   Line 8649: \end{document} found but expected \end{array} (opened at line 7925)
+   Severity: error
+
+2. UNCLOSED - document
+   Line 93: \begin{document} opened but never closed
+   Severity: error
+
+3. UNCLOSED - array
+   Line 7925: \begin{array} opened but never closed
+   Severity: error
+
+ENVIRONMENT USAGE ANALYSIS:
+----------------------------------------
+aligned:
+  Begins: 1, Ends: 1
+  Unclosed: 0, Balance ratio: 1.00
+
+array:
+  Begins: 6, Ends: 5
+  Unclosed: 1, Balance ratio: 0.83
+
+center:
+  Begins: 80, Ends: 80
+  Unclosed: 0, Balance ratio: 1.00
+
+document:
+  Begins: 1, Ends: 1
+  Unclosed: 0, Balance ratio: 1.00
+
+enumerate:
+  Begins: 18, Ends: 18
+  Unclosed: 0, Balance ratio: 1.00
+
+itemize:
+  Begins: 20, Ends: 20
+  Unclosed: 0, Balance ratio: 1.00
+
+tabular:
+  Begins: 102, Ends: 102
+  Unclosed: 0, Balance ratio: 1.00
+
+verbatim:
+  Begins: 337, Ends: 337
+  Unclosed: 0, Balance ratio: 1.00

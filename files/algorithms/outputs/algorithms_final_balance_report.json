@@ -1,0 +1,73 @@
+{
+  "pre_correction": {
+    "total_commands": 1093,
+    "total_issues": 17,
+    "issues_by_type": {
+      "mismatch": 9,
+      "unclosed": 8
+    },
+    "issues_by_environment": {
+      "itemize": 2,
+      "tabular": 5,
+      "center": 2,
+      "verbatim": 4,
+      "aligned": 2,
+      "document": 2
+    }
+  },
+  "post_correction": {
+    "total_commands": 1083,
+    "total_issues": 9,
+    "issues_by_type": {
+      "mismatch": 1,
+      "unclosed": 8
+    },
+    "issues_by_environment": {
+      "document": 2,
+      "center": 1,
+      "tabular": 4,
+      "aligned": 1,
+      "itemize": 1
+    }
+  },
+  "fixes_applied": 15,
+  "fixes_details": [
+    "Line 8603: Removed 1 duplicate \\end commands on same line",
+    "Line 204: Removed duplicate/orphaned \\end{itemize} command",
+    "Line 666: Removed duplicate/orphaned \\end{tabular} command",
+    "Line 667: Removed duplicate/orphaned \\end{center} command",
+    "Line 2751: Removed duplicate/orphaned \\end{verbatim} command",
+    "Line 3964: Removed duplicate/orphaned \\end{verbatim} command",
+    "Line 4252: Removed duplicate/orphaned \\end{verbatim} command",
+    "Line 5685: Removed duplicate/orphaned \\end{aligned} command",
+    "Line 6461: Removed duplicate/orphaned \\end{verbatim} command",
+    "Line 16076: Removed \\end{document} from middle of file",
+    "Line 16133: Added \\end{document} to close 8 unclosed environments",
+    "Line 16133: Removed \\end{document} from middle of file",
+    "Line 16133: Added \\end{document} to close 8 unclosed environments",
+    "Line 16133: Removed \\end{document} from middle of file",
+    "Line 16133: Added \\end{document} to close 8 unclosed environments"
+  ],
+  "environments_found": [
+    "align*",
+    "aligned",
+    "array",
+    "center",
+    "document",
+    "enumerate",
+    "figure",
+    "gathered",
+    "itemize",
+    "minipage",
+    "table",
+    "tabular",
+    "thebibliography",
+    "theindex",
+    "verbatim"
+  ],
+  "nesting_depth_stats": {
+    "max_depth": 10,
+    "avg_depth": 6.165137614678899,
+    "total_nested": 545
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "pre_correction": {
+    "total_commands": 1211,
+    "total_issues": 7,
+    "issues_by_type": {
+      "mismatch": 7
+    },
+    "issues_by_environment": {
+      "center": 3,
+      "itemize": 2,
+      "tabular": 2
+    }
+  },
+  "post_correction": {
+    "total_commands": 1202,
+    "total_issues": 4,
+    "issues_by_type": {
+      "mismatch": 2,
+      "unclosed": 2
+    },
+    "issues_by_environment": {
+      "center": 2,
+      "document": 2
+    }
+  },
+  "fixes_applied": 14,
+  "fixes_details": [
+    "Line 9672: Removed 1 duplicate \\end commands on same line",
+    "Line 2712: Removed duplicate/orphaned \\end{itemize} command",
+    "Line 4983: Removed duplicate/orphaned \\end{itemize} command",
+    "Line 5128: Removed duplicate/orphaned \\end{center} command",
+    "Line 5242: Removed duplicate/orphaned \\end{tabular} command",
+    "Line 5243: Removed duplicate/orphaned \\end{center} command",
+    "Line 5678: Removed duplicate/orphaned \\end{tabular} command",
+    "Line 5679: Removed duplicate/orphaned \\end{center} command",
+    "Line 10875: Removed \\end{document} from middle of file",
+    "Line 10957: Added \\end{document} to close 2 unclosed environments",
+    "Line 10957: Removed \\end{document} from middle of file",
+    "Line 10957: Added \\end{document} to close 2 unclosed environments",
+    "Line 10957: Removed \\end{document} from middle of file",
+    "Line 10957: Added \\end{document} to close 2 unclosed environments"
+  ],
+  "environments_found": [
+    "align*",
+    "aligned",
+    "array",
+    "cases",
+    "center",
+    "description",
+    "displayquote",
+    "document",
+    "enumerate",
+    "equation*",
+    "figure",
+    "flushleft",
+    "gather*",
+    "gathered",
+    "itemize",
+    "minipage",
+    "table",
+    "tabular",
+    "thebibliography",
+    "verbatim"
+  ],
+  "nesting_depth_stats": {
+    "max_depth": 7,
+    "avg_depth": 3.594009983361065,
+    "total_nested": 601
+  }
+}

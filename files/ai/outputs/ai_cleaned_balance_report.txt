@@ -1,0 +1,23 @@
+================================================================================
+LATEX COMMAND BALANCE ANALYSIS REPORT
+================================================================================
+File: post-correction
+Total commands found: 0
+Total issues found: 0
+
+SUMMARY STATISTICS:
+----------------------------------------
+Environments found: 0
+Max nesting depth: 0
+Average nesting depth: 0.00
+
+ISSUES BY TYPE:
+----------------------------------------
+
+ISSUES BY ENVIRONMENT:
+----------------------------------------
+
+No balance issues found! ✓
+
+ENVIRONMENT USAGE ANALYSIS:
+----------------------------------------

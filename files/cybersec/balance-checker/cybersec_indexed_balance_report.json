@@ -1,0 +1,84 @@
+{
+  "pre_correction": {
+    "total_commands": 1667,
+    "total_issues": 29,
+    "issues_by_type": {
+      "mismatch": 29
+    },
+    "issues_by_environment": {
+      "itemize": 10,
+      "enumerate": 3,
+      "tabular": 8,
+      "center": 8
+    }
+  },
+  "post_correction": {
+    "total_commands": 1638,
+    "total_issues": 0,
+    "issues_by_type": {},
+    "issues_by_environment": {}
+  },
+  "fixes_applied": 35,
+  "fixes_details": [
+    "Line 503: Removed duplicate/orphaned \\end{itemize} command",
+    "Line 1036: Removed duplicate/orphaned \\end{enumerate} command",
+    "Line 1401: Removed duplicate/orphaned \\end{tabular} command",
+    "Line 1402: Removed duplicate/orphaned \\end{center} command",
+    "Line 3047: Removed duplicate/orphaned \\end{tabular} command",
+    "Line 3048: Removed duplicate/orphaned \\end{center} command",
+    "Line 3715: Removed duplicate/orphaned \\end{itemize} command",
+    "Line 3891: Removed duplicate/orphaned \\end{itemize} command",
+    "Line 4757: Removed duplicate/orphaned \\end{tabular} command",
+    "Line 4758: Removed duplicate/orphaned \\end{center} command",
+    "Line 4951: Removed duplicate/orphaned \\end{itemize} command",
+    "Line 5333: Removed duplicate/orphaned \\end{tabular} command",
+    "Line 5334: Removed duplicate/orphaned \\end{center} command",
+    "Line 5472: Removed duplicate/orphaned \\end{itemize} command",
+    "Line 5671: Removed duplicate/orphaned \\end{enumerate} command",
+    "Line 6834: Removed duplicate/orphaned \\end{itemize} command",
+    "Line 7075: Removed duplicate/orphaned \\end{itemize} command",
+    "Line 7138: Removed duplicate/orphaned \\end{itemize} command",
+    "Line 7198: Removed duplicate/orphaned \\end{itemize} command",
+    "Line 7772: Removed duplicate/orphaned \\end{tabular} command",
+    "Line 7773: Removed duplicate/orphaned \\end{center} command",
+    "Line 7898: Removed duplicate/orphaned \\end{tabular} command",
+    "Line 7899: Removed duplicate/orphaned \\end{center} command",
+    "Line 8936: Removed duplicate/orphaned \\end{enumerate} command",
+    "Line 9195: Removed duplicate/orphaned \\end{itemize} command",
+    "Line 10968: Removed duplicate/orphaned \\end{tabular} command",
+    "Line 10969: Removed duplicate/orphaned \\end{center} command",
+    "Line 11240: Removed duplicate/orphaned \\end{tabular} command",
+    "Line 11241: Removed duplicate/orphaned \\end{center} command",
+    "Line 13136: Removed \\end{document} from middle of file",
+    "Line 13211: Added \\end{document} to close 1 unclosed environments",
+    "Line 13211: Removed \\end{document} from middle of file",
+    "Line 13211: Added \\end{document} to close 1 unclosed environments",
+    "Line 13211: Removed \\end{document} from middle of file",
+    "Line 13211: Added \\end{document} to close 1 unclosed environments"
+  ],
+  "environments_found": [
+    "abstract",
+    "align*",
+    "aligned",
+    "array",
+    "center",
+    "description",
+    "displayquote",
+    "document",
+    "enumerate",
+    "equation*",
+    "figure",
+    "flushleft",
+    "gathered",
+    "itemize",
+    "minipage",
+    "table",
+    "tabular",
+    "verbatim"
+  ],
+  "nesting_depth_stats": {
+    "max_depth": 5,
+    "avg_depth": 2.2344322344322345,
+    "total_nested": 819
+  }
+}
