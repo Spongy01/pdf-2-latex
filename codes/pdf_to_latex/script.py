@@ -31,6 +31,7 @@ from gpt_script import format_with_gpt
 from bib import process_bibliography
 from page_separator_v2 import create_page_separators
 from cleaner import clean_it_up
+from balance_checker import check_latex_balance
 import subprocess
 import shutil
 
@@ -177,6 +178,10 @@ def run_pipeline(
     use_parallel=True,
     skip_steps=[],
     bib_json_path=None,
+    fix_balance=True,
+    chapter_level=0,
+    section_level=1,
+    subsection_level=2,
 ):
     """Run the complete PDF to LaTeX conversion pipeline."""
     start_time = datetime.now()
@@ -217,18 +222,28 @@ def run_pipeline(
     print("Page separator path:", paths["pg_sep_path"])
 
     if 1 not in skip_steps:
-        try:
-            book_pdf, latex_with_pages, page_numbers = create_page_separators(
-                paths["book_path"],
-                current_tex_path,
-                paths["pg_sep_path"],
-                paths["output_folder"],
-            )
+        # Check if page separator file already exists
+        if os.path.exists(paths["pg_sep_path"]):
+            print(f"✅ Step 1: Page separator file already exists at {paths['pg_sep_path']}")
+            print("Skipping page separator creation.")
             current_tex_path = paths["pg_sep_path"]
             results["steps_completed"].append(1)
             results["page_separator_output"] = current_tex_path
-        except Exception as e:
-            print(f"Error in Step 1 (Page Separators): {e}")
+        else:
+            try:
+                print("🔄 Step 1: Creating page separators...")
+                book_pdf, latex_with_pages, page_numbers = create_page_separators(
+                    paths["book_path"],
+                    current_tex_path,
+                    paths["pg_sep_path"],
+                    paths["output_folder"],
+                )
+                current_tex_path = paths["pg_sep_path"]
+                results["steps_completed"].append(1)
+                results["page_separator_output"] = current_tex_path
+                print(f"✅ Step 1: Page separators created successfully")
+            except Exception as e:
+                print(f"Error in Step 1 (Page Separators): {e}")
     else:
         print("Skipping Step 1: Page Separators")
         if os.path.exists(paths["pg_sep_path"]):
@@ -277,7 +292,8 @@ def run_pipeline(
     if 4 not in skip_steps:
         try:
             current_tex_path = clean_it_up(  # output file is _cleaned.tex
-                current_tex_path, paths["book_path"], paths["cleaned_path"]
+                current_tex_path, paths["book_path"], paths["cleaned_path"], 
+                chapter_level, section_level, subsection_level
             )
             results["steps_completed"].append(4)
             results["cleaning_output"] = current_tex_path
@@ -296,6 +312,29 @@ def run_pipeline(
             print(f"Error in Step 5 (Indexing): {e}")
     else:
         print("Skipping Step 5: Indexing")
+
+    # Step 6: Check LaTeX command balance (if not skipped)
+    if 6 not in skip_steps:
+        try:
+            balance_result = check_latex_balance(
+                current_tex_path, 
+                paths["output_folder"], 
+                apply_fixes=fix_balance
+            )
+            
+            # If fixes were applied, update the current_tex_path with corrected content
+            if fix_balance and isinstance(balance_result, str) and not balance_result.endswith('.json'):
+                # balance_result contains corrected content, write it back to file
+                with open(current_tex_path, 'w', encoding='utf-8') as f:
+                    f.write(balance_result)
+                print(f"Updated LaTeX file with balance fixes")
+            
+            results["steps_completed"].append(6)
+            results["balance_check_output"] = balance_result
+        except Exception as e:
+            print(f"Error in Step 6 (Balance Check): {e}")
+    else:
+        print("Skipping Step 6: Balance Check")
 
     # Final result
     results["final_output"] = current_tex_path
@@ -317,12 +356,41 @@ def run_pipeline(
     print("Compiling the final LaTeX document to a PDF...")
     log_path = os.path.join(paths["output_folder"], "compile_log.txt")
 
+    # Clean old LaTeX cache first
+    print("Cleaning old LaTeX cache...")
+    try:
+        clean_result = subprocess.run(
+            ["latexmk", "-C", paths["final_path"]],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            check=False  # Don't raise an exception for non-zero exit codes
+        )
+        if clean_result.returncode == 0:
+            print("✅ LaTeX cache cleaned successfully.")
+        else:
+            print(f"⚠️ Warning: LaTeX cache cleaning failed with exit code {clean_result.returncode}.")
+            print(f"Stderr: {clean_result.stderr}")
+    except FileNotFoundError:
+        print("⚠️ Warning: latexmk command not found. Please ensure LaTeX is installed and in your PATH.")
+    except Exception as e:
+        print(f"❌ Error during LaTeX cache cleaning: {e}")
+
     with open(log_path, "w", encoding="utf-8") as log_file:
         compile_result = subprocess.run(
-            ["latexmk", f"-outdir={paths['output_folder']}", paths["final_path"]],
+            [
+                "latexmk",
+                "-xelatex",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-f",
+                # "-gg",  # force rebuild
+                f"-outdir={paths['output_folder']}",
+                paths["final_path"]
+            ],
             stdout=log_file,
             stderr=subprocess.STDOUT,
-            text=True,
+            text=True
         )
     print(f"Compilation complete. Log saved to: {log_path}")
 
@@ -373,10 +441,22 @@ if __name__ == "__main__":
         help="Use sequential processing instead of parallel",
     )
     parser.add_argument(
-        "--skip", type=int, nargs="+", help="Steps to skip (1-4)", default=[]
+        "--skip", type=int, nargs="+", help="Steps to skip (1-6)", default=[]
     )
     parser.add_argument(
         "--bib-json", help="Path to the JSON file for bibliography processing"
+    )
+    parser.add_argument(
+        "--fix-balance", action="store_true", help="Apply automatic fixes to balance issues", default=True
+    )
+    parser.add_argument(
+        "--chapter-level", type=int, default=0, help="Chapter level in Table of Contents (default: 0)"
+    )
+    parser.add_argument(
+        "--section-level", type=int, default=1, help="Section level in Table of Contents (default: 1)"
+    )
+    parser.add_argument(
+        "--subsection-level", type=int, default=2, help="Subsection level in Table of Contents (default: 2)"
     )
     args = parser.parse_args()
 
@@ -405,6 +485,10 @@ if __name__ == "__main__":
                 ),
                 "skip_steps": args.skip or config.get("skip", []),
                 "bib_json_path": args.bib_json or config.get("bib_json", None),
+                "fix_balance": args.fix_balance,
+                "chapter_level": args.chapter_level or config.get("chapter_level", 0),
+                "section_level": args.section_level or config.get("section_level", 1),
+                "subsection_level": args.subsection_level or config.get("subsection_level", 2),
             }
         else:
             print(
@@ -422,6 +506,10 @@ if __name__ == "__main__":
                 "use_parallel": not args.sequential,
                 "skip_steps": args.skip,
                 "bib_json_path": args.bib_json,
+                "fix_balance": args.fix_balance,
+                "chapter_level": args.chapter_level,
+                "section_level": args.section_level,
+                "subsection_level": args.subsection_level,
             }
     else:
         # No config file, use command-line arguments
@@ -440,6 +528,10 @@ if __name__ == "__main__":
             "use_parallel": not args.sequential,
             "skip_steps": args.skip,
             "bib_json_path": args.bib_json,
+            "fix_balance": args.fix_balance,
+            "chapter_level": args.chapter_level,
+            "section_level": args.section_level,
+            "subsection_level": args.subsection_level,
         }
 
     # Remove None values to avoid passing None to the pipeline

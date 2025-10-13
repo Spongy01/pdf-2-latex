@@ -82,10 +82,10 @@ def fix_latex_headings(input_tex: str, cleaned_toc: list) -> str:
     # Regex to match all LaTeX headings
     heading_pattern = re.compile(r'\\(chapter|section|subsection|subsubsection)\{(.*?)\}')
     
-    # ask for user input for chapter level mapping
-    chapter_level = input("Enter the chapter level in the Table of Contents: ")
-    section_level = input("Enter the section level in the Table of Contents: ")
-    subsection_level = input("Enter the subsection level in the Table of Contents: ")
+    # Use provided parameters for chapter level mapping
+    print(f"Using chapter level: {chapter_level}")
+    print(f"Using section level: {section_level}")
+    print(f"Using subsection level: {subsection_level}")
 
     # Map TOC levels to LaTeX commands based on user input
     level_to_cmd = {
@@ -166,7 +166,7 @@ def replace_first_contents_with_toc(input_tex: str) -> str:
     return new_tex
 
 
-def clean_it_up(INPUT_TEX_FILE: str, BOOK_PDF_FILE: str, OUTPUT_TEX_FILE: str):
+def clean_it_up(INPUT_TEX_FILE: str, BOOK_PDF_FILE: str, OUTPUT_TEX_FILE: str, chapter_level: int = 0, section_level: int = 1, subsection_level: int = 2):
     # INPUT_TEX_FILE = "../../files/data-science-book_book/outputs/data-science-book_pg_sep_bib.tex"
     # BOOK_PDF_FILE = "../../files/data-science-book_book/inputs/data-science-book.pdf"
     # OUTPUT_TEX_FILE = "../../files/data-science-book_book/outputs/data-science-book_pg_sep_testing_cleaned.tex"

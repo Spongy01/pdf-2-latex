@@ -62,7 +62,7 @@
   "data-science___Index Fixes": {
     "book_name": "data-science",
     "version": "Index Fixes",
-    "last_used": "2025-10-11T17:56:53.004872"
+    "last_used": "2025-10-12T10:08:40.147220"
   },
   "assembly___Index Fixes": {
     "book_name": "assembly",
@@ -73,5 +73,30 @@
     "book_name": "algorithms",
     "version": "Index Fixes",
     "last_used": "2025-10-11T18:10:26.290742"
+  },
+  "data-science___balance-checker": {
+    "book_name": "data-science",
+    "version": "balance-checker",
+    "last_used": "2025-10-13T13:54:40.726532"
+  },
+  "assembly___balance-checker": {
+    "book_name": "assembly",
+    "version": "balance-checker",
+    "last_used": "2025-10-13T14:01:17.314943"
+  },
+  "algorithms___balance-checker": {
+    "book_name": "algorithms",
+    "version": "balance-checker",
+    "last_used": "2025-10-13T13:57:40.362015"
+  },
+  "cybersec___balance-checker": {
+    "book_name": "cybersec",
+    "version": "balance-checker",
+    "last_used": "2025-10-13T13:58:28.926302"
+  },
+  "ai___balance-checker": {
+    "book_name": "ai",
+    "version": "balance-checker",
+    "last_used": "2025-10-13T14:00:06.737291"
   }
 }

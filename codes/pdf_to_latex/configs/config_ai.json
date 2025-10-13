@@ -6,5 +6,8 @@
     "output":"../../files/ai/outputs/",
     "batch_size": 600,
     "sequential": false,
-    "skip": []
+    "skip": [],
+    "chapter_level": 3,
+    "section_level": 4,
+    "subsection_level": 5
 }

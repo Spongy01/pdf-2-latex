@@ -9,11 +9,62 @@ import os
 import sys
 import time
 import fitz
+import hashlib
+import threading
 from pdf2image import convert_from_path
 from PIL import Image
 from dotenv import load_dotenv
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+
+def get_cache_key(data, command, temperature):
+    """Generate a simple hash-based cache key."""
+    content = f"{data}|{command}|{temperature}"
+    return hashlib.md5(content.encode()).hexdigest()
+
+# Global cache management
+cache_lock = threading.Lock()
+_global_cache = None
+_cache_file = "gpt_cache.json"
+
+def load_gpt_cache():
+    """Load GPT cache from JSON file with thread safety."""
+    global _global_cache
+    with cache_lock:
+        if _global_cache is None:
+            if os.path.exists(_cache_file):
+                try:
+                    with open(_cache_file, 'r') as f:
+                        _global_cache = json.load(f)
+                        print(f"📂 Loaded GPT cache with {len(_global_cache)} entries")
+                except Exception as e:
+                    print(f"⚠️ Warning: Could not load cache file {_cache_file}: {e}")
+                    _global_cache = {}
+            else:
+                _global_cache = {}
+                print(f"📂 Created new GPT cache")
+        return _global_cache
+
+def save_gpt_cache():
+    """Save GPT cache to JSON file with thread safety."""
+    global _global_cache
+    with cache_lock:
+        if _global_cache is not None:
+            try:
+                with open(_cache_file, 'w') as f:
+                    json.dump(_global_cache, f, indent=2)
+                print(f"💾 Saved GPT cache with {len(_global_cache)} entries")
+            except Exception as e:
+                print(f"❌ Error saving cache file {_cache_file}: {e}")
+                raise e
+
+def add_to_cache(cache_key, response):
+    """Add a response to the global cache."""
+    global _global_cache
+    with cache_lock:
+        if _global_cache is None:
+            _global_cache = {}
+        _global_cache[cache_key] = response
 
 def flags_decomposer(flags):
     """Make font flags human readable."""
@@ -93,23 +144,46 @@ def get_pages_data(start_idx, end_idx, doc):
 
 
 def generate_response(data, command, prev_response="", temperature=1):
-    """Generate response from OpenAI API."""
+    """Generate response from OpenAI API with simple caching."""
     first_page_prompt = f"{data} \n {command}"
     default_page_prompt = f"{data} \n {command}"
     prompt_content = first_page_prompt if prev_response == "" else default_page_prompt
 
-    response = client.chat.completions.create(
-        model="gpt-5",
-        messages=[
-            {
-                "role": "system",
-                "content": "You are a helpful assistant. You convert PDF documents to LaTeX.",
-            },
-            {"role": "user", "content": f"{prompt_content}"},
-        ],
-        temperature=temperature,
-    )
-    return response.choices[0].message.content
+    # Generate cache key
+    cache_key = get_cache_key(data, command, temperature)
+    
+    # Load cache (this will initialize global cache if needed)
+    cache = load_gpt_cache()
+    
+    # Check if response is cached
+    if cache_key in cache:
+        print(f"🎯 Cache HIT - Using cached response for GPT processing")
+        return cache[cache_key]
+
+    # Make API call
+    print(f"🚀 Cache MISS - Making API call to OpenAI...")
+    try:
+        response = client.chat.completions.create(
+            model="gpt-5",
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are a helpful assistant. You convert PDF documents to LaTeX.",
+                },
+                {"role": "user", "content": f"{prompt_content}"},
+            ],
+            temperature=temperature,
+        )
+        response_content = response.choices[0].message.content
+        
+        # Add to global cache (don't save yet)
+        add_to_cache(cache_key, response_content)
+        print(f"💾 Added response to cache (will save at end)")
+        
+        return response_content
+    except Exception as e:
+        print(f"❌ API call failed: {e}")
+        raise e
 
 
 def remove_latex_and_ticks(text):
@@ -150,13 +224,16 @@ def process_part(
         combined_data += f"\n\nThis is the {counter} part of the book, do not close the LaTeX document with end document"
 
     command = first_page_command if first_part == 1 else next_pages_prompt
+    
+    # Use generate_response directly - it handles caching internally
     try:
-        response = generate_response(combined_data, command, "")
+        response = generate_response(combined_data, command, "", temperature=1)
+        response = remove_latex_and_ticks(response)
+        print(f"✅ Processed part {index} (page {page})")
     except Exception as e:
         print(f"[ERROR] Error generating response for part {index}, page {page}: {e}")
         response = ""
-    response = remove_latex_and_ticks(response)
-
+    
     return index, response, page
 
 
@@ -171,6 +248,11 @@ def format_with_gpt(
     """Main function to process the book and convert it to properly formatted LaTeX."""
     # Set default paths if not provided
     print("\n=== Step 3: Formatting with GPT ===")
+    
+    # Initialize cache at the beginning
+    print("🔄 Initializing GPT cache...")
+    load_gpt_cache()
+    
     # Load environment variables for API key
     load_dotenv()
     api_key = os.getenv("API_KEY")
@@ -442,6 +524,11 @@ Each JSON span has:
             counter += 1
 
     print(f"Conversion complete! Output file saved at: {output_tex_file}")
+    
+    # Save cache at the end
+    print("💾 Saving GPT cache...")
+    save_gpt_cache()
+    
     return output_tex_file
 
 

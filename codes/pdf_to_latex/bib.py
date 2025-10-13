@@ -9,6 +9,8 @@ import os
 import sys
 import time
 import re
+import hashlib
+import threading
 # import fitzs
 from pdf2image import convert_from_path
 from PIL import Image
@@ -21,9 +23,58 @@ api_key = os.getenv("API_KEY")
 OPENAI_API_KEY = api_key
 client = OpenAI(api_key=OPENAI_API_KEY)
 
+# Global cache management
+cache_lock = threading.Lock()
+_global_cache = None
+_cache_file = "bib_cache.json"
+
+def get_cache_key(prompt, text, model):
+    """Generate a simple hash-based cache key."""
+    content = f"{prompt}|{text}|{model}"
+    return hashlib.md5(content.encode()).hexdigest()
+
+def load_bib_cache():
+    """Load bibliography cache from JSON file with thread safety."""
+    global _global_cache
+    with cache_lock:
+        if _global_cache is None:
+            if os.path.exists(_cache_file):
+                try:
+                    with open(_cache_file, 'r') as f:
+                        _global_cache = json.load(f)
+                        print(f"📂 Loaded bibliography cache with {len(_global_cache)} entries")
+                except Exception as e:
+                    print(f"⚠️ Warning: Could not load cache file {_cache_file}: {e}")
+                    _global_cache = {}
+            else:
+                _global_cache = {}
+                print(f"📂 Created new bibliography cache")
+        return _global_cache
+
+def save_bib_cache():
+    """Save bibliography cache to JSON file with thread safety."""
+    global _global_cache
+    with cache_lock:
+        if _global_cache is not None:
+            try:
+                with open(_cache_file, 'w') as f:
+                    json.dump(_global_cache, f, indent=2)
+                print(f"💾 Saved bibliography cache with {len(_global_cache)} entries")
+            except Exception as e:
+                print(f"❌ Error saving cache file {_cache_file}: {e}")
+                raise e
+
+def add_to_cache(cache_key, response):
+    """Add a response to the global cache."""
+    global _global_cache
+    with cache_lock:
+        if _global_cache is None:
+            _global_cache = {}
+        _global_cache[cache_key] = response
+
 def get_api_response(prompt, text, model="gpt-5"):
     """
-    Get response from OpenAI API.
+    Get response from OpenAI API with simple caching.
     
     Parameters:
         prompt (str): The prompt to send to the API.
@@ -33,16 +84,38 @@ def get_api_response(prompt, text, model="gpt-5"):
     Returns:
         str: API response content.
     """
-    print("Sending request to OpenAI API...")
-    completion = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "developer", "content": "You are a helpful assistant."},
-            {"role": "user", "content": f" {prompt}. Here is the text: {text}"}
-        ]
-    )
-    print("Received response from OpenAI API.")
-    return completion.choices[0].message.content
+    # Generate cache key
+    cache_key = get_cache_key(prompt, text, model)
+    
+    # Load cache (this will initialize global cache if needed)
+    cache = load_bib_cache()
+    
+    # Check if response is cached
+    if cache_key in cache:
+        print("🎯 Cache HIT - Using cached response for bibliography processing...")
+        return cache[cache_key]
+    
+    # Make API call
+    print("🚀 Cache MISS - Sending request to OpenAI API...")
+    try:
+        completion = client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "developer", "content": "You are a helpful assistant."},
+                {"role": "user", "content": f" {prompt}. Here is the text: {text}"}
+            ]
+        )
+        response = completion.choices[0].message.content
+        print("✅ Received response from OpenAI API.")
+        
+        # Add to global cache (don't save yet)
+        add_to_cache(cache_key, response)
+        print(f"💾 Added response to cache (will save at end)")
+        
+        return response
+    except Exception as e:
+        print(f"❌ API call failed: {e}")
+        raise e
 
 def save_bibtex(bib_dict, filename="references.bib"):
     """
@@ -112,6 +185,10 @@ def process_bibliography(pdf_path=None, tex_path=None, output_json_path=None, ou
     """
     # Use default paths if not provided
     print("\n=== Step 2: Processing Bibliography ===")
+    
+    # Initialize cache at the beginning
+    print("🔄 Initializing bibliography cache...")
+    load_bib_cache()
     
     print(f"Processing PDF: {pdf_path}")
     print(f"Using LaTeX file: {tex_path}")
@@ -255,6 +332,10 @@ def process_bibliography(pdf_path=None, tex_path=None, output_json_path=None, ou
             print(f"Updated LaTeX file saved to: {output_tex_path}")
         except Exception as e:
             print(f"Error updating LaTeX file: {e}")
+    
+    # Save cache at the end
+    print("💾 Saving bibliography cache...")
+    save_bib_cache()
     
     return citation_dict, output_tex_path
 
