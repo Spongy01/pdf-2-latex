@@ -98,5 +98,30 @@
     "book_name": "ai",
     "version": "balance-checker",
     "last_used": "2025-10-13T14:00:06.737291"
+  },
+  "data-science___mathpix": {
+    "book_name": "data-science",
+    "version": "mathpix",
+    "last_used": "2025-10-19T20:18:27.138092"
+  },
+  "ai___mathpix": {
+    "book_name": "ai",
+    "version": "mathpix",
+    "last_used": "2025-10-19T20:20:03.150346"
+  },
+  "assembly___mathpix": {
+    "book_name": "assembly",
+    "version": "mathpix",
+    "last_used": "2025-10-19T20:25:36.004381"
+  },
+  "algorithms___mathpix": {
+    "book_name": "algorithms",
+    "version": "mathpix",
+    "last_used": "2025-10-19T20:26:27.565156"
+  },
+  "cybersec___mathpix": {
+    "book_name": "cybersec",
+    "version": "mathpix",
+    "last_used": "2025-10-19T20:27:33.024077"
   }
 }

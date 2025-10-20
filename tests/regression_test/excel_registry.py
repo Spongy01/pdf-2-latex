@@ -24,30 +24,54 @@ from openpyxl.styles import PatternFill
 MASTER_FILENAME = "master_results.xlsx"
 SHEET_NAME = "AllVersions"
 
+command_tags = ['document', 'figure', 'table','tabular' ,'itemize', 'enumerate', 'list','verbatim',
+                'center', 'flushleft', 'flushright', 'mathequation', 'align' ,'quote',
+                'equation', 'algorithm', 'algorithmic'    
+                ]
+
 # Metrics header list mirrored from regression runner
 METRIC_ROWS = [
     "book_name",
     "scoring_method",
     "timestamp",
     "Score",
+    "Percent Compiled",
     "Latex Errors",
     "Latex Warnings",
     "Bibtex (metadata)",
     "Bibtex extracted (json)",
     "Entries Cited",
+    "Bibtex (diff [meta - extracted])",
+    "Bibtex (diff [extracted - cited])",
     "Chapters (metadata)",
     "Chapters (output)",
+    "Chapters (diff [meta-out])",
     "Sections (metadata)",
     "Sections (output)",
+    "Sections (diff [meta-out])",
     "Subsections (metadata)",
     "Subsections (output)",
+    "Subsections (diff [meta-out])",
     "Figures (metadata)",
     "Figures (output)",
+    "Included Graphics (output)",
+    "Figures (diff [meta-out])",
     "Tables (metadata)",
     "Tables (output)",
+    "Tables (diff [meta-out])",
     "Index Entries (metadata)",
     "Index Entries (output)",
+    "Index Entries (diff [meta-out])",
+    # begin-end and structural diagnostics added by multi-metric calculator
+    "Total Begin",
+    "Total End",
+    "Total Begin-End Difference"
 ]
+# per-command begin-end counts
+for tag in command_tags:
+    METRIC_ROWS.append(f"{tag.capitalize()} Begin")
+    METRIC_ROWS.append(f"{tag.capitalize()} End")
+    METRIC_ROWS.append(f"{tag.capitalize()} Difference")
 
 
 def _master_path(results_dir: Path) -> Path:
@@ -262,14 +286,22 @@ def _color_master_by_version(ws):
                     continue
 
                 metric_label = ws.cell(row=row, column=1).value
+                metric_label_lower = (metric_label or "").lower()
+                # Errors and warnings: increase is bad
                 if metric_label in negative_metrics:
-                    # for errors/warnings: increase -> red, decrease -> green
                     if val_cur > val_prev:
                         cell_cur.fill = red_fill
                     else:
                         cell_cur.fill = green_fill
+                # Difference metrics (contain 'diff' or 'difference'): smaller absolute diff is better
+                elif "diff" in metric_label_lower or "difference" in metric_label_lower:
+                    # compare absolute values: decrease in abs(diff) -> green
+                    if abs(val_cur) < abs(val_prev):
+                        cell_cur.fill = green_fill
+                    else:
+                        cell_cur.fill = red_fill
                 else:
-                    # for other numeric metrics: increase -> green, decrease -> red
+                    # for other numeric metrics: increase is good
                     if val_cur > val_prev:
                         cell_cur.fill = green_fill
                     else:

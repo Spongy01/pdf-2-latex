@@ -376,21 +376,25 @@ def run_pipeline(
     except Exception as e:
         print(f"❌ Error during LaTeX cache cleaning: {e}")
 
+    tex_file_path = os.path.abspath(paths["final_path"])
+    output_dir = os.path.abspath(paths["output_folder"])
+
     with open(log_path, "w", encoding="utf-8") as log_file:
         compile_result = subprocess.run(
-            [
+            [ 
                 "latexmk",
                 "-xelatex",
                 "-interaction=nonstopmode",
                 "-file-line-error",
                 "-f",
                 # "-gg",  # force rebuild
-                f"-outdir={paths['output_folder']}",
-                paths["final_path"]
+                # f"-outdir={output_dir}",
+                tex_file_path
             ],
             stdout=log_file,
             stderr=subprocess.STDOUT,
-            text=True
+            text=True,
+            cwd=output_dir
         )
     print(f"Compilation complete. Log saved to: {log_path}")
 
