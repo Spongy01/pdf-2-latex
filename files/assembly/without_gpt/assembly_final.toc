@@ -1,0 +1,200 @@
+\xpg@aux {}{english}
+\contentsline {section}{\numberline {1}to Assembly}{1}{section.1}%
+\contentsline {section}{\numberline {2}A Concise Introduction}{1}{section.2}%
+\contentsline {section}{\numberline {3}Advisory Editors}{1}{section.3}%
+\contentsline {section}{\numberline {4}Guide to Assembly Language }{2}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Purpose}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Need}{3}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Importance of Assembly Language}{3}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Comparison to Computer Organization and Other Assembly Language Textbooks}{4}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Features of This Text}{4}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Features New to the Second Edition}{5}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Brief Overview of the Chapters and Appendices}{5}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Scope}{7}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Audience}{7}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Acknowledgements}{7}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Feedback}{7}{subsection.4.11}%
+\contentsline {section}{\numberline {5}Input and Output}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Addition and Subtraction}{14}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Multiplication and Division}{17}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Implementing Unary Operators: Increment, Decrement, and Negation}{21}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Order of Operations with Binary and Unary Operators}{24}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Complete Program: Implementing I/O and Arithmetic}{27}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Summary}{28}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Exercises (Items Marked with an * Have Solutions in Appendix D)}{29}{subsection.5.7}%
+\contentsline {section}{\numberline {6}Input and Output}{30}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Introduction}{31}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}If-Then Structure}{32}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}If-Then-Else Structure}{37}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Nested If Structures}{38}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Case Structure}{42}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Characters and Logical Operations}{44}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Arithmetic Expressions in High-Level Directives}{49}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Complete Program: Using Selection Structures and I/O}{51}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}Summary}{53}{subsection.6.9}%
+\contentsline {subsection}{\numberline {6.10}Exercises (Items Marked with an * Have Solutions in Appendix D)}{54}{subsection.6.10}%
+\contentsline {section}{\numberline {7}Iteration Structures}{56}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Pre-test Loop Structure}{56}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Post-test Loop Structures}{59}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Fixed-Iteration Loop Structures}{61}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Loops and Input/Output}{63}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Nested Loops}{68}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Complete Program: Implementing the Power Function}{70}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Summary}{72}{subsection.7.7}%
+\contentsline {subsection}{\numberline {7.8}Exercises (Items Marked with an * Have Solutions in Appendix D)}{72}{subsection.7.8}%
+\contentsline {subsection}{\numberline {7.9}Introduction}{75}{subsection.7.9}%
+\contentsline {subsection}{\numberline {7.10}Logic Instructions}{75}{subsection.7.10}%
+\contentsline {subsection}{\numberline {7.11}Logical Shift Instructions}{80}{subsection.7.11}%
+\contentsline {subsection}{\numberline {7.12}Arithmetic Shift Instructions}{84}{subsection.7.12}%
+\contentsline {subsection}{\numberline {7.13}Rotate Instructions}{87}{subsection.7.13}%
+\contentsline {subsection}{\numberline {7.14}Stack Operations}{89}{subsection.7.14}%
+\contentsline {subsection}{\numberline {7.15}Swapping Using Registers, the Stack, and the xchg Instruction}{92}{subsection.7.15}%
+\contentsline {subsection}{\numberline {7.16}Complete Program: Simulating an OCR Machine}{94}{subsection.7.16}%
+\contentsline {section}{\numberline {8}Sample Input/Output}{98}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Summary}{99}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Exercises (Items Marked with an * Have Solutions in Appendix D)}{100}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Bit Message}{100}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Procedures and Macros}{101}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Procedures}{101}{subsection.9.2}%
+\contentsline {section}{\numberline {10}call pname}{102}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Complete Program: Implementing the Power Function in a Procedure}{105}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Saving and Restoring Registers}{108}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Macros}{109}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Conditional Assembly}{115}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Swap Macro Revisited Using Conditional Assembly}{119}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}Power Function Macro Using Conditional Assembly}{122}{subsection.10.6}%
+\contentsline {subsection}{\numberline {10.7}Complete Program: Implementing a Macro Calculator}{124}{subsection.10.7}%
+\contentsline {subsection}{\numberline {10.8}Summary}{131}{subsection.10.8}%
+\contentsline {subsection}{\numberline {10.9}Exercises (Items Marked with an * Have Solutions in Appendix D)}{132}{subsection.10.9}%
+\contentsline {subsection}{\numberline {10.10}Arrays}{133}{subsection.10.10}%
+\contentsline {subsection}{\numberline {10.11}Array Declaration and Addressing}{133}{subsection.10.11}%
+\contentsline {subsection}{\numberline {10.12}Indexing Using the Base Register}{136}{subsection.10.12}%
+\contentsline {subsection}{\numberline {10.13}Searching}{139}{subsection.10.13}%
+\contentsline {subsection}{\numberline {10.14}Indexing Using the esi and edi Registers}{142}{subsection.10.14}%
+\contentsline {subsection}{\numberline {10.15}Lengthof and Sizeof Operators}{148}{subsection.10.15}%
+\contentsline {subsection}{\numberline {10.16}Complete Program: Implementing a Queue}{149}{subsection.10.16}%
+\contentsline {subsection}{\numberline {10.17}Complete Program: Implementing the Selection Sort}{154}{subsection.10.17}%
+\contentsline {subsection}{\numberline {10.18}Summary}{158}{subsection.10.18}%
+\contentsline {subsection}{\numberline {10.19}Exercises (Items Marked with an * Have Solutions in Appendix D)}{159}{subsection.10.19}%
+\contentsline {subsection}{\numberline {10.20}Introduction}{161}{subsection.10.20}%
+\contentsline {subsection}{\numberline {10.21}String Instructions: Moving Strings (movsb)}{162}{subsection.10.21}%
+\contentsline {subsection}{\numberline {10.22}String Instructions: Scanning (scasb), Storing (stosb), and Loading (lodsb)}{166}{subsection.10.22}%
+\contentsline {subsection}{\numberline {10.23}Array of Strings}{168}{subsection.10.23}%
+\contentsline {section}{\numberline {11}names1}{168}{section.11}%
+\contentsline {subsection}{\numberline {11.1}String Instructions: Comparing Strings (cmpsb)}{169}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Complete Program: Searching an Array of Strings}{177}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Summary}{179}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Exercises (Items Marked with an * Have Solutions in Appendix D)}{179}{subsection.11.4}%
+\contentsline {section}{\numberline {12}Floating-Point Instructions}{180}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Memory Storage}{181}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Floating-Point Register Stack}{181}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Pushing and Popping}{182}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}Simple Arithmetic Expressions}{186}{subsection.12.4}%
+\contentsline {subsection}{\numberline {12.5}Complex Arithmetic Expressions}{188}{subsection.12.5}%
+\contentsline {subsection}{\numberline {12.6}Mixing Floating-Point and Integers}{192}{subsection.12.6}%
+\contentsline {subsection}{\numberline {12.7}Input/Output}{195}{subsection.12.7}%
+\contentsline {subsection}{\numberline {12.8}float and real4}{195}{subsection.12.8}%
+\contentsline {subsection}{\numberline {12.9}double and real8}{196}{subsection.12.9}%
+\contentsline {subsection}{\numberline {12.10}long double and real10}{197}{subsection.12.10}%
+\contentsline {subsection}{\numberline {12.11}Inline Assembly}{198}{subsection.12.11}%
+\contentsline {subsection}{\numberline {12.12}Comparisons and Selection Structures}{198}{subsection.12.12}%
+\contentsline {subsection}{\numberline {12.13}Complete Program: Implementing an Iteration Structure}{202}{subsection.12.13}%
+\contentsline {subsection}{\numberline {12.14}Complete Program: Implementing an Array}{204}{subsection.12.14}%
+\contentsline {subsection}{\numberline {12.15}Summary}{206}{subsection.12.15}%
+\contentsline {subsection}{\numberline {12.16}Exercises (Items Marked with an * Have Solutions in Appendix D)}{207}{subsection.12.16}%
+\contentsline {section}{\numberline {13}-Bit Processing}{208}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Four General Purpose Registers}{209}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Other 64-Bit Registers}{211}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}64-Bit Integer Output}{212}{subsection.13.3}%
+\contentsline {subsection}{\numberline {13.4}64-Bit Integer Input}{216}{subsection.13.4}%
+\contentsline {subsection}{\numberline {13.5}Logic and Arithmetic Applications}{218}{subsection.13.5}%
+\contentsline {subsection}{\numberline {13.6}Shift and Rotate}{218}{subsection.13.6}%
+\contentsline {subsection}{\numberline {13.7}Logic}{219}{subsection.13.7}%
+\contentsline {subsection}{\numberline {13.8}Arithmetic}{220}{subsection.13.8}%
+\contentsline {subsection}{\numberline {13.9}Control Structures}{221}{subsection.13.9}%
+\contentsline {subsection}{\numberline {13.10}Arrays}{224}{subsection.13.10}%
+\contentsline {subsection}{\numberline {13.11}Procedures and Macros}{224}{subsection.13.11}%
+\contentsline {subsection}{\numberline {13.12}Calling 64-Bit Procedures}{224}{subsection.13.12}%
+\contentsline {subsection}{\numberline {13.13}Using a Macro to Call printf}{226}{subsection.13.13}%
+\contentsline {subsection}{\numberline {13.14}Complete Program: Reversing an Array}{228}{subsection.13.14}%
+\contentsline {subsection}{\numberline {13.15}Summary}{230}{subsection.13.15}%
+\contentsline {subsection}{\numberline {13.16}Exercises (Items Marked with an * Have Solutions in Appendix D)}{230}{subsection.13.16}%
+\contentsline {subsection}{\numberline {13.17}Introduction}{232}{subsection.13.17}%
+\contentsline {subsection}{\numberline {13.18}inc and dec Instructions}{232}{subsection.13.18}%
+\contentsline {subsection}{\numberline {13.19}mov Instruction}{234}{subsection.13.19}%
+\contentsline {subsection}{\numberline {13.20}add and sub Instructions}{239}{subsection.13.20}%
+\contentsline {subsection}{\numberline {13.21}mov offset and lea Instructions}{240}{subsection.13.21}%
+\contentsline {subsection}{\numberline {13.22}jmp Instructions}{242}{subsection.13.22}%
+\contentsline {subsection}{\numberline {13.23}Instruction Timings}{243}{subsection.13.23}%
+\contentsline {subsection}{\numberline {13.24}Floating-Point and 64-Bit Instructions}{244}{subsection.13.24}%
+\contentsline {subsection}{\numberline {13.25}Floating-Point Instructions}{244}{subsection.13.25}%
+\contentsline {subsection}{\numberline {13.26}64-Bit Instructions}{245}{subsection.13.26}%
+\contentsline {subsection}{\numberline {13.27}Memory Addressing}{247}{subsection.13.27}%
+\contentsline {subsection}{\numberline {13.28}Complete Program: 32-Bit Assembly Listing}{248}{subsection.13.28}%
+\contentsline {subsection}{\numberline {13.29}Complete Program: Floating-Point and 64-Bit Assembly Listing}{251}{subsection.13.29}%
+\contentsline {subsection}{\numberline {13.30}Summary}{252}{subsection.13.30}%
+\contentsline {subsection}{\numberline {13.31}Exercises (Items Marked with an * Have Solutions in Appendix D)}{253}{subsection.13.31}%
+\contentsline {section}{\numberline {14}Appendix A: Directions for MASM in Visual Studio 2019 Community Edition}{255}{section.14}%
+\contentsline {section}{\numberline {15}A. 1 C Programs with Inline Assembly}{255}{section.15}%
+\contentsline {section}{\numberline {16}A. 2 32-Bit Integer and Floating-Point MASM Programs}{256}{section.16}%
+\contentsline {section}{\numberline {17}A. 3 64-Bit Integer MASM Programs}{257}{section.17}%
+\contentsline {section}{\numberline {18}A. 4 MASM Assembly Listings (.1st File)}{259}{section.18}%
+\contentsline {section}{\numberline {19}Appendix B: Binary, Hexadecimal, Logic, Arithmetic, and Data Representation}{259}{section.19}%
+\contentsline {section}{\numberline {20}B. 1 Decimal and Binary Numbers}{259}{section.20}%
+\contentsline {section}{\numberline {21}B. 2 Hexadecimal Numbers}{263}{section.21}%
+\contentsline {section}{\numberline {22}B. 3 Overview of Logic}{265}{section.22}%
+\contentsline {section}{\numberline {23}B. 4 Unsigned Numbers and Addition}{268}{section.23}%
+\contentsline {section}{\numberline {24}B. 5 Signed Numbers}{270}{section.24}%
+\contentsline {section}{\numberline {25}B. 6 Addition and Subtraction of Signed Numbers}{272}{section.25}%
+\contentsline {section}{\numberline {26}}{272}{section.26}%
+\contentsline {section}{\numberline {27}B. 7 Floating-Point Numbers}{274}{section.27}%
+\contentsline {section}{\numberline {28}}{278}{section.28}%
+\contentsline {section}{\numberline {29}}{278}{section.29}%
+\contentsline {section}{\numberline {30}B. 8 Characters}{278}{section.30}%
+\contentsline {section}{\numberline {31}B. 9 Hex/ASCII Table}{280}{section.31}%
+\contentsline {section}{\numberline {32}B. 10 Summary}{281}{section.32}%
+\contentsline {section}{\numberline {33}B. 11 Exercises (Items Marked with an * Have Solutions in Appendix D)}{282}{section.33}%
+\contentsline {section}{\numberline {34}Appendix C: Selected Assembly Language Instructions}{285}{section.34}%
+\contentsline {section}{\numberline {35}Instruction Operands Status flags affected in eflags register}{285}{section.35}%
+\contentsline {section}{\numberline {36}cmpsb none C,O,Z,S are modified}{286}{section.36}%
+\contentsline {section}{\numberline {37}inc}{288}{section.37}%
+\contentsline {section}{\numberline {38}Instruction: Description:}{289}{section.38}%
+\contentsline {section}{\numberline {39}test}{292}{section.39}%
+\contentsline {section}{\numberline {40}.A. Correct}{292}{section.40}%
+\contentsline {section}{\numberline {41}Chapter 2}{293}{section.41}%
+\contentsline {section}{\numberline {42}Chapter 3}{293}{section.42}%
+\contentsline {section}{\numberline {43}Chapter 4}{294}{section.43}%
+\contentsline {section}{\numberline {44}Chapter 5}{294}{section.44}%
+\contentsline {section}{\numberline {45}Chapter 6}{295}{section.45}%
+\contentsline {section}{\numberline {46}Chapter 7}{295}{section.46}%
+\contentsline {section}{\numberline {47}Chapter 8}{295}{section.47}%
+\contentsline {section}{\numberline {48}Chapter 9}{295}{section.48}%
+\contentsline {section}{\numberline {49}Chapter10}{296}{section.49}%
+\contentsline {section}{\numberline {50}Chapter11}{296}{section.50}%
+\contentsline {section}{\numberline {51}Chapter12}{296}{section.51}%
+\contentsline {section}{\numberline {52}Appendix B}{296}{section.52}%
+\contentsline {section}{\numberline {53}Glossary}{297}{section.53}%
+\contentsline {section}{\numberline {54}References}{299}{section.54}%
+\contentsline {section}{\numberline {55}A}{299}{section.55}%
+\contentsline {section}{\numberline {56}B}{299}{section.56}%
+\contentsline {section}{\numberline {57}C}{300}{section.57}%
+\contentsline {section}{\numberline {58}D}{301}{section.58}%
+\contentsline {section}{\numberline {59}E}{301}{section.59}%
+\contentsline {section}{\numberline {60}F}{301}{section.60}%
+\contentsline {section}{\numberline {61}H}{302}{section.61}%
+\contentsline {section}{\numberline {62}I}{302}{section.62}%
+\contentsline {section}{\numberline {63}J}{303}{section.63}%
+\contentsline {section}{\numberline {64}L}{303}{section.64}%
+\contentsline {section}{\numberline {65}M}{304}{section.65}%
+\contentsline {section}{\numberline {66}N}{304}{section.66}%
+\contentsline {section}{\numberline {67}}{304}{section.67}%
+\contentsline {section}{\numberline {68}P}{305}{section.68}%
+\contentsline {section}{\numberline {69}Q}{305}{section.69}%
+\contentsline {section}{\numberline {70}R}{305}{section.70}%
+\contentsline {section}{\numberline {71}S}{306}{section.71}%
+\contentsline {section}{\numberline {72}T}{307}{section.72}%
+\contentsline {section}{\numberline {73}U}{307}{section.73}%
+\contentsline {section}{\numberline {74}V}{307}{section.74}%
+\contentsline {section}{\numberline {75}W}{307}{section.75}%
+\contentsline {section}{\numberline {76}X}{307}{section.76}%
+\contentsline {section}{\numberline {77}Z}{308}{section.77}%

@@ -1,0 +1,50 @@
+{
+  "pre_correction": {
+    "total_commands": 1399,
+    "total_issues": 3,
+    "issues_by_type": {
+      "mismatch": 1,
+      "unclosed": 2
+    },
+    "issues_by_environment": {
+      "document": 2,
+      "array": 1
+    }
+  },
+  "post_correction": {
+    "total_commands": 1399,
+    "total_issues": 3,
+    "issues_by_type": {
+      "mismatch": 1,
+      "unclosed": 2
+    },
+    "issues_by_environment": {
+      "document": 2,
+      "array": 1
+    }
+  },
+  "fixes_applied": 6,
+  "fixes_details": [
+    "Line 10413: Removed \\end{document} from middle of file",
+    "Line 10413: Added \\end{document} to close 2 unclosed environments",
+    "Line 10413: Removed \\end{document} from middle of file",
+    "Line 10413: Added \\end{document} to close 2 unclosed environments",
+    "Line 10413: Removed \\end{document} from middle of file",
+    "Line 10413: Added \\end{document} to close 2 unclosed environments"
+  ],
+  "environments_found": [
+    "aligned",
+    "array",
+    "center",
+    "document",
+    "enumerate",
+    "itemize",
+    "tabular",
+    "verbatim"
+  ],
+  "nesting_depth_stats": {
+    "max_depth": 5,
+    "avg_depth": 2.242857142857143,
+    "total_nested": 700
+  }
+}

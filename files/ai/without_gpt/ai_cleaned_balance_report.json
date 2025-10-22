@@ -1,0 +1,38 @@
+{
+  "pre_correction": {
+    "total_commands": 11,
+    "total_issues": 1,
+    "issues_by_type": {
+      "mismatch": 1
+    },
+    "issues_by_environment": {
+      "verbatim": 1
+    }
+  },
+  "post_correction": {
+    "total_commands": 10,
+    "total_issues": 0,
+    "issues_by_type": {},
+    "issues_by_environment": {}
+  },
+  "fixes_applied": 7,
+  "fixes_details": [
+    "Line 929: Removed duplicate/orphaned \\end{verbatim} command",
+    "Line 934: Removed \\end{document} from middle of file",
+    "Line 934: Added \\end{document} to close 1 unclosed environments",
+    "Line 934: Removed \\end{document} from middle of file",
+    "Line 934: Added \\end{document} to close 1 unclosed environments",
+    "Line 934: Removed \\end{document} from middle of file",
+    "Line 934: Added \\end{document} to close 1 unclosed environments"
+  ],
+  "environments_found": [
+    "aligned",
+    "document",
+    "tabular"
+  ],
+  "nesting_depth_stats": {
+    "max_depth": 2,
+    "avg_depth": 1.8,
+    "total_nested": 5
+  }
+}

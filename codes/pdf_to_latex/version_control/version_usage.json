@@ -123,5 +123,30 @@
     "book_name": "cybersec",
     "version": "mathpix",
     "last_used": "2025-10-19T20:27:33.024077"
+  },
+  "ai___without_gpt": {
+    "book_name": "ai",
+    "version": "without_gpt",
+    "last_used": "2025-10-21T13:28:56.808849"
+  },
+  "assembly___without_gpt": {
+    "book_name": "assembly",
+    "version": "without_gpt",
+    "last_used": "2025-10-21T13:31:51.228050"
+  },
+  "cybersec___without_gpt": {
+    "book_name": "cybersec",
+    "version": "without_gpt",
+    "last_used": "2025-10-21T13:32:56.062617"
+  },
+  "data-science___without_gpt": {
+    "book_name": "data-science",
+    "version": "without_gpt",
+    "last_used": "2025-10-21T13:33:14.192245"
+  },
+  "algorithms___without_gpt": {
+    "book_name": "algorithms",
+    "version": "without_gpt",
+    "last_used": "2025-10-21T13:31:45.754177"
   }
 }

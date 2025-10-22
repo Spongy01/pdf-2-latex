@@ -1,0 +1,2936 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.28)  21 OCT 2025 13:31
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/a
+ssembly/without_gpt/assembly_final.tex"
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ass
+embly/without_gpt/assembly_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count271
+\c@section=\count272
+\c@subsection=\count273
+\c@subsubsection=\count274
+\c@paragraph=\count275
+\c@subparagraph=\count276
+\c@figure=\count277
+\c@table=\count278
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
+Package: ucharclasses 2022/10/20 v2.6.0 Unicode block character classes for XeL
+aTeX
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\AegeanNumbersClass=\XeTeXcharclass1
+\AlphabeticPresentationFormsClass=\XeTeXcharclass2
+\AncientGreekMusicalNotationClass=\XeTeXcharclass3
+\AncientGreekNumbersClass=\XeTeXcharclass4
+\AncientSymbolsClass=\XeTeXcharclass5
+\ArabicClass=\XeTeXcharclass6
+\ArabicPresentationFormsAClass=\XeTeXcharclass7
+\ArabicPresentationFormsBClass=\XeTeXcharclass8
+\ArabicSupplementClass=\XeTeXcharclass9
+\ArmenianClass=\XeTeXcharclass10
+\ArrowsClass=\XeTeXcharclass11
+\BalineseClass=\XeTeXcharclass12
+\BasicLatinClass=\XeTeXcharclass13
+\BengaliClass=\XeTeXcharclass14
+\BlockElementsClass=\XeTeXcharclass15
+\BopomofoClass=\XeTeXcharclass16
+\BopomofoExtendedClass=\XeTeXcharclass17
+\BoxDrawingClass=\XeTeXcharclass18
+\BraillePatternsClass=\XeTeXcharclass19
+\BugineseClass=\XeTeXcharclass20
+\BuhidClass=\XeTeXcharclass21
+\ByzantineMusicalSymbolsClass=\XeTeXcharclass22
+\ChamClass=\XeTeXcharclass23
+\CherokeeClass=\XeTeXcharclass24
+\CJKCompatibilityClass=\XeTeXcharclass25
+\CJKCompatibilityFormsClass=\XeTeXcharclass26
+\CJKCompatibilityIdeographsClass=\XeTeXcharclass27
+\CJKCompatibilityIdeographsSupplementClass=\XeTeXcharclass28
+\CJKRadicalsSupplementClass=\XeTeXcharclass29
+\CJKStrokesClass=\XeTeXcharclass30
+\CJKSymbolsAndPunctuationClass=\XeTeXcharclass31
+\CJKUnifiedIdeographsClass=\XeTeXcharclass32
+\CJKUnifiedIdeographsExtensionAClass=\XeTeXcharclass33
+\CJKUnifiedIdeographsExtensionBClass=\XeTeXcharclass34
+\CombiningDiacriticalMarksClass=\XeTeXcharclass35
+\CombiningDiacriticalMarksForSymbolsClass=\XeTeXcharclass36
+\CombiningDiacriticalMarksSupplementClass=\XeTeXcharclass37
+\CombiningHalfMarksClass=\XeTeXcharclass38
+\ControlPicturesClass=\XeTeXcharclass39
+\CopticClass=\XeTeXcharclass40
+\CountingRodNumeralsClass=\XeTeXcharclass41
+\CuneiformClass=\XeTeXcharclass42
+\CuneiformNumbersAndPunctuationClass=\XeTeXcharclass43
+\CurrencySymbolsClass=\XeTeXcharclass44
+\CypriotSyllabaryClass=\XeTeXcharclass45
+\CyrillicClass=\XeTeXcharclass46
+\CyrillicExtendedAClass=\XeTeXcharclass47
+\CyrillicExtendedBClass=\XeTeXcharclass48
+\CyrillicSupplementClass=\XeTeXcharclass49
+\DeseretClass=\XeTeXcharclass50
+\DevanagariDanDaClass=\XeTeXcharclass51
+\DevanagariMarksClass=\XeTeXcharclass52
+\DevanagariPostDanDaClass=\XeTeXcharclass53
+\DevanagariPostMarksClass=\XeTeXcharclass54
+\DevanagariPreMarksClass=\XeTeXcharclass55
+\DingbatsClass=\XeTeXcharclass56
+\DominoTilesClass=\XeTeXcharclass57
+\EnclosedAlphanumericsClass=\XeTeXcharclass58
+\EnclosedCJKLettersAndMonthsClass=\XeTeXcharclass59
+\EthiopicClass=\XeTeXcharclass60
+\EthiopicExtendedClass=\XeTeXcharclass61
+\EthiopicSupplementClass=\XeTeXcharclass62
+\GeneralPunctuationClass=\XeTeXcharclass63
+\GeometricShapesClass=\XeTeXcharclass64
+\GeorgianClass=\XeTeXcharclass65
+\GeorgianSupplementClass=\XeTeXcharclass66
+\GlagoliticClass=\XeTeXcharclass67
+\GreekAndCopticClass=\XeTeXcharclass68
+\GreekExtendedClass=\XeTeXcharclass69
+\GujaratiClass=\XeTeXcharclass70
+\GurmukhiClass=\XeTeXcharclass71
+\HalfwidthAndFullwidthFormsClass=\XeTeXcharclass72
+\HangulCompatibilityJamoClass=\XeTeXcharclass73
+\HangulJamoClass=\XeTeXcharclass74
+\HangulSyllablesClass=\XeTeXcharclass75
+\HanunooClass=\XeTeXcharclass76
+\HebrewClass=\XeTeXcharclass77
+\HiraganaClass=\XeTeXcharclass78
+\IdeographicDescriptionCharactersClass=\XeTeXcharclass79
+\IPAExtensionsClass=\XeTeXcharclass80
+\KanbunClass=\XeTeXcharclass81
+\KangxiRadicalsClass=\XeTeXcharclass82
+\KannadaClass=\XeTeXcharclass83
+\KatakanaClass=\XeTeXcharclass84
+\KatakanaPhoneticExtensionsClass=\XeTeXcharclass85
+\KayahLiClass=\XeTeXcharclass86
+\KhmerClass=\XeTeXcharclass87
+\KhmerSymbolsClass=\XeTeXcharclass88
+\LaoClass=\XeTeXcharclass89
+\LatinExtendedAdditionalClass=\XeTeXcharclass90
+\LatinExtendedAClass=\XeTeXcharclass91
+\LatinExtendedBClass=\XeTeXcharclass92
+\LatinExtendedCClass=\XeTeXcharclass93
+\LatinExtendedDClass=\XeTeXcharclass94
+\LatinSupplementClass=\XeTeXcharclass95
+\LepchaClass=\XeTeXcharclass96
+\LetterlikeSymbolsClass=\XeTeXcharclass97
+\LimbuClass=\XeTeXcharclass98
+\LinearBIdeogramsClass=\XeTeXcharclass99
+\LinearBSyllabaryClass=\XeTeXcharclass100
+\MahjongTilesClass=\XeTeXcharclass101
+\MalayalamClass=\XeTeXcharclass102
+\MathematicalAlphanumericSymbolsClass=\XeTeXcharclass103
+\MathematicalOperatorsClass=\XeTeXcharclass104
+\MiscellaneousMathematicalSymbolsAClass=\XeTeXcharclass105
+\MiscellaneousMathematicalSymbolsBClass=\XeTeXcharclass106
+\MiscellaneousSymbolsClass=\XeTeXcharclass107
+\MiscellaneousSymbolsAndArrowsClass=\XeTeXcharclass108
+\MiscellaneousTechnicalClass=\XeTeXcharclass109
+\ModifierToneLettersClass=\XeTeXcharclass110
+\MongolianClass=\XeTeXcharclass111
+\MusicalSymbolsClass=\XeTeXcharclass112
+\MyanmarClass=\XeTeXcharclass113
+\NewTaiLueClass=\XeTeXcharclass114
+\NKoClass=\XeTeXcharclass115
+\NumberFormsClass=\XeTeXcharclass116
+\OghamClass=\XeTeXcharclass117
+\OlChikiClass=\XeTeXcharclass118
+\OldPersianClass=\XeTeXcharclass119
+\OpticalCharacterRecognitionClass=\XeTeXcharclass120
+\OriyaClass=\XeTeXcharclass121
+\OsmanyaClass=\XeTeXcharclass122
+\PhagsPaClass=\XeTeXcharclass123
+\PhoenicianClass=\XeTeXcharclass124
+\PhoneticExtensionsClass=\XeTeXcharclass125
+\PhoneticExtensionsSupplementClass=\XeTeXcharclass126
+\PrivateUseAreaClass=\XeTeXcharclass127
+\RejangClass=\XeTeXcharclass128
+\RunicClass=\XeTeXcharclass129
+\SaurashtraClass=\XeTeXcharclass130
+\ShavianClass=\XeTeXcharclass131
+\SinhalaClass=\XeTeXcharclass132
+\SmallFormVariantsClass=\XeTeXcharclass133
+\SpacingModifierLettersClass=\XeTeXcharclass134
+\SundaneseClass=\XeTeXcharclass135
+\SuperscriptsAndSubscriptsClass=\XeTeXcharclass136
+\SupplementalArrowsAClass=\XeTeXcharclass137
+\SupplementalArrowsBClass=\XeTeXcharclass138
+\SupplementalMathematicalOperatorsClass=\XeTeXcharclass139
+\SupplementalPunctuationClass=\XeTeXcharclass140
+\SylotiNagriClass=\XeTeXcharclass141
+\SyriacClass=\XeTeXcharclass142
+\TagalogClass=\XeTeXcharclass143
+\TagbanwaClass=\XeTeXcharclass144
+\TagsClass=\XeTeXcharclass145
+\TaiLeClass=\XeTeXcharclass146
+\TaiXuanJingSymbolsClass=\XeTeXcharclass147
+\TamilClass=\XeTeXcharclass148
+\TeluguClass=\XeTeXcharclass149
+\ThaanaClass=\XeTeXcharclass150
+\ThaiClass=\XeTeXcharclass151
+\TibetanClass=\XeTeXcharclass152
+\TifinaghClass=\XeTeXcharclass153
+\UgariticClass=\XeTeXcharclass154
+\UnifiedCanadianAboriginalSyllabicsClass=\XeTeXcharclass155
+\VaiClass=\XeTeXcharclass156
+\VerticalFormsClass=\XeTeXcharclass157
+\YiRadicalsClass=\XeTeXcharclass158
+\YiSyllablesClass=\XeTeXcharclass159
+\YijingHexagramSymbolsClass=\XeTeXcharclass160
+\AvestanClass=\XeTeXcharclass161
+\BamumClass=\XeTeXcharclass162
+\CJKUnifiedIdeographsExtensionCClass=\XeTeXcharclass163
+\CommonIndicNumberFormsClass=\XeTeXcharclass164
+\DevanagariExtendedClass=\XeTeXcharclass165
+\EgyptianHieroglyphsClass=\XeTeXcharclass166
+\EnclosedAlphanumericSupplementClass=\XeTeXcharclass167
+\EnclosedIdeographicSupplementClass=\XeTeXcharclass168
+\HangulJamoExtendedAClass=\XeTeXcharclass169
+\HangulJamoExtendedBClass=\XeTeXcharclass170
+\ImperialAramaicClass=\XeTeXcharclass171
+\InscriptionalPahlaviClass=\XeTeXcharclass172
+\InscriptionalParthianClass=\XeTeXcharclass173
+\JavaneseClass=\XeTeXcharclass174
+\KaithiClass=\XeTeXcharclass175
+\LisuClass=\XeTeXcharclass176
+\MeeteiMayekClass=\XeTeXcharclass177
+\MyanmarExtendedAClass=\XeTeXcharclass178
+\RumiNumeralSymbolsClass=\XeTeXcharclass179
+\SamaritanClass=\XeTeXcharclass180
+\TaiThamClass=\XeTeXcharclass181
+\TaiVietClass=\XeTeXcharclass182
+\UnifiedCanadianAboriginalSyllabicsExtendedClass=\XeTeXcharclass183
+\VedicExtensionsClass=\XeTeXcharclass184
+\AlchemicalSymbolsClass=\XeTeXcharclass185
+\BamumSupplementClass=\XeTeXcharclass186
+\BatakClass=\XeTeXcharclass187
+\BrahmiClass=\XeTeXcharclass188
+\CJKUnifiedIdeographsExtensionDClass=\XeTeXcharclass189
+\EmoticonsClass=\XeTeXcharclass190
+\EthiopicExtendedAClass=\XeTeXcharclass191
+\KanaSupplementClass=\XeTeXcharclass192
+\MandaicClass=\XeTeXcharclass193
+\MiscellaneousSymbolsAndPictographsClass=\XeTeXcharclass194
+\PlayingCardsClass=\XeTeXcharclass195
+\TransportAndMapSymbolsClass=\XeTeXcharclass196
+\ArabicExtendedAClass=\XeTeXcharclass197
+\ArabicMathematicalAlphabeticSymbolsClass=\XeTeXcharclass198
+\ChakmaClass=\XeTeXcharclass199
+\MeeteiMayekExtensionsClass=\XeTeXcharclass200
+\MeroiticCursiveClass=\XeTeXcharclass201
+\MeroiticHieroglyphsClass=\XeTeXcharclass202
+\MiaoClass=\XeTeXcharclass203
+\SharadaClass=\XeTeXcharclass204
+\SoraSompengClass=\XeTeXcharclass205
+\SundaneseSupplementClass=\XeTeXcharclass206
+\TakriClass=\XeTeXcharclass207
+\BassaVahClass=\XeTeXcharclass208
+\CaucasianAlbanianClass=\XeTeXcharclass209
+\CombiningDiacriticalMarksExtendedClass=\XeTeXcharclass210
+\CopticEpactNumbersClass=\XeTeXcharclass211
+\ElbasanClass=\XeTeXcharclass212
+\GeometricShapesExtendedClass=\XeTeXcharclass213
+\GranthaClass=\XeTeXcharclass214
+\KhojkiClass=\XeTeXcharclass215
+\KhudawadiClass=\XeTeXcharclass216
+\LatinExtendedEClass=\XeTeXcharclass217
+\LinearAClass=\XeTeXcharclass218
+\MahajaniClass=\XeTeXcharclass219
+\MendeKikakuiClass=\XeTeXcharclass220
+\ModiClass=\XeTeXcharclass221
+\MroClass=\XeTeXcharclass222
+\MyanmarExtendedBClass=\XeTeXcharclass223
+\OrnamentalDingbatsClass=\XeTeXcharclass224
+\PahawhHmongClass=\XeTeXcharclass225
+\PauCinHauClass=\XeTeXcharclass226
+\SiddhamClass=\XeTeXcharclass227
+\SinhalaArchaicNumbersClass=\XeTeXcharclass228
+\SupplementalArrowsCClass=\XeTeXcharclass229
+\TirhutaClass=\XeTeXcharclass230
+\WarangCitiClass=\XeTeXcharclass231
+\CherokeeSupplementClass=\XeTeXcharclass232
+\CJKUnifiedIdeographsExtensionEClass=\XeTeXcharclass233
+\SupplementalSymbolsAndPictographsClass=\XeTeXcharclass234
+\CyrillicExtendedCClass=\XeTeXcharclass235
+\GlagoliticSupplementClass=\XeTeXcharclass236
+\IdeographicSymbolsAndPunctuationClass=\XeTeXcharclass237
+\MongolianSupplementClass=\XeTeXcharclass238
+\CJKUnifiedIdeographsExtensionFClass=\XeTeXcharclass239
+\KanaExtendedAClass=\XeTeXcharclass240
+\SyriacSupplementClass=\XeTeXcharclass241
+\GeorgianExtendedClass=\XeTeXcharclass242
+\SmallKanaExtensionClass=\XeTeXcharclass243
+\SymbolsAndPictographsExtendedAClass=\XeTeXcharclass244
+\CJKUnifiedIdeographsExtensionGClass=\XeTeXcharclass245
+\ArabicExtendedBClass=\XeTeXcharclass246
+\EthiopicExtendedBClass=\XeTeXcharclass247
+\KanaExtendedBClass=\XeTeXcharclass248
+\LatinExtendedFClass=\XeTeXcharclass249
+\LatinExtendedGClass=\XeTeXcharclass250
+\UnifiedCanadianAboriginalSyllabicsExtendedAClass=\XeTeXcharclass251
+\ArabicExtendedCClass=\XeTeXcharclass252
+\CJKUnifiedIdeographsExtensionHClass=\XeTeXcharclass253
+\CyrillicExtendedDClass=\XeTeXcharclass254
+\DevanagariExtendedAClass=\XeTeXcharclass255
+\CarianClass=\XeTeXcharclass256
+\GothicClass=\XeTeXcharclass257
+\KharoshthiClass=\XeTeXcharclass258
+\LycianClass=\XeTeXcharclass259
+\LydianClass=\XeTeXcharclass260
+\OldItalicClass=\XeTeXcharclass261
+\PhaistosDiscClass=\XeTeXcharclass262
+\SupplementaryPrivateUseAreaAClass=\XeTeXcharclass263
+\SupplementaryPrivateUseAreaBClass=\XeTeXcharclass264
+\OldSouthArabianClass=\XeTeXcharclass265
+\OldTurkicClass=\XeTeXcharclass266
+\DuployanClass=\XeTeXcharclass267
+\ManichaeanClass=\XeTeXcharclass268
+\NabataeanClass=\XeTeXcharclass269
+\OldNorthArabianClass=\XeTeXcharclass270
+\OldPermicClass=\XeTeXcharclass271
+\PalmyreneClass=\XeTeXcharclass272
+\PsalterPahlaviClass=\XeTeXcharclass273
+\ShorthandFormatControlsClass=\XeTeXcharclass274
+\AhomClass=\XeTeXcharclass275
+\AnatolianHieroglyphsClass=\XeTeXcharclass276
+\EarlyDynasticCuneiformClass=\XeTeXcharclass277
+\HatranClass=\XeTeXcharclass278
+\MultaniClass=\XeTeXcharclass279
+\OldHungarianClass=\XeTeXcharclass280
+\SuttonSignWritingClass=\XeTeXcharclass281
+\AdlamClass=\XeTeXcharclass282
+\BhaiksukiClass=\XeTeXcharclass283
+\MarchenClass=\XeTeXcharclass284
+\NewaClass=\XeTeXcharclass285
+\OsageClass=\XeTeXcharclass286
+\TangutClass=\XeTeXcharclass287
+\TangutComponentsClass=\XeTeXcharclass288
+\MasaramGondiClass=\XeTeXcharclass289
+\NushuClass=\XeTeXcharclass290
+\SoyomboClass=\XeTeXcharclass291
+\ZanabazarSquareClass=\XeTeXcharclass292
+\ChessSymbolsClass=\XeTeXcharclass293
+\DograClass=\XeTeXcharclass294
+\GunjalaGondiClass=\XeTeXcharclass295
+\HanifiRohingyaClass=\XeTeXcharclass296
+\IndicSiyaqNumbersClass=\XeTeXcharclass297
+\MakasarClass=\XeTeXcharclass298
+\MayanNumeralsClass=\XeTeXcharclass299
+\MedefaidrinClass=\XeTeXcharclass300
+\OldSogdianClass=\XeTeXcharclass301
+\SogdianClass=\XeTeXcharclass302
+\EgyptianHieroglyphFormatControlsClass=\XeTeXcharclass303
+\ElymaicClass=\XeTeXcharclass304
+\NandinagariClass=\XeTeXcharclass305
+\NyiakengPuachueHmongClass=\XeTeXcharclass306
+\OttomanSiyaqNumbersClass=\XeTeXcharclass307
+\TamilSupplementClass=\XeTeXcharclass308
+\WanchoClass=\XeTeXcharclass309
+\ChorasmianClass=\XeTeXcharclass310
+\DivesAkuruClass=\XeTeXcharclass311
+\KhitanSmallScriptClass=\XeTeXcharclass312
+\LisuSupplementClass=\XeTeXcharclass313
+\SymbolsForLegacyComputingClass=\XeTeXcharclass314
+\TangutSupplementClass=\XeTeXcharclass315
+\YezidiClass=\XeTeXcharclass316
+\CyproMinoanClass=\XeTeXcharclass317
+\OldUighurClass=\XeTeXcharclass318
+\TangsaClass=\XeTeXcharclass319
+\TotoClass=\XeTeXcharclass320
+\VithkuqiClass=\XeTeXcharclass321
+\ZnamennyMusicalNotationClass=\XeTeXcharclass322
+\KaktovikNumeralsClass=\XeTeXcharclass323
+\KawiClass=\XeTeXcharclass324
+\NagMundariClass=\XeTeXcharclass325
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen149
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count279
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count280
+\leftroot@=\count281
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count282
+\DOTSCASE@=\count283
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count284
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count285
+\dotsspace@=\muskip17
+\c@parentequation=\count286
+\dspbrk@lvl=\count287
+\tag@help=\toks20
+\row@=\count288
+\column@=\count289
+\maxfields@=\count290
+\andhelp@=\toks21
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks22
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-09-02 L3 programming layer (loader) 
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2025-06-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count291
+\g__pdfannot_backend_int=\count292
+\g__pdfannot_backend_link_int=\count293
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count294
+\calc@Bcount=\count295
+\calc@Adimen=\dimen158
+\calc@Bdimen=\dimen159
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count296
+\calc@Cskip=\skip56
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count297
+\g__chemgreek_tmpa_int=\count298
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\l__mhchem_ce_distanceFromLastComma_int=\count299
+\__mhchem_arrow_extPgfLength_skip=\skip57
+\mhchem@minispace@tmp=\skip58
+\mhchem@minibackspace@tmp=\skip59
+\mhchem@bondwidth=\skip60
+\mhchem@bondheight=\skip61
+\mhchem@smallbondwidth@tmpA=\skip62
+\mhchem@smallbondwidth@tmpB=\skip63
+\mhchem@smallbondwidth=\skip64
+\mhchem@bondtmp@minussidebearingleft=\skip65
+\mhchem@bondtmp@minussidebearingright=\skip66
+\l__mhchem_option_version_int=\count300
+\mhchem@option@minusmathsidebearingleft=\dimen160
+\mhchem@option@minusmathsidebearingright=\dimen161
+\mhchem@option@minustextsidebearingleft=\dimen162
+\mhchem@option@minustextsidebearingright=\dimen163
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count301
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count302
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen164
+\Hy@linkcounter=\count303
+\Hy@pagecounter=\count304
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count305
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count306
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen165
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count307
+\Field@Width=\dimen166
+\Fld@charsize=\dimen167
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count308
+\c@Item=\count309
+\c@Hfootnote=\count310
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2025-07-12 v7.01o Hyperref driver for XeTeX
+\pdfm@box=\box55
+\c@Hy@AnnotLevel=\count311
+\HyField@AnnotCount=\count312
+\Fld@listcount=\count313
+\c@bookmark@seq@number=\count314
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip67
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 11.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen168
+\Gin@req@width=\dimen169
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
+)
+\XKV@depth=\count315
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box56
+)
+\tc@llx=\dimen170
+\tc@lly=\dimen171
+\tc@urx=\dimen172
+\tc@ury=\dimen173
+Package trimclip Info: Using driver 'tc-xetex.def'.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen174
+\adjbox@Height=\dimen175
+\adjbox@Depth=\dimen176
+\adjbox@Totalheight=\dimen177
+\adjbox@pwidth=\dimen178
+\adjbox@pheight=\dimen179
+\adjbox@pdepth=\dimen180
+\adjbox@ptotalheight=\dimen181
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count316
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box57
+\sift@deathcycles=\count317
+\@vwid@loff=\dimen182
+\@vwid@roff=\dimen183
+)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/soul/soul-ori.sty
+Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
+\SOUL@word=\toks27
+\SOUL@lasttoken=\toks28
+\SOUL@syllable=\toks29
+\SOUL@cmds=\toks30
+\SOUL@buffer=\toks31
+\SOUL@token=\toks32
+\SOUL@syllgoal=\dimen184
+\SOUL@syllwidth=\dimen185
+\SOUL@charkern=\dimen186
+\SOUL@hyphkern=\dimen187
+\SOUL@dimen=\dimen188
+\SOUL@dimeni=\dimen189
+\SOUL@minus=\count318
+\SOUL@comma=\count319
+\SOUL@apo=\count320
+\SOUL@grave=\count321
+\SOUL@spaceskip=\skip68
+\SOUL@ttwidth=\dimen190
+\SOUL@uldp=\dimen191
+\SOUL@ulht=\dimen192
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 149.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip69
+\multirow@cntb=\count322
+\multirow@dima=\skip70
+\bigstrutjot=\dimen193
+)
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y
+Package: xtemplate 2024-08-16 L3 Experimental prototype document functions
+)
+\l__xeCJK_tmp_int=\count323
+\l__xeCJK_tmp_box=\box58
+\l__xeCJK_tmp_dim=\dimen194
+\l__xeCJK_tmp_skip=\skip71
+\g__xeCJK_space_factor_int=\count324
+\l__xeCJK_begin_int=\count325
+\l__xeCJK_end_int=\count326
+\c__xeCJK_CJK_class_int=\XeTeXcharclass326
+\c__xeCJK_FullLeft_class_int=\XeTeXcharclass327
+\c__xeCJK_FullRight_class_int=\XeTeXcharclass328
+\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass329
+\c__xeCJK_HalfRight_class_int=\XeTeXcharclass330
+\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass331
+\c__xeCJK_CM_class_int=\XeTeXcharclass332
+\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass333
+\l__xeCJK_last_skip=\skip72
+\c__xeCJK_none_node=\count327
+\g__xeCJK_node_int=\count328
+\c__xeCJK_CJK_node_dim=\dimen195
+\c__xeCJK_CJK-space_node_dim=\dimen196
+\c__xeCJK_default_node_dim=\dimen197
+\c__xeCJK_CJK-widow_node_dim=\dimen198
+\c__xeCJK_normalspace_node_dim=\dimen199
+\c__xeCJK_default-space_node_skip=\skip73
+\l__xeCJK_ccglue_skip=\skip74
+\l__xeCJK_ecglue_skip=\skip75
+\l__xeCJK_punct_kern_skip=\skip76
+\l__xeCJK_indent_box=\box59
+\l__xeCJK_last_penalty_int=\count329
+\l__xeCJK_last_bound_dim=\dimen256
+\l__xeCJK_last_kern_dim=\dimen257
+\l__xeCJK_widow_penalty_int=\count330
+
+LaTeX template Info: Declaring template type 'xeCJK/punctuation' taking 0
+(template)           argument(s) on line 2396.
+
+\l__xeCJK_fixed_punct_width_dim=\dimen258
+\l__xeCJK_mixed_punct_width_dim=\dimen259
+\l__xeCJK_middle_punct_width_dim=\dimen260
+\l__xeCJK_fixed_margin_width_dim=\dimen261
+\l__xeCJK_mixed_margin_width_dim=\dimen262
+\l__xeCJK_middle_margin_width_dim=\dimen263
+\l__xeCJK_bound_punct_width_dim=\dimen264
+\l__xeCJK_bound_margin_width_dim=\dimen265
+\l__xeCJK_margin_minimum_dim=\dimen266
+\l__xeCJK_kerning_total_width_dim=\dimen267
+\l__xeCJK_same_align_margin_dim=\dimen268
+\l__xeCJK_different_align_margin_dim=\dimen269
+\l__xeCJK_kerning_margin_width_dim=\dimen270
+\l__xeCJK_kerning_margin_minimum_dim=\dimen271
+\l__xeCJK_bound_dim=\dimen272
+\l__xeCJK_reverse_bound_dim=\dimen273
+\l__xeCJK_margin_dim=\dimen274
+\l__xeCJK_minimum_bound_dim=\dimen275
+\l__xeCJK_kerning_margin_dim=\dimen276
+\g__xeCJK_family_int=\count331
+\l__xeCJK_fam_int=\count332
+\g__xeCJK_fam_allocation_int=\count333
+\l__xeCJK_verb_case_int=\count334
+\l__xeCJK_verb_exspace_skip=\skip77
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count335
+\l__fontspec_language_int=\count336
+\l__fontspec_strnum_int=\count337
+\l__fontspec_tmp_int=\count338
+\l__fontspec_tmpa_int=\count339
+\l__fontspec_tmpb_int=\count340
+\l__fontspec_tmpc_int=\count341
+\l__fontspec_em_int=\count342
+\l__fontspec_emdef_int=\count343
+\l__fontspec_strong_int=\count344
+\l__fontspec_strongdef_int=\count345
+\l__fontspec_tmpa_dim=\dimen277
+\l__fontspec_tmpb_dim=\dimen278
+\l__fontspec_tmpc_dim=\dimen279
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2025/09/22 v2.8 Modern multilingual typesetting with XeLaT
+eX and LuaLaTeX
+\l_xpg_alias_keyvals_int=\count346
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/newunicodechar/newunicodechar.sty
+Package: newunicodechar 2018/04/08 v1.2 Defining Unicode characters
+)
+
+Package fontspec Info: 
+(fontspec)             Script 'CJK' not explicitly supported within font
+(fontspec)             'STSong'. Check the typeset output, and if it is okay
+(fontspec)             then ignore this warning. Otherwise a different font
+(fontspec)             should be chosen.
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "STSong/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "STSong/B" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "STSong/I" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'STSong(0)' created for font 'STSong' with
+(fontspec)             options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"STSong/OT:script=hani;language=dflt;"
+
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for English
+)
+
+Package polyglossia Info: Default language is english
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-dutch.ldf
+File: gloss-dutch.ldf polyglossia: module for Dutch
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/babelsh.def
+File: babelsh.def 2022/06/21 Babel common definitions for shorthands
+ Taken verbatim from babel files (2022/06/06 v3.76)
+)
+Package babel Info: Making " an active character on input line 35.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-thai.ldf
+File: gloss-thai.ldf polyglossia: module for Thai
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-hebrew.ldf
+File: gloss-hebrew.ldf polyglossia: module for Hebrew
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bidi/bidi.sty
+Package: bidi 2025/09/26 v25.09.26 (Release Iran) Bidirectional typesetting in 
+plain TeX and LaTeX
+
+****************************************************
+* 
+* bidi package (Bidirectional typesetting with
+* plain TeX and LaTeX formats in XeTeX and LuaTeX engines)
+* 
+* Description: A convenient interface for
+* typesetting bidirectional texts in plain TeX
+* and LaTeX. The package includes adaptations
+* for use with many other commonly-used packages.
+* 
+* Copyright (c) 2007--2025 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub organization
+* 
+* v25.09.26 (Release Iran), 2025/09/26
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/unicodetex/generic/bidi
+* 
+* Issue tracker: https://github.com/xepersian/bidi/issues
+* 
+* Primary author of bidi package: Vafa Khalighi.
+* 
+****************************************************
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bidi/biditools.sty
+Package: biditools 2025/02/02 v2.7 Programming tools for bidi package
+\@bidi@envbody=\toks33
+\@bidi@emptytoks=\toks34
+\bidi@poscount=\count347
+\bidi@tempcountb=\count348
+\bidi@temptoksa=\toks35
+\bidi@temptoksb=\toks36
+\bidi@dummies=\count349
+\bidi@are@these@correct=\toks37
+\bidi@toks@lista=\toks38
+\bidi@toks@listb=\toks39
+\bidi@stack@length=\count350
+\bidi@empty@stack=\toks40
+\bidi@looprepeat@depth=\count351
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2025-06-08 v2.36 Module abspage for zref (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2025-06-08 v2.36 Module base for zref (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count352
+Package zref Info: New property: abspage on input line 67.
+)
+\@bidi@copyins@=\insert252
+\bidi@typesethour=\count353
+\bidi@typesetminute=\count354
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bidi/latex-xetex-bidi.def
+File: latex-xetex-bidi.def 2025/09/20 v1.5.3 bidi adaptations for `latex.ltx' f
+or XeTeX engine
+\bidi@n@everypar=\toks41
+LaTeX Info: Redefining \centerline on input line 316.
+LaTeX Info: Redefining \leftline on input line 325.
+LaTeX Info: Redefining \rightline on input line 326.
+LaTeX Info: Redefining \underline on input line 334.
+\bidi@column@check@number=\count355
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bidi/footnote-xetex-bidi.def
+File: footnote-xetex-bidi.def 2025/09/26 v1.5 bidi footnote macros for XeTeX en
+gine
+\c@footdir@label=\count356
+\footdir@toks=\toks42
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bidi/article-xetex-bidi.def
+File: article-xetex-bidi.def 2025/09/08 v1.1 bidi adaptations for standard arti
+cle class for XeTeX engine
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bidi/amsmath-xetex-bidi.def
+File: amsmath-xetex-bidi.def 2020/05/16 v1.2 bidi adaptations for amsmath packa
+ge for XeTeX engine
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bidi/amstext-xetex-bidi.def
+File: amstext-xetex-bidi.def 2016/09/12 v0.2 bidi adaptations for amstext packa
+ge for XeTeX engine
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bidi/color-xetex-bidi.def
+File: color-xetex-bidi.def 2013/04/08 v0.2 bidi adaptations for color package f
+or XeTeX engine
+LaTeX Info: Redefining \color on input line 49.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bidi/graphicx-xetex-bidi.def
+File: graphicx-xetex-bidi.def 2017/06/17 v0.5 bidi adaptations for graphicx pac
+kage for XeTeX engine
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bidi/hyperref-xetex-bidi.def
+File: hyperref-xetex-bidi.def 2025/01/05 v1.4 bidi adaptations for hyperref pac
+kage for XeTeX engine
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bidi/soul-xetex-bidi.def
+File: soul-xetex-bidi.def 2015/10/16 v0.1 bidi adaptations for soul package for
+ XeTeX engine
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bidi/tc-xetex-xetex-bidi.def
+File: tc-xetex-xetex-bidi.def 2014/07/08 v0.1 bidi adaptations for Clipping dri
+ver for XeTeX engine
+))
+\bidi@digits=\count357
+\bidi@digits@charclass=\XeTeXcharclass334
+\bidi@sepmark@charclass=\XeTeXcharclass335
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/hebrewcal.sty
+Package: hebrewcal 2022/07/18 v2.8 Hebrew calendar for polyglossia (adapted fro
+m hebcal.sty in Babel)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/cal-util.def
+\c@tmpA=\count358
+\c@tmpB=\count359
+\c@tmpC=\count360
+\c@tmpD=\count361
+\c@tmpE=\count362
+\c@tmpF=\count363
+)
+\hebrewday=\count364
+\hebrewmonth=\count365
+\hebrewyear=\count366
+\@common=\count367
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/babel-hebrewalph.def
+File: babel-hebrewalph.def 2023/06/01 Expandable definitions for Hebrew numeral
+s
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-hindi.ldf
+File: gloss-hindi.ldf polyglossia: module for Hindi
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/devanagaridigits.sty
+Package: devanagaridigits 2010/04/01 v0.1 Formatting of Devanagari digits
+))
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Thonburi/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Thonburi(0)' created for font 'Thonburi'
+(fontspec)             with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Thonburi/AAT"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Thonburi/B/AAT"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Thonburi/BI/AAT"
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Arial Hebrew/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'ArialHebrew(0)' created for font 'Arial
+(fontspec)             Hebrew' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Arial
+(fontspec)             Hebrew/OT:language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Arial
+(fontspec)             Hebrew/B/OT:language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Arial
+(fontspec)             Hebrew/BI/OT:language=dflt;"
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Kohinoor Devanagari/I" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'KohinoorDevanagari(0)' created for font
+(fontspec)             'Kohinoor Devanagari' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Kohinoor
+(fontspec)             Devanagari/OT:script=DFLT;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Kohinoor
+(fontspec)             Devanagari/B/OT:script=DFLT;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Kohinoor
+(fontspec)             Devanagari/BI/OT:script=DFLT;language=dflt;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Georgia(0)' created for font 'Georgia'
+(fontspec)             with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Georgia/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Georgia/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Georgia/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Georgia/BI/OT:script=latn;language=dflt;"
+
+ (./assembly_final.aux)
+\openout1 = `assembly_final.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+
+Package chemgreek Info: Activating mapping `fontspec' on line 93.
+
+Package hyperref Info: Link coloring ON on input line 93.
+ (./assembly_final.out) (./assembly_final.out)
+\@outlinefile=\write3
+\openout3 = `assembly_final.out'.
+
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 93.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 93.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 93.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 93.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 93.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 93.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 93.
+LaTeX Font Info:    Redeclaring math accent \check on input line 93.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 93.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 93.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 93.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 93.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 93.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 93.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 93.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 93.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 93.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 93.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 93.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 93.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 95.
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 95.
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 9
+5.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+LaTeX Font Info:    Font shape `TU/Georgia(0)/bx/n' in size <14.4> not availabl
+e
+(Font)              Font shape `TU/Georgia(0)/b/n' tried instead on input line 
+100.
+
+Overfull \hbox (3.26732pt too wide) in paragraph at lines 109--117
+[]\TU/Georgia(0)/m/n/10 Iain Stewart © , Department of Computer Science, Durham
+ University, Durham,[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--117
+[][]
+ []
+
+
+
+[1
+
+]
+Overfull \hbox (2.37796pt too wide) in paragraph at lines 122--123
+[][]\TU/Georgia(0)/m/n/10 More information about this series at [][][]http://ww
+w.springer.com/series/7592[][][] []
+ []
+
+
+Overfull \hbox (6.75647pt too wide) in paragraph at lines 134--145
+[]\TU/Georgia(0)/m/n/10 This work is subject to copyright. All rights are reser
+ved by the Publisher, whether[]
+ []
+
+
+
+[2]
+LaTeX Font Info:    Font shape `TU/Georgia(0)/bx/n' in size <12> not available
+(Font)              Font shape `TU/Georgia(0)/b/n' tried instead on input line 
+151.
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
+[][]
+ []
+
+
+Overfull \hbox (0.4395pt too wide) in paragraph at lines 167--168
+[]\TU/Georgia(0)/m/n/10 stand how high-level languages are implemented and vari
+ous related com-[]
+ []
+
+
+
+[3]
+
+[4]
+Overfull \hbox (10.54402pt too wide) in paragraph at lines 207--208
+[]\TU/Georgia(0)/m/n/10 guage, such as if-then, if-then-else, nested if structu
+res, and the case (switch)[]
+ []
+
+
+
+[5]
+Overfull \hbox (1.1433pt too wide) in paragraph at lines 212--213
+[][]\TU/Georgia(0)/m/n/10 Chapter 9 discusses strings, string instructions, arr
+ays of strings, and com-[]
+ []
+
+
+
+[6]
+
+[7] (./assembly_final.toc
+LaTeX Font Info:    Font shape `TU/Georgia(0)/bx/n' in size <10> not available
+(Font)              Font shape `TU/Georgia(0)/b/n' tried instead on input line 
+2.
+
+Overfull \hbox (0.1863pt too wide) in paragraph at lines 9--9
+ [][][] [][][][]\TU/Georgia(0)/m/n/10 Comparison to Computer Organization and O
+ther Assembly Lan-[][] 
+ []
+
+
+Overfull \hbox (11.2973pt too wide) in paragraph at lines 20--20
+ [][][] [][][][]\TU/Georgia(0)/m/n/10 Implementing Unary Operators: Increment, 
+Decrement, and Nega-[][] 
+ []
+
+
+
+[8]
+
+[9]
+
+[10]
+Overfull \hbox (1.3465pt too wide) in paragraph at lines 142--142
+ [][] [][][][]\TU/Georgia(0)/b/n/10 Appendix B: Binary, Hexadecimal, Logic, Ari
+thmetic, and Data[][] 
+ []
+
+
+
+[11]
+
+[12]
+
+[13])
+\tf@toc=\write4
+\openout4 = `assembly_final.toc'.
+
+
+
+Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
+(xeCJK)                
+(xeCJK)                Try to use `\setCJKmonofont[<...>]{<...>}' to define
+(xeCJK)                it.
+
+
+
+[14]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-046.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-046.jpg>
+
+
+[15]
+
+[16]
+
+[17]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-049.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-049.jpg>
+
+
+[18]
+
+[19]
+Overfull \hbox (24.08923pt too wide) in paragraph at lines 468--481
+ [][][] 
+ []
+
+
+
+[20]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-051.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-051.jpg>
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-052.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-052.jpg>
+
+
+[21]
+
+[22]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-054.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-054.jpg>
+
+Overfull \hbox (0.4164pt too wide) in paragraph at lines 587--588
+[][]\TU/Georgia(0)/m/n/10 As shown before with increment and decrement, one cou
+ld accomplish nega-[]
+ []
+
+
+
+[23]
+
+[24]
+
+[25]
+
+[26]
+Overfull \hbox (13.18497pt too wide) in paragraph at lines 735--735
+[][]\TU/Georgia(0)/b/n/12 Complete Program: Implementing I/O and Arithmetic []
+ []
+
+
+
+[27]
+
+[28]
+Overfull \hbox (0.18396pt too wide) in paragraph at lines 795--796
+[][]\TU/Georgia(0)/m/n/10 Follow the order of operations when implementing arit
+hmetic statements: []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 840--842
+[][]
+ []
+
+
+
+[29]
+
+[30]
+Overfull \hbox (0.169pt too wide) in paragraph at lines 895--896
+[]\TU/Georgia(0)/m/n/10 high-level control structures, they cannot be used to c
+ontrol the high-level struc-[]
+ []
+
+
+
+[31]
+Overfull \hbox (4.16835pt too wide) in paragraph at lines 918--919
+[]\TU/Georgia(0)/m/n/10 which indicates that these words are not actual executa
+ble instructions but rather[]
+ []
+
+
+
+[32]
+Overfull \hbox (101.60652pt too wide) in paragraph at lines 948--965
+ [][][] 
+ []
+
+
+
+[33]
+Overfull \hbox (82.63385pt too wide) in paragraph at lines 1032--1044
+ [][][] 
+ []
+
+
+
+[34]
+
+[35]
+Overfull \hbox (1.15703pt too wide) in paragraph at lines 1073--1074
+[][]\TU/Georgia(0)/m/n/10 A few other remarks are necessary concerning the abov
+e code segment. First,[]
+ []
+
+
+
+[36]
+
+[37]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-071.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-071.jpg>
+
+
+[38]
+
+[39]
+Overfull \hbox (1.9496pt too wide) in paragraph at lines 1189--1190
+[][]\TU/Georgia(0)/m/n/10 Given the previous discussion of the nested if-then-e
+lse-if structure, it should[]
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-072.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-072.jpg>
+
+
+[40]
+
+[41]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-073.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-073.jpg>
+
+
+[42]
+
+[43]
+Overfull \hbox (26.5987pt too wide) in paragraph at lines 1272--1287
+ [][][] 
+ []
+
+
+
+[44]
+
+[45]
+
+[46]
+
+[47]
+
+[48]
+
+[49]
+
+[50]
+Overfull \hbox (76.42719pt too wide) in paragraph at lines 1513--1528
+ [][][] 
+ []
+
+
+
+[51]
+Overfull \hbox (18.34866pt too wide) in paragraph at lines 1567--1582
+ [][][] 
+ []
+
+
+
+[52]
+
+[53]
+Overfull \hbox (0.81384pt too wide) in paragraph at lines 1650--1651
+[][]\TU/Georgia(0)/m/n/10 Nested if-then-else-if structures are usually preferr
+ed over if-then-if struc-[]
+ []
+
+
+
+[54]
+
+[55]
+
+[56]
+
+[57]
+
+[58]
+
+[59]
+
+[60]
+
+[61]
+
+[62]
+
+[63]
+
+[64]
+
+[65]
+
+[66]
+
+[67]
+
+[68]
+
+[69]
+
+[70]
+
+[71]
+
+[72]
+
+[73]
+
+[74]
+
+[75]
+Overfull \hbox (20.51764pt too wide) in paragraph at lines 2452--2453
+[]\TU/Georgia(0)/m/n/10 but rather assuming that flag equals 01101110 in binary
+ and maskit equals 00000100[]
+ []
+
+
+
+[76]
+
+[77]
+
+[78]
+
+[79]
+
+[80]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-116.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-116.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2629--2631
+[][]
+ []
+
+
+
+[81]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-116(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-116(1).jpg>
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-117.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-117.jpg>
+
+
+[82]
+
+[83]
+
+[84]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-120(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-120(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2716--2718
+[][]
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-120.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-120.jpg>
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 2719--2720
+[][][] []
+ []
+
+
+
+[85]
+Overfull \hbox (3.66998pt too wide) in paragraph at lines 2737--2738
+[][]\TU/Georgia(0)/m/n/10 Assuming 32-bit words and using the sal instruction, 
+it could be implemented[]
+ []
+
+
+
+[86]
+
+[87]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-123.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-123.jpg>
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-124.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-124.jpg>
+
+
+[88]
+
+[89]
+
+[90]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-126.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-126.jpg>
+
+
+[91]
+Overfull \hbox (9.39754pt too wide) in paragraph at lines 2902--2903
+[]\TU/Georgia(0)/m/n/10 As another example of using the stack, assume that two 
+values need to be swapped,[]
+ []
+
+
+
+[92]
+
+[93]
+Overfull \hbox (0.21295pt too wide) in paragraph at lines 2975--2976
+[][]\TU/Georgia(0)/m/n/10 With respect to register usage when swapping to memor
+y locations, the stack[]
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-130.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-130.jpg>
+
+
+[94]
+Overfull \hbox (40.0186pt too wide) in paragraph at lines 2987--3001
+ [][][] 
+ []
+
+
+
+[95]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-131.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-131.jpg>
+
+
+[96]
+
+[97]
+
+[98]
+
+[99]
+Overfull \hbox (3.85635pt too wide) in paragraph at lines 3110--3115
+[][]\TU/Georgia(0)/m/n/10 Given the following C arithmetic instructions, implem
+ent them using arith-[]
+ []
+
+
+
+[100]
+
+[101]
+
+[102]
+
+[103]
+
+[104]
+Overfull \hbox (3.43611pt too wide) in paragraph at lines 3256--3256
+[][]\TU/Georgia(0)/b/n/12 Complete Program: Implementing the Power Func-[]
+ []
+
+
+
+[105]
+
+[106]
+
+[107]
+
+[108]
+
+[109]
+
+[110]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-147.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-147.jpg>
+
+
+[111]
+Overfull \hbox (0.3627pt too wide) in paragraph at lines 3475--3476
+[]\TU/Georgia(0)/m/n/10 more paper when printing out the listing of the program
+, the possibility of avoid-[]
+ []
+
+
+
+[112]
+
+[113]
+
+[114]
+
+[115]
+
+[116]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-153.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-153.jpg>
+
+
+[117]
+Overfull \hbox (2.63026pt too wide) in paragraph at lines 3636--3637
+[][]\TU/Georgia(0)/m/n/10 The above code segment does save a little memory unde
+r some circumstances[]
+ []
+
+
+
+[118]
+Overfull \hbox (349.335pt too wide) in paragraph at lines 3661--3671
+ [][][] 
+ []
+
+
+
+[119]
+
+[120]
+
+[121]
+
+[122]
+
+[123]
+
+[124]
+Overfull \hbox (49.99907pt too wide) in paragraph at lines 3888--3902
+ [][][] 
+ []
+
+
+
+[125]
+
+[126]
+
+[127]
+
+[128]
+
+[129]
+
+[130]
+
+[131]
+
+[132]
+Overfull \hbox (1.54921pt too wide) in paragraph at lines 4177--4178
+[]\TU/Georgia(0)/m/n/10 specific situations, trying to address memory locations
+ by another variable name[]
+ []
+
+
+
+[133]
+
+[134]
+Overfull \hbox (1.48248pt too wide) in paragraph at lines 4236--4237
+[]\TU/Georgia(0)/m/n/10 example, assume that the last element of the previously
+ declared numary needed[]
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-174.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-174.jpg>
+
+
+[135]
+
+[136]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-175.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-175.jpg>
+
+
+[137]
+
+[138]
+
+[139]
+Underfull \hbox (badness 10000) in paragraph at lines 4407--4409
+[][]
+ []
+
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/asse
+mbly/without_gpt/assembly_final.tex:4425: Package soul Error: Reconstruction fa
+iled.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4425 .if(edx}
+               arry[ebx])\\
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/asse
+mbly/without_gpt/assembly_final.tex:4425: Package soul Error: Reconstruction fa
+iled.
+
+See the soul package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4425 .if(edx}
+               arry[ebx])\\
+I came across hyphenatable material enclosed in group braces,
+which I can't handle. Either drop the braces or make the material
+unbreakable using an \mbox (\hbox). Note that a space
+also counts as possible hyphenation point. See page 4 of the manual.
+I'm leaving a black square so that you can see where I am right now.
+
+
+
+[140]
+
+[141]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-180.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-180.jpg>
+
+
+[142]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-181.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-181.jpg>
+
+
+[143]
+
+[144]
+Underfull \hbox (badness 10000) in paragraph at lines 4520--4522
+[][]
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-183.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-183.jpg>
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 4523--4524
+[][][] []
+ []
+
+
+
+[145]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-184.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-184.jpg>
+
+
+[146]
+
+[147]
+
+[148]
+
+[149]
+
+[150]
+
+[151]
+
+[152]
+Underfull \hbox (badness 10000) in paragraph at lines 4827--4829
+[][]
+ []
+
+
+
+[153]
+Underfull \hbox (badness 10000) in paragraph at lines 4839--4841
+[][]
+ []
+
+
+
+[154]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-193.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-193.jpg>
+
+Overfull \hbox (1.61757pt too wide) in paragraph at lines 4862--4864
+[][]\TU/Georgia(0)/m/n/10 However, the above algorithm is somewhat inefficient 
+because it keeps swap-[]
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-194.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-194.jpg>
+
+
+[155]
+
+[156]
+
+[157]
+
+[158]
+Overfull \hbox (0.8526pt too wide) in paragraph at lines 4988--4989
+[][]\TU/Georgia(0)/m/n/10 The lengthof operator returns how many elements are i
+n an array, whereas[]
+ []
+
+
+
+[159]
+Underfull \hbox (badness 10000) in paragraph at lines 5046--5055
+[][]
+ []
+
+
+
+[160]
+
+[161]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-201.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-201.jpg>
+
+
+[162]
+
+[163]
+
+[164]
+Underfull \hbox (badness 10000) in paragraph at lines 5229--5232
+[][]
+ []
+
+
+
+[165]
+Overfull \hbox (27.1882pt too wide) in paragraph at lines 5256--5256
+[][]\TU/Georgia(0)/b/n/12 String Instructions: Scanning (scasb), Storing (stosb
+),[]
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-206.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-206.jpg>
+
+
+[166]
+
+[167]
+Overfull \hbox (5.2591pt too wide) in paragraph at lines 5337--5342
+ [][][] 
+ []
+
+
+
+[168]
+
+[169]
+Underfull \hbox (badness 10000) in paragraph at lines 5407--5409
+[][]
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-210.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-210.jpg>
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 5410--5411
+[][][] []
+ []
+
+
+
+[170]
+
+[171]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-211.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-211.jpg>
+
+
+[172]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-211(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-211(1).jpg>
+
+
+[173]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-212.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-212.jpg>
+
+
+[174]
+Underfull \hbox (badness 10000) in paragraph at lines 5508--5510
+[][]
+ []
+
+
+
+[175]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-214.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-214.jpg>
+
+
+[176]
+
+[177]
+
+[178]
+
+[179]
+Overfull \hbox (11.20741pt too wide) in paragraph at lines 5674--5675
+[][]\TU/Georgia(0)/m/n/10 Using the esi and edi registers and a.repeat-untilcxz
+ loop, determine whether[]
+ []
+
+
+
+[180]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-221.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-221.jpg>
+
+
+[181]
+
+[182]
+Overfull \hbox (3.32549pt too wide) in paragraph at lines 5711--5713
+[]\TU/Georgia(0)/m/n/10 floating-point data begin with the letter f . Initially
+, this may seem a little strange,[]
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-222.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-222.jpg>
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-222(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-222(1).jpg>
+
+
+[183]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-223.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-223.jpg>
+
+
+[184]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-224(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-224(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 5759--5761
+[][]
+ []
+
+
+
+[185]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-224.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-224.jpg>
+
+
+[186]
+
+[187]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-227(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-227(1).jpg>
+
+
+[188]
+Underfull \hbox (badness 10000) in paragraph at lines 5869--5871
+[][]
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-227.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-227.jpg>
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 5872--5873
+[][][] []
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-228(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-228(1).jpg>
+
+
+[189]
+Underfull \hbox (badness 10000) in paragraph at lines 5879--5881
+[][]
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-228.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-228.jpg>
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 5882--5883
+[][][] []
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-229.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-229.jpg>
+
+
+[190]
+
+[191]
+
+[192]
+
+[193]
+
+[194]
+
+[195]
+
+[196]
+
+[197]
+
+[198]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-238.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-238.jpg>
+
+
+[199]
+
+[200]
+
+[201]
+Overfull \hbox (24.07883pt too wide) in paragraph at lines 6300--6300
+[][]\TU/Georgia(0)/b/n/12 Complete Program: Implementing an Iteration Struc-[]
+ []
+
+
+
+[202]
+
+[203]
+
+[204]
+
+[205]
+Overfull \hbox (9.72794pt too wide) in paragraph at lines 6481--6482
+[][]\TU/Georgia(0)/m/n/10 Just like with integers, use an & prior to the variab
+le when inputting floating-[]
+ []
+
+
+
+[206]
+
+[207]
+Overfull \hbox (0.30821pt too wide) in paragraph at lines 6538--6539
+[][]\TU/Georgia(0)/m/n/10 Change the complete program in Sect. 10.9 to implemen
+t a do-while struc-[]
+ []
+
+
+
+[208]
+Overfull \hbox (90.97122pt too wide) in paragraph at lines 6557--6573
+ [][][] 
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-249.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-249.jpg>
+
+
+[209]
+
+[210]
+Overfull \hbox (47.26376pt too wide) in paragraph at lines 6687--6720
+ [][][] 
+ []
+
+
+
+[211]
+Overfull \hbox (3.89806pt too wide) in paragraph at lines 6722--6723
+[]\TU/Georgia(0)/m/n/10 there are also eight new numbered 64-bit registers avai
+lable. They are $\OML/cmm/m/it/10 r\OT1/cmr/m/n/10 8$ \TU/Georgia(0)/m/n/10 thr
+ough[]
+ []
+
+
+
+[212]
+Overfull \hbox (2.23607pt too wide) in paragraph at lines 6744--6745
+[][]\TU/Georgia(0)/m/n/10 In the program itself, note that the following statem
+ents are no longer needed[]
+ []
+
+
+
+[213]
+
+[214]
+
+[215]
+
+[216]
+
+[217]
+Underfull \hbox (badness 10000) in paragraph at lines 6944--6946
+[][]
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-259.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-259.jpg>
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-259(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-259(1).jpg>
+
+
+[218]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-260(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-260(1).jpg>
+
+
+[219]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-260.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-260.jpg>
+
+
+[220]
+
+[221]
+
+[222]
+
+[223]
+
+[224]
+
+[225]
+
+[226]
+
+[227]
+
+[228]
+
+[229]
+
+[230]
+Overfull \hbox (14.0924pt too wide) in paragraph at lines 7425--7432
+[]\TU/Georgia(0)/m/n/10 long long num1 $\OT1/cmr/m/n/10 = 1$\TU/Georgia(0)/m/n/
+10 , num2 $\OT1/cmr/m/n/10 = 2$\TU/Georgia(0)/m/n/10 , num3 $\OT1/cmr/m/n/10 = 
+3$\TU/Georgia(0)/m/n/10 , num4 $\OT1/cmr/m/n/10 = 4$\TU/Georgia(0)/m/n/10 ; pri
+ntf("\n%lld%s%lld",[]
+ []
+
+
+Overfull \hbox (3.66696pt too wide) in paragraph at lines 7425--7432
+[]\TU/Georgia(0)/m/n/10 num1," < ", num2); printf("%s%lld%s," < ", num3," < ");
+ printf("%lld\n\n",[]
+ []
+
+
+
+[231]
+Overfull \hbox (0.36595pt too wide) in paragraph at lines 7449--7450
+[][]\TU/Georgia(0)/m/n/10 As may have been learned from a computer organization
+ text, there are many[]
+ []
+
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-275.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-275.jpg>
+
+
+[232]
+
+[233]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-277.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-277.jpg>
+
+
+[234]
+
+[235]
+
+[236]
+
+[237]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-281.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-281.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 7771--7773
+[][]
+ []
+
+
+
+[238]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-282.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-282.jpg>
+
+
+[239]
+
+[240]
+
+[241]
+Overfull \hbox (7.10944pt too wide) in paragraph at lines 7948--7949
+[][]\TU/Georgia(0)/m/n/10 To those who have had or are currently taking a compu
+ter organization course,[]
+ []
+
+
+
+[242]
+
+[243]
+Overfull \hbox (24.4522pt too wide) in paragraph at lines 7975--7986
+ [][][] 
+ []
+
+
+
+[244]
+Overfull \hbox (24.4522pt too wide) in paragraph at lines 7993--8002
+ [][][] 
+ []
+
+
+Overfull \hbox (62.35948pt too wide) in paragraph at lines 8010--8061
+ [][][] 
+ []
+
+
+
+[245]
+Overfull \hbox (56.37408pt too wide) in paragraph at lines 8090--8106
+ [][][] 
+ []
+
+
+Overfull \hbox (59.5421pt too wide) in paragraph at lines 8111--8133
+ [][][] 
+ []
+
+
+
+[246]
+Overfull \hbox (15.25298pt too wide) in paragraph at lines 8140--8149
+ [][][] 
+ []
+
+
+
+[247]
+
+[248]
+
+[249]
+
+[250]
+
+[251]
+Overfull \hbox (0.69667pt too wide) in paragraph at lines 8467--8468
+[][]\TU/Georgia(0)/m/n/10 The Intel processor is known as a complex instruction
+ set computer (CISC)[]
+ []
+
+
+
+[252]
+
+[253]
+Underfull \hbox (badness 10000) in paragraph at lines 8548--8550
+[][]
+ []
+
+
+
+[254]
+Overfull \hbox (5.78995pt too wide) in paragraph at lines 8576--8577
+[][]\TU/Georgia(0)/m/n/10 However, when running the program in $\OMS/cmsy/m/n/1
+0 ^^B\OT1/cmr/m/n/10 64$ \TU/Georgia(0)/m/n/10 mode, the address in the operand
+[]
+ []
+
+
+
+[255]
+Overfull \hbox (9.10098pt too wide) in paragraph at lines 8593--8593
+[][]\TU/Georgia(0)/b/n/14.4 A. 2 32-Bit Integer and Floating-Point MASM[]
+ []
+
+
+
+[256]
+Overfull \hbox (81.3349pt too wide) in paragraph at lines 8600--8603
+[]\TU/Georgia(0)/m/n/10 on Input. In the Additional Dependencies, type or paste
+ msvcrt.lib;legacy_stdio_definitions.[]
+ []
+
+
+
+[257]
+Overfull \hbox (66.4358pt too wide) in paragraph at lines 8616--8617
+[]\TU/Georgia(0)/m/n/10 Input. In the Additional Dependencies, type or paste li
+bcmt.lib;legacy_stdio_definitions.[]
+ []
+
+
+
+[258]
+Overfull \hbox (31.77211pt too wide) in paragraph at lines 8645--8645
+[][]\TU/Georgia(0)/b/n/14.4 Appendix B: Binary, Hexadecimal, Logic, Arith-[]
+ []
+
+
+
+[259]
+
+[260]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-305(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-305(1).jpg>
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-305.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-305.jpg>
+
+
+[261]
+Overfull \hbox (1.03328pt too wide) in paragraph at lines 8720--8721
+[][]\TU/Georgia(0)/m/n/10 Once a conversion has been made from one base to anot
+her, it can be checked[]
+ []
+
+
+
+[262]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-307.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-307.jpg>
+
+
+[263]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-308.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-308.jpg>
+
+
+[264]
+
+[265]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-309.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-309.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 8798--8804
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8798--8804
+[][]
+ []
+
+
+
+[266]
+Underfull \hbox (badness 10000) in paragraph at lines 8808--8812
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8835--8839
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8843--8847
+[][]
+ []
+
+
+
+[267]
+Underfull \hbox (badness 10000) in paragraph at lines 8850--8856
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8850--8856
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8860--8864
+[][]
+ []
+
+
+
+[268]
+
+[269]
+
+[270]
+Overfull \hbox (17.19193pt too wide) in paragraph at lines 8930--8931
+[]\TU/Georgia(0)/m/n/10 section. The result is the carry-out discarded and $\OT
+1/cmr/m/n/10 00000000[]$ \TU/Georgia(0)/m/n/10 is a self-complementing[]
+ []
+
+
+Overfull \hbox (15.62364pt too wide) in paragraph at lines 8964--8964
+[][]\TU/Georgia(0)/b/n/14.4 B. 6 Addition and Subtraction of Signed Num-[]
+ []
+
+
+
+[271]
+
+[272]
+Overfull \hbox (0.62505pt too wide) in paragraph at lines 8998--8999
+[]\TU/Georgia(0)/m/n/10 two's complement representation of negative numbers ove
+r sign magnitude rep-[]
+ []
+
+
+
+[273]
+
+[274]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-318.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-318.jpg>
+
+
+[275]
+Overfull \hbox (1.77467pt too wide) in paragraph at lines 9127--9128
+[]\TU/Georgia(0)/m/n/10 solution to this problem is to use what is known as Bin
+ary Coded Decimal $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 BCD\OT1/cmr/m/n/10 )$[]
+ []
+
+
+
+[276]
+File: ./images/2025_03_24_ebe50cc223a6fbc49eecg-320.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_ebe50cc223a6fbc49eecg-320.jpg>
+
+
+[277]
+
+[278]
+
+[279]
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Apple SD Gothic Neo/I" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'AppleSDGothicNeo(0)' created for font
+(fontspec)             'Apple SD Gothic Neo' with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Apple SD Gothic
+(fontspec)             Neo/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Apple SD Gothic
+(fontspec)             Neo/B/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Apple SD
+(fontspec)             Gothic Neo/BI/OT:script=hani;language=dflt;"
+
+
+Missing character: There is no ■ (U+25A0) in font Georgia/OT:script=latn;langua
+ge=dflt;!
+
+
+[280]
+
+[281]
+Overfull \hbox (8.27365pt too wide) in paragraph at lines 9326--9326
+[][]\TU/Georgia(0)/b/n/14.4 B. 11 Exercises (Items Marked with an * Have[]
+ []
+
+
+
+[282]
+
+[283]
+Overfull \hbox (1.46704pt too wide) in paragraph at lines 9394--9400
+[][]\TU/Georgia(0)/m/n/10 Using the ASCII table, convert the following binary n
+umbers to their ASCII[]
+ []
+
+
+Overfull \hbox (3.23222pt too wide) in paragraph at lines 9417--9422
+[][]\TU/Georgia(0)/m/n/10 Convert the following base-10 numbers to IEEE format 
+using 32 bits. Show[]
+ []
+
+
+
+[284]
+Overfull \hbox (3.23222pt too wide) in paragraph at lines 9422--9427
+[][]\TU/Georgia(0)/m/n/10 Convert the following base-10 numbers to IEEE format 
+using 32 bits. Show[]
+ []
+
+
+
+[285]
+
+[286]
+Overfull \hbox (1641.58095pt too wide) in paragraph at lines 9548--9585
+ [][][] 
+ []
+
+
+
+[287]
+
+[288]
+Overfull \hbox (1170.40108pt too wide) in paragraph at lines 9621--9662
+ [][][] 
+ []
+
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/asse
+mbly/without_gpt/assembly_final.tex:9673: LaTeX Error: \begin{array} on input l
+ine 9671 ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9673 \]
+          \& \textbackslash mathrm\{C\}, \textbackslash mathrm\{O\} \text{ar...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/asse
+mbly/without_gpt/assembly_final.tex:9673: Missing $ inserted.
+<inserted text> 
+                $
+l.9673 \]
+          \& \textbackslash mathrm\{C\}, \textbackslash mathrm\{O\} \text{ar...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/asse
+mbly/without_gpt/assembly_final.tex:9673: Missing } inserted.
+<inserted text> 
+                }
+l.9673 \]
+          \& \textbackslash mathrm\{C\}, \textbackslash mathrm\{O\} \text{ar...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/asse
+mbly/without_gpt/assembly_final.tex:9673: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.9673 \]
+          \& \textbackslash mathrm\{C\}, \textbackslash mathrm\{O\} \text{ar...
+I'm guessing that you meant to end an alignment here.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/asse
+mbly/without_gpt/assembly_final.tex:9673: Missing $ inserted.
+<inserted text> 
+                $
+l.9673 \]
+          \& \textbackslash mathrm\{C\}, \textbackslash mathrm\{O\} \text{ar...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/asse
+mbly/without_gpt/assembly_final.tex:9673: Missing } inserted.
+<inserted text> 
+                }
+l.9673 \]
+          \& \textbackslash mathrm\{C\}, \textbackslash mathrm\{O\} \text{ar...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 9673.
+
+
+LaTeX Warning: Command \textbackslash invalid in math mode on input line 9673.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/asse
+mbly/without_gpt/assembly_final.tex:9674: Missing $ inserted.
+<inserted text> 
+                $
+l.9674 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/asse
+mbly/without_gpt/assembly_final.tex:9674: Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.9674 
+       
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+Overfull \hbox (123.43121pt too wide) in paragraph at lines 9676--9683
+[][]\TU/Georgia(0)/m/n/10 \mathrm{Z}, \mathrm{S} []\end{array}\right]$[] []
+ []
+
+
+
+[289]
+
+[290]
+
+[291]
+
+[292]
+
+[293]
+
+[294]
+Underfull \hbox (badness 10000) in paragraph at lines 9913--9915
+[][]
+ []
+
+
+
+[295]
+
+[296]
+
+[297]
+
+[298]
+Underfull \hbox (badness 10000) in paragraph at lines 10039--10041
+[][]
+ []
+
+
+Overfull \hbox (152.30446pt too wide) in paragraph at lines 10048--10049
+[][]\TU/Georgia(0)/m/n/10 754-2019 |\TU/STSong(0)/m/n/10 —| \TU/Georgia(0)/m/n/
+10 IEEE standard for floating-point arithmetic. [][][]https://standards.ieee.or
+g/standard/7542019.html[][][] []
+ []
+
+
+Overfull \hbox (13.79993pt too wide) in paragraph at lines 10049--10050
+[][]\TU/Georgia(0)/m/n/10 Dandamudi SP (2005) Introduction to assembly language
+, 2nd edn. Springer []
+ []
+
+
+
+[299]
+
+[300]
+
+[301]
+
+[302]
+Underfull \hbox (badness 10000) in paragraph at lines 10236--10239
+[][]
+ []
+
+
+
+[303]
+
+[304]
+
+[305]
+Underfull \hbox (badness 10000) in paragraph at lines 10344--10347
+[][]
+ []
+
+
+
+[306]
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/asse
+mbly/without_gpt/assembly_final.tex:10413: LaTeX Error: \begin{equation*} on in
+put line 9670 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10413 \end{document}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[307]
+
+[308] (./assembly_final.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2022/08/05>
+ ***********
+Package rerunfilecheck Info: File `assembly_final.out' has not changed.
+(rerunfilecheck)             Checksum: 0F13D1CAF53ED60ACBD5B6BC733DEB63;35965.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 9670 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 21975 strings out of 468389
+ 512216 string characters out of 5440620
+ 1350345 words of memory out of 5000000
+ 50058 multiletter control sequences out of 15000+600000
+ 637056 words of font info for 143 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 83i,17n,101p,1810b,1003s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on assembly_final.xdv (308 pages, 5848976 bytes).

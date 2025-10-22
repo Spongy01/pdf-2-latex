@@ -65,7 +65,7 @@ def get_cleaned_toc(pdf_path: str):
 
 
 # fix latex file with the chapters
-def fix_latex_headings(input_tex: str, cleaned_toc: list) -> str:
+def fix_latex_headings(input_tex: str, cleaned_toc: list, chapter_level: int = 1, section_level: int = 2, subsection_level: int = 3) -> str:
     """
     Fix LaTeX headings based on cleaned TOC and print changes.
 
@@ -81,6 +81,7 @@ def fix_latex_headings(input_tex: str, cleaned_toc: list) -> str:
 
     # Regex to match all LaTeX headings
     heading_pattern = re.compile(r'\\(chapter|section|subsection|subsubsection)\{(.*?)\}')
+
     
     # Use provided parameters for chapter level mapping
     print(f"Using chapter level: {chapter_level}")
@@ -166,7 +167,7 @@ def replace_first_contents_with_toc(input_tex: str) -> str:
     return new_tex
 
 
-def clean_it_up(INPUT_TEX_FILE: str, BOOK_PDF_FILE: str, OUTPUT_TEX_FILE: str, chapter_level: int = 0, section_level: int = 1, subsection_level: int = 2):
+def clean_it_up(INPUT_TEX_FILE: str, BOOK_PDF_FILE: str, OUTPUT_TEX_FILE: str, chapter_level: int = 1, section_level: int = 2, subsection_level: int = 3):
     # INPUT_TEX_FILE = "../../files/data-science-book_book/outputs/data-science-book_pg_sep_bib.tex"
     # BOOK_PDF_FILE = "../../files/data-science-book_book/inputs/data-science-book.pdf"
     # OUTPUT_TEX_FILE = "../../files/data-science-book_book/outputs/data-science-book_pg_sep_testing_cleaned.tex"
@@ -192,7 +193,7 @@ def clean_it_up(INPUT_TEX_FILE: str, BOOK_PDF_FILE: str, OUTPUT_TEX_FILE: str, c
     toc = get_cleaned_toc(BOOK_PDF_FILE)
     print(f"Extracted TOC with {len(toc)} entries")
 
-    fixed_headings_tex = fix_latex_headings(cleaned_tex, toc)
+    fixed_headings_tex = fix_latex_headings(cleaned_tex, toc, chapter_level, section_level, subsection_level)
     print("Fixed LaTeX headings based on cleaned TOC")
     final_tex = replace_first_contents_with_toc(fixed_headings_tex)
     print("Replaced 'Contents' section/chapter with \\tableofcontents")

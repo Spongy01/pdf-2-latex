@@ -490,9 +490,9 @@ if __name__ == "__main__":
                 "skip_steps": args.skip or config.get("skip", []),
                 "bib_json_path": args.bib_json or config.get("bib_json", None),
                 "fix_balance": args.fix_balance,
-                "chapter_level": args.chapter_level or config.get("chapter_level", 0),
-                "section_level": args.section_level or config.get("section_level", 1),
-                "subsection_level": args.subsection_level or config.get("subsection_level", 2),
+                "chapter_level": args.chapter_level or config.get("chapter_level", 1),
+                "section_level": args.section_level or config.get("section_level", 2),
+                "subsection_level": args.subsection_level or config.get("subsection_level", 3),
             }
         else:
             print(

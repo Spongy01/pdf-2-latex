@@ -1,0 +1,934 @@
+% This LaTeX document needs to be compiled with XeLaTeX.
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{stmaryrd}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\graphicspath{ {./images/} }
+\usepackage{fvextra, csquotes}
+\usepackage{multirow}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, filecolor=magenta, urlcolor=cyan,}
+\urlstyle{same}
+\usepackage{underscore}
+\usepackage{bbold}
+\usepackage[fallback]{xeCJK}
+\usepackage{polyglossia}
+\usepackage{fontspec}
+\IfFontExistsTF{Noto Serif CJK TC}
+{\setCJKmainfont{Noto Serif CJK TC}}
+{\IfFontExistsTF{STSong}
+  {\setCJKmainfont{STSong}}
+  {\IfFontExistsTF{Droid Sans Fallback}
+    {\setCJKmainfont{Droid Sans Fallback}}
+    {\setCJKmainfont{SimSun}}
+}}
+
+\setmainlanguage{english}
+\IfFontExistsTF{CMU Serif}
+{\setmainfont{CMU Serif}}
+{\IfFontExistsTF{DejaVu Sans}
+  {\setmainfont{DejaVu Sans}}
+  {\setmainfont{Georgia}}
+}
+
+%New command to display footnote whose markers will always be hidden
+\let\svthefootnote\thefootnote
+\newcommand\blfootnotetext[1]{%
+  \let\thefootnote\relax\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \let\thefootnote\svthefootnote%
+}
+
+%Overriding the \footnotetext command to hide the marker if its value is `0`
+\let\svfootnotetext\footnotetext
+\renewcommand\footnotetext[2][?]{%
+  \if\relax#1\relax%
+    \ifnum\value{footnote}=0\blfootnotetext{#2}\else\svfootnotetext{#2}\fi%
+  \else%
+    \if?#1\ifnum\value{footnote}=0\blfootnotetext{#2}\else\svfootnotetext{#2}\fi%
+    \else\svfootnotetext[#1]{#2}\fi%
+  \fi
+}
+
+\begin{document}
+\section{Wolfgang Ertel}
+$$
+\begin{aligned}
+& \text { Introduction } \\
+& \text { to Artificial } \\
+& \text { Intelligence }
+\end{aligned}
+$$
+
+Second Edition
+
+\tableofcontents
+
+\chapter{References}
+[\cite{survey2009robotlfd}] A survey of robot learning from demonstration. Robotics and Autonomous Systems, 57:469-483, 2009
+[Ada75] E.W. Adams. The Logic of Conditionals, volume 86 of Synthese Library. D. Reidel Publishing Company, 1975
+[Alp04] E. Alpaydin. Introduction to Machine Learning. MIT Press, 2004
+[\cite{andersen1989hugin}] S. K. Andersen, K. G. Olesen, F. V. Jensen, and F. Jensen. HUGIN - A Shell for Building Bayesian Belief Universes for Expert Systems. In Proc. of the 11th Intl. Joint Conf. on Artificial Intelligence (IJCAI-89), 1989
+[APR90] J. Anderson, A. Pellionisz, and E. Rosenfeld. Neurocomputing (vol. 2): directions for research. MIT Press, Cambridge, MA, USA, 1990
+[AR88] J. Anderson and E. Rosenfeld. Neurocomputing: Foundations of Research. MIT Press, Cambridge, MA, 1988. Collection of fundamental original papers
+[Bar98] R. Bartak. Online guide to constraint programming. http://kti.ms.mff.cuni.cz/bartak/ constraints, 1998
+[Bat16] A. Batzill, Optimal route planning on mobile systems (Masterarbeit, Hochschule Ravensburg-Weingarten, 2016)
+[BBBK11] J. Bergstra, R. Bardenet, Y. Bengio, and B. Kégl. Algorithms for hyper-parameter optimization. In Advances in Neural Information Processing Systems, pages 2546-2554, 2011
+[BBSK10] Greg Bickerman, Sam Bosley, Peter Swire, and Robert Keller. Learning to create jazz melodies using deep belief nets. In First International Conference on Computational Creativity, 2010
+[BCDS08] A. Billard, S. Calinon, R. Dillmann, and S. Schaal. Robot programming by demonstration. In B. Siciliano and O. Khatib, editors, Handbook of Robotics, pages 1371-1394. Springer, 2008
+[Bel57] R.E. Bellman. Dynamic Programming. Princeton University Press, 1957
+[Ben16] R. Benenson. What is the class of this image? http://rodrigob.github.io/are_we_ there_yet/build/classification_datasets_results.html, February 2016
+[Ber89] M. Berrondo. Fallgruben für Kopffüssler. Fischer Taschenbuch Nr. 8703, 1989
+[BFOS84] L. Breiman, J. Friedman, R. A. Olshen, and C. J. Stone. Classification and regression trees. Wadsworth, 1984
+[Bib82] W. Bibel. Automated Theorem Proving. Vieweg Verlag, 1982
+[Bis05] C.M. Bishop. Neural networks for pattern recognition. Oxford University Press, 2005
+[Bis06] C.M. Bishop, Pattern recognition and machine learning (Springer, New York, 2006)
+[BJCdC14] R.C. Barros, P.A. Jaskowiak, R. Cerri, A.C. de Carvalho, A framework for bottom-up induction of oblique decision trees. Neurocomputing 135, 3-12 (2014)
+[\cite{beierle2000methoden}] C. Beierle and G. Kern-Isberner. Methoden wissensbasierter Systeme. Vieweg, 2000
+[BKNS00] M. Breunig, H.P. Kriegel, R. Ng, J. Sander, Lof: identifying density-based local outliers. ACM sigmod record 29(2), 93-104 (2000)
+[BM03] A.G. Barto, S. Mahadevan, Recent advances in hierarchical reinforcement learning. Discrete Event Systems, Special issue on reinforcement learning 13, 41-77 (2003)
+[Bra84] V. Braitenberg. Vehicles - Experiments in Synthetic Psychology. MIT Press, 1984
+[Bra01] B. Brabec. Computergestützte regionale Lawinenprognose. PhD thesis, ETH Zürich, 2001
+[Bra11] I. Bratko. PROLOG Programming for Artificial Intelligence. Addison-Wesley, 4th edition, 2011
+[Bri91] Encyclopedia Britannica. Encyclopedia Britannica Verlag, London, 1991
+[Bur98] C.J. Burges, A tutorial on support vector machines for pattern recognition. Data Min. Knowl. Discov. 2(2), 121-167 (1998)
+[CAD] CADE: Conference on Automated Deduction. http://www.cadeconference.org
+[CEP15a] R. Cubek, W. Ertel, and G. Palm. A critical review on the symbol grounding problem as an issue of autonomous agents. In Proceedings of the 38th German Conference on Artificial Intelligence (KI), Dresden, Germany, 2015
+[CEP15b] R. Cubek, W. Ertel, and G. Palm. High-level learning from demonstration with conceptual spaces and subspace clustering. In Proceedings of the 2015 IEEE International Conference on Robotics and Automation (ICRA), Seattle, Washington, 2015
+[Che83] P. Cheeseman. A method for computing generalised bayesian probability values for expert systems. In Proc. of the 8th Intl. Joint Conf. on Artificial Intelligence (IJCAI-83), 1983
+[Che85] P. Cheeseman. In defense of probability. In Proc. of the 9th Intl. Joint Conf. on Artificial Intelligence (IJCAI-85), 1985
+[CL73] C.L. Chang, R.C. Lee, Symbolic Logic and Mechanical Theorem Proving (Academic Press, Orlando, Florida, 1973)
+[Cle79] W.S. Cleveland, Robust locally weighted regression and smoothing scatterplots. Journal of the American Statistical Association 74(368), 829-836 (1979)
+[CLR90] T. Cormen, Ch. Leiserson, R. Rivest, Introduction to Algorithms (MIT Press, Cambridge, Mass, 1990)
+[CM94] W.F. Clocksin, C.S. Mellish, Programming in Prolog, 4th edn. (Springer, Berlin, Heidelberg, New York, 1994)
+[\cite{ohmann1992bauchschmerz}] C. Ohmann, M. Kraemer, S. Jaeger, H. Sitter, C. Pohl, B. Stadelmayer, P. Vietmeier, J. Wickers, L. Latzke, B. Koch, K. Thon, Akuter bauchschmerz - standardisierte befundung als diagnoseunterstützung. Chirurg 63, 113-123 (1992)
+[Coz98] F.G. Cozman. Javabayes, bayesian networks in java, 1998. http://www.cs.cmu.edu/ javabayes
+[dD91] F.T. de Dombal. Diagnosis of Acute Abdominal Pain. Churchill Livingstone, 1991
+[dDLS+72] F.T. de Dombal, D.J. Leaper, J.R. Staniland, A.P. McCann, J.C. Horrocks, Computer aided diagnosis of acute abdominal pain. British Medical Journal 2, 9-13 (1972)
+[Dee11] The DeepQA Project, 2011. http://www.research.ibm.com/deepqa/deepqa.shtml
+[\cite{duda1973pattern}] R.O. Duda and P.E. Hart. Pattern Classification and Scene Analysis. Wiley, 1973. Klassiker zur Bayes-Decision-Theorie
+[DHS01] R.O. Duda, P.E. Hart, and D.G. Stork. Pattern Classification. Wiley, 2001
+[Dia04] D. Diaz. GNU PROLOG. Universität Paris, 2004. Aufl. 1.7, für GNU Prolog version 1.2.18, http://gnu-prolog.inria.fr
+[DNM98] C.L. Blake D.J. Newman, S. Hettich and C.J. Merz. UCI repository of machine learning databases. http://www.ics.uci.edu/mlearn/MLRepository.html, 1998
+[Ede91] E. Eder. Relative Complexities of First Order Calculi. Vieweg Verlag, 1991
+[Elk93] C. Elkan. The paradoxical success of fuzzy logic. In Proceedings of the Eleventh National Conference on Artificial Intelligence (AAAI-93), pages 698-703. MIT Press, 1993
+[Ert93] W. Ertel. Parallele Suche mit randomisiertem Wettbewerb in Inferenzsystemen, volume 25 of DISKI. Infix-Verlag, St. Augustin, 1993. Dissertation, Technische Universität München
+[\cite{ertel2007grundkurs}] W. Ertel. Grundkurs Künstliche Intelligenz. Vieweg-Verlag, 2007
+[Ert11] W. Ertel. Artificial Intelligence. http://www.hs-weingarten.de/ertel/aibook, 2011. Homepage to this book with materials, demo programs, links, literature, errata, etc
+[Ert15] W. Ertel. Advanced mathematics for engineers. Lecture notes, Hochschule Ravensburg-Weingarten: http://www.hs-weingarten.de/ertel/vorlesungen/mae/ matheng-skript-1516-v2.pdf, 2015
+[ES99] W. Ertel and M. Schramm. Combining Data and Knowledge by MaxEntOptimization of Probability Distributions. In PKDD'99 (3rd European Conference on Principles and Practice of Knowledge Discovery in Databases), volume 1704 of LNCS, pages 323-328, Prague, 1999. Springer Verlag
+[ESCT09] W. Ertel, M. Schneider, R. Cubek, and M. Tokic. The teaching-box: A universal robot learning framework. In Proceedings of the 14th International Conference on Advanced Robotics (ICAR 2009), 2009. http://www.servicerobotik.hs-weingarten. de/teachingbox
+[ESS89] W. Ertel, J. Schumann, and Ch. Suttner. Learning Heuristics for a Theorem Prover using Back Propagation. In J. Retti and K. Leidlmair, editors, 5. Österreichische Artificial-Intelligence-Tagung, pages 87-95. Informatik-Fachberichte 208, Springer-Verlag, Berlin, Heidelberg, 1989
+[Fel14] C. Felber. Die Gemeinwohl-Ökonomie. Deuticke Verlag, 2014
+[Fit96] M. Fitting. First-order logic and automated theorem proving. Springer, 1996
+[Fla12] Peter Flach. Machine Learning: The Art and Science of Algorithms that Make Sense of Data. Cambridge University Press, 2012
+[FNA+09] D. Ferrucci, E. Nyberg, J. Allan, K. Barker, E. Brown, J. Chu-Carroll, A. Ciccolo, P. Duboue, J. Fan, D. Gondek et al. Towards the open advancement of question answer systems. IBM Technical Report RC24789, Yorktown Heights, NY, 2009. http://www.research.ibm.com/deepqa/question_answering.shtml
+[FPP07] D. Freedman, R. Pisani, and R. Purves. Statistics. Norton, 4th edition, 2007
+[Fra05] C. Frayn. Computer chess programming theory. http://www.frayn.net/beowulf/ theory.html, 2005
+[Fre97] E. Freuder, In pursuit of the holy grail. Constraints 2(1), 57-61 (1997)
+[\cite{fischer1996probexpr}] V.G. Fischer and M. Schramm. Efficient Compilation of Probabilistic Expressions for Use in MaxEnt Optimization Problems. Technical Report TUM-I9636, Institut für Informatik, Technische Universität München, 1996
+[FS97] B. Fischer and J. Schumann. Setheo goes software engineering: Application of atp to software reuse. In Conference on Automated Deduction (CADE-14), volume 1249 of LNCS, pages 65-68. Springer, 1997. http://ase.arc.nasa.gov/people/ schumann/publications/papers/cade97-reuse.html
+[\cite{greiner1991comparison}] M. Greiner, Kölbl A, C. Kredler, and S. Wagenpfeil. Numerical Comparison of Standard SQP-Software with some Second Order Nonlinear Optimization Methods. Report 348, DFG-Schwerpunkt: Anwendungsbezogene Optimierung und Steuerung, 1991
+[GBC16] I. Goodfellow, Y. Bengio, and A. Courville. Deep learning. Buch in Vorbereitung für MIT Press, http://www.deeplearningbook.org, 2016
+[GEB15] L. Gatys, A. Ecker, and M. Bethge. A neural algorithm of artistic style. arXiv preprint arXiv:1508.06576, 2015. http://www.boredpanda.com/computer-deep-learning-algorithm-painting-masters
+[GHZ14] P. Gao, R. Hensley, and A. Zielke. A road map to the future for the auto industry. McKinsey Quarterly, Oct, 2014
+[\cite{goller1995ar95}] C. Goller and A. Küchler. Learning Task-Dependent Distributed Structure-Representations by Backpropagation Through Structure. AR-Report AR-95-02, Institut für Informatik, Technische Universität München, 1995. (a shortened version will appear in the Proc. of the ICNN-96)
+[\cite{goller1996bpts}] C. Goller and A. Küchler. Learning Task-Dependent Distributed Representations by Backpropagation Through Structure. In Proc. of the ICNN-96, volume 1, pages 347-352. IEEE, 1996
+[GK09] J. Grahl and R. Kümmel. Das Loch im Fass - Energiesklaven, Arbeitsplätze und die Milderung des Wachstumszwangs. Wissenschaft und Umwelt Interdiziplinär, 13:195-212, 2009. http://www.fwu.at/assets/userFiles/Wissenschaft_Umwelt/13_ 2009/2009_13_wachstum_5.pdf
+[\cite{goller1994setheo}] C. Goller. A Connectionist Control Component for the Theorem Prover SETHEO. In Proc. of the ECAI'94 Workshop W14: Combining Symbolic and Connectionist Processing, pages 99-93. ECAI in cooperation with AAAI and IJCAI, 1994
+[Go197] C. Goller. A Connectionist Approach for Learning Search-Control Heuristics for Automated Deduction Systems. PhD thesis, Fakultät für Informatik, Technische Universität München, 1997. (In preparation)
+[GP58] Silvio Gesell and Philip Pye. The natural economic order. Owen, 1958
+[\cite{gabel2006soccer}] T. Gabel and M. Riedmiller. Learning a partial behavior for a competitive robotic soccer agent. Künstliche Intelligenz, 20(2), 2006. BöttcherIT Verlag
+[\cite{graves2013generating}] Alex Graves. Generating sequences with recurrent neural networks. arXiv preprint http://arxiv.org/abs/1308.0850, 2013.
+[\cite{goerz2003handbuch}] G. Görz, C.-R. Rollinger, and J. Schneeberger, editors. Handbuch der Künstlichen Intelligenz. Oldenbourg Verlag, 2003
+[GS15] J.B. Greenblatt, S. Saxena, Autonomous taxis could greatly reduce greenhouse-gas emissions of us light-duty vehicles. Nature Clim. Change 5(9), 860-863 (2015)
+[GSSD08] R. Geisberger, P. Sanders, D. Schultes, and D. Delling. Contraction hierarchies: Faster and simpler hierarchical routing in road networks. In Experimental Algorithms, pages 319-333. Springer, 2008
+[\cite{greiner1996stochastik}] M. Greiner, G. Tinhofer, Stochastik für Studienanfänger der Informatik (Carl Hanser Verlag, München, Wien, 1996)
+[\cite{guerrerio2002godel}] G. Guerrerio, Spektrum der wissenschaft, spezial 1/2002: Kurt gödel (Spektrum Verlag, Heidelberg, 2002)
+[\cite{gonzalez2008dip}] R.C. González and R.E. Woods. Digital Image Processing. Pearson/Prentice Hall, 2008
+[Göd31a] K. Gödel, Diskussion zur Grundlegung der Mathematik, Erkenntnis 2. Monatsheft für Mathematik und Physik 32(1), 147-148 (1931)
+[Göd31b] K. Gödel, Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I. Monatsheft für Mathematik und Physik 38(1), 173-198 (1931)
+[HKP91] J. Hertz, A. Krogh, and R. Palmer. Introduction to the theory of neural computation. Addison Wesley, 1991
+[HL04] P. Hammerer and M. Lein. Stellenwert der PSA-Bestimmung zur Früherkennung des Prostatakarzinoms. Deutsches Ärzteblatt, 101(26):A-1892/B-1581/C-1517, 2004. http://www.aerzteblatt.de/archiv/42497/Stellenwert-der-PSA-Bestimmung-zur-Frueherkennung-des-Prostatakarzinoms
+[\cite{horrocks1972cad}] J.C. Horrocks, A.P. McCann, J.R. Staniland, D.J. Leaper, F.T. de Dombal, Computer-aided diagnosis: Description of an adaptable system, and operational experience with 2.034 cases. British Medical Journal 2, 5-9 (1972)
+[Hon94] B. Hontschik. Theorie und Praxis der Appendektomie. Mabuse Verlag, 1994
+[Hop82] J.J. Hopfield. Neural networks and physical systems with emergent collective computational abilities. Proc. Natl. Acad. Sci. USA, 79:2554-2558, April 1982. Wiederabdruck in [AR88] S. 460-464
+[HOT06] G. Hinton, S. Osindero, Y. Teh, A fast learning algorithm for deep belief nets. Neural computation 18(7), 1527-1554 (2006)
+[HT85] J.J. Hopfield and D.W. Tank. "Neural" computation of decisions in optimization problems. Biological Cybernetics, 52(3):141-152, 1985. Springer
+[HTF09] T. Hastie, R. Tibshirani, and J. Friedman. The Elements of Statistical Learning: Data Mining, Inference, and Prediction. Springer, Berlin, 3rd. edition, 2009. Online version: http://www-stat.stanford.edu/tibs/ElemStatLearn/
+[\cite{huber2014monetaere}] J. Huber. Monetäre Modernisierung, Zur Zukunft der Geldordnung: Vollgeld und Monetative. Metropolis Verlag, 2014. http://www.monetative.de
+[\cite{heckerman1995bn}] Daniel Heckerman, Michael P. Wellman, Bayesian Networks. Communications of the ACM 38(3), 27-30 (1995)
+[\cite{huebner2003stochastik}] G. Hübner. Stochastik. Vieweg Verlag, 2003
+[Jay57] E. T. Jaynes. Information Theory and Statistical Mechanics. Physical Review, 1957
+[\cite{jaynes1978maxent}] E.T. Jaynes. Where do we stand on Maximum Entropy? In R.D. Rosenkrantz, editor, Papers on Probability, Statistics and Statistical Physics, pages 210-314. Kluwer Academic Publishers, 1978
+[\cite{jaynes1982concentration}] E.T. Jaynes. Concentration of distributions at entropy maxima. In Rosenkrantz, editor, Papers on Probability, Statistics and statistical Physics. D. Reidel Publishing Company, 1982
+[\cite{jaynes1982rationale}] E.T. Jaynes, On the Rationale of Maximum Entropy Methods. Proc. of the IEEE 70 (9), 939-952 (1982)
+[\cite{jaynes1989wellposed}] E.T. Jaynes. The Well-Posed Problem. In R.D. Rosenkrantz, editor, E.T. Jaynes: Papers on Probability, Statistics and Statistical Physics, pages 133-148. Kluwer Academic Publishers, 1989
+[Jay03] E.T. Jaynes. Probability Theory: The Logic of Science. Cambridge University Press, 2003
+[Jen01] F.V. Jensen. Bayesian networks and decision graphs. Springer-Verlag, 2001
+[Jor99] Michael I. Jordan (ed.), Learning in graphical models (MIT Press, Cambridge, MA, USA, 1999)
+[Kal01] J.A. Kalman. Automated Reasoning with OTTER. Rinton Press, 2001. http://wwwunix.mcs.anl.gov/AR/otter/index.html
+[Kan89] Th. Kane. Maximum entropy in nilsson's probabilistic logic. In Proc. of the 11th Intl. Joint Conf. on Artificial Intelligence (IJCAI-89), 1989
+[\cite{kanal1993pattern}] L.N. Kanal, On Pattern, Categories and Alternate Realities. Pattern Recognition Letters 14, 241-255 (1993)
+[Kar15] Andrej Karpathy. The unreasonable effectiveness of recurrent neural networks, Mai 2015. http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+[\cite{kennedy2006geld}] M. Kennedy. Geld ohne Zinsen und Inflation. Ein Tauschmittel, das jedem dient. Goldmann Verlag, München, 2006
+[KK92] J.N. Kapur and H.K. Kesavan. Entropy Optimization Principles with Applications. Academic Press, 1992
+[KLM96] L.P. Kaelbling, M.L. Littman, and A.P. Moore. Reinforcement Learning: A Survey. Journal of Artificial Intelligence Research, 4:237-285, 1996. http://www2.cs.cmu. edu/afs/cs/project/jair/pub/volume4/kaelbling96a.pdf
+[KMK97] H. Kimura, K. Miyazaki, and S. Kobayashi. Reinforcement Learning in POMDPs with Function Approximation. In 14th International Conference on Machine Learning, pages 152-160. Morgan Kaufmann Publishers, 1997. http://sysplan.nams. kyushu-u.ac.jp/gen/papers/JavaDemoML97/robodemo.html
+[Koh72] T. Kohonen. Correlation matrix memories. IEEE Transactions on Computers, C-21 (4):353-359, 1972. Reprint in [AR88] pp. 171-174
+\begin{tabular}{|l|l|}
+\hline [\cite{kowalski1979algorithmic}] & R. Kowalski and A. Robert. Algorithmic = Logic + Control. Communications of the ACM, 22(7):424-436, Juli 1979 \\
+%---- Page End Break Here ---- Page : 340
+
+%---- Page End Break Here ---- Page : 342
+
+%---- Page End Break Here ---- Page : 343
+
+%---- Page End Break Here ---- Page : 344
+
+%---- Page End Break Here ---- Page : 345
+
+\hline [\cite{kreitz2006formale}] & Ch. Kreitz, Formale methoden der künstlichen intelligenz. Künstliche Intelligenz 4, 22-28 (2006) \\
+\hline [KS06] & L. Kocsis and C. Szepesvári. Bandit based monte-carlo planning. In European Conference on Machine Learning(ECML) 2006, pages 282-293. Springer, 2006 \\
+\hline [Küm11] & R. Kümmel. The second law of economics: Energy, entropy, and the origins of wealth. Springer Science \& Business Media, 2011 \\
+\hline [Lar00] & F.D. Laramée. Chess programming, part 1-6. http://www.gamedev.net/reference/ programming/features/chess1, 2000 \\
+\hline [\cite{lauritzen1996graphical}] & S.L. Lauritzen. Graphical Models. Oxford Science Publications, 1996 \\
+\hline [LBBH98] & Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11):2278-2324, 1998. MNIST-Daten: http://yann.lecun.com/exdb/mnist \\
+\hline [LBH15] & Y. LeCun, Y. Bengio, G. Hinton, Deep learning. Nature 521(7553), 436-444 (2015) \\
+\hline [Le999] & Lexmed - a learning expert system for medical diagnosis. http://www.lexmed.de, 1999 \\
+\hline [\cite{letz2003praktikum}] & R. Letz. Praktikum beweiser. http://www4.in.tum.de/letz/PRAKTIKUM/al-ss05.pdf, 2003 \\
+\hline [\cite{lifschitz1989benchmark}] & V. Lifschitz. Benchmark problems for formal non-monotonic reasoning. In Reinfrank et al, editor, Non-Monotonic Reasoning: 2nd International Workshop, volume 346 of LNAI, pages 202-219. Springer, 1989 \\
+\hline [\cite{lee1988evaluation}] & Kai-Fu Lee, Sanjoy Mohajan, A Pattern Classification Approach to Evaluation Func tion Learning. Artificial Intelligence 36, 1-25 (1988) \\
+\hline [Lov78] & D.W. Loveland. Automated Theorem Proving: a Logical Basis. North-Holland, 1978 \\
+\hline [\cite{lauer2002fgml}] & M. Lauer and M. Riedmiller. Generalisation in Reinforcement Learning and the Use of Obse rvation-Based Learning. In Gabriella Kokai and Jens Zeidler, editors, Proceedings of the FGML Workshop 2002, pages 100-107, 2002. http://amy. informatik.uos.de/riedmiller/publications/lauer.riedml.fgml02.ps.gz \\
+\hline [LSBB92] & R. Letz, J. Schumann, S. Bayerl, and W. Bibel. SETHEO: A High-Performance Theorem Prover. Journal of Automated Reasoning, 8(2):183-212, 1992. http:// www4.informatik.tu-muenchen.de/letz/setheo \\
+\hline [\cite{murphy1994uci}] & P.M. Murphy, D.W. Aha, UCI Repository of Machine Learning Databases (University of California at Irvine, Department of Information and Computer Science, 1994) \\
+\hline [McC] & W. McCune. Automated deduction systems and groups. www-unix.mcs.anl. gov/AR/others.html. see also http://www-formal.stanford.edu/clt/ARS/systems. html \\
+\hline [McD82] & J. McDermott, R1: A rule-based configurer of computer systems. Artificial Intelligence 19, 39-88 (1982) \\
+\hline [MDA15] & D. Maclaurin, D. Duvenaud, and R. Adams. Gradient-based hyperparameter optimization through reversible learning. arXiv preprint arXiv:1502.03492, 2015 \\
+\hline [MDBM00] & G. Melancon, I. Dutour, and G. Bousque-Melou. Random generation of dags for graph drawing. Technical Report INS-R0005, Dutch Research Center for Mathematical and Computer Science (CWI), 2000. http://ftp.cwi.nl/CWIreports/INS/INSR0005.pdf \\
+\hline [Mit97] & T. Mitchell. Machine Learning. McGraw Hill, 1997. http://www-2.cs.cmu.edu/tom/ mlbook.html \\
+\hline [MMZM72] & D.L. Meadows, D.H. Meadows, E. Zahn, and P. Milling. Die Grenzen des Wachstums. Bericht des Club of Rome zur Lage der Menschheit. Dt. Verl. Deutsche Verlagsanstalt, Stuttgart, 1972 \\
+\hline [MP69] & M. Minsky, S. Papert, Perceptrons (MIT Press, Cambridge, MA, 1969) \\
+\hline
+\end{tabular}
+[\cite{neapolitan1990probabilistic}] R.E. Neapolitan. Probabilistic Reasoning in Expert Systems. Wiley-Interscience. John Wiley \& Sons, Inc., 1990
+[New00] M. Newborn. Automated Theorem Proving: Theory and Practice. Springer Verlag, 2000
+[Nil86] N.J. Nilsson, Probabilistic Logic. Artificial Intelligence 28(1), 71-87 (1986)
+[Nil98] N. Nilsson. Artificial Intelligence - A New Synthesis. Morgan Kaufmann, 1998
+[NPW02] T. Nipkow, L.C. Paulson, and M. Wenzel. Isabelle/HOL - A Proof Assistant for Higher-Order Logic, volume 2283 of LNCS. Springer, 2002. http://www.cl.cam.ac. uk/Research/HVG/Isabelle
+[NS61] A. Newell, H.A. Simon, Gps, a program that simulates human thought, in Lernende Automaten, ed. by H. Billing (Oldenbourg, München, 1961), pp. 109-124
+[NSS83] A. Newell, J. C. Shaw, and H. A. Simon. Empirical explorations with the logic theory machine: A case study in heuristics. In J. Siekmann and G. Wrightson, editors, Automation of Reasoning 1: Classical Papers on Computational Logic 1957-1966, pages 49-73. Springer, Berlin, Heidelberg, 1983. Erstpublikation: 1957
+[\cite{netzer2011svhn}] Y. Netzer, T. Wang, A. Coates, A. Bissacco, B. Wu, and A. Ng. Reading digits in natural images with unsupervised feature learning. In NIPS workshop on deep learning and unsupervised feature learning, volume 2011, page 4, 2011. SVHN-Daten:http://ufldl.stanford.edu/housenumbers
+[OFY+95] C. Ohmann, C. Franke, Q. Yang, M. Margulies, M. Chan, van P.J. Elk, F.T. de Dombal, and H.D. Röher. Diagnosescore für akute Appendizitis. Der Chirurg, 66:135-141, 1995
+[OMYL96] C. Ohmann, V. Moustakis, Q. Yang, K. Lang, Evaluation of automatic knowledge acquisition techniques in the diagnosis of acute abdominal pain. Art. Intelligence in Medicine 8, 23-36 (1996)
+[OPB94] C. Ohmann, C. Platen, G. Belenky, Computerunterstütze Diagnose bei akuten Bauchschmerzen. Chirurg 63, 113-123 (1994)
+[\cite{obst2004spark}] Oliver Obst and Markus Rollmann. SPARK - A Generic Simulator for Physical Multiagent Simulations. In Gabriela Lindemann, Jörg Denzinger, Ingo J. Timm, and Rainer Unland, editors, Multiagent System Technologies - Proceedings of the MATES 2004, volume 3187, pages 243-257. Springer, September 2004
+[\cite{ohmann1995diagnostic}] C. Ohmann, Q. Yang, C. Franke, Diagnostic scores for Acute Appendicitis. Eur. J. Surg. 161, 273-281 (1995)
+[Pae16] N. Paech, Befreiung vom Überfluss - Grundlagen einer Wirtschaft ohne Wachstum, Fromm Forum, volume 20 (Erich Fromm Gesellschaft, Tübingen, 2016), pp. 70-76
+[Pal80] G. Palm, On associative memory. Biological Cybernetics 36, 19-31 (1980)
+[Pal91] G. Palm. Memory capacities of local rules for synaptic modification. Concepts in Neuroscience, 2(1):97-128, 1991. MPI Tübingen
+[Pea84] J. Pearl, Heuristics (Addison-Wesley Publishing Company, Intelligent Search Strategies for Computer Problem Solving, 1984)
+[Pea88] J. Pearl, Probabilistic Reasoning in Intelligent Systems (Morgan Kaufmann, Networks of Plausible Inference, 1988)
+[Pik14] T. Piketty, Das Kapital im 21 (CH Beck Verlag, Jahrhundert, 2014)
+[PL05] L. Panait, S. Luke, Cooperative multi-agent learning: The state of the art. Autonomous Agents and Multi-Agent Systems 11(3), 387-434 (2005)
+[PS08] J. Peters, S. Schaal, Reinforcement learning of motor skills with policy gradients. Neural Networks 21(4), 682-697 (2008)
+[PS09] George Pólya and S. Sloan. How to Solve It: A New Aspect of Mathematical Method. Ishi Press, 2009
+[\cite{paris1990inevitability}] J.B. Paris, A. Vencovska, A Note on the Inevitability of Maximum Entropy. International Journal of Approximate Reasoning 3, 183-223 (1990)
+\begin{tabular}{|l|l|}
+\hline [\cite{peters2003humanoid}] & J. Peters, S. Vijayakumar, and S. Schaal. Reinforcement learning for humanoid robotics. In Humanoids2003, Third IEEE-RAS International Conference on Humanoid Robots, Karlsruhe, 2003 \\
+%---- Page End Break Here ---- Page : 346
+
+%---- Page End Break Here ---- Page : 347
+
+\hline [\cite{quinlanC50}] & J.R. Quinlan. C5.0. http://www.rulequest.com \\
+\hline [Qui93] & Publishers, 1993. C4.5 Download: http://www.rulequest.com/Personal, C5.0 Bestellung: http://www.rulequest.com \\
+\hline [Ran12] & J. Randers. 2052: A Global Forecast for the Next Forty Years. Chelsea Green Publishing, 2012 \\
+\hline [\cite{rautenberg1996einfuhrung}] & W. Rautenberg. Einführung in die Mathematische Logik. Vieweg Verlag, 1996 \\
+\hline [RB93] & M. Riedmiller and H. Braun. A direct adaptive method for faster backpropagation learning: The rprop algorithm. In Proceedings of the IEEE International Conference on Neural Networks, pages 586-591, 1993 \\
+\hline [RDS+15] & O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. Bernstein et al., Imagenet large scale visual recognition challenge. International Journal of Computer Vision 115(3), 211-252 (2015) \\
+\hline [RGH+06] & M. Riedmiller, T. Gabel, R. Hafner, S. Lange, M. Lauer, Die Brainstormers: Entwurfsprinzipien lernfähiger autonomer Roboter. Informatik-Spektrum 29(3), 175-190 (2006) \\
+\hline [RHR86] & D.E. Rumelhart, G.E. Hinton, and Williams R.J. Learning Internal Representations by Error Propagation. in [RM86], 1986 \\
+\hline [Ric83] & E. Rich. Artificial Intelligence. McGraw-Hill, 1983 \\
+\hline [\cite{richter2003fallbasiertes}] & M. Richter. Fallbasiertes schließen. In Görz et al. [GRS03], chapter 11, pages 407-430 \\
+\hline [RM86] & D. Rumelhart and J. McClelland. Parallel Distributed Processing, volume 1. MIT Press, 1986 \\
+\hline [RM96] & W. Rödder and C.-H. Meyer. Coherent Knowledge Processing at Maximum Entropy by SPIRIT. In KI-96 (German national conference on AI), Dresden, 1996 \\
+\hline [RMD07] & M. Riedmiller, M. Montemerlo, and H. Dahlkamp. Learning to drive a real car in 20 minutes. In FBIT '07: Proceedings of the 2007 Frontiers in the Convergence of Bioscience and Information Technologies, pages 645-650, Washington, DC, USA, 2007. IEEE Computer Society \\
+\hline [RMS92] & H. Ritter, T. Martinez, and K. Schulten. Neural computation and self-organizing maps. Addison Wesley, 1992 \\
+\hline [RN10] & S. Russell and P. Norvig. Artificial Intelligence: A Modern Approach. Prentice Hall, 3rd edition, 2010. 1st edition 1995, http://aima.cs.berkeley.edu \\
+\hline [Roba] & Robocup official site. http://www.robocup.org \\
+\hline [Robb] & The robocup soccer simulator. http://sserver.sourceforge.net \\
+\hline [Rob65] & J.A. Robinson, A machine-oriented logic based on the resolution principle. Journal of the ACM 12(1), 23-41 (1965) \\
+\hline [\cite{robinson1977dags}] & R. W. Robinson. Counting labeled acyclic digraphs. In F. Harary, editor, New Directions in the Theory of Graphs, pages 28-43. Academic Press, 1977 \\
+\hline [Roj96] & R. Rojas. Neural Networks: a Systematic Introduction. Springer, 1996 \\
+\hline [Ros58] & F. Rosenblatt. The perceptron : a probabilistic model for information storage and organization in the brain. Psychological Reviews, 65:386-408, 1958. Wiederabdruck in [AR88], S. 92-114 \\
+\hline [Ros09] & S.M. Ross. Introduction to probability and statistics for engineers and scientists. Academic Press, 2009 \\
+\hline [Rou87] & P.J. Rousseeuw, Silhouettes: a graphical aid to the interpretation and validation of cluster analysis. Computational and Applied Mathematics 20, 53-65 (1987) \\
+\hline [RW06] & C.E. Rasmussen and C.K.I. Williams. Gaussian Processes for Machine Learning. Mit Press, 2006. Online version: http://www.gaussianprocess.org/gpml/chapters/ \\
+%---- Page End Break Here ---- Page : 348
+
+\hline
+\end{tabular}
+\begin{tabular}{|l|l|}
+\hline [SA94] & S. Schaal, C.G. Atkeson, Robot juggling: implementation of memory-based learning. IEEE Control Systems Magazine 14(1), 57-71 (1994) \\
+\hline [Sam59] & A.L. Samuel, Some Studies in Machine Learning Using the Game of Checkers. IBM Journal 1(3), 210-229 (1959) \\
+\hline [\cite{samuel1967checkers2}] & A.L. Samuel, Some Studies in Machine Learning Using the Game of Checkers. II. IBM Journal 11(6), 601-617 (1967) \\
+\hline [SB98] & R. Sutton and A. Barto. Reinforcement Learning. MIT Press, 1998. http://www.cs. ualberta.ca/sutton/book/the-book.html \\
+\hline [SB04] & J. Siekmann and Ch. Benzmüller. Omega: Computer supported mathematics. In KI 2004: Advances in Artificial Intelligence, LNAI 3238, pages 3-28. Springer Verlag, 2004. http://www.ags.uni-sb.de/omega \\
+\hline [Sch96] & M. Schramm. Indifferenz, Unabhängigkeit und maximale Entropie: Eine wahrscheinlichkeitstheoretische Semantik für Nicht-Monotones Schließen. Number 4 in Dissertationen zur Informatik. CS-Press, München, 1996 \\
+\hline [Sch01] & J. Schumann. Automated Theorem Proving in Software Engineering. Springer Verlag, 2001 \\
+\hline [Sch02] & S. Schulz. E - A Brainiac Theorem Prover. Journal of AI Communications, 15 (2/3):111-126, 2002. http://www4.informatik.tu-muenchen.de/schulz/WORK/ eprover.html \\
+\hline [Sch04] & A. Schwartz. SpamAssassin. O'Reilly, 2004. Spamassassin-Homepage: http:// spamassassin.apache.org \\
+\hline [SE90] & Ch. Suttner and W. Ertel. Automatic Acquisition of Search Guiding Heuristics. In 10th Int. Conf. on Automated Deduction, pages 470-484. Springer-Verlag, LNAI 449, 1990 \\
+\hline [SE00] & M. Schramm and W. Ertel. Reasoning with Probabilities and Maximum Entropy: The System PIT and its Application in LEXMED. In K. Inderfurth et al, editor, Operations Research Proceeedings (SOR'99), pages 274-280. Springer Verlag, 2000 \\
+\hline [SE10] & M. Schneider and W. Ertel. Robot Learning by Demonstration with Local Gaussian Process Regression. In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS'10), 2010 \\
+\hline [SEP16] & M. Schneider, W. Ertel, and G. Palm. Expected similarity estimation for large-scale batch and streaming anomaly detection. Machine Learning, 2016. accepted \\
+\hline [SET09] & T. Segaran, C. Evans, and J. Taylor. Programming the Semantic Web. O'Reilly, 2009 \\
+\hline [\cite{schramm1995foundations}] & M. Schramm and M. Greiner. Foundations: Indifference, Independence \& Maxent. In J. Skilling, editor, Maximum Entropy and Bayesian Methods in Science and Engeneering (Proc. of the MaxEnt'94). Kluwer Academic Publishers, 1995 \\
+\hline [SHM+16] & D. Silver, A. Huang, C.J. Maddison, A. Guez, L. Sifre, G. van den Driessche, J. Schrittwieser, I. Antonoglou, V. Panneershelvam, M. Lanctot et al., Mastering the game of go with deep neural networks and tree search. Nature 529(7587), 484-489 (2016) \\
+\hline [Sho76] & E.H. Shortliffe, Computer-based medical consultations (MYCIN. North-Holland, New York, 1976) \\
+\hline [Spe97] & Mysteries of the Mind. Speciel Issue. Scientific American Inc., 1997 \\
+\hline [Spe98] & Exploring Intelligence, volume 9 of Scientific American presents. Scientific American Inc., 1998 \\
+\hline [SPR+16] & B. Staehle, S. Pfiffner, B. Reiner, W. Ertel, B. Weber-Fiori, and M. Winter. Marvin, ein Assistenzroboter für Menschen mit körperlicher Behinderung im praktischen Einsatz. In M.A. Pfannstiel, S. Krammer, and W. Swoboda, editors, Digitalisierung von Dienstleistungen im Gesundheitswesen. Springer Verlag, 2016. http://asrobe.hsweingarten.de \\
+%---- Page End Break Here ---- Page : 349
+
+\hline
+\end{tabular}
+[SR86] T.J. Sejnowski and C.R. Rosenberg. NETtalk: a parallel network that learns to read aloud. Technical Report JHU/EECS-86/01, The John Hopkins University Electrical Engineering and Computer Science Technical Report, 1986. Wiederabdruck in [AR88] S. 661-672
+[SS02] S. Schölkopf, A. Smola, Learning with Kernels: Support Vector Machines (Optimization, and Beyond. MIT Press, Regularization, 2002)
+[SS06] G. Sutcliffe and C. Suttner. The State of CASC. AI Communications, 19(1):35-48, 2006. CASC-Homepage: http://www.cs.miami.edu/tptp/CASC
+[SS16] K. Schwab and R. Samans. The future of jobs - employment, skills and workforce strategy for the fourth industrial revolution. World Economic Forum, http://reports. weforum.org/future-of-jobs-2016, January 2016
+[SSK05] P. Stone, R.S. Sutton, and G. Kuhlmann. Reinforcement Learning for RoboCup-Soccer Keepaway. Adaptive Behavior, 2005. http://www.cs.utexas.edu/ pstone/Papers/bib2html-links/AB05.pdf
+[Ste07] J. Stewart. Multivariable Calculus. Brooks Cole, 2007
+[SW76] C.E. Shannon and W. Weaver. Mathematische Grundlagen der Informationstheorie. Oldenbourg Verlag, 1976
+[SZ15] K. Simonyan and A. Zisserman. Very deep convolutional networks for large-scale image recognition. arXiv:1409.1556, 2015
+[Sze10] C. Szepesvari. Algorithms for Reinforcement Learning. Morgan \& Claypool Publishers, 2010. draft available online: http://www.ualberta.ca/szepesva/RLBook. html
+[Tax01] D.M.J. Tax. One-class classification. PhD thesis, Delft University of Technology, 2001
+[Ted08] R. Tedrake. Learning control at intermediate reynolds numbers. In Workshop on: Robotics Challenges for Machine Learning II, International Conference on Intelligent Robots and Systems (IROS 2008), Nice, France, 2008
+[TEF09] M. Tokic, W. Ertel, and J. Fessler. The crawler, a class room demonstrator for reinforcement learning. In In Proceedings of the 22nd International Florida Artificial Intelligence Research Society Conference (FLAIRS 09), Menlo Park, California, 2009. AAAI Press
+[Tes95] G. Tesauro. Temporal difference learning and td-gammon. Communications of the ACM, 38(3), 1995. http://www.research.ibm.com/massive/tdl.html
+[Tok06] M. Tokic. Entwicklung eines Lernfähigen Laufroboters. Diplomarbeit Hochschule Ravensburg-Weingarten, 2006. Inklusive Simulationssoftware verfügbar auf http:// www.hs-weingarten.de/ertel/kibuch
+[Tur37] A.M. Turing. On computable numbers, with an application to the Entscheidungsproblem. Proceedings of the London Mathemat. Society, 42(2), 1937
+[Tur50] A.M. Turing, Computing Machinery and Intelligence. Mind 59, 433-460 (1950)
+[TZ16] Y. Tian and Y. Zhu. Better computer go player with neural network and long-term prediction. arXiv preprint arXiv:1511.06410, 2016
+[vA06] L. v. Ahn. Games with a purpose. IEEE Computer Magazine, pages 96-98, Juni 2006. http://www.cs.cmu.edu/biglou/ieee-gwap.pdf
+[VLL+10] P. Vincent, H. Larochelle, I. Lajoie, Y. Bengio, P. Manzagol, Stacked denoising autoencoders: Learning useful representations in a deep network with a local denoising criterion. J. Mach. Learn. Res. 11, 3371-3408 (2010)
+[VTBE15] O. Vinyals, A. Toshev, S. Bengio, and D. Erhan. Show and tell: A neural image caption generator. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3156-3164, 2015
+[Wei66] J. Weizenbaum, ELIZA-A Computer Program For the Study of Natural Language Communication Between Man and Machine. Communications of the ACM 9(1), 36-45 (1966)
+[WF01] I. Witten and E. Frank. Data Mining. Hanser Verlag München, 2001. (DataMining Java Library WEKA: http://www.cs.waikato.ac.nz/ml/weka)
+[Whi96] J. Whittaker. Graphical models in applied multivariate statistics. Wiley, 1996
+[\cite{wiedemannphillex}] U. Wiedemann. PhilLex, Lexikon der Philosophie. http://www.phillex.de/paradoxa. htm
+[Wie04] J. Wielemaker. SWI-Prolog 5.4. Universität Amsterdam, 2004. http://www.swiprolog.org
+[Wik13] Wikipedia, the free enzyclopedia. http://en.wikipedia.org, 2013
+[Win] P. Winston. Game demonstration. http://www.ai.mit.edu/courses/6.034f/gamepair. html. Java Applet for Minimax- and Alpha-Beta-Search
+[\cite{zdziarski2005ending}] J. Zdziarski. Ending Spam. No Starch Press, 2005
+[Ze194] A. Zell. Simulation Neuronaler Netze. Addison Wesley, 1994. Description of SNNS and JNNS: http://www-ra.informatik.uni-tuebingen.de/SNNS
+[ZSR+99] A. Zielke, H. Sitter, T.A. Rampp, E. Sch"afer, C. Hasse, W. Lorenz, and M. Rothmund. Überprüfung eines diagnostischen Scoresystems (Ohmann-Score) für die akute Appendizitis. Chirurg 70, 777-783 (1999)
+[\cite{zimmerli1994ki}] W.C. Zimmerli, S. Wolf (eds.), Künstliche Intelligenz - Philosophische Probleme (Philipp Reclam, Stuttgart, 1994)
+
+
+%---- Page End Break Here ---- Page : 350
+\chapter{Index}
+
+A
+A*-algorithm, 107, 273
+Action, 97, 98
+Activation function, 248, 258
+Actuators, 17
+Adaptive Resonance Theory (ART), 286
+Admissible, 107, 109
+Agent, 3, 17, 289, 290, 293, 296, 297, 300, 301, 303, 305
+autonomous, 10
+cost-based, 18
+distributed, 10
+goal-based, 17
+hardware, 17
+intelligent, 17
+learning, 11, 18, 178
+reflex, 17
+software, 17
+utility-based, 18
+with memory, 17
+Agents, distributed, 18
+Alarm-example, 159
+Alpha-beta pruning, 115
+AlphaGo, 7, 119, 121, 306, 308
+And branches, 79
+And-or tree, 79
+Appendicitis, 133, 145
+Approximation, 178, 193
+A priori probability, 131, 135
+Artificial Intelligence (AI), 1
+Associative memory, 256
+Attribute, 118, 199
+Auto-associative memory, 250, 257, 261
+Autoencoder, 279
+Automation, 12
+Automotive industry, 14
+Autonomous robots, 11
+
+
+%---- Page End Break Here ---- Page : 351
+B
+Backgammon, 306
+Backpropagation, 279, 298, 322
+learning rule, 270
+Backtracking, 77, 99
+Backward chaining, 35
+Batch learning, 217, 266
+Bayes formula. See Bayes theorem
+Bayesian network, 6, 10, 72, 77, 127, 158, 160, 198
+learning, 241
+Bayes theorem, 134, 163
+BDD. See Binary decision diagram
+Bellman
+equation, 295
+principle, 295
+Bias unit, 187
+Bias variance tradeoff, 214
+Binary decision diagram, 37
+Boltzmann machine, 256
+Brain science, 3
+Braitenberg vehicle, 2, 10, 193
+Branching factor, 91, 95
+average, 92
+effective, 95
+Built-in predicate, 84
+C
+C4.5, 198, 216
+Calculus, 28
+Gentzen, 49
+natural reasoning, 49
+sequent, 49
+Cancer diagnosis, 134
+Car, 14
+CART, 198, 212
+CASC, 57
+
+Case base, 197
+Case-based reasoning, 197
+CBR. See Case-based reasoning
+Certainty factors, 126
+Chain rule for Bayesian networks, 132, 168, 169
+Chatterbots, 5
+Checkers, 114, 120
+Chess, 114, 117, 120, 121, 306
+Church, Alonso, 7
+Classification, 178
+Classifier, 178, 223, 268
+Clause, 29
+definite, 34
+-head, 34
+Closed formula, 41
+CLP. See Constraint logic programming
+Cluster, 225
+Clustering, 224, 238
+hierarchical, 22
+Cognitive science, 3
+Complementary, 31
+Complete, 28
+Computer diagnostic, 158
+Conclusion, 34
+Conditionally independent, 160, 169
+Conditional probability, 137
+table. See CPT
+Conditioning, 163, 169
+Confusion matrix, 234
+Conjunction, 24, 29
+Conjunctive Normal Form (CNF), 29
+Connectionism, 9
+Consistent, 31
+Constant, 40
+Constraint logic programming, 86
+Constraint Satisfaction Problem (CSP), 86
+Contraction hierarchies, 111
+Convolutional Neural Network (CNN), 277, 280, 282, 307
+Correlation, 151
+coefficient, 182
+matrix, 238
+Cost estimate function, 105
+Cost function, 95, 107
+Cost matrix, 150, 155
+CPT, 160, 170, 216, 218
+Creativity, 282, 283
+Credit assignment, 119, 292
+Cross-validation, 212, 213, 279, 281
+Curse of dimensionality, 309
+
+Cut, 79
+D
+DAG, 169, 216
+Data mining, 179, 180, 197, 198, 211
+Data scientist, 277
+Decision, 153
+Decision tree, 198
+induction, 180, 199
+learning, 309
+Deep belief network, 277, 280
+Deep learning, 121, 238, 277, 307, 308
+Default logic, 71
+Default rule, 71
+Delta rule, 266, 268
+generalized, 270
+Demodulation, 56
+De Morgan, 45
+Dempster-Schäfer theory, 127
+Dependency graph, 151
+Depth limit, 100
+Derivation, 28
+Deterministic, 97, 114
+Diagnosis system, 146
+Disjunction, 24, 29
+Distance metric, 225
+Distributed Artificial Intelligence (DAI), 10
+Distributed learning, 309
+Distribution, 130, 148
+D-separation, 170
+Dynamic programming, 296
+
+\section{E}
+
+Eager learning, 196, 237
+Economic growth, 12
+Economy, 12
+E-learning, 5
+Elementary event, 128
+Eliza, 5
+EM algorithm, 217, 228, 232
+Entropy, 202
+maximum, 127, 136
+Environment, 12, 17, 18
+continuous, 18
+deterministic, 18
+discrete, 18
+nondeterministic, 18
+observable, 18
+partially observable, 18
+Equation, directed, 55
+Equivalence, 24
+
+Evaluation function, 114
+Event, 128
+Expert system, 145, 158
+
+
+%---- Page End Break Here ---- Page : 353
+\section{F}
+
+Fact, 34
+Factorization, 31, 54
+False negative, 155
+False positive, 155
+Farthest neighbor algorithm, 230
+Feature, 118, 176, 185, 198, 237, 277
+Feature space, 177
+Feedforward networks, 285
+Finite domain constraint solver, 87
+First-order sentence, 41
+First we solidify, 40
+Forward chaining, 35
+Frame problem, 71
+Free variables, 41
+Function symbol, 40
+Fuzzy logic, 10, 72, 127
+
+\section{G}
+
+Gaussian process, 195, 236
+Generalization, 178
+General Problem Solver (GPS), 6
+Genetic programming, 83
+Go, 114, 120, 122, 306, 308
+Goal, 36
+stack, 36
+state, 94
+Gödel
+incompleteness theorem, 7
+Kurt, 7
+'s completeness theorem, 7
+'s incompleteness theorem, 68
+Google DeepMind, 121, 307
+Gradient descent, 267
+Greedy search, 106, 107, 217, 232
+Ground term, 50
+
+\section{H}
+
+Halting problem, 7
+Hebb rule, 249, 258, 270
+binary, 259
+Heuristic, 103
+Heuristic evaluation function, 104, 107
+Hierarchical learning, 309
+Home automation, 15
+Hopfield network, 250, 251, 260
+Horn clause, 34, 80
+
+Hugin, 164
+
+\section{I}
+
+ID3, 198
+IDA*-algorithm, 113
+Immediate reward, 292
+Implication, 24
+Incremental gradient descent, 268
+Incremental learning, 266
+Independent, 131
+conditionally, 160, 169
+Indifference, 140
+Indifferent variables, 146
+Industry 4.0, 11
+Inference machine, 50
+Inference mechanism, 19
+Information content, 203
+Information gain, 200, 203, 237
+Input resolution, 55
+Internet of Things, 11, 15
+Interpretation, 24, 41
+Iterative deepening, 100, 102
+IT security, 15
+
+\section{J}
+
+JavaBayes, 164
+Jobs, 11
+
+\section{K}
+
+Kernel, 195, 277
+Kernel methods, 277
+Kernel PCA, 280
+K-means, 226
+$k$-nearest neighbor method, 192, 194, 213
+KNIME, 199, 233
+Knowledge, 19
+base, 160
+consistent, 31
+engineer, 11, 19
+sources, 19
+
+\section{L}
+
+Landmark, 109
+heuristic, 110
+Laplace assumption, 129
+Laplace probabilities, 129
+Law of economy, 211
+Lazy learning, 196
+Learning, 171, 176, 198
+batch, 266
+by demonstration, 309
+
+Learning (cont.)
+distributed, 309
+hierarchical, 309
+incremental, 218, 266
+machine, 151
+multi-agent, 309
+one-class, 222
+reinforcement, 97, 175, 307
+semi-supervised, 236
+supervised, 176, 225, 261
+unsupervised, 278
+Learning agent, 178
+Learning phase, 178
+Learning rate, 249, 267
+Least squares, 157, 264, 265, 269
+Leave-one-out cross-validation, 214
+LEXMED, 127, 136, 145, 207
+Limited resources, 104
+Linear approximation, 268
+Linearly separable, 183, 184
+LIPS, 76
+LISP, 6, 8
+Literal, 29
+complementary, 31
+Locally weighted linear regression, 197
+Logic
+fuzzy, 127
+higher-order, 6
+probabilistic, 19
+Logically valid, 25
+Logic Theorist, 6, 8
+
+
+%---- Page End Break Here ---- Page : 354
+\section{M}
+
+Machine learning, 148, 175
+Manhattan distance, 112, 226
+Marginal distribution, 133
+Marginalization, 133, 137, 169
+Markov Decision Process (MDP), 17, 293, 305
+deterministic, 301
+nondeterministic, 305
+partially observable, 293
+Material implication, 127, 142
+MaxEnt, 127, 140, 143, 145, 150, 164, 170
+distribution, 140
+Memorization, 176
+Memory-based learning, 196, 197
+Metaparameter, 281
+MGU, 53
+Minimum cash reserve ratio, 13
+Minimum spanning tree, 229
+Mining, 179
+Model, 25
+Model complexity, 213, 214
+Modus ponens, 126, 139
+
+Momentum, 275
+Monotonic, 69
+Monte Carlo Tree Search (MCTS), 7, 119, 122, 307
+Multi-agent systems, 6
+MYCIN, 126, 146
+N
+Naive Bayes, 157, 159, 171, 180, 189, 218, 220, 242
+classification, 190
+classifier, 218, 220
+method, 189
+Naive reverse, 82
+Navier-Stokes equation, 306
+Nearest neighbor
+classification, 190
+method, 189
+Nearest neighbor algorithm, 229
+Nearest neighbor method, 223
+Nearest neighbor data description, 223
+Negation, 24
+Negation as failure, 80
+Neural network, 6, 8, 194, 195, 238, 245
+recurrent, 255, 257, 282
+Neuroinformatics, 255
+Neuroscience, 3
+Neurotransmitter, 247
+Noise, 191
+Non-monotonic logic, 144
+Normal equations, 265
+Normal form
+conjunctive, 29
+prenex, 46
+Normalization, 223, 280
+
+\section{O}
+
+Object classification, 277, 281
+Observable, 97, 114
+Occam's razor, 211
+OMRk algorithm, 232
+One-class learning, 222, 223
+Ontology, 63
+Or branches, 79
+Orthonormal, 258
+Othello, 114
+Outlier detection, 223
+Overfitting, 191, 211, 213-215, 217, 263, 265, 276
+OWL, 63
+
+\section{P}
+
+Paradox, 68
+Paramodulation, 56
+
+
+%---- Page End Break Here ---- Page : 355
+Partially Observable Markov Decision Process (POMDP), 293
+Penguin problem, 85
+Perceptron, 192, 196, 249
+Phase transition, 254
+PIT, 143, 144, 164, 172
+PL1, 19, 40
+Planning, 83
+Plans, 85
+Policy, 292
+gradient method, 305
+policy based on its, 292
+Postcondition, 62
+Precondition, 61
+Predicate logic, 7
+first-order, 20, 40
+Preference learning, 180
+Premise, 34
+Principal Component Analysis (PCA), 277, 280
+Probabilistic
+logic, 20, 71
+reasoning, 9
+Probability, 126, 128
+distribution, 130
+rules, 150
+Product rule, 132
+Program verification, 61
+PROLOG, 6, 9, 75
+Proof system, 26
+Propositional
+calculus, 20
+logic, 23
+Proposition variables, 23
+Pruning, 206, 212
+Pure literal rule, 55
+Q
+Q-learning, 300
+convergence, 303
+Quickprop, 275
+
+\section{R}
+
+Random variables, 128
+Rapid prototyping, 87
+RDF, 63
+Real-time decision, 104
+Real-time requirement, 114
+Receiver operating characteristic, 156
+Reinforcement
+learning, 119, 292
+negative, 292
+positive, 292
+
+Resolution, 8, 30
+calculus, 6, 28
+rule, 30
+general, 30, 52
+SLD, 35
+Resolvent, 30
+Reward
+discounted, 292
+immediate, 292
+Risk management, 155
+Road transportation, 14
+RoboCup, 7, 306
+Robot, 17, 289, 293
+car, 14, 15
+taxi, 14
+walking, 289
+ROC curve, 157, 235
+RProp, 275, 279
+
+\section{S}
+
+Sample, 199
+Satisfiable, 25
+Scatterplot diagram, 177
+Science fiction, 11
+Score, 146, 157, 223, 242, 266
+Search
+algorithm, 94
+complete, 95
+optimal, 96
+bidirectional, 110
+heuristic, 92
+space, 31, 35
+tree, 94
+uninformed, 92
+Self-driving car, 14
+Self-organizing maps, 285
+Semantics
+declarative (PROLOG), 78
+procedural (PROLOG), 78, 82
+Semantic trees, 36
+Semantic web, 62
+Semi-decidable, 67
+Semi-supervised learning, 236
+Sensitivity, 135, 156, 162
+Sensor, 17
+Service robotics, 15
+Set of support strategy, 55
+Sigmoid function, 249, 264, 269
+Signature, 23
+Silhouette width criterion, 231
+Similarity, 189
+Simulated annealing, 256
+Situation calculus, 71
+
+
+%---- Page End Break Here ---- Page : 356
+Skolemization, 48
+SLD resolution, 38
+Software reuse, 61
+Solution, 95
+Sound, 28
+Space, 49, 95
+Spam, 220
+filter, 220
+Sparse coding, 279
+Specificity, 135, 156
+Stacked denoising autoencoder, 279, 280
+Starting state, 94
+State, 94, 95
+space, 95
+transition function, 292
+Statistical induction, 150
+Stochastic gradient descent, 308
+Subgoal, 36, 77
+Substitution axiom, 45
+Subsumption, 55
+Support vector data description, 223
+Support vector machine, 195, 276, 280
+Sustainability, 13
+SVM. See Support vector machine
+Symbol grounding, 85
+T
+Target function, 178
+Tautology, 26
+TD, 304
+-error, 304
+-gammon, 306
+-learning, 304
+Teaching-Box, 310
+Temporal difference
+error, 304
+learning, 301
+Term
+rewriting, 56
+Test data, 178, 211
+
+Text
+classification, 220
+mining, 180
+Theorem, 134, 169
+Theorem prover, 8, 50
+Training data, 178, 211
+Transition function, 292, 303
+Transportation, 12
+True, 42
+Truth table, 24
+method, 27
+Turing
+Alan, 7
+test, 5
+Tweety example, 144
+U
+Unifiable, 53
+Unification, 52
+Unifier, 53
+most general, 53
+Uniform cost search, 99
+Unit
+clause, 55
+resolution, 55
+Unsatisfiable, 25
+V
+Valid, 25, 43
+Value iteration, 308
+Variable, 40
+Vienna Development Method Specification Language (VDM-SL), 62
+Voronoi diagram, 191
+
+\section{W}
+
+Walking robot, 290
+Warren Abstract Machine (WAM), 76, 82
+Watson, 20
+WEKA, 199, 233
+Whitening, 280
+
+
+
+%---- Page End Break Here ---- Page : 357
+
+\end{document}

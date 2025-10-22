@@ -1,0 +1,16 @@
+\xpg@aux {}{english}
+\contentsline {section}{\numberline {1}Wolfgang Ertel}{1}{section.1}%
+\contentsline {section}{\numberline {2}E}{12}{section.2}%
+\contentsline {section}{\numberline {3}F}{13}{section.3}%
+\contentsline {section}{\numberline {4}G}{13}{section.4}%
+\contentsline {section}{\numberline {5}H}{13}{section.5}%
+\contentsline {section}{\numberline {6}I}{13}{section.6}%
+\contentsline {section}{\numberline {7}J}{13}{section.7}%
+\contentsline {section}{\numberline {8}K}{13}{section.8}%
+\contentsline {section}{\numberline {9}L}{14}{section.9}%
+\contentsline {section}{\numberline {10}M}{14}{section.10}%
+\contentsline {section}{\numberline {11}O}{14}{section.11}%
+\contentsline {section}{\numberline {12}P}{15}{section.12}%
+\contentsline {section}{\numberline {13}R}{15}{section.13}%
+\contentsline {section}{\numberline {14}S}{15}{section.14}%
+\contentsline {section}{\numberline {15}W}{16}{section.15}%

@@ -1,0 +1,1627 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'xelatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -interaction=nonstopmode -file-line-error -recorder  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/without_gpt/ai_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+without_gpt/ai_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/underscore/underscore.sty)
+==> First Aid for underscore.sty applied!
+(/usr/local/texlive/2025/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bbold/bbold.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(./ai_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+No file ai_final.toc.
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/w
+ithout_gpt/ai_final.tex:72: Undefined control sequence.
+l.72 \chapter
+             {References}
+
+LaTeX Warning: Citation `survey2009robotlfd' on page 1 undefined on input line 
+73.
+
+
+LaTeX Warning: Citation `andersen1989hugin' on page 1 undefined on input line 7
+6.
+
+
+LaTeX Warning: Citation `beierle2000methoden' on page 1 undefined on input line
+ 92.
+
+
+LaTeX Warning: Citation `ohmann1992bauchschmerz' on page 1 undefined on input l
+ine 109.
+
+
+LaTeX Warning: Citation `duda1973pattern' on page 1 undefined on input line 114
+.
+
+
+LaTeX Warning: Citation `ertel2007grundkurs' on page 1 undefined on input line 
+121.
+
+
+LaTeX Warning: Citation `fischer1996probexpr' on page 1 undefined on input line
+ 134.
+
+
+LaTeX Warning: Citation `greiner1991comparison' on page 1 undefined on input li
+ne 136.
+
+
+LaTeX Warning: Citation `goller1995ar95' on page 1 undefined on input line 140.
+
+
+
+LaTeX Warning: Citation `goller1996bpts' on page 1 undefined on input line 141.
+
+
+
+LaTeX Warning: Citation `goller1994setheo' on page 1 undefined on input line 14
+3.
+
+
+LaTeX Warning: Citation `gabel2006soccer' on page 1 undefined on input line 146
+.
+
+
+LaTeX Warning: Citation `graves2013generating' on page 1 undefined on input lin
+e 147.
+
+
+LaTeX Warning: Citation `goerz2003handbuch' on page 1 undefined on input line 1
+48.
+
+
+LaTeX Warning: Citation `greiner1996stochastik' on page 1 undefined on input li
+ne 151.
+
+
+LaTeX Warning: Citation `guerrerio2002godel' on page 1 undefined on input line 
+152.
+
+
+LaTeX Warning: Citation `gonzalez2008dip' on page 1 undefined on input line 153
+.
+
+
+LaTeX Warning: Citation `horrocks1972cad' on page 1 undefined on input line 158
+.
+
+
+LaTeX Warning: Citation `huber2014monetaere' on page 1 undefined on input line 
+164.
+
+
+LaTeX Warning: Citation `heckerman1995bn' on page 1 undefined on input line 165
+.
+
+
+LaTeX Warning: Citation `huebner2003stochastik' on page 1 undefined on input li
+ne 166.
+
+
+LaTeX Warning: Citation `jaynes1978maxent' on page 1 undefined on input line 16
+8.
+
+
+LaTeX Warning: Citation `jaynes1982concentration' on page 1 undefined on input 
+line 169.
+
+
+LaTeX Warning: Citation `jaynes1982rationale' on page 1 undefined on input line
+ 170.
+
+
+LaTeX Warning: Citation `jaynes1989wellposed' on page 1 undefined on input line
+ 171.
+
+
+LaTeX Warning: Citation `kanal1993pattern' on page 1 undefined on input line 17
+7.
+
+
+LaTeX Warning: Citation `kennedy2006geld' on page 1 undefined on input line 179
+.
+
+
+LaTeX Warning: Citation `kowalski1979algorithmic' on page 1 undefined on input 
+line 185.
+
+
+LaTeX Warning: Citation `kreitz2006formale' on page 1 undefined on input line 1
+96.
+
+
+LaTeX Warning: Citation `lauritzen1996graphical' on page 1 undefined on input l
+ine 200.
+
+
+LaTeX Warning: Citation `letz2003praktikum' on page 1 undefined on input line 2
+04.
+
+
+LaTeX Warning: Citation `lifschitz1989benchmark' on page 1 undefined on input l
+ine 205.
+
+
+LaTeX Warning: Citation `lee1988evaluation' on page 1 undefined on input line 2
+06.
+
+
+LaTeX Warning: Citation `lauer2002fgml' on page 1 undefined on input line 208.
+
+
+LaTeX Warning: Citation `murphy1994uci' on page 1 undefined on input line 210.
+
+
+LaTeX Warning: Citation `neapolitan1990probabilistic' on page 1 undefined on in
+put line 220.
+
+
+LaTeX Warning: Citation `netzer2011svhn' on page 1 undefined on input line 227.
+
+
+
+LaTeX Warning: Citation `obst2004spark' on page 1 undefined on input line 231.
+
+
+LaTeX Warning: Citation `ohmann1995diagnostic' on page 1 undefined on input lin
+e 232.
+
+
+LaTeX Warning: Citation `paris1990inevitability' on page 1 undefined on input l
+ine 242.
+
+
+LaTeX Warning: Citation `peters2003humanoid' on page 1 undefined on input line 
+244.
+
+
+LaTeX Warning: Citation `quinlanC50' on page 1 undefined on input line 249.
+
+
+LaTeX Warning: Citation `rautenberg1996einfuhrung' on page 1 undefined on input
+ line 252.
+
+
+LaTeX Warning: Citation `richter2003fallbasiertes' on page 1 undefined on input
+ line 258.
+
+
+LaTeX Warning: Citation `robinson1977dags' on page 1 undefined on input line 26
+7.
+
+
+LaTeX Warning: Citation `samuel1967checkers2' on page 1 undefined on input line
+ 280.
+
+
+LaTeX Warning: Citation `schramm1995foundations' on page 1 undefined on input l
+ine 292.
+
+
+LaTeX Warning: Citation `wiedemannphillex' on page 1 undefined on input line 32
+5.
+
+
+LaTeX Warning: Citation `zdziarski2005ending' on page 1 undefined on input line
+ 329.
+
+
+LaTeX Warning: Citation `zimmerli1994ki' on page 1 undefined on input line 332.
+
+
+
+Overfull \hbox (5.32446pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Online guide to constraint programming. http://kti.ms.mff
+.cuni.cz/bartak/ con-
+
+Overfull \hbox (7.44568pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 (Masterarbeit, Hochschule Ravensburg-Weingarten, 2016) [B
+BBK11] J. Bergstra,
+
+Overfull \hbox (6.09538pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 http://rodrigob.github.io/are_-we_- there_-yet/build/clas
+sification_-datasets_-re-
+
+Overfull \hbox (2.42105pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 bal. Diagnosis of Acute Abdominal Pain. Churchill Livings
+tone, 1991 [dDLS+72]
+
+Overfull \hbox (74.02452pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 (1972) [Dee11] The DeepQA Project, 2011. http://www.resea
+rch.ibm.com/deepqa/deepqa.shtml
+
+Overfull \hbox (138.28809pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 C.J. Merz. UCI repository of machine learning databases. 
+http://www.ics.uci.edu/mlearn/MLRepository.html,
+
+Overfull \hbox (66.64389pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Hochschule Ravensburg-Weingarten: http://www.hs-weingarte
+n.de/ertel/vorlesungen/mae/
+
+Overfull \hbox (76.41757pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 port RC24789, Yorktown Heights, NY, 2009. http://www.rese
+arch.ibm.com/deepqa/question_-
+
+Overfull \hbox (134.50111pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 LNCS, pages 65-68. Springer, 1997. http://ase.arc.nasa.go
+v/people/ schumann/publications/papers/cade97-
+
+Overfull \hbox (81.57553pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Courville. Deep learning. Buch in Vorbereitung für MIT Pr
+ess, http://www.deeplearningbook.org,
+
+Overfull \hbox (37.2485pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 style. arXiv preprint arXiv:1508.06576, 2015. http://www.
+boredpanda.com/computer-
+
+Overfull \hbox (136.13925pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 senschaft und Umwelt Interdiziplinär, 13:195-212, 2009. h
+ttp://www.fwu.at/assets/userFiles/Wissenschaft_-
+
+Overfull \hbox (10.24602pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 recurrent neural networks. arXiv preprint http://arxiv.or
+g/abs/1308.0850, 2013.
+
+Overfull \hbox (113.13142pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Ärzteblatt, 101(26):A-1892/B-1581/C-1517, 2004. http://ww
+w.aerzteblatt.de/archiv/42497/Stellenwert-
+
+Overfull \hbox (17.19728pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 der-PSA-Bestimmung-zur-Frueherkennung-des-Prostatakarzino
+ms [[[]]] J.C. Hor-
+
+Overfull \hbox (13.44429pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 ence with 2.034 cases. British Medical Journal 2, 5-9 (19
+72) [Hon94] B. Hontschik.
+
+Overfull \hbox (39.54343pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 3rd. edition, 2009. Online version: http://www-stat.stanf
+ord.edu/tibs/ElemStatLearn/
+
+Overfull \hbox (0.83575pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 geld und Monetative. Metropolis Verlag, 2014. http://www.
+monetative.de [[[]]]
+
+Overfull \hbox (30.80428pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 neural networks, Mai 2015. http://karpathy.github.io/2015
+/05/21/rnn-effectiveness/
+
+Overfull \hbox (22.38661pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 http://sysplan.nams. kyushu-u.ac.jp/gen/papers/JavaDemoML
+97/robodemo.html
+
+Overfull \hbox (1386.9611pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Computers, C-21 (4):353-359, 1972. Reprint in [AR88] pp. 
+171-174 []
+
+Overfull \hbox (27.04865pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 [[[]]] R.E. Neapolitan. Probabilistic Reasoning in Expert
+ Systems. Wiley-Interscience.
+
+Overfull \hbox (6.54298pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 son. Artificial Intelligence - A New Synthesis. Morgan Ka
+ufmann, 1998 [NPW02]
+
+Overfull \hbox (15.75189pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Higher-Order Logic, volume 2283 of LNCS. Springer, 2002. 
+http://www.cl.cam.ac.
+
+Overfull \hbox (11.73636pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Daten:http://ufldl.stanford.edu/housenumbers [OFY+95] C. 
+Ohmann, C. Franke,
+
+Overfull \hbox (1.72845pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Diagnosescore für akute Appendizitis. Der Chirurg, 66:135
+-141, 1995 [OMYL96]
+
+Overfull \hbox (13.04115pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 nologies - Proceedings of the MATES 2004, volume 3187, pa
+ges 243-257. Springer,
+
+Overfull \hbox (4.8323pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 [Pal80] G. Palm, On associative memory. Biological Cybern
+etics 36, 19-31 (1980)
+
+Overfull \hbox (942.34799pt too wide) in paragraph at lines 72--333
+[]
+
+Overfull \hbox (1252.3724pt too wide) in paragraph at lines 72--333
+[]
+
+Overfull \hbox (4.19243pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 University Electrical Engineering and Computer Science Te
+chnical Report, 1986.
+
+Overfull \hbox (70.1399pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Communications, 19(1):35-48, 2006. CASC-Homepage: http://
+www.cs.miami.edu/tptp/CASC
+
+Overfull \hbox (84.39369pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Soccer Keepaway. Adaptive Behavior, 2005. http://www.cs.u
+texas.edu/ pstone/Papers/bib2html-
+
+Overfull \hbox (52.1577pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 man. Very deep convolutional networks for large-scale ima
+ge recognition. arXiv:1409.1556,
+
+Overfull \hbox (62.81438pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Claypool Publishers, 2010. draft available online: http:/
+/www.ualberta.ca/szepesva/RLBook.
+
+Overfull \hbox (11.26685pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 http:// www.hs-weingarten.de/ertel/kibuch [Tur37] A.M. Tu
+ring. On computable
+
+Overfull \hbox (19.99179pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Computer Magazine, pages 96-98, Juni 2006. http://www.cs.
+cmu.edu/biglou/ieee-
+
+Overfull \hbox (53.15617pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 München, 2001. (DataMining Java Library WEKA: http://www.
+cs.waikato.ac.nz/ml/weka)
+
+Overfull \hbox (85.14534pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 ley, 1996 [[[]]] U. Wiedemann. PhilLex, Lexikon der Philo
+sophie. http://www.phillex.de/paradoxa.
+
+Overfull \hbox (63.79094pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 http://www.swiprolog.org [Wik13] Wikipedia, the free enzy
+clopedia. http://en.wikipedia.org,
+
+Overfull \hbox (79.12546pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 2013 [Win] P. Winston. Game demonstration. http://www.ai.
+mit.edu/courses/6.034f/gamepair.
+
+Overfull \hbox (33.86177pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Addison Wesley, 1994. Description of SNNS and JNNS: http:
+//www-ra.informatik.uni-
+
+[1]
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/w
+ithout_gpt/ai_final.tex:336: Undefined control sequence.
+l.336 \chapter
+              {Index}
+
+[10]
+[11]
+[12]
+[13]
+Overfull \hbox (0.25232pt too wide) in paragraph at lines 741--779
+[]\TU/Georgia(0)/m/n/10 Partially Observable Markov Decision Process (POMDP), 2
+93 Penguin prob-
+
+[14]
+Overfull \hbox (5.19278pt too wide) in paragraph at lines 924--929
+\TU/Georgia(0)/m/n/10 Walking robot, 290 Warren Abstract Machine (WAM), 76, 82 
+Watson, 20 WEKA,
+
+[15] (./ai_final.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `ai_final.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)
+Output written on ai_final.xdv (15 pages, 464124 bytes).
+Transcript written on ai_final.log.
+Latexmk: Getting log file 'ai_final.log'
+Latexmk: Examining 'ai_final.fls'
+Latexmk: Examining 'ai_final.log'
+Latexmk: References changed.
+Latexmk: Missing input file 'ai_final.toc' message in .log file:
+  No file ai_final.toc.
+Latexmk: References changed.
+Latexmk: Log file says output to 'ai_final.xdv'
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  ai_final.aux
+  ai_final.out
+  ai_final.toc
+
+------------
+Run number 2 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -interaction=nonstopmode -file-line-error -recorder  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/without_gpt/ai_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+without_gpt/ai_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/underscore/underscore.sty)
+==> First Aid for underscore.sty applied!
+(/usr/local/texlive/2025/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bbold/bbold.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(./ai_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(./ai_final.out) (./ai_final.out)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+(./ai_final.toc)
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/w
+ithout_gpt/ai_final.tex:72: Undefined control sequence.
+l.72 \chapter
+             {References}
+
+LaTeX Warning: Citation `survey2009robotlfd' on page 1 undefined on input line 
+73.
+
+
+LaTeX Warning: Citation `andersen1989hugin' on page 1 undefined on input line 7
+6.
+
+
+LaTeX Warning: Citation `beierle2000methoden' on page 1 undefined on input line
+ 92.
+
+
+LaTeX Warning: Citation `ohmann1992bauchschmerz' on page 1 undefined on input l
+ine 109.
+
+
+LaTeX Warning: Citation `duda1973pattern' on page 1 undefined on input line 114
+.
+
+
+LaTeX Warning: Citation `ertel2007grundkurs' on page 1 undefined on input line 
+121.
+
+
+LaTeX Warning: Citation `fischer1996probexpr' on page 1 undefined on input line
+ 134.
+
+
+LaTeX Warning: Citation `greiner1991comparison' on page 1 undefined on input li
+ne 136.
+
+
+LaTeX Warning: Citation `goller1995ar95' on page 1 undefined on input line 140.
+
+
+
+LaTeX Warning: Citation `goller1996bpts' on page 1 undefined on input line 141.
+
+
+
+LaTeX Warning: Citation `goller1994setheo' on page 1 undefined on input line 14
+3.
+
+
+LaTeX Warning: Citation `gabel2006soccer' on page 1 undefined on input line 146
+.
+
+
+LaTeX Warning: Citation `graves2013generating' on page 1 undefined on input lin
+e 147.
+
+
+LaTeX Warning: Citation `goerz2003handbuch' on page 1 undefined on input line 1
+48.
+
+
+LaTeX Warning: Citation `greiner1996stochastik' on page 1 undefined on input li
+ne 151.
+
+
+LaTeX Warning: Citation `guerrerio2002godel' on page 1 undefined on input line 
+152.
+
+
+LaTeX Warning: Citation `gonzalez2008dip' on page 1 undefined on input line 153
+.
+
+
+LaTeX Warning: Citation `horrocks1972cad' on page 1 undefined on input line 158
+.
+
+
+LaTeX Warning: Citation `huber2014monetaere' on page 1 undefined on input line 
+164.
+
+
+LaTeX Warning: Citation `heckerman1995bn' on page 1 undefined on input line 165
+.
+
+
+LaTeX Warning: Citation `huebner2003stochastik' on page 1 undefined on input li
+ne 166.
+
+
+LaTeX Warning: Citation `jaynes1978maxent' on page 1 undefined on input line 16
+8.
+
+
+LaTeX Warning: Citation `jaynes1982concentration' on page 1 undefined on input 
+line 169.
+
+
+LaTeX Warning: Citation `jaynes1982rationale' on page 1 undefined on input line
+ 170.
+
+
+LaTeX Warning: Citation `jaynes1989wellposed' on page 1 undefined on input line
+ 171.
+
+
+LaTeX Warning: Citation `kanal1993pattern' on page 1 undefined on input line 17
+7.
+
+
+LaTeX Warning: Citation `kennedy2006geld' on page 1 undefined on input line 179
+.
+
+
+LaTeX Warning: Citation `kowalski1979algorithmic' on page 1 undefined on input 
+line 185.
+
+
+LaTeX Warning: Citation `kreitz2006formale' on page 1 undefined on input line 1
+96.
+
+
+LaTeX Warning: Citation `lauritzen1996graphical' on page 1 undefined on input l
+ine 200.
+
+
+LaTeX Warning: Citation `letz2003praktikum' on page 1 undefined on input line 2
+04.
+
+
+LaTeX Warning: Citation `lifschitz1989benchmark' on page 1 undefined on input l
+ine 205.
+
+
+LaTeX Warning: Citation `lee1988evaluation' on page 1 undefined on input line 2
+06.
+
+
+LaTeX Warning: Citation `lauer2002fgml' on page 1 undefined on input line 208.
+
+
+LaTeX Warning: Citation `murphy1994uci' on page 1 undefined on input line 210.
+
+
+LaTeX Warning: Citation `neapolitan1990probabilistic' on page 1 undefined on in
+put line 220.
+
+
+LaTeX Warning: Citation `netzer2011svhn' on page 1 undefined on input line 227.
+
+
+
+LaTeX Warning: Citation `obst2004spark' on page 1 undefined on input line 231.
+
+
+LaTeX Warning: Citation `ohmann1995diagnostic' on page 1 undefined on input lin
+e 232.
+
+
+LaTeX Warning: Citation `paris1990inevitability' on page 1 undefined on input l
+ine 242.
+
+
+LaTeX Warning: Citation `peters2003humanoid' on page 1 undefined on input line 
+244.
+
+
+LaTeX Warning: Citation `quinlanC50' on page 1 undefined on input line 249.
+
+
+LaTeX Warning: Citation `rautenberg1996einfuhrung' on page 1 undefined on input
+ line 252.
+
+
+LaTeX Warning: Citation `richter2003fallbasiertes' on page 1 undefined on input
+ line 258.
+
+
+LaTeX Warning: Citation `robinson1977dags' on page 1 undefined on input line 26
+7.
+
+
+LaTeX Warning: Citation `samuel1967checkers2' on page 1 undefined on input line
+ 280.
+
+
+LaTeX Warning: Citation `schramm1995foundations' on page 1 undefined on input l
+ine 292.
+
+
+LaTeX Warning: Citation `wiedemannphillex' on page 1 undefined on input line 32
+5.
+
+
+LaTeX Warning: Citation `zdziarski2005ending' on page 1 undefined on input line
+ 329.
+
+
+LaTeX Warning: Citation `zimmerli1994ki' on page 1 undefined on input line 332.
+
+
+
+Overfull \hbox (5.32446pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Online guide to constraint programming. http://kti.ms.mff
+.cuni.cz/bartak/ con-
+
+Overfull \hbox (7.44568pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 (Masterarbeit, Hochschule Ravensburg-Weingarten, 2016) [B
+BBK11] J. Bergstra,
+
+Overfull \hbox (6.09538pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 http://rodrigob.github.io/are_-we_- there_-yet/build/clas
+sification_-datasets_-re-
+
+Overfull \hbox (2.42105pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 bal. Diagnosis of Acute Abdominal Pain. Churchill Livings
+tone, 1991 [dDLS+72]
+
+Overfull \hbox (74.02452pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 (1972) [Dee11] The DeepQA Project, 2011. http://www.resea
+rch.ibm.com/deepqa/deepqa.shtml
+
+Overfull \hbox (138.28809pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 C.J. Merz. UCI repository of machine learning databases. 
+http://www.ics.uci.edu/mlearn/MLRepository.html,
+
+Overfull \hbox (66.64389pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Hochschule Ravensburg-Weingarten: http://www.hs-weingarte
+n.de/ertel/vorlesungen/mae/
+
+Overfull \hbox (76.41757pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 port RC24789, Yorktown Heights, NY, 2009. http://www.rese
+arch.ibm.com/deepqa/question_-
+
+Overfull \hbox (134.50111pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 LNCS, pages 65-68. Springer, 1997. http://ase.arc.nasa.go
+v/people/ schumann/publications/papers/cade97-
+
+Overfull \hbox (81.57553pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Courville. Deep learning. Buch in Vorbereitung für MIT Pr
+ess, http://www.deeplearningbook.org,
+
+Overfull \hbox (37.2485pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 style. arXiv preprint arXiv:1508.06576, 2015. http://www.
+boredpanda.com/computer-
+
+Overfull \hbox (136.13925pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 senschaft und Umwelt Interdiziplinär, 13:195-212, 2009. h
+ttp://www.fwu.at/assets/userFiles/Wissenschaft_-
+
+Overfull \hbox (10.24602pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 recurrent neural networks. arXiv preprint http://arxiv.or
+g/abs/1308.0850, 2013.
+
+Overfull \hbox (113.13142pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Ärzteblatt, 101(26):A-1892/B-1581/C-1517, 2004. http://ww
+w.aerzteblatt.de/archiv/42497/Stellenwert-
+
+Overfull \hbox (17.19728pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 der-PSA-Bestimmung-zur-Frueherkennung-des-Prostatakarzino
+ms [[[]]] J.C. Hor-
+
+Overfull \hbox (13.44429pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 ence with 2.034 cases. British Medical Journal 2, 5-9 (19
+72) [Hon94] B. Hontschik.
+
+Overfull \hbox (39.54343pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 3rd. edition, 2009. Online version: http://www-stat.stanf
+ord.edu/tibs/ElemStatLearn/
+
+Overfull \hbox (0.83575pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 geld und Monetative. Metropolis Verlag, 2014. http://www.
+monetative.de [[[]]]
+
+Overfull \hbox (30.80428pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 neural networks, Mai 2015. http://karpathy.github.io/2015
+/05/21/rnn-effectiveness/
+
+Overfull \hbox (22.38661pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 http://sysplan.nams. kyushu-u.ac.jp/gen/papers/JavaDemoML
+97/robodemo.html
+
+Overfull \hbox (1386.9611pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Computers, C-21 (4):353-359, 1972. Reprint in [AR88] pp. 
+171-174 []
+
+Overfull \hbox (27.04865pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 [[[]]] R.E. Neapolitan. Probabilistic Reasoning in Expert
+ Systems. Wiley-Interscience.
+
+Overfull \hbox (6.54298pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 son. Artificial Intelligence - A New Synthesis. Morgan Ka
+ufmann, 1998 [NPW02]
+
+Overfull \hbox (15.75189pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Higher-Order Logic, volume 2283 of LNCS. Springer, 2002. 
+http://www.cl.cam.ac.
+
+Overfull \hbox (11.73636pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Daten:http://ufldl.stanford.edu/housenumbers [OFY+95] C. 
+Ohmann, C. Franke,
+
+Overfull \hbox (1.72845pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Diagnosescore für akute Appendizitis. Der Chirurg, 66:135
+-141, 1995 [OMYL96]
+
+Overfull \hbox (13.04115pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 nologies - Proceedings of the MATES 2004, volume 3187, pa
+ges 243-257. Springer,
+
+Overfull \hbox (4.8323pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 [Pal80] G. Palm, On associative memory. Biological Cybern
+etics 36, 19-31 (1980)
+
+Overfull \hbox (942.34799pt too wide) in paragraph at lines 72--333
+[]
+
+Overfull \hbox (1252.3724pt too wide) in paragraph at lines 72--333
+[]
+
+Overfull \hbox (4.19243pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 University Electrical Engineering and Computer Science Te
+chnical Report, 1986.
+
+Overfull \hbox (70.1399pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Communications, 19(1):35-48, 2006. CASC-Homepage: http://
+www.cs.miami.edu/tptp/CASC
+
+Overfull \hbox (84.39369pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Soccer Keepaway. Adaptive Behavior, 2005. http://www.cs.u
+texas.edu/ pstone/Papers/bib2html-
+
+Overfull \hbox (52.1577pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 man. Very deep convolutional networks for large-scale ima
+ge recognition. arXiv:1409.1556,
+
+Overfull \hbox (62.81438pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Claypool Publishers, 2010. draft available online: http:/
+/www.ualberta.ca/szepesva/RLBook.
+
+Overfull \hbox (11.26685pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 http:// www.hs-weingarten.de/ertel/kibuch [Tur37] A.M. Tu
+ring. On computable
+
+Overfull \hbox (19.99179pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Computer Magazine, pages 96-98, Juni 2006. http://www.cs.
+cmu.edu/biglou/ieee-
+
+Overfull \hbox (53.15617pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 München, 2001. (DataMining Java Library WEKA: http://www.
+cs.waikato.ac.nz/ml/weka)
+
+Overfull \hbox (85.14534pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 ley, 1996 [[[]]] U. Wiedemann. PhilLex, Lexikon der Philo
+sophie. http://www.phillex.de/paradoxa.
+
+Overfull \hbox (63.79094pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 http://www.swiprolog.org [Wik13] Wikipedia, the free enzy
+clopedia. http://en.wikipedia.org,
+
+Overfull \hbox (79.12546pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 2013 [Win] P. Winston. Game demonstration. http://www.ai.
+mit.edu/courses/6.034f/gamepair.
+
+Overfull \hbox (33.86177pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Addison Wesley, 1994. Description of SNNS and JNNS: http:
+//www-ra.informatik.uni-
+
+[1]
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+[10]
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/w
+ithout_gpt/ai_final.tex:336: Undefined control sequence.
+l.336 \chapter
+              {Index}
+
+[11]
+[12]
+[13]
+[14]
+Overfull \hbox (0.25232pt too wide) in paragraph at lines 741--779
+[]\TU/Georgia(0)/m/n/10 Partially Observable Markov Decision Process (POMDP), 2
+93 Penguin prob-
+
+[15]
+Overfull \hbox (5.19278pt too wide) in paragraph at lines 924--929
+\TU/Georgia(0)/m/n/10 Walking robot, 290 Warren Abstract Machine (WAM), 76, 82 
+Watson, 20 WEKA,
+
+[16] (./ai_final.aux)
+
+LaTeX Warning: There were undefined references.
+
+ )
+(see the transcript file for additional information)
+Output written on ai_final.xdv (16 pages, 469020 bytes).
+Transcript written on ai_final.log.
+Latexmk: Getting log file 'ai_final.log'
+Latexmk: Examining 'ai_final.fls'
+Latexmk: Examining 'ai_final.log'
+Latexmk: Log file says output to 'ai_final.xdv'
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  ai_final.aux
+  ai_final.toc
+
+------------
+Run number 3 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -interaction=nonstopmode -file-line-error -recorder  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/without_gpt/ai_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/
+without_gpt/ai_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/underscore/underscore.sty)
+==> First Aid for underscore.sty applied!
+(/usr/local/texlive/2025/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bbold/bbold.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(./ai_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(./ai_final.out) (./ai_final.out)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+(./ai_final.toc)
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/w
+ithout_gpt/ai_final.tex:72: Undefined control sequence.
+l.72 \chapter
+             {References}
+
+LaTeX Warning: Citation `survey2009robotlfd' on page 1 undefined on input line 
+73.
+
+
+LaTeX Warning: Citation `andersen1989hugin' on page 1 undefined on input line 7
+6.
+
+
+LaTeX Warning: Citation `beierle2000methoden' on page 1 undefined on input line
+ 92.
+
+
+LaTeX Warning: Citation `ohmann1992bauchschmerz' on page 1 undefined on input l
+ine 109.
+
+
+LaTeX Warning: Citation `duda1973pattern' on page 1 undefined on input line 114
+.
+
+
+LaTeX Warning: Citation `ertel2007grundkurs' on page 1 undefined on input line 
+121.
+
+
+LaTeX Warning: Citation `fischer1996probexpr' on page 1 undefined on input line
+ 134.
+
+
+LaTeX Warning: Citation `greiner1991comparison' on page 1 undefined on input li
+ne 136.
+
+
+LaTeX Warning: Citation `goller1995ar95' on page 1 undefined on input line 140.
+
+
+
+LaTeX Warning: Citation `goller1996bpts' on page 1 undefined on input line 141.
+
+
+
+LaTeX Warning: Citation `goller1994setheo' on page 1 undefined on input line 14
+3.
+
+
+LaTeX Warning: Citation `gabel2006soccer' on page 1 undefined on input line 146
+.
+
+
+LaTeX Warning: Citation `graves2013generating' on page 1 undefined on input lin
+e 147.
+
+
+LaTeX Warning: Citation `goerz2003handbuch' on page 1 undefined on input line 1
+48.
+
+
+LaTeX Warning: Citation `greiner1996stochastik' on page 1 undefined on input li
+ne 151.
+
+
+LaTeX Warning: Citation `guerrerio2002godel' on page 1 undefined on input line 
+152.
+
+
+LaTeX Warning: Citation `gonzalez2008dip' on page 1 undefined on input line 153
+.
+
+
+LaTeX Warning: Citation `horrocks1972cad' on page 1 undefined on input line 158
+.
+
+
+LaTeX Warning: Citation `huber2014monetaere' on page 1 undefined on input line 
+164.
+
+
+LaTeX Warning: Citation `heckerman1995bn' on page 1 undefined on input line 165
+.
+
+
+LaTeX Warning: Citation `huebner2003stochastik' on page 1 undefined on input li
+ne 166.
+
+
+LaTeX Warning: Citation `jaynes1978maxent' on page 1 undefined on input line 16
+8.
+
+
+LaTeX Warning: Citation `jaynes1982concentration' on page 1 undefined on input 
+line 169.
+
+
+LaTeX Warning: Citation `jaynes1982rationale' on page 1 undefined on input line
+ 170.
+
+
+LaTeX Warning: Citation `jaynes1989wellposed' on page 1 undefined on input line
+ 171.
+
+
+LaTeX Warning: Citation `kanal1993pattern' on page 1 undefined on input line 17
+7.
+
+
+LaTeX Warning: Citation `kennedy2006geld' on page 1 undefined on input line 179
+.
+
+
+LaTeX Warning: Citation `kowalski1979algorithmic' on page 1 undefined on input 
+line 185.
+
+
+LaTeX Warning: Citation `kreitz2006formale' on page 1 undefined on input line 1
+96.
+
+
+LaTeX Warning: Citation `lauritzen1996graphical' on page 1 undefined on input l
+ine 200.
+
+
+LaTeX Warning: Citation `letz2003praktikum' on page 1 undefined on input line 2
+04.
+
+
+LaTeX Warning: Citation `lifschitz1989benchmark' on page 1 undefined on input l
+ine 205.
+
+
+LaTeX Warning: Citation `lee1988evaluation' on page 1 undefined on input line 2
+06.
+
+
+LaTeX Warning: Citation `lauer2002fgml' on page 1 undefined on input line 208.
+
+
+LaTeX Warning: Citation `murphy1994uci' on page 1 undefined on input line 210.
+
+
+LaTeX Warning: Citation `neapolitan1990probabilistic' on page 1 undefined on in
+put line 220.
+
+
+LaTeX Warning: Citation `netzer2011svhn' on page 1 undefined on input line 227.
+
+
+
+LaTeX Warning: Citation `obst2004spark' on page 1 undefined on input line 231.
+
+
+LaTeX Warning: Citation `ohmann1995diagnostic' on page 1 undefined on input lin
+e 232.
+
+
+LaTeX Warning: Citation `paris1990inevitability' on page 1 undefined on input l
+ine 242.
+
+
+LaTeX Warning: Citation `peters2003humanoid' on page 1 undefined on input line 
+244.
+
+
+LaTeX Warning: Citation `quinlanC50' on page 1 undefined on input line 249.
+
+
+LaTeX Warning: Citation `rautenberg1996einfuhrung' on page 1 undefined on input
+ line 252.
+
+
+LaTeX Warning: Citation `richter2003fallbasiertes' on page 1 undefined on input
+ line 258.
+
+
+LaTeX Warning: Citation `robinson1977dags' on page 1 undefined on input line 26
+7.
+
+
+LaTeX Warning: Citation `samuel1967checkers2' on page 1 undefined on input line
+ 280.
+
+
+LaTeX Warning: Citation `schramm1995foundations' on page 1 undefined on input l
+ine 292.
+
+
+LaTeX Warning: Citation `wiedemannphillex' on page 1 undefined on input line 32
+5.
+
+
+LaTeX Warning: Citation `zdziarski2005ending' on page 1 undefined on input line
+ 329.
+
+
+LaTeX Warning: Citation `zimmerli1994ki' on page 1 undefined on input line 332.
+
+
+
+Overfull \hbox (5.32446pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Online guide to constraint programming. http://kti.ms.mff
+.cuni.cz/bartak/ con-
+
+Overfull \hbox (7.44568pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 (Masterarbeit, Hochschule Ravensburg-Weingarten, 2016) [B
+BBK11] J. Bergstra,
+
+Overfull \hbox (6.09538pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 http://rodrigob.github.io/are_-we_- there_-yet/build/clas
+sification_-datasets_-re-
+
+Overfull \hbox (2.42105pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 bal. Diagnosis of Acute Abdominal Pain. Churchill Livings
+tone, 1991 [dDLS+72]
+
+Overfull \hbox (74.02452pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 (1972) [Dee11] The DeepQA Project, 2011. http://www.resea
+rch.ibm.com/deepqa/deepqa.shtml
+
+Overfull \hbox (138.28809pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 C.J. Merz. UCI repository of machine learning databases. 
+http://www.ics.uci.edu/mlearn/MLRepository.html,
+
+Overfull \hbox (66.64389pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Hochschule Ravensburg-Weingarten: http://www.hs-weingarte
+n.de/ertel/vorlesungen/mae/
+
+Overfull \hbox (76.41757pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 port RC24789, Yorktown Heights, NY, 2009. http://www.rese
+arch.ibm.com/deepqa/question_-
+
+Overfull \hbox (134.50111pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 LNCS, pages 65-68. Springer, 1997. http://ase.arc.nasa.go
+v/people/ schumann/publications/papers/cade97-
+
+Overfull \hbox (81.57553pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Courville. Deep learning. Buch in Vorbereitung für MIT Pr
+ess, http://www.deeplearningbook.org,
+
+Overfull \hbox (37.2485pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 style. arXiv preprint arXiv:1508.06576, 2015. http://www.
+boredpanda.com/computer-
+
+Overfull \hbox (136.13925pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 senschaft und Umwelt Interdiziplinär, 13:195-212, 2009. h
+ttp://www.fwu.at/assets/userFiles/Wissenschaft_-
+
+Overfull \hbox (10.24602pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 recurrent neural networks. arXiv preprint http://arxiv.or
+g/abs/1308.0850, 2013.
+
+Overfull \hbox (113.13142pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Ärzteblatt, 101(26):A-1892/B-1581/C-1517, 2004. http://ww
+w.aerzteblatt.de/archiv/42497/Stellenwert-
+
+Overfull \hbox (17.19728pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 der-PSA-Bestimmung-zur-Frueherkennung-des-Prostatakarzino
+ms [[[]]] J.C. Hor-
+
+Overfull \hbox (13.44429pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 ence with 2.034 cases. British Medical Journal 2, 5-9 (19
+72) [Hon94] B. Hontschik.
+
+Overfull \hbox (39.54343pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 3rd. edition, 2009. Online version: http://www-stat.stanf
+ord.edu/tibs/ElemStatLearn/
+
+Overfull \hbox (0.83575pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 geld und Monetative. Metropolis Verlag, 2014. http://www.
+monetative.de [[[]]]
+
+Overfull \hbox (30.80428pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 neural networks, Mai 2015. http://karpathy.github.io/2015
+/05/21/rnn-effectiveness/
+
+Overfull \hbox (22.38661pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 http://sysplan.nams. kyushu-u.ac.jp/gen/papers/JavaDemoML
+97/robodemo.html
+
+Overfull \hbox (1386.9611pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Computers, C-21 (4):353-359, 1972. Reprint in [AR88] pp. 
+171-174 []
+
+Overfull \hbox (27.04865pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 [[[]]] R.E. Neapolitan. Probabilistic Reasoning in Expert
+ Systems. Wiley-Interscience.
+
+Overfull \hbox (6.54298pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 son. Artificial Intelligence - A New Synthesis. Morgan Ka
+ufmann, 1998 [NPW02]
+
+Overfull \hbox (15.75189pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Higher-Order Logic, volume 2283 of LNCS. Springer, 2002. 
+http://www.cl.cam.ac.
+
+Overfull \hbox (11.73636pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Daten:http://ufldl.stanford.edu/housenumbers [OFY+95] C. 
+Ohmann, C. Franke,
+
+Overfull \hbox (1.72845pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Diagnosescore für akute Appendizitis. Der Chirurg, 66:135
+-141, 1995 [OMYL96]
+
+Overfull \hbox (13.04115pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 nologies - Proceedings of the MATES 2004, volume 3187, pa
+ges 243-257. Springer,
+
+Overfull \hbox (4.8323pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 [Pal80] G. Palm, On associative memory. Biological Cybern
+etics 36, 19-31 (1980)
+
+Overfull \hbox (942.34799pt too wide) in paragraph at lines 72--333
+[]
+
+Overfull \hbox (1252.3724pt too wide) in paragraph at lines 72--333
+[]
+
+Overfull \hbox (4.19243pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 University Electrical Engineering and Computer Science Te
+chnical Report, 1986.
+
+Overfull \hbox (70.1399pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Communications, 19(1):35-48, 2006. CASC-Homepage: http://
+www.cs.miami.edu/tptp/CASC
+
+Overfull \hbox (84.39369pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Soccer Keepaway. Adaptive Behavior, 2005. http://www.cs.u
+texas.edu/ pstone/Papers/bib2html-
+
+Overfull \hbox (52.1577pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 man. Very deep convolutional networks for large-scale ima
+ge recognition. arXiv:1409.1556,
+
+Overfull \hbox (62.81438pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Claypool Publishers, 2010. draft available online: http:/
+/www.ualberta.ca/szepesva/RLBook.
+
+Overfull \hbox (11.26685pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 http:// www.hs-weingarten.de/ertel/kibuch [Tur37] A.M. Tu
+ring. On computable
+
+Overfull \hbox (19.99179pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Computer Magazine, pages 96-98, Juni 2006. http://www.cs.
+cmu.edu/biglou/ieee-
+
+Overfull \hbox (53.15617pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 München, 2001. (DataMining Java Library WEKA: http://www.
+cs.waikato.ac.nz/ml/weka)
+
+Overfull \hbox (85.14534pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 ley, 1996 [[[]]] U. Wiedemann. PhilLex, Lexikon der Philo
+sophie. http://www.phillex.de/paradoxa.
+
+Overfull \hbox (63.79094pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 http://www.swiprolog.org [Wik13] Wikipedia, the free enzy
+clopedia. http://en.wikipedia.org,
+
+Overfull \hbox (79.12546pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 2013 [Win] P. Winston. Game demonstration. http://www.ai.
+mit.edu/courses/6.034f/gamepair.
+
+Overfull \hbox (33.86177pt too wide) in paragraph at lines 72--333
+\TU/Georgia(0)/m/n/10 Addison Wesley, 1994. Description of SNNS and JNNS: http:
+//www-ra.informatik.uni-
+
+[1]
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+[10]
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/w
+ithout_gpt/ai_final.tex:336: Undefined control sequence.
+l.336 \chapter
+              {Index}
+
+[11]
+[12]
+[13]
+[14]
+Overfull \hbox (0.25232pt too wide) in paragraph at lines 741--779
+[]\TU/Georgia(0)/m/n/10 Partially Observable Markov Decision Process (POMDP), 2
+93 Penguin prob-
+
+[15]
+Overfull \hbox (5.19278pt too wide) in paragraph at lines 924--929
+\TU/Georgia(0)/m/n/10 Walking robot, 290 Warren Abstract Machine (WAM), 76, 82 
+Watson, 20 WEKA,
+
+[16] (./ai_final.aux)
+
+LaTeX Warning: There were undefined references.
+
+ )
+(see the transcript file for additional information)
+Output written on ai_final.xdv (16 pages, 469020 bytes).
+Transcript written on ai_final.log.
+Latexmk: Getting log file 'ai_final.log'
+Latexmk: Examining 'ai_final.fls'
+Latexmk: Examining 'ai_final.log'
+Latexmk: Log file says output to 'ai_final.xdv'
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: applying rule 'xdvipdfmx'...
+Rule 'xdvipdfmx':  Reasons for rerun
+Changed files or newly in use/created:
+  ai_final.xdv
+Category 'changed_source_rules':
+  xelatex
+Category 'no_dest':
+  xdvipdfmx
+
+------------
+Run number 1 of rule 'xdvipdfmx'
+------------
+------------
+Running 'xdvipdfmx -E -o "ai_final.pdf"  "ai_final.xdv"'
+------------
+ai_final.xdv -> ai_final.pdf
+[1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16]
+91640 bytes written
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 54 citation(s)
+Latexmk: ====Undefined refs and citations with line #s in .tex file:
+  Citation `survey2009robotlfd' on page 1 undefined on input line 73
+  Citation `andersen1989hugin' on page 1 undefined on input line 76
+  Citation `beierle2000methoden' on page 1 undefined on input line 92
+  Citation `ohmann1992bauchschmerz' on page 1 undefined on input line 109
+  Citation `duda1973pattern' on page 1 undefined on input line 114
+  Citation `ertel2007grundkurs' on page 1 undefined on input line 121
+  Citation `fischer1996probexpr' on page 1 undefined on input line 134
+ And 47 more --- see log file 'ai_final.log'
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  xelatex: Command for 'xelatex' gave return code 1
+      Refer to 'ai_final.log' and/or above output for details
+
