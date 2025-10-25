@@ -126,44 +126,55 @@ def replace_first_contents_with_toc(input_tex: str) -> str:
     with \tableofcontents.
     Only removes the section starting from that heading until the next heading of the same or higher level.
     """
-    # Match headings and capture level
-    heading_pattern = re.compile(
-        r'\\(chapter|section|subsection|subsubsection)\{.*?(content|contents).*?\}',
-        re.IGNORECASE
-    )
+    # NOTE: The original implementation removed the entire contents section
+    # block (matching a heading containing 'content' or 'contents' and deleting
+    # up to the next heading). That behavior proved brittle and sometimes
+    # deleted large swaths of the book. We therefore retain the old logic
+    # here commented-out for reference, and implement a safer approach below
+    # that simply inserts \tableofcontents right after \begin{document}.
 
-    match = heading_pattern.search(input_tex)
-    if not match:
-        # No "Contents"-like heading found
+    # --- Original implementation (commented out) ---
+    # heading_pattern = re.compile(
+    #     r'\\(chapter|section|subsection|subsubsection)\{.*?(content|contents).*?\}',
+    #     re.IGNORECASE
+    # )
+    # match = heading_pattern.search(input_tex)
+    # if not match:
+    #     return input_tex
+    # start_idx = match.start()
+    # end_idx = match.end()
+    # heading_level = match.group(1)
+    # level_map = {'chapter': 1, 'section': 2, 'subsection': 3, 'subsubsection': 4}
+    # this_level = level_map.get(heading_level, 2)
+    # next_heading_pattern = re.compile(r'\\(chapter|section|subsection|subsubsection)\{', re.IGNORECASE)
+    # next_matches = list(next_heading_pattern.finditer(input_tex, end_idx))
+    # for nm in next_matches:
+    #     next_level = level_map.get(nm.group(1).lower(), 2)
+    #     if next_level <= this_level:
+    #         end_idx = nm.start()
+    #         break
+    # else:
+    #     end_idx = len(input_tex)
+    # print(f"Removed '{input_tex[match.start():end_idx][:60]}... {input_tex[match.start():end_idx][:-60]}' and replaced with \\tableofcontents")
+    # new_tex = input_tex[:start_idx] + "\\tableofcontents\n\n" + input_tex[end_idx:]
+    # return new_tex
+
+    # --- Safer implementation: insert \tableofcontents immediately after
+    # \begin{document} and avoid duplication if a table of contents already exists.
+    begin_doc_re = re.compile(r"\\begin\{document\}", re.IGNORECASE)
+    m = begin_doc_re.search(input_tex)
+    if not m:
+        # No \begin{document} found; return unchanged
         return input_tex
 
-    start_idx = match.start()
-    end_idx = match.end()
-    heading_level = match.group(1)  # chapter, section, etc.
+    insert_pos = m.end()
 
-    # Map LaTeX headings to numeric levels
-    level_map = {'chapter': 1, 'section': 2, 'subsection': 3, 'subsubsection': 4}
-    this_level = level_map.get(heading_level, 2)  # default to 2 if unknown
+    # Avoid inserting if a \tableofcontents already exists within the next 500 chars
+    look_ahead = input_tex[insert_pos: insert_pos + 500]
+    if "\\tableofcontents" in look_ahead:
+        return input_tex
 
-    # Find the next heading of same or higher level after this match
-    next_heading_pattern = re.compile(
-        r'\\(chapter|section|subsection|subsubsection)\{',
-        re.IGNORECASE
-    )
-
-    next_matches = list(next_heading_pattern.finditer(input_tex, end_idx))
-    for nm in next_matches:
-        next_level = level_map.get(nm.group(1).lower(), 2)
-        if next_level <= this_level:
-            end_idx = nm.start()
-            break
-    else:
-        # No next heading found; remove until the end
-        end_idx = len(input_tex)
-
-    # Replace the "Contents" section with \tableofcontents
-    print(f"Removed '{input_tex[match.start():end_idx][:60]}... {input_tex[match.start():end_idx][:-60]}' and replaced with \\tableofcontents")
-    new_tex = input_tex[:start_idx] + "\\tableofcontents\n\n" + input_tex[end_idx:]
+    new_tex = input_tex[:insert_pos] + "\n\\tableofcontents\n\n" + input_tex[insert_pos:]
     return new_tex
 
 

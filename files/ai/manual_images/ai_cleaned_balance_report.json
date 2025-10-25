@@ -1,0 +1,63 @@
+{
+  "pre_correction": {
+    "total_commands": 1219,
+    "total_issues": 33,
+    "issues_by_type": {
+      "mismatch": 13,
+      "unclosed": 20
+    },
+    "issues_by_environment": {
+      "center": 18,
+      "tabular": 12,
+      "document": 2,
+      "enumerate": 1
+    }
+  },
+  "post_correction": {
+    "total_commands": 1215,
+    "total_issues": 29,
+    "issues_by_type": {
+      "mismatch": 11,
+      "unclosed": 18
+    },
+    "issues_by_environment": {
+      "center": 16,
+      "tabular": 10,
+      "document": 2,
+      "enumerate": 1
+    }
+  },
+  "fixes_applied": 8,
+  "fixes_details": [
+    "Line 8790: Removed 1 duplicate \\end commands on same line",
+    "Line 10260: Removed 1 duplicate \\end commands on same line",
+    "Line 11191: Removed \\end{document} from middle of file",
+    "Line 11191: Added \\end{document} to close 18 unclosed environments",
+    "Line 11191: Removed \\end{document} from middle of file",
+    "Line 11191: Added \\end{document} to close 18 unclosed environments",
+    "Line 11191: Removed \\end{document} from middle of file",
+    "Line 11191: Added \\end{document} to close 18 unclosed environments"
+  ],
+  "environments_found": [
+    "align*",
+    "aligned",
+    "array",
+    "cases",
+    "center",
+    "displayquote",
+    "document",
+    "enumerate",
+    "equation*",
+    "figure",
+    "gather*",
+    "gathered",
+    "itemize",
+    "tabular",
+    "verbatim"
+  ],
+  "nesting_depth_stats": {
+    "max_depth": 21,
+    "avg_depth": 8.563011456628479,
+    "total_nested": 611
+  }
+}

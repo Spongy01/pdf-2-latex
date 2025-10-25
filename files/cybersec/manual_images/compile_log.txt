@@ -1,0 +1,321 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/manual_images/cybersec_final.tex
+  cybersec_final.tex
+Category 'changed_user':
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/manual_images/cybersec_final.tex
+  cybersec_final.tex
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -interaction=nonstopmode -file-line-error -recorder  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/manual_images/cybersec_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/manual_images/cybersec_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty))
+/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty:3381: Missing nu
+mber, treated as zero.
+<to be read again> 
+                   \protect 
+l.3381 \ProcessKeysPackageOptions{mhchem}
+                                         
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty:3381: LaTeX Erro
+r: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3381 \ProcessKeysPackageOptions{mhchem}
+                                         
+\citation{ref4}
+
+LaTeX Warning: Citation `ref4' on page 1 undefined on input line 3381.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/eurosym/eurosym.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/newunicodechar/newunicodechar.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-french.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-dutch.ldf
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/babelsh.def))
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:54: Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.54 }
+      
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:54: You can't use `macro parameter charac
+ter #' in vertical mode.
+\@yargd@f #1#2->\def \reserved@a ##1#1##
+                                        2##{\expandafter \def \expandafter #...
+l.54 }
+      
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:54: LaTeX Error: Missing \begin{document}
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 }
+      
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:54: You can't use `macro parameter charac
+ter #' in horizontal mode.
+\@yargd@f #1#2->\def \reserved@a ##1#1##2##
+                                           {\expandafter \def \expandafter #...
+l.54 }
+      
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:54: You can't use a prefix with `the lett
+er r'.
+<to be read again> 
+                   r
+l.54 }
+      
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:54: Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.54 }
+      
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:54: Undefined control sequence.
+\Hy@EndAnnot ...AnnotLevel}=\@ne \Hy@endcolorlink 
+                                                  \@pdfm@mark {eann}\fi \glo...
+l.54 }
+      
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:54: You can't use `macro parameter charac
+ter #' in horizontal mode.
+<argument> ...ntlabelname \@empty \ignorespaces ##
+                                                  1
+l.54 }
+      
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:65: Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.65 }
+      
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:65: You can't use `macro parameter charac
+ter #' in vertical mode.
+\@yargd@f #1#2->\def \reserved@a ##1#1##
+                                        2##{\expandafter \def \expandafter #...
+l.65 }
+      
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:65: LaTeX Error: Missing \begin{document}
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 }
+      
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:65: You can't use `macro parameter charac
+ter #' in horizontal mode.
+\@yargd@f #1#2->\def \reserved@a ##1#1##2##
+                                           {\expandafter \def \expandafter #...
+l.65 }
+      
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:65: You can't use a prefix with `the lett
+er r'.
+<to be read again> 
+                   r
+l.65 }
+      
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:65: Missing number, treated as zero.
+<to be read again> 
+                   ##
+l.65 }
+      
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:65: You can't use `macro parameter charac
+ter #' in horizontal mode.
+<recently read> ##
+                  
+l.65 }
+      
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:65: You can't use `macro parameter charac
+ter #' in horizontal mode.
+<argument> \rule \z@ \footnotesep \ignorespaces ##
+                                                  2\@finalstrut \strutbox 
+l.65 }
+      
+(./cybersec_final.aux)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(./cybersec_final.out) (./cybersec_final.out)
+[1]
+[2] (./cybersec_final.toc)
+[3]
+[4]
+[1]
+Overfull \hbox (8.93657pt too wide) in paragraph at lines 74--74
+[]\TU/Georgia(0)/b/n/14.4 Undergraduate Topics in Computer Science 
+
+Overfull \hbox (7.30638pt too wide) in paragraph at lines 77--78
+[]\TU/Georgia(0)/m/n/10 The UTiCS concept centers on high-quality, ideally and 
+generally quite concise
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+
+
+LaTeX Warning: Citation `ref6' on page 2 undefined on input line 89.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/manual_images/cybersec_final.tex:91: TeX capacity exceeded, sorry [input s
+tack size=10000].
+\hyper@normalise ->\begingroup \@makeother {:}
+                                              \catcode `\^^M\active \def ^^M...
+l.91 ...i.org/\cite{ref10}.1007/978-3-031-41463-3}
+                                                  {https://doi.org/10.1007/9...
+
+Output written on cybersec_final.xdv (5 pages, 4728 bytes).
+Transcript written on cybersec_final.log.
+Latexmk: Getting log file 'cybersec_final.log'
+Latexmk: Examining 'cybersec_final.fls'
+Latexmk: Examining 'cybersec_final.log'
+Latexmk: Log file says output to 'cybersec_final.xdv'
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: applying rule 'xdvipdfmx'...
+Rule 'xdvipdfmx':  Reasons for rerun
+Changed files or newly in use/created:
+  cybersec_final.xdv
+Category 'changed_source_rules':
+  xelatex
+
+------------
+Run number 1 of rule 'xdvipdfmx'
+------------
+------------
+Running 'xdvipdfmx -E -o "cybersec_final.pdf"  "cybersec_final.xdv"'
+------------
+cybersec_final.xdv -> cybersec_final.pdf
+[1][2][3][4][5
+xdvipdfmx:warning: Object @page.1 already defined.
+]
+30741 bytes written
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 2 citation(s)
+Latexmk: ====Undefined refs and citations with line #s in .tex file:
+  Citation `ref4' on page 1 undefined on input line 3381
+  Citation `ref6' on page 2 undefined on input line 89
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  xelatex: Command for 'xelatex' gave return code 1
+      Refer to 'cybersec_final.log' and/or above output for details
+

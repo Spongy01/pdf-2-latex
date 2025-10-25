@@ -1,0 +1,3272 @@
+[
+    {
+        "page_number": 4,
+        "latex_position": 2398,
+        "content_length": 51,
+        "page_last_content": "teven S. Skiena The Data Science Design Manual 123",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 5,
+        "latex_position": 4322,
+        "content_length": 1894,
+        "page_last_content": "tzerland https://doi.org/10.1007/978-3-319-55444-0",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 6,
+        "latex_position": 6575,
+        "content_length": 2264,
+        "page_last_content": "di\ufb00erent material, but with the same motivation. v",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 7,
+        "latex_position": 9563,
+        "content_length": 2949,
+        "page_last_content": "re rival philosophies can come to reason together.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 8,
+        "latex_position": 12218,
+        "content_length": 2556,
+        "page_last_content": "gorithm Design Manual produced coherent solutions,",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 9,
+        "latex_position": 14852,
+        "content_length": 2512,
+        "page_last_content": " ask those I\u2019ve unfairly neglected for absolution.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 10,
+        "latex_position": 17747,
+        "content_length": 2862,
+        "page_last_content": "arameters, you probably missed some. \u2013 Alan Perlis",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 12,
+        "latex_position": 19480,
+        "content_length": 2300,
+        "page_last_content": "oes Not Imply Causation! . . . . . . . . . . 45 xi",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 13,
+        "latex_position": 21171,
+        "content_length": 3120,
+        "page_last_content": " Theorem . . . . . . . . . . . . . . . . . . . 114",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 14,
+        "latex_position": 23005,
+        "content_length": 3137,
+        "page_last_content": " . . . . . . . . . . . . . . . . . . . . . . . 187",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 15,
+        "latex_position": 24857,
+        "content_length": 3150,
+        "page_last_content": " . . . . . . . . . . . . . . . . . . . . . . . 242",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 16,
+        "latex_position": 26839,
+        "content_length": 3257,
+        "page_last_content": "ssi\ufb01cation . . . . . . . . . . . . . . . . . . 298",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 17,
+        "latex_position": 28661,
+        "content_length": 3198,
+        "page_last_content": " . . . . . . . . . . . . . . . . . . . . . . . 371",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 18,
+        "latex_position": 30230,
+        "content_length": 2934,
+        "page_last_content": " . . . . . . . . . . . . . 425 14 Bibliography 427",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 20,
+        "latex_position": 34775,
+        "content_length": 2653,
+        "page_last_content": " opposed to getting it done quickly and e\ufb03ciently.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 21,
+        "latex_position": 37549,
+        "content_length": 2730,
+        "page_last_content": "ze, say, \ufb01nancial transaction or social media data",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 22,
+        "latex_position": 40317,
+        "content_length": 2729,
+        "page_last_content": "might explore/answer with access to this data set.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 23,
+        "latex_position": 42282,
+        "content_length": 1735,
+        "page_last_content": ", and \ufb01elding record, plus information about teams",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 24,
+        "latex_position": 44049,
+        "content_length": 1712,
+        "page_last_content": " issues. Almost 20,000 major league baseball play-",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 25,
+        "latex_position": 46890,
+        "content_length": 2775,
+        "page_last_content": " which now contains records on 6.5 million people.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 26,
+        "latex_position": 47279,
+        "content_length": 176,
+        "page_last_content": "ative actor data from the Internet Movie Database.",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 27,
+        "latex_position": 50040,
+        "content_length": 2655,
+        "page_last_content": "echniques, including the analysis of links [BK07].",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 28,
+        "latex_position": 52341,
+        "content_length": 2175,
+        "page_last_content": "hrases published in books over the past 200 years.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 29,
+        "latex_position": 54914,
+        "content_length": 2552,
+        "page_last_content": "They act as credit card terminals, providing a way",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 30,
+        "latex_position": 57994,
+        "content_length": 1910,
+        "page_last_content": "estions with respect to the taxi industry include:",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 31,
+        "latex_position": 59671,
+        "content_length": 1584,
+        "page_last_content": "e longer and street cabs a rare but welcome sight.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 32,
+        "latex_position": 62460,
+        "content_length": 2747,
+        "page_last_content": "te our discussion of linear algebra, in Chapter 8.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 33,
+        "latex_position": 65482,
+        "content_length": 2948,
+        "page_last_content": "hope to really understand something we cannot see?",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 34,
+        "latex_position": 68214,
+        "content_length": 2696,
+        "page_last_content": " problems as predicting the winner of a particular",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 35,
+        "latex_position": 70801,
+        "content_length": 2478,
+        "page_last_content": "can algorithms tell who is the fairest one of all?",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 36,
+        "latex_position": 72689,
+        "content_length": 1787,
+        "page_last_content": "enes from data science television: The Quant Shop.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 37,
+        "latex_position": 75480,
+        "content_length": 2718,
+        "page_last_content": "at keeps us moving soundly in the right direction.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 38,
+        "latex_position": 78383,
+        "content_length": 2900,
+        "page_last_content": "ad, and Lincoln round out the top \ufb01ve) from lesser",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 39,
+        "latex_position": 81320,
+        "content_length": 2947,
+        "page_last_content": ". Other potential customers demanded proof that we",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 40,
+        "latex_position": 84099,
+        "content_length": 2699,
+        "page_last_content": " in this book. Ditto to Amazon, the owner of IMDb.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 41,
+        "latex_position": 85746,
+        "content_length": 1552,
+        "page_last_content": "r by analyzing them: (a) Credit card billing data.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 42,
+        "latex_position": 88372,
+        "content_length": 2543,
+        "page_last_content": " of paved road are there in your favorite country?",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 43,
+        "latex_position": 89606,
+        "content_length": 1064,
+        "page_last_content": ".kaggle.com/c/pkdd-15-taxi-trip-time-prediction-ii",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 45,
+        "latex_position": 93616,
+        "content_length": 2050,
+        "page_last_content": "tatistics provides the tools to analyze this data.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 46,
+        "latex_position": 96487,
+        "content_length": 2755,
+        "page_last_content": "have wondered. The house always has the advantage.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 47,
+        "latex_position": 98476,
+        "content_length": 1858,
+        "page_last_content": "e and above average if the events are independent.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 48,
+        "latex_position": 100979,
+        "content_length": 2295,
+        "page_last_content": " theorem P(B|A) = (1\u00b79/36)/(25/36) = 9/25, exactly",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 49,
+        "latex_position": 103300,
+        "content_length": 2226,
+        "page_last_content": "al on dice 0.0 0.2 0.4 0.6 0.8 1.0 Probability cdf",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 50,
+        "latex_position": 104746,
+        "content_length": 1446,
+        "page_last_content": " the distribution is generally substantially less.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 51,
+        "latex_position": 107127,
+        "content_length": 2283,
+        "page_last_content": " the mean should be roughly the same as the number",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 52,
+        "latex_position": 109856,
+        "content_length": 2613,
+        "page_last_content": "ere, as it will be for any power law distribution.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 53,
+        "latex_position": 112061,
+        "content_length": 2054,
+        "page_last_content": " is measured by \u03c3. Alternately, imagine a \u201cprinter",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 54,
+        "latex_position": 115126,
+        "content_length": 2998,
+        "page_last_content": "n any given time period. However, the hot fund one",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 55,
+        "latex_position": 117482,
+        "content_length": 1999,
+        "page_last_content": "so has a 10% chance of batting above .325, but you",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 56,
+        "latex_position": 120461,
+        "content_length": 2852,
+        "page_last_content": "100 inch (8.33 foot) women visiting to enjoy them.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 57,
+        "latex_position": 123324,
+        "content_length": 2510,
+        "page_last_content": "b.stat.cmu.edu/DASL/Stories/SmokingandCancer.html.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 58,
+        "latex_position": 126083,
+        "content_length": 2255,
+        "page_last_content": "es/chidev/Paper/Articles/ Anderson-Aggression.pdf.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 59,
+        "latex_position": 128664,
+        "content_length": 2050,
+        "page_last_content": "an coefficient = -0.27 Pearson coefficient = -0.17",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 62,
+        "latex_position": 134385,
+        "content_length": 2693,
+        "page_last_content": "pulate one of the variables and watch the e\ufb00ect on",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 63,
+        "latex_position": 135795,
+        "content_length": 1215,
+        "page_last_content": " in an e\ufb00ort to prevent predators from learning to",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 64,
+        "latex_position": 138588,
+        "content_length": 2681,
+        "page_last_content": "o the seven algorithmic applications of logarithms",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 65,
+        "latex_position": 141290,
+        "content_length": 2557,
+        "page_last_content": "ut as an increase, as opposed to a neutral change?",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 66,
+        "latex_position": 143604,
+        "content_length": 2195,
+        "page_last_content": "UM917 0 2 4 6 8 10 12 14 6K448 6K9P5 7UM918 7UM917",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 67,
+        "latex_position": 145619,
+        "content_length": 2184,
+        "page_last_content": " 1000 0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 Linear scale",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 68,
+        "latex_position": 148511,
+        "content_length": 2776,
+        "page_last_content": " the chapter notes (Section 2.6) for more details.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 69,
+        "latex_position": 151086,
+        "content_length": 1925,
+        "page_last_content": ". Malkiel\u2019s A Random Walk Down Wall Street [Mal99]",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 70,
+        "latex_position": 153607,
+        "content_length": 2225,
+        "page_last_content": " 15, 25, 30, 30. ii. \u221240, 0, 0, 0, 15, 25, 30, 30.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 71,
+        "latex_position": 155572,
+        "content_length": 1833,
+        "page_last_content": "rithm to base- a, that loga(x) = logb(x)/ logb(a).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 72,
+        "latex_position": 158310,
+        "content_length": 2614,
+        "page_last_content": "ion does not imply causation. What does this mean?",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 73,
+        "latex_position": 158862,
+        "content_length": 445,
+        "page_last_content": ". https://www.kaggle.com/c/shelter-animal-outcomes",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 75,
+        "latex_position": 163617,
+        "content_length": 2708,
+        "page_last_content": "ailable in GNU Octave, an open-source alternative.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 76,
+        "latex_position": 166523,
+        "content_length": 2803,
+        "page_last_content": "ed, we invented the iPad together [Bar10, MOR+88].",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 77,
+        "latex_position": 167529,
+        "content_length": 127,
+        "page_last_content": " code, computational re- sults, and documentation.",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 78,
+        "latex_position": 170245,
+        "content_length": 2651,
+        "page_last_content": " lines, and \ufb01elds separated by delimiting symbols.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 79,
+        "latex_position": 173397,
+        "content_length": 3072,
+        "page_last_content": "n slovenly about space even at the petabyte scale.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 80,
+        "latex_position": 175986,
+        "content_length": 2499,
+        "page_last_content": "he Thrift is a related standard, used at Facebook.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 81,
+        "latex_position": 178389,
+        "content_length": 2250,
+        "page_last_content": "nd data science will be discussed in Section 12.7.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 82,
+        "latex_position": 181263,
+        "content_length": 2803,
+        "page_last_content": "es, again with restrictions that vary by location.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 83,
+        "latex_position": 184184,
+        "content_length": 2907,
+        "page_last_content": "haracter recognition (OCR) systems that don\u2019t make",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 84,
+        "latex_position": 187127,
+        "content_length": 2899,
+        "page_last_content": " spidering are based on the name regularity of the",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 85,
+        "latex_position": 190236,
+        "content_length": 3052,
+        "page_last_content": ". If each transaction record takes 1 kilobyte (one",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 86,
+        "latex_position": 192732,
+        "content_length": 2436,
+        "page_last_content": "cts must be detected before they can be corrected.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 87,
+        "latex_position": 194774,
+        "content_length": 2048,
+        "page_last_content": " I look at Figure 3.2: a left bump starting around",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 88,
+        "latex_position": 197000,
+        "content_length": 2225,
+        "page_last_content": "d not rise to the threshold of a great full career",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 89,
+        "latex_position": 199440,
+        "content_length": 2378,
+        "page_last_content": "one of us is in pounds and the other in kilograms.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 90,
+        "latex_position": 202680,
+        "content_length": 3237,
+        "page_last_content": " are counting numbers: quantities which are really",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 91,
+        "latex_position": 205764,
+        "content_length": 3079,
+        "page_last_content": "r web-pages, although other systems remain in use.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 92,
+        "latex_position": 208492,
+        "content_length": 2714,
+        "page_last_content": " selling prices that cover the cost of conversion.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 93,
+        "latex_position": 211245,
+        "content_length": 2674,
+        "page_last_content": "these values should be interpreted as data or not.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 94,
+        "latex_position": 214164,
+        "content_length": 2853,
+        "page_last_content": " run the model ten times with ten di\ufb00erent imputed",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 95,
+        "latex_position": 217020,
+        "content_length": 2797,
+        "page_last_content": "lier element can lead to major misinterpretations.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 96,
+        "latex_position": 220142,
+        "content_length": 3125,
+        "page_last_content": "ategy of buying the stocks that showed the highest",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 97,
+        "latex_position": 223119,
+        "content_length": 2977,
+        "page_last_content": "nions from the knowledge and experience of others.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 98,
+        "latex_position": 225274,
+        "content_length": 2069,
+        "page_last_content": " am going to tell you the answer on the next page.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 99,
+        "latex_position": 227941,
+        "content_length": 2637,
+        "page_last_content": "crowds are wise when four conditions are satis\ufb01ed:",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 100,
+        "latex_position": 230519,
+        "content_length": 2551,
+        "page_last_content": "n and median implicitly assume that the errors are",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 101,
+        "latex_position": 233427,
+        "content_length": 2863,
+        "page_last_content": "good workers are unlikely to labor for bad actors.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 102,
+        "latex_position": 235162,
+        "content_length": 1628,
+        "page_last_content": "abeled repeatedly by di\ufb00erent annotators, so as to",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 103,
+        "latex_position": 237964,
+        "content_length": 2708,
+        "page_last_content": ",676 raised by the crowd-funding site Kickstarter.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 104,
+        "latex_position": 240892,
+        "content_length": 2889,
+        "page_last_content": "work if it disagrees too often from the consensus.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 105,
+        "latex_position": 243885,
+        "content_length": 2937,
+        "page_last_content": " play, or a task people themselves want done. With",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 106,
+        "latex_position": 246883,
+        "content_length": 2902,
+        "page_last_content": "t \ufb01rst, in order to hook the player. Progress bars",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 107,
+        "latex_position": 249588,
+        "content_length": 2626,
+        "page_last_content": "aper with your impressions on its characteristics:",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 108,
+        "latex_position": 251480,
+        "content_length": 1706,
+        "page_last_content": "Ghoul pool? \u2022 Future gold/oil price? Data Cleaning",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 109,
+        "latex_position": 253621,
+        "content_length": 2027,
+        "page_last_content": " does data cleaning play a vital role in analysis?",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 110,
+        "latex_position": 254437,
+        "content_length": 660,
+        "page_last_content": "arth/climate-change-earth-surface-temperature-data",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 112,
+        "latex_position": 258987,
+        "content_length": 2389,
+        "page_last_content": "ght: from 18.5 to 25. \u2022 Overweight: from 25 to 30.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 113,
+        "latex_position": 261088,
+        "content_length": 1924,
+        "page_last_content": ". And indeed, almost all of the basketball players",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 115,
+        "latex_position": 265457,
+        "content_length": 2934,
+        "page_last_content": "ce people are willing to pay, the bigger the star.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 116,
+        "latex_position": 268099,
+        "content_length": 2592,
+        "page_last_content": "ible letter grade is mapped to a number (typically",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 117,
+        "latex_position": 270750,
+        "content_length": 2535,
+        "page_last_content": "ies of statistics which point in these directions:",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 118,
+        "latex_position": 273702,
+        "content_length": 2943,
+        "page_last_content": "feature has too dominant an impact on the results.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 119,
+        "latex_position": 276492,
+        "content_length": 2507,
+        "page_last_content": "ions, by ensuring that all \ufb01elds have an identical",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 120,
+        "latex_position": 279344,
+        "content_length": 2805,
+        "page_last_content": " arise naturally in competitions between entities:",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 121,
+        "latex_position": 282149,
+        "content_length": 2481,
+        "page_last_content": "p, so \u00b5A > 0 and is likely to be quite close to 1.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 122,
+        "latex_position": 283731,
+        "content_length": 1400,
+        "page_last_content": "0.0 0.2 0.4 0.6 0.8 1.0 f(x) c = 1 c = 0.2 c = 0.4",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 123,
+        "latex_position": 285737,
+        "content_length": 2155,
+        "page_last_content": "ratings in response to surprise, not just victory.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 124,
+        "latex_position": 288684,
+        "content_length": 2671,
+        "page_last_content": "ll be discussed more thoroughly in Section 10.1.1.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 125,
+        "latex_position": 290717,
+        "content_length": 1929,
+        "page_last_content": "ould then be a permutation P of the vertices which",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 126,
+        "latex_position": 292997,
+        "content_length": 2195,
+        "page_last_content": "he counts before positioning the next best vertex.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 127,
+        "latex_position": 295757,
+        "content_length": 2614,
+        "page_last_content": "d score more points against y than it does against",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 128,
+        "latex_position": 298993,
+        "content_length": 3224,
+        "page_last_content": "t the spread taught me a second major life lesson:",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 130,
+        "latex_position": 306896,
+        "content_length": 3007,
+        "page_last_content": " A, or (3) there is equal preference between them.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 131,
+        "latex_position": 309310,
+        "content_length": 2253,
+        "page_last_content": "ng about who the most signi\ufb01cant \ufb01gures in history",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 132,
+        "latex_position": 312306,
+        "content_length": 2960,
+        "page_last_content": "er age correction are shown in Figure 4.12 (left).",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 133,
+        "latex_position": 314872,
+        "content_length": 2177,
+        "page_last_content": "aking world? How can there be no Chinese or Indian",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 134,
+        "latex_position": 317723,
+        "content_length": 2821,
+        "page_last_content": "ethods discussed here, including Elo and PageRank.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 135,
+        "latex_position": 319989,
+        "content_length": 2200,
+        "page_last_content": "rld. (b) Movies and movie stars. (c) Sports stars.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 136,
+        "latex_position": 321929,
+        "content_length": 1783,
+        "page_last_content": "ad. https://www.kaggle.com/c/job-salary-prediction",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 138,
+        "latex_position": 326453,
+        "content_length": 3159,
+        "page_last_content": "bout observed data, so they will be reviewed here.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 140,
+        "latex_position": 330656,
+        "content_length": 1806,
+        "page_last_content": "d standard deviation: P(x) = 1 \u03c3 \u221a 2\u03c0 e\u2212(x\u2212\u00b5)2/2\u03c32",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 141,
+        "latex_position": 333569,
+        "content_length": 2823,
+        "page_last_content": " are non-trivial populations with growth disorders",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 142,
+        "latex_position": 335678,
+        "content_length": 1955,
+        "page_last_content": "ted variable. Indeed the term six sigma is used to",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 143,
+        "latex_position": 338639,
+        "content_length": 2695,
+        "page_last_content": "ion for \u00b5 = 1/p = 1000, which shows that we should",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 144,
+        "latex_position": 340048,
+        "content_length": 1332,
+        "page_last_content": "Probability The Poisson Distribution for mu = 1000",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 145,
+        "latex_position": 341840,
+        "content_length": 1914,
+        "page_last_content": "serve a di\ufb00erent distribution, called a power law.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 146,
+        "latex_position": 344727,
+        "content_length": 2609,
+        "page_last_content": "efenestrate means \u201cto throw someone out a window.\u201d",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 147,
+        "latex_position": 346158,
+        "content_length": 2861,
+        "page_last_content": "lized 33 90079 grandmom 23 100033 slum-dwellers 17",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 148,
+        "latex_position": 350790,
+        "content_length": 2454,
+        "page_last_content": "ause: P(k = X) = C\u2032(k) = C(X \u2264k + \u03b4) \u2212C(X \u2264k), and",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 149,
+        "latex_position": 352161,
+        "content_length": 1378,
+        "page_last_content": "ent about how you might do this before we proceed.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 150,
+        "latex_position": 354364,
+        "content_length": 2099,
+        "page_last_content": "als on average su\ufb03ce to \ufb01nd each new circle point.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 151,
+        "latex_position": 356637,
+        "content_length": 1972,
+        "page_last_content": "portance or magnitude of this di\ufb00erence. For large",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 152,
+        "latex_position": 359306,
+        "content_length": 2507,
+        "page_last_content": "ble to the mean shift: small e\ufb00ects start at \u00b10.2,",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 153,
+        "latex_position": 361598,
+        "content_length": 2084,
+        "page_last_content": "y arises in AB testing, associated with evaluating",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 154,
+        "latex_position": 364569,
+        "content_length": 2693,
+        "page_last_content": "hout the need for additional statistical evidence.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 155,
+        "latex_position": 367580,
+        "content_length": 2971,
+        "page_last_content": "values should largely overlap. Further, since both",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 156,
+        "latex_position": 369790,
+        "content_length": 1759,
+        "page_last_content": "same size, n. Then rn1 + n2 n1n2 = r 2n n2 = r 2 n",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 157,
+        "latex_position": 372606,
+        "content_length": 2754,
+        "page_last_content": "his result would have come about purely by chance.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 158,
+        "latex_position": 375768,
+        "content_length": 3050,
+        "page_last_content": "for an action movie. Dwayne Johnson as Bonferroni?",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 159,
+        "latex_position": 377874,
+        "content_length": 2001,
+        "page_last_content": "lities. Either it was by chance that so many older",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 160,
+        "latex_position": 380681,
+        "content_length": 2762,
+        "page_last_content": " guests were selected at random. It turns out that",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 161,
+        "latex_position": 382147,
+        "content_length": 1386,
+        "page_last_content": " If your hypothesis is supported by the data, then",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 162,
+        "latex_position": 384652,
+        "content_length": 2468,
+        "page_last_content": " 10.0 10.2 10.4 10.6 10.8 0 5 10 15 20 25 30 35 40",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 163,
+        "latex_position": 387474,
+        "content_length": 2457,
+        "page_last_content": " n for the \ufb01rst position, then leaves it alone and",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 164,
+        "latex_position": 389183,
+        "content_length": 1722,
+        "page_last_content": "a long streak in the context of his career? DiMag-",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 165,
+        "latex_position": 391494,
+        "content_length": 2212,
+        "page_last_content": "t if you are taking one of my classes, I tell you.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 166,
+        "latex_position": 393273,
+        "content_length": 1617,
+        "page_last_content": "t P(A|B) = 1/2 and P(B|A) = 1/3. These also follow",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 167,
+        "latex_position": 395683,
+        "content_length": 2283,
+        "page_last_content": " [JLSI99]. 5.8 Exercises Statistical Distributions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 168,
+        "latex_position": 397854,
+        "content_length": 2158,
+        "page_last_content": "ly independent and which are not? (a) Coin tosses.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 169,
+        "latex_position": 400298,
+        "content_length": 2364,
+        "page_last_content": "s Bayes Theorem? And why is it useful in practice?",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 170,
+        "latex_position": 401829,
+        "content_length": 1391,
+        "page_last_content": "our? https://www.kaggle.com/c/how-much-did-it-rain",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 172,
+        "latex_position": 406532,
+        "content_length": 2719,
+        "page_last_content": " before you even open the \ufb01le. Ask questions like:",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 173,
+        "latex_position": 409135,
+        "content_length": 2547,
+        "page_last_content": " components of our height/weight data set, we get:",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 174,
+        "latex_position": 412004,
+        "content_length": 2286,
+        "page_last_content": "ariables, like gender or location? Through summary",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 175,
+        "latex_position": 413631,
+        "content_length": 1502,
+        "page_last_content": "th eleven points and shown in Figure 6.2. All four",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 176,
+        "latex_position": 416452,
+        "content_length": 2190,
+        "page_last_content": "ing reasonable but can be customized if necessary.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 177,
+        "latex_position": 418128,
+        "content_length": 1539,
+        "page_last_content": "nd linked-views across distinct views of the data.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 178,
+        "latex_position": 420403,
+        "content_length": 2161,
+        "page_last_content": "ents like scale and labeling. Are your descriptive",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 179,
+        "latex_position": 422389,
+        "content_length": 1818,
+        "page_last_content": " the heights of the bars, so the males do not look",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 180,
+        "latex_position": 424922,
+        "content_length": 2440,
+        "page_last_content": "ntially amplify or mute lines from this objective.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 182,
+        "latex_position": 428765,
+        "content_length": 1961,
+        "page_last_content": "ct Nov Dec 0 2000 4000 6000 8000 10000 12000 14000",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 184,
+        "latex_position": 432646,
+        "content_length": 2274,
+        "page_last_content": "r scales from Python\u2019s MatPlotLib, for comparison.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 185,
+        "latex_position": 434777,
+        "content_length": 2057,
+        "page_last_content": "eens gray cool spring seismic rainbow gist_rainbow",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 186,
+        "latex_position": 437087,
+        "content_length": 2209,
+        "page_last_content": "parisons, so always be sure to right justify them.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 187,
+        "latex_position": 437325,
+        "content_length": 1627,
+        "page_last_content": "ata. Reprinted with permission from Abela [Abe13].",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 188,
+        "latex_position": 440025,
+        "content_length": 2632,
+        "page_last_content": "ny ambiguity in the caption attached to the table.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 189,
+        "latex_position": 443079,
+        "content_length": 2292,
+        "page_last_content": "tates 298,444,215 9,631,420 30.99 6.50 37,800 97.0",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 190,
+        "latex_position": 445032,
+        "content_length": 1698,
+        "page_last_content": "h frequency up-and-down movement distracts us from",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 191,
+        "latex_position": 447988,
+        "content_length": 2807,
+        "page_last_content": "t the median (50th percentile). Typically whiskers",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 192,
+        "latex_position": 449959,
+        "content_length": 1776,
+        "page_last_content": "ght (cm) 0 20 40 60 80 100 120 140 160 Weight (kg)",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 193,
+        "latex_position": 451997,
+        "content_length": 2011,
+        "page_last_content": "s. The default dot size for most plotting programs",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 194,
+        "latex_position": 454226,
+        "content_length": 2137,
+        "page_last_content": "s principal component analysis and self-organizing",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 195,
+        "latex_position": 457077,
+        "content_length": 2819,
+        "page_last_content": "th work by partitioning a geometric whole, be it a",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 196,
+        "latex_position": 457378,
+        "content_length": 3055,
+        "page_last_content": "sed on a free chart from http://www.gapminder.org.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 197,
+        "latex_position": 459477,
+        "content_length": 1924,
+        "page_last_content": "0 Number of popular votes (million) 2004 2008 2012",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 199,
+        "latex_position": 462844,
+        "content_length": 1847,
+        "page_last_content": " from a mix of two or more underlying populations?",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 201,
+        "latex_position": 465453,
+        "content_length": 644,
+        "page_last_content": " 0.00 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 202,
+        "latex_position": 466934,
+        "content_length": 1297,
+        "page_last_content": "ead of a histogram to represent your distribution,",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 203,
+        "latex_position": 469037,
+        "content_length": 1909,
+        "page_last_content": " as solidly blue as the Midwest and south are red.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 204,
+        "latex_position": 470812,
+        "content_length": 1625,
+        "page_last_content": "ans that they share something important in common.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 205,
+        "latex_position": 473656,
+        "content_length": 2775,
+        "page_last_content": "hat time to arrive to catch our train. But Marey\u2019s",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 206,
+        "latex_position": 475233,
+        "content_length": 1466,
+        "page_last_content": "trains cross your station in the proper direction.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 207,
+        "latex_position": 476490,
+        "content_length": 1180,
+        "page_last_content": " water, and pointed the way towards preventing it.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 208,
+        "latex_position": 478079,
+        "content_length": 1450,
+        "page_last_content": ", and most others good enough to get the job done.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 209,
+        "latex_position": 480152,
+        "content_length": 1961,
+        "page_last_content": "000 Rank 0.0 0.5 1.0 1.5 2.0 2.5 3.0 Frequency 1e7",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 210,
+        "latex_position": 480621,
+        "content_length": 543,
+        "page_last_content": "104 Rank 101 102 103 104 105 106 107 108 Frequency",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 211,
+        "latex_position": 483725,
+        "content_length": 3090,
+        "page_last_content": "hans_rosling_shows_the_best_stats_you_ve_ever_seen",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 212,
+        "latex_position": 485311,
+        "content_length": 1357,
+        "page_last_content": "ts. Further, we partitioned these counts according",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 213,
+        "latex_position": 488017,
+        "content_length": 2706,
+        "page_last_content": "mputed these maps o\ufb04ine and showed them on demand.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 214,
+        "latex_position": 490866,
+        "content_length": 2751,
+        "page_last_content": "s [MBL+06] and the Access user interface [BWPS10].",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 215,
+        "latex_position": 493093,
+        "content_length": 2093,
+        "page_last_content": "\ufb00ectively? (f) How can we make the graphic better?",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 216,
+        "latex_position": 495277,
+        "content_length": 1954,
+        "page_last_content": " time and place? https://www.kaggle.com/c/sf-crime",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 218,
+        "latex_position": 499926,
+        "content_length": 2865,
+        "page_last_content": "llowed the freedom to do so. In popular discourse,",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 219,
+        "latex_position": 502753,
+        "content_length": 2712,
+        "page_last_content": "ta than the training data are said to be cheating.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 220,
+        "latex_position": 505591,
+        "content_length": 2801,
+        "page_last_content": "onitoring its performance and adjusting over time.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 221,
+        "latex_position": 508257,
+        "content_length": 2497,
+        "page_last_content": "ng your available degrees of freedom in design and",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 222,
+        "latex_position": 511180,
+        "content_length": 2890,
+        "page_last_content": "to why they do what they do. Figure 7.1 makes this",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 223,
+        "latex_position": 513388,
+        "content_length": 2123,
+        "page_last_content": " should help us predict who will win the election.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 224,
+        "latex_position": 516316,
+        "content_length": 2918,
+        "page_last_content": "derstand why they didn\u2019t add up in the \ufb01rst place.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 225,
+        "latex_position": 519374,
+        "content_length": 3030,
+        "page_last_content": "basic organizing principles in a domain that I un-",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 226,
+        "latex_position": 522117,
+        "content_length": 2695,
+        "page_last_content": "ome notion of a prior distribution on the classes.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 227,
+        "latex_position": 524879,
+        "content_length": 2615,
+        "page_last_content": "ou will have to make do with a lot less than that.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 228,
+        "latex_position": 527756,
+        "content_length": 2694,
+        "page_last_content": "ch better scores on your testbed than you deserve.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 229,
+        "latex_position": 530525,
+        "content_length": 2608,
+        "page_last_content": "uld be negative. This labeling aims to ensure that",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 230,
+        "latex_position": 532491,
+        "content_length": 1818,
+        "page_last_content": " two baseline opponents, the sharp and the monkey.",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 231,
+        "latex_position": 535347,
+        "content_length": 2733,
+        "page_last_content": " them are likely to connect with the rare positive",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 232,
+        "latex_position": 538278,
+        "content_length": 2247,
+        "page_last_content": "hmetic mean, and the lower number has a dispropor-",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 233,
+        "latex_position": 541365,
+        "content_length": 3012,
+        "page_last_content": "pass on a question. Only venture a guess when your",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 234,
+        "latex_position": 543656,
+        "content_length": 2208,
+        "page_last_content": "e of options in putting together a classi\ufb01er. Each",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 235,
+        "latex_position": 546978,
+        "content_length": 3187,
+        "page_last_content": "ation, in tuning the performance of radar systems.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 236,
+        "latex_position": 548703,
+        "content_length": 2401,
+        "page_last_content": "tures of the confusion matrix are the large counts",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 237,
+        "latex_position": 551419,
+        "content_length": 2564,
+        "page_last_content": "he sign can distinguish the case where y\u2032 > y from",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 238,
+        "latex_position": 553780,
+        "content_length": 2092,
+        "page_last_content": "r distribution for the monkey, randomly guessing a",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 239,
+        "latex_position": 555680,
+        "content_length": 1838,
+        "page_last_content": "outlier elements can substantially skew the total.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 240,
+        "latex_position": 559171,
+        "content_length": 1802,
+        "page_last_content": "en document from word usage. What is worth noting?",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 241,
+        "latex_position": 561888,
+        "content_length": 2625,
+        "page_last_content": "ed the evaluation data until it was really needed.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 242,
+        "latex_position": 565099,
+        "content_length": 3199,
+        "page_last_content": "ou cannot a\ufb00ord to give up a fraction of your data",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 243,
+        "latex_position": 568104,
+        "content_length": 2950,
+        "page_last_content": "ing the region of interest. A classi\ufb01er trained on",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 244,
+        "latex_position": 570942,
+        "content_length": 2772,
+        "page_last_content": "ritten in exactly the same font and the same size.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 245,
+        "latex_position": 574023,
+        "content_length": 3067,
+        "page_last_content": "an e\ufb00ective Monte Carlo simulation is designing an",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 246,
+        "latex_position": 577201,
+        "content_length": 3193,
+        "page_last_content": "point total and await the next point, until he has",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 247,
+        "latex_position": 579310,
+        "content_length": 2016,
+        "page_last_content": "llful. Figure 7.12 reports the number of simulated",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 248,
+        "latex_position": 581687,
+        "content_length": 2019,
+        "page_last_content": "ow ready to start making money? Unfortunately not.",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 249,
+        "latex_position": 584215,
+        "content_length": 2427,
+        "page_last_content": "ssues include Bender [Ben12] and Giordano [GFH13].",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 250,
+        "latex_position": 585996,
+        "content_length": 1633,
+        "page_last_content": "\u2022 Movie gross. \u2022 Baby weight. \u2022 Art auction price.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 251,
+        "latex_position": 587842,
+        "content_length": 1640,
+        "page_last_content": ". \u2022 Future gold/oil price. Implementation Projects",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 252,
+        "latex_position": 590524,
+        "content_length": 2497,
+        "page_last_content": "s://www.kaggle.com/c/restaurant-revenue-prediction",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 254,
+        "latex_position": 595107,
+        "content_length": 2619,
+        "page_last_content": "near regression, matrix compression, and geometric",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 255,
+        "latex_position": 597168,
+        "content_length": 1966,
+        "page_last_content": "lgebra, these cases include dimensional mismatches",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 256,
+        "latex_position": 599105,
+        "content_length": 1657,
+        "page_last_content": "hich we must divide V by to make it a unit vector.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 257,
+        "latex_position": 600782,
+        "content_length": 1650,
+        "page_last_content": "ended as a refresher, rather than an introduction.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 258,
+        "latex_position": 603104,
+        "content_length": 1990,
+        "page_last_content": "so it can be added to or multiplied by its target.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 259,
+        "latex_position": 605032,
+        "content_length": 1643,
+        "page_last_content": "e matrices A and B, at most one of either AB or BA",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 260,
+        "latex_position": 608441,
+        "content_length": 2412,
+        "page_last_content": "o with it. We will review these applications here.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 261,
+        "latex_position": 610686,
+        "content_length": 1951,
+        "page_last_content": "structures in these covariance matrices come from.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 262,
+        "latex_position": 613390,
+        "content_length": 2618,
+        "page_last_content": "isting of all zeros, except for the ones all along",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 263,
+        "latex_position": 615210,
+        "content_length": 1400,
+        "page_last_content": "ltiply our image by a \u201creverse\u201d permutation matrix",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 264,
+        "latex_position": 618070,
+        "content_length": 2327,
+        "page_last_content": "ing them. We say A\u22121 is the multiplicative inverse",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 265,
+        "latex_position": 620257,
+        "content_length": 2037,
+        "page_last_content": "vert the matrix itself using Gaussian elimination.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 266,
+        "latex_position": 622919,
+        "content_length": 2054,
+        "page_last_content": " This makes it trivial to read o\ufb00the values of the",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 267,
+        "latex_position": 625538,
+        "content_length": 2416,
+        "page_last_content": "l, while his picture ages horribly over the years.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 268,
+        "latex_position": 628342,
+        "content_length": 2753,
+        "page_last_content": " given an n \u00d7 m feature matrix A where, as per the",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 269,
+        "latex_position": 630949,
+        "content_length": 2785,
+        "page_last_content": "100. Now each post will be represented by a row of",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 270,
+        "latex_position": 633887,
+        "content_length": 2884,
+        "page_last_content": "e columns of the memorial, albeit out of position.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 271,
+        "latex_position": 636064,
+        "content_length": 1661,
+        "page_last_content": "eigenvalue pairs for every full rank n \u00d7 n matrix.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 272,
+        "latex_position": 638695,
+        "content_length": 2056,
+        "page_last_content": " = 1, u2 = 2, yielding the associated eigenvector.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 273,
+        "latex_position": 641502,
+        "content_length": 2551,
+        "page_last_content": "ul to produce smaller, more e\ufb00ective feature sets.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 274,
+        "latex_position": 643249,
+        "content_length": 1499,
+        "page_last_content": " , with dimensions n \u00d7 n, n \u00d7 m, and m \u00d7 m respec-",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 275,
+        "latex_position": 645274,
+        "content_length": 1643,
+        "page_last_content": "V \u2217, where V \u2217means the conjugate transpose of V .",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 276,
+        "latex_position": 647587,
+        "content_length": 2319,
+        "page_last_content": "the line relative to the centroid. These projected",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 277,
+        "latex_position": 649672,
+        "content_length": 1918,
+        "page_last_content": "ow-dimensional approximations of a feature matrix.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 278,
+        "latex_position": 652948,
+        "content_length": 3266,
+        "page_last_content": "hese unsupervised methods were able to tease apart",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 279,
+        "latex_position": 656281,
+        "content_length": 1375,
+        "page_last_content": "BA (it commutes). (b) AB \u0338= BA (does not commute).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 280,
+        "latex_position": 658990,
+        "content_length": 2336,
+        "page_last_content": "lementation against a popular library routine for:",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 281,
+        "latex_position": 660245,
+        "content_length": 1104,
+        "page_last_content": "w.kaggle.com/c/accelerometer-biometric-competition",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 283,
+        "latex_position": 663990,
+        "content_length": 1989,
+        "page_last_content": "lity transformation, these lines are equivalent to",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 284,
+        "latex_position": 665985,
+        "content_length": 1847,
+        "page_last_content": "The closest distance to the line is in fact de\ufb01ned",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 285,
+        "latex_position": 668117,
+        "content_length": 1845,
+        "page_last_content": " Thus (b \u2212A \u00b7 w) is the vector of residual values.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 286,
+        "latex_position": 670902,
+        "content_length": 2268,
+        "page_last_content": "aightforward algebra then yields w = (AT A)\u22121AT b.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 287,
+        "latex_position": 672756,
+        "content_length": 1760,
+        "page_last_content": "and the \ufb01t now goes through the heart of the data.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 288,
+        "latex_position": 675932,
+        "content_length": 3041,
+        "page_last_content": "a role in the model. Indeed, one of the advantages",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 289,
+        "latex_position": 677902,
+        "content_length": 1829,
+        "page_last_content": "r many orders of magnitude. It isn\u2019t just the fact",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 290,
+        "latex_position": 680337,
+        "content_length": 2342,
+        "page_last_content": "But observe that no model of the form y = w1x + w0",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 291,
+        "latex_position": 683072,
+        "content_length": 2639,
+        "page_last_content": " the logs of the original input variables as well.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 292,
+        "latex_position": 686179,
+        "content_length": 3040,
+        "page_last_content": "ion records, with \ufb01elds for date, time, pickup and",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 293,
+        "latex_position": 688987,
+        "content_length": 2690,
+        "page_last_content": "rate model for trips between each pair of city zip",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 294,
+        "latex_position": 691802,
+        "content_length": 2477,
+        "page_last_content": " and so has no say in which parameters get chosen.",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 295,
+        "latex_position": 693788,
+        "content_length": 1794,
+        "page_last_content": " the surface. Some directions will take us up to a",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 296,
+        "latex_position": 695900,
+        "content_length": 1930,
+        "page_last_content": "g in a downward direction. There is only one point",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 297,
+        "latex_position": 698175,
+        "content_length": 1993,
+        "page_last_content": "e objective function along each dimension, namely:",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 298,
+        "latex_position": 700208,
+        "content_length": 1671,
+        "page_last_content": "shown in Figure 9.10 (right). This might mean slow",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 299,
+        "latex_position": 702732,
+        "content_length": 2393,
+        "page_last_content": "tima to keep us advancing towards the global goal.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 300,
+        "latex_position": 704720,
+        "content_length": 1750,
+        "page_last_content": " the learning rate and the batch size for gradient",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 301,
+        "latex_position": 707560,
+        "content_length": 2825,
+        "page_last_content": "f terms that are a function of the coe\ufb03cients, not",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 302,
+        "latex_position": 710296,
+        "content_length": 2546,
+        "page_last_content": "rive down the smallest coe\ufb03cients as the big ones.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 303,
+        "latex_position": 712925,
+        "content_length": 2319,
+        "page_last_content": " small coe\ufb03cients, even at the cost of substantial",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 304,
+        "latex_position": 715707,
+        "content_length": 2737,
+        "page_last_content": "s also a lot easier to get dinged for being wrong.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 305,
+        "latex_position": 717600,
+        "content_length": 1624,
+        "page_last_content": "n f(x) > 0.5 we instead assign the negative label.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 306,
+        "latex_position": 719728,
+        "content_length": 2182,
+        "page_last_content": "tter separate the class boundaries. The ideal sep-",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 307,
+        "latex_position": 720906,
+        "content_length": 954,
+        "page_last_content": " \ufb02at at both sides but a steep rise in the middle.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 308,
+        "latex_position": 723628,
+        "content_length": 2517,
+        "page_last_content": " being in class-1, when that actually is the case.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 309,
+        "latex_position": 725980,
+        "content_length": 1601,
+        "page_last_content": " X i=1 yi log f(xi, w) + (1 \u2212yi) log(1 \u2212f(xi, w))]",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 310,
+        "latex_position": 727413,
+        "content_length": 1481,
+        "page_last_content": "gh terrorists available in the general population.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 311,
+        "latex_position": 730491,
+        "content_length": 3069,
+        "page_last_content": "still be optimized by stochastic gradient descent.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 312,
+        "latex_position": 732868,
+        "content_length": 2337,
+        "page_last_content": " work\u201d or \u201cHow many stars do you give this movie?\u201d",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 313,
+        "latex_position": 734917,
+        "content_length": 1829,
+        "page_last_content": " as to improve both accuracy and e\ufb03ciency. Suppose",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 314,
+        "latex_position": 738079,
+        "content_length": 3137,
+        "page_last_content": "ilities requires the idea of a partition function.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 315,
+        "latex_position": 740599,
+        "content_length": 2468,
+        "page_last_content": "its discovery, and no longer has predictive power.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 316,
+        "latex_position": 743615,
+        "content_length": 2814,
+        "page_last_content": " data set, construct the best \ufb01tting line with (a)",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 319,
+        "latex_position": 749308,
+        "content_length": 2142,
+        "page_last_content": " be sure you understand what you are working with.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 320,
+        "latex_position": 751594,
+        "content_length": 1609,
+        "page_last_content": " the kth root of ak + bk approaches a as bk/ak \u21920.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 321,
+        "latex_position": 753485,
+        "content_length": 1804,
+        "page_last_content": "function, particularly in high-dimensional spaces.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 322,
+        "latex_position": 756593,
+        "content_length": 3009,
+        "page_last_content": " distance. But artifacts make L\u221esuspect, because a",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 323,
+        "latex_position": 759353,
+        "content_length": 2613,
+        "page_last_content": "t all dimensions contribute equally to the result.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 324,
+        "latex_position": 761871,
+        "content_length": 2437,
+        "page_last_content": "le inequality. A true distance metric follows from",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 325,
+        "latex_position": 764400,
+        "content_length": 2298,
+        "page_last_content": " \u2264d. This is like tossing a totally loaded die, so",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 326,
+        "latex_position": 767315,
+        "content_length": 2743,
+        "page_last_content": "ges to nearest neighbor methods for classi\ufb01cation:",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 327,
+        "latex_position": 769072,
+        "content_length": 1635,
+        "page_last_content": "as much as they rely on precedents: the results of",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 328,
+        "latex_position": 772065,
+        "content_length": 2939,
+        "page_last_content": "ich attempts to build a gender classi\ufb01er from data",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 329,
+        "latex_position": 774243,
+        "content_length": 2068,
+        "page_last_content": "veraging schemes can be generalized by non-uniform",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 330,
+        "latex_position": 776417,
+        "content_length": 1934,
+        "page_last_content": "imension into r intervals or buckets. For example,",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 331,
+        "latex_position": 778274,
+        "content_length": 1853,
+        "page_last_content": "de\ufb01ned by a node contains just one training point.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 332,
+        "latex_position": 781366,
+        "content_length": 3014,
+        "page_last_content": "f them on the left and the remainder on the right.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 333,
+        "latex_position": 783704,
+        "content_length": 2097,
+        "page_last_content": "with its true nearest neighbor, we will eventually",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 334,
+        "latex_position": 786449,
+        "content_length": 2677,
+        "page_last_content": "y represented by graphs, and graphs by point sets.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 335,
+        "latex_position": 789179,
+        "content_length": 2597,
+        "page_last_content": "e immensely valuable to visualize the structure of",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 336,
+        "latex_position": 792153,
+        "content_length": 2931,
+        "page_last_content": "rections. Street networks within cities are almost",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 337,
+        "latex_position": 793980,
+        "content_length": 1847,
+        "page_last_content": "en what is called sparse and what is called dense,",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 338,
+        "latex_position": 796690,
+        "content_length": 2672,
+        "page_last_content": "r understanding through my algorithm book [Ski08].",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 339,
+        "latex_position": 799663,
+        "content_length": 2901,
+        "page_last_content": " an item-order consistent with these observations.",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 340,
+        "latex_position": 802538,
+        "content_length": 2706,
+        "page_last_content": "ork itself. By adding edges from every vertex to a",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 341,
+        "latex_position": 805449,
+        "content_length": 2534,
+        "page_last_content": "er inanimate objects voting on who the most promi-",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 342,
+        "latex_position": 807602,
+        "content_length": 2060,
+        "page_last_content": "ht-weight clusters in Figure 10.11 are both highly",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 343,
+        "latex_position": 809549,
+        "content_length": 1862,
+        "page_last_content": " involves identifying the appropriate cluster your",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 344,
+        "latex_position": 812475,
+        "content_length": 2899,
+        "page_last_content": "ta set is more to blame than the algorithm itself.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 345,
+        "latex_position": 814092,
+        "content_length": 1526,
+        "page_last_content": " then re\ufb01nes them to make better center estimates.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 346,
+        "latex_position": 816515,
+        "content_length": 2255,
+        "page_last_content": "by taking the average value of each dimension. For",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 347,
+        "latex_position": 818101,
+        "content_length": 1426,
+        "page_last_content": " is the point which minimizes the sum of distances",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 348,
+        "latex_position": 821093,
+        "content_length": 2899,
+        "page_last_content": "luster centers. But the wrong interpretation would",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 349,
+        "latex_position": 821724,
+        "content_length": 489,
+        "page_last_content": "or random cluster centers is shown for comparison.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 350,
+        "latex_position": 824937,
+        "content_length": 3185,
+        "page_last_content": "iterating again should converge on a better model.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 351,
+        "latex_position": 827545,
+        "content_length": 2541,
+        "page_last_content": " the matrix have been permuted to re\ufb02ect this tree",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 352,
+        "latex_position": 830442,
+        "content_length": 2842,
+        "page_last_content": ". Suppose have agglomeratively clustered the prod-",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 353,
+        "latex_position": 832845,
+        "content_length": 2286,
+        "page_last_content": "re are several reasonable answers for the distance",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 354,
+        "latex_position": 834285,
+        "content_length": 1233,
+        "page_last_content": "hich does not create a cycle in the emerging tree.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 355,
+        "latex_position": 837185,
+        "content_length": 2664,
+        "page_last_content": "th quality, making more robust methods attractive.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 356,
+        "latex_position": 840395,
+        "content_length": 2852,
+        "page_last_content": "nts that are su\ufb03ciently contiguous that we are not",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 357,
+        "latex_position": 842227,
+        "content_length": 1563,
+        "page_last_content": "ges within the cluster: W(C) = X x\u2208C X y\u2208C S[i, j]",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 358,
+        "latex_position": 844258,
+        "content_length": 1968,
+        "page_last_content": "feature space generates highly connected clusters.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 359,
+        "latex_position": 847010,
+        "content_length": 2721,
+        "page_last_content": "is similarity was not recognized by the algorithm.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 360,
+        "latex_position": 849954,
+        "content_length": 2963,
+        "page_last_content": "Everitt et al. [ELLS11] and James et al. [JWHT13].",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 361,
+        "latex_position": 852436,
+        "content_length": 2349,
+        "page_last_content": "de Web (WWW). (c) Road networks connecting cities.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 362,
+        "latex_position": 853962,
+        "content_length": 1505,
+        "page_last_content": "2), (4, 0)} Plot the points and the \ufb01nal clusters.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 363,
+        "latex_position": 856735,
+        "content_length": 2668,
+        "page_last_content": "t number of clusters to use with a given data set?",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 364,
+        "latex_position": 857217,
+        "content_length": 685,
+        "page_last_content": "redict-who-is-more-influential-in-a-social-network",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 366,
+        "latex_position": 862594,
+        "content_length": 2888,
+        "page_last_content": " and reasonable people can have di\ufb00erent opinions.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 367,
+        "latex_position": 863242,
+        "content_length": 2642,
+        "page_last_content": "raphical Models 9 8 3 4 4 Deep Learning 10 3 4 3 7",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 368,
+        "latex_position": 868255,
+        "content_length": 2260,
+        "page_last_content": " only 1\u20132% of the world\u2019s population are redheads.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 369,
+        "latex_position": 871344,
+        "content_length": 2184,
+        "page_last_content": " hair.\u201d We can simply select all class i instances",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 370,
+        "latex_position": 874303,
+        "content_length": 2539,
+        "page_last_content": "ne redhead in the entire training set, say labeled",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 371,
+        "latex_position": 877157,
+        "content_length": 2755,
+        "page_last_content": "oblems. 2It means to throw someone out the window.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 372,
+        "latex_position": 879382,
+        "content_length": 2236,
+        "page_last_content": " represent highly complicated decision boundaries.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 373,
+        "latex_position": 882208,
+        "content_length": 2723,
+        "page_last_content": "the addition of a threshold t: \u201cis feature xi \u2265t?\u201d",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 374,
+        "latex_position": 885192,
+        "content_length": 2808,
+        "page_last_content": " on another quantity (fi(1 \u2212fi)), which is zero in",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 375,
+        "latex_position": 887210,
+        "content_length": 1773,
+        "page_last_content": "pposing quadrants in this xy-plane shown in Figure",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 376,
+        "latex_position": 890226,
+        "content_length": 3030,
+        "page_last_content": " a binary classi\ufb01cation problem, let fi denote the",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 377,
+        "latex_position": 893173,
+        "content_length": 2796,
+        "page_last_content": "ve more weight to the votes of classi\ufb01ers who have",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 378,
+        "latex_position": 896001,
+        "content_length": 2398,
+        "page_last_content": "w classi\ufb01er depends upon how accurate it is on the",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 379,
+        "latex_position": 897980,
+        "content_length": 1430,
+        "page_last_content": "s wrong, so one of these two must be at least 50%.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 380,
+        "latex_position": 900452,
+        "content_length": 2387,
+        "page_last_content": "as a relative of logistic regression, which sought",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 381,
+        "latex_position": 902483,
+        "content_length": 1928,
+        "page_last_content": "ion, where all the points contribute to \ufb01tting the",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 382,
+        "latex_position": 903962,
+        "content_length": 1356,
+        "page_last_content": "Both methods generally produce similar classi\ufb01ers.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 383,
+        "latex_position": 906600,
+        "content_length": 2474,
+        "page_last_content": "e of Figure 11.10 (left), where the cluster of red",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 384,
+        "latex_position": 908756,
+        "content_length": 1938,
+        "page_last_content": "ints in d dimensions into n points in n dimensions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 385,
+        "latex_position": 911562,
+        "content_length": 2746,
+        "page_last_content": "a sets, with thousands but not millions of points.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 386,
+        "latex_position": 914398,
+        "content_length": 2812,
+        "page_last_content": " of a data set otherwise untouched by human hands.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 387,
+        "latex_position": 917706,
+        "content_length": 3212,
+        "page_last_content": "h the goal of seeing how they were organized among",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 389,
+        "latex_position": 924184,
+        "content_length": 3016,
+        "page_last_content": "ter written than what you get after such a change?",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 390,
+        "latex_position": 927012,
+        "content_length": 2748,
+        "page_last_content": "over\ufb01tting, and noise reduction from observations.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 391,
+        "latex_position": 929969,
+        "content_length": 2931,
+        "page_last_content": " from the raw input to the \ufb01nal result, and indeed",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 392,
+        "latex_position": 932264,
+        "content_length": 2278,
+        "page_last_content": "sk the network to make a prediction. Think of this",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 393,
+        "latex_position": 935421,
+        "content_length": 3123,
+        "page_last_content": "eeper networks is that they become harder to train",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 394,
+        "latex_position": 937565,
+        "content_length": 2048,
+        "page_last_content": "unction \u03c6(vi) typically operates on a weighted sum",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 395,
+        "latex_position": 939632,
+        "content_length": 1702,
+        "page_last_content": " zero when x is negative, as shown in Figure 11.14",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 396,
+        "latex_position": 942322,
+        "content_length": 2405,
+        "page_last_content": "e\ufb03cients, since the input values from the previous",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 397,
+        "latex_position": 945045,
+        "content_length": 2436,
+        "page_last_content": "word embeddings is as general features to apply in",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 398,
+        "latex_position": 948364,
+        "content_length": 3218,
+        "page_last_content": "a training corpus. The key to applying them in new",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 399,
+        "latex_position": 951214,
+        "content_length": 2797,
+        "page_last_content": "g \ufb01rst and last names and sticking them together.\u201d",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 400,
+        "latex_position": 954238,
+        "content_length": 2979,
+        "page_last_content": "lists for Brad Pitt, Donald Trump, and Xi Jinping.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 402,
+        "latex_position": 957746,
+        "content_length": 1275,
+        "page_last_content": "B. (b) A or (B and C). (c) (A and B) or (C and D).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 403,
+        "latex_position": 960479,
+        "content_length": 2565,
+        "page_last_content": "t distinguish it from traditional machine learning",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 404,
+        "latex_position": 961273,
+        "content_length": 652,
+        "page_last_content": "gle.com/c/belkin-energy-disaggregation-competition",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 406,
+        "latex_position": 965510,
+        "content_length": 2027,
+        "page_last_content": "rom millions of people over social media. The data",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 407,
+        "latex_position": 968359,
+        "content_length": 2787,
+        "page_last_content": "ork in. Training a classi\ufb01er with such images will",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 408,
+        "latex_position": 970901,
+        "content_length": 2510,
+        "page_last_content": "r analysis requires substantial thought and e\ufb00ort.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 409,
+        "latex_position": 973741,
+        "content_length": 2851,
+        "page_last_content": "55 times as of this writing. So I gave the project",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 410,
+        "latex_position": 977000,
+        "content_length": 3290,
+        "page_last_content": "-toity about what is science and what is plumbing.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 411,
+        "latex_position": 979732,
+        "content_length": 2590,
+        "page_last_content": "stant, this is considered a linear-time algorithm.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 412,
+        "latex_position": 982273,
+        "content_length": 2257,
+        "page_last_content": "g: O(1) \u226aO(log n) \u226aO(n) \u226aO(n log n) \u226aO(n2) \u226aO(n3).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 413,
+        "latex_position": 984973,
+        "content_length": 2608,
+        "page_last_content": "values they store. Hashing is also the fundamental",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 414,
+        "latex_position": 987920,
+        "content_length": 2920,
+        "page_last_content": "of the \ufb01rst, changing your bid after the deadline.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 415,
+        "latex_position": 990827,
+        "content_length": 2899,
+        "page_last_content": "der the assumption that they will be needed later.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 416,
+        "latex_position": 993669,
+        "content_length": 2781,
+        "page_last_content": "an assume some memory, but not enough to store the",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 417,
+        "latex_position": 996379,
+        "content_length": 2578,
+        "page_last_content": "ta away. And this can be quite worthwhile, to make",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 418,
+        "latex_position": 999250,
+        "content_length": 2812,
+        "page_last_content": " often contain subtle e\ufb00ects from factors such as:",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 419,
+        "latex_position": 1002153,
+        "content_length": 2755,
+        "page_last_content": "igits. Telephone numbers ending in \u201c000\u201d or repeat",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 420,
+        "latex_position": 1005068,
+        "content_length": 2862,
+        "page_last_content": "ual machines. The advent of data centers and cloud",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 421,
+        "latex_position": 1007575,
+        "content_length": 2422,
+        "page_last_content": "e- duce that can e\ufb03ciently manage these resources.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 422,
+        "latex_position": 1009948,
+        "content_length": 2039,
+        "page_last_content": "mplete the task with low proba- bility of failure.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 423,
+        "latex_position": 1012944,
+        "content_length": 2919,
+        "page_last_content": "the best value single of each parameter separately",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 424,
+        "latex_position": 1015818,
+        "content_length": 2772,
+        "page_last_content": "eral bene\ufb01ts, including straightforward scaling to",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 425,
+        "latex_position": 1017646,
+        "content_length": 1847,
+        "page_last_content": "esults on the appropriate machine. Such a solution",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 426,
+        "latex_position": 1019983,
+        "content_length": 2183,
+        "page_last_content": "rdingly. Pseudocode for the word count reducer is:",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 427,
+        "latex_position": 1022139,
+        "content_length": 2179,
+        "page_last_content": " often substantially higher than the average size.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 428,
+        "latex_position": 1024807,
+        "content_length": 2628,
+        "page_last_content": "ten omitted as features in text analysis problems.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 429,
+        "latex_position": 1027634,
+        "content_length": 2760,
+        "page_last_content": " SQL, but still rich enough for many applications.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 430,
+        "latex_position": 1030286,
+        "content_length": 2619,
+        "page_last_content": "re essential behavior for ethical data scientists.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 431,
+        "latex_position": 1033201,
+        "content_length": 2926,
+        "page_last_content": " than to women, or discriminate on other criteria.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 432,
+        "latex_position": 1036289,
+        "content_length": 2948,
+        "page_last_content": "es.cfm) of the Amer- ican Statistical Association.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 433,
+        "latex_position": 1038465,
+        "content_length": 2056,
+        "page_last_content": "d what biases might lurk in its view of the world.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 434,
+        "latex_position": 1040693,
+        "content_length": 2137,
+        "page_last_content": " set, what should they say to their boss/customer?",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 435,
+        "latex_position": 1041299,
+        "content_length": 470,
+        "page_last_content": "s://www.kaggle.com/c/expedia-hotel-recommendations",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 437,
+        "latex_position": 1045943,
+        "content_length": 2684,
+        "page_last_content": "e demands. 1Good for you if you are already there!",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 438,
+        "latex_position": 1047593,
+        "content_length": 1589,
+        "page_last_content": "on the services provided by Algorist Technologies.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 440,
+        "latex_position": 1052427,
+        "content_length": 2755,
+        "page_last_content": "p://www.fastcompany.com/3036573/, October 2. 2014.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 441,
+        "latex_position": 1055303,
+        "content_length": 2610,
+        "page_last_content": "trategies for training and education. Wiley, 2012.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 442,
+        "latex_position": 1058151,
+        "content_length": 2734,
+        "page_last_content": "ns of digitized books. Science, 331:176\u2013182, 2011.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 443,
+        "latex_position": 1061183,
+        "content_length": 2847,
+        "page_last_content": "ons, pages 16:1\u201316:29. Chapman and Hall/CRC, 2005.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 444,
+        "latex_position": 1063887,
+        "content_length": 2555,
+        "page_last_content": "rity measures. Science, 321(5895):1465\u20131468, 2008.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 445,
+        "latex_position": 1065034,
+        "content_length": 1020,
+        "page_last_content": "Int. Conf. Weblogs and Social Media (ICWSM), 2010.",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 446,
+        "latex_position": 1066686,
+        "content_length": 1520,
+        "page_last_content": "Science, https://doi.org/10.1007/978-3-319-55444-0",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 447,
+        "latex_position": 1068713,
+        "content_length": 1787,
+        "page_last_content": "ation, 227 advantages, 227 CrowdFlower, 67, 84, 86",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 448,
+        "latex_position": 1070644,
+        "content_length": 1748,
+        "page_last_content": "ng, 407 divide and conquer, 411 DNA sequences, 402",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 449,
+        "latex_position": 1072472,
+        "content_length": 1662,
+        "page_last_content": "ussian noise, 125 General Sentiment, 20 genius, 19",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 450,
+        "latex_position": 1074345,
+        "content_length": 1703,
+        "page_last_content": "ees, 316 kernels, 371 Kolmogorov-Smirnov test, 139",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 451,
+        "latex_position": 1076320,
+        "content_length": 1808,
+        "page_last_content": ", 35, 83, 132, 212, 403 mergesort, 398 metadata, 7",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 452,
+        "latex_position": 1078124,
+        "content_length": 1627,
+        "page_last_content": "non-linearity, 358, 377, 380 norm, 287 normal, 125",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 453,
+        "latex_position": 1080055,
+        "content_length": 1756,
+        "page_last_content": "ython, 58, 67 Quant Shop, 17 R, 58 Rand index, 341",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 454,
+        "latex_position": 1082004,
+        "content_length": 1777,
+        "page_last_content": "pears, Britney [566], 262 spectral clustering, 343",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 455,
+        "latex_position": 1084017,
+        "content_length": 1841,
+        "page_last_content": "ctive, 195 tools, 160 visualization aesthetic, 162",
+        "last_location": 1084528,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 456,
+        "latex_position": 1084518,
+        "content_length": 469,
+        "page_last_content": "ML, 62 Z-score, 103, 308, 376 Zipf\u2019s law, 131, 357",
+        "last_location": 1084528,
+        "method": "exact_match"
+    }
+]

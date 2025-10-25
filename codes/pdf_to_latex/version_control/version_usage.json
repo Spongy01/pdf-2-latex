@@ -148,5 +148,30 @@
     "book_name": "algorithms",
     "version": "without_gpt",
     "last_used": "2025-10-21T13:31:45.754177"
+  },
+  "ai___manual_images": {
+    "book_name": "ai",
+    "version": "manual_images",
+    "last_used": "2025-10-24T23:26:21.001052"
+  },
+  "algorithms___manual_images": {
+    "book_name": "algorithms",
+    "version": "manual_images",
+    "last_used": "2025-10-24T23:26:12.328755"
+  },
+  "assembly___manual_images": {
+    "book_name": "assembly",
+    "version": "manual_images",
+    "last_used": "2025-10-24T23:26:04.018635"
+  },
+  "cybersec___manual_images": {
+    "book_name": "cybersec",
+    "version": "manual_images",
+    "last_used": "2025-10-24T23:25:53.333198"
+  },
+  "data-science___manual_images": {
+    "book_name": "data-science",
+    "version": "manual_images",
+    "last_used": "2025-10-24T23:24:57.134103"
   }
 }

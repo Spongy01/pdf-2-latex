@@ -28,6 +28,7 @@ import time
 
 from indexer import create_indexing
 from gpt_script import format_with_gpt
+from gpt_handler import make_book, process_tex_figures
 from bib import process_bibliography
 from page_separator_v2 import create_page_separators
 from cleaner import clean_it_up
@@ -179,9 +180,9 @@ def run_pipeline(
     skip_steps=[],
     bib_json_path=None,
     fix_balance=True,
-    chapter_level=0,
-    section_level=1,
-    subsection_level=2,
+    chapter_level=1,
+    section_level=2,
+    subsection_level=3,
 ):
     """Run the complete PDF to LaTeX conversion pipeline."""
     start_time = datetime.now()
@@ -270,16 +271,21 @@ def run_pipeline(
             current_tex_path = paths["bib_path"]
 
     # Step 3: Format with AI (if not skipped)
+    # Step under construction, not trying to use AI formatting for now
     if 3 not in skip_steps:
         try:
-            current_tex_path = format_with_gpt(  # here the output current_tex_path is final_path that is _cleaned_final.tex
-                paths["book_path"],
-                current_tex_path,
-                paths["gpt_path"],
-                batch_size=batch_size,
-                max_parts=max_parts,
-                use_parallel=use_parallel,
-            )
+            # current_tex_path = format_with_gpt(  # here the output current_tex_path is final_path that is _cleaned_final.tex
+            #     paths["book_path"],
+            #     current_tex_path,
+            #     paths["gpt_path"],
+            #     batch_size=batch_size,
+            #     max_parts=max_parts,
+            #     use_parallel=use_parallel,
+            # )
+            current_tex_path = make_book(current_tex_path, paths["gpt_path"]) # converts article type to book type.
+            current_tex_path = process_tex_figures(current_tex_path, paths["gpt_path"]) # will need to update the paths after changes made.
+
+            
             results["steps_completed"].append(3)
             results["ai_formatting_output"] = current_tex_path
         except Exception as e:
@@ -291,6 +297,8 @@ def run_pipeline(
 
     if 4 not in skip_steps:
         try:
+            # print chapter, section, subsection levels
+            print(f"\n\nUsing chapter level: {chapter_level}, section level: {section_level}, subsection level: {subsection_level}")
             current_tex_path = clean_it_up(  # output file is _cleaned.tex
                 current_tex_path, paths["book_path"], paths["cleaned_path"], 
                 chapter_level, section_level, subsection_level
@@ -454,13 +462,13 @@ if __name__ == "__main__":
         "--fix-balance", action="store_true", help="Apply automatic fixes to balance issues", default=True
     )
     parser.add_argument(
-        "--chapter-level", type=int, default=0, help="Chapter level in Table of Contents (default: 0)"
+        "--chapter-level", type=int, default=-1, help="Chapter level in Table of Contents (default: 0)"
     )
     parser.add_argument(
-        "--section-level", type=int, default=1, help="Section level in Table of Contents (default: 1)"
+        "--section-level", type=int, default=-1, help="Section level in Table of Contents (default: 1)"
     )
     parser.add_argument(
-        "--subsection-level", type=int, default=2, help="Subsection level in Table of Contents (default: 2)"
+        "--subsection-level", type=int, default=-1, help="Subsection level in Table of Contents (default: 2)"
     )
     args = parser.parse_args()
 
@@ -490,9 +498,9 @@ if __name__ == "__main__":
                 "skip_steps": args.skip or config.get("skip", []),
                 "bib_json_path": args.bib_json or config.get("bib_json", None),
                 "fix_balance": args.fix_balance,
-                "chapter_level": args.chapter_level or config.get("chapter_level", 1),
-                "section_level": args.section_level or config.get("section_level", 2),
-                "subsection_level": args.subsection_level or config.get("subsection_level", 3),
+                "chapter_level": args.chapter_level if args.chapter_level!=-1 else config.get("chapter_level", 1),
+                "section_level": args.section_level if args.section_level!=-1 else config.get("section_level", 2),
+                "subsection_level": args.subsection_level if args.subsection_level!=-1 else config.get("subsection_level", 3),
             }
         else:
             print(

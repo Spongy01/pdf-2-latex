@@ -1,0 +1,207 @@
+\contentsline {section}{\numberline {0.1}Algorithm Design}{2}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Steven S. Skiena}{2}{section.0.2}%
+\contentsline {section}{\numberline {0.3}The Algorithm Design Manual }{3}{section.0.3}%
+\contentsline {section}{\numberline {0.4}Preface}{4}{section.0.4}%
+\contentsline {chapter}{\numberline {1}To the Reader}{5}{chapter.1}%
+\contentsline {chapter}{\numberline {2}To the Instructor}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Acknowledgments}{9}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Caveat}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Contents}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Introduction to Algorithm Design}{20}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Problem: Sorting}{20}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Robot Tour Optimization}{22}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Problem: Robot Tour Optimization}{23}{section.4.5}%
+\contentsline {section}{\numberline {4.6}ClosestPair ( $P$ )}{24}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Selecting the Right Jobs}{26}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Reasoning about Correctness}{28}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Problems and Properties}{29}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Expressing Algorithms}{30}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}Demonstrating Incorrectness}{30}{subsection.4.8.3}%
+\contentsline {section}{\numberline {4.9}Stop and Think: Greedy Movie Stars?}{31}{section.4.9}%
+\contentsline {section}{\numberline {4.10}Induction and Recursion}{32}{section.4.10}%
+\contentsline {section}{\numberline {4.11}Stop and Think: Incremental Correctness}{34}{section.4.11}%
+\contentsline {section}{\numberline {4.12}Modeling the Problem}{34}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Combinatorial Objects}{35}{subsection.4.12.1}%
+\contentsline {subsection}{\numberline {4.12.2}Recursive Objects}{37}{subsection.4.12.2}%
+\contentsline {section}{\numberline {4.13}Proof by Contradiction}{38}{section.4.13}%
+\contentsline {section}{\numberline {4.14}About the War Stories}{39}{section.4.14}%
+\contentsline {section}{\numberline {4.15}War Story: Psychic Modeling}{39}{section.4.15}%
+\contentsline {section}{\numberline {4.16}Estimation}{42}{section.4.16}%
+\contentsline {section}{\numberline {4.17}Chapter Notes}{43}{section.4.17}%
+\contentsline {section}{\numberline {4.18}Finding Counterexamples}{44}{section.4.18}%
+\contentsline {section}{\numberline {4.19}Proofs of Correctness}{44}{section.4.19}%
+\contentsline {section}{\numberline {4.20}Induction}{45}{section.4.20}%
+\contentsline {section}{\numberline {4.21}Implementation Projects}{46}{section.4.21}%
+\contentsline {section}{\numberline {4.22}Interview Problems}{46}{section.4.22}%
+\contentsline {section}{\numberline {4.23}LeetCode}{47}{section.4.23}%
+\contentsline {section}{\numberline {4.24}HackerRank}{47}{section.4.24}%
+\contentsline {section}{\numberline {4.25}Programming Challenges}{47}{section.4.25}%
+\contentsline {section}{\numberline {4.26}Algorithm Analysis}{47}{section.4.26}%
+\contentsline {section}{\numberline {4.27}The RAM Model of Computation}{47}{section.4.27}%
+\contentsline {subsection}{\numberline {4.27.1}Best-Case, Worst-Case, and Average-Case Complexity}{49}{subsection.4.27.1}%
+\contentsline {section}{\numberline {4.28}The Big Oh Notation}{50}{section.4.28}%
+\contentsline {section}{\numberline {4.29}Stop and Think: Back to the Definition}{52}{section.4.29}%
+\contentsline {section}{\numberline {4.30}Stop and Think: Hip to the Squares?}{52}{section.4.30}%
+\contentsline {section}{\numberline {4.31}Growth Rates and Dominance Relations}{52}{section.4.31}%
+\contentsline {subsection}{\numberline {4.31.1}Dominance Relations}{53}{subsection.4.31.1}%
+\contentsline {section}{\numberline {4.32}Working with the Big Oh}{55}{section.4.32}%
+\contentsline {subsection}{\numberline {4.32.1}Adding Functions}{55}{subsection.4.32.1}%
+\contentsline {subsection}{\numberline {4.32.2}Multiplying Functions}{55}{subsection.4.32.2}%
+\contentsline {section}{\numberline {4.33}Stop and Think: Transitive Experience}{56}{section.4.33}%
+\contentsline {subsection}{\numberline {4.33.1}Reasoning about Efficiency}{56}{subsection.4.33.1}%
+\contentsline {subsection}{\numberline {4.33.2}Selection Sort}{56}{subsection.4.33.2}%
+\contentsline {section}{\numberline {4.34}Proving the Theta}{57}{section.4.34}%
+\contentsline {subsection}{\numberline {4.34.1}Insertion Sort}{57}{subsection.4.34.1}%
+\contentsline {subsection}{\numberline {4.34.2}String Pattern Matching}{58}{subsection.4.34.2}%
+\contentsline {section}{\numberline {4.35}Problem: Substring Pattern Matching}{58}{section.4.35}%
+\contentsline {section}{\numberline {4.36}Matrix Multiplication}{60}{section.4.36}%
+\contentsline {section}{\numberline {4.37}Problem: Matrix Multiplication}{60}{section.4.37}%
+\contentsline {section}{\numberline {4.38}Summations}{61}{section.4.38}%
+\contentsline {section}{\numberline {4.39}Stop and Think: Factorial Formulae}{63}{section.4.39}%
+\contentsline {section}{\numberline {4.40}Logarithms and Their Applications}{63}{section.4.40}%
+\contentsline {subsection}{\numberline {4.40.1}Logarithms and Binary Search}{64}{subsection.4.40.1}%
+\contentsline {subsection}{\numberline {4.40.2}Logarithms and Trees}{64}{subsection.4.40.2}%
+\contentsline {subsection}{\numberline {4.40.3}Logarithms and Bits}{64}{subsection.4.40.3}%
+\contentsline {subsection}{\numberline {4.40.4}Logarithms and Multiplication}{65}{subsection.4.40.4}%
+\contentsline {subsection}{\numberline {4.40.5}Fast Exponentiation}{65}{subsection.4.40.5}%
+\contentsline {subsection}{\numberline {4.40.6}Logarithms and Summations}{66}{subsection.4.40.6}%
+\contentsline {subsection}{\numberline {4.40.7}Logarithms and Criminal Justice}{66}{subsection.4.40.7}%
+\contentsline {section}{\numberline {4.41}Properties of Logarithms}{67}{section.4.41}%
+\contentsline {section}{\numberline {4.42}Stop and Think: Importance of an Even Split}{69}{section.4.42}%
+\contentsline {section}{\numberline {4.43}War Story: Mystery of the Pyramids}{69}{section.4.43}%
+\contentsline {section}{\numberline {4.44}Advanced Analysis (*)}{72}{section.4.44}%
+\contentsline {subsection}{\numberline {4.44.1}Esoteric Functions}{72}{subsection.4.44.1}%
+\contentsline {subsection}{\numberline {4.44.2}Limits and Dominance Relations}{73}{subsection.4.44.2}%
+\contentsline {section}{\numberline {4.45}Program Analysis}{75}{section.4.45}%
+\contentsline {section}{\numberline {4.46}Big Oh}{77}{section.4.46}%
+\contentsline {section}{\numberline {4.47}Logarithms}{81}{section.4.47}%
+\contentsline {section}{\numberline {4.48}Data Structures}{83}{section.4.48}%
+\contentsline {section}{\numberline {4.49}Contiguous vs. Linked Data Structures}{83}{section.4.49}%
+\contentsline {subsection}{\numberline {4.49.1}Arrays}{84}{subsection.4.49.1}%
+\contentsline {subsection}{\numberline {4.49.2}Pointers and Linked Structures}{85}{subsection.4.49.2}%
+\contentsline {section}{\numberline {4.50}Searching a List}{86}{section.4.50}%
+\contentsline {section}{\numberline {4.51}Insertion into a List}{86}{section.4.51}%
+\contentsline {section}{\numberline {4.52}Deletion From a List}{87}{section.4.52}%
+\contentsline {subsection}{\numberline {4.52.1}Comparison}{88}{subsection.4.52.1}%
+\contentsline {section}{\numberline {4.53}Containers: Stacks and Queues}{88}{section.4.53}%
+\contentsline {section}{\numberline {4.54}Dictionaries}{89}{section.4.54}%
+\contentsline {section}{\numberline {4.55}Stop and Think: Comparing Dictionary Implementations (I)}{90}{section.4.55}%
+\contentsline {section}{\numberline {4.56}Stop and Think: Comparing Dictionary Implementations (II)}{92}{section.4.56}%
+\contentsline {section}{\numberline {4.57}Binary Search Trees}{94}{section.4.57}%
+\contentsline {subsection}{\numberline {4.57.1}Implementing Binary Search Trees}{94}{subsection.4.57.1}%
+\contentsline {section}{\numberline {4.58}Searching in a Tree}{95}{section.4.58}%
+\contentsline {section}{\numberline {4.59}Finding Minimum and Maximum Elements in a Tree}{95}{section.4.59}%
+\contentsline {section}{\numberline {4.60}Traversal in a Tree}{96}{section.4.60}%
+\contentsline {section}{\numberline {4.61}Insertion in a Tree}{96}{section.4.61}%
+\contentsline {section}{\numberline {4.62}Deletion from a Tree}{97}{section.4.62}%
+\contentsline {subsection}{\numberline {4.62.1}How Good are Binary Search Trees?}{98}{subsection.4.62.1}%
+\contentsline {subsection}{\numberline {4.62.2}Balanced Search Trees}{98}{subsection.4.62.2}%
+\contentsline {section}{\numberline {4.63}Stop and Think: Exploiting Balanced Search Trees}{99}{section.4.63}%
+\contentsline {section}{\numberline {4.64}Priority Queues}{100}{section.4.64}%
+\contentsline {section}{\numberline {4.65}Stop and Think: Basic Priority Queue Implementations}{100}{section.4.65}%
+\contentsline {section}{\numberline {4.66}War Story: Stripping Triangulations}{101}{section.4.66}%
+\contentsline {section}{\numberline {4.67}Hashing}{104}{section.4.67}%
+\contentsline {subsection}{\numberline {4.67.1}Collision Resolution}{104}{subsection.4.67.1}%
+\contentsline {subsection}{\numberline {4.67.2}Duplicate Detection via Hashing}{106}{subsection.4.67.2}%
+\contentsline {subsection}{\numberline {4.67.3}Other Hashing Tricks}{107}{subsection.4.67.3}%
+\contentsline {subsection}{\numberline {4.67.4}Canonicalization}{108}{subsection.4.67.4}%
+\contentsline {subsection}{\numberline {4.67.5}Compaction}{108}{subsection.4.67.5}%
+\contentsline {section}{\numberline {4.68}Specialized Data Structures}{109}{section.4.68}%
+\contentsline {section}{\numberline {4.69}War Story: String 'em Up}{110}{section.4.69}%
+\contentsline {section}{\numberline {4.70}Stacks, Queues, and Lists}{113}{section.4.70}%
+\contentsline {section}{\numberline {4.71}Elementary Data Structures}{114}{section.4.71}%
+\contentsline {section}{\numberline {4.72}Trees and Other Dictionary Structures}{115}{section.4.72}%
+\contentsline {section}{\numberline {4.73}Applications of Tree Structures}{116}{section.4.73}%
+\contentsline {section}{\numberline {4.74}Sorting}{119}{section.4.74}%
+\contentsline {section}{\numberline {4.75}Applications of Sorting}{120}{section.4.75}%
+\contentsline {section}{\numberline {4.76}Stop and Think: Finding the Intersection}{122}{section.4.76}%
+\contentsline {section}{\numberline {4.77}Stop and Think: Making a Hash of the Problem?}{122}{section.4.77}%
+\contentsline {section}{\numberline {4.78}Pragmatics of Sorting}{123}{section.4.78}%
+\contentsline {section}{\numberline {4.79}Heapsort: Fast Sorting via Data Structures}{125}{section.4.79}%
+\contentsline {subsection}{\numberline {4.79.1}Heaps}{126}{subsection.4.79.1}%
+\contentsline {section}{\numberline {4.80}Stop and Think: Who's Where in the Heap?}{128}{section.4.80}%
+\contentsline {subsection}{\numberline {4.80.1}Constructing Heaps}{128}{subsection.4.80.1}%
+\contentsline {subsection}{\numberline {4.80.2}Extracting the Minimum}{130}{subsection.4.80.2}%
+\contentsline {subsection}{\numberline {4.80.3}Faster Heap Construction (*)}{131}{subsection.4.80.3}%
+\contentsline {section}{\numberline {4.81}Stop and Think: Where in the Heap?}{133}{section.4.81}%
+\contentsline {subsection}{\numberline {4.81.1}Sorting by Incremental Insertion}{134}{subsection.4.81.1}%
+\contentsline {section}{\numberline {4.82}War Story: Give me a Ticket on an Airplane}{134}{section.4.82}%
+\contentsline {section}{\numberline {4.83}Mergesort: Sorting by Divide and Conquer}{137}{section.4.83}%
+\contentsline {section}{\numberline {4.84}Implementation}{139}{section.4.84}%
+\contentsline {section}{\numberline {4.85}Quicksort: Sorting by Randomization}{140}{section.4.85}%
+\contentsline {subsection}{\numberline {4.85.1}Intuition: The Expected Case for Quicksort}{141}{subsection.4.85.1}%
+\contentsline {subsection}{\numberline {4.85.2}Randomized Algorithms}{143}{subsection.4.85.2}%
+\contentsline {section}{\numberline {4.86}Stop and Think: Nuts and Bolts}{144}{section.4.86}%
+\contentsline {subsection}{\numberline {4.86.1}Is Quicksort Really Quick?}{145}{subsection.4.86.1}%
+\contentsline {section}{\numberline {4.87}Distribution Sort: Sorting via Bucketing}{145}{section.4.87}%
+\contentsline {subsection}{\numberline {4.87.1}Lower Bounds for Sorting}{146}{subsection.4.87.1}%
+\contentsline {section}{\numberline {4.88}War Story: Skiena for the Defense}{147}{section.4.88}%
+\contentsline {section}{\numberline {4.89}Applications of Sorting: Numbers}{149}{section.4.89}%
+\contentsline {section}{\numberline {4.90}Applications of Sorting: Intervals and Sets}{151}{section.4.90}%
+\contentsline {section}{\numberline {4.91}Quicksort}{152}{section.4.91}%
+\contentsline {section}{\numberline {4.92}Mergesort}{153}{section.4.92}%
+\contentsline {section}{\numberline {4.93}Other Sorting Algorithms}{154}{section.4.93}%
+\contentsline {section}{\numberline {4.94}Lower Bounds}{154}{section.4.94}%
+\contentsline {section}{\numberline {4.95}Searching}{155}{section.4.95}%
+\contentsline {section}{\numberline {4.96}Implementation Challenges}{155}{section.4.96}%
+\contentsline {section}{\numberline {4.97}Divide and Conquer}{157}{section.4.97}%
+\contentsline {section}{\numberline {4.98}Binary Search and Related Algorithms}{158}{section.4.98}%
+\contentsline {subsection}{\numberline {4.98.1}Counting Occurrences}{158}{subsection.4.98.1}%
+\contentsline {subsection}{\numberline {4.98.2}One-Sided Binary Search}{159}{subsection.4.98.2}%
+\contentsline {subsection}{\numberline {4.98.3}Square and Other Roots}{160}{subsection.4.98.3}%
+\contentsline {section}{\numberline {4.99}War Story: Finding the Bug in the Bug}{160}{section.4.99}%
+\contentsline {section}{\numberline {4.100}Recurrence Relations}{162}{section.4.100}%
+\contentsline {subsection}{\numberline {4.100.1}Divide-and-Conquer Recurrences}{163}{subsection.4.100.1}%
+\contentsline {section}{\numberline {4.101}Solving Divide-and-Conquer Recurrences}{164}{section.4.101}%
+\contentsline {section}{\numberline {4.102}Fast Multiplication}{165}{section.4.102}%
+\contentsline {section}{\numberline {4.103}Largest Subrange and Closest Pair}{167}{section.4.103}%
+\contentsline {section}{\numberline {4.104}Parallel Algorithms}{169}{section.4.104}%
+\contentsline {subsection}{\numberline {4.104.1}Data Parallelism}{169}{subsection.4.104.1}%
+\contentsline {subsection}{\numberline {4.104.2}Pitfalls of Parallelism}{170}{subsection.4.104.2}%
+\contentsline {section}{\numberline {4.105}War Story: Going Nowhere Fast}{171}{section.4.105}%
+\contentsline {section}{\numberline {4.106}Convolution (*)}{172}{section.4.106}%
+\contentsline {subsection}{\numberline {4.106.1}Applications of Convolution}{173}{subsection.4.106.1}%
+\contentsline {subsection}{\numberline {4.106.2}Fast Polynomial Multiplication (**)}{175}{subsection.4.106.2}%
+\contentsline {section}{\numberline {4.107}Binary Search}{177}{section.4.107}%
+\contentsline {section}{\numberline {4.108}Divide and Conquer Algorithms}{178}{section.4.108}%
+\contentsline {section}{\numberline {4.109}Hashing and Randomized Algorithms}{180}{section.4.109}%
+\contentsline {section}{\numberline {4.110}Stop and Think: Quicksort City}{181}{section.4.110}%
+\contentsline {section}{\numberline {4.111}Probability Review}{181}{section.4.111}%
+\contentsline {subsection}{\numberline {4.111.1}Probability}{181}{subsection.4.111.1}%
+\contentsline {subsection}{\numberline {4.111.2}Compound Events and Independence}{183}{subsection.4.111.2}%
+\contentsline {subsection}{\numberline {4.111.3}Conditional Probability}{184}{subsection.4.111.3}%
+\contentsline {subsection}{\numberline {4.111.4}Probability Distributions}{185}{subsection.4.111.4}%
+\contentsline {subsection}{\numberline {4.111.5}Mean and Variance}{185}{subsection.4.111.5}%
+\contentsline {subsection}{\numberline {4.111.6}Tossing Coins}{186}{subsection.4.111.6}%
+\contentsline {section}{\numberline {4.112}Stop and Think: Random Walks on a Path}{187}{section.4.112}%
+\contentsline {section}{\numberline {4.113}Understanding Balls and Bins}{187}{section.4.113}%
+\contentsline {subsection}{\numberline {4.113.1}The Coupon Collector's Problem}{189}{subsection.4.113.1}%
+\contentsline {section}{\numberline {4.114}Stop and Think: Covering Time for $K_{n}$}{190}{section.4.114}%
+\contentsline {section}{\numberline {4.115}Why is Hashing a Randomized Algorithm?}{190}{section.4.115}%
+\contentsline {section}{\numberline {4.116}Bloom Filters}{192}{section.4.116}%
+\contentsline {section}{\numberline {4.117}The Birthday Paradox and Perfect Hashing}{193}{section.4.117}%
+\contentsline {section}{\numberline {4.118}Minwise Hashing}{195}{section.4.118}%
+\contentsline {section}{\numberline {4.119}Stop and Think: Estimating Population Size}{197}{section.4.119}%
+\contentsline {section}{\numberline {4.120}Efficient String Matching}{198}{section.4.120}%
+\contentsline {section}{\numberline {4.121}Primality Testing}{200}{section.4.121}%
+\contentsline {section}{\numberline {4.122}War Story: Giving Knuth the Middle Initial}{201}{section.4.122}%
+\contentsline {section}{\numberline {4.123}Where do Random Numbers Come From?}{202}{section.4.123}%
+\contentsline {section}{\numberline {4.124}Graph Traversal}{205}{section.4.124}%
+\contentsline {section}{\numberline {4.125}Flavors of Graphs}{206}{section.4.125}%
+\contentsline {subsection}{\numberline {4.125.1}The Friendship Graph}{209}{subsection.4.125.1}%
+\contentsline {section}{\numberline {4.126}Data Structures for Graphs}{211}{section.4.126}%
+\contentsline {section}{\numberline {4.127}War Story: I was a Victim of Moore's Law}{214}{section.4.127}%
+\contentsline {section}{\numberline {4.128}War Story: Getting the Graph}{217}{section.4.128}%
+\contentsline {section}{\numberline {4.129}Traversing a Graph}{219}{section.4.129}%
+\contentsline {section}{\numberline {4.130}Breadth-First Search}{220}{section.4.130}%
+\contentsline {subsection}{\numberline {4.130.1}Exploiting Traversal}{223}{subsection.4.130.1}%
+\contentsline {subsection}{\numberline {4.130.2}Finding Paths}{223}{subsection.4.130.2}%
+\contentsline {section}{\numberline {4.131}Applications of Breadth-First Search}{224}{section.4.131}%
+\contentsline {section}{\numberline {4.132}Connected Components}{225}{section.4.132}%
+\contentsline {subsection}{\numberline {4.132.1}Two-Coloring Graphs}{226}{subsection.4.132.1}%
+\contentsline {section}{\numberline {4.133}Depth-First Search}{227}{section.4.133}%
+\contentsline {section}{\numberline {4.134}Applications of Depth-First Search}{230}{section.4.134}%
+\contentsline {subsection}{\numberline {4.134.1}Finding Cycles}{231}{subsection.4.134.1}%
+\contentsline {subsection}{\numberline {4.134.2}Articulation Vertices}{231}{subsection.4.134.2}%
+\contentsline {section}{\numberline {4.135}Depth-First Search on Directed Graphs}{235}{section.4.135}%
+\contentsline {section}{\numberline {4.136}Topological Sorting}{236}{section.4.136}%
