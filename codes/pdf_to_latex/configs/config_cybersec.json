@@ -9,5 +9,7 @@
     "skip": [],
     "chapter_level": 1,
     "section_level": 2,
-    "subsection_level": 3
+    "subsection_level": 3,
+    "use_bib_cache": true,
+    "use_gpt_cache": false
 }

@@ -25,6 +25,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from openai import OpenAI
 from dotenv import load_dotenv
 import time
+import logging
 
 from indexer import create_indexing
 from gpt_script import format_with_gpt
@@ -33,10 +34,17 @@ from bib import process_bibliography
 from page_separator_v2 import create_page_separators
 from cleaner import clean_it_up
 from balance_checker import check_latex_balance
+from log_parser import parse_latex_log, save_log_analysis
+from cleaning_without_gpt import fix_figure_table_positioning
 import subprocess
 import shutil
+import re
 
 import os, sys
+
+# Setup logging
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logger = logging.getLogger(__name__)
 
 sys.path.append(os.path.dirname(__file__))
 # Import the core module
@@ -183,6 +191,8 @@ def run_pipeline(
     chapter_level=1,
     section_level=2,
     subsection_level=3,
+    use_bib_cache=True,
+    use_gpt_cache=True,
 ):
     """Run the complete PDF to LaTeX conversion pipeline."""
     start_time = datetime.now()
@@ -260,6 +270,7 @@ def run_pipeline(
                 paths["bib_output_path"],
                 paths["bib_path"],
                 bib_json=bib_json_path,
+                use_cache=use_bib_cache,
             )
             results["steps_completed"].append(2)
             results["bibliography_output"] = current_tex_path
@@ -274,6 +285,7 @@ def run_pipeline(
     # Step under construction, not trying to use AI formatting for now
     if 3 not in skip_steps:
         try:
+
             # current_tex_path = format_with_gpt(  # here the output current_tex_path is final_path that is _cleaned_final.tex
             #     paths["book_path"],
             #     current_tex_path,
@@ -285,7 +297,19 @@ def run_pipeline(
             current_tex_path = make_book(current_tex_path, paths["gpt_path"]) # converts article type to book type.
             current_tex_path = process_tex_figures(current_tex_path, paths["gpt_path"]) # will need to update the paths after changes made.
 
-            
+            # Fix figure and table positioning options
+            print("🔧 Fixing figure and table positioning options...")
+            current_tex_path = fix_figure_table_positioning(current_tex_path)
+
+            # current_tex_path = format_with_gpt(  # here the output current_tex_path is final_path that is _cleaned_final.tex
+            #     paths["book_path"],
+            #     current_tex_path,
+            #     paths["gpt_path"],
+            #     batch_size=batch_size,
+            #     max_parts=max_parts,
+            #     use_parallel=use_parallel,
+            #     use_cache=use_gpt_cache,
+            # )
             results["steps_completed"].append(3)
             results["ai_formatting_output"] = current_tex_path
         except Exception as e:
@@ -409,6 +433,45 @@ def run_pipeline(
     print("stdout:\n", compile_result.stdout)
     print("stderr:\n", compile_result.stderr)
 
+    # Step 7: Parse LaTeX compilation log for detailed error/warning analysis
+    try:
+        print("\n🔍 Step 7: Analyzing LaTeX compilation log...")
+        
+        # The log file was saved as compile_log.txt, but we need the actual .log file
+        # LaTeX typically creates a .log file with the same base name as the .tex file
+        base_name = os.path.splitext(os.path.basename(paths["final_path"]))[0]
+        latex_log_path = os.path.join(paths["output_folder"], f"{base_name}.log")
+        
+        # If the standard .log file doesn't exist, use our custom log file
+        if not os.path.exists(latex_log_path):
+            latex_log_path = log_path
+            print(f"Using custom log file: {latex_log_path}")
+        else:
+            print(f"Using LaTeX log file: {latex_log_path}")
+        
+        # Parse the log file and save analysis
+        log_analysis_path = save_log_analysis(latex_log_path)
+        
+        # Parse the log to get summary information
+        log_analysis = parse_latex_log(latex_log_path)
+        
+        # Print summary
+        summary = log_analysis["summary"]
+        print(f"✅ Step 7: Log analysis complete")
+        print(f"   Total Errors: {summary['total_errors']}")
+        print(f"   Total Warnings: {summary['total_warnings']}")
+        print(f"   Compilation Successful: {summary['compilation_successful']}")
+        print(f"   Analysis saved to: {log_analysis_path}")
+        
+        # Store log analysis path in results
+        results["log_analysis_path"] = log_analysis_path
+        results["log_analysis"] = log_analysis
+        results["steps_completed"].append(7)
+        
+    except Exception as e:
+        print(f"❌ Error in Step 7 (Log Analysis): {e}")
+        logger.error(f"Error analyzing log file: {e}")
+
     return results
 
 
@@ -470,6 +533,18 @@ if __name__ == "__main__":
     parser.add_argument(
         "--subsection-level", type=int, default=-1, help="Subsection level in Table of Contents (default: 2)"
     )
+    parser.add_argument(
+        "--use-bib-cache", action="store_true", default=True, help="Use cache for bibliography processing (default: True)"
+    )
+    parser.add_argument(
+        "--no-bib-cache", action="store_true", help="Disable cache for bibliography processing"
+    )
+    parser.add_argument(
+        "--use-gpt-cache", action="store_true", default=True, help="Use cache for GPT processing (default: True)"
+    )
+    parser.add_argument(
+        "--no-gpt-cache", action="store_true", help="Disable cache for GPT processing"
+    )
     args = parser.parse_args()
 
     # Get parameters from config file if provided
@@ -501,6 +576,11 @@ if __name__ == "__main__":
                 "chapter_level": args.chapter_level if args.chapter_level!=-1 else config.get("chapter_level", 1),
                 "section_level": args.section_level if args.section_level!=-1 else config.get("section_level", 2),
                 "subsection_level": args.subsection_level if args.subsection_level!=-1 else config.get("subsection_level", 3),
+                "chapter_level": args.chapter_level or config.get("chapter_level", 1),
+                "section_level": args.section_level or config.get("section_level", 2),
+                "subsection_level": args.subsection_level or config.get("subsection_level", 3),
+                "use_bib_cache": not args.no_bib_cache and (args.use_bib_cache or config.get("use_bib_cache", True)),
+                "use_gpt_cache": not args.no_gpt_cache and (args.use_gpt_cache or config.get("use_gpt_cache", True)),
             }
         else:
             print(
@@ -522,6 +602,8 @@ if __name__ == "__main__":
                 "chapter_level": args.chapter_level,
                 "section_level": args.section_level,
                 "subsection_level": args.subsection_level,
+                "use_bib_cache": not args.no_bib_cache and args.use_bib_cache,
+                "use_gpt_cache": not args.no_gpt_cache and args.use_gpt_cache,
             }
     else:
         # No config file, use command-line arguments
@@ -544,6 +626,8 @@ if __name__ == "__main__":
             "chapter_level": args.chapter_level,
             "section_level": args.section_level,
             "subsection_level": args.subsection_level,
+            "use_bib_cache": not args.no_bib_cache and args.use_bib_cache,
+            "use_gpt_cache": not args.no_gpt_cache and args.use_gpt_cache,
         }
 
     # Remove None values to avoid passing None to the pipeline

@@ -72,7 +72,7 @@ def add_to_cache(cache_key, response):
             _global_cache = {}
         _global_cache[cache_key] = response
 
-def get_api_response(prompt, text, model="gpt-5"):
+def get_api_response(prompt, text, model="gpt-5", use_cache=True):
     """
     Get response from OpenAI API with simple caching.
     
@@ -87,30 +87,39 @@ def get_api_response(prompt, text, model="gpt-5"):
     # Generate cache key
     cache_key = get_cache_key(prompt, text, model)
     
-    # Load cache (this will initialize global cache if needed)
-    cache = load_bib_cache()
-    
-    # Check if response is cached
-    if cache_key in cache:
-        print("🎯 Cache HIT - Using cached response for bibliography processing...")
-        return cache[cache_key]
+    # Check cache only if enabled
+    if use_cache:
+        # Load cache (this will initialize global cache if needed)
+        cache = load_bib_cache()
+        
+        # Check if response is cached
+        if cache_key in cache:
+            print("🎯 Cache HIT - Using cached response for bibliography processing...")
+            return cache[cache_key]
     
     # Make API call
-    print("🚀 Cache MISS - Sending request to OpenAI API...")
+    if use_cache:
+        print("🚀 Cache MISS - Sending request to OpenAI API...")
+    else:
+        print("🚀 Cache DISABLED - Sending request to OpenAI API...")
     try:
         completion = client.chat.completions.create(
             model=model,
             messages=[
                 {"role": "developer", "content": "You are a helpful assistant."},
                 {"role": "user", "content": f" {prompt}. Here is the text: {text}"}
-            ]
+            ],
+            temperature=0
         )
         response = completion.choices[0].message.content
         print("✅ Received response from OpenAI API.")
         
-        # Add to global cache (don't save yet)
-        add_to_cache(cache_key, response)
-        print(f"💾 Added response to cache (will save at end)")
+        # Add to global cache only if cache is enabled
+        if use_cache:
+            add_to_cache(cache_key, response)
+            print(f"💾 Added response to cache (will save at end)")
+        else:
+            print(f"💾 Cache disabled - response not cached")
         
         return response
     except Exception as e:
@@ -162,7 +171,7 @@ def replace_citations(tex_filename, bib_dict, output_filename="updated.tex"):
     print(f"Updated LaTeX file saved as {output_filename}")
 
 
-def process_bibliography(pdf_path=None, tex_path=None, output_json_path=None, output_bib_path=None, output_tex_path=None, model="gpt-5", bib_json=None):
+def process_bibliography(pdf_path=None, tex_path=None, output_json_path=None, output_bib_path=None, output_tex_path=None, model="gpt-5", bib_json=None, use_cache=True):
     """
     Process a PDF bibliography and update LaTeX citations.
     
@@ -188,7 +197,11 @@ def process_bibliography(pdf_path=None, tex_path=None, output_json_path=None, ou
     
     # Initialize cache at the beginning
     print("🔄 Initializing bibliography cache...")
-    load_bib_cache()
+    if use_cache:
+        load_bib_cache()
+        print("✅ Cache enabled - will use existing cache entries")
+    else:
+        print("⚠️ Cache disabled - will make fresh API calls")
     
     print(f"Processing PDF: {pdf_path}")
     print(f"Using LaTeX file: {tex_path}")
@@ -263,7 +276,7 @@ def process_bibliography(pdf_path=None, tex_path=None, output_json_path=None, ou
         # Get API response
         try:
             print("Debug check: Before API call")
-            api_response = get_api_response(prompt, bibliography, model=model)
+            api_response = get_api_response(prompt, bibliography, model=model, use_cache=use_cache)
             print("Debug check: After API call")
             
             # Extract JSON content from API response
@@ -333,9 +346,12 @@ def process_bibliography(pdf_path=None, tex_path=None, output_json_path=None, ou
         except Exception as e:
             print(f"Error updating LaTeX file: {e}")
     
-    # Save cache at the end
-    print("💾 Saving bibliography cache...")
-    save_bib_cache()
+    # Save cache at the end only if cache is enabled
+    if use_cache:
+        print("💾 Saving bibliography cache...")
+        save_bib_cache()
+    else:
+        print("💾 Cache disabled - not saving cache")
     
     return citation_dict, output_tex_path
 

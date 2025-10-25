@@ -1,0 +1,753 @@
+\indexentry{asking interesting questions|hyperpage}{i}
+\indexentry{autocorrelation!big data engineer|hyperpage}{i}
+\indexentry{classiﬁcation!computer scientist|hyperpage}{i}
+\indexentry{data centrism|hyperpage}{i}
+\indexentry{data scientist|hyperpage}{i}
+\indexentry{method centrism|hyperpage}{i}
+\indexentry{sampling!scientist|hyperpage}{i}
+\indexentry{data science|hyperpage}{i}
+\indexentry{Hamming, Richard W.|hyperpage}{i}
+\indexentry{heatmaps!hedge fund|hyperpage}{i}
+\indexentry{expected value!garbage in, garbage out|hyperpage}{i}
+\indexentry{performance of models!precision|hyperpage}{i}
+\indexentry{robustness|hyperpage}{i}
+\indexentry{autocorrelation!Barzun, Jacques|hyperpage}{xv}
+\indexentry{autocorrelation!baseball encyclopedia|hyperpage}{xv}
+\indexentry{Moneyball|hyperpage}{xv}
+\indexentry{machine learning!major league baseball|hyperpage}{xvi}
+\indexentry{heatmaps!IMDb|hyperpage}{xvii}
+\indexentry{heatmaps!Internet Movie Database|hyperpage}{xvii}
+\indexentry{machine learning!metadata|hyperpage}{xvii}
+\indexentry{statistical proxy|hyperpage}{xvii}
+\indexentry{expected value!Freedom of Information Act|hyperpage}{xviii}
+\indexentry{Global Positioning System|hyperpage}{xviii}
+\indexentry{autocorrelation!Bacon, Kevin|hyperpage}{xix}
+\indexentry{classiﬁcation!collaborative ﬁltering|hyperpage}{xix}
+\indexentry{large-scale question|hyperpage}{xix}
+\indexentry{monotonic!Netﬂix prize|hyperpage}{xix}
+\indexentry{Oracle of Bacon|hyperpage}{xix}
+\indexentry{data processing|hyperpage}{xx}
+\indexentry{Google Ngrams|hyperpage}{xxi}
+\indexentry{expected value!General Sentiment|hyperpage}{xxi}
+\indexentry{Stony Brook University|hyperpage}{xxi}
+\indexentry{weighted average!Wikipedia|hyperpage}{xxi}
+\indexentry{target scaling!records from New York|hyperpage}{xxi}
+\indexentry{topological graph!urban transportation network|hyperpage}{xxi}
+\indexentry{target scaling!tipping rate|hyperpage}{xxiii}
+\indexentry{autocorrelation!bag of words|hyperpage}{xxiii}
+\indexentry{data!properties|hyperpage}{xxiii}
+\indexentry{data!structured|hyperpage}{xxiii}
+\indexentry{data!unstructured|hyperpage}{xxiii}
+\indexentry{data!types|hyperpage}{xxiv}
+\indexentry{data!quantitative vs. categorical|hyperpage}{xxiv}
+\indexentry{data!big vs. little|hyperpage}{xxiv}
+\indexentry{machine learning!matrix|hyperpage}{xxv}
+\indexentry{regression|hyperpage}{xxv}
+\indexentry{classiﬁcation|hyperpage}{xxv}
+\indexentry{data science television|hyperpage}{xxvi}
+\indexentry{performance of models!Quant Shop|hyperpage}{xxvi}
+\indexentry{monotonic!natural language processing|hyperpage}{xxviii}
+\indexentry{expected value!genius|hyperpage}{xxix}
+\indexentry{weighted average!wisdom|hyperpage}{xxix}
+\indexentry{expected value!Facebook|hyperpage}{xxx}
+\indexentry{monotonic!NLP-based system|hyperpage}{xxx}
+\indexentry{sabermetrics|hyperpage}{xxxi}
+\indexentry{exercises|hyperpage}{xxxiii}
+\indexentry{classiﬁcation!correlation and causation|hyperpage}{xxxv}
+\indexentry{Blumenstock, Josh|hyperpage}{xxxvii}
+\indexentry{expected value!experiment|hyperpage}{xxxvii}
+\indexentry{sample space|hyperpage}{xxxvii}
+\indexentry{performance of models!probability|hyperpage}{xxxvii}
+\indexentry{performance of models!probability|hyperpage}{xxxvii}
+\indexentry{event|hyperpage}{xxxviii}
+\indexentry{expected value|hyperpage}{xxxviii}
+\indexentry{performance of models!probability of an event|hyperpage}{xxxviii}
+\indexentry{performance of models!probability of an outcome|hyperpage}{xxxviii}
+\indexentry{random variable|hyperpage}{xxxviii}
+\indexentry{data scientist!de M´er´e, Chevalier|hyperpage}{xxxix}
+\indexentry{performance of models!probability vs. statistics|hyperpage}{xxxix}
+\indexentry{statistics|hyperpage}{xxxix}
+\indexentry{classiﬁcation!conditional probability|hyperpage}{xl}
+\indexentry{expected value!Fermat, Pierre de|hyperpage}{xl}
+\indexentry{heatmaps!independence|hyperpage}{xl}
+\indexentry{Pascal, Blaise|hyperpage}{xl}
+\indexentry{classiﬁcation!conditional probability|hyperpage}{xlii}
+\indexentry{heatmaps!histograms|hyperpage}{xlii}
+\indexentry{performance of models!probability density function|hyperpage}{xlii}
+\indexentry{performance of models!probability distribution|hyperpage}{xlii}
+\indexentry{machine learning!mean|hyperpage}{xliii}
+\indexentry{cumulative density function|hyperpage}{xliii}
+\indexentry{CSV ﬁles|hyperpage}{xliv}
+\indexentry{weighted average!XML|hyperpage}{xliv}
+\indexentry{data formats|hyperpage}{xliv}
+\indexentry{heatmaps!IPython|hyperpage}{xliv}
+\indexentry{machine learning!Mathematica|hyperpage}{xliv}
+\indexentry{Apple iPhone sales|hyperpage}{xlv}
+\indexentry{centrality measures|hyperpage}{xlv}
+\indexentry{data scientist!descriptive statistics|hyperpage}{xlv}
+\indexentry{geometric mean|hyperpage}{xlvi}
+\indexentry{machine learning!median|hyperpage}{xlvi}
+\indexentry{mode|hyperpage}{xlvi}
+\indexentry{standard deviation|hyperpage}{xlvii}
+\indexentry{topological graph!variability measures|hyperpage}{xlvii}
+\indexentry{topological graph!variance|hyperpage}{xlvii}
+\indexentry{sampling!signal to noise ratio|hyperpage}{xlviii}
+\indexentry{stock market|hyperpage}{xlviii}
+\indexentry{sports performance|hyperpage}{xlix}
+\indexentry{currency conversion|hyperpage}{l}
+\indexentry{expected value!ﬁnancial uniﬁcation|hyperpage}{l}
+\indexentry{time uniﬁcation|hyperpage}{l}
+\indexentry{topological graph!UNIX time|hyperpage}{l}
+\indexentry{characterizing distributions|hyperpage}{l}
+\indexentry{performance of models|hyperpage}{l}
+\indexentry{Pearson correlation coeﬃcient|hyperpage}{lii}
+\indexentry{autocorrelation|hyperpage}{lvii}
+\indexentry{cicada|hyperpage}{lvii}
+\indexentry{expected value!fast Fourier transform|hyperpage}{lviii}
+\indexentry{expected value!FFT|hyperpage}{lviii}
+\indexentry{logarithm|hyperpage}{lviii}
+\indexentry{ratio|hyperpage}{lviii}
+\indexentry{monotonic!multiplying probabilities|hyperpage}{lix}
+\indexentry{normalizing skewed distribution|hyperpage}{lxi}
+\indexentry{bioinformatician|hyperpage}{lxii}
+\indexentry{exercises|hyperpage}{lxv}
+\indexentry{performance of models!R|hyperpage}{lxix}
+\indexentry{autocorrelation!Babbage, Charles|hyperpage}{lxx}
+\indexentry{data munging|hyperpage}{lxx}
+\indexentry{data science!languages|hyperpage}{lxx}
+\indexentry{performance of models!programming languages|hyperpage}{lxx}
+\indexentry{machine learning!Matlab|hyperpage}{lxxi}
+\indexentry{performance of models!Python|hyperpage}{lxxi}
+\indexentry{C–language|hyperpage}{lxxiii}
+\indexentry{Excel|hyperpage}{lxxiii}
+\indexentry{heatmaps!Java|hyperpage}{lxxiii}
+\indexentry{machine learning!Mathematica|hyperpage}{lxxiii}
+\indexentry{notebook environments|hyperpage}{lxxiii}
+\indexentry{weighted average!Wolfram Alpha|hyperpage}{lxxiii}
+\indexentry{performance of models!Perl|hyperpage}{lxxiii}
+\indexentry{classiﬁcation!Clyde|hyperpage}{lxxiv}
+\indexentry{monotonic!National Football League|hyperpage}{lxxiv}
+\indexentry{performance of models!point spread|hyperpage}{lxxiv}
+\indexentry{heatmaps!JSON|hyperpage}{lxxvii}
+\indexentry{performance of models!protocol buﬀers|hyperpage}{lxxvii}
+\indexentry{SQL databases|hyperpage}{lxxvii}
+\indexentry{AOL|hyperpage}{lxxix}
+\indexentry{classiﬁcation!company data|hyperpage}{lxxix}
+\indexentry{data!collecting|hyperpage}{lxxix}
+\indexentry{data scientist!data sources|hyperpage}{lxxix}
+\indexentry{API|hyperpage}{lxxxi}
+\indexentry{application program interfaces|hyperpage}{lxxxi}
+\indexentry{expected value!Freedom of Information Act|hyperpage}{lxxxi}
+\indexentry{government data|hyperpage}{lxxxi}
+\indexentry{academic data|hyperpage}{lxxxii}
+\indexentry{Google Scholar|hyperpage}{lxxxii}
+\indexentry{sweat equity|hyperpage}{lxxxii}
+\indexentry{Amazon Turk|hyperpage}{lxxxiii}
+\indexentry{classiﬁcation!CrowdFlower|hyperpage}{lxxxiii}
+\indexentry{crowdsourcing|hyperpage}{lxxxiii}
+\indexentry{data!scraping|hyperpage}{lxxxiii}
+\indexentry{heatmaps!HTML|hyperpage}{lxxxiii}
+\indexentry{performance of models!Python|hyperpage}{lxxxiii}
+\indexentry{spidering|hyperpage}{lxxxiii}
+\indexentry{Aaron Schwartz case|hyperpage}{lxxxiv}
+\indexentry{data!logging|hyperpage}{lxxxiv}
+\indexentry{heatmaps!Internet of Things|hyperpage}{lxxxiv}
+\indexentry{terms of service|hyperpage}{lxxxiv}
+\indexentry{web crawling|hyperpage}{lxxxiv}
+\indexentry{artifacts|hyperpage}{lxxxv}
+\indexentry{data!cleaning|hyperpage}{lxxxv}
+\indexentry{data!errors|hyperpage}{lxxxv}
+\indexentry{errors vs. artifacts|hyperpage}{lxxxv}
+\indexentry{expected value!garbage in, garbage out|hyperpage}{lxxxv}
+\indexentry{expected value!Gates, Bill|hyperpage}{lxxxv}
+\indexentry{performance of models!personal wealth|hyperpage}{lxxxv}
+\indexentry{performance of models!Pubmed|hyperpage}{lxxxvi}
+\indexentry{data!compatibility|hyperpage}{lxxxviii}
+\indexentry{topological graph!unit conversions|hyperpage}{lxxxviii}
+\indexentry{monotonic!NASA|hyperpage}{lxxxviii}
+\indexentry{numerical conversions|hyperpage}{lxxxviii}
+\indexentry{test statistic|hyperpage}{lxxxix}
+\indexentry{weighted average!Welch’s t-statistic|hyperpage}{lxxxix}
+\indexentry{character code uniﬁcation|hyperpage}{lxxxix}
+\indexentry{monotonic!name uniﬁcation|hyperpage}{lxxxix}
+\indexentry{heatmaps!inﬂation rates|hyperpage}{xci}
+\indexentry{missing values|hyperpage}{xci}
+\indexentry{data scientist!dinosaur vertebra|hyperpage}{xciii}
+\indexentry{outlier!detection|hyperpage}{xciii}
+\indexentry{normal distribution|hyperpage}{xciv}
+\indexentry{stock market|hyperpage}{xciv}
+\indexentry{weighted average!Wikipedia|hyperpage}{xciv}
+\indexentry{crowdsourcing|hyperpage}{xcv}
+\indexentry{Darwin, Charles|hyperpage}{xcvi}
+\indexentry{expected value!Galton, Francis|hyperpage}{xcvi}
+\indexentry{weighted average!wisdom of crowds|hyperpage}{xcvi}
+\indexentry{anchoring|hyperpage}{xcvii}
+\indexentry{Surowiecki, James|hyperpage}{xcvii}
+\indexentry{aggregation mechanisms|hyperpage}{xcviii}
+\indexentry{machine learning!mean|hyperpage}{xcviii}
+\indexentry{machine learning!median|hyperpage}{xcviii}
+\indexentry{Amazon Turk|hyperpage}{xcix}
+\indexentry{classiﬁcation!CrowdFlower|hyperpage}{xcix}
+\indexentry{Amazon Turk!Turkers|hyperpage}{xcix}
+\indexentry{Arrow’s impossibility theorem|hyperpage}{xcix}
+\indexentry{classiﬁcation!Condorcet jury theorem|hyperpage}{xcix}
+\indexentry{crowdsourcing services|hyperpage}{xcix}
+\indexentry{weighted average|hyperpage}{xcix}
+\indexentry{Amazon Turk!tasks assigned|hyperpage}{c}
+\indexentry{A/B testing|hyperpage}{ci}
+\indexentry{classiﬁcation!CrowdFlower|hyperpage}{ci}
+\indexentry{Emoji Dick|hyperpage}{ci}
+\indexentry{Moby Dick|hyperpage}{ci}
+\indexentry{sampling!Sheep Market|hyperpage}{ci}
+\indexentry{crowdsourcing!bad uses|hyperpage}{cii}
+\indexentry{expected value!games with a purpose|hyperpage}{ciii}
+\indexentry{expected value!gamiﬁcation|hyperpage}{ciii}
+\indexentry{heatmaps!institutional review board|hyperpage}{ciii}
+\indexentry{CAPTCHAs|hyperpage}{civ}
+\indexentry{expected value!FoldIt|hyperpage}{civ}
+\indexentry{heatmaps!IQ testing|hyperpage}{civ}
+\indexentry{performance of models!psychologists|hyperpage}{civ}
+\indexentry{autocorrelation!Babbage, Charles|hyperpage}{cv}
+\indexentry{exercises|hyperpage}{cv}
+\indexentry{expected value!frequency distributions|hyperpage}{cix}
+\indexentry{rankings|hyperpage}{cx}
+\indexentry{sampling!scores|hyperpage}{cx}
+\indexentry{sampling!scoring functions|hyperpage}{cx}
+\indexentry{topological graph!validation data|hyperpage}{cx}
+\indexentry{Body Mass Index|hyperpage}{cxi}
+\indexentry{robustness|hyperpage}{cxi}
+\indexentry{American basketball players|hyperpage}{cxii}
+\indexentry{sampling!scatter plots|hyperpage}{cxiii}
+\indexentry{data scientist!developing scoring systems|hyperpage}{cxiv}
+\indexentry{gold standards|hyperpage}{cxiv}
+\indexentry{performance of models!proxies|hyperpage}{cxiv}
+\indexentry{exercises|hyperpage}{cxv}
+\indexentry{PageRank|hyperpage}{cxv}
+\indexentry{random variable!class rank|hyperpage}{cxv}
+\indexentry{random variable!search results|hyperpage}{cxv}
+\indexentry{random variable!top sports teams|hyperpage}{cxv}
+\indexentry{random variable!university rankings|hyperpage}{cxv}
+\indexentry{sampling!scores vs. rankings|hyperpage}{cxv}
+\indexentry{Box, George|hyperpage}{cxv}
+\indexentry{modeling|hyperpage}{cxv}
+\indexentry{modeling!philosophies of|hyperpage}{cxv}
+\indexentry{Occam’s razor|hyperpage}{cxv}
+\indexentry{good scoring functions|hyperpage}{cxvi}
+\indexentry{normalization|hyperpage}{cxix}
+\indexentry{weighted average!Z-score|hyperpage}{cxix}
+\indexentry{Elo rankings|hyperpage}{cxx}
+\indexentry{rankings!techniques|hyperpage}{cxx}
+\indexentry{sampling!Social Network–movie|hyperpage}{cxxi}
+\indexentry{logit function|hyperpage}{cxxiii}
+\indexentry{Borda’s method|hyperpage}{cxxv}
+\indexentry{rankings!merging|hyperpage}{cxxv}
+\indexentry{monotonic!networks|hyperpage}{cxxvi}
+\indexentry{normal distribution|hyperpage}{cxxvi}
+\indexentry{rankings!digraph-based|hyperpage}{cxxvi}
+\indexentry{data scientist!directed acyclic graph|hyperpage}{cxxvi}
+\indexentry{topological graph!topological sorting|hyperpage}{cxxvi}
+\indexentry{classiﬁcation!Clyde|hyperpage}{cxxviii}
+\indexentry{expected value!football|hyperpage}{cxxviii}
+\indexentry{PageRank|hyperpage}{cxxviii}
+\indexentry{rankings!historical|hyperpage}{cxxxiii}
+\indexentry{weighted average!Wikipedia|hyperpage}{cxxxiii}
+\indexentry{outlier|hyperpage}{cxxxvi}
+\indexentry{exercises|hyperpage}{cxxxvii}
+\indexentry{learning to rank|hyperpage}{cxxxvii}
+\indexentry{monotonic!Mosteller, Frederick|hyperpage}{cxxxix}
+\indexentry{statistical analysis|hyperpage}{cxxxix}
+\indexentry{statistical distributions|hyperpage}{cxxxix}
+\indexentry{autocorrelation!bell-shaped|hyperpage}{cxli}
+\indexentry{autocorrelation!binomial distribution|hyperpage}{cxli}
+\indexentry{heatmaps!independence|hyperpage}{cxli}
+\indexentry{Pascal’s triangle|hyperpage}{cxli}
+\indexentry{expected value!Gaussian distribution|hyperpage}{cxlii}
+\indexentry{monotonic!normal|hyperpage}{cxliii}
+\indexentry{normal distribution|hyperpage}{cxliii}
+\indexentry{expected value!ﬁnancial market|hyperpage}{cxliv}
+\indexentry{normal distribution!implications|hyperpage}{cxliv}
+\indexentry{stock market|hyperpage}{cxliv}
+\indexentry{machine learning!mean|hyperpage}{cxliv}
+\indexentry{LU decomposition|hyperpage}{cxlv}
+\indexentry{weighted average!word embeddings|hyperpage}{cxlv}
+\indexentry{performance of models!Poisson distribution|hyperpage}{cxlv}
+\indexentry{performance of models!power law distribution|hyperpage}{cl}
+\indexentry{machine learning!mean|hyperpage}{cli}
+\indexentry{Richter scale|hyperpage}{clii}
+\indexentry{weighted average!Zipf’s law|hyperpage}{clii}
+\indexentry{heatmaps!inverse transform sampling|hyperpage}{cliii}
+\indexentry{machine learning!median|hyperpage}{cliii}
+\indexentry{sampling|hyperpage}{cliii}
+\indexentry{sampling!scale invariant|hyperpage}{cliii}
+\indexentry{standard deviation|hyperpage}{cliii}
+\indexentry{sampling!beyond one dimension|hyperpage}{cliv}
+\indexentry{classiﬁcation!correlation and causation|hyperpage}{clvi}
+\indexentry{statistical signiﬁcance|hyperpage}{clvi}
+\indexentry{classiﬁcation!Cohen’s d|hyperpage}{clvii}
+\indexentry{eﬀect size|hyperpage}{clvii}
+\indexentry{machine learning!mean|hyperpage}{clix}
+\indexentry{AB testing|hyperpage}{clix}
+\indexentry{overlap percentage|hyperpage}{clix}
+\indexentry{T-test|hyperpage}{clix}
+\indexentry{topological graph!variation coeﬃcient|hyperpage}{clix}
+\indexentry{heatmaps!Kolmogorov-Smirnov test|hyperpage}{clx}
+\indexentry{sampling!signiﬁcance level|hyperpage}{clx}
+\indexentry{learning rate|hyperpage}{clxii}
+\indexentry{autocorrelation!bell-shaped|hyperpage}{clxiii}
+\indexentry{Bonferroni correction|hyperpage}{clxiii}
+\indexentry{normality testing|hyperpage}{clxiii}
+\indexentry{theory of relativity|hyperpage}{clxviii}
+\indexentry{weighted average!Wolfram Alpha|hyperpage}{clxviii}
+\indexentry{p-values|hyperpage}{clxix}
+\indexentry{data scientist!DiMaggio|hyperpage}{clxxii}
+\indexentry{autocorrelation!Bayes’ theorem|hyperpage}{clxxv}
+\indexentry{exercises|hyperpage}{clxxvi}
+\indexentry{data!visualizing|hyperpage}{clxxxi}
+\indexentry{data scientist!data visualization|hyperpage}{clxxxi}
+\indexentry{error!detection|hyperpage}{clxxxi}
+\indexentry{expected value!exploratory data analysis|hyperpage}{clxxxi}
+\indexentry{topological graph!Tufte, Edward|hyperpage}{clxxxi}
+\indexentry{data scientist!data-driven|hyperpage}{clxxxiii}
+\indexentry{expected value!exploratory data analysis|hyperpage}{clxxxiii}
+\indexentry{heatmaps!hypothesis driven|hyperpage}{clxxxiii}
+\indexentry{monotonic!new data set|hyperpage}{clxxxiii}
+\indexentry{summary statistics|hyperpage}{clxxxiv}
+\indexentry{data scientist!distances|hyperpage}{clxxxiv}
+\indexentry{edges|hyperpage}{clxxxiv}
+\indexentry{graphs|hyperpage}{clxxxiv}
+\indexentry{monotonic!networks|hyperpage}{clxxxiv}
+\indexentry{topological graph!vertex|hyperpage}{clxxxiv}
+\indexentry{topological graph!vertices|hyperpage}{clxxxiv}
+\indexentry{pairwise correlations|hyperpage}{clxxxv}
+\indexentry{Anscombe’s Quartet|hyperpage}{clxxxvi}
+\indexentry{summary statistics|hyperpage}{clxxxvi}
+\indexentry{topological graph!colors|hyperpage}{cxci}
+\indexentry{topological graph!Tufte, Edward|hyperpage}{cxci}
+\indexentry{topological graph!visualization aesthetic|hyperpage}{cxci}
+\indexentry{topological graph!chartjunk|hyperpage}{cxci}
+\indexentry{topological graph!data-ink ratio|hyperpage}{cxci}
+\indexentry{topological graph!lie factor|hyperpage}{cxci}
+\indexentry{topological graph!scaling and labeling|hyperpage}{cxci}
+\indexentry{topological graph!data-ink ratio|hyperpage}{cxcii}
+\indexentry{topological graph!repetition|hyperpage}{cxcii}
+\indexentry{lie factor|hyperpage}{cxcii}
+\indexentry{topological graph!lie factor|hyperpage}{cxcii}
+\indexentry{topological graph!chartjunk|hyperpage}{cxciv}
+\indexentry{topological graph!scaling and labeling|hyperpage}{cxcvi}
+\indexentry{topological graph!colors|hyperpage}{cxcvii}
+\indexentry{topological graph!repetition|hyperpage}{cxcix}
+\indexentry{chart types|hyperpage}{cc}
+\indexentry{chart types!tabular data|hyperpage}{ccii}
+\indexentry{chart types!dot and line plots|hyperpage}{cciv}
+\indexentry{line charts|hyperpage}{cciv}
+\indexentry{line charts!advantages|hyperpage}{cciv}
+\indexentry{box plots|hyperpage}{cciv}
+\indexentry{line charts!best practices|hyperpage}{cciv}
+\indexentry{topological graph!uncertainty|hyperpage}{cciv}
+\indexentry{box-and-whisker plots|hyperpage}{ccvi}
+\indexentry{Body Mass Index|hyperpage}{ccviii}
+\indexentry{chart types!scatter plots|hyperpage}{ccviii}
+\indexentry{line hatchings|hyperpage}{ccviii}
+\indexentry{Oh G-d|hyperpage}{ccviii}
+\indexentry{sampling!scatter plots|hyperpage}{ccviii}
+\indexentry{heatmaps|hyperpage}{ccix}
+\indexentry{autocorrelation!bar charts|hyperpage}{ccx}
+\indexentry{bubble plots|hyperpage}{ccx}
+\indexentry{chart types!bar charts|hyperpage}{ccx}
+\indexentry{chart types!pie charts|hyperpage}{ccx}
+\indexentry{performance of models!pie charts|hyperpage}{ccx}
+\indexentry{359|hyperpage}{ccxiv}
+\indexentry{monotonic!non-linear classiﬁers|hyperpage}{ccxiv}
+\indexentry{chart types!histograms|hyperpage}{ccxv}
+\indexentry{heatmaps!histograms|hyperpage}{ccxv}
+\indexentry{Titanic|hyperpage}{ccxv}
+\indexentry{132|hyperpage}{ccxviii}
+\indexentry{performance of models!periodic table|hyperpage}{ccxix}
+\indexentry{chart types!data maps|hyperpage}{ccxx}
+\indexentry{topological graph!U.S. presidential elections|hyperpage}{ccxx}
+\indexentry{cartograms|hyperpage}{ccxxi}
+\indexentry{autocorrelation!bias|hyperpage}{ccxxxviii}
+\indexentry{autocorrelation!bias–variance trade-oﬀ|hyperpage}{ccxxxviii}
+\indexentry{data scientist!deep learning|hyperpage}{ccxxxviii}
+\indexentry{error|hyperpage}{ccxxxviii}
+\indexentry{modeling!underﬁt|hyperpage}{ccxxxviii}
+\indexentry{Occam, William of|hyperpage}{ccxxxviii}
+\indexentry{overﬁtting|hyperpage}{ccxxxviii}
+\indexentry{topological graph!variance|hyperpage}{ccxxxviii}
+\indexentry{modeling!principles for eﬀectiveness|hyperpage}{ccxxxix}
+\indexentry{modeling!overﬁt|hyperpage}{ccxxxix}
+\indexentry{performance of models!probabilistic|hyperpage}{ccxxxix}
+\indexentry{sampling!Silver, Nate|hyperpage}{ccxxxix}
+\indexentry{topological graph!U.S. presidential elections|hyperpage}{ccxxxix}
+\indexentry{Center for Disease Control|hyperpage}{ccxl}
+\indexentry{modeling!Google’s forecasting|hyperpage}{ccxl}
+\indexentry{modeling!live|hyperpage}{ccxli}
+\indexentry{autocorrelation!Bayes’ theorem|hyperpage}{ccxli}
+\indexentry{modeling!taxonomy of|hyperpage}{ccxli}
+\indexentry{modeling!blackbox|hyperpage}{ccxlii}
+\indexentry{modeling!descriptive|hyperpage}{ccxlii}
+\indexentry{modeling!linear|hyperpage}{ccxlii}
+\indexentry{modeling!neural network|hyperpage}{ccxlii}
+\indexentry{modeling!non-linear|hyperpage}{ccxlii}
+\indexentry{modeling!data-driven|hyperpage}{ccxliv}
+\indexentry{modeling!ﬁrst-principle|hyperpage}{ccxliv}
+\indexentry{data scientist!DNA sequences|hyperpage}{ccxliv}
+\indexentry{packing data|hyperpage}{ccxliv}
+\indexentry{sampling!single-pass algorithm|hyperpage}{ccxliv}
+\indexentry{streaming|hyperpage}{ccxliv}
+\indexentry{modeling!ad hoc|hyperpage}{ccxlv}
+\indexentry{modeling!deterministic|hyperpage}{ccxlv}
+\indexentry{modeling!machine learning|hyperpage}{ccxlv}
+\indexentry{modeling!stochastic|hyperpage}{ccxlv}
+\indexentry{data scientist!discounting|hyperpage}{ccxlv}
+\indexentry{modeling!deep learning|hyperpage}{ccxlv}
+\indexentry{modeling!ﬂat|hyperpage}{ccxlv}
+\indexentry{modeling!hierarchical|hyperpage}{ccxlv}
+\indexentry{autocorrelation!baseline models|hyperpage}{ccxlvii}
+\indexentry{classiﬁcation|hyperpage}{ccxlvii}
+\indexentry{data science!models|hyperpage}{ccxlvii}
+\indexentry{modeling!baseline|hyperpage}{ccxlvii}
+\indexentry{modeling!data science|hyperpage}{ccxlvii}
+\indexentry{topological graph!value prediction|hyperpage}{ccxlvii}
+\indexentry{parallelism|hyperpage}{ccxlviii}
+\indexentry{random sampling|hyperpage}{ccxlviii}
+\indexentry{topological graph!uniform distribution|hyperpage}{ccxlviii}
+\indexentry{Occam’s razor|hyperpage}{ccxlviii}
+\indexentry{linear regression|hyperpage}{ccl}
+\indexentry{machine learning!median|hyperpage}{ccl}
+\indexentry{modeling!evaluating|hyperpage}{ccl}
+\indexentry{monotonic!negative class|hyperpage}{ccl}
+\indexentry{performance of models!positive class|hyperpage}{ccl}
+\indexentry{machine learning!mean|hyperpage}{ccli}
+\indexentry{classiﬁcation!confusion matrix|hyperpage}{cclii}
+\indexentry{classiﬁcation!contingency table|hyperpage}{cclii}
+\indexentry{Euclidean metric!statistics|hyperpage}{cclii}
+\indexentry{expected value!false negatives|hyperpage}{cclii}
+\indexentry{expected value!false positives|hyperpage}{cclii}
+\indexentry{topological graph!true negatives|hyperpage}{cclii}
+\indexentry{topological graph!true positives|hyperpage}{cclii}
+\indexentry{accuracy|hyperpage}{ccliii}
+\indexentry{monkey|hyperpage}{ccliii}
+\indexentry{performance of models!precision|hyperpage}{ccliii}
+\indexentry{sampling!sharp|hyperpage}{ccliii}
+\indexentry{expected value!F-score|hyperpage}{ccliv}
+\indexentry{recall|hyperpage}{cclv}
+\indexentry{classiﬁcation!balanced|hyperpage}{cclvi}
+\indexentry{curve|hyperpage}{cclvii}
+\indexentry{area under the ROC curve|hyperpage}{cclviii}
+\indexentry{Google News|hyperpage}{cclviii}
+\indexentry{top-k success rate|hyperpage}{cclviii}
+\indexentry{classiﬁcation!confusion matrix|hyperpage}{cclix}
+\indexentry{error!statistics|hyperpage}{cclix}
+\indexentry{error|hyperpage}{cclx}
+\indexentry{error!absolute|hyperpage}{cclx}
+\indexentry{performance of models!precision|hyperpage}{cclx}
+\indexentry{recall|hyperpage}{cclx}
+\indexentry{error!relative|hyperpage}{cclxi}
+\indexentry{error!squared|hyperpage}{cclxi}
+\indexentry{heatmaps!histograms|hyperpage}{cclxi}
+\indexentry{error!mean squared|hyperpage}{cclxiii}
+\indexentry{error!root mean squared|hyperpage}{cclxiii}
+\indexentry{Euclidean metric!environments|hyperpage}{cclxiv}
+\indexentry{sampling!single-command program|hyperpage}{cclxiv}
+\indexentry{data!for evaluation|hyperpage}{cclxv}
+\indexentry{data!for testing|hyperpage}{cclxv}
+\indexentry{data!for training|hyperpage}{cclxv}
+\indexentry{data formats!evaluation|hyperpage}{cclxvi}
+\indexentry{sampling!small evaluation set|hyperpage}{cclxvii}
+\indexentry{classiﬁcation!cross validation|hyperpage}{cclxviii}
+\indexentry{138|hyperpage}{cclxviii}
+\indexentry{accuracy|hyperpage}{cclxviii}
+\indexentry{expected value!Feynman, Richard|hyperpage}{cclxx}
+\indexentry{modeling!simulation|hyperpage}{cclxx}
+\indexentry{statistical analysis|hyperpage}{cclxxii}
+\indexentry{machine learning!matrix|hyperpage}{cclxxx}
+\indexentry{data|hyperpage}{cclxxxi}
+\indexentry{linear algebra|hyperpage}{cclxxxi}
+\indexentry{linear algebra!power of|hyperpage}{cclxxxi}
+\indexentry{Rota, Gian-Carlo|hyperpage}{cclxxxi}
+\indexentry{geometric point sets|hyperpage}{cclxxxii}
+\indexentry{graphs|hyperpage}{cclxxxii}
+\indexentry{linear algebra!interpretation|hyperpage}{cclxxxii}
+\indexentry{linear equation|hyperpage}{cclxxxii}
+\indexentry{monotonic!networks|hyperpage}{cclxxxii}
+\indexentry{rearrangement operations|hyperpage}{cclxxxii}
+\indexentry{geometry|hyperpage}{cclxxxiv}
+\indexentry{topological graph!vectors|hyperpage}{cclxxxiv}
+\indexentry{dot product|hyperpage}{cclxxxvi}
+\indexentry{ratio!unit|hyperpage}{cclxxxvi}
+\indexentry{Lincoln, Abraham|hyperpage}{cclxxxvii}
+\indexentry{classiﬁcation!commutativity|hyperpage}{cclxxxviii}
+\indexentry{heatmaps!inner product|hyperpage}{cclxxxviii}
+\indexentry{machine learning!matrix multiplication|hyperpage}{cclxxxviii}
+\indexentry{associativity|hyperpage}{ccxc}
+\indexentry{performance of models!permutation|hyperpage}{ccxcii}
+\indexentry{paths|hyperpage}{ccxciii}
+\indexentry{linear systems|hyperpage}{ccxcvii}
+\indexentry{entropy!determined|hyperpage}{ccxcviii}
+\indexentry{entropy!underdetermined|hyperpage}{ccxcviii}
+\indexentry{Gray, Dorian|hyperpage}{ccxcviii}
+\indexentry{text analysis|hyperpage}{ccci}
+\indexentry{eigenvalues|hyperpage}{ccciii}
+\indexentry{eigenvalues!properties of|hyperpage}{ccciii}
+\indexentry{characteristic equation|hyperpage}{ccciv}
+\indexentry{eigenvalues!computation|hyperpage}{ccciv}
+\indexentry{eigenvalues!decomposition|hyperpage}{cccvi}
+\indexentry{sampling!singular value decomposition|hyperpage}{cccvii}
+\indexentry{performance of models!principal components|hyperpage}{cccix}
+\indexentry{heatmaps!Jackson, Michael [136]|hyperpage}{cccxi}
+\indexentry{sampling!Spears, Britney [566]|hyperpage}{cccxi}
+\indexentry{234|hyperpage}{cccxii}
+\indexentry{Lang, Andrew|hyperpage}{cccxviii}
+\indexentry{linear regression|hyperpage}{cccxviii}
+\indexentry{duality|hyperpage}{cccxix}
+\indexentry{error!residual|hyperpage}{cccxxi}
+\indexentry{linear regression!error|hyperpage}{cccxxi}
+\indexentry{classiﬁcation!coeﬃcient vector|hyperpage}{cccxxii}
+\indexentry{least squares regression|hyperpage}{cccxxii}
+\indexentry{linear regression!solving|hyperpage}{cccxxii}
+\indexentry{machine learning!matrix|hyperpage}{cccxxiii}
+\indexentry{Ascombe quartet|hyperpage}{cccxxiv}
+\indexentry{outlier detection!removing|hyperpage}{cccxxiv}
+\indexentry{regression models|hyperpage}{cccxxiv}
+\indexentry{regression models!removing outliers|hyperpage}{cccxxiv}
+\indexentry{expected value!feature scaling|hyperpage}{cccxxvii}
+\indexentry{target scaling|hyperpage}{cccxxvii}
+\indexentry{performance of models!power law function|hyperpage}{cccxxix}
+\indexentry{target scaling!sublinear|hyperpage}{cccxxix}
+\indexentry{monotonic!New York|hyperpage}{cccxxxii}
+\indexentry{target scaling!tipping rate|hyperpage}{cccxxxii}
+\indexentry{taxi driver|hyperpage}{cccxxxii}
+\indexentry{data scientist!dimension reduction|hyperpage}{cccxxxii}
+\indexentry{parameter ﬁtting|hyperpage}{cccxxxiv}
+\indexentry{classiﬁcation!convex|hyperpage}{cccxxxv}
+\indexentry{loss function|hyperpage}{cccxxxv}
+\indexentry{parameter ﬁtting!convex|hyperpage}{cccxxxv}
+\indexentry{data scientist!derivative|hyperpage}{cccxxxvi}
+\indexentry{gradient descent search|hyperpage}{cccxxxvi}
+\indexentry{tangent line|hyperpage}{cccxxxvii}
+\indexentry{metric!global|hyperpage}{cccxxxix}
+\indexentry{metric!local|hyperpage}{cccxxxix}
+\indexentry{Oh G-d!local|hyperpage}{cccxxxix}
+\indexentry{stochastic gradient descent|hyperpage}{cccxli}
+\indexentry{modeling!simplifying|hyperpage}{cccxlii}
+\indexentry{Occam’s razor|hyperpage}{cccxlii}
+\indexentry{regression!ridge|hyperpage}{cccxlii}
+\indexentry{regularization|hyperpage}{cccxlii}
+\indexentry{target scaling!tipping model|hyperpage}{cccxlii}
+\indexentry{monotonic!norm|hyperpage}{cccxliii}
+\indexentry{regression!LASSO|hyperpage}{cccxliii}
+\indexentry{Tikhonov regularization|hyperpage}{cccxliii}
+\indexentry{expected value!ﬁt and complexity|hyperpage}{cccxliv}
+\indexentry{Akaike information criterion|hyperpage}{cccxlvi}
+\indexentry{autocorrelation!Baysian information criteria|hyperpage}{cccxlvi}
+\indexentry{classiﬁcation|hyperpage}{cccxlvi}
+\indexentry{regression!logistic|hyperpage}{cccxlvi}
+\indexentry{classiﬁcation!regression|hyperpage}{cccxlvi}
+\indexentry{classiﬁcation!binary|hyperpage}{cccxlvii}
+\indexentry{regression!for classiﬁcation|hyperpage}{cccxlvii}
+\indexentry{data scientist!decision boundaries|hyperpage}{cccxlviii}
+\indexentry{logit function|hyperpage}{cccxlix}
+\indexentry{regression!logistic|hyperpage}{cclxxviii}
+\indexentry{penalty function|hyperpage}{cclxxviii}
+\indexentry{sampling!scaling constant|hyperpage}{cclxxviii}
+\indexentry{logarithm!issues|hyperpage}{cclxxix}
+\indexentry{loss function|hyperpage}{cclxxx}
+\indexentry{autocorrelation!balanced training classes|hyperpage}{cclxxxi}
+\indexentry{overﬁtting|hyperpage}{cclxxxii}
+\indexentry{classiﬁcation!multi-class|hyperpage}{cclxxxiv}
+\indexentry{topological graph!tree|hyperpage}{cclxxxiv}
+\indexentry{heatmaps!hierarchy|hyperpage}{cclxxxiv}
+\indexentry{autocorrelation!Bayes’ theorem|hyperpage}{cclxxxvii}
+\indexentry{data scientist!decision tree classiﬁers|hyperpage}{cclxxxvii}
+\indexentry{monotonic!multinomial regression|hyperpage}{cclxxxvii}
+\indexentry{partition function|hyperpage}{cclxxxvii}
+\indexentry{234|hyperpage}{ccxc}
+\indexentry{metric|hyperpage}{ccxcii}
+\indexentry{data scientist!distance methods|hyperpage}{ccxciii}
+\indexentry{Euclidean metric|hyperpage}{ccxciii}
+\indexentry{Goodhart’s law|hyperpage}{ccxciii}
+\indexentry{Goodhart, Charles|hyperpage}{ccxciii}
+\indexentry{monotonic!network methods|hyperpage}{ccxciii}
+\indexentry{data scientist!distance metrics|hyperpage}{ccxciv}
+\indexentry{metric!identity|hyperpage}{ccxciv}
+\indexentry{metric!positivity|hyperpage}{ccxciv}
+\indexentry{metric!symmetry|hyperpage}{ccxciv}
+\indexentry{metric!triangle inequality|hyperpage}{ccxciv}
+\indexentry{performance of models!Pythagorean theorem|hyperpage}{ccxcvii}
+\indexentry{heatmaps!higher dimensions|hyperpage}{ccxcviii}
+\indexentry{monotonic|hyperpage}{ccxcviii}
+\indexentry{data scientist!dimensional egalitarianism|hyperpage}{ccxcix}
+\indexentry{weighted average!Z-score|hyperpage}{ccxcix}
+\indexentry{classiﬁcation!cosine similarity|hyperpage}{ccci}
+\indexentry{norms|hyperpage}{ccci}
+\indexentry{performance of models!points vs. vectors|hyperpage}{ccci}
+\indexentry{angular distance|hyperpage}{ccci}
+\indexentry{entropy|hyperpage}{ccci}
+\indexentry{Kullback-Leibler divergence|hyperpage}{ccciii}
+\indexentry{monotonic!nearest neighbor classiﬁcation|hyperpage}{ccciii}
+\indexentry{analogies|hyperpage}{cccv}
+\indexentry{heatmaps!k-nearest neighbors|hyperpage}{cccvii}
+\indexentry{classiﬁcation!binary|hyperpage}{cccvii}
+\indexentry{grid indexes|hyperpage}{cccix}
+\indexentry{Voronoi diagrams|hyperpage}{cccix}
+\indexentry{heatmaps!kd-trees|hyperpage}{cccx}
+\indexentry{locality sensitive hashing|hyperpage}{cccxii}
+\indexentry{autocorrelation!binary relations|hyperpage}{cccxv}
+\indexentry{graphs!weighted|hyperpage}{cccxv}
+\indexentry{data scientist!directed graph|hyperpage}{cccxvii}
+\indexentry{embedding|hyperpage}{cccxvii}
+\indexentry{graphs|hyperpage}{cccxvii}
+\indexentry{graphs!directed|hyperpage}{cccxvii}
+\indexentry{graphs!undirected|hyperpage}{cccxvii}
+\indexentry{topological graph!undirected graph|hyperpage}{cccxvii}
+\indexentry{graphs!dense|hyperpage}{cccxviii}
+\indexentry{graphs!non-simple|hyperpage}{cccxviii}
+\indexentry{graphs!simple|hyperpage}{cccxviii}
+\indexentry{graphs!sparse|hyperpage}{cccxviii}
+\indexentry{graphs!unweighted|hyperpage}{cccxviii}
+\indexentry{monotonic!multiedge|hyperpage}{cccxviii}
+\indexentry{performance of models!program ﬂow graph|hyperpage}{cccxviii}
+\indexentry{road network|hyperpage}{cccxviii}
+\indexentry{sampling!self-loop|hyperpage}{cccxviii}
+\indexentry{sampling!simple graph|hyperpage}{cccxviii}
+\indexentry{topological graph!unweighted graph|hyperpage}{cccxviii}
+\indexentry{weighted average!weighted graph|hyperpage}{cccxviii}
+\indexentry{graphs!weighted|hyperpage}{cccxix}
+\indexentry{embedded graph|hyperpage}{cccxix}
+\indexentry{graph theory|hyperpage}{cccxix}
+\indexentry{graphs!embedded|hyperpage}{cccxix}
+\indexentry{graphs!labeled|hyperpage}{cccxix}
+\indexentry{graphs!topological|hyperpage}{cccxix}
+\indexentry{graphs!unlabeled|hyperpage}{cccxix}
+\indexentry{labeled graphs|hyperpage}{cccxix}
+\indexentry{topological graph|hyperpage}{cccxix}
+\indexentry{topological graph!unlabeled graphs|hyperpage}{cccxix}
+\indexentry{classiﬁcation!connected components|hyperpage}{cccxx}
+\indexentry{edge cuts|hyperpage}{cccxx}
+\indexentry{machine learning!matchings|hyperpage}{cccxx}
+\indexentry{minimum spanning tree|hyperpage}{cccxx}
+\indexentry{sampling!shortest paths|hyperpage}{cccxx}
+\indexentry{topological graph!topological sorting|hyperpage}{cccxx}
+\indexentry{damping factor|hyperpage}{cccxxi}
+\indexentry{data scientist!degree of vertex|hyperpage}{cccxxi}
+\indexentry{PageRank|hyperpage}{cccxxi}
+\indexentry{Aristotle|hyperpage}{cccxxiii}
+\indexentry{Bush, George W.|hyperpage}{cccxxiii}
+\indexentry{classiﬁcation!Clinton, Bill|hyperpage}{cccxxiii}
+\indexentry{classiﬁcation!Clinton, Bill]|hyperpage}{cccxxiii}
+\indexentry{Elizabeth II|hyperpage}{cccxxiii}
+\indexentry{heatmaps!Hitler, Adolf|hyperpage}{cccxxiii}
+\indexentry{heatmaps!Jesus|hyperpage}{cccxxiii}
+\indexentry{Linnaeus, Carl|hyperpage}{cccxxiii}
+\indexentry{monotonic!Napoleon|hyperpage}{cccxxiii}
+\indexentry{monotonic!Nixon, Richard|hyperpage}{cccxxiii}
+\indexentry{Obama, Barack|hyperpage}{cccxxiii}
+\indexentry{Obama, Barack]|hyperpage}{cccxxiii}
+\indexentry{Reagan, Ronald|hyperpage}{cccxxiii}
+\indexentry{Roosevelt, Franklin D.|hyperpage}{cccxxiii}
+\indexentry{sampling!Shakespeare, William|hyperpage}{cccxxiii}
+\indexentry{weighted average!Wikipedia|hyperpage}{cccxxiii}
+\indexentry{Aristotle|hyperpage}{cccxxv}
+\indexentry{classiﬁcation!clustering|hyperpage}{cccxxv}
+\indexentry{Obama, Barack [91]|hyperpage}{cccxxv}
+\indexentry{heatmaps!hypothesis development|hyperpage}{cccxxvi}
+\indexentry{modeling|hyperpage}{cccxxvi}
+\indexentry{data reduction|hyperpage}{cccxxvii}
+\indexentry{lumpers|hyperpage}{cccxxvii}
+\indexentry{outlier detection|hyperpage}{cccxxvii}
+\indexentry{splitters|hyperpage}{cccxxvii}
+\indexentry{centroids|hyperpage}{cccxxx}
+\indexentry{error!mean squared|hyperpage}{cccxxx}
+\indexentry{center of mass|hyperpage}{cccxxxi}
+\indexentry{heatmaps!k-mediods algorithm|hyperpage}{cccxxxi}
+\indexentry{mixture model|hyperpage}{cccxxxiii}
+\indexentry{E-step|hyperpage}{cccxxxv}
+\indexentry{expectation maximization|hyperpage}{cccxxxv}
+\indexentry{M-step|hyperpage}{cccxxxv}
+\indexentry{topological graph!tree|hyperpage}{cccxxxvii}
+\indexentry{monotonic!nearest neighbor|hyperpage}{cccxxxviii}
+\indexentry{agglomerative cluster trees|hyperpage}{cccxxxix}
+\indexentry{minimum spanning tree|hyperpage}{cccxl}
+\indexentry{Kruskal’s algorithm|hyperpage}{cccxl}
+\indexentry{autocorrelation!average link|hyperpage}{cccxli}
+\indexentry{expected value!furthest link|hyperpage}{cccxli}
+\indexentry{monotonic!nearest centroid|hyperpage}{cccxli}
+\indexentry{heatmaps!Jaccard distance|hyperpage}{cccxlii}
+\indexentry{heatmaps!Jaccard similarity|hyperpage}{cccxlii}
+\indexentry{performance of models!Rand index|hyperpage}{cccxlii}
+\indexentry{sampling!similarity graphs|hyperpage}{cccxlii}
+\indexentry{graphs!cuts|hyperpage}{cccxliv}
+\indexentry{sampling!similarity matrix|hyperpage}{cccxliv}
+\indexentry{cut|hyperpage}{cccxlvi}
+\indexentry{heatmaps!k-means clustering|hyperpage}{cccxlvi}
+\indexentry{Laplacian|hyperpage}{cccxlvi}
+\indexentry{sampling!spectral clustering|hyperpage}{cccxlvi}
+\indexentry{234|hyperpage}{cccxlix}
+\indexentry{machine learning|hyperpage}{ccclvi}
+\indexentry{sampling!Schaumann, Jan|hyperpage}{ccclvi}
+\indexentry{data scientist!deep learning|hyperpage}{ccclviii}
+\indexentry{support vector machines|hyperpage}{ccclviii}
+\indexentry{monotonic!no free lunch theorem|hyperpage}{ccclix}
+\indexentry{expected value!formulation|hyperpage}{ccclix}
+\indexentry{heatmaps!independence|hyperpage}{ccclix}
+\indexentry{monotonic!naive Bayes|hyperpage}{ccclix}
+\indexentry{performance of models!prior probability|hyperpage}{ccclix}
+\indexentry{performance of models!probability|hyperpage}{ccclix}
+\indexentry{data scientist!discounting|hyperpage}{ccclxiii}
+\indexentry{Laplace|hyperpage}{ccclxiii}
+\indexentry{add-one discounting|hyperpage}{ccclxiv}
+\indexentry{data scientist!decision tree classiﬁers|hyperpage}{ccclxiv}
+\indexentry{data scientist!decision trees|hyperpage}{ccclxiv}
+\indexentry{weighted average!Zipf’s law|hyperpage}{ccclxiv}
+\indexentry{monotonic!non-linearity|hyperpage}{ccclxv}
+\indexentry{Titanic|hyperpage}{ccclxv}
+\indexentry{regression!application|hyperpage}{ccclxvi}
+\indexentry{robustness|hyperpage}{ccclxvi}
+\indexentry{Gini impurity|hyperpage}{ccclxviii}
+\indexentry{heatmaps!information gain|hyperpage}{ccclxviii}
+\indexentry{heatmaps!information theoretic entropy|hyperpage}{ccclxviii}
+\indexentry{performance of models!pure partition|hyperpage}{ccclxviii}
+\indexentry{exclusive or|hyperpage}{ccclxix}
+\indexentry{autocorrelation!bagging|hyperpage}{ccclxx}
+\indexentry{boosting!algorithms|hyperpage}{ccclxxi}
+\indexentry{boosting|hyperpage}{ccclxxi}
+\indexentry{ensemble learning|hyperpage}{ccclxxi}
+\indexentry{monotonic!naive Bayes|hyperpage}{ccclxxi}
+\indexentry{voting|hyperpage}{ccclxxi}
+\indexentry{voting!with classiﬁers|hyperpage}{ccclxxi}
+\indexentry{AdaBoost|hyperpage}{ccclxxii}
+\indexentry{boosting|hyperpage}{ccclxxii}
+\indexentry{support vector machines|hyperpage}{ccclxxiv}
+\indexentry{logistic regression|hyperpage}{ccclxxv}
+\indexentry{machine learning!maximum margin separator|hyperpage}{ccclxxv}
+\indexentry{classiﬁcation!convex hull|hyperpage}{ccclxxvii}
+\indexentry{support vectors|hyperpage}{ccclxxvii}
+\indexentry{linear programming|hyperpage}{ccclxxix}
+\indexentry{linear support vector machines|hyperpage}{ccclxxix}
+\indexentry{heatmaps!higher dimensions|hyperpage}{ccclxxx}
+\indexentry{heatmaps!kernels|hyperpage}{ccclxxxii}
+\indexentry{Goodhart, Charles!AlphaGo|hyperpage}{ccclxxxiv}
+\indexentry{performance of models!position evaluation function|hyperpage}{ccclxxxiv}
+\indexentry{reinforcement learning|hyperpage}{ccclxxxiv}
+\indexentry{supervised learning|hyperpage}{ccclxxxiv}
+\indexentry{supervision|hyperpage}{ccclxxxiv}
+\indexentry{supervision!degrees of|hyperpage}{ccclxxxiv}
+\indexentry{topological graph!unsupervised learning|hyperpage}{ccclxxxiv}
+\indexentry{classiﬁcation!clustering|hyperpage}{ccclxxxvi}
+\indexentry{latent Dirichlet allocation|hyperpage}{ccclxxxvi}
+\indexentry{machine learning!matrix|hyperpage}{ccclxxxvi}
+\indexentry{topic modeling|hyperpage}{ccclxxxvi}
+\indexentry{bootstrapping|hyperpage}{ccclxxxvii}
+\indexentry{sampling!semi-supervised learning|hyperpage}{ccclxxxvii}
+\indexentry{expected value!feature engineering|hyperpage}{ccclxxxviii}
+\indexentry{data cleaning|hyperpage}{ccclxxxix}
+\indexentry{data scientist!dimension reduction|hyperpage}{ccclxxxix}
+\indexentry{missing values|hyperpage}{ccclxxxix}
+\indexentry{normalization|hyperpage}{ccclxxxix}
+\indexentry{regularization|hyperpage}{ccclxxxix}
+\indexentry{weighted average!Z-score|hyperpage}{ccclxxxix}
+\indexentry{data scientist!deep learning|hyperpage}{cccxc}
+\indexentry{Goodhart, Charles!TensorFlow|hyperpage}{cccxc}
+\indexentry{monotonic!neural networks|hyperpage}{cccxc}
+\indexentry{monotonic!non-linearity|hyperpage}{cccxc}

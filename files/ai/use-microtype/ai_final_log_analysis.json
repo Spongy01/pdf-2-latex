@@ -1,0 +1,117 @@
+{
+  "log_file": "/Users/jrathi/Projects/pdf-2-latex/files/ai/use-microtype/ai_final.log",
+  "errors": [
+    {
+      "source": "TeX",
+      "description": "Too many unprocessed floats",
+      "count": 74,
+      "sources": [
+        "TeX"
+      ]
+    },
+    {
+      "source": "TeX",
+      "description": "This may be a LaTeX bug",
+      "count": 37,
+      "sources": [
+        "TeX"
+      ]
+    },
+    {
+      "source": "TeX",
+      "description": "Not in outer par mode",
+      "count": 4,
+      "sources": [
+        "TeX"
+      ]
+    },
+    {
+      "source": "TeX",
+      "description": "\\begin{center} on input line 4544 ended by \\end{figure}",
+      "count": 1,
+      "sources": [
+        "TeX"
+      ]
+    },
+    {
+      "source": "TeX",
+      "description": "There's no line here to end",
+      "count": 1,
+      "sources": [
+        "TeX"
+      ]
+    },
+    {
+      "source": "TeX",
+      "description": "\\begin{enumerate} on input line 3499 ended by \\end{tabular}",
+      "count": 1,
+      "sources": [
+        "TeX"
+      ]
+    },
+    {
+      "source": "TeX",
+      "description": "\\begin{center} on input line 8522 ended by \\end{figure}",
+      "count": 1,
+      "sources": [
+        "TeX"
+      ]
+    },
+    {
+      "source": "TeX",
+      "description": "\\begin{center} on input line 6645 ended by \\end{tabular}",
+      "count": 1,
+      "sources": [
+        "TeX"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "source": "LaTeX",
+      "description": "`h' float specifier changed to `ht'",
+      "count": 52,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "inputenc",
+      "description": "inputenc package ignored with utf8 based engines",
+      "count": 1,
+      "sources": [
+        "inputenc"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Float too large for page by 299",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "xeCJK",
+      "description": "Unknown CJK family `\\CJKttdefault' is being ignored",
+      "count": 1,
+      "sources": [
+        "xeCJK"
+      ]
+    }
+  ],
+  "summary": {
+    "total_errors": 120,
+    "total_warnings": 55,
+    "unique_errors": 8,
+    "unique_warnings": 4,
+    "compilation_successful": false
+  },
+  "compilation_info": {
+    "pages_compiled": 243,
+    "total_pages": 0,
+    "compilation_time": null,
+    "latex_version": null,
+    "output_file": "ai_final.xdv"
+  }
+}

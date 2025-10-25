@@ -1,0 +1,8 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+Latexmk: Nothing to do for '/Users/jrathi/Projects/pdf-2-latex/files/cybersec/use-microtype/cybersec_final.tex'.
+Latexmk: All targets (cybersec_final.xdv cybersec_final.pdf) are up-to-date
+Collected error summary (may duplicate other messages):
+  xelatex: gave an error in previous invocation of latexmk.
+

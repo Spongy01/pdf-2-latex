@@ -1,0 +1,407 @@
+\xpg@aux {}{english}
+\contentsline {section}{\numberline {0.1}Data Science Design}{2}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Steven S. Slaiena}{2}{section.0.2}%
+\contentsline {section}{\numberline {0.3}The Data Science Design Manual}{2}{section.0.3}%
+\contentsline {section}{\numberline {0.4}Preface}{3}{section.0.4}%
+\contentsline {section}{\numberline {0.5}To the Reader}{4}{section.0.5}%
+\contentsline {section}{\numberline {0.6}To the Instructor}{5}{section.0.6}%
+\contentsline {section}{\numberline {0.7}Dedication}{6}{section.0.7}%
+\contentsline {section}{\numberline {0.8}Acknowledgments}{7}{section.0.8}%
+\contentsline {section}{\numberline {0.9}Caveat}{8}{section.0.9}%
+\contentsline {section}{\numberline {0.10}Contents}{8}{section.0.10}%
+\contentsline {section}{\numberline {0.11}What is Data Science?}{15}{section.0.11}%
+\contentsline {subsection}{\numberline {0.11.1}Computer Science, Data Science, and Real Science}{15}{subsection.0.11.1}%
+\contentsline {subsection}{\numberline {0.11.2}Asking Interesting Questions from Data}{17}{subsection.0.11.2}%
+\contentsline {subsection}{\numberline {0.11.3}The Baseball Encyclopedia}{18}{subsection.0.11.3}%
+\contentsline {subsection}{\numberline {0.11.4}The Internet Movie Database (IMDb)}{21}{subsection.0.11.4}%
+\contentsline {subsection}{\numberline {0.11.5}Google Ngrams}{24}{subsection.0.11.5}%
+\contentsline {subsection}{\numberline {0.11.6}New York Taxi Records}{26}{subsection.0.11.6}%
+\contentsline {subsection}{\numberline {0.11.7}Properties of Data}{29}{subsection.0.11.7}%
+\contentsline {subsection}{\numberline {0.11.8}Structured vs. Unstructured Data}{30}{subsection.0.11.8}%
+\contentsline {subsection}{\numberline {0.11.9}Quantitative vs. Categorical Data}{30}{subsection.0.11.9}%
+\contentsline {subsection}{\numberline {0.11.10}Big Data vs. Little Data}{30}{subsection.0.11.10}%
+\contentsline {subsection}{\numberline {0.11.11}Classification and Regression}{32}{subsection.0.11.11}%
+\contentsline {subsection}{\numberline {0.11.12}Data Science Television: The Quant Shop}{33}{subsection.0.11.12}%
+\contentsline {subsection}{\numberline {0.11.13}Kaggle Challenges}{34}{subsection.0.11.13}%
+\contentsline {subsection}{\numberline {0.11.14}About the War Stories}{35}{subsection.0.11.14}%
+\contentsline {subsection}{\numberline {0.11.15}War Story: Answering the Right Question}{36}{subsection.0.11.15}%
+\contentsline {subsection}{\numberline {0.11.16}Chapter Notes}{38}{subsection.0.11.16}%
+\contentsline {section}{\numberline {0.12}Identifying Data Sets}{39}{section.0.12}%
+\contentsline {section}{\numberline {0.13}Asking Questions}{39}{section.0.13}%
+\contentsline {section}{\numberline {0.14}Implementation Projects}{40}{section.0.14}%
+\contentsline {section}{\numberline {0.15}Interview Questions}{40}{section.0.15}%
+\contentsline {section}{\numberline {0.16}Kaggle Challenges}{41}{section.0.16}%
+\contentsline {section}{\numberline {0.17}Mathematical Preliminaries}{41}{section.0.17}%
+\contentsline {subsection}{\numberline {0.17.1}Probability}{42}{subsection.0.17.1}%
+\contentsline {subsection}{\numberline {0.17.2}Probability vs. Statistics}{43}{subsection.0.17.2}%
+\contentsline {subsection}{\numberline {0.17.3}Compound Events and Independence}{45}{subsection.0.17.3}%
+\contentsline {subsection}{\numberline {0.17.4}Conditional Probability}{46}{subsection.0.17.4}%
+\contentsline {subsection}{\numberline {0.17.5}Probability Distributions}{47}{subsection.0.17.5}%
+\contentsline {subsection}{\numberline {0.17.6}Descriptive Statistics}{49}{subsection.0.17.6}%
+\contentsline {subsection}{\numberline {0.17.7}Centrality Measures}{50}{subsection.0.17.7}%
+\contentsline {subsection}{\numberline {0.17.8}Variability Measures}{52}{subsection.0.17.8}%
+\contentsline {subsection}{\numberline {0.17.9}Interpreting Variance}{53}{subsection.0.17.9}%
+\contentsline {subsection}{\numberline {0.17.10}Characterizing Distributions}{55}{subsection.0.17.10}%
+\contentsline {subsection}{\numberline {0.17.11}Correlation Analysis}{56}{subsection.0.17.11}%
+\contentsline {subsection}{\numberline {0.17.12}Correlation Coefficients: Pearson and Spearman Rank}{57}{subsection.0.17.12}%
+\contentsline {section}{\numberline {0.18}The Pearson Correlation Coefficient}{58}{section.0.18}%
+\contentsline {section}{\numberline {0.19}The Spearman Rank Correlation Coefficient}{58}{section.0.19}%
+\contentsline {subsection}{\numberline {0.19.1}The Power and Significance of Correlation}{60}{subsection.0.19.1}%
+\contentsline {subsection}{\numberline {0.19.2}Correlation Does Not Imply Causation!}{63}{subsection.0.19.2}%
+\contentsline {subsection}{\numberline {0.19.3}Detecting Periodicities by Autocorrelation}{64}{subsection.0.19.3}%
+\contentsline {subsection}{\numberline {0.19.4}Logarithms}{66}{subsection.0.19.4}%
+\contentsline {subsection}{\numberline {0.19.5}Logarithms and Multiplying Probabilities}{67}{subsection.0.19.5}%
+\contentsline {subsection}{\numberline {0.19.6}Logarithms and Ratios}{68}{subsection.0.19.6}%
+\contentsline {subsection}{\numberline {0.19.7}Logarithms and Normalizing Skewed Distributions}{69}{subsection.0.19.7}%
+\contentsline {subsection}{\numberline {0.19.8}War Story: Fitting Designer Genes}{70}{subsection.0.19.8}%
+\contentsline {subsection}{\numberline {0.19.9}Chapter Notes}{72}{subsection.0.19.9}%
+\contentsline {section}{\numberline {0.20}Probability}{73}{section.0.20}%
+\contentsline {section}{\numberline {0.21}Statistics}{74}{section.0.21}%
+\contentsline {section}{\numberline {0.22}Correlation Analysis}{74}{section.0.22}%
+\contentsline {section}{\numberline {0.23}Logarithms}{75}{section.0.23}%
+\contentsline {section}{\numberline {0.24}Implementation Projects}{75}{section.0.24}%
+\contentsline {section}{\numberline {0.25}Interview Questions}{75}{section.0.25}%
+\contentsline {section}{\numberline {0.26}Kaggle Challenges}{76}{section.0.26}%
+\contentsline {section}{\numberline {0.27}Data Munging}{77}{section.0.27}%
+\contentsline {subsection}{\numberline {0.27.1}Languages for Data Science}{77}{subsection.0.27.1}%
+\contentsline {subsection}{\numberline {0.27.2}The Importance of Notebook Environments}{79}{subsection.0.27.2}%
+\contentsline {subsection}{\numberline {0.27.3}Standard Data Formats}{81}{subsection.0.27.3}%
+\contentsline {subsection}{\numberline {0.27.4}Collecting Data}{84}{subsection.0.27.4}%
+\contentsline {subsection}{\numberline {0.27.5}Hunting}{84}{subsection.0.27.5}%
+\contentsline {section}{\numberline {0.28}Companies and Proprietary Data Sources}{84}{section.0.28}%
+\contentsline {section}{\numberline {0.29}Government Data Sources}{86}{section.0.29}%
+\contentsline {section}{\numberline {0.30}Academic Data Sets}{86}{section.0.30}%
+\contentsline {section}{\numberline {0.31}Sweat Equity}{87}{section.0.31}%
+\contentsline {subsection}{\numberline {0.31.1}Scraping}{88}{subsection.0.31.1}%
+\contentsline {subsection}{\numberline {0.31.2}Logging}{89}{subsection.0.31.2}%
+\contentsline {subsection}{\numberline {0.31.3}Cleaning Data}{90}{subsection.0.31.3}%
+\contentsline {subsection}{\numberline {0.31.4}Errors vs. Artifacts}{90}{subsection.0.31.4}%
+\contentsline {subsection}{\numberline {0.31.5}Data Compatibility}{93}{subsection.0.31.5}%
+\contentsline {section}{\numberline {0.32}Unit Conversions}{94}{section.0.32}%
+\contentsline {section}{\numberline {0.33}Numerical Representation Conversions}{95}{section.0.33}%
+\contentsline {section}{\numberline {0.34}Name Unification}{96}{section.0.34}%
+\contentsline {section}{\numberline {0.35}Time/Date Unification}{97}{section.0.35}%
+\contentsline {section}{\numberline {0.36}Financial Unification}{98}{section.0.36}%
+\contentsline {subsection}{\numberline {0.36.1}Dealing with Missing Values}{99}{subsection.0.36.1}%
+\contentsline {subsection}{\numberline {0.36.2}Outlier Detection}{101}{subsection.0.36.2}%
+\contentsline {subsection}{\numberline {0.36.3}War Story: Beating the Market}{102}{subsection.0.36.3}%
+\contentsline {subsection}{\numberline {0.36.4}Crowdsourcing}{104}{subsection.0.36.4}%
+\contentsline {subsection}{\numberline {0.36.5}The Penny Demo}{105}{subsection.0.36.5}%
+\contentsline {subsection}{\numberline {0.36.6}When is the Crowd Wise?}{106}{subsection.0.36.6}%
+\contentsline {subsection}{\numberline {0.36.7}Mechanisms for Aggregation}{107}{subsection.0.36.7}%
+\contentsline {subsection}{\numberline {0.36.8}Crowdsourcing Services}{108}{subsection.0.36.8}%
+\contentsline {subsection}{\numberline {0.36.9}Gamification}{112}{subsection.0.36.9}%
+\contentsline {subsection}{\numberline {0.36.10}Chapter Notes}{114}{subsection.0.36.10}%
+\contentsline {section}{\numberline {0.37}Data Munging}{115}{section.0.37}%
+\contentsline {section}{\numberline {0.38}Data Sources}{115}{section.0.38}%
+\contentsline {section}{\numberline {0.39}Implementation Projects}{116}{section.0.39}%
+\contentsline {section}{\numberline {0.40}Crowdsourcing}{116}{section.0.40}%
+\contentsline {section}{\numberline {0.41}Interview Questions}{117}{section.0.41}%
+\contentsline {section}{\numberline {0.42}Kaggle Challenges}{117}{section.0.42}%
+\contentsline {section}{\numberline {0.43}Scores and Rankings}{117}{section.0.43}%
+\contentsline {subsection}{\numberline {0.43.1}The Body Mass Index (BMI)}{119}{subsection.0.43.1}%
+\contentsline {subsection}{\numberline {0.43.2}Developing Scoring Systems}{121}{subsection.0.43.2}%
+\contentsline {subsection}{\numberline {0.43.3}Gold Standards and Proxies}{121}{subsection.0.43.3}%
+\contentsline {subsection}{\numberline {0.43.4}Scores vs. Rankings}{124}{subsection.0.43.4}%
+\contentsline {subsection}{\numberline {0.43.5}Recognizing Good Scoring Functions}{125}{subsection.0.43.5}%
+\contentsline {subsection}{\numberline {0.43.6}Z-scores and Normalization}{127}{subsection.0.43.6}%
+\contentsline {subsection}{\numberline {0.43.7}Advanced Ranking Techniques}{128}{subsection.0.43.7}%
+\contentsline {subsection}{\numberline {0.43.8}Elo Rankings}{129}{subsection.0.43.8}%
+\contentsline {section}{\numberline {0.44}The Logit Function}{131}{section.0.44}%
+\contentsline {subsection}{\numberline {0.44.1}Merging Rankings}{133}{subsection.0.44.1}%
+\contentsline {subsection}{\numberline {0.44.2}Digraph-based Rankings}{135}{subsection.0.44.2}%
+\contentsline {subsection}{\numberline {0.44.3}PageRank}{137}{subsection.0.44.3}%
+\contentsline {subsection}{\numberline {0.44.4}War Story: Clyde's Revenge}{137}{subsection.0.44.4}%
+\contentsline {section}{\numberline {0.45}Even crude mathematical models can have real predictive power.}{138}{section.0.45}%
+\contentsline {section}{\numberline {0.46}мাৰuant uses computers to predict football winners}{139}{section.0.46}%
+\contentsline {section}{\numberline {0.47}Predictions published}{141}{section.0.47}%
+\contentsline {subsection}{\numberline {0.47.1}Arrow's Impossibility Theorem}{143}{subsection.0.47.1}%
+\contentsline {subsection}{\numberline {0.47.2}War Story: Who's Bigger?}{144}{subsection.0.47.2}%
+\contentsline {subsection}{\numberline {0.47.3}Chapter Notes}{148}{subsection.0.47.3}%
+\contentsline {section}{\numberline {0.48}Scores and Rankings}{148}{section.0.48}%
+\contentsline {section}{\numberline {0.49}Implementation Projects}{150}{section.0.49}%
+\contentsline {section}{\numberline {0.50}Interview Questions}{150}{section.0.50}%
+\contentsline {section}{\numberline {0.51}Kaggle Challenges}{150}{section.0.51}%
+\contentsline {section}{\numberline {0.52}Statistical Analysis}{150}{section.0.52}%
+\contentsline {subsection}{\numberline {0.52.1}Statistical Distributions}{151}{subsection.0.52.1}%
+\contentsline {subsection}{\numberline {0.52.2}The Binomial Distribution}{152}{subsection.0.52.2}%
+\contentsline {subsection}{\numberline {0.52.3}The Normal Distribution}{155}{subsection.0.52.3}%
+\contentsline {section}{\numberline {0.53}What's Normal?}{156}{section.0.53}%
+\contentsline {subsection}{\numberline {0.53.1}Implications of the Normal Distribution}{158}{subsection.0.53.1}%
+\contentsline {subsection}{\numberline {0.53.2}Poisson Distribution}{159}{subsection.0.53.2}%
+\contentsline {subsection}{\numberline {0.53.3}Power Law Distributions}{162}{subsection.0.53.3}%
+\contentsline {subsection}{\numberline {0.53.4}Sampling from Distributions}{166}{subsection.0.53.4}%
+\contentsline {subsection}{\numberline {0.53.5}Random Sampling beyond One Dimension}{168}{subsection.0.53.5}%
+\contentsline {subsection}{\numberline {0.53.6}Statistical Significance}{169}{subsection.0.53.6}%
+\contentsline {subsection}{\numberline {0.53.7}The Significance of Significance}{170}{subsection.0.53.7}%
+\contentsline {subsection}{\numberline {0.53.8}The T-test: Comparing Population Means}{172}{subsection.0.53.8}%
+\contentsline {section}{\numberline {0.54}Why Does This Work?}{174}{section.0.54}%
+\contentsline {subsection}{\numberline {0.54.1}The Kolmogorov-Smirnov Test}{175}{subsection.0.54.1}%
+\contentsline {section}{\numberline {0.55}Normality Testing}{177}{section.0.55}%
+\contentsline {subsection}{\numberline {0.55.1}The Bonferroni Correction}{178}{subsection.0.55.1}%
+\contentsline {subsection}{\numberline {0.55.2}False Discovery Rate}{179}{subsection.0.55.2}%
+\contentsline {subsection}{\numberline {0.55.3}War Story: Discovering the Fountain of Youth?}{181}{subsection.0.55.3}%
+\contentsline {subsection}{\numberline {0.55.4}Permutation Tests and $P$-values}{183}{subsection.0.55.4}%
+\contentsline {subsection}{\numberline {0.55.5}Generating Random Permutations}{186}{subsection.0.55.5}%
+\contentsline {subsection}{\numberline {0.55.6}DiMaggio's Hitting Streak}{188}{subsection.0.55.6}%
+\contentsline {subsection}{\numberline {0.55.7}Bayesian Reasoning}{190}{subsection.0.55.7}%
+\contentsline {subsection}{\numberline {0.55.8}Chapter Notes}{191}{subsection.0.55.8}%
+\contentsline {subsection}{\numberline {0.55.9}Exercises}{192}{subsection.0.55.9}%
+\contentsline {section}{\numberline {0.56}Significance Testing}{193}{section.0.56}%
+\contentsline {section}{\numberline {0.57}Permutation Tests and P -values}{193}{section.0.57}%
+\contentsline {section}{\numberline {0.58}Implementation Projects}{194}{section.0.58}%
+\contentsline {section}{\numberline {0.59}Interview Questions}{194}{section.0.59}%
+\contentsline {section}{\numberline {0.60}Kaggle Challenges}{195}{section.0.60}%
+\contentsline {section}{\numberline {0.61}Visualizing Data}{195}{section.0.61}%
+\contentsline {subsection}{\numberline {0.61.1}Exploratory Data Analysis}{196}{subsection.0.61.1}%
+\contentsline {subsection}{\numberline {0.61.2}Confronting a New Data Set}{197}{subsection.0.61.2}%
+\contentsline {subsection}{\numberline {0.61.3}Summary Statistics and Anscombe's Quartet}{201}{subsection.0.61.3}%
+\contentsline {subsection}{\numberline {0.61.4}Visualization Tools}{202}{subsection.0.61.4}%
+\contentsline {subsection}{\numberline {0.61.5}Developing a Visualization Aesthetic}{203}{subsection.0.61.5}%
+\contentsline {subsection}{\numberline {0.61.6}Maximizing Data-Ink Ratio}{205}{subsection.0.61.6}%
+\contentsline {subsection}{\numberline {0.61.7}Minimizing the Lie Factor}{206}{subsection.0.61.7}%
+\contentsline {subsection}{\numberline {0.61.8}Minimizing Chartjunk}{208}{subsection.0.61.8}%
+\contentsline {subsection}{\numberline {0.61.9}Proper Scaling and Labeling}{210}{subsection.0.61.9}%
+\contentsline {subsection}{\numberline {0.61.10}Effective Use of Color and Shading}{211}{subsection.0.61.10}%
+\contentsline {subsection}{\numberline {0.61.11}The Power of Repetition}{212}{subsection.0.61.11}%
+\contentsline {subsection}{\numberline {0.61.12}Chart Types}{212}{subsection.0.61.12}%
+\contentsline {subsection}{\numberline {0.61.13}Tabular Data}{213}{subsection.0.61.13}%
+\contentsline {subsection}{\numberline {0.61.14}Dot and Line Plots}{218}{subsection.0.61.14}%
+\contentsline {subsection}{\numberline {0.61.15}Scatter Plots}{222}{subsection.0.61.15}%
+\contentsline {subsection}{\numberline {0.61.16}Bar Plots and Pie Charts}{224}{subsection.0.61.16}%
+\contentsline {section}{\numberline {0.62}Bad Pie Charts}{229}{section.0.62}%
+\contentsline {subsection}{\numberline {0.62.1}Histograms}{230}{subsection.0.62.1}%
+\contentsline {subsection}{\numberline {0.62.2}Data Maps}{234}{subsection.0.62.2}%
+\contentsline {subsection}{\numberline {0.62.3}Great Visualizations}{236}{subsection.0.62.3}%
+\contentsline {subsection}{\numberline {0.62.4}Marey's Train Schedule}{236}{subsection.0.62.4}%
+\contentsline {subsection}{\numberline {0.62.5}Snow's Cholera Map}{237}{subsection.0.62.5}%
+\contentsline {subsection}{\numberline {0.62.6}New York's Weather Year}{239}{subsection.0.62.6}%
+\contentsline {subsection}{\numberline {0.62.7}Reading Graphs}{240}{subsection.0.62.7}%
+\contentsline {subsection}{\numberline {0.62.8}The Obscured Distribution}{241}{subsection.0.62.8}%
+\contentsline {subsection}{\numberline {0.62.9}Overinterpreting Variance}{241}{subsection.0.62.9}%
+\contentsline {subsection}{\numberline {0.62.10}Interactive Visualization}{243}{subsection.0.62.10}%
+\contentsline {subsection}{\numberline {0.62.11}War Story: TextMapping the World}{245}{subsection.0.62.11}%
+\contentsline {subsection}{\numberline {0.62.12}Chapter Notes}{247}{subsection.0.62.12}%
+\contentsline {section}{\numberline {0.63}Exploratory Data Analysis}{247}{section.0.63}%
+\contentsline {section}{\numberline {0.64}Interpreting Visualizations}{248}{section.0.64}%
+\contentsline {section}{\numberline {0.65}Creating Visualizations}{248}{section.0.65}%
+\contentsline {section}{\numberline {0.66}Implementation Projects}{249}{section.0.66}%
+\contentsline {section}{\numberline {0.67}Interview Questions}{249}{section.0.67}%
+\contentsline {section}{\numberline {0.68}Kaggle Challenges}{249}{section.0.68}%
+\contentsline {section}{\numberline {0.69}Mathematical Models}{250}{section.0.69}%
+\contentsline {subsection}{\numberline {0.69.1}Philosophies of Modeling}{250}{subsection.0.69.1}%
+\contentsline {subsection}{\numberline {0.69.2}Occam's Razor}{250}{subsection.0.69.2}%
+\contentsline {subsection}{\numberline {0.69.3}Bias-Variance Trade-Offs}{251}{subsection.0.69.3}%
+\contentsline {subsection}{\numberline {0.69.4}What Would Nate Silver Do?}{252}{subsection.0.69.4}%
+\contentsline {subsection}{\numberline {0.69.5}A Taxonomy of Models}{255}{subsection.0.69.5}%
+\contentsline {subsection}{\numberline {0.69.6}Linear vs. Non-Linear Models}{255}{subsection.0.69.6}%
+\contentsline {subsection}{\numberline {0.69.7}Blackbox vs. Descriptive Models}{256}{subsection.0.69.7}%
+\contentsline {subsection}{\numberline {0.69.8}First-Principle vs. Data-Driven Models}{257}{subsection.0.69.8}%
+\contentsline {subsection}{\numberline {0.69.9}Stochastic vs. Deterministic Models}{258}{subsection.0.69.9}%
+\contentsline {subsection}{\numberline {0.69.10}Flat vs. Hierarchical Models}{259}{subsection.0.69.10}%
+\contentsline {subsection}{\numberline {0.69.11}Baseline Models}{261}{subsection.0.69.11}%
+\contentsline {subsection}{\numberline {0.69.12}Baseline Models for Classification}{261}{subsection.0.69.12}%
+\contentsline {subsection}{\numberline {0.69.13}Baseline Models for Value Prediction}{263}{subsection.0.69.13}%
+\contentsline {subsection}{\numberline {0.69.14}Evaluating Models}{263}{subsection.0.69.14}%
+\contentsline {subsection}{\numberline {0.69.15}Evaluating Classifiers}{265}{subsection.0.69.15}%
+\contentsline {section}{\numberline {0.70}Accuracy, Precision, Recall, and F-Score}{267}{section.0.70}%
+\contentsline {subsection}{\numberline {0.70.1}Receiver-Operator Characteristic (ROC) Curves}{272}{subsection.0.70.1}%
+\contentsline {subsection}{\numberline {0.70.2}Evaluating Multiclass Systems}{273}{subsection.0.70.2}%
+\contentsline {subsection}{\numberline {0.70.3}Evaluating Value Prediction Models}{276}{subsection.0.70.3}%
+\contentsline {section}{\numberline {0.71}Error Statistics}{276}{section.0.71}%
+\contentsline {subsection}{\numberline {0.71.1}Evaluation Environments}{279}{subsection.0.71.1}%
+\contentsline {subsection}{\numberline {0.71.2}Data Hygiene for Evaluation}{281}{subsection.0.71.2}%
+\contentsline {subsection}{\numberline {0.71.3}Amplifying Small Evaluation Sets}{282}{subsection.0.71.3}%
+\contentsline {subsection}{\numberline {0.71.4}War Story: 100\% Accuracy}{284}{subsection.0.71.4}%
+\contentsline {subsection}{\numberline {0.71.5}Simulation Models}{286}{subsection.0.71.5}%
+\contentsline {subsection}{\numberline {0.71.6}War Story: Calculated Bets}{287}{subsection.0.71.6}%
+\contentsline {subsection}{\numberline {0.71.7}Chapter Notes}{291}{subsection.0.71.7}%
+\contentsline {section}{\numberline {0.72}Properties of Models}{291}{section.0.72}%
+\contentsline {section}{\numberline {0.73}Evaluation Environments}{292}{section.0.73}%
+\contentsline {section}{\numberline {0.74}Implementation Projects}{293}{section.0.74}%
+\contentsline {section}{\numberline {0.75}Interview Questions}{294}{section.0.75}%
+\contentsline {section}{\numberline {0.76}Kaggle Challenges}{294}{section.0.76}%
+\contentsline {section}{\numberline {0.77}Linear Algebra}{294}{section.0.77}%
+\contentsline {subsection}{\numberline {0.77.1}The Power of Linear Algebra}{295}{subsection.0.77.1}%
+\contentsline {subsection}{\numberline {0.77.2}Interpreting Linear Algebraic Formulae}{296}{subsection.0.77.2}%
+\contentsline {subsection}{\numberline {0.77.3}Geometry and Vectors}{298}{subsection.0.77.3}%
+\contentsline {subsection}{\numberline {0.77.4}Visualizing Matrix Operations}{300}{subsection.0.77.4}%
+\contentsline {subsection}{\numberline {0.77.5}Matrix Addition}{301}{subsection.0.77.5}%
+\contentsline {subsection}{\numberline {0.77.6}Matrix Multiplication}{301}{subsection.0.77.6}%
+\contentsline {subsection}{\numberline {0.77.7}Applications of Matrix Multiplication}{303}{subsection.0.77.7}%
+\contentsline {section}{\numberline {0.78}Covariance Matrices}{304}{section.0.78}%
+\contentsline {section}{\numberline {0.79}Matrix Multiplication and Paths}{305}{section.0.79}%
+\contentsline {section}{\numberline {0.80}Matrix Multiplication and Permutations}{306}{section.0.80}%
+\contentsline {section}{\numberline {0.81}Rotating Points in Space}{307}{section.0.81}%
+\contentsline {subsection}{\numberline {0.81.1}Identity Matrices and Inversion}{308}{subsection.0.81.1}%
+\contentsline {subsection}{\numberline {0.81.2}Matrix Inversion and Linear Systems}{310}{subsection.0.81.2}%
+\contentsline {subsection}{\numberline {0.81.3}Matrix Rank}{311}{subsection.0.81.3}%
+\contentsline {subsection}{\numberline {0.81.4}Factoring Matrices}{312}{subsection.0.81.4}%
+\contentsline {subsection}{\numberline {0.81.5}Why Factor Feature Matrices?}{313}{subsection.0.81.5}%
+\contentsline {subsection}{\numberline {0.81.6}LU Decomposition and Determinants}{314}{subsection.0.81.6}%
+\contentsline {subsection}{\numberline {0.81.7}Eigenvalues and Eigenvectors}{315}{subsection.0.81.7}%
+\contentsline {subsection}{\numberline {0.81.8}Properties of Eigenvalues}{316}{subsection.0.81.8}%
+\contentsline {subsection}{\numberline {0.81.9}Computing Eigenvalues}{316}{subsection.0.81.9}%
+\contentsline {subsection}{\numberline {0.81.10}Eigenvalue Decomposition}{317}{subsection.0.81.10}%
+\contentsline {subsection}{\numberline {0.81.11}Singular Value Decomposition}{319}{subsection.0.81.11}%
+\contentsline {subsection}{\numberline {0.81.12}Principal Components Analysis}{321}{subsection.0.81.12}%
+\contentsline {subsection}{\numberline {0.81.13}War Story: The Human Factors}{323}{subsection.0.81.13}%
+\contentsline {subsection}{\numberline {0.81.14}Chapter Notes}{325}{subsection.0.81.14}%
+\contentsline {section}{\numberline {0.82}Basic Linear Algebra}{325}{section.0.82}%
+\contentsline {section}{\numberline {0.83}Eigenvalues and Eigenvectors}{325}{section.0.83}%
+\contentsline {section}{\numberline {0.84}Implementation Projects}{326}{section.0.84}%
+\contentsline {section}{\numberline {0.85}Interview Questions}{326}{section.0.85}%
+\contentsline {section}{\numberline {0.86}Kaggle Challenges}{326}{section.0.86}%
+\contentsline {section}{\numberline {0.87}Linear and Logistic Regression}{327}{section.0.87}%
+\contentsline {subsection}{\numberline {0.87.1}Linear Regression}{327}{subsection.0.87.1}%
+\contentsline {subsection}{\numberline {0.87.2}Linear Regression and Duality}{328}{subsection.0.87.2}%
+\contentsline {subsection}{\numberline {0.87.3}Error in Linear Regression}{329}{subsection.0.87.3}%
+\contentsline {subsection}{\numberline {0.87.4}Finding the Optimal Fit}{331}{subsection.0.87.4}%
+\contentsline {subsection}{\numberline {0.87.5}Better Regression Models}{333}{subsection.0.87.5}%
+\contentsline {subsection}{\numberline {0.87.6}Removing Outliers}{333}{subsection.0.87.6}%
+\contentsline {subsection}{\numberline {0.87.7}Fitting Non-Linear Functions}{333}{subsection.0.87.7}%
+\contentsline {subsection}{\numberline {0.87.8}Feature and Target Scaling}{334}{subsection.0.87.8}%
+\contentsline {section}{\numberline {0.88}Feature Scaling: Z-Scores}{336}{section.0.88}%
+\contentsline {section}{\numberline {0.89}Sublinear Feature Scaling}{337}{section.0.89}%
+\contentsline {section}{\numberline {0.90}Sublinear Target Scaling}{337}{section.0.90}%
+\contentsline {subsection}{\numberline {0.90.1}Dealing with Highly-Correlated Features}{338}{subsection.0.90.1}%
+\contentsline {subsection}{\numberline {0.90.2}War Story: Taxi Deriver}{339}{subsection.0.90.2}%
+\contentsline {subsection}{\numberline {0.90.3}Regression as Parameter Fitting}{340}{subsection.0.90.3}%
+\contentsline {subsection}{\numberline {0.90.4}Convex Parameter Spaces}{341}{subsection.0.90.4}%
+\contentsline {subsection}{\numberline {0.90.5}Gradient Descent Search}{343}{subsection.0.90.5}%
+\contentsline {section}{\numberline {0.91}Gradient descent search in two dimensions}{344}{section.0.91}%
+\contentsline {subsection}{\numberline {0.91.1}What is the Right Learning Rate?}{345}{subsection.0.91.1}%
+\contentsline {subsection}{\numberline {0.91.2}Stochastic Gradient Descent}{348}{subsection.0.91.2}%
+\contentsline {subsection}{\numberline {0.91.3}Simplifying Models through Regularization}{348}{subsection.0.91.3}%
+\contentsline {subsection}{\numberline {0.91.4}Ridge Regression}{349}{subsection.0.91.4}%
+\contentsline {subsection}{\numberline {0.91.5}LASSO Regression}{350}{subsection.0.91.5}%
+\contentsline {subsection}{\numberline {0.91.6}Trade-Offs between Fit and Complexity}{351}{subsection.0.91.6}%
+\contentsline {subsection}{\numberline {0.91.7}Classification and Logistic Regression}{352}{subsection.0.91.7}%
+\contentsline {subsection}{\numberline {0.91.8}Regression for Classification}{352}{subsection.0.91.8}%
+\contentsline {subsection}{\numberline {0.91.9}Decision Boundaries}{354}{subsection.0.91.9}%
+\contentsline {subsection}{\numberline {0.91.10}Logistic Regression}{356}{subsection.0.91.10}%
+\contentsline {subsection}{\numberline {0.91.11}Issues in Logistic Classification}{359}{subsection.0.91.11}%
+\contentsline {subsection}{\numberline {0.91.12}Balanced Training Classes}{359}{subsection.0.91.12}%
+\contentsline {subsection}{\numberline {0.91.13}Multi-Class Classification}{361}{subsection.0.91.13}%
+\contentsline {subsection}{\numberline {0.91.14}Hierarchical Classification}{363}{subsection.0.91.14}%
+\contentsline {subsection}{\numberline {0.91.15}Partition Functions and Multinomial Regression}{364}{subsection.0.91.15}%
+\contentsline {subsection}{\numberline {0.91.16}Chapter Notes}{365}{subsection.0.91.16}%
+\contentsline {section}{\numberline {0.92}Linear Regression}{365}{section.0.92}%
+\contentsline {section}{\numberline {0.93}Experiments with Linear Regression}{365}{section.0.93}%
+\contentsline {section}{\numberline {0.94}Implementation Projects}{366}{section.0.94}%
+\contentsline {section}{\numberline {0.95}Interview Questions}{366}{section.0.95}%
+\contentsline {section}{\numberline {0.96}Kaggle Challenges}{367}{section.0.96}%
+\contentsline {section}{\numberline {0.97}Distance and Network Methods}{367}{section.0.97}%
+\contentsline {subsection}{\numberline {0.97.1}Measuring Distances}{367}{subsection.0.97.1}%
+\contentsline {subsection}{\numberline {0.97.2}Distance Metrics}{368}{subsection.0.97.2}%
+\contentsline {subsection}{\numberline {0.97.3}The $L_{k}$ Distance Metric}{368}{subsection.0.97.3}%
+\contentsline {subsection}{\numberline {0.97.4}Working in Higher Dimensions}{372}{subsection.0.97.4}%
+\contentsline {subsection}{\numberline {0.97.5}Dimensional Egalitarianism}{373}{subsection.0.97.5}%
+\contentsline {subsection}{\numberline {0.97.6}Points vs. Vectors}{374}{subsection.0.97.6}%
+\contentsline {subsection}{\numberline {0.97.7}Distances between Probability Distributions}{375}{subsection.0.97.7}%
+\contentsline {subsection}{\numberline {0.97.8}Nearest Neighbor Classification}{376}{subsection.0.97.8}%
+\contentsline {subsection}{\numberline {0.97.9}Seeking Good Analogies}{378}{subsection.0.97.9}%
+\contentsline {subsection}{\numberline {0.97.10}$k$-Nearest Neighbors}{379}{subsection.0.97.10}%
+\contentsline {subsection}{\numberline {0.97.11}Finding Nearest Neighbors}{381}{subsection.0.97.11}%
+\contentsline {subsection}{\numberline {0.97.12}Locality Sensitive Hashing}{383}{subsection.0.97.12}%
+\contentsline {subsection}{\numberline {0.97.13}Graphs, Networks, and Distances}{385}{subsection.0.97.13}%
+\contentsline {subsection}{\numberline {0.97.14}Weighted Graphs and Induced Networks}{386}{subsection.0.97.14}%
+\contentsline {subsection}{\numberline {0.97.15}Talking About Graphs}{388}{subsection.0.97.15}%
+\contentsline {subsection}{\numberline {0.97.16}Graph Theory}{389}{subsection.0.97.16}%
+\contentsline {subsection}{\numberline {0.97.17}PageRank}{391}{subsection.0.97.17}%
+\contentsline {subsection}{\numberline {0.97.18}Clustering}{394}{subsection.0.97.18}%
+\contentsline {subsection}{\numberline {0.97.19}$k$-means Clustering}{398}{subsection.0.97.19}%
+\contentsline {section}{\numberline {0.98}$K$-means clustering}{398}{section.0.98}%
+\contentsline {section}{\numberline {0.99}Centers or Centroids?}{399}{section.0.99}%
+\contentsline {section}{\numberline {0.100}How Many Clusters?}{400}{section.0.100}%
+\contentsline {section}{\numberline {0.101}Expectation Maximization}{404}{section.0.101}%
+\contentsline {subsection}{\numberline {0.101.1}Agglomerative Clustering}{404}{subsection.0.101.1}%
+\contentsline {section}{\numberline {0.102}Using Agglomerative Trees}{405}{section.0.102}%
+\contentsline {section}{\numberline {0.103}Building Agglomerative Cluster Trees}{407}{section.0.103}%
+\contentsline {subsection}{\numberline {0.103.1}Comparing Clusterings}{409}{subsection.0.103.1}%
+\contentsline {subsection}{\numberline {0.103.2}Similarity Graphs and Cut-Based Clustering}{410}{subsection.0.103.2}%
+\contentsline {section}{\numberline {0.104}Cuts in Graphs}{411}{section.0.104}%
+\contentsline {subsection}{\numberline {0.104.1}War Story: Cluster Bombing}{413}{subsection.0.104.1}%
+\contentsline {subsection}{\numberline {0.104.2}Chapter Notes}{414}{subsection.0.104.2}%
+\contentsline {section}{\numberline {0.105}Distance Metrics}{414}{section.0.105}%
+\contentsline {section}{\numberline {0.106}Nearest Neighbor Classification}{415}{section.0.106}%
+\contentsline {section}{\numberline {0.107}Networks}{415}{section.0.107}%
+\contentsline {section}{\numberline {0.108}Clustering}{416}{section.0.108}%
+\contentsline {section}{\numberline {0.109}Implementation Projects}{417}{section.0.109}%
+\contentsline {section}{\numberline {0.110}Interview Questions}{417}{section.0.110}%
+\contentsline {section}{\numberline {0.111}Kaggle Challenges}{417}{section.0.111}%
+\contentsline {section}{\numberline {0.112}Machine Learning}{418}{section.0.112}%
+\contentsline {subsection}{\numberline {0.112.1}Naive Bayes}{420}{subsection.0.112.1}%
+\contentsline {subsection}{\numberline {0.112.2}Formulation}{421}{subsection.0.112.2}%
+\contentsline {subsection}{\numberline {0.112.3}Dealing with Zero Counts (Discounting)}{423}{subsection.0.112.3}%
+\contentsline {subsection}{\numberline {0.112.4}Decision Tree Classifiers}{424}{subsection.0.112.4}%
+\contentsline {subsection}{\numberline {0.112.5}Constructing Decision Trees}{427}{subsection.0.112.5}%
+\contentsline {subsection}{\numberline {0.112.6}Realizing Exclusive Or}{429}{subsection.0.112.6}%
+\contentsline {subsection}{\numberline {0.112.7}Ensembles of Decision Trees}{430}{subsection.0.112.7}%
+\contentsline {subsection}{\numberline {0.112.8}Boosting and Ensemble Learning}{430}{subsection.0.112.8}%
+\contentsline {subsection}{\numberline {0.112.9}Voting with Classifiers}{430}{subsection.0.112.9}%
+\contentsline {subsection}{\numberline {0.112.10}Boosting Algorithms}{432}{subsection.0.112.10}%
+\contentsline {section}{\numberline {0.113}AdaBoost}{432}{section.0.113}%
+\contentsline {subsection}{\numberline {0.113.1}Support Vector Machines}{434}{subsection.0.113.1}%
+\contentsline {subsection}{\numberline {0.113.2}Linear SVMs}{437}{subsection.0.113.2}%
+\contentsline {subsection}{\numberline {0.113.3}Non-linear SVMs}{438}{subsection.0.113.3}%
+\contentsline {subsection}{\numberline {0.113.4}Kernels}{440}{subsection.0.113.4}%
+\contentsline {subsection}{\numberline {0.113.5}Degrees of Supervision}{441}{subsection.0.113.5}%
+\contentsline {subsection}{\numberline {0.113.6}Supervised Learning}{441}{subsection.0.113.6}%
+\contentsline {subsection}{\numberline {0.113.7}Unsupervised Learning}{441}{subsection.0.113.7}%
+\contentsline {section}{\numberline {0.114}Topic Modeling}{442}{section.0.114}%
+\contentsline {subsection}{\numberline {0.114.1}Semi-supervised Learning}{443}{subsection.0.114.1}%
+\contentsline {subsection}{\numberline {0.114.2}Feature Engineering}{444}{subsection.0.114.2}%
+\contentsline {subsection}{\numberline {0.114.3}Deep Learning}{446}{subsection.0.114.3}%
+\contentsline {subsection}{\numberline {0.114.4}Networks and Depth}{447}{subsection.0.114.4}%
+\contentsline {section}{\numberline {0.115}Network Depth}{448}{section.0.115}%
+\contentsline {section}{\numberline {0.116}Non-linearity}{449}{section.0.116}%
+\contentsline {subsection}{\numberline {0.116.1}Backpropagation}{452}{subsection.0.116.1}%
+\contentsline {subsection}{\numberline {0.116.2}Word and Graph Embeddings}{453}{subsection.0.116.2}%
+\contentsline {section}{\numberline {0.117}Graph Embeddings}{454}{section.0.117}%
+\contentsline {subsection}{\numberline {0.117.1}War Story: The Name Game}{455}{subsection.0.117.1}%
+\contentsline {subsection}{\numberline {0.117.2}Chapter Notes}{457}{subsection.0.117.2}%
+\contentsline {section}{\numberline {0.118}Classification}{457}{section.0.118}%
+\contentsline {section}{\numberline {0.119}Decision Trees}{459}{section.0.119}%
+\contentsline {section}{\numberline {0.120}Support Vector Machines}{459}{section.0.120}%
+\contentsline {section}{\numberline {0.121}Neural Networks}{459}{section.0.121}%
+\contentsline {section}{\numberline {0.122}Implementation Projects}{460}{section.0.122}%
+\contentsline {section}{\numberline {0.123}Interview Questions}{460}{section.0.123}%
+\contentsline {section}{\numberline {0.124}Kaggle Challenges}{460}{section.0.124}%
+\contentsline {section}{\numberline {0.125}Big Data: Achieving Scale}{460}{section.0.125}%
+\contentsline {subsection}{\numberline {0.125.1}What is Big Data?}{461}{subsection.0.125.1}%
+\contentsline {subsection}{\numberline {0.125.2}Big Data as Bad Data}{462}{subsection.0.125.2}%
+\contentsline {subsection}{\numberline {0.125.3}The Three Vs}{463}{subsection.0.125.3}%
+\contentsline {subsection}{\numberline {0.125.4}War Story: Infrastructure Matters}{464}{subsection.0.125.4}%
+\contentsline {subsection}{\numberline {0.125.5}Algorithmics for Big Data}{466}{subsection.0.125.5}%
+\contentsline {subsection}{\numberline {0.125.6}Big Oh Analysis}{466}{subsection.0.125.6}%
+\contentsline {subsection}{\numberline {0.125.7}Hashing}{468}{subsection.0.125.7}%
+\contentsline {subsection}{\numberline {0.125.8}Exploiting the Storage Hierarchy}{470}{subsection.0.125.8}%
+\contentsline {subsection}{\numberline {0.125.9}Streaming and Single-Pass Algorithms}{471}{subsection.0.125.9}%
+\contentsline {subsection}{\numberline {0.125.10}Filtering and Sampling}{472}{subsection.0.125.10}%
+\contentsline {subsection}{\numberline {0.125.11}Deterministic Sampling Algorithms}{473}{subsection.0.125.11}%
+\contentsline {subsection}{\numberline {0.125.12}Randomized and Stream Sampling}{474}{subsection.0.125.12}%
+\contentsline {subsection}{\numberline {0.125.13}Parallelism}{475}{subsection.0.125.13}%
+\contentsline {subsection}{\numberline {0.125.14}One, Two, Many}{476}{subsection.0.125.14}%
+\contentsline {subsection}{\numberline {0.125.15}Data Parallelism}{477}{subsection.0.125.15}%
+\contentsline {subsection}{\numberline {0.125.16}Grid Search}{478}{subsection.0.125.16}%
+\contentsline {subsection}{\numberline {0.125.17}Cloud Computing Services}{478}{subsection.0.125.17}%
+\contentsline {subsection}{\numberline {0.125.18}MapReduce}{479}{subsection.0.125.18}%
+\contentsline {subsection}{\numberline {0.125.19}Map-Reduce Programming}{481}{subsection.0.125.19}%
+\contentsline {subsection}{\numberline {0.125.20}MapReduce under the Hood}{483}{subsection.0.125.20}%
+\contentsline {section}{\numberline {0.126}Distributed File Systems}{483}{section.0.126}%
+\contentsline {section}{\numberline {0.127}MapReduce Runtime System}{484}{section.0.127}%
+\contentsline {section}{\numberline {0.128}Layers upon Layers}{484}{section.0.128}%
+\contentsline {subsection}{\numberline {0.128.1}Societal and Ethical Implications}{485}{subsection.0.128.1}%
+\contentsline {subsection}{\numberline {0.128.2}Chapter Notes}{488}{subsection.0.128.2}%
+\contentsline {section}{\numberline {0.129}Parallel and Distributed Processing}{488}{section.0.129}%
+\contentsline {section}{\numberline {0.130}Ethics}{489}{section.0.130}%
+\contentsline {section}{\numberline {0.131}Implementation Projects}{489}{section.0.131}%
+\contentsline {section}{\numberline {0.132}Interview Questions}{489}{section.0.132}%
+\contentsline {section}{\numberline {0.133}Kaggle Challenges}{490}{section.0.133}%
+\contentsline {section}{\numberline {0.134}Coda}{490}{section.0.134}%
+\contentsline {subsection}{\numberline {0.134.1}Get a Job!}{490}{subsection.0.134.1}%
+\contentsline {subsection}{\numberline {0.134.2}Go to Graduate School!}{491}{subsection.0.134.2}%
+\contentsline {subsection}{\numberline {0.134.3}Professional Consulting Services}{492}{subsection.0.134.3}%
+\contentsline {section}{\numberline {0.135}Bibliography}{492}{section.0.135}%
+\contentsline {section}{\numberline {0.136}Index}{498}{section.0.136}%

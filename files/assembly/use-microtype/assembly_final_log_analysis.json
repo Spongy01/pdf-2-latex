@@ -1,0 +1,101 @@
+{
+  "log_file": "/Users/jrathi/Projects/pdf-2-latex/files/assembly/use-microtype/assembly_final.log",
+  "errors": [
+    {
+      "source": "LaTeX",
+      "description": "There's no line here to end",
+      "count": 9,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "soul",
+      "description": "Reconstruction failed",
+      "count": 2,
+      "sources": [
+        "soul"
+      ]
+    },
+    {
+      "source": "microtype",
+      "description": "Font expansion does not work with xetex",
+      "count": 1,
+      "sources": [
+        "microtype"
+      ]
+    },
+    {
+      "source": "microtype",
+      "description": "The spacing feature only works with pdftex 1",
+      "count": 1,
+      "sources": [
+        "microtype"
+      ]
+    },
+    {
+      "source": "microtype",
+      "description": "The kerning feature only works with pdftex 1",
+      "count": 1,
+      "sources": [
+        "microtype"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "source": "LaTeX",
+      "description": "`h' float specifier changed to `ht'",
+      "count": 49,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Command \\textbackslash invalid in math mode on input line 10828",
+      "count": 2,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "inputenc",
+      "description": "inputenc package ignored with utf8 based engines",
+      "count": 1,
+      "sources": [
+        "inputenc"
+      ]
+    },
+    {
+      "source": "microtype",
+      "description": "Unable to apply patch `footnote' on input line 95",
+      "count": 1,
+      "sources": [
+        "microtype"
+      ]
+    },
+    {
+      "source": "xeCJK",
+      "description": "Unknown CJK family `\\CJKttdefault' is being ignored",
+      "count": 1,
+      "sources": [
+        "xeCJK"
+      ]
+    }
+  ],
+  "summary": {
+    "total_errors": 14,
+    "total_warnings": 54,
+    "unique_errors": 5,
+    "unique_warnings": 5,
+    "compilation_successful": false
+  },
+  "compilation_info": {
+    "pages_compiled": 334,
+    "total_pages": 0,
+    "compilation_time": null,
+    "latex_version": null,
+    "output_file": "assembly_final.xdv"
+  }
+}

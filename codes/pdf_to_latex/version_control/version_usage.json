@@ -173,5 +173,55 @@
     "book_name": "data-science",
     "version": "manual_images",
     "last_used": "2025-10-24T23:24:57.134103"
+  },
+  "ai___use-microtype": {
+    "book_name": "ai",
+    "version": "use-microtype",
+    "last_used": "2025-10-25T12:41:08.605251"
+  },
+  "data-science___use-microtype": {
+    "book_name": "data-science",
+    "version": "use-microtype",
+    "last_used": "2025-10-25T12:53:56.806533"
+  },
+  "assembly___use-microtype": {
+    "book_name": "assembly",
+    "version": "use-microtype",
+    "last_used": "2025-10-25T12:41:02.310412"
+  },
+  "cybersec___use-microtype": {
+    "book_name": "cybersec",
+    "version": "use-microtype",
+    "last_used": "2025-10-25T12:40:49.922489"
+  },
+  "algorithms___use-microtype": {
+    "book_name": "algorithms",
+    "version": "use-microtype",
+    "last_used": "2025-10-25T12:40:45.024642"
+  },
+  "data-science___nesting-depth": {
+    "book_name": "data-science",
+    "version": "nesting-depth",
+    "last_used": "2025-10-25T16:18:24.913668"
+  },
+  "ai___nesting-depth": {
+    "book_name": "ai",
+    "version": "nesting-depth",
+    "last_used": "2025-10-25T15:55:39.741516"
+  },
+  "cybersec___nesting-depth": {
+    "book_name": "cybersec",
+    "version": "nesting-depth",
+    "last_used": "2025-10-25T15:56:07.619508"
+  },
+  "assembly___nesting-depth": {
+    "book_name": "assembly",
+    "version": "nesting-depth",
+    "last_used": "2025-10-25T15:56:11.300631"
+  },
+  "algorithms___nesting-depth": {
+    "book_name": "algorithms",
+    "version": "nesting-depth",
+    "last_used": "2025-10-25T15:58:58.348391"
   }
 }

@@ -143,7 +143,7 @@ def get_pages_data(start_idx, end_idx, doc):
     return text_data
 
 
-def generate_response(data, command, prev_response="", temperature=1):
+def generate_response(data, command, prev_response="", temperature=0, use_cache=True):
     """Generate response from OpenAI API with simple caching."""
     first_page_prompt = f"{data} \n {command}"
     default_page_prompt = f"{data} \n {command}"
@@ -152,19 +152,24 @@ def generate_response(data, command, prev_response="", temperature=1):
     # Generate cache key
     cache_key = get_cache_key(data, command, temperature)
     
-    # Load cache (this will initialize global cache if needed)
-    cache = load_gpt_cache()
-    
-    # Check if response is cached
-    if cache_key in cache:
-        print(f"🎯 Cache HIT - Using cached response for GPT processing")
-        return cache[cache_key]
+    # Check cache only if enabled
+    if use_cache:
+        # Load cache (this will initialize global cache if needed)
+        cache = load_gpt_cache()
+        
+        # Check if response is cached
+        if cache_key in cache:
+            print(f"🎯 Cache HIT - Using cached response for GPT processing")
+            return cache[cache_key]
 
     # Make API call
-    print(f"🚀 Cache MISS - Making API call to OpenAI...")
+    if use_cache:
+        print(f"🚀 Cache MISS - Making API call to OpenAI...")
+    else:
+        print(f"🚀 Cache DISABLED - Making API call to OpenAI...")
     try:
         response = client.chat.completions.create(
-            model="gpt-5",
+            model="gpt-4.1",
             messages=[
                 {
                     "role": "system",
@@ -176,9 +181,12 @@ def generate_response(data, command, prev_response="", temperature=1):
         )
         response_content = response.choices[0].message.content
         
-        # Add to global cache (don't save yet)
-        add_to_cache(cache_key, response_content)
-        print(f"💾 Added response to cache (will save at end)")
+        # Add to global cache only if cache is enabled
+        if use_cache:
+            add_to_cache(cache_key, response_content)
+            print(f"💾 Added response to cache (will save at end)")
+        else:
+            print(f"💾 Cache disabled - response not cached")
         
         return response_content
     except Exception as e:
@@ -205,6 +213,7 @@ def process_part(
     tex_file_contents,
     first_page_command,
     next_pages_prompt,
+    use_cache=True,
 ):
     """Process a part of the book and generate LaTeX for it."""
     text_data = get_pages_data(start_idx, end_idx, doc)
@@ -227,7 +236,7 @@ def process_part(
     
     # Use generate_response directly - it handles caching internally
     try:
-        response = generate_response(combined_data, command, "", temperature=1)
+        response = generate_response(combined_data, command, "", temperature=0, use_cache=use_cache)
         response = remove_latex_and_ticks(response)
         print(f"✅ Processed part {index} (page {page})")
     except Exception as e:
@@ -244,6 +253,7 @@ def format_with_gpt(
     batch_size=5,
     max_parts=None,
     use_parallel=True,
+    use_cache=True,
 ):
     """Main function to process the book and convert it to properly formatted LaTeX."""
     # Set default paths if not provided
@@ -251,7 +261,11 @@ def format_with_gpt(
     
     # Initialize cache at the beginning
     print("🔄 Initializing GPT cache...")
-    load_gpt_cache()
+    if use_cache:
+        load_gpt_cache()
+        print("✅ Cache enabled - will use existing cache entries")
+    else:
+        print("⚠️ Cache disabled - will make fresh API calls")
     
     # Load environment variables for API key
     load_dotenv()
@@ -440,6 +454,7 @@ Each JSON span has:
                         tex_file_contents,
                         first_page_command,
                         next_pages_prompt,
+                        use_cache,
                     )
                     futures_list.append(future)
 
@@ -509,7 +524,7 @@ Each JSON span has:
                 combined_data += f"\n\nThis is the {counter} part of the book, do not close the LaTeX document with end document."
 
             command = first_page_command if first_part == 1 else next_pages_prompt
-            response = generate_response(combined_data, command, "")
+            response = generate_response(combined_data, command, "", use_cache=use_cache)
             response = remove_latex_and_ticks(response)
 
             # Write to output file
@@ -525,9 +540,12 @@ Each JSON span has:
 
     print(f"Conversion complete! Output file saved at: {output_tex_file}")
     
-    # Save cache at the end
-    print("💾 Saving GPT cache...")
-    save_gpt_cache()
+    # Save cache at the end only if cache is enabled
+    if use_cache:
+        print("💾 Saving GPT cache...")
+        save_gpt_cache()
+    else:
+        print("💾 Cache disabled - not saving cache")
     
     return output_tex_file
 
