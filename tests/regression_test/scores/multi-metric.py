@@ -194,7 +194,7 @@ def calculate_score(input_file_path: str, output_file_path: str) -> float:
     num_included_graphics = len(re.findall(r'\\includegraphics', output_content))
     print(f"Included Graphics in Output: {num_included_graphics}")
     num_figures_out = len(re.findall(r'\\begin\{figure\}', output_content))
-    num_tables_out = len(re.findall(r'\\begin\{table\}', output_content))
+    num_tables_out = len(re.findall(r'\\begin\{table\}', output_content)) + len(re.findall(r'\\begin\{tabular\}', output_content))
     print("Output - ", end="")
     print(f"Figures: {num_figures_out}, Tables: {num_tables_out}")  
 
@@ -287,8 +287,16 @@ def calculate_score(input_file_path: str, output_file_path: str) -> float:
     except Exception:
         pct = 0.01
     result["Percent Compiled"] = pct
-    result["Latex Errors"] = num_errors * 100/pct if pct > 0 else num_errors * 100
-    result["Latex Warnings"] = num_warnings * 100/pct if pct > 0 else num_warnings * 100
+    result["Latex Errors"] = round(num_errors * 100/pct, 2) if pct > 0 else num_errors * 100
+    result["Latex Warnings"] = round(num_warnings * 100/pct, 2) if pct > 0 else num_warnings * 100
+    result["Bibtex Extracted %"] = round((num_bibtex_json / num_bibtex_mtd * 100), 2) if num_bibtex_mtd > 0 else "N/A"
+    result["Bibtex Cited %"] = round((num_cites / num_bibtex_json * 100), 2) if num_bibtex_json > 0 else 0
+    result["Chapters %"] = round((num_chapters_out / num_chapters * 100), 2) if num_chapters > 0 else "N/A"
+    result["Sections %"] = round((num_sections_out / num_sections * 100), 2) if num_sections > 0 else "N/A"
+    result["Subsections %"] = round((num_subsections_out / num_subsections * 100), 2) if num_subsections > 0 else "N/A"       
+    result["Figures %"] = round(((num_figures_out + num_included_graphics) / num_figures * 100), 2) if num_figures > 0 else "N/A"
+    result["Tables %"] = round((num_tables_out / num_tables * 100), 2) if num_tables > 0 else "N/A"
+    result["Index Entries %"] = round((num_index_entries_out / num_index_entries * 100), 2) if num_index_entries > 0 else "N/A"   
     result["Bibtex (metadata)"] = num_bibtex_mtd
     result["Bibtex extracted (json)"] = num_bibtex_json
     result["Entries Cited"] = num_cites
