@@ -1,0 +1,117 @@
+{
+  "log_file": "/Users/jrathi/Projects/pdf-2-latex/files/ai/treating-unclosed/ai_final.log",
+  "errors": [
+    {
+      "source": "LaTeX",
+      "description": "Not in outer par mode",
+      "count": 4,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "\\begin{document} ended by \\end{tabular}",
+      "count": 2,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "\\begin{document} ended by \\end{center}",
+      "count": 2,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "microtype",
+      "description": "Font expansion does not work with xetex",
+      "count": 1,
+      "sources": [
+        "microtype"
+      ]
+    },
+    {
+      "source": "microtype",
+      "description": "The spacing feature only works with pdftex 1",
+      "count": 1,
+      "sources": [
+        "microtype"
+      ]
+    },
+    {
+      "source": "microtype",
+      "description": "The kerning feature only works with pdftex 1",
+      "count": 1,
+      "sources": [
+        "microtype"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "\\begin{center} on input line 4547 ended by \\end{figure}",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "There's no line here to end",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "\\begin{center} on input line 8530 ended by \\end{figure}",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "source": "inputenc",
+      "description": "inputenc package ignored with utf8 based engines",
+      "count": 1,
+      "sources": [
+        "inputenc"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Float too large for page by 299",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "xeCJK",
+      "description": "Unknown CJK family `\\CJKttdefault' is being ignored",
+      "count": 1,
+      "sources": [
+        "xeCJK"
+      ]
+    }
+  ],
+  "summary": {
+    "total_errors": 14,
+    "total_warnings": 3,
+    "unique_errors": 9,
+    "unique_warnings": 3,
+    "compilation_successful": false
+  },
+  "compilation_info": {
+    "pages_compiled": 304,
+    "total_pages": 0,
+    "compilation_time": null,
+    "latex_version": null,
+    "output_file": "ai_final.xdv"
+  }
+}

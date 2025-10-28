@@ -66,7 +66,7 @@
     "name": "use-microtype",
     "short_name": "use-microtype",
     "created_at": "2025-10-25T11:53:50.540338",
-    "is_current": true,
+    "is_current": false,
     "is_deleted": false,
     "description": "trying new package that reduces warnings",
     "is_root": false
@@ -78,6 +78,24 @@
     "is_current": false,
     "is_deleted": false,
     "description": "increase nesting depth",
+    "is_root": false
+  },
+  {
+    "name": "treating-unclosed",
+    "short_name": "treating-unclosed",
+    "created_at": "2025-10-27T14:34:08.079352",
+    "is_current": false,
+    "is_deleted": false,
+    "description": "Too many unclosed itemize",
+    "is_root": false
+  },
+  {
+    "name": "fixing-bib",
+    "short_name": "fixing-bib",
+    "created_at": "2025-10-28T12:00:55.339341",
+    "is_current": true,
+    "is_deleted": false,
+    "description": "Making bibliography better",
     "is_root": false
   }
 ]

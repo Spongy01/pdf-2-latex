@@ -1,0 +1,3365 @@
+{
+  "total_commands": 822,
+  "total_issues": 6,
+  "issues_by_type": {
+    "mismatch": 3,
+    "unclosed": 3
+  },
+  "issues_by_environment": {
+    "tabular": 2,
+    "center": 2,
+    "document": 2
+  },
+  "environments_found": [
+    "abstract",
+    "aligned",
+    "array",
+    "center",
+    "displayquote",
+    "document",
+    "enumerate",
+    "gathered",
+    "itemize",
+    "tabular",
+    "verbatim"
+  ],
+  "nesting_depth_stats": {
+    "max_depth": 7,
+    "avg_depth": 4.201946472019465,
+    "total_nested": 411
+  },
+  "environment_spans": [
+    {
+      "environment": "center",
+      "start_line": 77,
+      "end_line": 79,
+      "span": "77-79",
+      "nesting_level": 1,
+      "parent_environment": "document"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 122,
+      "end_line": 130,
+      "span": "122-130",
+      "nesting_level": 1,
+      "parent_environment": "document"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 141,
+      "end_line": 153,
+      "span": "141-153",
+      "nesting_level": 1,
+      "parent_environment": "document"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 179,
+      "end_line": 181,
+      "span": "179-181",
+      "nesting_level": 1,
+      "parent_environment": "document"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 493,
+      "end_line": 497,
+      "span": "493-497",
+      "nesting_level": 1,
+      "parent_environment": "document"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 508,
+      "end_line": 517,
+      "span": "508-517",
+      "nesting_level": 1,
+      "parent_environment": "document"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 525,
+      "end_line": 528,
+      "span": "525-528",
+      "nesting_level": 1,
+      "parent_environment": "document"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 544,
+      "end_line": 548,
+      "span": "544-548",
+      "nesting_level": 1,
+      "parent_environment": "document"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 577,
+      "end_line": 582,
+      "span": "577-582",
+      "nesting_level": 1,
+      "parent_environment": "document"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 587,
+      "end_line": 592,
+      "span": "587-592",
+      "nesting_level": 1,
+      "parent_environment": "document"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 619,
+      "end_line": 622,
+      "span": "619-622",
+      "nesting_level": 1,
+      "parent_environment": "document"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 626,
+      "end_line": 631,
+      "span": "626-631",
+      "nesting_level": 1,
+      "parent_environment": "document"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 655,
+      "end_line": 659,
+      "span": "655-659",
+      "nesting_level": 1,
+      "parent_environment": "document"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 676,
+      "end_line": 676,
+      "span": "676-676",
+      "nesting_level": 4,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 673,
+      "end_line": 698,
+      "span": "673-698",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 717,
+      "end_line": 724,
+      "span": "717-724",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 756,
+      "end_line": 758,
+      "span": "756-758",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 762,
+      "end_line": 765,
+      "span": "762-765",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 780,
+      "end_line": 784,
+      "span": "780-784",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 788,
+      "end_line": 793,
+      "span": "788-793",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 804,
+      "end_line": 813,
+      "span": "804-813",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 817,
+      "end_line": 819,
+      "span": "817-819",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 839,
+      "end_line": 847,
+      "span": "839-847",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 867,
+      "end_line": 872,
+      "span": "867-872",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 966,
+      "end_line": 968,
+      "span": "966-968",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 979,
+      "end_line": 983,
+      "span": "979-983",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 986,
+      "end_line": 990,
+      "span": "986-990",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 993,
+      "end_line": 995,
+      "span": "993-995",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1001,
+      "end_line": 1005,
+      "span": "1001-1005",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1009,
+      "end_line": 1011,
+      "span": "1009-1011",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1025,
+      "end_line": 1028,
+      "span": "1025-1028",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1041,
+      "end_line": 1043,
+      "span": "1041-1043",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1049,
+      "end_line": 1052,
+      "span": "1049-1052",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 1071,
+      "end_line": 1074,
+      "span": "1071-1074",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1118,
+      "end_line": 1121,
+      "span": "1118-1121",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1182,
+      "end_line": 1185,
+      "span": "1182-1185",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1192,
+      "end_line": 1194,
+      "span": "1192-1194",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1204,
+      "end_line": 1206,
+      "span": "1204-1206",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1215,
+      "end_line": 1221,
+      "span": "1215-1221",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1225,
+      "end_line": 1228,
+      "span": "1225-1228",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1253,
+      "end_line": 1255,
+      "span": "1253-1255",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "verbatim",
+      "start_line": 1257,
+      "end_line": 1261,
+      "span": "1257-1261",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "center",
+      "start_line": 1263,
+      "end_line": 1265,
+      "span": "1263-1265",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1272,
+      "end_line": 1275,
+      "span": "1272-1275",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1282,
+      "end_line": 1284,
+      "span": "1282-1284",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1309,
+      "end_line": 1314,
+      "span": "1309-1314",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1320,
+      "end_line": 1322,
+      "span": "1320-1322",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1382,
+      "end_line": 1385,
+      "span": "1382-1385",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1401,
+      "end_line": 1404,
+      "span": "1401-1404",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1411,
+      "end_line": 1414,
+      "span": "1411-1414",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 1535,
+      "end_line": 1563,
+      "span": "1535-1563",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 1534,
+      "end_line": 1564,
+      "span": "1534-1564",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1590,
+      "end_line": 1594,
+      "span": "1590-1594",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1692,
+      "end_line": 1694,
+      "span": "1692-1694",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1710,
+      "end_line": 1712,
+      "span": "1710-1712",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1716,
+      "end_line": 1719,
+      "span": "1716-1719",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1723,
+      "end_line": 1725,
+      "span": "1723-1725",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1729,
+      "end_line": 1735,
+      "span": "1729-1735",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "verbatim",
+      "start_line": 1747,
+      "end_line": 1755,
+      "span": "1747-1755",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "center",
+      "start_line": 1757,
+      "end_line": 1759,
+      "span": "1757-1759",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1763,
+      "end_line": 1766,
+      "span": "1763-1766",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1770,
+      "end_line": 1774,
+      "span": "1770-1774",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1783,
+      "end_line": 1788,
+      "span": "1783-1788",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1796,
+      "end_line": 1801,
+      "span": "1796-1801",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1807,
+      "end_line": 1811,
+      "span": "1807-1811",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "verbatim",
+      "start_line": 1813,
+      "end_line": 1819,
+      "span": "1813-1819",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1823,
+      "end_line": 1825,
+      "span": "1823-1825",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1830,
+      "end_line": 1834,
+      "span": "1830-1834",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1844,
+      "end_line": 1847,
+      "span": "1844-1847",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1855,
+      "end_line": 1858,
+      "span": "1855-1858",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1901,
+      "end_line": 1904,
+      "span": "1901-1904",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1933,
+      "end_line": 1937,
+      "span": "1933-1937",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 1987,
+      "end_line": 1992,
+      "span": "1987-1992",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2073,
+      "end_line": 2077,
+      "span": "2073-2077",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2093,
+      "end_line": 2096,
+      "span": "2093-2096",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2100,
+      "end_line": 2104,
+      "span": "2100-2104",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2108,
+      "end_line": 2110,
+      "span": "2108-2110",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2195,
+      "end_line": 2202,
+      "span": "2195-2202",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2234,
+      "end_line": 2250,
+      "span": "2234-2250",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2254,
+      "end_line": 2261,
+      "span": "2254-2261",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2266,
+      "end_line": 2270,
+      "span": "2266-2270",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2282,
+      "end_line": 2286,
+      "span": "2282-2286",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2290,
+      "end_line": 2293,
+      "span": "2290-2293",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2319,
+      "end_line": 2326,
+      "span": "2319-2326",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2343,
+      "end_line": 2352,
+      "span": "2343-2352",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2372,
+      "end_line": 2381,
+      "span": "2372-2381",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2404,
+      "end_line": 2406,
+      "span": "2404-2406",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2414,
+      "end_line": 2417,
+      "span": "2414-2417",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2421,
+      "end_line": 2423,
+      "span": "2421-2423",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2441,
+      "end_line": 2446,
+      "span": "2441-2446",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2450,
+      "end_line": 2452,
+      "span": "2450-2452",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2462,
+      "end_line": 2465,
+      "span": "2462-2465",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2499,
+      "end_line": 2503,
+      "span": "2499-2503",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2510,
+      "end_line": 2516,
+      "span": "2510-2516",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2522,
+      "end_line": 2525,
+      "span": "2522-2525",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2529,
+      "end_line": 2531,
+      "span": "2529-2531",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2538,
+      "end_line": 2547,
+      "span": "2538-2547",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 2550,
+      "end_line": 2555,
+      "span": "2550-2555",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 2549,
+      "end_line": 2556,
+      "span": "2549-2556",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2562,
+      "end_line": 2565,
+      "span": "2562-2565",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2600,
+      "end_line": 2603,
+      "span": "2600-2603",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2607,
+      "end_line": 2609,
+      "span": "2607-2609",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2621,
+      "end_line": 2627,
+      "span": "2621-2627",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2650,
+      "end_line": 2654,
+      "span": "2650-2654",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2658,
+      "end_line": 2660,
+      "span": "2658-2660",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 2673,
+      "end_line": 2679,
+      "span": "2673-2679",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 2672,
+      "end_line": 2680,
+      "span": "2672-2680",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 2742,
+      "end_line": 2745,
+      "span": "2742-2745",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2821,
+      "end_line": 2823,
+      "span": "2821-2823",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 2826,
+      "end_line": 2833,
+      "span": "2826-2833",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 2825,
+      "end_line": 2834,
+      "span": "2825-2834",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2838,
+      "end_line": 2843,
+      "span": "2838-2843",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2859,
+      "end_line": 2863,
+      "span": "2859-2863",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 2872,
+      "end_line": 2900,
+      "span": "2872-2900",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 2871,
+      "end_line": 2901,
+      "span": "2871-2901",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2911,
+      "end_line": 2919,
+      "span": "2911-2919",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 2979,
+      "end_line": 2981,
+      "span": "2979-2981",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3024,
+      "end_line": 3029,
+      "span": "3024-3029",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3034,
+      "end_line": 3036,
+      "span": "3034-3036",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3053,
+      "end_line": 3058,
+      "span": "3053-3058",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3152,
+      "end_line": 3155,
+      "span": "3152-3155",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 3164,
+      "end_line": 3177,
+      "span": "3164-3177",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 3163,
+      "end_line": 3178,
+      "span": "3163-3178",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 3181,
+      "end_line": 3194,
+      "span": "3181-3194",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 3180,
+      "end_line": 3195,
+      "span": "3180-3195",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 3198,
+      "end_line": 3211,
+      "span": "3198-3211",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 3197,
+      "end_line": 3212,
+      "span": "3197-3212",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3219,
+      "end_line": 3222,
+      "span": "3219-3222",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3226,
+      "end_line": 3232,
+      "span": "3226-3232",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "center",
+      "start_line": 3245,
+      "end_line": 3247,
+      "span": "3245-3247",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3302,
+      "end_line": 3304,
+      "span": "3302-3304",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3312,
+      "end_line": 3315,
+      "span": "3312-3315",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3320,
+      "end_line": 3323,
+      "span": "3320-3323",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3337,
+      "end_line": 3341,
+      "span": "3337-3341",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 3512,
+      "end_line": 3515,
+      "span": "3512-3515",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 3521,
+      "end_line": 3524,
+      "span": "3521-3524",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 3582,
+      "end_line": 3585,
+      "span": "3582-3585",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3680,
+      "end_line": 3682,
+      "span": "3680-3682",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3686,
+      "end_line": 3690,
+      "span": "3686-3690",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3714,
+      "end_line": 3720,
+      "span": "3714-3720",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3724,
+      "end_line": 3726,
+      "span": "3724-3726",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 3731,
+      "end_line": 3741,
+      "span": "3731-3741",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 3730,
+      "end_line": 3742,
+      "span": "3730-3742",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3747,
+      "end_line": 3749,
+      "span": "3747-3749",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 3756,
+      "end_line": 3756,
+      "span": "3756-3756",
+      "nesting_level": 6,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 3759,
+      "end_line": 3759,
+      "span": "3759-3759",
+      "nesting_level": 6,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 3753,
+      "end_line": 3762,
+      "span": "3753-3762",
+      "nesting_level": 5,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 3752,
+      "end_line": 3772,
+      "span": "3752-3772",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 3751,
+      "end_line": 3773,
+      "span": "3751-3773",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3777,
+      "end_line": 3780,
+      "span": "3777-3780",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3786,
+      "end_line": 3789,
+      "span": "3786-3789",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 3795,
+      "end_line": 3814,
+      "span": "3795-3814",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 3794,
+      "end_line": 3815,
+      "span": "3794-3815",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3829,
+      "end_line": 3832,
+      "span": "3829-3832",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3836,
+      "end_line": 3838,
+      "span": "3836-3838",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3842,
+      "end_line": 3844,
+      "span": "3842-3844",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3858,
+      "end_line": 3864,
+      "span": "3858-3864",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3869,
+      "end_line": 3872,
+      "span": "3869-3872",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3899,
+      "end_line": 3903,
+      "span": "3899-3903",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3912,
+      "end_line": 3916,
+      "span": "3912-3916",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3930,
+      "end_line": 3937,
+      "span": "3930-3937",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 3995,
+      "end_line": 3998,
+      "span": "3995-3998",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 4001,
+      "end_line": 4009,
+      "span": "4001-4009",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 4000,
+      "end_line": 4010,
+      "span": "4000-4010",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4017,
+      "end_line": 4021,
+      "span": "4017-4021",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4025,
+      "end_line": 4032,
+      "span": "4025-4032",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 4037,
+      "end_line": 4056,
+      "span": "4037-4056",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 4036,
+      "end_line": 4057,
+      "span": "4036-4057",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 4063,
+      "end_line": 4065,
+      "span": "4063-4065",
+      "nesting_level": 5,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 4066,
+      "end_line": 4068,
+      "span": "4066-4068",
+      "nesting_level": 5,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 4062,
+      "end_line": 4086,
+      "span": "4062-4086",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 4061,
+      "end_line": 4087,
+      "span": "4061-4087",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "center",
+      "start_line": 4089,
+      "end_line": 4091,
+      "span": "4089-4091",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4098,
+      "end_line": 4104,
+      "span": "4098-4104",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4108,
+      "end_line": 4118,
+      "span": "4108-4118",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4125,
+      "end_line": 4127,
+      "span": "4125-4127",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4131,
+      "end_line": 4134,
+      "span": "4131-4134",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4145,
+      "end_line": 4147,
+      "span": "4145-4147",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4157,
+      "end_line": 4170,
+      "span": "4157-4170",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4186,
+      "end_line": 4190,
+      "span": "4186-4190",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4198,
+      "end_line": 4202,
+      "span": "4198-4202",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4241,
+      "end_line": 4246,
+      "span": "4241-4246",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4266,
+      "end_line": 4268,
+      "span": "4266-4268",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4272,
+      "end_line": 4277,
+      "span": "4272-4277",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4297,
+      "end_line": 4302,
+      "span": "4297-4302",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4326,
+      "end_line": 4330,
+      "span": "4326-4330",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4393,
+      "end_line": 4403,
+      "span": "4393-4403",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "displayquote",
+      "start_line": 4486,
+      "end_line": 4488,
+      "span": "4486-4488",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4520,
+      "end_line": 4523,
+      "span": "4520-4523",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4538,
+      "end_line": 4540,
+      "span": "4538-4540",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4547,
+      "end_line": 4550,
+      "span": "4547-4550",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4554,
+      "end_line": 4559,
+      "span": "4554-4559",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4563,
+      "end_line": 4565,
+      "span": "4563-4565",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4629,
+      "end_line": 4633,
+      "span": "4629-4633",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4665,
+      "end_line": 4669,
+      "span": "4665-4669",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4673,
+      "end_line": 4675,
+      "span": "4673-4675",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4679,
+      "end_line": 4681,
+      "span": "4679-4681",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4685,
+      "end_line": 4687,
+      "span": "4685-4687",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4694,
+      "end_line": 4698,
+      "span": "4694-4698",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 4710,
+      "end_line": 4717,
+      "span": "4710-4717",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 4709,
+      "end_line": 4718,
+      "span": "4709-4718",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4741,
+      "end_line": 4746,
+      "span": "4741-4746",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 4783,
+      "end_line": 4791,
+      "span": "4783-4791",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 4782,
+      "end_line": 4792,
+      "span": "4782-4792",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 4795,
+      "end_line": 4803,
+      "span": "4795-4803",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 4794,
+      "end_line": 4804,
+      "span": "4794-4804",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 4809,
+      "end_line": 4818,
+      "span": "4809-4818",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 4808,
+      "end_line": 4819,
+      "span": "4808-4819",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4845,
+      "end_line": 4850,
+      "span": "4845-4850",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4931,
+      "end_line": 4934,
+      "span": "4931-4934",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4939,
+      "end_line": 4941,
+      "span": "4939-4941",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 4945,
+      "end_line": 4947,
+      "span": "4945-4947",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 4976,
+      "end_line": 4998,
+      "span": "4976-4998",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 4975,
+      "end_line": 4999,
+      "span": "4975-4999",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 5002,
+      "end_line": 5024,
+      "span": "5002-5024",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 5001,
+      "end_line": 5025,
+      "span": "5001-5025",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5038,
+      "end_line": 5042,
+      "span": "5038-5042",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5046,
+      "end_line": 5050,
+      "span": "5046-5050",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5059,
+      "end_line": 5064,
+      "span": "5059-5064",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5090,
+      "end_line": 5093,
+      "span": "5090-5093",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5098,
+      "end_line": 5101,
+      "span": "5098-5101",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 5171,
+      "end_line": 5187,
+      "span": "5171-5187",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 5170,
+      "end_line": 5188,
+      "span": "5170-5188",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5193,
+      "end_line": 5197,
+      "span": "5193-5197",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5207,
+      "end_line": 5211,
+      "span": "5207-5211",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5215,
+      "end_line": 5219,
+      "span": "5215-5219",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5243,
+      "end_line": 5252,
+      "span": "5243-5252",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5256,
+      "end_line": 5265,
+      "span": "5256-5265",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5285,
+      "end_line": 5294,
+      "span": "5285-5294",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5331,
+      "end_line": 5333,
+      "span": "5331-5333",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5344,
+      "end_line": 5348,
+      "span": "5344-5348",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5356,
+      "end_line": 5359,
+      "span": "5356-5359",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 5383,
+      "end_line": 5391,
+      "span": "5383-5391",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5501,
+      "end_line": 5504,
+      "span": "5501-5504",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "array",
+      "start_line": 5510,
+      "end_line": 5510,
+      "span": "5510-5510",
+      "nesting_level": 4,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5513,
+      "end_line": 5513,
+      "span": "5513-5513",
+      "nesting_level": 4,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5516,
+      "end_line": 5516,
+      "span": "5516-5516",
+      "nesting_level": 4,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5519,
+      "end_line": 5519,
+      "span": "5519-5519",
+      "nesting_level": 4,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5522,
+      "end_line": 5522,
+      "span": "5522-5522",
+      "nesting_level": 4,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5507,
+      "end_line": 5525,
+      "span": "5507-5525",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5530,
+      "end_line": 5532,
+      "span": "5530-5532",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "array",
+      "start_line": 5539,
+      "end_line": 5539,
+      "span": "5539-5539",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5542,
+      "end_line": 5542,
+      "span": "5542-5542",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5545,
+      "end_line": 5545,
+      "span": "5545-5545",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5548,
+      "end_line": 5548,
+      "span": "5548-5548",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5551,
+      "end_line": 5551,
+      "span": "5551-5551",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5536,
+      "end_line": 5554,
+      "span": "5536-5554",
+      "nesting_level": 4,
+      "parent_environment": "aligned"
+    },
+    {
+      "environment": "array",
+      "start_line": 5558,
+      "end_line": 5558,
+      "span": "5558-5558",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5561,
+      "end_line": 5561,
+      "span": "5561-5561",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5564,
+      "end_line": 5564,
+      "span": "5564-5564",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5567,
+      "end_line": 5567,
+      "span": "5567-5567",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5570,
+      "end_line": 5570,
+      "span": "5570-5570",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5555,
+      "end_line": 5573,
+      "span": "5555-5573",
+      "nesting_level": 4,
+      "parent_environment": "aligned"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 5535,
+      "end_line": 5574,
+      "span": "5535-5574",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5594,
+      "end_line": 5597,
+      "span": "5594-5597",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "array",
+      "start_line": 5632,
+      "end_line": 5632,
+      "span": "5632-5632",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5632,
+      "end_line": 5632,
+      "span": "5632-5632",
+      "nesting_level": 4,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5632,
+      "end_line": 5632,
+      "span": "5632-5632",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "array",
+      "start_line": 5641,
+      "end_line": 5646,
+      "span": "5641-5646",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "array",
+      "start_line": 5654,
+      "end_line": 5659,
+      "span": "5654-5659",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "array",
+      "start_line": 5672,
+      "end_line": 5675,
+      "span": "5672-5675",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "array",
+      "start_line": 5684,
+      "end_line": 5684,
+      "span": "5684-5684",
+      "nesting_level": 4,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5687,
+      "end_line": 5687,
+      "span": "5687-5687",
+      "nesting_level": 4,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5681,
+      "end_line": 5690,
+      "span": "5681-5690",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "array",
+      "start_line": 5725,
+      "end_line": 5725,
+      "span": "5725-5725",
+      "nesting_level": 4,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5722,
+      "end_line": 5728,
+      "span": "5722-5728",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "array",
+      "start_line": 5745,
+      "end_line": 5745,
+      "span": "5745-5745",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5741,
+      "end_line": 5749,
+      "span": "5741-5749",
+      "nesting_level": 4,
+      "parent_environment": "aligned"
+    },
+    {
+      "environment": "array",
+      "start_line": 5754,
+      "end_line": 5754,
+      "span": "5754-5754",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5750,
+      "end_line": 5758,
+      "span": "5750-5758",
+      "nesting_level": 4,
+      "parent_environment": "aligned"
+    },
+    {
+      "environment": "array",
+      "start_line": 5759,
+      "end_line": 5763,
+      "span": "5759-5763",
+      "nesting_level": 4,
+      "parent_environment": "aligned"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 5740,
+      "end_line": 5764,
+      "span": "5740-5764",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 5803,
+      "end_line": 5806,
+      "span": "5803-5806",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 5813,
+      "end_line": 5816,
+      "span": "5813-5816",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5850,
+      "end_line": 5854,
+      "span": "5850-5854",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "array",
+      "start_line": 5887,
+      "end_line": 5887,
+      "span": "5887-5887",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5890,
+      "end_line": 5890,
+      "span": "5890-5890",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5884,
+      "end_line": 5893,
+      "span": "5884-5893",
+      "nesting_level": 4,
+      "parent_environment": "aligned"
+    },
+    {
+      "environment": "array",
+      "start_line": 5897,
+      "end_line": 5897,
+      "span": "5897-5897",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5900,
+      "end_line": 5900,
+      "span": "5900-5900",
+      "nesting_level": 5,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5894,
+      "end_line": 5903,
+      "span": "5894-5903",
+      "nesting_level": 4,
+      "parent_environment": "aligned"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 5883,
+      "end_line": 5904,
+      "span": "5883-5904",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 5916,
+      "end_line": 5921,
+      "span": "5916-5921",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "array",
+      "start_line": 5933,
+      "end_line": 5936,
+      "span": "5933-5936",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "array",
+      "start_line": 5955,
+      "end_line": 5955,
+      "span": "5955-5955",
+      "nesting_level": 4,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5958,
+      "end_line": 5958,
+      "span": "5958-5958",
+      "nesting_level": 4,
+      "parent_environment": "array"
+    },
+    {
+      "environment": "array",
+      "start_line": 5952,
+      "end_line": 5961,
+      "span": "5952-5961",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "array",
+      "start_line": 5964,
+      "end_line": 5964,
+      "span": "5964-5964",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 5967,
+      "end_line": 5970,
+      "span": "5967-5970",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 5978,
+      "end_line": 5981,
+      "span": "5978-5981",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 6089,
+      "end_line": 6125,
+      "span": "6089-6125",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 6088,
+      "end_line": 6126,
+      "span": "6088-6126",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "array",
+      "start_line": 6160,
+      "end_line": 6160,
+      "span": "6160-6160",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 6170,
+      "end_line": 6178,
+      "span": "6170-6178",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 6198,
+      "end_line": 6200,
+      "span": "6198-6200",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 6204,
+      "end_line": 6208,
+      "span": "6204-6208",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "center",
+      "start_line": 6301,
+      "end_line": 6303,
+      "span": "6301-6303",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 6330,
+      "end_line": 6334,
+      "span": "6330-6334",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 6359,
+      "end_line": 6365,
+      "span": "6359-6365",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 6434,
+      "end_line": 6448,
+      "span": "6434-6448",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 6433,
+      "end_line": 6449,
+      "span": "6433-6449",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 6480,
+      "end_line": 6483,
+      "span": "6480-6483",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 6531,
+      "end_line": 6534,
+      "span": "6531-6534",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 6542,
+      "end_line": 6545,
+      "span": "6542-6545",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 6646,
+      "end_line": 6660,
+      "span": "6646-6660",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 6645,
+      "end_line": 6661,
+      "span": "6645-6661",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 6684,
+      "end_line": 6688,
+      "span": "6684-6688",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 6702,
+      "end_line": 6707,
+      "span": "6702-6707",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 6753,
+      "end_line": 6757,
+      "span": "6753-6757",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 6793,
+      "end_line": 6796,
+      "span": "6793-6796",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "center",
+      "start_line": 6799,
+      "end_line": 6801,
+      "span": "6799-6801",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 6825,
+      "end_line": 6831,
+      "span": "6825-6831",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "abstract",
+      "start_line": 6958,
+      "end_line": 6960,
+      "span": "6958-6960",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 6962,
+      "end_line": 6964,
+      "span": "6962-6964",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 6987,
+      "end_line": 6992,
+      "span": "6987-6992",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 6998,
+      "end_line": 7003,
+      "span": "6998-7003",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7019,
+      "end_line": 7028,
+      "span": "7019-7028",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7034,
+      "end_line": 7039,
+      "span": "7034-7039",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7183,
+      "end_line": 7187,
+      "span": "7183-7187",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7233,
+      "end_line": 7239,
+      "span": "7233-7239",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7247,
+      "end_line": 7249,
+      "span": "7247-7249",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7291,
+      "end_line": 7295,
+      "span": "7291-7295",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7329,
+      "end_line": 7332,
+      "span": "7329-7332",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7337,
+      "end_line": 7346,
+      "span": "7337-7346",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7350,
+      "end_line": 7352,
+      "span": "7350-7352",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7363,
+      "end_line": 7370,
+      "span": "7363-7370",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 7396,
+      "end_line": 7411,
+      "span": "7396-7411",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 7395,
+      "end_line": 7412,
+      "span": "7395-7412",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 7415,
+      "end_line": 7430,
+      "span": "7415-7430",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 7414,
+      "end_line": 7431,
+      "span": "7414-7431",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7466,
+      "end_line": 7472,
+      "span": "7466-7472",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7580,
+      "end_line": 7586,
+      "span": "7580-7586",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7607,
+      "end_line": 7609,
+      "span": "7607-7609",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7621,
+      "end_line": 7623,
+      "span": "7621-7623",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7631,
+      "end_line": 7634,
+      "span": "7631-7634",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "center",
+      "start_line": 7690,
+      "end_line": 7692,
+      "span": "7690-7692",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7712,
+      "end_line": 7716,
+      "span": "7712-7716",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "abstract",
+      "start_line": 7850,
+      "end_line": 7852,
+      "span": "7850-7852",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7856,
+      "end_line": 7859,
+      "span": "7856-7859",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 7869,
+      "end_line": 7876,
+      "span": "7869-7876",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 7885,
+      "end_line": 7885,
+      "span": "7885-7885",
+      "nesting_level": 6,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 7888,
+      "end_line": 7888,
+      "span": "7888-7888",
+      "nesting_level": 6,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 7891,
+      "end_line": 7891,
+      "span": "7891-7891",
+      "nesting_level": 6,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 7894,
+      "end_line": 7894,
+      "span": "7894-7894",
+      "nesting_level": 6,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 7882,
+      "end_line": 7897,
+      "span": "7882-7897",
+      "nesting_level": 5,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 7881,
+      "end_line": 7908,
+      "span": "7881-7908",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 7880,
+      "end_line": 7909,
+      "span": "7880-7909",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 7951,
+      "end_line": 7979,
+      "span": "7951-7979",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 7950,
+      "end_line": 7980,
+      "span": "7950-7980",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 8010,
+      "end_line": 8014,
+      "span": "8010-8014",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 8018,
+      "end_line": 8023,
+      "span": "8018-8023",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "gathered",
+      "start_line": 8039,
+      "end_line": 8042,
+      "span": "8039-8042",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8078,
+      "end_line": 8084,
+      "span": "8078-8084",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 8179,
+      "end_line": 8191,
+      "span": "8179-8191",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 8178,
+      "end_line": 8192,
+      "span": "8178-8192",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8211,
+      "end_line": 8220,
+      "span": "8211-8220",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8271,
+      "end_line": 8275,
+      "span": "8271-8275",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8280,
+      "end_line": 8283,
+      "span": "8280-8283",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 8375,
+      "end_line": 8391,
+      "span": "8375-8391",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 8374,
+      "end_line": 8392,
+      "span": "8374-8392",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8420,
+      "end_line": 8422,
+      "span": "8420-8422",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8428,
+      "end_line": 8431,
+      "span": "8428-8431",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8435,
+      "end_line": 8441,
+      "span": "8435-8441",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8513,
+      "end_line": 8515,
+      "span": "8513-8515",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8523,
+      "end_line": 8526,
+      "span": "8523-8526",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "aligned",
+      "start_line": 8529,
+      "end_line": 8532,
+      "span": "8529-8532",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 8555,
+      "end_line": 8568,
+      "span": "8555-8568",
+      "nesting_level": 4,
+      "parent_environment": "center"
+    },
+    {
+      "environment": "center",
+      "start_line": 8554,
+      "end_line": 8569,
+      "span": "8554-8569",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8603,
+      "end_line": 8606,
+      "span": "8603-8606",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8620,
+      "end_line": 8624,
+      "span": "8620-8624",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8707,
+      "end_line": 8709,
+      "span": "8707-8709",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8729,
+      "end_line": 8737,
+      "span": "8729-8737",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8749,
+      "end_line": 8753,
+      "span": "8749-8753",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8759,
+      "end_line": 8766,
+      "span": "8759-8766",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8773,
+      "end_line": 8779,
+      "span": "8773-8779",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8824,
+      "end_line": 8827,
+      "span": "8824-8827",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8837,
+      "end_line": 8841,
+      "span": "8837-8841",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "verbatim",
+      "start_line": 8843,
+      "end_line": 8849,
+      "span": "8843-8849",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8855,
+      "end_line": 8859,
+      "span": "8855-8859",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8886,
+      "end_line": 8897,
+      "span": "8886-8897",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8906,
+      "end_line": 8911,
+      "span": "8906-8911",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8915,
+      "end_line": 8921,
+      "span": "8915-8921",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8964,
+      "end_line": 8968,
+      "span": "8964-8968",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8977,
+      "end_line": 8982,
+      "span": "8977-8982",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 8986,
+      "end_line": 8990,
+      "span": "8986-8990",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 9014,
+      "end_line": 9017,
+      "span": "9014-9017",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 9024,
+      "end_line": 9028,
+      "span": "9024-9028",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "displayquote",
+      "start_line": 9035,
+      "end_line": 9037,
+      "span": "9035-9037",
+      "nesting_level": 4,
+      "parent_environment": "itemize"
+    },
+    {
+      "environment": "displayquote",
+      "start_line": 9039,
+      "end_line": 9041,
+      "span": "9039-9041",
+      "nesting_level": 4,
+      "parent_environment": "itemize"
+    },
+    {
+      "environment": "displayquote",
+      "start_line": 9043,
+      "end_line": 9045,
+      "span": "9043-9045",
+      "nesting_level": 4,
+      "parent_environment": "itemize"
+    },
+    {
+      "environment": "displayquote",
+      "start_line": 9047,
+      "end_line": 9049,
+      "span": "9047-9049",
+      "nesting_level": 4,
+      "parent_environment": "itemize"
+    },
+    {
+      "environment": "displayquote",
+      "start_line": 9051,
+      "end_line": 9053,
+      "span": "9051-9053",
+      "nesting_level": 4,
+      "parent_environment": "itemize"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 9032,
+      "end_line": 9055,
+      "span": "9032-9055",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 9059,
+      "end_line": 9063,
+      "span": "9059-9063",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "enumerate",
+      "start_line": 9076,
+      "end_line": 9079,
+      "span": "9076-9079",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 9113,
+      "end_line": 9117,
+      "span": "9113-9117",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 9129,
+      "end_line": 9133,
+      "span": "9129-9133",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 9137,
+      "end_line": 9139,
+      "span": "9137-9139",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 9145,
+      "end_line": 9148,
+      "span": "9145-9148",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "displayquote",
+      "start_line": 9152,
+      "end_line": 9156,
+      "span": "9152-9156",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 9184,
+      "end_line": 9190,
+      "span": "9184-9190",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 9206,
+      "end_line": 9211,
+      "span": "9206-9211",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 9216,
+      "end_line": 9224,
+      "span": "9216-9224",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 9228,
+      "end_line": 9234,
+      "span": "9228-9234",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 9256,
+      "end_line": 9262,
+      "span": "9256-9262",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 9309,
+      "end_line": 9311,
+      "span": "9309-9311",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 9322,
+      "end_line": 9324,
+      "span": "9322-9324",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "itemize",
+      "start_line": 9328,
+      "end_line": 9331,
+      "span": "9328-9331",
+      "nesting_level": 3,
+      "parent_environment": "tabular"
+    },
+    {
+      "environment": "document",
+      "start_line": 72,
+      "end_line": null,
+      "span": "72-open",
+      "nesting_level": 0,
+      "parent_environment": null
+    },
+    {
+      "environment": "center",
+      "start_line": 670,
+      "end_line": null,
+      "span": "670-open",
+      "nesting_level": 1,
+      "parent_environment": "document"
+    },
+    {
+      "environment": "tabular",
+      "start_line": 671,
+      "end_line": null,
+      "span": "671-open",
+      "nesting_level": 2,
+      "parent_environment": "center"
+    }
+  ],
+  "issues": [
+    {
+      "issue_type": "mismatch",
+      "environment": "tabular",
+      "line_number": 676,
+      "details": "\\end{tabular} found but expected \\end{aligned} (opened at line 676)",
+      "severity": "error"
+    },
+    {
+      "issue_type": "mismatch",
+      "environment": "center",
+      "line_number": 699,
+      "details": "\\end{center} found but expected \\end{tabular} (opened at line 671)",
+      "severity": "error"
+    },
+    {
+      "issue_type": "mismatch",
+      "environment": "document",
+      "line_number": 10347,
+      "details": "\\end{document} found but expected \\end{tabular} (opened at line 671)",
+      "severity": "error"
+    },
+    {
+      "issue_type": "unclosed",
+      "environment": "document",
+      "line_number": 72,
+      "details": "\\begin{document} opened but never closed",
+      "severity": "error"
+    },
+    {
+      "issue_type": "unclosed",
+      "environment": "center",
+      "line_number": 670,
+      "details": "\\begin{center} opened but never closed",
+      "severity": "error"
+    },
+    {
+      "issue_type": "unclosed",
+      "environment": "tabular",
+      "line_number": 671,
+      "details": "\\begin{tabular} opened but never closed",
+      "severity": "error"
+    }
+  ]
+}

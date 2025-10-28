@@ -19,7 +19,7 @@
 \usepackage{polyglossia}
 \usepackage{fontspec}
 \usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
-
+\usepackage{fontspec}
 \setmainlanguage{english}
 \setotherlanguages{bengali}
 \IfFontExistsTF{Noto Serif Bengali}
@@ -75,7 +75,7 @@
 \maketitle
 \section{Data Science Design}
  MANUAL\begin{center}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth]{2025_03_17_ca60ec0bfd96dcf8e028g-001}
 \end{figure}
@@ -585,7 +585,7 @@ Computer scientists traditionally do not really appreciate data. Think about the
 Becoming a data scientist requires learning to ask questions about data, so let's practice. Each of the subsections below will introduce an interesting data set. After you understand what kind of information is available, try to come up with, say, five interesting questions you might explore/answer with access to this data set.\\
 %---- Page End Break Here ---- Page : 22
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-023}
     \caption{//www.baseball-reference.com}{http://www.baseball-reference.com}.}
@@ -599,7 +599,7 @@ Baseball has long had an outsized importance in the world of data science. This 
 What makes baseball important to data science is its extensive statistical record of play, dating back for well over a hundred years. Baseball is a sport of discrete events: pitchers throw balls and batters try to hit them - that naturally lends itself to informative statistics. Fans get immersed in these statistics as children, building their intuition about the strengths and limitations of quantitative analysis. Some of these children grow up to become data scientists. Indeed, the success of Brad Pitt's statistically-minded baseball team in the movie Moneyball remains the American public's most vivid contact with data science.
 
 This historical baseball record is available at \href{http://www}{http://www}. baseball-reference . com. There you will find complete statistical data on the performance of every player who even stepped on the field. This includes summary statistics of each season's batting, pitching, and fielding record, plus information about teams\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-024}
     \caption{//www.baseball-reference.com}{http://www.baseball-reference.com}.\\}
@@ -646,12 +646,12 @@ Finally, there are extensive ratings for each film from viewers and critics. Thi
 Every actor, director, producer, and crew member associated with a film merits an entry in IMDb, which now contains records on 6.5 million people.\\
 %---- Page End Break Here ---- Page : 25
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-026}
     \caption{Representative film data from the Internet Movie Database.\\}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-026(1)}
     \caption{Representative film data from the Internet Movie Database.\\}
@@ -687,7 +687,7 @@ Assuming that people working together on a film get to know each other, the cast
 More critically, can we analyze this data to determine the probability that someone will like a given movie? The technique of collaborative filtering finds people who liked films that I also liked, and recommends other films that they liked as good candidates for me. The 2007 Netflix Prize was a $\$ 1,000,000$ competition to produce a ratings engine $10 \%$ better than the proprietary Netflix system. The ultimate winner of this prize (BellKor) used a variety of data sources and techniques, including the analysis of links [\cite{bell2007lessons}.\\
 %---- Page End Break Here ---- Page : 27
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-028}
     \caption{The rise and fall of data processing, as witnessed by Google Ngrams.}
@@ -772,7 +772,7 @@ So I'm talking to you. This taxi data is readily available, with records of over
 Any interesting data set can be used to answer questions on many different scales. This taxi fare data can help us better understand the transportation industry, but also how the city works and how we could make it work even better. Natural questions with respect to the taxi industry include:\\
 %---- Page End Break Here ---- Page : 30
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-031}
     \caption{Which neighborhoods in New York city tip most generously? The relatively remote outer boroughs of Brooklyn and Queens, where trips are longest and supply is relatively scarce.}
@@ -883,11 +883,12 @@ As an experiment, we documented the evolution of each group's project on video i
   \item The Ghoul Pool - Death comes to all men, but when? Can we apply actuarial models to celebrities, to decide who will be the next to die? Similar analysis underlies the workings of the life insurance industry, where accurate predictions of lifespan are necessary to set premiums which are both sustainable and affordable.\\
 %---- Page End Break Here ---- Page : 35
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-036}
     \caption{The Quant Shop.}
 \end{figure}
+\end{itemize}
 
 
 %---- Page End Break Here ---- Page : 36
@@ -1150,11 +1151,12 @@ De Méré brought this problem to the attention of the French mathematicians Bla
 
 \footnotetext{${ }^{1}$ He really shouldn't have wondered. The house always has the advantage.
 }
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-047}
     \caption{Venn diagrams illustrating set difference (left), intersection (middle), and union (right).\\}
 \end{figure}
+%---- Page End Break Here ---- Page : 46
 along the way establishing that the house wins this dice game with probability $p=1-(5 / 6)^{4} \approx 0.517$, where the probability $p=0.5$ would denote a fair game where the house wins exactly half the time.
 
 \subsection{Compound Events and Independence}
@@ -1228,7 +1230,7 @@ $$
 Often it proves easier to compute probabilities in one direction than another, as in this problem. By Bayes theorem $P(B \mid A)=(1 \cdot 9 / 36) /(25 / 36)=9 / 25$, exactly\\
 %---- Page End Break Here ---- Page : 48
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-049}
     \caption{The probability density function (pdf) of the sum of two dice contains exactly the same information as the cumulative density function (cdf), but looks very different.\\}
@@ -1246,7 +1248,7 @@ Histograms are statistical: they reflect actual observations of outcomes. In con
 
 \footnotetext{${ }^{2} \mathrm{~A}$ technique called discounting offers a better way to estimate the frequency of rare events, and will be discussed in Section 11.1 .2
 }
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-050}
     \caption{iPhone quarterly sales data presented as cumulative and incremental (quarterly) distributions. Which curve did Apple CEO Tim Cook choose to present?\\}
@@ -1326,11 +1328,12 @@ Which centrality measure is best for applications? The median typically lies pre
 The median generally proves to be a better statistic for skewed distributions or data with outliers: like wealth and income. Bill Gates adds $\$ 250$ to the mean per capita wealth in the United States, but nothing to the median. If he makes you personally feel richer, then go ahead and use the mean. But the median is the more informative statistic here, as it will be for any power law distribution.\\
 %---- Page End Break Here ---- Page : 52
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-053}
     \caption{normal (left) and with zero variance (right).}
 \end{figure}
+\end{itemize}
 
 \begin{itemize}
   \item Mode: The mode is the most frequent element in the data set. This is 7 in our ongoing dice example, because it occurs six times out of thirty-six elements. Frankly, I've never seen the mode as providing much insight as centrality measure, because it often isn't close to the center. Samples measured over a large range should have very few repeated elements or collisions at any particular value. This makes the mode a matter of happenstance. Indeed, the most frequently occurring elements often reveal artifacts or anomalies in a data set, such as default values or error codes that do not really represent elements of the underlying distribution.\\
@@ -1375,11 +1378,12 @@ In[29]:= Histogram[d = Table[Season[0.300, 500], {100 000}], 100]
 \end{verbatim}
 
 \begin{center}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth]{2025_03_17_ca60ec0bfd96dcf8e028g-055}
     \caption{Sample variance on hitters with a real $30 \%$ success rate results in a wide range of observed performance even over 500 trials per season.\\}
 \end{figure}
+\end{center}
 year usually underperforms the market the year after, which shouldn't happen if this outstanding performance was due to skill rather than luck.
 
 The fund managers themselves are quick to credit profitable years to their own genius, but losses to unforeseeable circumstances. However, several studies have shown that the performance of professional investors is essentially random, meaning there is little real difference in skill. Most investors are paying managers for previously-used luck. So why do these entrail-readers get paid so much money?
@@ -1469,7 +1473,7 @@ The denominator of the Pearson formula reflects the amount of variance in the tw
 } Anderson-Aggression.pdf\\
 %---- Page End Break Here ---- Page : 58
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-059}
     \caption{The function $y=|x|$ does not have a linear model, but seems like it should be easily fitted despite weak correlations.}
@@ -1490,7 +1494,7 @@ $$
 
 where $d_{i}=\operatorname{rank}\left(x_{i}\right)-\operatorname{rank}\left(y_{i}\right)$.\\
 The relationship between our two coefficients is better delineated by the example in Figure 2.7. In addition to giving high scores to non-linear but monotonic functions, Spearman correlation is less sensitive to extreme outlier elements than Pearson. Let $p=\left(x_{1}, y_{\max }\right)$ be the data point with largest value\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-060(2)}\\
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-060}\\
@@ -1513,12 +1517,12 @@ The statistical limits in interpreting correlations are presented in Figure 2.8 
 \end{itemize}
 
 What do we mean by "explaining the variance"? Let $f(x)=m x+c$ be the\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-061(1)}
     \caption{(left) shows how rapidly $r^{2}$ decreases with $r$. There is a profound limit to how excited we should get about establishing a weak correlation. A correlation of 0.5 possesses only $25 \%$ of the maximum predictive power, and a correlation of $r=0.1$ only $1 \%$. Thus the predictive value of correlations decreases rapidly with $r$.}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-061}
     \caption{Limits in interpreting significance. The $r^{2}$ value shows that weak correlations explain only a small fraction of the variance (left). The level of correlation necessary to be statistically significance decreases rapidly with sample size $n$ (right).\\}
@@ -1549,14 +1553,14 @@ You have heard this before: correlation does not imply causation:
 At best, the implication works only one way. But many observed correlations are completely spurious, with neither variable having any real impact on the other.
 
 Still, correlation implies causation is a common error in thinking, even among those who understand logical reasoning. Generally speaking, few statistical tools are available to tease out whether $A$ really causes $B$. We can conduct controlled experiments, if we can manipulate one of the variables and watch the effect on\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-063(2)}
     \caption{//www.xkcd}{https://www.xkcd}. com/552.)\\}
 \end{figure}
 %---- Page End Break Here ---- Page : 62
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-063}\\
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-063(1)}
@@ -1626,7 +1630,7 @@ Ratios are quantities of the form $a / b$. They occur often in data sets either 
 But ratios behave differently when reflecting increases than decreases. The ratio $200 / 100$ is $200 \%$ above baseline, but $100 / 200$ is only $50 \%$ below despite being a similar magnitude change. Thus doing things like averaging ratios is committing a statistical sin. Do you really want a doubling followed by a halving to average out as an increase, as opposed to a neutral change?\\
 %---- Page End Break Here ---- Page : 65
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-066}
     \caption{Plotting ratios on a scale cramps the space allocated to small ratios relative to large ratios (left). Plotting the logarithms of ratios better represents the underlying data (right).}
@@ -1642,7 +1646,7 @@ Except that it isn't. Now look at Figure 2.12 (right), where we plot the logarit
 Variables which follow symmetric, bell-shaped distributions tend to be nice as features in models. They show substantial variation, so they can be used to discriminate between things, but not over such a wide range that outliers are overwhelming.
 
 But not every distribution is symmetric. Consider the one in Figure 2.13\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-067}
     \caption{Hitting a skewed data distribution (left) with a $\log$ often yields a more bell-shaped distribution (right).\\}
@@ -1923,7 +1927,7 @@ plt.xlabel("degree"); plt.ylabel("Error")
 \end{verbatim}
 
 \begin{center}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth]{2025_03_17_ca60ec0bfd96dcf8e028g-077}
 \end{figure}
@@ -2140,7 +2144,7 @@ If we view data items as measurements about some aspect of the world, data error
 By contrast, artifacts are generally systematic problems arising from processing done to the raw information it was constructed from. The good news is that processing artifacts can be corrected, so long as the original raw data set remains available. The bad news is that these artifacts must be detected before they can be corrected.\\
 %---- Page End Break Here ---- Page : 86
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-087}
     \caption{What artifacts can you find in this time series, counting the number of author's names first appearing in the scientific literature each year?}
@@ -2159,7 +2163,7 @@ My intuition says that the distribution of new top scientists should be pretty f
 I see two big bumps when I look at Figure 3.2 a left bump starting around\\
 %---- Page End Break Here ---- Page : 87
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-088}
     \caption{The cleaned data removes these artifacts, and the resulting distribution looks correct.}
@@ -2371,7 +2375,7 @@ The take-home lesson is that cleanliness is important when there is money on the
 No single person has all the answers. Not even me. Much of what passes for wisdom is how we aggregate expertise, assembling opinions from the knowledge and experience of others.\\
 %---- Page End Break Here ---- Page : 97
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-098}
     \caption{Guess how many pennies I have in this jar? (left) The correct answer was determined using precise scientific methods (right).}
@@ -2452,7 +2456,7 @@ Crowdsourcing services like Amazon Turk and CrowdFlower provide the opportunity 
 These crowdsourcing services maintain a large stable of freelance workers, serving as the middleman between them and potential employers. These workers, generally called Turkers, are provided with lists of available jobs and what they will pay, as shown in Figure 3.5. Employers generally have some ability to control the location and credentials of who they hire, and the power to reject a worker's efforts without pay, if they deem it inadequate. But statistics on employers' acceptance rates are published, and good workers are unlikely to labor for bad actors.\\
 %---- Page End Break Here ---- Page : 101
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-102}
     \caption{Representative tasks on Mechanical Turk.}
@@ -2689,11 +2693,12 @@ As I write this, I am 68 inches tall ( 1.727 meters) and feeling slightly pudgy 
   \item Overweight: from 25 to 30 .\\
 %---- Page End Break Here ---- Page : 112
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-113}
     \caption{Height-weight scatter plot, for 1000 representative Americans. Colors illustrate class labels in the BMI distribution.}
 \end{figure}
+\end{itemize}
 
 \begin{itemize}
   \item Obese: over 30.
@@ -2715,12 +2720,12 @@ It is very interesting to look at BMI distributions for extreme populations. Con
 Let's look at some data. Figure 4.2 shows the BMI distributions of basketball and football players, by sport. And indeed, almost all of the basketball players\\
 %---- Page End Break Here ---- Page : 113
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-114(2)}
     \caption{BMI distributions of professional basketball (left) and football (right) players.\\}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-114(1)}\\
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-114}
@@ -2890,11 +2895,12 @@ where
   \item $k$ is a fixed parameter reflecting the maximum possible score adjustment in response to a single match. A small value of $k$ results in fairly static rankings, while using too large a $k$ will cause wild swings in ranking based on the latest match.
   \item $S_{A}$ is the scoring result achieved by player $A$ in the match under consideration. Typically, $S_{A}=1$ if $A$ won, and $S_{A}=-1$ if $A$ lost.
   \item $\mu_{A}$ was the expected result for $A$ when competing against $B$. If $A$ has exactly the same skill level as $B$, then presumably $\mu_{A}=0$. But suppose that $A$ is a champion and $B$ is a beginner or chump. Our expectation is that $A$ should almost certainly win in a head-to-head matchup, so $\mu_{A}>0$ and is likely to be quite close to 1 .\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-122}
     \caption{The shape of the logit function, for three different values for $c$.}
 \end{figure}
+\end{itemize}
 
 
 %---- Page End Break Here ---- Page : 121
@@ -2920,11 +2926,12 @@ The shape of the logit function $f(x)$ is shown in Figure 4.5. Particularly note
 \begin{itemize}
   \item When two players are of equal ability, $x=0$, and $f(0)=1 / 2$, reflects that both players have an equal probability of winning.
   \item When player $A$ has a vast advantage, $x \rightarrow \infty$, and $f(\infty)=1$, defining that $A$ is a lock to win the match.\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-123}
     \caption{Changes in ELO scores as a consequence of an unlikely chess tournament.}
 \end{figure}
+\end{itemize}
 
 
 %---- Page End Break Here ---- Page : 122
@@ -2971,11 +2978,12 @@ But it is not clear that using linear weights represents the best choice, becaus
 
 \footnotetext{${ }^{1}$ Observe the difference between a similarity measure and a distance metric. In correlation, the scores get bigger as elements get more similar, while in a distance function the difference goes to zero. Distance metrics will be discussed more thoroughly in Section 10.1.1
 }
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-125}
     \caption{Equally-spaced values by the normal distribution are closer in the middle than the ends, making appropriate weights for Borda's method.\\}
 \end{figure}
+%---- Page End Break Here ---- Page : 124
 throughout the permutation. Typically, we will know the most about the merits of our top choices, but will be fairly fuzzy about exactly how those near the middle order among themselves. If this is so, a better approach might be to award more points for the distinction between 1st and 2nd than between 110th and 111th.
 
 This type of weighting is implicitly performed by a bell-shaped curve. Suppose we sample $n$ items at equal intervals from a normal distribution, as shown in Figure 4.8. Assigning these $x$ values as the positional weights produces more spread at the highest and lowest ranks than the center. The tail regions really are as wide as they appear for these 50 equally-spaced points: recall that $95 \%$ of the probability mass sits within $2 \sigma$ of the center.
@@ -2990,7 +2998,7 @@ Networks provide an alternate way to think about a set of votes of the form " $A
 The optimal ranking would then be a permutation $P$ of the vertices which\\
 %---- Page End Break Here ---- Page : 125
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-126}
     \caption{Consistently ordered preferences yield an acyclic graph or DAG (left). Inconsistent preferences result in directed cycles, which can be broken by deleting small sets of carefully selected edges, here shown dashed (right).\\}
@@ -3073,7 +3081,7 @@ The computer program also attempts to include tch intangible variables as injuri
 
 Will Skiena use his compater results to eater the ariety of football pools and contests that are availar le during the season?\\
 "No." be said. "I dont like to bet on my own redictions. Last season a fitiend bet on a game I cedicted and it happened to be one of the few that\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-129}
 \end{figure}
@@ -3284,7 +3292,7 @@ It is easy to lie with statistics, but easier to lie without them.
 I will confess that I have never had a truly satisfying conversation with a statistician. This is not completely for want of trying. Several times over the years I have taken problems of interest to statisticians, but always came back with answers like "You can't do it that way" or "But it's not independent," instead of hearing "Here is the way you can handle it."
 
 To be fair, these statisticians generally did not appreciate talking with me, either. Statisticians have been thinking seriously about data for far longer than computer scientists, and have many powerful methods and ideas to show for it. In this chapter, I will introduce some of these important tools, like the definitions of certain fundamental distributions and tests for statistical significance. This chapter will also introduce Baysian analysis, a way to rigorously assess how new data should affect our previous estimates of future events.\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-137}
     \caption{analysis of a small random sample enables drawing rigorous inferences about the entire population.}
@@ -3310,7 +3318,7 @@ Why is that? Understand that the world is a complicated place, which makes measu
 But that said, understanding the basic distributions is indeed very important. Each classical distribution is classical for a reason. Understanding these reasons tells you a lot about observed data, so they will be reviewed here.\\
 %---- Page End Break Here ---- Page : 138
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-139(1)}\\
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-139}
@@ -3332,11 +3340,12 @@ There are several things to observe about the binomial distribution:
   \item It is discrete: Both arguments to the binomial distribution ( $n$ and $x$ ) must be integers. The smoothness of Figure 5.2 (left) is an illusion, because $n=200$ is fairly large. There is no way of getting 101.25 heads in 200 coin tosses.
   \item You probably can explain the theory behind it: You first encountered the binomial distribution in high school. Remember Pascal's triangle? To end up with exactly $x$ heads in $n$ flips in a particular sequence occurs with probability $p^{x}(1-p)^{(n-x)}$, for each of the $\binom{n}{x}$ distinct flip sequences.
   \item It is sort of bell-shaped: For a fair coin $(p=0.5)$, the binomial distribution is perfectly symmetrical, with the mean in the middle. This is not true\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-140}
     \caption{The probability density function (pdf) of the normal distribution (left) with its corresponding cumulative density function (cdf) on right.\\}
 \end{figure}
+\end{itemize}
 in the lightbulb case: if we only turn on the bulb $n=1000$ times, the most likely number of failures will be zero. This rings just half the bell in Figure 5.2. That said, as $n \rightarrow \infty$ we will get a symmetric distribution peaking at the mean.
 
 \begin{itemize}
@@ -3373,7 +3382,7 @@ An amazing number of naturally-occurring phenomenon are modeled by the normal di
 Physical phenomenon like height, weight, and lifespan all have bell-shaped distributions, by similar arguments. Yet the claim that such distributions are normal is usually made too casually, without precisely specifying the underlying population. Is human height normally distributed? Certainly not: men and women have different mean heights and associated distributions. Is male height normally distributed? Certainly not: by including children in the mix and shrinking senior citizens you again have the sum of several different underlying distributions. Is the height of adult males in the United States normal? No, probably not even then. There are non-trivial populations with growth disorders\\
 %---- Page End Break Here ---- Page : 141
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-142}
     \caption{The normal distribution implies tight bounds on the probability of lying far from the mean. $68 \%$ of the values must lie within one sigma of the mean, and $95 \%$ within $2 \sigma$, and $99.7 \%$ within $3 \sigma$.\\}
@@ -3416,14 +3425,14 @@ $$
 Once you start thinking the right way, many distributions begin to look Poisson, because they represent intervals between rare events.
 
 Recall the binomial distribution lightbulb model from the previous section. This made it easy to compute the expected number of changes in Figure 5.2 (right), but not the lifespan distribution, which is Poisson. Figure 5.5 plots the associated Poisson distribution for $\mu=1 / p=1000$, which shows that we should\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-144}
     \caption{The lifespan distribution of lightbulbs with an expected life of $\mu=$ 1000 hours, as modeled by a Poisson distribution.\\}
 \end{figure}
 %---- Page End Break Here ---- Page : 143
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-144(1)}
     \caption{The lifespan distribution of lightbulbs with an expected life of $\mu=$ 1000 hours, as modeled by a Poisson distribution.\\}
@@ -3436,7 +3445,7 @@ Alternately, suppose we model the number of children by a process where the fami
 Under such a model, family size should be modeled as a Poisson distribution, where every day there is a small but non-zero probability of a breakdown that results in shutting down the factory.
 
 How well does the "I've had it" model work to predict family size? The polygonal line in Figure 5.6 represents the Poisson distribution with the parameter $\lambda=2.2$, meaning families have an average of 2.2 kids. The points represent the fraction of families with $k$ children, drawn from the 2010 U.S. General Social\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-145}
     \caption{The population of U.S. cities by decreasing rank (left). On the right is the same data, now including the very largest cities, but plotted on a log-log scale. That they sit on a line is indicative of a power law distribution.}
@@ -3576,11 +3585,12 @@ P(k=X)=C^{\prime}(k)=C(X \leq k+\delta)-C(X \leq k), \text { and }
 $$
 
 \begin{center}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth]{2025_03_17_ca60ec0bfd96dcf8e028g-149}
     \caption{The inverse transform sampling method enables us to convert a random number generated uniformly from $[0,1]$ (here 0.729 ) to a random sample drawn from any distribution, given its cdf.}
 \end{figure}
+\end{center}
 
 
 %---- Page End Break Here ---- Page : 148
@@ -3598,7 +3608,7 @@ If you are working with a popular probability distribution in a well-supported l
 Correctly sampling from a given distribution becomes a very subtle problem once you increase the number of dimensions. Consider the task of sampling points uniformly from within a circle. Think for a moment about how you might do this before we proceed.\\
 %---- Page End Break Here ---- Page : 149
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-150}
     \caption{Randomly generating 10,000 points by angle-radius pairs clearly oversamples near the origin of the circle (left). In contrast, Monte Carlo sampling generates points uniformly within the circle (right).}
@@ -3617,7 +3627,7 @@ The efficiency here depends entirely upon the ratio of the desired region volume
 Total revenue generated by arcades\\
 correlates with\\
 Computer science doctorates awarded in the US\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-151}
     \caption{the number of Computer Science Ph.Ds awarded each year in the United States strongly correlates with video/pinball arcade revenue. (from \cite{vigen2015spurious})}
@@ -3632,7 +3642,7 @@ The discipline of statistics comes into its own in making subtle distinctions ab
 
 \subsection{The Significance of Significance}
 Statistical significance measures our confidence that there is a genuine difference between two given distributions. This is important. But statistical significance does not measure the importance or magnitude of this difference. For large\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-152}
     \caption{Pairs of normal distributions with the same variance, but decreasing difference in their means from left to right. As the means get closer, the greater overlap between the distributions makes it harder to tell them apart.\\}
@@ -3661,11 +3671,12 @@ A reasonable threshold for a small effect size is $>0.2$, medium effect $>0.5$, 
   \item Pearson's correlation coefficient $r$ : Measures the degree of linear relationship between two variables, on a scale from -1 to 1 . The thresholds for effect sizes are comparable to the mean shift: small effects start at $\pm 0.2$,\\
 %---- Page End Break Here ---- Page : 152
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-153}
     \caption{Pairs of normal distributions with the same difference in their means but increasing variance, from left to right. As the variance increases, there becomes greater overlap between the distributions, making it harder to tell them apart.\\}
 \end{figure}
+\end{itemize}
 medium effects about $\pm 0.5$, and large effect sizes require correlations of $\pm 0.8$.
 
 \begin{itemize}
@@ -3725,7 +3736,7 @@ The t-test compares two samples drawn from presumably normal distributions accor
 This is illustrated in Figure 5.13 The cdfs of the two different samples are plotted on the same chart. If the two samples are drawn from the same distribution, the ranges of $x$ values should largely overlap. Further, since both\\
 %---- Page End Break Here ---- Page : 155
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-156}\\
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-156(1)}
@@ -3797,11 +3808,12 @@ $$
 
 \footnotetext{${ }^{4}$ I have always thought that "The Bonferroni Correction" would make a fabulous title for an action movie. Dwayne Johnson as Bonferroni?
 }
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-159}
     \caption{The Benjamini-Hochberg procedure minimizes false discovery rate, by accepting $p$-values only when $p_{i} \leq \alpha i / m$. The blue curve shows the sorted $p$ values, and the diagonal defines the cutoff for when such a $p$-value is significant.}
 \end{figure}
+%---- Page End Break Here ---- Page : 158
 
 The situation is illustrated in Figure 5.14 The $p$-values are sorted in increasing order from left to right, as denoted by the irregular blue curve. If we were accepting all $p$-values less than $\alpha$, we accept too many. This is why Bonferroni developed his correction. But requiring all $p$-values to meet the standard of the Bonferroni correction (where the curve crosses $\alpha / m$ ) is too stringent.
 
@@ -3840,7 +3852,7 @@ I went back to Rachel and made her fess up. It turns out her mother had an unusu
 Indeed, we can compute the number of the older-cousins (c) that must be invited to yield a $50 / 50$ chance that I would be younger than the median guest, assuming the rest of the 251 guests were selected at random. It turns out that\\
 %---- Page End Break Here ---- Page : 160
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-161}
     \caption{Permutation tests reveal the significance of the correlation between gender and the height (left). A random assignment of gender to height (center) results in a substantially different distribution of outcomes when sorted (right), validating the significance of the original relationship.\\}
@@ -3855,7 +3867,7 @@ Traditional statistical significance tests prove quite effective at deciding whe
 Permutation tests allow a more general and computationally idiot-proof way to establish significance. If your hypothesis is supported by the data, then\\
 %---- Page End Break Here ---- Page : 161
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-162(1)}\\
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-162}
@@ -3904,7 +3916,7 @@ $$
 Think about this carefully: the difference here is very subtle. It is so subtle you might not even notice it in the code. The critical difference is the 1 or $i$ in the call to Random. One of these algorithms is right and one of these algorithms is wrong. If you think you can tell, convincingly explain why one works and the other one doesn't.
 
 If you really must know, the first algorithm is the correct one. It picks a random element from 1 to $n$ for the first position, then leaves it alone and\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-164}
     \caption{The generation frequency of all $4!=24$ permutations using two different algorithms. Algorithm 1 generates them with uniform frequency, while algorithm 2 is substantially biased.\\}
@@ -3925,7 +3937,7 @@ But back in 1941, Joe DiMaggio succeeded in getting hits in 56 straight games, a
 But how unusual was such a long streak in the context of his career? DiMag-\\
 %---- Page End Break Here ---- Page : 164
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-165}
     \caption{The distribution of longest hitting streaks, over 100,000 simulated careers. DiMaggio's actual 56 -game hitting streak stands at the very tail of this distribution, thus demonstrating the difficulty of this feat.\\}
@@ -3942,11 +3954,12 @@ The results are shown in Figure 5.18. In only 44 of 100,000 simulated careers ( 
 
 \footnotetext{${ }^{5}$ Not if you are taking one of my classes, I tell you.
 }
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-166}
     \caption{Bayes' Theorem in action.\\}
 \end{figure}
+%---- Page End Break Here ---- Page : 165
 longest streak of any major league hitter is only 44 games, so it is out of line with everyone else as well. But he also once hit in 61 straight games at a lower level of competition, so he seems to have had an extraordinary capacity for consistency.
 
 Hitting streaks can be thought of as runs between games without hits, and so can be modeled using a Poisson distribution. But Monte Carlo simulations provide answers without detailed mathematics. Permutation tests give us insight with minimal knowledge and intellectual effort.
@@ -4178,11 +4191,12 @@ These pairwise correlations are quite interesting. Why is height negatively corr
   \item Class breakdowns: Are there interesting ways to break things down by major categorical variables, like gender or location? Through summary\\
 %---- Page End Break Here ---- Page : 174
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-175}
     \caption{The array of dot plots of variable pairs provides quick insight into the distributions of data values and their correlations.\\}
 \end{figure}
+\end{itemize}
 statistics, you can gauge whether there is a difference among the distributions when conditioned on the category. Look especially where you think there should be differences, based on your understanding of the data and application.\\
 The correlations were generally similar by gender, but there were some interesting differences. For example, the correlation between height and weight is stronger for men ( 0.443 ) than women (0.297).
 
@@ -4235,11 +4249,12 @@ An extensive collection of software tools are available to support visualization
   \item Exploratory data analysis: Here we seek to perform quick, interactive explorations of a given data set. Spreadsheet programs like Excel and notebook-based programming environments like iPython, R, and Mathematica are effective at building the standard plot types. The key here is hiding the complexity, so the plotting routines default to doing something reasonable but can be customized if necessary.\\
 %---- Page End Break Here ---- Page : 176
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-177}
     \caption{Plots of the Ascombe quartet. These data sets are all dramatically different, even though they have identical summary statistics.}
 \end{figure}
+\end{itemize}
 
 \begin{itemize}
   \item Publication/presentation quality charts: Just because Excel is very popular does not mean it produces the best possible graphs/plots. The best visualizations are an interaction between scientist and software, taking full advantage of the flexibility of a tool to maximize the information content of the graphic.
@@ -4254,7 +4269,7 @@ Plotting libraries like MatPlotLib or Gnuplot support a host of options enabling
 Such systems can be readily built in programming languages like Python, using standard plotting libraries. There is also a class of third-party systems for building dashboards, like Tableau. These systems are programmable at a higher-level than other tools, supporting particular interaction paradigms and linked-views across distinct views of the data.\\
 %---- Page End Break Here ---- Page : 177
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-178}
     \caption{Which painting do you like better? Forming intelligent preferences in art or visualizations depend upon having a distinctive visual aesthetic.}
@@ -4274,11 +4289,12 @@ My visual aesthetic and vocabulary is largely derived from the books of Edward T
   \item Use proper scales and clear labeling: Accurate interpretation of data depends upon non-data elements like scale and labeling. Are your descriptive\\
 %---- Page End Break Here ---- Page : 178
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-179}
     \caption{Three-dimensional monoliths casting rendered shadows (l) may look impressive. But they really are just chartjunk, which serves to reduce the clarity and data-ink ratio from just showing the data (r).\\}
 \end{figure}
+\end{itemize}
 materials optimized for clarity and precision?
 
 \begin{itemize}
@@ -4324,7 +4340,7 @@ In the bottom rendering, the series looks flat: there is nothing to worry about 
 Which plot is right? People are generally used to seeing plots presented according to the Golden ratio, implying that the width should be about 1.6 times the height. Give this shape to them, unless you have well-developed reasons why it is inappropriate. Psychologists inform us that 45 degree lines are the most readily interpretable, so avoid shapes that substantially amplify or mute lines from this objective.\\
 %---- Page End Break Here ---- Page : 180
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-181}
     \caption{Three renderings of the same financial time series. Which most accurately represents the situation?}
@@ -4340,7 +4356,7 @@ Despite Tufte's formula, the lie factor cannot be computed mechanically, because
 
 \subsection{Minimizing Chartjunk}
 Extraneous visual elements distract from the message the data is trying to tell. In an exciting graphic, the data tells the story, not the chartjunk.\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-182}
     \caption{A monthly time series of sales. How can we improve/simplify this bar chart time series?}
@@ -4356,11 +4372,12 @@ The potential value of the data grid is that it facilitates more precise interpr
   \item Stop throwing shade (upper right): The colored background here contributes nothing to the interpretation of the graphic. Removing it increases the data-ink ratio, and makes it less obtrusive.
   \item Think outside the box (lower left): The bounding box does not really contribute information, particularly the upper and rightmost boundaries which do not define axes. Take them out, and let more air into your plots.
   \item Make missing ink work for you (lower right): The effect of the reference grid can be recovered by removing lines from the bars instead of adding elements. This makes it easier to compare the magnitude of biggest numbers, by focusing attention on big changes in the relatively small top piece, instead of small changes in the long bar.\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-183}
     \caption{Four successive simplifications of Figure 6.7 by removing extraneous non-data elements.}
 \end{figure}
+\end{itemize}
 
 
 %---- Page End Break Here ---- Page : 182
@@ -4373,7 +4390,7 @@ Reasonable people can differ as to whether to scale the axes over the full theor
 
 Figure 6.9 (left) was produced by a student of mine, presenting the correlation between two variables for almost a hundred languages. Because the correlation ranges between $[-1,1]$, he forced the plot to respect this interval. The vast sea of white in this plot captures only the notion that we might have done better, by getting the correlation closer to 1.0. But the chart is otherwise unreadable.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-184}
     \caption{(right) presents exactly the same data, but with a truncated scale. Now we can see where there are increases in performance as we move from left to right, and read off the score for any given language. Previously, the bars\\}
@@ -4393,7 +4410,7 @@ It is best when the colors are selected to have mnemonic values to link naturall
 Selecting colors to represent a numerical scale is a more difficult problem. Rainbow color maps are perceptually non-linear, meaning it is not obvious to anyone whether purple lies before or after green. Thus while plotting numbers in rainbow colors groups similar numbers in similar colors, the relative magnitudes are imperceptible without explicitly referencing the color scale. Figure 6.10 presents several color scales from Python's MatPlotLib, for comparison.\\
 %---- Page End Break Here ---- Page : 184
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-185}
     \caption{Color scales from Python's MatPlotLib, varying hue, saturation, and brightness. Rainbow color maps are perceptually non-linear, making it difficult to recognize the magnitudes of differences.}
@@ -4446,7 +4463,7 @@ left & center & right \\
 Left justifying numbers prevents such comparisons, so always be sure to right justify them.\\
 %---- Page End Break Here ---- Page : 186
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-187}
     \caption{A clever decision tree to help identify the best visual representation for representing data. Reprinted with permission from Abela [Abe13].}
@@ -4531,11 +4548,12 @@ United States & $298,444,215$ & $9,631,420$ & 30.99 & 6.50 & $\mathbf{3 7 , 8 0 
 \end{center}
 
 \begin{center}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth]{2025_03_17_ca60ec0bfd96dcf8e028g-190}
     \caption{Many of the line chart styles that we have seen are supported by Python's MatPlotLib package.}
 \end{figure}
+\end{center}
 
 \subsection{Dot and Line Plots}
 Dot and line plots are the most ubiquitous forms of data graphic, providing a visual representation of a function $y=f(x)$ defined by a set of $(x, y)$ points. Dot plots just show the data points, while line plots connect them or interpolate to define a continuous function $f(x)$. Figure 6.12 shows several different styles of line plots, varying in the degree of emphasis they give the points vs. the interpolated curve. Advantages of line charts include:
@@ -4563,11 +4581,12 @@ A second approach plots the standard deviation $\sigma$ around $y$ as a whisker,
 Box plots concisely record the range and distribution of values at a point with a box. This box shows the range of values from the quartiles ( $25 \%$ and $75 \%$ ), and is cut at the median (50th percentile). Typically whiskers\\
 %---- Page End Break Here ---- Page : 191
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-192}
     \caption{Box and whisker plots concisely show the range/quartiles (i.e. median and variance) of a distribution.\\}
 \end{figure}
+\end{itemize}
 (hairs) are added to show the range of the highest and lowest values. Figure 6.13 shows a box-and-whisker plot of weight as a function of height in a population sample. The median weight increases with height, but not the maximum, because fewer points in the tallest bucket reduces the chance for an outlier maximum value.
 
 Real scientists seem to love box-and-whisker plots, but I personally find them to be overkill. If you really can't represent the actual data points, perhaps just show the contour lines flanking your mean/median at the 25 th and 75 th percentiles. This conveys exactly the same information as the box in the box plot, with less chartjunk.
@@ -4580,11 +4599,12 @@ Indeed, connecting points by polylines is very often chartjunk. Trend or fit lin
 
 \begin{itemize}
   \item Use color and hatching to distinguish lines/classes: Often we are faced representing the same function $f(x)$ drawn over two or more classes, perhaps income as a function of schooling, separately for men and women.\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-193}
     \caption{Smaller dots on scatter plots (left) reveal more detail than the default dot size (right).}
 \end{figure}
+\end{itemize}
 
 
 %---- Page End Break Here ---- Page : 192
@@ -4604,7 +4624,7 @@ The scatter plots in Figure 6.14 show the BMI distribution for over 1,000 Americ
 Now we see a fine structure of a dense core, while still being able to detect the light halo of outliers. The default dot size for most plotting programs\\
 %---- Page End Break Here ---- Page : 193
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-194}
     \caption{Overlapping dots can obscure scatter plots, particularly for large data sets. Reducing the opacity of the dots (left) shows some of the fine structure of the data (left). But a colored heatmap more dramatically reveals the distribution of the points (right).\\}
@@ -4632,14 +4652,14 @@ Indeed Figure 6.16 neatly shows four dimensions (GDP, life expectancy, populatio
 Bar plots and pie charts are tools for presenting the relative proportions of categorical variables. Both work by partitioning a geometric whole, be it a\\
 %---- Page End Break Here ---- Page : 195
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-196}
     \caption{//www.gapminder.org}{http://www.gapminder.org}\\}
 \end{figure}
 %---- Page End Break Here ---- Page : 196
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-197}
     \caption{//www.gapminder.org}{http://www.gapminder.org}\\}
@@ -4654,14 +4674,15 @@ Certain critics get whipped into an almost religious fever against pie charts, b
 \begin{itemize}
   \item Directly label slices of the pie: Pie charts are often accompanied by legend keys labeling what each color slice corresponds to. This is very distracting, because your eyes must move back and forth between the key and the pie to interpret this.\\
 Much better is to label each slice directly, inside the slice or just beyond the rim. This has a secondary benefit of discouraging the use of too many slices, because slivers generally become uninterpretable. It helps to group the slivers into a single slice called other, and then perhaps present a\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-198}
     \caption{Small multiple bar plots/tables are excellent ways to represent multivariate data for comparison.\\}
 \end{figure}
+\end{itemize}
 %---- Page End Break Here ---- Page : 197
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-198(1)}
     \caption{Small multiple bar plots/tables are excellent ways to represent multivariate data for comparison.\\}
@@ -4675,7 +4696,7 @@ Stacked bar charts are concise, but harder to use for such purposes. Presenting 
   \item Scale appropriately, depending upon whether you seek to highlight absolute magnitude or proportion: Pie charts exist to represent fractions of the whole. In presenting a series of pie or bar charts, your most critical decision is whether you want to show the size of the whole, or instead the fractions of each subgroup.
 \end{itemize}
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-199}
     \caption{shows two stacked bar charts presenting survivorship statistics\\}
@@ -4693,7 +4714,7 @@ It should be clear that the three-dimensional effects and separation are pure ch
 The interesting properties of variables or features are defined by their underlying frequency distribution. Where is the peak of the distribution, and is the mode near the mean? Is the distribution symmetric or skewed? Where are the tails? Might it be bimodal, suggesting that the distribution is drawn from a mix of two or more underlying populations?\\
 %---- Page End Break Here ---- Page : 199
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-200}
     \caption{Time series of vote totals in U.S. presidential elections by party enable us to see the changes in magnitude and distribution. Democrats are shown in blue, and Republicans in red. It is hard to visualize changes, particularly in the middle layers of the stack.}
@@ -4705,19 +4726,19 @@ The biggest issue in building a histogram is deciding on the right number of bin
 
 
 It is impossible to give hard and fast rules to select the best bin count $b$ for showing off your data. Realize you will never be able to discriminate between more than a hundred bins by eye, so this provides a logical upper bound. In general, I like to see an average of 10 to 50 points per bin to make things smooth, so $b=\lceil n / 25\rceil$ gives a reasonable first guess. But experiment with different values of $b$, because the right bin count will work much better than the others. You will know it when you see it.\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-201}
     \caption{illustrates the consequences of bin size on the appearance of a histogram. The plots in the top row bin 100,000 points from a normal distribution into ten, twenty, and fifty buckets respectively. There are enough points to fill fifty buckets, and the distribution on right looks beautiful. The plots in the bottom row bin have only 100 points, so the thirty-bucket plot on right is sparse and scraggy. Here seven bins (shown on the left) seems to produce the most representative plot.}
 \end{figure}
 %---- Page End Break Here ---- Page : 201
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-202(1)}
     \caption{Histograms of a given distribution can look wildly different depending on the number of bins. A large data set benefits from many bins (top). But the structure of a smaller data set is best shown when each bin a non-trivial number of element.\\}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-202}
     \caption{Dividing counts by the total yields a probability density plot, which is more generally interpretable even though the shapes are identical.\\}
@@ -4731,7 +4752,7 @@ Best practices for histograms include:
   \item Consider the cdf: The cumulative density function (cdf) is the integral of the pdf, and the two functions contain exactly the same information. So consider using a cdf instead of a histogram to represent your distribution,\\
 %---- Page End Break Here ---- Page : 202
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-203}
     \caption{all that changes is the label on the $y$-axis. Yet the result is easier to interpret, because it is in terms of probabilities instead of counts.}
@@ -4750,7 +4771,7 @@ Maps use the spatial arrangement of regions to represent places, concepts, or th
 Traditional data maps use color or shading to highlight properties of the regions in the map. Figure 6.25 (left) colors each state according to whether they voted for Barack Obama (blue) or his opponent Mitt Romney (red) in the 2012 U.S. presidential election. The map makes clear the country's political divisions. The northeast and west coasts are as solidly blue as the Midwest and south are red.\\
 %---- Page End Break Here ---- Page : 203
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-204}
     \caption{\href{http://sciencenotes.org}{http://sciencenotes.org}}
@@ -4790,7 +4811,7 @@ Tufte points to E.J. Marey's railroad schedule as a landmark in graphical design
 Normal train schedules are tables, with a column for each train, a row for each station, and entry $(i, j)$ reporting the time train $j$ arrives at station $i$. Such tables are useful to tell us what time to arrive to catch our train. But Marey's\\
 %---- Page End Break Here ---- Page : 205
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-206}
     \caption{Marey's train schedule plots the position of each train as a function of time.\\}
@@ -4807,7 +4828,7 @@ A special case here is identifying periods when the train is idling in the stati
 The departure times for trains at a station are also there, of course. Each station is marked by a horizontal line, so look for the time when trains cross your station in the proper direction.\\
 %---- Page End Break Here ---- Page : 206
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-207}
     \caption{Cholera deaths center around a pump on Broad street, revealing the source of the epidemic.}
@@ -4823,7 +4844,7 @@ John Snow plotted cholera cases from an epidemic of 1854 on a street map of Lond
 Snow noticed a cluster of the cases centered on Broad Street. Further, at the center of the cluster was a cross, denoting a well where the residents got their drinking water. The source of the epidemic was traced to the handle of a single water pump. They changed the handle, and suddenly people stopped getting sick. This proved that cholera was an infectious disease caused by contaminated water, and pointed the way towards preventing it.\\
 %---- Page End Break Here ---- Page : 207
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-208}
     \caption{This weather year in review displays a clear story in over 2000 numbers.}
@@ -4846,7 +4867,7 @@ This single graphic is rich, clear, and informative. Be inspired by it.
 What you see isn't always what you get. I have seen many graphs brought to me by my students over the years. Some have been amazing, and most others good enough to get the job done.\\
 %---- Page End Break Here ---- Page : 208
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-209}
     \caption{A dotplot of word frequency by rank. What do you see?}
@@ -4867,14 +4888,14 @@ The problem is that this distribution is a power law, and plotting a power law o
 In bioinformatics, one seeks to discover how life works by looking at data. Figure 6.32 (left) presents a graph of the folding energy of genes as a function of their length. Look at this graph, and see if you can make a discovery.
 
 It is pretty clear that something is going on in there. For gene lengths above 1500 , the plot starts jumping around, producing some very negative values. Did\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-210}
     \caption{Frequency of 10,000 English words. Plotting the word frequencies on a $\log$ scale (left), or even better on a log-log scale reveals that it is power law (right).\\}
 \end{figure}
 %---- Page End Break Here ---- Page : 209
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-210(1)}
     \caption{Frequency of 10,000 English words. Plotting the word frequencies on a $\log$ scale (left), or even better on a log-log scale reveals that it is power law (right).\\}
@@ -4902,11 +4923,12 @@ Making data tell a story requires some insight into how to tell stories. Films a
 
 \footnotetext{1 \href{https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen}{https://www.ted.com/talks/hans\_rosling\_shows\_the\_best\_stats\_you\_ve\_ever\_seen}
 }
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-212}
     \caption{The TextMap dashboard for Barack Obama, circa 2008.\\}
 \end{figure}
+%---- Page End Break Here ---- Page : 211
 charts to present the history of social and economic development for all the world's nations.
 
 Recent trends in cloud-based visualization encourage you to upload your data to a site like Google Charts \href{https://developers.google.com/chart/}{https://developers.google.com/chart/}, so you can take advantage of interactive visualization tools and widgets that they provide. These tools produce very nice interactive plots, and are easy to use.
@@ -5143,7 +5165,7 @@ Certain machine learning models prove less opaque than others. Linear regression
 But the unfortunate truth is that blackbox modeling techniques such as deep learning can be extremely effective. Neural network models are generally completely opaque as to why they do what they do. Figure 7.1 makes this\\
 %---- Page End Break Here ---- Page : 222
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-223}
     \caption{\cite{nguyen2015deep}.\\}
@@ -5291,7 +5313,7 @@ But the best way to assess models involves out-of-sample predictions, results on
 Evaluating a classifier means measuring how accurately our predicted labels match the gold standard labels in the evaluation set. For the common case of two distinct labels or classes (binary classification), we typically call the smaller and more interesting of the two classes as positive and the larger/other class as negative. In a spam classification problem, the spam would typically be positive and the ham (non-spam) would be negative. This labeling aims to ensure that\\
 %---- Page End Break Here ---- Page : 229
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-230}
     \caption{What happens if we classify everyone of height $\geq 168$ centimeters as male? The four possible results in the confusion matrix reflect which instances were classified correctly (TP and TN) and which ones were not (FN and FP).\\}
@@ -5422,7 +5444,7 @@ A useful trick to increase the precision of a model at the expense of recall is 
 Defining a notion of confidence that your proposed classification is correct is the key to when you should pass on a question. Only venture a guess when your\\
 %---- Page End Break Here ---- Page : 233
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-234}
     \caption{The ROC curve helps us select the best threshold to use in a classifier, by displaying the trade-off between true positives and false positive at every possible setting. The monkey ROCs the main diagonal here.\\}
@@ -5462,11 +5484,12 @@ This measure is good, because it gives us partial credit for getting close to th
 
 \footnotetext{${ }^{2}$ The strange name for this beast is a legacy of its original application, in tuning the performance of radar systems.
 }
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-236}
     \caption{the main diagonal reflects accurate classification.\\}
 \end{figure}
+%---- Page End Break Here ---- Page : 235
 $k=1$, this reduces to accuracy. For $k=d$, any possible label suffices, and the success rate is $100 \%$ by definition. Typical values are 3,5 , or 10 : high enough that a good classifier should achieve an accuracy above $50 \%$ and be visibly better than the monkey. But not too much better, because an effective evaluation should leave us with substantial room to do better. In fact, it is a good practice to compute the top $k$ rate for all $k$ from 1 to $d$, or at least high enough that the task becomes easy.
 
 An even more powerful evaluation tool is the confusion matrix $C$, a $d \times d$ matrix where $C[x, y]$ reports the number (or fraction) of instances of class $x$ which get labeled as class $y$.
@@ -5510,11 +5533,12 @@ The primary choices for the individual error function include:
   \item Absolute error: The value $\Delta=y^{\prime}-y$ has the virtue of being simple and symmetric, so the sign can distinguish the case where $y^{\prime}>y$ from\\
 %---- Page End Break Here ---- Page : 237
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-238}
     \caption{Error distribution histograms for random (left) and naive Bayes classifiers predicting the year of authorship for documents (right).\\}
 \end{figure}
+\end{itemize}
 $y>y^{\prime}$. The problem comes in aggregating these values into a summary statistic. Do offsetting errors like -1 and 1 mean that the system is perfect? Typically the absolute value of the error is taken to obliterate the sign.
 
 \begin{itemize}
@@ -5531,7 +5555,7 @@ It is a very good idea to plot a histogram of the absolute error distribution fo
 
 %---- Page End Break Here ---- Page : 238
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-239}
     \caption{presents the absolute error distributions from two models for predicting the year of authorship of documents from their word usage distribution. On the left, we see the error distribution for the monkey, randomly guessing a\\}
@@ -5745,7 +5769,7 @@ Jai-alai is a sport of Basque origin where opposing players or teams alternate h
 What makes jai-alai of particular interest is its unique and very peculiar scoring system. Each jai-alai match involves eight players, named 1 through 8 to reflect their playing order. Each match starts with players 1 and 2 playing, and the rest of the players waiting patiently in line. All players start the game with zero points each. Each point in the match involves two players; one who will win and one who will lose. The loser will go to the end of the line, while the winner will add to his point total and await the next point, until he has\\
 %---- Page End Break Here ---- Page : 246
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-247}
     \caption{Jai-alai is a fast, exciting ball game like handball, but you can bet on it.\\}
@@ -6011,7 +6035,7 @@ If you have never seen such a proof before, you might find it convincing, even t
 What are the lessons from this proof? Proofs are about ideas, not just algebraic manipulation. No idea means no proof. To understand linear algebra, your goal should be to first validate the simplest interesting case (typically two dimensions) in order to build intuition, and then try to imagine how it might generalize to higher dimensions. There are always special cases to watch for, like division by zero. In linear algebra, these cases include dimensional mismatches\\
 %---- Page End Break Here ---- Page : 255
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-256}
     \caption{Points can be reduced to vectors on the unit sphere, plus magnitudes.\\}
@@ -6038,7 +6062,7 @@ $$
 $$
 
 Let's try to parse this formula. The $\|V\|$ symbol means "the length of $V$." For unit vectors, this is, by definition, equal to 1 . In general, it is the quantity by which we must divide $V$ by to make it a unit vector.\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-257}
     \caption{The dot product of two vectors defines the cosine of the angle between them.}
@@ -6064,7 +6088,7 @@ Take-Home Lesson: The dot product of two vectors measures similarity in exactly 
 I assume that you have had some previous exposure to the basic matrix operations of transposition, multiplication, and inversion. This section is intended as a refresher, rather than an introduction.\\
 %---- Page End Break Here ---- Page : 257
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-258}
     \caption{Lincoln (left) and his memorial (right). The center image is a linear combination of left and right, for $\alpha=0.5$.}
@@ -6098,7 +6122,7 @@ $$
 The transpose of a square matrix is a square matrix, so $M$ and $M^{T}$ can safely be added or multiplied together. More generally, the transpose is an operation that is used to orient a matrix so it can be added to or multiplied by its target.\\
 %---- Page End Break Here ---- Page : 258
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-259}
     \caption{Lincoln (left) and its transposition (right). The sum of a matrix and its transposition is symmetric along its main diagonal (right).}
@@ -6217,7 +6241,7 @@ On the face of it, matrix multiplication is an ungainly operation. When I was fi
 The reason we care about matrix multiplication is that there are many things we can do with it. We will review these applications here.\\
 %---- Page End Break Here ---- Page : 260
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-261}
     \caption{The Lincoln memorial $M$ (left) and its covariance matrices. The big block in the middle of $M \cdot M^{T}$ (center) results from the similarity of all rows from the middle stripe of $M$. The tight grid pattern of $M^{T} \cdot M$ (right) reflects the regular pattern of the columns on the memorial building.}
@@ -6272,7 +6296,7 @@ The most famous rearrangement matrix does nothing at all. The identity matrix is
 
 $P=\left(\begin{array}{llll}0 & 0 & 1 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 1 & 0 & 0\end{array}\right) \quad M=\left(\begin{array}{llll}11 & 12 & 13 & 14 \\ 21 & 22 & 23 & 24 \\ 31 & 32 & 33 & 34 \\ 41 & 42 & 43 & 44\end{array}\right) \quad P M=\left(\begin{array}{llll}31 & 32 & 33 & 34 \\ 11 & 12 & 13 & 14 \\ 41 & 42 & 43 & 44 \\ 21 & 22 & 23 & 24\end{array}\right)$
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-263}
     \caption{Multiplying a matrix by a permutation matrix rearranges its rows and columns.\\}
@@ -6354,7 +6378,7 @@ In matrix multiplication, the identity element is the identity matrix, with all 
 The inverse operation is about taking an element $x$ down to its identity element. For numerical addition, the inverse of $x$ is $(-x)$, because $x+(-x)=0$. The inverse operation for multiplication is called division. We can invert a number by multiplying it by its reciprocal, since $x \cdot(1 / x)=1$.
 
 People do not generally talk about dividing matrices. However, they very frequently go about inverting them. We say $A^{-1}$ is the multiplicative inverse\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-265}
     \caption{The inverse of Lincoln does not look much like the man (left) but $M \cdot M^{-1}$ produces the identity matrix, modulo small non-zero terms due to numerical precision issues.\\}
@@ -6497,7 +6521,7 @@ Unfortunately, finding such factorizations is problematic. Factoring integers is
 Many important machine learning algorithms can be viewed in terms of factoring a matrix. Suppose we are given an $n \times m$ feature matrix $A$ where, as per the\\
 %---- Page End Break Here ---- Page : 268
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-269}
     \caption{Factoring a feature matrix $A \approx B C$ yields $B$ as a more concise representation of the items and $C$ as a more concise representations of the features $A^{T}$.\\}
@@ -6534,7 +6558,7 @@ The other importance of LU decomposition is in yielding an algorithm to compute 
 
 %---- Page End Break Here ---- Page : 270
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-271}
     \caption{illustrates the LU decomposition of the Lincoln memorial. There is a distinct texture visible to the two triangular matrices. This particular LU decomposition function (in Mathematica) took advantage of the fact that the equations in a system can be permuted with no loss of information. The same does not hold true for images, but we see accurate reconstructions of the white columns of the memorial, albeit out of position.\\}
@@ -6672,12 +6696,12 @@ Thus the covariance matrix can be represented by its eigenvalue decomposition. T
 However, by using only the vectors associated with the largest eigenvalues we get a good approximation of the matrix. The smaller dimensions contribute very little to the matrix values, and so they can be excluded with little resulting error. This dimension reduction method is very useful to produce smaller, more effective feature sets.\\
 %---- Page End Break Here ---- Page : 273
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-274}
     \caption{The Lincoln memorial's biggest eigenvector suffices to capture much of the detail of its covariance matrix.\\}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-274(1)}
     \caption{The Lincoln memorial's biggest eigenvector suffices to capture much of the detail of its covariance matrix.\\}
@@ -6694,7 +6718,7 @@ Eigenvalue decomposition is a very good thing. But it only works on symmetric ma
 The singular value decomposition of an $n \times m$ real matrix $M$ factors it into three matrices $U, D$, and $V$, with dimensions $n \times n, n \times m$, and $m \times m$ respec-\\
 %---- Page End Break Here ---- Page : 274
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-275}
     \caption{Singular value matrices in the decomposition of Lincoln, for 50 singular values.\\}
@@ -6721,7 +6745,7 @@ Putting this together, matrix $M$ can be expressed as the sum of outer products 
 
 \footnotetext{${ }^{2}$ Should $M$ contain convex numbers, then this generalizes to $M=U D V^{*}$, where $V^{*}$ means the conjugate transpose of $V$.
 }
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-276}
     \caption{Lincoln's face reconstructed from 5 (left) and 50 (center) singular values, with the error for $k=50$ (right).}
@@ -6741,7 +6765,7 @@ Principal components analysis (PCA) is a closely related technique for reducing 
 The principal components define the axes of an ellipsoid best fitting the points. The origin of this set of axes is the centroid of the points. PCA starts by identifying the direction to project the points on to so as to explain the maximum amount of variance. This is the line through the centroid that, in some sense, best fits the points, making it analogous to linear regression. We can then project each point onto this line, with this point of intersection defining a particular position on the line relative to the centroid. These projected\\
 %---- Page End Break Here ---- Page : 276
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-277(1)}\\
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-277}
@@ -6904,7 +6928,7 @@ Linear regression is the most representative "machine learning" method to build 
 \end{itemize}
 
 Linear regression is a bread-and-butter modeling technique that should serve as your baseline approach to building data-driven models. These models are typically easy to build, straightforward to interpret, and often do quite well in practice. With enough skill and toil, more advanced machine learning techniques might yield better performance, but the possible payoff is often not worth the effort. Build your linear regression models first, then decide whether it is worth working harder to achieve better results.\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-283}
     \caption{Linear regression produces the line which best fits a set of points.}
@@ -6921,7 +6945,7 @@ There is a connection between regression and solving linear equations, which is 
 The distinction between points and lines proves trivial, because they both are really the same thing. In two-dimensional space, both points $(s, t)$ and lines $y=m x+b$ are defined by two parameters: $\{s, t\}$ and $\{m, b\}$, respectively. Further, by an appropriate duality transformation, these lines are equivalent to\\
 %---- Page End Break Here ---- Page : 283
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-284}
     \caption{Points are equivalent to lines under a duality transform. The point $(4,8)$ in red (left) maps to the red line $y=4 x-8$ on right. Both sets of three collinear points on the left correspond to three lines passing through the same point on right.\\}
@@ -6948,7 +6972,7 @@ $$
 This is what we will care about, but note that it is not the only way that error might have been defined. The closest distance to the line is in fact defined\\
 %---- Page End Break Here ---- Page : 284
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-285}
     \caption{The residual error in least squares is the projection of $y_{i}-f(X)$ down to $X$, not the shortest distance between the line and the point.\\}
@@ -7007,11 +7031,12 @@ w=\left(A^{T} A\right)^{-1} A^{T} b .
 $$
 
 \begin{center}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth]{2025_03_17_ca60ec0bfd96dcf8e028g-287}
     \caption{Removing outlier points (left) can result in much more meaningful fits (right).}
 \end{figure}
+\end{center}
 
 
 %---- Page End Break Here ---- Page : 286
@@ -7055,7 +7080,7 @@ Extra features can also be used to capture non-linear interactions between pairs
 However, explicit inclusion of all possible non-linear terms quickly becomes intractable. Adding all powers $x^{i}$ for $1 \leq i \leq k$ will blow up the data matrix by a factor of $k$. Including all product pairs among $n$ variables is even worse, making the matrix $n(n+1) / 2$ times larger. One must be judicious about which nonlinear terms to consider for a role in the model. Indeed, one of the advantages\\
 %---- Page End Break Here ---- Page : 288
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-289}
     \caption{Higher-order models (red) can lead to better fits than linear models (green).\\}
@@ -7213,7 +7238,7 @@ $$
 The sum of squares errors should be clear, but where does the $1 /(2 n)$ come from? The $1 / n$ turns this into an average error per row, and the $1 / 2$ is a common convention for technical reasons. But be clear that the $1 /(2 n)$ in no way effects the results of the optimization. This multiplier will be the same for each $\left(w_{0}, w_{1}\right)$ pair, and so has no say in which parameters get chosen.\\
 %---- Page End Break Here ---- Page : 294
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-295}
     \caption{The best possible regression line $y=w_{1} x$ (left) can be found by identifying the $w_{1}$ that minimizes the error of the fit, defined by the minima of a convex function.}
@@ -7231,7 +7256,7 @@ Figure 9.6 (right) shows how the fitting error (loss) varies with $w_{1}$. The i
 Any convex surface has exactly one local minima. Further, for any convex search space it is quite easy to find this minima: just keep walking in a downward direction until you hit it. From every point on the surface, we can take a small step to a nearby point on the surface. Some directions will take us up to a\\
 %---- Page End Break Here ---- Page : 295
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-296}
     \caption{Linear regression defines a convex parameter space, where each point represents a possible line, and the minimum point defines the best fitting line.\\}
@@ -7248,7 +7273,7 @@ Bottom line: the analysis of such derivatives can tell us which functions are an
 We can find the minima of a convex function simply by starting at an arbitrary point, and repeatedly walking in a downward direction. There is only one point\\
 %---- Page End Break Here ---- Page : 296
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-297}
     \caption{The tangent line approximates the derivative at a point.\\}
@@ -7296,7 +7321,7 @@ Gradient descent search operates in rounds: find the best direction, take a step
 However, bigger isn't always better. If the learning rate is too high, we might jump past the minima, as shown in Figure 9.10 (right). This might mean slow\\
 %---- Page End Break Here ---- Page : 298
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-299(1)}\\
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-299}
@@ -7315,7 +7340,7 @@ However, even worse things happen when our loss function is not convex, meaning 
 Local optimization can easily get stuck in local minima for non-convex functions. Suppose we want to reach the top of a ski slope from our lodge in the valley. If we start by walking up to the second floor of the lodge, we will get trapped forever, unless there is some mechanism for taking steps backwards to free us from the local optima. This is the value of search heuristics like simulated annealing, which provides a way out of small local optima to keep us advancing towards the global goal.\\
 %---- Page End Break Here ---- Page : 299
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-300}
     \caption{Gradient descent search finds local minima for non-convex surfaces, but does not guarantee a globally optimum solution.}
@@ -7447,7 +7472,7 @@ We are often faced with the challenge of assigning items the right label accordi
 Classification is the problem of predicting the right label for a given input record. The task differs from regression in that labels are discrete entities, not continuous function values. Trying to pick the right answer from two possibilities might seem easier than forecasting open-ended quantities, but it is also a lot easier to get dinged for being wrong.\\
 %---- Page End Break Here ---- Page : 304
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-305}
     \caption{The optimal regression line cuts through the classes, even though a perfect separator line $(x=0)$ exists.}
@@ -7470,7 +7495,7 @@ Numbering these classes as $0 / 1$ works fine for binary classifiers. By convent
 The negative/ 1 class generally denotes the rarer or more special case. There is no value judgment intended here by positive/negative: indeed, when the classes are of equal size the choice is made arbitrarily.
 
 We might consider training a regression line $f(x)$ for our feature vector $x$ where the target values are these $0 / 1$ labels, as shown in Figure 9.12 There is some logic here. Instances similar to positive training examples should get lower scores than those closer to negative instances. We can threshold the value returned by $f(x)$ to interpret it as a label: $f(x) \leq 0.5$ means that $x$ is positive. When $f(x)>0.5$ we instead assign the negative label.\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-306}
     \caption{A separating line partitions two classes in feature space (left). However, non-linear separators are better at fitting certain training sets (right).}
@@ -7492,12 +7517,12 @@ Any set of points can be perfectly partitioned, if we design a complicatedenough
 More generally, we may be interested in non-linear but low-complexity decision boundaries, if they better separate the class boundaries. The ideal sep-\\
 %---- Page End Break Here ---- Page : 306
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-307(1)}
     \caption{Linear classifiers cannot always separate two classes (left). However, perfect separation achieved using complex boundaries usually reflects overfitting more than insight (right).\\}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-307}
     \caption{Linear classifiers cannot always separate two classes (left). However, perfect separation achieved using complex boundaries usually reflects overfitting more than insight (right).\\}
@@ -7549,7 +7574,7 @@ The only remaining question is how to fit the coefficient vector $w$ to the trai
 Let us first consider the case where $y_{i}$ really is 1 . Ideally $f\left(x_{i}\right)=1$ in this case, so we want to penalize it for being smaller than 1 . Indeed, we want to punish it aggressively when $f\left(y_{i}\right) \rightarrow 0$, because that means that the classifier is stating that element $i$ has little chance of being in class- 1 , when that actually is the case.\\
 %---- Page End Break Here ---- Page : 308
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-309}
     \caption{Cost penalties for positive (blue) and negative (right) elements. The penalty is zero if the correct label is assigned with probability 1 , but increasing as a function of misplaced confidence.}
@@ -7575,11 +7600,12 @@ J(w) & =\frac{1}{n} \sum_{i=1}^{n} \operatorname{cost}\left(f\left(x_{i}, w\righ
 $$
 
 \begin{center}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth]{2025_03_17_ca60ec0bfd96dcf8e028g-310}
     \caption{The logistic regression classifier best separating men and women in weight-height space. The red region contains 229 women and only 63 men, while the blue region contains 223 men to 65 women.}
 \end{figure}
+\end{center}
 
 
 %---- Page End Break Here ---- Page : 309
@@ -7612,11 +7638,12 @@ This formulation is brittle, however. These identical data records might create 
   \item Weigh the rare training examples more heavily than instances of the bigger class: The loss function for parameter optimization contains a separate term for the error of each training instance. Adding a coefficient to ascribe more weight to the most important instances leaves a convex optimization problem, so it can still be optimized by stochastic gradient descent.\\
 %---- Page End Break Here ---- Page : 311
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-312}
     \caption{Multi-class classification problems are a generalization of binary classification.}
 \end{figure}
+\end{itemize}
 
 The problem with all three of these solutions is that we bias the classifier, by changing the underlying probability distribution. It is important for a classifier to know that terrorists are extremely rare in the general population, perhaps by specifying a Baysian prior distribution.
 
@@ -7634,7 +7661,7 @@ Consider the hair-color numbering above. Should red hair lie between brown and b
 Certain sets of classes are properly defined by ordinal scales. For example, consider classes formed when people grade themselves on survey questions like "Skiena's class is too much work" or "How many stars do you give this movie?"\\
 %---- Page End Break Here ---- Page : 312
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-313}
     \caption{Voting among multiple one-vs.-rest classifiers is generally the best way to do multi-class classification.}
@@ -7801,7 +7828,7 @@ The Euclidean distance is a metric, which is why these conditions seem so natura
 By contrast, it is not immediately obvious that certain well-known distance functions are metrics, such as edit distance used in string matching. Instead of making assumptions, prove or disprove each of the four basic properties, to be sure you understand what you are working with.\\
 %---- Page End Break Here ---- Page : 319
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-320}
     \caption{Many different paths across a grid have equal Manhattan $\left(L_{1}\right)$ distance.}
@@ -7821,7 +7848,7 @@ The parameter $k$ provides a way to trade off between the largest and the total 
 Similarly, the $L_{1}$ or Manhattan distance is the total sum of the deviations between the dimensions. Everything is linear, so a difference of 1 in each of two dimensions is the same as a difference of 2 in only one dimension. Because we cannot take advantage of diagonal short-cuts, there are typically many possible shortest paths between two points, as shown in Figure 10.1
   \item Euclidean distance $(k=2)$ : This is the most popular distance metric, offering more weight to the largest dimensional deviation without overwhelming the lesser dimensions.
   \item Maximum component $(k=\infty)$ : As the value of $k$ increases, smaller dimensional differences fade into irrelevance. If $a>b$, then $a^{k} \gg b^{k}$. Taking the $k$ th root of $a^{k}+b^{k}$ approaches $a$ as $b^{k} / a^{k} \rightarrow 0$.\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-321(1)}\\
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-321}\\
@@ -7829,6 +7856,7 @@ Similarly, the $L_{1}$ or Manhattan distance is the total sum of the deviations 
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-321(2)}
     \caption{The shape of circles defining equal distances changes with $k$.}
 \end{figure}
+\end{itemize}
 
 
 %---- Page End Break Here ---- Page : 320
@@ -7991,7 +8019,7 @@ The idea here is simple. We use the nearest labeled neighbor to a given query po
 The Bible exhorts us to love thy neighbor. There are three big advantages to nearest neighbor methods for classification:\\
 %---- Page End Break Here ---- Page : 326
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-327}
     \caption{The decision boundary of nearest-neighbor classifiers can be nonlinear.}
@@ -8029,7 +8057,7 @@ More robust classification or interpolation follows from voting over multiple cl
 Consider Figure 10.4 which attempts to build a gender classifier from data\\
 %---- Page End Break Here ---- Page : 328
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-329}
     \caption{The effect of $k$ on the decision boundary for gender classification using $k$-NN. Compare $k=3$ (left) and $k=10$ (right) with $k=1$ in Figure 10.3 .\\}
@@ -8045,7 +8073,7 @@ There are potential asymmetries concerning geometric nearest neighbors. Every po
 The idea of nearest neighbor classification can be generalized to function interpolation, by averaging the values of the $k$ nearest points. This is presumably done by real-estate websites like \href{http://www.zillow.com}{www.zillow.com} to predict housing prices from nearest neighbors. Such averaging schemes can be generalized by non-uniform\\
 %---- Page End Break Here ---- Page : 329
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-330}
     \caption{Data structures for nearest neighbor search include Voronoi diagrams (left) and $k d$-trees (right).\\}
@@ -8062,11 +8090,12 @@ One approach to speeding up the search involves the use of geometric data struct
 The boundaries of Voronoi diagrams are defined by the perpendicular bisectors between pairs of points $(a, b)$. Each bisector cuts the space in half: one half containing $a$ and the other containing $b$, such that all points on $a$ 's half are closer to $a$ than $b$, and visa versa.\\
 Voronoi diagrams are a wonderful tool for thinking about data, and have many nice properties. Efficient algorithms for building them and searching them exist, particularly in two dimensions. However, these procedures rapidly become more complex as the dimensionality increases, making them generally impractical beyond two or three dimensions.
   \item Grid indexes: We can carve up space into $d$-dimensional boxes, by dividing the range of each dimension into $r$ intervals or buckets. For example,\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-331}
     \caption{A grid index data structure provides fast access to nearest neighbors when the points are uniformly distributed, but can be inefficient when points in certain regions are densely clustered.\\}
 \end{figure}
+\end{itemize}
 %---- Page End Break Here ---- Page : 330
 
 consider a two-dimensional space where each axis was a probability, thus ranging from 0 to 1 . This range can be divided into $r$ equal-sized intervals, such that the $i$ th interval ranges between $[(i-1) / r, i / r]$.\\
@@ -8099,7 +8128,7 @@ How can we build such locality sensitive hash functions? The idea is easiest to 
 Let us consider an arbitrary line $l_{1}$ through the origin of this circle, which cuts the circle in half, as in Figure 10.7. Indeed, we can randomly select $l_{1}$ by simply picking a random angle $0 \leq \theta_{1}<2 \pi$. This angle defines the slope of a line passing through the origin $O$, and together $\theta_{1}$ and $O$ completely specify $l_{1}$. If randomly chosen, $l_{1}$ should grossly partition the vectors, putting about half of them on the left and the remainder on the right.\\
 %---- Page End Break Here ---- Page : 332
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-333}
     \caption{Nearby points on the circle generally lie on the same side of random lines through the origin. Locality-sensitive hash codes for each point can be composed as a sequence of sidedness tests (left or right) for any specific sequence of lines.}
@@ -8135,7 +8164,7 @@ Many other modern data sets are naturally modeled in terms of graphs or networks
 Graphs and point sets are closely related objects. Both are composed of discrete entities (points or vertices) representing items in a set. Both of them encode important notions of distance and relationships, either near-far or connectedindependent. Point sets can be meaningfully represented by graphs, and graphs by point sets.\\
 %---- Page End Break Here ---- Page : 334
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-335}
     \caption{The pairwise distances between a set of points in space (left) define a complete weighted graph (center). Thresholding by a distance cutoff removes all long edges, leaving a sparse graph that captures the structure of the points (right).}
@@ -8174,11 +8203,12 @@ There is a vocabulary about graphs that is important to know for working with th
   \item Undirected vs. Directed: A graph $G=(V, E)$ is undirected if edge $(x, y) \in$ $E$ implies that $(y, x)$ is also in $E$. If not, we say that the graph is directed. Road networks between cities are typically undirected, since any large road has lanes going in both directions. Street networks within cities are almost\\
 %---- Page End Break Here ---- Page : 336
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-337}
     \caption{Important properties/flavors of graphs\\}
 \end{figure}
+\end{itemize}
 always directed, because there are at least a few one-way streets lurking somewhere. Webpage graphs are typically directed, because the link from page $x$ to page $y$ need not be reciprocated.
 
 \begin{itemize}
@@ -8303,7 +8333,7 @@ These high-PageRank figures are all readily recognized as very significant peopl
 The Linnaeus example points out a possible weakness of PageRank: do we really want plants and other inanimate objects voting on who the most promi-\\
 %---- Page End Break Here ---- Page : 341
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-342}
     \caption{PageRank graphs for Barack Obama, over all Wikipedia pages (left) and when restricted only to people (right)\\[0pt]}
@@ -8318,7 +8348,7 @@ PageRank on this graph favors a slightly different cohort of people, shown in Ta
 Clustering is the problem of grouping points by similarity. Often items come from a small number of logical "sources" or "explanations", and clustering is a good way to reveal these origins. Consider what would happen if an alien species were to come across height and weight data for a large number of humans. They would presumably figure out that there seem to be two clusters representing distinct populations, one consistently bigger than the other. If the aliens were really on the ball, they might call these populations 'men" and "women". Indeed, the two height-weight clusters in Figure 10.11 are both highly\\
 %---- Page End Break Here ---- Page : 342
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-343}
     \caption{Clustering people in weight-height space, using 2-means clustering. The left cluster contains 240 women and 112 men, while the right cluster contains 174 men to 54 women. Compare this to the logistic regression classifier trained on this same data set, in Figure 9.17 .\\}
@@ -8345,7 +8375,7 @@ How many clusters you see depends somewhat upon how many clusters you want to se
 Many different clustering algorithms have been developed, and we will review the most prominent methods ( $k$-means, agglomerative clustering, and spectral clustering) in the sections below. But it is easy to get too caught up in the differences between methods. If your data exhibits strong-enough clusters, any method is going to find something like it. But when an algorithm returns clusters with very poor coherence, usually your data set is more to blame than the algorithm itself.\\
 %---- Page End Break Here ---- Page : 344
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-345}
     \caption{How many clusters do you see here?}
@@ -8379,7 +8409,7 @@ Figure 10.14 presents an animation of $k$-means in action. The initial guesses f
 There are at least two possible criteria for computing a new estimate for the center point as a function of the set $S^{\prime}$ of points assigned to it. The centroid $C$ of a point set is computed by taking the average value of each dimension. For\\
 %---- Page End Break Here ---- Page : 346
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-347}
     \caption{The iterations of $k$-means (for $k=3$ ) as it converges on a stable and accurate clustering. Fully seven iterations are needed, because of the unfortunate placement of the three initial cluster centers near the logical center.\\}
@@ -8421,12 +8451,12 @@ The easiest way to find the right $k$ is to try them all, and then pick the best
 Both error curves show the MSE of points from their centers decreasing as we allow more and more cluster centers. But the wrong interpretation would\\
 %---- Page End Break Here ---- Page : 348
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-349(1)}
     \caption{Running $k$-means for $k=1$ to $k=9$. The "right" clustering is found for $k=3$, but the algorithm is unable to properly distinguish between nested circular clusters and long thin clusters for large $k$.\\}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-349}
     \caption{Running $k$-means for $k=1$ to $k=9$. The "right" clustering is found for $k=3$, but the algorithm is unable to properly distinguish between nested circular clusters and long thin clusters for large $k$.\\}
@@ -8446,7 +8476,7 @@ The $k$-means algorithm is the most prominent example of a class of learning alg
 The names "expectation" and "maximization" have no particular resonance to me in terms of the $k$-means algorithm. However, the general form of an iterative parameter-fitting algorithm which improves parameters in rounds based on the errors of the previous models does seem a sensible thing to do. For example, perhaps we might have partially labeled classification data, where there are relatively few training examples confidently assigned to the correct class. We can build classifiers based on these training examples, and use them to assign the unlabeled points to candidate classes. This presumably defines larger training sets, so we should be able to fit a better model for each class. Now reassigning the points and iterating again should converge on a better model.\\
 %---- Page End Break Here ---- Page : 350
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-351}
     \caption{Agglomerative clustering of gene expression data.}
@@ -8476,11 +8506,12 @@ Agglomerative clustering returns a tree on top of the groupings of items. After 
   \item Efficient classification of new items: One important application for clustering is classification. Suppose have agglomeratively clustered the prod-\\
 %---- Page End Break Here ---- Page : 352
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-353}
     \caption{Four distance measures for identifying the nearest pair of clusters.\\}
 \end{figure}
+\end{itemize}
 ucts in a store, to build a taxonomy of clusters. Now a new part comes along. What category should it be classified under?
 
 For $k$-means, each of the $c$ clusters are categorized by their centroid, so classifying a new item $q$ reduces to computing the distance between $q$ and all $c$ centroids to identify the nearest cluster. A hierarchical tree provides a potentially faster method. Suppose we have precomputed the centroids of all the leaves on the left and right subtrees beneath each node. Identifying the right position in the hierarchy for a new item $q$ starts by comparing $q$ to the centroids of the root's left and right subtrees. The nearest of the two centroids to $q$ defines the appropriate side of the tree, so we resume the search there one level down. This search takes time proportional to the height of the tree, instead of the number of leaves. This is typically an improvement from $n$ to $\log n$, which is much better.
@@ -8493,12 +8524,12 @@ The basic agglomerative clustering algorithm is simple enough to be described in
 All that remains is to specify how to compute the distance between clusters. When the clusters contain single items, the answer is easy: use your favorite distance metric like $L_{2}$. But there are several reasonable answers for the distance\\
 %---- Page End Break Here ---- Page : 353
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-354}
     \caption{Single linkage clustering is equivalent to finding the minimum spanning tree of a network.\\}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-354(1)}
     \caption{Single linkage clustering is equivalent to finding the minimum spanning tree of a network.\\}
@@ -8572,7 +8603,7 @@ Each clustering is described by a partition of the universal set, and may have m
 Recall our initial discussion of clustering, where I asked asked how many clusters you saw in the point set repeated in Figure 10.21 . To come up with the reasonable answer of nine clusters, your internal clustering algorithm had to manage tricks like classifying a ring around a central blob as two distinct clusters, and avoid merging two lines that move suspiciously close to each other. $k$-means doesn't have a chance of doing this, as shown in Figure 10.21 (left), because it always seeks circular clusters and is happy to split long stringy clusters. Of the agglomerative clustering procedures, only single-link with exactly the right threshold might have a chance to do the right thing, but it is easily fooled into merging two clusters by a single close point pair.
 
 Clusters are not always round. Recognizing those that are not requires a high-enough density of points that are sufficiently contiguous that we are not\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-357}
     \caption{The results of $k$-means (left) and cut-based spectral clustering (right) on our 9 -cluster example. Spectral clustering correctly finds connected clusters here that $k$-means cannot.\\}
@@ -8598,11 +8629,12 @@ W(C)=\sum_{x \in C} \sum_{y \in C} S[i, j]
 $$
 
 \begin{center}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth]{2025_03_17_ca60ec0bfd96dcf8e028g-358}
     \caption{Low weight cuts in similarity graphs identify natural clusters.}
 \end{figure}
+\end{center}
 
 
 %---- Page End Break Here ---- Page : 357
@@ -8994,11 +9026,12 @@ A decision tree is a binary branching structure used to classify an arbitrary in
 
 \footnotetext{${ }^{2}$ It means to throw someone out the window.
 }
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-372}
     \caption{Simple decision tree for predicting mortality on the Titanic.}
 \end{figure}
+%---- Page End Break Here ---- Page : 371
 
 The decision tree partitions training examples into groups of relatively uniform class composition, so the decision then becomes easy. Figure 11.3 presents an example of a decision tree, designed to predict your chances of surviving the shipwreck of the Titanic. Each row/instance travels a unique root-to-leaf path to classification. The root test here reflects the naval tradition of women and children first: $73 \%$ of the women survived, so this feature alone is enough to make a prediction for women. The second level of the tree reflects children first: any male 10 years or older is deemed out of luck. Even the younger ones must pass one final hurdle: they generally made it to a lifeboat only if they had brothers and sisters to lobby for them.
 
@@ -9060,7 +9093,7 @@ We seek the predicate $p^{\prime}$ which maximizes this information gain, as the
 Alternate measures of purity have been defined and are used in practice. The Gini impurity is based on another quantity $\left(f_{i}\left(1-f_{i}\right)\right)$, which is zero in\\
 %---- Page End Break Here ---- Page : 374
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-375}
     \caption{The exclusive OR function cannot be fit by linear classifiers. On the left, we present four natural clusters in $x-y$ space. This demonstrates the complete inability of logistic regression to find a meaningful separator, even though a small decision tree easily does the job (right).\\}
@@ -9197,11 +9230,12 @@ The example in Figure 11.7 shows a final classifier as the linear sum of three t
 
 \footnotetext{${ }^{3}$ Consider two classifiers, one which calls class $C_{0}$ if $x_{i} \geq t_{i}$, the other of which calls class $C_{1}$ if $x_{i} \geq t_{i}$. The first classifier is right exactly when the second one is wrong, so one of these two must be at least $50 \%$.
 }
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-380}
     \caption{The final classifier is a weighted ensemble that correctly classifies all points, despite errors in each component classifier which are highlighted in red.\\}
 \end{figure}
+%---- Page End Break Here ---- Page : 379
 decision trees, each with exactly one node. The weights assigned by AdaBoost are not uniform, but not so crazily skewed in this particular instance that they behave different than a majority classifier. Observe the non-linear decision boundary, resulting from the discrete nature of thresholded tests/decision trees.
 
 Boosting is particularly valuable when applied to decision trees as the elementary classifiers. The popular gradient boosted decision trees (GBDT) approach typically starts with a universe of small trees, with perhaps four to ten nodes each. Such trees each encode a simple-enough logic that they do not overfit the data. The relative weights assigned to each of these trees follows from a training procedure, which tries to fit the errors from the previous rounds (residuals) and increases the weights of the trees that correctly classified the harder examples.
@@ -9216,7 +9250,7 @@ Take-Home Lesson: Boosting can take advantage of weak classifiers in an effectiv
 Support vector machines (SVMs) are an important way of building non-linear classifiers. They can be viewed as a relative of logistic regression, which sought\\
 %---- Page End Break Here ---- Page : 380
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-381}
     \caption{SVMs seek to separate the two classes by the largest margin, creating a channel around the separating line.\\}
@@ -9232,11 +9266,12 @@ There are several properties that help define the maximum margin separator betwe
   \item The actual separating channel is defined by its contact with a small number of the red and blue points, where "a small number" means at most twice the number of dimensions of the points, for well-behaved point sets avoiding $d+1$ points lying on any $d$-dimensional face. This is different than with logistic regression, where all the points contribute to fitting the\\
 %---- Page End Break Here ---- Page : 381
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-382}
     \caption{Both logistic regression and SVMs produce separating lines between point sets, but optimized for different criteria.\\}
 \end{figure}
+\end{itemize}
 best position of the line. These contact points are the support vectors defining the channel.
 
 \begin{itemize}
@@ -9285,7 +9320,7 @@ SVMs define a hyperplane which separates the points from the two classes. Planes
 For a given point set to have a maximum margin separator, the two colors must first be linearly separable. But as we have seen this is not always the case. Consider the pathological case of Figure 11.10 (left), where the cluster of red\\
 %---- Page End Break Here ---- Page : 383
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-384(1)}\\
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-384}
@@ -9434,7 +9469,7 @@ Exactly why this happened remains somewhat of a mystery. It doesn't seem that th
 What distinguishes deep learning from other approaches is that it generally avoids feature engineering. Each layer in a neural network generally accepts as its input the output of its previous layer, yielding progressively higher-level features as we move up towards the top of the network. This serves to define a hierarchy of understanding from the raw input to the final result, and indeed\\
 %---- Page End Break Here ---- Page : 391
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-392}
     \caption{Deep learning networks have hidden layers of parameters.\\}
@@ -9469,7 +9504,7 @@ We do not impose any real vision of what each of these levels should represent, 
 The disadvantages of deeper networks is that they become harder to train\\
 %---- Page End Break Here ---- Page : 393
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-394}
     \caption{Addition networks do not benefit from depth. The two layer network (left) computes exactly the function as the equivalent one layer network (right).\\}
@@ -9486,7 +9521,7 @@ The example of Figure 11.13 seems to argue the converse. It shows addition netwo
 What it really shows is that we need more complicated, non-linear node activation functions $\phi(v)$ to take advantage of depth. Non-linear functions cannot be composed in the same way that addition can be composed to yield addition. This nonlinear activation function $\phi\left(v_{i}\right)$ typically operates on a weighted sum\\
 %---- Page End Break Here ---- Page : 394
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-395}\\
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-395(1)}
@@ -9637,11 +9672,12 @@ We see similar phenomena with last name tokens. Figure 11.16 presents a map of t
 
 \footnotetext{${ }^{5}$ Great care was taken throughout this project to preserve user privacy. The names of the email account owners were never included in the data, and all uncommon names were filtered out. To prevent any possible misinterpretation here, the examples shown are not really the contact lists for Brad Pitt, Donald Trump, and Xi Jinping.
 }
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-401}
     \caption{Visualization of the name embedding for the most frequent 5000 last names from email contact data, showing a two-dimensional projection view of the embedding (left). Insets from left to right highlight British (center), and Hispanic (right) names.}
 \end{figure}
+%---- Page End Break Here ---- Page : 400
 
 Asian regions in the map. Figure 11.17 presents insets for these two regions, revealing that one cluster consists of Chinese names and the other of Indian names.
 
@@ -9653,7 +9689,7 @@ The moral of this story is the power of word embeddings to effortlessly capture 
 Good introductions to machine learning include Bishop [\cite{bishop2007pattern}] and Friedman et al. [\cite{friedman2001elements}]. Deep learning is currently the most exciting area of machine learning, with the book by Goodfellow, Bengio, and Courville [\cite{goodfellow2016deep}] serving as the most comprehensive treatment.
 
 Word embeddings were introduced by Mikolov et al. [\cite{mikolov2013efficient}], along with their powerful implementation of word2vec. Goldberg and Levy [G14] have shown that word2vec is implicitly factoring the pointwise mutual information matrix of word co-locations. In fact, the neural network model is not really fundamental to what it is doing. Our DeepWalk approach to graph embeddings is described in Perozzi et al. [\cite{perozzi2014deepwalk}].\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-402}
     \caption{The two distinct Asian clusters in name space reflect different cultural groups. On the left, an inset showing Chinese/South Asian names. On the right, an inset from the cluster of Indian family names.}
@@ -10149,7 +10185,7 @@ Fortunately, it can be free to experiment. All the major cloud providers provide
 
 \subsection{MapReduce}
 Google's MapReduce paradigm for distributed computing has spread widely through open-source implementations like Hadoop and Spark. It offers a simple programming model with several benefits, including straightforward scaling to\\
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-425}
     \caption{Divide and conquer is the algorithmic paradigm of distributed computing.\\}
@@ -10200,11 +10236,12 @@ Emit(w, 1);
   \item Reduce: Make a sweep through the set of values $v$ associated with a specific key $k$, aggregating and processing accordingly. Pseudocode for the word count reducer is:\\
 %---- Page End Break Here ---- Page : 426
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[max width=\textwidth, center]{2025_03_17_ca60ec0bfd96dcf8e028g-427}
     \caption{Word count in action. Count combination has been performed before mapping to reduce the size of the map files.}
 \end{figure}
+\end{itemize}
 
 \begin{displayquote}
 Reduce(String term, Iterator $<$ Int $>$ values): int sum $=0 ;$\\

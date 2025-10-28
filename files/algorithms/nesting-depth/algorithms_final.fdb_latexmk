@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1761422355.59223 "algorithms_final.xdv" "algorithms_final.pdf" "algorithms_final" 1761422355.91478 0
-  "algorithms_final.xdv" 1761422352.61753 2663000 08a5787206847955e35c205a79be420a "xelatex"
+["xdvipdfmx"] 1761588833.05988 "algorithms_final.xdv" "algorithms_final.pdf" "algorithms_final" 1761588833.38421 0
+  "algorithms_final.xdv" 1761588830.02411 2664420 49928022566257c94a435c9cdecd1c30 "xelatex"
   (generated)
   "algorithms_final.pdf"
   (rewritten before read)
-["xelatex"] 1761422350.26232 "/Users/jrathi/Projects/pdf-2-latex/files/algorithms/nesting-depth/algorithms_final.tex" "algorithms_final.xdv" "algorithms_final" 1761422355.91341 2
-  "/Users/jrathi/Projects/pdf-2-latex/files/algorithms/nesting-depth/algorithms_final.tex" 1761422338.34694 1974522 badc0a6197b79c0e008d0bdea5b56dc3 ""
+["xelatex"] 1761588827.47531 "/Users/jrathi/Projects/pdf-2-latex/files/algorithms/nesting-depth/algorithms_final.tex" "algorithms_final.xdv" "algorithms_final" 1761588833.38277 2
+  "/Users/jrathi/Projects/pdf-2-latex/files/algorithms/nesting-depth/algorithms_final.tex" 1761588821.98912 1974722 63d58a04b23b556b6fbcee962ca9eb04 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -144,10 +144,10 @@
   "/usr/local/texlive/2025basic/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025basic/texmf-var/web2c/xetex/xelatex.fmt" 1741448333 5092505 adc40861f530b10866b2cb3b1638f0b6 ""
   "/usr/local/texlive/2025basic/texmf.cnf" 1741448314 628 81d1ada0f601fb1ffa62f1323192d946 ""
-  "algorithms_final.aux" 1761422352.61509 46557 06c0b47cde68b5ee0bd0770aac00bea9 "xelatex"
-  "algorithms_final.out" 1761422352.61725 43289 035bb56fff9644df5e45117db9139c03 "xelatex"
-  "algorithms_final.tex" 1761422338.34694 1974522 badc0a6197b79c0e008d0bdea5b56dc3 ""
-  "algorithms_final.toc" 1761422352.6175 22333 dee5781432f47733803dada265667b1a "xelatex"
+  "algorithms_final.aux" 1761588830.02145 46851 8fd65d39714c87e4336b33b369f75622 "xelatex"
+  "algorithms_final.out" 1761588830.02384 43289 035bb56fff9644df5e45117db9139c03 "xelatex"
+  "algorithms_final.tex" 1761588821.98912 1974722 63d58a04b23b556b6fbcee962ca9eb04 ""
+  "algorithms_final.toc" 1761588830.02408 22335 262d3e7ae3052ea789c5eb3dd307ca50 "xelatex"
   "images/2025_03_24_35eff77eaa66f5ad98acg-001.jpg" 1760218409.07818 100966 65008662af4907eadc2fee9eeb01484d ""
   "images/2025_03_24_35eff77eaa66f5ad98acg-022.jpg" 1760218409.07825 17232 fb68ad32ec826952af28756962db38aa ""
   "images/2025_03_24_35eff77eaa66f5ad98acg-023.jpg" 1760218409.07837 33365 cda41b4e037dbd4d1b94192ab458bd82 ""

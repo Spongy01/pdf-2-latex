@@ -15,6 +15,7 @@ import threading
 from pdf2image import convert_from_path
 from PIL import Image
 from dotenv import load_dotenv
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Load environment variables
 load_dotenv()
@@ -109,7 +110,7 @@ def get_api_response(prompt, text, model="gpt-5", use_cache=True):
                 {"role": "developer", "content": "You are a helpful assistant."},
                 {"role": "user", "content": f" {prompt}. Here is the text: {text}"}
             ],
-            temperature=0
+            temperature=1
         )
         response = completion.choices[0].message.content
         print("✅ Received response from OpenAI API.")
@@ -213,18 +214,16 @@ def process_bibliography(pdf_path=None, tex_path=None, output_json_path=None, ou
     # Read PDF using pymupdf
         try:
             pdf_document = pymupdf.open(pdf_path)
-            
-            bibliography = ""
-            for page in pdf_document:
-                bibliography += page.get_text()
+            print(f"📄 PDF opened successfully with {len(pdf_document)} pages")
         except Exception as e:
             print(f"Error reading PDF: {e}")
             return None
         
-        # Define prompt for OpenAI API
+        # Define prompt for page-by-page processing
         prompt = r""" 
+ 
 
-        I am going to pass the extracted text from a PDF file of a textbook. It contains a bibliography section. 
+        I am going to pass the extracted text from a SINGLE PAGE of a PDF file bibliography section. 
         I want you to extract the references mentioned in the bibliography section. This should be a dictionary and the dictionary's keys 
         should be the key given as [something] for the references in the text.
 
@@ -269,53 +268,92 @@ def process_bibliography(pdf_path=None, tex_path=None, output_json_path=None, ou
         Return ONLY and ONLY the dictionary (in JSON-style), so that I can use it in my code. Do not return any other text.
 
 
-        Here is the text: """
+        Here is the text from this page: """
         
-        print(f"Sending request to OpenAI API using model: {model}")
-        
-        # Get API response
-        try:
-            print("Debug check: Before API call")
-            api_response = get_api_response(prompt, bibliography, model=model, use_cache=use_cache)
-            print("Debug check: After API call")
+        # Define helper function to process a single page
+        def process_page(page_num, page):
+            """Process a single page and extract bibliography entries."""
+            page_text = page.get_text()
             
-            # Extract JSON content from API response
-            text_split = api_response.split("```json\n")
-            if len(text_split) > 1:
-                json_content = text_split[1].split("\n```")[0]
-            else:
-                # Try another format
-                text_split = api_response.split("```\n")
+            # Skip empty pages
+            if not page_text.strip():
+                return page_num + 1, None, f"⚠️ Page {page_num + 1} is empty, skipping"
+            
+            try:
+                print(f"   🚀 Sending page {page_num + 1} to API...")
+                api_response = get_api_response(prompt, page_text, model=model, use_cache=use_cache)
+                print(f"   ✅ Received response for page {page_num + 1}")
+            
+                # Extract JSON content from API response
+                text_split = api_response.split("```json\n")
                 if len(text_split) > 1:
                     json_content = text_split[1].split("\n```")[0]
                 else:
-                    # Assume the entire response is JSON
-                    json_content = api_response
+                    # Try another format
+                    text_split = api_response.split("```\n")
+                    if len(text_split) > 1:
+                        json_content = text_split[1].split("\n```")[0]
+                    else:
+                        # Assume the entire response is JSON
+                        json_content = api_response
+                
+                # Parse JSON content for this page
+                try:
+                    page_bib_dict = json.loads(json_content)
+                    print(f"   ✅ Extracted {len(page_bib_dict)} entries from page {page_num + 1}")
+                    return page_num + 1, page_bib_dict, f"✅ Processed {len(page_bib_dict)} entries"
+                except json.JSONDecodeError as e:
+                    print(f"   ⚠️ Failed to parse JSON from page {page_num + 1}: {e}")
+                    print(f"   Response was: {api_response[:200]}...")
+                    return page_num + 1, None, f"⚠️ Failed to parse JSON: {e}"
+                    
+            except Exception as e:
+                print(f"   ❌ Error processing page {page_num + 1}: {e}")
+                return page_num + 1, None, f"❌ Error: {e}"
+        
+        # Process bibliography page by page in parallel
+        print(f"🔄 Processing {len(pdf_document)} bibliography pages in parallel...")
+        
+        # Initialize combined dictionary to store all references
+        all_bib_entries = {}
+        
+        # Process all pages in parallel
+        with ThreadPoolExecutor(max_workers=30) as executor:
+            # Submit all page processing tasks
+            future_to_page = {
+                executor.submit(process_page, page_num, page): page_num 
+                for page_num, page in enumerate(pdf_document)
+            }
             
-            # Save JSON content
-            with open(output_json_path, "w") as f:
-                f.write(json_content)
-            
-            print(f"Bibliography JSON saved to: {output_json_path}")
-        except Exception as e:
-            print(f"Error in API processing: {e}")
-            
-            # Try to load existing JSON file if API fails
-            try:
-                with open(output_json_path, "r") as f:
-                    ds_bib_dict = json.load(f)
-                print(f"Loaded existing bibliography from: {output_json_path}")
-            except:
-                print(f"Could not load existing bibliography. Process failed.")
-                return None
-                # Parse JSON content
+            # Collect results as they complete
+            for future in as_completed(future_to_page):
+                page_num_index = future_to_page[future]
+                try:
+                    result_page_num, page_bib_dict, message = future.result()
+                    print(f"   Page {result_page_num}: {message}")
+                    
+                    # Merge entries if successful
+                    if page_bib_dict:
+                        for key, value in page_bib_dict.items():
+                            # Handle duplicate keys by appending page number
+                            if key in all_bib_entries:
+                                print(f"   ⚠️ Duplicate key '{key}' found, renaming to '{key}_p{result_page_num}'")
+                                key = f"{key}_p{result_page_num}"
+                            all_bib_entries[key] = value
+                            
+                except Exception as e:
+                    print(f"   ❌ Exception processing page {page_num_index + 1}: {e}")
+        
+        # Save combined JSON content
+        print(f"\n📝 Saving combined bibliography with {len(all_bib_entries)} entries...")
+        ds_bib_dict = all_bib_entries
+        
         try:
-            ds_bib_dict = json.loads(json_content)
-        except json.JSONDecodeError:
-            print("Failed to parse JSON from API response, attempting to load from file")
-            # If JSON parsing fails, try to load the file that was saved earlier
-            with open(output_json_path, "r") as f:
-                ds_bib_dict = json.load(f)
+            with open(output_json_path, "w") as f:
+                json.dump(ds_bib_dict, f, indent=2)
+            print(f"✅ Bibliography JSON saved to: {output_json_path}")
+        except Exception as e:
+            print(f"❌ Error saving bibliography JSON: {e}")
     
     # Save BibTeX file
     try:

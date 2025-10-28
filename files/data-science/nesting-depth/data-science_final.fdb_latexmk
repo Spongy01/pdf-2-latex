@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1761423531.40666 "data-science_final.xdv" "data-science_final.pdf" "data-science_final" 1761423531.90395 0
-  "data-science_final.xdv" 1761423531.04878 10713108 eadc56769ef85135e7e8734f85604284 "xelatex"
+["xdvipdfmx"] 1761588814.88044 "data-science_final.xdv" "data-science_final.pdf" "data-science_final" 1761588815.38296 0
+  "data-science_final.xdv" 1761588814.52197 10754756 6b112e4178f596e7ad916b07b5b74669 "xelatex"
   (generated)
   "data-science_final.pdf"
   (rewritten before read)
-["xelatex"] 1761423522.85206 "/Users/jrathi/Projects/pdf-2-latex/files/data-science/nesting-depth/data-science_final.tex" "data-science_final.xdv" "data-science_final" 1761423531.90192 2
-  "/Users/jrathi/Projects/pdf-2-latex/files/data-science/nesting-depth/data-science_final.tex" 1761423504.913 1135452 8ca87add46e137026a547127cc662752 ""
+["xelatex"] 1761588806.74571 "/Users/jrathi/Projects/pdf-2-latex/files/data-science/nesting-depth/data-science_final.tex" "data-science_final.xdv" "data-science_final" 1761588815.38042 2
+  "/Users/jrathi/Projects/pdf-2-latex/files/data-science/nesting-depth/data-science_final.tex" 1761588798.48121 1135869 b9e616bcc3d5f8ac6b7a0601c04d629f ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -133,10 +133,10 @@
   "/usr/local/texlive/2025basic/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025basic/texmf-var/web2c/xetex/xelatex.fmt" 1741448333 5092505 adc40861f530b10866b2cb3b1638f0b6 ""
   "/usr/local/texlive/2025basic/texmf.cnf" 1741448314 628 81d1ada0f601fb1ffa62f1323192d946 ""
-  "data-science_final.aux" 1761423531.04455 100749 f45929d6cd19152f3e7e2a64c9dcab8d "xelatex"
-  "data-science_final.out" 1761423531.04814 72590 f31e9215b98cbdf3ac6066737af9949e "xelatex"
-  "data-science_final.tex" 1761423504.913 1135452 8ca87add46e137026a547127cc662752 ""
-  "data-science_final.toc" 1761423531.04873 38132 ea85f73893bd662fec93b168c1cf8884 "xelatex"
+  "data-science_final.aux" 1761588814.51746 100749 b5bf2678f85ae494443e1c9d4cad17ea "xelatex"
+  "data-science_final.out" 1761588814.52137 72590 f31e9215b98cbdf3ac6066737af9949e "xelatex"
+  "data-science_final.tex" 1761588798.48121 1135869 b9e616bcc3d5f8ac6b7a0601c04d629f ""
+  "data-science_final.toc" 1761588814.5219 38132 62863db9b1a2475e3b9be0337cd186b2 "xelatex"
   "images/2025_03_17_ca60ec0bfd96dcf8e028g-001.jpg" 1760218409.45001 178502 656ed3191988334546c60a1482507203 ""
   "images/2025_03_17_ca60ec0bfd96dcf8e028g-023.jpg" 1760218409.45045 174002 4931d3d4a44cb4f322da92ce6b5f4534 ""
   "images/2025_03_17_ca60ec0bfd96dcf8e028g-024.jpg" 1760218409.45063 69953 114202ed18b312cad61b378d36d8384a ""

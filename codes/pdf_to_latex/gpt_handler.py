@@ -158,8 +158,15 @@ def process_tex_figures(input_path, output_path):
 
             new_lines.extend(figure_block)
 
-            # update last_appended_index to i; also if caption was below, skip it as well
+            # update last_appended_index to i; also if caption was below, preserve
+            # any intervening non-blank lines between the graphics group and caption
+            # (e.g., structural commands like \end{itemize}), then skip the caption line
             if caption_idx is not None and caption_idx > end:
+                # append intervening non-blank lines between end+1 and caption_idx (exclusive)
+                for k in range(end + 1, caption_idx):
+                    if lines[k].strip() != "":
+                        new_lines.append(lines[k])
+                # skip the caption line itself
                 last_appended_index = caption_idx + 1
             else:
                 last_appended_index = i

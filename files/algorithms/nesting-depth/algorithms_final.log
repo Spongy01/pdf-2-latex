@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  25 OCT 2025 15:59
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  27 OCT 2025 14:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -987,41 +987,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1114--1116
 
  []
 
-
-/Users/jrathi/Projects/pdf-2-latex/files/algorithms/nesting-depth/algorithms_fi
-nal.tex:1119: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1119 \begin{figure}[htbp]
-                           
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-/Users/jrathi/Projects/pdf-2-latex/files/algorithms/nesting-depth/algorithms_fi
-nal.tex:1119: Undefined control sequence.
-\@xfloat ...@fltovf \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.1119 \begin{figure}[htbp]
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/jrathi/Projects/pdf-2-latex/files/algorithms/nesting-depth/algorithms_fi
-nal.tex:1119: Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.1119 \begin{figure}[htbp]
-                           
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-042.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-042.jpg>
@@ -1034,32 +999,16 @@ mp)
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-042(1).jpg Graphic file (type b
 mp)
 <./images/2025_03_24_35eff77eaa66f5ad98acg-042(1).jpg>
-/Users/jrathi/Projects/pdf-2-latex/files/algorithms/nesting-depth/algorithms_fi
-nal.tex:1127: Missing $ inserted.
-<inserted text> 
-                $
-l.1127 
-       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-/Users/jrathi/Projects/pdf-2-latex/files/algorithms/nesting-depth/algorithms_fi
-nal.tex:1127: Missing \right. inserted.
-<inserted text> 
-                \right .
-l.1127 
-       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+LaTeX Warning: Float too large for page by 136.31657pt on input line 1126.
 
 
 
 [39]
 
 [40]
+
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 1187--1191
 
  []
@@ -1069,7 +1018,7 @@ Underfull \vbox (badness 2326) has occurred while \output is active []
 
 
 
-[41]
+[42]
 Overfull \hbox (11.99896pt too wide) in paragraph at lines 1201--1201
 []    \T1/lmtt/m/n/10 return(Multiply $(c y,\lfloor z / c\rfloor)+y \cdot(z \bm
 od c))$[] 
@@ -1077,9 +1026,9 @@ od c))$[]
 
 
 
-[42]
-
 [43]
+
+[44]
 Overfull \hbox (69.05754pt too wide) in paragraph at lines 1310--1314
 \T1/lmr/m/it/10 These pro-gram-ming chal-lenge prob-lems with robot judg-ing ar
 e avail-able at [][]https://onlinejudge.org[][] 
@@ -1087,9 +1036,9 @@ e avail-able at [][]https://onlinejudge.org[][]
 
 
 
-[44]
-
 [45]
+
+[46]
 Overfull \hbox (4.4363pt too wide) in paragraph at lines 1345--1345
 []\T1/lmr/bx/n/12 Best-Case, Worst-Case, and Average-Case Com-plex-
  []
@@ -1099,9 +1048,9 @@ File: ./images/2025_03_24_35eff77eaa66f5ad98acg-050.jpg Graphic file (type bmp)
 <./images/2025_03_24_35eff77eaa66f5ad98acg-050.jpg>
 
 
-[46]
-
 [47]
+
+[48]
 Underfull \hbox (badness 10000) in paragraph at lines 1395--1397
 
  []
@@ -1124,35 +1073,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 1406--1406
 
 
 
-[48]
-
 [49]
+
+[50]
 Underfull \hbox (badness 10000) in paragraph at lines 1416--1418
 
  []
 
 
 
-[50]
+[51]
 Overfull \hbox (66.97978pt too wide) in paragraph at lines 1470--1490
  [] 
  []
 
 
 
-[51]
-
 [52]
 
 [53]
 
 [54]
+
+[55]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-059.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-059.jpg>
 
-
-[55]
 
 [56]
 
@@ -1167,24 +1114,24 @@ File: ./images/2025_03_24_35eff77eaa66f5ad98acg-059.jpg Graphic file (type bmp)
 [61]
 
 [62]
+
+[63]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-066.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-066.jpg>
 
 
-[63]
+[64]
 Underfull \vbox (badness 2828) has occurred while \output is active []
 
 
 
-[64]
-
 [65]
+
+[66]
 Underfull \vbox (badness 1325) has occurred while \output is active []
 
 
-
-[66]
 
 [67]
 
@@ -1211,11 +1158,13 @@ Underfull \vbox (badness 1325) has occurred while \output is active []
 [78]
 
 [79]
+
+[80]
 Underfull \vbox (badness 4518) has occurred while \output is active []
 
 
 
-[80]
+[81]
 LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
 2491.
  (/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/ts1lmtt.fd
@@ -1230,8 +1179,6 @@ Package microtype Info: Character `texttrademark ' is missing
 (microtype)             Ignoring protrusion settings for this character.
 
 
-[81]
-
 [82]
 
 [83]
@@ -1239,12 +1186,12 @@ Package microtype Info: Character `texttrademark ' is missing
 [84]
 
 [85]
+
+[86]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-088.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-088.jpg>
 
-
-[86]
 
 [87]
 
@@ -1254,33 +1201,23 @@ File: ./images/2025_03_24_35eff77eaa66f5ad98acg-088.jpg Graphic file (type bmp)
 
 [90]
 
-
-Overfull \hbox (33.85931pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10 0.50.  STOP AND THINK: COMPARING DICTIONARY IMPLEMENTATIONS (I)
- \T1/lmr/m/n/10 91
- []
-
 [91]
 
 [92]
+
+
+Overfull \hbox (33.85931pt too wide) has occurred while \output is active
+\T1/lmr/m/sl/10 0.50.  STOP AND THINK: COMPARING DICTIONARY IMPLEMENTATIONS (I)
+ \T1/lmr/m/n/10 93
+ []
+
+[93]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-096.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-096.jpg>
 
 
-
-Overfull \hbox (37.7481pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/10 0.51.  STOP AND THINK: COMPARING DICTIONARY IMPLEMENTATIONS (II
-) \T1/lmr/m/n/10 93
- []
-
-[93]
-
 [94]
-File: ./images/2025_03_24_35eff77eaa66f5ad98acg-097.jpg Graphic file (type bmp)
-
-<./images/2025_03_24_35eff77eaa66f5ad98acg-097.jpg>
-
 
 
 Overfull \hbox (37.7481pt too wide) has occurred while \output is active
@@ -1289,37 +1226,41 @@ Overfull \hbox (37.7481pt too wide) has occurred while \output is active
  []
 
 [95]
+File: ./images/2025_03_24_35eff77eaa66f5ad98acg-097.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_35eff77eaa66f5ad98acg-097.jpg>
+
+
+[96]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-098.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-098.jpg>
 
 
-[96]
-
 [97]
 
 [98]
+
+[99]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-101.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-101.jpg>
 
 
-[99]
-
 [100]
+
+[101]
 Overfull \hbox (222.41103pt too wide) in paragraph at lines 3080--3098
  [] 
  []
 
 
 
-[101]
+[102]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-105.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-105.jpg>
 
-
-[102]
 
 
 Overfull \hbox (16.01147pt too wide) has occurred while \output is active
@@ -1328,6 +1269,8 @@ Overfull \hbox (16.01147pt too wide) has occurred while \output is active
  []
 
 [103]
+
+[104]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-106.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-106.jpg>
@@ -1338,12 +1281,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 3175--3175
 
 
 
-[104]
-File: ./images/2025_03_24_35eff77eaa66f5ad98acg-107.jpg Graphic file (type bmp)
-
-<./images/2025_03_24_35eff77eaa66f5ad98acg-107.jpg>
-
-
 
 Overfull \hbox (16.01147pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 0.58.  STOP AND THINK: BASIC PRIORITY QUEUE IMPLEMENTATIONS \T1
@@ -1351,6 +1288,10 @@ Overfull \hbox (16.01147pt too wide) has occurred while \output is active
  []
 
 [105]
+File: ./images/2025_03_24_35eff77eaa66f5ad98acg-107.jpg Graphic file (type bmp)
+
+<./images/2025_03_24_35eff77eaa66f5ad98acg-107.jpg>
+
 
 [106]
 
@@ -1361,12 +1302,12 @@ Overfull \hbox (16.01147pt too wide) has occurred while \output is active
  []
 
 [107]
+
+[108]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-110.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-110.jpg>
 
-
-[108]
 
 
 Overfull \hbox (16.01147pt too wide) has occurred while \output is active
@@ -1395,21 +1336,14 @@ Overfull \hbox (16.01147pt too wide) has occurred while \output is active
  []
 
 [113]
+
+[114]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-115.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-115.jpg>
 
 Underfull \hbox (badness 10000) in paragraph at lines 3412--3412
 
- []
-
-
-
-[114]
-Overfull \hbox (41.74222pt too wide) in paragraph at lines 3426--3426
-\T1/lmr/m/it/10 cate-na-tions of $\OML/cmm/m/it/10 AC; CA$\T1/lmr/m/it/10 , and
- $\OML/cmm/m/it/10 CC$ \T1/lmr/m/it/10 are $\OML/cmm/m/it/10 ACAC; ACCA; ACCC; 
-CAAC; CACA; CACC$\T1/lmr/m/it/10 , 
  []
 
 
@@ -1421,6 +1355,15 @@ Overfull \hbox (16.01147pt too wide) has occurred while \output is active
  []
 
 [115]
+Overfull \hbox (41.74222pt too wide) in paragraph at lines 3426--3426
+\T1/lmr/m/it/10 cate-na-tions of $\OML/cmm/m/it/10 AC; CA$\T1/lmr/m/it/10 , and
+ $\OML/cmm/m/it/10 CC$ \T1/lmr/m/it/10 are $\OML/cmm/m/it/10 ACAC; ACCA; ACCC; 
+CAAC; CACA; CACC$\T1/lmr/m/it/10 , 
+ []
+
+
+
+[116]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-117.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-117.jpg>
@@ -1431,8 +1374,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 3449--3449
 
 
 
-[116]
-
 
 Overfull \hbox (16.01147pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/10 0.58.  STOP AND THINK: BASIC PRIORITY QUEUE IMPLEMENTATIONS \T1
@@ -1440,11 +1381,11 @@ Overfull \hbox (16.01147pt too wide) has occurred while \output is active
  []
 
 [117]
+
+[118]
 Missing character: There is no ă ("103) in font ec-lmri10!
 Missing character: There is no ş ("15F) in font ec-lmri10!
 
-
-[118]
 
 [119]
 
@@ -1455,6 +1396,8 @@ Missing character: There is no ş ("15F) in font ec-lmri10!
 [122]
 
 [123]
+
+[124]
 Overfull \hbox (10.9277pt too wide) in paragraph at lines 3645--3646
 []\T1/lmr/m/it/10 3-3. [][]https://leetcode.com/problems/construct-binary-tree-
 from-preorder-and-
@@ -1465,9 +1408,9 @@ Underfull \vbox (badness 1205) has occurred while \output is active []
 
 
 
-[124]
-
 [125]
+
+[126]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-127.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-127.jpg>
@@ -1478,9 +1421,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 3707--3707
 
 
 
-[126]
-
 [127]
+
+[128]
 Overfull \hbox (1.63335pt too wide) in paragraph at lines 3732--3733
 []\T1/lmr/m/it/10 First sort the small set - The small set can be sorted in $\O
 ML/cmm/m/it/10 O\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 m [] m\OT1/cmr/m/n/10 )$
@@ -1488,11 +1431,11 @@ ML/cmm/m/it/10 O\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 m [] m\OT1/cmr/m/n/10 )$
 
 
 
-[128]
-
 [129]
 
 [130]
+
+[131]
 Overfull \hbox (4.16075pt too wide) in paragraph at lines 3818--3819
 \T1/lmr/m/it/10 Sorting is a nat-u-ral lab-o-ra-tory for study-ing al-go-rithm 
 de-sign paradigms,
@@ -1500,9 +1443,9 @@ de-sign paradigms,
 
 
 
-[131]
-
 [132]
+
+[133]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-133.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-133.jpg>
@@ -1513,11 +1456,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 3853--3853
 
 
 
-[133]
-
 [134]
 
 [135]
+
+[136]
 Overfull \hbox (1.2491pt too wide) in paragraph at lines 3951--3951
  []\T1/lmtt/m/n/10 void make_heap(priority_queue *q, item_type s[], int n) {[] 
 
@@ -1537,9 +1480,9 @@ Overfull \hbox (6.49908pt too wide) in paragraph at lines 3975--3975
 
 
 
-[136]
-
 [137]
+
+[138]
 Overfull \hbox (27.49902pt too wide) in paragraph at lines 4040--4040
  []\T1/lmtt/m/n/10 void make_heap_fast(priority_queue *q, item_type s[], int n)
  {[] 
@@ -1547,14 +1490,14 @@ Overfull \hbox (27.49902pt too wide) in paragraph at lines 4040--4040
 
 
 
-[138]
+[139]
 Overfull \hbox (2.63133pt too wide) in paragraph at lines 4056--4056
 []\T1/lmr/bx/n/14.4 Stop and Think: Where in the Heap? 
  []
 
 
 
-[139]
+[140]
 Overfull \hbox (27.49902pt too wide) in paragraph at lines 4079--4079
  []\T1/lmtt/m/n/10 int heap_compare(priority_queue *q, int i, int count, int x)
  {[] 
@@ -1574,13 +1517,13 @@ x);[]
 
 
 
-[140]
-
 [141]
 
 [142]
 
 [143]
+
+[144]
 Overfull \hbox (7.86797pt too wide) detected at line 4183
 [][]
  []
@@ -1595,9 +1538,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 4193--4193
 
 
 
-[144]
-
 [145]
+
+[146]
 Overfull \hbox (6.49908pt too wide) in paragraph at lines 4241--4241
  []\T1/lmtt/m/n/10 void merge(item_type s[], int low, int middle, int high) {[]
  
@@ -1629,7 +1572,7 @@ Overfull \hbox (32.74901pt too wide) in paragraph at lines 4241--4241
 
 
 
-[146]
+[147]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-147.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-147.jpg>
@@ -1641,7 +1584,7 @@ Overfull \hbox (11.74907pt too wide) in paragraph at lines 4298--4298
 
 
 
-[147]
+[148]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-148.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-148.jpg>
@@ -1652,7 +1595,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4308--4308
 
 
 
-[148]
+[149]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-149.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-149.jpg>
@@ -1663,9 +1606,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 4327--4327
 
 
 
-[149]
-
 [150]
+
+[151]
 Overfull \hbox (0.29697pt too wide) in paragraph at lines 4370--4371
 []\T1/lmr/m/it/10 whether a given nut and bolt fit to-gether, from which you le
 arn whether
@@ -1673,7 +1616,7 @@ arn whether
 
 
 
-[151]
+[152]
 Overfull \hbox (0.45555pt too wide) in paragraph at lines 4380--4381
 []\T1/lmr/m/it/10 Randomized quick-sort achieves the de-sired expected-case run
 -ning time,
@@ -1684,7 +1627,7 @@ File: ./images/2025_03_24_35eff77eaa66f5ad98acg-152.jpg Graphic file (type bmp)
 <./images/2025_03_24_35eff77eaa66f5ad98acg-152.jpg>
 
 
-[152]
+[153]
 Overfull \hbox (3.8433pt too wide) in paragraph at lines 4405--4406
 \T1/lmr/m/it/10 sult-ing twenty-six sort-ing prob-lems should each be sub-stan-
 tially smaller
@@ -1692,17 +1635,17 @@ tially smaller
 
 
 
-[153]
+[154]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-153.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-153.jpg>
 
 
-[154]
-
 [155]
 
 [156]
+
+[157]
 Overfull \hbox (1.77252pt too wide) in paragraph at lines 4459--4460
 \T1/lmr/m/it/10 aux-il-iary buffer, to avoid over-writ-ing the orig-i-nal el-e-
 ments to be sorted.
@@ -1710,12 +1653,12 @@ ments to be sorted.
 
 
 
-[157]
+[158]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[158]
+[159]
 Overfull \hbox (9.04645pt too wide) in paragraph at lines 4496--4496
 []\T1/lmr/bx/n/14.4 Applications of Sort-ing: In-ter-vals and
  []
@@ -1733,9 +1676,9 @@ L/cmm/m/it/10 ; \OT1/cmr/m/n/10 6)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (7\OML/cmm
 
 
 
-[159]
-
 [160]
+
+[161]
 Overfull \hbox (3.00414pt too wide) in paragraph at lines 4536--4536
 []\T1/lmr/m/it/10 Find a cor-rect and ef-fi-cient al-go-rithm for red-white-blu
 e sort-ing. There
@@ -1746,7 +1689,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[161]
+[162]
 Overfull \hbox (18.1129pt too wide) in paragraph at lines 4563--4563
 []\T1/lmr/m/it/10 4-36. [5] As-sume that the ar-ray $\OML/cmm/m/it/10 A\OT1/cmr
 /m/n/10 [1\OML/cmm/m/it/10 ::n\OT1/cmr/m/n/10 ]$ \T1/lmr/m/it/10 only has num-b
@@ -1755,7 +1698,7 @@ ers from $[]$
 
 
 
-[162]
+[163]
 Overfull \hbox (12.14322pt too wide) in paragraph at lines 4570--4570
 \T1/lmr/m/it/10 4-39. [5] In one of my re-search pa-pers [Ski88], I dis-cov-ere
 d a comparison-
@@ -1763,14 +1706,14 @@ d a comparison-
 
 
 
-[163]
-
 [164]
+
+[165]
 Underfull \vbox (badness 1337) has occurred while \output is active []
 
 
 
-[165]
+[166]
 Overfull \hbox (58.99893pt too wide) in paragraph at lines 4657--4657
  []\T1/lmtt/m/n/10 int binary_search(item_type s[], item_type key, int low, int
  high) {[] 
@@ -1778,11 +1721,11 @@ Overfull \hbox (58.99893pt too wide) in paragraph at lines 4657--4657
 
 
 
-[166]
-
 [167]
 
 [168]
+
+[169]
 Overfull \hbox (4.62106pt too wide) in paragraph at lines 4693--4694
 []\T1/lmr/m/it/10 Root-finding al-go-rithms con-verg-ing faster than bi-nary se
 arch are known
@@ -1804,19 +1747,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 4708--4708
 
 
 
-[169]
-
 [170]
 
 [171]
 
 [172]
+
+[173]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-170.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-170.jpg>
 
 
-[173]
+[174]
 Overfull \hbox (1.75865pt too wide) in paragraph at lines 4811--4812
 \T1/lmr/m/it/10 divide-andconquer al-go-rithm, given only the re-cur-rence as-s
 o-ci-ated with
@@ -1824,21 +1767,19 @@ o-ci-ated with
 
 
 
-[174]
-
 [175]
+
+[176]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-173.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-173.jpg>
 
 
-[176]
+[177]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-174.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-174.jpg>
 
-
-[177]
 
 [178]
 
@@ -1849,12 +1790,14 @@ File: ./images/2025_03_24_35eff77eaa66f5ad98acg-174.jpg Graphic file (type bmp)
 [181]
 
 [182]
+
+[183]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-179.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-179.jpg>
 
 
-[183]
+[184]
 Overfull \hbox (14.64227pt too wide) in paragraph at lines 5051--5052
 []\T1/lmr/m/it/10 Cross-correlation: For two time se-ries $\OML/cmm/m/it/10 A$ 
 \T1/lmr/m/it/10 and $\OML/cmm/m/it/10 B$\T1/lmr/m/it/10 , the cross-correlation
@@ -1863,7 +1806,7 @@ Overfull \hbox (14.64227pt too wide) in paragraph at lines 5051--5052
 
 
 
-[184]
+[185]
 Overfull \hbox (11.662pt too wide) in paragraph at lines 5086--5087
 \OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OMS/c
 msy/m/n/10 ^^@\OT1/cmr/m/n/10 2)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (0\OML/cmm/m
@@ -1879,8 +1822,6 @@ Overfull \hbox (36.37627pt too wide) in paragraph at lines 5089--5090
 
 
 
-[185]
-
 [186]
 
 [187]
@@ -1892,6 +1833,8 @@ Overfull \hbox (36.37627pt too wide) in paragraph at lines 5089--5090
 [190]
 
 [191]
+
+[192]
 Overfull \hbox (0.75148pt too wide) in paragraph at lines 5300--5301
 []\T1/lmr/m/it/10 The sum of prob-a-bil-i-ties of all out-comes adds to one: $[
 ][] \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 ) =
@@ -1899,7 +1842,7 @@ Overfull \hbox (0.75148pt too wide) in paragraph at lines 5300--5301
 
 
 
-[192]
+[193]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-189.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-189.jpg>
@@ -1910,7 +1853,7 @@ Overfull \hbox (10.36432pt too wide) detected at line 5347
 
 
 
-[193]
+[194]
 Overfull \hbox (32.68387pt too wide) detected at line 5380
 \OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 ) = \OML/c
 mm/m/it/10 P [] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 P [] \OT1/cmr/m/n/10 + \OML/
@@ -1922,13 +1865,13 @@ mm/m/it/10 =\OT1/cmr/m/n/10 4
 
 
 
-[194]
+[195]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-191.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-191.jpg>
 
 
-[195]
+[196]
 Overfull \hbox (2.62128pt too wide) in paragraph at lines 5434--5435
 []\T1/lmr/m/it/10 Central ten-dency mea-sures, which cap-ture the cen-ter aroun
 d which
@@ -1936,23 +1879,23 @@ d which
 
 
 
-[196]
+[197]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-192.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-192.jpg>
 
 
-[197]
+[198]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-193.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-193.jpg>
 
 
-[198]
-
 [199]
 
 [200]
+
+[201]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 5572.
@@ -1970,11 +1913,11 @@ Underfull \vbox (badness 3108) has occurred while \output is active []
 
 
 
-[201]
-
 [202]
 
 [203]
+
+[204]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-198.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-198.jpg>
@@ -1985,7 +1928,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5628--5628
 
 
 
-[204]
+[205]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-199.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-199.jpg>
@@ -1996,7 +1939,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5646--5646
 
 
 
-[205]
+[206]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-200.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-200.jpg>
@@ -2007,9 +1950,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 5667--5667
 
 
 
-[206]
-
 [207]
+
+[208]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-201.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-201.jpg>
@@ -2019,8 +1962,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 5693--5693
  []
 
 
-
-[208]
 
 [209]
 
@@ -2043,6 +1984,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 5693--5693
 [218]
 
 [219]
+
+[220]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-211.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-211.jpg>
@@ -2051,7 +1994,7 @@ File: ./images/2025_03_24_35eff77eaa66f5ad98acg-212.jpg Graphic file (type bmp)
 <./images/2025_03_24_35eff77eaa66f5ad98acg-212.jpg>
 
 
-[220]
+[221]
 Overfull \hbox (1.81573pt too wide) in paragraph at lines 5994--5995
 []\T1/lmr/m/it/10 Both of these struc-tures re-quire spe-cial care in im-ple-me
 nt-ing graph
@@ -2059,7 +2002,7 @@ nt-ing graph
 
 
 
-[221]
+[222]
 Overfull \hbox (0.77109pt too wide) in paragraph at lines 6017--6018
 []\T1/lmr/m/it/10 Implicit vs. ex-plicit - Cer-tain graphs are not ex-plic-itly
  con-structed
@@ -2067,15 +2010,15 @@ Overfull \hbox (0.77109pt too wide) in paragraph at lines 6017--6018
 
 
 
-[222]
+[223]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-215.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-215.jpg>
 
 
-[223]
-
 [224]
+
+[225]
 Overfull \hbox (4.31923pt too wide) in paragraph at lines 6060--6061
 \T1/lmr/m/it/10 mem-bers. Such graphs con-sist of di-rected edges from per-son/
 vertex
@@ -2091,16 +2034,16 @@ File: ./images/2025_03_24_35eff77eaa66f5ad98acg-217.jpg Graphic file (type bmp)
 <./images/2025_03_24_35eff77eaa66f5ad98acg-217.jpg>
 
 
-[225]
+[226]
 Overfull \hbox (44.57489pt too wide) in paragraph at lines 6117--6130
  [] 
  []
 
 
 
-[226]
-
 [227]
+
+[228]
 Overfull \hbox (268.99832pt too wide) in paragraph at lines 6163--6163
  []    \T1/lmtt/m/n/10 int degree[MAXV+1]; /* outdegree of each vertex */\index
 {discussion section}\index{problem descriptions}[] 
@@ -2114,7 +2057,7 @@ gnition}\index{connected components}[]
 
 
 
-[228]
+[229]
 Overfull \hbox (1.2491pt too wide) in paragraph at lines 6217--6217
  []\T1/lmtt/m/n/10 void insert_edge(graph *g, int x, int y, bool directed) {[] 
 
@@ -2131,37 +2074,37 @@ File: ./images/2025_03_24_35eff77eaa66f5ad98acg-221.jpg Graphic file (type bmp)
 <./images/2025_03_24_35eff77eaa66f5ad98acg-221.jpg>
 
 
-[229]
+[230]
 Overfull \hbox (63.39056pt too wide) in paragraph at lines 6252--6262
  [] 
  []
 
 
 
-[230]
+[231]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-223.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-223.jpg>
 
 
-[231]
-
 [232]
+
+[233]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-225.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-225.jpg>
 
 
-[233]
-
 [234]
+
+[235]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[235]
-
 [236]
+
+[237]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-228.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-228.jpg>
@@ -2170,7 +2113,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[237]
+[238]
 Overfull \hbox (37.999pt too wide) in paragraph at lines 6430--6430
  []\T1/lmtt/m/n/10 bool processed[MAXV+1]; /* which vertices have been processe
 d */[] 
@@ -2184,7 +2127,7 @@ Overfull \hbox (22.24904pt too wide) in paragraph at lines 6430--6430
 
 
 
-[238]
+[239]
 Overfull \hbox (100.99881pt too wide) in paragraph at lines 6466--6466
  []            \T1/lmtt/m/n/10 if ((!processed[y]) || g->directed) {\index{vert
 ex connectivity}[] 
@@ -2195,11 +2138,11 @@ Underfull \vbox (badness 6396) has occurred while \output is active []
 
 
 
-[239]
-
 [240]
 
 [241]
+
+[242]
 Overfull \hbox (6.49908pt too wide) in paragraph at lines 6583--6583
  []\T1/lmtt/m/n/10 void process_vertex_early(int v) { /* vertex to process */[]
  
@@ -2207,9 +2150,9 @@ Overfull \hbox (6.49908pt too wide) in paragraph at lines 6583--6583
 
 
 
-[242]
-
 [243]
+
+[244]
 Overfull \hbox (43.24898pt too wide) in paragraph at lines 6634--6634
  []        \T1/lmtt/m/n/10 printf("Warning: not bipartite, due to (%d,%d)\n", x
 , y);[] 
@@ -2217,15 +2160,15 @@ Overfull \hbox (43.24898pt too wide) in paragraph at lines 6634--6634
 
 
 
-[244]
+[245]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-236.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-236.jpg>
 
 
-[245]
-
 [246]
+
+[247]
 Overfull \hbox (100.99881pt too wide) in paragraph at lines 6737--6737
  []        \T1/lmtt/m/n/10 } else if (((!processed[y]) && (parent[v] != y)) || 
 (g->directed)) {[] 
@@ -2233,21 +2176,21 @@ Overfull \hbox (100.99881pt too wide) in paragraph at lines 6737--6737
 
 
 
-[247]
+[248]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-239.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-239.jpg>
 
 
-[248]
+[249]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-240.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-240.jpg>
 
 
-[249]
-
 [250]
+
+[251]
 Overfull \hbox (69.4989pt too wide) in paragraph at lines 6803--6803
  []\T1/lmtt/m/n/10 int reachable_ancestor[MAXV+1]; /* earliest reachable ancest
 or of v */[] 
@@ -2264,7 +2207,7 @@ File: ./images/2025_03_24_35eff77eaa66f5ad98acg-241.jpg Graphic file (type bmp)
 <./images/2025_03_24_35eff77eaa66f5ad98acg-241.jpg>
 
 
-[251]
+[252]
 Overfull \hbox (37.999pt too wide) in paragraph at lines 6833--6833
  []        \T1/lmtt/m/n/10 if (entry_time[y] < entry_time[reachable_ancestor[x]
 ]) {[] 
@@ -2291,7 +2234,7 @@ ot? */[]
 
 
 
-[252]
+[253]
 Overfull \hbox (53.74895pt too wide) in paragraph at lines 6867--6867
  []            \T1/lmtt/m/n/10 printf("parent articulation vertex: %d \n", pare
 nt[v]);[] 
@@ -2334,8 +2277,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 6890--6890
 
 
 
-[253]
-
 [254]
 
 [255]
@@ -2343,6 +2284,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 6890--6890
 [256]
 
 [257]
+
+[258]
 File: ./images/2025_03_24_35eff77eaa66f5ad98acg-245.jpg Graphic file (type bmp)
 
 <./images/2025_03_24_35eff77eaa66f5ad98acg-245.jpg>
@@ -2351,9 +2294,9 @@ Underfull \vbox (badness 4441) has occurred while \output is active []
 
 
 
-[258]
-
 [259]
+
+[260]
 Overfull \hbox (1.2491pt too wide) in paragraph at lines 7010--7010
  []    \T1/lmtt/m/n/10 print_stack(\&sorted); /* report topological order */[] 
 
@@ -2400,7 +2343,7 @@ e vertex and edge set as $G$ but with all edges reversed-that is, directed edge
 
 
 
-[260]
+[261]
 Overfull \hbox (699.49707pt too wide) in paragraph at lines 7034--7034
  []\T1/lmtt/m/n/10 Any path from $v$ to $z$ in $G^{T}$ corresponds to a path fr
 om $z$ to $v$ in $G$. By doing a second DFS, this one from $v$ in $G^{T}$, we i
@@ -2459,7 +2402,7 @@ is identical to topological sort:[]
 
 
 
-[261]
+[262]
 Overfull \hbox (2185.24275pt too wide) in paragraph at lines 7094--7094
  []\T1/lmtt/m/n/10 The second traversal, on the transposed graph, behaves like 
 the connected component algorithm of Section 7.7.1 (page 218), except we consid
@@ -2618,7 +2561,7 @@ time complexity of each algorithm, assuming $n$ vertices and $m$ edges.[]
 
 
 
-[262]
+[263]
 Overfull \hbox (914.74644pt too wide) in paragraph at lines 7267--7267
  []\T1/lmtt/m/n/10 (b) Convert from an adjacency list representation to an inci
 dence matrix. An incidence matrix $M$ has a row for each vertex and a column fo
@@ -2834,7 +2777,7 @@ Overfull \hbox (1.2491pt too wide) in paragraph at lines 7267--7267
 
 
 
-[263]
+[264]
 Overfull \hbox (830.74669pt too wide) in paragraph at lines 7267--7267
  []\T1/lmtt/m/n/10 (where $\delta(u, v)$ is the number of edges on the path fro
 m $u$ to $v$ ). Describe an efficient algorithm to compute the diameter of a tr
@@ -3056,7 +2999,7 @@ dgeless graph $G$ so the result is strongly connected.[]
 
 
 
-[264]
+[265]
 Overfull \hbox (121.99875pt too wide) in paragraph at lines 7267--7267
  []\T1/lmtt/m/n/10 7-42. [3] Which data structures are used in depth-first and 
 breath-first search?[] 
@@ -3107,7 +3050,7 @@ e again consists of an array of linked lists, such that the outgoing edges from
 
 
 
-[265]
+[266]
 Overfull \hbox (940.99637pt too wide) in paragraph at lines 7283--7283
  []\T1/lmtt/m/n/10 Each edgenode is a record containing three fields, the first
  describing the second endpoint of the edge (y), the second enabling us to anno
@@ -3250,7 +3193,7 @@ Overfull \hbox (373.99802pt too wide) in paragraph at lines 7334--7334
 
 
 
-[266]
+[267]
 Overfull \hbox (746.74693pt too wide) in paragraph at lines 7334--7334
  []\T1/lmtt/m/n/10 Figure 8.2: Does Prim\TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 s alg
 orithm go bad? No, because picking edge ( $x, y$ ) before ( $v_{1}, v_{2}$ ) im
@@ -3282,7 +3225,7 @@ owever, since the most recently inserted vertex is the only change in the tree,
 
 
 
-[267]
+[268]
 Overfull \hbox (1040.74608pt too wide) in paragraph at lines 7437--7437
  []\T1/lmtt/m/n/10 Prim\TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 s algorithm is correct
 , but how efficient is it? This depends on which data structures are used to im
@@ -3425,7 +3368,7 @@ t $n$ edges and $n$ vertices, thus yielding an $O(m n)$ algorithm.[]
 
 
 
-[268]
+[269]
 Overfull \hbox (2242.99258pt too wide) in paragraph at lines 7437--7437
  []\T1/lmtt/m/n/10 However, a faster implementation results if we can implement
  the component test in faster than $O(n)$ time. In fact, a clever data structur
@@ -3510,7 +3453,7 @@ rack of the number of elements in the subtree rooted in each vertex $v$ :[]
 
 
 
-[269]
+[270]
 Overfull \hbox (211.24849pt too wide) in paragraph at lines 7498--7498
  []\T1/lmtt/m/n/10 We implement our desired component operations in terms of tw
 o simpler operations, union and find:[] 
@@ -3550,7 +3493,7 @@ ed on the larger set of vertices.[]
 
 
 
-[270]
+[271]
 Overfull \hbox (2652.4914pt too wide) in paragraph at lines 7644--7644
  []\T1/lmtt/m/n/10 On each union, the tree with fewer nodes becomes the child. 
 But how tall can such a tree get as a function of the number of nodes in it? Co
@@ -3709,7 +3652,7 @@ is just a direct connection between two points. But sometimes a net can have 10
 
 
 
-[271]
+[272]
 Overfull \hbox (410.74791pt too wide) in paragraph at lines 7644--7644
  []\T1/lmtt/m/n/10 "I see. So you have a list of all the connections between pa
 irs of points on the circuit board, and you want to trace out these wires."[] 
@@ -3931,7 +3874,7 @@ he fastest travel path or the closest kinship between the nodes.[]
 
 
 
-[272]
+[273]
 Overfull \hbox (1009.24617pt too wide) in paragraph at lines 7644--7644
  []\T1/lmtt/m/n/10 A shortest path from $s$ to $t$ in an unweighted graph can b
 e identified using a breadth-first search from $s$. The minimum-link path is re
@@ -4039,7 +3982,7 @@ eight and the distance from $s$ to the tree vertex it is adjacent to.[]
 
 
 
-[273]
+[274]
 Overfull \hbox (993.49622pt too wide) in paragraph at lines 7676--7676
  []\T1/lmtt/m/n/10 The pseudocode above obscures just how similar the two algor
 ithms are. Below, we give an implementation of Dijkstra\TS1/lmtt/m/n/10 '\T1/lm
@@ -4062,7 +4005,7 @@ Overfull \hbox (27.49902pt too wide) in paragraph at lines 7724--7724
 
 
 
-[274]
+[275]
 Overfull \hbox (888.49652pt too wide) in paragraph at lines 7765--7765
  []\T1/lmtt/m/n/10 This algorithm defines a shortest-path spanning tree rooted 
 in $s$. For unweighted graphs, this would be the breadth-first search tree, but
@@ -4201,7 +4144,7 @@ sible intermediate vertices.\index{optical character recognition}[]
 
 
 
-[275]
+[276]
 Overfull \hbox (1828.24379pt too wide) in paragraph at lines 7786--7786
  []\T1/lmtt/m/n/10 What does this mean? When $k=0$, we are allowed no intermedi
 ate vertices, so the only allowed paths are the original edges in the graph. Th
@@ -4324,7 +4267,7 @@ e correct letter from context!"[]
 
 
 
-[276]
+[277]
 Overfull \hbox (169.24861pt too wide) in paragraph at lines 7923--7923
  []\T1/lmtt/m/n/10 "There isn\TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 t a whole lot of
  context when you type in three letters of stock market code."[] 
@@ -4551,7 +4494,7 @@ n the right idea.[]
 
 
 
-[277]
+[278]
 Overfull \hbox (2689.24129pt too wide) in paragraph at lines 7923--7923
  []\T1/lmtt/m/n/10 An edge-weighted graph can be interpreted as a network of pi
 pes, where the weight of an edge determines the capacity of the pipe. Capacitie
@@ -4712,7 +4655,7 @@ e. However, it is instructive to see how augmenting paths can be identified and
 
 
 
-[278]
+[279]
 Overfull \hbox (951.49634pt too wide) in paragraph at lines 7923--7923
  []\T1/lmtt/m/n/10 For each edge in the residual flow graph, we must keep track
  of both the amount of flow currently going through the edge, as well as its re
@@ -4745,7 +4688,7 @@ affic can flow is limited by the most congested point.[]
 
 
 
-[279]
+[280]
 Overfull \hbox (3119.74004pt too wide) in paragraph at lines 7988--7988
  []\T1/lmtt/m/n/10 Recall that bfs uses the parent array to record the discover
 er of each vertex on the traversal, enabling us to reconstruct the shortest pat
@@ -4866,7 +4809,7 @@ nimum-cut size of the resulting graph might grow, because the best partition is
 
 
 
-[280]
+[281]
 Overfull \hbox (3046.24025pt too wide) in paragraph at lines 8242--8242
  []\T1/lmtt/m/n/10 This suggests the following randomized algorithm. Pick a ran
 dom edge of $G$ and contract it. Repeat a total of $n-2$ times, until we are le
@@ -5032,7 +4975,7 @@ would make finding a consistent ordering impossible.[]
 
 
 
-[281]
+[282]
 Overfull \hbox (1471.24483pt too wide) in paragraph at lines 8242--8242
  []\T1/lmtt/m/n/10 Problem: In my graphics work I must solve the following prob
 lem. Given an arbitrary set of rectangles in the plane, how can I distribute th
@@ -5172,7 +5115,7 @@ anning tree of this graph unique? Give a proof or a counterexample.[]
 
 
 
-[282]
+[283]
 Overfull \hbox (799.24678pt too wide) in paragraph at lines 8242--8242
  []\T1/lmtt/m/n/10 (b) Again, assume that all edges in the graph have distinct 
 edge weights (i.e. no pair of edges have the same weight). Is the shortest-path
@@ -5336,7 +5279,7 @@ ular vertex $z$.[]
 
 
 
-[283]
+[284]
 Overfull \hbox (1780.99393pt too wide) in paragraph at lines 8242--8242
  []\T1/lmtt/m/n/10 8-20. [5] In certain graph problems, vertices can have weigh
 ts instead of or in addition to the weights of edges. Let $C_{v}$ be the cost o
@@ -5491,7 +5434,7 @@ available at https://onlinejudge.org[]
 
 
 
-[284]
+[285]
 Overfull \hbox (2221.99265pt too wide) in paragraph at lines 8242--8242
  []\T1/lmtt/m/n/10 Surprisingly large problems can be solved using exhaustive s
 earch techniques, albeit at great computational cost. But for certain applicati
@@ -5603,7 +5546,7 @@ you understand how this works, my generic backtrack code is given below:[]
 
 
 
-[285]
+[286]
 Overfull \hbox (1182.49567pt too wide) in paragraph at lines 8312--8312
  []\T1/lmtt/m/n/10 Study how recursion yields an elegant and easy implementatio
 n of the backtracking algorithm. Because a new candidates array c is allocated 
@@ -5702,7 +5645,7 @@ andidates(), and process_solution().[]
 
 
 
-[286]
+[287]
 Overfull \hbox (379.248pt too wide) in paragraph at lines 8329--8329
  []\T1/lmtt/m/n/10 ![](https://cdn.mathpix.com/cropped/2025_03_24_35eff77eaa66f
 5ad98acg-299.jpg?height=446&width=1232&top_left_y=202&top_left_x=175)[] 
@@ -5775,7 +5718,7 @@ ver $k=n$ :[]
 
 
 
-[287]
+[288]
 Overfull \hbox (1618.2444pt too wide) in paragraph at lines 8396--8396
  []\T1/lmtt/m/n/10 Testing whether $i$ is a candidate for the $k$ th slot in th
 e permutation could be done by iterating through all $k-1$ elements of $a$ and 
@@ -5817,7 +5760,7 @@ t$ :[]
 
 
 
-[288]
+[289]
 Overfull \hbox (2153.74284pt too wide) in paragraph at lines 8435--8435
  []\T1/lmtt/m/n/10 The starting point of any path from $s$ to $t$ is always $s$
 . Thus, $s$ is the only candidate for the first position and $S_{1}=\{s\}$. The
@@ -5843,7 +5786,7 @@ color of the corresponding graph edge.[]
 
 
 
-[289]
+[290]
 Overfull \hbox (809.74675pt too wide) in paragraph at lines 8483--8483
  []\T1/lmtt/m/n/10 The number of paths discovered can be counted in process_sol
 ution by incrementing a global variable solution_count. The sequence of vertice
@@ -5956,7 +5899,7 @@ Overfull \hbox (373.99802pt too wide) in paragraph at lines 8541--8541
 
 
 
-[290]
+[291]
 Overfull \hbox (137.7487pt too wide) in paragraph at lines 8541--8541
  []\T1/lmtt/m/n/10 Figure 9.3: A challenging Sudoku puzzle (left) with its comp
 leted solution (right).[] 
@@ -6016,7 +5959,7 @@ rk can have a substantial impact on performance.[]
 
 
 
-[291]
+[292]
 Overfull \hbox (1187.74565pt too wide) in paragraph at lines 8596--8596
  []\T1/lmtt/m/n/10 We must update our board data structure to reflect the effec
 t of putting a candidate value into a square, as well as remove these changes s
@@ -6098,7 +6041,7 @@ mn{3}{c|}{ Puzzle complexity } \\[]
 
 
 
-[292]
+[293]
 Overfull \hbox (90.49884pt too wide) in paragraph at lines 8741--8741
  []\T1/lmtt/m/n/10 \hline arbitrary & local count & $1,904,832$ & 863,305 & nev
 er finished \\[] 
@@ -6249,7 +6192,7 @@ ategies can suffice to reduce running times from impossible to instantaneous.[]
 
 
 
-[293]
+[294]
 Overfull \hbox (1334.74522pt too wide) in paragraph at lines 8741--8741
  []\T1/lmtt/m/n/10 Every researcher dreams of solving a classical problem - one
  that has remained open and unsolved for over a century. There is something rom
@@ -6451,7 +6394,7 @@ anguage.[]
 
 
 
-[294]
+[295]
 Missing character: There is no ﬃ ("FB03) in font ec-lmtt10!
 
 Overfull \hbox (1980.49335pt too wide) in paragraph at lines 8741--8741
@@ -6497,7 +6440,7 @@ h new candidate:[]
 
 
 
-[295]
+[296]
 Overfull \hbox (2515.99179pt too wide) in paragraph at lines 8817--8817
  []\T1/lmtt/m/n/10 What should be the cost of a partial solution? There are $(n
 -1)$ ! circular permutations on $n$ points, so we can represent each tour as an
@@ -6593,7 +6536,7 @@ more realistic for the partial solution:[]
 
 
 
-[296]
+[297]
 Overfull \hbox (1576.24452pt too wide) in paragraph at lines 8989--8989
  []\T1/lmtt/m/n/10 Figure 9.9 presents the number of full solution cost evaluat
 ions in finding the optimal TSP tour for several search variants. Brute-force b
@@ -6767,7 +6710,7 @@ onian cycle, clique, independent set, and graph isomorphism.[]
 
 
 
-[297]
+[298]
 Overfull \hbox (2400.49213pt too wide) in paragraph at lines 8989--8989
  []\T1/lmtt/m/n/10 9-11. [5] A team assignment of $n=2 k$ players is a partitio
 ning of them into two teams with exactly $k$ people per team. For example, if t
@@ -6925,7 +6868,7 @@ k$-element subsets of $n$ items.[]
 
 
 
-[298]
+[299]
 Overfull \hbox (846.49664pt too wide) in paragraph at lines 8989--8989
  []\T1/lmtt/m/n/10 9-30. [5] An anagram is a rearrangement of the letters in a 
 given string into a sequence of dictionary words, like Steven Skiena into Vaine
@@ -7043,7 +6986,7 @@ e its utility in practice.[]
 
 
 
-[299]
+[300]
 Overfull \hbox (1051.24605pt too wide) in paragraph at lines 8989--8989
  []\T1/lmtt/m/n/10 Dynamic programming is essentially a tradeoff of space for t
 ime. Repeatedly computing a given quantity can become a drag on performance. If
@@ -7142,7 +7085,7 @@ Overfull \hbox (373.99802pt too wide) in paragraph at lines 9029--9029
 
 
 
-[300]
+[301]
 Overfull \hbox (106.2488pt too wide) in paragraph at lines 9029--9029
  []\T1/lmtt/m/n/10 Figure 10.2: The recursion tree for computing Fibonacci numb
 ers with caching.[] 
@@ -7213,7 +7156,7 @@ citly specifying the order of evaluation of the recurrence relation:[]
 
 
 
-[301]
+[302]
 Overfull \hbox (510.49762pt too wide) in paragraph at lines 9087--9087
  []\T1/lmtt/m/n/10 Observe that we have removed all recursive calls! We evaluat
 e the Fibonacci numbers from smallest to biggest and store all the results, so 
@@ -7275,7 +7218,7 @@ Overfull \hbox (379.248pt too wide) in paragraph at lines 9148--9148
 
 
 
-[302]
+[303]
 Overfull \hbox (988.24623pt too wide) in paragraph at lines 9148--9148
  []\T1/lmtt/m/n/10 Figure 10.3: Evaluation order for binomial_coefficient at $M
 [5,4]$ (left). The initialization conditions are labeled $\mathrm{A}-\mathrm{K}
@@ -7332,7 +7275,7 @@ ere.[]
 
 
 
-[303]
+[304]
 Overfull \hbox (2626.24147pt too wide) in paragraph at lines 9207--9207
  []\T1/lmtt/m/n/10 Searching for patterns in text strings is a problem of unque
 stionable importance. Back in Section 6.7 (page 188 ) I presented algorithms fo
@@ -7514,7 +7457,7 @@ hrm{k}++$ ) \{[]
 
 
 
-[304]
+[305]
 Overfull \hbox (1014.49615pt too wide) in paragraph at lines 9250--9250
  []\T1/lmtt/m/n/10 This program is absolutely correct-convince yourself. It als
 o turns out to be impossibly slow. Running on my computer, the computation take
@@ -7575,7 +7518,7 @@ ndices accordingly.[]
 
 
 
-[305]
+[306]
 Overfull \hbox (2757.49109pt too wide) in paragraph at lines 9340--9340
  []\T1/lmtt/m/n/10 To determine the value of cell $(i, j)$, we need to have thr
 ee values sitting and waiting for us in matrix m-namely, the cells $m(i-1, j-1)
@@ -7692,7 +7635,7 @@ Overfull \hbox (158.74864pt too wide) in paragraph at lines 9340--9340
 
 
 
-[306]
+[307]
 Overfull \hbox (988.24623pt too wide) in paragraph at lines 9340--9340
  []\T1/lmtt/m/n/10 Figure 10.5: Example of a dynamic programming matrix for edi
 ting distance computation, with the underlined entries appearing on the optimal
@@ -7810,7 +7753,7 @@ e insertions, green values deletions, and red values match/substitution.[]
 
 
 
-[307]
+[308]
 Overfull \hbox (1912.24355pt too wide) in paragraph at lines 9400--9400
  []\T1/lmtt/m/n/10 For many problems, including edit distance, the solution can
  be reconstructed from the cost matrix without explicitly retaining the last-mo
@@ -7872,7 +7815,7 @@ ion.[]
 
 
 
-[308]
+[309]
 Overfull \hbox (1492.24477pt too wide) in paragraph at lines 9468--9468
  []\T1/lmtt/m/n/10 All of these functions are quite simple for edit distance co
 mputation. However, we must confess it is difficult to get the boundary conditi
@@ -7934,7 +7877,7 @@ ing the match-cost function to make substitutions expensive:[]
 
 
 
-[309]
+[310]
 Overfull \hbox (594.49738pt too wide) in paragraph at lines 9631--9631
  []\T1/lmtt/m/n/10 Actually, it suffices to make the substitution penalty great
 er than that of an insertion plus a deletion for substitution to lose any allur
@@ -8090,7 +8033,7 @@ ller than $s_{n}$. The following recurrence computes $L_{i}$ :[]
 
 
 
-[310]
+[311]
 Overfull \hbox (1297.99533pt too wide) in paragraph at lines 9631--9631
  []\T1/lmtt/m/n/10 These values define the length of the longest increasing seq
 uence ending at each sequence element. The length of the longest increasing sub
@@ -8283,7 +8226,7 @@ Overfull \hbox (373.99802pt too wide) in paragraph at lines 9631--9631
 
 
 
-[311]
+[312]
 Overfull \hbox (253.24837pt too wide) in paragraph at lines 9631--9631
  []\T1/lmtt/m/n/10 pair, we would have been interested in the cheapest way of g
 etting there, over all possible encodings....[] 
@@ -8380,7 +8323,7 @@ $ is realizable:[]
 
 
 
-[312]
+[313]
 Overfull \hbox (1402.99503pt too wide) in paragraph at lines 9669--9669
  []\T1/lmtt/m/n/10 The parent table encodes the actual subset of numbers totali
 ng to $k$. An appropriate subset exists whenever sum $[\mathrm{n}][\mathrm{k}]=
@@ -8444,7 +8387,7 @@ Overfull \hbox (48.49896pt too wide) in paragraph at lines 9846--9846
 
 
 
-[313]
+[314]
 Overfull \hbox (37.999pt too wide) in paragraph at lines 9846--9846
  []\T1/lmtt/m/n/10 3 & 4 & -1 & -1 & -1 & -1 & 0 & 1 & 2 & 3 & -1 & -1 & -1 & -
 1 \\[] 
@@ -8652,7 +8595,7 @@ and produce solutions that were still pretty good for the original problem.[]
 
 
 
-[314]
+[315]
 Overfull \hbox (2169.4928pt too wide) in paragraph at lines 9846--9846
  []\T1/lmtt/m/n/10 Dynamic programming really proved its worth when our electri
 cal engineers got interested in more ambitious objective functions. It is not a
@@ -8772,7 +8715,7 @@ e last divider.[]
 
 
 
-[315]
+[316]
 Overfull \hbox (1077.49597pt too wide) in paragraph at lines 9846--9846
  []\T1/lmtt/m/n/10 What is the size of this left partition? To minimize our tot
 al, we must use the $k-2$ remaining dividers to partition the elements $s_{1}, 
@@ -8834,7 +8777,7 @@ mary:[]
 
 
 
-[316]
+[317]
 Overfull \hbox (3219.48975pt too wide) in paragraph at lines 9846--9846
  []\T1/lmtt/m/n/10 How long does it take to compute this when we store the part
 ial results? There are a total of $k \cdot n$ cells in the table. How much time
@@ -8896,7 +8839,7 @@ routine:[]
 
 
 
-[317]
+[318]
 Overfull \hbox (2988.49042pt too wide) in paragraph at lines 9930--9930
  []\T1/lmtt/m/n/10 Compilers identify whether a particular program is a legal e
 xpression in a particular programming language, and reward you with syntax erro
@@ -8986,7 +8929,7 @@ $ we have[]
 
 
 
-[318]
+[319]
 Overfull \hbox (274.2483pt too wide) in paragraph at lines 10593--10593
  []\T1/lmtt/m/n/10 M[i, j, X]=\bigvee_{(X \rightarrow Y Z) \in G}\left(\bigvee_
 {k=i}^{j-1} M[i, k, Y] \wedge M[k+1, j, Z]\right)[] 
@@ -9137,7 +9080,7 @@ Overfull \hbox (64.24892pt too wide) in paragraph at lines 10593--10593
 
 
 
-[319]
+[320]
 Overfull \hbox (142.99869pt too wide) in paragraph at lines 10593--10593
  []\T1/lmtt/m/n/10 This idea seems reasonable, but can you see the problem? I s
 ee at least two of them.[] 
@@ -9291,7 +9234,7 @@ lleague was simultaneously boasting and crying for help.[]
 
 
 
-[320]
+[321]
 Overfull \hbox (1072.24599pt too wide) in paragraph at lines 10593--10593
  []\T1/lmtt/m/n/10 Unification is the basic computational mechanism in logic pr
 ogramming languages like Prolog. A Prolog program consists of a set of rules, w
@@ -9466,7 +9409,7 @@ orderings, something we put in the paper to make it complete.[]
 
 
 
-[321]
+[322]
 Overfull \hbox (951.49634pt too wide) in paragraph at lines 10593--10593
  []\T1/lmtt/m/n/10 Take-Home Lesson: The global optimum (found perhaps using dy
 namic programming) is often noticeably better than the solution found by typica
@@ -9665,7 +9608,7 @@ y for a given pair of chip piles.[]
 
 
 
-[322]
+[323]
 Overfull \hbox (883.24654pt too wide) in paragraph at lines 10593--10593
  []\T1/lmtt/m/n/10 10-11. [4] Let $P_{1}, P_{2}, \ldots, P_{n}$ be $n$ programs
  to be stored on a disk with capacity $D$ megabytes. Program $P_{i}$ requires $
@@ -9833,7 +9776,7 @@ amming algorithm to solve the integer partition problem.[]
 
 
 
-[323]
+[324]
 Overfull \hbox (809.74675pt too wide) in paragraph at lines 10593--10593
  []\T1/lmtt/m/n/10 10-22. [5] Assume that there are $n$ numbers (some possibly 
 negative) on a circle, and we wish to find the maximum contiguous sum along an 
@@ -10062,7 +10005,7 @@ your left index finger on the "A" and your right index finger on the blank.[]
 
 
 
-[324]
+[325]
 Overfull \hbox (1854.49371pt too wide) in paragraph at lines 10593--10593
  []\T1/lmtt/m/n/10 Give a dynamic programming algorithm that finds the most eff
 icient way to type a given text of length $n$, in terms of minimizing total mov
@@ -10213,7 +10156,7 @@ ted-binary-tree/[]
 
 
 
-[325]
+[326]
 Overfull \hbox (64.24892pt too wide) in paragraph at lines 10593--10593
  []\T1/lmtt/m/n/10 10-1. https://www.hackerrank.com/challenges/ctci-recursive-s
 taircase/[] 
@@ -10343,7 +10286,7 @@ roblem. Call the subroutine Bo-billy to solve instance $Y$.[]
 
 
 
-[326]
+[327]
 Overfull \hbox (79.99887pt too wide) in paragraph at lines 10593--10593
  []\T1/lmtt/m/n/10 Return the answer of Bo-billy $(Y)$ as the answer to Banders
 natch $(G)$.[] 
@@ -10478,7 +10421,7 @@ lem by asking if this value is less than some threshold:[]
 
 
 
-[327]
+[328]
 Overfull \hbox (174.4986pt too wide) in paragraph at lines 10593--10593
  []\T1/lmtt/m/n/10 Output: Is there a pair $s_{i}, s_{j} \in S$ such that $\lef
 t|s_{i}-s_{j}\right| \leq t$ ?[] 
@@ -10605,7 +10548,7 @@ algorithm for LIS using clever data structures, while edit distance is known to
 
 
 
-[328]
+[329]
 Overfull \hbox (820.24672pt too wide) in paragraph at lines 10593--10593
  []\T1/lmtt/m/n/10 The least common multiple (lcm) and greatest common divisor 
 (gcd) problems arise often in working with integers. We say $b$ divides $a$ (wr
@@ -10706,7 +10649,7 @@ ts to a parabola[]
 
 
 
-[329]
+[330]
 Overfull \hbox (3156.48993pt too wide) in paragraph at lines 10593--10593
  []\T1/lmtt/m/n/10 I will now show how to transform an instance of sorting (say
  $\{13,5,11,17\}$ ) to an instance of the convex hull problem. This means we mu
@@ -10840,7 +10783,7 @@ TSP is hard, at least as hard as Hamiltonian cycle.[]
 
 
 
-[330]
+[331]
 Overfull \hbox (547.24751pt too wide) in paragraph at lines 10593--10593
  []\T1/lmtt/m/n/10 The vertex cover problem, discussed more thoroughly in Secti
 on 19.3 (page 591), asks for a small set of vertices that touch every edge in a
@@ -10952,7 +10895,7 @@ Overfull \hbox (379.248pt too wide) in paragraph at lines 10593--10593
 
 
 
-[331]
+[332]
 Overfull \hbox (326.74815pt too wide) in paragraph at lines 10593--10593
  []\T1/lmtt/m/n/10 Figure 11.5: Reduction from independent set to generalized m
 ovie scheduling, with numbered vertices and lettered edges.[] 
@@ -11087,7 +11030,7 @@ ion known as complementing the graph:[]
 
 
 
-[332]
+[333]
 Overfull \hbox (2326.99234pt too wide) in paragraph at lines 10843--10843
  []\T1/lmtt/m/n/10 These last two reductions provide a chain linking three diff
 erent problems together. The hardness of clique is implied by the hardness of i
@@ -11274,7 +11217,7 @@ Overfull \hbox (22.24904pt too wide) in paragraph at lines 10843--10843
 
 
 
-[333]
+[334]
 Overfull \hbox (426.49786pt too wide) in paragraph at lines 10843--10843
  []\T1/lmtt/m/n/10 gets transformed into the following set of four 3-literal cl
 auses with three new Boolean variables: $v_{i, 1}, v_{i, 2}$, and $v_{i, 3}$ :[
@@ -11447,7 +11390,7 @@ r clause-gadget[]
 
 
 
-[334]
+[335]
 Overfull \hbox (1460.74486pt too wide) in paragraph at lines 10843--10843
  []\T1/lmtt/m/n/10 for otherwise a clause-gadget edge would go uncovered. These
  clausegadget vertices can cover only two of the three connecting edges per cla
@@ -11557,7 +11500,7 @@ o that $1 \leq V_{i}+\bar{V}_{i} \leq 1$.[]
 
 
 
-[335]
+[336]
 Overfull \hbox (148.24867pt too wide) in paragraph at lines 10843--10843
  []\T1/lmtt/m/n/10 For each clause $C_{i}=\left\{z_{1}, \ldots, z_{k}\right\}$,
  construct the constraint[] 
@@ -11772,7 +11715,7 @@ Overfull \hbox (347.7481pt too wide) in paragraph at lines 10843--10843
 
 
 
-[336]
+[337]
 Overfull \hbox (226.99844pt too wide) in paragraph at lines 10843--10843
  []\T1/lmtt/m/n/10 Once you know what you want your gadgets to do, you can then
  worry about how to actually craft them.[] 
@@ -11931,7 +11874,7 @@ er."[]
 
 
 
-[337]
+[338]
 Overfull \hbox (284.74828pt too wide) in paragraph at lines 10843--10843
  []\T1/lmtt/m/n/10 I was still talking out loud to myself, which wasn\TS1/lmtt/
 m/n/10 '\T1/lmtt/m/n/10 t that unusual. But I had people listening to me, which
@@ -12069,7 +12012,7 @@ ver was the problem of choice.[]
 
 
 
-[338]
+[339]
 Overfull \hbox (1922.74352pt too wide) in paragraph at lines 11389--11389
  []\T1/lmtt/m/n/10 I worked through how the two problems stacked up. Both sough
 t subsets, although vertex cover wanted subsets of vertices and uniconnected su
@@ -12258,7 +12201,7 @@ ind to see yet.[]
 
 
 
-[339]
+[340]
 Overfull \hbox (541.99753pt too wide) in paragraph at lines 11389--11389
  []\T1/lmtt/m/n/10 Every well-defined algorithmic problem must have an asymptot
 ically fastestpossible algorithm solving it, as measured in the Big Oh, worst-c
@@ -12423,7 +12366,7 @@ ers a polynomial-[]
 
 
 
-[340]
+[341]
 Overfull \hbox (872.74657pt too wide) in paragraph at lines 11389--11389
  []\T1/lmtt/m/n/10 time algorithm for satisfiability, and must dodge government
  agents and assassins for his troubles. I give it two thumbs up. The Golden Tic
@@ -12580,7 +12523,7 @@ Overfull \hbox (74.74889pt too wide) in paragraph at lines 11389--11389
 
 
 
-[341]
+[342]
 Overfull \hbox (195.49854pt too wide) in paragraph at lines 11389--11389
  []\T1/lmtt/m/n/10 Prove that the baseball card collector problem is NP-hard us
 ing a reduction from vertex cover.[] 
@@ -12731,7 +12674,7 @@ uch that $\sum_{i \in S^{\prime}} w_{i} \leq W$ and $\sum_{i \in S^{\prime}} v_
 
 
 
-[342]
+[343]
 Overfull \hbox (604.99734pt too wide) in paragraph at lines 11389--11389
  []\T1/lmtt/m/n/10 Output: Does $G$ contain a path that starts from $s$, ends a
 t $t$, and visits all vertices without visiting any vertex more than once? (Hin
@@ -12845,7 +12788,7 @@ peated) of length $k$ ?[]
 
 
 
-[343]
+[344]
 Overfull \hbox (1266.49542pt too wide) in paragraph at lines 11389--11389
  []\T1/lmtt/m/n/10 11-35. [7] Until 2002, it was an open question whether the d
 ecision problem "Is integer $n$ a composite number, in other words, not prime?"
@@ -12939,7 +12882,7 @@ ently computable.[]
 
 
 
-[344]
+[345]
 Overfull \hbox (1297.99533pt too wide) in paragraph at lines 11389--11389
  []\T1/lmtt/m/n/10 Approximation algorithms produce solutions with a guarantee 
 attached, namely that the quality of the optimal solution is provably bounded b
@@ -13109,7 +13052,7 @@ asethat is, how badly the algorithm might perform.[]
 
 
 
-[345]
+[346]
 Overfull \hbox (1738.99405pt too wide) in paragraph at lines 11389--11389
  []\T1/lmtt/m/n/10 Problem: Suppose we do a depth-first search of graph $G$, na
 turally building a depth-first search tree $T$ in the process. A leaf node in a
@@ -13273,7 +13216,7 @@ es in order:[]
 
 
 
-[346]
+[347]
 Overfull \hbox (463.24776pt too wide) in paragraph at lines 11389--11389
  []\T1/lmtt/m/n/10 This circuit travels along each edge of the minimum spanning
  tree twice, and hence costs at most twice the optimal tour.\index{cooling sche
@@ -13422,7 +13365,7 @@ o something even better.[]
 
 
 
-[347]
+[348]
 Overfull \hbox (373.99802pt too wide) in paragraph at lines 11389--11389
  []\T1/lmtt/m/n/10 Recall the problem of 3-SAT discussed in Section 11.4.1 (pag
 e 367), where we are given a set of three-element logic clauses like[] 
@@ -13548,7 +13491,7 @@ Overfull \hbox (153.49866pt too wide) in paragraph at lines 11389--11389
 
 
 
-[348]
+[349]
 Overfull \hbox (74.74889pt too wide) in paragraph at lines 11389--11389
  []\T1/lmtt/m/n/10 selected subset size & 13 & 11 & 10 & 5 & 3 & 3 & 3 & 3 & 3 
 & 3 & 3 & 2[] 
@@ -13705,7 +13648,7 @@ andidate solutions $S$ just sums up the weights of all edges $\left(S_{i}, S_{i
 
 
 
-[349]
+[350]
 Overfull \hbox (1465.99484pt too wide) in paragraph at lines 11389--11389
  []\T1/lmtt/m/n/10 The simplest approach to search in a solution space uses ran
 dom sampling, also known as the Monte Carlo method. We repeatedly construct ran
@@ -13794,7 +13737,7 @@ o be.[]
 
 
 
-[350]
+[351]
 Overfull \hbox (468.49774pt too wide) in paragraph at lines 11436--11436
  []\T1/lmtt/m/n/10 Problem: We need an efficient and unbiased way to generate r
 andom pairs of vertices to perform random vertex swaps. Propose an efficient al
@@ -13942,7 +13885,7 @@ h.[]
 
 
 
-[351]
+[352]
 Overfull \hbox (2788.991pt too wide) in paragraph at lines 11484--11484
  []\T1/lmtt/m/n/10 But unfortunately, we are probably not King of the Mountain.
  Suppose you wake up in a ski lodge, eager to reach the top of the neighboring 
@@ -14021,7 +13964,7 @@ solution by almost a factor of three over random sampling ${ }^{2}$[]
 
 
 
-[352]
+[353]
 Overfull \hbox (919.99643pt too wide) in paragraph at lines 11603--11603
  []\T1/lmtt/m/n/10 This is good, but not great. You would not be happy to learn
  you are paying twice the taxes than you should be. Figure 12.9 illustrates the
@@ -14149,7 +14092,7 @@ nsition as a function of time.[]
 
 
 
-[353]
+[354]
 Overfull \hbox (1418.74498pt too wide) in paragraph at lines 11603--11603
  []\T1/lmtt/m/n/10 At the beginning of the search, we are eager to use randomne
 ss to explore the search space widely, so the probability of accepting a bad tr
@@ -14250,7 +14193,7 @@ n problems.[]
 
 
 
-[354]
+[355]
 Overfull \hbox (746.74693pt too wide) in paragraph at lines 11863--11863
  []\T1/lmtt/m/n/10 We provide several examples to demonstrate how careful model
 ing of the state representation and cost function can lead to elegant simulated
@@ -14340,7 +14283,7 @@ y suited.[]
 
 
 
-[355]
+[356]
 Overfull \hbox (1843.99374pt too wide) in paragraph at lines 11863--11863
  []\T1/lmtt/m/n/10 Formally, we are given a collection of rectangular modules $
 r_{1}, \ldots, r_{n}$, each with associated dimensions $h_{i} \times l_{i}$. Fu
@@ -14543,7 +14486,7 @@ to select the appropriate part type (from 1 to $m$ ) and two more to select the
 
 
 
-[356]
+[357]
 Overfull \hbox (3250.98965pt too wide) in paragraph at lines 11863--11863
  []\T1/lmtt/m/n/10 The key decision was the cost function to use. They supplied
  the hard limit $k$ on the total defect level for each individual assembly. But
@@ -14709,7 +14652,7 @@ some credit to the other dimension."[]
 
 
 
-[357]
+[358]
 Overfull \hbox (804.49677pt too wide) in paragraph at lines 11863--11863
  []\T1/lmtt/m/n/10 Ricky changed the evaluation function, and we tried again. T
 his time, the program did not hesitate to improve the shorter dimension. Indeed
@@ -14871,7 +14814,7 @@ r more detailed readings.[]
 
 
 
-[358]
+[359]
 Overfull \hbox (2179.99277pt too wide) in paragraph at lines 11863--11863
  []\T1/lmtt/m/n/10 Genetic algorithms draw their inspiration from evolution and
  natural selection. Through the process of natural selection, organisms adapt t
@@ -15077,7 +15020,7 @@ ons, perhaps augmented with control logic from conventional computers.[]
 
 
 
-[359]
+[360]
 Overfull \hbox (2148.49286pt too wide) in paragraph at lines 11863--11863
  []\T1/lmtt/m/n/10 The first algorithm we will consider is for database search,
  or more generally function inversion. Suppose we think of the unique binary st
@@ -15237,7 +15180,7 @@ the groundwork for perhaps the most famous quantum algorithm, Shor\TS1/lmtt/m/n
 
 
 
-[360]
+[361]
 Overfull \hbox (940.99637pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 There is an interesting connection between periodic function
 s (meaning they repeat at fixed intervals) and the integers that have a given i
@@ -15402,7 +15345,7 @@ ill lead the fight in this revolution.[]
 
 
 
-[361]
+[362]
 Overfull \hbox (405.49792pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 We shall see. I look forward to writing the fourth edition o
 f this book, perhaps in 2035, to learn how well these predictions held up.[] 
@@ -15598,7 +15541,7 @@ hat always satisfies at least half as many clauses as the optimal solution.[]
 
 
 
-[362]
+[363]
 Overfull \hbox (1061.74602pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 12-5. [5] Consider the following heuristic for vertex cover.
  Construct a DFS tree of the graph, and delete all the leaves from this tree. W
@@ -15771,7 +15714,7 @@ oximate longest-path/[]
 
 
 
-[363]
+[364]
 Overfull \hbox (205.9985pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 These programming challenge problems with robot judging are 
 available at https://onlinejudge.org[] 
@@ -15983,7 +15926,7 @@ ell? Do these correspond to the data that might arise in my application?[]
 
 
 
-[364]
+[365]
 Overfull \hbox (342.49811pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 ii. On what inputs does this heuristic work badly? If no suc
 h examples can be found, can I show that it always works well?[] 
@@ -16216,7 +16159,7 @@ tudy and interview preparation.[]
 
 
 
-[365]
+[366]
 Overfull \hbox (2804.74095pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 What should you do at the whiteboard to look like you know w
 hat you are talking about? First, I encourage you to ask enough clarifying ques
@@ -16395,7 +16338,7 @@ sted in learning about any other implementations that you know about.[]
 
 
 
-[366]
+[367]
 Overfull \hbox (877.99655pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 Data structures are not so much algorithms as they are the f
 undamental constructs around which you build your application. Becoming fluent 
@@ -16646,7 +16589,7 @@ stead of $O(k)$.[]
 
 
 
-[367]
+[368]
 Overfull \hbox (1245.49548pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 When evaluating a hash function/table implementation, print 
 statistics on the distribution of keys per bucket to see how uniform it really 
@@ -16826,7 +16769,7 @@ Overfull \hbox (373.99802pt too wide) in paragraph at lines 13060--13060
 
 
 
-[368]
+[369]
 Overfull \hbox (27.49902pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 Input description: A set of records with totally ordered key
 s.[] 
@@ -17057,7 +17000,7 @@ Overfull \hbox (379.248pt too wide) in paragraph at lines 13060--13060
 
 
 
-[369]
+[370]
 Overfull \hbox (358.24806pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 Problem description: Build a data structure for quickly find
 ing all places where an arbitrary query string $q$ occurs in $S$.[] 
@@ -17254,7 +17197,7 @@ usfield Gus97, including[]
 
 
 
-[370]
+[371]
 Overfull \hbox (247.99838pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 an implementation of suffix trees. It is available at https:
 //web.cs.ucdavis. edu/~gusfield/strmat.html.[] 
@@ -17452,7 +17395,7 @@ bipartite graph provides a natural way to visualize the hypergraph.[]
 
 
 
-[371]
+[372]
 Overfull \hbox (2878.24074pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 Special efforts must be taken to represent very large graphs
  efficiently. However, interesting problems have been solved on graphs with mil
@@ -17640,7 +17583,7 @@ etical analogy, like[]
 
 
 
-[372]
+[373]
 Overfull \hbox (16.99905pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 connected components or shortest path in a graph/hypergraph.
 [] 
@@ -17870,7 +17813,7 @@ ted geometric objects) in $k$ dimensions.[]
 
 
 
-[373]
+[374]
 Overfull \hbox (431.74785pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 Problem description: Construct a tree that partitions space 
 by half-planes such that each object is contained in its own box-shaped region.
@@ -18101,7 +18044,7 @@ dex{volume computations}[]
 
 
 
-[374]
+[375]
 Overfull \hbox (3508.2389pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 Algorithms that quickly produce a point provably close to th
 e query point are an important aspect higher-dimensional nearest-neighbor searc
@@ -18311,7 +18254,7 @@ f the $n$-term $i$ th row to each of the $n-1$[]
 
 
 
-[375]
+[376]
 Overfull \hbox (1108.99588pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 other equations to clear the $i$ th (of $n$ ) variable. But 
 on this problem, constants matter. Algorithms that only partially reduce the co
@@ -18486,7 +18429,7 @@ inimizes the length of the longest edge-i.e., minimizes $\max _{(i, j) \in E}|p
 
 
 
-[376]
+[377]
 Overfull \hbox (2321.74236pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 Discussion: Bandwidth reduction lurks as a hidden but import
 ant problem for both graphs and matrices. Applied to matrices, bandwidth reduct
@@ -18664,7 +18607,7 @@ q z$ :[]
 
 
 
-[377]
+[378]
 Overfull \hbox (919.99643pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 An implementation in C appears in Section 2.5.4 (page 45). T
 his straightforward algorithm would seem to be tough to beat in practice. That 
@@ -18828,7 +18771,7 @@ Overfull \hbox (379.248pt too wide) in paragraph at lines 13060--13060
 
 
 
-[378]
+[379]
 Overfull \hbox (268.99832pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 Problem description: What is the determinant $|M|$ or perman
 ent $\operatorname{perm}(M)$ of the matrix $M$ ?[] 
@@ -19024,7 +18967,7 @@ Overfull \hbox (379.248pt too wide) in paragraph at lines 13060--13060
 
 
 
-[379]
+[380]
 Overfull \hbox (53.74895pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 Input description: A function $f\left(x_{1}, \ldots, x_{n}\r
 ight)$.[] 
@@ -19241,7 +19184,7 @@ cribed in Section 12.6 .3 (page 406).[]
 
 
 
-[380]
+[381]
 Overfull \hbox (1465.99484pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 It is a good idea to try several different methods on any gi
 ven optimization problem. For this reason, I recommend experimenting with the i
@@ -19442,7 +19385,7 @@ rogram if some of them do.[]
 
 
 
-[381]
+[382]
 Overfull \hbox (3408.4892pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 Unfortunately, it is NP-complete to solve integer or mixed p
 rograms to optimality. But there are integer programming techniques that work r
@@ -19664,7 +19607,7 @@ ferent.[]
 
 
 
-[382]
+[383]
 Overfull \hbox (2542.24171pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 Such methods are adequate for games, but not for serious sim
 ulations. There are liable to be periodicities in the distribution of random nu
@@ -19889,7 +19832,7 @@ ge 521).[]
 
 
 
-[383]
+[384]
 Overfull \hbox (379.248pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 ![](https://cdn.mathpix.com/cropped/2025_03_24_35eff77eaa66f
 5ad98acg-501.jpg?height=632&width=1236&top_left_y=199&top_left_x=358)[] 
@@ -20093,7 +20036,7 @@ best algorithms for integer factorization include the quadratic-sieve Pom84 and
 
 
 
-[384]
+[385]
 Overfull \hbox (1150.99576pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 Mechanical sieving devices provided the fastest way to facto
 r integers surprisingly far into the computing era. See SWM95 for a fascinating
@@ -20267,7 +20210,7 @@ subroutines, as well as trial-and-error, to determine the correct digit at each
 
 
 
-[385]
+[386]
 Overfull \hbox (977.74626pt too wide) in paragraph at lines 13060--13060
  []\T1/lmtt/m/n/10 In fact, integer division can be reduced to integer multipli
 cation, although in a non-trivial way. So if you are implementing asymptoticall
@@ -20432,7 +20375,7 @@ l and portable items.[]
 
 
 
-[386]
+[387]
 Missing character: There is no – ("2013) in font ec-lmtt10!
 
 Overfull \hbox (3529.23885pt too wide) in paragraph at lines 19588--19588
@@ -20663,7 +20606,7 @@ problem GO95].\index{programming time}\index{self-organizing list}[]
 
 
 
-[387]
+[388]
 Overfull \hbox (1339.99521pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Vector bin packing is a generalization of knapsack where the
  knapsack has capacity constraints along $d$ axes (say CPU and memory limits), 
@@ -20828,7 +20771,7 @@ too slow.[]
 
 
 
-[388]
+[389]
 Overfull \hbox (1990.99332pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Implementations: FFTW is a C subroutine library for computin
 g the discrete Fourier transform in one or more dimensions, with arbitrary inpu
@@ -21027,7 +20970,7 @@ o start thinking about external-memory sorting algorithms that minimize disk or
 
 
 
-[389]
+[390]
 Overfull \hbox (841.24666pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 - Will there be duplicate keys? - The sorted order is comple
 tely defined if all items have distinct keys. However, when two items share the
@@ -21274,7 +21217,7 @@ g on such non-standard models of computation.[]
 
 
 
-[390]
+[391]
 Overfull \hbox (258.49835pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Related problems: Dictionaries (see page 440), searching (se
 e page 510, topological sorting (see page 546.[] 
@@ -21502,7 +21445,7 @@ ructures as red-black and splay trees.[]
 
 
 
-[391]
+[392]
 Overfull \hbox (211.24849pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 The next position probed in linear interpolation search on a
 n array of sorted numbers is given by[] 
@@ -21716,7 +21659,7 @@ t theoretically, when the mode is large using fast median computations.[]
 
 
 
-[392]
+[393]
 Overfull \hbox (1166.74571pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Implementations: The C++ Standard Template Library (STL) pro
 vides a general selection method (nth_element) implemented using the linear exp
@@ -21905,7 +21848,7 @@ i, n)$ has already been seen. A similar technique was employed with $k$-subsets
 
 
 
-[393]
+[394]
 Overfull \hbox (2599.99155pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 This rank/unrank method is best suited for small values of $
 n$, since $n$ ! quickly exceeds the capacity of machine integers. Incremental c
@@ -22075,7 +22018,7 @@ les of random permutations MO63 were used instead of algorithms. The swap-based
 
 
 
-[394]
+[395]
 Overfull \hbox (384.49799pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Related problems: Random-number generation (see page 486, ge
 nerating subsets (see page 521), generating partitions (see page 524).[] 
@@ -22277,7 +22220,7 @@ age 716 for further information on Combinatorica.\index{Julian calendar}[]
 
 
 
-[395]
+[396]
 Overfull \hbox (841.24666pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Notes: The best reference on subset generation is Knuth Knu1
 1. Good expositions include KS99 NW78, Rus03. Wilf Wil89 provides an update of 
@@ -22462,7 +22405,7 @@ order of their restricted growth function (check it out).[]
 
 
 
-[396]
+[397]
 Overfull \hbox (1355.74516pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 We can use a similar counting strategy to generate random se
 t partitions as we did with integer partitions. The Stirling numbers of the sec
@@ -22472,9 +22415,11 @@ ing the recurrence[]
  []
 
 
-Overfull \hbox (69.4989pt too wide) in paragraph at lines 19588--19588
+Overfull \hbox (862.2466pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 with the boundary conditions $\left\{\begin{array}{l}n \\ n\
-end{array}[] 
+end{array}\right\}=\left\{\begin{array}{l}n \\ 1\end{array}\right\}=1$. The rea
+der is referred to the sections below for more details.\index{job-shop scheduli
+ng}[] 
  []
 
 
@@ -22600,7 +22545,7 @@ Overfull \hbox (379.248pt too wide) in paragraph at lines 19588--19588
 
 
 
-[397]
+[398]
 Overfull \hbox (489.49768pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Input description: Parameters describing the desired graph, 
 including the number of vertices $n$, and the number of edges $m$ or edge proba
@@ -22825,7 +22770,7 @@ ng both free and rooted trees.[]
 
 
 
-[398]
+[399]
 Overfull \hbox (2594.74156pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 The graph isomorphism testing program Nauty (see Section 19.
 9 (page 610p) includes a suite of programs for generating non-isomorphic graphs
@@ -22971,7 +22916,7 @@ nted for every year.[]
 
 
 
-[399]
+[400]
 Overfull \hbox (2673.49133pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 The original Julian calendar (from Julius Caesar) ignored th
 ese extra minutes, which had accumulated to ten days by 1582. Pope Gregory XIII
@@ -23165,7 +23110,7 @@ s are NP-complete.[]
 
 
 
-[400]
+[401]
 Overfull \hbox (2815.24092pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Real scheduling applications often present constraints that 
 may be difficult or impossible to model using these techniques, such as keeping
@@ -23347,7 +23292,7 @@ Overfull \hbox (221.74846pt too wide) in paragraph at lines 19588--19588
 
 
 
-[401]
+[402]
 Overfull \hbox (436.99783pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 With DNF formulas, it suffices to satisfy any single clause,
  because they will be or-ed together. The formula above can be written in DNF a
@@ -23548,7 +23493,7 @@ ithms text provides a comprehensive but gentle introduction to the field.[]
 
 
 
-[402]
+[403]
 Overfull \hbox (804.49677pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 - Ahuja, Magnanti, and Orlin \cite{ahuja1993networkflows} - 
 While purporting to be a book on network flows, it covers the gamut of graph al
@@ -23768,7 +23713,7 @@ rg/) does strongly connected components.[]
 
 
 
-[403]
+[404]
 Overfull \hbox (1009.24617pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 My (biased) preference for C language implementations of all
  basic graph connectivity algorithms, including strongly connected components a
@@ -23961,7 +23906,7 @@ ng jobs (vertices) or constraints (edges) whose deletion leaves a DAG are known
 
 
 
-[404]
+[405]
 Overfull \hbox (1591.99448pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Because the DFS-based topological sorting algorithm gets stu
 ck as soon as it identifies a vertex on a directed cycle, we can delete the off
@@ -24121,7 +24066,7 @@ Overfull \hbox (37.999pt too wide) in paragraph at lines 19588--19588
 
 
 
-[405]
+[406]
 Overfull \hbox (520.99759pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 The "component $(x)$ ?" test can be efficiently implemented 
 using the unionfind data structure (Section 15.5 (page 456) to yield an $O(m \l
@@ -24342,7 +24287,7 @@ ovides a complete, up-to-date survey on spanner networks.[]
 
 
 
-[406]
+[407]
 Overfull \hbox (400.24794pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 The $O(n \log n)$ algorithm for Euclidean MSTs is due to Sha
 mos, and discussed in computational geometry texts such as dBvKOS08 PS85.[] 
@@ -24557,7 +24502,7 @@ early equals 0 . We now process the vertices from left to right. Observe that[]
 
 
 
-[407]
+[408]
 Overfull \hbox (232.24843pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 \operatorname{dist}(s, j)=\min _{(i, j) \in E}(\operatorname
 {dist}(s, i)+\operatorname{weight}(i, j))[] 
@@ -24740,7 +24685,7 @@ eneral [IR78] and planar graphs Dji00.[]
 
 
 
-[408]
+[409]
 Overfull \hbox (111.49878pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Related problems: Network flow (see page 571), motion planni
 ng (see page 667).[] 
@@ -24962,7 +24907,7 @@ iameter at most $k \mathrm{BGJ}^{+} 12$.[]
 
 
 
-[409]
+[410]
 Overfull \hbox (636.49725pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Estimating the size of the transitive closure is important i
 n database query optimization. A linear-time algorithm for estimating the size 
@@ -25151,7 +25096,7 @@ Matching is also used to construct amusing "domino portraits."[]
 
 
 
-[410]
+[411]
 Missing character: There is no ’ ("2019) in font ec-lmtt10!
 Missing character: There is no ’ ("2019) in font ec-lmtt10!
 
@@ -25359,7 +25304,7 @@ an cycles and de Bruijn sequences. See Section 22.1.8 (page 716 .[]
 
 
 
-[411]
+[412]
 Overfull \hbox (3198.4898pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Notes: The history of graph theory began in 1736, when Euler
  first solved the seven bridges of Königsberg problem. Königsberg (now Kalining
@@ -25564,7 +25509,7 @@ n a pair of vertices implies $k$ edge-disjoint paths.[]
 
 
 
-[412]
+[413]
 Missing character: There is no ﬁ ("FB01) in font ec-lmtt10!
 
 Overfull \hbox (3565.98874pt too wide) in paragraph at lines 19588--19588
@@ -25742,7 +25687,7 @@ all } 1 \leq i \leq n[]
 
 
 
-[413]
+[414]
 Overfull \hbox (195.49854pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 We seek the assignment that maximizes the flow into sink $t$
 , namely $\sum_{i=1}^{n} x_{i t}$.[] 
@@ -25915,7 +25860,7 @@ herently ill-defined. What exactly is a nice drawing? We seek the visualization
 
 
 
-[414]
+[415]
 Overfull \hbox (1486.99478pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Unfortunately, these are "soft" criteria for which it is imp
 ossible to design an optimization algorithm. Indeed, there may be many differen
@@ -26152,7 +26097,7 @@ awing and Visualization Tam13. is the most comprehensive review of the field.[]
 
 
 
-[415]
+[416]
 Overfull \hbox (1612.99442pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Two excellent books on graph-drawing algorithms are Battista
  et al. [BETT99] and Kaufmann and Wagner [KW01]. A third book by Jünger and Mut
@@ -26363,7 +26308,7 @@ certain aesthetic criteria, the problem is NP-complete SR83.[]
 
 
 
-[416]
+[417]
 Overfull \hbox (1345.2452pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Certain tree layout algorithms arise from non-drawing applic
 ations. The van Emde Boas layout of a binary tree offers better external memory
@@ -26540,7 +26485,7 @@ each edge is straight.[]
 
 
 
-[417]
+[418]
 Overfull \hbox (2221.99265pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Hopcroft and Tarjan HT74 gave the first linear-time algorith
 m for drawing graphs. Booth and Lueker BL76 developed an alternate planarity-te
@@ -26758,7 +26703,7 @@ hniques, such as simulated annealing, are likely to work reasonably well.[]
 
 
 
-[418]
+[419]
 Overfull \hbox (862.2466pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Implementations: Cliquer is a set of C routines for finding 
 cliques in arbitrary weighted graphs by Patric Östergard. It uses an exact bran
@@ -26945,7 +26890,7 @@ graph. Therefore, I refer the reader to the clique-finding programs of Section
 
 
 
-[419]
+[420]
 Overfull \hbox (457.99777pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 GOBLIN (http://goblin2.sourceforge.net/) implements a branch
 -andbound algorithm for finding independent sets (called stable sets in the man
@@ -27131,7 +27076,7 @@ ge the reader to check out the clique-finding programs of Section 19.1 (page 58
 
 
 
-[420]
+[421]
 Overfull \hbox (337.24812pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 JGraphT (https://jgrapht.org) is a Java graph library that c
 ontains greedy and 2-approximate heuristics for vertex cover.[] 
@@ -27333,7 +27278,7 @@ Overfull \hbox (190.24855pt too wide) in paragraph at lines 19588--19588
 
 
 
-[421]
+[422]
 Overfull \hbox (1754.744pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 The "min" ensures that we insert the vertex in the position 
 that adds the smallest amount of distance to the tour, while the "max" ensures 
@@ -27551,7 +27496,7 @@ the Hamiltonian cycle problem is NP-complete.[]
 
 
 
-[422]
+[423]
 Overfull \hbox (1339.99521pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 If you really must know whether your graph is Hamiltonian, b
 acktracking with pruning is your only possible solution. First check whether yo
@@ -27729,7 +27674,7 @@ ely, this version is NP-complete. Fortunately, heuristics work well in practice
 
 
 
-[423]
+[424]
 Overfull \hbox (2290.24245pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Certain types of graphs always have small separators that pa
 rtition the vertices into balanced pieces. Every tree contains at least one ver
@@ -27924,7 +27869,7 @@ r graphs are known, although it is NP-complete to decide whether a given planar
 
 
 
-[424]
+[425]
 Overfull \hbox (2962.2405pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 But there is a very simple algorithm that will vertex color 
 any planar graph using at most six colors. Every planar graph contains a vertex
@@ -28124,7 +28069,7 @@ e, so that all meetings of the same color happen simultaneously.[]
 
 
 
-[425]
+[426]
 Overfull \hbox (1759.99399pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 The National Football League solves such an edge-coloring pr
 oblem to make up its schedule each season. The pairs of teams who must play eac
@@ -28305,7 +28250,7 @@ ems, while Hamiltonian cycle is only an example of vanilla subgraph isomorphism
 
 
 
-[426]
+[427]
 Overfull \hbox (1098.49591pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Be aware of this distinction in your application. Subgraph i
 somorphism problems tend to be much harder than graph isomorphism, while induce
@@ -28522,7 +28467,7 @@ ertices of $T$.[]
 
 
 
-[427]
+[428]
 Overfull \hbox (2106.49298pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Discussion: Steiner trees arise in network design problems, 
 because the minimum Steiner tree describes how to connect a given set of sites 
@@ -28759,7 +28704,7 @@ teiner points.[]
 
 
 
-[428]
+[429]
 Overfull \hbox (1486.99478pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Analogies can be drawn between minimum Steiner trees and min
 imum energy configurations in certain physical systems. The case that such anal
@@ -28937,7 +28882,7 @@ degree or out-degree greater than two GJ79.[]
 
 
 
-[429]
+[430]
 Overfull \hbox (1597.24446pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Bafna, et al. BBF99 gives a 2-factor approximation for feedb
 ack vertex set in undirected graphs. Feedback edge sets in directed graphs can 
@@ -29159,7 +29104,7 @@ loating-point arithmetic.[]
 
 
 
-[430]
+[431]
 Overfull \hbox (820.24672pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 The best technique to produce robust geometric software is t
 o build your applications around a small set of geometric primitives that handl
@@ -29271,7 +29216,7 @@ g a significant geometric application, before you try to write your own.[]
 
 
 
-[431]
+[432]
 Overfull \hbox (1371.49512pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 O\TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 Rourke O\TS1/lmtt/m/n/10 
 '\T1/lmtt/m/n/10 R01 provides implementations in C of most of the primitives di
@@ -29497,7 +29442,7 @@ diagrams}[]
 
 
 
-[432]
+[433]
 Overfull \hbox (1156.24574pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Implementations: The CGAL library (www.cgal.org) offers C ++
  implementations of an extensive variety of convex-hull algorithms for two, thr
@@ -29703,7 +29648,7 @@ o vertices yields a different triangulation.[]
 
 
 
-[433]
+[434]
 Overfull \hbox (1061.74602pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 This gives us a local "edge-flip" operation for changing and
  possibly improving a given triangulation. Indeed, a Delaunay triangulation can
@@ -29904,7 +29849,7 @@ ls.[]
 
 
 
-[434]
+[435]
 Missing character: There is no – ("2013) in font ec-lmtt10!
 
 Overfull \hbox (1927.9935pt too wide) in paragraph at lines 19588--19588
@@ -30118,7 +30063,7 @@ Overfull \hbox (132.49872pt too wide) in paragraph at lines 19588--19588
 
 
 
-[435]
+[436]
 Overfull \hbox (11.74907pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Problem description: Which point in $S$ is closest to $q$ ?[
 ] 
@@ -30352,7 +30297,7 @@ l reality applications}\index{VLSI circuit layout}[]
 
 
 
-[436]
+[437]
 Overfull \hbox (242.7484pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Related problems: Kd-trees (see page 460), Voronoi diagrams 
 (see page 634, range search (see page 641).[] 
@@ -30576,7 +30521,7 @@ Overfull \hbox (379.248pt too wide) in paragraph at lines 19588--19588
 
 
 
-[437]
+[438]
 Overfull \hbox (195.49854pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Input description: A decomposition of the plane into polygon
 al regions, and a query point $q$.[] 
@@ -30815,7 +30760,7 @@ subdivision (such as insertions and deletions of edges and vertices) as well as
 
 
 
-[438]
+[439]
 Overfull \hbox (478.99771pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Related problems: Kd-trees (see page 460), Voronoi diagrams 
 (see page 634), nearest-neighbor search (see page 637).\index{knapsack problem!
@@ -31030,7 +30975,7 @@ between $n$ line segments in the plane in $O((n+k) \lg n)$ time.[]
 
 
 
-[439]
+[440]
 Overfull \hbox (373.99802pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 O\TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 Rourke O\TS1/lmtt/m/n/10 
 '\T1/lmtt/m/n/10 R01 provides a robust program in C to compute the intersection
@@ -31228,7 +31173,7 @@ oximation to minimum enclosing box.[]
 
 
 
-[440]
+[441]
 Overfull \hbox (1324.24525pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 In the case of non-convex parts, considerable useful space c
 an be wasted in the holes created by placing each part in a box. One solution i
@@ -31441,7 +31386,7 @@ hin $P$ whose points are at least distance $d$ from the boundary.[]
 
 
 
-[441]
+[442]
 Overfull \hbox (2531.74174pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 VRONI Hel01 is a robust and efficient program for computing 
 Voronoi diagrams of line segments, points, and arcs in the plane. It can readil
@@ -31641,7 +31586,7 @@ Overfull \hbox (184.99857pt too wide) in paragraph at lines 19588--19588
 
 
 
-[442]
+[443]
 Overfull \hbox (510.49762pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 CGAL (www.cgal.org) contains a polygon-partitioning library 
 that includes (1) the Hertel-Mehlhorn heuristic for partitioning a polygon into
@@ -31848,7 +31793,7 @@ roduce highquality approximations of triangulated surfaces quite rapidly. It is
 
 
 
-[443]
+[444]
 Overfull \hbox (4379.73637pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Yet another approach to polygonal simplification is based on
  simplifying and expanding the medial-axis transform of the polygon. The medial
@@ -32072,7 +32017,7 @@ s.org/) and the widely used and well-supported LIBSVM (https://www.csie.ntu.edu
 
 
 
-[444]
+[445]
 Overfull \hbox (1990.99332pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Notes: Veltkamp Vel01 is an excellent survey on shape matchi
 ng from a computational geometry perspective. See also the survey by Alt and Gu
@@ -32281,7 +32226,7 @@ nning project. OMPL is described in MK12.[]
 
 
 
-[445]
+[446]
 Overfull \hbox (1276.99539pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 The Motion Planning Toolkit (MPK) is a C++ library and toolk
 it for developing single- and multi-robot motion planners. It includes SBL, a f
@@ -32489,7 +32434,7 @@ ht while keeping track of all we have seen.[]
 
 
 
-[446]
+[447]
 Overfull \hbox (494.74767pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Implementations: CGAL (www.cgal.org) provides a generic and 
 robust package for arrangements of curves (not just lines) in the plane. This s
@@ -32683,7 +32628,7 @@ ated polygons.[]
 
 
 
-[447]
+[448]
 Missing character: There is no – ("2013) in font ec-lmtt10!
 
 Overfull \hbox (925.24641pt too wide) in paragraph at lines 19588--19588
@@ -32865,7 +32810,7 @@ nce. This is the vertex cover problem, discussed in Section 19.3 (page 591).[]
 
 
 
-[448]
+[449]
 Overfull \hbox (1875.49365pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 It is instructive to see how to model vertex cover as an ins
 tance of set cover. Let the universal set $U$ correspond to the set of edges $\
@@ -33061,7 +33006,7 @@ Overfull \hbox (221.74846pt too wide) in paragraph at lines 19588--19588
 
 
 
-[449]
+[450]
 Overfull \hbox (379.248pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 ![](https://cdn.mathpix.com/cropped/2025_03_24_35eff77eaa66f
 5ad98acg-690.jpg?height=590&width=1252&top_left_y=195&top_left_x=354)[] 
@@ -33232,7 +33177,7 @@ sed previously.[]
 
 
 
-[450]
+[451]
 Overfull \hbox (95.74883pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Related problems: Independent set (see page 589), set cover 
 (see page 678).[] 
@@ -33428,7 +33373,7 @@ rification.\index{variable length encodings}[]
 
 
 
-[451]
+[452]
 Overfull \hbox (883.24654pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Aho \cite{aho1990patterns} provides a good survey on algorit
 hms for pattern matching in strings, particularly for regular expression patter
@@ -33603,7 +33548,7 @@ pute edit distance. But to seek an alignment involving a combination of at most
 
 
 
-[452]
+[453]
 Overfull \hbox (625.99728pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 of $O(d n)$ cells within a distance $d$ of the central diago
 nal. If no low-cost alignment exists within this band, then no low-cost alignme
@@ -33821,7 +33766,7 @@ ic hashing techniques to the problem entity name unification.[]
 
 
 
-[453]
+[454]
 Overfull \hbox (174.4986pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Related problems: String matching (see page 685), longest co
 mmon substring (see page 706).[] 
@@ -34048,7 +33993,7 @@ se.\index{minimizing automata}[]
 
 
 
-[454]
+[455]
 Overfull \hbox (972.49628pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Implementations: Perhaps the most popular text compression p
 rogram is gzip, which implements a public domain variation of the Lempel-Ziv al
@@ -34230,7 +34175,7 @@ an obsessing about the encryption algorithm.[]
 
 
 
-[455]
+[456]
 Overfull \hbox (2521.24178pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Most symmetric key encryption mechanisms are harder to crack
  than public key ones for the same key size. This means one can get away with m
@@ -34449,7 +34394,7 @@ Overfull \hbox (379.248pt too wide) in paragraph at lines 19588--19588
 
 
 
-[456]
+[457]
 Overfull \hbox (410.74791pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Problem description: Create the smallest deterministic finit
 e automaton $M^{\prime}$ such that $M^{\prime}$ behaves identically to $M$.[] 
@@ -34668,7 +34613,7 @@ hing (see page 685.[]
 
 
 
-[457]
+[458]
 Overfull \hbox (32.74901pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Input description: A set $S$ of strings $S_{1}, \ldots, S_{n
 }$.[] 
@@ -34827,7 +34772,7 @@ tps://www.ncbi.nlm.nih.gov/CBBresearch/Schaffer/msa.html.[]
 
 
 
-[458]
+[459]
 Overfull \hbox (578.74742pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Any of the dynamic programming-based approximate string matc
 hing programs of Section 21.4 (page 688) can be used to find the longest common
@@ -34991,7 +34936,7 @@ sulting services}\index{online algorithm resources}[]
 
 
 
-[459]
+[460]
 Overfull \hbox (1660.24428pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Building superstrings becomes difficult when the input conta
 ins both positive strings (each of which must be a substring of the superstring
@@ -35155,7 +35100,7 @@ hull algorithms, and geometric search structures. Many work in three dimensions
 
 
 
-[460]
+[461]
 Overfull \hbox (1177.24568pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 CGAL (https://www.cgal.org) should be the first place to go 
 for serious geometric computing. CGAL is distributed under a dual-license schem
@@ -35296,7 +35241,7 @@ for finding quick solutions to small problems, and (if you can read Mathematica
 
 
 
-[461]
+[462]
 Overfull \hbox (1245.49548pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Check out http://www.combinatorica.com for the latest releas
 e and associated resources. As graphs have become more important, much of its f
@@ -35473,7 +35418,7 @@ ns. Email info@algorist.com for more information on our services.[]
 
 
 
-[462]
+[463]
 Overfull \hbox (510.49762pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [AAAG95] O. Aichholzer, F. Aurenhammer, D. Alberts, and B. G
 artner. A novel type of skeleton for polygons. J. Universal Computer Science, 1
@@ -35775,7 +35720,7 @@ ial Optimization. John Wiley \& Sons, 1997.[]
 
 
 
-[463]
+[464]
 Overfull \hbox (573.49744pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [AM93] S. Arya and D. Mount. Approximate nearest neighbor qu
 eries in fixed dimensions. In Proc. Fourth ACM-SIAM Symp. Discrete Algorithms (
@@ -36074,7 +36019,7 @@ d System Sciences, 7:448-461, 1972.[]
 
 
 
-[464]
+[465]
 Overfull \hbox (1045.99606pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [BFS12] G. Blelloch, J. Fineman, and J. Shun. Greedy sequent
 ial maximal independent set and matching are parallel on average. In Proceeding
@@ -36387,7 +36332,7 @@ port, NIST, 2010.[]
 
 
 
-[465]
+[466]
 Overfull \hbox (121.99875pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [Bru07] P. Brucker. Scheduling Algorithms. Springer-Verlag, 
 fifth edition, 2007.[] 
@@ -36691,7 +36636,7 @@ Overfull \hbox (258.49835pt too wide) in paragraph at lines 19588--19588
 
 
 
-[466]
+[467]
 Overfull \hbox (814.99673pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [Chr76] N. Christofides. Worst-case analysis of a new heuris
 tic for the traveling salesman problem. Technical report, Graduate School of In
@@ -36991,7 +36936,7 @@ g, third edition, 2008.[]
 
 
 
-[467]
+[468]
 Overfull \hbox (1654.9943pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [DCSL18] James C Davis, Christy A Coghlan, Francisco Servant
 , and Dongyoon Lee. The impact of regular expression denial of service (redos) 
@@ -37301,7 +37246,7 @@ survey. Informs J. Computing, 15:284-309, 2003.[]
 
 
 
-[468]
+[469]
 Overfull \hbox (300.49823pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [DY94] Y. Deng and C. Yang. Waring\TS1/lmtt/m/n/10 '\T1/lmtt
 /m/n/10 s problem for pyramidal numbers. Science in China (Series A), 37:377-38
@@ -37608,7 +37553,7 @@ ers, 101(1):26-29, 2007.[]
 
 
 
-[469]
+[470]
 Overfull \hbox (342.49811pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [Fle74] H. Fleischner. The square of every two-connected gra
 ph is Hamiltonian. J. Combinatorial Theory, B, 16:29-34, 1974.[] 
@@ -37904,7 +37849,7 @@ bility: A Guide to the theory of NP-completeness. W. H. Freeman, 1979.[]
 
 
 
-[470]
+[471]
 Overfull \hbox (694.24709pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [GJM02] M. Goldwasser, D. Johnson, and C. McGeoch, editors. 
 Data Structures, Near Neighbor Searches, and Methodology: Fifth and Sixth DIMAC
@@ -38201,7 +38146,7 @@ igital Systems Design, pages 230-239, 2003.[]
 
 
 
-[471]
+[472]
 Overfull \hbox (762.49689pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [HdlT01] J. Holm, K. de lichtenberg, and M. Thorup. Poly-log
 arithmic deterministic fully-dynamic algorithms for connectivity, minimum spann
@@ -38513,7 +38458,7 @@ graph manipulation. Communications of the ACM, 16:372-378, 1973.[]
 
 
 
-[472]
+[473]
 Overfull \hbox (158.74864pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [HT74] J. Hopcroft and R. Tarjan. Efficient planarity testin
 g. J. ACM, 21:549568, 1974.[] 
@@ -38819,7 +38764,7 @@ earch, 30(7):846-894, 2011.[]
 
 
 
-[473]
+[474]
 Overfull \hbox (358.24806pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [KGV83] S. Kirkpatrick, C. D. Gelatt, Jr., and M. P. Vecchi.
  Optimization by simulated annealing. Science, 220:671-680, 1983.[] 
@@ -39120,7 +39065,7 @@ ts. Chinese Math., 1:273-277, 1962.[]
 
 
 
-[474]
+[475]
 Overfull \hbox (457.99777pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [LA04] J. Leung and J. Anderson, editors. Handbook of Schedu
 ling: Algorithms, Models, and Performance Analysis. CRC Press/Chapman \& Hall, 
@@ -39432,7 +39377,7 @@ niversity of Colorado, Boulder, 1976.[]
 
 
 
-[475]
+[476]
 Overfull \hbox (284.74828pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [Mai78] D. Maier. The complexity of some problems on subsequ
 ences and supersequences. J. ACM, 25:322-336, 1978.[] 
@@ -39739,7 +39684,7 @@ gn and Efficiency. Benjamin/Cummings, 1991.[]
 
 
 
-[476]
+[477]
 Overfull \hbox (510.49762pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [MS95a] D. Margaritis and S. Skiena. Reconstructing strings 
 from substrings in rounds. Proc. 36th IEEE Symp. Foundations of Computer Scienc
@@ -40044,7 +39989,7 @@ pages 787-810. CRC Press, 2018.[]
 
 
 
-[477]
+[478]
 Overfull \hbox (232.24843pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [O08] Owen OMalley. Terabyte sort on apache hadoop. http:// 
 sortbenchmark.org/Yahoo-Hadoop.pdf, 2008.[] 
@@ -40344,7 +40289,7 @@ Overfull \hbox (106.2488pt too wide) in paragraph at lines 19588--19588
 
 
 
-[478]
+[479]
 Overfull \hbox (919.99643pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [RBT04] H. Romero, C. Brizuela, and A. Tchernykh. An experim
 ental comparison of approximation algorithms for the shortest common superstrin
@@ -40648,7 +40593,7 @@ nications of the ACM, 21:847-857, 1978.[]
 
 
 
-[479]
+[480]
 Overfull \hbox (547.24751pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [Sed98] R. Sedgewick. Algorithms in C++, Parts 1-4: Fundamen
 tals, Data Structures, Sorting, Searching, and Graph Algorithms. Addison-Wesley
@@ -40961,7 +40906,7 @@ f a lost factoring machine. The Mathematical Intelligencer, 17-3:41-47, Summer
 
 
 
-[480]
+[481]
 Overfull \hbox (704.74706pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [SY18] V. Sharma and C. Yap. Robust geometric computation. I
 n J. Goodman, J. O\TS1/lmtt/m/n/10 '\T1/lmtt/m/n/10 Rourke, and C. Toth, editor
@@ -41263,7 +41208,7 @@ Overfull \hbox (137.7487pt too wide) in paragraph at lines 19588--19588
 
 
 
-[481]
+[482]
 Overfull \hbox (253.24837pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 [WF74] R. A. Wagner and M. J. Fischer. The string-to-string 
 correction problem. J. ACM, 21:168-173, 1974.[] 
@@ -41485,8 +41430,6 @@ Overfull \hbox (400.24794pt too wide) in paragraph at lines 19588--19588
 
 
 
-[482]
-
 [483]
 
 [484]
@@ -41498,6 +41441,8 @@ Overfull \hbox (400.24794pt too wide) in paragraph at lines 19588--19588
 [487]
 
 [488]
+
+[489]
 Overfull \hbox (174.4986pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 C language, 491, 503, 557, 563. 570, 573, 588, 606, 613, 628
 , 632, 636, 646. 651. 673. 710[] 
@@ -41511,7 +41456,7 @@ Overfull \hbox (43.24898pt too wide) in paragraph at lines 19588--19588
 
 
 
-[489]
+[490]
 Overfull \hbox (111.49878pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Combinatorica, $455,505,520,523$. 527, 531, 552, 561, 567 . 
 580, 606, 708, 716[] 
@@ -41519,13 +41464,13 @@ Overfull \hbox (111.49878pt too wide) in paragraph at lines 19588--19588
 
 
 
-[490]
-
 [491]
 
 [492]
 
 [493]
+
+[494]
 Overfull \hbox (37.999pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 depth-first search, 224,230449 452, 542, 546, 551, 559, 568,
  599[] 
@@ -41539,9 +41484,9 @@ Overfull \hbox (22.24904pt too wide) in paragraph at lines 19588--19588
 
 
 
-[494]
-
 [495]
+
+[496]
 Overfull \hbox (6.49908pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 edge/vertex connectivity - related problems, 545, 573, 603[]
  
@@ -41549,12 +41494,12 @@ Overfull \hbox (6.49908pt too wide) in paragraph at lines 19588--19588
 
 
 
-[496]
-Missing character: There is no ő ("151) in font ec-lmtt10!
-Missing character: There is no ő ("151) in font ec-lmtt10!
-
-
 [497]
+Missing character: There is no ő ("151) in font ec-lmtt10!
+Missing character: There is no ő ("151) in font ec-lmtt10!
+
+
+[498]
 Overfull \hbox (6.49908pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 factoring and primality testing related problems, 496, 701[]
  
@@ -41562,7 +41507,7 @@ Overfull \hbox (6.49908pt too wide) in paragraph at lines 19588--19588
 
 
 
-[498]
+[499]
 Overfull \hbox (132.49872pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Fortran, 465, 469, 471, 473, 476, 499. 503, 520, 526. 531 . 
 606, 654, 660, 715,717[] 
@@ -41570,7 +41515,7 @@ Overfull \hbox (132.49872pt too wide) in paragraph at lines 19588--19588
 
 
 
-[499]
+[500]
 Overfull \hbox (27.49902pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 generating permutations - related problems, 489523,527 531,5
 33[] 
@@ -41578,13 +41523,13 @@ Overfull \hbox (27.49902pt too wide) in paragraph at lines 19588--19588
 
 
 
-[500]
-
 [501]
 
 [502]
 
 [503]
+
+[504]
 Overfull \hbox (37.999pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 input-output graphics, 437 insertion into binary search tree
 , 84[] 
@@ -41592,9 +41537,9 @@ Overfull \hbox (37.999pt too wide) in paragraph at lines 19588--19588
 
 
 
-[504]
-
 [505]
+
+[506]
 Overfull \hbox (368.74803pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 ![](https://cdn.mathpix.com/cropped/2025_03_24_35eff77eaa66f
 5ad98acg-788.jpg?height=50&width=545&top_left_y=709&top_left_x=832)[] 
@@ -41602,9 +41547,9 @@ Overfull \hbox (368.74803pt too wide) in paragraph at lines 19588--19588
 
 
 
-[506]
-
 [507]
+
+[508]
 Overfull \hbox (95.74883pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Mathematica, 455, $466,493,520$ 523, 527, 531, 561,567 , 580
 , 606, 708, 716[] 
@@ -41612,15 +41557,13 @@ Overfull \hbox (95.74883pt too wide) in paragraph at lines 19588--19588
 
 
 
-[508]
+[509]
 Overfull \hbox (1.2491pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 minimum spanning tree (MST), 244, 437, 445, 458, 549, 599[] 
 
  []
 
 
-
-[509]
 
 [510]
 
@@ -41641,6 +41584,8 @@ Overfull \hbox (1.2491pt too wide) in paragraph at lines 19588--19588
 [518]
 
 [519]
+
+[520]
 Overfull \hbox (53.74895pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 shortest path - related problems, 447, 474, 545, 561, 613, 6
 17, 670[] 
@@ -41654,7 +41599,7 @@ Overfull \hbox (90.49884pt too wide) in paragraph at lines 19588--19588
 
 
 
-[520]
+[521]
 Overfull \hbox (6.49908pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 solving linear equations - related problems, 471, 474, 477[]
  
@@ -41662,11 +41607,11 @@ Overfull \hbox (6.49908pt too wide) in paragraph at lines 19588--19588
 
 
 
-[521]
-
 [522]
 
 [523]
+
+[524]
 Overfull \hbox (6.49908pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 topological sorting - related problems, 471, 509, 536. 620[]
  
@@ -41674,11 +41619,11 @@ Overfull \hbox (6.49908pt too wide) in paragraph at lines 19588--19588
 
 
 
-[524]
-
 [525]
 
 [526]
+
+[527]
 Overfull \hbox (16.99905pt too wide) in paragraph at lines 19588--19588
  []\T1/lmtt/m/n/10 Voronoi diagrams - related problems, 629, 633, 640. 647, 657
 [] 
@@ -41701,7 +41646,7 @@ or  <return>  to continue without it.
 
 
 
-[527] (./algorithms_final.aux)
+[528] (./algorithms_final.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -41727,10 +41672,10 @@ Package rerunfilecheck Info: File `algorithms_final.out' has not changed.
 Here is how much of TeX's memory you used:
  17824 strings out of 475366
  348953 string characters out of 5762340
- 1567259 words of memory out of 5000000
+ 1565282 words of memory out of 5000000
  40540 multiletter control sequences out of 15000+600000
  627052 words of font info for 106 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  72i,14n,79p,1374b,10408s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on algorithms_final.xdv (533 pages, 2663000 bytes).
+Output written on algorithms_final.xdv (534 pages, 2664420 bytes).

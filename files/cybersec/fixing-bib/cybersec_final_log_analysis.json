@@ -1,0 +1,261 @@
+{
+  "log_file": "/Users/jrathi/Projects/pdf-2-latex/files/cybersec/fixing-bib/cybersec_final.log",
+  "errors": [
+    {
+      "source": "LaTeX",
+      "description": "Missing \\begin{document}",
+      "count": 4,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Not in outer par mode",
+      "count": 3,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Environment abstract undefined",
+      "count": 2,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "\\begin{document} ended by \\end{abstract}",
+      "count": 2,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "xkeyval",
+      "description": "`stretch' undefined in families `MT'",
+      "count": 1,
+      "sources": [
+        "xkeyval"
+      ]
+    },
+    {
+      "source": "microtype",
+      "description": "Font expansion does not work with xetex",
+      "count": 1,
+      "sources": [
+        "microtype"
+      ]
+    },
+    {
+      "source": "microtype",
+      "description": "The spacing feature only works with pdftex 1",
+      "count": 1,
+      "sources": [
+        "microtype"
+      ]
+    },
+    {
+      "source": "microtype",
+      "description": "The kerning feature only works with pdftex 1",
+      "count": 1,
+      "sources": [
+        "microtype"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "\\begin{center} on input line 7151 ended by \\end{figure}",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "\\begin{document} ended by \\end{tabular}",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "\\begin{document} ended by \\end{center}",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "There's no line here to end",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "source": "inputenc",
+      "description": "inputenc package ignored with utf8 based engines",
+      "count": 1,
+      "sources": [
+        "inputenc"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `ale2009risk' on page 1 undefined on input line 3381",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `itut1972g711' on page 5 undefined on input line 145",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `ccmb2012part1' on page 6 undefined on input line 170",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `rfc6376' on page 6 undefined on input line 177",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `edpb2020video' on page 6 undefined on input line 180",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `eu2014eidas' on page 6 undefined on input line 182",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `jones2006fair' on page 6 undefined on input line 194",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `mcafee2014net' on page 6 undefined on input line 203",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `mitnick2003art' on page 6 undefined on input line 205",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `singh1999code' on page 6 undefined on input line 215",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `whatwg2022html' on page 6 undefined on input line 218",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "xeCJK",
+      "description": "Unknown CJK family `\\CJKttdefault' is being ignored",
+      "count": 1,
+      "sources": [
+        "xeCJK"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `eu2016gdpr' on page 79 undefined on input line 1905",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Float too large for page by 6",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Float too large for page by 151",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "Font",
+      "description": "Some font shapes were not available, defaults substituted",
+      "count": 1,
+      "sources": [
+        "Font"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "There were undefined references",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    }
+  ],
+  "summary": {
+    "total_errors": 19,
+    "total_warnings": 18,
+    "unique_errors": 12,
+    "unique_warnings": 18,
+    "compilation_successful": false
+  },
+  "compilation_info": {
+    "pages_compiled": 516,
+    "total_pages": 0,
+    "compilation_time": null,
+    "latex_version": null,
+    "output_file": "cybersec_final.xdv"
+  }
+}

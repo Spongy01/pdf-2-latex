@@ -182,7 +182,7 @@
   "data-science___use-microtype": {
     "book_name": "data-science",
     "version": "use-microtype",
-    "last_used": "2025-10-25T12:53:56.806533"
+    "last_used": "2025-10-28T11:41:52.616800"
   },
   "assembly___use-microtype": {
     "book_name": "assembly",
@@ -202,26 +202,76 @@
   "data-science___nesting-depth": {
     "book_name": "data-science",
     "version": "nesting-depth",
-    "last_used": "2025-10-25T16:18:24.913668"
+    "last_used": "2025-10-27T14:13:18.490686"
   },
   "ai___nesting-depth": {
     "book_name": "ai",
     "version": "nesting-depth",
-    "last_used": "2025-10-25T15:55:39.741516"
+    "last_used": "2025-10-27T14:13:51.176215"
   },
   "cybersec___nesting-depth": {
     "book_name": "cybersec",
     "version": "nesting-depth",
-    "last_used": "2025-10-25T15:56:07.619508"
+    "last_used": "2025-10-27T14:13:32.323085"
   },
   "assembly___nesting-depth": {
     "book_name": "assembly",
     "version": "nesting-depth",
-    "last_used": "2025-10-25T15:56:11.300631"
+    "last_used": "2025-10-27T14:13:35.847504"
   },
   "algorithms___nesting-depth": {
     "book_name": "algorithms",
     "version": "nesting-depth",
-    "last_used": "2025-10-25T15:58:58.348391"
+    "last_used": "2025-10-27T14:13:42.002139"
+  },
+  "assembly___treating-unclosed": {
+    "book_name": "assembly",
+    "version": "treating-unclosed",
+    "last_used": "2025-10-28T11:42:49.156277"
+  },
+  "data-science___treating-unclosed": {
+    "book_name": "data-science",
+    "version": "treating-unclosed",
+    "last_used": "2025-10-28T11:42:27.258849"
+  },
+  "cybersec___treating-unclosed": {
+    "book_name": "cybersec",
+    "version": "treating-unclosed",
+    "last_used": "2025-10-28T11:42:54.467956"
+  },
+  "ai___treating-unclosed": {
+    "book_name": "ai",
+    "version": "treating-unclosed",
+    "last_used": "2025-10-28T11:42:42.261243"
+  },
+  "algorithms___treating-unclosed": {
+    "book_name": "algorithms",
+    "version": "treating-unclosed",
+    "last_used": "2025-10-28T11:43:03.225996"
+  },
+  "ai___fixing-bib": {
+    "book_name": "ai",
+    "version": "fixing-bib",
+    "last_used": "2025-10-28T12:13:03.815888"
+  },
+  "assembly___fixing-bib": {
+    "book_name": "assembly",
+    "version": "fixing-bib",
+    "last_used": "2025-10-28T12:15:12.694771"
+  },
+  "data-science___fixing-bib": {
+    "book_name": "data-science",
+    "version": "fixing-bib",
+    "last_used": "2025-10-28T12:16:23.103602"
+  },
+  "cybersec___fixing-bib": {
+    "book_name": "cybersec",
+    "version": "fixing-bib",
+    "last_used": "2025-10-28T12:16:49.188806"
+  },
+  "algorithms___fixing-bib": {
+    "book_name": "algorithms",
+    "version": "fixing-bib",
+    "last_used": "2025-10-28T12:20:25.012623"
   }
 }

@@ -1,0 +1,69 @@
+{
+  "log_file": "/Users/jrathi/Projects/pdf-2-latex/files/assembly/treating-unclosed/assembly_final.log",
+  "errors": [
+    {
+      "source": "soul",
+      "description": "Reconstruction failed",
+      "count": 2,
+      "sources": [
+        "soul"
+      ]
+    },
+    {
+      "source": "microtype",
+      "description": "Font expansion does not work with xetex",
+      "count": 1,
+      "sources": [
+        "microtype"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "source": "LaTeX",
+      "description": "Command \\textbackslash invalid in math mode on input line 10833",
+      "count": 2,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "inputenc",
+      "description": "inputenc package ignored with utf8 based engines",
+      "count": 1,
+      "sources": [
+        "inputenc"
+      ]
+    },
+    {
+      "source": "microtype",
+      "description": "Unable to apply patch `footnote' on input line 95",
+      "count": 1,
+      "sources": [
+        "microtype"
+      ]
+    },
+    {
+      "source": "xeCJK",
+      "description": "Unknown CJK family `\\CJKttdefault' is being ignored",
+      "count": 1,
+      "sources": [
+        "xeCJK"
+      ]
+    }
+  ],
+  "summary": {
+    "total_errors": 3,
+    "total_warnings": 5,
+    "unique_errors": 2,
+    "unique_warnings": 4,
+    "compilation_successful": false
+  },
+  "compilation_info": {
+    "pages_compiled": 335,
+    "total_pages": 0,
+    "compilation_time": null,
+    "latex_version": null,
+    "output_file": "assembly_final.xdv"
+  }
+}

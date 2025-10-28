@@ -27,6 +27,16 @@ class BalanceIssue:
 
 
 @dataclass
+class EnvironmentSpan:
+    """Represents the start and end lines of a LaTeX environment."""
+    environment: str
+    start_line: int
+    end_line: Optional[int]  # None if unclosed
+    nesting_level: int
+    parent_environment: Optional[str]
+
+
+@dataclass
 class BalanceReport:
     """Complete balance analysis report."""
     total_commands: int
@@ -36,6 +46,7 @@ class BalanceReport:
     issues: List[BalanceIssue]
     environments_found: List[str]
     nesting_depth_stats: Dict[str, int]
+    environment_spans: List[EnvironmentSpan]  # Track begin/end line pairs
     file_path: str
 
 
@@ -104,18 +115,26 @@ class LaTeXBalanceChecker:
         commands = self.find_commands(content)
         
         # Initialize tracking structures
-        stack = []  # Stack to track open environments
+        stack = []  # Stack to track open environments with their spans
         issues = []
         environments_found = set()
         nesting_depths = []
+        environment_spans = []  # Track completed environment spans
         
         # Process each command
         for cmd in commands:
             environments_found.add(cmd.environment)
             
             if cmd.command_type == 'begin':
-                # Push onto stack
-                stack.append(cmd)
+                # Create a new environment span
+                span = EnvironmentSpan(
+                    environment=cmd.environment,
+                    start_line=cmd.line_number,
+                    end_line=None,  # Will be set when we find the matching end
+                    nesting_level=len(stack),
+                    parent_environment=stack[-1][0].environment if stack else None
+                )
+                stack.append((cmd, span))
                 nesting_depths.append(len(stack))
                 
             elif cmd.command_type == 'end':
@@ -130,9 +149,11 @@ class LaTeXBalanceChecker:
                     ))
                 else:
                     # Check if it matches the most recent begin
-                    last_begin = stack[-1]
+                    last_begin, last_span = stack[-1]
                     if last_begin.environment == cmd.environment:
-                        # Properly matched, remove from stack
+                        # Properly matched, record the span and remove from stack
+                        last_span.end_line = cmd.line_number
+                        environment_spans.append(last_span)
                         stack.pop()
                     else:
                         # Mismatched environment
@@ -145,14 +166,16 @@ class LaTeXBalanceChecker:
                         ))
         
         # Check for unclosed commands
-        for unclosed in stack:
+        for unclosed_cmd, unclosed_span in stack:
             issues.append(BalanceIssue(
                 issue_type='unclosed',
-                environment=unclosed.environment,
-                line_number=unclosed.line_number,
-                details=f"\\begin{{{unclosed.environment}}} opened but never closed",
+                environment=unclosed_cmd.environment,
+                line_number=unclosed_cmd.line_number,
+                details=f"\\begin{{{unclosed_cmd.environment}}} opened but never closed",
                 severity='error'
             ))
+            # Add unclosed spans to the list (with end_line=None)
+            environment_spans.append(unclosed_span)
         
         # Calculate statistics
         issues_by_type = Counter(issue.issue_type for issue in issues)
@@ -172,6 +195,7 @@ class LaTeXBalanceChecker:
             issues=issues,
             environments_found=sorted(environments_found),
             nesting_depth_stats=nesting_depth_stats,
+            environment_spans=environment_spans,
             file_path=""
         )
 
@@ -193,6 +217,50 @@ class LaTeXBalanceChecker:
             stats['balance_ratio'] = stats['ends'] / stats['begins'] if stats['begins'] > 0 else 0
         
         return dict(environment_stats)
+
+    def analyze_environment_spans(self, report: BalanceReport) -> Dict:
+        """Analyze environment spans to provide statistics about each environment type."""
+        spans_by_env = defaultdict(list)
+        
+        for span in report.environment_spans:
+            spans_by_env[span.environment].append({
+                'start_line': span.start_line,
+                'end_line': span.end_line,
+                'closed': span.end_line is not None,
+                'length': (span.end_line - span.start_line) if span.end_line else None,
+                'nesting_level': span.nesting_level,
+                'parent_environment': span.parent_environment
+            })
+        
+        # Calculate statistics for each environment type
+        analysis = {}
+        for env, spans in spans_by_env.items():
+            closed_spans = [s for s in spans if s['end_line'] is not None]
+            unclosed_spans = [s for s in spans if s['end_line'] is None]
+            
+            if closed_spans:
+                lengths = [s['length'] for s in closed_spans]
+                analysis[env] = {
+                    'total_count': len(spans),
+                    'closed_count': len(closed_spans),
+                    'unclosed_count': len(unclosed_spans),
+                    'avg_length': sum(lengths) / len(lengths) if lengths else 0,
+                    'min_length': min(lengths) if lengths else 0,
+                    'max_length': max(lengths) if lengths else 0,
+                    'spans': spans
+                }
+            else:
+                analysis[env] = {
+                    'total_count': len(spans),
+                    'closed_count': 0,
+                    'unclosed_count': len(unclosed_spans),
+                    'avg_length': None,
+                    'min_length': None,
+                    'max_length': None,
+                    'spans': spans
+                }
+        
+        return analysis
 
     def generate_detailed_report(self, report: BalanceReport, content: str) -> str:
         """Generate a detailed text report of the balance analysis."""
@@ -280,6 +348,7 @@ class LaTeXBalanceChecker:
                 )],
                 environments_found=[],
                 nesting_depth_stats={},
+                environment_spans=[],
                 file_path=file_path
             )
 
@@ -491,12 +560,34 @@ def check_latex_balance(tex_file_path: str, output_dir: str = None, apply_fixes:
                     'total_issues': fix_report.pre_correction_report.total_issues,
                     'issues_by_type': fix_report.pre_correction_report.issues_by_type,
                     'issues_by_environment': fix_report.pre_correction_report.issues_by_environment,
+                    'environment_spans': [
+                        {
+                            'environment': span.environment,
+                            'start_line': span.start_line,
+                            'end_line': span.end_line,
+                            'span': f"{span.start_line}-{span.end_line}" if span.end_line else f"{span.start_line}-open",
+                            'nesting_level': span.nesting_level,
+                            'parent_environment': span.parent_environment
+                        }
+                        for span in fix_report.pre_correction_report.environment_spans
+                    ]
                 },
                 'post_correction': {
                     'total_commands': fix_report.post_correction_report.total_commands,
                     'total_issues': fix_report.post_correction_report.total_issues,
                     'issues_by_type': fix_report.post_correction_report.issues_by_type,
                     'issues_by_environment': fix_report.post_correction_report.issues_by_environment,
+                    'environment_spans': [
+                        {
+                            'environment': span.environment,
+                            'start_line': span.start_line,
+                            'end_line': span.end_line,
+                            'span': f"{span.start_line}-{span.end_line}" if span.end_line else f"{span.start_line}-open",
+                            'nesting_level': span.nesting_level,
+                            'parent_environment': span.parent_environment
+                        }
+                        for span in fix_report.post_correction_report.environment_spans
+                    ]
                 },
                 'fixes_applied': fix_report.fixes_applied,
                 'fixes_details': fix_report.fixes_details,
@@ -526,6 +617,17 @@ def check_latex_balance(tex_file_path: str, output_dir: str = None, apply_fixes:
                 'issues_by_environment': report.issues_by_environment,
                 'environments_found': report.environments_found,
                 'nesting_depth_stats': report.nesting_depth_stats,
+                'environment_spans': [
+                    {
+                        'environment': span.environment,
+                        'start_line': span.start_line,
+                        'end_line': span.end_line,
+                        'span': f"{span.start_line}-{span.end_line}" if span.end_line else f"{span.start_line}-open",
+                        'nesting_level': span.nesting_level,
+                        'parent_environment': span.parent_environment
+                    }
+                    for span in report.environment_spans
+                ],
                 'issues': [
                     {
                         'issue_type': issue.issue_type,

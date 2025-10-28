@@ -8,14 +8,6 @@
       "sources": [
         "microtype"
       ]
-    },
-    {
-      "source": "LaTeX",
-      "description": "Not in outer par mode",
-      "count": 1,
-      "sources": [
-        "LaTeX"
-      ]
     }
   ],
   "warnings": [
@@ -36,6 +28,14 @@
       ]
     },
     {
+      "source": "LaTeX",
+      "description": "Float too large for page by 136",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
       "source": "Font",
       "description": "Some font shapes were not available, defaults substituted",
       "count": 1,
@@ -45,14 +45,14 @@
     }
   ],
   "summary": {
-    "total_errors": 2,
-    "total_warnings": 3,
-    "unique_errors": 2,
-    "unique_warnings": 3,
+    "total_errors": 1,
+    "total_warnings": 4,
+    "unique_errors": 1,
+    "unique_warnings": 4,
     "compilation_successful": false
   },
   "compilation_info": {
-    "pages_compiled": 527,
+    "pages_compiled": 528,
     "total_pages": 0,
     "compilation_time": null,
     "latex_version": null,
