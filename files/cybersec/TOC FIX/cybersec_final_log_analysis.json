@@ -1,0 +1,205 @@
+{
+  "log_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/TOC FIX/cybersec_final.log",
+  "errors": [
+    {
+      "source": "LaTeX",
+      "description": "Not in outer par mode",
+      "count": 3,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Missing \\begin{document}",
+      "count": 2,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "X",
+      "description": "Missing \\begin{document}",
+      "count": 1,
+      "sources": [
+        "X"
+      ]
+    },
+    {
+      "source": "xkeyval",
+      "description": "`stretch' undefined in families `MT'",
+      "count": 1,
+      "sources": [
+        "xkeyval"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "There's no line here to end",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "source": "inputenc",
+      "description": "inputenc package ignored with utf8 based engines",
+      "count": 1,
+      "sources": [
+        "inputenc"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `ale2009risk' on page 1 undefined on input line 3381",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `itut1972g711' on page 7 undefined on input line 148",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `ccmb2012part1' on page 9 undefined on input line 173",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `rfc6376' on page 9 undefined on input line 180",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `edpb2020video' on page 9 undefined on input line 183",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `eu2014eidas' on page 9 undefined on input line 185",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `jones2006fair' on page 9 undefined on input line 197",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `mcafee2014net' on page 9 undefined on input line 206",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `mitnick2003art' on page 9 undefined on input line 208",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `singh1999code' on page 9 undefined on input line 218",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `whatwg2022html' on page 9 undefined on input line 221",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "xeCJK",
+      "description": "Unknown CJK family `\\CJKttdefault' is being ignored",
+      "count": 1,
+      "sources": [
+        "xeCJK"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `eu2016gdpr' on page 86 undefined on input line 1916",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Float too large for page by 6",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Float too large for page by 151",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "Font",
+      "description": "Some font shapes were not available, defaults substituted",
+      "count": 1,
+      "sources": [
+        "Font"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "There were undefined references",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    }
+  ],
+  "summary": {
+    "total_errors": 8,
+    "total_warnings": 18,
+    "unique_errors": 5,
+    "unique_warnings": 18,
+    "compilation_successful": false
+  },
+  "compilation_info": {
+    "pages_compiled": 523,
+    "total_pages": 0,
+    "compilation_time": null,
+    "latex_version": null,
+    "output_file": "cybersec_final.xdv"
+  }
+}

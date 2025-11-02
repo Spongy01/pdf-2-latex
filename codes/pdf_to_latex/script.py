@@ -576,9 +576,6 @@ if __name__ == "__main__":
                 "chapter_level": args.chapter_level if args.chapter_level!=-1 else config.get("chapter_level", 1),
                 "section_level": args.section_level if args.section_level!=-1 else config.get("section_level", 2),
                 "subsection_level": args.subsection_level if args.subsection_level!=-1 else config.get("subsection_level", 3),
-                "chapter_level": args.chapter_level or config.get("chapter_level", 1),
-                "section_level": args.section_level or config.get("section_level", 2),
-                "subsection_level": args.subsection_level or config.get("subsection_level", 3),
                 "use_bib_cache": not args.no_bib_cache and (args.use_bib_cache or config.get("use_bib_cache", True)),
                 "use_gpt_cache": not args.no_gpt_cache and (args.use_gpt_cache or config.get("use_gpt_cache", True)),
             }

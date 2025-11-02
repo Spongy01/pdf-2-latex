@@ -1,0 +1,1627 @@
+[
+    {
+        "page_number": 2,
+        "latex_position": 3042,
+        "content_length": 2560,
+        "page_last_content": "hoolsgroup.com/            https://choolskool.com/",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 6,
+        "latex_position": 9827,
+        "content_length": 3674,
+        "page_last_content": "hoolsgroup.com/            https://choolskool.com/",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 10,
+        "latex_position": 18311,
+        "content_length": 3166,
+        "page_last_content": "think about 1.1 What Is Artificial Intelligence? 3",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 11,
+        "latex_position": 18637,
+        "content_length": 307,
+        "page_last_content": "le of the solutions offered by AI 4 1 Introduction",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 12,
+        "latex_position": 21279,
+        "content_length": 2677,
+        "page_last_content": "owing text. 1.1 What Is Artificial Intelligence? 5",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 13,
+        "latex_position": 24556,
+        "content_length": 2918,
+        "page_last_content": "stems become popular. (continued) 6 1 Introduction",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 14,
+        "latex_position": 27776,
+        "content_length": 2826,
+        "page_last_content": " arithmetic is incomplete. 1.2 The History of AI 7",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 16,
+        "latex_position": 32161,
+        "content_length": 2826,
+        "page_last_content": "y reasoning using Bayesian 1.2 The History of AI 9",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 17,
+        "latex_position": 35283,
+        "content_length": 3126,
+        "page_last_content": "ntly learn to walk or to perform 10 1 Introduction",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 18,
+        "latex_position": 37751,
+        "content_length": 2417,
+        "page_last_content": " \u201d would destroy over \ufb01ve 1.2 The History of AI 11",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 19,
+        "latex_position": 41285,
+        "content_length": 3501,
+        "page_last_content": "search will open up new markets. 12 1 Introduction",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 20,
+        "latex_position": 44870,
+        "content_length": 3565,
+        "page_last_content": "ubstantially increased value 1.3 AI and Society 13",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 21,
+        "latex_position": 47945,
+        "content_length": 2919,
+        "page_last_content": "t.com/user/Prof-Stephen-Hawking. 14 1 Introduction",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 22,
+        "latex_position": 51315,
+        "content_length": 3316,
+        "page_last_content": "cently the Google subsidiary 1.3 AI and Society 15",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 24,
+        "latex_position": 55169,
+        "content_length": 2042,
+        "page_last_content": "nteraction Fig. 1.6 A hardware agent 1.4 Agents 17",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 25,
+        "latex_position": 58431,
+        "content_length": 2837,
+        "page_last_content": "n\ufb01nitely many states or actions. 18 1 Introduction",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 26,
+        "latex_position": 60410,
+        "content_length": 1921,
+        "page_last_content": "e-processing system 1.5 Knowledge-Based Systems 19",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 27,
+        "latex_position": 63443,
+        "content_length": 2855,
+        "page_last_content": "rbot, or change an existing one. 20 1 Introduction",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 28,
+        "latex_position": 65033,
+        "content_length": 1531,
+        "page_last_content": " spam email, a pro\ufb01t of one cent. 1.6 Exercises 21",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 30,
+        "latex_position": 68481,
+        "content_length": 1704,
+        "page_last_content": "ee Table 2.1 on page 25). 24 2 Propositional Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 33,
+        "latex_position": 75600,
+        "content_length": 2010,
+        "page_last_content": "A ) B t t t t f f f t t f f t 2.3 Proof Systems 27",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 34,
+        "latex_position": 78258,
+        "content_length": 2290,
+        "page_last_content": "us always \ufb01nds a proof if 28 2 Propositional Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 36,
+        "latex_position": 81829,
+        "content_length": 1658,
+        "page_last_content": "ral resolution rule reads 30 2 Propositional Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 37,
+        "latex_position": 84411,
+        "content_length": 2502,
+        "page_last_content": " a resolution proof to be shown. 2.4 Resolution 31",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 38,
+        "latex_position": 87323,
+        "content_length": 2537,
+        "page_last_content": "ut is not going to Spain. 32 2 Propositional Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 41,
+        "latex_position": 93830,
+        "content_length": 1699,
+        "page_last_content": "search space. Furthermore, the 2.5 Horn Clauses 35",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 42,
+        "latex_position": 96951,
+        "content_length": 2871,
+        "page_last_content": "in the formula increases. 36 2 Propositional Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 43,
+        "latex_position": 99492,
+        "content_length": 2160,
+        "page_last_content": "ns and models. 2.7 Applications and Limitations 37",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 44,
+        "latex_position": 101762,
+        "content_length": 1766,
+        "page_last_content": "obably\u201d in this sentence. 38 2 Propositional Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 46,
+        "latex_position": 105539,
+        "content_length": 1613,
+        "page_last_content": " called literals. 40 3 First-order Predicate Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 47,
+        "latex_position": 107206,
+        "content_length": 1707,
+        "page_last_content": "l(x, z) rel is a transitive relation 3.1 Syntax 41",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 48,
+        "latex_position": 109909,
+        "content_length": 1492,
+        "page_last_content": ", we de\ufb01ne truth. 42 3 First-order Predicate Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 49,
+        "latex_position": 111596,
+        "content_length": 1379,
+        "page_last_content": "Oscar B.) as a child relationship 3.2 Semantics 43",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 51,
+        "latex_position": 117140,
+        "content_length": 2113,
+        "page_last_content": "follows with de Morgan\u2019s law that 3.2 Semantics 45",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 54,
+        "latex_position": 124141,
+        "content_length": 2077,
+        "page_last_content": "function symbol). 48 3 First-order Predicate Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 56,
+        "latex_position": 126359,
+        "content_length": 2187,
+        "page_last_content": "eve, oscar, anne) 50 3 First-order Predicate Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 57,
+        "latex_position": 129725,
+        "content_length": 1353,
+        "page_last_content": " 3.3 The universal logic machine 3.5 Resolution 51",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 58,
+        "latex_position": 132066,
+        "content_length": 1670,
+        "page_last_content": "mother). We de\ufb01ne 52 3 First-order Predicate Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 59,
+        "latex_position": 134587,
+        "content_length": 1945,
+        "page_last_content": "uence of the two parent clauses. 3.5 Resolution 53",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 60,
+        "latex_position": 136390,
+        "content_length": 1313,
+        "page_last_content": "tive normal form. 54 3 First-order Predicate Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 61,
+        "latex_position": 139289,
+        "content_length": 2789,
+        "page_last_content": "in particular, reduce the search 3.5 Resolution 55",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 62,
+        "latex_position": 142200,
+        "content_length": 2735,
+        "page_last_content": " existence today. 56 3 First-order Predicate Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 63,
+        "latex_position": 144914,
+        "content_length": 2592,
+        "page_last_content": " Theorem Prover\u201d. 3.6 Automated Theorem Provers 57",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 64,
+        "latex_position": 147176,
+        "content_length": 1302,
+        "page_last_content": "roof has the form 58 3 First-order Predicate Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 66,
+        "latex_position": 150693,
+        "content_length": 1608,
+        "page_last_content": "e in mathematics. 60 3 First-order Predicate Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 67,
+        "latex_position": 153820,
+        "content_length": 3023,
+        "page_last_content": "sk in an example from [Sch01]. 3.8 Applications 61",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 68,
+        "latex_position": 156828,
+        "content_length": 2556,
+        "page_last_content": "e less important. 62 3 First-order Predicate Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 69,
+        "latex_position": 159385,
+        "content_length": 2541,
+        "page_last_content": " arbitrarily many generations. 3.8 Applications 63",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 70,
+        "latex_position": 161503,
+        "content_length": 1971,
+        "page_last_content": "rom Exercise 3.8. 64 3 First-order Predicate Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 73,
+        "latex_position": 167822,
+        "content_length": 2570,
+        "page_last_content": "ger need a prover. 4.1 The Search Space Problem 67",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 74,
+        "latex_position": 170381,
+        "content_length": 2477,
+        "page_last_content": "for higher-order logics. 68 4 Limitations of Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 77,
+        "latex_position": 177058,
+        "content_length": 2278,
+        "page_last_content": "ird\u00f0x\u00de ) fly\u00f0x\u00de\u00de \u00bc 0:99: 4.3 The Flying Penguin 71",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 78,
+        "latex_position": 178908,
+        "content_length": 1726,
+        "page_last_content": "robabilistic logic \u221e yes 72 4 Limitations of Logic",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 79,
+        "latex_position": 179993,
+        "content_length": 984,
+        "page_last_content": "alidate the example\u2019s statements. 4.5 Exercises 73",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 83,
+        "latex_position": 187394,
+        "content_length": 1837,
+        "page_last_content": " to save space. 78 5 Logic Programming with PROLOG",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 84,
+        "latex_position": 189043,
+        "content_length": 1526,
+        "page_last_content": " tree for desc(clyde,karen) 5.2 Simple Examples 79",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 85,
+        "latex_position": 191354,
+        "content_length": 2237,
+        "page_last_content": " shaves(X, X)). 80 5 Logic Programming with PROLOG",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 86,
+        "latex_position": 192942,
+        "content_length": 1315,
+        "page_last_content": "he call ?- append([a,b,c],[d,1,2],Z). 5.4 Lists 81",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 88,
+        "latex_position": 198110,
+        "content_length": 2063,
+        "page_last_content": "bjects. The central 5.5 Self-modifying Programs 83",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 90,
+        "latex_position": 202385,
+        "content_length": 3084,
+        "page_last_content": "nconvenient (Sect. 4.3). 5.6 A Planning Example 85",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 93,
+        "latex_position": 209673,
+        "content_length": 2109,
+        "page_last_content": "puts 1024 ones. 88 5 Logic Programming with PROLOG",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 94,
+        "latex_position": 212084,
+        "content_length": 2169,
+        "page_last_content": "s to the left of the white house. 5.9 Exercises 89",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 95,
+        "latex_position": 212962,
+        "content_length": 792,
+        "page_last_content": "5.5 on page 86. 90 5 Logic Programming with PROLOG",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 97,
+        "latex_position": 218208,
+        "content_length": 3291,
+        "page_last_content": "would have. 92 6 Search, Games and Problem Solving",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 98,
+        "latex_position": 218473,
+        "content_length": 140,
+        "page_last_content": "nd goal states of the 8-puzzle 6.1 Introduction 93",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 100,
+        "latex_position": 221848,
+        "content_length": 2080,
+        "page_last_content": "ulated by solving the equation 6.1 Introduction 95",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 101,
+        "latex_position": 223211,
+        "content_length": 1244,
+        "page_last_content": "st function 96 6 Search, Games and Problem Solving",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 102,
+        "latex_position": 226284,
+        "content_length": 2721,
+        "page_last_content": "and \u201cSuccessors\u201d are provided. 6.1 Introduction 97",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 103,
+        "latex_position": 226628,
+        "content_length": 1347,
+        "page_last_content": "n generated 98 6 Search, Games and Problem Solving",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 105,
+        "latex_position": 230454,
+        "content_length": 1352,
+        "page_last_content": "actor of 2 100 6 Search, Games and Problem Solving",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 106,
+        "latex_position": 232136,
+        "content_length": 1328,
+        "page_last_content": "th limit (TIEFENSUCHE-B) 6.2 Uninformed Search 101",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 107,
+        "latex_position": 235830,
+        "content_length": 2402,
+        "page_last_content": "d bd bd bd 102 6 Search, Games and Problem Solving",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 108,
+        "latex_position": 238175,
+        "content_length": 2255,
+        "page_last_content": "olution not being found. 6.2 Uninformed Search 103",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 109,
+        "latex_position": 241958,
+        "content_length": 3448,
+        "page_last_content": "duplicate. 104 6 Search, Games and Problem Solving",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 111,
+        "latex_position": 245227,
+        "content_length": 1896,
+        "page_last_content": "ies to Ulm 106 6 Search, Games and Problem Solving",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 112,
+        "latex_position": 245627,
+        "content_length": 1102,
+        "page_last_content": "the node M\u00fcnchen is given 6.3 Heuristic Search 107",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 113,
+        "latex_position": 246944,
+        "content_length": 1388,
+        "page_last_content": "\u201d function 108 6 Search, Games and Problem Solving",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 115,
+        "latex_position": 252551,
+        "content_length": 1778,
+        "page_last_content": "n [Bat16]. 110 6 Search, Games and Problem Solving",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 116,
+        "latex_position": 255643,
+        "content_length": 2980,
+        "page_last_content": "ed without risk. The most 6.3 Heuristic Search 111",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 117,
+        "latex_position": 258723,
+        "content_length": 2128,
+        "page_last_content": "1.5 14.1 4 112 6 Search, Games and Problem Solving",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 118,
+        "latex_position": 261894,
+        "content_length": 3057,
+        "page_last_content": "e higher with heuristics. 6.3 Heuristic Search 113",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 119,
+        "latex_position": 264986,
+        "content_length": 2932,
+        "page_last_content": "e\u2019s level. 114 6 Search, Games and Problem Solving",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 120,
+        "latex_position": 265299,
+        "content_length": 1585,
+        "page_last_content": "ect on the end result 6.4 Games with Opponents 115",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 121,
+        "latex_position": 267625,
+        "content_length": 1510,
+        "page_last_content": "PHABETAMAX 116 6 Search, Games and Problem Solving",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 122,
+        "latex_position": 271001,
+        "content_length": 2284,
+        "page_last_content": "e values from [RN10]. 6.4 Games with Opponents 117",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 123,
+        "latex_position": 273840,
+        "content_length": 2370,
+        "page_last_content": "unction is 118 6 Search, Games and Problem Solving",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 125,
+        "latex_position": 279062,
+        "content_length": 3069,
+        "page_last_content": "hand-coded 120 6 Search, Games and Problem Solving",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 126,
+        "latex_position": 282315,
+        "content_length": 3216,
+        "page_last_content": "o this successful result. 6.6 State of the Art 121",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 127,
+        "latex_position": 284703,
+        "content_length": 2034,
+        "page_last_content": "oal node . 122 6 Search, Games and Problem Solving",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 128,
+        "latex_position": 286922,
+        "content_length": 1995,
+        "page_last_content": "adth-\ufb01rst search implementation. 6.7 Exercises 123",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 129,
+        "latex_position": 287691,
+        "content_length": 652,
+        "page_last_content": "earch tree 124 6 Search, Games and Problem Solving",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 131,
+        "latex_position": 291057,
+        "content_length": 919,
+        "page_last_content": "could be derived. 126 7 Reasoning with Uncertainty",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 132,
+        "latex_position": 293880,
+        "content_length": 2766,
+        "page_last_content": "lementary events. 7 Reasoning with Uncertainty 127",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 135,
+        "latex_position": 300699,
+        "content_length": 1864,
+        "page_last_content": "cles can be made. 130 7 Reasoning with Uncertainty",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 139,
+        "latex_position": 309192,
+        "content_length": 2120,
+        "page_last_content": "t to the patient. 134 7 Reasoning with Uncertainty",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 140,
+        "latex_position": 312538,
+        "content_length": 2901,
+        "page_last_content": "t literature. 7.1 Computing with Probabilities 135",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 141,
+        "latex_position": 315016,
+        "content_length": 2338,
+        "page_last_content": "nctly, this reads 136 7 Reasoning with Uncertainty",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 144,
+        "latex_position": 319236,
+        "content_length": 1441,
+        "page_last_content": "vant here 7.2 The Principle of Maximum Entropy 139",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 148,
+        "latex_position": 327628,
+        "content_length": 1793,
+        "page_last_content": "nput, PIT 7.2 The Principle of Maximum Entropy 143",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 150,
+        "latex_position": 332419,
+        "content_length": 2579,
+        "page_last_content": "ingarten. 7.2 The Principle of Maximum Entropy 145",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 151,
+        "latex_position": 335506,
+        "content_length": 2956,
+        "page_last_content": " blood cell count 146 7 Reasoning with Uncertainty",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 157,
+        "latex_position": 348460,
+        "content_length": 2708,
+        "page_last_content": "y model produced. 152 7 Reasoning with Uncertainty",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 161,
+        "latex_position": 358402,
+        "content_length": 1417,
+        "page_last_content": "additional models 156 7 Reasoning with Uncertainty",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 163,
+        "latex_position": 364691,
+        "content_length": 2797,
+        "page_last_content": " \u0004 \u0004 \u0004 \u0004 \u0004 P\u00f0Xd\u00de: 158 7 Reasoning with Uncertainty",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 164,
+        "latex_position": 367538,
+        "content_length": 2494,
+        "page_last_content": "thquake\u201d. 7.4 Reasoning with Bayesian Networks 159",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 165,
+        "latex_position": 369307,
+        "content_length": 1543,
+        "page_last_content": "e associated CPTs 160 7 Reasoning with Uncertainty",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 168,
+        "latex_position": 377258,
+        "content_length": 1676,
+        "page_last_content": "= 0.2841. 7.4 Reasoning with Bayesian Networks 163",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 170,
+        "latex_position": 381006,
+        "content_length": 2006,
+        "page_last_content": "ne value. 7.4 Reasoning with Bayesian Networks 165",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 172,
+        "latex_position": 385083,
+        "content_length": 2746,
+        "page_last_content": "causality 7.4 Reasoning with Bayesian Networks 167",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 175,
+        "latex_position": 392302,
+        "content_length": 2935,
+        "page_last_content": " quite so simple. 170 7 Reasoning with Uncertainty",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 176,
+        "latex_position": 395242,
+        "content_length": 2605,
+        "page_last_content": "y independent given the diagnosis. 7.5 Summary 171",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 177,
+        "latex_position": 398346,
+        "content_length": 2407,
+        "page_last_content": "ck your solution. 172 7 Reasoning with Uncertainty",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 178,
+        "latex_position": 400947,
+        "content_length": 2174,
+        "page_last_content": "e alarm node in the new network. 7.6 Exercises 173",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 181,
+        "latex_position": 406557,
+        "content_length": 1789,
+        "page_last_content": " learning \u2026 176 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 184,
+        "latex_position": 412156,
+        "content_length": 1511,
+        "page_last_content": "Data Mining 8 Machine Learning and Data Mining 179",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 185,
+        "latex_position": 415066,
+        "content_length": 2899,
+        "page_last_content": "escribed in 180 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 186,
+        "latex_position": 415894,
+        "content_length": 1424,
+        "page_last_content": "us 0, 1 16 Appendicitis 0, 1 8.1 Data Analysis 181",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 188,
+        "latex_position": 421520,
+        "content_length": 1026,
+        "page_last_content": "x2 \u00bc 1 8.2 The Perceptron, a Linear Classifier 183",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 191,
+        "latex_position": 428547,
+        "content_length": 2061,
+        "page_last_content": "le example. 186 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 192,
+        "latex_position": 429016,
+        "content_length": 1424,
+        "page_last_content": " green 8.2 The Perceptron, a Linear Classifier 187",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 193,
+        "latex_position": 430745,
+        "content_length": 1536,
+        "page_last_content": "e test data 188 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 194,
+        "latex_position": 435167,
+        "content_length": 2974,
+        "page_last_content": "nosis. 8.2 The Perceptron, a Linear Classifier 189",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 195,
+        "latex_position": 437459,
+        "content_length": 1733,
+        "page_last_content": "um appears. 190 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 196,
+        "latex_position": 437837,
+        "content_length": 1827,
+        "page_last_content": "lassi\ufb01ed wrong 8.3 The Nearest Neighbor Method 191",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 199,
+        "latex_position": 446994,
+        "content_length": 2327,
+        "page_last_content": "put vector. 194 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 200,
+        "latex_position": 447301,
+        "content_length": 2188,
+        "page_last_content": "sional dataset 8.3 The Nearest Neighbor Method 195",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 201,
+        "latex_position": 451896,
+        "content_length": 2508,
+        "page_last_content": " simpli\ufb01ed. 196 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 202,
+        "latex_position": 452497,
+        "content_length": 2491,
+        "page_last_content": " the case base 8.3 The Nearest Neighbor Method 197",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 204,
+        "latex_position": 457582,
+        "content_length": 2758,
+        "page_last_content": " the weekend today? 8.4 Decision Tree Learning 199",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 205,
+        "latex_position": 460930,
+        "content_length": 1254,
+        "page_last_content": "00 no no no 200 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 207,
+        "latex_position": 465711,
+        "content_length": 1487,
+        "page_last_content": " page 240). 202 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 209,
+        "latex_position": 467551,
+        "content_length": 1503,
+        "page_last_content": "mation gain 204 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 215,
+        "latex_position": 479730,
+        "content_length": 1859,
+        "page_last_content": "he problem. 210 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 216,
+        "latex_position": 482226,
+        "content_length": 2439,
+        "page_last_content": " more than 55 nodes 8.4 Decision Tree Learning 211",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 217,
+        "latex_position": 484681,
+        "content_length": 2396,
+        "page_last_content": "esting set. 212 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 219,
+        "latex_position": 490795,
+        "content_length": 2933,
+        "page_last_content": "l solution. 214 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 220,
+        "latex_position": 490946,
+        "content_length": 1723,
+        "page_last_content": "arly visible 8.6 Learning of Bayesian Networks 215",
+        "last_location": 820157,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 225,
+        "latex_position": 504711,
+        "content_length": 2420,
+        "page_last_content": "ly \ufb01ltered. 220 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 227,
+        "latex_position": 510804,
+        "content_length": 2263,
+        "page_last_content": "e downtime. 222 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 228,
+        "latex_position": 513876,
+        "content_length": 2944,
+        "page_last_content": "ne learning algorithms. 8.8 One-Class Learning 223",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 229,
+        "latex_position": 516748,
+        "content_length": 2170,
+        "page_last_content": "ere are two 224 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 230,
+        "latex_position": 517103,
+        "content_length": 1662,
+        "page_last_content": "four clearly separated clusters 8.9 Clustering 225",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 231,
+        "latex_position": 520520,
+        "content_length": 1608,
+        "page_last_content": "eir average 226 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 232,
+        "latex_position": 522438,
+        "content_length": 1395,
+        "page_last_content": "erations convergence is reached 8.9 Clustering 227",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 233,
+        "latex_position": 524895,
+        "content_length": 2151,
+        "page_last_content": "ttom to top 228 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 234,
+        "latex_position": 526697,
+        "content_length": 1520,
+        "page_last_content": "he minimum sum of edge lengths. 8.9 Clustering 229",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 236,
+        "latex_position": 532194,
+        "content_length": 1657,
+        "page_last_content": "does not re\ufb02ect the natural (to 8.9 Clustering 231",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 239,
+        "latex_position": 537464,
+        "content_length": 1565,
+        "page_last_content": "sion matrix 234 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 241,
+        "latex_position": 541532,
+        "content_length": 3080,
+        "page_last_content": "ues [RW06]. 236 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 242,
+        "latex_position": 543905,
+        "content_length": 2198,
+        "page_last_content": "t features would be desired here. 8.11 Summary 237",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 243,
+        "latex_position": 546674,
+        "content_length": 2639,
+        "page_last_content": "equal to 1. 238 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 244,
+        "latex_position": 548533,
+        "content_length": 1315,
+        "page_last_content": "5 8 4 1 6 8 6 1 7 9 2 1 8 9 5 1 8.12 Exercises 239",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 245,
+        "latex_position": 551013,
+        "content_length": 1875,
+        "page_last_content": "at is, that 240 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 246,
+        "latex_position": 553219,
+        "content_length": 1488,
+        "page_last_content": "or the three Bayesian networks: 8.12 Exercises 241",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 247,
+        "latex_position": 555319,
+        "content_length": 1811,
+        "page_last_content": "g relation. 242 8 Machine Learning and Data Mining",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 248,
+        "latex_position": 556588,
+        "content_length": 1216,
+        "page_last_content": "ry.html and experiment with it. 8.12 Exercises 243",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 251,
+        "latex_position": 563808,
+        "content_length": 3186,
+        "page_last_content": " the activation 9.1 From Biology to Simulation 247",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 252,
+        "latex_position": 565770,
+        "content_length": 1554,
+        "page_last_content": "e weighted sum of all inputs 248 9 Neural Networks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 253,
+        "latex_position": 566110,
+        "content_length": 1273,
+        "page_last_content": "unction results 9.1 From Biology to Simulation 249",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 254,
+        "latex_position": 569718,
+        "content_length": 2257,
+        "page_last_content": "neurons in a Hop\ufb01eld network 250 9 Neural Networks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 255,
+        "latex_position": 571994,
+        "content_length": 1984,
+        "page_last_content": "10% noise. Evidently the 9.2 Hopfield Networks 251",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 256,
+        "latex_position": 572523,
+        "content_length": 711,
+        "page_last_content": "ch from all learned patterns 252 9 Neural Networks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 257,
+        "latex_position": 573517,
+        "content_length": 1113,
+        "page_last_content": "ion of the Hop\ufb01eld model 9.2 Hopfield Networks 253",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 258,
+        "latex_position": 577504,
+        "content_length": 2450,
+        "page_last_content": "ng neuron i. This results in 254 9 Neural Networks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 259,
+        "latex_position": 579821,
+        "content_length": 2446,
+        "page_last_content": "physics into AI in 1987. 9.2 Hopfield Networks 255",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 260,
+        "latex_position": 582789,
+        "content_length": 2953,
+        "page_last_content": "the photos are simply saved. 256 9 Neural Networks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 261,
+        "latex_position": 585308,
+        "content_length": 2117,
+        "page_last_content": "e as t (target). 9.3 Neural Associative Memory 257",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 263,
+        "latex_position": 590187,
+        "content_length": 2880,
+        "page_last_content": "re dense. In the 9.3 Neural Associative Memory 259",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 265,
+        "latex_position": 594845,
+        "content_length": 2603,
+        "page_last_content": "lowing sections. 9.3 Neural Associative Memory 261",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 266,
+        "latex_position": 597164,
+        "content_length": 2387,
+        "page_last_content": "ed for a correct association 262 9 Neural Networks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 267,
+        "latex_position": 599910,
+        "content_length": 2345,
+        "page_last_content": "rther. 9.4 Linear Networks with Minimal Errors 263",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 269,
+        "latex_position": 604131,
+        "content_length": 2098,
+        "page_last_content": " well. 9.4 Linear Networks with Minimal Errors 265",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 271,
+        "latex_position": 608272,
+        "content_length": 1551,
+        "page_last_content": "slowly 9.4 Linear Networks with Minimal Errors 267",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 272,
+        "latex_position": 608837,
+        "content_length": 1517,
+        "page_last_content": "al variant of the delta rule 268 9 Neural Networks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 273,
+        "latex_position": 611931,
+        "content_length": 1959,
+        "page_last_content": "xp k\u00de2 9.4 Linear Networks with Minimal Errors 269",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 274,
+        "latex_position": 613590,
+        "content_length": 1302,
+        "page_last_content": "ns of the next higher level. 270 9 Neural Networks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 275,
+        "latex_position": 615671,
+        "content_length": 1750,
+        "page_last_content": "on algorithm 9.5 The Backpropagation Algorithm 271",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 276,
+        "latex_position": 617345,
+        "content_length": 1508,
+        "page_last_content": "its pronunciation attributes 272 9 Neural Networks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 277,
+        "latex_position": 617641,
+        "content_length": 1502,
+        "page_last_content": "or over time 9.5 The Backpropagation Algorithm 273",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 279,
+        "latex_position": 621608,
+        "content_length": 2392,
+        "page_last_content": "term (right) 9.5 The Backpropagation Algorithm 275",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 280,
+        "latex_position": 626643,
+        "content_length": 2530,
+        "page_last_content": " it belongs to both classes. 276 9 Neural Networks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 281,
+        "latex_position": 629783,
+        "content_length": 3149,
+        "page_last_content": "ortant principles. 9.6 Support Vector Machines 277",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 282,
+        "latex_position": 631485,
+        "content_length": 1746,
+        "page_last_content": "t deeplearning.stanford.edu. 278 9 Neural Networks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 283,
+        "latex_position": 633967,
+        "content_length": 2373,
+        "page_last_content": "hidden layer during learning 9.7 Deep Learning 279",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 284,
+        "latex_position": 637004,
+        "content_length": 2984,
+        "page_last_content": "by a support vector machine. 280 9 Neural Networks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 285,
+        "latex_position": 640106,
+        "content_length": 2945,
+        "page_last_content": "rated 7Accessed April, 2016. 9.7 Deep Learning 281",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 287,
+        "latex_position": 643146,
+        "content_length": 984,
+        "page_last_content": "he bottom left (Source [GEB15]) 9.8 Creativity 283",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 288,
+        "latex_position": 646221,
+        "content_length": 3058,
+        "page_last_content": "g is described in Sect. 10.8 284 9 Neural Networks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 289,
+        "latex_position": 649301,
+        "content_length": 3089,
+        "page_last_content": "forgotten. 9.9 Applications of Neural Networks 285",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 290,
+        "latex_position": 651238,
+        "content_length": 1753,
+        "page_last_content": "g data pairs qp, qp with the 286 9 Neural Networks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 291,
+        "latex_position": 653116,
+        "content_length": 1761,
+        "page_last_content": "two spaces and the data points. 9.11 Exercises 287",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 293,
+        "latex_position": 655968,
+        "content_length": 1438,
+        "page_last_content": "movement to the left 290 10 Reinforcement Learning",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 296,
+        "latex_position": 664991,
+        "content_length": 1801,
+        "page_last_content": " state in the respective circles 10.2 The Task 293",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 298,
+        "latex_position": 670381,
+        "content_length": 2167,
+        "page_last_content": ". 10.4 Value Iteration and Dynamic Programming 295",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 300,
+        "latex_position": 674507,
+        "content_length": 942,
+        "page_last_content": "n 10.4 Value Iteration and Dynamic Programming 297",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 301,
+        "latex_position": 676207,
+        "content_length": 710,
+        "page_last_content": "king robot simulator 298 10 Reinforcement Learning",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 302,
+        "latex_position": 678510,
+        "content_length": 2155,
+        "page_last_content": ".5 A Learning Walking Robot and Its Simulation 299",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 303,
+        "latex_position": 682208,
+        "content_length": 2548,
+        "page_last_content": "teratively carry out 300 10 Reinforcement Learning",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 305,
+        "latex_position": 688855,
+        "content_length": 1243,
+        "page_last_content": "so optimal, is shown 302 10 Reinforcement Learning",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 306,
+        "latex_position": 693227,
+        "content_length": 2472,
+        "page_last_content": "ending the table of ^Q values. 10.6 Q-Learning 303",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 307,
+        "latex_position": 696059,
+        "content_length": 2625,
+        "page_last_content": "tes can be selected. 304 10 Reinforcement Learning",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 309,
+        "latex_position": 702047,
+        "content_length": 2733,
+        "page_last_content": " pattern recognition 306 10 Reinforcement Learning",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 310,
+        "latex_position": 705278,
+        "content_length": 3000,
+        "page_last_content": "rograms. 10.10 AlphaGo, the Breakthrough in Go 307",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 311,
+        "latex_position": 705552,
+        "content_length": 2155,
+        "page_last_content": "esponding grid point 308 10 Reinforcement Learning",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 312,
+        "latex_position": 710734,
+        "content_length": 3234,
+        "page_last_content": "cement learning. 10.11 Curse of Dimensionality 309",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 313,
+        "latex_position": 713338,
+        "content_length": 2568,
+        "page_last_content": "89 with nx \u00bc ny \u00bc 2. 310 10 Reinforcement Learning",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 314,
+        "latex_position": 715175,
+        "content_length": 1660,
+        "page_last_content": "rtainly be called intelligent. 10.13 Exercises 311",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 316,
+        "latex_position": 720063,
+        "content_length": 1977,
+        "page_last_content": "(f _ B) \u0005 B and 314 11 Solutions for the Exercises",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 318,
+        "latex_position": 725181,
+        "content_length": 1722,
+        "page_last_content": " are necessary. 316 11 Solutions for the Exercises",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 319,
+        "latex_position": 727921,
+        "content_length": 1870,
+        "page_last_content": "ng recursion. 11.3 First-Order Predicate Logic 317",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 323,
+        "latex_position": 736806,
+        "content_length": 2015,
+        "page_last_content": "stance. 11.6 Search, Games and Problem Solving 321",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 331,
+        "latex_position": 751742,
+        "content_length": 1273,
+        "page_last_content": "8.06 > 0 11.8 Machine Learning and Data Mining 329",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 332,
+        "latex_position": 753961,
+        "content_length": 1617,
+        "page_last_content": " approximation. 330 11 Solutions for the Exercises",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 334,
+        "latex_position": 759083,
+        "content_length": 1936,
+        "page_last_content": "x2 > 3: 1 (3/0) 332 11 Solutions for the Exercises",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 337,
+        "latex_position": 766201,
+        "content_length": 2081,
+        "page_last_content": " higher. 11.8 Machine Learning and Data Mining 335",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 338,
+        "latex_position": 766854,
+        "content_length": 1644,
+        "page_last_content": "[[p]].\" (b) (c) 336 11 Solutions for the Exercises",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 340,
+        "latex_position": 773758,
+        "content_length": 1490,
+        "page_last_content": "optimal policy. 338 11 Solutions for the Exercises",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 342,
+        "latex_position": 779699,
+        "content_length": 3417,
+        "page_last_content": " Order Calculi. Vieweg Verlag, 1991 340 References",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 343,
+        "latex_position": 783269,
+        "content_length": 3570,
+        "page_last_content": "learning-algorithm-painting-masters References 341",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 344,
+        "latex_position": 786713,
+        "content_length": 3478,
+        "page_last_content": " Appendektomie. Mabuse Verlag, 1994 342 References",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 345,
+        "latex_position": 790173,
+        "content_length": 3497,
+        "page_last_content": "1972. Reprint in [AR88] pp. 171\u2013174 References 343",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 346,
+        "latex_position": 793850,
+        "content_length": 3350,
+        "page_last_content": "ns (MIT Press, Cambridge, MA, 1969) 344 References",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 347,
+        "latex_position": 797380,
+        "content_length": 3492,
+        "page_last_content": "oximate Reasoning 3, 183\u2013223 (1990) References 345",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 348,
+        "latex_position": 801005,
+        "content_length": 3441,
+        "page_last_content": ".gaussianprocess.org/gpml/chapters/ 346 References",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 349,
+        "latex_position": 804578,
+        "content_length": 3299,
+        "page_last_content": "16. http://asrobe.hs- weingarten.de References 347",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 350,
+        "latex_position": 808089,
+        "content_length": 3471,
+        "page_last_content": "tions of the ACM 9(1), 36\u201345 (1966) 348 References",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 351,
+        "latex_position": 809238,
+        "content_length": 1171,
+        "page_last_content": "e (Philipp Reclam, Stuttgart, 1994) References 349",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 353,
+        "latex_position": 812809,
+        "content_length": 2111,
+        "page_last_content": "8 Equation, directed, 55 Equivalence, 24 352 Index",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 354,
+        "latex_position": 814772,
+        "content_length": 1872,
+        "page_last_content": "76, 198 batch, 266 by demonstration, 309 Index 353",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 355,
+        "latex_position": 816953,
+        "content_length": 2160,
+        "page_last_content": "OWL, 63 P Paradox, 68 Paramodulation, 56 354 Index",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 356,
+        "latex_position": 818824,
+        "content_length": 1848,
+        "page_last_content": "ed annealing, 256 Situation calculus, 71 Index 355",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 357,
+        "latex_position": 820147,
+        "content_length": 1310,
+        "page_last_content": "Watson, 20 WEKA, 199, 233 Whitening, 280 356 Index",
+        "method": "fuzzy_matching"
+    }
+]

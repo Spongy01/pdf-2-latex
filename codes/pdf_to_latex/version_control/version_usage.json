@@ -273,5 +273,30 @@
     "book_name": "algorithms",
     "version": "fixing-bib",
     "last_used": "2025-10-28T12:20:25.012623"
+  },
+  "ai___TOC FIX": {
+    "book_name": "ai",
+    "version": "TOC FIX",
+    "last_used": "2025-11-02T16:18:33.970229"
+  },
+  "assembly___TOC FIX": {
+    "book_name": "assembly",
+    "version": "TOC FIX",
+    "last_used": "2025-11-02T16:36:23.161100"
+  },
+  "cybersec___TOC FIX": {
+    "book_name": "cybersec",
+    "version": "TOC FIX",
+    "last_used": "2025-11-02T16:35:32.938699"
+  },
+  "data-science___TOC FIX": {
+    "book_name": "data-science",
+    "version": "TOC FIX",
+    "last_used": "2025-11-02T16:26:18.302284"
+  },
+  "algorithms___TOC FIX": {
+    "book_name": "algorithms",
+    "version": "TOC FIX",
+    "last_used": "2025-11-02T16:24:08.739480"
   }
 }

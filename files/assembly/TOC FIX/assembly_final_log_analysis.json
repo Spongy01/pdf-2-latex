@@ -1,0 +1,52 @@
+{
+  "log_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/TOC FIX/assembly_final.log",
+  "errors": [],
+  "warnings": [
+    {
+      "source": "LaTeX",
+      "description": "Command \\textbackslash invalid in math mode on input line 10843",
+      "count": 2,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "inputenc",
+      "description": "inputenc package ignored with utf8 based engines",
+      "count": 1,
+      "sources": [
+        "inputenc"
+      ]
+    },
+    {
+      "source": "microtype",
+      "description": "Unable to apply patch `footnote' on input line 95",
+      "count": 1,
+      "sources": [
+        "microtype"
+      ]
+    },
+    {
+      "source": "xeCJK",
+      "description": "Unknown CJK family `\\CJKttdefault' is being ignored",
+      "count": 1,
+      "sources": [
+        "xeCJK"
+      ]
+    }
+  ],
+  "summary": {
+    "total_errors": 0,
+    "total_warnings": 5,
+    "unique_errors": 0,
+    "unique_warnings": 4,
+    "compilation_successful": true
+  },
+  "compilation_info": {
+    "pages_compiled": 343,
+    "total_pages": 0,
+    "compilation_time": null,
+    "latex_version": null,
+    "output_file": "assembly_final.xdv"
+  }
+}

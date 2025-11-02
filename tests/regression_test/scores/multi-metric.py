@@ -257,31 +257,31 @@ def calculate_score(input_file_path: str, output_file_path: str) -> float:
     if num_chapters != -1:
         if num_chapters != num_chapters_out:
             score -= abs(num_chapters - num_chapters_out) * 0.5  # each mismatch costs 0.5 points
-            result["Chapters Deduction"] = abs(num_chapters - num_chapters_out) * 0.5
+        result["Chapters Deduction"] = abs(num_chapters - num_chapters_out) * 0.5
     if num_sections != -1:
         if num_sections != num_sections_out:
             score -= abs(num_sections - num_sections_out) * 0.5  # each mismatch costs 0.5 points
-            result["Sections Deduction"] = abs(num_sections - num_sections_out) * 0.5
+        result["Sections Deduction"] = abs(num_sections - num_sections_out) * 0.5
     if num_subsections != -1:
         if num_subsections != num_subsections_out:
             score -= abs(num_subsections - num_subsections_out) * 0.5  # each mismatch costs 0.5 points
-            result["Subsections Deduction"] = abs(num_subsections - num_subsections_out) * 0.5
+        result["Subsections Deduction"] = abs(num_subsections - num_subsections_out) * 0.5
     
     # Deduct points for figures, tables mismatches
     if num_figures != -1:
         if num_figures != num_figures_out:
             score -= abs(num_figures - num_figures_out) * 0.5  # each mismatch costs 0.5 points
-            result["Figures Deduction"] = abs(num_figures - num_figures_out) * 0.5  
+        result["Figures Deduction"] = abs(num_figures - num_figures_out) * 0.5  
     if num_tables != -1:
         if num_tables != num_tables_out:
             score -= abs(num_tables - num_tables_out) * 0.5  # each mismatch costs 0.5 points
-            result["Tables Deduction"] = abs(num_tables - num_tables_out) * 0.5
+        result["Tables Deduction"] = abs(num_tables - num_tables_out) * 0.5
 
     # Deduct points for index entries mismatches
     if num_index_entries != -1:
         if num_index_entries != num_index_entries_out:
             score -= abs(num_index_entries - num_index_entries_out) * 0.2  # each mismatch costs 0.2 points
-            result["Index Entries Deduction"] = abs(num_index_entries - num_index_entries_out) * 0.2
+        result["Index Entries Deduction"] = abs(num_index_entries - num_index_entries_out) * 0.2
 
     # deduct points for begin-end mismatches
     score -= abs(diff_num_total) * 0.5      # each mismatch costs 0.5 points
@@ -291,6 +291,27 @@ def calculate_score(input_file_path: str, output_file_path: str) -> float:
     # round off score to 2 decimal places
     score = round(score, 2)
     result["Score"] = score
+
+    # percent deductions
+    result["Latex Error % Deduction"] = round(-result["Latex Errors Deduction"]/score * 100 if score != 0 else 0, 2)
+    result["Latex Warning % Deduction"] = round(-result["Latex Warnings Deduction"]/score * 100 if score != 0 else 0, 2)
+    if "Bibtex Extraction Deduction" in result:
+        result["Bibtex Extraction % Deduction"] = round(-result["Bibtex Extraction Deduction"]/score * 100 if score != 0 else 0, 2)
+    if "Bibtex Citation Deduction" in result:
+        result["Bibtex Citation % Deduction"] = round(-result["Bibtex Citation Deduction"]/score * 100 if score != 0 else 0, 2)
+    if "Chapters Deduction" in result:
+        result["Chapters % Deduction"] = round(-result["Chapters Deduction"]/score * 100 if score != 0 else 0, 2)
+    if "Sections Deduction" in result:
+        result["Sections % Deduction"] = round(-result["Sections Deduction"]/score * 100 if score != 0 else 0, 2)
+    if "Subsections Deduction" in result:
+        result["Subsections % Deduction"] = round(-result["Subsections Deduction"]/score * 100 if score != 0 else 0, 2)
+    if "Figures Deduction" in result:
+        result["Figures % Deduction"] =round( -result["Figures Deduction"]/score * 100 if score != 0 else 0, 2)
+    if "Tables Deduction" in result:
+        result["Tables % Deduction"] = round(-result["Tables Deduction"]/score * 100 if score != 0 else 0, 2)
+    if "Index Entries Deduction" in result:
+        result["Index Entries % Deduction"] =round( -result["Index Entries Deduction"]/score * 100 if score != 0 else 0, 2)
+    result["Total Begin-End Difference % Deduction"] = round(-result["Total Begin-End Difference Deduction"]/score * 100 if score != 0 else 0, 2)
 
     # add scoring metrics
 
@@ -307,7 +328,7 @@ def calculate_score(input_file_path: str, output_file_path: str) -> float:
     result["Chapters %"] = round((num_chapters_out / num_chapters * 100), 2) if num_chapters > 0 else "N/A"
     result["Sections %"] = round((num_sections_out / num_sections * 100), 2) if num_sections > 0 else "N/A"
     result["Subsections %"] = round((num_subsections_out / num_subsections * 100), 2) if num_subsections > 0 else "N/A"       
-    result["Figures %"] = round(((num_figures_out + num_included_graphics) / num_figures * 100), 2) if num_figures > 0 else "N/A"
+    result["Figures %"] = round(((num_figures_out) / num_figures * 100), 2) if num_figures > 0 else "N/A"
     result["Tables %"] = round((num_tables_out / num_tables * 100), 2) if num_tables > 0 else "N/A"
     result["Index Entries %"] = round((num_index_entries_out / num_index_entries * 100), 2) if num_index_entries > 0 else "N/A"   
     result["Bibtex (metadata)"] = num_bibtex_mtd
@@ -331,7 +352,7 @@ def calculate_score(input_file_path: str, output_file_path: str) -> float:
     result["Figures (metadata)"] = num_figures
     result["Figures (output)"] = num_figures_out
     result["Included Graphics (output)"] = num_included_graphics
-    result["Figures (diff [meta-out])"] = num_figures - num_figures_out - num_included_graphics if num_figures != -1 else "N/A"
+    result["Figures (diff [meta-out])"] = num_figures - num_figures_out if num_figures != -1 else "N/A"
 
     result["Tables (metadata)"] = num_tables
     result["Tables (output)"] = num_tables_out

@@ -22,6 +22,7 @@ def remove_leading_numbers_from_headings(input_tex: str) -> str:
     replacement = r'\1\2}'
     return re.sub(pattern, replacement, input_tex)
 
+# need to delay this, because it removes important sections/chapters
 # 3. Remove empty sections or chapters
 def remove_empty_headings(input_tex: str) -> str:
     """
@@ -59,6 +60,13 @@ def get_cleaned_toc(pdf_path: str):
         title = title.replace('\r', ' ').strip()
         # Remove leading numbers + dots (like "1.2.3 " or "7 ")
         title = re.sub(r'^\s*\d+(?:\.\d+)*\s*', '', title)
+        # Remove "Chapter", "Section", "Subsection" (with or without a number)
+        title = re.sub(
+            r'^(?:Chapter|Section|Subsection)\s*(?:\d+)?\s*', 
+            '', 
+            title, 
+            flags=re.IGNORECASE
+        )
         cleaned_toc.append([level, title, page])
     
     return cleaned_toc
@@ -77,7 +85,25 @@ def fix_latex_headings(input_tex: str, cleaned_toc: list, chapter_level: int = 1
         str: Corrected LaTeX string.
     """
     # Build a mapping from TOC title -> level
-    toc_map = {title: level for (level, title, _) in cleaned_toc}
+    toc_map = {}
+    toc_chapters = 0
+    toc_sections = 0
+    toc_subsections = 0
+    toc_length = 0
+    for level, title, _ in cleaned_toc:
+        if level == chapter_level:
+            toc_chapters += 1
+        elif level == section_level:
+            toc_sections += 1
+        elif level == subsection_level:
+            toc_subsections += 1
+        if title in toc_map:
+            toc_map[title].append(level)
+        else:
+            toc_map[title] = [level]
+
+    toc_length = toc_chapters + toc_sections + toc_subsections
+
 
     # Regex to match all LaTeX headings
     heading_pattern = re.compile(r'\\(chapter|section|subsection|subsubsection)\{(.*?)\}')
@@ -94,30 +120,62 @@ def fix_latex_headings(input_tex: str, cleaned_toc: list, chapter_level: int = 1
         int(section_level): 'section',
         int(subsection_level): 'subsection',
     }
+    removed_count = 0
+    modified_count = 0
+    kept_count = 0
+    total_count = 0
+
+    chapters_found = 0
+    sections_found = 0
+    subsections_found = 0
+
     def correct_heading(match):
+        nonlocal removed_count, modified_count, kept_count, total_count
+        total_count += 1
         current_cmd = match.group(1)      # current LaTeX command
         title = match.group(2).strip()    # heading title
-
         
+        toc_list = toc_map.get(title)
 
+
+        if toc_list is None:
+            # Not in TOC → remove it
+            print(f"❌ [{total_count}] Removed :: \\{current_cmd}{{{title}}} — not found in TOC")
+            removed_count += 1
+            return title  # removes heading, just keeps title for the sake of content flow
         
+        toc_level = toc_list.pop(0)
+        # check if toc_list is empty, if so remove the title from toc_map
+        if not toc_list:
+            del toc_map[title]
 
-        # Check if this title exists in TOC
-        if title in toc_map:
-            toc_level = toc_map[title]
+        # Exists → check if command matches expected level
+        correct_cmd = level_to_cmd.get(toc_level, current_cmd)
+        if toc_level == chapter_level:
+            nonlocal chapters_found
+            chapters_found += 1
+        elif toc_level == section_level:
+            nonlocal sections_found
+            sections_found += 1
+        elif toc_level == subsection_level:
+            nonlocal subsections_found
+            subsections_found += 1
 
-            # Map TOC level to LaTeX command
-            
-            correct_cmd = level_to_cmd.get(toc_level, current_cmd)
-
-            if correct_cmd != current_cmd:
-                print(f"Modified Heading :: {title} : {current_cmd} -> {correct_cmd}")
-                return f'\\{correct_cmd}{{{title}}}'
-
-        return match.group(0)  # no change
-
+        if correct_cmd != current_cmd:
+            print(f"🛠️ [{total_count}] Modified :: {title} — {current_cmd} → {correct_cmd}")
+            modified_count += 1
+            return f'\\{correct_cmd}{{{title}}}'
+        
+        # Heading is already correct
+        print(f"✅ [{total_count}] Kept :: \\{current_cmd}{{{title}}} — already correct")
+        kept_count += 1
+        return match.group(0)
+    
     # Replace all headings with corrected ones
     corrected_tex = heading_pattern.sub(correct_heading, input_tex)
+    print(f"\nSummary: Total={total_count}, Kept={kept_count}, Modified={modified_count}, Removed={removed_count}\n")
+    print(f"TOC Summary: Chapters={toc_chapters}, Sections={toc_sections}, Subsections={toc_subsections}, Total Entries={toc_length}\n")
+    print(f"Found in LaTeX: Chapters={chapters_found}, Sections={sections_found}, Subsections={subsections_found}, Total Found={chapters_found + sections_found + subsections_found}\n")
     return corrected_tex
 
 def replace_first_contents_with_toc(input_tex: str) -> str:
@@ -197,14 +255,14 @@ def clean_it_up(INPUT_TEX_FILE: str, BOOK_PDF_FILE: str, OUTPUT_TEX_FILE: str, c
     print("Removed * from section titles")
     no_numbers_tex = remove_leading_numbers_from_headings(unstared_tex)
     print("Removed leading numbers from section titles")
-    cleaned_tex = remove_empty_headings(no_numbers_tex)
-    print("Removed empty sections/chapters from the tex file")
+    # cleaned_tex = remove_empty_headings(no_numbers_tex)
+    # print("Removed empty sections/chapters from the tex file") # this is now handled in the fix_latex_headings function
 
     # get cleaned toc
     toc = get_cleaned_toc(BOOK_PDF_FILE)
     print(f"Extracted TOC with {len(toc)} entries")
 
-    fixed_headings_tex = fix_latex_headings(cleaned_tex, toc, chapter_level, section_level, subsection_level)
+    fixed_headings_tex = fix_latex_headings(no_numbers_tex, toc, chapter_level, section_level, subsection_level)
     print("Fixed LaTeX headings based on cleaned TOC")
     final_tex = replace_first_contents_with_toc(fixed_headings_tex)
     print("Replaced 'Contents' section/chapter with \\tableofcontents")
@@ -242,7 +300,3 @@ if __name__ == '__main__':
         import traceback
         traceback.print_exc()
         sys.exit(1)
-
-
-    
-
