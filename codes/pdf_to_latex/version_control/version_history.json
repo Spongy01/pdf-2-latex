@@ -1,5 +1,14 @@
 [
   {
+    "name": "mathpix",
+    "short_name": "mathpix",
+    "created_at": "2025-10-19T19:30:49.169862",
+    "is_current": false,
+    "is_deleted": false,
+    "description": "",
+    "is_root": true
+  },
+  {
     "name": "original",
     "short_name": "orig",
     "created_at": "2025-10-07T00:00:00.000000",
@@ -33,15 +42,6 @@
     "is_current": false,
     "is_deleted": false,
     "description": "Adding LaTeX balance checking and fixing",
-    "is_root": false
-  },
-  {
-    "name": "mathpix",
-    "short_name": "mathpix",
-    "created_at": "2025-10-19T19:30:49.169862",
-    "is_current": false,
-    "is_deleted": false,
-    "description": "",
     "is_root": false
   },
   {

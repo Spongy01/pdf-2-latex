@@ -232,55 +232,68 @@ def calculate_score(input_file_path: str, output_file_path: str) -> float:
         print(f"{tag.capitalize()} - Begin: {begin_count}, End: {end_count}, Difference (begin - end): {diff_count}")
 
 
+    result = {}
+
     # --- Compute Score ---
     score = 0.0 
     
     # Deduct points for errors/warnings
     score -= num_errors * 0.5       # each error costs 5 points
+    result["Latex Errors Deduction"] = num_errors * 0.5
     score -= num_warnings * 0.1     # each warning costs 1 point
+    result["Latex Warnings Deduction"] = num_warnings * 0.1
 
     # Deduct points for bibtex mismatches
     if num_bibtex_mtd != -1 and num_bibtex_json != -1:
         if num_bibtex_mtd != num_bibtex_json:
             score -= abs(num_bibtex_mtd - num_bibtex_json) * 0.5  # each mismatch costs 0.5 points
+        result["Bibtex Extraction Deduction"] = abs(num_bibtex_mtd - num_bibtex_json) * 0.5
     if num_bibtex_json != -1:
         if num_bibtex_json != num_cites:
             score -= abs(num_bibtex_json - num_cites) * 0.5  # each mismatch costs 0.5 points
+        result["Bibtex Citation Deduction"] = abs(num_bibtex_json - num_cites) * 0.5
     
     # Deduct points for chapters, sections, subsections mismatches
     if num_chapters != -1:
         if num_chapters != num_chapters_out:
             score -= abs(num_chapters - num_chapters_out) * 0.5  # each mismatch costs 0.5 points
+            result["Chapters Deduction"] = abs(num_chapters - num_chapters_out) * 0.5
     if num_sections != -1:
         if num_sections != num_sections_out:
             score -= abs(num_sections - num_sections_out) * 0.5  # each mismatch costs 0.5 points
+            result["Sections Deduction"] = abs(num_sections - num_sections_out) * 0.5
     if num_subsections != -1:
         if num_subsections != num_subsections_out:
             score -= abs(num_subsections - num_subsections_out) * 0.5  # each mismatch costs 0.5 points
+            result["Subsections Deduction"] = abs(num_subsections - num_subsections_out) * 0.5
     
     # Deduct points for figures, tables mismatches
     if num_figures != -1:
         if num_figures != num_figures_out:
-            score -= abs(num_figures - num_figures_out- num_included_graphics) * 0.5  # each mismatch costs 0.5 points
+            score -= abs(num_figures - num_figures_out) * 0.5  # each mismatch costs 0.5 points
+            result["Figures Deduction"] = abs(num_figures - num_figures_out) * 0.5  
     if num_tables != -1:
         if num_tables != num_tables_out:
             score -= abs(num_tables - num_tables_out) * 0.5  # each mismatch costs 0.5 points
+            result["Tables Deduction"] = abs(num_tables - num_tables_out) * 0.5
 
     # Deduct points for index entries mismatches
     if num_index_entries != -1:
         if num_index_entries != num_index_entries_out:
             score -= abs(num_index_entries - num_index_entries_out) * 0.2  # each mismatch costs 0.2 points
+            result["Index Entries Deduction"] = abs(num_index_entries - num_index_entries_out) * 0.2
 
     # deduct points for begin-end mismatches
     score -= abs(diff_num_total) * 0.5      # each mismatch costs 0.5 points
+    result["Total Begin-End Difference Deduction"] = abs(diff_num_total) * 0.5
 
 
-    # Ensure score is within 0-100
-    # score = max(0.0,  score)
-    result = {}
     # round off score to 2 decimal places
     score = round(score, 2)
     result["Score"] = score
+
+    # add scoring metrics
+
     # compute percent compiled using log and output directory
     try:
         pct = percent_compiled(log_file_path, output_directory, base_name)

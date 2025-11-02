@@ -47,6 +47,19 @@ METRIC_ROWS = [
     "Tables %",
     "Index Entries %",
     "------------",
+    "Score Deductions:",
+    "Latex Errors Deduction",
+    "Latex Warnings Deduction",
+    "Bibtex Extraction Deduction",
+    "Bibtex Citation Deduction",
+    "Chapters Deduction",
+    "Sections Deduction",
+    "Subsections Deduction",
+    "Figures Deduction",
+    "Tables Deduction",
+    "Index Entries Deduction",
+    "Total Begin-End Difference Deduction",
+    "------------",
     "Bibtex (metadata)",
     "Bibtex extracted (json)",
     "Entries Cited",
@@ -303,7 +316,7 @@ def _color_master_by_version(ws):
                     else:
                         cell_cur.fill = green_fill
                 # Difference metrics (contain 'diff' or 'difference'): smaller absolute diff is better
-                elif "diff" in metric_label_lower or "difference" in metric_label_lower:
+                elif "diff" in metric_label_lower or "difference" in metric_label_lower or "deduction" in metric_label_lower:
                     # compare absolute values: decrease in abs(diff) -> green
                     if abs(val_cur) < abs(val_prev):
                         cell_cur.fill = green_fill
