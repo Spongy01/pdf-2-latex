@@ -1,0 +1,69 @@
+{
+  "log_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/Index fix/algorithms_final.log",
+  "errors": [
+    {
+      "source": "LaTeX",
+      "description": "Not in outer par mode",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "source": "inputenc",
+      "description": "inputenc package ignored with utf8 based engines",
+      "count": 1,
+      "sources": [
+        "inputenc"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Float too large for page by 21",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Citation `ben90' on page 45 undefined on input line 1177",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "Font",
+      "description": "Some font shapes were not available, defaults substituted",
+      "count": 1,
+      "sources": [
+        "Font"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "There were undefined references",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    }
+  ],
+  "summary": {
+    "total_errors": 1,
+    "total_warnings": 5,
+    "unique_errors": 1,
+    "unique_warnings": 5,
+    "compilation_successful": false
+  },
+  "compilation_info": {
+    "pages_compiled": 522,
+    "total_pages": 0,
+    "compilation_time": null,
+    "latex_version": null,
+    "output_file": "algorithms_final.xdv"
+  }
+}

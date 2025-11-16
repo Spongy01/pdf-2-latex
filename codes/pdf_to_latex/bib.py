@@ -22,7 +22,13 @@ load_dotenv()
 api_key = os.getenv("API_KEY")
 
 OPENAI_API_KEY = api_key
-client = OpenAI(api_key=OPENAI_API_KEY)
+# client = OpenAI(api_key=OPENAI_API_KEY)
+
+client = OpenAI(
+    organization='org-njwcb70yqPRnJe1N2MK0Bf36',
+    project='proj_XqOTFZ0yRIM304plxTavtUzx',
+    api_key=OPENAI_API_KEY
+)
 
 # Global cache management
 cache_lock = threading.Lock()

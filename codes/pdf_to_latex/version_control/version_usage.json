@@ -298,5 +298,30 @@
     "book_name": "algorithms",
     "version": "TOC FIX",
     "last_used": "2025-11-02T16:24:08.739480"
+  },
+  "ai___Index fix": {
+    "book_name": "ai",
+    "version": "Index fix",
+    "last_used": "2025-11-09T15:29:55.820954"
+  },
+  "assembly___Index fix": {
+    "book_name": "assembly",
+    "version": "Index fix",
+    "last_used": "2025-11-09T15:34:18.792303"
+  },
+  "algorithms___Index fix": {
+    "book_name": "algorithms",
+    "version": "Index fix",
+    "last_used": "2025-11-09T15:39:02.376729"
+  },
+  "cybersec___Index fix": {
+    "book_name": "cybersec",
+    "version": "Index fix",
+    "last_used": "2025-11-09T15:44:27.255053"
+  },
+  "data-science___Index fix": {
+    "book_name": "data-science",
+    "version": "Index fix",
+    "last_used": "2025-11-09T15:53:50.383193"
   }
 }

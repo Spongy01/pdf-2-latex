@@ -1,0 +1,7105 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.28)  9 NOV 2025 15:54
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/d
+ata-science/Index fix/data-science_final.tex"
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/dat
+a-science/Index fix/data-science_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count271
+\c@chapter=\count272
+\c@section=\count273
+\c@subsection=\count274
+\c@subsubsection=\count275
+\c@paragraph=\count276
+\c@subparagraph=\count277
+\c@figure=\count278
+\c@table=\count279
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
+Package: ucharclasses 2022/10/20 v2.6.0 Unicode block character classes for XeL
+aTeX
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\AegeanNumbersClass=\XeTeXcharclass1
+\AlphabeticPresentationFormsClass=\XeTeXcharclass2
+\AncientGreekMusicalNotationClass=\XeTeXcharclass3
+\AncientGreekNumbersClass=\XeTeXcharclass4
+\AncientSymbolsClass=\XeTeXcharclass5
+\ArabicClass=\XeTeXcharclass6
+\ArabicPresentationFormsAClass=\XeTeXcharclass7
+\ArabicPresentationFormsBClass=\XeTeXcharclass8
+\ArabicSupplementClass=\XeTeXcharclass9
+\ArmenianClass=\XeTeXcharclass10
+\ArrowsClass=\XeTeXcharclass11
+\BalineseClass=\XeTeXcharclass12
+\BasicLatinClass=\XeTeXcharclass13
+\BengaliClass=\XeTeXcharclass14
+\BlockElementsClass=\XeTeXcharclass15
+\BopomofoClass=\XeTeXcharclass16
+\BopomofoExtendedClass=\XeTeXcharclass17
+\BoxDrawingClass=\XeTeXcharclass18
+\BraillePatternsClass=\XeTeXcharclass19
+\BugineseClass=\XeTeXcharclass20
+\BuhidClass=\XeTeXcharclass21
+\ByzantineMusicalSymbolsClass=\XeTeXcharclass22
+\ChamClass=\XeTeXcharclass23
+\CherokeeClass=\XeTeXcharclass24
+\CJKCompatibilityClass=\XeTeXcharclass25
+\CJKCompatibilityFormsClass=\XeTeXcharclass26
+\CJKCompatibilityIdeographsClass=\XeTeXcharclass27
+\CJKCompatibilityIdeographsSupplementClass=\XeTeXcharclass28
+\CJKRadicalsSupplementClass=\XeTeXcharclass29
+\CJKStrokesClass=\XeTeXcharclass30
+\CJKSymbolsAndPunctuationClass=\XeTeXcharclass31
+\CJKUnifiedIdeographsClass=\XeTeXcharclass32
+\CJKUnifiedIdeographsExtensionAClass=\XeTeXcharclass33
+\CJKUnifiedIdeographsExtensionBClass=\XeTeXcharclass34
+\CombiningDiacriticalMarksClass=\XeTeXcharclass35
+\CombiningDiacriticalMarksForSymbolsClass=\XeTeXcharclass36
+\CombiningDiacriticalMarksSupplementClass=\XeTeXcharclass37
+\CombiningHalfMarksClass=\XeTeXcharclass38
+\ControlPicturesClass=\XeTeXcharclass39
+\CopticClass=\XeTeXcharclass40
+\CountingRodNumeralsClass=\XeTeXcharclass41
+\CuneiformClass=\XeTeXcharclass42
+\CuneiformNumbersAndPunctuationClass=\XeTeXcharclass43
+\CurrencySymbolsClass=\XeTeXcharclass44
+\CypriotSyllabaryClass=\XeTeXcharclass45
+\CyrillicClass=\XeTeXcharclass46
+\CyrillicExtendedAClass=\XeTeXcharclass47
+\CyrillicExtendedBClass=\XeTeXcharclass48
+\CyrillicSupplementClass=\XeTeXcharclass49
+\DeseretClass=\XeTeXcharclass50
+\DevanagariDanDaClass=\XeTeXcharclass51
+\DevanagariMarksClass=\XeTeXcharclass52
+\DevanagariPostDanDaClass=\XeTeXcharclass53
+\DevanagariPostMarksClass=\XeTeXcharclass54
+\DevanagariPreMarksClass=\XeTeXcharclass55
+\DingbatsClass=\XeTeXcharclass56
+\DominoTilesClass=\XeTeXcharclass57
+\EnclosedAlphanumericsClass=\XeTeXcharclass58
+\EnclosedCJKLettersAndMonthsClass=\XeTeXcharclass59
+\EthiopicClass=\XeTeXcharclass60
+\EthiopicExtendedClass=\XeTeXcharclass61
+\EthiopicSupplementClass=\XeTeXcharclass62
+\GeneralPunctuationClass=\XeTeXcharclass63
+\GeometricShapesClass=\XeTeXcharclass64
+\GeorgianClass=\XeTeXcharclass65
+\GeorgianSupplementClass=\XeTeXcharclass66
+\GlagoliticClass=\XeTeXcharclass67
+\GreekAndCopticClass=\XeTeXcharclass68
+\GreekExtendedClass=\XeTeXcharclass69
+\GujaratiClass=\XeTeXcharclass70
+\GurmukhiClass=\XeTeXcharclass71
+\HalfwidthAndFullwidthFormsClass=\XeTeXcharclass72
+\HangulCompatibilityJamoClass=\XeTeXcharclass73
+\HangulJamoClass=\XeTeXcharclass74
+\HangulSyllablesClass=\XeTeXcharclass75
+\HanunooClass=\XeTeXcharclass76
+\HebrewClass=\XeTeXcharclass77
+\HiraganaClass=\XeTeXcharclass78
+\IdeographicDescriptionCharactersClass=\XeTeXcharclass79
+\IPAExtensionsClass=\XeTeXcharclass80
+\KanbunClass=\XeTeXcharclass81
+\KangxiRadicalsClass=\XeTeXcharclass82
+\KannadaClass=\XeTeXcharclass83
+\KatakanaClass=\XeTeXcharclass84
+\KatakanaPhoneticExtensionsClass=\XeTeXcharclass85
+\KayahLiClass=\XeTeXcharclass86
+\KhmerClass=\XeTeXcharclass87
+\KhmerSymbolsClass=\XeTeXcharclass88
+\LaoClass=\XeTeXcharclass89
+\LatinExtendedAdditionalClass=\XeTeXcharclass90
+\LatinExtendedAClass=\XeTeXcharclass91
+\LatinExtendedBClass=\XeTeXcharclass92
+\LatinExtendedCClass=\XeTeXcharclass93
+\LatinExtendedDClass=\XeTeXcharclass94
+\LatinSupplementClass=\XeTeXcharclass95
+\LepchaClass=\XeTeXcharclass96
+\LetterlikeSymbolsClass=\XeTeXcharclass97
+\LimbuClass=\XeTeXcharclass98
+\LinearBIdeogramsClass=\XeTeXcharclass99
+\LinearBSyllabaryClass=\XeTeXcharclass100
+\MahjongTilesClass=\XeTeXcharclass101
+\MalayalamClass=\XeTeXcharclass102
+\MathematicalAlphanumericSymbolsClass=\XeTeXcharclass103
+\MathematicalOperatorsClass=\XeTeXcharclass104
+\MiscellaneousMathematicalSymbolsAClass=\XeTeXcharclass105
+\MiscellaneousMathematicalSymbolsBClass=\XeTeXcharclass106
+\MiscellaneousSymbolsClass=\XeTeXcharclass107
+\MiscellaneousSymbolsAndArrowsClass=\XeTeXcharclass108
+\MiscellaneousTechnicalClass=\XeTeXcharclass109
+\ModifierToneLettersClass=\XeTeXcharclass110
+\MongolianClass=\XeTeXcharclass111
+\MusicalSymbolsClass=\XeTeXcharclass112
+\MyanmarClass=\XeTeXcharclass113
+\NewTaiLueClass=\XeTeXcharclass114
+\NKoClass=\XeTeXcharclass115
+\NumberFormsClass=\XeTeXcharclass116
+\OghamClass=\XeTeXcharclass117
+\OlChikiClass=\XeTeXcharclass118
+\OldPersianClass=\XeTeXcharclass119
+\OpticalCharacterRecognitionClass=\XeTeXcharclass120
+\OriyaClass=\XeTeXcharclass121
+\OsmanyaClass=\XeTeXcharclass122
+\PhagsPaClass=\XeTeXcharclass123
+\PhoenicianClass=\XeTeXcharclass124
+\PhoneticExtensionsClass=\XeTeXcharclass125
+\PhoneticExtensionsSupplementClass=\XeTeXcharclass126
+\PrivateUseAreaClass=\XeTeXcharclass127
+\RejangClass=\XeTeXcharclass128
+\RunicClass=\XeTeXcharclass129
+\SaurashtraClass=\XeTeXcharclass130
+\ShavianClass=\XeTeXcharclass131
+\SinhalaClass=\XeTeXcharclass132
+\SmallFormVariantsClass=\XeTeXcharclass133
+\SpacingModifierLettersClass=\XeTeXcharclass134
+\SundaneseClass=\XeTeXcharclass135
+\SuperscriptsAndSubscriptsClass=\XeTeXcharclass136
+\SupplementalArrowsAClass=\XeTeXcharclass137
+\SupplementalArrowsBClass=\XeTeXcharclass138
+\SupplementalMathematicalOperatorsClass=\XeTeXcharclass139
+\SupplementalPunctuationClass=\XeTeXcharclass140
+\SylotiNagriClass=\XeTeXcharclass141
+\SyriacClass=\XeTeXcharclass142
+\TagalogClass=\XeTeXcharclass143
+\TagbanwaClass=\XeTeXcharclass144
+\TagsClass=\XeTeXcharclass145
+\TaiLeClass=\XeTeXcharclass146
+\TaiXuanJingSymbolsClass=\XeTeXcharclass147
+\TamilClass=\XeTeXcharclass148
+\TeluguClass=\XeTeXcharclass149
+\ThaanaClass=\XeTeXcharclass150
+\ThaiClass=\XeTeXcharclass151
+\TibetanClass=\XeTeXcharclass152
+\TifinaghClass=\XeTeXcharclass153
+\UgariticClass=\XeTeXcharclass154
+\UnifiedCanadianAboriginalSyllabicsClass=\XeTeXcharclass155
+\VaiClass=\XeTeXcharclass156
+\VerticalFormsClass=\XeTeXcharclass157
+\YiRadicalsClass=\XeTeXcharclass158
+\YiSyllablesClass=\XeTeXcharclass159
+\YijingHexagramSymbolsClass=\XeTeXcharclass160
+\AvestanClass=\XeTeXcharclass161
+\BamumClass=\XeTeXcharclass162
+\CJKUnifiedIdeographsExtensionCClass=\XeTeXcharclass163
+\CommonIndicNumberFormsClass=\XeTeXcharclass164
+\DevanagariExtendedClass=\XeTeXcharclass165
+\EgyptianHieroglyphsClass=\XeTeXcharclass166
+\EnclosedAlphanumericSupplementClass=\XeTeXcharclass167
+\EnclosedIdeographicSupplementClass=\XeTeXcharclass168
+\HangulJamoExtendedAClass=\XeTeXcharclass169
+\HangulJamoExtendedBClass=\XeTeXcharclass170
+\ImperialAramaicClass=\XeTeXcharclass171
+\InscriptionalPahlaviClass=\XeTeXcharclass172
+\InscriptionalParthianClass=\XeTeXcharclass173
+\JavaneseClass=\XeTeXcharclass174
+\KaithiClass=\XeTeXcharclass175
+\LisuClass=\XeTeXcharclass176
+\MeeteiMayekClass=\XeTeXcharclass177
+\MyanmarExtendedAClass=\XeTeXcharclass178
+\RumiNumeralSymbolsClass=\XeTeXcharclass179
+\SamaritanClass=\XeTeXcharclass180
+\TaiThamClass=\XeTeXcharclass181
+\TaiVietClass=\XeTeXcharclass182
+\UnifiedCanadianAboriginalSyllabicsExtendedClass=\XeTeXcharclass183
+\VedicExtensionsClass=\XeTeXcharclass184
+\AlchemicalSymbolsClass=\XeTeXcharclass185
+\BamumSupplementClass=\XeTeXcharclass186
+\BatakClass=\XeTeXcharclass187
+\BrahmiClass=\XeTeXcharclass188
+\CJKUnifiedIdeographsExtensionDClass=\XeTeXcharclass189
+\EmoticonsClass=\XeTeXcharclass190
+\EthiopicExtendedAClass=\XeTeXcharclass191
+\KanaSupplementClass=\XeTeXcharclass192
+\MandaicClass=\XeTeXcharclass193
+\MiscellaneousSymbolsAndPictographsClass=\XeTeXcharclass194
+\PlayingCardsClass=\XeTeXcharclass195
+\TransportAndMapSymbolsClass=\XeTeXcharclass196
+\ArabicExtendedAClass=\XeTeXcharclass197
+\ArabicMathematicalAlphabeticSymbolsClass=\XeTeXcharclass198
+\ChakmaClass=\XeTeXcharclass199
+\MeeteiMayekExtensionsClass=\XeTeXcharclass200
+\MeroiticCursiveClass=\XeTeXcharclass201
+\MeroiticHieroglyphsClass=\XeTeXcharclass202
+\MiaoClass=\XeTeXcharclass203
+\SharadaClass=\XeTeXcharclass204
+\SoraSompengClass=\XeTeXcharclass205
+\SundaneseSupplementClass=\XeTeXcharclass206
+\TakriClass=\XeTeXcharclass207
+\BassaVahClass=\XeTeXcharclass208
+\CaucasianAlbanianClass=\XeTeXcharclass209
+\CombiningDiacriticalMarksExtendedClass=\XeTeXcharclass210
+\CopticEpactNumbersClass=\XeTeXcharclass211
+\ElbasanClass=\XeTeXcharclass212
+\GeometricShapesExtendedClass=\XeTeXcharclass213
+\GranthaClass=\XeTeXcharclass214
+\KhojkiClass=\XeTeXcharclass215
+\KhudawadiClass=\XeTeXcharclass216
+\LatinExtendedEClass=\XeTeXcharclass217
+\LinearAClass=\XeTeXcharclass218
+\MahajaniClass=\XeTeXcharclass219
+\MendeKikakuiClass=\XeTeXcharclass220
+\ModiClass=\XeTeXcharclass221
+\MroClass=\XeTeXcharclass222
+\MyanmarExtendedBClass=\XeTeXcharclass223
+\OrnamentalDingbatsClass=\XeTeXcharclass224
+\PahawhHmongClass=\XeTeXcharclass225
+\PauCinHauClass=\XeTeXcharclass226
+\SiddhamClass=\XeTeXcharclass227
+\SinhalaArchaicNumbersClass=\XeTeXcharclass228
+\SupplementalArrowsCClass=\XeTeXcharclass229
+\TirhutaClass=\XeTeXcharclass230
+\WarangCitiClass=\XeTeXcharclass231
+\CherokeeSupplementClass=\XeTeXcharclass232
+\CJKUnifiedIdeographsExtensionEClass=\XeTeXcharclass233
+\SupplementalSymbolsAndPictographsClass=\XeTeXcharclass234
+\CyrillicExtendedCClass=\XeTeXcharclass235
+\GlagoliticSupplementClass=\XeTeXcharclass236
+\IdeographicSymbolsAndPunctuationClass=\XeTeXcharclass237
+\MongolianSupplementClass=\XeTeXcharclass238
+\CJKUnifiedIdeographsExtensionFClass=\XeTeXcharclass239
+\KanaExtendedAClass=\XeTeXcharclass240
+\SyriacSupplementClass=\XeTeXcharclass241
+\GeorgianExtendedClass=\XeTeXcharclass242
+\SmallKanaExtensionClass=\XeTeXcharclass243
+\SymbolsAndPictographsExtendedAClass=\XeTeXcharclass244
+\CJKUnifiedIdeographsExtensionGClass=\XeTeXcharclass245
+\ArabicExtendedBClass=\XeTeXcharclass246
+\EthiopicExtendedBClass=\XeTeXcharclass247
+\KanaExtendedBClass=\XeTeXcharclass248
+\LatinExtendedFClass=\XeTeXcharclass249
+\LatinExtendedGClass=\XeTeXcharclass250
+\UnifiedCanadianAboriginalSyllabicsExtendedAClass=\XeTeXcharclass251
+\ArabicExtendedCClass=\XeTeXcharclass252
+\CJKUnifiedIdeographsExtensionHClass=\XeTeXcharclass253
+\CyrillicExtendedDClass=\XeTeXcharclass254
+\DevanagariExtendedAClass=\XeTeXcharclass255
+\CarianClass=\XeTeXcharclass256
+\GothicClass=\XeTeXcharclass257
+\KharoshthiClass=\XeTeXcharclass258
+\LycianClass=\XeTeXcharclass259
+\LydianClass=\XeTeXcharclass260
+\OldItalicClass=\XeTeXcharclass261
+\PhaistosDiscClass=\XeTeXcharclass262
+\SupplementaryPrivateUseAreaAClass=\XeTeXcharclass263
+\SupplementaryPrivateUseAreaBClass=\XeTeXcharclass264
+\OldSouthArabianClass=\XeTeXcharclass265
+\OldTurkicClass=\XeTeXcharclass266
+\DuployanClass=\XeTeXcharclass267
+\ManichaeanClass=\XeTeXcharclass268
+\NabataeanClass=\XeTeXcharclass269
+\OldNorthArabianClass=\XeTeXcharclass270
+\OldPermicClass=\XeTeXcharclass271
+\PalmyreneClass=\XeTeXcharclass272
+\PsalterPahlaviClass=\XeTeXcharclass273
+\ShorthandFormatControlsClass=\XeTeXcharclass274
+\AhomClass=\XeTeXcharclass275
+\AnatolianHieroglyphsClass=\XeTeXcharclass276
+\EarlyDynasticCuneiformClass=\XeTeXcharclass277
+\HatranClass=\XeTeXcharclass278
+\MultaniClass=\XeTeXcharclass279
+\OldHungarianClass=\XeTeXcharclass280
+\SuttonSignWritingClass=\XeTeXcharclass281
+\AdlamClass=\XeTeXcharclass282
+\BhaiksukiClass=\XeTeXcharclass283
+\MarchenClass=\XeTeXcharclass284
+\NewaClass=\XeTeXcharclass285
+\OsageClass=\XeTeXcharclass286
+\TangutClass=\XeTeXcharclass287
+\TangutComponentsClass=\XeTeXcharclass288
+\MasaramGondiClass=\XeTeXcharclass289
+\NushuClass=\XeTeXcharclass290
+\SoyomboClass=\XeTeXcharclass291
+\ZanabazarSquareClass=\XeTeXcharclass292
+\ChessSymbolsClass=\XeTeXcharclass293
+\DograClass=\XeTeXcharclass294
+\GunjalaGondiClass=\XeTeXcharclass295
+\HanifiRohingyaClass=\XeTeXcharclass296
+\IndicSiyaqNumbersClass=\XeTeXcharclass297
+\MakasarClass=\XeTeXcharclass298
+\MayanNumeralsClass=\XeTeXcharclass299
+\MedefaidrinClass=\XeTeXcharclass300
+\OldSogdianClass=\XeTeXcharclass301
+\SogdianClass=\XeTeXcharclass302
+\EgyptianHieroglyphFormatControlsClass=\XeTeXcharclass303
+\ElymaicClass=\XeTeXcharclass304
+\NandinagariClass=\XeTeXcharclass305
+\NyiakengPuachueHmongClass=\XeTeXcharclass306
+\OttomanSiyaqNumbersClass=\XeTeXcharclass307
+\TamilSupplementClass=\XeTeXcharclass308
+\WanchoClass=\XeTeXcharclass309
+\ChorasmianClass=\XeTeXcharclass310
+\DivesAkuruClass=\XeTeXcharclass311
+\KhitanSmallScriptClass=\XeTeXcharclass312
+\LisuSupplementClass=\XeTeXcharclass313
+\SymbolsForLegacyComputingClass=\XeTeXcharclass314
+\TangutSupplementClass=\XeTeXcharclass315
+\YezidiClass=\XeTeXcharclass316
+\CyproMinoanClass=\XeTeXcharclass317
+\OldUighurClass=\XeTeXcharclass318
+\TangsaClass=\XeTeXcharclass319
+\TotoClass=\XeTeXcharclass320
+\VithkuqiClass=\XeTeXcharclass321
+\ZnamennyMusicalNotationClass=\XeTeXcharclass322
+\KaktovikNumeralsClass=\XeTeXcharclass323
+\KawiClass=\XeTeXcharclass324
+\NagMundariClass=\XeTeXcharclass325
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+)
+\XKV@depth=\count280
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box53
+)
+\tc@llx=\dimen151
+\tc@lly=\dimen152
+\tc@urx=\dimen153
+\tc@ury=\dimen154
+Package trimclip Info: Using driver 'tc-xetex.def'.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen155
+\adjbox@Height=\dimen156
+\adjbox@Depth=\dimen157
+\adjbox@Totalheight=\dimen158
+\adjbox@pwidth=\dimen159
+\adjbox@pheight=\dimen160
+\adjbox@pdepth=\dimen161
+\adjbox@ptotalheight=\dimen162
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count281
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box54
+\sift@deathcycles=\count282
+\@vwid@loff=\dimen163
+\@vwid@roff=\dimen164
+)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count283
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count284
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen165
+\Hy@linkcounter=\count285
+\Hy@pagecounter=\count286
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count287
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count288
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen166
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count289
+\Field@Width=\dimen167
+\Fld@charsize=\dimen168
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count290
+\c@Item=\count291
+\c@Hfootnote=\count292
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2025-07-12 v7.01o Hyperref driver for XeTeX
+\pdfm@box=\box55
+\c@Hy@AnnotLevel=\count293
+\HyField@AnnotCount=\count294
+\Fld@listcount=\count295
+\c@bookmark@seq@number=\count296
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip51
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 9.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen169
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen170
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count297
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count298
+\leftroot@=\count299
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count300
+\DOTSCASE@=\count301
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen171
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count302
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count303
+\dotsspace@=\muskip18
+\c@parentequation=\count304
+\dspbrk@lvl=\count305
+\tag@help=\toks23
+\row@=\count306
+\column@=\count307
+\maxfields@=\count308
+\andhelp@=\toks24
+\eqnshift@=\dimen172
+\alignsep@=\dimen173
+\tagshift@=\dimen174
+\tagwidth@=\dimen175
+\totwidth@=\dimen176
+\lineht@=\dimen177
+\@envbody=\toks25
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-09-02 L3 programming layer (loader) 
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2025-06-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count309
+\g__pdfannot_backend_int=\count310
+\g__pdfannot_backend_link_int=\count311
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count312
+\calc@Bcount=\count313
+\calc@Adimen=\dimen178
+\calc@Bdimen=\dimen179
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count314
+\calc@Cskip=\skip57
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count315
+\g__chemgreek_tmpa_int=\count316
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count317
+\__mhchem_arrow_extPgfLength_skip=\skip58
+\mhchem@minispace@tmp=\skip59
+\mhchem@minibackspace@tmp=\skip60
+\mhchem@bondwidth=\skip61
+\mhchem@bondheight=\skip62
+\mhchem@smallbondwidth@tmpA=\skip63
+\mhchem@smallbondwidth@tmpB=\skip64
+\mhchem@smallbondwidth=\skip65
+\mhchem@bondtmp@minussidebearingleft=\skip66
+\mhchem@bondtmp@minussidebearingright=\skip67
+\l__mhchem_option_version_int=\count318
+\mhchem@option@minusmathsidebearingleft=\dimen180
+\mhchem@option@minusmathsidebearingright=\dimen181
+\mhchem@option@minustextsidebearingleft=\dimen182
+\mhchem@option@minustextsidebearingright=\dimen183
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/underscore/underscore.sty
+Package: underscore 2006/09/13
+LaTeX Info: Redefining \_ on input line 42.
+)
+==> First Aid for underscore.sty applied!
+(/usr/local/texlive/2025/texmf-dist/tex/latex/firstaid/underscore-ltx.sty
+Package: underscore-ltx 2023/09/20 LaTeX firstaid to make underscore protected 
+
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2025/05/29 v1.13.2 fvextra - extensions and patches for fancyv
+rb
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2025/07/28 4.6 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count319
+\FV@InFile=\read2
+\FV@TabBox=\box58
+\c@FancyVerbLine=\count320
+\FV@StepNumber=\count321
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2025/05/13 line numbers on paragraphs v5.5
+\linenopenalty=\count322
+\output=\toks27
+\linenoprevgraf=\count323
+\linenumbersep=\dimen184
+\linenumberwidth=\dimen185
+\c@linenumber=\count324
+\c@pagewiselinenumber=\count325
+\c@LN@truepage=\count326
+\c@internallinenumber=\count327
+\c@internallinenumbers=\count328
+\quotelinenumbersep=\dimen186
+\bframerule=\dimen187
+\bframesep=\dimen188
+\bframebox=\box59
+\@LN@amsmath@ams@eqpen=\count329
+)
+\c@FancyVerbWriteLine=\count330
+\c@FancyVerbBufferLine=\count331
+\c@FV@TrueTabGroupLevel=\count332
+\c@FV@TrueTabCounter=\count333
+\FV@TabBox@Group=\box60
+\FV@bgcolorstructbox=\box61
+\FV@TmpLength=\skip68
+\c@FV@HighlightLinesStart=\count334
+\c@FV@HighlightLinesStop=\count335
+\FV@LoopCount=\count336
+\FV@NCharsBox=\box62
+\FV@BreakIndent=\dimen189
+\FV@BreakIndentNChars=\count337
+\FV@BreakSymbolSepLeft=\dimen190
+\FV@BreakSymbolSepLeftNChars=\count338
+\FV@BreakSymbolSepRight=\dimen191
+\FV@BreakSymbolSepRightNChars=\count339
+\FV@BreakSymbolIndentLeft=\dimen192
+\FV@BreakSymbolIndentLeftNChars=\count340
+\FV@BreakSymbolIndentRight=\dimen193
+\FV@BreakSymbolIndentRightNChars=\count341
+\c@FancyVerbLineBreakLast=\count342
+\FV@LineBox=\box63
+\FV@LineIndentBox=\box64
+\c@FV@BreakBufferDepth=\count343
+\FV@LineWidth=\dimen194
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count344
+\csq@gtype=\count345
+\csq@glevel=\count346
+\csq@qlevel=\count347
+\csq@maxlvl=\count348
+\csq@tshold=\count349
+\csq@ltx@everypar=\toks28
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip69
+\multirow@cntb=\count350
+\multirow@dima=\skip70
+\bigstrutjot=\dimen195
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2025/09/22 v2.8 Modern multilingual typesetting with XeLaT
+eX and LuaLaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count351
+\l__fontspec_language_int=\count352
+\l__fontspec_strnum_int=\count353
+\l__fontspec_tmp_int=\count354
+\l__fontspec_tmpa_int=\count355
+\l__fontspec_tmpb_int=\count356
+\l__fontspec_tmpc_int=\count357
+\l__fontspec_em_int=\count358
+\l__fontspec_emdef_int=\count359
+\l__fontspec_strong_int=\count360
+\l__fontspec_strongdef_int=\count361
+\l__fontspec_tmpa_dim=\dimen196
+\l__fontspec_tmpb_dim=\dimen197
+\l__fontspec_tmpc_dim=\dimen198
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+\l_xpg_alias_keyvals_int=\count362
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
+\MT@toks=\toks29
+\MT@tempbox=\box65
+\MT@count=\count363
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks30
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen199
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count364
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2025/07/09 v3.2b Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 443.
+LaTeX Info: Redefining \lslig on input line 451.
+\MT@outer@space=\skip71
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip72
+\enit@outerparindent=\dimen256
+\enit@toks=\toks31
+\enit@inbox=\box66
+\enit@count@id=\count365
+\enitdp@description=\count366
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for English
+)
+
+Package polyglossia Info: Default language is english
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-bengali.ldf
+File: gloss-bengali.ldf polyglossia: module for Bengali
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/devanagaridigits.sty
+Package: devanagaridigits 2010/04/01 v0.1 Formatting of Devanagari digits
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/bengalidigits.sty
+Package: bengalidigits 2015/08/07 v.02Formatting of Bengali digits
+))
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Kohinoor Bangla/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'KohinoorBangla(0)' created for font
+(fontspec)             'Kohinoor Bangla' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Kohinoor
+(fontspec)             Bangla/OT:script=DFLT;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Kohinoor
+(fontspec)             Bangla/B/OT:script=DFLT;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Kohinoor
+(fontspec)             Bangla/BI/OT:script=DFLT;language=dflt;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Georgia(0)' created for font 'Georgia'
+(fontspec)             with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Georgia/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Georgia/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Georgia/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Georgia/BI/OT:script=latn;language=dflt;"
+
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'polyglossia' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'american'.
+
+(./data-science_final.aux)
+\openout1 = `data-science_final.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 149.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 72.
+
+(./data-science_final.out) (./data-science_final.out)
+\@outlinefile=\write4
+\openout4 = `data-science_final.out'.
+
+
+Package chemgreek Info: Activating mapping `fontspec' on line 72.
+
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 72.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 72.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 72.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 72.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 72.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 72.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 72.
+LaTeX Font Info:    Redeclaring math accent \check on input line 72.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 72.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 72.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 72.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 72.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 72.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 72.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 72.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 72.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 72.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 72.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 72.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 72.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 72.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 72.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 72.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 72.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 72.
+Package microtype Info: Patching varwidth to enable character protrusion.
+\MT@vwid@leftmargin=\dimen257
+\MT@vwid@rightmargin=\dimen258
+LaTeX Info: Redefining \microtypecontext on input line 72.
+Package microtype Info: Applying patch `item' on input line 72.
+Package microtype Info: Applying patch `toc' on input line 72.
+Package microtype Info: Applying patch `eqnum' on input line 72.
+Package microtype Info: Applying patch `footnote' on input line 72.
+Package microtype Info: Applying patch `verbatim' on input line 72.
+LaTeX Info: Redefining \microtypesetup on input line 72.
+Package microtype Info: Character protrusion enabled (level 2),
+(microtype)             factor: 1100.
+Package microtype Info: Using default protrusion set `alltext'.
+
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:72: Package microtype Error: Font exp
+ansion does not work with xetex.
+
+See the microtype package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 \begin{document}
+                     \index{asking interesting questions}\index{big data eng...
+
+Use pdftex or luatex instead.
+
+Package microtype Info: Tracking enabled.
+Package microtype Info: Using default tracking set `smallcaps'.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:72: Package microtype Error: The spac
+ing feature only works with pdftex 1.40
+(microtype)                or newer. Switching it off.
+
+See the microtype package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 \begin{document}
+                     \index{asking interesting questions}\index{big data eng...
+
+Use pdftex instead.
+
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:72: Package microtype Error: The kern
+ing feature only works with pdftex 1.40
+(microtype)                or newer. Switching it off.
+
+See the microtype package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 \begin{document}
+                     \index{asking interesting questions}\index{big data eng...
+
+Use pdftex instead.
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
+ern Roman (RS)
+)
+LaTeX Font Info:    Font shape `TU/Georgia(0)/bx/n' in size <24.88> not availab
+le
+(Font)              Font shape `TU/Georgia(0)/b/n' tried instead on input line 
+73.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Georgia' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ (./data-science_final.toc
+LaTeX Font Info:    Font shape `TU/Georgia(0)/bx/n' in size <10> not available
+(Font)              Font shape `TU/Georgia(0)/b/n' tried instead on input line 
+2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 5
+.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+
+[1
+
+
+]
+Overfull \hbox (1.07224pt too wide) detected at line 53
+ []\TU/Georgia(0)/m/n/10 100
+ []
+
+
+Overfull \hbox (0.52048pt too wide) detected at line 55
+ []\TU/Georgia(0)/m/n/10 102
+ []
+
+
+Overfull \hbox (0.45212pt too wide) detected at line 56
+ []\TU/Georgia(0)/m/n/10 103
+ []
+
+
+Overfull \hbox (0.58395pt too wide) detected at line 57
+ []\TU/Georgia(0)/m/n/10 104
+ []
+
+
+Overfull \hbox (0.52048pt too wide) detected at line 62
+ []\TU/Georgia(0)/m/n/10 120
+ []
+
+
+Overfull \hbox (0.27634pt too wide) detected at line 73
+ []\TU/Georgia(0)/m/n/10 138
+ []
+
+
+Overfull \hbox (0.10544pt too wide) detected at line 76
+ []\TU/Georgia(0)/m/n/10 146
+ []
+
+
+
+LaTeX Font Info:    Font shape `TU/Georgia(0)/m/sl' in size <10> not available
+(Font)              Font shape `TU/Georgia(0)/m/it' tried instead on input line
+ 77.
+[2]
+Overfull \hbox (0.10544pt too wide) detected at line 78
+ []\TU/Georgia(0)/m/n/10 149
+ []
+
+
+Overfull \hbox (0.10544pt too wide) detected at line 84
+ []\TU/Georgia(0)/m/n/10 164
+ []
+
+
+Overfull \hbox (0.1152pt too wide) detected at line 85
+ []\TU/Georgia(0)/m/n/10 166
+ []
+
+
+Overfull \hbox (0.1152pt too wide) detected at line 86
+ []\TU/Georgia(0)/m/n/10 169
+ []
+
+
+Overfull \hbox (0.1152pt too wide) detected at line 87
+ []\TU/Georgia(0)/m/n/10 169
+ []
+
+
+Overfull \hbox (0.89645pt too wide) detected at line 92
+ []\TU/Georgia(0)/m/n/10 180
+ []
+
+
+Overfull \hbox (0.40817pt too wide) detected at line 94
+ []\TU/Georgia(0)/m/n/10 184
+ []
+
+
+Overfull \hbox (0.40817pt too wide) detected at line 95
+ []\TU/Georgia(0)/m/n/10 184
+ []
+
+
+Overfull \hbox (0.72067pt too wide) detected at line 96
+ []\TU/Georgia(0)/m/n/10 188
+ []
+
+
+Overfull \hbox (0.41794pt too wide) detected at line 97
+ []\TU/Georgia(0)/m/n/10 189
+ []
+
+
+Overfull \hbox (0.59372pt too wide) detected at line 98
+ []\TU/Georgia(0)/m/n/10 190
+ []
+
+
+Overfull \hbox (0.10544pt too wide) detected at line 101
+ []\TU/Georgia(0)/m/n/10 194
+ []
+
+
+Overfull \hbox (0.1152pt too wide) detected at line 102
+ []\TU/Georgia(0)/m/n/10 196
+ []
+
+
+Overfull \hbox (0.41794pt too wide) detected at line 103
+ []\TU/Georgia(0)/m/n/10 198
+ []
+
+
+Overfull \hbox (0.41794pt too wide) detected at line 104
+ []\TU/Georgia(0)/m/n/10 198
+ []
+
+
+Overfull \hbox (0.1152pt too wide) detected at line 105
+ []\TU/Georgia(0)/m/n/10 199
+ []
+
+
+Overfull \hbox (1.74118pt too wide) detected at line 106
+ []\TU/Georgia(0)/m/n/10 203
+ []
+
+
+Overfull \hbox (1.88278pt too wide) detected at line 107
+ []\TU/Georgia(0)/m/n/10 206
+ []
+
+
+Overfull \hbox (1.88278pt too wide) detected at line 108
+ []\TU/Georgia(0)/m/n/10 209
+ []
+
+
+Overfull \hbox (0.3447pt too wide) detected at line 111
+ []\TU/Georgia(0)/m/n/10 218
+ []
+
+
+Overfull \hbox (1.80954pt too wide) detected at line 113
+ []\TU/Georgia(0)/m/n/10 220
+ []
+
+
+Overfull \hbox (1.80954pt too wide) detected at line 114
+ []\TU/Georgia(0)/m/n/10 220
+ []
+
+
+Overfull \hbox (1.25778pt too wide) detected at line 115
+ []\TU/Georgia(0)/m/n/10 222
+ []
+
+
+Overfull \hbox (1.18942pt too wide) detected at line 116
+ []\TU/Georgia(0)/m/n/10 223
+ []
+
+
+Overfull \hbox (1.32126pt too wide) detected at line 117
+ []\TU/Georgia(0)/m/n/10 224
+ []
+
+
+Overfull \hbox (0.95505pt too wide) detected at line 118
+ []\TU/Georgia(0)/m/n/10 225
+ []
+
+
+Overfull \hbox (1.33102pt too wide) detected at line 119
+ []\TU/Georgia(0)/m/n/10 226
+ []
+
+
+Overfull \hbox (1.33102pt too wide) detected at line 120
+ []\TU/Georgia(0)/m/n/10 229
+ []
+
+
+
+[3]
+Overfull \hbox (1.18942pt too wide) detected at line 123
+ []\TU/Georgia(0)/m/n/10 232
+ []
+
+
+Overfull \hbox (1.12106pt too wide) detected at line 124
+ []\TU/Georgia(0)/m/n/10 233
+ []
+
+
+Overfull \hbox (0.88669pt too wide) detected at line 125
+ []\TU/Georgia(0)/m/n/10 235
+ []
+
+
+Overfull \hbox (1.26266pt too wide) detected at line 126
+ []\TU/Georgia(0)/m/n/10 236
+ []
+
+
+Overfull \hbox (1.26266pt too wide) detected at line 127
+ []\TU/Georgia(0)/m/n/10 236
+ []
+
+
+Overfull \hbox (0.6279pt too wide) detected at line 128
+ []\TU/Georgia(0)/m/n/10 237
+ []
+
+
+Overfull \hbox (1.5654pt too wide) detected at line 129
+ []\TU/Georgia(0)/m/n/10 238
+ []
+
+
+Overfull \hbox (1.26266pt too wide) detected at line 130
+ []\TU/Georgia(0)/m/n/10 239
+ []
+
+
+Overfull \hbox (1.87302pt too wide) detected at line 131
+ []\TU/Georgia(0)/m/n/10 240
+ []
+
+
+Overfull \hbox (1.32126pt too wide) detected at line 132
+ []\TU/Georgia(0)/m/n/10 242
+ []
+
+
+Overfull \hbox (1.32126pt too wide) detected at line 133
+ []\TU/Georgia(0)/m/n/10 242
+ []
+
+
+Overfull \hbox (1.3945pt too wide) detected at line 134
+ []\TU/Georgia(0)/m/n/10 249
+ []
+
+
+Overfull \hbox (1.5068pt too wide) detected at line 135
+ []\TU/Georgia(0)/m/n/10 250
+ []
+
+
+Overfull \hbox (0.88669pt too wide) detected at line 136
+ []\TU/Georgia(0)/m/n/10 253
+ []
+
+
+Overfull \hbox (1.02829pt too wide) detected at line 137
+ []\TU/Georgia(0)/m/n/10 256
+ []
+
+
+Overfull \hbox (0.39352pt too wide) detected at line 138
+ []\TU/Georgia(0)/m/n/10 257
+ []
+
+
+Overfull \hbox (1.33102pt too wide) detected at line 139
+ []\TU/Georgia(0)/m/n/10 258
+ []
+
+
+Overfull \hbox (1.33102pt too wide) detected at line 141
+ []\TU/Georgia(0)/m/n/10 262
+ []
+
+
+Overfull \hbox (1.40427pt too wide) detected at line 142
+ []\TU/Georgia(0)/m/n/10 266
+ []
+
+
+Overfull \hbox (1.40427pt too wide) detected at line 144
+ []\TU/Georgia(0)/m/n/10 269
+ []
+
+
+Overfull \hbox (1.24802pt too wide) detected at line 145
+ []\TU/Georgia(0)/m/n/10 270
+ []
+
+
+Overfull \hbox (0.69626pt too wide) detected at line 146
+ []\TU/Georgia(0)/m/n/10 272
+ []
+
+
+Overfull \hbox (0.75974pt too wide) detected at line 147
+ []\TU/Georgia(0)/m/n/10 274
+ []
+
+
+Overfull \hbox (0.39352pt too wide) detected at line 148
+ []\TU/Georgia(0)/m/n/10 275
+ []
+
+
+Overfull \hbox (0.39352pt too wide) detected at line 149
+ []\TU/Georgia(0)/m/n/10 275
+ []
+
+
+Overfull \hbox (0.13474pt too wide) detected at line 150
+ []\TU/Georgia(0)/m/n/10 277
+ []
+
+
+Overfull \hbox (0.3447pt too wide) detected at line 151
+ []\TU/Georgia(0)/m/n/10 281
+ []
+
+
+Overfull \hbox (1.5654pt too wide) detected at line 152
+ []\TU/Georgia(0)/m/n/10 283
+ []
+
+
+Overfull \hbox (1.69724pt too wide) detected at line 153
+ []\TU/Georgia(0)/m/n/10 284
+ []
+
+
+Overfull \hbox (1.33102pt too wide) detected at line 154
+ []\TU/Georgia(0)/m/n/10 285
+ []
+
+
+Overfull \hbox (1.707pt too wide) detected at line 155
+ []\TU/Georgia(0)/m/n/10 286
+ []
+
+
+Overfull \hbox (1.07224pt too wide) detected at line 156
+ []\TU/Georgia(0)/m/n/10 287
+ []
+
+
+Overfull \hbox (2.00974pt too wide) detected at line 157
+ []\TU/Georgia(0)/m/n/10 288
+ []
+
+
+Overfull \hbox (1.707pt too wide) detected at line 158
+ []\TU/Georgia(0)/m/n/10 289
+ []
+
+
+Overfull \hbox (1.707pt too wide) detected at line 159
+ []\TU/Georgia(0)/m/n/10 289
+ []
+
+
+Overfull \hbox (1.88278pt too wide) detected at line 160
+ []\TU/Georgia(0)/m/n/10 290
+ []
+
+
+Overfull \hbox (1.33102pt too wide) detected at line 161
+ []\TU/Georgia(0)/m/n/10 292
+ []
+
+
+Overfull \hbox (1.3945pt too wide) detected at line 162
+ []\TU/Georgia(0)/m/n/10 294
+ []
+
+
+Overfull \hbox (1.40427pt too wide) detected at line 163
+ []\TU/Georgia(0)/m/n/10 296
+ []
+
+
+Overfull \hbox (1.707pt too wide) detected at line 164
+ []\TU/Georgia(0)/m/n/10 298
+ []
+
+
+
+[4]
+Overfull \hbox (1.74118pt too wide) detected at line 166
+ []\TU/Georgia(0)/m/n/10 302
+ []
+
+
+Overfull \hbox (1.74118pt too wide) detected at line 167
+ []\TU/Georgia(0)/m/n/10 302
+ []
+
+
+Overfull \hbox (1.80466pt too wide) detected at line 168
+ []\TU/Georgia(0)/m/n/10 304
+ []
+
+
+Overfull \hbox (1.43845pt too wide) detected at line 169
+ []\TU/Georgia(0)/m/n/10 305
+ []
+
+
+Overfull \hbox (1.81442pt too wide) detected at line 170
+ []\TU/Georgia(0)/m/n/10 306
+ []
+
+
+Overfull \hbox (1.17966pt too wide) detected at line 171
+ []\TU/Georgia(0)/m/n/10 307
+ []
+
+
+Overfull \hbox (1.17966pt too wide) detected at line 172
+ []\TU/Georgia(0)/m/n/10 307
+ []
+
+
+Overfull \hbox (2.11716pt too wide) detected at line 173
+ []\TU/Georgia(0)/m/n/10 308
+ []
+
+
+Overfull \hbox (1.18942pt too wide) detected at line 181
+ []\TU/Georgia(0)/m/n/10 322
+ []
+
+
+Overfull \hbox (1.12106pt too wide) detected at line 182
+ []\TU/Georgia(0)/m/n/10 323
+ []
+
+
+Overfull \hbox (1.2529pt too wide) detected at line 183
+ []\TU/Georgia(0)/m/n/10 324
+ []
+
+
+Overfull \hbox (0.6279pt too wide) detected at line 184
+ []\TU/Georgia(0)/m/n/10 327
+ []
+
+
+Overfull \hbox (1.5654pt too wide) detected at line 185
+ []\TU/Georgia(0)/m/n/10 328
+ []
+
+
+Overfull \hbox (1.0527pt too wide) detected at line 186
+ []\TU/Georgia(0)/m/n/10 333
+ []
+
+
+Overfull \hbox (0.55954pt too wide) detected at line 187
+ []\TU/Georgia(0)/m/n/10 337
+ []
+
+
+Overfull \hbox (1.1943pt too wide) detected at line 188
+ []\TU/Georgia(0)/m/n/10 339
+ []
+
+
+Overfull \hbox (1.2529pt too wide) detected at line 191
+ []\TU/Georgia(0)/m/n/10 342
+ []
+
+
+Overfull \hbox (1.32614pt too wide) detected at line 192
+ []\TU/Georgia(0)/m/n/10 346
+ []
+
+
+Overfull \hbox (0.69138pt too wide) detected at line 193
+ []\TU/Georgia(0)/m/n/10 347
+ []
+
+
+Overfull \hbox (1.62888pt too wide) detected at line 194
+ []\TU/Georgia(0)/m/n/10 348
+ []
+
+
+Overfull \hbox (1.32614pt too wide) detected at line 195
+ []\TU/Georgia(0)/m/n/10 349
+ []
+
+
+Overfull \hbox (0.58395pt too wide) detected at line 197
+ []\TU/Georgia(0)/m/n/10 355
+ []
+
+
+Overfull \hbox (0.32516pt too wide) detected at line 198
+ []\TU/Georgia(0)/m/n/10 357
+ []
+
+
+Overfull \hbox (0.95993pt too wide) detected at line 199
+ []\TU/Georgia(0)/m/n/10 359
+ []
+
+
+Overfull \hbox (1.81442pt too wide) detected at line 200
+ []\TU/Georgia(0)/m/n/10 360
+ []
+
+
+Overfull \hbox (1.26266pt too wide) detected at line 201
+ []\TU/Georgia(0)/m/n/10 362
+ []
+
+
+Overfull \hbox (1.32614pt too wide) detected at line 202
+ []\TU/Georgia(0)/m/n/10 364
+ []
+
+
+Overfull \hbox (0.95993pt too wide) detected at line 203
+ []\TU/Georgia(0)/m/n/10 365
+ []
+
+
+Overfull \hbox (1.3359pt too wide) detected at line 204
+ []\TU/Georgia(0)/m/n/10 369
+ []
+
+
+Overfull \hbox (0.70114pt too wide) detected at line 205
+ []\TU/Georgia(0)/m/n/10 379
+ []
+
+
+Overfull \hbox (1.62888pt too wide) detected at line 206
+ []\TU/Georgia(0)/m/n/10 384
+ []
+
+
+Overfull \hbox (1.26266pt too wide) detected at line 207
+ []\TU/Georgia(0)/m/n/10 385
+ []
+
+
+Overfull \hbox (1.00388pt too wide) detected at line 208
+ []\TU/Georgia(0)/m/n/10 387
+ []
+
+
+
+[5]
+Overfull \hbox (1.63864pt too wide) detected at line 209
+ []\TU/Georgia(0)/m/n/10 389
+ []
+
+
+Overfull \hbox (1.3359pt too wide) detected at line 211
+ []\TU/Georgia(0)/m/n/10 396
+ []
+
+
+Overfull \hbox (1.3359pt too wide) detected at line 212
+ []\TU/Georgia(0)/m/n/10 396
+ []
+
+
+Overfull \hbox (1.63864pt too wide) detected at line 213
+ []\TU/Georgia(0)/m/n/10 398
+ []
+
+
+Overfull \hbox (1.87302pt too wide) detected at line 214
+ []\TU/Georgia(0)/m/n/10 402
+ []
+
+
+Overfull \hbox (1.9365pt too wide) detected at line 215
+ []\TU/Georgia(0)/m/n/10 404
+ []
+
+
+Overfull \hbox (1.57028pt too wide) detected at line 216
+ []\TU/Georgia(0)/m/n/10 405
+ []
+
+
+Overfull \hbox (1.57028pt too wide) detected at line 217
+ []\TU/Georgia(0)/m/n/10 405
+ []
+
+
+Overfull \hbox (1.3115pt too wide) detected at line 218
+ []\TU/Georgia(0)/m/n/10 407
+ []
+
+
+Overfull \hbox (1.94626pt too wide) detected at line 219
+ []\TU/Georgia(0)/m/n/10 409
+ []
+
+
+Overfull \hbox (0.10544pt too wide) detected at line 223
+ []\TU/Georgia(0)/m/n/10 416
+ []
+
+
+Overfull \hbox (0.10544pt too wide) detected at line 224
+ []\TU/Georgia(0)/m/n/10 416
+ []
+
+
+Overfull \hbox (0.10544pt too wide) detected at line 225
+ []\TU/Georgia(0)/m/n/10 416
+ []
+
+
+Overfull \hbox (0.40817pt too wide) detected at line 226
+ []\TU/Georgia(0)/m/n/10 418
+ []
+
+
+Overfull \hbox (0.10544pt too wide) detected at line 227
+ []\TU/Georgia(0)/m/n/10 419
+ []
+
+
+Overfull \hbox (1.32126pt too wide) detected at line 229
+ []\TU/Georgia(0)/m/n/10 422
+ []
+
+
+Overfull \hbox (0.75974pt too wide) detected at line 230
+ []\TU/Georgia(0)/m/n/10 427
+ []
+
+
+Overfull \hbox (1.69724pt too wide) detected at line 231
+ []\TU/Georgia(0)/m/n/10 428
+ []
+
+
+Overfull \hbox (1.80466pt too wide) detected at line 232
+ []\TU/Georgia(0)/m/n/10 430
+ []
+
+
+Overfull \hbox (1.31638pt too wide) detected at line 233
+ []\TU/Georgia(0)/m/n/10 434
+ []
+
+
+Overfull \hbox (1.62888pt too wide) detected at line 235
+ []\TU/Georgia(0)/m/n/10 438
+ []
+
+
+Overfull \hbox (1.62888pt too wide) detected at line 236
+ []\TU/Georgia(0)/m/n/10 438
+ []
+
+
+Overfull \hbox (1.9365pt too wide) detected at line 237
+ []\TU/Georgia(0)/m/n/10 440
+ []
+
+
+Overfull \hbox (1.31638pt too wide) detected at line 239
+ []\TU/Georgia(0)/m/n/10 443
+ []
+
+
+Overfull \hbox (1.31638pt too wide) detected at line 240
+ []\TU/Georgia(0)/m/n/10 443
+ []
+
+
+Overfull \hbox (1.082pt too wide) detected at line 241
+ []\TU/Georgia(0)/m/n/10 445
+ []
+
+
+Overfull \hbox (0.82321pt too wide) detected at line 242
+ []\TU/Georgia(0)/m/n/10 447
+ []
+
+
+Overfull \hbox (1.76071pt too wide) detected at line 243
+ []\TU/Georgia(0)/m/n/10 448
+ []
+
+
+Overfull \hbox (1.57028pt too wide) detected at line 244
+ []\TU/Georgia(0)/m/n/10 450
+ []
+
+
+Overfull \hbox (1.57028pt too wide) detected at line 245
+ []\TU/Georgia(0)/m/n/10 450
+ []
+
+
+Overfull \hbox (1.01852pt too wide) detected at line 246
+ []\TU/Georgia(0)/m/n/10 452
+ []
+
+
+Overfull \hbox (0.95016pt too wide) detected at line 247
+ []\TU/Georgia(0)/m/n/10 453
+ []
+
+
+Overfull \hbox (0.95016pt too wide) detected at line 248
+ []\TU/Georgia(0)/m/n/10 453
+ []
+
+
+Overfull \hbox (0.71579pt too wide) detected at line 249
+ []\TU/Georgia(0)/m/n/10 455
+ []
+
+
+Overfull \hbox (0.71579pt too wide) detected at line 250
+ []\TU/Georgia(0)/m/n/10 455
+ []
+
+
+Overfull \hbox (1.09177pt too wide) detected at line 251
+ []\TU/Georgia(0)/m/n/10 456
+ []
+
+
+Overfull \hbox (0.457pt too wide) detected at line 252
+ []\TU/Georgia(0)/m/n/10 457
+ []
+
+
+
+[6]
+Overfull \hbox (1.3945pt too wide) detected at line 253
+ []\TU/Georgia(0)/m/n/10 458
+ []
+
+
+Overfull \hbox (1.94626pt too wide) detected at line 254
+ []\TU/Georgia(0)/m/n/10 460
+ []
+
+
+Overfull \hbox (1.3945pt too wide) detected at line 255
+ []\TU/Georgia(0)/m/n/10 462
+ []
+
+
+Overfull \hbox (1.09177pt too wide) detected at line 256
+ []\TU/Georgia(0)/m/n/10 465
+ []
+
+
+Overfull \hbox (1.46774pt too wide) detected at line 258
+ []\TU/Georgia(0)/m/n/10 469
+ []
+
+
+Overfull \hbox (1.3115pt too wide) detected at line 259
+ []\TU/Georgia(0)/m/n/10 470
+ []
+
+)
+\tf@toc=\write5
+\openout5 = `data-science_final.toc'.
+
+
+
+[7]
+
+[8
+
+]
+
+[1]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-001.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-001.jpg>
+
+Overfull \hbox (6.19647pt too wide) in paragraph at lines 98--110
+\TU/Georgia(0)/m/n/10 This work is subject to copyright. All rights are reserve
+d by the Publisher, whether
+ []
+
+
+
+[2]
+
+[3]
+
+[4
+
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `TU/Georgia(0)/bx/n' in size <20.74> not availab
+le
+(Font)              Font shape `TU/Georgia(0)/b/n' tried instead on input line 
+116.
+
+Overfull \hbox (3.34091pt too wide) in paragraph at lines 121--122
+\TU/Georgia(0)/m/n/10 video streams, social media interactions, and the positio
+n of anything that moves.
+ []
+
+
+LaTeX Warning: Citation `skiena2008algorithm' on page 5 undefined on input line
+ 128.
+
+
+
+[5]
+
+[6]
+Overfull \hbox (19.52007pt too wide) in paragraph at lines 158--159
+[]\TU/Georgia(0)/m/n/10 Take-Home Lessons: Highlighted "take-home" lesson boxes
+ scattered through
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--162
+
+ []
+
+
+
+[7]
+Overfull \hbox (1.48497pt too wide) in paragraph at lines 165--168
+[]\TU/Georgia(0)/m/n/10 Data Science Television: Data science remains mysteriou
+s and even threat-
+ []
+
+
+
+[8]
+
+[9]
+
+[10
+
+]
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--243
+
+ []
+
+
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 244--289
+
+ []
+
+
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 290--335
+
+ []
+
+
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 336--381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--428
+
+ []
+
+
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 429--474
+
+ []
+
+
+
+[15]
+
+[16]
+
+[17]
+
+[18
+
+]
+Chapter 3.
+
+Overfull \hbox (1.56245pt too wide) in paragraph at lines 528--529
+\TU/Georgia(0)/m/n/10 amounts of social media, logging, and sensor data. After 
+you have amassed
+ []
+
+
+LaTeX Warning: Citation `lewis2004moneyball' on page 19 undefined on input line
+ 530.
+
+
+LaTeX Warning: Citation `silver2012signal' on page 19 undefined on input line 5
+30.
+
+
+
+[19]
+Overfull \hbox (0.23302pt too wide) in paragraph at lines 545--547
+\TU/Georgia(0)/m/n/10 By contrast, bad computer scientists worry about producin
+g plausiblelook-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--549
+
+ []
+
+
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 568--570
+
+ []
+
+
+
+[21]
+LaTeX Font Info:    Font shape `TU/Georgia(0)/bx/n' in size <14.4> not availabl
+e
+(Font)              Font shape `TU/Georgia(0)/b/n' tried instead on input line 
+575.
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--592
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-023.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-023.jpg>
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:597: Extra }, or forgotten \endgroup.
+
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.597 \end{figure}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+LaTeX Font Info:    Font shape `TU/Georgia(0)/bx/n' in size <12> not available
+(Font)              Font shape `TU/Georgia(0)/b/n' tried instead on input line 
+601.
+
+
+[22]
+
+[23]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-024.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-024.jpg>
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:611: Extra }, or forgotten \endgroup.
+
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.611 \end{figure}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (1.49472pt too wide) in paragraph at lines 606--613
+[]\TU/Georgia(0)/m/n/10 This historical baseball record is available at [][]htt
+p://www[][]. baseball-reference
+ []
+
+
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 630--632
+
+ []
+
+
+LaTeX Warning: Citation `halpern1988do' on page 25 undefined on input line 636.
+
+
+
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 651--653
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-026.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-026.jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-026(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-026(1).jpg>
+
+
+[26]
+
+[27]
+
+LaTeX Warning: Citation `bell2007lessons' on page 28 undefined on input line 69
+2.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 692--694
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-028.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-028.jpg>
+
+
+[28]
+
+[29]
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:742: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.742 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:742: You can't use `\hrule' here exce
+pt with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.742 \hline
+            
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:742: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.742 \hline
+            
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:742: Illegal unit of measure (pt inse
+rted).
+<to be read again> 
+                   \futurelet 
+l.742 \hline
+            
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:743: Extra alignment tab has been cha
+nged to \cr.
+<recently read> \endtemplate 
+                             
+l.743 ...& 7.22 & -73.9998 & 40.74334 & -73.9428 &
+                                                   40.80662 & 2 & 0 & 30.8 \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (312.57634pt too wide) in paragraph at lines 736--764
+ [] 
+ []
+
+
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 777--779
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-031.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-031.jpg>
+
+
+[31]
+
+[32]
+
+LaTeX Warning: Citation `starov2015gis' on page 33 undefined on input line 792.
+
+
+
+
+[33]
+
+[34]
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 856--858
+
+ []
+
+
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 888--890
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-036.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-036.jpg>
+
+Overfull \hbox (1.00104pt too wide) in paragraph at lines 901--902
+[]\TU/Georgia(0)/m/n/10 Playing the Market - Hedge fund quants get rich when gu
+essing right about
+ []
+
+
+
+[37]
+
+[38]
+
+[39]
+
+LaTeX Warning: Citation `skiena2001calculated' on page 40 undefined on input li
+ne 929.
+
+
+LaTeX Warning: Citation `zhang2009improving' on page 40 undefined on input line
+ 929.
+
+
+LaTeX Warning: Citation `zhang2010trading' on page 40 undefined on input line 9
+29.
+
+
+LaTeX Warning: Citation `hong2010wisdom' on page 40 undefined on input line 929
+.
+
+
+Overfull \hbox (0.20578pt too wide) in paragraph at lines 929--930
+\TU/Georgia(0)/m/n/10 scraping for data collection, statistical analysis, simul
+ation/modeling, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 930--932
+
+ []
+
+
+LaTeX Warning: Citation `skiena2013whos' on page 40 undefined on input line 933
+.
+
+
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 949--951
+
+ []
+
+
+
+[41]
+
+LaTeX Warning: Citation `halpern1991handedness' on page 42 undefined on input l
+ine 968.
+
+
+LaTeX Warning: Citation `mcmanus2004right' on page 42 undefined on input line 9
+68.
+
+
+LaTeX Warning: Citation `james2010new' on page 42 undefined on input line 970.
+
+
+LaTeX Warning: Citation `godbole2007large' on page 42 undefined on input line 9
+76.
+
+
+LaTeX Warning: Citation `kulkarni2015statistically' on page 42 undefined on inp
+ut line 976.
+
+
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 1002--1006
+
+ []
+
+
+Overfull \hbox (14.45578pt too wide) in paragraph at lines 1010--1011
+\TU/Georgia(0)/m/n/10 (NCBI) portal. Investigate what data sources are availabl
+e, particularly the Pubmed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1022--1035
+
+ []
+
+
+
+[43]
+
+[44]
+Chapter 4.
+
+
+[45
+
+]
+Overfull \hbox (3.37482pt too wide) detected at line 1088
+[][]
+ []
+
+
+
+[46]
+
+[47]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-047.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-047.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1164--1164
+
+ []
+
+
+
+[48]
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 1237--1239
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-049.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-049.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1243--1243
+
+ []
+
+
+
+[50]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-050.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-050.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1261--1261
+
+ []
+
+
+
+[51]
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 1314--1317
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1332--1337
+
+ []
+
+
+
+[53]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-053.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-053.jpg>
+
+Overfull \hbox (2.26753pt too wide) in paragraph at lines 1346--1348
+\TU/Georgia(0)/m/n/10 is meaningful, but interesting peaks only get revealed th
+rough proper buck-
+ []
+
+
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1361
+
+ []
+
+
+
+[55]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-055.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-055.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1391--1391
+
+ []
+
+
+
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 1405--1407
+
+ []
+
+
+
+[57]
+Overfull \hbox (0.86276pt too wide) in paragraph at lines 1418--1419
+\TU/Georgia(0)/m/n/10 Distributions do not necessarily have much probability ma
+ss exactly at the mean.
+ []
+
+
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 1450--1450
+[][]$ [][]\TU/Georgia(0)/m/n/8 https://research.collegeboard.org/sites/default/
+files/publications/2012/9/[][] researchreport-
+ []
+
+
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 1480--1482
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-059.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-059.jpg>
+
+
+[60]
+
+[61]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-060(2).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-060(2).jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-060.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-060.jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-060(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-060(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1509--1509
+
+ []
+
+
+LaTeX Warning: Float too large for page by 615.25603pt on input line 1510.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1523--1524
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-061(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-061(1).jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-061.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-061.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1535--1535
+
+ []
+
+
+Overfull \hbox (3.77283pt too wide) in paragraph at lines 1546--1548
+[]\TU/Georgia(0)/m/n/10 Statistical significance: The statistical significance 
+of a correlation depends
+ []
+
+
+
+[62]
+
+[63]
+
+[64]
+Overfull \hbox (15.31471pt too wide) in paragraph at lines 1550--1551
+\TU/Georgia(0)/m/n/10 ing large numbers of features. Any single feature/correla
+tion might explain/predict
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-063(2).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-063(2).jpg>
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:1567: Extra }, or forgotten \endgroup
+.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.1567 \end{figure}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (5.09544pt too wide) in paragraph at lines 1562--1569
+[]\TU/Georgia(0)/m/n/10 Still, correlation implies causation is a common error 
+in thinking, even among
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-063.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-063.jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-063(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-063(1).jpg>
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:1575: Extra }, or forgotten \endgroup
+.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.1575 \end{figure}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+
+[65]
+
+[66]
+
+[67]
+Overfull \hbox (6.7245pt too wide) in paragraph at lines 1601--1602
+[]\TU/Georgia(0)/m/n/10 Exponential functions grow at a very fast rate: conside
+r $\OML/cmm/m/it/10 b \OT1/cmr/m/n/10 = []$\TU/Georgia(0)/m/n/10 .
+ []
+
+
+
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 1637--1639
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-066.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-066.jpg>
+
+
+[69]
+Overfull \hbox (8.53516pt too wide) in paragraph at lines 1652--1652
+[]\TU/Georgia(0)/b/n/12 Logarithms and Normalizing Skewed Distributions 
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-067.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-067.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1659--1659
+
+ []
+
+
+
+[70]
+
+[71]
+
+[72]
+
+LaTeX Warning: Citation `tijms2012understanding' on page 73 undefined on input 
+line 1740.
+
+
+LaTeX Warning: Citation `bertsekas2008introduction' on page 73 undefined on inp
+ut line 1740.
+
+
+LaTeX Warning: Citation `james2013introduction' on page 73 undefined on input l
+ine 1740.
+
+
+LaTeX Warning: Citation `wheelan2013naked' on page 73 undefined on input line 1
+740.
+
+
+LaTeX Warning: Citation `weaver1982lady' on page 73 undefined on input line 174
+0.
+
+
+LaTeX Warning: Citation `malkiel1999random' on page 73 undefined on input line 
+1742.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1742--1744
+
+ []
+
+
+LaTeX Warning: Citation `bracewell1999fourier' on page 73 undefined on input li
+ne 1746.
+
+
+LaTeX Warning: Citation `brigham1988fast' on page 73 undefined on input line 17
+46.
+
+
+LaTeX Warning: Citation `press2007numerical' on page 73 undefined on input line
+ 1746.
+
+
+LaTeX Warning: Citation `skiena2012redesigning' on page 73 undefined on input l
+ine 1750.
+
+
+Overfull \hbox (9.46947pt too wide) in paragraph at lines 1750--1751
+[]\TU/Georgia(0)/m/n/10 The war story of Section 2.5 revolves around our work o
+n how the phenomenon
+ []
+
+
+
+[73]
+Underfull \hbox (badness 10000) in paragraph at lines 1769--1778
+
+ []
+
+
+Overfull \hbox (0.36356pt too wide) in paragraph at lines 1799--1802
+[]\TU/Georgia(0)/m/n/10 2-13. [5] Use data or literature found in a Google sear
+ch to estimate/measure
+ []
+
+
+
+[74]
+Overfull \hbox (15.51328pt too wide) in paragraph at lines 1825--1826
+\TU/Georgia(0)/m/n/10 correlations. Perhaps start with what is available at [][
+]http://www.data-manual.com/[][]
+ []
+
+
+
+[75]
+
+[76]
+Chapter 5.
+
+
+[77
+
+]
+Overfull \hbox (1.5479pt too wide) in paragraph at lines 1891--1892
+[]\TU/Georgia(0)/m/n/10 Perhaps the biggest strike against Python is efficiency
+: interpreted languages
+ []
+
+
+
+[78]
+LaTeX Font Info:    Font shape `TU/Georgia(0)/bx/n' in size <8> not available
+(Font)              Font shape `TU/Georgia(0)/b/n' tried instead on input line 
+1924.
+
+
+LaTeX Warning: Citation `barron2010apples' on page 79 undefined on input line 1
+924.
+
+
+
+[79]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-077.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-077.jpg>
+
+
+[80]
+
+[81]
+
+[82]
+Overfull \hbox (6.75461pt too wide) in paragraph at lines 2000--2001
+\TU/Georgia(0)/m/n/10 tion is basically a list of attribute-value pairs corresp
+onding to variable/field
+ []
+
+
+
+[83]
+
+[84]
+
+[85]
+Underfull \hbox (badness 10000) in paragraph at lines 2085--2087
+
+ []
+
+
+
+[86]
+Overfull \hbox (2.83643pt too wide) in paragraph at lines 2104--2105
+\TU/Georgia(0)/m/n/10 tounderstand formatting languages like HTML and/or JavaSc
+ript. Your browser
+ []
+
+
+Overfull \hbox (1.2698pt too wide) in paragraph at lines 2106--2107
+\TU/Georgia(0)/m/n/10 grams themselves, and hence highly predictable in their f
+ormat. But such scripts
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2110--2112
+
+ []
+
+
+Overfull \hbox (5.2065pt too wide) in paragraph at lines 2113--2114
+\TU/Georgia(0)/m/n/10 uct ID number, for example [][]http://www.amazon.com/gp/p
+roduct/1107041376/[][],
+ []
+
+
+Overfull \hbox (2.96391pt too wide) in paragraph at lines 2117--2118
+[]\TU/Georgia(0)/m/n/10 Please understand that politeness limits how rapidly yo
+u should spider/crawl
+ []
+
+
+
+[87]
+Underfull \hbox (badness 10000) in paragraph at lines 2128--2130
+
+ []
+
+
+
+[88]
+Underfull \hbox (badness 10000) in paragraph at lines 2153--2155
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-087.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-087.jpg>
+
+
+[89]
+Underfull \hbox (badness 10000) in paragraph at lines 2172--2174
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-088.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-088.jpg>
+
+
+[90]
+Underfull \hbox (badness 10000) in paragraph at lines 2189--2191
+
+ []
+
+
+
+[91]
+Overfull \hbox (0.72604pt too wide) in paragraph at lines 2206--2207
+[]\TU/Georgia(0)/m/n/10 These types of data comparability issues arise whenever
+ data sets are merged.
+ []
+
+
+Overfull \hbox (2.90912pt too wide) in paragraph at lines 2210--2212
+[]\TU/Georgia(0)/m/n/10 Unit Conversions Quantifying observations in physical s
+ystems requires stan-
+ []
+
+
+
+[92]
+Overfull \hbox (3.70122pt too wide) in paragraph at lines 2230--2231
+[]\TU/Georgia(0)/m/n/10 Numerical representation issues can take credit for des
+troying another rocket
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2232--2234
+
+ []
+
+
+
+[93]
+
+[94]
+
+LaTeX Warning: Citation `reingold2001calendrical' on page 95 undefined on input
+ line 2265.
+
+
+Underfull \vbox (badness 2698) has occurred while \output is active []
+
+
+
+[95]
+Overfull \hbox (0.40175pt too wide) in paragraph at lines 2311--2312
+\TU/Georgia(0)/m/n/10 enough training data, provided the missing values are abs
+ent for non-systematic
+ []
+
+
+
+[96]
+Underfull \hbox (badness 10000) in paragraph at lines 2323--2325
+
+ []
+
+
+Overfull \hbox (7.2153pt too wide) in paragraph at lines 2330--2331
+[]\TU/Georgia(0)/m/n/10 This approach requires a distance function to identify 
+the most similar records.
+ []
+
+
+
+[97]
+
+LaTeX Warning: Citation `goldenberg2016biggest' on page 98 undefined on input l
+ine 2343.
+
+
+
+[98]
+Overfull \hbox (2.66258pt too wide) in paragraph at lines 2358--2359
+\TU/Georgia(0)/m/n/10 Every time we met, my graduate student Wenbin told me we 
+were making money.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2364--2366
+
+ []
+
+
+
+[99]
+Underfull \hbox (badness 10000) in paragraph at lines 2384--2386
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-098.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-098.jpg>
+
+
+[100]
+
+[101]
+
+LaTeX Warning: Citation `surowiecki2005wisdom' on page 102 undefined on input l
+ine 2427.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2432--2434
+
+ []
+
+
+
+[102]
+Overfull \hbox (5.04546pt too wide) in paragraph at lines 2435--2436
+[]\TU/Georgia(0)/m/n/10 Why? Because the question at hand benefits greatly from
+ specialized knowl-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2443--2445
+
+ []
+
+
+
+[103]
+Underfull \hbox (badness 10000) in paragraph at lines 2465--2467
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-102.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-102.jpg>
+
+
+[104]
+Underfull \hbox (badness 10000) in paragraph at lines 2482--2484
+
+ []
+
+
+
+[105]
+Overfull \hbox (0.35347pt too wide) in paragraph at lines 2486--2489
+\TU/Georgia(0)/m/n/10 Of course, these image-annotation pairs should be retaine
+d for future anal-
+ []
+
+
+Overfull \hbox (14.77559pt too wide) in paragraph at lines 2491--2492
+[]\TU/Georgia(0)/m/n/10 The Sheep Market ([][]http://www.thesheepmarket.com[][]
+) commissioned 10,000
+ []
+
+
+Overfull \hbox (9.11517pt too wide) in paragraph at lines 2492--2493
+[]\TU/Georgia(0)/m/n/10 Emoji Dick ([][]http://www.emojidick.com[][]) was a cro
+wdsourced effort to trans-
+ []
+
+
+
+[106]
+Overfull \hbox (2.72575pt too wide) in paragraph at lines 2501--2503
+[]\TU/Georgia(0)/m/n/10 Any task that requires advanced training: Although ever
+y person possesses
+ []
+
+
+
+[107]
+Underfull \hbox (badness 10000) in paragraph at lines 2527--2529
+
+ []
+
+
+
+[108]
+Overfull \hbox (1.6489pt too wide) in paragraph at lines 2538--2539
+[]\TU/Georgia(0)/m/n/10 By turning these surveys into game apps ("What are your
+ personality traits?")
+ []
+
+
+
+[109]
+
+LaTeX Warning: Citation `babbage2011passages' on page 110 undefined on input li
+ne 2555.
+
+
+LaTeX Warning: Citation `padua2015thrilling' on page 110 undefined on input lin
+e 2555.
+
+
+LaTeX Warning: Citation `grus2015data' on page 110 undefined on input line 2557
+.
+
+
+LaTeX Warning: Citation `mckinney2012python' on page 110 undefined on input lin
+e 2557.
+
+
+LaTeX Warning: Citation `gleick1996bug' on page 110 undefined on input line 256
+1.
+
+
+Overfull \hbox (9.32799pt too wide) in paragraph at lines 2561--2562
+\TU/Georgia(0)/m/n/10 well chronicled in popular media. See Gleick [[[]]] and S
+tephenson et al. $[]$
+ []
+
+
+LaTeX Warning: Citation `kittur2008crowdsourcing' on page 110 undefined on inpu
+t line 2565.
+
+
+LaTeX Warning: Citation `chen2015vector' on page 110 undefined on input line 25
+65.
+
+
+LaTeX Warning: Citation `deterding2011from' on page 110 undefined on input line
+ 2565.
+
+
+LaTeX Warning: Citation `kapp2012gamification' on page 110 undefined on input l
+ine 2565.
+
+
+LaTeX Warning: Citation `kosinski2013private' on page 110 undefined on input li
+ne 2565.
+
+
+
+[110]
+
+[111]
+Overfull \hbox (143.13612pt too wide) in paragraph at lines 2653--2657
+[]\TU/Georgia(0)/m/n/10 Kaggle Challenges 3-20. Partially sunny, with a chance 
+of hashtags. [][]https://www.kaggle.com/c/crowdflower-
+ []
+
+
+Overfull \hbox (106.12064pt too wide) in paragraph at lines 2653--2657
+\OT1/cmr/m/n/10 3 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 21$\TU/Georgia(0)/m/n/10
+ . Predict end of day stock returns, without being deceived by noise. [][]https
+://www.kaggle.com/c/the-
+ []
+
+
+Overfull \hbox (153.53468pt too wide) in paragraph at lines 2653--2657
+\OT1/cmr/m/n/10 3 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 22$\TU/Georgia(0)/m/n/10
+ . Data cleaning and the analysis of historical climate change. [][]https://www
+.kaggle.com/berkeleyearth/climate-
+ []
+
+
+
+[112]
+
+[113]
+
+[114
+
+]
+Chapter 6.
+
+
+[115]
+Overfull \hbox (0.64516pt too wide) in paragraph at lines 2692--2693
+[]\TU/Georgia(0)/m/n/10 The body mass index (BMI) is a score or statistic desig
+ned to capture whether
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2704--2706
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-113.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-113.jpg>
+
+
+[116]
+Overfull \hbox (2.0146pt too wide) in paragraph at lines 2724--2725
+\TU/Georgia(0)/m/n/10 Consider professional athletes in American football (NFL)
+ and basketball (NBA): 
+ []
+
+
+
+[117]
+Underfull \hbox (badness 10000) in paragraph at lines 2731--2733
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-114(2).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-114(2).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2737--2737
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-114(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-114(1).jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-114.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-114.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2743--2743
+
+ []
+
+
+
+[118]
+
+[119]
+
+[120]
+Overfull \hbox (11.90489pt too wide) in paragraph at lines 2781--2782
+\TU/Georgia(0)/m/n/10 by sorting the output of some scoring system. Popular exa
+mples of rankings/rating
+ []
+
+
+Overfull \hbox (0.41327pt too wide) in paragraph at lines 2784--2785
+\TU/Georgia(0)/m/n/10 Typically, each voter provides their own personal ranking
+ of the top twenty
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2787--2789
+
+ []
+
+
+
+[121]
+Overfull \hbox (3.4593pt too wide) in paragraph at lines 2799--2800
+[]\TU/Georgia(0)/m/n/10 What is the underluing distribution of scores? By defin
+ition, the top ranked
+ []
+
+
+
+[122]
+Overfull \hbox (0.25777pt too wide) in paragraph at lines 2817--2818
+[]\TU/Georgia(0)/m/n/10 Easily understandable: It should be clear from the desc
+ription of the statis-
+ []
+
+
+Overfull \hbox (7.38936pt too wide) in paragraph at lines 2822--2824
+[]\TU/Georgia(0)/m/n/10 Uses systematically normalized variables: Variables dra
+wn from bellshaped
+ []
+
+
+Overfull \hbox (76.3409pt too wide) in paragraph at lines 2829--2835
+ [] 
+ []
+
+
+
+[123]
+Overfull \hbox (10.50299pt too wide) in paragraph at lines 2847--2848
+\TU/Georgia(0)/m/n/10 it is critical to normalize all the different variables t
+o make their range/distribution
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2858--2860
+
+ []
+
+
+
+[124]
+Overfull \hbox (1.84761pt too wide) in paragraph at lines 2876--2877
+[]\TU/Georgia(0)/m/n/10 That said, several powerful techniques have been develo
+ped to compute rank-
+ []
+
+
+Overfull \hbox (2.12538pt too wide) in paragraph at lines 2879--2880
+\TU/Georgia(0)/m/n/10 Rankings are often formed by analyzing sequences of binar
+y comparisons, which
+ []
+
+
+
+[125]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-122.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-122.jpg>
+
+
+[126]
+
+[127]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-123.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-123.jpg>
+
+
+[128]
+Overfull \hbox (37.49599pt too wide) in paragraph at lines 2975--2976
+[]\TU/Georgia(0)/m/n/10 Figure 4.7: Borda's method for constructing the consens
+us ranking of $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 A; B; C; D; E\OMS/cmsy/m/n/10
+ g$
+ []
+
+
+
+[129]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-125.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-125.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2995--2995
+
+ []
+
+
+
+[130]
+Underfull \hbox (badness 10000) in paragraph at lines 3009--3011
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-126.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-126.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3015--3015
+
+ []
+
+
+
+[131]
+Overfull \hbox (26.97604pt too wide) in paragraph at lines 3021--3022
+\TU/Georgia(0)/m/n/10 distinct orders consistent with the directed edges: $\OMS
+/cmsy/m/n/10 f\OML/cmm/m/it/10 A; B; C; D; E\OMS/cmsy/m/n/10 g$ \TU/Georgia(0)/
+m/n/10 and $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 A; C; B; D; E\OMS/cmsy/m/n/10 g$
+\TU/Georgia(0)/m/n/10 . 
+ []
+
+
+Overfull \hbox (6.17953pt too wide) in paragraph at lines 3034--3035
+[]\TU/Georgia(0)/m/n/10 But dominance isn't really the right interpretation for
+ links on the web. PageR-
+ []
+
+
+
+[132]
+Underfull \hbox (badness 10000) in paragraph at lines 3052--3054
+
+ []
+
+
+
+[133]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `KohinoorBangla' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+[134]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-129.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-129.jpg>
+
+
+LaTeX Warning: Float too large for page by 73.84668pt on input line 3098.
+
+
+Overfull \hbox (18.47192pt too wide) in paragraph at lines 3102--3110
+\TU/Georgia(0)/m/n/10 The Home News is publishing the column in the sports sect
+ion to test the younuster's
+ []
+
+
+
+[135]
+
+[136]
+
+[137]
+Underfull \hbox (badness 10000) in paragraph at lines 3162--3164
+
+ []
+
+
+
+[138]
+
+[139]
+Underfull \hbox (badness 10000) in paragraph at lines 3226--3228
+
+ []
+
+
+
+[140]
+Overfull \hbox (4.50548pt too wide) in paragraph at lines 3237--3238
+\TU/Georgia(0)/m/n/10 strength instead of significance. In retrospect, using th
+is less-loaded name would
+ []
+
+
+LaTeX Warning: Citation `langville2012whos' on page 141 undefined on input line
+ 3240.
+
+
+
+[141]
+
+LaTeX Warning: Citation `joachims2002optimizing' on page 142 undefined on input
+ line 3244.
+
+
+LaTeX Warning: Citation `eades1993fast' on page 142 undefined on input line 324
+6.
+
+
+LaTeX Warning: Citation `watkins2016arrows' on page 142 undefined on input line
+ 3246.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3264--3270
+
+ []
+
+
+
+[142]
+
+[143]
+
+[144
+
+]
+Chapter 7.
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-137.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-137.jpg>
+
+Overfull \hbox (1.77382pt too wide) in paragraph at lines 3319--3320
+\TU/Georgia(0)/m/n/10 Every variable that we observe defines a particular frequ
+ency distribution, which
+ []
+
+
+Underfull \vbox (badness 5431) has occurred while \output is active []
+
+
+
+[145]
+Overfull \hbox (7.93137pt too wide) in paragraph at lines 3321--3322
+[]\TU/Georgia(0)/m/n/10 These classical distributions have two nice properties:
+ (1) they describe shapes
+ []
+
+
+
+[146]
+Underfull \hbox (badness 10000) in paragraph at lines 3331--3333
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-139(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-139(1).jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-139.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-139.jpg>
+
+Overfull \hbox (4.47966pt too wide) in paragraph at lines 3344--3345
+[]\TU/Georgia(0)/m/n/10 The binomial distribution reports the probability of ge
+tting exactly $\OML/cmm/m/it/10 xP[]$ \TU/Georgia(0)/m/n/10 events
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-140.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-140.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3359--3359
+
+ []
+
+
+
+[147]
+
+[148]
+
+[149]
+Underfull \hbox (badness 10000) in paragraph at lines 3395--3397
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-142.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-142.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3401--3401
+
+ []
+
+
+
+[150]
+
+[151]
+Underfull \hbox (badness 10000) in paragraph at lines 3414--3416
+
+ []
+
+
+Overfull \hbox (5.17934pt too wide) in paragraph at lines 3426--3427
+\TU/Georgia(0)/m/n/10 The Poisson distribution measures the frequency of interv
+als between rare events.
+ []
+
+
+
+[152]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-144.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-144.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3444--3444
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-144(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-144(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3451--3451
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-145.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-145.jpg>
+
+
+[153]
+
+[154]
+
+[155]
+
+[156]
+
+[157]
+
+[158]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-149.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-149.jpg>
+
+Overfull \hbox (1.80019pt too wide) in paragraph at lines 3618--3619
+[]\TU/Georgia(0)/m/n/10 If you are working with a popular probability distribut
+ion in a well-supported
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3621--3623
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-150.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-150.jpg>
+
+
+[159]
+
+[160]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-151.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-151.jpg>
+
+
+LaTeX Warning: Citation `vigen2015spurious' on page 161 undefined on input line
+ 3646.
+
+
+LaTeX Warning: Citation `vigen2015spurious' on page 161 undefined on input line
+ 3646.
+
+
+
+[161]
+Overfull \hbox (1.27013pt too wide) in paragraph at lines 3654--3655
+\TU/Georgia(0)/m/n/10 about whether an observation is meaningful or not. The cl
+assical example comes
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-152.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-152.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3661--3661
+
+ []
+
+
+
+[162]
+
+LaTeX Warning: Citation `sullivan2012using' on page 163 undefined on input line
+ 3671.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3684--3686
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-153.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-153.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3690--3690
+
+ []
+
+
+
+[163]
+Underfull \hbox (badness 10000) in paragraph at lines 3707--3709
+
+ []
+
+
+
+[164]
+Overfull \hbox (4.57695pt too wide) in paragraph at lines 3717--3718
+\TU/Georgia(0)/m/n/10 number of samples to observe and validate this relatively
+ rare phenomenon. 
+ []
+
+
+
+[165]
+Overfull \hbox (15.68279pt too wide) in paragraph at lines 3747--3748
+\TU/Georgia(0)/m/n/10 according to the distance between their respective means.
+ Instead, the Kolmogorov-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3749--3751
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-156.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-156.jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-156(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-156(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3756--3756
+
+ []
+
+
+LaTeX Warning: Float too large for page by 24.88141pt on input line 3757.
+
+
+
+[166]
+
+[167]
+Overfull \hbox (3.72043pt too wide) in paragraph at lines 3787--3789
+[]\TU/Georgia(0)/m/n/10 Normality Testing When plotted, the normal distribution
+ yields a bell-shaped
+ []
+
+
+
+[168]
+Overfull \hbox (7.85005pt too wide) in paragraph at lines 3816--3817
+[]\TU/Georgia(0)/m/n/10 The Benjamini-Hochberg procedure for minimizing false d
+iscovery rate (FDR)
+ []
+
+
+
+[169]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-159.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-159.jpg>
+
+Overfull \hbox (31.79097pt too wide) in paragraph at lines 3835--3835
+[]\TU/Georgia(0)/b/n/14.4 War Story: Discovering the Fountain of Youth? 
+ []
+
+
+
+[170]
+Underfull \hbox (badness 10000) in paragraph at lines 3840--3842
+
+ []
+
+
+
+[171]
+Underfull \hbox (badness 10000) in paragraph at lines 3865--3867
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-161.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-161.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3871--3871
+
+ []
+
+
+
+[172]
+Overfull \hbox (7.27522pt too wide) in paragraph at lines 3877--3879
+[]\TU/Georgia(0)/m/n/10 Permutation Tests and $\OML/cmm/m/it/10 P$\TU/Georgia(0
+)/m/n/10 -values Traditional statistical significance tests prove
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3880--3882
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-162(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-162(1).jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-162.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-162.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3887--3887
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3897--3899
+
+ []
+
+
+
+[173]
+
+[174]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-164.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-164.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3935--3935
+
+ []
+
+
+
+[175]
+
+[176]
+Overfull \hbox (2.51804pt too wide) in paragraph at lines 3946--3947
+\TU/Georgia(0)/m/n/10 One of baseball's most amazing records is Joe DiMaggio's 
+56-game hitting streak.
+ []
+
+
+Overfull \hbox (1.9684pt too wide) in paragraph at lines 3948--3949
+[]\TU/Georgia(0)/m/n/10 But back in 1941, Joe DiMaggio succeeded in getting hit
+s in 56 straight games,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3950--3952
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-165.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-165.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3956--3956
+
+ []
+
+
+
+[177]
+Overfull \hbox (2.08401pt too wide) in paragraph at lines 3964--3965
+\TU/Georgia(0)/m/n/10 ceived four chances to hit, and succeeded with a probabil
+ity of $\OML/cmm/m/it/10 p \OT1/cmr/m/n/10 =$ $(2214/6821) =
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-166.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-166.jpg>
+
+
+[178]
+
+LaTeX Warning: Citation `freedman2007statistics' on page 179 undefined on input
+ line 4010.
+
+
+LaTeX Warning: Citation `huff2010how' on page 179 undefined on input line 4010.
+
+
+
+
+[179]
+
+LaTeX Warning: Citation `donoho2015fifty' on page 180 undefined on input line 4
+012.
+
+
+LaTeX Warning: Citation `jennings1999household' on page 180 undefined on input 
+line 4016.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4019--4021
+
+ []
+
+
+
+[180]
+Underfull \hbox (badness 10000) in paragraph at lines 4050--4054
+
+ []
+
+
+
+[181]
+
+[182]
+Chapter 8.
+
+Overfull \hbox (2.29195pt too wide) in paragraph at lines 4117--4118
+\TU/Georgia(0)/m/n/10 hoping to knock her out of the upcoming Olympic games. Fo
+rtunately, he missed
+ []
+
+
+
+[183
+
+]
+Overfull \hbox (31.13942pt too wide) in paragraph at lines 4135--4136
+\TU/Georgia(0)/m/n/10 NHANES, available at [][]https://www.statcrunch.com/app/i
+ndex.php?dataid=[][] 1406047.
+ []
+
+
+
+[184]
+Underfull \vbox (badness 3428) has occurred while \output is active []
+
+
+
+[185]
+Overfull \hbox (2.43578pt too wide) in paragraph at lines 4175--4176
+[]\TU/Georgia(0)/m/n/10 Pairwise correlations: A matrix of correlation coeffici
+ents between all pairs
+ []
+
+
+Overfull \hbox (20.215pt too wide) in paragraph at lines 4179--4200
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4205--4207
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-175.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-175.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 4211--4211
+
+ []
+
+
+Overfull \hbox (0.23512pt too wide) in paragraph at lines 4214--4216
+\TU/Georgia(0)/m/n/10 when conditioned on the category. Look especially where y
+ou think there should
+ []
+
+
+
+[186]
+
+[187]
+
+[188]
+Underfull \hbox (badness 10000) in paragraph at lines 4263--4265
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-177.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-177.jpg>
+
+
+[189]
+Overfull \hbox (13.78511pt too wide) in paragraph at lines 4280--4281
+\TU/Georgia(0)/m/n/10 to build tools that support exploratory data analysis for
+ less technicallyskilled,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4283--4285
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-178.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-178.jpg>
+
+
+[190]
+Overfull \hbox (8.12592pt too wide) in paragraph at lines 4295--4296
+[]\TU/Georgia(0)/m/n/10 Distinguishing good/bad visualizations requires develop
+ing a design aesthetic,
+ []
+
+
+LaTeX Warning: Citation `tufte1983visual' on page 191 undefined on input line 4
+297.
+
+
+LaTeX Warning: Citation `tufte1990envisioning' on page 191 undefined on input l
+ine 4297.
+
+
+LaTeX Warning: Citation `tufte1997visual' on page 191 undefined on input line 4
+297.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4303--4305
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-179.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-179.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 4309--4309
+
+ []
+
+
+
+[191]
+Underfull \hbox (badness 10000) in paragraph at lines 4330--4332
+
+ []
+
+
+
+[192]
+Overfull \hbox (10.16238pt too wide) in paragraph at lines 4347--4348
+[]\TU/Georgia(0)/m/n/10 Presenting means without variance: The data values $\OM
+S/cmsy/m/n/10 f\OT1/cmr/m/n/10 100\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 100\OML/cm
+m/m/it/10 ; \OT1/cmr/m/n/10 100\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 100\OML/cmm/m
+/it/10 ; \OT1/cmr/m/n/10 100\OMS/cmsy/m/n/10 g$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4354--4356
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-181.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-181.jpg>
+
+
+[193]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-182.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-182.jpg>
+
+
+[194]
+Overfull \hbox (2.1767pt too wide) in paragraph at lines 4386--4387
+\TU/Georgia(0)/m/n/10 tributes nothing to the interpretation of the graphic. Re
+moving it increases
+ []
+
+
+Overfull \hbox (6.6143pt too wide) in paragraph at lines 4387--4388
+\TU/Georgia(0)/m/n/10 tribute information, particularly the upper and rightmost
+ boundaries which
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-183.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-183.jpg>
+
+
+[195]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-184.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-184.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 4410--4410
+
+ []
+
+
+
+[196]
+Underfull \hbox (badness 10000) in paragraph at lines 4424--4426
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-185.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-185.jpg>
+
+
+[197]
+
+[198]
+Overfull \hbox (1.11063pt too wide) in paragraph at lines 4453--4454
+[]\TU/Georgia(0)/m/n/10 Take-Home Lesson: You have the power and responsibility
+ to produce mean-
+ []
+
+
+LaTeX Warning: Citation `abela2013advanced' on page 199 undefined on input line
+ 4455.
+
+
+Overfull \hbox (4.17108pt too wide) in paragraph at lines 4461--4462
+\TU/Georgia(0)/m/n/10 thing about the process of how it was obtained: an averag
+e salary of $\OT1/cmr/m/n/10 $79\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 815$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4477--4479
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-187.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-187.jpg>
+
+Overfull \hbox (1.62276pt too wide) in paragraph at lines 4489--4490
+[]\TU/Georgia(0)/m/n/10 Multivariate visualization: Geometry gets complicated t
+o understand once
+ []
+
+
+
+[199]
+
+[200]
+Overfull \hbox (60.97765pt too wide) in paragraph at lines 4510--4530
+ [] 
+ []
+
+
+
+[201]
+Overfull \hbox (67.34328pt too wide) in paragraph at lines 4535--4562
+ [] 
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-190.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-190.jpg>
+
+Underfull \vbox (badness 1067) has occurred while \output is active []
+
+
+
+[202]
+Overfull \hbox (2.09804pt too wide) in paragraph at lines 4578--4581
+\TU/Georgia(0)/m/n/10 thus visually encouraging us to concentrate on exactly th
+e points we should
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4578--4581
+
+ []
+
+
+
+[203]
+Underfull \hbox (badness 10000) in paragraph at lines 4592--4597
+
+ []
+
+
+
+[204]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-192.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-192.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 4601--4601
+
+ []
+
+
+
+[205]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-193.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-193.jpg>
+
+
+[206]
+Underfull \hbox (badness 10000) in paragraph at lines 4638--4640
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-194.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-194.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 4644--4644
+
+ []
+
+
+
+[207]
+Overfull \hbox (2.19568pt too wide) in paragraph at lines 4653--4655
+\TU/Georgia(0)/m/n/10 using techniques such as principal component analysis and
+ self-organizing 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4653--4655
+
+ []
+
+
+
+[208]
+Underfull \hbox (badness 10000) in paragraph at lines 4666--4668
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-196.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-196.jpg>
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:4673: Extra }, or forgotten \endgroup
+.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.4673 \end{figure}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-197.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-197.jpg>
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:4680: Extra }, or forgotten \endgroup
+.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.4680 \end{figure}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-198.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-198.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 4694--4694
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-198(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-198(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 4702--4702
+
+ []
+
+
+Overfull \hbox (12.4496pt too wide) in paragraph at lines 4704--4706
+[]\TU/Georgia(0)/m/n/10 Figure 6.19: Stacked bar charts illustrating the surviv
+orship rate on the doomed
+ []
+
+
+Overfull \hbox (1.90329pt too wide) in paragraph at lines 4708--4710
+\TU/Georgia(0)/m/n/10 senting an array of small bar charts, here one for each g
+ender/ethnic group,
+ []
+
+
+
+[209]
+
+[210]
+
+[211]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-199.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-199.jpg>
+
+
+[212]
+Underfull \hbox (badness 10000) in paragraph at lines 4728--4730
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-200.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-200.jpg>
+
+
+[213]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-201.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-201.jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-202(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-202(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 4753--4753
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-202.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-202.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 4758--4758
+
+ []
+
+
+
+[214]
+
+[215]
+Underfull \hbox (badness 10000) in paragraph at lines 4765--4766
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4766--4768
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-203.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-203.jpg>
+
+
+[216]
+Underfull \hbox (badness 10000) in paragraph at lines 4785--4787
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-204.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-204.jpg>
+
+
+[217]
+Underfull \hbox (badness 10000) in paragraph at lines 4806--4808
+
+ []
+
+
+Overfull \hbox (4.93517pt too wide) in paragraph at lines 4809--4810
+[]\TU/Georgia(0)/m/n/10 However, the conventional rendering avoids two problems
+. To do it "right,"
+ []
+
+
+
+[218]
+Underfull \hbox (badness 10000) in paragraph at lines 4825--4827
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-206.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-206.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 4831--4831
+
+ []
+
+
+
+[219]
+Underfull \hbox (badness 10000) in paragraph at lines 4842--4844
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-207.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-207.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 4858--4860
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-208.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-208.jpg>
+
+
+[220]
+
+[221]
+Underfull \hbox (badness 10000) in paragraph at lines 4881--4883
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-209.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-209.jpg>
+
+
+[222]
+Overfull \hbox (2.4103pt too wide) in paragraph at lines 4893--4894
+\TU/Georgia(0)/m/n/10 Figure 6.30 portrays the frequency of 10,000 English word
+s, sorted by frequency.
+ []
+
+
+Underfull \vbox (badness 1406) has occurred while \output is active []
+
+
+
+[223]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-210.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-210.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 4908--4908
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-210(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-210(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 4915--4915
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4917--4920
+
+ []
+
+
+
+[224]
+Overfull \hbox (2.55919pt too wide) in paragraph at lines 4934--4935
+[]\TU/Georgia(0)/m/n/10 There are also excesses which tend to arise in interact
+ive visualization. Knobs
+ []
+
+
+Overfull \hbox (7.43431pt too wide) in paragraph at lines 4936--4937
+\TU/Georgia(0)/m/n/10 them, the best interactive presentations show a narrative
+, such as moving through
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-212.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-212.jpg>
+
+
+[225]
+Overfull \hbox (3.56917pt too wide) in paragraph at lines 4953--4954
+\TU/Georgia(0)/m/n/10 news/sentiment analysis system. TextMap presented a news 
+analysis dashboard,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4956--4958
+
+ []
+
+
+
+[226]
+
+[227]
+
+LaTeX Warning: Citation `few2009now' on page 228 undefined on input line 4986.
+
+
+LaTeX Warning: Citation `johnson2007ghost' on page 228 undefined on input line 
+4986.
+
+
+Overfull \hbox (26.28755pt too wide) in paragraph at lines 4986--4987
+\TU/Georgia(0)/m/n/10 teresting blogs about data visualization are [][]http://f
+lowingdata.com[][] and [][]http://viz.wtf[][].
+ []
+
+
+LaTeX Warning: Citation `anscombe1973graphs' on page 228 undefined on input lin
+e 4988.
+
+
+LaTeX Warning: Citation `lloyd2005lydia' on page 228 undefined on input line 49
+88.
+
+
+LaTeX Warning: Citation `bautin2010access' on page 228 undefined on input line 
+4988.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[228]
+Overfull \hbox (23.22739pt too wide) in paragraph at lines 5000--5008
+[]\TU/Georgia(0)/m/n/10 6-2. [3] For one or more of the data sets from [][]http
+://www.data-manual.com/data[][],
+ []
+
+
+
+[229]
+
+[230]
+Chapter 9.
+
+
+[231
+
+]
+
+[232]
+Overfull \hbox (0.41757pt too wide) in paragraph at lines 5116--5117
+\TU/Georgia(0)/m/n/10 probability distributions. Specifying a standard deviatio
+n $\OML/cmm/m/it/10 ^^[$ \TU/Georgia(0)/m/n/10 along with the mean
+ []
+
+
+Overfull \hbox (0.33913pt too wide) in paragraph at lines 5119--5120
+\TU/Georgia(0)/m/n/10 probabilistic answers. Logistic regression provides a con
+fidence along with each
+ []
+
+
+
+[233]
+Overfull \hbox (4.01427pt too wide) in paragraph at lines 5131--5135
+\TU/Georgia(0)/m/n/10 Google's Flu Trends forecasting model predicted disease o
+utbreaks by mon-
+ []
+
+
+
+[234]
+Underfull \hbox (badness 10000) in paragraph at lines 5162--5164
+
+ []
+
+
+
+[235]
+Underfull \hbox (badness 10000) in paragraph at lines 5181--5183
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-223.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-223.jpg>
+
+LaTeX Warning: Citation `nguyen2015deep' on page 236 undefined on input line 51
+87.
+
+
+
+[236]
+
+[237]
+Overfull \hbox (2.84837pt too wide) in paragraph at lines 5216--5217
+[]\TU/Georgia(0)/m/n/10 Each probability is a value between 0 and 1: Scores tha
+t are not constrained
+ []
+
+
+
+[238]
+Overfull \hbox (10.48366pt too wide) in paragraph at lines 5225--5226
+[]\TU/Georgia(0)/m/n/10 There are certain advantages of deterministic models, h
+owever. First-principle
+ []
+
+
+
+[239]
+Underfull \hbox (badness 10000) in paragraph at lines 5238--5240
+
+ []
+
+
+
+[240]
+
+[241]
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:5307: Extra alignment tab has been ch
+anged to \cr.
+<template> \endtemplate 
+                        
+l.5307  &  & \multicolumn{3}{|c}{Predicted Class}
+                                                  \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:5308: Extra alignment tab has been ch
+anged to \cr.
+<recently read> \endtemplate 
+                             
+l.5308  &  & Yes & No &
+                         \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:5310: Extra alignment tab has been ch
+anged to \cr.
+<recently read> \endtemplate 
+                             
+l.5310 ... Positives (TP) & False Negatives (FN) &
+                                                    \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:5311: Extra alignment tab has been ch
+anged to \cr.
+<recently read> \endtemplate 
+                             
+l.5311 ...e Positives (FP) & True Negatives (TN) &
+                                                    \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+
+[242]
+Underfull \hbox (badness 10000) in paragraph at lines 5328--5331
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-230.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-230.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 5335--5335
+
+ []
+
+
+
+[243]
+
+[244]
+
+[245]
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:5414: Extra alignment tab has been ch
+anged to \cr.
+<template> \endtemplate 
+                        
+l.5414 ... \multicolumn{4}{c}{Balanced Classifier}
+                                                   \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:5415: Extra alignment tab has been ch
+anged to \cr.
+<recently read> \endtemplate 
+                             
+l.5415 ... & 1.0 & 0.5 & 0.75 & 0.9 & 0.99 & 1.0 &
+                                                    &  \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:5417: Extra alignment tab has been ch
+anged to \cr.
+<recently read> \endtemplate 
+                             
+l.5417 ... & 0.05 & 0.5 & 0.75 & 0.9 & 0.99 & 1. &
+                                                    &  \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:5418: Extra alignment tab has been ch
+anged to \cr.
+<recently read> \endtemplate 
+                             
+l.5418 ...05 & 0.05 & 0.136 & 0.321 & 0.839 & 1. &
+                                                    &  \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:5419: Extra alignment tab has been ch
+anged to \cr.
+<recently read> \endtemplate 
+                             
+l.5419 ...0. & 1. & 0.5 & 0.75 & 0.9 & 0.99 & 1. &
+                                                    &  \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:5420: Extra alignment tab has been ch
+anged to \cr.
+<recently read> \endtemplate 
+                             
+l.5420 ...5 & 0.091 & 0.231 & 0.474 & 0.908 & 1. &
+                                                    &  \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (69.5607pt too wide) in paragraph at lines 5413--5423
+ [] 
+ []
+
+
+
+[246]
+Underfull \hbox (badness 10000) in paragraph at lines 5442--5444
+
+ []
+
+
+Overfull \hbox (0.48563pt too wide) in paragraph at lines 5447--5448
+[]\TU/Georgia(0)/m/n/10 The F-score and related evaluation metrics were develop
+ed to evaluate mean-
+ []
+
+
+
+[247]
+Underfull \hbox (badness 10000) in paragraph at lines 5460--5462
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-234.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-234.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 5466--5466
+
+ []
+
+
+
+[248]
+Underfull \hbox (badness 10000) in paragraph at lines 5479--5481
+
+ []
+
+
+
+[249]
+Overfull \hbox (3.59567pt too wide) in paragraph at lines 5484--5485
+\TU/Georgia(0)/m/n/10 tives (if this example was in fact a negative). At the ve
+ry left, we achieve true/false
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-236.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-236.jpg>
+
+
+[250]
+
+[251]
+Underfull \hbox (badness 10000) in paragraph at lines 5517--5519
+
+ []
+
+
+Underfull \vbox (badness 1895) has occurred while \output is active []
+
+
+
+[252]
+Underfull \hbox (badness 10000) in paragraph at lines 5549--5551
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-238.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-238.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 5555--5555
+
+ []
+
+
+
+[253]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-239.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-239.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 5577--5577
+
+ []
+
+
+
+[254]
+Underfull \vbox (badness 2326) has occurred while \output is active []
+
+
+
+[255]
+
+[256]
+
+[257]
+Underfull \hbox (badness 10000) in paragraph at lines 5710--5712
+
+ []
+
+
+
+[258]
+Overfull \hbox (1.02084pt too wide) in paragraph at lines 5715--5716
+\TU/Georgia(0)/m/n/10 models are each trained on different sets of $\OML/cmm/m/
+it/10 n \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1$ \TU/Georgia(0)/m/n/10 examples,
+ to determine whether
+ []
+
+
+Overfull \hbox (0.48508pt too wide) in paragraph at lines 5725--5726
+\TU/Georgia(0)/m/n/10 to avoid overfitting creates new training instances by ad
+ding random noise
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5728--5730
+
+ []
+
+
+
+[259]
+
+[260]
+
+[261]
+Underfull \hbox (badness 10000) in paragraph at lines 5785--5787
+
+ []
+
+
+
+[262]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-247.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-247.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 5791--5791
+
+ []
+
+
+Overfull \hbox (1.84143pt too wide) in paragraph at lines 5793--5795
+\TU/Georgia(0)/m/n/10 fair to all the different players. Starting early in the 
+queue gave you more chances
+ []
+
+
+
+[263]
+
+[264]
+
+LaTeX Warning: Citation `bender2012introduction' on page 265 undefined on input
+ line 5871.
+
+
+LaTeX Warning: Citation `giordano2013first' on page 265 undefined on input line
+ 5871.
+
+
+LaTeX Warning: Citation `lazer2014parable' on page 265 undefined on input line 
+5875.
+
+
+LaTeX Warning: Citation `sazaklis1997geometric' on page 265 undefined on input 
+line 5877.
+
+
+LaTeX Warning: Citation `kulkarni2017dating' on page 265 undefined on input lin
+e 5877.
+
+
+
+[265]
+
+[266]
+Underfull \hbox (badness 10000) in paragraph at lines 5947--5950
+
+ []
+
+
+
+[267]
+Overfull \hbox (7.5082pt too wide) in paragraph at lines 5957--5959
+[]\TU/Georgia(0)/m/n/10 Rigorous testing will probably confirm that your models
+ are not strong enough
+ []
+
+
+Overfull \hbox (46.6361pt too wide) in paragraph at lines 5974--5979
+\OT1/cmr/m/n/10 7 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 25$\TU/Georgia(0)/m/n/10
+ . Who will win the NCAA basketball tournament? [][]https://www.kaggle.com/c/ma
+rch-
+ []
+
+
+Overfull \hbox (52.69809pt too wide) in paragraph at lines 5974--5979
+\OT1/cmr/m/n/10 7 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 26$\TU/Georgia(0)/m/n/10
+ . Predict the annual sales in a given restaurant. [][]https://www.kaggle.com/c
+/restaurant-
+ []
+
+
+
+[268]
+Chapter 10.
+
+
+[269
+
+]
+Overfull \hbox (7.83664pt too wide) in paragraph at lines 6012--6013
+\TU/Georgia(0)/m/n/10 trix multiplication, and how vertex clusters relate to th
+e eigenvalues/vectors
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6019--6021
+
+ []
+
+
+
+[270]
+Underfull \hbox (badness 10000) in paragraph at lines 6053--6055
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-256.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-256.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6059--6059
+
+ []
+
+
+
+[271]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-257.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-257.jpg>
+
+
+[272]
+
+[273]
+Underfull \hbox (badness 10000) in paragraph at lines 6106--6108
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-258.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-258.jpg>
+
+
+[274]
+Underfull \hbox (badness 10000) in paragraph at lines 6140--6142
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-259.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-259.jpg>
+
+
+[275]
+
+[276]
+Underfull \hbox (badness 10000) in paragraph at lines 6259--6261
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-261.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-261.jpg>
+
+
+[277]
+
+[278]
+Underfull \hbox (badness 10000) in paragraph at lines 6312--6314
+
+ []
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:6316: Missing $ inserted.
+<inserted text> 
+                $
+l.6316 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:6316: Missing \right. inserted.
+<inserted text> 
+                \right .
+l.6316 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-263.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-263.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6320--6320
+
+ []
+
+
+
+[279]
+Overfull \hbox (4.98183pt too wide) in paragraph at lines 6336--6337
+\TU/Georgia(0)/m/n/10 Matrices with this property are called permutation matric
+es, because the nonzero
+ []
+
+
+Overfull \hbox (1.80412pt too wide) in paragraph at lines 6347--6350
+[]\TU/Georgia(0)/m/n/10 Observe that the identity matrix corresponds to the per
+mutation $\OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/1
+0 ; [] ; n\OT1/cmr/m/n/10 )$\TU/Georgia(0)/m/n/10 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6347--6350
+
+ []
+
+
+
+[280]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-265.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-265.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6402--6402
+
+ []
+
+
+
+[281]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[282]
+Underfull \hbox (badness 10000) in paragraph at lines 6485--6487
+
+ []
+
+
+
+[283]
+
+[284]
+Underfull \hbox (badness 10000) in paragraph at lines 6539--6541
+
+ []
+
+
+Underfull \vbox (badness 2158) has occurred while \output is active []
+
+
+
+[285]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-269.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-269.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6545--6545
+
+ []
+
+
+
+[286]
+Underfull \hbox (badness 10000) in paragraph at lines 6559--6561
+
+ []
+
+
+
+[287]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-271.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-271.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6582--6582
+
+ []
+
+
+
+[288]
+
+[289]
+
+[290]
+Underfull \hbox (badness 10000) in paragraph at lines 6714--6716
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-274.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-274.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6720--6720
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-274(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-274(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6725--6725
+
+ []
+
+
+
+[291]
+Underfull \hbox (badness 10000) in paragraph at lines 6736--6738
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-275.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-275.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6742--6742
+
+ []
+
+
+
+[292]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-276.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-276.jpg>
+
+
+[293]
+Underfull \hbox (badness 10000) in paragraph at lines 6783--6785
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-277(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-277(1).jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-277.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-277.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6790--6790
+
+ []
+
+
+LaTeX Warning: Float too large for page by 74.0978pt on input line 6791.
+
+
+
+[294]
+
+[295]
+Overfull \hbox (1.3629pt too wide) in paragraph at lines 6800--6801
+\TU/Georgia(0)/m/n/10 to computing the same thing. They should serve equally we
+ll as low-dimensional
+ []
+
+
+Overfull \hbox (5.23064pt too wide) in paragraph at lines 6814--6815
+\TU/Georgia(0)/m/n/10 wattage of singers, actors, and other entertainers are be
+tter measured by celebrity
+ []
+
+
+
+[296]
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:6856: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.6856 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:6856: You can't use `\hrule' here exc
+ept with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.6856 \hline
+             
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:6856: Missing number, treated as zero
+.
+<to be read again> 
+                   \futurelet 
+l.6856 \hline
+             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:6856: Illegal unit of measure (pt ins
+erted).
+<to be read again> 
+                   \futurelet 
+l.6856 \hline
+             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (114.27649pt too wide) in paragraph at lines 6823--6860
+ [] 
+ []
+
+
+
+[297]
+
+LaTeX Warning: Citation `lay2015linear' on page 298 undefined on input line 686
+8.
+
+
+LaTeX Warning: Citation `strang2011introduction' on page 298 undefined on input
+ line 6868.
+
+
+LaTeX Warning: Citation `tucker1988unified' on page 298 undefined on input line
+ 6868.
+
+
+LaTeX Warning: Citation `klein2013coding' on page 298 undefined on input line 6
+868.
+
+
+
+[298]
+Underfull \hbox (badness 10000) in paragraph at lines 6909--6912
+
+ []
+
+
+
+[299]
+
+[300
+
+]
+Chapter 11.
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-283.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-283.jpg>
+
+Overfull \hbox (4.03813pt too wide) in paragraph at lines 6950--6956
+[]\TU/Georgia(0)/m/n/10 Linear regression is a bread-and-butter modeling techni
+que that should serve
+ []
+
+
+
+[301]
+
+[302]
+Underfull \hbox (badness 10000) in paragraph at lines 6965--6967
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-284.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-284.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6971--6971
+
+ []
+
+
+
+[303]
+Underfull \hbox (badness 10000) in paragraph at lines 6992--6994
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-285.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-285.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6998--6998
+
+ []
+
+
+
+[304]
+
+[305]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-287.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-287.jpg>
+
+
+[306]
+Overfull \hbox (3.44089pt too wide) in paragraph at lines 7079--7080
+[]\TU/Georgia(0)/m/n/10 Figure 9.4 shows the best-fitting regression line with 
+(left) and without (right)
+ []
+
+
+
+[307]
+Underfull \hbox (badness 10000) in paragraph at lines 7100--7102
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-289.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-289.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 7106--7106
+
+ []
+
+
+
+[308]
+
+[309]
+Underfull \hbox (badness 10000) in paragraph at lines 7123--7125
+
+ []
+
+
+Overfull \hbox (1.30592pt too wide) in paragraph at lines 7142--7143
+[]\TU/Georgia(0)/m/n/10 Using Z-scores in regression addresses the question of 
+interpretability. Since
+ []
+
+
+
+[310]
+Overfull \hbox (3.78934pt too wide) in paragraph at lines 7155--7156
+\TU/Georgia(0)/m/n/10 help, because they are just linear transformations. The k
+ey is to replace/augment
+ []
+
+
+
+[311]
+Overfull \hbox (14.83655pt too wide) in paragraph at lines 7189--7190
+[]\TU/Georgia(0)/m/n/10 The solution here is to identify feature pairs which co
+rrelate excessively strongly,
+ []
+
+
+
+[312]
+Underfull \hbox (badness 10000) in paragraph at lines 7196--7198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7229--7231
+
+ []
+
+
+
+[313]
+Underfull \vbox (badness 2529) has occurred while \output is active []
+
+
+
+[314]
+Underfull \hbox (badness 10000) in paragraph at lines 7258--7260
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-295.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-295.jpg>
+
+
+[315]
+Underfull \hbox (badness 10000) in paragraph at lines 7276--7278
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-296.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-296.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 7282--7282
+
+ []
+
+
+
+[316]
+Underfull \hbox (badness 10000) in paragraph at lines 7293--7295
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-297.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-297.jpg>
+
+
+[317]
+
+[318]
+Underfull \hbox (badness 10000) in paragraph at lines 7341--7343
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-299(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-299(1).jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-299.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-299.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 7348--7348
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7360--7362
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-300.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-300.jpg>
+
+
+[319]
+
+[320]
+
+[321]
+Underfull \hbox (badness 10000) in paragraph at lines 7382--7384
+
+ []
+
+
+Overfull \hbox (13.76234pt too wide) in paragraph at lines 7389--7389
+[]\TU/Georgia(0)/b/n/14.4 Simplifying Models through Regularization 
+ []
+
+
+
+[322]
+Overfull \hbox (8.99635pt too wide) in paragraph at lines 7429--7430
+\TU/Georgia(0)/m/n/10 Ridge regression optimizes to select small coefficients. 
+Because of sum-of-squares
+ []
+
+
+
+[323]
+
+[324]
+Underfull \hbox (badness 10000) in paragraph at lines 7469--7472
+
+ []
+
+
+
+[325]
+Underfull \hbox (badness 10000) in paragraph at lines 7492--7494
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-305.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-305.jpg>
+
+
+[326]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-306.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-306.jpg>
+
+
+[327]
+Underfull \hbox (badness 10000) in paragraph at lines 7537--7539
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-307(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-307(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 7543--7543
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-307.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-307.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 7548--7548
+
+ []
+
+
+
+[328]
+
+[329]
+
+[330]
+Underfull \hbox (badness 10000) in paragraph at lines 7594--7596
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-309.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-309.jpg>
+
+
+[331]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-310.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-310.jpg>
+
+
+[332]
+
+[333]
+Underfull \hbox (badness 10000) in paragraph at lines 7658--7660
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-312.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-312.jpg>
+
+Overfull \hbox (7.01013pt too wide) in paragraph at lines 7672--7674
+[]\TU/Georgia(0)/m/n/10 Multi-Class Classification Often classification tasks i
+nvolve picking from more
+ []
+
+
+
+[334]
+Overfull \hbox (2.09857pt too wide) in paragraph at lines 7679--7680
+[]\TU/Georgia(0)/m/n/10 Consider the hair-color numbering above. Should red hai
+r lie between brown
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7681--7683
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-313.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-313.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 7702--7705
+
+ []
+
+
+
+[335]
+
+[336]
+
+[337]
+Overfull \hbox (2.61346pt too wide) in paragraph at lines 7741--7742
+[]\TU/Georgia(0)/m/n/10 Computing this as a real probability requires knowing t
+he denominator $\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E\OT1/cmr/m
+/n/10 )$\TU/Georgia(0)/m/n/10 ,
+ []
+
+
+LaTeX Warning: Citation `weisberg2005applied' on page 338 undefined on input li
+ne 7744.
+
+
+LaTeX Warning: Citation `leinweber2007stupid' on page 338 undefined on input li
+ne 7748.
+
+
+
+[338]
+Underfull \vbox (badness 1769) has occurred while \output is active []
+
+
+
+[339]
+Overfull \hbox (15.04938pt too wide) in paragraph at lines 7784--7787
+[][]\TU/Georgia(0)/m/n/10 http://www.nytimes.com/2015/03/22/opinion/sunday/maki
+ng-march-madness-
+ []
+
+
+Overfull \hbox (0.91911pt too wide) in paragraph at lines 7788--7793
+[]\TU/Georgia(0)/m/n/10 Interview Questions 9-15. [8] Suppose we are training a
+ model using stochas-
+ []
+
+
+
+[340]
+Chapter 12.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:7803: LaTeX Error: Environment abstra
+ct undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7803 \begin{abstract}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:7805: LaTeX Error: \begin{document} e
+nded by \end{abstract}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7805 \end{abstract}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[341
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 7850--7852
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-320.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-320.jpg>
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:7859: Missing } inserted.
+<inserted text> 
+                }
+l.7859 The $L_{k$
+                  Distance Metric}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:7859: Too many }'s.
+l.7859 The $L_{k$ Distance Metric}
+                                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+
+[342]
+
+[343]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-321(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-321(1).jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-321.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-321.jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-321(3).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-321(3).jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-321(2).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-321(2).jpg>
+
+
+LaTeX Warning: Float too large for page by 617.42516pt on input line 7880.
+
+
+
+[344]
+
+[345]
+Overfull \hbox (12.76039pt too wide) in paragraph at lines 7919--7920
+\TU/Georgia(0)/m/n/10 thing where $\OML/cmm/m/it/10 d > \OT1/cmr/m/n/10 3$\TU/G
+eorgia(0)/m/n/10 . Usually, the best we can do is to think about higher-dimensi
+onal
+ []
+
+
+
+[346]
+Overfull \hbox (3.61008pt too wide) in paragraph at lines 7925--7926
+[]\TU/Georgia(0)/m/n/10 This makes the choice of distance metric most important
+ in high-dimensional
+ []
+
+
+
+[347]
+
+[348]
+Underfull \hbox (badness 10000) in paragraph at lines 7976--7978
+
+ []
+
+
+Overfull \hbox (11.28317pt too wide) in paragraph at lines 7994--7995
+[]\TU/Georgia(0)/m/n/10 Suppose that $\OML/cmm/m/it/10 R$ \TU/Georgia(0)/m/n/10
+ can take on any of exactly $\OML/cmm/m/it/10 d$ \TU/Georgia(0)/m/n/10 possible
+ values, say $\OML/cmm/m/it/10 R \OT1/cmr/m/n/10 =$ $[]$\TU/Georgia(0)/m/n/10 .
+
+ []
+
+
+
+[349]
+Underfull \hbox (badness 10000) in paragraph at lines 8012--8014
+
+ []
+
+
+Overfull \hbox (6.4954pt too wide) in paragraph at lines 8015--8016
+[]\TU/Georgia(0)/m/n/10 despite having $\OML/cmm/m/it/10 d$ \TU/Georgia(0)/m/n/
+10 sides there is no uncertainty about the outcome. Sure enough,
+ []
+
+
+
+[350]
+Underfull \hbox (badness 10000) in paragraph at lines 8041--8043
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-327.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-327.jpg>
+
+Overfull \hbox (5.99287pt too wide) in paragraph at lines 8053--8054
+[]\TU/Georgia(0)/m/n/10 Non-linearity: Nearest neighbor classifiers have decisi
+on boundaries which
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8059--8061
+
+ []
+
+
+
+[351]
+
+[352]
+Overfull \hbox (2.51526pt too wide) in paragraph at lines 8074--8076
+[]$\OML/cmm/m/it/10 k$\TU/Georgia(0)/m/n/10 -Nearest Neighbors To classify a gi
+ven query point $\OML/cmm/m/it/10 q$\TU/Georgia(0)/m/n/10 , nearest neighbor me
+th-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8079--8081
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-329.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-329.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 8085--8085
+
+ []
+
+
+
+[353]
+Underfull \hbox (badness 10000) in paragraph at lines 8095--8097
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-330.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-330.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 8101--8101
+
+ []
+
+
+Overfull \hbox (0.92426pt too wide) in paragraph at lines 8106--8107
+\TU/Georgia(0)/m/n/10 Perhaps the biggest limitation of nearest neighbor classi
+fication methods is their
+ []
+
+
+Underfull \vbox (badness 6364) has occurred while \output is active []
+
+
+
+[354]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-331.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-331.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 8118--8118
+
+ []
+
+
+
+[355]
+
+[356]
+Underfull \hbox (badness 10000) in paragraph at lines 8132--8134
+
+ []
+
+
+Overfull \hbox (0.42215pt too wide) in paragraph at lines 8137--8138
+[]\TU/Georgia(0)/m/n/10 Although these techniques can indeed speed nearest neig
+hbor search in mod-
+ []
+
+
+
+[357]
+Underfull \hbox (badness 10000) in paragraph at lines 8150--8152
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-333.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-333.jpg>
+
+
+[358]
+Overfull \hbox (0.55507pt too wide) in paragraph at lines 8163--8164
+[]\TU/Georgia(0)/m/n/10 Thus we can compute the exact probability that near nei
+ghbors are preserved
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8167--8169
+
+ []
+
+
+Overfull \hbox (6.34987pt too wide) in paragraph at lines 8173--8174
+\TU/Georgia(0)/m/n/10 nearest neighbor search. Perhaps the most important is co
+nstructing compressed
+ []
+
+
+
+[359]
+Overfull \hbox (2.49353pt too wide) in paragraph at lines 8183--8184
+[]\TU/Georgia(0)/m/n/10 Genetic networks: Here the vertices represent the diffe
+rent genes/proteins
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8186--8188
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-335.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-335.jpg>
+
+
+[360]
+Underfull \hbox (badness 10000) in paragraph at lines 8206--8208
+
+ []
+
+
+Overfull \hbox (31.47954pt too wide) in paragraph at lines 8213--8214
+[]\TU/Georgia(0)/m/n/10 Take-Home Lesson: Point sets can be meaningfully repres
+ented by graphs/distance
+ []
+
+
+
+[361]
+Underfull \hbox (badness 10000) in paragraph at lines 8225--8227
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-337.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-337.jpg>
+
+Overfull \hbox (1.1002pt too wide) in paragraph at lines 8237--8239
+\TU/Georgia(0)/m/n/10 drive-time, or speed limit, depending upon the applicatio
+n. In unweighted
+ []
+
+
+
+[362]
+Underfull \hbox (badness 10000) in paragraph at lines 8241--8243
+
+ []
+
+
+
+[363]
+
+[364]
+
+LaTeX Warning: Citation `brin1998anatomy' on page 365 undefined on input line 8
+280.
+
+
+
+[365]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[366]
+Underfull \hbox (badness 10000) in paragraph at lines 8355--8357
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-342.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-342.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 8361--8361
+
+ []
+
+
+
+[367]
+
+[368]
+Underfull \hbox (badness 10000) in paragraph at lines 8370--8372
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-343.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-343.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 8376--8376
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8383--8385
+
+ []
+
+
+
+[369]
+
+[370]
+Underfull \hbox (badness 10000) in paragraph at lines 8397--8399
+
+ []
+
+
+
+[371]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-345.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-345.jpg>
+
+
+[372]
+Underfull \hbox (badness 10000) in paragraph at lines 8430--8433
+
+ []
+
+
+
+[373]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-347.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-347.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 8437--8437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8449--8451
+
+ []
+
+
+
+[374]
+Underfull \hbox (badness 10000) in paragraph at lines 8473--8475
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-349(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-349(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 8479--8479
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-349.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-349.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 8484--8484
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8486--8488
+
+ []
+
+
+
+[375]
+
+[376]
+
+[377]
+Underfull \hbox (badness 10000) in paragraph at lines 8498--8500
+
+ []
+
+
+
+[378]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-351.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-351.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 8514--8516
+
+ []
+
+
+
+[379]
+
+[380]
+Underfull \hbox (badness 10000) in paragraph at lines 8528--8530
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-353.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-353.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 8534--8534
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8546--8548
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-354.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-354.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 8552--8552
+
+ []
+
+
+
+[381]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-354(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-354(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 8557--8557
+
+ []
+
+
+
+[382]
+Overfull \hbox (4.24615pt too wide) in paragraph at lines 8589--8590
+[]\TU/Georgia(0)/m/n/10 Nearest centroid: Here we maintain the centroid of each
+ cluster, and merge
+ []
+
+
+
+[383]
+
+[384]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-357.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-357.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 8631--8631
+
+ []
+
+
+
+[385]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-358.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-358.jpg>
+
+
+[386]
+
+[387]
+
+LaTeX Warning: Citation `deberg2000computational' on page 388 undefined on inpu
+t line 8711.
+
+
+LaTeX Warning: Citation `samet2006foundations' on page 388 undefined on input l
+ine 8713.
+
+
+LaTeX Warning: Citation `samet2005multidimensional' on page 388 undefined on in
+put line 8713.
+
+
+LaTeX Warning: Citation `indyk2004nearest' on page 388 undefined on input line 
+8713.
+
+
+
+[388]
+
+LaTeX Warning: Citation `west2000introduction' on page 389 undefined on input l
+ine 8715.
+
+
+LaTeX Warning: Citation `easley2010networks' on page 389 undefined on input lin
+e 8715.
+
+
+LaTeX Warning: Citation `everitt2011cluster' on page 389 undefined on input lin
+e 8717.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8745--8750
+
+ []
+
+
+
+[389]
+Overfull \hbox (57.85742pt too wide) in paragraph at lines 8764--8769
+[]\TU/Georgia(0)/m/n/10 Clustering 10-17. [5] For a data set with points at pos
+itions $\OT1/cmr/m/n/10 (4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 10)\OML/cmm/m/it/1
+0 ; \OT1/cmr/m/n/10 (7\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 10)(4\OML/cmm/m/it/10 
+; \OT1/cmr/m/n/10 8)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (6\OML/cmm/m/it/10 ; \OT
+1/cmr/m/n/10 8)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (3\OML/cmm/m/it/10 ; \OT1/cmr
+/m/n/10 4)$\TU/Georgia(0)/m/n/10 ,
+ []
+
+
+Overfull \hbox (39.60129pt too wide) in paragraph at lines 8770--8779
+\TU/Georgia(0)/m/n/10 propose available data that might make it feasible to emp
+loy nearest-neighbor/analogical
+ []
+
+
+
+[390]
+Overfull \hbox (9.99512pt too wide) in paragraph at lines 8818--8821
+[][]\TU/Georgia(0)/m/n/10 https://www.kaggle.com/c/predict-who-is-more-influent
+ial-in-a-social-network[][] 
+ []
+
+
+
+[391]
+
+[392]
+Chapter 13.
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:8831: LaTeX Error: Environment abstra
+ct undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8831 \begin{abstract}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/data
+-science/Index fix/data-science_final.tex:8833: LaTeX Error: \begin{document} e
+nded by \end{abstract}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8833 \end{abstract}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[393
+
+]
+Overfull \hbox (6.93536pt too wide) in paragraph at lines 8852--8854
+\TU/Georgia(0)/m/n/10 I personally believe that interpretability is an importan
+t property of a model,
+ []
+
+
+Overfull \hbox (127.09294pt too wide) in paragraph at lines 8864--8894
+ [] 
+ []
+
+
+
+[394]
+
+[395]
+Overfull \hbox (37.66222pt too wide) in paragraph at lines 8936--8967
+ [] 
+ []
+
+
+
+[396]
+
+[397]
+Overfull \hbox (17.99332pt too wide) detected at line 9004
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9022--9024
+
+ []
+
+
+
+[398]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-372.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-372.jpg>
+
+
+[399]
+
+[400]
+
+[401]
+Overfull \hbox (1.44809pt too wide) in paragraph at lines 9082--9083
+[]\TU/Georgia(0)/m/n/10 The biggest disadvantage of decision trees is a certain
+ lack of elegance. Learn-
+ []
+
+
+
+[402]
+Underfull \hbox (badness 10000) in paragraph at lines 9117--9119
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-375.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-375.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 9123--9123
+
+ []
+
+
+
+[403]
+
+[404]
+Underfull \hbox (badness 10000) in paragraph at lines 9163--9165
+
+ []
+
+
+
+[405]
+Overfull \hbox (2.15834pt too wide) in paragraph at lines 9182--9183
+[]\TU/Georgia(0)/m/n/10 There seem to be three primary ways to assign weights t
+o the classifier/voters.
+ []
+
+
+
+[406]
+
+[407]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-380.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-380.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 9260--9260
+
+ []
+
+
+
+[408]
+Underfull \hbox (badness 10000) in paragraph at lines 9274--9276
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-381.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-381.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 9280--9280
+
+ []
+
+
+
+[409]
+
+[410]
+Underfull \hbox (badness 10000) in paragraph at lines 9290--9292
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-382.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-382.jpg>
+
+Underfull \hbox (badness 1303) in paragraph at lines 9296--9296
+[]\TU/Georgia(0)/m/n/10 Figure 13.5: []Both logistic regression and SVMs produc
+e separating lines
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9296--9296
+
+ []
+
+
+
+[411]
+Overfull \hbox (4.77435pt too wide) in paragraph at lines 9337--9338
+\TU/Georgia(0)/m/n/10 port vector machines comes from. The optimization algorit
+hm of efficient solvers
+ []
+
+
+
+[412]
+Overfull \hbox (7.60965pt too wide) in paragraph at lines 9342--9343
+\TU/Georgia(0)/m/n/10 SVMs define a hyperplane which separates the points from 
+the two classes. Planes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9344--9346
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-384(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-384(1).jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-384.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-384.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 9351--9351
+
+ []
+
+
+LaTeX Warning: Float too large for page by 220.21404pt on input line 9352.
+
+
+
+[413]
+
+[414]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[415]
+
+[416]
+Overfull \hbox (4.94852pt too wide) in paragraph at lines 9403--9404
+[]\TU/Georgia(0)/m/n/10 Such a factorization would represent a completely unsup
+ervised form of learn-
+ []
+
+
+Overfull \hbox (172.57828pt too wide) in paragraph at lines 9410--9427
+ [] 
+ []
+
+
+
+[417]
+Overfull \hbox (12.69879pt too wide) in paragraph at lines 9435--9436
+\TU/Georgia(0)/m/n/10 The gap between supervised and unsupervised learning is f
+illed by semi-supervised
+ []
+
+
+
+[418]
+
+[419]
+
+[420]
+Underfull \hbox (badness 10000) in paragraph at lines 9493--9495
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-392.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-392.jpg>
+
+
+[421]
+
+[422]
+Underfull \hbox (badness 10000) in paragraph at lines 9512--9514
+
+ []
+
+
+
+[423]
+Underfull \hbox (badness 10000) in paragraph at lines 9528--9530
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-394.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-394.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 9534--9534
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9545--9547
+
+ []
+
+
+
+[424]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-395.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-395.jpg>
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-395(1).jpg Graphic file (type b
+mp)
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-395(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 9552--9552
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9577--9579
+
+ []
+
+
+
+[425]
+
+[426]
+Overfull \hbox (11.89267pt too wide) in paragraph at lines 9612--9626
+ [] 
+ []
+
+
+Underfull \vbox (badness 7540) has occurred while \output is active []
+
+
+
+[427]
+
+LaTeX Warning: Citation `pennington2014glove' on page 428 undefined on input li
+ne 9636.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9638--9640
+
+ []
+
+
+
+[428]
+Underfull \hbox (badness 10000) in paragraph at lines 9652--9654
+
+ []
+
+
+
+[429]
+
+[430]
+Overfull \hbox (7.37627pt too wide) in paragraph at lines 9684--9685
+[]\TU/Georgia(0)/m/n/10 Brad Pitt: Angelina Jolie, Jennifer Aniston, George Clo
+oney, Cate Blanchett,
+ []
+
+
+Overfull \hbox (3.55661pt too wide) in paragraph at lines 9695--9696
+\TU/Georgia(0)/m/n/10 map of the 5000 most frequent last names, drawn by projec
+ting our one hundred-
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-401.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-401.jpg>
+
+
+[431]
+
+LaTeX Warning: Citation `bishop2007pattern' on page 432 undefined on input line
+ 9713.
+
+
+LaTeX Warning: Citation `friedman2001elements' on page 432 undefined on input l
+ine 9713.
+
+
+LaTeX Warning: Citation `goodfellow2016deep' on page 432 undefined on input lin
+e 9713.
+
+
+LaTeX Warning: Citation `mikolov2013efficient' on page 432 undefined on input l
+ine 9715.
+
+
+LaTeX Warning: Citation `perozzi2014deepwalk' on page 432 undefined on input li
+ne 9715.
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-402.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-402.jpg>
+
+Overfull \hbox (128.84941pt too wide) in paragraph at lines 9722--9723
+[]\TU/Georgia(0)/m/n/10 The Titanic survival examples are derived from the Kagg
+le competition [][]https://www.kaggle.com/c/titanic[][].
+ []
+
+
+
+[432]
+
+[433]
+Overfull \hbox (5.36414pt too wide) in paragraph at lines 9725--9729
+\TU/Georgia(0)/m/n/10 11-2. [8] Apply the naive Bayes technique for multiclass 
+text classification. Specif-
+ []
+
+
+Overfull \hbox (5.51817pt too wide) in paragraph at lines 9730--9735
+[]\TU/Georgia(0)/m/n/10 Decision Trees 11-4. [3] Give decision trees to represe
+nt the following Boolean
+ []
+
+
+Overfull \hbox (5.4857pt too wide) in paragraph at lines 9755--9758
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 000\OML/cmm/m/it/10 ; \OT1/
+cmr/m/n/10 000$ \TU/Georgia(0)/m/n/10 words) reflect the frequencies over a lar
+ge text corpora, say, $\OT1/cmr/m/n/10 10\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 000
+\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 000$
+ []
+
+
+
+[434]
+
+[435]
+
+[436
+
+]
+Chapter 14.
+
+Overfull \hbox (0.13919pt too wide) in paragraph at lines 9793--9794
+[]\TU/Georgia(0)/m/n/10 This isn't as impressive as it may sound. After all, as
+ of this writing a terabyte-
+ []
+
+
+
+[437]
+Overfull \hbox (73.55688pt too wide) in paragraph at lines 9801--9802
+\TU/Georgia(0)/m/n/10 here are some 2016 statistics I stumbled across, primaril
+y at http: [][]//www.internetlivestats.com/:[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9818--9820
+
+ []
+
+
+
+[438]
+Overfull \hbox (0.44655pt too wide) in paragraph at lines 9839--9841
+\TU/Georgia(0)/m/n/10 tion and changes in consumer demand. Often these improvem
+ents change
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9839--9841
+
+ []
+
+
+
+[439]
+Underfull \hbox (badness 10000) in paragraph at lines 9855--9857
+
+ []
+
+
+
+[440]
+Overfull \hbox (2.39555pt too wide) in paragraph at lines 9861--9863
+\TU/Georgia(0)/m/n/10 particular, the financial systems associated with high-fr
+equency trading demand
+ []
+
+
+LaTeX Warning: Citation `bautin2008international' on page 441 undefined on inpu
+t line 9875.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9875--9877
+
+ []
+
+
+
+[441]
+
+[442]
+
+[443]
+Overfull \hbox (7.57198pt too wide) in paragraph at lines 9943--9944
+\TU/Georgia(0)/m/n/10 book. We compare $\OML/cmm/m/it/10 k$ \TU/Georgia(0)/m/n/
+10 against the middle element $\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 [\OML/cmm/m/it
+/10 n\OT1/cmr/m/n/10 /2]$\TU/Georgia(0)/m/n/10 , and decide whether
+ []
+
+
+Overfull \hbox (3.29921pt too wide) in paragraph at lines 9958--9959
+\TU/Georgia(0)/m/n/10 Hashing is a technique which can often turn quadratic alg
+orithms into lineartime
+ []
+
+
+
+[444]
+Underfull \hbox (badness 10000) in paragraph at lines 9975--9978
+
+ []
+
+
+Overfull \hbox (26.15913pt too wide) in paragraph at lines 9980--9981
+\TU/Georgia(0)/m/n/10 frequencies of given events, such as word counts or page 
+hits. The fastest/easiest
+ []
+
+
+
+[445]
+Underfull \vbox (badness 6396) has occurred while \output is active []
+
+
+
+[446]
+Overfull \hbox (0.4617pt too wide) in paragraph at lines 9999--10000
+\TU/Georgia(0)/m/n/10 in megabytes, with access times between five and one hund
+red times faster
+ []
+
+
+
+[447]
+Underfull \hbox (badness 10000) in paragraph at lines 10020--10022
+
+ []
+
+
+
+[448]
+Underfull \hbox (badness 10000) in paragraph at lines 10050--10052
+
+ []
+
+
+
+[449]
+Overfull \hbox (9.40651pt too wide) in paragraph at lines 10064--10065
+[]\TU/Georgia(0)/m/n/10 Data partitioning: Model-building hygiene requires clea
+nly separating train-
+ []
+
+
+
+[450]
+Underfull \hbox (badness 10000) in paragraph at lines 10094--10096
+
+ []
+
+
+
+[451]
+Underfull \hbox (badness 10000) in paragraph at lines 10111--10113
+
+ []
+
+
+
+[452]
+Overfull \hbox (12.82172pt too wide) in paragraph at lines 10119--10120
+[]\TU/Georgia(0)/m/n/10 Parallel processing happens on one machine, involving m
+ultiple cores and/or
+ []
+
+
+Overfull \hbox (1.64828pt too wide) in paragraph at lines 10123--10124
+\TU/Georgia(0)/m/n/10 two relatively simple ways to exploit it: data parallelis
+m and grid search. MapRe-
+ []
+
+
+Overfull \hbox (3.0287pt too wide) in paragraph at lines 10126--10127
+\TU/Georgia(0)/m/n/10 Primitive cultures were not very numerically savvy, and s
+upposedly only counted
+ []
+
+
+Overfull \hbox (0.8916pt too wide) in paragraph at lines 10126--10127
+\TU/Georgia(0)/m/n/10 about parallel and distributed computing, because the com
+plexity increases very
+ []
+
+
+
+[453]
+Overfull \hbox (1.35971pt too wide) in paragraph at lines 10154--10155
+\TU/Georgia(0)/m/n/10 body is going to spend the night in the hospital, even if
+ the march
+ []
+
+
+
+[454]
+Underfull \hbox (badness 10000) in paragraph at lines 10196--10198
+
+ []
+
+
+
+[455]
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-425.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-425.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 10217--10217
+
+ []
+
+
+Underfull \vbox (badness 5008) has occurred while \output is active []
+
+
+
+[456]
+
+[457]
+Underfull \hbox (badness 10000) in paragraph at lines 10235--10237
+
+ []
+
+
+Overfull \hbox (0.55043pt too wide) in paragraph at lines 10246--10247
+[]\TU/Georgia(0)/m/n/10 Word count: For counting the total frequency of a parti
+cular word $\OML/cmm/m/it/10 w$ \TU/Georgia(0)/m/n/10 across
+ []
+
+
+
+[458]
+Underfull \hbox (badness 10000) in paragraph at lines 10262--10264
+
+ []
+
+File: ./images/2025_03_17_ca60ec0bfd96dcf8e028g-427.jpg Graphic file (type bmp)
+
+<./images/2025_03_17_ca60ec0bfd96dcf8e028g-427.jpg>
+
+
+[459]
+
+[460]
+
+[461]
+
+[462]
+
+[463]
+
+LaTeX Warning: Citation `gayomali2014nyc' on page 464 undefined on input line 1
+0363.
+
+
+
+[464]
+
+LaTeX Warning: Citation `bengfort2016data' on page 465 undefined on input line 
+10375.
+
+
+LaTeX Warning: Citation `ryza2015advanced' on page 465 undefined on input line 
+10375.
+
+
+Overfull \hbox (1.59673pt too wide) in paragraph at lines 10375--10376
+[]\TU/Georgia(0)/m/n/10 My favorite hands-on resources on software technologies
+ are generally books
+ []
+
+
+Overfull \hbox (3.29921pt too wide) in paragraph at lines 10379--10380
+[]\TU/Georgia(0)/m/n/10 The analogy of disk/cache speeds to tortoise/escape vel
+ocity is due to Michael
+ []
+
+
+
+[465]
+Underfull \hbox (badness 10000) in paragraph at lines 10399--10401
+
+ []
+
+
+
+[466]
+Overfull \hbox (137.36821pt too wide) in paragraph at lines 10435--10438
+[]\TU/Georgia(0)/m/n/10 Kaggle Challenges 12-22. Which customers will become re
+peat buyers? [][]https://www.kaggle.com/c/acquire-
+ []
+
+
+Overfull \hbox (73.932pt too wide) in paragraph at lines 10435--10438
+\OT1/cmr/m/n/10 12 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 23$\TU/Georgia(0)/m/n/1
+0 . Which customers are worth sending junk mail to? [][]https://www.kaggle.com/
+c/springleaf-
+ []
+
+
+Overfull \hbox (102.55539pt too wide) in paragraph at lines 10439--10440
+[]\TU/Georgia(0)/m/n/10 12-24. Which hotel should you recommend to a given trav
+eler? [][]https://www.kaggle.com/c/expedia-
+ []
+
+
+
+[467]
+
+[468
+
+]
+Chapter 15.
+
+LaTeX Warning: Citation `davenport2012data' on page 469 undefined on input line
+ 10454.
+
+
+
+[469]
+
+[470]
+
+[471]
+
+[472
+
+]
+Chapter 16.
+
+LaTeX Warning: Citation `levy2014neural' on page 473 undefined on input line 10
+553.
+
+
+LaTeX Warning: Citation `leskovec2014mining' on page 473 undefined on input lin
+e 10558.
+
+
+Overfull \hbox (6.15727pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 [Bra99] Ronald Bracewell. The Fourier Transform and its A
+pplications. McGraw-
+ []
+
+
+Overfull \hbox (6.94774pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 [BT08] Dimitri Bertsekas and John Tsitsklis. Introduction
+ to Probability. Athena
+ []
+
+
+Overfull \hbox (12.36055pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 [ $[] []$ Robert Coleman, Dimitris Papamichail, Steven Sk
+iena, Bruce Futcher,
+ []
+
+
+Overfull \hbox (10.456pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 Eckard Wimmer, and Steffen Mueller. Virus attenuation by 
+genome-scale changes
+ []
+
+
+Overfull \hbox (4.59346pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 Schwarzkopf. Computational Geometry: Algorithms and Appli
+cations. Springer,
+ []
+
+
+Overfull \hbox (5.96707pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 [ $\mathrm{FCH}^{+}$14] Matthew Faulkner, Robert Clayton,
+ Thomas Heaton,
+ []
+
+
+Overfull \hbox (10.22539pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 isted. FiveThirtyEight, [][]http://fivethirtyeight.com/fe
+atures/the-biggest-dinosaur-
+ []
+
+
+Overfull \hbox (0.17572pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 [GSS07] Namrata Godbole, Manja Srinivasaiah, and Steven S
+kiena. Large-scale
+ []
+
+
+Overfull \hbox (0.43523pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 [Joa02] Thorsten Joachims. Optimizing search engines usin
+g clickthrough data.
+ []
+
+
+Overfull \hbox (0.63829pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 24th International Conference on World Wide Web, pages 62
+5-635. ACM, 2015. 
+ []
+
+
+Overfull \hbox (14.60596pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 estimation of word representations in vector space. arXiv
+ preprint arXiv:1301.3781,
+ []
+
+
+Overfull \hbox (11.46028pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 [PSM14] Jeffrey Pennington, Richard Socher, and Christoph
+er D. Manning. Glove:
+ []
+
+
+Overfull \hbox (5.42757pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 [Sam06] Hanan Samet. Foundations of Multidimensional and 
+Metric Data Struc-
+ []
+
+
+Overfull \hbox (4.9871pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 Dukeman, Peter Norvig, Lia S LaPiana, Peter J Rutledge, D
+avid Folta, and Robert
+ []
+
+
+Overfull \hbox (7.48573pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 Sackheim. Mars climate orbiter mishap investigation board
+ phase i report. NASA,
+ []
+
+
+Overfull \hbox (11.94229pt too wide) in paragraph at lines 10494--10610
+[]$ \TU/Georgia(0)/m/n/10 Paolo Santi, Giovanni Resta, Michael Szell, Stanislav
+ Sobolevsky, Steven
+ []
+
+
+Overfull \hbox (33.46436pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 shareability networks. Proceedings of the National Academ
+y of Sciences, 111(37):13290-
+ []
+
+
+Overfull \hbox (3.53604pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 [Tuf83] Edward R Tufte. The Visual Display of Quantitativ
+e Information. Graph-
+ []
+
+
+Overfull \hbox (57.7081pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 vidual preferences into social preferences. [][]http://ww
+w.sjsu.edu/faculty/watkins/arrow.htm[][],
+ []
+
+
+Overfull \hbox (2.78206pt too wide) in paragraph at lines 10494--10610
+\TU/Georgia(0)/m/n/10 [Wei05] Sanford Weisberg. Applied linear regression, volu
+me 528. Wiley, 2005. 
+ []
+
+
+
+[473]
+
+[474]
+
+[475]
+
+[476]
+
+[477]
+
+[478]
+
+[479]
+
+[480
+
+]
+Chapter 17.
+
+
+[481]
+Underfull \hbox (badness 10000) in paragraph at lines 10682--10684
+
+ []
+
+
+
+[482]
+Underfull \hbox (badness 10000) in paragraph at lines 10700--10777
+
+ []
+
+
+
+[483]
+Underfull \hbox (badness 10000) in paragraph at lines 10778--10868
+
+ []
+
+
+
+[484]
+
+[485]
+Underfull \hbox (badness 10000) in paragraph at lines 10869--10957
+
+ []
+
+
+
+[486]
+
+[487]
+
+[488]
+
+[489]
+Underfull \hbox (badness 10000) in paragraph at lines 11048--11137
+
+ []
+
+
+
+[490]
+
+[491]
+
+[492]
+Underfull \hbox (badness 10000) in paragraph at lines 11185--11230
+
+ []
+
+
+
+[493]
+Underfull \hbox (badness 10000) in paragraph at lines 11231--11316
+
+ []
+
+
+
+[494]
+
+[495]
+Underfull \hbox (badness 10000) in paragraph at lines 11317--11407
+
+ []
+
+
+
+[496]
+
+[497]
+Underfull \hbox (badness 10000) in paragraph at lines 11408--11495
+
+ []
+
+
+
+[498]
+
+[499]
+
+[500] (./data-science_final.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `data-science_final.out' has not changed.
+(rerunfilecheck)             Checksum: 1FE170266BF42BE3A2E187B8B77FD813;46962.
+ ) 
+Here is how much of TeX's memory you used:
+ 24660 strings out of 468389
+ 601637 string characters out of 5440620
+ 1327811 words of memory out of 5000000
+ 52803 multiletter control sequences out of 15000+600000
+ 636089 words of font info for 128 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 74i,15n,92p,1416b,689s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on data-science_final.xdv (508 pages, 10578732 bytes).

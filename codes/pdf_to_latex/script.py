@@ -27,7 +27,7 @@ from dotenv import load_dotenv
 import time
 import logging
 
-from indexer import create_indexing
+from indexer_v3 import create_indexing
 from gpt_script import format_with_gpt
 from gpt_handler import make_book, process_tex_figures
 from bib import process_bibliography

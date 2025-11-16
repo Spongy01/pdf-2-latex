@@ -976,9 +976,9 @@ def add_indexes(latex_content, index, book_len, toc):
     return latex_content, not_found_terms
 
 def create_indexing(INDEX_PATH, TEX_PATH, CONTENT_PATH, OUTPUT_TEX_PATH):
-    print("\n=== Step 5: Adding Indexing ===")
+    print("\n=== Step 5: Adding Indexing ===") 
     print(f"Creating index from: {INDEX_PATH}")
-    print(f"Using LaTeX file: {TEX_PATH}")
+    print(f"Using LaTeX file: {TEX_PATH}")     
     print(f"Using content book: {CONTENT_PATH}")
     
     try:
