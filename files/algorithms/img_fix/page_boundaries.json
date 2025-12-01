@@ -1,0 +1,5741 @@
+[
+    {
+        "page_number": 1,
+        "latex_position": 1484,
+        "content_length": 46,
+        "page_last_content": "T E X T S  I N  C O M P U T E R  S C I E N C E",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 2,
+        "latex_position": 1883,
+        "content_length": 238,
+        "page_last_content": "nion\u2014Israel Institute of Technology, Haifa, Israel",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 3,
+        "latex_position": 3291,
+        "content_length": 1399,
+        "page_last_content": "this series at http://www.springer.com/series/3191",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 4,
+        "latex_position": 3391,
+        "content_length": 62,
+        "page_last_content": "iena The Algorithm Design Manual Third Edition 123",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 5,
+        "latex_position": 5378,
+        "content_length": 1920,
+        "page_last_content": "rland 1st edition: \u00a9 Springer-Verlag New York 1998",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 6,
+        "latex_position": 7674,
+        "content_length": 2306,
+        "page_last_content": "aders. My major goals for the third edition are: v",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 7,
+        "latex_position": 10438,
+        "content_length": 2558,
+        "page_last_content": "right direction as quickly as possible. vi PREFACE",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 8,
+        "latex_position": 13269,
+        "content_length": 2738,
+        "page_last_content": "nd I was excited by how much this made vii PREFACE",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 10,
+        "latex_position": 16861,
+        "content_length": 2314,
+        "page_last_content": "plications . . . . . . . . . . . . . . . . . 48 ix",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 11,
+        "latex_position": 18599,
+        "content_length": 3122,
+        "page_last_content": "mental Insertion . . . . . . . . . . . . . . 124 x",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 12,
+        "latex_position": 20560,
+        "content_length": 3188,
+        "page_last_content": ". . . . . . . . . . . . . . . . . . . . . . 188 xi",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 13,
+        "latex_position": 22319,
+        "content_length": 3122,
+        "page_last_content": " . . . . . . . . . . . . . . . . . . . . . 276 xii",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 14,
+        "latex_position": 24214,
+        "content_length": 3134,
+        "page_last_content": "tions . . . . . . . . . . . . . . . . . . 361 xiii",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 15,
+        "latex_position": 26060,
+        "content_length": 3202,
+        "page_last_content": "any Interviews . . . . . . . . . . . . . . 433 xiv",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 16,
+        "latex_position": 27652,
+        "content_length": 2969,
+        "page_last_content": "ity . . . . . . . . . . . . . . . . . . . . 568 xv",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 17,
+        "latex_position": 29237,
+        "content_length": 3264,
+        "page_last_content": "ng . . . . . . . . . . . . . . . . . . . . 709 xvi",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 18,
+        "latex_position": 29777,
+        "content_length": 1039,
+        "page_last_content": ". . . . . . 718 23 Bibliography 719 Index 769 xvii",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 19,
+        "latex_position": 29846,
+        "content_length": 33,
+        "page_last_content": "Part I Practical Algorithm Design",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 21,
+        "latex_position": 34119,
+        "content_length": 2109,
+        "page_last_content": "roof of correctness, and is usually \ufb02at-out wrong.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 22,
+        "latex_position": 36199,
+        "content_length": 2062,
+        "page_last_content": "do-code, the nearest-neighbor heuristic looks like",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 23,
+        "latex_position": 38241,
+        "content_length": 1794,
+        "page_last_content": "\u2013right during the assembly of such a simple board.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 24,
+        "latex_position": 41347,
+        "content_length": 2928,
+        "page_last_content": "rithm is also wrong. Which one of these algorithms",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 25,
+        "latex_position": 43633,
+        "content_length": 1956,
+        "page_last_content": "t. Each o\ufb00er comes speci\ufb01ed with the \ufb01rst and last",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 26,
+        "latex_position": 46257,
+        "content_length": 2533,
+        "page_last_content": "as quickly as possible. This yields the heuristic:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 27,
+        "latex_position": 48869,
+        "content_length": 2275,
+        "page_last_content": "suggests the following correct, e\ufb03cient algorithm:",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 28,
+        "latex_position": 51672,
+        "content_length": 2749,
+        "page_last_content": " as the above-mentioned \ufb01lm nested with one \ufb01lming",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 29,
+        "latex_position": 54577,
+        "content_length": 2903,
+        "page_last_content": "looks more formal. Clarity should be the goal. For",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 30,
+        "latex_position": 57041,
+        "content_length": 2400,
+        "page_last_content": "ecause they are easier to verify and reason about.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 31,
+        "latex_position": 59766,
+        "content_length": 2703,
+        "page_last_content": "active, we can pile other intervals on top of them",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 32,
+        "latex_position": 61905,
+        "content_length": 2047,
+        "page_last_content": "The reason it is correct can be shown inductively:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 34,
+        "latex_position": 66843,
+        "content_length": 2403,
+        "page_last_content": "aps in substantially di\ufb00erent contexts. But to \ufb01nd",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 35,
+        "latex_position": 68948,
+        "content_length": 2249,
+        "page_last_content": "tes,\u201d \u201cpositions,\u201d \u201cdata records,\u201d or \u201clocations.\u201d",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 36,
+        "latex_position": 72016,
+        "content_length": 2821,
+        "page_last_content": ", removing the \ufb01rst element of {4, 1, 5, 2, 3} and",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 37,
+        "latex_position": 73970,
+        "content_length": 1930,
+        "page_last_content": "mburger, and what is left is something disgusting.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 38,
+        "latex_position": 76758,
+        "content_length": 2703,
+        "page_last_content": "r minimum spanning tree algorithms in Section 8.1.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 39,
+        "latex_position": 79685,
+        "content_length": 2886,
+        "page_last_content": "n at least one prize.\u201d 2Yes, this is a true story.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 40,
+        "latex_position": 82456,
+        "content_length": 2604,
+        "page_last_content": " of sets are presented in Section 17.5 (page 521).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 41,
+        "latex_position": 85600,
+        "content_length": 3143,
+        "page_last_content": "product, and we hope they hit the jackpot with it.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 42,
+        "latex_position": 88064,
+        "content_length": 2121,
+        "page_last_content": "e held in your hand, with no need for a hefty jar.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 43,
+        "latex_position": 90866,
+        "content_length": 2681,
+        "page_last_content": "of this interesting and important class of graphs.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 44,
+        "latex_position": 93723,
+        "content_length": 2660,
+        "page_last_content": "o lowest degree. Considering the vertices in order",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 46,
+        "latex_position": 98002,
+        "content_length": 2155,
+        "page_last_content": "page 22). Write a program to \ufb01nd good ticket sets.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 47,
+        "latex_position": 99851,
+        "content_length": 1419,
+        "page_last_content": "1-3. \u201cAustralian Voting\u201d\u2014Chapter 1, problem 10142.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 49,
+        "latex_position": 104614,
+        "content_length": 2858,
+        "page_last_content": "l model for such things as longitude and latitude.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 50,
+        "latex_position": 106917,
+        "content_length": 2293,
+        "page_last_content": "asino, your expected loss is indeed well de\ufb01ned at",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 51,
+        "latex_position": 109621,
+        "content_length": 2669,
+        "page_last_content": "ssociated with the Big Oh notation are as follows:",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 52,
+        "latex_position": 111137,
+        "content_length": 1257,
+        "page_last_content": " one sorting algorithm sorts six items faster than",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 53,
+        "latex_position": 113391,
+        "content_length": 1957,
+        "page_last_content": "k: Back to the De\ufb01nition Problem: Is 2n+1 = \u0398(2n)?",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 54,
+        "latex_position": 116069,
+        "content_length": 2291,
+        "page_last_content": "hm with n! running time becomes useless for n \u226520.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 55,
+        "latex_position": 119505,
+        "content_length": 2356,
+        "page_last_content": ", and are listed in order of increasing dominance:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 56,
+        "latex_position": 122051,
+        "content_length": 2402,
+        "page_last_content": "ds in working with the Big Oh, but not everything.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 57,
+        "latex_position": 124397,
+        "content_length": 1835,
+        "page_last_content": "here is that f(n) \u2264c3 \u00b7 h(n) for n > n3 given that",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 58,
+        "latex_position": 126029,
+        "content_length": 1370,
+        "page_last_content": "s, T(n) = (n \u22121) + (n \u22122) + (n \u22123) + . . . + 2 + 1",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 59,
+        "latex_position": 127785,
+        "content_length": 2091,
+        "page_last_content": "ed on page 3, whose inner loops are repeated here:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 60,
+        "latex_position": 130281,
+        "content_length": 2230,
+        "page_last_content": "ssible position in t and then tests if this is so.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 61,
+        "latex_position": 131985,
+        "content_length": 1699,
+        "page_last_content": "teresting, so we are left with O(n + m + (n \u2212m)m).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 62,
+        "latex_position": 134576,
+        "content_length": 2465,
+        "page_last_content": "ps. Consider the problem of matrix multiplication:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 63,
+        "latex_position": 136533,
+        "content_length": 1675,
+        "page_last_content": " analysis. Second, proving the correctness of such",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 64,
+        "latex_position": 138581,
+        "content_length": 1785,
+        "page_last_content": " |a| < 1, G(n, a) converges to a constant as n \u2192\u221e.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 65,
+        "latex_position": 140432,
+        "content_length": 1627,
+        "page_last_content": "his equivalence is the same as saying blogb y = y.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 66,
+        "latex_position": 142737,
+        "content_length": 2265,
+        "page_last_content": "y, ask your grandmother what telephone books were.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 67,
+        "latex_position": 145420,
+        "content_length": 2141,
+        "page_last_content": ") multiplications su\ufb03ce to compute the \ufb01nal value.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 68,
+        "latex_position": 147726,
+        "content_length": 2387,
+        "page_last_content": "tealing really large amounts of money becomes even",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 69,
+        "latex_position": 149950,
+        "content_length": 1852,
+        "page_last_content": "sion seeking insights to improve these guidelines.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 70,
+        "latex_position": 152154,
+        "content_length": 1988,
+        "page_last_content": "other way logarithms pop up in algorithm analysis.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 71,
+        "latex_position": 155008,
+        "content_length": 2756,
+        "page_last_content": "thm ran in something like quadratic time, and went",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 72,
+        "latex_position": 158554,
+        "content_length": 3352,
+        "page_last_content": " roughly 3\u221a 6n, so there are \u0398(n1/3) such numbers.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 73,
+        "latex_position": 161735,
+        "content_length": 3124,
+        "page_last_content": "certain to be in any su\ufb03ciently large computation.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 74,
+        "latex_position": 164339,
+        "content_length": 2366,
+        "page_last_content": "look at lg n of them, for a total of 2 lg2 n bits.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 76,
+        "latex_position": 169660,
+        "content_length": 1892,
+        "page_last_content": "to n \u22121 do for j = i + 1 to n do for k = 1 to j do",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 77,
+        "latex_position": 171921,
+        "content_length": 1342,
+        "page_last_content": "lynomial p(x) = anxn + an\u22121xn\u22121 + . . . + a1x + a0",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 79,
+        "latex_position": 175971,
+        "content_length": 2024,
+        "page_last_content": "two or more are of the same order, indicate which.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 81,
+        "latex_position": 180431,
+        "content_length": 1703,
+        "page_last_content": " may hold for a given pair; list all correct ones.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 82,
+        "latex_position": 182853,
+        "content_length": 1821,
+        "page_last_content": "(Hint: how big can y be as a function of n and b?)",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 83,
+        "latex_position": 185840,
+        "content_length": 2708,
+        "page_last_content": "ate gets at least half the votes he wins, and that",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 84,
+        "latex_position": 187369,
+        "content_length": 1124,
+        "page_last_content": "2-3. \u201cLight, More Light\u201d\u2014Chapter 7, problem 10110.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 86,
+        "latex_position": 192191,
+        "content_length": 2694,
+        "page_last_content": " locate a Japanese address without a detailed map.",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 87,
+        "latex_position": 194966,
+        "content_length": 2649,
+        "page_last_content": " grammers, but I will avoid doing any such tricks.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 89,
+        "latex_position": 198747,
+        "content_length": 1632,
+        "page_last_content": " of the list (l) when the \ufb01rst element is deleted:",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 90,
+        "latex_position": 200107,
+        "content_length": 1547,
+        "page_last_content": "nked lists can be thought of as recursive objects:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 91,
+        "latex_position": 202630,
+        "content_length": 2400,
+        "page_last_content": "r queues are usually called en- queue and dequeue.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 92,
+        "latex_position": 205159,
+        "content_length": 2245,
+        "page_last_content": "re\u2019s representation and focus on the task at hand.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 93,
+        "latex_position": 207723,
+        "content_length": 2163,
+        "page_last_content": "worst case, which is when key k is not found in A.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 94,
+        "latex_position": 210613,
+        "content_length": 2802,
+        "page_last_content": "astest structure to support just operation A or B.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 95,
+        "latex_position": 213174,
+        "content_length": 2120,
+        "page_last_content": "e time to \ufb01nd new extreme elements after deletion.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 96,
+        "latex_position": 215495,
+        "content_length": 2204,
+        "page_last_content": ") in constant time as a reward for clear thinking.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 97,
+        "latex_position": 217808,
+        "content_length": 2195,
+        "page_last_content": "aintaining a list of all items with the given key.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 100,
+        "latex_position": 222835,
+        "content_length": 1808,
+        "page_last_content": "ime. Here h denotes the height of the search tree.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 101,
+        "latex_position": 224916,
+        "content_length": 2211,
+        "page_last_content": "termined by the order in which we insert the keys.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 102,
+        "latex_position": 227829,
+        "content_length": 2871,
+        "page_last_content": "ts the operations search, insert, delete, minimum,",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 103,
+        "latex_position": 230417,
+        "content_length": 2020,
+        "page_last_content": "g to their importance relative to other jobs. Such",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 104,
+        "latex_position": 232813,
+        "content_length": 2281,
+        "page_last_content": " be composed from \ufb01nd-minimum, followed by delete.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 105,
+        "latex_position": 235199,
+        "content_length": 2029,
+        "page_last_content": "shown in Figure 3.6(l). High-performance rendering",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 106,
+        "latex_position": 237738,
+        "content_length": 2512,
+        "page_last_content": "visited triangle. This heuristic had the advantage",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 107,
+        "latex_position": 240191,
+        "content_length": 2390,
+        "page_last_content": " all of the strip lengths were bounded by a fairly",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 108,
+        "latex_position": 243235,
+        "content_length": 2656,
+        "page_last_content": "xity down. Finally, using the greedy heuristic can",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 109,
+        "latex_position": 245935,
+        "content_length": 2504,
+        "page_last_content": "y on an alternative method called open addressing.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 110,
+        "latex_position": 247943,
+        "content_length": 1831,
+        "page_last_content": "able to null elements prior to the \ufb01rst insertion.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 111,
+        "latex_position": 250747,
+        "content_length": 2441,
+        "page_last_content": " will anyone ever \ufb01nd the page I stole this from?\u201d",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 112,
+        "latex_position": 253430,
+        "content_length": 2574,
+        "page_last_content": "can be made by reordering them. For example, I can",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 113,
+        "latex_position": 256633,
+        "content_length": 3131,
+        "page_last_content": " a speci\ufb01c goal\u2014not to maintain a hash table. More",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 114,
+        "latex_position": 259225,
+        "content_length": 2491,
+        "page_last_content": "s had an enormous impact on medicine and molecular",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 115,
+        "latex_position": 261755,
+        "content_length": 2321,
+        "page_last_content": "CA, and CC are ACAC, ACCA, ACCC, CAAC, CACA, CACC,",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 116,
+        "latex_position": 265005,
+        "content_length": 3073,
+        "page_last_content": ", CAC, AC, C}. Coupled with su\ufb03xes of string CACT,",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 117,
+        "latex_position": 267400,
+        "content_length": 2379,
+        "page_last_content": "gorithms, as in life, persistence usually pays o\ufb00.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 118,
+        "latex_position": 269365,
+        "content_length": 1521,
+        "page_last_content": "tory is reported in Margaritis and Skiena [MS95a].",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 119,
+        "latex_position": 272296,
+        "content_length": 2846,
+        "page_last_content": " return any, box, boy, and cow, among other words.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 120,
+        "latex_position": 275337,
+        "content_length": 2845,
+        "page_last_content": "tions must take O(log n) time on an n-element set.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 121,
+        "latex_position": 278492,
+        "content_length": 2901,
+        "page_last_content": " perform any sequence of the following operations:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 122,
+        "latex_position": 281591,
+        "content_length": 2831,
+        "page_last_content": "tream. Write a brief report with your conclusions.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 123,
+        "latex_position": 284692,
+        "content_length": 2587,
+        "page_last_content": "ct-whether-a-linked-list-contains- a-cycle/problem",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 124,
+        "latex_position": 285147,
+        "content_length": 339,
+        "page_last_content": "10. 3-4. \u201cCrypt Kicker II\u201d\u2014Chapter 3, problem 850.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 126,
+        "latex_position": 289827,
+        "content_length": 2509,
+        "page_last_content": "t in the kth position of the array. In particular,",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 127,
+        "latex_position": 291816,
+        "content_length": 1986,
+        "page_last_content": "thm designer should try in the quest for e\ufb03ciency.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 128,
+        "latex_position": 294057,
+        "content_length": 2102,
+        "page_last_content": "st pair? \u2022 Element uniqueness? \u2022 Finding the mode?",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 129,
+        "latex_position": 296359,
+        "content_length": 2225,
+        "page_last_content": "pplication speci\ufb01c. Consider the following issues:",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 130,
+        "latex_position": 299292,
+        "content_length": 2765,
+        "page_last_content": "1Not to mention Michael Jordan (the statistician).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 131,
+        "latex_position": 301482,
+        "content_length": 2103,
+        "page_last_content": "maining element from the unsorted part of the set:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 132,
+        "latex_position": 304296,
+        "content_length": 2676,
+        "page_last_content": "es without using any pointers. We store data as an",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 134,
+        "latex_position": 308431,
+        "content_length": 2470,
+        "page_last_content": "ecause it is now dominated by an element even more",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 137,
+        "latex_position": 313410,
+        "content_length": 1620,
+        "page_last_content": "sented in the catalog, in Section 15.2 (page 445).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 138,
+        "latex_position": 315859,
+        "content_length": 2175,
+        "page_last_content": "s: \u230alg n\u230b \u0007 h=0 \u2308n/2h+1\u2309h \u2264n \u230alg n\u230b \u0007 h=0 h/2h \u22642n",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 139,
+        "latex_position": 318350,
+        "content_length": 2015,
+        "page_last_content": "dure, called at the root with i = 1 and count = k:",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 140,
+        "latex_position": 319992,
+        "content_length": 1824,
+        "page_last_content": "tures. Insertion into a balanced search tree takes",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 141,
+        "latex_position": 323087,
+        "content_length": 3079,
+        "page_last_content": " to tell,\u201d they assured me. \u201cWe can only consult a",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 142,
+        "latex_position": 325712,
+        "content_length": 2332,
+        "page_last_content": "for more on X +Y sorting, as the problem is known.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 143,
+        "latex_position": 328583,
+        "content_length": 2751,
+        "page_last_content": "le sorted list. We could concatenate them into one",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 144,
+        "latex_position": 331358,
+        "content_length": 2582,
+        "page_last_content": "e the result of the merge to avoid stepping on the",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 146,
+        "latex_position": 335054,
+        "content_length": 1608,
+        "page_last_content": "xplored (to the right of i), as implemented below:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 147,
+        "latex_position": 336587,
+        "content_length": 1364,
+        "page_last_content": "evel. The height represents the number of times we",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 148,
+        "latex_position": 339252,
+        "content_length": 2541,
+        "page_last_content": "ess towards sorting whenever we pick a good enough",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 149,
+        "latex_position": 341787,
+        "content_length": 2441,
+        "page_last_content": "ucted in O(n) time (see Section 16.7 for details).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 150,
+        "latex_position": 344568,
+        "content_length": 2657,
+        "page_last_content": "ent widths, and n corresponding nuts. You can test",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 151,
+        "latex_position": 347669,
+        "content_length": 3057,
+        "page_last_content": " the operations in the innermost loop are simpler.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 152,
+        "latex_position": 350289,
+        "content_length": 2407,
+        "page_last_content": " to Shi\ufb04ett results in no signi\ufb01cant partitioning.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 153,
+        "latex_position": 352586,
+        "content_length": 2347,
+        "page_last_content": "ortant for several reasons. First, the idea can be",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 154,
+        "latex_position": 355663,
+        "content_length": 2996,
+        "page_last_content": "ctually looked at university teaching evaluations.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 155,
+        "latex_position": 358756,
+        "content_length": 3061,
+        "page_last_content": "ly quite interesting serving as an expert witness.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 156,
+        "latex_position": 361611,
+        "content_length": 2731,
+        "page_last_content": " (3,red), (9,red), (1,blue), (4,blue), (6,yellow).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 157,
+        "latex_position": 364530,
+        "content_length": 2704,
+        "page_last_content": "ed arrays. Give an O(n) algorithm for the problem.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 158,
+        "latex_position": 367480,
+        "content_length": 2755,
+        "page_last_content": "isons would quicksort make then in the worst case?",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 159,
+        "latex_position": 370721,
+        "content_length": 2959,
+        "page_last_content": "nd uses the merge subroutine to combine each pair,",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 160,
+        "latex_position": 373899,
+        "content_length": 2945,
+        "page_last_content": "ply about the \u03a9(n log n) lower bound for sorting.)",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 161,
+        "latex_position": 376876,
+        "content_length": 2867,
+        "page_last_content": "rgesort implementation. What are your experiences?",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 162,
+        "latex_position": 379388,
+        "content_length": 1948,
+        "page_last_content": " 10026. 4-5. \u201cShellSort\u201d\u2014Chapter 4, problem 10152.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 164,
+        "latex_position": 383494,
+        "content_length": 1795,
+        "page_last_content": " of times a given key k (say \u201cSkiena\u201d) occurs in a",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 165,
+        "latex_position": 386430,
+        "content_length": 2816,
+        "page_last_content": "for a key that lies close to our current position.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 166,
+        "latex_position": 389402,
+        "content_length": 2860,
+        "page_last_content": "anything \ufb01ghting o\ufb00something that is already dead.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 167,
+        "latex_position": 392079,
+        "content_length": 2581,
+        "page_last_content": "son is a slow and laborious process, suddenly lg n",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 168,
+        "latex_position": 394907,
+        "content_length": 2742,
+        "page_last_content": "ed by a recurrence: an = 2an\u22121, a1 = 1 \u2212\u2192an = 2n\u22121",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 169,
+        "latex_position": 397256,
+        "content_length": 2263,
+        "page_last_content": "ically arising from divide-and-conquer algorithms.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 170,
+        "latex_position": 399143,
+        "content_length": 2482,
+        "page_last_content": "al evaluation costs, plus the overhead of building",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 171,
+        "latex_position": 401983,
+        "content_length": 2460,
+        "page_last_content": " a1w) \u00d7 (b0 + b1w) = a0b0 + a0b1w + a1b0w + a1b1w2",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 172,
+        "latex_position": 404690,
+        "content_length": 2248,
+        "page_last_content": "me-complexity recurrence T(n) = 7 \u00b7 T(n/2) + O(n2)",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 173,
+        "latex_position": 406768,
+        "content_length": 1974,
+        "page_last_content": "the left can be found in linear time with a sweep:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 175,
+        "latex_position": 411433,
+        "content_length": 2659,
+        "page_last_content": "plementation of sophisticated parallel algorithms.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 176,
+        "latex_position": 414284,
+        "content_length": 2778,
+        "page_last_content": " \ufb01nal results. Such large-grain, naive parallelism",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 177,
+        "latex_position": 417111,
+        "content_length": 2777,
+        "page_last_content": "ce the load carefully among the processors. Proper",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 178,
+        "latex_position": 419544,
+        "content_length": 2164,
+        "page_last_content": "tage of this enormous speedup for large sequences.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 179,
+        "latex_position": 422161,
+        "content_length": 2392,
+        "page_last_content": "e vector of weights within the window around B[i].",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 180,
+        "latex_position": 424792,
+        "content_length": 2454,
+        "page_last_content": "). The time it takes for one such x will be linear",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 181,
+        "latex_position": 427442,
+        "content_length": 2310,
+        "page_last_content": "n roots is given by wk = cos(2k\u03c0/n) + i sin(2k\u03c0/n)",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 182,
+        "latex_position": 429681,
+        "content_length": 2159,
+        "page_last_content": ", 35, 42, 5, 15] has been shifted k = 4 positions.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 183,
+        "latex_position": 432991,
+        "content_length": 3004,
+        "page_last_content": " the k equal pieces cut from the initial n sticks.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 184,
+        "latex_position": 435220,
+        "content_length": 1968,
+        "page_last_content": "3. https://leetcode.com/problems/maximum-subarray/",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 185,
+        "latex_position": 436000,
+        "content_length": 491,
+        "page_last_content": " \u201cClosest Pair Problem\u201d\u2014Chapter 14, problem 10245.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 187,
+        "latex_position": 440143,
+        "content_length": 2173,
+        "page_last_content": " set of possible outcomes of an experiment. In our",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 188,
+        "latex_position": 442261,
+        "content_length": 1740,
+        "page_last_content": "ace S, E(V ), is de\ufb01ned E(V ) = \u0007 s\u2208S p(s) \u00b7 V (s)",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 189,
+        "latex_position": 444187,
+        "content_length": 1912,
+        "page_last_content": " Ai denotes the event of getting an even number on",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 190,
+        "latex_position": 446526,
+        "content_length": 2007,
+        "page_last_content": " 8/36)/(27/36) = 8/27, exactly what we got before.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 191,
+        "latex_position": 448514,
+        "content_length": 1710,
+        "page_last_content": "e mean or average, computed as \u00afX = 1 n n \u0007 i=1 xi",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 192,
+        "latex_position": 450231,
+        "content_length": 1587,
+        "page_last_content": "l distribution is given by \u03c3 = \u0002 np(1 \u2212p) = \u0398(\u221an).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 193,
+        "latex_position": 452374,
+        "content_length": 1878,
+        "page_last_content": "\u03c3 to be on the order of m, so m = \u0398(\u221an) \u2192n = \u0398(m2)",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 194,
+        "latex_position": 455138,
+        "content_length": 2450,
+        "page_last_content": "was a little too glib when I said in Section 3.7.1",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 195,
+        "latex_position": 457703,
+        "content_length": 1985,
+        "page_last_content": "nlucky enough to require \u0398(log n/ log log n) time.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 196,
+        "latex_position": 460604,
+        "content_length": 2876,
+        "page_last_content": "ndom from a large set of possibilities, because we",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 197,
+        "latex_position": 463268,
+        "content_length": 2628,
+        "page_last_content": ", we reduce the space by a factor of 64 on typical",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 198,
+        "latex_position": 466452,
+        "content_length": 2938,
+        "page_last_content": " an index, provided you can live with occasionally",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 199,
+        "latex_position": 468738,
+        "content_length": 2026,
+        "page_last_content": "same birthday? Here the table size is m = 365. The",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 200,
+        "latex_position": 471055,
+        "content_length": 2227,
+        "page_last_content": "table corresponding to this list. It also contains",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 201,
+        "latex_position": 473413,
+        "content_length": 2225,
+        "page_last_content": " we are doing this repeatedly, on a web scale, e\ufb03-",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 202,
+        "latex_position": 476651,
+        "content_length": 2909,
+        "page_last_content": "ts\u2014particularly if the Jaccard similarity is high.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 203,
+        "latex_position": 479354,
+        "content_length": 2393,
+        "page_last_content": "me access to the ith character of the string. Some",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 204,
+        "latex_position": 481919,
+        "content_length": 2459,
+        "page_last_content": "tring S: H(S, j) = m\u22121 \u0007 i=0 \u03b1m\u2212(i+1) \u00d7 char(si+j)",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 205,
+        "latex_position": 484918,
+        "content_length": 2771,
+        "page_last_content": " then an\u22121 = 1(mod n) for all a not divisible by n",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 206,
+        "latex_position": 487749,
+        "content_length": 2768,
+        "page_last_content": "ks it contains open research questions in addition",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 207,
+        "latex_position": 490469,
+        "content_length": 2595,
+        "page_last_content": "I would go broke were I ever to make such an o\ufb00er.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 208,
+        "latex_position": 493053,
+        "content_length": 2498,
+        "page_last_content": "ting exactly k heads given p1, . . . , pn \u2208[0, 1].",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 209,
+        "latex_position": 495929,
+        "content_length": 2645,
+        "page_last_content": "tes a uniform random integer in the range 1 to 10.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 210,
+        "latex_position": 497579,
+        "content_length": 1158,
+        "page_last_content": "\u201cComplete Tree Labeling\u201d\u2014Chapter 6, problem 10247.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 212,
+        "latex_position": 501367,
+        "content_length": 2091,
+        "page_last_content": "s are almost always directed, because there are at",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 213,
+        "latex_position": 504213,
+        "content_length": 2725,
+        "page_last_content": "because cutting any edge leaves two smaller trees.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 214,
+        "latex_position": 506976,
+        "content_length": 2687,
+        "page_last_content": "ignoring any labels, as discussed in Section 19.9.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 215,
+        "latex_position": 509361,
+        "content_length": 2229,
+        "page_last_content": "s (x, y) perhaps distinguished by di\ufb00erent labels.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 216,
+        "latex_position": 512044,
+        "content_length": 2463,
+        "page_last_content": "ed regardless of the outcome of the 2020 election.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 217,
+        "latex_position": 514522,
+        "content_length": 2139,
+        "page_last_content": "lly a grid of 15 avenues each crossing roughly 200",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 218,
+        "latex_position": 517026,
+        "content_length": 2275,
+        "page_last_content": "epresent the edges using an array of linked lists:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 220,
+        "latex_position": 519938,
+        "content_length": 1194,
+        "page_last_content": "e vertices, and the second through adjacent edges:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 221,
+        "latex_position": 521465,
+        "content_length": 1325,
+        "page_last_content": "it does not support constant-time write operations",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 222,
+        "latex_position": 524590,
+        "content_length": 2974,
+        "page_last_content": " did it take them so many years to \ufb01gure this out?",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 223,
+        "latex_position": 526854,
+        "content_length": 2206,
+        "page_last_content": "ences become ever more important as n gets larger.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 224,
+        "latex_position": 529581,
+        "content_length": 2688,
+        "page_last_content": "ent triangles. This dual graph representation (see",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 225,
+        "latex_position": 531549,
+        "content_length": 1868,
+        "page_last_content": "very other triangle, so that constructing the dual",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 226,
+        "latex_position": 534453,
+        "content_length": 2882,
+        "page_last_content": "\ufb03ciency, we must make sure we don\u2019t get trapped in",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 227,
+        "latex_position": 537309,
+        "content_length": 2780,
+        "page_last_content": "e vertices of the graph. This tree, illustrated in",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 228,
+        "latex_position": 539282,
+        "content_length": 1576,
+        "page_last_content": "rom it. Thus, each vertex passes from undiscovered",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 230,
+        "latex_position": 542079,
+        "content_length": 1098,
+        "page_last_content": " us the freedom to easily customize these actions.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 231,
+        "latex_position": 544597,
+        "content_length": 2295,
+        "page_last_content": " destined to be linear, since BFS runs in O(n + m)",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 233,
+        "latex_position": 548813,
+        "content_length": 2142,
+        "page_last_content": "n\ufb02icts, we have constructed a proper two-coloring.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 234,
+        "latex_position": 549857,
+        "content_length": 890,
+        "page_last_content": "t and binary categorical attributes, so they don\u2019t",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 236,
+        "latex_position": 554338,
+        "content_length": 2033,
+        "page_last_content": "hable from a given vertex v are expanded before we",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 238,
+        "latex_position": 558544,
+        "content_length": 2853,
+        "page_last_content": "revious edition of this book came in this section.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 239,
+        "latex_position": 560876,
+        "content_length": 2163,
+        "page_last_content": " connected graph using a single depth-\ufb01rst search.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 241,
+        "latex_position": 564224,
+        "content_length": 1082,
+        "page_last_content": "ht be an articulation vertex for multiple reasons:",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 243,
+        "latex_position": 568122,
+        "content_length": 1366,
+        "page_last_content": "e modi\ufb01cation to the process late vertex function.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 244,
+        "latex_position": 570177,
+        "content_length": 1935,
+        "page_last_content": "th DFS and BFS will traverse all edges in the same",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 245,
+        "latex_position": 572630,
+        "content_length": 2350,
+        "page_last_content": "discovered, then we start a DFS of y before we can",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 246,
+        "latex_position": 574177,
+        "content_length": 1299,
+        "page_last_content": "better be strongly connected: otherwise there will",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 247,
+        "latex_position": 576100,
+        "content_length": 1731,
+        "page_last_content": " i; /* counter */ int v; /* vertex in component */",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 248,
+        "latex_position": 577501,
+        "content_length": 868,
+        "page_last_content": "topological sort in Section 7.10.1 (page 231). The",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 249,
+        "latex_position": 579670,
+        "content_length": 2026,
+        "page_last_content": "ollowing weighted graphs G1 (left) and G2 (right):",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 250,
+        "latex_position": 581408,
+        "content_length": 1600,
+        "page_last_content": "might be simultane- ously in the discovered state.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 251,
+        "latex_position": 583976,
+        "content_length": 2398,
+        "page_last_content": "or the tree case to achieve the desired e\ufb03ciency.)",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 252,
+        "latex_position": 587155,
+        "content_length": 3013,
+        "page_last_content": "rtex cover of G? Give a proof or a counterexample.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 253,
+        "latex_position": 590139,
+        "content_length": 2774,
+        "page_last_content": "nsists of all edges of G whose endpoints are in U.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 254,
+        "latex_position": 593309,
+        "content_length": 3084,
+        "page_last_content": "about the number of strongly connected components?",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 255,
+        "latex_position": 596290,
+        "content_length": 2850,
+        "page_last_content": "arch tree and return the ith node in sorted order.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 256,
+        "latex_position": 597029,
+        "content_length": 750,
+        "page_last_content": "9. 7-5. \u201cTower of Cubes\u201d\u2014Chapter 9, problem 10051.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 258,
+        "latex_position": 600611,
+        "content_length": 1820,
+        "page_last_content": "ee minimizes the total edge weight over all possi-",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 259,
+        "latex_position": 603559,
+        "content_length": 2758,
+        "page_last_content": " algorithm must construct a minimum spanning tree.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 260,
+        "latex_position": 605493,
+        "content_length": 1658,
+        "page_last_content": "[i] = false; distance[i] = MAXINT; parent[i] = -1;",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 261,
+        "latex_position": 606810,
+        "content_length": 1141,
+        "page_last_content": "ns a tree with a non-tree vertex in constant time.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 262,
+        "latex_position": 609146,
+        "content_length": 2205,
+        "page_last_content": "ext edge (v, w) if (component (v) \u0338= component(w))",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 263,
+        "latex_position": 611517,
+        "content_length": 2110,
+        "page_last_content": "ave when implementing a straightforward algorithm.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 264,
+        "latex_position": 613361,
+        "content_length": 1650,
+        "page_last_content": "response to the insertion of an edge between them.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 265,
+        "latex_position": 615483,
+        "content_length": 1953,
+        "page_last_content": "es the root of the merged component on each union.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 266,
+        "latex_position": 616554,
+        "content_length": 987,
+        "page_last_content": "2] = s->size[r1] + s->size[r2]; s->p[r1] = r2; } }",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 267,
+        "latex_position": 619018,
+        "content_length": 2336,
+        "page_last_content": "nimum product spanning tree on the original graph.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 268,
+        "latex_position": 621726,
+        "content_length": 2727,
+        "page_last_content": " of the points.\u201d \u201cWait!\u201d I cried. \u201cWhat is a net?\u201d",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 269,
+        "latex_position": 623927,
+        "content_length": 2116,
+        "page_last_content": "led down some notes and then frowned. \u201cFine. Maybe",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 270,
+        "latex_position": 627108,
+        "content_length": 3212,
+        "page_last_content": " one foot left and one foot up is exactly the same",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 271,
+        "latex_position": 630057,
+        "content_length": 2918,
+        "page_last_content": "quire a large number of edges, just as the fastest",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 272,
+        "latex_position": 632937,
+        "content_length": 2402,
+        "page_last_content": "of positive weight in the discussion that follows.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 273,
+        "latex_position": 634558,
+        "content_length": 1358,
+        "page_last_content": " parent[i] = -1; } distance[start] = 0; v = start;",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 274,
+        "latex_position": 636065,
+        "content_length": 1343,
+        "page_last_content": "S find path() routine of Section 7.6.2 (page 217).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 275,
+        "latex_position": 638777,
+        "content_length": 2677,
+        "page_last_content": "th between all pairs of vertices in a given graph.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 276,
+        "latex_position": 641416,
+        "content_length": 2545,
+        "page_last_content": "ing subtle about how simple the implementation is:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 277,
+        "latex_position": 643835,
+        "content_length": 2260,
+        "page_last_content": "ne else then Steve is the person you want to hire.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 278,
+        "latex_position": 646973,
+        "content_length": 3141,
+        "page_last_content": "es, cares, cards, capes, caper, and bases. For our",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 279,
+        "latex_position": 649029,
+        "content_length": 1945,
+        "page_last_content": "ith word to each possible choice for the (i + 1)st",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 280,
+        "latex_position": 651386,
+        "content_length": 2556,
+        "page_last_content": " NEVER FORGET WHAT THEY DID HERE. IT IS FOR US THE",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 281,
+        "latex_position": 654314,
+        "content_length": 2883,
+        "page_last_content": "Or let certain vertices represent boys and certain",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 282,
+        "latex_position": 656613,
+        "content_length": 2099,
+        "page_last_content": "shed from i to j. A path in the residual \ufb02ow graph",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 283,
+        "latex_position": 658555,
+        "content_length": 1687,
+        "page_last_content": "our edge structure to accommodate the extra \ufb01elds:",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 284,
+        "latex_position": 660117,
+        "content_length": 1421,
+        "page_last_content": "\ufb03c can \ufb02ow is limited by the most congested point.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 285,
+        "latex_position": 661809,
+        "content_length": 1515,
+        "page_last_content": "me; augment_path(g, start, parent[end], volume); }",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 286,
+        "latex_position": 664825,
+        "content_length": 2858,
+        "page_last_content": "e subdivided. The critical observation is that the",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 287,
+        "latex_position": 667381,
+        "content_length": 2235,
+        "page_last_content": "d algorithms likely become too di\ufb03cult to analyze.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 288,
+        "latex_position": 669906,
+        "content_length": 2497,
+        "page_last_content": "f, and certain other fragments are forced to be on",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 289,
+        "latex_position": 672256,
+        "content_length": 2314,
+        "page_last_content": " of \ufb01nding an independent set of edges in a graph.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 290,
+        "latex_position": 674320,
+        "content_length": 2045,
+        "page_last_content": "ted in A. (d) Compute the maximum \ufb02ow from A to H.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 291,
+        "latex_position": 677475,
+        "content_length": 2998,
+        "page_last_content": ", give a linear-time algorithm to update the tree:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 292,
+        "latex_position": 679974,
+        "content_length": 2375,
+        "page_last_content": "ph necessarily the shortest (minimum-weight) path?",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 293,
+        "latex_position": 683266,
+        "content_length": 3169,
+        "page_last_content": "0 U.S. dollars. At such a time, a smart trader can",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 294,
+        "latex_position": 685111,
+        "content_length": 1677,
+        "page_last_content": "8-5. \u201cThe Grand Dinner\u201d\u2014Chapter 10, problem 10249.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 296,
+        "latex_position": 690178,
+        "content_length": 2654,
+        "page_last_content": "s works, my generic backtrack code is given below:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 297,
+        "latex_position": 692202,
+        "content_length": 1895,
+        "page_last_content": " structure in response to the latest move, as well",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 298,
+        "latex_position": 694184,
+        "content_length": 1918,
+        "page_last_content": ", int *nc) { c[0] = true; c[1] = false; *nc = 2; }",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 299,
+        "latex_position": 695647,
+        "content_length": 1289,
+        "page_last_content": "t: {123}, {12}, {13}, {1}, {23}, {2}, {3}, and {}.",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 300,
+        "latex_position": 697661,
+        "content_length": 1835,
+        "page_last_content": "lution. This gives a constant-time legality check.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 301,
+        "latex_position": 699237,
+        "content_length": 1446,
+        "page_last_content": "raph g; /* graph to find paths in */ } paths_data;",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 302,
+        "latex_position": 700613,
+        "content_length": 1159,
+        "page_last_content": ", int k, paths_data *g) { return (a[k] == g->t); }",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 303,
+        "latex_position": 702206,
+        "content_length": 1401,
+        "page_last_content": "our search started from vertex v1, and it happened",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 304,
+        "latex_position": 705393,
+        "content_length": 3025,
+        "page_last_content": "ely to the task of solving Sudoku puzzles. We will",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 306,
+        "latex_position": 709418,
+        "content_length": 1612,
+        "page_last_content": "complexity of our search for Table 9.4: int *nc) {",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 307,
+        "latex_position": 712069,
+        "content_length": 2496,
+        "page_last_content": " positions requires over 3,000 times as much work!",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 308,
+        "latex_position": 714603,
+        "content_length": 2349,
+        "page_last_content": " square choices to squares with at least one move.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 309,
+        "latex_position": 716919,
+        "content_length": 2176,
+        "page_last_content": "g up the ladder of human progress. There is also a",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 310,
+        "latex_position": 719430,
+        "content_length": 2372,
+        "page_last_content": "h on a modest computer in a modest amount of time.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 311,
+        "latex_position": 722902,
+        "content_length": 3419,
+        "page_last_content": "weak attack is much faster to compute (no blocking",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 312,
+        "latex_position": 724516,
+        "content_length": 1356,
+        "page_last_content": "y powerful e\ufb00ect on the time to solve the problem.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 313,
+        "latex_position": 726522,
+        "content_length": 1929,
+        "page_last_content": "; pq_insert(&q,s); contract_solution(s,t); } } } }",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 314,
+        "latex_position": 729159,
+        "content_length": 2521,
+        "page_last_content": " path on n/2 nodes will likely be cheaper than the",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 315,
+        "latex_position": 731313,
+        "content_length": 1886,
+        "page_last_content": "solution_cost(s,t) + (t->n - s->n + 1) * minlb); }",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 316,
+        "latex_position": 734324,
+        "content_length": 2977,
+        "page_last_content": " problem, which seeks all chessboard con\ufb01gurations",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 317,
+        "latex_position": 736983,
+        "content_length": 2567,
+        "page_last_content": "appears in S, and a single number counts as a sum.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 318,
+        "latex_position": 740194,
+        "content_length": 3055,
+        "page_last_content": "xample, the board: e t h t n d t i a i h n r h u b",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 319,
+        "latex_position": 742920,
+        "content_length": 2562,
+        "page_last_content": "le combination of people is achieved exactly once?",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 320,
+        "latex_position": 743836,
+        "content_length": 910,
+        "page_last_content": "m 10032. 9-4. \u201cColor Hash\u201d\u2014Chapter 8, problem 704.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 322,
+        "latex_position": 748209,
+        "content_length": 2028,
+        "page_last_content": " { return(1); } return(fib_r(n-1) + fib_r(n-2)); }",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 323,
+        "latex_position": 750150,
+        "content_length": 1793,
+        "page_last_content": "long f[MAXN+1]; /* array for caching fib values */",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 324,
+        "latex_position": 751270,
+        "content_length": 964,
+        "page_last_content": " they are looking for in the cache and immediately",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 325,
+        "latex_position": 753499,
+        "content_length": 2129,
+        "page_last_content": "gest and store all the results, so we know that we",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 326,
+        "latex_position": 755203,
+        "content_length": 1632,
+        "page_last_content": "angle: 1 1 1 1 2 1 1 3 3 1 1 4 6 4 1 1 5 10 10 5 1",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 327,
+        "latex_position": 757784,
+        "content_length": 2092,
+        "page_last_content": "able */ for (i = 0; i <= n; i++) { bc[i][0] = 1; }",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 328,
+        "latex_position": 759960,
+        "content_length": 2004,
+        "page_last_content": "lications, as detailed in Section 21.4 (page 688).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 329,
+        "latex_position": 762625,
+        "content_length": 2447,
+        "page_last_content": " deletion can be returned by a function indel(Pi).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 330,
+        "latex_position": 764216,
+        "content_length": 1429,
+        "page_last_content": "uce only one of the two indices, not both of them.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 331,
+        "latex_position": 766564,
+        "content_length": 2222,
+        "page_last_content": "AXLEN; i++) { row_init(i, m); column_init(i, m); }",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 332,
+        "latex_position": 768691,
+        "content_length": 1950,
+        "page_last_content": " be a DAG?) de\ufb01nes an acceptable evaluation order.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 333,
+        "latex_position": 771446,
+        "content_length": 1955,
+        "page_last_content": "t == MATCH) { reconstruct_path(s, t, i-1, j-1, m);",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 334,
+        "latex_position": 773532,
+        "content_length": 1245,
+        "page_last_content": " cleaner and easier to explicitly store the moves.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 335,
+        "latex_position": 775635,
+        "content_length": 1920,
+        "page_last_content": " actions for each edit operation during traceback.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 336,
+        "latex_position": 777615,
+        "content_length": 2013,
+        "page_last_content": "CHANGE */ m[0][i].parent = -1; /* NOTE CHANGE */ }",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 337,
+        "latex_position": 779460,
+        "content_length": 1727,
+        "page_last_content": "aximum monotone subsequence of 243517698 is 23568.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 338,
+        "latex_position": 782117,
+        "content_length": 2669,
+        "page_last_content": "sider the sequence S = (2, 4, 3, 5, 1, 7, 6, 9, 8)",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 339,
+        "latex_position": 784867,
+        "content_length": 2353,
+        "page_last_content": "1 2 2 3 1 4 4 5 5 Predecessor pi \u2013 1 1 2 \u2013 4 4 6 6",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 340,
+        "latex_position": 787955,
+        "content_length": 3054,
+        "page_last_content": "\u2019s enough for a small text \ufb01le or image,\u201d he said.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 341,
+        "latex_position": 790517,
+        "content_length": 2485,
+        "page_last_content": "sition and current mode. For a given position/mode",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 342,
+        "latex_position": 792756,
+        "content_length": 2108,
+        "page_last_content": "most applications. Unless you really botch up your",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 343,
+        "latex_position": 794780,
+        "content_length": 1865,
+        "page_last_content": "if ((j >= s[i-1]) && (sum[i-1][j-s[i-1]]==true)) {",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 344,
+        "latex_position": 796539,
+        "content_length": 1279,
+        "page_last_content": "ountered on the walk back to recover the solution.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 345,
+        "latex_position": 799546,
+        "content_length": 2756,
+        "page_last_content": "wer, and it is even worse in industrial areas. One",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 346,
+        "latex_position": 802855,
+        "content_length": 3117,
+        "page_last_content": "rew quadratically in the range of the loads, which",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 347,
+        "latex_position": 805440,
+        "content_length": 2428,
+        "page_last_content": "f would be 100 200 300 400 500 | 600 700 | 800 900",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 348,
+        "latex_position": 809190,
+        "content_length": 2632,
+        "page_last_content": "a \ufb01rst partition smaller than s1 regardless of how",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 349,
+        "latex_position": 811067,
+        "content_length": 1985,
+        "page_last_content": "for (i = 1; i <= n; i++) { p[i] = p[i-1] + s[i]; }",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 350,
+        "latex_position": 813174,
+        "content_length": 1882,
+        "page_last_content": "alking is best achieved by a recursive subroutine:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 351,
+        "latex_position": 815366,
+        "content_length": 2099,
+        "page_last_content": " exactly two nonterminals, for example, X \u2192Y Z, or",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 352,
+        "latex_position": 818060,
+        "content_length": 2327,
+        "page_last_content": "elds an O(n3) or cubic-time algorithm for parsing.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 353,
+        "latex_position": 820751,
+        "content_length": 2498,
+        "page_last_content": "o t that does not visit any vertex more than once?",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 354,
+        "latex_position": 823828,
+        "content_length": 3002,
+        "page_last_content": "us decisions, not the actual decisions themselves.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 355,
+        "latex_position": 826977,
+        "content_length": 2804,
+        "page_last_content": "\u2208Six (x,j)\u2208E Sij=Six\u222a{j} LP \u2032[i, x, Six] + c(x, j)",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 356,
+        "latex_position": 829400,
+        "content_length": 2374,
+        "page_last_content": " path corresponding to the string\u2019s ith character.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 357,
+        "latex_position": 831692,
+        "content_length": 2313,
+        "page_last_content": "rdness proof. In fact, I couldn\u2019t think of any NP-",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 358,
+        "latex_position": 834507,
+        "content_length": 2706,
+        "page_last_content": "epends on your application, but it can never hurt.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 359,
+        "latex_position": 837379,
+        "content_length": 2766,
+        "page_last_content": "ly move either down or right at any point in time.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 360,
+        "latex_position": 840374,
+        "content_length": 2892,
+        "page_last_content": " the best strategy for a given pair of chip piles.",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 361,
+        "latex_position": 842989,
+        "content_length": 2473,
+        "page_last_content": "ule produced by this greedy algorithm is feasible.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 362,
+        "latex_position": 845846,
+        "content_length": 2632,
+        "page_last_content": "f time used. For example, suppose we wish to break",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 363,
+        "latex_position": 848920,
+        "content_length": 2878,
+        "page_last_content": "unning time of the dynamic program to \ufb01nd E(k, n)?",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 364,
+        "latex_position": 852192,
+        "content_length": 3148,
+        "page_last_content": " of the heights of the largest book on each shelf.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 365,
+        "latex_position": 855556,
+        "content_length": 3216,
+        "page_last_content": "egative, the empty array maximizes the total at 0.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 366,
+        "latex_position": 858042,
+        "content_length": 2256,
+        "page_last_content": "/problems/maximum-product-of-splitted-binary-tree/",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 367,
+        "latex_position": 858658,
+        "content_length": 615,
+        "page_last_content": ". 10-5. \u201cFerry Loading\u201d\u2014Chapter 11, problem 10261.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 369,
+        "latex_position": 863431,
+        "content_length": 2506,
+        "page_last_content": "O(P(n)) time. There are two possible implications:",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 370,
+        "latex_position": 866180,
+        "content_length": 2662,
+        "page_last_content": "pture the power of the theory of NP- completeness.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 371,
+        "latex_position": 868540,
+        "content_length": 2208,
+        "page_last_content": "ld imply a faster algorithm for close-enough pair.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 372,
+        "latex_position": 871188,
+        "content_length": 2272,
+        "page_last_content": " there exists an integer d such that a = bd. Then:",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 373,
+        "latex_position": 873618,
+        "content_length": 2187,
+        "page_last_content": "est convex polygon containing all the points of S.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 374,
+        "latex_position": 875663,
+        "content_length": 1846,
+        "page_last_content": "11.2) will become clear by the end of the chapter.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 375,
+        "latex_position": 877173,
+        "content_length": 1505,
+        "page_last_content": "wer to Traveling-Salesman-Decision-Problem(G\u2032, n).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 376,
+        "latex_position": 879492,
+        "content_length": 2107,
+        "page_last_content": " there exist a set of k independent vertices in G?",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 377,
+        "latex_position": 881590,
+        "content_length": 1828,
+        "page_last_content": "P-complete, with a reduction from independent set.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 378,
+        "latex_position": 883901,
+        "content_length": 2015,
+        "page_last_content": "as hard as independent set, and hence NP-complete.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 379,
+        "latex_position": 886151,
+        "content_length": 1957,
+        "page_last_content": "em that will serve as the \ufb01rst link in this chain.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 380,
+        "latex_position": 889428,
+        "content_length": 2839,
+        "page_last_content": "full set of clauses. Only when we have two clauses",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 381,
+        "latex_position": 892607,
+        "content_length": 2527,
+        "page_last_content": "there are not enough new free variables to be able",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 382,
+        "latex_position": 895401,
+        "content_length": 2710,
+        "page_last_content": "erent. A reduction from 3-SAT to vertex cover must",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 383,
+        "latex_position": 898247,
+        "content_length": 2583,
+        "page_last_content": "over vertices distributed at two per clause-gadget",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 384,
+        "latex_position": 900388,
+        "content_length": 1970,
+        "page_last_content": " work equally as well here\u2014in an identical manner.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 385,
+        "latex_position": 903238,
+        "content_length": 2756,
+        "page_last_content": "h hold true in general for NP-completeness proofs:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 386,
+        "latex_position": 906077,
+        "content_length": 2853,
+        "page_last_content": "ility. In fact, you don\u2019t even have to use full 3-",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 387,
+        "latex_position": 908867,
+        "content_length": 2803,
+        "page_last_content": "t blocks you from \ufb01nding an optimal solution.\u201d The",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 388,
+        "latex_position": 911345,
+        "content_length": 2494,
+        "page_last_content": "liver results without cutting myself into ribbons.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 389,
+        "latex_position": 914205,
+        "content_length": 2717,
+        "page_last_content": "o evaluate whether C1 = {x1, x2, x3} is satis\ufb01ed.\u201d",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 390,
+        "latex_position": 917092,
+        "content_length": 2474,
+        "page_last_content": "tree, because that de\ufb01nes exactly one path between",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 391,
+        "latex_position": 920241,
+        "content_length": 3102,
+        "page_last_content": "h a start and looked at the clock. It was 3:00 AM.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 392,
+        "latex_position": 922410,
+        "content_length": 2033,
+        "page_last_content": " misused by) beginners who lack a mastery of these",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 393,
+        "latex_position": 925082,
+        "content_length": 2587,
+        "page_last_content": "of this class P. The P stands for polynomial time.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 394,
+        "latex_position": 927945,
+        "content_length": 2802,
+        "page_last_content": "automata, if you happen to know about such things.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 395,
+        "latex_position": 930989,
+        "content_length": 3036,
+        "page_last_content": "ting novel about a man who discovers a polynomial-",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 396,
+        "latex_position": 933891,
+        "content_length": 2462,
+        "page_last_content": "ability instances into equivalent 3-SAT instances.",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 397,
+        "latex_position": 936411,
+        "content_length": 2245,
+        "page_last_content": "e problem, and an analysis of its time complexity.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 398,
+        "latex_position": 939251,
+        "content_length": 2670,
+        "page_last_content": "contains 2g nodes. Prove that max kite is NP-hard.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 399,
+        "latex_position": 941469,
+        "content_length": 1964,
+        "page_last_content": "at no pair of subsets has any elements in common)?",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 401,
+        "latex_position": 944833,
+        "content_length": 796,
+        "page_last_content": "o NP-completeness, but are added for completeness.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 403,
+        "latex_position": 948977,
+        "content_length": 2181,
+        "page_last_content": " a vertex, so any cover of just these k edges must",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 404,
+        "latex_position": 951343,
+        "content_length": 2264,
+        "page_last_content": "y can often be modi\ufb01ed to yield better-in-practice",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 405,
+        "latex_position": 954129,
+        "content_length": 2749,
+        "page_last_content": "a matter of luck by choosing the vertex at random:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 406,
+        "latex_position": 956935,
+        "content_length": 2421,
+        "page_last_content": "stances between points. But we can approximate the",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 407,
+        "latex_position": 959163,
+        "content_length": 2165,
+        "page_last_content": "etter approximation algorithm for TSP. Recall that",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 408,
+        "latex_position": 962487,
+        "content_length": 3237,
+        "page_last_content": "his, tour Section 18.7 (page 565) for a refresher.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 409,
+        "latex_position": 964731,
+        "content_length": 2032,
+        "page_last_content": "7/8) of the clauses, in other words 87.5% of them.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 410,
+        "latex_position": 967415,
+        "content_length": 2543,
+        "page_last_content": "ver problem. As de\ufb01ned in Section 21.1 (page 678):",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 411,
+        "latex_position": 970163,
+        "content_length": 2341,
+        "page_last_content": "/wi. More to the point, the last/smallest of these",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 412,
+        "latex_position": 972888,
+        "content_length": 2653,
+        "page_last_content": " edges (Si, Si+1), where S0 and Sn both denote v1.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 413,
+        "latex_position": 974945,
+        "content_length": 1934,
+        "page_last_content": "cover primes that are several hundred digits long.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 414,
+        "latex_position": 976818,
+        "content_length": 1765,
+        "page_last_content": " random vertex swaps. Propose an e\ufb03cient algorithm",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 415,
+        "latex_position": 979222,
+        "content_length": 2264,
+        "page_last_content": "t would probably be more e\ufb03cient to ask the person",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 416,
+        "latex_position": 981650,
+        "content_length": 2330,
+        "page_last_content": "arting at some arbitrary point and taking any step",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 417,
+        "latex_position": 983439,
+        "content_length": 1699,
+        "page_last_content": "k up until you are at the absolute global maximum.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 418,
+        "latex_position": 985703,
+        "content_length": 2115,
+        "page_last_content": "ximation of Section 12.3 (page 393) would beat it.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 419,
+        "latex_position": 988480,
+        "content_length": 2314,
+        "page_last_content": "ization problem for any set of discrete particles.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 420,
+        "latex_position": 990882,
+        "content_length": 2346,
+        "page_last_content": "t with my full implementation at www.algorist.com.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 421,
+        "latex_position": 992242,
+        "content_length": 1243,
+        "page_last_content": "plementation follows the pseudocode quite closely:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 422,
+        "latex_position": 993625,
+        "content_length": 1222,
+        "page_last_content": "his temp */ temperature /= COOLING_FRACTION; } } }",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 423,
+        "latex_position": 996620,
+        "content_length": 2871,
+        "page_last_content": " by S. This objective likes large subsets with few",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 424,
+        "latex_position": 999537,
+        "content_length": 2672,
+        "page_last_content": " that the parts were interchangeable, meaning that",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 425,
+        "latex_position": 1002095,
+        "content_length": 2478,
+        "page_last_content": "ssemblies we can form from the given set of parts.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 426,
+        "latex_position": 1005345,
+        "content_length": 3218,
+        "page_last_content": "neral collections of subsets of vertices/elements.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 427,
+        "latex_position": 1008477,
+        "content_length": 3128,
+        "page_last_content": "tudent Ricky Bradley and I had to solve it anyway.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 428,
+        "latex_position": 1011281,
+        "content_length": 2558,
+        "page_last_content": " selections so that the important pre\ufb01x/su\ufb03xes get",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 429,
+        "latex_position": 1013139,
+        "content_length": 1661,
+        "page_last_content": "ers of the HIV virus. Figure 12.13 shows snapshots",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 430,
+        "latex_position": 1016041,
+        "content_length": 2901,
+        "page_last_content": " to be replaced by a successful-solution o\ufb00spring.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 431,
+        "latex_position": 1019122,
+        "content_length": 3097,
+        "page_last_content": "y provides insight as to what makes these machines",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 432,
+        "latex_position": 1022171,
+        "content_length": 2906,
+        "page_last_content": "ht want to jack up the probabilities of all states",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 433,
+        "latex_position": 1024383,
+        "content_length": 1999,
+        "page_last_content": "t likely that this sample returns what we want, we",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 434,
+        "latex_position": 1027407,
+        "content_length": 2716,
+        "page_last_content": "oughly the same con\ufb01dence that we believe P \u0338= NP.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 435,
+        "latex_position": 1029872,
+        "content_length": 2370,
+        "page_last_content": "visor. It should be clear that these integers must",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 437,
+        "latex_position": 1035340,
+        "content_length": 2788,
+        "page_last_content": "f how they work. Still, in real quantum computers:",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 438,
+        "latex_position": 1038115,
+        "content_length": 2784,
+        "page_last_content": "es in the tour at most, as opposed to at most four",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 439,
+        "latex_position": 1041342,
+        "content_length": 3030,
+        "page_last_content": "is NP-complete for general graphs; however, it has",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 440,
+        "latex_position": 1044357,
+        "content_length": 2867,
+        "page_last_content": "ity problem discussed in Section 17.10 (page 537).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 441,
+        "latex_position": 1046732,
+        "content_length": 2303,
+        "page_last_content": " \u201cUseless Tile Packers\u201d\u2014Chapter 14, problem 10065.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 443,
+        "latex_position": 1051882,
+        "content_length": 2860,
+        "page_last_content": "g on 10 items? 1,000 items? 1,000,000 items? More?",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 444,
+        "latex_position": 1053997,
+        "content_length": 2116,
+        "page_last_content": "ial cases of the problem that I know how to solve?",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 445,
+        "latex_position": 1056252,
+        "content_length": 2293,
+        "page_last_content": "ers change during my latest trip through the list?",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 446,
+        "latex_position": 1059351,
+        "content_length": 3123,
+        "page_last_content": "d at the prompting of your interviewer. These will",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 447,
+        "latex_position": 1061665,
+        "content_length": 2350,
+        "page_last_content": "and career. Follow me on Twitter at @StevenSkiena!",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 448,
+        "latex_position": 1061734,
+        "content_length": 44,
+        "page_last_content": "Part II The Hitchhiker\u2019s Guide to Algorithms",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 450,
+        "latex_position": 1066530,
+        "content_length": 2695,
+        "page_last_content": "out any other implementations that you know about.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 452,
+        "latex_position": 1069898,
+        "content_length": 1473,
+        "page_last_content": "r your dictionary, answer the following questions:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 453,
+        "latex_position": 1072765,
+        "content_length": 2877,
+        "page_last_content": "ilt from arrays as well as linked lists and trees.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 454,
+        "latex_position": 1075500,
+        "content_length": 2648,
+        "page_last_content": " is an excellent way to slow down any application.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 455,
+        "latex_position": 1078546,
+        "content_length": 3058,
+        "page_last_content": "pected constant number of elements per list, for a",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 456,
+        "latex_position": 1081958,
+        "content_length": 3442,
+        "page_last_content": " Sorting (see page 506), searching (see page 510).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 457,
+        "latex_position": 1083868,
+        "content_length": 1820,
+        "page_last_content": "ir key, in addition to \ufb01nding the largest element.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 458,
+        "latex_position": 1086868,
+        "content_length": 3004,
+        "page_last_content": "tions when we discover a shorter route to a vertex",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 459,
+        "latex_position": 1089773,
+        "content_length": 2936,
+        "page_last_content": "ng (see page 506), short- est path (see page 554).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 460,
+        "latex_position": 1091657,
+        "content_length": 1774,
+        "page_last_content": "e of all proper su\ufb03xes of S. The su\ufb03x tree enables",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 461,
+        "latex_position": 1094066,
+        "content_length": 2273,
+        "page_last_content": "ion, the best node can be selected in linear time.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 462,
+        "latex_position": 1097344,
+        "content_length": 3182,
+        "page_last_content": "hms in association with Gus\ufb01eld [Gus97], including",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 463,
+        "latex_position": 1099423,
+        "content_length": 2121,
+        "page_last_content": "age 693), longest common substring (see page 706).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 464,
+        "latex_position": 1101208,
+        "content_length": 1692,
+        "page_last_content": "you would be better o\ufb00using a hash table of edges.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 465,
+        "latex_position": 1104311,
+        "content_length": 3125,
+        "page_last_content": "d for every edge and vertex of the hypergraph, and",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 466,
+        "latex_position": 1107456,
+        "content_length": 3163,
+        "page_last_content": "tations as a better basis for further development.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 467,
+        "latex_position": 1109529,
+        "content_length": 2120,
+        "page_last_content": "es (see page 456), graph partition (see page 601).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 468,
+        "latex_position": 1111627,
+        "content_length": 1934,
+        "page_last_content": "your problem has a graph-theoretical analogy, like",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 469,
+        "latex_position": 1114734,
+        "content_length": 3057,
+        "page_last_content": " (3) breaking a set apart. Your basic options are:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 470,
+        "latex_position": 1117601,
+        "content_length": 2893,
+        "page_last_content": "ee codes are described in Section 18.3 (page 549).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 471,
+        "latex_position": 1119768,
+        "content_length": 2176,
+        "page_last_content": "e page 678), minimum spanning tree (see page 549).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 472,
+        "latex_position": 1121527,
+        "content_length": 1625,
+        "page_last_content": " splitting plane is selected, but options include:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 473,
+        "latex_position": 1124288,
+        "content_length": 2754,
+        "page_last_content": "ection 20.7 (page 644) for more on point location.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 474,
+        "latex_position": 1127224,
+        "content_length": 2901,
+        "page_last_content": " kd-trees, in asso- ciation with his book [Sam06].",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 475,
+        "latex_position": 1129033,
+        "content_length": 1849,
+        "page_last_content": "ation (see page 644), range search (see page 641).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 477,
+        "latex_position": 1132970,
+        "content_length": 1873,
+        "page_last_content": "he most comprehensive of the texts described here.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 478,
+        "latex_position": 1135242,
+        "content_length": 2148,
+        "page_last_content": "aled copy of the n-term ith row to each of the n\u22121",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 479,
+        "latex_position": 1138076,
+        "content_length": 2777,
+        "page_last_content": "x = b, since A \u00b7 x = (L \u00b7 U) \u00b7 x = L \u00b7 (U \u00b7 x) = b",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 480,
+        "latex_position": 1140852,
+        "content_length": 2751,
+        "page_last_content": "e page 472), determinant/permanent (see page 475).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 481,
+        "latex_position": 1143306,
+        "content_length": 2274,
+        "page_last_content": "ch from a given vertex v, where v is placed at the",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 482,
+        "latex_position": 1146103,
+        "content_length": 2812,
+        "page_last_content": "see page 467), topological sorting (see page 546).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 483,
+        "latex_position": 1148075,
+        "content_length": 1726,
+        "page_last_content": "rbitrarily permuted without changing the resulting",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 484,
+        "latex_position": 1151383,
+        "content_length": 3199,
+        "page_last_content": "on. These Fortran codes are available from Netlib.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 485,
+        "latex_position": 1153611,
+        "content_length": 2155,
+        "page_last_content": "ions (see page 467), shortest path (see page 554).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 486,
+        "latex_position": 1155174,
+        "content_length": 1436,
+        "page_last_content": "ut of order (called inversions) in permutation \u03c0i.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 487,
+        "latex_position": 1158417,
+        "content_length": 3027,
+        "page_last_content": "oblems solvable on a \u201ccounting\u201d machine in polyno-",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 488,
+        "latex_position": 1159433,
+        "content_length": 1044,
+        "page_last_content": "ee page 562), geometric primitives (see page 622).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 489,
+        "latex_position": 1161550,
+        "content_length": 1863,
+        "page_last_content": "uestions to steer yourself in the right direction:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 490,
+        "latex_position": 1164562,
+        "content_length": 2990,
+        "page_last_content": "ody smart when they tell you a function is convex.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 491,
+        "latex_position": 1167670,
+        "content_length": 3057,
+        "page_last_content": "se to vary the penalties as optimization proceeds.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 492,
+        "latex_position": 1170626,
+        "content_length": 3012,
+        "page_last_content": "ming (see page 482), satis\ufb01ability (see page 537).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 493,
+        "latex_position": 1172319,
+        "content_length": 1483,
+        "page_last_content": "artite matching, and network \ufb02ow, can be solved as",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 494,
+        "latex_position": 1175368,
+        "content_length": 3071,
+        "page_last_content": "lities can be written as an equivalent dual linear",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 495,
+        "latex_position": 1178333,
+        "content_length": 2982,
+        "page_last_content": "s the better choice. Read the reports for details.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 496,
+        "latex_position": 1180758,
+        "content_length": 2446,
+        "page_last_content": "zation (see page 478), network \ufb02ow (see page 571).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 497,
+        "latex_position": 1182602,
+        "content_length": 2031,
+        "page_last_content": "game that deals you the exact same hand every time",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 498,
+        "latex_position": 1185278,
+        "content_length": 2647,
+        "page_last_content": "ly constrained by the word length of your machine.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 499,
+        "latex_position": 1188355,
+        "content_length": 3033,
+        "page_last_content": "ides a healthy measure of the degree to which your",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 500,
+        "latex_position": 1191577,
+        "content_length": 3236,
+        "page_last_content": "(see page 517), generating subsets (see page 521).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 501,
+        "latex_position": 1193656,
+        "content_length": 2018,
+        "page_last_content": "g bit vectors (see Section 15.5 (page 456)). A bit",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 502,
+        "latex_position": 1197014,
+        "content_length": 3337,
+        "page_last_content": "tructures and algorithms to manipulate signed, ar-",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 503,
+        "latex_position": 1200105,
+        "content_length": 3108,
+        "page_last_content": "ge 697), high precision arithmetic (see page 493).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 504,
+        "latex_position": 1202201,
+        "content_length": 1972,
+        "page_last_content": "oots. See the Implementations section for details.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 505,
+        "latex_position": 1205205,
+        "content_length": 3017,
+        "page_last_content": " stay away from it. The digit-by-digit schoolhouse",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 506,
+        "latex_position": 1208200,
+        "content_length": 2650,
+        "page_last_content": "ncorporate high-precision arithmetic. This is your",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 507,
+        "latex_position": 1210894,
+        "content_length": 2733,
+        "page_last_content": "egers (see page 490), cryptography (see page 697).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 508,
+        "latex_position": 1212914,
+        "content_length": 1851,
+        "page_last_content": ". The problem is similarly solved when all objects",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 509,
+        "latex_position": 1215664,
+        "content_length": 2356,
+        "page_last_content": "j, 1 \u2264j \u2264n\u2014and so updating the array. The knapsack",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 510,
+        "latex_position": 1218709,
+        "content_length": 2949,
+        "page_last_content": "multiple knapsacks. See Section 22.1.4 (page 714).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 511,
+        "latex_position": 1220614,
+        "content_length": 1901,
+        "page_last_content": "see page 652), integer programming (see page 482).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 512,
+        "latex_position": 1222522,
+        "content_length": 1759,
+        "page_last_content": "two di\ufb00erent sequences, such as in multiplying two",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 513,
+        "latex_position": 1225253,
+        "content_length": 2391,
+        "page_last_content": " on n/2 points each, and then applied recursively.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 514,
+        "latex_position": 1228479,
+        "content_length": 3218,
+        "page_last_content": " 693), high-precision arith- metic (see page 493).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 516,
+        "latex_position": 1232469,
+        "content_length": 1833,
+        "page_last_content": "ust determine which one comes \ufb01rst. Sometimes this",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 517,
+        "latex_position": 1235227,
+        "content_length": 2760,
+        "page_last_content": "ionally, this meant tape drives, and Knuth [Knu98]",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 518,
+        "latex_position": 1237892,
+        "content_length": 2693,
+        "page_last_content": "t. com), and Ordinal Technology (www.ordinal.com).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 519,
+        "latex_position": 1241350,
+        "content_length": 3471,
+        "page_last_content": "see page 510), topological sorting (see page 546).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 520,
+        "latex_position": 1243398,
+        "content_length": 1956,
+        "page_last_content": " half, we \ufb01nd q using \u2308lg n\u2309comparisons. This is a",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 521,
+        "latex_position": 1246476,
+        "content_length": 3068,
+        "page_last_content": "ng lists also exploit locality of reference, since",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 522,
+        "latex_position": 1249288,
+        "content_length": 2824,
+        "page_last_content": " ported to work on French text instead of English.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 523,
+        "latex_position": 1252133,
+        "content_length": 2761,
+        "page_last_content": "ctionaries (see page 440), sorting (see page 506).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 524,
+        "latex_position": 1254029,
+        "content_length": 1742,
+        "page_last_content": "element (k = n), and the median element (k = n/2).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 525,
+        "latex_position": 1256969,
+        "content_length": 2894,
+        "page_last_content": "rom left to right on this sorted set, we can count",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 526,
+        "latex_position": 1259050,
+        "content_length": 2095,
+        "page_last_content": "ity queues (see page 445), sorting (see page 506).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 527,
+        "latex_position": 1261092,
+        "content_length": 1983,
+        "page_last_content": "ental change methods. The latter are more e\ufb03cient,",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 528,
+        "latex_position": 1263966,
+        "content_length": 2496,
+        "page_last_content": "in the Lotto application of Section 1.8 (page 22).",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 529,
+        "latex_position": 1267309,
+        "content_length": 3080,
+        "page_last_content": "C++ routines for generating an astonishing variety",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 530,
+        "latex_position": 1269824,
+        "content_length": 2565,
+        "page_last_content": "e page 521), generating partitions (see page 524).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 531,
+        "latex_position": 1271879,
+        "content_length": 1938,
+        "page_last_content": "u have a compelling reason to do so, don\u2019t bother.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 532,
+        "latex_position": 1274816,
+        "content_length": 2829,
+        "page_last_content": "he observation that there are \u0005n\u2212f k\u22121 \u0006 k-subsets",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 533,
+        "latex_position": 1277789,
+        "content_length": 2947,
+        "page_last_content": "page 517), generating par- titions (see page 524).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 534,
+        "latex_position": 1279641,
+        "content_length": 1679,
+        "page_last_content": "n = 100, since there are only 190,569,292 of them.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 535,
+        "latex_position": 1281991,
+        "content_length": 2205,
+        "page_last_content": "a very good way to think about integer partitions.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 536,
+        "latex_position": 1285337,
+        "content_length": 3066,
+        "page_last_content": "uential integer partitions, compositions, strings,",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 537,
+        "latex_position": 1288025,
+        "content_length": 2712,
+        "page_last_content": "ee page 517), generating sub- sets (see page 521).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 538,
+        "latex_position": 1290028,
+        "content_length": 1919,
+        "page_last_content": "ith many isomorphic copies of the same few graphs.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 539,
+        "latex_position": 1293054,
+        "content_length": 2988,
+        "page_last_content": "to us from your homepage to correct this travesty.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 540,
+        "latex_position": 1296214,
+        "content_length": 3087,
+        "page_last_content": "(https://snap.stanford.edu/data/). Check them out.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 541,
+        "latex_position": 1298964,
+        "content_length": 2760,
+        "page_last_content": "see page 517), graph isomor- phism (see page 610).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 542,
+        "latex_position": 1301523,
+        "content_length": 2469,
+        "page_last_content": "and 5:49:12 hours long, so adding a leap day every",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 543,
+        "latex_position": 1304424,
+        "content_length": 2949,
+        "page_last_content": "page 493), generating permutations (see page 517).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 544,
+        "latex_position": 1306083,
+        "content_length": 1609,
+        "page_last_content": "a given set of edges. See Section 18.7 (page 565).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 545,
+        "latex_position": 1309034,
+        "content_length": 2956,
+        "page_last_content": "are called job-shop scheduling, and can be modeled",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 546,
+        "latex_position": 1312276,
+        "content_length": 3247,
+        "page_last_content": "loring (see page 608), bin packing (see page 652).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 547,
+        "latex_position": 1314179,
+        "content_length": 1829,
+        "page_last_content": "\u201cAND\u201d), where each clause is constructed by or-ing",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 548,
+        "latex_position": 1317190,
+        "content_length": 2769,
+        "page_last_content": "u put the book away and try to prove hardness from",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 549,
+        "latex_position": 1319572,
+        "content_length": 2383,
+        "page_last_content": "478), traveling sales- man problem (see page 594).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 551,
+        "latex_position": 1323538,
+        "content_length": 1930,
+        "page_last_content": "tion 7.7.1 (page 218)) this runs in O(n + m) time.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 552,
+        "latex_position": 1326338,
+        "content_length": 2743,
+        "page_last_content": "t link. Losing one or more internal links causes a",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 553,
+        "latex_position": 1329137,
+        "content_length": 2835,
+        "page_last_content": "s book. See Section 22.1.9 (page 716) for details.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 554,
+        "latex_position": 1331083,
+        "content_length": 1979,
+        "page_last_content": "vity (see page 568), shortest path (see page 554).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 555,
+        "latex_position": 1332979,
+        "content_length": 1826,
+        "page_last_content": "n-degree zero. At least one such source must exist",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 556,
+        "latex_position": 1335911,
+        "content_length": 2971,
+        "page_last_content": " Library [SLL02] (http://www.boost.org/libs/graph/",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 557,
+        "latex_position": 1337729,
+        "content_length": 1849,
+        "page_last_content": "age 506), feedback edge/vertex set (see page 618).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 558,
+        "latex_position": 1339519,
+        "content_length": 1663,
+        "page_last_content": "to implement and more e\ufb03cient. The contenders are:",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 559,
+        "latex_position": 1341494,
+        "content_length": 1904,
+        "page_last_content": " forest with at most half as many trees as before:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 560,
+        "latex_position": 1344210,
+        "content_length": 2658,
+        "page_last_content": "hould su\ufb03ce in practice. See the references below.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 561,
+        "latex_position": 1347798,
+        "content_length": 3545,
+        "page_last_content": "a complete, up-to-date survey on spanner networks.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 562,
+        "latex_position": 1349526,
+        "content_length": 1759,
+        "page_last_content": "(see page 614), traveling salesman (see page 594).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 563,
+        "latex_position": 1351210,
+        "content_length": 1584,
+        "page_last_content": " de\ufb01nes the best interpre- tation of the sentence.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 564,
+        "latex_position": 1354042,
+        "content_length": 2731,
+        "page_last_content": "em into a graph of distances to feed to Dijkstra\u2019s",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 565,
+        "latex_position": 1356857,
+        "content_length": 2447,
+        "page_last_content": "to i\u2014in other words, the shortest cycle through i.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 566,
+        "latex_position": 1360112,
+        "content_length": 3293,
+        "page_last_content": "udy of how four such heuristics interact together.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 567,
+        "latex_position": 1361737,
+        "content_length": 1644,
+        "page_last_content": "ow (see page 571), motion planning (see page 667).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 568,
+        "latex_position": 1363817,
+        "content_length": 1913,
+        "page_last_content": "54). If we are not interested in the length of the",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 569,
+        "latex_position": 1366897,
+        "content_length": 3032,
+        "page_last_content": " hope of \ufb01nding the minimum possible reduction. To",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 570,
+        "latex_position": 1369597,
+        "content_length": 2730,
+        "page_last_content": "ents (see page 542), shortest path (see page 554).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 571,
+        "latex_position": 1371631,
+        "content_length": 1884,
+        "page_last_content": "ic assignment problem of boys to girls. But modern",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 572,
+        "latex_position": 1374656,
+        "content_length": 2999,
+        "page_last_content": "l use from http://www.avglab.com/andrew/soft.html.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 573,
+        "latex_position": 1378069,
+        "content_length": 3372,
+        "page_last_content": "k \ufb02ow (see page 571). vertex cover (see page 591).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 574,
+        "latex_position": 1379831,
+        "content_length": 1648,
+        "page_last_content": "itions are weakened. An undirected connected graph",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 575,
+        "latex_position": 1383174,
+        "content_length": 3308,
+        "page_last_content": " the tools for an e\ufb03cient implementation: Eulerian",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 576,
+        "latex_position": 1386589,
+        "content_length": 3392,
+        "page_last_content": " (see page 562), Hamiltonian cycle (see page 598).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 577,
+        "latex_position": 1389001,
+        "content_length": 2291,
+        "page_last_content": "eaning a single edge whose deletion disconnects G.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 578,
+        "latex_position": 1392235,
+        "content_length": 3071,
+        "page_last_content": "nted by Chekuri et al. as part of an excellent ex-",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 579,
+        "latex_position": 1395147,
+        "content_length": 2876,
+        "page_last_content": "ow (see page 571), graph partition (see page 601).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 580,
+        "latex_position": 1396938,
+        "content_length": 1580,
+        "page_last_content": "by its capacity cij, so 0 \u2264xij \u2264cij for 1 \u2264i, j \u2264n",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 581,
+        "latex_position": 1399208,
+        "content_length": 2170,
+        "page_last_content": " below. The two primary classes of algorithms are:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 582,
+        "latex_position": 1402223,
+        "content_length": 3038,
+        "page_last_content": "ching (see page 562), connectivity (see page 568).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 583,
+        "latex_position": 1403761,
+        "content_length": 1434,
+        "page_last_content": "esulting lines tend to partially or fully overlap.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 584,
+        "latex_position": 1406492,
+        "content_length": 2718,
+        "page_last_content": "d study, you can a\ufb00ord more time for optimization.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 585,
+        "latex_position": 1409609,
+        "content_length": 3168,
+        "page_last_content": "g graphs. The Boost Graph Library and JGraphT both",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 586,
+        "latex_position": 1412180,
+        "content_length": 2614,
+        "page_last_content": " (see page 578), planarity testing (see page 581).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 587,
+        "latex_position": 1413998,
+        "content_length": 1791,
+        "page_last_content": "e used to do so. But such algorithms are overkill,",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 588,
+        "latex_position": 1416987,
+        "content_length": 3006,
+        "page_last_content": "e have free trial or non-commercial use downloads.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 589,
+        "latex_position": 1418525,
+        "content_length": 1605,
+        "page_last_content": "hs (see page 574), planar drawings (see page 581).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 590,
+        "latex_position": 1420544,
+        "content_length": 1920,
+        "page_last_content": "ages of my Algorithm Repository (www.algorist.com)",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 591,
+        "latex_position": 1423749,
+        "content_length": 3225,
+        "page_last_content": "pigale.sourceforge.net/) is a C++ graph editor and",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 592,
+        "latex_position": 1425678,
+        "content_length": 1937,
+        "page_last_content": "wing (see page 574), drawing trees (see page 578).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 594,
+        "latex_position": 1429470,
+        "content_length": 1763,
+        "page_last_content": "ny additional vertex. A given maximal clique might",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 595,
+        "latex_position": 1432640,
+        "content_length": 3130,
+        "page_last_content": "ted annealing, are likely to work reasonably well.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 596,
+        "latex_position": 1435227,
+        "content_length": 2611,
+        "page_last_content": "t set (see page 589), vertex cover (see page 591).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 597,
+        "latex_position": 1437214,
+        "content_length": 1802,
+        "page_last_content": "can thus be used to \ufb01nd the independent set of G\u2032.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 598,
+        "latex_position": 1440061,
+        "content_length": 2867,
+        "page_last_content": "oring (see page 604), vertex cover (see page 591).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 599,
+        "latex_position": 1442139,
+        "content_length": 1878,
+        "page_last_content": "rtex cover selects the vertex with highest degree,",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 600,
+        "latex_position": 1445259,
+        "content_length": 3106,
+        "page_last_content": "hed vertices. It is curious that the dual problems",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 601,
+        "latex_position": 1446974,
+        "content_length": 1727,
+        "page_last_content": "dent set (see page 589), set cover (see page 678).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 602,
+        "latex_position": 1448780,
+        "content_length": 1693,
+        "page_last_content": " inequality, which is why it is so hard to \ufb01nd the",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 603,
+        "latex_position": 1451660,
+        "content_length": 2888,
+        "page_last_content": "oposed for TSP, so the situation can be confusing.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 604,
+        "latex_position": 1454528,
+        "content_length": 2812,
+        "page_last_content": "/www.math.uwaterloo.ca/tsp. It is the clear choice",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 605,
+        "latex_position": 1457359,
+        "content_length": 2841,
+        "page_last_content": "g tree (see page 549), convex hull (see page 626).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 606,
+        "latex_position": 1459408,
+        "content_length": 1896,
+        "page_last_content": "tial one. This allows possibilities for heuristics",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 607,
+        "latex_position": 1462294,
+        "content_length": 2896,
+        "page_last_content": "l case of Hamiltonian cycle. Links to the programs",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 608,
+        "latex_position": 1464276,
+        "content_length": 2008,
+        "page_last_content": "(see page 565), traveling salesman (see page 594).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 609,
+        "latex_position": 1466164,
+        "content_length": 1763,
+        "page_last_content": "the result- ing partition very unbalanced in size.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 610,
+        "latex_position": 1468282,
+        "content_length": 1997,
+        "page_last_content": "v may change after its neighbors jump, so multiple",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 611,
+        "latex_position": 1471242,
+        "content_length": 2982,
+        "page_last_content": "tivity (see page 568), network \ufb02ow (see page 571).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 612,
+        "latex_position": 1473062,
+        "content_length": 1705,
+        "page_last_content": "6 (page 562)) when restricted to bipartite graphs.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 613,
+        "latex_position": 1476143,
+        "content_length": 3050,
+        "page_last_content": "ph and exchanging two of the colors (say, painting",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 614,
+        "latex_position": 1479421,
+        "content_length": 3331,
+        "page_last_content": " parameters, such as Wigderson\u2019s [Wig83] factor of",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 615,
+        "latex_position": 1480454,
+        "content_length": 1025,
+        "page_last_content": " set (see page 589), edge coloring (see page 608).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 616,
+        "latex_position": 1482449,
+        "content_length": 1874,
+        "page_last_content": "colored using at most \u0394 + 1 colors. To put this in",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 617,
+        "latex_position": 1484853,
+        "content_length": 2378,
+        "page_last_content": "oloring (see page 604), scheduling (see page 534).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 618,
+        "latex_position": 1486877,
+        "content_length": 1875,
+        "page_last_content": "have one, because G is always identical to itself.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 619,
+        "latex_position": 1489782,
+        "content_length": 2878,
+        "page_last_content": "phisms. See the references below for more details.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 620,
+        "latex_position": 1492793,
+        "content_length": 3005,
+        "page_last_content": "f these equivalence-class partitioning heuristics.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 621,
+        "latex_position": 1495296,
+        "content_length": 2543,
+        "page_last_content": "th (see page 554), string matching (see page 685).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 622,
+        "latex_position": 1497229,
+        "content_length": 1812,
+        "page_last_content": "part of the input but must be deduced from the set",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 623,
+        "latex_position": 1500156,
+        "content_length": 2939,
+        "page_last_content": " for both Euclidean and rectilinear Steiner trees.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 624,
+        "latex_position": 1503339,
+        "content_length": 3173,
+        "page_last_content": "thods accept arbitrary distance matrices as input.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 625,
+        "latex_position": 1505288,
+        "content_length": 1948,
+        "page_last_content": "tree (see page 549), shortest path (see page 554).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 626,
+        "latex_position": 1507225,
+        "content_length": 1793,
+        "page_last_content": "he graph. Issues in feedback set problems include:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 627,
+        "latex_position": 1510088,
+        "content_length": 2862,
+        "page_last_content": "elete vertices to/from the candidate feedback set.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 628,
+        "latex_position": 1512928,
+        "content_length": 2865,
+        "page_last_content": "sorting (see page 546), scheduling (see page 534).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 630,
+        "latex_position": 1516736,
+        "content_length": 1918,
+        "page_last_content": "bly the most common approach, and what I recommend",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 631,
+        "latex_position": 1519303,
+        "content_length": 2599,
+        "page_last_content": "el geometry as possible. These primitives include:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 632,
+        "latex_position": 1521713,
+        "content_length": 2165,
+        "page_last_content": " representative of the problems with degen- eracy.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 633,
+        "latex_position": 1524640,
+        "content_length": 2801,
+        "page_last_content": "e 648), maintaining ar- rangements (see page 671).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 634,
+        "latex_position": 1526605,
+        "content_length": 1848,
+        "page_last_content": "ructures that represent hulls\u2014are you just looking",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 635,
+        "latex_position": 1529525,
+        "content_length": 2799,
+        "page_last_content": " it loses e\ufb00ectiveness as the dimension increases.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 636,
+        "latex_position": 1532650,
+        "content_length": 3145,
+        "page_last_content": "ilable at http://www.netlib.org/voronoi/hull.html.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 637,
+        "latex_position": 1535217,
+        "content_length": 2599,
+        "page_last_content": "g (see page 506), Voronoi diagrams (see page 634).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 638,
+        "latex_position": 1537194,
+        "content_length": 1819,
+        "page_last_content": "rom left to right as per the convex-hull algorithm",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 639,
+        "latex_position": 1540014,
+        "content_length": 2836,
+        "page_last_content": "\u201cSteiner\u201d points to the data set to facilitate the",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 640,
+        "latex_position": 1543241,
+        "content_length": 3246,
+        "page_last_content": "PT78]. An O(n lg lg n) algorithm by Tarjan and van",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 641,
+        "latex_position": 1544427,
+        "content_length": 1196,
+        "page_last_content": "ee page 634), polygon partitioning (see page 658).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 642,
+        "latex_position": 1546355,
+        "content_length": 1777,
+        "page_last_content": " Voronoi diagram V (S) de\ufb01ne the possible channels",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 643,
+        "latex_position": 1549256,
+        "content_length": 2845,
+        "page_last_content": "re the sites are no longer constrained to have all",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 644,
+        "latex_position": 1552511,
+        "content_length": 3259,
+        "page_last_content": "tion (see page 644), triangulation (see page 630).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 645,
+        "latex_position": 1554659,
+        "content_length": 2003,
+        "page_last_content": " points (say n \u2264100), or if only a few queries are",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 646,
+        "latex_position": 1557792,
+        "content_length": 3060,
+        "page_last_content": "data points in your application? If these are very",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 647,
+        "latex_position": 1561044,
+        "content_length": 3218,
+        "page_last_content": "eral random trials is declared the winner. Similar",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 648,
+        "latex_position": 1561806,
+        "content_length": 804,
+        "page_last_content": "grams (see page 634), range search (see page 641).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 649,
+        "latex_position": 1563665,
+        "content_length": 1716,
+        "page_last_content": "sitions are discussed in Section 20.11 (page 658).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 650,
+        "latex_position": 1566832,
+        "content_length": 3011,
+        "page_last_content": "or any query point within it. Range queries reduce",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 651,
+        "latex_position": 1569422,
+        "content_length": 2548,
+        "page_last_content": "ees (see page 460), point location (see page 644).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 652,
+        "latex_position": 1571274,
+        "content_length": 1733,
+        "page_last_content": "if many such queries will be performed. It is much",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 653,
+        "latex_position": 1574262,
+        "content_length": 2985,
+        "page_last_content": "ch region does not cut across too many leaf cells.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 654,
+        "latex_position": 1577412,
+        "content_length": 3121,
+        "page_last_content": "va. An experimental study of algorithms for planar",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 655,
+        "latex_position": 1578803,
+        "content_length": 1441,
+        "page_last_content": "page 634), nearest-neighbor search (see page 637).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 656,
+        "latex_position": 1580682,
+        "content_length": 1723,
+        "page_last_content": "pair of lines. Constructing the arrangement of the",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 657,
+        "latex_position": 1583322,
+        "content_length": 2647,
+        "page_last_content": "st do repeated analysis of the same \ufb01xed geometry.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 658,
+        "latex_position": 1586315,
+        "content_length": 2996,
+        "page_last_content": "ine segments in the plane in O((n + k) lg n) time.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 659,
+        "latex_position": 1587899,
+        "content_length": 1633,
+        "page_last_content": " (see page 671), motion plan- ning (see page 667).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 660,
+        "latex_position": 1589889,
+        "content_length": 1910,
+        "page_last_content": " the knapsack problem of Section 16.10 (page 497).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 661,
+        "latex_position": 1593102,
+        "content_length": 3156,
+        "page_last_content": "g rectangle for a polygonal part is easy; just \ufb01nd",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 662,
+        "latex_position": 1595851,
+        "content_length": 2806,
+        "page_last_content": "roblem (see page 497), set packing (see page 682).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 663,
+        "latex_position": 1597864,
+        "content_length": 1870,
+        "page_last_content": "decomposes the plane into regions around each line",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 664,
+        "latex_position": 1600717,
+        "content_length": 2839,
+        "page_last_content": "olygon P. Associated with it are routines for con-",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 665,
+        "latex_position": 1603233,
+        "content_length": 2556,
+        "page_last_content": "rams (see page 634), Minkowski sum (see page 674).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 666,
+        "latex_position": 1605061,
+        "content_length": 1722,
+        "page_last_content": "3 (page 630) for an introduction to triangulation.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 667,
+        "latex_position": 1608129,
+        "content_length": 3008,
+        "page_last_content": "olygons. Further, a triangulation is a simple form",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 668,
+        "latex_position": 1610569,
+        "content_length": 2424,
+        "page_last_content": "gulation (see page 630), set cover (see page 678).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 669,
+        "latex_position": 1612631,
+        "content_length": 1909,
+        "page_last_content": "h an edge without severely distorting the polygon.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 670,
+        "latex_position": 1615840,
+        "content_length": 3162,
+        "page_last_content": "tically simplify polyhedra. See the Notes section.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 671,
+        "latex_position": 1618337,
+        "content_length": 2545,
+        "page_last_content": "inning (see page 655), convex hull (see page 626).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 672,
+        "latex_position": 1620187,
+        "content_length": 1738,
+        "page_last_content": "n applications such as OCR, because the characters",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 673,
+        "latex_position": 1623205,
+        "content_length": 2987,
+        "page_last_content": "o do such feature engineering. A black-box program",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 674,
+        "latex_position": 1625714,
+        "content_length": 2502,
+        "page_last_content": "omorphism (see page 610), thinning (see page 655).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 675,
+        "latex_position": 1627759,
+        "content_length": 1870,
+        "page_last_content": "intersection against each of the n obstacle edges,",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 676,
+        "latex_position": 1630559,
+        "content_length": 2842,
+        "page_last_content": "y an obstacle, and then trace out a path along the",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 677,
+        "latex_position": 1633847,
+        "content_length": 3297,
+        "page_last_content": " that any problem with d degrees of freedom can be",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 678,
+        "latex_position": 1635136,
+        "content_length": 1289,
+        "page_last_content": "path (see page 554), Minkowski sum (see page 674).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 679,
+        "latex_position": 1636978,
+        "content_length": 1688,
+        "page_last_content": " this out. Issues arising in arrangements include:",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 680,
+        "latex_position": 1639846,
+        "content_length": 2855,
+        "page_last_content": " (not just lines) in the plane. This should be the",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 681,
+        "latex_position": 1642666,
+        "content_length": 2827,
+        "page_last_content": "ion (see page 648), point location (see page 644).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 682,
+        "latex_position": 1644527,
+        "content_length": 1709,
+        "page_last_content": "on of the bounding boxes of A and B. For each pair",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 683,
+        "latex_position": 1647463,
+        "content_length": 2895,
+        "page_last_content": " convex pieces. The optimal solution is not neces-",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 684,
+        "latex_position": 1648111,
+        "content_length": 678,
+        "page_last_content": "ee page 667), simplifying polygons (see page 661).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 686,
+        "latex_position": 1651730,
+        "content_length": 1737,
+        "page_last_content": "ypes of set cover problems you should be aware of:",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 687,
+        "latex_position": 1654763,
+        "content_length": 2960,
+        "page_last_content": "r. Approximation algorithms do no worse than twice",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 688,
+        "latex_position": 1657049,
+        "content_length": 2127,
+        "page_last_content": "vered by at least one selected subset. The minimum",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 689,
+        "latex_position": 1659058,
+        "content_length": 2014,
+        "page_last_content": " cover (see page 591), set packing (see page 682).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 690,
+        "latex_position": 1661062,
+        "content_length": 1858,
+        "page_last_content": "ed a perfect packing given the subset constraints.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 691,
+        "latex_position": 1663761,
+        "content_length": 2656,
+        "page_last_content": "ght be easier to \ufb01nd an appropriate implementation",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 692,
+        "latex_position": 1664955,
+        "content_length": 1212,
+        "page_last_content": "dent set (see page 589), set cover (see page 678).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 693,
+        "latex_position": 1667431,
+        "content_length": 2423,
+        "page_last_content": "e pattern/text that provides new information about",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 694,
+        "latex_position": 1670365,
+        "content_length": 2930,
+        "page_last_content": "on constructing automata from regular expressions.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 695,
+        "latex_position": 1672860,
+        "content_length": 2547,
+        "page_last_content": " 448), approximate string matching (see page 688).",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 696,
+        "latex_position": 1675362,
+        "content_length": 2208,
+        "page_last_content": "titution cost. \u2022 D[i \u22121, j] + deletion cost of pi.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 697,
+        "latex_position": 1678234,
+        "content_length": 2891,
+        "page_last_content": " and substitutions, we need only traverse the band",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 698,
+        "latex_position": 1681279,
+        "content_length": 2966,
+        "page_last_content": ", where A is the cost of starting the gap and B is",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 699,
+        "latex_position": 1683903,
+        "content_length": 2551,
+        "page_last_content": "is available at https://github.com/laurikari/tre/.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 700,
+        "latex_position": 1686496,
+        "content_length": 2575,
+        "page_last_content": "age 685), longest common substring (see page 706).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 701,
+        "latex_position": 1689629,
+        "content_length": 4427,
+        "page_last_content": "ompression. Can we eliminate redundant white space",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 702,
+        "latex_position": 1692507,
+        "content_length": 2890,
+        "page_last_content": "t groups. Static algorithms, such as Hu\ufb00man codes,",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 703,
+        "latex_position": 1695545,
+        "content_length": 3020,
+        "page_last_content": "ther popular program, and you might well do worse.",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 704,
+        "latex_position": 1697367,
+        "content_length": 1860,
+        "page_last_content": "ing (see page 709), cryptogra- phy (see page 697).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 705,
+        "latex_position": 1699704,
+        "content_length": 2294,
+        "page_last_content": " is depreciated, with usage disallowed after 2023.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 706,
+        "latex_position": 1702802,
+        "content_length": 3114,
+        "page_last_content": "rs of magnitude faster than public key algorithms.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 707,
+        "latex_position": 1705813,
+        "content_length": 3017,
+        "page_last_content": " what is to stop you from editing the \ufb01le and then",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 708,
+        "latex_position": 1708767,
+        "content_length": 3004,
+        "page_last_content": "hms, with [FS03] as perhaps a better introduction.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 709,
+        "latex_position": 1709873,
+        "content_length": 1135,
+        "page_last_content": "see page 490), text com- pression (see page 693)).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 710,
+        "latex_position": 1711951,
+        "content_length": 1930,
+        "page_last_content": "85) for alternative approaches to string matching.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 711,
+        "latex_position": 1714811,
+        "content_length": 2849,
+        "page_last_content": "achine is in both states. It is straightforward to",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 712,
+        "latex_position": 1717997,
+        "content_length": 3173,
+        "page_last_content": "and optimization of automata includes [Wat03]. The",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 713,
+        "latex_position": 1718638,
+        "content_length": 688,
+        "page_last_content": "ty (see page 537). string matching (see page 685).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 714,
+        "latex_position": 1721013,
+        "content_length": 2507,
+        "page_last_content": "n. Indeed, an implementation is given on page 323.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 715,
+        "latex_position": 1724056,
+        "content_length": 2944,
+        "page_last_content": " computing the pairwise alignment for each pair of",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 716,
+        "latex_position": 1726821,
+        "content_length": 2814,
+        "page_last_content": " 688), shortest common superstring (see page 709).",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 717,
+        "latex_position": 1728895,
+        "content_length": 2051,
+        "page_last_content": "inding the shortest such string is what\u2019s problem-",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 718,
+        "latex_position": 1732398,
+        "content_length": 3362,
+        "page_last_content": "m for this more general version of shortest common",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 719,
+        "latex_position": 1733511,
+        "content_length": 1154,
+        "page_last_content": "s (see page 448), text compression (see page 693).",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 721,
+        "latex_position": 1738161,
+        "content_length": 2755,
+        "page_last_content": "r of interesting codes, tables, and papers. Netlib",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 722,
+        "latex_position": 1740926,
+        "content_length": 2741,
+        "page_last_content": "objects. Finally, it contains programs for several",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 723,
+        "latex_position": 1743506,
+        "content_length": 2592,
+        "page_last_content": "utations, subsets, and partitions. Such algorithms",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 724,
+        "latex_position": 1746036,
+        "content_length": 2543,
+        "page_last_content": "All are available from https://snap.stanford.edu/.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 725,
+        "latex_position": 1748425,
+        "content_length": 2409,
+        "page_last_content": "gies 215 West 92nd St. Suite 1F New York, NY 10025",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 727,
+        "latex_position": 1753107,
+        "content_length": 2670,
+        "page_last_content": "ional Geometry, pages 1057\u2013 1093. CRC Press, 2018.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 728,
+        "latex_position": 1755660,
+        "content_length": 2533,
+        "page_last_content": " John Wiley & Sons, 1997. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 729,
+        "latex_position": 1758277,
+        "content_length": 2616,
+        "page_last_content": "to Everything Else and What It Means. Plume, 2003.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 730,
+        "latex_position": 1760859,
+        "content_length": 2585,
+        "page_last_content": "(2):85\u201393, February 1992. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 731,
+        "latex_position": 1763654,
+        "content_length": 2781,
+        "page_last_content": "s, and Programming, pages 222\u2013233. Springer, 2004.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 732,
+        "latex_position": 1766395,
+        "content_length": 2707,
+        "page_last_content": "362\u2013380. MIT Press, 1967. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 733,
+        "latex_position": 1768762,
+        "content_length": 2410,
+        "page_last_content": "urier Transform. Prentice, facimile edition, 1988.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 734,
+        "latex_position": 1771219,
+        "content_length": 2456,
+        "page_last_content": "ipment Corporation, 1994. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 735,
+        "latex_position": 1773695,
+        "content_length": 2542,
+        "page_last_content": ". Annals of Operations Research, 76:95\u2013 107, 1998.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 736,
+        "latex_position": 1776409,
+        "content_length": 2588,
+        "page_last_content": "ion, pages 455\u2013531, 2013. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 737,
+        "latex_position": 1778955,
+        "content_length": 2628,
+        "page_last_content": " SIAM Journal on Computing, 47(6):2337\u20132361, 2018.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 738,
+        "latex_position": 1781595,
+        "content_length": 2643,
+        "page_last_content": "s (TALG), 12(4):45, 2016. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 739,
+        "latex_position": 1784156,
+        "content_length": 2613,
+        "page_last_content": "f Computer and System Sciences, 77(1):62\u201390, 2011.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 740,
+        "latex_position": 1786795,
+        "content_length": 2625,
+        "page_last_content": " SIAM Publications, 1979. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 741,
+        "latex_position": 1789413,
+        "content_length": 2664,
+        "page_last_content": "rs. Science in China (Series A), 37:377\u2013383, 1994.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 742,
+        "latex_position": 1792001,
+        "content_length": 2562,
+        "page_last_content": "e University Press, 2010. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 743,
+        "latex_position": 1794629,
+        "content_length": 2676,
+        "page_last_content": "Symp. Computational Geometry, pages 319\u2013326, 2007.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 744,
+        "latex_position": 1797155,
+        "content_length": 2514,
+        "page_last_content": "705\u2013722. CRC Press, 2018. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 745,
+        "latex_position": 1799820,
+        "content_length": 2716,
+        "page_last_content": "thods and Applications. Dover, \ufb01fth edition, 2003.",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 746,
+        "latex_position": 1802620,
+        "content_length": 2800,
+        "page_last_content": "amming, 71:153\u2013177, 1995. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 747,
+        "latex_position": 1805201,
+        "content_length": 2614,
+        "page_last_content": "umber 2223 in LNCS, pages 502\u2013513. Springer, 2001.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 748,
+        "latex_position": 1807735,
+        "content_length": 2527,
+        "page_last_content": "onal Research, 101, 1997. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 749,
+        "latex_position": 1810396,
+        "content_length": 2726,
+        "page_last_content": "Information and Computation, 209(3):456\u2013470, 2011.",
+        "method": "exact_match_fallback"
+    },
+    {
+        "page_number": 750,
+        "latex_position": 1813014,
+        "content_length": 2568,
+        "page_last_content": "n, pages 3482\u20133486, 2009. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 751,
+        "latex_position": 1815674,
+        "content_length": 2715,
+        "page_last_content": "dancy codes. Proc. of the IRE, 40:1098\u20131101, 1952.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 752,
+        "latex_position": 1818313,
+        "content_length": 2607,
+        "page_last_content": " John Wiley & Sons, 2000. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 753,
+        "latex_position": 1820915,
+        "content_length": 2664,
+        "page_last_content": "ium on Theory of Comput- ing, pages 427\u2013434, 1996.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 754,
+        "latex_position": 1823658,
+        "content_length": 2695,
+        "page_last_content": "inger- Verlag LNCS, 1997. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 755,
+        "latex_position": 1826090,
+        "content_length": 2501,
+        "page_last_content": "lligence and Pattern Recognition, 2:197\u2013216, 1985.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 756,
+        "latex_position": 1828621,
+        "content_length": 2498,
+        "page_last_content": "e University Press, 2006. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 757,
+        "latex_position": 1831227,
+        "content_length": 2643,
+        "page_last_content": ". Lecture Notes in Computer Science, v.4009, 2006.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 758,
+        "latex_position": 1833958,
+        "content_length": 2714,
+        "page_last_content": "rk, second edition, 1997. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 759,
+        "latex_position": 1836512,
+        "content_length": 2570,
+        "page_last_content": "Machine Learning Research, 9(Nov):2579\u20132605, 2008.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 760,
+        "latex_position": 1839317,
+        "content_length": 2784,
+        "page_last_content": "13\u20131134. CRC Press, 2018. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 761,
+        "latex_position": 1842022,
+        "content_length": 2738,
+        "page_last_content": "e Mathematics, pages 213\u2013258. North-Holland, 1987.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 762,
+        "latex_position": 1844734,
+        "content_length": 2712,
+        "page_last_content": "olume 5. Macmillan, 1963. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 763,
+        "latex_position": 1847079,
+        "content_length": 2390,
+        "page_last_content": " Cambridge University Press, second edition, 2001.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 764,
+        "latex_position": 1849640,
+        "content_length": 2530,
+        "page_last_content": "Studies, 12:78\u2013107, 1980. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 765,
+        "latex_position": 1852119,
+        "content_length": 2563,
+        "page_last_content": "graphs. SIAM J. Matrix Analysis, 11:430\u2013452, 1990.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 766,
+        "latex_position": 1854677,
+        "content_length": 2556,
+        "page_last_content": "Jones and Bartlett, 2006. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 767,
+        "latex_position": 1857205,
+        "content_length": 2602,
+        "page_last_content": "h Steiner Tree Approximation, pages 122\u2013134, 2005.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 768,
+        "latex_position": 1859811,
+        "content_length": 2592,
+        "page_last_content": "J. ACM, 23:433\u2013445, 1976. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 769,
+        "latex_position": 1862370,
+        "content_length": 2609,
+        "page_last_content": "son. CSLI Publications, Stanford University, 1999.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 770,
+        "latex_position": 1865046,
+        "content_length": 2655,
+        "page_last_content": "mputing, 7:281\u2013292, 1971. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 771,
+        "latex_position": 1867652,
+        "content_length": 2673,
+        "page_last_content": "and Visualization. Chapman & Hall/CRC Press, 2013.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 772,
+        "latex_position": 1870166,
+        "content_length": 2484,
+        "page_last_content": "Science, 8:189\u2013201, 1979. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 773,
+        "latex_position": 1872663,
+        "content_length": 2542,
+        "page_last_content": "hm Analysis in Java. Pearson, third edition, 2011.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 774,
+        "latex_position": 1875104,
+        "content_length": 2448,
+        "page_last_content": "tam Books, Toronto, 1979. CHAPTER 23. BIBLIOGRAPHY",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 775,
+        "latex_position": 1877500,
+        "content_length": 2439,
+        "page_last_content": "h Euro. Symp. Algorithms (ESA), pages 33\u201348, 2001.",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 777,
+        "latex_position": 1881025,
+        "content_length": 1979,
+        "page_last_content": "43, 446, 646 binary search tree - applications, 83",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 778,
+        "latex_position": 1883051,
+        "content_length": 2028,
+        "page_last_content": "tion, 535 caveat, 438 center vertex, 555, 557, 579",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 779,
+        "latex_position": 1885113,
+        "content_length": 2067,
+        "page_last_content": "er algebra system, 479, 493 computer graphics, 472",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 780,
+        "latex_position": 1887225,
+        "content_length": 2130,
+        "page_last_content": " DAG \u2013 shortest path in, 556 data compression, 327",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 781,
+        "latex_position": 1889262,
+        "content_length": 2066,
+        "page_last_content": "63 DIMACS Implementation Challenge, 564, 573, 588,",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 782,
+        "latex_position": 1891405,
+        "content_length": 2149,
+        "page_last_content": "03 edit distance, 314, 706 Edmond\u2019s algorithm, 564",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 783,
+        "latex_position": 1893535,
+        "content_length": 2154,
+        "page_last_content": "96, 701 factory location, 634 family tree, 18, 578",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 784,
+        "latex_position": 1895675,
+        "content_length": 2134,
+        "page_last_content": "oblems, 459, 520, 523 generating permutations, 517",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 785,
+        "latex_position": 1897664,
+        "content_length": 2012,
+        "page_last_content": "2, 280, 306, 353, 388, 428 had-sex-with graph, 201",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 786,
+        "latex_position": 1899637,
+        "content_length": 1990,
+        "page_last_content": ", 388, 428, 444, 463 implementations, caveats, 438",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 787,
+        "latex_position": 1901835,
+        "content_length": 2225,
+        "page_last_content": "68 JFLAP, 704 jigsaw puzzle, 652 job matching, 562",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 788,
+        "latex_position": 1904049,
+        "content_length": 2093,
+        "page_last_content": "ation, 595 linear programming \u2013 special cases, 571",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 789,
+        "latex_position": 1906058,
+        "content_length": 2040,
+        "page_last_content": "l matching, 592 maximum acyclic subgraph, 397, 618",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 790,
+        "latex_position": 1908077,
+        "content_length": 2039,
+        "page_last_content": "matrix, 473 multiset, 303, 519 musical scales, 506",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 791,
+        "latex_position": 1910094,
+        "content_length": 2031,
+        "page_last_content": "6 odd-length cycles, 563, 607 o\ufb00-line problem, 653",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 792,
+        "latex_position": 1912082,
+        "content_length": 2023,
+        "page_last_content": "on, 517 permutation generation \u2013 backtracking, 286",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 793,
+        "latex_position": 1914106,
+        "content_length": 2048,
+        "page_last_content": ", 650, 680 priority queues \u2013 arithmetic model, 509",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 794,
+        "latex_position": 1916084,
+        "content_length": 1995,
+        "page_last_content": "mbinatorial objects, 505 ranking permutations, 518",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 795,
+        "latex_position": 1918182,
+        "content_length": 2121,
+        "page_last_content": ", 514 selection \u2013 subsets, 521 selection sort, 115",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 796,
+        "latex_position": 1920320,
+        "content_length": 2148,
+        "page_last_content": " (SVD), 467 sink vertex, 546 sinks \u2013 multiple, 572",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 797,
+        "latex_position": 1922381,
+        "content_length": 2068,
+        "page_last_content": "icking, 478 straight-line graph drawings, 575, 583",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 798,
+        "latex_position": 1924366,
+        "content_length": 1997,
+        "page_last_content": "cal sorting \u2013 related problems, 471, 509, 536, 620",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 799,
+        "latex_position": 1926392,
+        "content_length": 2027,
+        "page_last_content": " validation, 699 van Emde Boas priority queue, 447",
+        "last_location": 1927916,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 800,
+        "latex_position": 1927906,
+        "content_length": 1540,
+        "page_last_content": "x, 527, 708 Zipf\u2019s law, 511 zone theorem, 672, 673",
+        "last_location": 1927916,
+        "method": "exact_match"
+    }
+]

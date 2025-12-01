@@ -323,5 +323,30 @@
     "book_name": "data-science",
     "version": "Index fix",
     "last_used": "2025-11-09T15:53:50.383193"
+  },
+  "ai___img_fix": {
+    "book_name": "ai",
+    "version": "img_fix",
+    "last_used": "2025-11-30T20:10:48.295160"
+  },
+  "assembly___img_fix": {
+    "book_name": "assembly",
+    "version": "img_fix",
+    "last_used": "2025-11-30T20:11:48.922128"
+  },
+  "cybersec___img_fix": {
+    "book_name": "cybersec",
+    "version": "img_fix",
+    "last_used": "2025-11-30T20:12:38.536328"
+  },
+  "data-science___img_fix": {
+    "book_name": "data-science",
+    "version": "img_fix",
+    "last_used": "2025-11-30T20:13:15.121137"
+  },
+  "algorithms___img_fix": {
+    "book_name": "algorithms",
+    "version": "img_fix",
+    "last_used": "2025-11-30T20:14:09.838713"
   }
 }

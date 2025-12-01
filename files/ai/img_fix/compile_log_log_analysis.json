@@ -1,0 +1,19 @@
+{
+  "log_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/img_fix/compile_log.txt",
+  "errors": [],
+  "warnings": [],
+  "summary": {
+    "total_errors": 0,
+    "total_warnings": 0,
+    "unique_errors": 0,
+    "unique_warnings": 0,
+    "compilation_successful": false
+  },
+  "compilation_info": {
+    "pages_compiled": 0,
+    "total_pages": 0,
+    "compilation_time": null,
+    "latex_version": null,
+    "output_file": null
+  }
+}
