@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: data-science_final.aux
+The style file: plain.bst
+Database file #1: data-science_references.bib
+I was expecting an "="---line 524 of file data-science_references.bib
+ :   author={Von Ahn, Luis and Maurer, Benjamin and McMillen, Colin and Abraham, David and Blum, Manuel},n  
+ :                                                                                                          journal={Science},
+I'm skipping whatever remains of this entry
+You've used 92 entries,
+            2118 wiz_defined-function locations,
+            937 strings with 16054 characters,
+and the built_in function-call counts, 27508 in all, are:
+= -- 2657
+> -- 1141
+< -- 18
++ -- 476
+- -- 362
+* -- 1484
+:= -- 4501
+add.period$ -- 291
+call.type$ -- 92
+change.case$ -- 415
+chr.to.int$ -- 0
+cite$ -- 92
+duplicate$ -- 1294
+empty$ -- 2379
+format.name$ -- 362
+if$ -- 5982
+int.to.chr$ -- 0
+int.to.str$ -- 92
+missing$ -- 137
+newline$ -- 465
+num.names$ -- 188
+pop$ -- 685
+preamble$ -- 1
+purify$ -- 363
+quote$ -- 0
+skip$ -- 876
+stack$ -- 0
+substring$ -- 1233
+swap$ -- 306
+text.length$ -- 18
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 266
+warning$ -- 0
+while$ -- 246
+width$ -- 94
+write$ -- 992
+(There was 1 error message)

@@ -20,7 +20,13 @@
 \usepackage{fontspec}
 \usepackage{eurosym}
 \usepackage{newunicodechar}
-\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+\usepackage[protrusion=true, expansion=false, final]{microtype}
+\usepackage{tcolorbox}
+
+% Define 'abstract' to be a gray box
+\newenvironment{abstract}
+  {\begin{tcolorbox}[colback=black!5!white, colframe=black!5!white, sharp corners]}
+  {\end{tcolorbox}}
 
 \IfFontExistsTF{Noto Serif CJK TC}
 {\setCJKmainfont{Noto Serif CJK TC}}

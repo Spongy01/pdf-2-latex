@@ -1,0 +1,1308 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/data-science_final.tex
+  data-science_final.tex
+Category 'changed_user':
+  /Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/data-science_final.tex
+  data-science_final.tex
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -interaction=nonstopmode -file-line-error -recorder  "/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/data-science_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/d
+ata-science_final.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.
+sty (/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/varwidth/varwidth.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atveryend-ltx.sty
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty))) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-xetex.de
+f))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e
+.sty) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+))) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/underscore/underscore.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lineno/lineno.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf)
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-english.ld
+f)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-bengali.ld
+f
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/devanagaridigits
+.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/bengalidigits.st
+y)
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `bengali'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfutil-comm
+on.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfutil-late
+x.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.
+tex (/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/pgf.revision.tex))
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.cod
+e.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code
+.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibra
+ryfiltered.code.tex))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xet
+ex.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvi
+pdfmx.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-com
+mon-pdf.def))))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoft
+path.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprot
+ocol.code.tex))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.cod
+e.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.
+tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathparser.cod
+e.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+basic.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+trigonometric.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+random.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+comparison.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+base.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+round.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+misc.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+integerarithmetics.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.
+tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code
+.tex))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoin
+ts.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
+construct.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
+usage.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescop
+es.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregrap
+hicstate.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretran
+sformations.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequic
+k.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobje
+cts.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
+processing.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearro
+ws.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshad
+e.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimag
+e.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexte
+rnal.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelaye
+rs.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretran
+sparency.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatt
+erns.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.
+code.tex)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/modules/pgfmoduleshape
+s.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.
+code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-ve
+rsion-0-65.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-ve
+rsion-1-18.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code
+.tex)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgffor.code.
+tex))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tik
+z.code.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/libraries/pgflibrarypl
+othandlers.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/modules/pgfmodulematri
+x.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/lib
+raries/tikzlibrarytopaths.code.tex)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/environ/environ.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/trimspaces/trimspaces.sty)))
+(./data-science_final.aux) (./data-science_final.out) (./data-science_final.out
+) (./data-science_final.toc)
+[1]
+[2] (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+[1]
+Overfull \hbox (6.75647pt too wide) in paragraph at lines 105--117
+\TU/Georgia(0)/m/n/10 This work is subject to copyright. All rights are reserve
+d by the Publisher, whether
+
+[2]
+[3]
+[4]
+Chapter 1.
+
+Overfull \hbox (5.70091pt too wide) in paragraph at lines 128--129
+\TU/Georgia(0)/m/n/10 video streams, social media interactions, and the positio
+n of anything that moves.
+
+[5]
+[6]
+Overfull \hbox (20.02608pt too wide) in paragraph at lines 165--166
+[]\TU/Georgia(0)/m/it/10 Take-Home Lessons\TU/Georgia(0)/m/n/10 : Highlighted "
+take-home" lesson boxes scattered through
+
+Overfull \hbox (1.57036pt too wide) in paragraph at lines 166--169
+\TU/Georgia(0)/m/n/10 questions, reflecting the questions students might encoun
+ter when search-
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--169
+
+
+[7]
+Overfull \hbox (4.95122pt too wide) in paragraph at lines 172--175
+[]\TU/Georgia(0)/m/it/10 Data Science Television\TU/Georgia(0)/m/n/10 : Data sc
+ience remains mysterious and even threat-
+
+[8]
+[9]
+[10]
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--250
+
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 251--296
+
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 297--342
+
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 343--388
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--435
+
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 436--481
+
+
+[15]
+[16]
+[17]
+[18]
+Chapter 3.
+
+Overfull \hbox (1.56245pt too wide) in paragraph at lines 535--536
+\TU/Georgia(0)/m/n/10 amounts of social media, logging, and sensor data. After 
+you have amassed
+
+[19]
+Overfull \hbox (2.29301pt too wide) in paragraph at lines 552--554
+\TU/Georgia(0)/m/n/10 By contrast, bad computer scientists worry about producin
+g plausiblelook-
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--556
+
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 575--577
+
+
+[21]
+Overfull \hbox (0.49648pt too wide) in paragraph at lines 583--584
+\TU/Georgia(0)/m/n/10 Good data scientists develop an inherent curiosity about 
+the world around them,
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--599
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:604: Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.604 \end{figure}
+                  
+
+[22]
+[23]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:618: Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.618 \end{figure}
+                  
+
+Overfull \hbox (1.49472pt too wide) in paragraph at lines 613--620
+[]\TU/Georgia(0)/m/n/10 This historical baseball record is available at [][]htt
+p://www[][]. baseball-reference
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 637--639
+
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 658--660
+
+
+[26]
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 699--701
+
+
+[28]
+[29]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:749: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.749 \hline
+            
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:749: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.749 \hline
+            
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:749: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.749 \hline
+            
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:749: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.749 \hline
+            
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:750: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.750 ...& 7.22 & -73.9998 & 40.74334 & -73.9428 &
+                                                   40.80662 & 2 & 0 & 30.8 \\
+
+Overfull \hbox (312.57634pt too wide) in paragraph at lines 743--771
+ [] 
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 784--786
+
+
+[31]
+[32]
+Overfull \hbox (0.2979pt too wide) in paragraph at lines 797--798
+[]\TU/Georgia(0)/m/n/10 Which drivers take their unsuspecting out-of-town passe
+ngers for a "ride,"
+
+Overfull \hbox (7.84726pt too wide) in paragraph at lines 798--800
+\TU/Georgia(0)/m/n/10 citestarov2015gis. Figure 1.7 shows that Manhattanites ar
+e generally cheap-
+
+[33]
+[34]
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 863--865
+
+
+Overfull \hbox (2.02252pt too wide) in paragraph at lines 884--885
+\TU/Georgia(0)/m/n/10 data sets, building their own evaluation environments, an
+d devising their model.
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 895--897
+
+
+[37]
+[38]
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 937--939
+
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 956--958
+
+
+[41]
+Overfull \hbox (5.78456pt too wide) in paragraph at lines 977--978
+\TU/Georgia(0)/m/n/10 citejames2010new as an excellent example of how one turns
+ numbers into knowl-
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 1009--1013
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1042
+
+
+[43]
+[44]
+Chapter 4.
+
+[45]
+Overfull \hbox (3.37482pt too wide) detected at line 1095
+[][]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:1098: Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.1098   \item An \textit{event $E}
+                                   $ is a specified subset of the outcomes o...
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:1099: Missing } inserted.
+<inserted text> 
+                }
+l.1099 \end{itemize}
+                    
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:1130: Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.1130   \item A \textit{random variable $V}
+                                            $ is a numerical function on the...
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:1132: Missing } inserted.
+<inserted text> 
+                }
+l.1132 \end{itemize}
+                    
+
+[46]
+Overfull \hbox (7.98508pt too wide) in paragraph at lines 1142--1144
+\TU/Georgia(0)/m/n/10 ematics which concern themselves with analyzing the relat
+ive frequency of events.
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 1171--1171
+
+
+[48]
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 1244--1246
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1250--1250
+
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 1268--1268
+
+
+[51]
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 1321--1324
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1339--1344
+
+
+[53]
+Overfull \hbox (4.32753pt too wide) in paragraph at lines 1353--1355
+\TU/Georgia(0)/m/n/10 is meaningful, but interesting peaks only get revealed th
+rough proper buck-
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 1366--1368
+
+
+Overfull \hbox (0.41347pt too wide) in paragraph at lines 1373--1374
+[]\TU/Georgia(0)/m/n/10 An often confusing matter concerns the denominator in t
+he formula for stan-
+
+Overfull \hbox (0.66052pt too wide) in paragraph at lines 1376--1377
+\TU/Georgia(0)/m/n/10 observations capture unrepresentative circumstances, like
+ measuring rush hour
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 1398--1398
+
+
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 1412--1414
+
+
+[57]
+Overfull \hbox (2.94276pt too wide) in paragraph at lines 1425--1426
+\TU/Georgia(0)/m/n/10 Distributions do not necessarily have much probability ma
+ss exactly at the mean.
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 1457--1457
+[][]$ [][]\TU/Georgia(0)/m/n/8 https://research.collegeboard.org/sites/default/
+files/publications/2012/9/[][] researchreport-
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 1487--1489
+
+
+[60]
+[61]
+Overfull \hbox (1.14752pt too wide) in paragraph at lines 1503--1504
+[]\TU/Georgia(0)/m/n/10 Summing up over all pairs of points and normalizing pro
+perly gives us Spear-
+
+Underfull \hbox (badness 10000) in paragraph at lines 1516--1516
+
+
+LaTeX Warning: Float too large for page by 615.25603pt on input line 1517.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1530--1531
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1542--1542
+
+
+[62]
+[63]
+[64]
+Overfull \hbox (15.31471pt too wide) in paragraph at lines 1557--1558
+\TU/Georgia(0)/m/n/10 ing large numbers of features. Any single feature/correla
+tion might explain/predict
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:1574: Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.1574 \end{figure}
+                   
+
+Overfull \hbox (8.10326pt too wide) in paragraph at lines 1569--1576
+[]\TU/Georgia(0)/m/n/10 Still, \TU/Georgia(0)/m/it/10 correlation implies causa
+tion \TU/Georgia(0)/m/n/10 is a common error in thinking, even among
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:1582: Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.1582 \end{figure}
+                   
+
+[65]
+[66]
+[67]
+Overfull \hbox (8.8045pt too wide) in paragraph at lines 1608--1609
+[]\TU/Georgia(0)/m/n/10 Exponential functions grow at a very fast rate: conside
+r $\OML/cmm/m/it/10 b \OT1/cmr/m/n/10 = []$\TU/Georgia(0)/m/n/10 .
+
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 1644--1646
+
+
+[69]
+Overfull \hbox (8.5586pt too wide) in paragraph at lines 1659--1659
+[]\TU/Georgia(0)/b/n/12 Logarithms and Normalizing Skewed Distributions 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1666--1666
+
+
+[70]
+[71]
+[72]
+Underfull \hbox (badness 10000) in paragraph at lines 1749--1751
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:1755: TeX capacity exceeded, sorry [input stack size=10000
+].
+\hyper@normalise ->\begingroup \@makeother {:}
+                                              \catcode `\^^M\active \def ^^M...
+l.1755 ...lly \href{https://\textit{xkcd}.com/552}
+                                                  {https://xkcd.com/552}, an...
+
+Output written on data-science_final.xdv (74 pages, 1421708 bytes).
+Transcript written on data-science_final.log.
+Latexmk: Getting log file 'data-science_final.log'
+Latexmk: Examining 'data-science_final.fls'
+Latexmk: Examining 'data-science_final.log'
+Latexmk: Log file says output to 'data-science_final.xdv'
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  data-science_final.aux
+
+------------
+Run number 2 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -interaction=nonstopmode -file-line-error -recorder  "/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/data-science_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/d
+ata-science_final.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.
+sty (/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/varwidth/varwidth.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atveryend-ltx.sty
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty))) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-xetex.de
+f))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e
+.sty) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+))) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/underscore/underscore.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/firstaid/underscore-ltx.sty)
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lineno/lineno.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf)
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-english.ld
+f)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-bengali.ld
+f
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/devanagaridigits
+.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/bengalidigits.st
+y)
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `bengali'
+(polyglossia)                I will use \language=\l@nohyphenation instead.
+
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfutil-comm
+on.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfutil-late
+x.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.
+tex (/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/pgf.revision.tex))
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.cod
+e.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code
+.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibra
+ryfiltered.code.tex))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xet
+ex.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvi
+pdfmx.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-com
+mon-pdf.def))))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoft
+path.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprot
+ocol.code.tex))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.cod
+e.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.
+tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathparser.cod
+e.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+basic.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+trigonometric.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+random.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+comparison.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+base.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+round.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+misc.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+integerarithmetics.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.
+tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code
+.tex))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoin
+ts.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
+construct.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
+usage.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescop
+es.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregrap
+hicstate.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretran
+sformations.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequic
+k.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobje
+cts.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
+processing.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearro
+ws.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshad
+e.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimag
+e.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexte
+rnal.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelaye
+rs.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretran
+sparency.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatt
+erns.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.
+code.tex)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/modules/pgfmoduleshape
+s.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.
+code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-ve
+rsion-0-65.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-ve
+rsion-1-18.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code
+.tex)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgffor.code.
+tex))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tik
+z.code.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/libraries/pgflibrarypl
+othandlers.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/modules/pgfmodulematri
+x.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/lib
+raries/tikzlibrarytopaths.code.tex)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/environ/environ.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/trimspaces/trimspaces.sty)))
+(./data-science_final.aux) (./data-science_final.out) (./data-science_final.out
+) (./data-science_final.toc)
+[1]
+[2] (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+[1]
+Overfull \hbox (6.75647pt too wide) in paragraph at lines 105--117
+\TU/Georgia(0)/m/n/10 This work is subject to copyright. All rights are reserve
+d by the Publisher, whether
+
+[2]
+[3]
+[4]
+Chapter 1.
+
+Overfull \hbox (5.70091pt too wide) in paragraph at lines 128--129
+\TU/Georgia(0)/m/n/10 video streams, social media interactions, and the positio
+n of anything that moves.
+
+[5]
+[6]
+Overfull \hbox (20.02608pt too wide) in paragraph at lines 165--166
+[]\TU/Georgia(0)/m/it/10 Take-Home Lessons\TU/Georgia(0)/m/n/10 : Highlighted "
+take-home" lesson boxes scattered through
+
+Overfull \hbox (1.57036pt too wide) in paragraph at lines 166--169
+\TU/Georgia(0)/m/n/10 questions, reflecting the questions students might encoun
+ter when search-
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--169
+
+
+[7]
+Overfull \hbox (4.95122pt too wide) in paragraph at lines 172--175
+[]\TU/Georgia(0)/m/it/10 Data Science Television\TU/Georgia(0)/m/n/10 : Data sc
+ience remains mysterious and even threat-
+
+[8]
+[9]
+[10]
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--250
+
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 251--296
+
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 297--342
+
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 343--388
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--435
+
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 436--481
+
+
+[15]
+[16]
+[17]
+[18]
+Chapter 3.
+
+Overfull \hbox (1.56245pt too wide) in paragraph at lines 535--536
+\TU/Georgia(0)/m/n/10 amounts of social media, logging, and sensor data. After 
+you have amassed
+
+[19]
+Overfull \hbox (2.29301pt too wide) in paragraph at lines 552--554
+\TU/Georgia(0)/m/n/10 By contrast, bad computer scientists worry about producin
+g plausiblelook-
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--556
+
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 575--577
+
+
+[21]
+Overfull \hbox (0.49648pt too wide) in paragraph at lines 583--584
+\TU/Georgia(0)/m/n/10 Good data scientists develop an inherent curiosity about 
+the world around them,
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--599
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:604: Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.604 \end{figure}
+                  
+
+[22]
+[23]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:618: Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.618 \end{figure}
+                  
+
+Overfull \hbox (1.49472pt too wide) in paragraph at lines 613--620
+[]\TU/Georgia(0)/m/n/10 This historical baseball record is available at [][]htt
+p://www[][]. baseball-reference
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 637--639
+
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 658--660
+
+
+[26]
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 699--701
+
+
+[28]
+[29]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:749: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.749 \hline
+            
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:749: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.749 \hline
+            
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:749: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.749 \hline
+            
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:749: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.749 \hline
+            
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:750: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.750 ...& 7.22 & -73.9998 & 40.74334 & -73.9428 &
+                                                   40.80662 & 2 & 0 & 30.8 \\
+
+Overfull \hbox (312.57634pt too wide) in paragraph at lines 743--771
+ [] 
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 784--786
+
+
+[31]
+[32]
+Overfull \hbox (0.2979pt too wide) in paragraph at lines 797--798
+[]\TU/Georgia(0)/m/n/10 Which drivers take their unsuspecting out-of-town passe
+ngers for a "ride,"
+
+Overfull \hbox (7.84726pt too wide) in paragraph at lines 798--800
+\TU/Georgia(0)/m/n/10 citestarov2015gis. Figure 1.7 shows that Manhattanites ar
+e generally cheap-
+
+[33]
+[34]
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 863--865
+
+
+Overfull \hbox (2.02252pt too wide) in paragraph at lines 884--885
+\TU/Georgia(0)/m/n/10 data sets, building their own evaluation environments, an
+d devising their model.
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 895--897
+
+
+[37]
+[38]
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 937--939
+
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 956--958
+
+
+[41]
+Overfull \hbox (5.78456pt too wide) in paragraph at lines 977--978
+\TU/Georgia(0)/m/n/10 citejames2010new as an excellent example of how one turns
+ numbers into knowl-
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 1009--1013
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1042
+
+
+[43]
+[44]
+Chapter 4.
+
+[45]
+Overfull \hbox (3.37482pt too wide) detected at line 1095
+[][]
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:1098: Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.1098   \item An \textit{event $E}
+                                   $ is a specified subset of the outcomes o...
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:1099: Missing } inserted.
+<inserted text> 
+                }
+l.1099 \end{itemize}
+                    
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:1130: Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.1130   \item A \textit{random variable $V}
+                                            $ is a numerical function on the...
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:1132: Missing } inserted.
+<inserted text> 
+                }
+l.1132 \end{itemize}
+                    
+
+[46]
+Overfull \hbox (7.98508pt too wide) in paragraph at lines 1142--1144
+\TU/Georgia(0)/m/n/10 ematics which concern themselves with analyzing the relat
+ive frequency of events.
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 1171--1171
+
+
+[48]
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 1244--1246
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1250--1250
+
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 1268--1268
+
+
+[51]
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 1321--1324
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1339--1344
+
+
+[53]
+Overfull \hbox (4.32753pt too wide) in paragraph at lines 1353--1355
+\TU/Georgia(0)/m/n/10 is meaningful, but interesting peaks only get revealed th
+rough proper buck-
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 1366--1368
+
+
+Overfull \hbox (0.41347pt too wide) in paragraph at lines 1373--1374
+[]\TU/Georgia(0)/m/n/10 An often confusing matter concerns the denominator in t
+he formula for stan-
+
+Overfull \hbox (0.66052pt too wide) in paragraph at lines 1376--1377
+\TU/Georgia(0)/m/n/10 observations capture unrepresentative circumstances, like
+ measuring rush hour
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 1398--1398
+
+
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 1412--1414
+
+
+[57]
+Overfull \hbox (2.94276pt too wide) in paragraph at lines 1425--1426
+\TU/Georgia(0)/m/n/10 Distributions do not necessarily have much probability ma
+ss exactly at the mean.
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 1457--1457
+[][]$ [][]\TU/Georgia(0)/m/n/8 https://research.collegeboard.org/sites/default/
+files/publications/2012/9/[][] researchreport-
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 1487--1489
+
+
+[60]
+[61]
+Overfull \hbox (1.14752pt too wide) in paragraph at lines 1503--1504
+[]\TU/Georgia(0)/m/n/10 Summing up over all pairs of points and normalizing pro
+perly gives us Spear-
+
+Underfull \hbox (badness 10000) in paragraph at lines 1516--1516
+
+
+LaTeX Warning: Float too large for page by 615.25603pt on input line 1517.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1530--1531
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1542--1542
+
+
+[62]
+[63]
+[64]
+Overfull \hbox (15.31471pt too wide) in paragraph at lines 1557--1558
+\TU/Georgia(0)/m/n/10 ing large numbers of features. Any single feature/correla
+tion might explain/predict
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:1574: Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.1574 \end{figure}
+                   
+
+Overfull \hbox (8.10326pt too wide) in paragraph at lines 1569--1576
+[]\TU/Georgia(0)/m/n/10 Still, \TU/Georgia(0)/m/it/10 correlation implies causa
+tion \TU/Georgia(0)/m/n/10 is a common error in thinking, even among
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:1582: Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.1582 \end{figure}
+                   
+
+[65]
+[66]
+[67]
+Overfull \hbox (8.8045pt too wide) in paragraph at lines 1608--1609
+[]\TU/Georgia(0)/m/n/10 Exponential functions grow at a very fast rate: conside
+r $\OML/cmm/m/it/10 b \OT1/cmr/m/n/10 = []$\TU/Georgia(0)/m/n/10 .
+
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 1644--1646
+
+
+[69]
+Overfull \hbox (8.5586pt too wide) in paragraph at lines 1659--1659
+[]\TU/Georgia(0)/b/n/12 Logarithms and Normalizing Skewed Distributions 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1666--1666
+
+
+[70]
+[71]
+[72]
+Underfull \hbox (badness 10000) in paragraph at lines 1749--1751
+
+/Users/jrathi/Projects/pdf-2-latex/files/data-science/bold-italic-formatting/da
+ta-science_final.tex:1755: TeX capacity exceeded, sorry [input stack size=10000
+].
+\hyper@normalise ->\begingroup \@makeother {:}
+                                              \catcode `\^^M\active \def ^^M...
+l.1755 ...lly \href{https://\textit{xkcd}.com/552}
+                                                  {https://xkcd.com/552}, an...
+
+Output written on data-science_final.xdv (74 pages, 1421708 bytes).
+Transcript written on data-science_final.log.
+Latexmk: Getting log file 'data-science_final.log'
+Latexmk: Examining 'data-science_final.fls'
+Latexmk: Examining 'data-science_final.log'
+Latexmk: Log file says output to 'data-science_final.xdv'
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: applying rule 'xdvipdfmx'...
+Rule 'xdvipdfmx':  Reasons for rerun
+Changed files or newly in use/created:
+  data-science_final.xdv
+Category 'changed_source_rules':
+  xelatex
+
+------------
+Run number 1 of rule 'xdvipdfmx'
+------------
+------------
+Running 'xdvipdfmx -E -o "data-science_final.pdf"  "data-science_final.xdv"'
+------------
+data-science_final.xdv -> data-science_final.pdf
+[1][2][3
+xdvipdfmx:warning: Object @page.1 already defined.
+][4
+xdvipdfmx:warning: Object @page.2 already defined.
+][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74]
+1703869 bytes written
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  xelatex: Command for 'xelatex' gave return code 1
+      Refer to 'data-science_final.log' and/or above output for details
+

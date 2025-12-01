@@ -1,0 +1,77 @@
+{
+  "log_file": "/Users/jrathi/Projects/pdf-2-latex/files/assembly/bold-italic-formatting/assembly_final.log",
+  "errors": [
+    {
+      "source": "soul",
+      "description": "Reconstruction failed",
+      "count": 2,
+      "sources": [
+        "soul"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "source": "LaTeX",
+      "description": "Command \\textbackslash invalid in math mode on input line 10850",
+      "count": 2,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "inputenc",
+      "description": "inputenc package ignored with utf8 based engines",
+      "count": 1,
+      "sources": [
+        "inputenc"
+      ]
+    },
+    {
+      "source": "xeCJK",
+      "description": "Unknown CJK family `\\CJKttdefault' is being ignored",
+      "count": 1,
+      "sources": [
+        "xeCJK"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Characters dropped after `\\end{verbatim}' on input line 760",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Characters dropped after `\\end{verbatim}' on input line 3551",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Empty `thebibliography' environment on input line 3",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    }
+  ],
+  "summary": {
+    "total_errors": 2,
+    "total_warnings": 7,
+    "unique_errors": 1,
+    "unique_warnings": 6,
+    "compilation_successful": false
+  },
+  "compilation_info": {
+    "pages_compiled": 345,
+    "total_pages": 0,
+    "compilation_time": null,
+    "latex_version": null,
+    "output_file": "assembly_final.xdv"
+  }
+}

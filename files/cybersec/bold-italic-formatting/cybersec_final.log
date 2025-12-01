@@ -1,0 +1,4970 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  1 DEC 2025 13:33
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybe
+rsec_final.tex
+
+(/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cyber
+sec_final.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count192
+\c@chapter=\count193
+\c@section=\count194
+\c@subsection=\count195
+\c@subsubsection=\count196
+\c@paragraph=\count197
+\c@subparagraph=\count198
+\c@figure=\count199
+\c@table=\count266
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.
+sty
+Package: ucharclasses 2022/10/20 v2.6.0 Unicode block character classes for XeL
+aTeX
+ (/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\AegeanNumbersClass=\XeTeXcharclass1
+\AlphabeticPresentationFormsClass=\XeTeXcharclass2
+\AncientGreekMusicalNotationClass=\XeTeXcharclass3
+\AncientGreekNumbersClass=\XeTeXcharclass4
+\AncientSymbolsClass=\XeTeXcharclass5
+\ArabicClass=\XeTeXcharclass6
+\ArabicPresentationFormsAClass=\XeTeXcharclass7
+\ArabicPresentationFormsBClass=\XeTeXcharclass8
+\ArabicSupplementClass=\XeTeXcharclass9
+\ArmenianClass=\XeTeXcharclass10
+\ArrowsClass=\XeTeXcharclass11
+\BalineseClass=\XeTeXcharclass12
+\BasicLatinClass=\XeTeXcharclass13
+\BengaliClass=\XeTeXcharclass14
+\BlockElementsClass=\XeTeXcharclass15
+\BopomofoClass=\XeTeXcharclass16
+\BopomofoExtendedClass=\XeTeXcharclass17
+\BoxDrawingClass=\XeTeXcharclass18
+\BraillePatternsClass=\XeTeXcharclass19
+\BugineseClass=\XeTeXcharclass20
+\BuhidClass=\XeTeXcharclass21
+\ByzantineMusicalSymbolsClass=\XeTeXcharclass22
+\ChamClass=\XeTeXcharclass23
+\CherokeeClass=\XeTeXcharclass24
+\CJKCompatibilityClass=\XeTeXcharclass25
+\CJKCompatibilityFormsClass=\XeTeXcharclass26
+\CJKCompatibilityIdeographsClass=\XeTeXcharclass27
+\CJKCompatibilityIdeographsSupplementClass=\XeTeXcharclass28
+\CJKRadicalsSupplementClass=\XeTeXcharclass29
+\CJKStrokesClass=\XeTeXcharclass30
+\CJKSymbolsAndPunctuationClass=\XeTeXcharclass31
+\CJKUnifiedIdeographsClass=\XeTeXcharclass32
+\CJKUnifiedIdeographsExtensionAClass=\XeTeXcharclass33
+\CJKUnifiedIdeographsExtensionBClass=\XeTeXcharclass34
+\CombiningDiacriticalMarksClass=\XeTeXcharclass35
+\CombiningDiacriticalMarksForSymbolsClass=\XeTeXcharclass36
+\CombiningDiacriticalMarksSupplementClass=\XeTeXcharclass37
+\CombiningHalfMarksClass=\XeTeXcharclass38
+\ControlPicturesClass=\XeTeXcharclass39
+\CopticClass=\XeTeXcharclass40
+\CountingRodNumeralsClass=\XeTeXcharclass41
+\CuneiformClass=\XeTeXcharclass42
+\CuneiformNumbersAndPunctuationClass=\XeTeXcharclass43
+\CurrencySymbolsClass=\XeTeXcharclass44
+\CypriotSyllabaryClass=\XeTeXcharclass45
+\CyrillicClass=\XeTeXcharclass46
+\CyrillicExtendedAClass=\XeTeXcharclass47
+\CyrillicExtendedBClass=\XeTeXcharclass48
+\CyrillicSupplementClass=\XeTeXcharclass49
+\DeseretClass=\XeTeXcharclass50
+\DevanagariDanDaClass=\XeTeXcharclass51
+\DevanagariMarksClass=\XeTeXcharclass52
+\DevanagariPostDanDaClass=\XeTeXcharclass53
+\DevanagariPostMarksClass=\XeTeXcharclass54
+\DevanagariPreMarksClass=\XeTeXcharclass55
+\DingbatsClass=\XeTeXcharclass56
+\DominoTilesClass=\XeTeXcharclass57
+\EnclosedAlphanumericsClass=\XeTeXcharclass58
+\EnclosedCJKLettersAndMonthsClass=\XeTeXcharclass59
+\EthiopicClass=\XeTeXcharclass60
+\EthiopicExtendedClass=\XeTeXcharclass61
+\EthiopicSupplementClass=\XeTeXcharclass62
+\GeneralPunctuationClass=\XeTeXcharclass63
+\GeometricShapesClass=\XeTeXcharclass64
+\GeorgianClass=\XeTeXcharclass65
+\GeorgianSupplementClass=\XeTeXcharclass66
+\GlagoliticClass=\XeTeXcharclass67
+\GreekAndCopticClass=\XeTeXcharclass68
+\GreekExtendedClass=\XeTeXcharclass69
+\GujaratiClass=\XeTeXcharclass70
+\GurmukhiClass=\XeTeXcharclass71
+\HalfwidthAndFullwidthFormsClass=\XeTeXcharclass72
+\HangulCompatibilityJamoClass=\XeTeXcharclass73
+\HangulJamoClass=\XeTeXcharclass74
+\HangulSyllablesClass=\XeTeXcharclass75
+\HanunooClass=\XeTeXcharclass76
+\HebrewClass=\XeTeXcharclass77
+\HiraganaClass=\XeTeXcharclass78
+\IdeographicDescriptionCharactersClass=\XeTeXcharclass79
+\IPAExtensionsClass=\XeTeXcharclass80
+\KanbunClass=\XeTeXcharclass81
+\KangxiRadicalsClass=\XeTeXcharclass82
+\KannadaClass=\XeTeXcharclass83
+\KatakanaClass=\XeTeXcharclass84
+\KatakanaPhoneticExtensionsClass=\XeTeXcharclass85
+\KayahLiClass=\XeTeXcharclass86
+\KhmerClass=\XeTeXcharclass87
+\KhmerSymbolsClass=\XeTeXcharclass88
+\LaoClass=\XeTeXcharclass89
+\LatinExtendedAdditionalClass=\XeTeXcharclass90
+\LatinExtendedAClass=\XeTeXcharclass91
+\LatinExtendedBClass=\XeTeXcharclass92
+\LatinExtendedCClass=\XeTeXcharclass93
+\LatinExtendedDClass=\XeTeXcharclass94
+\LatinSupplementClass=\XeTeXcharclass95
+\LepchaClass=\XeTeXcharclass96
+\LetterlikeSymbolsClass=\XeTeXcharclass97
+\LimbuClass=\XeTeXcharclass98
+\LinearBIdeogramsClass=\XeTeXcharclass99
+\LinearBSyllabaryClass=\XeTeXcharclass100
+\MahjongTilesClass=\XeTeXcharclass101
+\MalayalamClass=\XeTeXcharclass102
+\MathematicalAlphanumericSymbolsClass=\XeTeXcharclass103
+\MathematicalOperatorsClass=\XeTeXcharclass104
+\MiscellaneousMathematicalSymbolsAClass=\XeTeXcharclass105
+\MiscellaneousMathematicalSymbolsBClass=\XeTeXcharclass106
+\MiscellaneousSymbolsClass=\XeTeXcharclass107
+\MiscellaneousSymbolsAndArrowsClass=\XeTeXcharclass108
+\MiscellaneousTechnicalClass=\XeTeXcharclass109
+\ModifierToneLettersClass=\XeTeXcharclass110
+\MongolianClass=\XeTeXcharclass111
+\MusicalSymbolsClass=\XeTeXcharclass112
+\MyanmarClass=\XeTeXcharclass113
+\NewTaiLueClass=\XeTeXcharclass114
+\NKoClass=\XeTeXcharclass115
+\NumberFormsClass=\XeTeXcharclass116
+\OghamClass=\XeTeXcharclass117
+\OlChikiClass=\XeTeXcharclass118
+\OldPersianClass=\XeTeXcharclass119
+\OpticalCharacterRecognitionClass=\XeTeXcharclass120
+\OriyaClass=\XeTeXcharclass121
+\OsmanyaClass=\XeTeXcharclass122
+\PhagsPaClass=\XeTeXcharclass123
+\PhoenicianClass=\XeTeXcharclass124
+\PhoneticExtensionsClass=\XeTeXcharclass125
+\PhoneticExtensionsSupplementClass=\XeTeXcharclass126
+\PrivateUseAreaClass=\XeTeXcharclass127
+\RejangClass=\XeTeXcharclass128
+\RunicClass=\XeTeXcharclass129
+\SaurashtraClass=\XeTeXcharclass130
+\ShavianClass=\XeTeXcharclass131
+\SinhalaClass=\XeTeXcharclass132
+\SmallFormVariantsClass=\XeTeXcharclass133
+\SpacingModifierLettersClass=\XeTeXcharclass134
+\SundaneseClass=\XeTeXcharclass135
+\SuperscriptsAndSubscriptsClass=\XeTeXcharclass136
+\SupplementalArrowsAClass=\XeTeXcharclass137
+\SupplementalArrowsBClass=\XeTeXcharclass138
+\SupplementalMathematicalOperatorsClass=\XeTeXcharclass139
+\SupplementalPunctuationClass=\XeTeXcharclass140
+\SylotiNagriClass=\XeTeXcharclass141
+\SyriacClass=\XeTeXcharclass142
+\TagalogClass=\XeTeXcharclass143
+\TagbanwaClass=\XeTeXcharclass144
+\TagsClass=\XeTeXcharclass145
+\TaiLeClass=\XeTeXcharclass146
+\TaiXuanJingSymbolsClass=\XeTeXcharclass147
+\TamilClass=\XeTeXcharclass148
+\TeluguClass=\XeTeXcharclass149
+\ThaanaClass=\XeTeXcharclass150
+\ThaiClass=\XeTeXcharclass151
+\TibetanClass=\XeTeXcharclass152
+\TifinaghClass=\XeTeXcharclass153
+\UgariticClass=\XeTeXcharclass154
+\UnifiedCanadianAboriginalSyllabicsClass=\XeTeXcharclass155
+\VaiClass=\XeTeXcharclass156
+\VerticalFormsClass=\XeTeXcharclass157
+\YiRadicalsClass=\XeTeXcharclass158
+\YiSyllablesClass=\XeTeXcharclass159
+\YijingHexagramSymbolsClass=\XeTeXcharclass160
+\AvestanClass=\XeTeXcharclass161
+\BamumClass=\XeTeXcharclass162
+\CJKUnifiedIdeographsExtensionCClass=\XeTeXcharclass163
+\CommonIndicNumberFormsClass=\XeTeXcharclass164
+\DevanagariExtendedClass=\XeTeXcharclass165
+\EgyptianHieroglyphsClass=\XeTeXcharclass166
+\EnclosedAlphanumericSupplementClass=\XeTeXcharclass167
+\EnclosedIdeographicSupplementClass=\XeTeXcharclass168
+\HangulJamoExtendedAClass=\XeTeXcharclass169
+\HangulJamoExtendedBClass=\XeTeXcharclass170
+\ImperialAramaicClass=\XeTeXcharclass171
+\InscriptionalPahlaviClass=\XeTeXcharclass172
+\InscriptionalParthianClass=\XeTeXcharclass173
+\JavaneseClass=\XeTeXcharclass174
+\KaithiClass=\XeTeXcharclass175
+\LisuClass=\XeTeXcharclass176
+\MeeteiMayekClass=\XeTeXcharclass177
+\MyanmarExtendedAClass=\XeTeXcharclass178
+\RumiNumeralSymbolsClass=\XeTeXcharclass179
+\SamaritanClass=\XeTeXcharclass180
+\TaiThamClass=\XeTeXcharclass181
+\TaiVietClass=\XeTeXcharclass182
+\UnifiedCanadianAboriginalSyllabicsExtendedClass=\XeTeXcharclass183
+\VedicExtensionsClass=\XeTeXcharclass184
+\AlchemicalSymbolsClass=\XeTeXcharclass185
+\BamumSupplementClass=\XeTeXcharclass186
+\BatakClass=\XeTeXcharclass187
+\BrahmiClass=\XeTeXcharclass188
+\CJKUnifiedIdeographsExtensionDClass=\XeTeXcharclass189
+\EmoticonsClass=\XeTeXcharclass190
+\EthiopicExtendedAClass=\XeTeXcharclass191
+\KanaSupplementClass=\XeTeXcharclass192
+\MandaicClass=\XeTeXcharclass193
+\MiscellaneousSymbolsAndPictographsClass=\XeTeXcharclass194
+\PlayingCardsClass=\XeTeXcharclass195
+\TransportAndMapSymbolsClass=\XeTeXcharclass196
+\ArabicExtendedAClass=\XeTeXcharclass197
+\ArabicMathematicalAlphabeticSymbolsClass=\XeTeXcharclass198
+\ChakmaClass=\XeTeXcharclass199
+\MeeteiMayekExtensionsClass=\XeTeXcharclass200
+\MeroiticCursiveClass=\XeTeXcharclass201
+\MeroiticHieroglyphsClass=\XeTeXcharclass202
+\MiaoClass=\XeTeXcharclass203
+\SharadaClass=\XeTeXcharclass204
+\SoraSompengClass=\XeTeXcharclass205
+\SundaneseSupplementClass=\XeTeXcharclass206
+\TakriClass=\XeTeXcharclass207
+\BassaVahClass=\XeTeXcharclass208
+\CaucasianAlbanianClass=\XeTeXcharclass209
+\CombiningDiacriticalMarksExtendedClass=\XeTeXcharclass210
+\CopticEpactNumbersClass=\XeTeXcharclass211
+\ElbasanClass=\XeTeXcharclass212
+\GeometricShapesExtendedClass=\XeTeXcharclass213
+\GranthaClass=\XeTeXcharclass214
+\KhojkiClass=\XeTeXcharclass215
+\KhudawadiClass=\XeTeXcharclass216
+\LatinExtendedEClass=\XeTeXcharclass217
+\LinearAClass=\XeTeXcharclass218
+\MahajaniClass=\XeTeXcharclass219
+\MendeKikakuiClass=\XeTeXcharclass220
+\ModiClass=\XeTeXcharclass221
+\MroClass=\XeTeXcharclass222
+\MyanmarExtendedBClass=\XeTeXcharclass223
+\OrnamentalDingbatsClass=\XeTeXcharclass224
+\PahawhHmongClass=\XeTeXcharclass225
+\PauCinHauClass=\XeTeXcharclass226
+\SiddhamClass=\XeTeXcharclass227
+\SinhalaArchaicNumbersClass=\XeTeXcharclass228
+\SupplementalArrowsCClass=\XeTeXcharclass229
+\TirhutaClass=\XeTeXcharclass230
+\WarangCitiClass=\XeTeXcharclass231
+\CherokeeSupplementClass=\XeTeXcharclass232
+\CJKUnifiedIdeographsExtensionEClass=\XeTeXcharclass233
+\SupplementalSymbolsAndPictographsClass=\XeTeXcharclass234
+\CyrillicExtendedCClass=\XeTeXcharclass235
+\GlagoliticSupplementClass=\XeTeXcharclass236
+\IdeographicSymbolsAndPunctuationClass=\XeTeXcharclass237
+\MongolianSupplementClass=\XeTeXcharclass238
+\CJKUnifiedIdeographsExtensionFClass=\XeTeXcharclass239
+\KanaExtendedAClass=\XeTeXcharclass240
+\SyriacSupplementClass=\XeTeXcharclass241
+\GeorgianExtendedClass=\XeTeXcharclass242
+\SmallKanaExtensionClass=\XeTeXcharclass243
+\SymbolsAndPictographsExtendedAClass=\XeTeXcharclass244
+\CJKUnifiedIdeographsExtensionGClass=\XeTeXcharclass245
+\ArabicExtendedBClass=\XeTeXcharclass246
+\EthiopicExtendedBClass=\XeTeXcharclass247
+\KanaExtendedBClass=\XeTeXcharclass248
+\LatinExtendedFClass=\XeTeXcharclass249
+\LatinExtendedGClass=\XeTeXcharclass250
+\UnifiedCanadianAboriginalSyllabicsExtendedAClass=\XeTeXcharclass251
+\ArabicExtendedCClass=\XeTeXcharclass252
+\CJKUnifiedIdeographsExtensionHClass=\XeTeXcharclass253
+\CyrillicExtendedDClass=\XeTeXcharclass254
+\DevanagariExtendedAClass=\XeTeXcharclass255
+\CarianClass=\XeTeXcharclass256
+\GothicClass=\XeTeXcharclass257
+\KharoshthiClass=\XeTeXcharclass258
+\LycianClass=\XeTeXcharclass259
+\LydianClass=\XeTeXcharclass260
+\OldItalicClass=\XeTeXcharclass261
+\PhaistosDiscClass=\XeTeXcharclass262
+\SupplementaryPrivateUseAreaAClass=\XeTeXcharclass263
+\SupplementaryPrivateUseAreaBClass=\XeTeXcharclass264
+\OldSouthArabianClass=\XeTeXcharclass265
+\OldTurkicClass=\XeTeXcharclass266
+\DuployanClass=\XeTeXcharclass267
+\ManichaeanClass=\XeTeXcharclass268
+\NabataeanClass=\XeTeXcharclass269
+\OldNorthArabianClass=\XeTeXcharclass270
+\OldPermicClass=\XeTeXcharclass271
+\PalmyreneClass=\XeTeXcharclass272
+\PsalterPahlaviClass=\XeTeXcharclass273
+\ShorthandFormatControlsClass=\XeTeXcharclass274
+\AhomClass=\XeTeXcharclass275
+\AnatolianHieroglyphsClass=\XeTeXcharclass276
+\EarlyDynasticCuneiformClass=\XeTeXcharclass277
+\HatranClass=\XeTeXcharclass278
+\MultaniClass=\XeTeXcharclass279
+\OldHungarianClass=\XeTeXcharclass280
+\SuttonSignWritingClass=\XeTeXcharclass281
+\AdlamClass=\XeTeXcharclass282
+\BhaiksukiClass=\XeTeXcharclass283
+\MarchenClass=\XeTeXcharclass284
+\NewaClass=\XeTeXcharclass285
+\OsageClass=\XeTeXcharclass286
+\TangutClass=\XeTeXcharclass287
+\TangutComponentsClass=\XeTeXcharclass288
+\MasaramGondiClass=\XeTeXcharclass289
+\NushuClass=\XeTeXcharclass290
+\SoyomboClass=\XeTeXcharclass291
+\ZanabazarSquareClass=\XeTeXcharclass292
+\ChessSymbolsClass=\XeTeXcharclass293
+\DograClass=\XeTeXcharclass294
+\GunjalaGondiClass=\XeTeXcharclass295
+\HanifiRohingyaClass=\XeTeXcharclass296
+\IndicSiyaqNumbersClass=\XeTeXcharclass297
+\MakasarClass=\XeTeXcharclass298
+\MayanNumeralsClass=\XeTeXcharclass299
+\MedefaidrinClass=\XeTeXcharclass300
+\OldSogdianClass=\XeTeXcharclass301
+\SogdianClass=\XeTeXcharclass302
+\EgyptianHieroglyphFormatControlsClass=\XeTeXcharclass303
+\ElymaicClass=\XeTeXcharclass304
+\NandinagariClass=\XeTeXcharclass305
+\NyiakengPuachueHmongClass=\XeTeXcharclass306
+\OttomanSiyaqNumbersClass=\XeTeXcharclass307
+\TamilSupplementClass=\XeTeXcharclass308
+\WanchoClass=\XeTeXcharclass309
+\ChorasmianClass=\XeTeXcharclass310
+\DivesAkuruClass=\XeTeXcharclass311
+\KhitanSmallScriptClass=\XeTeXcharclass312
+\LisuSupplementClass=\XeTeXcharclass313
+\SymbolsForLegacyComputingClass=\XeTeXcharclass314
+\TangutSupplementClass=\XeTeXcharclass315
+\YezidiClass=\XeTeXcharclass316
+\CyproMinoanClass=\XeTeXcharclass317
+\OldUighurClass=\XeTeXcharclass318
+\TangsaClass=\XeTeXcharclass319
+\TotoClass=\XeTeXcharclass320
+\VithkuqiClass=\XeTeXcharclass321
+\ZnamennyMusicalNotationClass=\XeTeXcharclass322
+\KaktovikNumeralsClass=\XeTeXcharclass323
+\KawiClass=\XeTeXcharclass324
+\NagMundariClass=\XeTeXcharclass325
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count267
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count268
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen142
+\Hy@linkcounter=\count269
+\Hy@pagecounter=\count270
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count271
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count272
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen143
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count273
+\Field@Width=\dimen144
+\Fld@charsize=\dimen145
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count274
+\c@Item=\count275
+\c@Hfootnote=\count276
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2024-11-05 v7.01l Hyperref driver for XeTeX
+\pdfm@box=\box52
+\c@Hy@AnnotLevel=\count277
+\HyField@AnnotCount=\count278
+\Fld@listcount=\count279
+\c@bookmark@seq@number=\count280
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip51
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 6.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen146
+\Gin@req@width=\dimen147
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+)
+\XKV@depth=\count281
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box53
+)
+\tc@llx=\dimen148
+\tc@lly=\dimen149
+\tc@urx=\dimen150
+\tc@ury=\dimen151
+Package trimclip Info: Using driver 'tc-xetex.def'.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/adjustbox/tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen152
+\adjbox@Height=\dimen153
+\adjbox@Depth=\dimen154
+\adjbox@Totalheight=\dimen155
+\adjbox@pwidth=\dimen156
+\adjbox@pheight=\dimen157
+\adjbox@pdepth=\dimen158
+\adjbox@ptotalheight=\dimen159
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count282
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box54
+\sift@deathcycles=\count283
+\@vwid@loff=\dimen160
+\@vwid@roff=\dimen161
+))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen162
+))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen163
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count284
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count285
+\leftroot@=\count286
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count287
+\DOTSCASE@=\count288
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen164
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count289
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count290
+\dotsspace@=\muskip18
+\c@parentequation=\count291
+\dspbrk@lvl=\count292
+\tag@help=\toks23
+\row@=\count293
+\column@=\count294
+\maxfields@=\count295
+\andhelp@=\toks24
+\eqnshift@=\dimen165
+\alignsep@=\dimen166
+\tagshift@=\dimen167
+\tagwidth@=\dimen168
+\totwidth@=\dimen169
+\lineht@=\dimen170
+\@envbody=\toks25
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-xetex.de
+f
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count296
+\l__pdf_internal_box=\box57
+\g__pdf_backend_annotation_int=\count297
+\g__pdf_backend_link_int=\count298
+))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e
+.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count299
+\calc@Bcount=\count300
+\calc@Adimen=\dimen171
+\calc@Bdimen=\dimen172
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count301
+\calc@Cskip=\skip57
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count302
+\g__chemgreek_tmpa_int=\count303
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count304
+\__mhchem_arrow_extPgfLength_skip=\skip58
+\mhchem@minispace@tmp=\skip59
+\mhchem@minibackspace@tmp=\skip60
+\mhchem@bondwidth=\skip61
+\mhchem@bondheight=\skip62
+\mhchem@smallbondwidth@tmpA=\skip63
+\mhchem@smallbondwidth@tmpB=\skip64
+\mhchem@smallbondwidth=\skip65
+\mhchem@bondtmp@minussidebearingleft=\skip66
+\mhchem@bondtmp@minussidebearingright=\skip67
+\l__mhchem_option_version_int=\count305
+\mhchem@option@minusmathsidebearingleft=\dimen173
+\mhchem@option@minusmathsidebearingright=\dimen174
+\mhchem@option@minustextsidebearingleft=\dimen175
+\mhchem@option@minustextsidebearingright=\dimen176
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2025/05/29 v1.13.2 fvextra - extensions and patches for fancyv
+rb
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count306
+\FV@InFile=\read2
+\FV@TabBox=\box58
+\c@FancyVerbLine=\count307
+\FV@StepNumber=\count308
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2025/01/29 line numbers on paragraphs v5.4
+\linenopenalty=\count309
+\output=\toks27
+\linenoprevgraf=\count310
+\linenumbersep=\dimen177
+\linenumberwidth=\dimen178
+\c@linenumber=\count311
+\c@pagewiselinenumber=\count312
+\c@LN@truepage=\count313
+\c@internallinenumber=\count314
+\c@internallinenumbers=\count315
+\quotelinenumbersep=\dimen179
+\bframerule=\dimen180
+\bframesep=\dimen181
+\bframebox=\box59
+\@LN@amsmath@ams@eqpen=\count316
+LaTeX Info: Redefining \\ on input line 3187.
+)
+\c@FancyVerbWriteLine=\count317
+\c@FancyVerbBufferLine=\count318
+\c@FV@TrueTabGroupLevel=\count319
+\c@FV@TrueTabCounter=\count320
+\FV@TabBox@Group=\box60
+\FV@bgcolorstructbox=\box61
+\FV@TmpLength=\skip68
+\c@FV@HighlightLinesStart=\count321
+\c@FV@HighlightLinesStop=\count322
+\FV@LoopCount=\count323
+\FV@NCharsBox=\box62
+\FV@BreakIndent=\dimen182
+\FV@BreakIndentNChars=\count324
+\FV@BreakSymbolSepLeft=\dimen183
+\FV@BreakSymbolSepLeftNChars=\count325
+\FV@BreakSymbolSepRight=\dimen184
+\FV@BreakSymbolSepRightNChars=\count326
+\FV@BreakSymbolIndentLeft=\dimen185
+\FV@BreakSymbolIndentLeftNChars=\count327
+\FV@BreakSymbolIndentRight=\dimen186
+\FV@BreakSymbolIndentRightNChars=\count328
+\c@FancyVerbLineBreakLast=\count329
+\FV@LineBox=\box63
+\FV@LineIndentBox=\box64
+\c@FV@BreakBufferDepth=\count330
+\FV@LineWidth=\dimen187
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count331
+\csq@gtype=\count332
+\csq@glevel=\count333
+\csq@qlevel=\count334
+\csq@maxlvl=\count335
+\csq@tshold=\count336
+\csq@ltx@everypar=\toks28
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip69
+\multirow@cntb=\count337
+\multirow@dima=\skip70
+\bigstrutjot=\dimen188
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/xtemplate/xtempla
+te.sty
+Package: xtemplate 2024-08-16 L3 Experimental prototype document functions
+)
+\l__xeCJK_tmp_int=\count338
+\l__xeCJK_tmp_box=\box65
+\l__xeCJK_tmp_dim=\dimen189
+\l__xeCJK_tmp_skip=\skip71
+\g__xeCJK_space_factor_int=\count339
+\l__xeCJK_begin_int=\count340
+\l__xeCJK_end_int=\count341
+\c__xeCJK_CJK_class_int=\XeTeXcharclass326
+\c__xeCJK_FullLeft_class_int=\XeTeXcharclass327
+\c__xeCJK_FullRight_class_int=\XeTeXcharclass328
+\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass329
+\c__xeCJK_HalfRight_class_int=\XeTeXcharclass330
+\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass331
+\c__xeCJK_CM_class_int=\XeTeXcharclass332
+\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass333
+\l__xeCJK_last_skip=\skip72
+\c__xeCJK_none_node=\count342
+\g__xeCJK_node_int=\count343
+\c__xeCJK_CJK_node_dim=\dimen190
+\c__xeCJK_CJK-space_node_dim=\dimen191
+\c__xeCJK_default_node_dim=\dimen192
+\c__xeCJK_CJK-widow_node_dim=\dimen193
+\c__xeCJK_normalspace_node_dim=\dimen194
+\c__xeCJK_default-space_node_skip=\skip73
+\l__xeCJK_ccglue_skip=\skip74
+\l__xeCJK_ecglue_skip=\skip75
+\l__xeCJK_punct_kern_skip=\skip76
+\l__xeCJK_indent_box=\box66
+\l__xeCJK_last_penalty_int=\count344
+\l__xeCJK_last_bound_dim=\dimen195
+\l__xeCJK_last_kern_dim=\dimen196
+\l__xeCJK_widow_penalty_int=\count345
+
+LaTeX template Info: Declaring template type 'xeCJK/punctuation' taking 0
+(template)           argument(s) on line 2396.
+
+\l__xeCJK_fixed_punct_width_dim=\dimen197
+\l__xeCJK_mixed_punct_width_dim=\dimen198
+\l__xeCJK_middle_punct_width_dim=\dimen199
+\l__xeCJK_fixed_margin_width_dim=\dimen256
+\l__xeCJK_mixed_margin_width_dim=\dimen257
+\l__xeCJK_middle_margin_width_dim=\dimen258
+\l__xeCJK_bound_punct_width_dim=\dimen259
+\l__xeCJK_bound_margin_width_dim=\dimen260
+\l__xeCJK_margin_minimum_dim=\dimen261
+\l__xeCJK_kerning_total_width_dim=\dimen262
+\l__xeCJK_same_align_margin_dim=\dimen263
+\l__xeCJK_different_align_margin_dim=\dimen264
+\l__xeCJK_kerning_margin_width_dim=\dimen265
+\l__xeCJK_kerning_margin_minimum_dim=\dimen266
+\l__xeCJK_bound_dim=\dimen267
+\l__xeCJK_reverse_bound_dim=\dimen268
+\l__xeCJK_margin_dim=\dimen269
+\l__xeCJK_minimum_bound_dim=\dimen270
+\l__xeCJK_kerning_margin_dim=\dimen271
+\g__xeCJK_family_int=\count346
+\l__xeCJK_fam_int=\count347
+\g__xeCJK_fam_allocation_int=\count348
+\l__xeCJK_verb_case_int=\count349
+\l__xeCJK_verb_exspace_skip=\skip77
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count350
+\l__fontspec_language_int=\count351
+\l__fontspec_strnum_int=\count352
+\l__fontspec_tmp_int=\count353
+\l__fontspec_tmpa_int=\count354
+\l__fontspec_tmpb_int=\count355
+\l__fontspec_tmpc_int=\count356
+\l__fontspec_em_int=\count357
+\l__fontspec_emdef_int=\count358
+\l__fontspec_strong_int=\count359
+\l__fontspec_strongdef_int=\count360
+\l__fontspec_tmpa_dim=\dimen272
+\l__fontspec_tmpb_dim=\dimen273
+\l__fontspec_tmpc_dim=\dimen274
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
+))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2025/01/31 v2.4 Modern multilingual typesetting with XeLaT
+eX and LuaLaTeX
+\l_xpg_alias_keyvals_int=\count361
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box67
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/newunicodechar/newunicodecha
+r.sty
+Package: newunicodechar 2018/04/08 v1.2 Defining Unicode characters
+)
+
+Package fontspec Info: 
+(fontspec)             Script 'CJK' not explicitly supported within font
+(fontspec)             'STSong'. Check the typeset output, and if it is okay
+(fontspec)             then ignore this warning. Otherwise a different font
+(fontspec)             should be chosen.
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "STSong/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "STSong/B" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "STSong/I" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'STSong(0)' created for font 'STSong' with
+(fontspec)             options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"STSong/OT:script=hani;language=dflt;"
+
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-french.ldf
+File: gloss-french.ldf polyglossia: module for French
+\french@openbrackets=\XeTeXcharclass334
+\french@closebrackets=\XeTeXcharclass335
+\french@questionexclamation=\XeTeXcharclass336
+\french@punctthin=\XeTeXcharclass337
+\french@punctthick=\XeTeXcharclass338
+\french@punctguillstart=\XeTeXcharclass339
+\french@punctguillend=\XeTeXcharclass340
+)
+
+Package polyglossia Info: Default language is french
+
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-english.ld
+f
+File: gloss-english.ldf polyglossia: module for English
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/gloss-dutch.ldf
+File: gloss-dutch.ldf polyglossia: module for Dutch
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/polyglossia/babelsh.def
+File: babelsh.def 2022/06/21 Babel common definitions for shorthands
+ Taken verbatim from babel files (2022/06/06 v3.76)
+)
+Package babel Info: Making " an active character on input line 34.
+)
+
+Package fontspec Info: 
+(fontspec)             Font family 'Georgia(0)' created for font 'Georgia'
+(fontspec)             with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Georgia/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Georgia/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Georgia/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Georgia/BI/OT:script=latn;language=dflt;"
+
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2025/07/08 version 6.7.1 text color boxes
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfutil-comm
+on.tex
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen275
+\pgfutil@tempdimb=\dimen276
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfutil-late
+x.def
+\pgfutil@abb=\box68
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.
+tex (/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty 
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.cod
+e.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code
+.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibra
+ryfiltered.code.tex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen277
+\pgf@y=\dimen278
+\pgf@xa=\dimen279
+\pgf@ya=\dimen280
+\pgf@xb=\dimen281
+\pgf@yb=\dimen282
+\pgf@xc=\dimen283
+\pgf@yc=\dimen284
+\pgf@xd=\dimen285
+\pgf@yd=\dimen286
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count362
+\c@pgf@countb=\count363
+\c@pgf@countc=\count364
+\c@pgf@countd=\count365
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count366
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xet
+ex.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvi
+pdfmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-com
+mon-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count367
+)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoft
+path.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count368
+\pgfsyssoftpath@bigbuffer@items=\count369
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprot
+ocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.cod
+e.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.
+tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathparser.cod
+e.tex
+\pgfmath@dimen=\dimen287
+\pgfmath@count=\count370
+\pgfmath@box=\box69
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+basic.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+trigonometric.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+random.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+comparison.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+base.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+round.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+misc.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
+integerarithmetics.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.
+tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code
+.tex
+\c@pgfmathroundto@lastzeros=\count371
+))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoin
+ts.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen288
+\pgf@picmaxx=\dimen289
+\pgf@picminy=\dimen290
+\pgf@picmaxy=\dimen291
+\pgf@pathminx=\dimen292
+\pgf@pathmaxx=\dimen293
+\pgf@pathminy=\dimen294
+\pgf@pathmaxy=\dimen295
+\pgf@xx=\dimen296
+\pgf@xy=\dimen297
+\pgf@yx=\dimen298
+\pgf@yy=\dimen299
+\pgf@zx=\dimen300
+\pgf@zy=\dimen301
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
+construct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen302
+\pgf@path@lasty=\dimen303
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
+usage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen304
+\pgf@shorten@start@additional=\dimen305
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescop
+es.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box70
+\pgf@hbox=\box71
+\pgf@layerbox@main=\box72
+\pgf@picture@serial@count=\count372
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregrap
+hicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen306
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretran
+sformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen307
+\pgf@pt@y=\dimen308
+\pgf@pt@temp=\dimen309
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequic
+k.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobje
+cts.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
+processing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearro
+ws.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen310
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshad
+e.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen311
+\pgf@sys@shading@range@num=\count373
+\pgf@shadingcount=\count374
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimag
+e.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexte
+rnal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box73
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelaye
+rs.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretran
+sparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatt
+erns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.
+code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/modules/pgfmoduleshape
+s.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box74
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.
+code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-ve
+rsion-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen312
+\pgf@nodesepend=\dimen313
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-ve
+rsion-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code
+.tex)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/utilities/pgffor.code.
+tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen314
+\pgffor@skip=\dimen315
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
+))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tik
+z.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/libraries/pgflibrarypl
+othandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count375
+\pgfplotmarksize=\dimen316
+)
+\tikz@lastx=\dimen317
+\tikz@lasty=\dimen318
+\tikz@lastxsaved=\dimen319
+\tikz@lastysaved=\dimen320
+\tikz@lastmovetox=\dimen321
+\tikz@lastmovetoy=\dimen322
+\tikzleveldistance=\dimen323
+\tikzsiblingdistance=\dimen324
+\tikz@figbox=\box75
+\tikz@figbox@bg=\box76
+\tikz@tempbox=\box77
+\tikz@tempbox@bg=\box78
+\tikztreelevel=\count376
+\tikznumberofchildren=\count377
+\tikznumberofcurrentchild=\count378
+\tikz@fig@count=\count379
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/modules/pgfmodulematri
+x.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count380
+\pgfmatrixcurrentcolumn=\count381
+\pgf@matrix@numberofcolumns=\count382
+)
+\tikz@expandcount=\count383
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/lib
+raries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks41
+\verbatim@line=\toks42
+\verbatim@in@stream=\read4
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box79
+\tcb@upperbox=\box80
+\tcb@lowerbox=\box81
+\tcb@phantombox=\box82
+\c@tcbbreakpart=\count384
+\c@tcblayer=\count385
+\c@tcolorbox@number=\count386
+\l__tcobox_tmpa_box=\box83
+\l__tcobox_tmpa_dim=\dimen325
+\tcb@temp=\box84
+\tcb@temp=\box85
+\tcb@temp=\box86
+\tcb@temp=\box87
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'polyglossia' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'french'.
+(./cybersec_final.aux)
+\openout1 = `cybersec_final.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+Package hyperref Info: Link coloring ON on input line 78.
+ (./cybersec_final.out) (./cybersec_final.out)
+\@outlinefile=\write5
+\openout5 = `cybersec_final.out'.
+
+
+Package chemgreek Info: Activating mapping `fontspec' on line 78.
+
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 78.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 78.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 78.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 78.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 78.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 78.
+LaTeX Font Info:    Redeclaring math accent \check on input line 78.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 78.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 78.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 78.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 78.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 78.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 78.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 78.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 78.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 78.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 78.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 78.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 78.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 78.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 78.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 78.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 78.
+LaTeX Font Info:    Font shape `TU/Georgia(0)/bx/n' in size <24.88> not availab
+le
+(Font)              Font shape `TU/Georgia(0)/b/n' tried instead on input line 
+79.
+
+(./cybersec_final.toc)
+\tf@toc=\write6
+\openout6 = `cybersec_final.toc'.
+
+
+
+[1
+
+
+]
+
+LaTeX Font Info:    Font shape `TU/Georgia(0)/m/sl' in size <10> not available
+(Font)              Font shape `TU/Georgia(0)/m/it' tried instead on input line
+ 83.
+[2
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
+
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
+
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 8
+3.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+
+[1]
+Overfull \hbox (7.30638pt too wide) in paragraph at lines 89--90
+[]\TU/Georgia(0)/m/n/10 The UTiCS concept centers on high-quality, ideally and 
+generally quite concise
+ []
+
+
+Overfull \hbox (1.19473pt too wide) in paragraph at lines 95--98
+[]\TU/Georgia(0)/m/n/10 Introduction to Cybersecurity A Multidisciplinary Chall
+engeISSN 1863-7310 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
+
+ []
+
+
+
+[2]
+Chapitre 1.
+LaTeX Font Info:    Font shape `TU/Georgia(0)/bx/n' in size <20.74> not availab
+le
+(Font)              Font shape `TU/Georgia(0)/b/n' tried instead on input line 
+116.
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-006.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-006.jpg>
+
+Underfull \vbox (badness 5302) has occurred while \output is active []
+
+
+
+[3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+
+ []
+
+
+
+[4]
+
+[5]
+
+[6
+
+]
+Chapitre 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
+
+ []
+
+
+Overfull \hbox (3.91855pt too wide) in paragraph at lines 155--158
+\TU/Georgia(0)/m/n/10 based on Figure 2 - OCTAVE Phases on page 5 and text from
+ Section 3.1-OCTAVE
+ []
+
+
+
+[7]
+
+[8]
+Chapitre 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--243
+
+ []
+
+
+
+[9
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 244--287
+
+ []
+
+
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 288--334
+
+ []
+
+
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 335--380
+
+ []
+
+
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 381--425
+
+ []
+
+
+
+[13]
+
+[14]
+
+[15]
+
+[16
+
+]
+Chapitre 4.
+LaTeX Font Info:    Font shape `TU/Georgia(0)/bx/n' in size <14.4> not availabl
+e
+(Font)              Font shape `TU/Georgia(0)/b/n' tried instead on input line 
+465.
+LaTeX Font Info:    Font shape `TU/Georgia(0)/bx/n' in size <12> not available
+(Font)              Font shape `TU/Georgia(0)/b/n' tried instead on input line 
+472.
+
+
+[17]
+Overfull \hbox (18.19255pt too wide) in paragraph at lines 479--480
+[]\TU/Georgia(0)/b/n/10 Malware: \TU/Georgia(0)/m/n/10 Evil-minded persons bega
+n to develop so-called malware-software
+ []
+
+
+
+[18]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-018.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-018.jpg>
+
+
+LaTeX Font Warning: Font shape `TU/Georgia(0)/m/sc' undefined
+(Font)              using `TU/Georgia(0)/m/n' instead on input line 493.
+
+
+
+[19]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-019.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-019.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+
+ []
+
+
+
+[20]
+
+[21]
+Overfull \hbox (4.91942pt too wide) in paragraph at lines 537--539
+\TU/Georgia(0)/m/sc/10 citemandiant2013apt1. APT is an acronym for \TU/Georgia(
+0)/m/it/10 Advanced Persistent Threat\TU/Georgia(0)/m/sc/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--539
+
+ []
+
+
+Overfull \hbox (0.87805pt too wide) in paragraph at lines 541--542
+\TU/Georgia(0)/m/sc/10 citefalliere2011stuxnet. There are many indications that
+ the attacks, which
+ []
+
+
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 544--547
+
+ []
+
+
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 553--556
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-023.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-023.jpg>
+
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 572--574
+
+ []
+
+
+
+[25]
+
+[26]
+
+[27]
+
+[28]
+
+[29]
+
+[30]
+
+[31]
+Overfull \hbox (4.7787pt too wide) in paragraph at lines 736--737
+[]\TU/Georgia(0)/m/sc/10 You should check that you understand their definitions
+ and can give examples
+ []
+
+
+
+[32]
+
+[33]
+
+[34
+
+]
+Chapitre 5.
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-033.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-033.jpg>
+
+
+[35]
+Underfull \vbox (badness 1178) has occurred while \output is active []
+
+
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 802--804
+
+ []
+
+
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 830--833
+
+ []
+
+
+
+[38]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-036.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-036.jpg>
+
+
+[39]
+
+[40]
+
+[41]
+Overfull \hbox (0.81155pt too wide) in paragraph at lines 945--954
+ [] 
+ []
+
+
+
+[42]
+Overfull \hbox (135.44543pt too wide) in paragraph at lines 959--966
+ [] 
+ []
+
+
+Overfull \hbox (63.17004pt too wide) in paragraph at lines 972--979
+ [] 
+ []
+
+
+
+[43]
+
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1028
+
+ []
+
+
+Overfull \hbox (3.70612pt too wide) in paragraph at lines 1029--1030
+[]\TU/Georgia(0)/m/sc/10 problem is that the recipient is exposed to \TU/Georgi
+a(0)/m/it/10 cognitive overload\TU/Georgia(0)/m/sc/10 - in other words,
+ []
+
+
+
+[45]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-042.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-042.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1047--1047
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-042(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-042(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1053--1053
+
+ []
+
+
+
+[46]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-043.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-043.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1083
+
+ []
+
+
+
+[47]
+
+[48]
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 1123--1125
+
+ []
+
+
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 1138--1140
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-047.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-047.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1153--1155
+
+ []
+
+
+
+[51]
+
+[52]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-048.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-048.jpg>
+
+Underfull \hbox (badness 1521) in paragraph at lines 1159--1159
+[]\TU/Georgia(0)/m/sc/10 Fig. 5.7: []Results from the CitAware e-learning syste
+m, when users were
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1159--1159
+
+ []
+
+
+
+[53]
+Overfull \hbox (4.7787pt too wide) in paragraph at lines 1180--1181
+[]\TU/Georgia(0)/m/sc/10 You should check that you understand their definitions
+ and can give examples
+ []
+
+
+Overfull \hbox (8.3984pt too wide) in paragraph at lines 1182--1184
+\TU/Georgia(0)/m/sc/10 citemitnick2003art. Mitnick became famous-or maybe notor
+ious is a better word-
+ []
+
+
+Overfull \hbox (5.41995pt too wide) in paragraph at lines 1185--1186
+\TU/Georgia(0)/m/sc/10 citekahneman1982judgment, which deals with how people ma
+ke decisions, when
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1199--1202
+
+ []
+
+
+
+[54]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-050.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-050.jpg>
+
+
+[55]
+
+Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
+(xeCJK)                
+(xeCJK)                Try to use `\setCJKmonofont[<...>]{<...>}' to define
+(xeCJK)                it.
+
+
+
+[56]
+Chapitre 6.
+
+
+[57
+
+]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-053.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-053.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1266--1266
+
+ []
+
+
+
+[58]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-053(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-053(1).jpg>
+
+
+[59]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-054.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-054.jpg>
+
+
+[60]
+Underfull \hbox (badness 10000) in paragraph at lines 1307--1311
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-055.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-055.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1328--1328
+
+ []
+
+
+
+[61]
+
+[62]
+
+[63]
+Overfull \hbox (1.42503pt too wide) in paragraph at lines 1415--1416
+[]\TU/Georgia(0)/m/sc/10 Functionality-how well does the IT system perform its 
+intended functions? 
+ []
+
+
+
+[64]
+Overfull \hbox (7.40485pt too wide) in paragraph at lines 1437--1438
+\TU/Georgia(0)/m/sc/10 ganization for Standardization (ISO) and the Internation
+al Electrotechnical Com-
+ []
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:1477: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1477 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:1477: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.1477 \hline
+             
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:1477: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.1477 \hline
+             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:1477: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.1477 \hline
+             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (278.61917pt too wide) in paragraph at lines 1444--1517
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[65]
+
+[66]
+Overfull \hbox (10.2686pt too wide) in paragraph at lines 1553--1554
+[]\TU/Georgia(0)/m/sc/10 OCTAVE-S, a simplified version for small enterprises w
+ith limited resources. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1558--1560
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-061.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-061.jpg>
+
+
+[67]
+
+[68]
+
+[69]
+
+[70]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-064.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-064.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1662--1662
+
+ []
+
+
+
+[71]
+
+[72]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-065.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-065.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1683--1683
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-066.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-066.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1704--1704
+
+ []
+
+
+
+[73]
+
+[74]
+
+[75]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-067.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-067.jpg>
+
+Overfull \hbox (9.47675pt too wide) in paragraph at lines 1732--1738
+\TU/Georgia(0)/m/sc/10 Countermeasures: medium (backup is taken of the personne
+l records every night). 
+ []
+
+
+
+[76]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-068.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-068.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1749--1749
+
+ []
+
+
+
+[77]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-069.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-069.jpg>
+
+Overfull \hbox (4.7787pt too wide) in paragraph at lines 1790--1791
+[]\TU/Georgia(0)/m/sc/10 You should check that you understand their definitions
+ and can give examples
+ []
+
+
+
+[78]
+
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 1811--1814
+
+ []
+
+
+Overfull \hbox (1.25006pt too wide) in paragraph at lines 1820--1822
+\TU/Georgia(0)/m/sc/10 respondents were asked to evaluate whether a number of e
+vents should be consi-
+ []
+
+
+
+[80]
+
+[81]
+
+[82
+
+]
+Chapitre 7.
+
+Overfull \hbox (1.80019pt too wide) in paragraph at lines 1841--1842
+[]\TU/Georgia(0)/m/sc/10 Cryptography (from the Greek words for hidden writing)
+ is a discipline which
+ []
+
+
+Overfull \hbox (6.66504pt too wide) in paragraph at lines 1848--1849
+[]\TU/Georgia(0)/m/sc/10 Encryption: Transformation of plaintext (data), to a f
+orm, ciphertext, where
+ []
+
+
+
+[83]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-073.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-073.jpg>
+
+Overfull \hbox (5.03586pt too wide) in paragraph at lines 1884--1885
+\TU/Georgia(0)/m/sc/10 nical developments with the use of advanced mathematics 
+in cryptography mean,
+ []
+
+
+
+[84]
+Overfull \hbox (0.74225pt too wide) in paragraph at lines 1892--1894
+\TU/Georgia(0)/m/sc/10 tosystem is therfore often called a \TU/Georgia(0)/m/it/
+10 Secret Key Cryptosystem \TU/Georgia(0)/m/sc/10 (or \TU/Georgia(0)/m/it/10 SK
+CS\TU/Georgia(0)/m/sc/10 , for short). 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1892--1894
+
+ []
+
+
+
+[85]
+Underfull \hbox (badness 10000) in paragraph at lines 1918--1920
+
+ []
+
+
+
+[86]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-076(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-076(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1946--1946
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-076.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-076.jpg>
+
+
+[87]
+Underfull \hbox (badness 10000) in paragraph at lines 1958--1960
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-077.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-077.jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-077(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-077(1).jpg>
+
+Overfull \hbox (0.4558pt too wide) in paragraph at lines 1961--1973
+\TU/Georgia(0)/m/sc/10 tance of knowing the language in use - alphabets may bot
+h have different lengths
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-078.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-078.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1982--1982
+
+ []
+
+
+
+[88]
+Overfull \hbox (100.91022pt too wide) in paragraph at lines 1991--2018
+ [] 
+ []
+
+
+
+[89]
+
+[90]
+Overfull \hbox (73.97073pt too wide) in paragraph at lines 2026--2034
+ [] 
+ []
+
+
+Overfull \hbox (25.59303pt too wide) in paragraph at lines 2039--2040
+\TU/Georgia(0)/m/sc/10 tance in the alphabet from a plaintext character to its 
+encoding) will be $\OT1/cmr/m/n/10 21\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 19\OML/
+cmm/m/it/10 ; \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 20\OML/cmm/m/
+it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 9$
+ []
+
+
+Overfull \hbox (221.00981pt too wide) in paragraph at lines 2042--2054
+ [] 
+ []
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:2107: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2107 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:2107: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.2107 \hline
+             
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:2107: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.2107 \hline
+             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:2107: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.2107 \hline
+             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (266.3871pt too wide) in paragraph at lines 2070--2129
+ [] 
+ []
+
+
+
+[91]
+
+[92]
+Overfull \hbox (0.30768pt too wide) in paragraph at lines 2173--2175
+\TU/Georgia(0)/m/sc/10 The basic principles for the design of modern ciphers we
+re formulated by Claude
+ []
+
+
+
+[93]
+Overfull \hbox (22.7794pt too wide) in paragraph at lines 2186--2192
+ [] 
+ []
+
+
+Overfull \hbox (13.44489pt too wide) in paragraph at lines 2194--2195
+\TU/Georgia(0)/m/sc/10 that you can deal with them by mathematical methods, whi
+ch we shall see examples
+ []
+
+
+
+[94]
+Overfull \hbox (56.28038pt too wide) in paragraph at lines 2226--2245
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2260--2262
+
+ []
+
+
+
+[95]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-084.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-084.jpg>
+
+
+[96]
+Underfull \hbox (badness 10000) in paragraph at lines 2275--2277
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-085.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-085.jpg>
+
+
+[97]
+Underfull \hbox (badness 10000) in paragraph at lines 2296--2298
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-086(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-086(1).jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-086.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-086.jpg>
+
+
+[98]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-087.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-087.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2321--2321
+
+ []
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:2337: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2337 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:2337: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.2337 \hline
+             
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:2337: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.2337 \hline
+             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:2337: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.2337 \hline
+             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+
+[99]
+
+[100]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-088.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-088.jpg>
+
+
+[101]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-089.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-089.jpg>
+
+Overfull \vbox (50.13217pt too high) detected at line 2391
+ []
+
+
+Overfull \hbox (49.12369pt too wide) in paragraph at lines 2386--2408
+ [] 
+ []
+
+
+
+[102]
+Underfull \hbox (badness 10000) in paragraph at lines 2452--2454
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-091.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-091.jpg>
+
+Overfull \hbox (6.00586pt too wide) in paragraph at lines 2461--2463
+\TU/Georgia(0)/m/sc/10 which can be stored in an 8 -bit byte. The vector is ini
+tialised via a \TU/Georgia(0)/m/it/10 Key-Scheduling
+ []
+
+
+
+[103]
+
+[104]
+Underfull \hbox (badness 10000) in paragraph at lines 2505--2508
+
+ []
+
+
+
+[105]
+
+[106]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-094.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-094.jpg>
+
+
+[107]
+Underfull \hbox (badness 10000) in paragraph at lines 2595--2597
+
+ []
+
+
+
+[108]
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:2694: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2694 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:2694: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.2694 \hline
+             
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:2694: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.2694 \hline
+             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:2694: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.2694 \hline
+             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+
+[109]
+Underfull \hbox (badness 10000) in paragraph at lines 2711--2713
+
+ []
+
+
+
+[110]
+Overfull \hbox (0.93349pt too wide) in paragraph at lines 2734--2735
+[]\TU/Georgia(0)/m/sc/10 This is an example of \TU/Georgia(0)/m/it/10 modular e
+xponentiation\TU/Georgia(0)/m/sc/10 , one of the functions for which
+ []
+
+
+
+[111]
+
+[112]
+
+[113]
+
+[114]
+
+[115]
+Underfull \hbox (badness 10000) in paragraph at lines 2961--2963
+
+ []
+
+
+
+[116]
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:2986: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2986 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:2986: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.2986 \hline
+             
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:2986: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.2986 \hline
+             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:2986: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.2986 \hline
+             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (23.21477pt too wide) in paragraph at lines 2979--3000
+ [] 
+ []
+
+
+
+[117]
+
+[118]
+Overfull \hbox (4.7787pt too wide) in paragraph at lines 3048--3049
+[]\TU/Georgia(0)/m/sc/10 You should check that you understand their definitions
+ and can give examples
+ []
+
+
+
+[119]
+Overfull \hbox (621.0pt too wide) in paragraph at lines 3077--3077
+[]\TU/lmtt/m/n/10 bv al dshxz, lriw bvr xeti, sl ye lpcbp lvw ykvy ewqxx,\index
+{hash function!SHA-2}\index{hash function!SHA-3}\index{message key}\index{modul
+ar exponentiation}\index{SHA-2}\index{SHA-3}[] 
+ []
+
+
+Overfull \hbox (699.75pt too wide) in paragraph at lines 3089--3089
+[]\TU/lmtt/m/n/10 cgn rrx wzq, xevh lav yhchu, trr agncd aifqqc fyhifsx\index{A
+KA}\index{digest authentication}\index{IMSI}\index{IMSI catcher}\index{mobile t
+elephone network!surveillance}\index{nonce}\index{UMTS!AKA}[] 
+ []
+
+
+
+[120]
+Underfull \hbox (badness 10000) in paragraph at lines 3150--3162
+
+ []
+
+
+
+[121]
+
+[122]
+Chapitre 8.
+
+
+[123
+
+]
+
+[124]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-111.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-111.jpg>
+
+
+[125]
+Overfull \hbox (24.97687pt too wide) in paragraph at lines 3242--3244
+\TU/Georgia(0)/m/sc/10 method to produce the hash value. The message is divided
+ up into blocks $\OML/cmm/m/it/10 x[]; x[]; [] ; x[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3242--3244
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-112.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-112.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3251--3251
+
+ []
+
+
+
+[126]
+Overfull \hbox (24.84201pt too wide) detected at line 3262
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3266--3268
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-113.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-113.jpg>
+
+Overfull \hbox (113.52861pt too wide) in paragraph at lines 3285--3304
+ [] 
+ []
+
+
+
+[127]
+
+[128]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-115.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-115.jpg>
+
+
+[129]
+
+[130]
+
+[131]
+Underfull \hbox (badness 10000) in paragraph at lines 3379--3381
+
+ []
+
+
+
+[132]
+Underfull \hbox (badness 10000) in paragraph at lines 3414--3416
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-118.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-118.jpg>
+
+Overfull \hbox (2.29498pt too wide) in paragraph at lines 3429--3430
+[]\TU/Georgia(0)/m/sc/10 The American standard DSS, originally specified in 199
+1 and now in its fourth
+ []
+
+
+
+[133]
+Underfull \hbox (badness 10000) in paragraph at lines 3447--3449
+
+ []
+
+
+
+[134]
+
+[135]
+Overfull \hbox (2.79062pt too wide) in paragraph at lines 3496--3497
+[]\TU/Georgia(0)/m/sc/10 In 2016, NIST in USA initiated a competition to develo
+p Post-Quantum Cryp-
+ []
+
+
+Overfull \hbox (28.21947pt too wide) in paragraph at lines 3496--3497
+\TU/Georgia(0)/m/sc/10 Dilithium, FALCON and SPHINCS+) and a single key encrypt
+ion scheme (CRYSTALS-
+ []
+
+
+
+[136]
+Overfull \hbox (153.75pt too wide) in paragraph at lines 3529--3529
+[]    \TU/lmtt/m/n/10 Message $2 \quad B \rightarrow A: \mathcal{E}\left(\left(
+N_{A}, A\right), S K_{A B}\right)$[] 
+ []
+
+
+Overfull \hbox (190.5pt too wide) in paragraph at lines 3531--3531
+[]    \TU/lmtt/m/n/10 Message $2 \quad B \rightarrow A: \mathcal{E}\left(\left(
+N_{B}, N_{A}, A\right), S K_{A B}\right)$[] 
+ []
+
+
+Overfull \hbox (174.75pt too wide) in paragraph at lines 3532--3532
+[]    \TU/lmtt/m/n/10 Message $3 \quad A \rightarrow B: \mathcal{E}\left(\left(
+N_{A}, N_{B}\right), S K_{A B}\right)$[] 
+ []
+
+
+Overfull \hbox (3.98434pt too wide) in paragraph at lines 3535--3536
+[]\TU/Georgia(0)/m/sc/10 Fig. 5.9 Simple challenge-response protocols for authe
+ntication with an SKCS 
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-122.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-122.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3549--3549
+
+ []
+
+
+
+[137]
+Overfull \hbox (216.75pt too wide) in paragraph at lines 3561--3561
+[]\TU/lmtt/m/n/10 Message $2 B \rightarrow A: \mathcal{E}\left(\left(A, N_{B}\r
+ight), S K_{B S}\right) \quad$ "authenticator"[] 
+ []
+
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 3562--3562
+[]\TU/lmtt/m/n/10 Message $3 \quad A \rightarrow S:\left(A, B, N_{A}, \mathcal{
+E}\left(\left(A, N_{B}\right), S K_{B S}\right)\right)$[] 
+ []
+
+
+Overfull \hbox (552.75pt too wide) in paragraph at lines 3563--3563
+[]\TU/lmtt/m/n/10 Message $4 \quad S \rightarrow A: \mathcal{E}\left(\left(B, N
+_{A}, S K_{A B}, \mathcal{E}\left(\left(A, N_{B}, S K_{A B}\right), S K_{B S}\r
+ight)\right), S K_{A S}\right)$[] 
+ []
+
+
+Overfull \hbox (190.5pt too wide) in paragraph at lines 3564--3564
+[]\TU/lmtt/m/n/10 Message $5 \quad A \rightarrow B: \mathcal{E}\left(\left(A, N
+_{B}, S K_{A B}\right), S K_{B S}\right)$[] 
+ []
+
+
+Overfull \hbox (96.0pt too wide) in paragraph at lines 3565--3565
+[]\TU/lmtt/m/n/10 Message $6 \quad B \rightarrow A: \mathcal{E}\left(N_{B}^{\pr
+ime}, S K_{A B}\right)$[] 
+ []
+
+
+Overfull \hbox (106.5pt too wide) in paragraph at lines 3566--3566
+[]\TU/lmtt/m/n/10 Message $7 \quad A \rightarrow B: \mathcal{E}\left(N_{B}^{\pr
+ime}-1, S K_{A B}\right)$[] 
+ []
+
+
+
+[138]
+Overfull \hbox (10.44601pt too wide) in paragraph at lines 3572--3573
+[]\TU/Georgia(0)/m/sc/10 Sam, who knows all the secret keys, now reads the auth
+enticator and constructs
+ []
+
+
+Overfull \hbox (51.15848pt too wide) in paragraph at lines 3596--3599
+\TU/Georgia(0)/m/sc/10 crypted with Sam's private key, $\OML/cmm/m/it/10 SK[]$\
+TU/Georgia(0)/m/sc/10 , is known as Alice's \TU/Georgia(0)/m/it/10 certificate\
+TU/Georgia(0)/m/sc/10 , and $\OMS/cmsy/m/n/10 E []$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[139]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-124.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-124.jpg>
+
+Overfull \hbox (3.32036pt too wide) in paragraph at lines 3612--3613
+[]\TU/Georgia(0)/m/sc/10 Correspondingly, in Message 4 Bob asks Sam to send Ali
+ce's certificate, which
+ []
+
+
+
+[140]
+Underfull \hbox (badness 10000) in paragraph at lines 3626--3628
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-126.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-126.jpg>
+
+
+[141]
+Overfull \hbox (1.47873pt too wide) in paragraph at lines 3649--3650
+\TU/Georgia(0)/m/sc/10 as Mallet, who can perform a man-in-the-middle attack wh
+ich inserts or changes
+ []
+
+
+
+[142]
+Overfull \hbox (3.20155pt too wide) in paragraph at lines 3656--3657
+[]\TU/Georgia(0)/m/sc/10 The security is improved if an \TU/Georgia(0)/m/it/10 
+electronic signature \TU/Georgia(0)/m/sc/10 is added to Diffie-Hellman
+ []
+
+
+Overfull \hbox (421.5pt too wide) in paragraph at lines 3660--3660
+[]\TU/lmtt/m/n/10 Message $2 \quad B \rightarrow A:\left(\alpha^{x_{B}} \bmod q
+, \mathcal{E}\left(S_{B}\left(\alpha^{x_{B}}, \alpha^{x_{A}}\right), K\right)\r
+ight)$[] 
+ []
+
+
+Overfull \hbox (232.5pt too wide) in paragraph at lines 3661--3661
+[]\TU/lmtt/m/n/10 Message $3 \quad A \rightarrow B: \mathcal{E}\left(S_{A}\left
+(\alpha^{x_{B}}, \alpha^{x_{A}}\right), K\right)$[] 
+ []
+
+
+
+[143]
+
+[144]
+
+[145]
+
+[146]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-131.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-131.jpg>
+
+
+[147]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-132.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-132.jpg>
+
+Overfull \hbox (4.62082pt too wide) in paragraph at lines 3801--3802
+[]\TU/Georgia(0)/m/sc/10 In the figure, arrows again indicate the direction of 
+trust, showing for example
+ []
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:3808: Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.3808 ... a "\textit{trust value" for subject $Y}
+                                                  $ by combining an evaluati...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+
+[148]
+
+[149]
+
+[150]
+Underfull \hbox (badness 10000) in paragraph at lines 3843--3845
+
+ []
+
+
+
+[151]
+Overfull \hbox (0.18958pt too wide) in paragraph at lines 3854--3855
+\TU/Georgia(0)/m/it/10 citemoriarty2014rfc7292, or on hardware in a tamper-proo
+f smartcard. Some
+ []
+
+
+
+[152]
+Overfull \hbox (9.50526pt too wide) in paragraph at lines 3885--3886
+[]\TU/Georgia(0)/m/it/10 You should check that you understand their definitions
+ and can give examples
+ []
+
+
+
+[153]
+Overfull \hbox (0.28734pt too wide) in paragraph at lines 3923--3925
+[]\TU/Georgia(0)/m/it/10 Needham and Schroeders original SKCS protocol The prot
+ocol which Need-
+ []
+
+
+LaTeX Font Warning: Font shape `TU/STSong(0)/m/it' undefined
+(Font)              using `TU/STSong(0)/m/n' instead on input line 3949.
+
+
+
+[154]
+
+[155]
+
+[156
+
+]
+Chapitre 9.
+
+Overfull \hbox (13.83788pt too wide) in paragraph at lines 3971--3972
+\TU/Georgia(0)/m/it/10 cables. The users connect their computers to the network
+ as so-called end systems-
+ []
+
+
+Overfull \hbox (1.37128pt too wide) in paragraph at lines 3977--3978
+[]\TU/Georgia(0)/m/it/10 Metropolitan Area Networks (MAN) : Networks covering a
+ town or other
+ []
+
+
+
+[157]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-140.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-140.jpg>
+LaTeX Font Info:    Font shape `U/eurosym/m/it' in size <10> not available
+(Font)              Font shape `U/eurosym/m/sl' tried instead on input line 398
+7.
+
+
+[158]
+Underfull \hbox (badness 10000) in paragraph at lines 4003--4005
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-141.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-141.jpg>
+
+
+[159]
+
+[160]
+
+[161]
+Underfull \hbox (badness 10000) in paragraph at lines 4091--4093
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-144(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-144(1).jpg>
+
+Overfull \hbox (2.38043pt too wide) in paragraph at lines 4101--4102
+[]\TU/Georgia(0)/m/it/10 The Internet is based on a reference model with five l
+ayers, which are shown
+ []
+
+
+
+[162]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-144.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-144.jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-145.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-145.jpg>
+
+
+[163]
+
+[164]
+Underfull \hbox (badness 10000) in paragraph at lines 4129--4131
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-146.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-146.jpg>
+
+
+[165]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-147.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-147.jpg>
+
+
+LaTeX Warning: Float too large for page by 6.93643pt on input line 4173.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4176--4178
+
+ []
+
+
+
+[166]
+
+[167]
+Overfull \hbox (12.07362pt too wide) in paragraph at lines 4179--4180
+\TU/Georgia(0)/m/it/10 in this domain which must be registered by the administr
+ator for [][]compute.dtu.dk[][].
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4208--4211
+
+ []
+
+
+
+[168]
+
+[169]
+Underfull \hbox (badness 10000) in paragraph at lines 4234--4236
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-150.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-150.jpg>
+
+Overfull \hbox (27.64645pt too wide) in paragraph at lines 4252--4253
+\TU/Georgia(0)/m/it/10 standard Internet applications. Further details can be f
+ound on [][]www.iana.org[][].
+ []
+
+
+
+[170]
+Underfull \hbox (badness 10000) in paragraph at lines 4257--4259
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-151.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-151.jpg>
+
+
+[171]
+Overfull \hbox (7.0028pt too wide) in paragraph at lines 4273--4274
+\TU/Georgia(0)/m/it/10 connection, it reserves resources for storing informatio
+n about the connec-
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-152.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-152.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 4296--4298
+
+ []
+
+
+
+[172]
+
+[173]
+
+[174]
+Overfull \hbox (411.08987pt too wide) in paragraph at lines 4338--4353
+ [] 
+ []
+
+
+
+[175]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-155.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-155.jpg>
+
+
+[176]
+
+[177]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-156.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-156.jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-157(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-157(1).jpg>
+
+
+[178]
+Overfull \hbox (2.2167pt too wide) in paragraph at lines 4428--4429
+\TU/Georgia(0)/m/it/10 Fig. 6.15. Electrical signals emitted by any system conn
+ected to the cable spread
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-157.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-157.jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-157(2).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-157(2).jpg>
+
+Overfull \hbox (0.49648pt too wide) in paragraph at lines 4446--4447
+\TU/Georgia(0)/m/it/10 Institute (ETSI). IEEE's standards have been published a
+s parts of the so-called
+ []
+
+
+
+[179]
+
+[180]
+Overfull \hbox (182.74004pt too wide) in paragraph at lines 4469--4490
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4507--4509
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-160(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-160(1).jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-160.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-160.jpg>
+
+
+[181]
+
+[182]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-161.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-161.jpg>
+
+
+[183]
+
+[184]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-162.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-162.jpg>
+
+
+[185]
+
+[186]
+Overfull \hbox (9.50526pt too wide) in paragraph at lines 4600--4601
+[]\TU/Georgia(0)/m/it/10 You should check that you understand their definitions
+ and can give examples
+ []
+
+
+Overfull \hbox (18.33092pt too wide) in paragraph at lines 4602--4604
+\TU/Georgia(0)/m/it/10 citecomer2014computernetworks, and Kurose and Ross's "Co
+mputer Networking-
+ []
+
+
+Overfull \hbox (3.46361pt too wide) in paragraph at lines 4605--4606
+[]\TU/Georgia(0)/m/it/10 For even more details about how the Internet works it 
+is necessary to consult
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4607--4614
+
+ []
+
+
+
+[187]
+
+[188]
+Chapitre 10.
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-168.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-168.jpg>
+
+Overfull \hbox (4.06665pt too wide) in paragraph at lines 4669--4675
+[]\TU/Georgia(0)/m/it/10 A simple example of a dialogue between a client in the
+ system gogo.molester.
+ []
+
+
+
+[189
+
+]
+Overfull \hbox (316.5pt too wide) in paragraph at lines 4690--4690
+[]\TU/lmtt/m/n/10 Here are the secret plans for the client destructor\index{HTT
+P!authorisation}\index{HTTP!character set}\index{HTTP!media type}[] 
+ []
+
+
+Overfull \hbox (13.94861pt too wide) in paragraph at lines 4703--4704
+\TU/Georgia(0)/m/it/10 the client's system ([][]gogo.molester.dk[][]) as parame
+ter to the ELHO-command.
+ []
+
+
+
+[190]
+
+[191]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-170.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-170.jpg>
+
+
+[192]
+
+[193]
+Underfull \hbox (badness 10000) in paragraph at lines 4762--4764
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4770--4773
+
+ []
+
+
+
+[194]
+Overfull \hbox (1193.25pt too wide) in paragraph at lines 4787--4787
+[]\TU/lmtt/m/n/10 Content-type: text/plain; charset=ISO-8859-1\index{man-in-the
+-middle!redirection}\index{encryption!in Internet layer}\index{encryption!in Tr
+ansport layer}\index{half open session}\index{Internet layer!encryption}\index{
+redirection attack}\index{session theft}\index{Transport layer!encryption}[] 
+ []
+
+
+Overfull \hbox (0.7935pt too wide) in paragraph at lines 4797--4798
+\TU/Georgia(0)/m/it/10 from the character set defined in the international stan
+dard ISO-8859-1, which
+ []
+
+
+
+[195]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 480
+4.
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+Missing character: There is no æ ("E6) in font eufm10!
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:4832: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.4832 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:4832: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.4832 \hline
+             
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:4832: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.4832 \hline
+             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:4832: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.4832 \hline
+             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (225.77544pt too wide) in paragraph at lines 4823--4844
+ [] 
+ []
+
+
+
+[196]
+Overfull \hbox (4.1236pt too wide) in paragraph at lines 4884--4887
+\TU/Georgia(0)/m/it/10 To save space, only part of the signature and its associ
+ated certificates is shown. 
+ []
+
+
+
+[197]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-176.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-176.jpg>
+
+
+[198]
+Overfull \hbox (85.5pt too wide) in paragraph at lines 4930--4930
+[]\TU/lmtt/m/n/10 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"\index{MIME!
+type}\index{PGP!type}[] 
+ []
+
+
+Overfull \hbox (43.5pt too wide) in paragraph at lines 4942--4942
+[]        \TU/lmtt/m/n/10 <A href="https://danopskrifter.dk/frikadeller.html">R
+ecipe</A></P>[] 
+ []
+
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 4944--4944
+[]        \TU/lmtt/m/n/10 <A href="https://moneygrab.eu/takeitandrun.html">Reci
+pe</A></P>[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 4945--4945
+[]    \TU/lmtt/m/n/10 <LI><P> Fl&aelig;skesteg med sv&aelig;r (eng: Roast pork 
+with crackling)[] 
+ []
+
+
+
+[199]
+Overfull \hbox (48.75pt too wide) in paragraph at lines 4946--4946
+[]        \TU/lmtt/m/n/10 <A href="https://danopskrifter.dk/flaeskesteg.html">R
+ecipe</A> </P>[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 4947--4947
+[]    \TU/lmtt/m/n/10 <LI><P> Sm&oslash;rrebr&oslash;d (eng: Danish open sandwi
+ches)[] 
+ []
+
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 4948--4948
+[]        \TU/lmtt/m/n/10 <A href="https://danopskrifter.dk/smoerbroed.html">Re
+cipes</A> </P>[] 
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-178.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-178.jpg>
+
+Underfull \vbox (badness 6825) has occurred while \output is active []
+
+
+
+[200]
+
+[201]
+Missing character: There is no æ ("E6) in font cmmi10!
+
+
+[202]
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:5089: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.5089 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:5089: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.5089 \hline
+             
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:5089: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.5089 \hline
+             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:5089: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.5089 \hline
+             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (258.39456pt too wide) in paragraph at lines 5082--5103
+ [] 
+ []
+
+
+
+[203]
+Overfull \hbox (53.34398pt too wide) in paragraph at lines 5115--5116
+\TU/Georgia(0)/m/it/10 specifies that the content of the resource with URI [][]
+http://www.w3.org/pub/www/xy.html[][]
+ []
+
+
+
+[204]
+Overfull \hbox (3.95267pt too wide) in paragraph at lines 5142--5143
+\TU/Georgia(0)/m/it/10 The header fields Content-Type, Content-Encoding and Con
+tent-Language give
+ []
+
+
+
+[205]
+Overfull \hbox (9.50526pt too wide) in paragraph at lines 5185--5186
+[]\TU/Georgia(0)/m/it/10 You should check that you understand their definitions
+ and can give examples
+ []
+
+
+
+[206]
+Overfull \hbox (90.91144pt too wide) in paragraph at lines 5225--5226
+\TU/Georgia(0)/m/it/10 work. The user manual can be found on Wireshark's home p
+age [][]https://www.wireshark.org/docs/[][]
+ []
+
+
+Overfull \hbox (25.6934pt too wide) in paragraph at lines 5225--5226
+\TU/Georgia(0)/m/it/10 wsug_html_chunked/ and there is a very useful wiki at []
+[]https://wiki.wireshark.org/[][]
+ []
+
+
+
+[207]
+
+[208]
+Chapitre 11.
+
+Overfull \hbox (18.18971pt too wide) in paragraph at lines 5246--5246
+[]\TU/Georgia(0)/b/n/14.4 Protection Based on Cryptographic Methods 
+ []
+
+
+
+[209
+
+]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-186.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-186.jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-186(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-186(1).jpg>
+
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
+
+
+[210]
+Overfull \hbox (8.18938pt too wide) in paragraph at lines 5274--5275
+[]\TU/Georgia(0)/m/it/10 Faked PDUs can be used to break or take over a TCP con
+nection ("session"),
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-187.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-187.jpg>
+
+
+[211]
+
+[212]
+
+[213]
+Underfull \hbox (badness 10000) in paragraph at lines 5293--5295
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-188.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-188.jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-188(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-188(1).jpg>
+
+
+[214]
+
+[215]
+
+[216]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-189.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-189.jpg>
+
+Overfull \hbox (2.25104pt too wide) in paragraph at lines 5340--5341
+[]\TU/Georgia(0)/m/it/10 The solution strategy must be to secure the medium aga
+inst access for unau-
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-190.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-190.jpg>
+
+Overfull \hbox (173.05571pt too wide) in paragraph at lines 5365--5378
+ [] 
+ []
+
+
+
+[217]
+
+[218]
+
+[219]
+
+[220]
+Overfull \hbox (384.74516pt too wide) in paragraph at lines 5444--5461
+ [] 
+ []
+
+
+
+[221]
+Overfull \hbox (4.77544pt too wide) in paragraph at lines 5466--5468
+\TU/Georgia(0)/m/it/10 mechanism for data and other information transmitted bet
+ween two endpoints. 
+ []
+
+
+Overfull \hbox (24.33679pt too wide) in paragraph at lines 5481--5485
+\TU/Georgia(0)/m/it/10 whether the tunnel runs between single computers ("hosts
+"), between (sub)networks
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5481--5485
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-193.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-193.jpg>
+
+Overfull \hbox (1.35489pt too wide) in paragraph at lines 5492--5494
+\TU/Georgia(0)/m/it/10 work which connects the two sites, as illustrated in Fig
+. 8.10. The tunnel (green)
+ []
+
+
+
+[222]
+Underfull \hbox (badness 10000) in paragraph at lines 5500--5503
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-194(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-194(1).jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-194.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-194.jpg>
+
+
+[223]
+Underfull \hbox (badness 10000) in paragraph at lines 5527--5529
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-195.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-195.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 5535--5543
+
+ []
+
+
+
+[224]
+
+[225]
+
+[226]
+Overfull \hbox (4.39374pt too wide) in paragraph at lines 5600--5601
+[]\TU/Georgia(0)/b/it/10 Handshake: \TU/Georgia(0)/m/it/10 Is used to authentic
+ate the server and (optionally) the client
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-197.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-197.jpg>
+
+Overfull \hbox (5.05212pt too wide) in paragraph at lines 5602--5609
+\TU/Georgia(0)/m/it/10 SSL/TLS's Record protocol offers stepwise processing of 
+Application layer
+ []
+
+
+
+[227]
+Overfull \hbox (70.33533pt too wide) in paragraph at lines 5633--5634
+\TU/Georgia(0)/m/it/10 must implement in TLS v1.2 is described by the string: T
+LS_RSA_WITH_AES_128_CBC_SHA
+ []
+
+
+
+[228]
+
+[229]
+Overfull \hbox (416.25pt too wide) in paragraph at lines 5710--5710
+[]    \TU/lmtt/m/n/10 Client and server negotiate a TLS session.\index{Change P
+ermissions!CRC}\index{nonce}\index{SSID}\index{WEP}\index{WiFi!SSID}\index{WiFi
+!WEP}[] 
+ []
+
+
+
+[230]
+Underfull \hbox (badness 10000) in paragraph at lines 5725--5727
+
+ []
+
+
+Overfull \hbox (20.2564pt too wide) in paragraph at lines 5730--5731
+\TU/Georgia(0)/m/it/10 Middle attack, where the attacker for example removes th
+e server's 250-STARTTLS
+ []
+
+
+
+[231]
+
+[232]
+
+[233]
+Underfull \hbox (badness 10000) in paragraph at lines 5781--5785
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-204.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-204.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 5795--5800
+
+ []
+
+
+
+[234]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-205.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-205.jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-205(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-205(1).jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-206.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-206.jpg>
+
+
+[235]
+
+[236]
+Underfull \hbox (badness 10000) in paragraph at lines 5833--5835
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-207.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-207.jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-207(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-207(1).jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-208.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-208.jpg>
+
+
+[237]
+
+[238]
+
+[239]
+
+[240]
+
+[241]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-211.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-211.jpg>
+
+Overfull \hbox (1.56665pt too wide) in paragraph at lines 5917--5924
+ \TU/Georgia(0)/m/it/10 With anomaly detection-also known as baseline based ana
+lysis - the IDS main-
+ []
+
+
+
+[242]
+Underfull \hbox (badness 10000) in paragraph at lines 5929--5931
+
+ []
+
+
+
+[243]
+Underfull \hbox (badness 10000) in paragraph at lines 5944--5946
+
+ []
+
+
+
+[244]
+Overfull \hbox (1.29074pt too wide) in paragraph at lines 5959--5960
+[]\TU/Georgia(0)/b/it/10 False APs \TU/Georgia(0)/m/it/10 can interfere with th
+e communication in infrastructure mode. 
+ []
+
+
+
+[245]
+Overfull \hbox (0.1831pt too wide) in paragraph at lines 6002--6003
+[]\TU/Georgia(0)/m/it/10 As discussed above: weak RC4 encryption, one-way authe
+ntication, poor
+ []
+
+
+
+[246]
+Underfull \hbox (badness 10000) in paragraph at lines 6019--6021
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-216.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-216.jpg>
+
+
+[247]
+Underfull \hbox (badness 10000) in paragraph at lines 6036--6039
+
+ []
+
+
+Overfull \hbox (4.12196pt too wide) in paragraph at lines 6040--6042
+\TU/Georgia(0)/m/it/10 Since v2.1 of Bluetooth, the security of the pairing pro
+cess has been streng-
+ []
+
+
+
+[248]
+Underfull \hbox (badness 10000) in paragraph at lines 6048--6052
+
+ []
+
+
+
+[249]
+Overfull \hbox (3.8366pt too wide) in paragraph at lines 6057--6057
+[]\TU/Georgia(0)/b/n/14.4 Security in the Mobile Telephone Network 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6069--6072
+
+ []
+
+
+
+[250]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-219.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-219.jpg>
+
+
+[251]
+Overfull \hbox (1.55037pt too wide) in paragraph at lines 6086--6087
+\TU/Georgia(0)/m/it/10 transmission "through the air" between the station and t
+he BTS was avai-
+ []
+
+
+Overfull \hbox (6.95961pt too wide) in paragraph at lines 6100--6101
+\TU/Georgia(0)/m/it/10 citedunkelman2010kasumi. Interestingly enough, KASUMI is
+ derived from Mit-
+ []
+
+
+
+[252]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-221.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-221.jpg>
+
+
+[253]
+
+[254]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-223.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-223.jpg>
+
+
+[255]
+Overfull \hbox (4.17813pt too wide) in paragraph at lines 6157--6159
+\TU/Georgia(0)/m/it/10 basic problem that even if you do your best to protect t
+he traffic passing through
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6157--6159
+
+ []
+
+
+
+[256]
+Overfull \hbox (2.62207pt too wide) in paragraph at lines 6168--6170
+[]\TU/Georgia(0)/b/it/10 Unstructured Supplementary Service Data (USSD) codes: 
+\TU/Georgia(0)/m/it/10 These
+ []
+
+
+
+[257]
+
+[258]
+Overfull \hbox (1.5pt too wide) in paragraph at lines 6222--6222
+[]\TU/lmtt/m/n/10 quis. Phasellus luctus pellentesque enim, non dictum nisl ult
+rices[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 6224--6224
+[]\TU/lmtt/m/n/10 massa. Vestibulum ex dolor, lobortis eu finibus nec, lobortis
+ quis[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6229--6231
+
+ []
+
+
+
+[259]
+Overfull \hbox (13.95027pt too wide) in paragraph at lines 6247--6248
+\TU/Georgia(0)/m/it/10 tacker sends spoofed PDUs with SYN set-that is, PDUs wit
+h fake source addresses-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6249--6251
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-228.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-228.jpg>
+
+Overfull \hbox (2.2283pt too wide) in paragraph at lines 6257--6260
+\TU/Georgia(0)/m/it/10 sending TCP PDUs with the ACK flag set at regular interv
+als to keep the connec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6262--6264
+
+ []
+
+
+
+[260]
+
+[261]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-229.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-229.jpg>
+
+
+[262]
+Underfull \hbox (badness 10000) in paragraph at lines 6282--6284
+
+ []
+
+
+Overfull \hbox (0.27025pt too wide) in paragraph at lines 6285--6286
+[]\TU/Georgia(0)/m/it/10 have the possibility of accessing the same cable (as i
+n the widely used Ether-
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-230.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-230.jpg>
+
+
+[263]
+
+[264]
+
+[265]
+
+[266]
+Underfull \hbox (badness 10000) in paragraph at lines 6343--6345
+
+ []
+
+
+
+[267]
+Overfull \hbox (606.15823pt too wide) in paragraph at lines 6373--6390
+ [] 
+ []
+
+
+
+[268]
+
+[269]
+Overfull \hbox (9.67377pt too wide) in paragraph at lines 6422--6423
+[]\TU/Georgia(0)/m/it/10 The DNS entry for the domain contains one such TXT rec
+ord, but it contains
+ []
+
+
+Overfull \hbox (432.83792pt too wide) in paragraph at lines 6446--6469
+ [] 
+ []
+
+
+
+[270]
+Overfull \hbox (2.30719pt too wide) in paragraph at lines 6471--6472
+\TU/Georgia(0)/m/it/10 ven by the h-tag are hashed in the order given, followed
+ by the DKIM-Signature
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 6478--6478
+[]\TU/lmtt/m/n/10 Received-SPF: pass (design.fake.com: domain of bonesen@molest
+er.dk[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6492--6494
+
+ []
+
+
+
+[271]
+Overfull \hbox (11.75616pt too wide) in paragraph at lines 6503--6504
+[]\TU/Georgia(0)/m/it/10 (Note that _domainkey is an obligatory component of th
+e name.) The contents
+ []
+
+
+Overfull \hbox (19.35796pt too wide) in paragraph at lines 6509--6510
+[]\TU/Georgia(0)/m/it/10 Construct the combined hash of the named header fields
+, the DKIM-Signature
+ []
+
+
+
+[272]
+
+[273]
+Underfull \hbox (badness 10000) in paragraph at lines 6569--6571
+
+ []
+
+
+
+[274]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-241.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-241.jpg>
+
+
+[275]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-242.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-242.jpg>
+
+
+[276]
+
+[277]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-243.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-243.jpg>
+
+
+[278]
+Overfull \hbox (9.50526pt too wide) in paragraph at lines 6670--6671
+[]\TU/Georgia(0)/m/it/10 You should check that you understand their definitions
+ and can give examples
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6672--6675
+
+ []
+
+
+
+[279]
+Overfull \hbox (2.36415pt too wide) in paragraph at lines 6676--6677
+\TU/Georgia(0)/m/it/10 the series can be found at URI [][]http://csrc.nist.gov/
+publications/PubsSPs.html[][].
+ []
+
+
+Overfull \hbox (1.13045pt too wide) in paragraph at lines 6680--6683
+[]\TU/Georgia(0)/m/it/10 Exercises Cybersquatting A security risk which is not 
+discussed in this chap-
+ []
+
+
+
+[280]
+Underfull \hbox (badness 10000) in paragraph at lines 6714--6718
+
+ []
+
+
+
+[281]
+
+[282]
+Chapitre 12.
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-248.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-248.jpg>
+
+
+[283
+
+]
+
+[284]
+
+[285]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-251.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-251.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6796--6796
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-251(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-251(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6805--6805
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6812--6814
+
+ []
+
+
+
+[286]
+
+[287]
+Overfull \hbox (13.28937pt too wide) in paragraph at lines 6815--6816
+[]\TU/Georgia(0)/m/it/10 being the user in person. Systems which use informatio
+n from a 3-dimensional
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-252(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-252(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6824--6824
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-252.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-252.jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-253.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-253.jpg>
+
+
+[288]
+
+[289]
+
+[290]
+
+[291]
+Overfull \hbox (42.86127pt too wide) in paragraph at lines 6871--6902
+ [] 
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-255.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-255.jpg>
+
+
+[292]
+
+[293]
+
+[294]
+Overfull \hbox (5.84467pt too wide) in paragraph at lines 6945--6946
+\TU/Georgia(0)/m/it/10 chose words which could be found in dictionaries. Only $
+\OT1/cmr/m/n/10 14[]$ \TU/Georgia(0)/m/it/10 made better choices. 
+ []
+
+
+Overfull \hbox (4.64516pt too wide) in paragraph at lines 6965--6967
+\TU/Georgia(0)/m/it/10 their passwords at regular intervals. And research shows
+ that frequent changes
+ []
+
+
+Overfull \hbox (2.23962pt too wide) in paragraph at lines 6965--6967
+\TU/Georgia(0)/m/it/10 example, the old password was "Pussy;cat4", they choose 
+"Pussy;cat5" or "Pus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6965--6967
+
+ []
+
+
+
+[295]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-258.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-258.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 6988--6988
+
+ []
+
+
+
+[296]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-259.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-259.jpg>
+
+
+[297]
+
+[298]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-261.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-261.jpg>
+
+
+[299]
+
+[300]
+
+[301]
+
+[302]
+Overfull \hbox (5.46469pt too wide) in paragraph at lines 7107--7108
+[]\TU/Georgia(0)/b/it/10 Physical separation: \TU/Georgia(0)/m/it/10 Different 
+processes use different physical objects-
+ []
+
+
+
+[303]
+Overfull \hbox (0.87898pt too wide) in paragraph at lines 7120--7121
+[]\TU/Georgia(0)/m/it/10 A highly privileged subject, who is said to have admin
+istrator (or in Unix-
+ []
+
+
+Overfull \hbox (9.73656pt too wide) in paragraph at lines 7128--7129
+[]\TU/Georgia(0)/b/it/10 Discretionary Access Control \TU/Georgia(0)/m/it/10 (c
+ommonly abbreviated to $\OML/cmm/m/it/10 DAC$ \TU/Georgia(0)/m/it/10 ) where
+ []
+
+
+
+[304]
+Overfull \hbox (18.24133pt too wide) in paragraph at lines 7146--7163
+ [] 
+ []
+
+
+
+[305]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-266.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-266.jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-266(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-266(1).jpg>
+
+
+[306]
+Underfull \hbox (badness 10000) in paragraph at lines 7221--7223
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-267.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-267.jpg>
+
+
+[307]
+
+[308]
+Underfull \hbox (badness 10000) in paragraph at lines 7273--7275
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-269.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-269.jpg>
+
+
+[309]
+
+[310]
+
+[311]
+
+[312]
+Overfull \hbox (3.43027pt too wide) in paragraph at lines 7400--7401
+[]\TU/Georgia(0)/m/it/10 An object's ACL specifies the sets of rights for one o
+r more subjects or groups.
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-272.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-272.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 7419--7421
+
+ []
+
+
+
+[313]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-273.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-273.jpg>
+
+
+[314]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-274.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-274.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 7483--7483
+
+ []
+
+
+
+[315]
+Underfull \hbox (badness 10000) in paragraph at lines 7490--7492
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-275.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-275.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 7496--7496
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7502--7504
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[316]
+
+[317]
+Overfull \hbox (6.70009pt too wide) in paragraph at lines 7512--7513
+\TU/Georgia(0)/m/it/10 keys at the top of the hierarchy, of which the root key 
+HKEY_LOCAL_MACHINE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7516--7519
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-277.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-277.jpg>
+
+Underfull \vbox (badness 1199) has occurred while \output is active []
+
+
+
+[318]
+
+[319]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-279.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-279.jpg>
+
+
+[320]
+
+[321]
+Underfull \hbox (badness 10000) in paragraph at lines 7573--7575
+
+ []
+
+
+
+[322]
+Underfull \hbox (badness 10000) in paragraph at lines 7586--7588
+
+ []
+
+
+Overfull \hbox (2.18019pt too wide) in paragraph at lines 7591--7592
+[]\TU/Georgia(0)/b/it/10 Demonstration of correctness: \TU/Georgia(0)/m/it/10 I
+n many common operating systems,
+ []
+
+
+Overfull \hbox (0.22876pt too wide) in paragraph at lines 7602--7603
+[]\TU/Georgia(0)/m/it/10 By using encryption units built into the hardware in t
+he IT system's disks.
+ []
+
+
+Overfull \hbox (0.83176pt too wide) in paragraph at lines 7605--7606
+[]\TU/Georgia(0)/m/it/10 Encryption systems in the operating system normally ai
+m to provide trans-
+ []
+
+
+
+[323]
+
+[324]
+
+[325]
+Overfull \hbox (0.74306pt too wide) in paragraph at lines 7652--7654
+\TU/Georgia(0)/m/it/10 programs by giving a reference which is not a complete p
+ath, for example
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7652--7654
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-284.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-284.jpg>
+
+
+[326]
+
+[327]
+Underfull \hbox (badness 10000) in paragraph at lines 7690--7692
+
+ []
+
+
+
+[328]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-286.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-286.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 7707--7709
+
+ []
+
+
+
+[329]
+
+[330]
+Overfull \hbox (9.50526pt too wide) in paragraph at lines 7761--7762
+[]\TU/Georgia(0)/m/it/10 You should check that you understand their definitions
+ and can give examples
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7766--7768
+
+ []
+
+
+
+[331]
+Overfull \hbox (2.07605pt too wide) in paragraph at lines 7773--7774
+[]\TU/Georgia(0)/m/it/10 Evaluation requirements, which can form the basis for 
+establishing confi-
+ []
+
+
+
+[332]
+Underfull \hbox (badness 10000) in paragraph at lines 7789--7792
+
+ []
+
+
+
+[333]
+Overfull \hbox (0.8016pt too wide) in paragraph at lines 7811--7814
+[]\TU/Georgia(0)/m/it/10 Windows NT ACLs In Sect. 9.3.1 there are two examples 
+of some user wishes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7832--7835
+
+ []
+
+
+
+[334]
+
+[335]
+
+[336
+
+]
+Chapitre 13.
+
+Overfull \hbox (6.4478pt too wide) in paragraph at lines 7862--7863
+[]\TU/Georgia(0)/m/it/10 Buffer overflow (or buffer overwrite), where the softw
+are does not prevent
+ []
+
+
+
+[337]
+Overfull \hbox (3.68192pt too wide) in paragraph at lines 7881--7888
+ [] 
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-294.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-294.jpg>
+
+Underfull \vbox (badness 1867) has occurred while \output is active []
+
+
+
+[338]
+
+[339]
+Overfull \hbox (1.25578pt too wide) in paragraph at lines 7970--7972
+\TU/Georgia(0)/m/it/10 time it had compromised a very large number of TLS clien
+ts and servers world-
+ []
+
+
+
+[340]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-296.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-296.jpg>
+
+
+LaTeX Warning: Float too large for page by 151.69754pt on input line 7996.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7998--8000
+
+ []
+
+
+
+[341]
+
+[342]
+
+[343]
+Underfull \hbox (badness 10000) in paragraph at lines 8041--8043
+
+ []
+
+
+
+[344]
+Overfull \hbox (11.51535pt too wide) in paragraph at lines 8060--8061
+[]\TU/Georgia(0)/m/it/10 American Fuzzy Lop (AFL), an open source tool availabl
+e at [][]http://lcamtuf[][].
+ []
+
+
+
+[345]
+Overfull \hbox (52.50166pt too wide) in paragraph at lines 8073--8074
+\TU/Georgia(0)/m/it/10 citewheeler2001flawfinder, available at URI [][]http://w
+ww.dwheeler.com/flawfinder[][] 
+ []
+
+
+Overfull \hbox (2.07602pt too wide) in paragraph at lines 8075--8076
+\TU/Georgia(0)/m/it/10 citehovemeyer2007finding, available at [][]http://findbu
+gs.sourceforge.net[][] 
+ []
+
+
+Overfull \hbox (31.57059pt too wide) in paragraph at lines 8087--8088
+\TU/Georgia(0)/m/it/10 blems with memory allocation. See [][]http://unicomsi.co
+m/products/purifyplus/[][]. 
+ []
+
+
+
+[346]
+Overfull \hbox (2.6367pt too wide) in paragraph at lines 8094--8095
+[]\TU/Georgia(0)/m/it/10 It would be nice if these techniques were used more ex
+tensively. David whee-
+ []
+
+
+Overfull \hbox (6.83351pt too wide) in paragraph at lines 8108--8109
+[]\TU/Georgia(0)/b/it/10 Spyware: \TU/Georgia(0)/m/it/10 Sends details about th
+e computer's hardware and/or the user's
+ []
+
+
+Overfull \hbox (2.93597pt too wide) in paragraph at lines 8109--8110
+[]\TU/Georgia(0)/b/it/10 Ransomware: \TU/Georgia(0)/m/it/10 This comes in two f
+lavours: Cryptographic ransomware
+ []
+
+
+
+[347]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-302.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-302.jpg>
+
+Underfull \hbox (badness 2503) in paragraph at lines 8120--8120
+[]\TU/Georgia(0)/m/sc/10 Fig. 13.3: []Photohound, Wikimedia Commons file Conejo
+_astronomo.png
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8120--8120
+
+ []
+
+
+
+[348]
+Underfull \hbox (badness 10000) in paragraph at lines 8135--8137
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-303.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-303.jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-303(2).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-303(2).jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-303(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-303(1).jpg>
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-303(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-303(1).jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[349]
+
+[350]
+Underfull \hbox (badness 10000) in paragraph at lines 8179--8181
+
+ []
+
+
+
+[351]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-305.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-305.jpg>
+
+Overfull \hbox (10.79922pt too wide) in paragraph at lines 8189--8190
+\TU/Georgia(0)/m/it/10 the task of detecting and if possible removing - or in s
+ome other way neutralising-
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-305(1).jpg Graphic file (type b
+mp)
+<./images/2025_05_12_ac3bc46a6f93dd973caag-305(1).jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 8201--8203
+
+ []
+
+
+
+[352]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-306.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-306.jpg>
+
+
+[353]
+
+[354]
+
+[355]
+
+[356]
+
+[357]
+Underfull \hbox (badness 10000) in paragraph at lines 8345--8351
+
+ []
+
+
+
+[358]
+Underfull \hbox (badness 10000) in paragraph at lines 8365--8367
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-312.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-312.jpg>
+
+
+[359]
+Overfull \hbox (739.18558pt too wide) in paragraph at lines 8378--8393
+ [] 
+ []
+
+
+Overfull \hbox (656.88872pt too wide) in paragraph at lines 8398--8453
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8455--8457
+
+ []
+
+
+
+[360]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-314.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-314.jpg>
+
+
+[361]
+
+[362]
+Overfull \hbox (10.31451pt too wide) in paragraph at lines 8525--8542
+ [] 
+ []
+
+
+
+[363]
+
+[364]
+Overfull \hbox (8.60919pt too wide) in paragraph at lines 8654--8655
+\TU/Georgia(0)/m/it/10 table. As there are 64 possible 6-bit sequences, the tab
+le will always contain
+ []
+
+
+
+[365]
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:8700: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.8700 \hline
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:8700: You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.8700 \hline
+             
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:8700: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.8700 \hline
+             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:8700: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.8700 \hline
+             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (199.46893pt too wide) in paragraph at lines 8665--8702
+ [] 
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-319.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-319.jpg>
+
+Overfull \hbox (489.7764pt too wide) in paragraph at lines 8705--8718
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8722--8725
+
+ []
+
+
+
+[366]
+Overfull \hbox (482.50883pt too wide) in paragraph at lines 8748--8776
+ [] 
+ []
+
+
+
+[367]
+Underfull \hbox (badness 10000) in paragraph at lines 8808--8810
+
+ []
+
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-322.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-322.jpg>
+
+
+[368]
+
+[369]
+
+[370]
+Underfull \hbox (badness 10000) in paragraph at lines 8932--8934
+
+ []
+
+
+
+[371]
+File: ./images/2025_05_12_ac3bc46a6f93dd973caag-326.jpg Graphic file (type bmp)
+
+<./images/2025_05_12_ac3bc46a6f93dd973caag-326.jpg>
+
+
+[372]
+
+[373]
+Overfull \hbox (153.75pt too wide) in paragraph at lines 8990--8990
+[]\TU/lmtt/m/n/10 <INPUT type="checkbox" name="colour" value="Brown">Brown<BR>\
+index{ISO-latin-1 printable!27001}[] 
+ []
+
+
+Overfull \hbox (2.07524pt too wide) in paragraph at lines 9002--9003
+[]\TU/Georgia(0)/b/it/10 Multiline text fields: \TU/Georgia(0)/m/it/10 These ar
+e described by TEXTAREA elements with
+ []
+
+
+Overfull \hbox (5.96442pt too wide) in paragraph at lines 9005--9006
+[]\TU/Georgia(0)/m/it/10 When the user clicks on the submit button in the webfo
+rm, the form's contents
+ []
+
+
+
+[374]
+
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:9029: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9029 w
+        here the text typed in is Alfred, then the pair firstname=Alfred is ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[375]
+Overfull \hbox (15.4875pt too wide) in paragraph at lines 9069--9070
+[]\TU/Georgia(0)/b/it/10 Class Loaders \TU/Georgia(0)/m/it/10 : fetch class fil
+es and check that they are mutually consistent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9074--9076
+
+ []
+
+
+
+[376]
+Overfull \hbox (2.68716pt too wide) in paragraph at lines 9086--9087
+\TU/Georgia(0)/m/it/10 in the developer. Worse still, ActiveX controls can be m
+arked safe-for-scripting,
+ []
+
+
+Overfull \hbox (8.50346pt too wide) in paragraph at lines 9108--9109
+[]\TU/Georgia(0)/m/it/10 The URI [][]http://www.vic.dk/images/../../../../etc/p
+asswd[][] would then give
+ []
+
+
+
+[377]
+
+[378]
+Overfull \hbox (43.98761pt too wide) in paragraph at lines 9163--9164
+\TU/Georgia(0)/m/it/10 tortoises and clicks on the link. Mallory's script is fe
+tched from [][]http://malpense.net[][]
+ []
+
+
+
+[379]
+/Users/jrathi/Projects/pdf-2-latex/files/cybersec/bold-italic-formatting/cybers
+ec_final.tex:9174: TeX capacity exceeded, sorry [input stack size=10000].
+\hyper@normalise ->\begingroup \@makeother {:}
+                                              \catcode `\^^M\active \def ^^M...
+l.9174 ... are PHP, \href{http://\textit{ASP.NET}}
+                                                  {ASP.NET} and \textit{Java...
+If you really absolutely need more capacity,
+you can ask a wizard to enlarge me.
+
+ 
+Here is how much of TeX's memory you used:
+ 35955 strings out of 475366
+ 855990 string characters out of 5762340
+ 1984064 words of memory out of 5000000
+ 58348 multiletter control sequences out of 15000+600000
+ 569653 words of font info for 138 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 10000i,15n,13330p,1761b,1141s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Output written on cybersec_final.xdv (381 pages, 7702644 bytes).

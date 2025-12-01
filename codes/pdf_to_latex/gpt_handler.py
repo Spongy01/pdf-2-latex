@@ -62,6 +62,41 @@ def process_tex_figures(input_path, output_path):
     with input_path.open("r", encoding="utf-8") as f:
         lines = f.readlines()
 
+    # ------------------------------------------------------------------
+    # Pre-scan environments with a simple stack-based parser so we know
+    # for every line whether it is inside a tabular environment.
+    # ------------------------------------------------------------------
+    n = len(lines)
+    inside_tabular = [False] * n
+
+    # We treat any environment whose name starts with "tabular" as tabular.
+    # (e.g., tabular, tabular*, tabularx, etc.)
+    env_stack = []
+    begin_env_re = re.compile(r"\\begin\{([^\}]+)\}")
+    end_env_re = re.compile(r"\\end\{([^\}]+)\}")
+
+    for idx, line in enumerate(lines):
+        # Current line is inside tabular if any active env starts with "tabular"
+        inside_tabular[idx] = any(env.startswith("tabular") for env in env_stack)
+
+        # First process all \end{...} occurrences on this line
+        for m in end_env_re.finditer(line):
+            env = m.group(1)
+            if env_stack:
+                # Pop matching env from the top if present, otherwise
+                # try to remove the last matching occurrence.
+                if env_stack[-1] == env:
+                    env_stack.pop()
+                else:
+                    for j in range(len(env_stack) - 1, -1, -1):
+                        if env_stack[j] == env:
+                            del env_stack[j]
+                            break
+
+        # Then process all \begin{...} occurrences on this line
+        for m in begin_env_re.finditer(line):
+            env_stack.append(m.group(1))
+
     caption_re = re.compile(r"^\s*(?:Figure|Fig\.)\s*(\d+(?:\.\d+)*)\s*[:\.\-]?\s*(.*)", re.IGNORECASE)
 
     def inside_existing_figure(idx):
@@ -81,12 +116,11 @@ def process_tex_figures(input_path, output_path):
     new_lines = []
     last_appended_index = 0
     i = 0
-    n = len(lines)
 
     while i < n:
         if "\\includegraphics" in lines[i]:
-            # if already inside a figure, just move on (don't wrap)
-            if inside_existing_figure(i):
+            # if already inside a figure or tabular, just move on (don't wrap)
+            if inside_existing_figure(i) or inside_tabular[i]:
                 i += 1
                 continue
 

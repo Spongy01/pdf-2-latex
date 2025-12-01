@@ -150,15 +150,19 @@ def save_bibtex(bib_dict, filename="references.bib"):
 
     print(f"BibTeX file saved as {filename}")
 
-def replace_citations(tex_filename, bib_dict, output_filename="updated.tex"):
-    """
+def replace_citations(tex_filename, bib_dict, output_filename="updated.tex", bibliography_filename=None):
+    r"""
     Replaces citation keys in a LaTeX file with \cite{...} using a dictionary.
+    Skips replacements inside \usepackage options and command definitions.
+    Also skips replacements before \begin{document} (in the preamble).
 
     Parameters:
         tex_filename (str): The name of the input .tex file.
         bib_dict (dict): Dictionary where keys are the citation keys in text (e.g., 'Abe13'),
                          and values are the BibTeX citation keys (e.g., 'abela2013advanced').
         output_filename (str): The name of the output file with updated citations (default: 'updated.tex').
+        bibliography_filename (str): The name of the bibliography file (without .bib extension) to add to \bibliography{}.
+                                     If None, will be derived from output_filename if it's a .bib file path.
 
     Returns:
         None
@@ -167,9 +171,120 @@ def replace_citations(tex_filename, bib_dict, output_filename="updated.tex"):
     with open(tex_filename, "r", encoding="utf-8") as f:
         tex_content = f.read()
     
-    # Replace each citation key with \cite{bibtex_key}
+    # Find the position of \begin{document} to protect the preamble
+    begin_doc_match = re.search(r'\\begin\{document\}', tex_content, re.IGNORECASE)
+    preamble_end = begin_doc_match.start() if begin_doc_match else None
+    
+    # First, identify protected regions where we should NOT replace citations:
+    # 1. \usepackage[...] - package options
+    # 2. \newcommand, \renewcommand, \providecommand, \DeclareRobustCommand, etc. - command definitions
+    # 3. Everything before \begin{document} (preamble)
+    protected_ranges = []
+    
+    # Protect the entire preamble (everything before \begin{document})
+    if preamble_end is not None and preamble_end > 0:
+        protected_ranges.append((0, preamble_end))
+    
+    # Pattern for \usepackage[options]{package}
+    usepackage_pattern = re.compile(r'\\usepackage\s*(\[[^\]]*\])', re.IGNORECASE)
+    for match in usepackage_pattern.finditer(tex_content):
+        protected_ranges.append((match.start(1), match.end(1)))
+    
+    # Pattern for command definitions: \newcommand, \renewcommand, \providecommand, \DeclareRobustCommand
+    # These can have: \newcommand\cmd[opt1][opt2]{def} or \newcommand{\cmd}[opt1][opt2]{def}
+    # We need to protect ALL optional arguments [opt] and the definition {def}
+    # Command name can be: \cmd or {\cmd} or \cmd (directly attached, can include @, numbers, etc.)
+    cmd_pattern = re.compile(
+        r'\\(?:new|renew|provide|DeclareRobust)command\s*'
+        r'(?:\\[^\s\[\{]+|\{[^}]+\})?'  # command name: \cmd (any non-whitespace/non-bracket) or {\cmd}
+        r'(?:\[[^\]]*\])*'  # zero or more optional arguments
+        r'(\{[^\}]*\})',  # required definition argument
+        re.IGNORECASE
+    )
+    for match in cmd_pattern.finditer(tex_content):
+        protected_ranges.append((match.start(1), match.end(1)))
+    
+    # Find and protect ALL optional arguments in command definitions
+    # This pattern finds the command definition start, then captures all [opt] arguments
+    cmd_full_pattern = re.compile(
+        r'\\(?:new|renew|provide|DeclareRobust)command\s*'
+        r'(?:\\[^\s\[\{]+|\{[^}]+\})?'  # command name: \cmd (any non-whitespace/non-bracket) or {\cmd}
+        r'((?:\[[^\]]*\])+)',  # one or more optional arguments
+        re.IGNORECASE
+    )
+    for match in cmd_full_pattern.finditer(tex_content):
+        # For each match, find all [opt] groups within it
+        opt_content = match.group(1)
+        start_offset = match.start(1)
+        # Find all [opt] patterns within this match
+        opt_pattern = re.compile(r'\[[^\]]*\]')
+        for opt_match in opt_pattern.finditer(opt_content):
+            protected_ranges.append((
+                start_offset + opt_match.start(),
+                start_offset + opt_match.end()
+            ))
+    
+    # Helper function to check if a position is in a protected range
+    def is_protected(pos):
+        return any(start <= pos < end for start, end in protected_ranges)
+    
+    # Helper function to check if a key is purely numeric
+    def is_numeric_key(key):
+        return key.isdigit()
+    
+    # For numbered citations, we need to replace [number] with \cite{bibtex_key}
+    # For alphanumeric citations (like Abe13), we use word boundary matching
     for key, bibtex_key in bib_dict.items():
-        tex_content = re.sub(rf'\b{re.escape(key)}\b', rf'\\cite{{{bibtex_key}}}', tex_content, count=1)
+        if is_numeric_key(key):
+            # For numeric keys, ONLY match when inside square brackets: [1], [34], etc.
+            # This avoids replacing page numbers, ISBN digits, section numbers, etc.
+            pattern = rf'\[{re.escape(key)}\]'
+            matches = list(re.finditer(pattern, tex_content))
+            
+            # Replace from end to start to maintain positions
+            for match in reversed(matches):
+                start_pos = match.start()
+                # Only replace if not in a protected region
+                if not is_protected(start_pos):
+                    tex_content = (tex_content[:match.start()] + 
+                                 rf'\\cite{{{bibtex_key}}}' + 
+                                 tex_content[match.end():])
+        else:
+            # For alphanumeric keys (like Abe13), use word boundary matching
+            pattern = rf'\b{re.escape(key)}\b'
+            matches = list(re.finditer(pattern, tex_content))
+            
+            # Replace from end to start to maintain positions
+            for match in reversed(matches):
+                start_pos = match.start()
+                # Only replace if not in a protected region
+                if not is_protected(start_pos):
+                    tex_content = (tex_content[:match.start()] + 
+                                 rf'\\cite{{{bibtex_key}}}' + 
+                                 tex_content[match.end():])
+
+    # Add \bibliographystyle{plain} and \bibliography{filename} before \end{document} if bibliography_filename is provided
+    if bibliography_filename:
+        # Remove .bib extension if present
+        bib_name = bibliography_filename
+        if bib_name.endswith('.bib'):
+            bib_name = bib_name[:-4]
+        
+        # Check if \bibliography or \bibliographystyle already exists
+        if r'\bibliography{' not in tex_content and r'\bibliographystyle{' not in tex_content:
+            # Find \end{document} and insert \bibliographystyle and \bibliography before it
+            if r'\end{document}' in tex_content:
+                # Insert \bibliographystyle{plain} and \bibliography before \end{document}
+                tex_content = re.sub(
+                    r'(\\end\{document\})',
+                    rf'\\bibliographystyle{{plain}}\n\\bibliography{{{bib_name}}}\n\\1',
+                    tex_content
+                )
+            else:
+                # If \end{document} doesn't exist, append at the end
+                tex_content += f'\n\\bibliographystyle{{plain}}\n\\bibliography{{{bib_name}}}\n'
+        else:
+            print(f"⚠️ Warning: \\bibliography or \\bibliographystyle already exists in the file, skipping addition")
 
     # Save the updated content to a new file
     with open(output_filename, "w", encoding="utf-8") as f:
@@ -385,7 +500,13 @@ def process_bibliography(pdf_path=None, tex_path=None, output_json_path=None, ou
     # Replace citations in LaTeX file if tex_path is provided
     if tex_path:
         try:
-            replace_citations(tex_path, citation_dict, output_filename=output_tex_path)
+            # Extract bibliography filename from output_bib_path (without .bib extension)
+            bib_filename = None
+            if output_bib_path:
+                # Get just the filename without directory and extension
+                bib_filename = os.path.basename(output_bib_path)
+            
+            replace_citations(tex_path, citation_dict, output_filename=output_tex_path, bibliography_filename=bib_filename)
             print(f"Updated LaTeX file saved to: {output_tex_path}")
         except Exception as e:
             print(f"Error updating LaTeX file: {e}")

@@ -36,6 +36,7 @@ from cleaner import clean_it_up
 from balance_checker import check_latex_balance
 from log_parser import parse_latex_log, save_log_analysis
 from cleaning_without_gpt import fix_figure_table_positioning
+from formatting_applier_v2 import apply_formatting as apply_bold_italic_formatting
 import subprocess
 import shutil
 import re
@@ -158,6 +159,7 @@ def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
         "bib_json_path": os.path.join(output_folder, f"{file_name}_bib.json"),
         "bib_output_path": os.path.join(output_folder, f"{file_name}_references.bib"),
         "final_path": os.path.join(output_folder, f"{file_name}_final.tex"),
+        "formatting_stats_path": os.path.join(output_folder, "formatting_statistics.json"),
     }
 
     return paths
@@ -297,6 +299,15 @@ def run_pipeline(
             current_tex_path = make_book(current_tex_path, paths["gpt_path"]) # converts article type to book type.
             current_tex_path = process_tex_figures(current_tex_path, paths["gpt_path"]) # will need to update the paths after changes made.
 
+            # Apply bold and italic formatting from PDF
+            print("🔤 Applying bold and italic formatting from PDF...")
+            current_tex_path = apply_bold_italic_formatting(
+                paths["book_path"],
+                current_tex_path,
+                paths["gpt_path"],
+                paths["output_folder"]
+            )
+
             # Fix figure and table positioning options
             print("🔧 Fixing figure and table positioning options...")
             current_tex_path = fix_figure_table_positioning(current_tex_path)
@@ -373,6 +384,62 @@ def run_pipeline(
 
     # store to the final output path
     store_final(current_tex_path, paths["final_path"])
+
+    # Remove microtype package and add tcolorbox package before compilation
+    print("📦 Removing microtype package and adding tcolorbox package...")
+    try:
+        with open(paths["final_path"], "r", encoding="utf-8") as f:
+            final_content = f.read()
+        
+        # Remove any \usepackage{microtype} or \usepackage[...]{microtype} lines
+        # This pattern matches both \usepackage{microtype} and \usepackage[options]{microtype}
+        microtype_pattern = re.compile(r'\\usepackage\s*(?:\[[^\]]*\])?\s*\{microtype\}.*\n?', re.IGNORECASE)
+        matches = list(microtype_pattern.finditer(final_content))
+        microtype_removed = False
+        if matches:
+            # Remove from end to start to maintain positions
+            for match in reversed(matches):
+                final_content = final_content[:match.start()] + final_content[match.end():]
+            microtype_removed = True
+            print(f"✅ Removed {len(matches)} microtype package usage(s)")
+        else:
+            print("ℹ️ No microtype package found in preamble")
+        
+        # Define the preamble additions
+        tcolorbox_additions = r"""
+\usepackage{tcolorbox}
+
+% Define 'abstract' to be a gray box
+\newenvironment{abstract}
+  {\begin{tcolorbox}[colback=black!5!white, colframe=black!5!white, sharp corners]}
+  {\end{tcolorbox}}
+"""
+        
+        # Find \begin{document} and insert before it
+        begin_doc_match = re.search(r'\\begin\{document\}', final_content)
+        if begin_doc_match:
+            # Track if we made any changes
+            content_changed = False
+            
+            # Check if tcolorbox is already in the preamble
+            if r'\usepackage{tcolorbox}' not in final_content:
+                insert_pos = begin_doc_match.start()
+                final_content = (final_content[:insert_pos] + 
+                               tcolorbox_additions + "\n" + 
+                               final_content[insert_pos:])
+                content_changed = True
+                print("✅ Added tcolorbox package and abstract environment to preamble")
+            else:
+                print("ℹ️ tcolorbox package already present in preamble, skipping")
+            
+            # Write file if we made any changes (removed microtype or added tcolorbox)
+            if content_changed or microtype_removed:
+                with open(paths["final_path"], "w", encoding="utf-8") as f:
+                    f.write(final_content)
+        else:
+            print("⚠️ Warning: Could not find \\begin{document} in final file")
+    except Exception as e:
+        print(f"❌ Error adding tcolorbox to preamble: {e}")
 
     end_time = datetime.now()
     duration = end_time - start_time
