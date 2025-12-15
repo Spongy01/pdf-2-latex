@@ -1,0 +1,4380 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/pdfextractkit/cybersec_final.tex
+  cybersec_final.tex
+Category 'changed_user':
+  /Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/pdfextractkit/cybersec_final.tex
+  cybersec_final.tex
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -interaction=nonstopmode -file-line-error -recorder  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/pdfextractkit/cybersec_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/pdfextractkit/cybersec_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/eurosym/eurosym.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/newunicodechar/newunicodechar.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.de
+f
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx
+.def
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def))))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex)) (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/environ/environ.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-french.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-dutch.ldf
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/babelsh.def))
+(./cybersec_final.aux) (./cybersec_final.out) (./cybersec_final.out)
+(./cybersec_final.toc)
+[1]
+[2] (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+[1]
+Overfull \hbox (7.30638pt too wide) in paragraph at lines 87--88
+[]\TU/Georgia(0)/m/n/10 The UTiCS concept centers on high-quality, ideally and 
+generally quite concise
+
+Overfull \hbox (1.19473pt too wide) in paragraph at lines 93--96
+[]\TU/Georgia(0)/m/n/10 Introduction to Cybersecurity A Multidisciplinary Chall
+engeISSN 1863-7310 
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--96
+
+
+[2]
+Chapitre 1.
+
+Underfull \vbox (badness 5302) has occurred while \output is active
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
+
+
+[4]
+[5]
+[6]
+Chapitre 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
+
+
+Overfull \hbox (3.91855pt too wide) in paragraph at lines 153--156
+\TU/Georgia(0)/m/n/10 based on Figure 2 - OCTAVE Phases on page 5 and text from
+ Section 3.1-OCTAVE
+
+[7]
+[8]
+Chapitre 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--196
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--241
+
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 242--285
+
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 286--332
+
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 333--378
+
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 379--423
+
+
+[13]
+[14]
+[15]
+[16]
+Chapitre 4.
+
+[17]
+Overfull \hbox (18.19255pt too wide) in paragraph at lines 477--478
+[]\TU/Georgia(0)/b/n/10 Malware: \TU/Georgia(0)/m/n/10 Evil-minded persons bega
+n to develop so-called malware-software
+
+[18]
+
+LaTeX Font Warning: Font shape `TU/Georgia(0)/m/sc' undefined
+(Font)              using `TU/Georgia(0)/m/n' instead on input line 491.
+
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
+
+
+[20]
+[21]
+Overfull \hbox (4.91942pt too wide) in paragraph at lines 535--537
+\TU/Georgia(0)/m/sc/10 citemandiant2013apt1. APT is an acronym for \TU/Georgia(
+0)/m/it/10 Advanced Persistent Threat\TU/Georgia(0)/m/sc/10 ,
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--537
+
+
+Overfull \hbox (0.87805pt too wide) in paragraph at lines 539--540
+\TU/Georgia(0)/m/sc/10 citefalliere2011stuxnet. There are many indications that
+ the attacks, which
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 542--545
+
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 551--554
+
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 570--572
+
+
+[25]
+[26]
+[27]
+[28]
+[29]
+[30]
+[31]
+Overfull \hbox (4.7787pt too wide) in paragraph at lines 734--735
+[]\TU/Georgia(0)/m/sc/10 You should check that you understand their definitions
+ and can give examples
+
+[32]
+[33]
+[34]
+Chapitre 5.
+
+[35]
+Underfull \vbox (badness 1178) has occurred while \output is active
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 800--802
+
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 828--831
+
+
+[38]
+[39]
+[40]
+[41]
+[42]
+Overfull \hbox (0.81155pt too wide) in paragraph at lines 948--957
+ [] 
+
+Overfull \hbox (135.44543pt too wide) in paragraph at lines 962--969
+ [] 
+
+Overfull \hbox (63.17004pt too wide) in paragraph at lines 975--982
+ [] 
+
+[43]
+[44]
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1031
+
+
+Overfull \hbox (3.70612pt too wide) in paragraph at lines 1032--1033
+[]\TU/Georgia(0)/m/sc/10 problem is that the recipient is exposed to \TU/Georgi
+a(0)/m/it/10 cognitive overload\TU/Georgia(0)/m/sc/10 - in other words,
+
+Underfull \hbox (badness 10000) in paragraph at lines 1050--1050
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1056
+
+
+[46]
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 1074--1086
+
+
+[48]
+[49]
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 1126--1128
+
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 1141--1143
+
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 1156--1158
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 1162--1162
+[]\TU/Georgia(0)/m/sc/10 Fig. 5.7: []Results from the CitAware e-learning syste
+m, when users were
+
+Underfull \hbox (badness 10000) in paragraph at lines 1162--1162
+
+
+[53]
+Overfull \hbox (4.7787pt too wide) in paragraph at lines 1183--1184
+[]\TU/Georgia(0)/m/sc/10 You should check that you understand their definitions
+ and can give examples
+
+Overfull \hbox (8.3984pt too wide) in paragraph at lines 1185--1187
+\TU/Georgia(0)/m/sc/10 citemitnick2003art. Mitnick became famous-or maybe notor
+ious is a better word-
+
+Overfull \hbox (5.41995pt too wide) in paragraph at lines 1188--1189
+\TU/Georgia(0)/m/sc/10 citekahneman1982judgment, which deals with how people ma
+ke decisions, when
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1205
+
+
+[55]
+
+Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
+(xeCJK)                
+(xeCJK)                Try to use `\setCJKmonofont[<...>]{<...>}' to define
+(xeCJK)                it.
+
+
+[56]
+[57]
+[58]
+Chapitre 6.
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 1274--1274
+
+
+[60]
+[61]
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 1315--1319
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1336--1336
+
+
+[63]
+[64]
+[65]
+Overfull \hbox (1.42503pt too wide) in paragraph at lines 1423--1424
+[]\TU/Georgia(0)/m/sc/10 Functionality-how well does the IT system perform its 
+intended functions? 
+
+[66]
+Overfull \hbox (7.40485pt too wide) in paragraph at lines 1445--1446
+\TU/Georgia(0)/m/sc/10 ganization for Standardization (ISO) and the Internation
+al Electrotechnical Com-
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:1485: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1485 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:1485: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.1485 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:1485: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.1485 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:1485: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.1485 \hline
+             
+
+Overfull \hbox (278.61917pt too wide) in paragraph at lines 1452--1525
+ [] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+[67]
+[68]
+Overfull \hbox (10.2686pt too wide) in paragraph at lines 1561--1562
+[]\TU/Georgia(0)/m/sc/10 OCTAVE-S, a simplified version for small enterprises w
+ith limited resources. 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1566--1568
+
+
+[69]
+[70]
+[71]
+[72]
+Underfull \hbox (badness 10000) in paragraph at lines 1670--1670
+
+
+[73]
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 1691--1691
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+
+
+[75]
+[76]
+[77]
+Overfull \hbox (9.47675pt too wide) in paragraph at lines 1740--1746
+\TU/Georgia(0)/m/sc/10 Countermeasures: medium (backup is taken of the personne
+l records every night). 
+
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 1757--1757
+
+
+[79]
+Overfull \hbox (4.7787pt too wide) in paragraph at lines 1798--1799
+[]\TU/Georgia(0)/m/sc/10 You should check that you understand their definitions
+ and can give examples
+
+[80]
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 1819--1822
+
+
+Overfull \hbox (1.25006pt too wide) in paragraph at lines 1828--1830
+\TU/Georgia(0)/m/sc/10 respondents were asked to evaluate whether a number of e
+vents should be consi-
+
+[82]
+[83]
+[84]
+Chapitre 7.
+
+Overfull \hbox (1.80019pt too wide) in paragraph at lines 1849--1850
+[]\TU/Georgia(0)/m/sc/10 Cryptography (from the Greek words for hidden writing)
+ is a discipline which
+
+Overfull \hbox (6.66504pt too wide) in paragraph at lines 1856--1857
+[]\TU/Georgia(0)/m/sc/10 Encryption: Transformation of plaintext (data), to a f
+orm, ciphertext, where
+
+[85]
+Overfull \hbox (5.03586pt too wide) in paragraph at lines 1892--1893
+\TU/Georgia(0)/m/sc/10 nical developments with the use of advanced mathematics 
+in cryptography mean,
+
+[86]
+Overfull \hbox (0.74225pt too wide) in paragraph at lines 1900--1902
+\TU/Georgia(0)/m/sc/10 tosystem is therfore often called a \TU/Georgia(0)/m/it/
+10 Secret Key Cryptosystem \TU/Georgia(0)/m/sc/10 (or \TU/Georgia(0)/m/it/10 SK
+CS\TU/Georgia(0)/m/sc/10 , for short). 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1900--1902
+
+
+[87]
+Underfull \hbox (badness 10000) in paragraph at lines 1926--1928
+
+
+[88]
+Underfull \hbox (badness 10000) in paragraph at lines 1954--1954
+
+
+[89]
+Underfull \hbox (badness 10000) in paragraph at lines 1966--1968
+
+
+Overfull \hbox (0.4558pt too wide) in paragraph at lines 1969--1981
+\TU/Georgia(0)/m/sc/10 tance of knowing the language in use - alphabets may bot
+h have different lengths
+
+Underfull \hbox (badness 10000) in paragraph at lines 1990--1990
+
+
+[90]
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2024: LaTeX Error: Not in outer par mode.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2024 \begin{figure}[htbp]
+                           
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2024: Undefined control sequence.
+\@xfloat ...@fltovf \fi \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.2024 \begin{figure}[htbp]
+                           
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2024: Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.2024 \begin{figure}[htbp]
+                           
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2029: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2029 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2029: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.2029 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2029: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.2029 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2029: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.2029 \hline
+             
+
+Overfull \hbox (100.91022pt too wide) in paragraph at lines 1999--2031
+ [] 
+
+[91]
+[92]
+Overfull \hbox (73.97073pt too wide) in paragraph at lines 2039--2047
+ [] 
+
+Overfull \hbox (25.59303pt too wide) in paragraph at lines 2052--2053
+\TU/Georgia(0)/m/sc/10 tance in the alphabet from a plaintext character to its 
+encoding) will be $\OT1/cmr/m/n/10 21\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 19\OML/
+cmm/m/it/10 ; \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 20\OML/cmm/m/
+it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 9$
+
+Overfull \hbox (221.00981pt too wide) in paragraph at lines 2055--2067
+ [] 
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2120: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2120 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2120: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.2120 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2120: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.2120 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2120: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.2120 \hline
+             
+
+Overfull \hbox (266.3871pt too wide) in paragraph at lines 2083--2142
+ [] 
+
+[93]
+[94]
+Overfull \hbox (0.30768pt too wide) in paragraph at lines 2186--2188
+\TU/Georgia(0)/m/sc/10 The basic principles for the design of modern ciphers we
+re formulated by Claude
+
+[95]
+Overfull \hbox (22.7794pt too wide) in paragraph at lines 2199--2205
+ [] 
+
+Overfull \hbox (13.44489pt too wide) in paragraph at lines 2207--2208
+\TU/Georgia(0)/m/sc/10 that you can deal with them by mathematical methods, whi
+ch we shall see examples
+
+[96]
+Overfull \hbox (56.28038pt too wide) in paragraph at lines 2239--2258
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2273--2275
+
+
+[97]
+[98]
+Underfull \hbox (badness 10000) in paragraph at lines 2288--2290
+
+
+[99]
+Underfull \hbox (badness 10000) in paragraph at lines 2309--2311
+
+
+[100]
+Underfull \hbox (badness 10000) in paragraph at lines 2334--2334
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2350: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2350 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2350: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.2350 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2350: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.2350 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2350: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.2350 \hline
+             
+
+[101]
+[102]
+[103]
+Overfull \vbox (50.13217pt too high) detected at line 2404
+
+Overfull \hbox (49.12369pt too wide) in paragraph at lines 2399--2421
+ [] 
+
+[104]
+Underfull \hbox (badness 10000) in paragraph at lines 2465--2467
+
+
+Overfull \hbox (6.00586pt too wide) in paragraph at lines 2474--2476
+\TU/Georgia(0)/m/sc/10 which can be stored in an 8 -bit byte. The vector is ini
+tialised via a \TU/Georgia(0)/m/it/10 Key-Scheduling
+
+[105]
+[106]
+Underfull \hbox (badness 10000) in paragraph at lines 2518--2521
+
+
+[107]
+[108]
+[109]
+[110]
+Underfull \hbox (badness 10000) in paragraph at lines 2613--2615
+
+
+[111]
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2708: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2708 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2708: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.2708 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2708: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.2708 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2708: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.2708 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2712: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2712 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2712: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.2712 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2712: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.2712 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2712: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.2712 \hline
+             
+
+[112]
+Underfull \hbox (badness 10000) in paragraph at lines 2729--2731
+
+
+[113]
+Overfull \hbox (0.93349pt too wide) in paragraph at lines 2752--2753
+[]\TU/Georgia(0)/m/sc/10 This is an example of \TU/Georgia(0)/m/it/10 modular e
+xponentiation\TU/Georgia(0)/m/sc/10 , one of the functions for which
+
+[114]
+[115]
+[116]
+[117]
+[118]
+[119]
+Underfull \hbox (badness 10000) in paragraph at lines 2984--2986
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:3009: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.3009 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:3009: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.3009 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:3009: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.3009 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:3009: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.3009 \hline
+             
+
+Overfull \hbox (23.21477pt too wide) in paragraph at lines 3002--3023
+ [] 
+
+[120]
+[121]
+Overfull \hbox (4.7787pt too wide) in paragraph at lines 3071--3072
+[]\TU/Georgia(0)/m/sc/10 You should check that you understand their definitions
+ and can give examples
+
+[122]
+Overfull \hbox (621.0pt too wide) in paragraph at lines 3100--3100
+[]\TU/lmtt/m/n/10 bv al dshxz, lriw bvr xeti, sl ye lpcbp lvw ykvy ewqxx,\index
+{hash function!SHA-2}\index{hash function!SHA-3}\index{message key}\index{modul
+ar exponentiation}\index{SHA-2}\index{SHA-3}[] 
+
+Overfull \hbox (689.25pt too wide) in paragraph at lines 3110--3110
+[]\TU/lmtt/m/n/10 nsh glw flsvcznw wgvwgxta, evvhl vx ytme mw al oej,\index{AKA
+}\index{digest authentication}\index{IMSI}\index{IMSI catcher}\index{mobile tel
+ephone network!surveillance}\index{nonce}\index{UMTS!AKA}[] 
+
+[123]
+[124]
+Underfull \hbox (badness 10000) in paragraph at lines 3173--3185
+
+
+[125]
+[126]
+Chapitre 8.
+
+[127]
+[128]
+[129]
+Overfull \hbox (24.97687pt too wide) in paragraph at lines 3265--3267
+\TU/Georgia(0)/m/sc/10 method to produce the hash value. The message is divided
+ up into blocks $\OML/cmm/m/it/10 x[]; x[]; [] ; x[]$
+
+Underfull \hbox (badness 10000) in paragraph at lines 3265--3267
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3274--3274
+
+
+[130]
+Overfull \hbox (24.84201pt too wide) detected at line 3285
+[][]
+
+Underfull \hbox (badness 10000) in paragraph at lines 3289--3291
+
+
+Overfull \hbox (113.52861pt too wide) in paragraph at lines 3308--3327
+ [] 
+
+[131]
+[132]
+[133]
+[134]
+[135]
+Underfull \hbox (badness 10000) in paragraph at lines 3402--3404
+
+
+[136]
+Underfull \hbox (badness 10000) in paragraph at lines 3437--3439
+
+
+Overfull \hbox (2.29498pt too wide) in paragraph at lines 3452--3453
+[]\TU/Georgia(0)/m/sc/10 The American standard DSS, originally specified in 199
+1 and now in its fourth
+
+[137]
+Underfull \hbox (badness 10000) in paragraph at lines 3470--3472
+
+
+[138]
+[139]
+Overfull \hbox (2.79062pt too wide) in paragraph at lines 3519--3520
+[]\TU/Georgia(0)/m/sc/10 In 2016, NIST in USA initiated a competition to develo
+p Post-Quantum Cryp-
+
+Overfull \hbox (28.21947pt too wide) in paragraph at lines 3519--3520
+\TU/Georgia(0)/m/sc/10 Dilithium, FALCON and SPHINCS+) and a single key encrypt
+ion scheme (CRYSTALS-
+
+[140]
+Overfull \hbox (153.75pt too wide) in paragraph at lines 3552--3552
+[]    \TU/lmtt/m/n/10 Message $2 \quad B \rightarrow A: \mathcal{E}\left(\left(
+N_{A}, A\right), S K_{A B}\right)$[] 
+
+Overfull \hbox (190.5pt too wide) in paragraph at lines 3554--3554
+[]    \TU/lmtt/m/n/10 Message $2 \quad B \rightarrow A: \mathcal{E}\left(\left(
+N_{B}, N_{A}, A\right), S K_{A B}\right)$[] 
+
+Overfull \hbox (174.75pt too wide) in paragraph at lines 3555--3555
+[]    \TU/lmtt/m/n/10 Message $3 \quad A \rightarrow B: \mathcal{E}\left(\left(
+N_{A}, N_{B}\right), S K_{A B}\right)$[] 
+
+Overfull \hbox (3.98434pt too wide) in paragraph at lines 3558--3559
+[]\TU/Georgia(0)/m/sc/10 Fig. 5.9 Simple challenge-response protocols for authe
+ntication with an SKCS 
+
+Underfull \hbox (badness 10000) in paragraph at lines 3572--3572
+
+
+[141]
+Overfull \hbox (216.75pt too wide) in paragraph at lines 3584--3584
+[]\TU/lmtt/m/n/10 Message $2 B \rightarrow A: \mathcal{E}\left(\left(A, N_{B}\r
+ight), S K_{B S}\right) \quad$ "authenticator"[] 
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 3585--3585
+[]\TU/lmtt/m/n/10 Message $3 \quad A \rightarrow S:\left(A, B, N_{A}, \mathcal{
+E}\left(\left(A, N_{B}\right), S K_{B S}\right)\right)$[] 
+
+Overfull \hbox (552.75pt too wide) in paragraph at lines 3586--3586
+[]\TU/lmtt/m/n/10 Message $4 \quad S \rightarrow A: \mathcal{E}\left(\left(B, N
+_{A}, S K_{A B}, \mathcal{E}\left(\left(A, N_{B}, S K_{A B}\right), S K_{B S}\r
+ight)\right), S K_{A S}\right)$[] 
+
+Overfull \hbox (190.5pt too wide) in paragraph at lines 3587--3587
+[]\TU/lmtt/m/n/10 Message $5 \quad A \rightarrow B: \mathcal{E}\left(\left(A, N
+_{B}, S K_{A B}\right), S K_{B S}\right)$[] 
+
+Overfull \hbox (96.0pt too wide) in paragraph at lines 3588--3588
+[]\TU/lmtt/m/n/10 Message $6 \quad B \rightarrow A: \mathcal{E}\left(N_{B}^{\pr
+ime}, S K_{A B}\right)$[] 
+
+Overfull \hbox (106.5pt too wide) in paragraph at lines 3589--3589
+[]\TU/lmtt/m/n/10 Message $7 \quad A \rightarrow B: \mathcal{E}\left(N_{B}^{\pr
+ime}-1, S K_{A B}\right)$[] 
+
+[142]
+Overfull \hbox (10.44601pt too wide) in paragraph at lines 3595--3596
+[]\TU/Georgia(0)/m/sc/10 Sam, who knows all the secret keys, now reads the auth
+enticator and constructs
+
+Overfull \hbox (51.15848pt too wide) in paragraph at lines 3619--3622
+\TU/Georgia(0)/m/sc/10 crypted with Sam's private key, $\OML/cmm/m/it/10 SK[]$\
+TU/Georgia(0)/m/sc/10 , is known as Alice's \TU/Georgia(0)/m/it/10 certificate\
+TU/Georgia(0)/m/sc/10 , and $\OMS/cmsy/m/n/10 E []$
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+[143]
+Overfull \hbox (3.32036pt too wide) in paragraph at lines 3635--3636
+[]\TU/Georgia(0)/m/sc/10 Correspondingly, in Message 4 Bob asks Sam to send Ali
+ce's certificate, which
+
+[144]
+Underfull \hbox (badness 10000) in paragraph at lines 3649--3651
+
+
+[145]
+Overfull \hbox (1.47873pt too wide) in paragraph at lines 3672--3673
+\TU/Georgia(0)/m/sc/10 as Mallet, who can perform a man-in-the-middle attack wh
+ich inserts or changes
+
+[146]
+Overfull \hbox (3.20155pt too wide) in paragraph at lines 3679--3680
+[]\TU/Georgia(0)/m/sc/10 The security is improved if an \TU/Georgia(0)/m/it/10 
+electronic signature \TU/Georgia(0)/m/sc/10 is added to Diffie-Hellman
+
+Overfull \hbox (421.5pt too wide) in paragraph at lines 3683--3683
+[]\TU/lmtt/m/n/10 Message $2 \quad B \rightarrow A:\left(\alpha^{x_{B}} \bmod q
+, \mathcal{E}\left(S_{B}\left(\alpha^{x_{B}}, \alpha^{x_{A}}\right), K\right)\r
+ight)$[] 
+
+Overfull \hbox (232.5pt too wide) in paragraph at lines 3684--3684
+[]\TU/lmtt/m/n/10 Message $3 \quad A \rightarrow B: \mathcal{E}\left(S_{A}\left
+(\alpha^{x_{B}}, \alpha^{x_{A}}\right), K\right)$[] 
+
+[147]
+[148]
+[149]
+[150]
+[151]
+Overfull \hbox (4.62082pt too wide) in paragraph at lines 3824--3825
+[]\TU/Georgia(0)/m/sc/10 In the figure, arrows again indicate the direction of 
+trust, showing for example
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:3831: Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.3831 ... a "\textit{trust value" for subject $Y}
+                                                  $ by combining an evaluati...
+
+
+[152]
+[153]
+[154]
+Underfull \hbox (badness 10000) in paragraph at lines 3866--3868
+
+
+[155]
+Overfull \hbox (0.18958pt too wide) in paragraph at lines 3877--3878
+\TU/Georgia(0)/m/it/10 citemoriarty2014rfc7292, or on hardware in a tamper-proo
+f smartcard. Some
+
+[156]
+Overfull \hbox (9.50526pt too wide) in paragraph at lines 3908--3909
+[]\TU/Georgia(0)/m/it/10 You should check that you understand their definitions
+ and can give examples
+
+[157]
+Overfull \hbox (0.28734pt too wide) in paragraph at lines 3946--3948
+[]\TU/Georgia(0)/m/it/10 Needham and Schroeders original SKCS protocol The prot
+ocol which Need-
+
+LaTeX Font Warning: Font shape `TU/STSong(0)/m/it' undefined
+(Font)              using `TU/STSong(0)/m/n' instead on input line 3972.
+
+
+[158]
+[159]
+[160]
+Chapitre 9.
+
+Overfull \hbox (13.83788pt too wide) in paragraph at lines 3994--3995
+\TU/Georgia(0)/m/it/10 cables. The users connect their computers to the network
+ as so-called end systems-
+
+Overfull \hbox (1.37128pt too wide) in paragraph at lines 4000--4001
+[]\TU/Georgia(0)/m/it/10 Metropolitan Area Networks (MAN) : Networks covering a
+ town or other
+
+[161]
+[162]
+Underfull \hbox (badness 10000) in paragraph at lines 4026--4028
+
+
+[163]
+[164]
+[165]
+Underfull \hbox (badness 10000) in paragraph at lines 4114--4116
+
+
+Overfull \hbox (2.38043pt too wide) in paragraph at lines 4124--4125
+[]\TU/Georgia(0)/m/it/10 The Internet is based on a reference model with five l
+ayers, which are shown
+
+[166]
+[167]
+[168]
+Underfull \hbox (badness 10000) in paragraph at lines 4152--4154
+
+
+[169]
+
+LaTeX Warning: Float too large for page by 6.93643pt on input line 4196.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4199--4201
+
+
+[170]
+[171]
+Overfull \hbox (12.07362pt too wide) in paragraph at lines 4202--4203
+\TU/Georgia(0)/m/it/10 in this domain which must be registered by the administr
+ator for [][]compute.dtu.dk[][].
+
+Underfull \hbox (badness 10000) in paragraph at lines 4231--4234
+
+
+[172]
+[173]
+Underfull \hbox (badness 10000) in paragraph at lines 4257--4259
+
+
+Overfull \hbox (27.64645pt too wide) in paragraph at lines 4275--4276
+\TU/Georgia(0)/m/it/10 standard Internet applications. Further details can be f
+ound on [][]www.iana.org[][].
+
+[174]
+Underfull \hbox (badness 10000) in paragraph at lines 4280--4282
+
+
+[175]
+Overfull \hbox (7.0028pt too wide) in paragraph at lines 4296--4297
+\TU/Georgia(0)/m/it/10 connection, it reserves resources for storing informatio
+n about the connec-
+
+Underfull \hbox (badness 10000) in paragraph at lines 4319--4321
+
+
+[176]
+[177]
+[178]
+Overfull \hbox (411.08987pt too wide) in paragraph at lines 4361--4376
+ [] 
+
+[179]
+[180]
+[181]
+[182]
+Overfull \hbox (2.2167pt too wide) in paragraph at lines 4451--4452
+\TU/Georgia(0)/m/it/10 Fig. 6.15. Electrical signals emitted by any system conn
+ected to the cable spread
+
+Overfull \hbox (0.49648pt too wide) in paragraph at lines 4469--4470
+\TU/Georgia(0)/m/it/10 Institute (ETSI). IEEE's standards have been published a
+s parts of the so-called
+
+[183]
+[184]
+Overfull \hbox (182.74004pt too wide) in paragraph at lines 4492--4513
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 4530--4532
+
+
+[185]
+[186]
+[187]
+[188]
+[189]
+[190]
+Overfull \hbox (9.50526pt too wide) in paragraph at lines 4623--4624
+[]\TU/Georgia(0)/m/it/10 You should check that you understand their definitions
+ and can give examples
+
+Overfull \hbox (18.33092pt too wide) in paragraph at lines 4625--4627
+\TU/Georgia(0)/m/it/10 citecomer2014computernetworks, and Kurose and Ross's "Co
+mputer Networking-
+
+Overfull \hbox (3.46361pt too wide) in paragraph at lines 4628--4629
+[]\TU/Georgia(0)/m/it/10 For even more details about how the Internet works it 
+is necessary to consult
+
+Underfull \hbox (badness 10000) in paragraph at lines 4630--4637
+
+
+[191]
+[192]
+[193]
+[194]
+Chapitre 10.
+
+Overfull \hbox (4.06665pt too wide) in paragraph at lines 4697--4703
+[]\TU/Georgia(0)/m/it/10 A simple example of a dialogue between a client in the
+ system gogo.molester.
+
+[195]
+Overfull \hbox (316.5pt too wide) in paragraph at lines 4718--4718
+[]\TU/lmtt/m/n/10 Here are the secret plans for the client destructor\index{HTT
+P!authorisation}\index{HTTP!character set}\index{HTTP!media type}[] 
+
+Overfull \hbox (13.94861pt too wide) in paragraph at lines 4731--4732
+\TU/Georgia(0)/m/it/10 the client's system ([][]gogo.molester.dk[][]) as parame
+ter to the ELHO-command.
+
+[196]
+[197]
+[198]
+[199]
+Underfull \hbox (badness 10000) in paragraph at lines 4795--4797
+
+
+[200]
+Underfull \hbox (badness 10000) in paragraph at lines 4808--4811
+
+
+[201]
+Overfull \hbox (1193.25pt too wide) in paragraph at lines 4825--4825
+[]\TU/lmtt/m/n/10 Content-type: text/plain; charset=ISO-8859-1\index{man-in-the
+-middle!redirection}\index{encryption!in Internet layer}\index{encryption!in Tr
+ansport layer}\index{half open session}\index{Internet layer!encryption}\index{
+redirection attack}\index{session theft}\index{Transport layer!encryption}[] 
+
+Overfull \hbox (0.7935pt too wide) in paragraph at lines 4835--4836
+\TU/Georgia(0)/m/it/10 from the character set defined in the international stan
+dard ISO-8859-1, which
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd)
+Missing character: There is no æ ("E6) in font eufm10!
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:4873: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.4873 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:4873: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.4873 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:4873: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.4873 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:4873: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.4873 \hline
+             
+
+Overfull \hbox (225.77544pt too wide) in paragraph at lines 4866--4887
+ [] 
+
+[202]
+[203]
+[204]
+Overfull \hbox (4.1236pt too wide) in paragraph at lines 4927--4930
+\TU/Georgia(0)/m/it/10 To save space, only part of the signature and its associ
+ated certificates is shown. 
+
+[205]
+[206]
+[207]
+Overfull \hbox (85.5pt too wide) in paragraph at lines 4978--4978
+[]\TU/lmtt/m/n/10 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"\index{MIME!
+type}\index{PGP!type}[] 
+
+Overfull \hbox (43.5pt too wide) in paragraph at lines 4990--4990
+[]        \TU/lmtt/m/n/10 <A href="https://danopskrifter.dk/frikadeller.html">R
+ecipe</A></P>[] 
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 4992--4992
+[]        \TU/lmtt/m/n/10 <A href="https://moneygrab.eu/takeitandrun.html">Reci
+pe</A></P>[] 
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 4993--4993
+[]    \TU/lmtt/m/n/10 <LI><P> Fl&aelig;skesteg med sv&aelig;r (eng: Roast pork 
+with crackling)[] 
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 4994--4994
+[]        \TU/lmtt/m/n/10 <A href="https://danopskrifter.dk/flaeskesteg.html">R
+ecipe</A> </P>[] 
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 4995--4995
+[]    \TU/lmtt/m/n/10 <LI><P> Sm&oslash;rrebr&oslash;d (eng: Danish open sandwi
+ches)[] 
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 4996--4996
+[]        \TU/lmtt/m/n/10 <A href="https://danopskrifter.dk/smoerbroed.html">Re
+cipes</A> </P>[] 
+
+[208]
+[209]
+Missing character: There is no æ ("E6) in font cmmi10!
+
+[210]
+[211]
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5142: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.5142 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5142: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.5142 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5142: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.5142 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5142: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.5142 \hline
+             
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5154: LaTeX Error: Not in outer par mode.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5154 \begin{figure}[htbp]
+                           
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5154: Undefined control sequence.
+\@xfloat ...@fltovf \fi \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.5154 \begin{figure}[htbp]
+                           
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5154: Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.5154 \begin{figure}[htbp]
+                           
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5159: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.5159 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5159: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.5159 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5159: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.5159 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5159: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.5159 \hline
+             
+
+Overfull \hbox (258.39456pt too wide) in paragraph at lines 5135--5161
+ [] 
+
+Overfull \hbox (53.34398pt too wide) in paragraph at lines 5173--5174
+\TU/Georgia(0)/m/it/10 specifies that the content of the resource with URI [][]
+http://www.w3.org/pub/www/xy.html[][]
+
+[212]
+[213]
+Overfull \hbox (3.95267pt too wide) in paragraph at lines 5200--5201
+\TU/Georgia(0)/m/it/10 The header fields Content-Type, Content-Encoding and Con
+tent-Language give
+
+[214]
+Overfull \hbox (9.50526pt too wide) in paragraph at lines 5243--5244
+[]\TU/Georgia(0)/m/it/10 You should check that you understand their definitions
+ and can give examples
+
+[215]
+Overfull \hbox (90.91144pt too wide) in paragraph at lines 5283--5284
+\TU/Georgia(0)/m/it/10 work. The user manual can be found on Wireshark's home p
+age [][]https://www.wireshark.org/docs/[][]
+
+Overfull \hbox (25.6934pt too wide) in paragraph at lines 5283--5284
+\TU/Georgia(0)/m/it/10 wsug_html_chunked/ and there is a very useful wiki at []
+[]https://wiki.wireshark.org/[][]
+
+[216]
+Chapitre 11.
+
+Overfull \hbox (18.18971pt too wide) in paragraph at lines 5304--5304
+[]\TU/Georgia(0)/b/n/14.4 Protection Based on Cryptographic Methods 
+
+[217]
+Underfull \vbox (badness 3815) has occurred while \output is active
+[218]
+Overfull \hbox (8.18938pt too wide) in paragraph at lines 5332--5333
+[]\TU/Georgia(0)/m/it/10 Faked PDUs can be used to break or take over a TCP con
+nection ("session"),
+
+[219]
+[220]
+[221]
+Underfull \hbox (badness 10000) in paragraph at lines 5351--5353
+
+
+[222]
+[223]
+[224]
+Overfull \hbox (2.25104pt too wide) in paragraph at lines 5398--5399
+[]\TU/Georgia(0)/m/it/10 The solution strategy must be to secure the medium aga
+inst access for unau-
+
+Overfull \hbox (173.05571pt too wide) in paragraph at lines 5433--5446
+ [] 
+
+[225]
+[226]
+[227]
+[228]
+[229]
+Overfull \hbox (384.74516pt too wide) in paragraph at lines 5512--5529
+ [] 
+
+[230]
+Overfull \hbox (4.77544pt too wide) in paragraph at lines 5534--5536
+\TU/Georgia(0)/m/it/10 mechanism for data and other information transmitted bet
+ween two endpoints. 
+
+Overfull \hbox (24.33679pt too wide) in paragraph at lines 5549--5553
+\TU/Georgia(0)/m/it/10 whether the tunnel runs between single computers ("hosts
+"), between (sub)networks
+
+Underfull \hbox (badness 10000) in paragraph at lines 5549--5553
+
+
+Overfull \hbox (1.35489pt too wide) in paragraph at lines 5560--5562
+\TU/Georgia(0)/m/it/10 work which connects the two sites, as illustrated in Fig
+. 8.10. The tunnel (green)
+
+[231]
+Underfull \hbox (badness 10000) in paragraph at lines 5568--5571
+
+
+[232]
+Underfull \hbox (badness 10000) in paragraph at lines 5595--5597
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5603--5611
+
+
+[233]
+[234]
+[235]
+Overfull \hbox (4.39374pt too wide) in paragraph at lines 5668--5669
+[]\TU/Georgia(0)/b/it/10 Handshake: \TU/Georgia(0)/m/it/10 Is used to authentic
+ate the server and (optionally) the client
+
+Overfull \hbox (5.05212pt too wide) in paragraph at lines 5670--5677
+\TU/Georgia(0)/m/it/10 SSL/TLS's Record protocol offers stepwise processing of 
+Application layer
+
+[236]
+Overfull \hbox (70.33533pt too wide) in paragraph at lines 5701--5702
+\TU/Georgia(0)/m/it/10 must implement in TLS v1.2 is described by the string: T
+LS_RSA_WITH_AES_128_CBC_SHA
+
+[237]
+[238]
+[239]
+Overfull \hbox (416.25pt too wide) in paragraph at lines 5783--5783
+[]    \TU/lmtt/m/n/10 Client and server negotiate a TLS session.\index{Change P
+ermissions!CRC}\index{nonce}\index{SSID}\index{WEP}\index{WiFi!SSID}\index{WiFi
+!WEP}[] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 5798--5800
+
+
+Overfull \hbox (20.2564pt too wide) in paragraph at lines 5803--5804
+\TU/Georgia(0)/m/it/10 Middle attack, where the attacker for example removes th
+e server's 250-STARTTLS
+
+[240]
+[241]
+[242]
+Underfull \hbox (badness 10000) in paragraph at lines 5854--5858
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5868--5873
+
+
+[243]
+Underfull \vbox (badness 10000) has occurred while \output is active
+[244]
+[245]
+[246]
+Underfull \hbox (badness 10000) in paragraph at lines 5906--5908
+
+
+[247]
+[248]
+[249]
+[250]
+Overfull \hbox (1.56665pt too wide) in paragraph at lines 5990--5997
+ \TU/Georgia(0)/m/it/10 With anomaly detection-also known as baseline based ana
+lysis - the IDS main-
+
+[251]
+Underfull \hbox (badness 10000) in paragraph at lines 6002--6004
+
+
+[252]
+Underfull \hbox (badness 10000) in paragraph at lines 6017--6019
+
+
+[253]
+Overfull \hbox (1.29074pt too wide) in paragraph at lines 6032--6033
+[]\TU/Georgia(0)/b/it/10 False APs \TU/Georgia(0)/m/it/10 can interfere with th
+e communication in infrastructure mode. 
+
+[254]
+Overfull \hbox (0.1831pt too wide) in paragraph at lines 6075--6076
+[]\TU/Georgia(0)/m/it/10 As discussed above: weak RC4 encryption, one-way authe
+ntication, poor
+
+[255]
+Underfull \hbox (badness 10000) in paragraph at lines 6092--6094
+
+
+[256]
+Underfull \hbox (badness 10000) in paragraph at lines 6109--6112
+
+
+[257]
+Overfull \hbox (4.12196pt too wide) in paragraph at lines 6113--6115
+\TU/Georgia(0)/m/it/10 Since v2.1 of Bluetooth, the security of the pairing pro
+cess has been streng-
+
+Underfull \hbox (badness 10000) in paragraph at lines 6121--6125
+
+
+[258]
+Overfull \hbox (3.8366pt too wide) in paragraph at lines 6130--6130
+[]\TU/Georgia(0)/b/n/14.4 Security in the Mobile Telephone Network 
+
+Underfull \hbox (badness 10000) in paragraph at lines 6142--6145
+
+
+[259]
+Underfull \vbox (badness 1097) has occurred while \output is active
+[260]
+Overfull \hbox (1.55037pt too wide) in paragraph at lines 6159--6160
+\TU/Georgia(0)/m/it/10 transmission "through the air" between the station and t
+he BTS was avai-
+
+[261]
+Overfull \hbox (6.95961pt too wide) in paragraph at lines 6173--6174
+\TU/Georgia(0)/m/it/10 citedunkelman2010kasumi. Interestingly enough, KASUMI is
+ derived from Mit-
+
+[262]
+Underfull \vbox (badness 1077) has occurred while \output is active
+[263]
+[264]
+Overfull \hbox (4.17813pt too wide) in paragraph at lines 6230--6232
+\TU/Georgia(0)/m/it/10 basic problem that even if you do your best to protect t
+he traffic passing through
+
+Underfull \hbox (badness 10000) in paragraph at lines 6230--6232
+
+
+[265]
+Overfull \hbox (2.62207pt too wide) in paragraph at lines 6241--6243
+[]\TU/Georgia(0)/b/it/10 Unstructured Supplementary Service Data (USSD) codes: 
+\TU/Georgia(0)/m/it/10 These
+
+[266]
+Underfull \vbox (badness 10000) has occurred while \output is active
+[267]
+[268]
+Overfull \hbox (1.5pt too wide) in paragraph at lines 6300--6300
+[]\TU/lmtt/m/n/10 quis. Phasellus luctus pellentesque enim, non dictum nisl ult
+rices[] 
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 6302--6302
+[]\TU/lmtt/m/n/10 massa. Vestibulum ex dolor, lobortis eu finibus nec, lobortis
+ quis[] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 6307--6309
+
+
+[269]
+Overfull \hbox (13.95027pt too wide) in paragraph at lines 6325--6326
+\TU/Georgia(0)/m/it/10 tacker sends spoofed PDUs with SYN set-that is, PDUs wit
+h fake source addresses-
+
+Underfull \hbox (badness 10000) in paragraph at lines 6327--6329
+
+
+Overfull \hbox (2.2283pt too wide) in paragraph at lines 6335--6338
+\TU/Georgia(0)/m/it/10 sending TCP PDUs with the ACK flag set at regular interv
+als to keep the connec-
+
+Underfull \hbox (badness 10000) in paragraph at lines 6340--6342
+
+
+[270]
+[271]
+Underfull \hbox (badness 10000) in paragraph at lines 6360--6362
+
+
+Overfull \hbox (0.27025pt too wide) in paragraph at lines 6363--6364
+[]\TU/Georgia(0)/m/it/10 have the possibility of accessing the same cable (as i
+n the widely used Ether-
+
+[272]
+[273]
+Underfull \vbox (badness 10000) has occurred while \output is active
+[274]
+[275]
+[276]
+Underfull \hbox (badness 10000) in paragraph at lines 6421--6423
+
+
+[277]
+Overfull \hbox (606.15823pt too wide) in paragraph at lines 6451--6468
+ [] 
+
+[278]
+Overfull \hbox (9.67377pt too wide) in paragraph at lines 6500--6501
+[]\TU/Georgia(0)/m/it/10 The DNS entry for the domain contains one such TXT rec
+ord, but it contains
+
+[279]
+Overfull \hbox (432.83792pt too wide) in paragraph at lines 6524--6547
+ [] 
+
+Overfull \hbox (2.30719pt too wide) in paragraph at lines 6549--6550
+\TU/Georgia(0)/m/it/10 ven by the h-tag are hashed in the order given, followed
+ by the DKIM-Signature
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 6556--6556
+[]\TU/lmtt/m/n/10 Received-SPF: pass (design.fake.com: domain of bonesen@molest
+er.dk[] 
+
+[280]
+Underfull \hbox (badness 10000) in paragraph at lines 6570--6572
+
+
+Overfull \hbox (11.75616pt too wide) in paragraph at lines 6581--6582
+[]\TU/Georgia(0)/m/it/10 (Note that _domainkey is an obligatory component of th
+e name.) The contents
+
+Overfull \hbox (19.35796pt too wide) in paragraph at lines 6587--6588
+[]\TU/Georgia(0)/m/it/10 Construct the combined hash of the named header fields
+, the DKIM-Signature
+
+[281]
+[282]
+[283]
+Underfull \hbox (badness 10000) in paragraph at lines 6647--6649
+
+
+[284]
+[285]
+[286]
+[287]
+[288]
+Overfull \hbox (9.50526pt too wide) in paragraph at lines 6748--6749
+[]\TU/Georgia(0)/m/it/10 You should check that you understand their definitions
+ and can give examples
+
+Underfull \hbox (badness 10000) in paragraph at lines 6750--6753
+
+
+Overfull \hbox (2.36415pt too wide) in paragraph at lines 6754--6755
+\TU/Georgia(0)/m/it/10 the series can be found at URI [][]http://csrc.nist.gov/
+publications/PubsSPs.html[][].
+
+Overfull \hbox (1.13045pt too wide) in paragraph at lines 6758--6761
+[]\TU/Georgia(0)/m/it/10 Exercises Cybersquatting A security risk which is not 
+discussed in this chap-
+
+[289]
+[290]
+Underfull \hbox (badness 10000) in paragraph at lines 6792--6796
+
+
+[291]
+[292]
+Chapitre 12.
+
+[293]
+[294]
+[295]
+Underfull \hbox (badness 10000) in paragraph at lines 6874--6874
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6883--6883
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6890--6892
+
+
+[296]
+[297]
+Overfull \hbox (13.28937pt too wide) in paragraph at lines 6893--6894
+[]\TU/Georgia(0)/m/it/10 being the user in person. Systems which use informatio
+n from a 3-dimensional
+
+Underfull \hbox (badness 10000) in paragraph at lines 6902--6902
+
+
+[298]
+[299]
+[300]
+[301]
+Overfull \hbox (42.86127pt too wide) in paragraph at lines 6949--6980
+ [] 
+
+[302]
+[303]
+[304]
+Overfull \hbox (5.84467pt too wide) in paragraph at lines 7023--7024
+\TU/Georgia(0)/m/it/10 chose words which could be found in dictionaries. Only $
+\OT1/cmr/m/n/10 14[]$ \TU/Georgia(0)/m/it/10 made better choices. 
+
+Overfull \hbox (4.64516pt too wide) in paragraph at lines 7043--7045
+\TU/Georgia(0)/m/it/10 their passwords at regular intervals. And research shows
+ that frequent changes
+
+Overfull \hbox (2.23962pt too wide) in paragraph at lines 7043--7045
+\TU/Georgia(0)/m/it/10 example, the old password was "Pussy;cat4", they choose 
+"Pussy;cat5" or "Pus-
+
+Underfull \hbox (badness 10000) in paragraph at lines 7043--7045
+
+
+[305]
+Underfull \hbox (badness 10000) in paragraph at lines 7066--7066
+
+
+[306]
+[307]
+[308]
+[309]
+[310]
+[311]
+[312]
+Overfull \hbox (5.46469pt too wide) in paragraph at lines 7185--7186
+[]\TU/Georgia(0)/b/it/10 Physical separation: \TU/Georgia(0)/m/it/10 Different 
+processes use different physical objects-
+
+[313]
+Overfull \hbox (0.87898pt too wide) in paragraph at lines 7198--7199
+[]\TU/Georgia(0)/m/it/10 A highly privileged subject, who is said to have admin
+istrator (or in Unix-
+
+Overfull \hbox (9.73656pt too wide) in paragraph at lines 7206--7207
+[]\TU/Georgia(0)/b/it/10 Discretionary Access Control \TU/Georgia(0)/m/it/10 (c
+ommonly abbreviated to $\OML/cmm/m/it/10 DAC$ \TU/Georgia(0)/m/it/10 ) where
+
+[314]
+Overfull \hbox (18.24133pt too wide) in paragraph at lines 7229--7246
+ [] 
+
+Underfull \vbox (badness 2393) has occurred while \output is active
+[315]
+Underfull \vbox (badness 10000) has occurred while \output is active
+[316]
+[317]
+Underfull \hbox (badness 10000) in paragraph at lines 7304--7306
+
+
+[318]
+[319]
+Underfull \hbox (badness 10000) in paragraph at lines 7361--7363
+
+
+[320]
+[321]
+[322]
+[323]
+Overfull \hbox (3.43027pt too wide) in paragraph at lines 7488--7489
+[]\TU/Georgia(0)/m/it/10 An object's ACL specifies the sets of rights for one o
+r more subjects or groups.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7507--7509
+
+
+[324]
+[325]
+Underfull \vbox (badness 10000) has occurred while \output is active
+[326]
+Underfull \hbox (badness 10000) in paragraph at lines 7576--7576
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7583--7585
+
+
+[327]
+Underfull \hbox (badness 10000) in paragraph at lines 7589--7589
+
+
+[328]
+Underfull \hbox (badness 10000) in paragraph at lines 7595--7597
+
+
+Overfull \hbox (6.70009pt too wide) in paragraph at lines 7605--7606
+\TU/Georgia(0)/m/it/10 keys at the top of the hierarchy, of which the root key 
+HKEY_LOCAL_MACHINE
+
+Underfull \hbox (badness 10000) in paragraph at lines 7609--7612
+
+
+[329]
+[330]
+[331]
+[332]
+Underfull \hbox (badness 10000) in paragraph at lines 7666--7668
+
+
+[333]
+Underfull \hbox (badness 10000) in paragraph at lines 7679--7681
+
+
+Overfull \hbox (2.18019pt too wide) in paragraph at lines 7684--7685
+[]\TU/Georgia(0)/b/it/10 Demonstration of correctness: \TU/Georgia(0)/m/it/10 I
+n many common operating systems,
+
+[334]
+Overfull \hbox (0.22876pt too wide) in paragraph at lines 7695--7696
+[]\TU/Georgia(0)/m/it/10 By using encryption units built into the hardware in t
+he IT system's disks.
+
+Overfull \hbox (0.83176pt too wide) in paragraph at lines 7698--7699
+[]\TU/Georgia(0)/m/it/10 Encryption systems in the operating system normally ai
+m to provide trans-
+
+[335]
+[336]
+Overfull \hbox (0.74306pt too wide) in paragraph at lines 7745--7747
+\TU/Georgia(0)/m/it/10 programs by giving a reference which is not a complete p
+ath, for example
+
+Underfull \hbox (badness 10000) in paragraph at lines 7745--7747
+
+
+[337]
+[338]
+Underfull \hbox (badness 10000) in paragraph at lines 7783--7785
+
+
+[339]
+Underfull \hbox (badness 10000) in paragraph at lines 7800--7802
+
+
+[340]
+[341]
+Overfull \hbox (9.50526pt too wide) in paragraph at lines 7854--7855
+[]\TU/Georgia(0)/m/it/10 You should check that you understand their definitions
+ and can give examples
+
+[342]
+Underfull \hbox (badness 10000) in paragraph at lines 7859--7861
+
+
+Overfull \hbox (2.07605pt too wide) in paragraph at lines 7866--7867
+[]\TU/Georgia(0)/m/it/10 Evaluation requirements, which can form the basis for 
+establishing confi-
+
+[343]
+Underfull \hbox (badness 10000) in paragraph at lines 7882--7885
+
+
+[344]
+Overfull \hbox (0.8016pt too wide) in paragraph at lines 7904--7907
+[]\TU/Georgia(0)/m/it/10 Windows NT ACLs In Sect. 9.3.1 there are two examples 
+of some user wishes
+
+[345]
+Underfull \hbox (badness 10000) in paragraph at lines 7925--7928
+
+
+[346]
+[347]
+[348]
+Chapitre 13.
+
+Overfull \hbox (6.4478pt too wide) in paragraph at lines 7965--7966
+[]\TU/Georgia(0)/m/it/10 Buffer overflow (or buffer overwrite), where the softw
+are does not prevent
+
+[349]
+Overfull \hbox (3.68192pt too wide) in paragraph at lines 7984--7991
+ [] 
+
+Underfull \vbox (badness 1867) has occurred while \output is active
+[350]
+[351]
+Overfull \hbox (1.25578pt too wide) in paragraph at lines 8073--8075
+\TU/Georgia(0)/m/it/10 time it had compromised a very large number of TLS clien
+ts and servers world-
+
+[352]
+
+LaTeX Warning: Float too large for page by 151.69754pt on input line 8099.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8101--8103
+
+
+[353]
+[354]
+[355]
+Underfull \hbox (badness 10000) in paragraph at lines 8144--8146
+
+
+[356]
+Overfull \hbox (11.51535pt too wide) in paragraph at lines 8163--8164
+[]\TU/Georgia(0)/m/it/10 American Fuzzy Lop (AFL), an open source tool availabl
+e at [][]http://lcamtuf[][].
+
+[357]
+Overfull \hbox (52.50166pt too wide) in paragraph at lines 8176--8177
+\TU/Georgia(0)/m/it/10 citewheeler2001flawfinder, available at URI [][]http://w
+ww.dwheeler.com/flawfinder[][] 
+
+Overfull \hbox (2.07602pt too wide) in paragraph at lines 8178--8179
+\TU/Georgia(0)/m/it/10 citehovemeyer2007finding, available at [][]http://findbu
+gs.sourceforge.net[][] 
+
+Overfull \hbox (31.57059pt too wide) in paragraph at lines 8190--8191
+\TU/Georgia(0)/m/it/10 blems with memory allocation. See [][]http://unicomsi.co
+m/products/purifyplus/[][]. 
+
+[358]
+Overfull \hbox (2.6367pt too wide) in paragraph at lines 8197--8198
+[]\TU/Georgia(0)/m/it/10 It would be nice if these techniques were used more ex
+tensively. David whee-
+
+Overfull \hbox (6.83351pt too wide) in paragraph at lines 8211--8212
+[]\TU/Georgia(0)/b/it/10 Spyware: \TU/Georgia(0)/m/it/10 Sends details about th
+e computer's hardware and/or the user's
+
+Overfull \hbox (2.93597pt too wide) in paragraph at lines 8212--8213
+[]\TU/Georgia(0)/b/it/10 Ransomware: \TU/Georgia(0)/m/it/10 This comes in two f
+lavours: Cryptographic ransomware
+
+[359]
+Underfull \hbox (badness 2503) in paragraph at lines 8228--8228
+[]\TU/Georgia(0)/m/sc/10 Fig. 13.3: []Photohound, Wikimedia Commons file Conejo
+_astronomo.png
+
+Underfull \hbox (badness 10000) in paragraph at lines 8228--8228
+
+
+[360]
+Underfull \hbox (badness 10000) in paragraph at lines 8243--8245
+
+
+[361]
+[362]
+[363]
+Underfull \hbox (badness 10000) in paragraph at lines 8287--8289
+
+
+Overfull \hbox (10.79922pt too wide) in paragraph at lines 8297--8298
+\TU/Georgia(0)/m/it/10 the task of detecting and if possible removing - or in s
+ome other way neutralising-
+
+[364]
+Underfull \hbox (badness 10000) in paragraph at lines 8309--8311
+
+
+[365]
+[366]
+[367]
+[368]
+[369]
+Underfull \hbox (badness 10000) in paragraph at lines 8453--8459
+
+
+[370]
+Underfull \hbox (badness 10000) in paragraph at lines 8473--8475
+
+
+[371]
+Overfull \hbox (739.18558pt too wide) in paragraph at lines 8486--8501
+ [] 
+
+Overfull \hbox (656.88872pt too wide) in paragraph at lines 8506--8561
+ [] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+[372]
+Underfull \hbox (badness 10000) in paragraph at lines 8563--8565
+
+
+[373]
+[374]
+Overfull \hbox (10.31451pt too wide) in paragraph at lines 8633--8650
+ [] 
+
+[375]
+[376]
+[377]
+Overfull \hbox (8.60919pt too wide) in paragraph at lines 8767--8768
+\TU/Georgia(0)/m/it/10 table. As there are 64 possible 6-bit sequences, the tab
+le will always contain
+
+[378]
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:8813: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.8813 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:8813: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.8813 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:8813: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.8813 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:8813: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.8813 \hline
+             
+
+Overfull \hbox (199.46893pt too wide) in paragraph at lines 8778--8815
+ [] 
+
+Overfull \hbox (489.7764pt too wide) in paragraph at lines 8818--8831
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 8835--8838
+
+
+[379]
+Overfull \hbox (482.50883pt too wide) in paragraph at lines 8861--8889
+ [] 
+
+[380]
+Underfull \hbox (badness 10000) in paragraph at lines 8921--8923
+
+
+[381]
+[382]
+[383]
+[384]
+Underfull \hbox (badness 10000) in paragraph at lines 9055--9057
+
+
+[385]
+Overfull \hbox (153.75pt too wide) in paragraph at lines 9118--9118
+[]\TU/lmtt/m/n/10 <INPUT type="checkbox" name="colour" value="Brown">Brown<BR>\
+index{ISO-latin-1 printable!27001}[] 
+
+[386]
+[387]
+[388]
+Overfull \hbox (2.07524pt too wide) in paragraph at lines 9130--9131
+[]\TU/Georgia(0)/b/it/10 Multiline text fields: \TU/Georgia(0)/m/it/10 These ar
+e described by TEXTAREA elements with
+
+Overfull \hbox (5.96442pt too wide) in paragraph at lines 9133--9134
+[]\TU/Georgia(0)/m/it/10 When the user clicks on the submit button in the webfo
+rm, the form's contents
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:9157: LaTeX Error: There's no line here t
+o end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9157 w
+        here the text typed in is Alfred, then the pair firstname=Alfred is ...
+
+
+[389]
+[390]
+Overfull \hbox (15.4875pt too wide) in paragraph at lines 9197--9198
+[]\TU/Georgia(0)/b/it/10 Class Loaders \TU/Georgia(0)/m/it/10 : fetch class fil
+es and check that they are mutually consistent
+
+Underfull \hbox (badness 10000) in paragraph at lines 9202--9204
+
+
+Overfull \hbox (2.68716pt too wide) in paragraph at lines 9214--9215
+\TU/Georgia(0)/m/it/10 in the developer. Worse still, ActiveX controls can be m
+arked safe-for-scripting,
+
+[391]
+Overfull \hbox (8.50346pt too wide) in paragraph at lines 9236--9237
+[]\TU/Georgia(0)/m/it/10 The URI [][]http://www.vic.dk/images/../../../../etc/p
+asswd[][] would then give
+
+[392]
+[393]
+Overfull \hbox (43.98761pt too wide) in paragraph at lines 9291--9292
+\TU/Georgia(0)/m/it/10 tortoises and clicks on the link. Mallory's script is fe
+tched from [][]http://malpense.net[][]
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:9302: TeX capacity exceeded, sorry [input
+ stack size=10000].
+\hyper@normalise ->\begingroup \@makeother {:}
+                                              \catcode `\^^M\active \def ^^M...
+l.9302 ... are PHP, \href{http://\textit{ASP.NET}}
+                                                  {ASP.NET} and \textit{Java...
+
+Output written on cybersec_final.xdv (395 pages, 7701956 bytes).
+Transcript written on cybersec_final.log.
+Latexmk: Getting log file 'cybersec_final.log'
+Latexmk: Examining 'cybersec_final.fls'
+Latexmk: Examining 'cybersec_final.log'
+Latexmk: Log file says output to 'cybersec_final.xdv'
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  cybersec_final.aux
+
+------------
+Run number 2 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -interaction=nonstopmode -file-line-error -recorder  "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybersec/pdfextractkit/cybersec_final.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cyb
+ersec/pdfextractkit/cybersec_final.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk10.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/eurosym/eurosym.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/newunicodechar/newunicodechar.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.de
+f
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx
+.def
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def))))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex)) (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/environ/environ.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-french.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-dutch.ldf
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/babelsh.def))
+(./cybersec_final.aux) (./cybersec_final.out) (./cybersec_final.out)
+(./cybersec_final.toc)
+[1]
+[2] (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+[1]
+Overfull \hbox (7.30638pt too wide) in paragraph at lines 87--88
+[]\TU/Georgia(0)/m/n/10 The UTiCS concept centers on high-quality, ideally and 
+generally quite concise
+
+Overfull \hbox (1.19473pt too wide) in paragraph at lines 93--96
+[]\TU/Georgia(0)/m/n/10 Introduction to Cybersecurity A Multidisciplinary Chall
+engeISSN 1863-7310 
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--96
+
+
+[2]
+Chapitre 1.
+
+Underfull \vbox (badness 5302) has occurred while \output is active
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
+
+
+[4]
+[5]
+[6]
+Chapitre 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
+
+
+Overfull \hbox (3.91855pt too wide) in paragraph at lines 153--156
+\TU/Georgia(0)/m/n/10 based on Figure 2 - OCTAVE Phases on page 5 and text from
+ Section 3.1-OCTAVE
+
+[7]
+[8]
+Chapitre 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--196
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--241
+
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 242--285
+
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 286--332
+
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 333--378
+
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 379--423
+
+
+[13]
+[14]
+[15]
+[16]
+Chapitre 4.
+
+[17]
+Overfull \hbox (18.19255pt too wide) in paragraph at lines 477--478
+[]\TU/Georgia(0)/b/n/10 Malware: \TU/Georgia(0)/m/n/10 Evil-minded persons bega
+n to develop so-called malware-software
+
+[18]
+
+LaTeX Font Warning: Font shape `TU/Georgia(0)/m/sc' undefined
+(Font)              using `TU/Georgia(0)/m/n' instead on input line 491.
+
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
+
+
+[20]
+[21]
+Overfull \hbox (4.91942pt too wide) in paragraph at lines 535--537
+\TU/Georgia(0)/m/sc/10 citemandiant2013apt1. APT is an acronym for \TU/Georgia(
+0)/m/it/10 Advanced Persistent Threat\TU/Georgia(0)/m/sc/10 ,
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--537
+
+
+Overfull \hbox (0.87805pt too wide) in paragraph at lines 539--540
+\TU/Georgia(0)/m/sc/10 citefalliere2011stuxnet. There are many indications that
+ the attacks, which
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 542--545
+
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 551--554
+
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 570--572
+
+
+[25]
+[26]
+[27]
+[28]
+[29]
+[30]
+[31]
+Overfull \hbox (4.7787pt too wide) in paragraph at lines 734--735
+[]\TU/Georgia(0)/m/sc/10 You should check that you understand their definitions
+ and can give examples
+
+[32]
+[33]
+[34]
+Chapitre 5.
+
+[35]
+Underfull \vbox (badness 1178) has occurred while \output is active
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 800--802
+
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 828--831
+
+
+[38]
+[39]
+[40]
+[41]
+[42]
+Overfull \hbox (0.81155pt too wide) in paragraph at lines 948--957
+ [] 
+
+Overfull \hbox (135.44543pt too wide) in paragraph at lines 962--969
+ [] 
+
+Overfull \hbox (63.17004pt too wide) in paragraph at lines 975--982
+ [] 
+
+[43]
+[44]
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1031
+
+
+Overfull \hbox (3.70612pt too wide) in paragraph at lines 1032--1033
+[]\TU/Georgia(0)/m/sc/10 problem is that the recipient is exposed to \TU/Georgi
+a(0)/m/it/10 cognitive overload\TU/Georgia(0)/m/sc/10 - in other words,
+
+Underfull \hbox (badness 10000) in paragraph at lines 1050--1050
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1056
+
+
+[46]
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 1074--1086
+
+
+[48]
+[49]
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 1126--1128
+
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 1141--1143
+
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 1156--1158
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 1162--1162
+[]\TU/Georgia(0)/m/sc/10 Fig. 5.7: []Results from the CitAware e-learning syste
+m, when users were
+
+Underfull \hbox (badness 10000) in paragraph at lines 1162--1162
+
+
+[53]
+Overfull \hbox (4.7787pt too wide) in paragraph at lines 1183--1184
+[]\TU/Georgia(0)/m/sc/10 You should check that you understand their definitions
+ and can give examples
+
+Overfull \hbox (8.3984pt too wide) in paragraph at lines 1185--1187
+\TU/Georgia(0)/m/sc/10 citemitnick2003art. Mitnick became famous-or maybe notor
+ious is a better word-
+
+Overfull \hbox (5.41995pt too wide) in paragraph at lines 1188--1189
+\TU/Georgia(0)/m/sc/10 citekahneman1982judgment, which deals with how people ma
+ke decisions, when
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1205
+
+
+[55]
+
+Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
+(xeCJK)                
+(xeCJK)                Try to use `\setCJKmonofont[<...>]{<...>}' to define
+(xeCJK)                it.
+
+
+[56]
+[57]
+[58]
+Chapitre 6.
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 1274--1274
+
+
+[60]
+[61]
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 1315--1319
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1336--1336
+
+
+[63]
+[64]
+[65]
+Overfull \hbox (1.42503pt too wide) in paragraph at lines 1423--1424
+[]\TU/Georgia(0)/m/sc/10 Functionality-how well does the IT system perform its 
+intended functions? 
+
+[66]
+Overfull \hbox (7.40485pt too wide) in paragraph at lines 1445--1446
+\TU/Georgia(0)/m/sc/10 ganization for Standardization (ISO) and the Internation
+al Electrotechnical Com-
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:1485: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.1485 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:1485: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.1485 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:1485: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.1485 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:1485: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.1485 \hline
+             
+
+Overfull \hbox (278.61917pt too wide) in paragraph at lines 1452--1525
+ [] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+[67]
+[68]
+Overfull \hbox (10.2686pt too wide) in paragraph at lines 1561--1562
+[]\TU/Georgia(0)/m/sc/10 OCTAVE-S, a simplified version for small enterprises w
+ith limited resources. 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1566--1568
+
+
+[69]
+[70]
+[71]
+[72]
+Underfull \hbox (badness 10000) in paragraph at lines 1670--1670
+
+
+[73]
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 1691--1691
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1712--1712
+
+
+[75]
+[76]
+[77]
+Overfull \hbox (9.47675pt too wide) in paragraph at lines 1740--1746
+\TU/Georgia(0)/m/sc/10 Countermeasures: medium (backup is taken of the personne
+l records every night). 
+
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 1757--1757
+
+
+[79]
+Overfull \hbox (4.7787pt too wide) in paragraph at lines 1798--1799
+[]\TU/Georgia(0)/m/sc/10 You should check that you understand their definitions
+ and can give examples
+
+[80]
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 1819--1822
+
+
+Overfull \hbox (1.25006pt too wide) in paragraph at lines 1828--1830
+\TU/Georgia(0)/m/sc/10 respondents were asked to evaluate whether a number of e
+vents should be consi-
+
+[82]
+[83]
+[84]
+Chapitre 7.
+
+Overfull \hbox (1.80019pt too wide) in paragraph at lines 1849--1850
+[]\TU/Georgia(0)/m/sc/10 Cryptography (from the Greek words for hidden writing)
+ is a discipline which
+
+Overfull \hbox (6.66504pt too wide) in paragraph at lines 1856--1857
+[]\TU/Georgia(0)/m/sc/10 Encryption: Transformation of plaintext (data), to a f
+orm, ciphertext, where
+
+[85]
+Overfull \hbox (5.03586pt too wide) in paragraph at lines 1892--1893
+\TU/Georgia(0)/m/sc/10 nical developments with the use of advanced mathematics 
+in cryptography mean,
+
+[86]
+Overfull \hbox (0.74225pt too wide) in paragraph at lines 1900--1902
+\TU/Georgia(0)/m/sc/10 tosystem is therfore often called a \TU/Georgia(0)/m/it/
+10 Secret Key Cryptosystem \TU/Georgia(0)/m/sc/10 (or \TU/Georgia(0)/m/it/10 SK
+CS\TU/Georgia(0)/m/sc/10 , for short). 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1900--1902
+
+
+[87]
+Underfull \hbox (badness 10000) in paragraph at lines 1926--1928
+
+
+[88]
+Underfull \hbox (badness 10000) in paragraph at lines 1954--1954
+
+
+[89]
+Underfull \hbox (badness 10000) in paragraph at lines 1966--1968
+
+
+Overfull \hbox (0.4558pt too wide) in paragraph at lines 1969--1981
+\TU/Georgia(0)/m/sc/10 tance of knowing the language in use - alphabets may bot
+h have different lengths
+
+Underfull \hbox (badness 10000) in paragraph at lines 1990--1990
+
+
+[90]
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2024: LaTeX Error: Not in outer par mode.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2024 \begin{figure}[htbp]
+                           
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2024: Undefined control sequence.
+\@xfloat ...@fltovf \fi \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.2024 \begin{figure}[htbp]
+                           
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2024: Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.2024 \begin{figure}[htbp]
+                           
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2029: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2029 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2029: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.2029 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2029: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.2029 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2029: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.2029 \hline
+             
+
+Overfull \hbox (100.91022pt too wide) in paragraph at lines 1999--2031
+ [] 
+
+[91]
+[92]
+Overfull \hbox (73.97073pt too wide) in paragraph at lines 2039--2047
+ [] 
+
+Overfull \hbox (25.59303pt too wide) in paragraph at lines 2052--2053
+\TU/Georgia(0)/m/sc/10 tance in the alphabet from a plaintext character to its 
+encoding) will be $\OT1/cmr/m/n/10 21\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 19\OML/
+cmm/m/it/10 ; \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 20\OML/cmm/m/
+it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 9$
+
+Overfull \hbox (221.00981pt too wide) in paragraph at lines 2055--2067
+ [] 
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2120: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2120 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2120: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.2120 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2120: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.2120 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2120: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.2120 \hline
+             
+
+Overfull \hbox (266.3871pt too wide) in paragraph at lines 2083--2142
+ [] 
+
+[93]
+[94]
+Overfull \hbox (0.30768pt too wide) in paragraph at lines 2186--2188
+\TU/Georgia(0)/m/sc/10 The basic principles for the design of modern ciphers we
+re formulated by Claude
+
+[95]
+Overfull \hbox (22.7794pt too wide) in paragraph at lines 2199--2205
+ [] 
+
+Overfull \hbox (13.44489pt too wide) in paragraph at lines 2207--2208
+\TU/Georgia(0)/m/sc/10 that you can deal with them by mathematical methods, whi
+ch we shall see examples
+
+[96]
+Overfull \hbox (56.28038pt too wide) in paragraph at lines 2239--2258
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2273--2275
+
+
+[97]
+[98]
+Underfull \hbox (badness 10000) in paragraph at lines 2288--2290
+
+
+[99]
+Underfull \hbox (badness 10000) in paragraph at lines 2309--2311
+
+
+[100]
+Underfull \hbox (badness 10000) in paragraph at lines 2334--2334
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2350: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2350 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2350: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.2350 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2350: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.2350 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2350: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.2350 \hline
+             
+
+[101]
+[102]
+[103]
+Overfull \vbox (50.13217pt too high) detected at line 2404
+
+Overfull \hbox (49.12369pt too wide) in paragraph at lines 2399--2421
+ [] 
+
+[104]
+Underfull \hbox (badness 10000) in paragraph at lines 2465--2467
+
+
+Overfull \hbox (6.00586pt too wide) in paragraph at lines 2474--2476
+\TU/Georgia(0)/m/sc/10 which can be stored in an 8 -bit byte. The vector is ini
+tialised via a \TU/Georgia(0)/m/it/10 Key-Scheduling
+
+[105]
+[106]
+Underfull \hbox (badness 10000) in paragraph at lines 2518--2521
+
+
+[107]
+[108]
+[109]
+[110]
+Underfull \hbox (badness 10000) in paragraph at lines 2613--2615
+
+
+[111]
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2708: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2708 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2708: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.2708 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2708: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.2708 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2708: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.2708 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2712: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.2712 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2712: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.2712 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2712: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.2712 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:2712: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.2712 \hline
+             
+
+[112]
+Underfull \hbox (badness 10000) in paragraph at lines 2729--2731
+
+
+[113]
+Overfull \hbox (0.93349pt too wide) in paragraph at lines 2752--2753
+[]\TU/Georgia(0)/m/sc/10 This is an example of \TU/Georgia(0)/m/it/10 modular e
+xponentiation\TU/Georgia(0)/m/sc/10 , one of the functions for which
+
+[114]
+[115]
+[116]
+[117]
+[118]
+[119]
+Underfull \hbox (badness 10000) in paragraph at lines 2984--2986
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:3009: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.3009 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:3009: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.3009 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:3009: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.3009 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:3009: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.3009 \hline
+             
+
+Overfull \hbox (23.21477pt too wide) in paragraph at lines 3002--3023
+ [] 
+
+[120]
+[121]
+Overfull \hbox (4.7787pt too wide) in paragraph at lines 3071--3072
+[]\TU/Georgia(0)/m/sc/10 You should check that you understand their definitions
+ and can give examples
+
+[122]
+Overfull \hbox (621.0pt too wide) in paragraph at lines 3100--3100
+[]\TU/lmtt/m/n/10 bv al dshxz, lriw bvr xeti, sl ye lpcbp lvw ykvy ewqxx,\index
+{hash function!SHA-2}\index{hash function!SHA-3}\index{message key}\index{modul
+ar exponentiation}\index{SHA-2}\index{SHA-3}[] 
+
+Overfull \hbox (689.25pt too wide) in paragraph at lines 3110--3110
+[]\TU/lmtt/m/n/10 nsh glw flsvcznw wgvwgxta, evvhl vx ytme mw al oej,\index{AKA
+}\index{digest authentication}\index{IMSI}\index{IMSI catcher}\index{mobile tel
+ephone network!surveillance}\index{nonce}\index{UMTS!AKA}[] 
+
+[123]
+[124]
+Underfull \hbox (badness 10000) in paragraph at lines 3173--3185
+
+
+[125]
+[126]
+Chapitre 8.
+
+[127]
+[128]
+[129]
+Overfull \hbox (24.97687pt too wide) in paragraph at lines 3265--3267
+\TU/Georgia(0)/m/sc/10 method to produce the hash value. The message is divided
+ up into blocks $\OML/cmm/m/it/10 x[]; x[]; [] ; x[]$
+
+Underfull \hbox (badness 10000) in paragraph at lines 3265--3267
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3274--3274
+
+
+[130]
+Overfull \hbox (24.84201pt too wide) detected at line 3285
+[][]
+
+Underfull \hbox (badness 10000) in paragraph at lines 3289--3291
+
+
+Overfull \hbox (113.52861pt too wide) in paragraph at lines 3308--3327
+ [] 
+
+[131]
+[132]
+[133]
+[134]
+[135]
+Underfull \hbox (badness 10000) in paragraph at lines 3402--3404
+
+
+[136]
+Underfull \hbox (badness 10000) in paragraph at lines 3437--3439
+
+
+Overfull \hbox (2.29498pt too wide) in paragraph at lines 3452--3453
+[]\TU/Georgia(0)/m/sc/10 The American standard DSS, originally specified in 199
+1 and now in its fourth
+
+[137]
+Underfull \hbox (badness 10000) in paragraph at lines 3470--3472
+
+
+[138]
+[139]
+Overfull \hbox (2.79062pt too wide) in paragraph at lines 3519--3520
+[]\TU/Georgia(0)/m/sc/10 In 2016, NIST in USA initiated a competition to develo
+p Post-Quantum Cryp-
+
+Overfull \hbox (28.21947pt too wide) in paragraph at lines 3519--3520
+\TU/Georgia(0)/m/sc/10 Dilithium, FALCON and SPHINCS+) and a single key encrypt
+ion scheme (CRYSTALS-
+
+[140]
+Overfull \hbox (153.75pt too wide) in paragraph at lines 3552--3552
+[]    \TU/lmtt/m/n/10 Message $2 \quad B \rightarrow A: \mathcal{E}\left(\left(
+N_{A}, A\right), S K_{A B}\right)$[] 
+
+Overfull \hbox (190.5pt too wide) in paragraph at lines 3554--3554
+[]    \TU/lmtt/m/n/10 Message $2 \quad B \rightarrow A: \mathcal{E}\left(\left(
+N_{B}, N_{A}, A\right), S K_{A B}\right)$[] 
+
+Overfull \hbox (174.75pt too wide) in paragraph at lines 3555--3555
+[]    \TU/lmtt/m/n/10 Message $3 \quad A \rightarrow B: \mathcal{E}\left(\left(
+N_{A}, N_{B}\right), S K_{A B}\right)$[] 
+
+Overfull \hbox (3.98434pt too wide) in paragraph at lines 3558--3559
+[]\TU/Georgia(0)/m/sc/10 Fig. 5.9 Simple challenge-response protocols for authe
+ntication with an SKCS 
+
+Underfull \hbox (badness 10000) in paragraph at lines 3572--3572
+
+
+[141]
+Overfull \hbox (216.75pt too wide) in paragraph at lines 3584--3584
+[]\TU/lmtt/m/n/10 Message $2 B \rightarrow A: \mathcal{E}\left(\left(A, N_{B}\r
+ight), S K_{B S}\right) \quad$ "authenticator"[] 
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 3585--3585
+[]\TU/lmtt/m/n/10 Message $3 \quad A \rightarrow S:\left(A, B, N_{A}, \mathcal{
+E}\left(\left(A, N_{B}\right), S K_{B S}\right)\right)$[] 
+
+Overfull \hbox (552.75pt too wide) in paragraph at lines 3586--3586
+[]\TU/lmtt/m/n/10 Message $4 \quad S \rightarrow A: \mathcal{E}\left(\left(B, N
+_{A}, S K_{A B}, \mathcal{E}\left(\left(A, N_{B}, S K_{A B}\right), S K_{B S}\r
+ight)\right), S K_{A S}\right)$[] 
+
+Overfull \hbox (190.5pt too wide) in paragraph at lines 3587--3587
+[]\TU/lmtt/m/n/10 Message $5 \quad A \rightarrow B: \mathcal{E}\left(\left(A, N
+_{B}, S K_{A B}\right), S K_{B S}\right)$[] 
+
+Overfull \hbox (96.0pt too wide) in paragraph at lines 3588--3588
+[]\TU/lmtt/m/n/10 Message $6 \quad B \rightarrow A: \mathcal{E}\left(N_{B}^{\pr
+ime}, S K_{A B}\right)$[] 
+
+Overfull \hbox (106.5pt too wide) in paragraph at lines 3589--3589
+[]\TU/lmtt/m/n/10 Message $7 \quad A \rightarrow B: \mathcal{E}\left(N_{B}^{\pr
+ime}-1, S K_{A B}\right)$[] 
+
+[142]
+Overfull \hbox (10.44601pt too wide) in paragraph at lines 3595--3596
+[]\TU/Georgia(0)/m/sc/10 Sam, who knows all the secret keys, now reads the auth
+enticator and constructs
+
+Overfull \hbox (51.15848pt too wide) in paragraph at lines 3619--3622
+\TU/Georgia(0)/m/sc/10 crypted with Sam's private key, $\OML/cmm/m/it/10 SK[]$\
+TU/Georgia(0)/m/sc/10 , is known as Alice's \TU/Georgia(0)/m/it/10 certificate\
+TU/Georgia(0)/m/sc/10 , and $\OMS/cmsy/m/n/10 E []$
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+[143]
+Overfull \hbox (3.32036pt too wide) in paragraph at lines 3635--3636
+[]\TU/Georgia(0)/m/sc/10 Correspondingly, in Message 4 Bob asks Sam to send Ali
+ce's certificate, which
+
+[144]
+Underfull \hbox (badness 10000) in paragraph at lines 3649--3651
+
+
+[145]
+Overfull \hbox (1.47873pt too wide) in paragraph at lines 3672--3673
+\TU/Georgia(0)/m/sc/10 as Mallet, who can perform a man-in-the-middle attack wh
+ich inserts or changes
+
+[146]
+Overfull \hbox (3.20155pt too wide) in paragraph at lines 3679--3680
+[]\TU/Georgia(0)/m/sc/10 The security is improved if an \TU/Georgia(0)/m/it/10 
+electronic signature \TU/Georgia(0)/m/sc/10 is added to Diffie-Hellman
+
+Overfull \hbox (421.5pt too wide) in paragraph at lines 3683--3683
+[]\TU/lmtt/m/n/10 Message $2 \quad B \rightarrow A:\left(\alpha^{x_{B}} \bmod q
+, \mathcal{E}\left(S_{B}\left(\alpha^{x_{B}}, \alpha^{x_{A}}\right), K\right)\r
+ight)$[] 
+
+Overfull \hbox (232.5pt too wide) in paragraph at lines 3684--3684
+[]\TU/lmtt/m/n/10 Message $3 \quad A \rightarrow B: \mathcal{E}\left(S_{A}\left
+(\alpha^{x_{B}}, \alpha^{x_{A}}\right), K\right)$[] 
+
+[147]
+[148]
+[149]
+[150]
+[151]
+Overfull \hbox (4.62082pt too wide) in paragraph at lines 3824--3825
+[]\TU/Georgia(0)/m/sc/10 In the figure, arrows again indicate the direction of 
+trust, showing for example
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:3831: Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.3831 ... a "\textit{trust value" for subject $Y}
+                                                  $ by combining an evaluati...
+
+
+[152]
+[153]
+[154]
+Underfull \hbox (badness 10000) in paragraph at lines 3866--3868
+
+
+[155]
+Overfull \hbox (0.18958pt too wide) in paragraph at lines 3877--3878
+\TU/Georgia(0)/m/it/10 citemoriarty2014rfc7292, or on hardware in a tamper-proo
+f smartcard. Some
+
+[156]
+Overfull \hbox (9.50526pt too wide) in paragraph at lines 3908--3909
+[]\TU/Georgia(0)/m/it/10 You should check that you understand their definitions
+ and can give examples
+
+[157]
+Overfull \hbox (0.28734pt too wide) in paragraph at lines 3946--3948
+[]\TU/Georgia(0)/m/it/10 Needham and Schroeders original SKCS protocol The prot
+ocol which Need-
+
+LaTeX Font Warning: Font shape `TU/STSong(0)/m/it' undefined
+(Font)              using `TU/STSong(0)/m/n' instead on input line 3972.
+
+
+[158]
+[159]
+[160]
+Chapitre 9.
+
+Overfull \hbox (13.83788pt too wide) in paragraph at lines 3994--3995
+\TU/Georgia(0)/m/it/10 cables. The users connect their computers to the network
+ as so-called end systems-
+
+Overfull \hbox (1.37128pt too wide) in paragraph at lines 4000--4001
+[]\TU/Georgia(0)/m/it/10 Metropolitan Area Networks (MAN) : Networks covering a
+ town or other
+
+[161]
+[162]
+Underfull \hbox (badness 10000) in paragraph at lines 4026--4028
+
+
+[163]
+[164]
+[165]
+Underfull \hbox (badness 10000) in paragraph at lines 4114--4116
+
+
+Overfull \hbox (2.38043pt too wide) in paragraph at lines 4124--4125
+[]\TU/Georgia(0)/m/it/10 The Internet is based on a reference model with five l
+ayers, which are shown
+
+[166]
+[167]
+[168]
+Underfull \hbox (badness 10000) in paragraph at lines 4152--4154
+
+
+[169]
+
+LaTeX Warning: Float too large for page by 6.93643pt on input line 4196.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4199--4201
+
+
+[170]
+[171]
+Overfull \hbox (12.07362pt too wide) in paragraph at lines 4202--4203
+\TU/Georgia(0)/m/it/10 in this domain which must be registered by the administr
+ator for [][]compute.dtu.dk[][].
+
+Underfull \hbox (badness 10000) in paragraph at lines 4231--4234
+
+
+[172]
+[173]
+Underfull \hbox (badness 10000) in paragraph at lines 4257--4259
+
+
+Overfull \hbox (27.64645pt too wide) in paragraph at lines 4275--4276
+\TU/Georgia(0)/m/it/10 standard Internet applications. Further details can be f
+ound on [][]www.iana.org[][].
+
+[174]
+Underfull \hbox (badness 10000) in paragraph at lines 4280--4282
+
+
+[175]
+Overfull \hbox (7.0028pt too wide) in paragraph at lines 4296--4297
+\TU/Georgia(0)/m/it/10 connection, it reserves resources for storing informatio
+n about the connec-
+
+Underfull \hbox (badness 10000) in paragraph at lines 4319--4321
+
+
+[176]
+[177]
+[178]
+Overfull \hbox (411.08987pt too wide) in paragraph at lines 4361--4376
+ [] 
+
+[179]
+[180]
+[181]
+[182]
+Overfull \hbox (2.2167pt too wide) in paragraph at lines 4451--4452
+\TU/Georgia(0)/m/it/10 Fig. 6.15. Electrical signals emitted by any system conn
+ected to the cable spread
+
+Overfull \hbox (0.49648pt too wide) in paragraph at lines 4469--4470
+\TU/Georgia(0)/m/it/10 Institute (ETSI). IEEE's standards have been published a
+s parts of the so-called
+
+[183]
+[184]
+Overfull \hbox (182.74004pt too wide) in paragraph at lines 4492--4513
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 4530--4532
+
+
+[185]
+[186]
+[187]
+[188]
+[189]
+[190]
+Overfull \hbox (9.50526pt too wide) in paragraph at lines 4623--4624
+[]\TU/Georgia(0)/m/it/10 You should check that you understand their definitions
+ and can give examples
+
+Overfull \hbox (18.33092pt too wide) in paragraph at lines 4625--4627
+\TU/Georgia(0)/m/it/10 citecomer2014computernetworks, and Kurose and Ross's "Co
+mputer Networking-
+
+Overfull \hbox (3.46361pt too wide) in paragraph at lines 4628--4629
+[]\TU/Georgia(0)/m/it/10 For even more details about how the Internet works it 
+is necessary to consult
+
+Underfull \hbox (badness 10000) in paragraph at lines 4630--4637
+
+
+[191]
+[192]
+[193]
+[194]
+Chapitre 10.
+
+Overfull \hbox (4.06665pt too wide) in paragraph at lines 4697--4703
+[]\TU/Georgia(0)/m/it/10 A simple example of a dialogue between a client in the
+ system gogo.molester.
+
+[195]
+Overfull \hbox (316.5pt too wide) in paragraph at lines 4718--4718
+[]\TU/lmtt/m/n/10 Here are the secret plans for the client destructor\index{HTT
+P!authorisation}\index{HTTP!character set}\index{HTTP!media type}[] 
+
+Overfull \hbox (13.94861pt too wide) in paragraph at lines 4731--4732
+\TU/Georgia(0)/m/it/10 the client's system ([][]gogo.molester.dk[][]) as parame
+ter to the ELHO-command.
+
+[196]
+[197]
+[198]
+[199]
+Underfull \hbox (badness 10000) in paragraph at lines 4795--4797
+
+
+[200]
+Underfull \hbox (badness 10000) in paragraph at lines 4808--4811
+
+
+[201]
+Overfull \hbox (1193.25pt too wide) in paragraph at lines 4825--4825
+[]\TU/lmtt/m/n/10 Content-type: text/plain; charset=ISO-8859-1\index{man-in-the
+-middle!redirection}\index{encryption!in Internet layer}\index{encryption!in Tr
+ansport layer}\index{half open session}\index{Internet layer!encryption}\index{
+redirection attack}\index{session theft}\index{Transport layer!encryption}[] 
+
+Overfull \hbox (0.7935pt too wide) in paragraph at lines 4835--4836
+\TU/Georgia(0)/m/it/10 from the character set defined in the international stan
+dard ISO-8859-1, which
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd)
+Missing character: There is no æ ("E6) in font eufm10!
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:4873: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.4873 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:4873: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.4873 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:4873: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.4873 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:4873: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.4873 \hline
+             
+
+Overfull \hbox (225.77544pt too wide) in paragraph at lines 4866--4887
+ [] 
+
+[202]
+[203]
+[204]
+Overfull \hbox (4.1236pt too wide) in paragraph at lines 4927--4930
+\TU/Georgia(0)/m/it/10 To save space, only part of the signature and its associ
+ated certificates is shown. 
+
+[205]
+[206]
+[207]
+Overfull \hbox (85.5pt too wide) in paragraph at lines 4978--4978
+[]\TU/lmtt/m/n/10 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"\index{MIME!
+type}\index{PGP!type}[] 
+
+Overfull \hbox (43.5pt too wide) in paragraph at lines 4990--4990
+[]        \TU/lmtt/m/n/10 <A href="https://danopskrifter.dk/frikadeller.html">R
+ecipe</A></P>[] 
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 4992--4992
+[]        \TU/lmtt/m/n/10 <A href="https://moneygrab.eu/takeitandrun.html">Reci
+pe</A></P>[] 
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 4993--4993
+[]    \TU/lmtt/m/n/10 <LI><P> Fl&aelig;skesteg med sv&aelig;r (eng: Roast pork 
+with crackling)[] 
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 4994--4994
+[]        \TU/lmtt/m/n/10 <A href="https://danopskrifter.dk/flaeskesteg.html">R
+ecipe</A> </P>[] 
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 4995--4995
+[]    \TU/lmtt/m/n/10 <LI><P> Sm&oslash;rrebr&oslash;d (eng: Danish open sandwi
+ches)[] 
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 4996--4996
+[]        \TU/lmtt/m/n/10 <A href="https://danopskrifter.dk/smoerbroed.html">Re
+cipes</A> </P>[] 
+
+[208]
+[209]
+Missing character: There is no æ ("E6) in font cmmi10!
+
+[210]
+[211]
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5142: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.5142 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5142: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.5142 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5142: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.5142 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5142: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.5142 \hline
+             
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5154: LaTeX Error: Not in outer par mode.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5154 \begin{figure}[htbp]
+                           
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5154: Undefined control sequence.
+\@xfloat ...@fltovf \fi \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.5154 \begin{figure}[htbp]
+                           
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5154: Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.5154 \begin{figure}[htbp]
+                           
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5159: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.5159 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5159: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.5159 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5159: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.5159 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:5159: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.5159 \hline
+             
+
+Overfull \hbox (258.39456pt too wide) in paragraph at lines 5135--5161
+ [] 
+
+Overfull \hbox (53.34398pt too wide) in paragraph at lines 5173--5174
+\TU/Georgia(0)/m/it/10 specifies that the content of the resource with URI [][]
+http://www.w3.org/pub/www/xy.html[][]
+
+[212]
+[213]
+Overfull \hbox (3.95267pt too wide) in paragraph at lines 5200--5201
+\TU/Georgia(0)/m/it/10 The header fields Content-Type, Content-Encoding and Con
+tent-Language give
+
+[214]
+Overfull \hbox (9.50526pt too wide) in paragraph at lines 5243--5244
+[]\TU/Georgia(0)/m/it/10 You should check that you understand their definitions
+ and can give examples
+
+[215]
+Overfull \hbox (90.91144pt too wide) in paragraph at lines 5283--5284
+\TU/Georgia(0)/m/it/10 work. The user manual can be found on Wireshark's home p
+age [][]https://www.wireshark.org/docs/[][]
+
+Overfull \hbox (25.6934pt too wide) in paragraph at lines 5283--5284
+\TU/Georgia(0)/m/it/10 wsug_html_chunked/ and there is a very useful wiki at []
+[]https://wiki.wireshark.org/[][]
+
+[216]
+Chapitre 11.
+
+Overfull \hbox (18.18971pt too wide) in paragraph at lines 5304--5304
+[]\TU/Georgia(0)/b/n/14.4 Protection Based on Cryptographic Methods 
+
+[217]
+Underfull \vbox (badness 3815) has occurred while \output is active
+[218]
+Overfull \hbox (8.18938pt too wide) in paragraph at lines 5332--5333
+[]\TU/Georgia(0)/m/it/10 Faked PDUs can be used to break or take over a TCP con
+nection ("session"),
+
+[219]
+[220]
+[221]
+Underfull \hbox (badness 10000) in paragraph at lines 5351--5353
+
+
+[222]
+[223]
+[224]
+Overfull \hbox (2.25104pt too wide) in paragraph at lines 5398--5399
+[]\TU/Georgia(0)/m/it/10 The solution strategy must be to secure the medium aga
+inst access for unau-
+
+Overfull \hbox (173.05571pt too wide) in paragraph at lines 5433--5446
+ [] 
+
+[225]
+[226]
+[227]
+[228]
+[229]
+Overfull \hbox (384.74516pt too wide) in paragraph at lines 5512--5529
+ [] 
+
+[230]
+Overfull \hbox (4.77544pt too wide) in paragraph at lines 5534--5536
+\TU/Georgia(0)/m/it/10 mechanism for data and other information transmitted bet
+ween two endpoints. 
+
+Overfull \hbox (24.33679pt too wide) in paragraph at lines 5549--5553
+\TU/Georgia(0)/m/it/10 whether the tunnel runs between single computers ("hosts
+"), between (sub)networks
+
+Underfull \hbox (badness 10000) in paragraph at lines 5549--5553
+
+
+Overfull \hbox (1.35489pt too wide) in paragraph at lines 5560--5562
+\TU/Georgia(0)/m/it/10 work which connects the two sites, as illustrated in Fig
+. 8.10. The tunnel (green)
+
+[231]
+Underfull \hbox (badness 10000) in paragraph at lines 5568--5571
+
+
+[232]
+Underfull \hbox (badness 10000) in paragraph at lines 5595--5597
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5603--5611
+
+
+[233]
+[234]
+[235]
+Overfull \hbox (4.39374pt too wide) in paragraph at lines 5668--5669
+[]\TU/Georgia(0)/b/it/10 Handshake: \TU/Georgia(0)/m/it/10 Is used to authentic
+ate the server and (optionally) the client
+
+Overfull \hbox (5.05212pt too wide) in paragraph at lines 5670--5677
+\TU/Georgia(0)/m/it/10 SSL/TLS's Record protocol offers stepwise processing of 
+Application layer
+
+[236]
+Overfull \hbox (70.33533pt too wide) in paragraph at lines 5701--5702
+\TU/Georgia(0)/m/it/10 must implement in TLS v1.2 is described by the string: T
+LS_RSA_WITH_AES_128_CBC_SHA
+
+[237]
+[238]
+[239]
+Overfull \hbox (416.25pt too wide) in paragraph at lines 5783--5783
+[]    \TU/lmtt/m/n/10 Client and server negotiate a TLS session.\index{Change P
+ermissions!CRC}\index{nonce}\index{SSID}\index{WEP}\index{WiFi!SSID}\index{WiFi
+!WEP}[] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 5798--5800
+
+
+Overfull \hbox (20.2564pt too wide) in paragraph at lines 5803--5804
+\TU/Georgia(0)/m/it/10 Middle attack, where the attacker for example removes th
+e server's 250-STARTTLS
+
+[240]
+[241]
+[242]
+Underfull \hbox (badness 10000) in paragraph at lines 5854--5858
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5868--5873
+
+
+[243]
+Underfull \vbox (badness 10000) has occurred while \output is active
+[244]
+[245]
+[246]
+Underfull \hbox (badness 10000) in paragraph at lines 5906--5908
+
+
+[247]
+[248]
+[249]
+[250]
+Overfull \hbox (1.56665pt too wide) in paragraph at lines 5990--5997
+ \TU/Georgia(0)/m/it/10 With anomaly detection-also known as baseline based ana
+lysis - the IDS main-
+
+[251]
+Underfull \hbox (badness 10000) in paragraph at lines 6002--6004
+
+
+[252]
+Underfull \hbox (badness 10000) in paragraph at lines 6017--6019
+
+
+[253]
+Overfull \hbox (1.29074pt too wide) in paragraph at lines 6032--6033
+[]\TU/Georgia(0)/b/it/10 False APs \TU/Georgia(0)/m/it/10 can interfere with th
+e communication in infrastructure mode. 
+
+[254]
+Overfull \hbox (0.1831pt too wide) in paragraph at lines 6075--6076
+[]\TU/Georgia(0)/m/it/10 As discussed above: weak RC4 encryption, one-way authe
+ntication, poor
+
+[255]
+Underfull \hbox (badness 10000) in paragraph at lines 6092--6094
+
+
+[256]
+Underfull \hbox (badness 10000) in paragraph at lines 6109--6112
+
+
+[257]
+Overfull \hbox (4.12196pt too wide) in paragraph at lines 6113--6115
+\TU/Georgia(0)/m/it/10 Since v2.1 of Bluetooth, the security of the pairing pro
+cess has been streng-
+
+Underfull \hbox (badness 10000) in paragraph at lines 6121--6125
+
+
+[258]
+Overfull \hbox (3.8366pt too wide) in paragraph at lines 6130--6130
+[]\TU/Georgia(0)/b/n/14.4 Security in the Mobile Telephone Network 
+
+Underfull \hbox (badness 10000) in paragraph at lines 6142--6145
+
+
+[259]
+Underfull \vbox (badness 1097) has occurred while \output is active
+[260]
+Overfull \hbox (1.55037pt too wide) in paragraph at lines 6159--6160
+\TU/Georgia(0)/m/it/10 transmission "through the air" between the station and t
+he BTS was avai-
+
+[261]
+Overfull \hbox (6.95961pt too wide) in paragraph at lines 6173--6174
+\TU/Georgia(0)/m/it/10 citedunkelman2010kasumi. Interestingly enough, KASUMI is
+ derived from Mit-
+
+[262]
+Underfull \vbox (badness 1077) has occurred while \output is active
+[263]
+[264]
+Overfull \hbox (4.17813pt too wide) in paragraph at lines 6230--6232
+\TU/Georgia(0)/m/it/10 basic problem that even if you do your best to protect t
+he traffic passing through
+
+Underfull \hbox (badness 10000) in paragraph at lines 6230--6232
+
+
+[265]
+Overfull \hbox (2.62207pt too wide) in paragraph at lines 6241--6243
+[]\TU/Georgia(0)/b/it/10 Unstructured Supplementary Service Data (USSD) codes: 
+\TU/Georgia(0)/m/it/10 These
+
+[266]
+Underfull \vbox (badness 10000) has occurred while \output is active
+[267]
+[268]
+Overfull \hbox (1.5pt too wide) in paragraph at lines 6300--6300
+[]\TU/lmtt/m/n/10 quis. Phasellus luctus pellentesque enim, non dictum nisl ult
+rices[] 
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 6302--6302
+[]\TU/lmtt/m/n/10 massa. Vestibulum ex dolor, lobortis eu finibus nec, lobortis
+ quis[] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 6307--6309
+
+
+[269]
+Overfull \hbox (13.95027pt too wide) in paragraph at lines 6325--6326
+\TU/Georgia(0)/m/it/10 tacker sends spoofed PDUs with SYN set-that is, PDUs wit
+h fake source addresses-
+
+Underfull \hbox (badness 10000) in paragraph at lines 6327--6329
+
+
+Overfull \hbox (2.2283pt too wide) in paragraph at lines 6335--6338
+\TU/Georgia(0)/m/it/10 sending TCP PDUs with the ACK flag set at regular interv
+als to keep the connec-
+
+Underfull \hbox (badness 10000) in paragraph at lines 6340--6342
+
+
+[270]
+[271]
+Underfull \hbox (badness 10000) in paragraph at lines 6360--6362
+
+
+Overfull \hbox (0.27025pt too wide) in paragraph at lines 6363--6364
+[]\TU/Georgia(0)/m/it/10 have the possibility of accessing the same cable (as i
+n the widely used Ether-
+
+[272]
+[273]
+Underfull \vbox (badness 10000) has occurred while \output is active
+[274]
+[275]
+[276]
+Underfull \hbox (badness 10000) in paragraph at lines 6421--6423
+
+
+[277]
+Overfull \hbox (606.15823pt too wide) in paragraph at lines 6451--6468
+ [] 
+
+[278]
+Overfull \hbox (9.67377pt too wide) in paragraph at lines 6500--6501
+[]\TU/Georgia(0)/m/it/10 The DNS entry for the domain contains one such TXT rec
+ord, but it contains
+
+[279]
+Overfull \hbox (432.83792pt too wide) in paragraph at lines 6524--6547
+ [] 
+
+Overfull \hbox (2.30719pt too wide) in paragraph at lines 6549--6550
+\TU/Georgia(0)/m/it/10 ven by the h-tag are hashed in the order given, followed
+ by the DKIM-Signature
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 6556--6556
+[]\TU/lmtt/m/n/10 Received-SPF: pass (design.fake.com: domain of bonesen@molest
+er.dk[] 
+
+[280]
+Underfull \hbox (badness 10000) in paragraph at lines 6570--6572
+
+
+Overfull \hbox (11.75616pt too wide) in paragraph at lines 6581--6582
+[]\TU/Georgia(0)/m/it/10 (Note that _domainkey is an obligatory component of th
+e name.) The contents
+
+Overfull \hbox (19.35796pt too wide) in paragraph at lines 6587--6588
+[]\TU/Georgia(0)/m/it/10 Construct the combined hash of the named header fields
+, the DKIM-Signature
+
+[281]
+[282]
+[283]
+Underfull \hbox (badness 10000) in paragraph at lines 6647--6649
+
+
+[284]
+[285]
+[286]
+[287]
+[288]
+Overfull \hbox (9.50526pt too wide) in paragraph at lines 6748--6749
+[]\TU/Georgia(0)/m/it/10 You should check that you understand their definitions
+ and can give examples
+
+Underfull \hbox (badness 10000) in paragraph at lines 6750--6753
+
+
+Overfull \hbox (2.36415pt too wide) in paragraph at lines 6754--6755
+\TU/Georgia(0)/m/it/10 the series can be found at URI [][]http://csrc.nist.gov/
+publications/PubsSPs.html[][].
+
+Overfull \hbox (1.13045pt too wide) in paragraph at lines 6758--6761
+[]\TU/Georgia(0)/m/it/10 Exercises Cybersquatting A security risk which is not 
+discussed in this chap-
+
+[289]
+[290]
+Underfull \hbox (badness 10000) in paragraph at lines 6792--6796
+
+
+[291]
+[292]
+Chapitre 12.
+
+[293]
+[294]
+[295]
+Underfull \hbox (badness 10000) in paragraph at lines 6874--6874
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6883--6883
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6890--6892
+
+
+[296]
+[297]
+Overfull \hbox (13.28937pt too wide) in paragraph at lines 6893--6894
+[]\TU/Georgia(0)/m/it/10 being the user in person. Systems which use informatio
+n from a 3-dimensional
+
+Underfull \hbox (badness 10000) in paragraph at lines 6902--6902
+
+
+[298]
+[299]
+[300]
+[301]
+Overfull \hbox (42.86127pt too wide) in paragraph at lines 6949--6980
+ [] 
+
+[302]
+[303]
+[304]
+Overfull \hbox (5.84467pt too wide) in paragraph at lines 7023--7024
+\TU/Georgia(0)/m/it/10 chose words which could be found in dictionaries. Only $
+\OT1/cmr/m/n/10 14[]$ \TU/Georgia(0)/m/it/10 made better choices. 
+
+Overfull \hbox (4.64516pt too wide) in paragraph at lines 7043--7045
+\TU/Georgia(0)/m/it/10 their passwords at regular intervals. And research shows
+ that frequent changes
+
+Overfull \hbox (2.23962pt too wide) in paragraph at lines 7043--7045
+\TU/Georgia(0)/m/it/10 example, the old password was "Pussy;cat4", they choose 
+"Pussy;cat5" or "Pus-
+
+Underfull \hbox (badness 10000) in paragraph at lines 7043--7045
+
+
+[305]
+Underfull \hbox (badness 10000) in paragraph at lines 7066--7066
+
+
+[306]
+[307]
+[308]
+[309]
+[310]
+[311]
+[312]
+Overfull \hbox (5.46469pt too wide) in paragraph at lines 7185--7186
+[]\TU/Georgia(0)/b/it/10 Physical separation: \TU/Georgia(0)/m/it/10 Different 
+processes use different physical objects-
+
+[313]
+Overfull \hbox (0.87898pt too wide) in paragraph at lines 7198--7199
+[]\TU/Georgia(0)/m/it/10 A highly privileged subject, who is said to have admin
+istrator (or in Unix-
+
+Overfull \hbox (9.73656pt too wide) in paragraph at lines 7206--7207
+[]\TU/Georgia(0)/b/it/10 Discretionary Access Control \TU/Georgia(0)/m/it/10 (c
+ommonly abbreviated to $\OML/cmm/m/it/10 DAC$ \TU/Georgia(0)/m/it/10 ) where
+
+[314]
+Overfull \hbox (18.24133pt too wide) in paragraph at lines 7229--7246
+ [] 
+
+Underfull \vbox (badness 2393) has occurred while \output is active
+[315]
+Underfull \vbox (badness 10000) has occurred while \output is active
+[316]
+[317]
+Underfull \hbox (badness 10000) in paragraph at lines 7304--7306
+
+
+[318]
+[319]
+Underfull \hbox (badness 10000) in paragraph at lines 7361--7363
+
+
+[320]
+[321]
+[322]
+[323]
+Overfull \hbox (3.43027pt too wide) in paragraph at lines 7488--7489
+[]\TU/Georgia(0)/m/it/10 An object's ACL specifies the sets of rights for one o
+r more subjects or groups.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7507--7509
+
+
+[324]
+[325]
+Underfull \vbox (badness 10000) has occurred while \output is active
+[326]
+Underfull \hbox (badness 10000) in paragraph at lines 7576--7576
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7583--7585
+
+
+[327]
+Underfull \hbox (badness 10000) in paragraph at lines 7589--7589
+
+
+[328]
+Underfull \hbox (badness 10000) in paragraph at lines 7595--7597
+
+
+Overfull \hbox (6.70009pt too wide) in paragraph at lines 7605--7606
+\TU/Georgia(0)/m/it/10 keys at the top of the hierarchy, of which the root key 
+HKEY_LOCAL_MACHINE
+
+Underfull \hbox (badness 10000) in paragraph at lines 7609--7612
+
+
+[329]
+[330]
+[331]
+[332]
+Underfull \hbox (badness 10000) in paragraph at lines 7666--7668
+
+
+[333]
+Underfull \hbox (badness 10000) in paragraph at lines 7679--7681
+
+
+Overfull \hbox (2.18019pt too wide) in paragraph at lines 7684--7685
+[]\TU/Georgia(0)/b/it/10 Demonstration of correctness: \TU/Georgia(0)/m/it/10 I
+n many common operating systems,
+
+[334]
+Overfull \hbox (0.22876pt too wide) in paragraph at lines 7695--7696
+[]\TU/Georgia(0)/m/it/10 By using encryption units built into the hardware in t
+he IT system's disks.
+
+Overfull \hbox (0.83176pt too wide) in paragraph at lines 7698--7699
+[]\TU/Georgia(0)/m/it/10 Encryption systems in the operating system normally ai
+m to provide trans-
+
+[335]
+[336]
+Overfull \hbox (0.74306pt too wide) in paragraph at lines 7745--7747
+\TU/Georgia(0)/m/it/10 programs by giving a reference which is not a complete p
+ath, for example
+
+Underfull \hbox (badness 10000) in paragraph at lines 7745--7747
+
+
+[337]
+[338]
+Underfull \hbox (badness 10000) in paragraph at lines 7783--7785
+
+
+[339]
+Underfull \hbox (badness 10000) in paragraph at lines 7800--7802
+
+
+[340]
+[341]
+Overfull \hbox (9.50526pt too wide) in paragraph at lines 7854--7855
+[]\TU/Georgia(0)/m/it/10 You should check that you understand their definitions
+ and can give examples
+
+[342]
+Underfull \hbox (badness 10000) in paragraph at lines 7859--7861
+
+
+Overfull \hbox (2.07605pt too wide) in paragraph at lines 7866--7867
+[]\TU/Georgia(0)/m/it/10 Evaluation requirements, which can form the basis for 
+establishing confi-
+
+[343]
+Underfull \hbox (badness 10000) in paragraph at lines 7882--7885
+
+
+[344]
+Overfull \hbox (0.8016pt too wide) in paragraph at lines 7904--7907
+[]\TU/Georgia(0)/m/it/10 Windows NT ACLs In Sect. 9.3.1 there are two examples 
+of some user wishes
+
+[345]
+Underfull \hbox (badness 10000) in paragraph at lines 7925--7928
+
+
+[346]
+[347]
+[348]
+Chapitre 13.
+
+Overfull \hbox (6.4478pt too wide) in paragraph at lines 7965--7966
+[]\TU/Georgia(0)/m/it/10 Buffer overflow (or buffer overwrite), where the softw
+are does not prevent
+
+[349]
+Overfull \hbox (3.68192pt too wide) in paragraph at lines 7984--7991
+ [] 
+
+Underfull \vbox (badness 1867) has occurred while \output is active
+[350]
+[351]
+Overfull \hbox (1.25578pt too wide) in paragraph at lines 8073--8075
+\TU/Georgia(0)/m/it/10 time it had compromised a very large number of TLS clien
+ts and servers world-
+
+[352]
+
+LaTeX Warning: Float too large for page by 151.69754pt on input line 8099.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8101--8103
+
+
+[353]
+[354]
+[355]
+Underfull \hbox (badness 10000) in paragraph at lines 8144--8146
+
+
+[356]
+Overfull \hbox (11.51535pt too wide) in paragraph at lines 8163--8164
+[]\TU/Georgia(0)/m/it/10 American Fuzzy Lop (AFL), an open source tool availabl
+e at [][]http://lcamtuf[][].
+
+[357]
+Overfull \hbox (52.50166pt too wide) in paragraph at lines 8176--8177
+\TU/Georgia(0)/m/it/10 citewheeler2001flawfinder, available at URI [][]http://w
+ww.dwheeler.com/flawfinder[][] 
+
+Overfull \hbox (2.07602pt too wide) in paragraph at lines 8178--8179
+\TU/Georgia(0)/m/it/10 citehovemeyer2007finding, available at [][]http://findbu
+gs.sourceforge.net[][] 
+
+Overfull \hbox (31.57059pt too wide) in paragraph at lines 8190--8191
+\TU/Georgia(0)/m/it/10 blems with memory allocation. See [][]http://unicomsi.co
+m/products/purifyplus/[][]. 
+
+[358]
+Overfull \hbox (2.6367pt too wide) in paragraph at lines 8197--8198
+[]\TU/Georgia(0)/m/it/10 It would be nice if these techniques were used more ex
+tensively. David whee-
+
+Overfull \hbox (6.83351pt too wide) in paragraph at lines 8211--8212
+[]\TU/Georgia(0)/b/it/10 Spyware: \TU/Georgia(0)/m/it/10 Sends details about th
+e computer's hardware and/or the user's
+
+Overfull \hbox (2.93597pt too wide) in paragraph at lines 8212--8213
+[]\TU/Georgia(0)/b/it/10 Ransomware: \TU/Georgia(0)/m/it/10 This comes in two f
+lavours: Cryptographic ransomware
+
+[359]
+Underfull \hbox (badness 2503) in paragraph at lines 8228--8228
+[]\TU/Georgia(0)/m/sc/10 Fig. 13.3: []Photohound, Wikimedia Commons file Conejo
+_astronomo.png
+
+Underfull \hbox (badness 10000) in paragraph at lines 8228--8228
+
+
+[360]
+Underfull \hbox (badness 10000) in paragraph at lines 8243--8245
+
+
+[361]
+[362]
+[363]
+Underfull \hbox (badness 10000) in paragraph at lines 8287--8289
+
+
+Overfull \hbox (10.79922pt too wide) in paragraph at lines 8297--8298
+\TU/Georgia(0)/m/it/10 the task of detecting and if possible removing - or in s
+ome other way neutralising-
+
+[364]
+Underfull \hbox (badness 10000) in paragraph at lines 8309--8311
+
+
+[365]
+[366]
+[367]
+[368]
+[369]
+Underfull \hbox (badness 10000) in paragraph at lines 8453--8459
+
+
+[370]
+Underfull \hbox (badness 10000) in paragraph at lines 8473--8475
+
+
+[371]
+Overfull \hbox (739.18558pt too wide) in paragraph at lines 8486--8501
+ [] 
+
+Overfull \hbox (656.88872pt too wide) in paragraph at lines 8506--8561
+ [] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active
+[372]
+Underfull \hbox (badness 10000) in paragraph at lines 8563--8565
+
+
+[373]
+[374]
+Overfull \hbox (10.31451pt too wide) in paragraph at lines 8633--8650
+ [] 
+
+[375]
+[376]
+[377]
+Overfull \hbox (8.60919pt too wide) in paragraph at lines 8767--8768
+\TU/Georgia(0)/m/it/10 table. As there are 64 possible 6-bit sequences, the tab
+le will always contain
+
+[378]
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:8813: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.8813 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:8813: You can't use `\hrule' here except 
+with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.8813 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:8813: Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.8813 \hline
+             
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:8813: Illegal unit of measure (pt inserte
+d).
+<to be read again> 
+                   \futurelet 
+l.8813 \hline
+             
+
+Overfull \hbox (199.46893pt too wide) in paragraph at lines 8778--8815
+ [] 
+
+Overfull \hbox (489.7764pt too wide) in paragraph at lines 8818--8831
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 8835--8838
+
+
+[379]
+Overfull \hbox (482.50883pt too wide) in paragraph at lines 8861--8889
+ [] 
+
+[380]
+Underfull \hbox (badness 10000) in paragraph at lines 8921--8923
+
+
+[381]
+[382]
+[383]
+[384]
+Underfull \hbox (badness 10000) in paragraph at lines 9055--9057
+
+
+[385]
+Overfull \hbox (153.75pt too wide) in paragraph at lines 9118--9118
+[]\TU/lmtt/m/n/10 <INPUT type="checkbox" name="colour" value="Brown">Brown<BR>\
+index{ISO-latin-1 printable!27001}[] 
+
+[386]
+[387]
+[388]
+Overfull \hbox (2.07524pt too wide) in paragraph at lines 9130--9131
+[]\TU/Georgia(0)/b/it/10 Multiline text fields: \TU/Georgia(0)/m/it/10 These ar
+e described by TEXTAREA elements with
+
+Overfull \hbox (5.96442pt too wide) in paragraph at lines 9133--9134
+[]\TU/Georgia(0)/m/it/10 When the user clicks on the submit button in the webfo
+rm, the form's contents
+
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:9157: LaTeX Error: There's no line here t
+o end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9157 w
+        here the text typed in is Alfred, then the pair firstname=Alfred is ...
+
+
+[389]
+[390]
+Overfull \hbox (15.4875pt too wide) in paragraph at lines 9197--9198
+[]\TU/Georgia(0)/b/it/10 Class Loaders \TU/Georgia(0)/m/it/10 : fetch class fil
+es and check that they are mutually consistent
+
+Underfull \hbox (badness 10000) in paragraph at lines 9202--9204
+
+
+Overfull \hbox (2.68716pt too wide) in paragraph at lines 9214--9215
+\TU/Georgia(0)/m/it/10 in the developer. Worse still, ActiveX controls can be m
+arked safe-for-scripting,
+
+[391]
+Overfull \hbox (8.50346pt too wide) in paragraph at lines 9236--9237
+[]\TU/Georgia(0)/m/it/10 The URI [][]http://www.vic.dk/images/../../../../etc/p
+asswd[][] would then give
+
+[392]
+[393]
+Overfull \hbox (43.98761pt too wide) in paragraph at lines 9291--9292
+\TU/Georgia(0)/m/it/10 tortoises and clicks on the link. Mallory's script is fe
+tched from [][]http://malpense.net[][]
+/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/cybe
+rsec/pdfextractkit/cybersec_final.tex:9302: TeX capacity exceeded, sorry [input
+ stack size=10000].
+\hyper@normalise ->\begingroup \@makeother {:}
+                                              \catcode `\^^M\active \def ^^M...
+l.9302 ... are PHP, \href{http://\textit{ASP.NET}}
+                                                  {ASP.NET} and \textit{Java...
+
+Output written on cybersec_final.xdv (395 pages, 7701956 bytes).
+Transcript written on cybersec_final.log.
+Latexmk: Getting log file 'cybersec_final.log'
+Latexmk: Examining 'cybersec_final.fls'
+Latexmk: Examining 'cybersec_final.log'
+Latexmk: Log file says output to 'cybersec_final.xdv'
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: applying rule 'xdvipdfmx'...
+Rule 'xdvipdfmx':  Reasons for rerun
+Changed files or newly in use/created:
+  cybersec_final.xdv
+Category 'changed_source_rules':
+  xelatex
+
+------------
+Run number 1 of rule 'xdvipdfmx'
+------------
+------------
+Running 'xdvipdfmx -E -o "cybersec_final.pdf"  "cybersec_final.xdv"'
+------------
+cybersec_final.xdv -> cybersec_final.pdf
+[1][2][3
+xdvipdfmx:warning: Object @page.1 already defined.
+][4
+xdvipdfmx:warning: Object @page.2 already defined.
+][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62][63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92][93][94][95][96][97][98][99][100][101][102][103][104][105][106][107][108][109][110][111][112][113][114][115][116][117][118][119][120][121][122][123][124][125][126][127][128][129][130][131][132][133][134][135][136][137][138][139][140][141][142][143][144][145][146][147][148][149][150][151][152][153][154][155][156][157][158][159][160][161][162][163][164][165][166][167][168][169][170][171][172][173][174][175][176][177][178][179][180][181][182][183][184][185][186][187][188][189][190][191][192][193][194][195][196][197][198][199][200][201][202][203][204][205][206][207][208][209][210][211][212][213][214][215][216][217][218][219][220][221][222][223][224][225][226][227][228][229][230][231][232][233][234][235][236][237][238][239][240][241][242][243][244][245][246][247][248][249][250][251][252][253][254][255][256][257][258][259][260][261][262][263][264][265][266][267][268][269][270][271][272][273][274][275][276][277][278][279][280][281][282][283][284][285][286][287][288][289][290][291][292][293][294][295][296][297][298][299][300][301][302][303][304][305][306][307][308][309][310][311][312][313][314][315][316][317][318][319][320][321][322][323][324][325][326][327][328][329][330][331][332][333][334][335][336][337][338][339][340][341][342][343][344][345][346][347][348][349][350][351][352][353][354][355][356][357][358][359][360][361][362][363][364][365][366][367][368][369][370][371][372][373][374][375][376][377][378][379][380][381][382][383][384][385][386][387][388][389][390][391][392][393][394][395]
+8151544 bytes written
+Latexmk: Summary of warnings from last run of *latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Latexmk: ====Undefined refs and citations with line #s in .tex file:
+  Missing character: There is no æ ("E6) in font eufm10!
+  Missing character: There is no æ ("E6) in font cmmi10!
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  xelatex: Command for 'xelatex' gave return code 1
+      Refer to 'cybersec_final.log' and/or above output for details
+

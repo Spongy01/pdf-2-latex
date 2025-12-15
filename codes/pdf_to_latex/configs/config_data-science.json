@@ -4,6 +4,7 @@
     "bib": "../../files/data-science/inputs/data-science-bib.pdf",
     "index": "../../files/data-science/inputs/data-science-index.pdf",
     "output":"../../files/data-science/outputs/",
+    "yolo_config": "./yolo_configs/yolo_config_ds.yaml",
     "filename": "data-science",
     "batch_size": 600,
     "sequential": false,

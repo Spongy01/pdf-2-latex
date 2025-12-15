@@ -1,0 +1,207 @@
+\xpg@aux {}{english}
+\contentsline {chapter}{\numberline {1}Contents}{7}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Introduction}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}What Is Artificial Intelligence?}{13}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Brain Science and Problem Solving}{15}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}The Turing Test and Chatterbots}{16}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}The History of AI}{18}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}The First Beginnings}{20}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Logic Solves (Almost) All Problems}{22}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}The New Connectionism}{22}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Reasoning Under Uncertainty}{23}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Distributed, Autonomous and Learning Agents}{23}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.3}AI and Society}{24}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Service Robotics}{29}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}Agents}{31}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Knowledge-Based Systems}{33}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Exercises}{35}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Propositional Logic}{37}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Syntax}{37}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Semantics}{38}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Proof Systems}{40}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Resolution}{43}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Horn Clauses}{46}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Computability and Complexity}{48}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Applications and Limitations}{49}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Exercises}{49}{section.3.8}%
+\contentsline {chapter}{\numberline {4}First-order Predicate Logic}{53}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Syntax}{54}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Semantics}{55}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Equality}{58}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Quantifiers and Normal Forms}{59}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Proof Calculi}{62}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Resolution}{63}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Resolution Strategies}{67}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Equality}{68}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Automated Theorem Provers}{68}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Mathematical Examples}{70}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Applications}{73}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Summary}{76}{section.4.9}%
+\contentsline {section}{\numberline {4.10}Exercises}{76}{section.4.10}%
+\contentsline {chapter}{\numberline {5}Limitations of Logic}{79}{chapter.5}%
+\contentsline {section}{\numberline {5.1}The Search Space Problem}{79}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Decidability and Incompleteness}{81}{section.5.2}%
+\contentsline {section}{\numberline {5.3}The Flying Penguin}{82}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Modeling Uncertainty}{85}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Exercises}{87}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Logic Programming with PROLOG}{89}{chapter.6}%
+\contentsline {section}{\numberline {6.1}PROLOG Systems and Implementations}{90}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Simple Examples}{90}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Execution Control and Procedural Elements}{93}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Lists}{94}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Self-modifying Programs}{96}{section.6.5}%
+\contentsline {section}{\numberline {6.6}A Planning Example}{97}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Constraint Logic Programming}{99}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Summary}{101}{section.6.8}%
+\contentsline {section}{\numberline {6.9}Exercises}{102}{section.6.9}%
+\contentsline {chapter}{\numberline {7}Search, Games and Problem Solving}{105}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introduction}{105}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Uninformed Search}{112}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Breadth-First Search}{112}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Depth-First Search}{114}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Iterative Deepening}{115}{subsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.2.4}Comparison}{117}{subsection.7.2.4}%
+\contentsline {subsection}{\numberline {7.2.5}Cycle Check}{117}{subsection.7.2.5}%
+\contentsline {section}{\numberline {7.3}Heuristic Search}{119}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Greedy Search}{121}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Empirical Comparison of the Search Algorithms}{127}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Summary}{129}{subsection.7.3.3}%
+\contentsline {section}{\numberline {7.4}Games with Opponents}{130}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Minimax Search}{130}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Alpha-Beta-Pruning}{131}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}Non-deterministic Games}{134}{subsection.7.4.3}%
+\contentsline {section}{\numberline {7.5}Heuristic Evaluation Functions}{134}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Learning of Heuristics}{135}{subsection.7.5.1}%
+\contentsline {section}{\numberline {7.6}State of the Art}{136}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}Chess}{137}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}Go}{138}{subsection.7.6.2}%
+\contentsline {section}{\numberline {7.7}Exercises}{139}{section.7.7}%
+\contentsline {chapter}{\numberline {8}Reasoning with Uncertainty}{143}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Computing with Probabilities}{145}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Conditional Probability}{148}{subsection.8.1.1}%
+\contentsline {section}{\numberline {8.2}The Principle of Maximum Entropy}{153}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}An Inference Rule for Probabilities}{154}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Maximum Entropy Without Explicit Constraints}{159}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Conditional Probability Versus Material Implication}{160}{subsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.2.4}MaxEnt-Systems}{161}{subsection.8.2.4}%
+\contentsline {subsection}{\numberline {8.2.5}The Tweety Example}{162}{subsection.8.2.5}%
+\contentsline {section}{\numberline {8.3}Lexmed, an Expert System for Diagnosing Appendicitis}{163}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Appendicitis Diagnosis with Formal Methods}{163}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Hybrid Probabilistic Knowledge Base}{164}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.3}Application of Lexmed}{168}{subsection.8.3.3}%
+\contentsline {subsection}{\numberline {8.3.4}Function of Lexmed}{170}{subsection.8.3.4}%
+\contentsline {subsection}{\numberline {8.3.5}Risk Management Using the Cost Matrix}{173}{subsection.8.3.5}%
+\contentsline {subsection}{\numberline {8.3.6}Performance}{175}{subsection.8.3.6}%
+\contentsline {subsection}{\numberline {8.3.7}Application Areas and Experiences}{177}{subsection.8.3.7}%
+\contentsline {section}{\numberline {8.4}Reasoning with Bayesian Networks}{178}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Independent Variables}{178}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}Graphical Representation of Knowledge as a Bayesian Network}{180}{subsection.8.4.2}%
+\contentsline {subsection}{\numberline {8.4.3}Conditional Independence}{180}{subsection.8.4.3}%
+\contentsline {subsection}{\numberline {8.4.4}Practical Application}{181}{subsection.8.4.4}%
+\contentsline {subsection}{\numberline {8.4.5}Software for Bayesian Networks}{183}{subsection.8.4.5}%
+\contentsline {subsection}{\numberline {8.4.6}Development of Bayesian Networks}{185}{subsection.8.4.6}%
+\contentsline {subsection}{\numberline {8.4.7}Semantics of Bayesian Networks}{188}{subsection.8.4.7}%
+\contentsline {section}{\numberline {8.5}Summary}{191}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Exercises}{192}{section.8.6}%
+\contentsline {chapter}{\numberline {9}Machine Learning and Data Mining}{199}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Data Analysis}{205}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}The Learning Rule}{210}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Optimization and Outlook}{215}{subsection.9.1.2}%
+\contentsline {section}{\numberline {9.2}The Nearest Neighbor Method}{216}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Two Classes, Many Classes, Approximation}{221}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Distance Is Relevant}{223}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Computation Times}{224}{subsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.2.4}Summary and Outlook}{226}{subsection.9.2.4}%
+\contentsline {subsection}{\numberline {9.2.5}Case-Based Reasoning}{227}{subsection.9.2.5}%
+\contentsline {section}{\numberline {9.3}Decision Tree Learning}{228}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}A Simple Example}{229}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}Entropy as a Metric for Information Content}{231}{subsection.9.3.2}%
+\contentsline {subsection}{\numberline {9.3.3}Information Gain}{233}{subsection.9.3.3}%
+\contentsline {subsection}{\numberline {9.3.4}Application of C4.5}{235}{subsection.9.3.4}%
+\contentsline {subsection}{\numberline {9.3.5}Learning of Appendicitis Diagnosis}{237}{subsection.9.3.5}%
+\contentsline {subsection}{\numberline {9.3.6}Continuous Attributes}{240}{subsection.9.3.6}%
+\contentsline {subsection}{\numberline {9.3.7}Missing Values}{242}{subsection.9.3.7}%
+\contentsline {subsection}{\numberline {9.3.8}Summary}{242}{subsection.9.3.8}%
+\contentsline {section}{\numberline {9.4}Cross-Validation and Overfitting}{243}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Learning of Bayesian Networks}{244}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}Learning the Network Structure}{245}{subsection.9.5.1}%
+\contentsline {section}{\numberline {9.6}The Naive Bayes Classifier}{248}{section.9.6}%
+\contentsline {subsection}{\numberline {9.6.1}Text Classification with Naive Bayes}{251}{subsection.9.6.1}%
+\contentsline {section}{\numberline {9.7}One-Class Learning}{253}{section.9.7}%
+\contentsline {subsection}{\numberline {9.7.1}Nearest Neighbor Data Description}{254}{subsection.9.7.1}%
+\contentsline {section}{\numberline {9.8}Clustering}{255}{section.9.8}%
+\contentsline {subsection}{\numberline {9.8.1}Distance Metrics}{257}{subsection.9.8.1}%
+\contentsline {subsection}{\numberline {9.8.2}k-Means and the EM Algorithm}{258}{subsection.9.8.2}%
+\contentsline {subsection}{\numberline {9.8.3}Hierarchical Clustering}{260}{subsection.9.8.3}%
+\contentsline {subsection}{\numberline {9.8.4}How is the Number of Clusters Determined?}{261}{subsection.9.8.4}%
+\contentsline {section}{\numberline {9.9}Data Mining in Practice}{265}{section.9.9}%
+\contentsline {subsection}{\numberline {9.9.1}The Data Mining Tool KNIME}{266}{subsection.9.9.1}%
+\contentsline {section}{\numberline {9.10}Summary}{269}{section.9.10}%
+\contentsline {section}{\numberline {9.11}Exercises}{272}{section.9.11}%
+\contentsline {subsection}{\numberline {9.11.1}Introduction}{272}{subsection.9.11.1}%
+\contentsline {subsection}{\numberline {9.11.2}The Perceptron}{272}{subsection.9.11.2}%
+\contentsline {subsection}{\numberline {9.11.3}Nearest Neighbor Method}{273}{subsection.9.11.3}%
+\contentsline {subsection}{\numberline {9.11.4}Decision Trees}{274}{subsection.9.11.4}%
+\contentsline {subsection}{\numberline {9.11.5}Learning of Bayesian Networks}{276}{subsection.9.11.5}%
+\contentsline {subsection}{\numberline {9.11.6}Clustering}{278}{subsection.9.11.6}%
+\contentsline {subsection}{\numberline {9.11.7}Data Mining}{278}{subsection.9.11.7}%
+\contentsline {chapter}{\numberline {10}Neural Networks}{281}{chapter.10}%
+\contentsline {section}{\numberline {10.1}From Biology to Simulation}{282}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}The Mathematical Model}{284}{subsection.10.1.1}%
+\contentsline {section}{\numberline {10.2}Hopfield Networks}{287}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Application to a Pattern Recognition Example}{289}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Analysis}{290}{subsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.2.3}Summary and Outlook}{294}{subsection.10.2.3}%
+\contentsline {section}{\numberline {10.3}Neural Associative Memory}{295}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}Correlation Matrix Memory}{296}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}The Binary Hebb Rule}{299}{subsection.10.3.2}%
+\contentsline {subsection}{\numberline {10.3.3}A Spelling Correction Program}{301}{subsection.10.3.3}%
+\contentsline {section}{\numberline {10.4}Linear Networks with Minimal Errors}{304}{section.10.4}%
+\contentsline {subsection}{\numberline {10.4.1}Least Squares Method}{305}{subsection.10.4.1}%
+\contentsline {subsection}{\numberline {10.4.2}Application to the Appendicitis Data}{306}{subsection.10.4.2}%
+\contentsline {subsection}{\numberline {10.4.3}The Delta Rule}{307}{subsection.10.4.3}%
+\contentsline {subsection}{\numberline {10.4.4}Comparison to the Perceptron}{309}{subsection.10.4.4}%
+\contentsline {section}{\numberline {10.5}The Backpropagation Algorithm}{310}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}NETtalk: A Network Learns to Speak}{315}{subsection.10.5.1}%
+\contentsline {subsection}{\numberline {10.5.2}Learning of Heuristics for Theorem Provers}{317}{subsection.10.5.2}%
+\contentsline {subsection}{\numberline {10.5.3}Problems and Improvements}{318}{subsection.10.5.3}%
+\contentsline {section}{\numberline {10.6}Support Vector Machines}{319}{section.10.6}%
+\contentsline {section}{\numberline {10.7}Deep Learning}{321}{section.10.7}%
+\contentsline {subsection}{\numberline {10.7.1}Nature as Example}{322}{subsection.10.7.1}%
+\contentsline {subsection}{\numberline {10.7.2}Stacked Denoising Autoencoder}{324}{subsection.10.7.2}%
+\contentsline {subsection}{\numberline {10.7.3}Other Methods}{325}{subsection.10.7.3}%
+\contentsline {subsection}{\numberline {10.7.4}Systems and Implementations}{326}{subsection.10.7.4}%
+\contentsline {subsection}{\numberline {10.7.5}Applications of Deep Learning}{326}{subsection.10.7.5}%
+\contentsline {section}{\numberline {10.8}Creativity}{327}{section.10.8}%
+\contentsline {section}{\numberline {10.9}Applications of Neural Networks}{330}{section.10.9}%
+\contentsline {section}{\numberline {10.10}Summary and Outlook}{330}{section.10.10}%
+\contentsline {section}{\numberline {10.11}Exercises}{331}{section.10.11}%
+\contentsline {subsection}{\numberline {10.11.1}From Biology to Simulation}{331}{subsection.10.11.1}%
+\contentsline {subsection}{\numberline {10.11.2}Hopfield Networks}{331}{subsection.10.11.2}%
+\contentsline {subsection}{\numberline {10.11.3}Linear Networks with Minimal Errors}{332}{subsection.10.11.3}%
+\contentsline {subsection}{\numberline {10.11.4}Backpropagation}{332}{subsection.10.11.4}%
+\contentsline {subsection}{\numberline {10.11.5}Support Vector Machines}{333}{subsection.10.11.5}%
+\contentsline {chapter}{\numberline {11}Reinforcement Learning}{335}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Introduction}{335}{section.11.1}%
+\contentsline {section}{\numberline {11.2}The Task}{339}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Uninformed Combinatorial Search}{340}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Value Iteration and Dynamic Programming}{342}{section.11.4}%
+\contentsline {section}{\numberline {11.5}A Learning Walking Robot and Its Simulation}{346}{section.11.5}%
+\contentsline {section}{\numberline {11.6}Q-Learning}{349}{section.11.6}%
+\contentsline {subsection}{\numberline {11.6.1}Q-Learning in a Nondeterministic Environment}{353}{subsection.11.6.1}%
+\contentsline {section}{\numberline {11.7}Exploration and Exploitation}{355}{section.11.7}%
+\contentsline {section}{\numberline {11.8}Approximation, Generalization and Convergence}{355}{section.11.8}%
+\contentsline {section}{\numberline {11.9}Applications}{356}{section.11.9}%
+\contentsline {section}{\numberline {11.10}AlphaGo, the Breakthrough in Go}{357}{section.11.10}%
+\contentsline {section}{\numberline {11.11}Curse of Dimensionality}{359}{section.11.11}%
+\contentsline {section}{\numberline {11.12}Summary and Outlook}{360}{section.11.12}%
+\contentsline {section}{\numberline {11.13}Exercises}{361}{section.11.13}%
+\contentsline {chapter}{\numberline {12}Solutions for the Exercises}{363}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Introduction}{363}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Propositional Logic}{364}{section.12.2}%
+\contentsline {section}{\numberline {12.3}First-Order Predicate Logic}{365}{section.12.3}%
+\contentsline {section}{\numberline {12.4}Limitations of Logic}{366}{section.12.4}%
+\contentsline {section}{\numberline {12.5}PROLOG}{367}{section.12.5}%
+\contentsline {section}{\numberline {12.6}Search, Games and Problem Solving}{369}{section.12.6}%
+\contentsline {section}{\numberline {12.7}Reasoning with Uncertainty}{370}{section.12.7}%
+\contentsline {section}{\numberline {12.8}Machine Learning and Data Mining}{377}{section.12.8}%

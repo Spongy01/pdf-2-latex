@@ -37,6 +37,7 @@ from balance_checker import check_latex_balance
 from log_parser import parse_latex_log, save_log_analysis
 from cleaning_without_gpt import fix_figure_table_positioning
 from formatting_applier_v2 import apply_formatting as apply_bold_italic_formatting
+from pdf_extract_kit.image_fixer import main as image_fixer
 import subprocess
 import shutil
 import re
@@ -97,7 +98,7 @@ def get_current_version_name():
         return "original"
 
 
-def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
+def setup_folders(file_path, tex_file_path, output_folder, yolo_config, file_name=None ):
     """Set up folder structure for the conversion process with version control."""
 
     # Extract file_name if not provided
@@ -127,6 +128,7 @@ def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
 
     # check if inputs folder has images folder
     input_images_folder = os.path.join(os.path.dirname(file_path), "images")
+    gt_images_folder =  os.path.join(os.path.dirname(file_path), "gt_images")
     output_images_folder = os.path.join(output_folder, "images")
     if os.path.exists(input_images_folder) and os.path.isdir(input_images_folder):
         # copy images folder from input directory to output directory
@@ -156,10 +158,15 @@ def setup_folders(file_path, tex_file_path, output_folder, file_name=None):
         "gpt_path": os.path.join(output_folder, f"{file_name}_gpt.tex"),
         "cleaned_path": os.path.join(output_folder, f"{file_name}_cleaned.tex"),
         "indexed_path": os.path.join(output_folder, f"{file_name}_indexed.tex"),
+        "image_fix_path": os.path.join(output_folder, f"{file_name}img_fix.tex"),
         "bib_json_path": os.path.join(output_folder, f"{file_name}_bib.json"),
         "bib_output_path": os.path.join(output_folder, f"{file_name}_references.bib"),
         "final_path": os.path.join(output_folder, f"{file_name}_final.tex"),
         "formatting_stats_path": os.path.join(output_folder, "formatting_statistics.json"),
+        # add mathpix, gt folders. and yolo_config_file
+        "mapthpix_images" : output_images_folder,
+        "gt_images" : gt_images_folder,
+        "yolo_config" : yolo_config
     }
 
     return paths
@@ -185,6 +192,7 @@ def run_pipeline(
     output_folder=None,
     file_name=None,
     max_parts=None,
+    yolo_config=None,
     batch_size=5,
     use_parallel=True,
     skip_steps=[],
@@ -204,7 +212,7 @@ def run_pipeline(
     if file_name is None:
         file_name = os.path.splitext(os.path.basename(book_path))[0]
 
-    paths = setup_folders(book_path, tex_path, output_folder, file_name)
+    paths = setup_folders(book_path, tex_path, output_folder, yolo_config, file_name)
     # print("Paths set up:")
     # for key, value in paths.items():
     #     print(f"  {key}: {value}")
@@ -356,8 +364,25 @@ def run_pipeline(
     else:
         print("Skipping Step 5: Indexing")
 
-    # Step 6: Check LaTeX command balance (if not skipped)
     if 6 not in skip_steps:
+        # try:
+            current_tex_path = image_fixer(
+                paths["book_path"],
+                current_tex_path,
+                paths['yolo_config'],
+                paths['mapthpix_images'],
+                paths["gt_images"],
+                paths["image_fix_path"]
+            )
+            results["steps_completed"].append(6)
+            results["image_fix_output"] = current_tex_path
+        
+        # except Exception as e:
+        #     print(f"Error in Step 6 (Image Fix by pdf-extract-kit): {e}")
+    else:
+        print("Skipping Step 6: Image Fixing")
+    # Step 6: Check LaTeX command balance (if not skipped)
+    if 7 not in skip_steps:
         try:
             balance_result = check_latex_balance(
                 current_tex_path, 
@@ -372,12 +397,13 @@ def run_pipeline(
                     f.write(balance_result)
                 print(f"Updated LaTeX file with balance fixes")
             
-            results["steps_completed"].append(6)
+            results["steps_completed"].append(7)
             results["balance_check_output"] = balance_result
         except Exception as e:
-            print(f"Error in Step 6 (Balance Check): {e}")
+            print(f"Error in Step 7 (Balance Check): {e}")
     else:
-        print("Skipping Step 6: Balance Check")
+        print("Skipping Step 7: Balance Check")
+
 
     # Final result
     results["final_output"] = current_tex_path
@@ -502,7 +528,7 @@ def run_pipeline(
 
     # Step 7: Parse LaTeX compilation log for detailed error/warning analysis
     try:
-        print("\n🔍 Step 7: Analyzing LaTeX compilation log...")
+        print("\n🔍 Step 8: Analyzing LaTeX compilation log...")
         
         # The log file was saved as compile_log.txt, but we need the actual .log file
         # LaTeX typically creates a .log file with the same base name as the .tex file
@@ -570,6 +596,8 @@ if __name__ == "__main__":
     parser.add_argument("--bib", help="Path to the bibliography PDF file")
     parser.add_argument("--index", help="Path to the index PDF file")
     parser.add_argument("--output", help="Path to output folder")
+    parser.add_argument("--yolo_config", help="Config file for YOLO image detection")
+
     parser.add_argument("--filename", help="Base filename for outputs")
     parser.add_argument(
         "--max-parts", type=int, help="Maximum number of parts to process"
@@ -627,6 +655,7 @@ if __name__ == "__main__":
                 "output_folder": args.output or config.get("output"),
                 "file_name": args.filename or config.get("filename"),
                 "max_parts": args.max_parts or config.get("max_parts"),
+                "yolo_config": args.yolo_config or config.get("yolo_config"),
                 "batch_size": (
                     args.batch_size
                     if args.batch_size != 5

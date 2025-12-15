@@ -4,6 +4,7 @@
     "bib": "../../files/assembly/inputs/assembly-bib.pdf",
     "index": "../../files/assembly/inputs/assembly-index.pdf",
     "output":"../../files/assembly/outputs/",
+    "yolo_config": "./yolo_configs/yolo_config_assm.yaml",
     "batch_size": 600,
     "sequential": false,
     "skip": [],

@@ -4,6 +4,7 @@
     "bib": "../../files/algorithms/inputs/algorithms_bib.pdf",
     "index": "../../files/algorithms/inputs/algorithms_index.pdf",
     "output":"../../files/algorithms/outputs/",
+    "yolo_config": "./yolo_configs/yolo_config_algo.yaml",
     "batch_size": 600,
     "sequential": false,
     "skip": [],

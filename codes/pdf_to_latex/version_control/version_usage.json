@@ -373,5 +373,55 @@
     "book_name": "algorithms",
     "version": "bold-italic-formatting",
     "last_used": "2025-12-01T13:32:00.865727"
+  },
+  "ai___pdfextractkit": {
+    "book_name": "ai",
+    "version": "pdfextractkit",
+    "last_used": "2025-12-15T16:01:50.176444"
+  },
+  "assembly___pdfextractkit": {
+    "book_name": "assembly",
+    "version": "pdfextractkit",
+    "last_used": "2025-12-15T16:00:40.964378"
+  },
+  "cybersec___pdfextractkit": {
+    "book_name": "cybersec",
+    "version": "pdfextractkit",
+    "last_used": "2025-12-15T16:05:36.733923"
+  },
+  "data-science___pdfextractkit": {
+    "book_name": "data-science",
+    "version": "pdfextractkit",
+    "last_used": "2025-12-15T16:05:53.920459"
+  },
+  "algorithms___pdfextractkit": {
+    "book_name": "algorithms",
+    "version": "pdfextractkit",
+    "last_used": "2025-12-15T16:09:04.688822"
+  },
+  "algorithms___algo_check": {
+    "book_name": "algorithms",
+    "version": "algo_check",
+    "last_used": "2025-12-15T18:25:58.986484"
+  },
+  "assembly___algo_check": {
+    "book_name": "assembly",
+    "version": "algo_check",
+    "last_used": "2025-12-15T18:17:43.304700"
+  },
+  "ai___algo_check": {
+    "book_name": "ai",
+    "version": "algo_check",
+    "last_used": "2025-12-15T18:20:24.371932"
+  },
+  "cybersec___algo_check": {
+    "book_name": "cybersec",
+    "version": "algo_check",
+    "last_used": "2025-12-15T18:23:24.548730"
+  },
+  "data-science___algo_check": {
+    "book_name": "data-science",
+    "version": "algo_check",
+    "last_used": "2025-12-15T18:23:35.261677"
   }
 }

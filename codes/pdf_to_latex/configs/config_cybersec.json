@@ -4,6 +4,7 @@
     "bib": "../../files/cybersec/inputs/cybersec-bib.pdf",
     "index": "../../files/cybersec/inputs/cybersec-index.pdf",
     "output":"../../files/cybersec/outputs/",
+    "yolo_config": "./yolo_configs/yolo_config_cyber.yaml",
     "batch_size": 600,
     "sequential": false,
     "skip": [],

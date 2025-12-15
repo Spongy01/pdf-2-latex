@@ -4,6 +4,7 @@
     "bib": "../../files/ai/inputs/ai_bib.pdf",
     "index": "../../files/ai/inputs/ai_index.pdf",
     "output":"../../files/ai/outputs/",
+    "yolo_config": "./yolo_configs/yolo_config_ai.yaml",
     "batch_size": 600,
     "sequential": false,
     "skip": [],
