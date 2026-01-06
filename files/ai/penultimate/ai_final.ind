@@ -1,0 +1,568 @@
+\begin{theindex}
+
+  \item A priori probability, \hyperpage{70}
+  \item Action, \hyperpage{110}, \hyperpage{113}
+  \item Activation function, \hyperpage{301}, \hyperpage{317}
+  \item Actuators, \hyperpage{18}
+  \item Adaptive Resonance Theory (ART), \hyperpage{356}
+  \item Admissible, \hyperpage{58}, \hyperpage{127}
+  \item Agent, \hyperpage{5}, \hyperpage{18}, \hyperpage{174}, 
+		\hyperpage{359}, \hyperpage{363}
+    \subitem autonomous, \hyperpage{7}
+    \subitem cost-based, \hyperpage{19}
+    \subitem distributed, \hyperpage{7}
+    \subitem goal-based, \hyperpage{18}
+    \subitem hardware, \hyperpage{18}
+    \subitem intelligent, \hyperpage{18}
+    \subitem learning, \hyperpage{12}, \hyperpage{18}, \hyperpage{211}
+    \subitem reﬂex, \hyperpage{18}
+    \subitem software, \hyperpage{18}
+    \subitem utility-based, \hyperpage{19}
+    \subitem with memory, \hyperpage{18}
+  \item Agents, distributed, \hyperpage{19}
+  \item Alarm-example, \hyperpage{88}
+  \item Alpha-beta pruning, \hyperpage{62}
+  \item AlphaGo, \hyperpage{10}, \hyperpage{140}, \hyperpage{143}
+  \item And branches, \hyperpage{91}
+  \item And-or tree, \hyperpage{95}
+  \item Appendicitis, \hyperpage{158}, \hyperpage{170}
+  \item Approximation, \hyperpage{208}, \hyperpage{226}
+  \item Artiﬁcial Intelligence (AI), \hyperpage{1}
+  \item Associative memory, \hyperpage{315}
+  \item Attribute, \hyperpage{115}, \hyperpage{138}
+  \item Auto-associative memory, \hyperpage{148}, \hyperpage{316}, 
+		\hyperpage{320}
+  \item Autoencoder, \hyperpage{163}
+  \item Automation, \hyperpage{14}
+  \item Automotive industry, \hyperpage{16}
+  \item Autonomous robots, \hyperpage{12}
+  \item A⋆-algorithm, \hyperpage{58}, \hyperpage{162}
+
+  \indexspace
+
+  \item Backpropagation, \hyperpage{175}, \hyperpage{190}, 
+		\hyperpage{342}
+    \subitem learning rule, \hyperpage{333}
+  \item Backtracking, \hyperpage{44}, \hyperpage{111}
+  \item Backward chaining, \hyperpage{41}
+  \item Batch learning, \hyperpage{260}
+  \item Bayes theorem, \hyperpage{92}
+  \item Bayesian network, \hyperpage{5}, \hyperpage{7}, \hyperpage{42}, 
+		\hyperpage{44}, \hyperpage{88}, \hyperpage{149}, 
+		\hyperpage{184}
+    \subitem learning, \hyperpage{290}
+  \item BDD.
+    \subitem principle, \hyperpage{174}
+  \item Bias unit, \hyperpage{219}
+  \item Bias variance tradeoff, \hyperpage{127}
+  \item Binary decision diagram, \hyperpage{42}
+  \item Boltzmann machine, \hyperpage{315}
+  \item Brain science, \hyperpage{5}
+  \item Braitenberg vehicle, \hyperpage{1}, \hyperpage{7}, 
+		\hyperpage{226}
+  \item Branching factor, \hyperpage{104}, \hyperpage{109}
+    \subitem average, \hyperpage{52}
+    \subitem effective, \hyperpage{109}
+  \item Built-in predicate, \hyperpage{95}
+
+  \indexspace
+
+  \item C4.5, \hyperpage{258}
+  \item Calculus, \hyperpage{32}
+    \subitem Gentzen, \hyperpage{55}
+    \subitem natural reasoning, \hyperpage{55}
+    \subitem sequent, \hyperpage{55}
+  \item Car, \hyperpage{15}
+  \item CART, \hyperpage{125}
+  \item CASC, \hyperpage{63}
+  \item Case base, \hyperpage{238}
+  \item Case-based reasoning, \hyperpage{238}
+  \item Certainty factors, \hyperpage{148}
+  \item Chain rule for Bayesian networks, \hyperpage{95}, 
+		\hyperpage{156}, \hyperpage{196}
+  \item Chatterbots, \hyperpage{5}
+  \item Checkers, \hyperpage{134}, \hyperpage{140}
+  \item Chess, \hyperpage{134}, \hyperpage{139}, \hyperpage{143}
+  \item Church, Alonso, \hyperpage{10}
+  \item Classiﬁcation, \hyperpage{208}
+  \item Classiﬁer, \hyperpage{135}, \hyperpage{208}, \hyperpage{331}
+  \item Clause
+    \subitem -head, \hyperpage{40}
+    \subitem deﬁnite, \hyperpage{40}
+  \item Closed formula, \hyperpage{22}
+  \item Cluster, \hyperpage{135}
+  \item Clustering, \hyperpage{135}, \hyperpage{284}
+    \subitem hierarchical, \hyperpage{25}
+  \item Cognitive science, \hyperpage{5}
+  \item Complementary, \hyperpage{38}
+  \item Complete, \hyperpage{32}
+  \item Computer diagnostic, \hyperpage{184}
+  \item Conclusion, \hyperpage{40}
+  \item Conditional probability, \hyperpage{160}
+  \item Conditionally independent, \hyperpage{88}, \hyperpage{196}
+  \item Conditioning, \hyperpage{92}, \hyperpage{196}
+  \item Confusion matrix, \hyperpage{282}
+  \item Conjunction, \hyperpage{14}
+  \item Connectionism, \hyperpage{7}
+  \item Consistent, \hyperpage{38}
+  \item Constant, \hyperpage{22}
+  \item Constraint logic programming, \hyperpage{98}
+  \item Constraint Satisfaction Problem (CSP), \hyperpage{98}
+  \item Contraction hierarchies, \hyperpage{59}
+  \item Convolutional Neural Network (CNN), \hyperpage{342}, 
+		\hyperpage{346}, \hyperpage{351}
+  \item Correlation, \hyperpage{174}
+    \subitem coefﬁcient, \hyperpage{215}
+    \subitem matrix, \hyperpage{289}
+  \item Cost estimate function, \hyperpage{56}
+  \item Cost function, \hyperpage{58}, \hyperpage{109}
+  \item Cost matrix, \hyperpage{82}
+  \item CPT, \hyperpage{88}, \hyperpage{195}, \hyperpage{258}, 
+		\hyperpage{261}
+  \item Creativity, \hyperpage{351, 352}
+  \item Credit assignment, \hyperpage{140}, \hyperpage{363}
+  \item Cross-validation, \hyperpage{125}, \hyperpage{163}, 
+		\hyperpage{349}
+  \item Curse of dimensionality, \hyperpage{182}
+  \item Cut, \hyperpage{94}
+
+  \indexspace
+
+  \item D-separation, \hyperpage{96}
+  \item DAG, \hyperpage{196}, \hyperpage{258}
+  \item Data mining, \hyperpage{125}, \hyperpage{211}, \hyperpage{238}
+  \item Data scientist, \hyperpage{342}
+  \item De Morgan, \hyperpage{52}
+  \item Decision, \hyperpage{179}
+  \item Decision tree
+    \subitem induction, \hyperpage{103}, \hyperpage{115}
+  \item Deep belief network, \hyperpage{342}, \hyperpage{346}
+  \item Deep learning, \hyperpage{143}, \hyperpage{342}
+  \item Default logic, \hyperpage{82}
+  \item Default rule, \hyperpage{82}
+  \item Delta rule, \hyperpage{331}
+    \subitem generalized, \hyperpage{333}
+  \item Demodulation, \hyperpage{62}
+  \item Dempster–Schäfer theory, \hyperpage{149}
+  \item Dependency graph, \hyperpage{174}
+  \item Depth limit, \hyperpage{55}
+  \item Derivation, \hyperpage{32}
+  \item Deterministic, \hyperpage{54}, \hyperpage{134}
+  \item Diagnosis system, \hyperpage{81}
+  \item Disjunction, \hyperpage{14}
+  \item Distance metric, \hyperpage{135}
+  \item Distributed Artiﬁcial Intelligence (DAI), \hyperpage{7}
+  \item Distributed learning, \hyperpage{182}
+  \item Distribution, \hyperpage{81}, \hyperpage{155}
+  \item Dynamic programming, \hyperpage{174}
+
+  \indexspace
+
+  \item E-learning, \hyperpage{5}
+  \item Eager learning, \hyperpage{233}, \hyperpage{286}
+  \item Economic growth, \hyperpage{14}
+  \item Economy, \hyperpage{14}
+  \item Elementary event, \hyperpage{150}
+  \item Eliza, \hyperpage{5}
+  \item EM algorithm, \hyperpage{260}, \hyperpage{273}, \hyperpage{277}
+  \item Entropy, \hyperpage{243}
+    \subitem maximum, \hyperpage{149}, \hyperpage{161}
+  \item Environment, \hyperpage{14}, \hyperpage{18}, \hyperpage{20}
+    \subitem continuous, \hyperpage{19}
+    \subitem deterministic, \hyperpage{19}
+    \subitem discrete, \hyperpage{19}
+    \subitem nondeterministic, \hyperpage{19}
+    \subitem observable, \hyperpage{19}
+    \subitem partially observable, \hyperpage{19}
+  \item Equation, directed, \hyperpage{60}
+  \item Equivalence, \hyperpage{14}
+  \item Evaluation function, \hyperpage{129}
+  \item Event, \hyperpage{150}
+  \item Expert system, \hyperpage{170}, \hyperpage{184}
+
+  \indexspace
+
+  \item Fact, \hyperpage{40}
+  \item Factorization, \hyperpage{31}, \hyperpage{38}
+  \item Farthest neighbor algorithm, \hyperpage{275}
+  \item Feature, \hyperpage{138}, \hyperpage{204}, \hyperpage{217}, 
+		\hyperpage{237}, \hyperpage{286}, \hyperpage{342}
+  \item Feature space, \hyperpage{206}
+  \item Feedforward networks, \hyperpage{354}
+  \item Finite domain constraint solver, \hyperpage{99}
+  \item First we solidify, \hyperpage{22}
+  \item First-order sentence, \hyperpage{22}
+  \item Forward chaining, \hyperpage{41}
+  \item Frame problem, \hyperpage{82}
+  \item Free variables, \hyperpage{22}
+  \item Function symbol, \hyperpage{22}
+  \item Fuzzy logic, \hyperpage{7}, \hyperpage{42}, \hyperpage{149}
+
+  \indexspace
+
+  \item Gaussian process, \hyperpage{140}, \hyperpage{233}
+  \item General Problem Solver (GPS), \hyperpage{5}
+  \item Generalization, \hyperpage{212}
+  \item Genetic programming, \hyperpage{46}
+  \item Go, \hyperpage{129}, \hyperpage{140}, \hyperpage{145}
+  \item Goal, \hyperpage{21}
+    \subitem incompleteness theorem, \hyperpage{10}
+    \subitem Kurt, \hyperpage{10}
+    \subitem stack, \hyperpage{21}
+    \subitem state, \hyperpage{106}
+    \subitem ’s completeness theorem, \hyperpage{10}
+    \subitem ’s incompleteness theorem, \hyperpage{75}
+  \item Google DeepMind, \hyperpage{143}
+  \item Gradient descent, \hyperpage{329}
+  \item Greedy search, \hyperpage{58}, \hyperpage{123}, \hyperpage{261}, 
+		\hyperpage{278}
+  \item Ground term, \hyperpage{56}
+
+  \indexspace
+
+  \item Halting problem, \hyperpage{10}
+  \item Hebb rule, \hyperpage{304}, \hyperpage{317}, \hyperpage{333}
+    \subitem binary, \hyperpage{319}
+  \item Heuristic, \hyperpage{119}
+  \item Heuristic evaluation function, \hyperpage{58}, \hyperpage{120}
+  \item Hierarchical learning, \hyperpage{182}
+  \item Home automation, \hyperpage{17}
+  \item Hopﬁeld network, \hyperpage{148}, \hyperpage{319}
+  \item Horn clause, \hyperpage{40}, \hyperpage{92}
+  \item Hugin, \hyperpage{190}
+
+  \indexspace
+
+  \item IDA⋆-algorithm, \hyperpage{132}
+  \item Immediate reward, \hyperpage{363}
+  \item Implication, \hyperpage{14}
+  \item Incremental gradient descent, \hyperpage{331}
+  \item Independent, \hyperpage{70}
+    \subitem conditionally, \hyperpage{88}, \hyperpage{196}
+  \item Indifference, \hyperpage{163}
+  \item Indifferent variables, \hyperpage{81}
+  \item Industry 4.0, \hyperpage{12}
+  \item Inference machine, \hyperpage{56}
+  \item Inference mechanism, \hyperpage{20}
+  \item Information content, \hyperpage{244}
+  \item Information gain, \hyperpage{239}, \hyperpage{244}, 
+		\hyperpage{286}
+  \item Input resolution, \hyperpage{60}
+  \item Internet of Things, \hyperpage{12}, \hyperpage{17}
+  \item Interpretation, \hyperpage{14}, \hyperpage{22}
+  \item IT security, \hyperpage{17}
+  \item Iterative deepening, \hyperpage{55}, \hyperpage{117}
+
+  \indexspace
+
+  \item JavaBayes, \hyperpage{190}
+  \item Jobs, \hyperpage{12}
+
+  \indexspace
+
+  \item K-means, \hyperpage{271}
+  \item k-nearest neighbor method, \hyperpage{125}, \hyperpage{226}, 
+		\hyperpage{230}
+  \item Kernel, \hyperpage{233}, \hyperpage{342}
+  \item Kernel methods, \hyperpage{342}
+  \item Kernel PCA, \hyperpage{346}
+  \item KNIME, \hyperpage{115}, \hyperpage{280}
+  \item Knowledge, \hyperpage{19}
+    \subitem base, \hyperpage{88}
+    \subitem engineer, \hyperpage{12}, \hyperpage{19}
+    \subitem sources, \hyperpage{21}
+
+  \indexspace
+
+  \item Landmark, \hyperpage{127}
+    \subitem heuristic, \hyperpage{125}
+  \item Laplace assumption, \hyperpage{152}
+  \item Laplace probabilities, \hyperpage{152}
+  \item Law of economy, \hyperpage{125}
+  \item Lazy learning, \hyperpage{233}
+  \item Learning, \hyperpage{199}, \hyperpage{204}, \hyperpage{237}
+    \subitem by demonstration, \hyperpage{182}
+    \subitem distributed, \hyperpage{182}
+    \subitem hierarchical, \hyperpage{182}
+    \subitem incremental, \hyperpage{261}
+    \subitem machine, \hyperpage{174}
+    \subitem multi-agent, \hyperpage{182}
+    \subitem one-class, \hyperpage{267}
+    \subitem reinforcement, \hyperpage{54}, \hyperpage{99}
+    \subitem semi-supervised, \hyperpage{140}
+    \subitem supervised, \hyperpage{135}, \hyperpage{204}, 
+		\hyperpage{321}
+    \subitem unsupervised, \hyperpage{345}
+  \item Learning agent, \hyperpage{208}
+  \item Learning phase, \hyperpage{208}
+  \item Learning rate, \hyperpage{304}, \hyperpage{329}
+  \item Least squares, \hyperpage{86}, \hyperpage{157}, \hyperpage{326}, 
+		\hyperpage{329}
+  \item Leave-one-out cross-validation, \hyperpage{127}
+  \item LEXMED, \hyperpage{123}, \hyperpage{149}, \hyperpage{161}, 
+		\hyperpage{170}
+  \item Limited resources, \hyperpage{120}
+  \item Linear approximation, \hyperpage{331}
+  \item Linearly separable, \hyperpage{104}
+  \item LIPS, \hyperpage{44}
+  \item LISP, \hyperpage{5}, \hyperpage{7}
+  \item Literal
+    \subitem complementary, \hyperpage{38}
+  \item Locally weighted linear regression, \hyperpage{238}
+    \subitem fuzzy, \hyperpage{149}
+    \subitem higher-order, \hyperpage{5}
+    \subitem probabilistic, \hyperpage{20}
+  \item Logic Theorist, \hyperpage{5}, \hyperpage{7}
+  \item Logically valid, \hyperpage{29}
+
+  \indexspace
+
+  \item Machine learning, \hyperpage{81}, \hyperpage{99}
+  \item Manhattan distance, \hyperpage{271}
+  \item Marginal distribution, \hyperpage{158}
+  \item Marginalization, \hyperpage{158}, \hyperpage{161}, 
+		\hyperpage{196}
+  \item Markov Decision Process (MDP), \hyperpage{18}, \hyperpage{172}
+  \item Material implication, \hyperpage{149}, \hyperpage{166}
+  \item MaxEnt, \hyperpage{76}, \hyperpage{149}, \hyperpage{163}, 
+		\hyperpage{170}, \hyperpage{172}, \hyperpage{190}, 
+		\hyperpage{195}
+    \subitem distribution, \hyperpage{163}
+  \item Memorization, \hyperpage{204}
+  \item Memory-based learning, \hyperpage{233}, \hyperpage{238}
+  \item Metaparameter, \hyperpage{349}
+  \item MGU, \hyperpage{59}
+  \item Minimum cash reserve ratio, \hyperpage{15}
+  \item Minimum spanning tree, \hyperpage{274}
+  \item Mining, \hyperpage{211}
+  \item Model, \hyperpage{29}
+  \item Model complexity, \hyperpage{125}, \hyperpage{127}
+  \item Modus ponens, \hyperpage{74}, \hyperpage{148}
+  \item Momentum, \hyperpage{340}
+  \item Monotonic, \hyperpage{76}
+  \item Monte Carlo Tree Search (MCTS), \hyperpage{10}, \hyperpage{66}, 
+		\hyperpage{140}
+  \item Multi-agent systems, \hyperpage{5}
+  \item MYCIN, \hyperpage{81}, \hyperpage{148}
+
+  \indexspace
+
+  \item Naive Bayes, \hyperpage{86}, \hyperpage{88}, \hyperpage{103}, 
+		\hyperpage{199}, \hyperpage{225}, \hyperpage{261}, 
+		\hyperpage{263}, \hyperpage{292}
+    \subitem classiﬁcation, \hyperpage{109}
+    \subitem classiﬁer, \hyperpage{261}, \hyperpage{263}
+    \subitem method, \hyperpage{225}
+  \item Naive reverse, \hyperpage{46}
+  \item Navier–Stokes equation
+    \subitem classiﬁcation, \hyperpage{109}
+    \subitem method, \hyperpage{225}
+  \item Nearest neighbor algorithm, \hyperpage{273}
+  \item Nearest neighbor data description, \hyperpage{135}
+  \item Nearest neighbor method, \hyperpage{135}
+  \item Negation, \hyperpage{14}
+  \item Negation as failure, \hyperpage{93}
+  \item Neural network, \hyperpage{5}, \hyperpage{7}, \hyperpage{230}, 
+		\hyperpage{296}
+    \subitem recurrent, \hyperpage{311}, \hyperpage{316}, 
+		\hyperpage{351}
+  \item Neuroinformatics, \hyperpage{313}
+  \item Neuroscience, \hyperpage{5}
+  \item Neurotransmitter, \hyperpage{300}
+  \item Noise, \hyperpage{109}
+  \item Non-monotonic logic, \hyperpage{76}
+  \item Normal equations, \hyperpage{157}
+    \subitem prenex, \hyperpage{27}
+  \item Normalization, \hyperpage{135}, \hyperpage{346}
+
+  \indexspace
+
+  \item Object classiﬁcation, \hyperpage{342}, \hyperpage{349}
+  \item Observable, \hyperpage{54}, \hyperpage{134}
+  \item Occam’s razor, \hyperpage{125}
+  \item OMRk algorithm, \hyperpage{278}
+  \item One-class learning, \hyperpage{135}, \hyperpage{267}
+  \item Ontology, \hyperpage{69}
+  \item Or branches, \hyperpage{91}
+  \item Orthonormal, \hyperpage{317}
+  \item Othello, \hyperpage{134}
+  \item Outlier detection, \hyperpage{135}
+  \item Overﬁtting, \hyperpage{109}, \hyperpage{125}, 
+		\hyperpage{156, 157}, \hyperpage{260}, \hyperpage{342}
+  \item OWL, \hyperpage{69}
+
+  \indexspace
+
+  \item Paradox, \hyperpage{75}
+  \item Paramodulation, \hyperpage{62}
+  \item Penguin problem, \hyperpage{96}
+  \item Perceptron, \hyperpage{226}, \hyperpage{236}, \hyperpage{304}
+  \item Phase transition, \hyperpage{311}
+  \item PIT, \hyperpage{76}, \hyperpage{96}, \hyperpage{166}, 
+		\hyperpage{190}
+  \item PL1, \hyperpage{20}, \hyperpage{22}
+  \item Planning, \hyperpage{46}
+  \item Plans, \hyperpage{96}
+  \item Policy, \hyperpage{363}
+    \subitem policy based on its, \hyperpage{363}
+  \item Postcondition, \hyperpage{68}
+  \item Precondition, \hyperpage{67}
+  \item Predicate logic, \hyperpage{10}
+    \subitem ﬁrst-order, \hyperpage{21, 22}
+  \item Preference learning, \hyperpage{103}
+  \item Premise, \hyperpage{40}
+  \item Principal Component Analysis (PCA), \hyperpage{342}, 
+		\hyperpage{346}
+    \subitem logic, \hyperpage{21}, \hyperpage{79}
+    \subitem reasoning, \hyperpage{7}
+  \item Probability, \hyperpage{148}, \hyperpage{150}
+    \subitem distribution, \hyperpage{155}
+    \subitem rules, \hyperpage{172}
+  \item Product rule, \hyperpage{156}
+  \item Program veriﬁcation, \hyperpage{67}
+  \item PROLOG, \hyperpage{5}, \hyperpage{7}, \hyperpage{86}
+  \item Proof system, \hyperpage{30}
+    \subitem calculus, \hyperpage{21}
+    \subitem logic, \hyperpage{27}
+  \item Proposition variables, \hyperpage{27}
+  \item Pruning, \hyperpage{125}, \hyperpage{248}
+  \item Pure literal rule, \hyperpage{60}
+
+  \indexspace
+
+  \item Q-learning, \hyperpage{175}
+  \item Quickprop, \hyperpage{340}
+
+  \indexspace
+
+  \item Random variables, \hyperpage{150}
+  \item Rapid prototyping, \hyperpage{99}
+  \item RDF, \hyperpage{69}
+  \item Real-time decision, \hyperpage{120}
+  \item Real-time requirement, \hyperpage{134}
+  \item Receiver operating characteristic
+    \subitem learning, \hyperpage{138}, \hyperpage{363}
+    \subitem negative, \hyperpage{363}
+    \subitem positive, \hyperpage{363}
+  \item Resolution, \hyperpage{7}, \hyperpage{18}
+    \subitem calculus, \hyperpage{5}, \hyperpage{32}
+    \subitem rule, \hyperpage{18}
+    \subitem SLD, \hyperpage{41}
+  \item Resolvent, \hyperpage{18}
+    \subitem discounted, \hyperpage{363}
+    \subitem immediate, \hyperpage{363}
+  \item Road transportation, \hyperpage{16}
+  \item RoboCup, \hyperpage{10}
+  \item Robot, \hyperpage{18}, \hyperpage{358}, \hyperpage{365}
+    \subitem car, \hyperpage{15, 16}
+    \subitem taxi, \hyperpage{16}
+    \subitem walking, \hyperpage{359}
+  \item ROC curve, \hyperpage{86}, \hyperpage{283}
+  \item RProp, \hyperpage{340}, \hyperpage{346}
+
+  \indexspace
+
+  \item Sample, \hyperpage{115}
+  \item Satisﬁable, \hyperpage{29}
+  \item Scatterplot diagram, \hyperpage{206}
+  \item Science ﬁction, \hyperpage{12}
+  \item Score, \hyperpage{81}, \hyperpage{86}, \hyperpage{269}, 
+		\hyperpage{292}
+    \subitem algorithm, \hyperpage{106}
+    \subitem bidirectional, \hyperpage{129}
+    \subitem heuristic, \hyperpage{52}
+    \subitem space, \hyperpage{38}, \hyperpage{41}
+    \subitem tree, \hyperpage{106}
+    \subitem uninformed, \hyperpage{52}
+  \item Self-driving car, \hyperpage{16}
+  \item Self-organizing maps, \hyperpage{354}
+    \subitem declarative (PROLOG), \hyperpage{88}
+    \subitem procedural (PROLOG), \hyperpage{46}, \hyperpage{88}
+  \item Semantic trees, \hyperpage{21}
+  \item Semantic web, \hyperpage{68}
+  \item Semi-decidable, \hyperpage{73}
+  \item Semi-supervised learning, \hyperpage{140}
+  \item Sensitivity, \hyperpage{188}
+  \item Sensor, \hyperpage{18}
+  \item Service robotics, \hyperpage{16}
+  \item Set of support strategy, \hyperpage{60}
+  \item Sigmoid function, \hyperpage{304}, \hyperpage{326}, 
+		\hyperpage{329}
+  \item Signature, \hyperpage{27}
+  \item Silhouette width criterion, \hyperpage{277}
+  \item Similarity, \hyperpage{225}
+  \item Simulated annealing, \hyperpage{315}
+  \item Situation calculus, \hyperpage{82}
+  \item Skolemization, \hyperpage{54}
+  \item SLD resolution, \hyperpage{46}
+  \item Software reuse, \hyperpage{67}
+  \item Solution, \hyperpage{109}
+  \item Sound, \hyperpage{32}
+  \item Space, \hyperpage{55}, \hyperpage{110}
+  \item Spam, \hyperpage{263}
+    \subitem ﬁlter, \hyperpage{263}
+  \item Sparse coding, \hyperpage{163}
+  \item Stacked denoising autoencoder, \hyperpage{163}, \hyperpage{346}
+  \item Starting state, \hyperpage{106}
+  \item State, \hyperpage{106}
+    \subitem space, \hyperpage{110}
+    \subitem transition function, \hyperpage{363}
+  \item Statistical induction, \hyperpage{82}
+  \item Subgoal, \hyperpage{21}, \hyperpage{44}
+  \item Substitution axiom, \hyperpage{52}
+  \item Subsumption, \hyperpage{60}
+  \item Support vector data description, \hyperpage{135}
+  \item Support vector machine, \hyperpage{233}, \hyperpage{342}, 
+		\hyperpage{346}
+  \item Sustainability, \hyperpage{15}
+  \item Symbol grounding, \hyperpage{96}
+
+  \indexspace
+
+  \item Target function, \hyperpage{208}
+  \item Tautology, \hyperpage{30}
+  \item Teaching-Box
+    \subitem rewriting, \hyperpage{62}
+  \item Test data, \hyperpage{208}
+    \subitem classiﬁcation, \hyperpage{263}
+    \subitem mining, \hyperpage{211}
+  \item Theorem, \hyperpage{158}, \hyperpage{196}
+  \item Theorem prover, \hyperpage{7}, \hyperpage{56}
+  \item Training data, \hyperpage{208}, \hyperpage{252}
+  \item Transition function, \hyperpage{363}
+  \item Transportation, \hyperpage{14}
+  \item True, \hyperpage{47}
+  \item Truth table, \hyperpage{14}
+    \subitem Alan, \hyperpage{10}
+    \subitem method, \hyperpage{32}
+    \subitem test, \hyperpage{5}
+  \item Tweety example, \hyperpage{76}
+
+  \indexspace
+
+  \item Uniform cost search, \hyperpage{111}
+    \subitem clause, \hyperpage{60}
+    \subitem resolution, \hyperpage{60}
+  \item Uniﬁable, \hyperpage{59}
+  \item Uniﬁcation, \hyperpage{58}
+  \item Uniﬁer, \hyperpage{59}
+    \subitem most general, \hyperpage{59}
+  \item Unsatisﬁable, \hyperpage{29}
+
+  \indexspace
+
+  \item Valid, \hyperpage{29}, \hyperpage{47}
+  \item Variable, \hyperpage{45}
+  \item Vienna Development Method Speciﬁcation Language (VDM-SL), 
+		\hyperpage{68}
+  \item Voronoi diagram, \hyperpage{109}
+
+  \indexspace
+
+  \item Walking robot, \hyperpage{360}
+  \item Warren Abstract Machine (WAM), \hyperpage{44}, \hyperpage{46}
+  \item Watson, \hyperpage{21}
+  \item WEKA, \hyperpage{115}, \hyperpage{280}
+  \item Whitening, \hyperpage{346}
+
+\end{theindex}

@@ -1,0 +1,2450 @@
+{
+  "applied_bold": 2,
+  "applied_italic": 16,
+  "applied_both": 0,
+  "total_applied": 18,
+  "expected_bold": 52,
+  "expected_italic": 226,
+  "expected_both": 36,
+  "not_found": 15,
+  "protected": 32,
+  "skipped": 249,
+  "total_matchable": 33,
+  "match_ratio_percent": 54.5,
+  "per_page": {
+    "page_2": [
+      {
+        "text": "https://chools.in/           https://choolsgroup.com/            https://choolskool.com/",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      }
+    ],
+    "page_6": [
+      {
+        "text": "https://chools.in/           https://choolsgroup.com/            https://choolskool.com/",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      }
+    ],
+    "page_10": [],
+    "page_11": [],
+    "page_12": [],
+    "page_13": [],
+    "page_14": [],
+    "page_16": [],
+    "page_17": [],
+    "page_18": [],
+    "page_19": [],
+    "page_20": [],
+    "page_21": [],
+    "page_22": [],
+    "page_24": [],
+    "page_25": [],
+    "page_26": [],
+    "page_27": [],
+    "page_28": [],
+    "page_30": [
+      {
+        "text": "t",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "f",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "A",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "A",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "A",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "B",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "A",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "B",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "A",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "B",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "A",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "B",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "A",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "B",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "A",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "B",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "material implication",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "protected:environment:verbatim"
+      },
+      {
+        "text": "A",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "B",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "A",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "B",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      }
+    ],
+    "page_33": [],
+    "page_34": [],
+    "page_36": [],
+    "page_37": [],
+    "page_38": [],
+    "page_41": [],
+    "page_42": [],
+    "page_43": [],
+    "page_44": [],
+    "page_47": [],
+    "page_48": [],
+    "page_49": [],
+    "page_51": [],
+    "page_52": [],
+    "page_54": [],
+    "page_55": [
+      {
+        "text": "Formula",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": true
+      },
+      {
+        "text": "Transformation into prenex normal form",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": true
+      },
+      {
+        "text": "Skolemization",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": true
+      }
+    ],
+    "page_56": [],
+    "page_57": [],
+    "page_58": [],
+    "page_59": [],
+    "page_60": [],
+    "page_61": [],
+    "page_62": [],
+    "page_63": [],
+    "page_64": [],
+    "page_66": [],
+    "page_67": [],
+    "page_68": [
+      {
+        "text": "(l",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "List) l",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": true
+      },
+      {
+        "text": "List",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": true
+      },
+      {
+        "text": "pre",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "true",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": true
+      },
+      {
+        "text": "post",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": true
+      },
+      {
+        "text": "(l",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "l",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ")",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "l",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "(",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "l)",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "l",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ")",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "(x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "List) x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": true
+      },
+      {
+        "text": "List",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": true
+      },
+      {
+        "text": "pre",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "true",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": true
+      },
+      {
+        "text": "post",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": true
+      },
+      {
+        "text": "i",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Item",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": true
+      },
+      {
+        "text": "(",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ",x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "List",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": true
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "i",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "y",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ",y",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "List",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": true
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "y",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "i",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "y",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ")",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "l,l ,x,x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "not_found"
+      },
+      {
+        "text": "List",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": true
+      },
+      {
+        "text": "(l",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "l",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "(w",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "w))",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "(l",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "l",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "((l",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "l",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ")",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "(ll",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "(tll)",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "hd l",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ")",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "i",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Item",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": true
+      },
+      {
+        "text": "(",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ",x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "List",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": true
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "i",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "y",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ",y",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "List",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": true
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "y",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "i",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "y",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "))),",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      }
+    ],
+    "page_69": [],
+    "page_70": [],
+    "page_73": [],
+    "page_74": [],
+    "page_77": [],
+    "page_78": [],
+    "page_79": [],
+    "page_83": [],
+    "page_84": [],
+    "page_85": [],
+    "page_86": [
+      {
+        "text": "bc",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "abc",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "defgh",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "not_found"
+      },
+      {
+        "text": "abcdefgh",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "not_found"
+      }
+    ],
+    "page_87": [],
+    "page_88": [],
+    "page_90": [],
+    "page_93": [],
+    "page_94": [],
+    "page_95": [],
+    "page_97": [],
+    "page_98": [],
+    "page_100": [],
+    "page_101": [],
+    "page_102": [],
+    "page_103": [
+      {
+        "text": "For all",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "not_found"
+      },
+      {
+        "text": "If",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Return",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:verbatim"
+      },
+      {
+        "text": "Append",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "not_found"
+      },
+      {
+        "text": "If",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Return",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:verbatim"
+      },
+      {
+        "text": "ElseReturn",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "not_found"
+      }
+    ],
+    "page_105": [],
+    "page_107": [],
+    "page_108": [],
+    "page_109": [],
+    "page_111": [],
+    "page_112": [],
+    "page_113": [],
+    "page_115": [],
+    "page_116": [],
+    "page_117": [],
+    "page_118": [],
+    "page_119": [],
+    "page_120": [],
+    "page_122": [],
+    "page_123": [],
+    "page_125": [],
+    "page_126": [],
+    "page_127": [],
+    "page_128": [],
+    "page_129": [],
+    "page_131": [],
+    "page_132": [],
+    "page_135": [],
+    "page_139": [],
+    "page_140": [],
+    "page_141": [],
+    "page_144": [],
+    "page_148": [],
+    "page_150": [],
+    "page_151": [],
+    "page_157": [],
+    "page_161": [],
+    "page_163": [],
+    "page_164": [],
+    "page_165": [],
+    "page_168": [],
+    "page_170": [],
+    "page_172": [],
+    "page_175": [],
+    "page_176": [],
+    "page_177": [
+      {
+        "text": "SkyBarPrecP (Sky,Bar,Prec)",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "not_found"
+      },
+      {
+        "text": ".",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ".",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ".",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ".",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ".",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ".",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ".",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Sky",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Bar",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Prec",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "protected:environment:tabular"
+      }
+    ],
+    "page_178": [
+      {
+        "text": "P(A",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "B)",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "P(C",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "A)",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      }
+    ],
+    "page_181": [],
+    "page_184": [],
+    "page_185": [],
+    "page_186": [],
+    "page_188": [],
+    "page_191": [],
+    "page_192": [],
+    "page_193": [],
+    "page_194": [],
+    "page_195": [
+      {
+        "text": "M",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ",M",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ",",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "s",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "t",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "M",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "M",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "d(",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "s",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ",",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ")",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "If",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "t",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "M",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Then Return",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:verbatim"
+      },
+      {
+        "text": "Else Return",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:verbatim"
+      }
+    ],
+    "page_196": [],
+    "page_199": [],
+    "page_200": [],
+    "page_201": [],
+    "page_202": [
+      {
+        "text": "FeatureQueryCase from case base",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "not_found"
+      },
+      {
+        "text": "Solution",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      }
+    ],
+    "page_204": [],
+    "page_205": [],
+    "page_207": [],
+    "page_209": [],
+    "page_215": [
+      {
+        "text": "Evaluation on test data (4882 items):",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:verbatim"
+      }
+    ],
+    "page_216": [],
+    "page_217": [],
+    "page_219": [],
+    "page_220": [],
+    "page_221": [],
+    "page_225": [],
+    "page_227": [],
+    "page_228": [],
+    "page_229": [],
+    "page_230": [
+      {
+        "text": "\u03b3",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ".",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "T",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "\u03b3",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ".",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "T",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "\u03b3",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ".",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      }
+    ],
+    "page_231": [],
+    "page_232": [
+      {
+        "text": "(",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ",...,",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "n,k)",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Repeat",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "x",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ",...,",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "n",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "\u00b5",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "i",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "\u00b5",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ",...,",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "\u00b5",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "k",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Until",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "\u00b5",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ",...,",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "\u00b5",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "k",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Return",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "\u00b5",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ",...,",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "\u00b5",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "k",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ",...,ii",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "\u00b5",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "\u00b5",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "kk",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      }
+    ],
+    "page_233": [
+      {
+        "text": "(",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ",...,",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "n,k)",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "C",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ",...,Cn",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "n",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Repeat",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "Ci",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Cj",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Ci",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Cj",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Until",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "Return",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      }
+    ],
+    "page_234": [],
+    "page_236": [
+      {
+        "text": "x",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ", . . . ,",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "n, p, kmax",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "not_found"
+      },
+      {
+        "text": "S\u2217",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "\u2212\u221e",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "For",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "k",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "To",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "kmax",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "not_found"
+      },
+      {
+        "text": "For",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "To",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "p",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "k",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "P",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "k",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "S",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "P",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "If",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "S > S\u2217",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Then",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "S\u2217",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "S",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "k\u2217",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "k",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "P \u2217",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "P",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Return",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "k\u2217, P \u2217",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      }
+    ],
+    "page_239": [],
+    "page_241": [],
+    "page_242": [],
+    "page_243": [],
+    "page_244": [],
+    "page_245": [],
+    "page_246": [
+      {
+        "text": "ABC",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "ABC",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      }
+    ],
+    "page_247": [
+      {
+        "text": "<",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ">",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      }
+    ],
+    "page_248": [],
+    "page_251": [],
+    "page_252": [],
+    "page_253": [],
+    "page_254": [],
+    "page_255": [
+      {
+        "text": "(",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "q",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ")",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "q",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Repeat",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "(",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ",n)",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "i",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Until",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "x",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Return",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "(",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ")",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      }
+    ],
+    "page_256": [],
+    "page_257": [],
+    "page_258": [],
+    "page_259": [],
+    "page_260": [],
+    "page_261": [],
+    "page_263": [],
+    "page_265": [],
+    "page_266": [
+      {
+        "text": "Associations of the program:",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      }
+    ],
+    "page_267": [],
+    "page_269": [],
+    "page_271": [],
+    "page_273": [],
+    "page_274": [],
+    "page_275": [
+      {
+        "text": "TrainingExamples",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "\u03b7",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "wj",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "RepeatFor all",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "not_found"
+      },
+      {
+        "text": "(",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "q",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "p,",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "t",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "p)",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "TrainingExamples",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "1",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Apply the query vector",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "q",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "p",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "2",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Forward propagation",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "xj",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "f (i",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "wjixi)",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "not_found"
+      },
+      {
+        "text": "3",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Calculation of the square error",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "Ep(",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "w",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": ")",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "4",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Backward propagation",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "wjiwji",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "not_found"
+      },
+      {
+        "text": "wji",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "\u03b7\u03b4pj xp",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "not_found"
+      },
+      {
+        "text": "Until",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "w",
+        "is_bold": true,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      }
+    ],
+    "page_276": [],
+    "page_277": [],
+    "page_279": [],
+    "page_280": [],
+    "page_281": [],
+    "page_282": [],
+    "page_283": [],
+    "page_284": [],
+    "page_285": [],
+    "page_287": [],
+    "page_288": [],
+    "page_289": [],
+    "page_290": [],
+    "page_291": [],
+    "page_293": [],
+    "page_296": [],
+    "page_298": [],
+    "page_300": [],
+    "page_301": [],
+    "page_302": [],
+    "page_303": [],
+    "page_304": [
+      {
+        "text": "For all",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "s",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "S,a",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "A",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Q(s,a)",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Repeat",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "s",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Repeat",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "a",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "r",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "s",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Q(s,a)",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "r(s,a)",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "\u03b3",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "a",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Q(s ,a )s",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "not_found"
+      },
+      {
+        "text": "s",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Until",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "s",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Or",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "Until",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "protected:environment:table"
+      },
+      {
+        "text": "Q",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      }
+    ],
+    "page_305": [],
+    "page_306": [],
+    "page_307": [],
+    "page_309": [],
+    "page_310": [],
+    "page_311": [],
+    "page_312": [],
+    "page_313": [],
+    "page_314": [],
+    "page_316": [],
+    "page_318": [
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "y x < y",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "y < x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "y",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "y x < y",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "y < x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      }
+    ],
+    "page_319": [],
+    "page_323": [],
+    "page_331": [],
+    "page_332": [],
+    "page_334": [],
+    "page_337": [],
+    "page_340": [],
+    "page_342": [],
+    "page_343": [],
+    "page_344": [],
+    "page_346": [],
+    "page_347": [],
+    "page_348": [],
+    "page_349": [],
+    "page_350": [],
+    "page_351": [],
+    "page_353": [],
+    "page_354": [],
+    "page_355": [],
+    "page_356": [],
+    "page_357": []
+  }
+}

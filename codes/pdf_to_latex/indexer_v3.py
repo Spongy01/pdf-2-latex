@@ -45,6 +45,65 @@ def find_closest_page(page, page_breaks, page_positions, book_len, is_forward=Tr
         print(f"No backward match found for page {page}")
         return 0  # No valid page found
 
+
+import re
+
+def ensure_latex_index(latex_str: str) -> str:
+    """
+    Ensures that a LaTeX document:
+    - Uses makeidx package
+    - Calls \\makeindex before \\begin{document}
+    - Prints the index before \\end{document}
+    - Adds \\end{document} if missing
+    """
+
+    text = latex_str
+
+    # Normalize line endings
+    text = text.replace("\r\n", "\n")
+
+    # --- 1. Ensure makeidx + makeindex before \begin{document} ---
+    begin_doc_match = re.search(r"\\begin\{document\}", text)
+
+    if begin_doc_match:
+        preamble = text[:begin_doc_match.start()]
+        body = text[begin_doc_match.start():]
+
+        if r"\usepackage{makeidx}" not in preamble:
+            preamble += "\n\\usepackage{makeidx}\n"
+
+        if r"\makeindex" not in preamble:
+            preamble += "\\makeindex\n"
+
+        text = preamble + body
+    else:
+        # No \begin{document} — prepend preamble anyway
+        if r"\usepackage{makeidx}" not in text:
+            text = "\\usepackage{makeidx}\n" + text
+        if r"\makeindex" not in text:
+            text = "\\makeindex\n" + text
+
+    # --- 2. Ensure \printindex before \end{document} ---
+    end_doc_match = re.search(r"\\end\{document\}", text)
+
+    if end_doc_match:
+        before_end = text[:end_doc_match.start()]
+        after_end = text[end_doc_match.start():]
+
+        if r"\printindex" not in before_end:
+            before_end += "\n\\printindex\n"
+
+        text = before_end + after_end
+    else:
+        # No \end{document} — append printindex + enddocument
+        if r"\printindex" not in text:
+            text += "\n\\printindex\n"
+        text += "\n\\end{document}\n"
+
+    return text
+
+
+
 # Pattern Matchers
 def is_pattern(text):
     pattern = re.compile(
@@ -667,6 +726,9 @@ def create_indexing(INDEX_PATH, TEX_PATH, CONTENT_PATH, OUTPUT_TEX_PATH):
             latex_content, not_found = add_indexes(latex_content, index, book_len)
             print(f"Successfully added all the indexes. {len(not_found)} terms were not found but were handled.")
             
+            # Ensure LaTeX index structure
+            latex_content = ensure_latex_index(latex_content)
+            print("Ensured LaTeX document has proper index structure")
             # Write the updated LaTeX content to a new file
             print(f"Writing result to: {OUTPUT_TEX_PATH}")
             with open(OUTPUT_TEX_PATH, "w", encoding="utf-8") as file:

@@ -423,5 +423,30 @@
     "book_name": "data-science",
     "version": "algo_check",
     "last_used": "2025-12-15T18:23:35.261677"
+  },
+  "ai___penultimate": {
+    "book_name": "ai",
+    "version": "penultimate",
+    "last_used": "2025-12-18T12:45:16.929752"
+  },
+  "assembly___penultimate": {
+    "book_name": "assembly",
+    "version": "penultimate",
+    "last_used": "2025-12-18T12:45:18.510788"
+  },
+  "cybersec___penultimate": {
+    "book_name": "cybersec",
+    "version": "penultimate",
+    "last_used": "2025-12-18T12:48:44.263279"
+  },
+  "data-science___penultimate": {
+    "book_name": "data-science",
+    "version": "penultimate",
+    "last_used": "2025-12-18T12:49:22.826958"
+  },
+  "algorithms___penultimate": {
+    "book_name": "algorithms",
+    "version": "penultimate",
+    "last_used": "2025-12-18T12:59:14.973931"
   }
 }

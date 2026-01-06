@@ -1,0 +1,1756 @@
+\indexentry{cyberspace|hyperpage}{1}
+\indexentry{Rainbow Series|hyperpage}{1}
+\indexentry{malware|hyperpage}{2}
+\indexentry{service!complex|hyperpage}{2}
+\indexentry{arbitrator!client-server|hyperpage}{2}
+\indexentry{arbitrator!P2P|hyperpage}{2}
+\indexentry{client|hyperpage}{2}
+\indexentry{cloud|hyperpage}{2}
+\indexentry{network|hyperpage}{2}
+\indexentry{peer-to-peer (P2P)|hyperpage}{2}
+\indexentry{server|hyperpage}{2}
+\indexentry{cloud|hyperpage}{2}
+\indexentry{cluster|hyperpage}{2}
+\indexentry{cyberattack|hyperpage}{2}
+\indexentry{mainframe|hyperpage}{2}
+\indexentry{Oﬃce of Public Management (OPM)|hyperpage}{2}
+\indexentry{system of systems|hyperpage}{2}
+\indexentry{APT|hyperpage}{3}
+\indexentry{actuator|hyperpage}{3}
+\indexentry{computer system|hyperpage}{3}
+\indexentry{entertainment device|hyperpage}{3}
+\indexentry{household apparatus|hyperpage}{3}
+\indexentry{IOT|hyperpage}{3}
+\indexentry{sensor|hyperpage}{3}
+\indexentry{botnet|hyperpage}{6}
+\indexentry{Cryptolocker|hyperpage}{6}
+\indexentry{exﬁltration|hyperpage}{6}
+\indexentry{NotPetya|hyperpage}{6}
+\indexentry{ransomware|hyperpage}{6}
+\indexentry{Semalt|hyperpage}{6}
+\indexentry{Stuxnet|hyperpage}{6}
+\indexentry{man-in-the-middle!supply-chain|hyperpage}{7}
+\indexentry{Colonial Pipeline|hyperpage}{7}
+\indexentry{critical infrastructure|hyperpage}{7}
+\indexentry{Microsoft Exchange data breach|hyperpage}{7}
+\indexentry{Orion|hyperpage}{7}
+\indexentry{asset!software|hyperpage}{9}
+\indexentry{botnet|hyperpage}{9}
+\indexentry{cyberwar|hyperpage}{9}
+\indexentry{service!cybercriminal|hyperpage}{9}
+\indexentry{X-as-a-service|hyperpage}{9}
+\indexentry{asset|hyperpage}{10}
+\indexentry{CIA target|hyperpage}{11}
+\indexentry{Secure Shell (SSH)!target|hyperpage}{11}
+\indexentry{asset!data|hyperpage}{11}
+\indexentry{asset!equipment|hyperpage}{11}
+\indexentry{attack!costs|hyperpage}{11}
+\indexentry{ECDSA!underground|hyperpage}{11}
+\indexentry{ISO-latin-1 printable!27002|hyperpage}{12}
+\indexentry{availability|hyperpage}{12}
+\indexentry{CIA target!deﬁnition|hyperpage}{12}
+\indexentry{conﬁdentiality|hyperpage}{12}
+\indexentry{integrity|hyperpage}{12}
+\indexentry{Secure Shell (SSH)!policy|hyperpage}{13}
+\indexentry{availability|hyperpage}{14}
+\indexentry{conﬁdentiality|hyperpage}{14}
+\indexentry{man-in-the-middle!psychological|hyperpage}{20}
+\indexentry{social engineering|hyperpage}{20}
+\indexentry{backdoor|hyperpage}{21}
+\indexentry{CEO fraud|hyperpage}{23}
+\indexentry{Milgram’s eksperiment|hyperpage}{23}
+\indexentry{Stanley Milgram|hyperpage}{23}
+\indexentry{brain mode of operation|hyperpage}{25}
+\indexentry{System 1|hyperpage}{25}
+\indexentry{System 2|hyperpage}{25}
+\indexentry{priming|hyperpage}{26}
+\indexentry{attribution error, fundamental|hyperpage}{27}
+\indexentry{phishing|hyperpage}{28}
+\indexentry{phishing!bait|hyperpage}{28}
+\indexentry{phishing!e-mail|hyperpage}{28}
+\indexentry{phishing!social media|hyperpage}{28}
+\indexentry{social media|hyperpage}{28}
+\indexentry{cybersquatting|hyperpage}{29}
+\indexentry{spearphishing|hyperpage}{29}
+\indexentry{phishing!e-mail|hyperpage}{30}
+\indexentry{spooﬁng!e-mail|hyperpage}{30}
+\indexentry{CAPTCHA|hyperpage}{30}
+\indexentry{cognitive overload|hyperpage}{30}
+\indexentry{OCTAVE!threat analysis|hyperpage}{30}
+\indexentry{threat analysis|hyperpage}{30}
+\indexentry{trojan horse|hyperpage}{30}
+\indexentry{man-in-the-middle|hyperpage}{32}
+\indexentry{PDCA process|hyperpage}{32}
+\indexentry{fear appeal|hyperpage}{32}
+\indexentry{self-eﬃcacy|hyperpage}{33}
+\indexentry{security awareness|hyperpage}{35}
+\indexentry{frequency analysis|hyperpage}{39}
+\indexentry{transposition cipher|hyperpage}{39}
+\indexentry{Vigenère cipher!encoding table|hyperpage}{39}
+\indexentry{vulnerability!technical|hyperpage}{41}
+\indexentry{risk|hyperpage}{41}
+\indexentry{risk!objective|hyperpage}{41}
+\indexentry{risk!subjective|hyperpage}{41}
+\indexentry{threat|hyperpage}{41}
+\indexentry{vulnerability|hyperpage}{41}
+\indexentry{weakness|hyperpage}{41}
+\indexentry{vulnerability!psychological|hyperpage}{41}
+\indexentry{birthday paradox!pseudo-random|hyperpage}{42}
+\indexentry{birthday paradox!random|hyperpage}{42}
+\indexentry{keystream|hyperpage}{42}
+\indexentry{stream cipher|hyperpage}{42}
+\indexentry{symmetric stream cipher|hyperpage}{42}
+\indexentry{XOR function|hyperpage}{42}
+\indexentry{risk|hyperpage}{42}
+\indexentry{risk!matrix|hyperpage}{42}
+\indexentry{control|hyperpage}{42}
+\indexentry{countermeasure|hyperpage}{42}
+\indexentry{residual risk|hyperpage}{42}
+\indexentry{residual risk!matrix|hyperpage}{42}
+\indexentry{risk!residual|hyperpage}{42}
+\indexentry{attack|hyperpage}{43}
+\indexentry{malware|hyperpage}{44}
+\indexentry{threat!hardware related|hyperpage}{44}
+\indexentry{threat!in IT system|hyperpage}{44}
+\indexentry{threat!software related|hyperpage}{44}
+\indexentry{hack|hyperpage}{44}
+\indexentry{countermeasure|hyperpage}{45}
+\indexentry{threat!data related|hyperpage}{45}
+\indexentry{threat!liveware related|hyperpage}{45}
+\indexentry{risk!avoidance|hyperpage}{46}
+\indexentry{risk!management|hyperpage}{46}
+\indexentry{risk!mitigation|hyperpage}{46}
+\indexentry{risk!reduction|hyperpage}{46}
+\indexentry{risk!retention|hyperpage}{46}
+\indexentry{risk!sharing|hyperpage}{46}
+\indexentry{risk!transfer|hyperpage}{46}
+\indexentry{COBIT|hyperpage}{47}
+\indexentry{COSO|hyperpage}{47}
+\indexentry{FAIR|hyperpage}{47}
+\indexentry{ISO-latin-1 printable!27002|hyperpage}{47}
+\indexentry{OCTAVE|hyperpage}{47}
+\indexentry{Secure Shell (SSH)!systematic|hyperpage}{47}
+\indexentry{ISO-latin-1 printable!27000 series|hyperpage}{49}
+\indexentry{OCTAVE|hyperpage}{50}
+\indexentry{risk!analysis|hyperpage}{50}
+\indexentry{OCTAVE!Phase 1|hyperpage}{51}
+\indexentry{analysis group|hyperpage}{53}
+\indexentry{critical asset|hyperpage}{53}
+\indexentry{STRIDE|hyperpage}{53}
+\indexentry{threat proﬁle|hyperpage}{53}
+\indexentry{access|hyperpage}{54}
+\indexentry{actor|hyperpage}{54}
+\indexentry{asset|hyperpage}{54}
+\indexentry{motive|hyperpage}{54}
+\indexentry{OCTAVE!threat classes|hyperpage}{54}
+\indexentry{OCTAVE!threat proﬁle|hyperpage}{54}
+\indexentry{OCTAVE!threat tree|hyperpage}{54}
+\indexentry{outcome|hyperpage}{54}
+\indexentry{threat tree|hyperpage}{54}
+\indexentry{concatenation|hyperpage}{58}
+\indexentry{existential forgery|hyperpage}{58}
+\indexentry{hash function!collision resistent|hyperpage}{58}
+\indexentry{hash function!non-invertible|hyperpage}{58}
+\indexentry{HMAC|hyperpage}{58}
+\indexentry{MAC|hyperpage}{58}
+\indexentry{MAC!hash-based|hyperpage}{58}
+\indexentry{MAC key|hyperpage}{58}
+\indexentry{oracle|hyperpage}{58}
+\indexentry{tag|hyperpage}{58}
+\indexentry{residual risk|hyperpage}{59}
+\indexentry{residual risk!matrix|hyperpage}{60}
+\indexentry{risk!matrix|hyperpage}{60}
+\indexentry{PDCA process|hyperpage}{61}
+\indexentry{cryptosystem!ElGamal|hyperpage}{63}
+\indexentry{DSA|hyperpage}{63}
+\indexentry{DSS|hyperpage}{63}
+\indexentry{ECDSA|hyperpage}{63}
+\indexentry{electronic signature!with appendix|hyperpage}{63}
+\indexentry{message digest|hyperpage}{63}
+\indexentry{PKCS#1|hyperpage}{63}
+\indexentry{electronic signature!future planning|hyperpage}{63}
+\indexentry{hard problem|hyperpage}{63}
+\indexentry{hash function!MD5|hyperpage}{63}
+\indexentry{hash function!SHA-1|hyperpage}{63}
+\indexentry{hash function!SHA-2|hyperpage}{63}
+\indexentry{hash function!SHA-3|hyperpage}{63}
+\indexentry{MD5|hyperpage}{63}
+\indexentry{PQC|hyperpage}{63}
+\indexentry{PQC!competition|hyperpage}{63}
+\indexentry{SHA-1|hyperpage}{63}
+\indexentry{SHA-2|hyperpage}{63}
+\indexentry{SHA-3|hyperpage}{63}
+\indexentry{ISO-latin-1 printable!27005:2011|hyperpage}{64}
+\indexentry{encryption|hyperpage}{65}
+\indexentry{ciphertext|hyperpage}{65}
+\indexentry{decryption|hyperpage}{65}
+\indexentry{plaintext|hyperpage}{65}
+\indexentry{decryption!function|hyperpage}{66}
+\indexentry{encryption!function|hyperpage}{66}
+\indexentry{authentication!server|hyperpage}{66}
+\indexentry{authentication!with PKCS|hyperpage}{66}
+\indexentry{certiﬁcate|hyperpage}{66}
+\indexentry{electronic signature|hyperpage}{66}
+\indexentry{iris recognition!9798|hyperpage}{66}
+\indexentry{private key|hyperpage}{66}
+\indexentry{public key|hyperpage}{66}
+\indexentry{ciphertext|hyperpage}{66}
+\indexentry{cryptosystem|hyperpage}{66}
+\indexentry{cryptosystem!symmetric|hyperpage}{66}
+\indexentry{decryption!key|hyperpage}{66}
+\indexentry{encryption!key|hyperpage}{66}
+\indexentry{Kerckhoﬀ’s Principle|hyperpage}{66}
+\indexentry{plaintext|hyperpage}{66}
+\indexentry{activation code|hyperpage}{67}
+\indexentry{Certiﬁcate Signing Policy (CSP)|hyperpage}{67}
+\indexentry{EV certiﬁcate|hyperpage}{67}
+\indexentry{Extended Validation (EV) certiﬁcate|hyperpage}{67}
+\indexentry{PKCS#10|hyperpage}{67}
+\indexentry{PKCS#12|hyperpage}{67}
+\indexentry{Registration Authority (RA)|hyperpage}{67}
+\indexentry{smartcard|hyperpage}{67}
+\indexentry{Caesar code|hyperpage}{67}
+\indexentry{cryptosystem!broken|hyperpage}{67}
+\indexentry{cryptosystem!symmetric|hyperpage}{67}
+\indexentry{cyclic permutation|hyperpage}{67}
+\indexentry{encryption!symmetric|hyperpage}{67}
+\indexentry{key wheel|hyperpage}{67}
+\indexentry{substitution cipher|hyperpage}{67}
+\indexentry{attack|hyperpage}{68}
+\indexentry{attack!adaptive chosen plaintext|hyperpage}{68}
+\indexentry{attack!brute-force|hyperpage}{68}
+\indexentry{attack!chosen plaintext|hyperpage}{68}
+\indexentry{attack!ciphertext alone|hyperpage}{68}
+\indexentry{attack!known plaintext|hyperpage}{68}
+\indexentry{man-in-the-middle!related key|hyperpage}{68}
+\indexentry{brute-force attack|hyperpage}{68}
+\indexentry{cryptanalysis|hyperpage}{68}
+\indexentry{cryptosystem!asymmetric|hyperpage}{68}
+\indexentry{PKCS|hyperpage}{68}
+\indexentry{SKCS|hyperpage}{68}
+\indexentry{cryptanalysis!frequency analytic|hyperpage}{70}
+\indexentry{frequency analysis|hyperpage}{70}
+\indexentry{frequency analysis!Al-Kindi|hyperpage}{70}
+\indexentry{key wheel|hyperpage}{70}
+\indexentry{monoalphabetic cipher|hyperpage}{70}
+\indexentry{random permutation|hyperpage}{70}
+\indexentry{bigram|hyperpage}{71}
+\indexentry{pigpen cipher|hyperpage}{71}
+\indexentry{trigram|hyperpage}{71}
+\indexentry{Blaise de Vigenère|hyperpage}{74}
+\indexentry{Friedrich Kasiski|hyperpage}{74}
+\indexentry{polyalphabetic cipher|hyperpage}{74}
+\indexentry{Vigenère cipher|hyperpage}{74}
+\indexentry{attack!known plaintext|hyperpage}{74}
+\indexentry{binary data|hyperpage}{74}
+\indexentry{Claude Shannon|hyperpage}{74}
+\indexentry{confusion|hyperpage}{74}
+\indexentry{diﬀusion|hyperpage}{74}
+\indexentry{padding|hyperpage}{74}
+\indexentry{DES|hyperpage}{80}
+\indexentry{cryptographic random number generator|hyperpage}{80}
+\indexentry{One-Time Pad|hyperpage}{80}
+\indexentry{XOR function|hyperpage}{80}
+\indexentry{confusion|hyperpage}{81}
+\indexentry{diﬀusion|hyperpage}{81}
+\indexentry{Feistel network|hyperpage}{81}
+\indexentry{ﬁngerprint reader!PUB 46|hyperpage}{81}
+\indexentry{XOR function|hyperpage}{81}
+\indexentry{3DES|hyperpage}{83}
+\indexentry{Deep Crack|hyperpage}{83}
+\indexentry{key schedule|hyperpage}{83}
+\indexentry{Triple-DES (3DES)|hyperpage}{83}
+\indexentry{IV|hyperpage}{84}
+\indexentry{block cipher!mode|hyperpage}{84}
+\indexentry{CBC|hyperpage}{84}
+\indexentry{cryptanalysis!diﬀerential|hyperpage}{84}
+\indexentry{ECB|hyperpage}{84}
+\indexentry{diﬀusion|hyperpage}{85}
+\indexentry{nonce|hyperpage}{85}
+\indexentry{nonce!deﬁnition|hyperpage}{85}
+\indexentry{block cipher!mode|hyperpage}{86}
+\indexentry{AES|hyperpage}{87}
+\indexentry{ﬁngerprint reader!197|hyperpage}{87}
+\indexentry{key schedule|hyperpage}{87}
+\indexentry{Rijndael|hyperpage}{87}
+\indexentry{round key|hyperpage}{87}
+\indexentry{birthday paradox!period|hyperpage}{88}
+\indexentry{birthday paradox!shift register based|hyperpage}{88}
+\indexentry{IV|hyperpage}{88}
+\indexentry{LFSR|hyperpage}{88}
+\indexentry{LFSR!period|hyperpage}{88}
+\indexentry{nonce|hyperpage}{88}
+\indexentry{IV|hyperpage}{88}
+\indexentry{A5/1|hyperpage}{90}
+\indexentry{E0|hyperpage}{90}
+\indexentry{function!linear|hyperpage}{90}
+\indexentry{function!non-linear|hyperpage}{90}
+\indexentry{LFSR!period|hyperpage}{90}
+\indexentry{primitive polynomial|hyperpage}{90}
+\indexentry{DNS!RR|hyperpage}{93}
+\indexentry{DNS!zone transfer|hyperpage}{93}
+\indexentry{Resource Record (RR)|hyperpage}{93}
+\indexentry{RR|hyperpage}{93}
+\indexentry{zone transfer|hyperpage}{93}
+\indexentry{Key-Scheduling Algorithm (KSA)|hyperpage}{93}
+\indexentry{long-term key|hyperpage}{93}
+\indexentry{nonce|hyperpage}{93}
+\indexentry{RC4|hyperpage}{93}
+\indexentry{RC4!keystream generator|hyperpage}{93}
+\indexentry{RC4!weakness|hyperpage}{93}
+\indexentry{symmetric stream cipher!RC4|hyperpage}{93}
+\indexentry{man-in-the-middle!related key|hyperpage}{94}
+\indexentry{integrity|hyperpage}{94}
+\indexentry{malleable|hyperpage}{94}
+\indexentry{nonce|hyperpage}{94}
+\indexentry{WEP|hyperpage}{94}
+\indexentry{ChaCha20|hyperpage}{96}
+\indexentry{eStream stream cipher|hyperpage}{96}
+\indexentry{symmetric stream cipher!eStream|hyperpage}{96}
+\indexentry{TLS|hyperpage}{96}
+\indexentry{Ad hoc Mode|hyperpage}{96}
+\indexentry{IDS!802.11|hyperpage}{96}
+\indexentry{Infrastructure Mode|hyperpage}{96}
+\indexentry{SSID|hyperpage}{96}
+\indexentry{WiFi!Access Point (AP)|hyperpage}{96}
+\indexentry{WiFi!BSS|hyperpage}{96}
+\indexentry{WiFi!SSID|hyperpage}{96}
+\indexentry{conﬁdentiality|hyperpage}{96}
+\indexentry{cryptosystem!asymmetric|hyperpage}{96}
+\indexentry{encryption!asymmetric|hyperpage}{96}
+\indexentry{PKCS|hyperpage}{96}
+\indexentry{private key|hyperpage}{96}
+\indexentry{trapdoor function|hyperpage}{96}
+\indexentry{congruence|hyperpage}{98}
+\indexentry{function!one-way|hyperpage}{98}
+\indexentry{modular arithmetic|hyperpage}{98}
+\indexentry{one-way function|hyperpage}{98}
+\indexentry{Euler’s totient function|hyperpage}{99}
+\indexentry{inverse|hyperpage}{99}
+\indexentry{modular exponentiation|hyperpage}{99}
+\indexentry{hard problem|hyperpage}{100}
+\indexentry{modular exponentiation|hyperpage}{100}
+\indexentry{modular squaring|hyperpage}{100}
+\indexentry{RSA|hyperpage}{100}
+\indexentry{RSA!modulus|hyperpage}{100}
+\indexentry{RSA!private exponent|hyperpage}{100}
+\indexentry{RSA!private key|hyperpage}{100}
+\indexentry{RSA!public exponent|hyperpage}{100}
+\indexentry{RSA!public key|hyperpage}{100}
+\indexentry{Euclid’s extended algorithm|hyperpage}{101}
+\indexentry{hard problem|hyperpage}{101}
+\indexentry{RSA!key generation|hyperpage}{101}
+\indexentry{integer!Fermat|hyperpage}{103}
+\indexentry{mail relay|hyperpage}{103}
+\indexentry{mailbox|hyperpage}{103}
+\indexentry{MTA|hyperpage}{103}
+\indexentry{MUA|hyperpage}{103}
+\indexentry{MX record|hyperpage}{103}
+\indexentry{Resource Record (RR)|hyperpage}{103}
+\indexentry{SMTP!mailbox|hyperpage}{103}
+\indexentry{ASCII character set|hyperpage}{104}
+\indexentry{MIME|hyperpage}{104}
+\indexentry{trust|hyperpage}{104}
+\indexentry{Hamming weight|hyperpage}{104}
+\indexentry{RSA number|hyperpage}{104}
+\indexentry{square-and-multiply method|hyperpage}{104}
+\indexentry{Chinese remainder theorem|hyperpage}{106}
+\indexentry{integer!Number Field Sieve|hyperpage}{106}
+\indexentry{integer!Quadratic Sieve|hyperpage}{106}
+\indexentry{RSA!vulnerabilities|hyperpage}{106}
+\indexentry{integrity|hyperpage}{106}
+\indexentry{attack!chosen plaintext|hyperpage}{107}
+\indexentry{cloud|hyperpage}{107}
+\indexentry{cryptosystem!malleable|hyperpage}{107}
+\indexentry{Euclid’s extended algorithm|hyperpage}{107}
+\indexentry{malleable|hyperpage}{107}
+\indexentry{padding|hyperpage}{107}
+\indexentry{PKCS#1|hyperpage}{107}
+\indexentry{hard problem|hyperpage}{108}
+\indexentry{quantum computer|hyperpage}{108}
+\indexentry{MD5|hyperpage}{110}
+\indexentry{message digest!function|hyperpage}{115}
+\indexentry{function!one-way|hyperpage}{115}
+\indexentry{hash function!one-way|hyperpage}{115}
+\indexentry{Change Permissions!cryptographic|hyperpage}{117}
+\indexentry{integrity|hyperpage}{117}
+\indexentry{reference number|hyperpage}{117}
+\indexentry{time stamp|hyperpage}{117}
+\indexentry{concatenation|hyperpage}{118}
+\indexentry{function!pre-image|hyperpage}{118}
+\indexentry{hash function!collision resistent|hyperpage}{118}
+\indexentry{hash function!cryptographic|hyperpage}{118}
+\indexentry{hash function!non-invertible|hyperpage}{118}
+\indexentry{message digest|hyperpage}{118}
+\indexentry{nonce|hyperpage}{118}
+\indexentry{preimage resistance|hyperpage}{118}
+\indexentry{second-preimage resistance|hyperpage}{118}
+\indexentry{SSL|hyperpage}{119}
+\indexentry{TLS|hyperpage}{119}
+\indexentry{SSL!Alert protocol|hyperpage}{119}
+\indexentry{SSL!Change Cipher Spec protocol|hyperpage}{119}
+\indexentry{SSL!Handshake protocol|hyperpage}{119}
+\indexentry{SSL!Record protocol|hyperpage}{119}
+\indexentry{birthday paradox|hyperpage}{120}
+\indexentry{function!graph|hyperpage}{120}
+\indexentry{hash function!security strength|hyperpage}{120}
+\indexentry{state machine|hyperpage}{120}
+\indexentry{IV|hyperpage}{120}
+\indexentry{SMTP!service extension|hyperpage}{120}
+\indexentry{attack!length extension|hyperpage}{121}
+\indexentry{avalanche eﬀect|hyperpage}{121}
+\indexentry{function!compression|hyperpage}{121}
+\indexentry{function!non-linear|hyperpage}{121}
+\indexentry{function!one-way|hyperpage}{121}
+\indexentry{Merkle-Damgaard construction|hyperpage}{121}
+\indexentry{hardware!SHA-1|hyperpage}{123}
+\indexentry{hash function|hyperpage}{123}
+\indexentry{hash function!MD5|hyperpage}{123}
+\indexentry{hash function!SHA-2|hyperpage}{123}
+\indexentry{hash function!SHA-3|hyperpage}{123}
+\indexentry{Keccak|hyperpage}{123}
+\indexentry{MD5|hyperpage}{123}
+\indexentry{SHA-1|hyperpage}{123}
+\indexentry{SHA-2|hyperpage}{123}
+\indexentry{SHA-3|hyperpage}{123}
+\indexentry{attack!brute-force|hyperpage}{124}
+\indexentry{block cipher|hyperpage}{124}
+\indexentry{block cipher!mode|hyperpage}{124}
+\indexentry{brute-force attack|hyperpage}{124}
+\indexentry{CBC|hyperpage}{124}
+\indexentry{CCM|hyperpage}{124}
+\indexentry{hash function!MD5|hyperpage}{124}
+\indexentry{hash function!SHA-1|hyperpage}{124}
+\indexentry{MD5|hyperpage}{124}
+\indexentry{SHA-1|hyperpage}{124}
+\indexentry{RSA|hyperpage}{125}
+\indexentry{arbitrator|hyperpage}{125}
+\indexentry{electronic signature!requirements|hyperpage}{125}
+\indexentry{electronic signature!veriﬁcation|hyperpage}{125}
+\indexentry{non-repudiation|hyperpage}{125}
+\indexentry{secret key|hyperpage}{125}
+\indexentry{cryptosystem!malleable|hyperpage}{125}
+\indexentry{malleable|hyperpage}{125}
+\indexentry{modulus|hyperpage}{126}
+\indexentry{public key|hyperpage}{126}
+\indexentry{electronic signature|hyperpage}{126}
+\indexentry{concatenation|hyperpage}{127}
+\indexentry{cryptosystem!reversible|hyperpage}{127}
+\indexentry{electronic signature!with PKCS|hyperpage}{127}
+\indexentry{electronic signature!with recovery|hyperpage}{127}
+\indexentry{iris recognition!9796|hyperpage}{127}
+\indexentry{private key|hyperpage}{127}
+\indexentry{private key|hyperpage}{127}
+\indexentry{AKA|hyperpage}{129}
+\indexentry{digest authentication|hyperpage}{129}
+\indexentry{IMSI|hyperpage}{129}
+\indexentry{IMSI catcher|hyperpage}{129}
+\indexentry{mobile telephone network!surveillance|hyperpage}{129}
+\indexentry{nonce|hyperpage}{129}
+\indexentry{UMTS!AKA|hyperpage}{129}
+\indexentry{authentication|hyperpage}{130}
+\indexentry{authentication!evidence|hyperpage}{130}
+\indexentry{authentication!protocol|hyperpage}{130}
+\indexentry{authentication!strong|hyperpage}{130}
+\indexentry{authentication!weak|hyperpage}{130}
+\indexentry{nonce|hyperpage}{130}
+\indexentry{protocol|hyperpage}{130}
+\indexentry{authentication!server|hyperpage}{131}
+\indexentry{authentication!with SKCS|hyperpage}{131}
+\indexentry{authentication!zero-knowledge|hyperpage}{131}
+\indexentry{authenticator|hyperpage}{131}
+\indexentry{secret key|hyperpage}{131}
+\indexentry{nonce|hyperpage}{132}
+\indexentry{authentication!strong|hyperpage}{133}
+\indexentry{man-in-the-middle|hyperpage}{133}
+\indexentry{electronic signature|hyperpage}{133}
+\indexentry{kerberos|hyperpage}{133}
+\indexentry{key agreement|hyperpage}{133}
+\indexentry{key distribution|hyperpage}{133}
+\indexentry{key transport|hyperpage}{133}
+\indexentry{lifetime|hyperpage}{133}
+\indexentry{nonce|hyperpage}{133}
+\indexentry{secret key|hyperpage}{133}
+\indexentry{active attacker|hyperpage}{136}
+\indexentry{man-in-the-middle|hyperpage}{136}
+\indexentry{Diﬃe-Hellman key agreement|hyperpage}{136}
+\indexentry{passive attacker|hyperpage}{136}
+\indexentry{Diﬃe-Hellman key agreement!attack|hyperpage}{136}
+\indexentry{extension|hyperpage}{136}
+\indexentry{key agreement!Diﬃe-Hellman|hyperpage}{136}
+\indexentry{certiﬁcate|hyperpage}{138}
+\indexentry{Certiﬁcate Authority (CA)|hyperpage}{138}
+\indexentry{electronic signature|hyperpage}{138}
+\indexentry{exponent|hyperpage}{138}
+\indexentry{key agreement!station-to-station|hyperpage}{138}
+\indexentry{modulus|hyperpage}{138}
+\indexentry{PKI system|hyperpage}{138}
+\indexentry{protocol!station-to-station|hyperpage}{138}
+\indexentry{RSA|hyperpage}{138}
+\indexentry{X.509v3 certiﬁcate|hyperpage}{138}
+\indexentry{certiﬁcate!EV|hyperpage}{138}
+\indexentry{certiﬁcate!revocation|hyperpage}{139}
+\indexentry{Common Name (CN)|hyperpage}{139}
+\indexentry{Country (C)|hyperpage}{139}
+\indexentry{CRL|hyperpage}{139}
+\indexentry{Organisation (O)|hyperpage}{139}
+\indexentry{Organizational Unit (OU)|hyperpage}{139}
+\indexentry{X.500 name|hyperpage}{139}
+\indexentry{certiﬁcate!chain|hyperpage}{141}
+\indexentry{certiﬁcate!root|hyperpage}{141}
+\indexentry{certiﬁcate!self-signed|hyperpage}{141}
+\indexentry{root certiﬁcate|hyperpage}{141}
+\indexentry{X.500 Directory|hyperpage}{141}
+\indexentry{PKI system|hyperpage}{141}
+\indexentry{trust model|hyperpage}{141}
+\indexentry{trust model!hierarchical|hyperpage}{141}
+\indexentry{trust model!reputation-based|hyperpage}{141}
+\indexentry{trust model!web-of-trust|hyperpage}{141}
+\indexentry{Web-of-trust|hyperpage}{141}
+\indexentry{certiﬁcate!self-signed|hyperpage}{143}
+\indexentry{eBay|hyperpage}{143}
+\indexentry{PGP|hyperpage}{143}
+\indexentry{root certiﬁcate|hyperpage}{143}
+\indexentry{DNS|hyperpage}{144}
+\indexentry{eID|hyperpage}{144}
+\indexentry{Internet name|hyperpage}{144}
+\indexentry{TSP|hyperpage}{145}
+\indexentry{electronic identity!authentication|hyperpage}{145}
+\indexentry{certiﬁcate!qualiﬁed|hyperpage}{147}
+\indexentry{electronic identity|hyperpage}{147}
+\indexentry{electronic identity!quality of credential|hyperpage}{147}
+\indexentry{electronic identity!quality of issuer|hyperpage}{147}
+\indexentry{PKCS#12|hyperpage}{147}
+\indexentry{qualiﬁed certiﬁcate|hyperpage}{147}
+\indexentry{smartcard|hyperpage}{147}
+\indexentry{soft certiﬁcate|hyperpage}{147}
+\indexentry{WAN|hyperpage}{150}
+\indexentry{proactive control|hyperpage}{150}
+\indexentry{reactive control|hyperpage}{150}
+\indexentry{malleable|hyperpage}{150}
+\indexentry{communication node|hyperpage}{151}
+\indexentry{end systems|hyperpage}{151}
+\indexentry{host|hyperpage}{151}
+\indexentry{LAN|hyperpage}{151}
+\indexentry{PAN|hyperpage}{151}
+\indexentry{MAN|hyperpage}{152}
+\indexentry{authenticator|hyperpage}{152}
+\indexentry{CBC|hyperpage}{152}
+\indexentry{CTS|hyperpage}{152}
+\indexentry{NTP|hyperpage}{152}
+\indexentry{password tiredness|hyperpage}{152}
+\indexentry{session key|hyperpage}{152}
+\indexentry{single sign-on (SSO)|hyperpage}{152}
+\indexentry{service!secure|hyperpage}{153}
+\indexentry{authentication|hyperpage}{153}
+\indexentry{service|hyperpage}{153}
+\indexentry{service!sequence preserving|hyperpage}{153}
+\indexentry{connection|hyperpage}{154}
+\indexentry{CIA target|hyperpage}{154}
+\indexentry{Merkle-Damgaard construction!corruption|hyperpage}{154}
+\indexentry{Merkle-Damgaard construction!forgery|hyperpage}{154}
+\indexentry{Merkle-Damgaard construction!loss|hyperpage}{154}
+\indexentry{non-repudiation|hyperpage}{154}
+\indexentry{Secure Shell (SSH)!target|hyperpage}{154}
+\indexentry{service!connection-oriented|hyperpage}{154}
+\indexentry{service!connectionless|hyperpage}{154}
+\indexentry{service!error-free|hyperpage}{154}
+\indexentry{message format|hyperpage}{155}
+\indexentry{Protocol Control Information (PCI)|hyperpage}{155}
+\indexentry{rule of procedure|hyperpage}{155}
+\indexentry{service!stream-oriented|hyperpage}{155}
+\indexentry{end-to-end|hyperpage}{157}
+\indexentry{Internet layer|hyperpage}{157}
+\indexentry{Link layer|hyperpage}{157}
+\indexentry{Physical layer|hyperpage}{157}
+\indexentry{shared medium|hyperpage}{157}
+\indexentry{Transport layer|hyperpage}{157}
+\indexentry{decapsulation|hyperpage}{158}
+\indexentry{encapsulation|hyperpage}{158}
+\indexentry{LAN!Application|hyperpage}{158}
+\indexentry{LAN!Physical|hyperpage}{158}
+\indexentry{Network access layer|hyperpage}{158}
+\indexentry{Physical layer|hyperpage}{158}
+\indexentry{address|hyperpage}{159}
+\indexentry{IP address|hyperpage}{159}
+\indexentry{MAC address|hyperpage}{159}
+\indexentry{port number|hyperpage}{159}
+\indexentry{router|hyperpage}{159}
+\indexentry{sniﬀer|hyperpage}{159}
+\indexentry{name administrator|hyperpage}{160}
+\indexentry{domain|hyperpage}{160}
+\indexentry{Internet name|hyperpage}{160}
+\indexentry{Take Ownership!port|hyperpage}{161}
+\indexentry{UDP!port|hyperpage}{161}
+\indexentry{IP Version 4 (IPv4)|hyperpage}{161}
+\indexentry{IP Version 6 (IPv6)|hyperpage}{161}
+\indexentry{whois|hyperpage}{161}
+\indexentry{geolocation software|hyperpage}{163}
+\indexentry{IANA|hyperpage}{163}
+\indexentry{IOT|hyperpage}{163}
+\indexentry{POP3!allocated|hyperpage}{163}
+\indexentry{POP3!TCP|hyperpage}{163}
+\indexentry{POP3!UDP|hyperpage}{163}
+\indexentry{ﬁrmware!TCP|hyperpage}{163}
+\indexentry{header|hyperpage}{163}
+\indexentry{IANA|hyperpage}{163}
+\indexentry{payload|hyperpage}{163}
+\indexentry{POP3!freely available|hyperpage}{163}
+\indexentry{POP3!registered|hyperpage}{163}
+\indexentry{protocol!TCP|hyperpage}{163}
+\indexentry{seq|hyperpage}{163}
+\indexentry{sequence number|hyperpage}{163}
+\indexentry{Take Ownership!ﬂag|hyperpage}{163}
+\indexentry{ack|hyperpage}{165}
+\indexentry{ack|hyperpage}{165}
+\indexentry{3-way handshake|hyperpage}{165}
+\indexentry{DNS|hyperpage}{168}
+\indexentry{DNS!operation|hyperpage}{168}
+\indexentry{DNS!resolver|hyperpage}{168}
+\indexentry{DNS!root server|hyperpage}{168}
+\indexentry{protocol!DNS|hyperpage}{168}
+\indexentry{resolver|hyperpage}{168}
+\indexentry{root server|hyperpage}{168}
+\indexentry{UDP|hyperpage}{168}
+\indexentry{ARP|hyperpage}{169}
+\indexentry{ARP cache|hyperpage}{169}
+\indexentry{cache|hyperpage}{169}
+\indexentry{cache!ARP|hyperpage}{169}
+\indexentry{cache!DNS|hyperpage}{169}
+\indexentry{DNS!cache|hyperpage}{169}
+\indexentry{DNS!resolver|hyperpage}{169}
+\indexentry{frame|hyperpage}{169}
+\indexentry{Network technology|hyperpage}{169}
+\indexentry{protocol!ARP|hyperpage}{169}
+\indexentry{resolver|hyperpage}{169}
+\indexentry{bridge|hyperpage}{170}
+\indexentry{ﬁrewall|hyperpage}{170}
+\indexentry{gateway|hyperpage}{170}
+\indexentry{ISP|hyperpage}{170}
+\indexentry{router|hyperpage}{170}
+\indexentry{DoS attack|hyperpage}{172}
+\indexentry{Ethernet|hyperpage}{172}
+\indexentry{IDS!802.3|hyperpage}{172}
+\indexentry{MAC protocol|hyperpage}{172}
+\indexentry{Media Access protocol|hyperpage}{172}
+\indexentry{point-to-point|hyperpage}{172}
+\indexentry{shared medium!cable-based|hyperpage}{172}
+\indexentry{sniﬀer|hyperpage}{172}
+\indexentry{shared medium|hyperpage}{173}
+\indexentry{MAN|hyperpage}{173}
+\indexentry{WiFi!ESS|hyperpage}{175}
+\indexentry{Ethernet!switched|hyperpage}{175}
+\indexentry{IDS!802 series|hyperpage}{175}
+\indexentry{IDS!802.11|hyperpage}{175}
+\indexentry{IDS!802.15|hyperpage}{175}
+\indexentry{IDS!802.16|hyperpage}{175}
+\indexentry{interoperability|hyperpage}{175}
+\indexentry{LAN|hyperpage}{175}
+\indexentry{PAN|hyperpage}{175}
+\indexentry{shared medium!wireless|hyperpage}{175}
+\indexentry{switch|hyperpage}{175}
+\indexentry{WAN|hyperpage}{175}
+\indexentry{WiFi|hyperpage}{175}
+\indexentry{wireless network|hyperpage}{175}
+\indexentry{EDGE|hyperpage}{177}
+\indexentry{Evolved HSPA|hyperpage}{177}
+\indexentry{GPRS|hyperpage}{177}
+\indexentry{GSM|hyperpage}{177}
+\indexentry{mobile telephone network|hyperpage}{177}
+\indexentry{mobile telephone network!2G|hyperpage}{177}
+\indexentry{mobile telephone network!3G|hyperpage}{177}
+\indexentry{mobile telephone network!GPRS|hyperpage}{177}
+\indexentry{mobile telephone network!GSM|hyperpage}{177}
+\indexentry{mobile telephone network!UMTS|hyperpage}{177}
+\indexentry{service!SMS|hyperpage}{177}
+\indexentry{UMTS|hyperpage}{177}
+\indexentry{Home Location Register (HLR)|hyperpage}{178}
+\indexentry{identity module (IM)|hyperpage}{178}
+\indexentry{IMSI|hyperpage}{178}
+\indexentry{mobile telephone network!HLR|hyperpage}{178}
+\indexentry{mobile telephone network!VLR|hyperpage}{178}
+\indexentry{mobile unit|hyperpage}{178}
+\indexentry{MSISDN|hyperpage}{178}
+\indexentry{roaming|hyperpage}{178}
+\indexentry{SIM card|hyperpage}{178}
+\indexentry{smartcard|hyperpage}{178}
+\indexentry{Subscriber Identity Module|hyperpage}{178}
+\indexentry{Visitor Location Register (VLR)|hyperpage}{178}
+\indexentry{BTS|hyperpage}{179}
+\indexentry{IOT|hyperpage}{179}
+\indexentry{LTE Advanced|hyperpage}{179}
+\indexentry{mobile telephone network!4G|hyperpage}{179}
+\indexentry{mobile telephone network!5G|hyperpage}{179}
+\indexentry{mobile telephone network!core network|hyperpage}{179}
+\indexentry{mobile telephone network!GSM|hyperpage}{179}
+\indexentry{WiMAX|hyperpage}{179}
+\indexentry{anomaly detection|hyperpage}{181}
+\indexentry{AV system!anomaly detection|hyperpage}{181}
+\indexentry{AV system!behaviour based|hyperpage}{181}
+\indexentry{AV system!misuse detection|hyperpage}{181}
+\indexentry{cloud|hyperpage}{181}
+\indexentry{false negative|hyperpage}{181}
+\indexentry{false positive|hyperpage}{181}
+\indexentry{misuse detection|hyperpage}{181}
+\indexentry{process hollowing|hyperpage}{181}
+\indexentry{AuC|hyperpage}{181}
+\indexentry{mobile telephone network!AuC|hyperpage}{181}
+\indexentry{RFC|hyperpage}{183}
+\indexentry{arbitrator!client-server|hyperpage}{187}
+\indexentry{client-server architecture|hyperpage}{187}
+\indexentry{IMAP|hyperpage}{187}
+\indexentry{mailbox|hyperpage}{187}
+\indexentry{POP3|hyperpage}{187}
+\indexentry{protocol!IMAP|hyperpage}{187}
+\indexentry{protocol!POP3|hyperpage}{187}
+\indexentry{protocol!SMTP|hyperpage}{187}
+\indexentry{SMTP|hyperpage}{187}
+\indexentry{SMTP!command|hyperpage}{187}
+\indexentry{SMTP!mailbox|hyperpage}{187}
+\indexentry{SMTP!response|hyperpage}{187}
+\indexentry{SMTP!risks|hyperpage}{188}
+\indexentry{service extension|hyperpage}{188}
+\indexentry{SMTP!operation|hyperpage}{188}
+\indexentry{RR|hyperpage}{189}
+\indexentry{DNS|hyperpage}{189}
+\indexentry{phishing!e-mail|hyperpage}{190}
+\indexentry{SMTP!spooﬁng|hyperpage}{190}
+\indexentry{spam mail|hyperpage}{190}
+\indexentry{spooﬁng!e-mail|hyperpage}{190}
+\indexentry{SMTP!header line|hyperpage}{192}
+\indexentry{SMTP!Message-ID|hyperpage}{192}
+\indexentry{SMTP!tracking|hyperpage}{192}
+\indexentry{iris recognition!8859-1|hyperpage}{195}
+\indexentry{MIME!entity|hyperpage}{195}
+\indexentry{MIME!header ﬁeld|hyperpage}{195}
+\indexentry{MIME!type|hyperpage}{195}
+\indexentry{base64 encoding|hyperpage}{197}
+\indexentry{MIME!subtype|hyperpage}{197}
+\indexentry{HTTP!link|hyperpage}{198}
+\indexentry{link|hyperpage}{198}
+\indexentry{protocol!HTTP|hyperpage}{198}
+\indexentry{DSA|hyperpage}{198}
+\indexentry{electronic signature!with appendix|hyperpage}{198}
+\indexentry{PKCS#7|hyperpage}{198}
+\indexentry{RSA|hyperpage}{198}
+\indexentry{S/MIME|hyperpage}{198}
+\indexentry{HTTP!architecture|hyperpage}{198}
+\indexentry{URI|hyperpage}{199}
+\indexentry{HTTP|hyperpage}{199}
+\indexentry{HTTP!request|hyperpage}{199}
+\indexentry{hyperlink|hyperpage}{199}
+\indexentry{hypertext|hyperpage}{199}
+\indexentry{method|hyperpage}{199}
+\indexentry{request|hyperpage}{199}
+\indexentry{HTTP!operation of|hyperpage}{200}
+\indexentry{HTTP!response|hyperpage}{200}
+\indexentry{HTTP!return code|hyperpage}{200}
+\indexentry{response|hyperpage}{200}
+\indexentry{return code|hyperpage}{200}
+\indexentry{scheme|hyperpage}{200}
+\indexentry{URI!password|hyperpage}{200}
+\indexentry{URI!scheme|hyperpage}{200}
+\indexentry{URI!userid|hyperpage}{200}
+\indexentry{URI!port number|hyperpage}{200}
+\indexentry{HTML!href|hyperpage}{201}
+\indexentry{scheme|hyperpage}{201}
+\indexentry{URI!path|hyperpage}{201}
+\indexentry{URI!query|hyperpage}{201}
+\indexentry{URI!scheme|hyperpage}{201}
+\indexentry{HTML|hyperpage}{202}
+\indexentry{HTML!character code|hyperpage}{202}
+\indexentry{active server page|hyperpage}{202}
+\indexentry{applet|hyperpage}{202}
+\indexentry{HTML!anchor|hyperpage}{202}
+\indexentry{HTML!link|hyperpage}{202}
+\indexentry{HTTP!method|hyperpage}{202}
+\indexentry{link|hyperpage}{202}
+\indexentry{server script|hyperpage}{202}
+\indexentry{HTTP!request|hyperpage}{205}
+\indexentry{HTTP!response|hyperpage}{205}
+\indexentry{cache!HTTP|hyperpage}{205}
+\indexentry{cache!HTTP|hyperpage}{205}
+\indexentry{HTTP!cache|hyperpage}{205}
+\indexentry{HTTP!cache|hyperpage}{205}
+\indexentry{availability|hyperpage}{210}
+\indexentry{CIA target|hyperpage}{210}
+\indexentry{conﬁdentiality|hyperpage}{210}
+\indexentry{encryption|hyperpage}{210}
+\indexentry{encryption!in layered architecture|hyperpage}{210}
+\indexentry{integrity|hyperpage}{210}
+\indexentry{applet!encryption|hyperpage}{211}
+\indexentry{encryption!in Application layer|hyperpage}{211}
+\indexentry{spooﬁng!IP|hyperpage}{211}
+\indexentry{cloud|hyperpage}{213}
+\indexentry{ransomware|hyperpage}{213}
+\indexentry{encryption!in Link layer|hyperpage}{214}
+\indexentry{Link layer!encryption|hyperpage}{214}
+\indexentry{sniﬀer|hyperpage}{214}
+\indexentry{switch|hyperpage}{214}
+\indexentry{S/MIME|hyperpage}{215}
+\indexentry{MIME!subtype|hyperpage}{215}
+\indexentry{MIME!type|hyperpage}{215}
+\indexentry{S/MIME!type|hyperpage}{215}
+\indexentry{applet!encryption|hyperpage}{215}
+\indexentry{certiﬁcate|hyperpage}{215}
+\indexentry{encryption!in Application layer|hyperpage}{215}
+\indexentry{encryption!in Physical layer|hyperpage}{215}
+\indexentry{PGP|hyperpage}{215}
+\indexentry{Physical layer!encryption|hyperpage}{215}
+\indexentry{session key|hyperpage}{215}
+\indexentry{S/MIME|hyperpage}{215}
+\indexentry{certiﬁcate|hyperpage}{217}
+\indexentry{MD5|hyperpage}{217}
+\indexentry{PKCS#7|hyperpage}{217}
+\indexentry{Secure Hash Algorithm (SHA)|hyperpage}{217}
+\indexentry{session key|hyperpage}{217}
+\indexentry{Triple-DES (3DES)|hyperpage}{217}
+\indexentry{PGP|hyperpage}{218}
+\indexentry{MIME!subtype|hyperpage}{220}
+\indexentry{tunneling|hyperpage}{220}
+\indexentry{usability|hyperpage}{220}
+\indexentry{VPN|hyperpage}{220}
+\indexentry{IPsec|hyperpage}{221}
+\indexentry{SSL|hyperpage}{221}
+\indexentry{TLS|hyperpage}{221}
+\indexentry{Tor|hyperpage}{222}
+\indexentry{anti-terror laws|hyperpage}{222}
+\indexentry{COSO!Terrorism|hyperpage}{222}
+\indexentry{extradite-or-prosecute|hyperpage}{222}
+\indexentry{jurisdiction!universal|hyperpage}{222}
+\indexentry{dark Internet|hyperpage}{223}
+\indexentry{man-in-the-middle!redirection|hyperpage}{225}
+\indexentry{block cipher!mode|hyperpage}{225}
+\indexentry{CBC|hyperpage}{225}
+\indexentry{redirection attack|hyperpage}{225}
+\indexentry{security parameter|hyperpage}{225}
+\indexentry{SSL!security parameter set|hyperpage}{225}
+\indexentry{data leakage|hyperpage}{226}
+\indexentry{GDPR!Data Protection Oﬃcer (DPO)|hyperpage}{226}
+\indexentry{European Data Protection Supervisor (EDPS)!security of processing|hyperpage}{226}
+\indexentry{metadata|hyperpage}{226}
+\indexentry{CBC|hyperpage}{230}
+\indexentry{CCM|hyperpage}{230}
+\indexentry{ChaCha20|hyperpage}{230}
+\indexentry{RC4!vulnerabilities|hyperpage}{230}
+\indexentry{SSL!securing application protocols|hyperpage}{230}
+\indexentry{STARTTLS|hyperpage}{230}
+\indexentry{man-in-the-middle|hyperpage}{231}
+\indexentry{certiﬁcate!risks|hyperpage}{231}
+\indexentry{spooﬁng!IP|hyperpage}{231}
+\indexentry{certiﬁcate!OCSP|hyperpage}{238}
+\indexentry{certiﬁcate!revocation|hyperpage}{238}
+\indexentry{CRL|hyperpage}{238}
+\indexentry{OCSP|hyperpage}{238}
+\indexentry{OCSP!responder|hyperpage}{238}
+\indexentry{OCSP!response|hyperpage}{238}
+\indexentry{OCSP!stapling|hyperpage}{238}
+\indexentry{ﬁrewall|hyperpage}{242}
+\indexentry{ﬁrewall!packet ﬁlter (PF)|hyperpage}{242}
+\indexentry{dynamic packet ﬁlter|hyperpage}{243}
+\indexentry{egress ﬁlter|hyperpage}{243}
+\indexentry{ﬁrewall!application proxy|hyperpage}{243}
+\indexentry{ﬁrewall!Stateful Packet Inspection (SPI)|hyperpage}{243}
+\indexentry{ingress ﬁlter|hyperpage}{243}
+\indexentry{bastion host|hyperpage}{245}
+\indexentry{dual-homed host|hyperpage}{245}
+\indexentry{ﬁrewall!placement|hyperpage}{245}
+\indexentry{hardening|hyperpage}{245}
+\indexentry{proxy|hyperpage}{245}
+\indexentry{screening router|hyperpage}{245}
+\indexentry{screened host|hyperpage}{248}
+\indexentry{bastion host|hyperpage}{248}
+\indexentry{DMZ|hyperpage}{248}
+\indexentry{DMZ!split|hyperpage}{248}
+\indexentry{ﬁrewall!tre-benet|hyperpage}{248}
+\indexentry{screened subnet|hyperpage}{248}
+\indexentry{security in depth|hyperpage}{248}
+\indexentry{bastion host|hyperpage}{250}
+\indexentry{DMZ|hyperpage}{250}
+\indexentry{ﬁrewall!personal|hyperpage}{250}
+\indexentry{ﬁrewall!residual risks|hyperpage}{250}
+\indexentry{personal ﬁrewall|hyperpage}{250}
+\indexentry{anomaly detection|hyperpage}{252}
+\indexentry{IDPS|hyperpage}{252}
+\indexentry{IDS|hyperpage}{252}
+\indexentry{IDS!anomaly detection|hyperpage}{252}
+\indexentry{IDS!misuse detection|hyperpage}{252}
+\indexentry{misuse detection|hyperpage}{252}
+\indexentry{signature|hyperpage}{252}
+\indexentry{signature based analysis|hyperpage}{252}
+\indexentry{baseline based analysis|hyperpage}{253}
+\indexentry{discriminator|hyperpage}{253}
+\indexentry{false negative|hyperpage}{253}
+\indexentry{false positive|hyperpage}{253}
+\indexentry{FNR|hyperpage}{253}
+\indexentry{FPR|hyperpage}{253}
+\indexentry{neural network|hyperpage}{253}
+\indexentry{wireless network!security|hyperpage}{254}
+\indexentry{HIDS|hyperpage}{254}
+\indexentry{IDS!in host|hyperpage}{254}
+\indexentry{IDS!in network|hyperpage}{254}
+\indexentry{NIDS|hyperpage}{254}
+\indexentry{RC4|hyperpage}{255}
+\indexentry{attack!DoS|hyperpage}{256}
+\indexentry{man-in-the-middle|hyperpage}{256}
+\indexentry{Merkle-Damgaard construction!forgery|hyperpage}{256}
+\indexentry{modulus!passive|hyperpage}{256}
+\indexentry{replaying|hyperpage}{256}
+\indexentry{authentication!server|hyperpage}{256}
+\indexentry{Bluesnarﬁng!security|hyperpage}{257}
+\indexentry{memory card|hyperpage}{257}
+\indexentry{Secure Digital (SD)|hyperpage}{257}
+\indexentry{CCM|hyperpage}{258}
+\indexentry{Change Permissions!cryptographic|hyperpage}{258}
+\indexentry{EAP|hyperpage}{258}
+\indexentry{IDS!802.1X|hyperpage}{258}
+\indexentry{IDS!802.11i|hyperpage}{258}
+\indexentry{Michael cryptographic checksum|hyperpage}{258}
+\indexentry{RSN|hyperpage}{258}
+\indexentry{TKIP|hyperpage}{258}
+\indexentry{WiFi!RSN|hyperpage}{258}
+\indexentry{WiFi!WPA|hyperpage}{258}
+\indexentry{WiFi!WPA2|hyperpage}{258}
+\indexentry{WPA|hyperpage}{258}
+\indexentry{WPA2|hyperpage}{258}
+\indexentry{Bluesnarﬁng!encryption key|hyperpage}{258}
+\indexentry{Bluesnarﬁng!link key|hyperpage}{259}
+\indexentry{Bluesnarﬁng!pairing|hyperpage}{259}
+\indexentry{E0|hyperpage}{259}
+\indexentry{IDS!802.1X|hyperpage}{259}
+\indexentry{link key|hyperpage}{259}
+\indexentry{pairing|hyperpage}{259}
+\indexentry{GSM!security|hyperpage}{260}
+\indexentry{mobile telephone network!security|hyperpage}{260}
+\indexentry{Bluesnarﬁng!authentication|hyperpage}{260}
+\indexentry{GSM!authentication|hyperpage}{260}
+\indexentry{attack!brute-force|hyperpage}{260}
+\indexentry{man-in-the-middle|hyperpage}{260}
+\indexentry{Bluesnarﬁng!SSP|hyperpage}{260}
+\indexentry{brute-force attack|hyperpage}{260}
+\indexentry{Diﬃe-Hellman key agreement!in Bluetooth|hyperpage}{260}
+\indexentry{discoverable|hyperpage}{260}
+\indexentry{key agreement!in Bluetooth|hyperpage}{260}
+\indexentry{link key|hyperpage}{260}
+\indexentry{AuC|hyperpage}{262}
+\indexentry{Bluebugging|hyperpage}{262}
+\indexentry{Bluejacking|hyperpage}{262}
+\indexentry{Bluesnarﬁng|hyperpage}{262}
+\indexentry{GSM!encryption|hyperpage}{262}
+\indexentry{SIM card|hyperpage}{262}
+\indexentry{divide-and-conquer|hyperpage}{265}
+\indexentry{tiered architecture|hyperpage}{265}
+\indexentry{session key|hyperpage}{265}
+\indexentry{AuC|hyperpage}{266}
+\indexentry{mobile telephone network!UMTS|hyperpage}{266}
+\indexentry{RNC|hyperpage}{266}
+\indexentry{smartcard!UICC|hyperpage}{266}
+\indexentry{UMTS!authentication vector|hyperpage}{266}
+\indexentry{UMTS!security|hyperpage}{266}
+\indexentry{BTS!false|hyperpage}{268}
+\indexentry{man-in-the-middle|hyperpage}{268}
+\indexentry{mobile device security|hyperpage}{268}
+\indexentry{StingRay|hyperpage}{268}
+\indexentry{BYOD|hyperpage}{270}
+\indexentry{HTML|hyperpage}{270}
+\indexentry{HTML!anchor|hyperpage}{270}
+\indexentry{HTML!href|hyperpage}{270}
+\indexentry{link|hyperpage}{270}
+\indexentry{MMI code|hyperpage}{270}
+\indexentry{scheme|hyperpage}{270}
+\indexentry{SS code|hyperpage}{270}
+\indexentry{URI!scheme|hyperpage}{270}
+\indexentry{attack|hyperpage}{270}
+\indexentry{attack!DoS|hyperpage}{272}
+\indexentry{availability|hyperpage}{272}
+\indexentry{DDoS attack|hyperpage}{272}
+\indexentry{DoS attack|hyperpage}{272}
+\indexentry{DoS attack!fast|hyperpage}{272}
+\indexentry{DoS attack!slow|hyperpage}{272}
+\indexentry{Slowloris|hyperpage}{272}
+\indexentry{DoS attack!slow|hyperpage}{273}
+\indexentry{protocol!TCP|hyperpage}{273}
+\indexentry{spooﬁng!TCP SYN|hyperpage}{273}
+\indexentry{SYN ﬂood|hyperpage}{273}
+\indexentry{SYN spoof|hyperpage}{273}
+\indexentry{timeout time|hyperpage}{273}
+\indexentry{ampliﬁcation|hyperpage}{275}
+\indexentry{ampliﬁer|hyperpage}{275}
+\indexentry{protocol!ICMP|hyperpage}{275}
+\indexentry{Smurf attack|hyperpage}{275}
+\indexentry{spooﬁng!ICMP|hyperpage}{275}
+\indexentry{botnet|hyperpage}{277}
+\indexentry{DDoS attack|hyperpage}{277}
+\indexentry{peer-to-peer (P2P)|hyperpage}{277}
+\indexentry{zombie|hyperpage}{277}
+\indexentry{ampliﬁer|hyperpage}{278}
+\indexentry{IOT|hyperpage}{278}
+\indexentry{NEED|hyperpage}{278}
+\indexentry{PDoS|hyperpage}{278}
+\indexentry{spooﬁng!DNS|hyperpage}{278}
+\indexentry{DNS!security|hyperpage}{280}
+\indexentry{SMTP!security|hyperpage}{280}
+\indexentry{DNS!authentication|hyperpage}{280}
+\indexentry{DNS!integrity|hyperpage}{280}
+\indexentry{authoritative DNS-server|hyperpage}{280}
+\indexentry{cache!DNS|hyperpage}{280}
+\indexentry{DNS!resolver|hyperpage}{280}
+\indexentry{DNS!server|hyperpage}{280}
+\indexentry{egress ﬁlter|hyperpage}{280}
+\indexentry{ingress ﬁlter|hyperpage}{280}
+\indexentry{resolver|hyperpage}{280}
+\indexentry{cache poisoning|hyperpage}{280}
+\indexentry{DNSSEC|hyperpage}{280}
+\indexentry{electronic signature|hyperpage}{280}
+\indexentry{UDP|hyperpage}{280}
+\indexentry{SPF!mechanism|hyperpage}{282}
+\indexentry{DKIM|hyperpage}{283}
+\indexentry{DNS|hyperpage}{283}
+\indexentry{DNS!conﬁdentiality|hyperpage}{283}
+\indexentry{DNS!zone transfer|hyperpage}{283}
+\indexentry{HSM|hyperpage}{283}
+\indexentry{protocol!SMTP|hyperpage}{283}
+\indexentry{SMTP!spooﬁng|hyperpage}{283}
+\indexentry{SPF|hyperpage}{283}
+\indexentry{spooﬁng|hyperpage}{283}
+\indexentry{zone transfer|hyperpage}{283}
+\indexentry{Zone Walking|hyperpage}{283}
+\indexentry{IP address!range|hyperpage}{284}
+\indexentry{SPF!policy|hyperpage}{284}
+\indexentry{SPF!qualiﬁer|hyperpage}{284}
+\indexentry{DKIM|hyperpage}{285}
+\indexentry{DKIM!signature|hyperpage}{285}
+\indexentry{SMTP!error code|hyperpage}{285}
+\indexentry{SMTP!header line|hyperpage}{285}
+\indexentry{DKIM!tag|hyperpage}{287}
+\indexentry{SNMP!security|hyperpage}{287}
+\indexentry{protocol!SNMP|hyperpage}{287}
+\indexentry{SNMP|hyperpage}{287}
+\indexentry{community string!default|hyperpage}{287}
+\indexentry{community string|hyperpage}{289}
+\indexentry{Management Information Base (MIB)|hyperpage}{289}
+\indexentry{critical infrastructure|hyperpage}{290}
+\indexentry{redundancy|hyperpage}{290}
+\indexentry{NSA|hyperpage}{290}
+\indexentry{CIP|hyperpage}{292}
+\indexentry{ANT catalog|hyperpage}{294}
+\indexentry{OS!security|hyperpage}{300}
+\indexentry{Reference Monitor (RM)|hyperpage}{303}
+\indexentry{smartcard|hyperpage}{303}
+\indexentry{authentication!biometric|hyperpage}{304}
+\indexentry{biometric authentication|hyperpage}{304}
+\indexentry{biometric parameter|hyperpage}{304}
+\indexentry{false acceptance|hyperpage}{304}
+\indexentry{false rejection|hyperpage}{304}
+\indexentry{ﬁngerprint|hyperpage}{304}
+\indexentry{face recognition|hyperpage}{305}
+\indexentry{ﬁnger pattern|hyperpage}{306}
+\indexentry{iris recognition|hyperpage}{306}
+\indexentry{template|hyperpage}{307}
+\indexentry{vein pattern|hyperpage}{307}
+\indexentry{attack!brute-force|hyperpage}{308}
+\indexentry{attack!dictionary|hyperpage}{308}
+\indexentry{authentication!password|hyperpage}{308}
+\indexentry{brute-force attack|hyperpage}{308}
+\indexentry{dictionary attack|hyperpage}{308}
+\indexentry{password|hyperpage}{308}
+\indexentry{password!strength|hyperpage}{308}
+\indexentry{social engineering|hyperpage}{308}
+\indexentry{ISO-latin-1 printable|hyperpage}{310}
+\indexentry{password!protection|hyperpage}{311}
+\indexentry{attack!dictionary|hyperpage}{311}
+\indexentry{password!choice|hyperpage}{311}
+\indexentry{salt|hyperpage}{311}
+\indexentry{authentication!one-time password|hyperpage}{313}
+\indexentry{authentication code|hyperpage}{313}
+\indexentry{challenge-response|hyperpage}{313}
+\indexentry{one-time password|hyperpage}{313}
+\indexentry{OTP device|hyperpage}{313}
+\indexentry{authentication!pattern lock|hyperpage}{314}
+\indexentry{pattern lock|hyperpage}{314}
+\indexentry{authentication!server|hyperpage}{314}
+\indexentry{authentication!multi-factor|hyperpage}{316}
+\indexentry{authentication!through the net|hyperpage}{316}
+\indexentry{authentication!trends|hyperpage}{316}
+\indexentry{eID|hyperpage}{316}
+\indexentry{multi-factor authentication|hyperpage}{316}
+\indexentry{passkey|hyperpage}{316}
+\indexentry{Secure Shell (SSH)|hyperpage}{316}
+\indexentry{block cipher!mode|hyperpage}{317}
+\indexentry{authentication!kerberos|hyperpage}{317}
+\indexentry{kerberos|hyperpage}{317}
+\indexentry{session key|hyperpage}{317}
+\indexentry{TGT|hyperpage}{317}
+\indexentry{Ticket Granting Server (TGS)|hyperpage}{317}
+\indexentry{tickets|hyperpage}{317}
+\indexentry{authorisation|hyperpage}{321}
+\indexentry{object|hyperpage}{321}
+\indexentry{right|hyperpage}{321}
+\indexentry{separation|hyperpage}{321}
+\indexentry{subject|hyperpage}{321}
+\indexentry{administrator|hyperpage}{321}
+\indexentry{DAC|hyperpage}{321}
+\indexentry{FreeBSD|hyperpage}{321}
+\indexentry{Least Privilege|hyperpage}{321}
+\indexentry{MAC|hyperpage}{321}
+\indexentry{object!owner|hyperpage}{321}
+\indexentry{role|hyperpage}{321}
+\indexentry{Role Based Access Control (RBAC)|hyperpage}{321}
+\indexentry{root|hyperpage}{321}
+\indexentry{SELinux|hyperpage}{321}
+\indexentry{TrustedBSD|hyperpage}{321}
+\indexentry{access control matrix (ACM)|hyperpage}{326}
+\indexentry{Fail-safe Defaults|hyperpage}{326}
+\indexentry{object|hyperpage}{326}
+\indexentry{object!owner|hyperpage}{326}
+\indexentry{capability|hyperpage}{328}
+\indexentry{directory|hyperpage}{328}
+\indexentry{access!in ﬁle system|hyperpage}{329}
+\indexentry{Capsicum|hyperpage}{329}
+\indexentry{ﬁle system|hyperpage}{329}
+\indexentry{FreeBSD|hyperpage}{329}
+\indexentry{Fuchsia|hyperpage}{329}
+\indexentry{ACL!compressed|hyperpage}{330}
+\indexentry{administrator!privileges|hyperpage}{330}
+\indexentry{group|hyperpage}{330}
+\indexentry{owner|hyperpage}{330}
+\indexentry{root!privileges|hyperpage}{330}
+\indexentry{ﬁle descriptor!Unix|hyperpage}{331}
+\indexentry{ACL|hyperpage}{331}
+\indexentry{ACL|hyperpage}{332}
+\indexentry{FreeBSD|hyperpage}{332}
+\indexentry{Least Privilege|hyperpage}{332}
+\indexentry{Set Groupid|hyperpage}{332}
+\indexentry{Set Userid|hyperpage}{332}
+\indexentry{setgid|hyperpage}{332}
+\indexentry{setuid|hyperpage}{332}
+\indexentry{ﬁle descriptor!Windows|hyperpage}{333}
+\indexentry{permissions|hyperpage}{333}
+\indexentry{special permissions|hyperpage}{333}
+\indexentry{Change Permissions|hyperpage}{335}
+\indexentry{Full Control|hyperpage}{335}
+\indexentry{group|hyperpage}{335}
+\indexentry{subject|hyperpage}{335}
+\indexentry{Take Ownership|hyperpage}{335}
+\indexentry{access!hardware based|hyperpage}{338}
+\indexentry{access!in memory|hyperpage}{338}
+\indexentry{fence register|hyperpage}{338}
+\indexentry{memory!segmented|hyperpage}{338}
+\indexentry{MMU|hyperpage}{338}
+\indexentry{segment|hyperpage}{338}
+\indexentry{segment table|hyperpage}{338}
+\indexentry{memory!paging|hyperpage}{338}
+\indexentry{page table|hyperpage}{338}
+\indexentry{segment table|hyperpage}{338}
+\indexentry{Registry!key|hyperpage}{338}
+\indexentry{sidetabel|hyperpage}{340}
+\indexentry{swap area|hyperpage}{340}
+\indexentry{virtual memory|hyperpage}{340}
+\indexentry{access!for hardware units|hyperpage}{341}
+\indexentry{driver|hyperpage}{341}
+\indexentry{Registry|hyperpage}{341}
+\indexentry{Registry!subkey|hyperpage}{341}
+\indexentry{root keys|hyperpage}{341}
+\indexentry{CPU!mode|hyperpage}{341}
+\indexentry{access!for CPU|hyperpage}{342}
+\indexentry{protection ring|hyperpage}{342}
+\indexentry{access!in Android|hyperpage}{345}
+\indexentry{bytecode|hyperpage}{345}
+\indexentry{Dalvik|hyperpage}{345}
+\indexentry{hypervisor|hyperpage}{345}
+\indexentry{native code|hyperpage}{345}
+\indexentry{sandbox|hyperpage}{345}
+\indexentry{VM|hyperpage}{345}
+\indexentry{VM!guest|hyperpage}{345}
+\indexentry{VM!host|hyperpage}{345}
+\indexentry{Android|hyperpage}{345}
+\indexentry{privilege escalation|hyperpage}{345}
+\indexentry{rootkit|hyperpage}{345}
+\indexentry{rootkit!user mode|hyperpage}{345}
+\indexentry{Stuxnet|hyperpage}{345}
+\indexentry{FreeBSD|hyperpage}{348}
+\indexentry{WiMAX!XP|hyperpage}{348}
+\indexentry{API|hyperpage}{348}
+\indexentry{BIOS|hyperpage}{348}
+\indexentry{bootkit|hyperpage}{348}
+\indexentry{driver|hyperpage}{348}
+\indexentry{malware|hyperpage}{348}
+\indexentry{Master Boot Record|hyperpage}{348}
+\indexentry{OS!module|hyperpage}{348}
+\indexentry{Reference Monitor (RM)|hyperpage}{348}
+\indexentry{rootkit!BIOS|hyperpage}{348}
+\indexentry{rootkit!bootkit|hyperpage}{348}
+\indexentry{rootkit!kernel mode|hyperpage}{348}
+\indexentry{SELinux|hyperpage}{348}
+\indexentry{BitLocker|hyperpage}{349}
+\indexentry{encryption!Full Disk (FDE)|hyperpage}{349}
+\indexentry{encryption!in operating system|hyperpage}{349}
+\indexentry{encryption!transparent|hyperpage}{349}
+\indexentry{FDE|hyperpage}{349}
+\indexentry{FileVault|hyperpage}{349}
+\indexentry{mainframe|hyperpage}{349}
+\indexentry{metadata|hyperpage}{349}
+\indexentry{swap area|hyperpage}{349}
+\indexentry{transparent encryption|hyperpage}{349}
+\indexentry{TrueCrypt|hyperpage}{349}
+\indexentry{3DES|hyperpage}{351}
+\indexentry{AES|hyperpage}{351}
+\indexentry{attack!cold boot|hyperpage}{351}
+\indexentry{authentication!pre-boot|hyperpage}{351}
+\indexentry{ISO-latin-1 printable!11889:2009|hyperpage}{351}
+\indexentry{keyring|hyperpage}{351}
+\indexentry{keystore|hyperpage}{351}
+\indexentry{pre-boot authentication|hyperpage}{351}
+\indexentry{round key|hyperpage}{351}
+\indexentry{smartcard|hyperpage}{351}
+\indexentry{standby state|hyperpage}{351}
+\indexentry{Trusted Platform Module (TPM)|hyperpage}{351}
+\indexentry{hibernate state|hyperpage}{352}
+\indexentry{job scheduling|hyperpage}{352}
+\indexentry{CVE system|hyperpage}{353}
+\indexentry{OS!updating|hyperpage}{353}
+\indexentry{WannaCry|hyperpage}{353}
+\indexentry{man-in-the-middle!zero-day|hyperpage}{354}
+\indexentry{ﬁrmware|hyperpage}{354}
+\indexentry{IDS|hyperpage}{354}
+\indexentry{Secure Boot|hyperpage}{354}
+\indexentry{zero-day attack|hyperpage}{354}
+\indexentry{BIOS|hyperpage}{356}
+\indexentry{boot loader|hyperpage}{356}
+\indexentry{boot manager|hyperpage}{356}
+\indexentry{boot sector|hyperpage}{356}
+\indexentry{bootkit|hyperpage}{356}
+\indexentry{digital signature|hyperpage}{356}
+\indexentry{Key Exchange Key (KEK)|hyperpage}{356}
+\indexentry{MBR|hyperpage}{356}
+\indexentry{Platform Key (PK)|hyperpage}{356}
+\indexentry{UEFI|hyperpage}{356}
+\indexentry{UEFI!boot loader|hyperpage}{356}
+\indexentry{UEFI!boot manager|hyperpage}{356}
+\indexentry{UEFI!KEK|hyperpage}{356}
+\indexentry{UEFI!PK|hyperpage}{356}
+\indexentry{UEFI!trust|hyperpage}{356}
+\indexentry{keylogger|hyperpage}{358}
+\indexentry{physical security|hyperpage}{358}
+\indexentry{Common Criteria (CC)|hyperpage}{360}
+\indexentry{MAC|hyperpage}{360}
+\indexentry{MLS|hyperpage}{360}
+\indexentry{OS!trusted|hyperpage}{360}
+\indexentry{Common Criteria (CC)!evaluation|hyperpage}{361}
+\indexentry{EAL|hyperpage}{361}
+\indexentry{malware|hyperpage}{365}
+\indexentry{program vulnerability|hyperpage}{366}
+\indexentry{Secure Shell (SSH)!failure|hyperpage}{366}
+\indexentry{C|hyperpage}{367}
+\indexentry{buﬀer overﬂow|hyperpage}{367}
+\indexentry{stack|hyperpage}{367}
+\indexentry{stack overﬂow|hyperpage}{367}
+\indexentry{safe library|hyperpage}{369}
+\indexentry{software!vulnerability|hyperpage}{369}
+\indexentry{buﬀer overread|hyperpage}{370}
+\indexentry{Heartbleed bug|hyperpage}{370}
+\indexentry{OpenSSL|hyperpage}{370}
+\indexentry{TLS!Heartbleed|hyperpage}{370}
+\indexentry{ﬁle descriptor|hyperpage}{371}
+\indexentry{incomplete mediation|hyperpage}{371}
+\indexentry{mediation|hyperpage}{371}
+\indexentry{software!injection|hyperpage}{371}
+\indexentry{TOCTTOU ﬂaw|hyperpage}{371}
+\indexentry{race condition|hyperpage}{372}
+\indexentry{software!test|hyperpage}{372}
+\indexentry{C|hyperpage}{372}
+\indexentry{cloud|hyperpage}{373}
+\indexentry{fuzz test|hyperpage}{373}
+\indexentry{pentest|hyperpage}{373}
+\indexentry{Temporal Key Integrity Protocol!blackbox|hyperpage}{373}
+\indexentry{Temporal Key Integrity Protocol!fuzz|hyperpage}{373}
+\indexentry{Temporal Key Integrity Protocol!penetration|hyperpage}{373}
+\indexentry{Temporal Key Integrity Protocol!whitebox|hyperpage}{373}
+\indexentry{virus!attack|hyperpage}{374}
+\indexentry{dynamic analysis|hyperpage}{374}
+\indexentry{GCC|hyperpage}{374}
+\indexentry{Java|hyperpage}{374}
+\indexentry{memory leak|hyperpage}{374}
+\indexentry{PHP|hyperpage}{374}
+\indexentry{program!dynamic|hyperpage}{374}
+\indexentry{program!static|hyperpage}{374}
+\indexentry{robustness|hyperpage}{374}
+\indexentry{static analysis|hyperpage}{374}
+\indexentry{backdoor|hyperpage}{375}
+\indexentry{logic bomb|hyperpage}{375}
+\indexentry{malicious code|hyperpage}{375}
+\indexentry{malware|hyperpage}{375}
+\indexentry{malware!backdoor|hyperpage}{375}
+\indexentry{malware!logic bomb|hyperpage}{375}
+\indexentry{malware!rabbit|hyperpage}{375}
+\indexentry{malware!ransomware|hyperpage}{375}
+\indexentry{malware!spyware|hyperpage}{375}
+\indexentry{malware!trojan horse|hyperpage}{375}
+\indexentry{malware!virus|hyperpage}{375}
+\indexentry{malware!worm|hyperpage}{375}
+\indexentry{rabbit|hyperpage}{375}
+\indexentry{ransomware|hyperpage}{375}
+\indexentry{spyware|hyperpage}{375}
+\indexentry{static analysis|hyperpage}{375}
+\indexentry{trojan horse|hyperpage}{375}
+\indexentry{virus|hyperpage}{375}
+\indexentry{worm|hyperpage}{375}
+\indexentry{worm!attack|hyperpage}{376}
+\indexentry{man-in-the-middle!virus-based|hyperpage}{376}
+\indexentry{virus!concealment|hyperpage}{376}
+\indexentry{virus!execution|hyperpage}{376}
+\indexentry{virus!placement|hyperpage}{376}
+\indexentry{entry point|hyperpage}{377}
+\indexentry{virus!placement|hyperpage}{377}
+\indexentry{virus!code|hyperpage}{377}
+\indexentry{man-in-the-middle!worm-based|hyperpage}{377}
+\indexentry{buﬀer overﬂow|hyperpage}{377}
+\indexentry{key logger|hyperpage}{377}
+\indexentry{process hollowing|hyperpage}{377}
+\indexentry{social engineering|hyperpage}{377}
+\indexentry{worm!payload|hyperpage}{377}
+\indexentry{worm!propagator|hyperpage}{377}
+\indexentry{software!vulnerability|hyperpage}{378}
+\indexentry{AV system|hyperpage}{379}
+\indexentry{AV system!behaviour based|hyperpage}{379}
+\indexentry{AV system!signature based|hyperpage}{379}
+\indexentry{Code Red|hyperpage}{379}
+\indexentry{Code Red!signature|hyperpage}{379}
+\indexentry{signature|hyperpage}{379}
+\indexentry{0-day attack|hyperpage}{380}
+\indexentry{attack!0-day|hyperpage}{380}
+\indexentry{AV system!in telephone|hyperpage}{380}
+\indexentry{ethical hacker|hyperpage}{380}
+\indexentry{LDAP|hyperpage}{384}
+\indexentry{LDAP!injection|hyperpage}{384}
+\indexentry{protocol!LDAP|hyperpage}{384}
+\indexentry{DIT|hyperpage}{384}
+\indexentry{LDAP!DIT|hyperpage}{384}
+\indexentry{LDAP!DIT|hyperpage}{384}
+\indexentry{metacharacters|hyperpage}{384}
+\indexentry{attribute|hyperpage}{385}
+\indexentry{canoniﬁcation|hyperpage}{385}
+\indexentry{Distinguished Name (DN)|hyperpage}{385}
+\indexentry{ISP!X.500 series|hyperpage}{385}
+\indexentry{LDAP!attribute|hyperpage}{385}
+\indexentry{X.500 Directory|hyperpage}{385}
+\indexentry{LDAP!object class|hyperpage}{387}
+\indexentry{LDAP!URI|hyperpage}{387}
+\indexentry{ISP!X.520|hyperpage}{388}
+\indexentry{LDAP!attribute|hyperpage}{388}
+\indexentry{X.500 name|hyperpage}{388}
+\indexentry{DIT|hyperpage}{388}
+\indexentry{LDAP!search|hyperpage}{389}
+\indexentry{script|hyperpage}{391}
+\indexentry{URI|hyperpage}{391}
+\indexentry{escaping|hyperpage}{392}
+\indexentry{HTTP!method|hyperpage}{392}
+\indexentry{HTTP!request|hyperpage}{392}
+\indexentry{HTTP!response|hyperpage}{392}
+\indexentry{LDAP!escaping|hyperpage}{392}
+\indexentry{LDAP!input control|hyperpage}{392}
+\indexentry{LDAP!metacharacters|hyperpage}{392}
+\indexentry{LDAP!type control|hyperpage}{392}
+\indexentry{type control|hyperpage}{392}
+\indexentry{HTTP!applications|hyperpage}{392}
+\indexentry{protocol!HTTP|hyperpage}{392}
+\indexentry{resource|hyperpage}{392}
+\indexentry{basic authentication|hyperpage}{393}
+\indexentry{cookie|hyperpage}{393}
+\indexentry{digest authentication|hyperpage}{393}
+\indexentry{HTTP!authentication|hyperpage}{393}
+\indexentry{HTTP!cookie|hyperpage}{393}
+\indexentry{HTTP!header ﬁeld|hyperpage}{393}
+\indexentry{HTTP!script|hyperpage}{393}
+\indexentry{HTTP!webform|hyperpage}{393}
+\indexentry{webform|hyperpage}{393}
+\indexentry{base64 encoding|hyperpage}{394}
+\indexentry{attack!known cleartext|hyperpage}{395}
+\indexentry{nonce|hyperpage}{395}
+\indexentry{quality of protection|hyperpage}{395}
+\indexentry{qop|hyperpage}{396}
+\indexentry{cookie!store|hyperpage}{396}
+\indexentry{HTTP!cookie|hyperpage}{396}
+\indexentry{client nonce|hyperpage}{397}
+\indexentry{cookie|hyperpage}{397}
+\indexentry{kerberos|hyperpage}{397}
+\indexentry{MD5|hyperpage}{397}
+\indexentry{nonce|hyperpage}{397}
+\indexentry{nonce counter|hyperpage}{397}
+\indexentry{SHA-2|hyperpage}{397}
+\indexentry{cookie!domain|hyperpage}{398}
+\indexentry{cookie!expiry|hyperpage}{398}
+\indexentry{cookie!HttpOnly|hyperpage}{398}
+\indexentry{cookie!max-age|hyperpage}{398}
+\indexentry{cookie!path|hyperpage}{398}
+\indexentry{cookie!persistent|hyperpage}{398}
+\indexentry{cookie!secure|hyperpage}{398}
+\indexentry{cookie!risici|hyperpage}{399}
+\indexentry{webform!password|hyperpage}{400}
+\indexentry{cookie!third-party|hyperpage}{401}
+\indexentry{HTTP!SessionID|hyperpage}{401}
+\indexentry{SessionID|hyperpage}{401}
+\indexentry{SessionID!risici|hyperpage}{401}
+\indexentry{spyware|hyperpage}{401}
+\indexentry{HTML!webform|hyperpage}{402}
+\indexentry{HTTP!webform|hyperpage}{402}
+\indexentry{webform|hyperpage}{402}
+\indexentry{webform!BUTTON element|hyperpage}{402}
+\indexentry{webform!INPUT element|hyperpage}{402}
+\indexentry{webform!reset|hyperpage}{402}
+\indexentry{webform!submit|hyperpage}{402}
+\indexentry{HTTP!form dataset|hyperpage}{403}
+\indexentry{webform!checkbox|hyperpage}{403}
+\indexentry{webform!ﬁle|hyperpage}{403}
+\indexentry{webform!hidden ﬁeld|hyperpage}{403}
+\indexentry{webform!menu|hyperpage}{403}
+\indexentry{webform!radio button|hyperpage}{403}
+\indexentry{webform!SELECT element|hyperpage}{403}
+\indexentry{webform!TEXTAREA element|hyperpage}{403}
+\indexentry{side eﬀect|hyperpage}{403}
+\indexentry{webform!risks|hyperpage}{403}
+\indexentry{ActiveX|hyperpage}{404}
+\indexentry{applet|hyperpage}{404}
+\indexentry{applet!sandbox|hyperpage}{404}
+\indexentry{applet!security|hyperpage}{404}
+\indexentry{bytecode|hyperpage}{404}
+\indexentry{certiﬁcate!self-signed|hyperpage}{404}
+\indexentry{interpreter|hyperpage}{404}
+\indexentry{mobile code|hyperpage}{404}
+\indexentry{Java|hyperpage}{405}
+\indexentry{ActiveX!security|hyperpage}{405}
+\indexentry{Authenticode|hyperpage}{405}
+\indexentry{native code|hyperpage}{405}
+\indexentry{security zone|hyperpage}{405}
+\indexentry{webform!vulnerability|hyperpage}{405}
+\indexentry{SSL|hyperpage}{406}
+\indexentry{TLS|hyperpage}{406}
+\indexentry{XSS|hyperpage}{406}
+\indexentry{EAL|hyperpage}{407}
+\indexentry{Content Management System (CMS)|hyperpage}{408}
+\indexentry{query|hyperpage}{408}
+\indexentry{servlet|hyperpage}{408}
+\indexentry{ASP.NET|hyperpage}{409}
+\indexentry{bytecode|hyperpage}{409}
+\indexentry{Java|hyperpage}{409}
+\indexentry{PHP|hyperpage}{409}
+\indexentry{Common Criteria (CC)|hyperpage}{410}
+\indexentry{0-day attack|hyperpage}{412}
+\indexentry{attack!0-day|hyperpage}{412}
+\indexentry{Incident Response|hyperpage}{416}
+\indexentry{Secure Shell (SSH)!breach|hyperpage}{416}
+\indexentry{Secure Shell (SSH)!incident|hyperpage}{416}
+\indexentry{computer forensics|hyperpage}{420}
+\indexentry{forensics|hyperpage}{420}
+\indexentry{log ﬁle|hyperpage}{420}
+\indexentry{system history|hyperpage}{420}
+\indexentry{system state|hyperpage}{420}
+\indexentry{VM|hyperpage}{421}
+\indexentry{cache!disk|hyperpage}{421}
+\indexentry{memory!physical|hyperpage}{421}
+\indexentry{system state!volatile|hyperpage}{421}
+\indexentry{cache!CPU|hyperpage}{421}
+\indexentry{disk!copy|hyperpage}{422}
+\indexentry{disk!mounted|hyperpage}{422}
+\indexentry{Faraday cage|hyperpage}{422}
+\indexentry{fence register!deletion|hyperpage}{422}
+\indexentry{Master Boot Record|hyperpage}{422}
+\indexentry{IDE|hyperpage}{422}
+\indexentry{APT|hyperpage}{423}
+\indexentry{chain of responsibility|hyperpage}{423}
+\indexentry{disk!copy|hyperpage}{423}
+\indexentry{Forensic Toolkit (FTK®)|hyperpage}{423}
+\indexentry{forensics!memory|hyperpage}{423}
+\indexentry{forensics!smartphone|hyperpage}{423}
+\indexentry{identity module (IM)|hyperpage}{423}
+\indexentry{industrial espionage|hyperpage}{423}
+\indexentry{mobile unit|hyperpage}{423}
+\indexentry{Redline|hyperpage}{423}
+\indexentry{smartcard!forensics|hyperpage}{423}
+\indexentry{The Sleuth Kit (TSK)|hyperpage}{423}
+\indexentry{Volatility|hyperpage}{423}
+\indexentry{ADB|hyperpage}{424}
+\indexentry{Android Debug Bridge|hyperpage}{424}
+\indexentry{CNIC|hyperpage}{424}
+\indexentry{Faraday cage|hyperpage}{424}
+\indexentry{ﬂight mode|hyperpage}{424}
+\indexentry{remote wipe|hyperpage}{424}
+\indexentry{smartcard!UICC|hyperpage}{424}
+\indexentry{deniable encryption|hyperpage}{425}
+\indexentry{disk!forensic acquisition|hyperpage}{425}
+\indexentry{encryption!Full Disk (FDE)|hyperpage}{425}
+\indexentry{FDE|hyperpage}{425}
+\indexentry{forensic acquisition disk|hyperpage}{425}
+\indexentry{forensics!encrypted data|hyperpage}{425}
+\indexentry{pre-boot authentication|hyperpage}{425}
+\indexentry{BCP|hyperpage}{425}
+\indexentry{impact analysis|hyperpage}{427}
+\indexentry{PDCA process|hyperpage}{427}
+\indexentry{recovery target|hyperpage}{427}
+\indexentry{RPO|hyperpage}{427}
+\indexentry{RTO|hyperpage}{427}
+\indexentry{threat analysis|hyperpage}{427}
+\indexentry{BCP!resource requirements|hyperpage}{427}
+\indexentry{CIRP|hyperpage}{427}
+\indexentry{DRP|hyperpage}{427}
+\indexentry{redundancy|hyperpage}{427}
+\indexentry{backup|hyperpage}{429}
+\indexentry{reactive control!data|hyperpage}{430}
+\indexentry{communication plan|hyperpage}{430}
+\indexentry{RPO|hyperpage}{430}
+\indexentry{RTO|hyperpage}{430}
+\indexentry{snapshot|hyperpage}{431}
+\indexentry{Btrfs|hyperpage}{432}
+\indexentry{cold site|hyperpage}{432}
+\indexentry{Copy-on-write (COW)|hyperpage}{432}
+\indexentry{COW|hyperpage}{432}
+\indexentry{hot site|hyperpage}{432}
+\indexentry{reactive control!system functionality|hyperpage}{432}
+\indexentry{warm site|hyperpage}{432}
+\indexentry{WiMAX!VSS|hyperpage}{432}
+\indexentry{ZFS|hyperpage}{432}
+\indexentry{cold site|hyperpage}{433}
+\indexentry{conformance test|hyperpage}{433}
+\indexentry{DRP!testing|hyperpage}{433}
+\indexentry{walkthrough|hyperpage}{433}
+\indexentry{warm site|hyperpage}{433}
+\indexentry{awareness campaign|hyperpage}{434}
+\indexentry{motivation|hyperpage}{434}
+\indexentry{security awareness|hyperpage}{434}
+\indexentry{awareness campaign|hyperpage}{435}
+\indexentry{person|hyperpage}{441}
+\indexentry{computer crime|hyperpage}{441}
+\indexentry{COSO!Cybercrime|hyperpage}{441}
+\indexentry{legal person|hyperpage}{441}
+\indexentry{natural person|hyperpage}{441}
+\indexentry{breach of copyright|hyperpage}{445}
+\indexentry{child pornography|hyperpage}{445}
+\indexentry{investigation|hyperpage}{445}
+\indexentry{human rights|hyperpage}{446}
+\indexentry{jurisdiction|hyperpage}{446}
+\indexentry{Big Brother society|hyperpage}{447}
+\indexentry{COSO!Personal data|hyperpage}{447}
+\indexentry{EU Directive|hyperpage}{447}
+\indexentry{extradite-or-prosecute|hyperpage}{447}
+\indexentry{GDPR|hyperpage}{447}
+\indexentry{personal data!protection|hyperpage}{447}
+\indexentry{consent|hyperpage}{449}
+\indexentry{EU Regulation|hyperpage}{449}
+\indexentry{GDPR!consent|hyperpage}{449}
+\indexentry{GDPR!controller|hyperpage}{449}
+\indexentry{European Data Protection Supervisor (EDPS)!personal data breach|hyperpage}{449}
+\indexentry{European Data Protection Supervisor (EDPS)!processor|hyperpage}{449}
+\indexentry{European Data Protection Supervisor (EDPS)!proﬁling|hyperpage}{449}
+\indexentry{European Data Protection Supervisor (EDPS)!pseudonymisation|hyperpage}{449}
+\indexentry{European Data Protection Supervisor (EDPS)!recipient|hyperpage}{449}
+\indexentry{personal data|hyperpage}{449}
+\indexentry{accountability|hyperpage}{449}
+\indexentry{GDPR!accountability|hyperpage}{449}
+\indexentry{GDPR!data class|hyperpage}{451}
+\indexentry{cloud|hyperpage}{451}
+\indexentry{European Data Protection Supervisor (EDPS)!pictures and sounds|hyperpage}{452}
+\indexentry{European Data Protection Supervisor (EDPS)!standard contractual clause|hyperpage}{452}
+\indexentry{European Data Protection Supervisor (EDPS)!third country|hyperpage}{452}
+\indexentry{safe harbour|hyperpage}{452}
+\indexentry{European Data Protection Supervisor (EDPS)!rights|hyperpage}{454}
+\indexentry{right|hyperpage}{454}
+\indexentry{GDPR!data protection impact assessment|hyperpage}{454}
+\indexentry{European Data Protection Supervisor (EDPS)!security of processing|hyperpage}{454}
+\indexentry{European Data Protection Supervisor (EDPS)!security targets|hyperpage}{454}
+\indexentry{GDPR!authorities|hyperpage}{455}
+\indexentry{GDPR!accountability|hyperpage}{456}
+\indexentry{GDPR!certiﬁcation|hyperpage}{456}
+\indexentry{GDPR!code of conduct|hyperpage}{456}
+\indexentry{GDPR!European Data Protection Board|hyperpage}{456}
+\indexentry{European Data Protection Supervisor (EDPS)|hyperpage}{456}
+\indexentry{European Data Protection Supervisor (EDPS)!Supervisory Authority|hyperpage}{456}
+\indexentry{header!access|hyperpage}{456}
+\indexentry{header!protection|hyperpage}{456}
+\indexentry{European Data Protection Supervisor (EDPS)!legal responsibility|hyperpage}{457}
+\indexentry{Electronic Patient Record|hyperpage}{458}
+\indexentry{ethics|hyperpage}{459}
+\indexentry{datamining|hyperpage}{460}
+\indexentry{safe harbour|hyperpage}{460}
+\indexentry{social media|hyperpage}{460}
+\indexentry{customer proﬁle|hyperpage}{461}
+\indexentry{European Data Protection Supervisor (EDPS)!proﬁling|hyperpage}{461}
+\indexentry{identity theft|hyperpage}{461}
+\indexentry{Schrems II|hyperpage}{461}
+\indexentry{Standard Contractual Clause (SCC)|hyperpage}{461}
+\indexentry{tracking|hyperpage}{461}
+\indexentry{consent|hyperpage}{461}
+\indexentry{Tor|hyperpage}{461}
+\indexentry{cookie|hyperpage}{462}
+\indexentry{cookie!third-party|hyperpage}{462}
+\indexentry{Facebook Like|hyperpage}{462}
+\indexentry{HTTP!cookie|hyperpage}{462}
+\indexentry{phishing|hyperpage}{462}
+\indexentry{transaction|hyperpage}{462}
+\indexentry{Privacy-Enhancing Technology (PET)|hyperpage}{463}
+\indexentry{right to be forgotten|hyperpage}{463}
+\indexentry{electronic signature!anonymous|hyperpage}{464}
+\indexentry{Enhanced privacy ID (EPID)|hyperpage}{464}
+\indexentry{identity theft|hyperpage}{464}
+\indexentry{WiMAX!XP|hyperpage}{469}
+\indexentry{backdoor|hyperpage}{469}
+\indexentry{ﬁngerprint reader!140|hyperpage}{469}
+\indexentry{malware!backdoor|hyperpage}{469}
+\indexentry{malware!spyware|hyperpage}{469}
+\indexentry{mobile telephone network!5G|hyperpage}{469}
+\indexentry{ROCA attack|hyperpage}{469}
+\indexentry{RSA!key generation|hyperpage}{469}
+\indexentry{spyware|hyperpage}{469}
+\indexentry{EAL|hyperpage}{469}
+\indexentry{man-in-the-middle!ROCA|hyperpage}{470}
+\indexentry{Common Criteria (CC)|hyperpage}{470}
+\indexentry{Common Criteria (CC)!environment|hyperpage}{470}
+\indexentry{Common Criteria (CC)!life cycle|hyperpage}{470}
+\indexentry{lifecycle|hyperpage}{470}
+\indexentry{Common Criteria (CC)!evaluation|hyperpage}{470}
+\indexentry{Reference Monitor (RM)|hyperpage}{471}
+\indexentry{SELinux|hyperpage}{471}
+\indexentry{Common Criteria (CC)!evaluation|hyperpage}{472}
+\indexentry{security awareness|hyperpage}{472}
+\indexentry{GDPR|hyperpage}{472}
+\indexentry{IOT|hyperpage}{472}
+\indexentry{ISO-latin-1 printable!27001|hyperpage}{473}
+\indexentry{bus|hyperpage}{476}
+\indexentry{computer architecture|hyperpage}{476}
+\indexentry{CPU|hyperpage}{476}
+\indexentry{EDVAC|hyperpage}{476}
+\indexentry{hardware|hyperpage}{476}
+\indexentry{instruction|hyperpage}{476}
+\indexentry{John von Neumann|hyperpage}{476}
+\indexentry{memory unit|hyperpage}{476}
+\indexentry{program|hyperpage}{476}
+\indexentry{storage unit|hyperpage}{476}
+\indexentry{processor|hyperpage}{476}
+\indexentry{core|hyperpage}{477}
+\indexentry{CPU!core|hyperpage}{477}
+\indexentry{von Neumann architecture|hyperpage}{477}
+\indexentry{cache|hyperpage}{477}
+\indexentry{cache!CPU|hyperpage}{477}
+\indexentry{disk|hyperpage}{477}
+\indexentry{GPU|hyperpage}{477}
+\indexentry{memory|hyperpage}{477}
+\indexentry{reference number!CPU|hyperpage}{477}
+\indexentry{disk!sector|hyperpage}{478}
+\indexentry{disk!track|hyperpage}{478}
+\indexentry{HDD|hyperpage}{478}
+\indexentry{sector|hyperpage}{478}
+\indexentry{USB!port|hyperpage}{479}
+\indexentry{USB!key|hyperpage}{480}
+\indexentry{ﬂash drive|hyperpage}{480}
+\indexentry{memory card|hyperpage}{480}
+\indexentry{SSD|hyperpage}{480}
+\indexentry{SSD!wear levelling|hyperpage}{480}
+\indexentry{wear levelling|hyperpage}{480}
+\indexentry{BluRay disk|hyperpage}{481}
+\indexentry{CD|hyperpage}{481}
+\indexentry{cursor|hyperpage}{481}
+\indexentry{DVD|hyperpage}{481}
+\indexentry{GPU|hyperpage}{481}
+\indexentry{graphic user interface|hyperpage}{481}
+\indexentry{graphics card|hyperpage}{481}
+\indexentry{keyboard|hyperpage}{481}
+\indexentry{Man-machine interface|hyperpage}{481}
+\indexentry{MMI unit|hyperpage}{481}
+\indexentry{mouse|hyperpage}{481}
+\indexentry{screen|hyperpage}{481}
+\indexentry{security device|hyperpage}{481}
+\indexentry{sound card|hyperpage}{481}
+\indexentry{stylus|hyperpage}{481}
+\indexentry{touch sensitive|hyperpage}{481}
+\indexentry{biometric property|hyperpage}{483}
+\indexentry{bridge|hyperpage}{483}
+\indexentry{bus|hyperpage}{483}
+\indexentry{camera|hyperpage}{483}
+\indexentry{ﬁngerprint reader|hyperpage}{483}
+\indexentry{Firewire|hyperpage}{483}
+\indexentry{hardware!interface|hyperpage}{483}
+\indexentry{I/O control hub|hyperpage}{483}
+\indexentry{I/O control hub!attachment|hyperpage}{483}
+\indexentry{IEEE standard 1394 bus|hyperpage}{483}
+\indexentry{memory!control hub|hyperpage}{483}
+\indexentry{PCI Expressbus|hyperpage}{483}
+\indexentry{USB|hyperpage}{483}
+\indexentry{USB!hub|hyperpage}{483}
+\indexentry{OS|hyperpage}{483}
+\indexentry{communication unit|hyperpage}{484}
+\indexentry{LPC bus|hyperpage}{484}
+\indexentry{telephone modem|hyperpage}{484}
+\indexentry{software|hyperpage}{484}
+\indexentry{App|hyperpage}{485}
+\indexentry{API|hyperpage}{485}
+\indexentry{control system|hyperpage}{485}
+\indexentry{Lithium-ion (LiON)|hyperpage}{485}
+\indexentry{power supply|hyperpage}{485}
+\indexentry{system program|hyperpage}{485}
+\indexentry{protection|hyperpage}{487}
+\indexentry{application program|hyperpage}{487}
+\indexentry{driver|hyperpage}{487}
+\indexentry{multiprogramming|hyperpage}{487}
+\indexentry{software!operating system|hyperpage}{487}
+\indexentry{BIOS|hyperpage}{488}
+\indexentry{boot|hyperpage}{488}
+\indexentry{ﬁle system|hyperpage}{488}
+\indexentry{ﬁrmware|hyperpage}{488}
+\indexentry{ﬁrmware!BIOS|hyperpage}{488}
+\indexentry{log ﬁle|hyperpage}{488}
+\indexentry{memory!volatile|hyperpage}{488}
+\indexentry{UEFI|hyperpage}{488}
+\indexentry{user control|hyperpage}{488}
+\indexentry{user interface|hyperpage}{488}
+\indexentry{application program|hyperpage}{492}
+\indexentry{software!application|hyperpage}{492}
+\indexentry{software!system utility|hyperpage}{492}
+\indexentry{system program|hyperpage}{492}
+\indexentry{system utility|hyperpage}{492}
+\indexentry{utility program|hyperpage}{492}
+\indexentry{set|hyperpage}{493}
+\indexentry{integer|hyperpage}{496}
+\indexentry{prime factor|hyperpage}{496}
+\indexentry{prime number|hyperpage}{496}
+\indexentry{set!cardinality|hyperpage}{497}
+\indexentry{set!containment|hyperpage}{497}
+\indexentry{set!diﬀerence|hyperpage}{497}
+\indexentry{set!intersection|hyperpage}{497}
+\indexentry{set!membership|hyperpage}{497}
+\indexentry{set!subset|hyperpage}{497}
+\indexentry{set!union|hyperpage}{497}
+\indexentry{function|hyperpage}{498}
+\indexentry{function!graph|hyperpage}{498}
+\indexentry{function!image|hyperpage}{498}
+\indexentry{co-domain|hyperpage}{498}
+\indexentry{domain|hyperpage}{498}
+\indexentry{function!co-domain|hyperpage}{498}
+\indexentry{function!domain|hyperpage}{498}
+\indexentry{function!total|hyperpage}{498}
+\indexentry{function!value|hyperpage}{498}
+\indexentry{exponent|hyperpage}{500}
+\indexentry{function!linear|hyperpage}{500}
+\indexentry{function!non-linear|hyperpage}{500}
+\indexentry{function!pre-image|hyperpage}{500}
+\indexentry{number system|hyperpage}{500}
+\indexentry{binary digit|hyperpage}{500}
+\indexentry{hexadecimal digit|hyperpage}{500}
+\indexentry{integer!Fermat|hyperpage}{500}
+\indexentry{number system!binary|hyperpage}{500}
+\indexentry{number system!hexadecimal|hyperpage}{500}
+\indexentry{number system!positional|hyperpage}{500}
+\indexentry{base|hyperpage}{502}
+\indexentry{integer!Number Field Sieve|hyperpage}{502}
+\indexentry{integer!Quadratic Sieve|hyperpage}{502}
+\indexentry{RSA number|hyperpage}{502}
+\indexentry{Euclid’s algorithm|hyperpage}{504}
+\indexentry{greatest common divisor|hyperpage}{504}
+\indexentry{prime number!mutual|hyperpage}{504}
+\indexentry{Euclid’s extended algorithm|hyperpage}{505}
+\indexentry{inverse|hyperpage}{505}
+\indexentry{Chinese remainder theorem|hyperpage}{507}
+\indexentry{RSA|hyperpage}{508}
+\indexentry{Euler’s totient function|hyperpage}{511}
+\indexentry{Euclid’s extended algorithm|hyperpage}{513}
+\indexentry{inverse|hyperpage}{513}
+\indexentry{birthday paradox|hyperpage}{514}
+\indexentry{texting|hyperpage}{522}

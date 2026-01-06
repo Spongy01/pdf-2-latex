@@ -1,0 +1,2342 @@
+\indexentry{insertion sort|hyperpage}{2}
+\indexentry{instance – deﬁnition|hyperpage}{2}
+\indexentry{problem – deﬁnition|hyperpage}{2}
+\indexentry{problem instance|hyperpage}{2}
+\indexentry{sorting|hyperpage}{2}
+\indexentry{correctness – algorithm|hyperpage}{3}
+\indexentry{eﬃciency of algorithms|hyperpage}{3}
+\indexentry{proof of correctness|hyperpage}{3}
+\indexentry{circuit board assembly|hyperpage}{3}
+\indexentry{robot assembly|hyperpage}{3}
+\indexentry{geometric Steiner tree!problem|hyperpage}{3}
+\indexentry{boss’s delight|hyperpage}{4}
+\indexentry{nearest neighbor heuristic|hyperpage}{4}
+\indexentry{closest-pair heuristic|hyperpage}{5}
+\indexentry{counterexample construction|hyperpage}{7}
+\indexentry{exhaustive search – application|hyperpage}{7}
+\indexentry{performance in practice|hyperpage}{7}
+\indexentry{Skiena, Len|hyperpage}{7}
+\indexentry{traveling salesman|hyperpage}{7}
+\indexentry{English language|hyperpage}{13}
+\indexentry{programming languages|hyperpage}{13}
+\indexentry{pseudocode|hyperpage}{13}
+\indexentry{induction and recursion|hyperpage}{17}
+\indexentry{recursion and induction|hyperpage}{17}
+\indexentry{network|hyperpage}{19}
+\indexentry{graphs|hyperpage}{19}
+\indexentry{trees|hyperpage}{19}
+\indexentry{modeling algorithm problems|hyperpage}{19}
+\indexentry{arrangement|hyperpage}{19}
+\indexentry{sequence|hyperpage}{20}
+\indexentry{ancestor|hyperpage}{20}
+\indexentry{cluster|hyperpage}{20}
+\indexentry{collection|hyperpage}{20}
+\indexentry{committee|hyperpage}{20}
+\indexentry{data records|hyperpage}{20}
+\indexentry{descendant|hyperpage}{20}
+\indexentry{dominance orderings|hyperpage}{20}
+\indexentry{family tree|hyperpage}{20}
+\indexentry{hierarchy|hyperpage}{20}
+\indexentry{locations|hyperpage}{20}
+\indexentry{ordering|hyperpage}{20}
+\indexentry{packaging|hyperpage}{20}
+\indexentry{permutation|hyperpage}{20}
+\indexentry{points|hyperpage}{20}
+\indexentry{positions|hyperpage}{20}
+\indexentry{relationship|hyperpage}{20}
+\indexentry{selection|hyperpage}{20}
+\indexentry{sites|hyperpage}{20}
+\indexentry{Skiena, Len|hyperpage}{20}
+\indexentry{subset|hyperpage}{20}
+\indexentry{taxonomy|hyperpage}{20}
+\indexentry{tour|hyperpage}{20}
+\indexentry{web|hyperpage}{20}
+\indexentry{text|hyperpage}{20}
+\indexentry{boundaries|hyperpage}{20}
+\indexentry{cartoons|hyperpage}{20}
+\indexentry{characters|hyperpage}{20}
+\indexentry{conﬁgurations|hyperpage}{20}
+\indexentry{labels|hyperpage}{20}
+\indexentry{patterns|hyperpage}{20}
+\indexentry{polygons|hyperpage}{20}
+\indexentry{regions|hyperpage}{20}
+\indexentry{shapes|hyperpage}{20}
+\indexentry{strings|hyperpage}{20}
+\indexentry{Big Oh notation|hyperpage}{22}
+\indexentry{O-notation|hyperpage}{22}
+\indexentry{algorist|hyperpage}{24}
+\indexentry{lottery problems|hyperpage}{24}
+\indexentry{Oxford English Dictionary|hyperpage}{24}
+\indexentry{psychic lotto prediction|hyperpage}{24}
+\indexentry{generating subsets – applications|hyperpage}{24}
+\indexentry{set cover – applications|hyperpage}{24}
+\indexentry{bit vector – applications|hyperpage}{26}
+\indexentry{exhaustive search|hyperpage}{26}
+\indexentry{randomized search – applications|hyperpage}{26}
+\indexentry{set data structures – applications|hyperpage}{26}
+\indexentry{Horner’s rule|hyperpage}{30}
+\indexentry{binary search|hyperpage}{31}
+\indexentry{logarithms|hyperpage}{31}
+\indexentry{telephone books|hyperpage}{31}
+\indexentry{asymptotic analysis|hyperpage}{34}
+\indexentry{cache|hyperpage}{34}
+\indexentry{loop|hyperpage}{34}
+\indexentry{mathematical notation|hyperpage}{34}
+\indexentry{Random Access Machine (RAM)|hyperpage}{34}
+\indexentry{ﬂat-earth model|hyperpage}{35}
+\indexentry{average-case complexity|hyperpage}{36}
+\indexentry{best-case complexity|hyperpage}{36}
+\indexentry{casino analysis|hyperpage}{36}
+\indexentry{expected time|hyperpage}{36}
+\indexentry{worst-case complexity|hyperpage}{36}
+\indexentry{lower bound|hyperpage}{37}
+\indexentry{tight bound|hyperpage}{37}
+\indexentry{upper bound|hyperpage}{37}
+\indexentry{growth rates|hyperpage}{40}
+\indexentry{nanosecond|hyperpage}{40}
+\indexentry{dequeue|hyperpage}{44}
+\indexentry{dictionary|hyperpage}{44}
+\indexentry{enqueue|hyperpage}{44}
+\indexentry{linked lists vs. arrays|hyperpage}{44}
+\indexentry{set data structures|hyperpage}{45}
+\indexentry{binary search tree|hyperpage}{46}
+\indexentry{balanced search tree|hyperpage}{49}
+\indexentry{exponentiation|hyperpage}{54}
+\indexentry{Federal Sentencing Guidelines|hyperpage}{55}
+\indexentry{binary search tree - applications!experience|hyperpage}{56}
+\indexentry{hash tables!experience|hyperpage}{56}
+\indexentry{biology|hyperpage}{56}
+\indexentry{computational biology|hyperpage}{56}
+\indexentry{DNA|hyperpage}{56}
+\indexentry{human genome|hyperpage}{56}
+\indexentry{SBH|hyperpage}{56}
+\indexentry{sequence!(SBH)|hyperpage}{56}
+\indexentry{base of logarithm|hyperpage}{57}
+\indexentry{Nobel Prize|hyperpage}{58}
+\indexentry{supercomputer|hyperpage}{58}
+\indexentry{Waring’s problem|hyperpage}{58}
+\indexentry{knapsack problem – applications|hyperpage}{59}
+\indexentry{compiler optimization!performance|hyperpage}{60}
+\indexentry{little oh notation|hyperpage}{63}
+\indexentry{Big Oh notation|hyperpage}{67}
+\indexentry{multiplication algorithms|hyperpage}{70}
+\indexentry{sorting X + Y|hyperpage}{71}
+\indexentry{data structures|hyperpage}{75}
+\indexentry{organ transplant|hyperpage}{75}
+\indexentry{pointer manipulation|hyperpage}{75}
+\indexentry{bucketing techniques|hyperpage}{77}
+\indexentry{distribution sort|hyperpage}{77}
+\indexentry{Shiﬄett|hyperpage}{77}
+\indexentry{telephone books|hyperpage}{77}
+\indexentry{container|hyperpage}{81}
+\indexentry{FIFO|hyperpage}{81}
+\indexentry{ﬁrst-in, ﬁrst-out (FIFO)|hyperpage}{81}
+\indexentry{last in, ﬁrst out|hyperpage}{81}
+\indexentry{LIFO|hyperpage}{81}
+\indexentry{pop|hyperpage}{81}
+\indexentry{push|hyperpage}{81}
+\indexentry{queue|hyperpage}{81}
+\indexentry{stack|hyperpage}{81}
+\indexentry{binary search tree - applications|hyperpage}{89}
+\indexentry{insertion into binary search tree|hyperpage}{89}
+\indexentry{deletion from binary search tree|hyperpage}{92}
+\indexentry{priority queues|hyperpage}{95}
+\indexentry{computer graphics – applications|hyperpage}{96}
+\indexentry{dual graph|hyperpage}{96}
+\indexentry{Hamiltonian path – applications|hyperpage}{96}
+\indexentry{OpenGL graphics library|hyperpage}{96}
+\indexentry{triangle strips|hyperpage}{96}
+\indexentry{triangulated surfaces|hyperpage}{96}
+\indexentry{dictionary – applications|hyperpage}{98}
+\indexentry{conditional probability|hyperpage}{98}
+\indexentry{hash tables|hyperpage}{99}
+\indexentry{chaining|hyperpage}{99}
+\indexentry{open addressing|hyperpage}{100}
+\indexentry{canonicalization|hyperpage}{105}
+\indexentry{Soundex|hyperpage}{105}
+\indexentry{geometric data structure|hyperpage}{107}
+\indexentry{graph data structures|hyperpage}{107}
+\indexentry{polygonal data structure|hyperpage}{107}
+\indexentry{set data structures|hyperpage}{107}
+\indexentry{spatial data structure|hyperpage}{107}
+\indexentry{string data structures|hyperpage}{107}
+\indexentry{suﬃx trees|hyperpage}{107}
+\indexentry{suﬃx trees – applications!experience|hyperpage}{108}
+\indexentry{sorting – rationales for|hyperpage}{120}
+\indexentry{closest-pair problem|hyperpage}{120}
+\indexentry{element uniqueness problem|hyperpage}{120}
+\indexentry{frequency distribution|hyperpage}{120}
+\indexentry{sorting - applications|hyperpage}{120}
+\indexentry{convex hull|hyperpage}{122}
+\indexentry{selection|hyperpage}{122}
+\indexentry{copying a graph|hyperpage}{122}
+\indexentry{counting edges and vertices|hyperpage}{122}
+\indexentry{printing a graph|hyperpage}{122}
+\indexentry{C sorting library|hyperpage}{126}
+\indexentry{comparison function|hyperpage}{127}
+\indexentry{qsort()|hyperpage}{127}
+\indexentry{selection sort|hyperpage}{127}
+\indexentry{heapsort|hyperpage}{129}
+\indexentry{transpose of a graph|hyperpage}{133}
+\indexentry{square of a graph|hyperpage}{135}
+\indexentry{graph data structures|hyperpage}{137}
+\indexentry{insertion sort|hyperpage}{137}
+\indexentry{incremental change methods!sorting|hyperpage}{139}
+\indexentry{air travel pricing|hyperpage}{140}
+\indexentry{ﬂight ticket pricing|hyperpage}{140}
+\indexentry{Malawi|hyperpage}{140}
+\indexentry{pricing rules|hyperpage}{140}
+\indexentry{mergesort|hyperpage}{143}
+\indexentry{quicksort|hyperpage}{144}
+\indexentry{randomization|hyperpage}{144}
+\indexentry{all-pairs shortest path|hyperpage}{146}
+\indexentry{negative-cost edges|hyperpage}{146}
+\indexentry{bipartite graph|hyperpage}{149}
+\indexentry{dynamic graph algorithms!paths|hyperpage}{149}
+\indexentry{matching|hyperpage}{149}
+\indexentry{network ﬂow|hyperpage}{149}
+\indexentry{Viterbi algorithm|hyperpage}{149}
+\indexentry{modeling graph problems|hyperpage}{153}
+\indexentry{pink panther|hyperpage}{153}
+\indexentry{shortest path – geometric|hyperpage}{153}
+\indexentry{mode|hyperpage}{154}
+\indexentry{lower bound|hyperpage}{158}
+\indexentry{mergesort|hyperpage}{162}
+\indexentry{twenty questions|hyperpage}{163}
+\indexentry{binary search|hyperpage}{164}
+\indexentry{binary search – applications!occurrences|hyperpage}{164}
+\indexentry{binary search – one-sided|hyperpage}{164}
+\indexentry{one-sided binary search|hyperpage}{164}
+\indexentry{unbounded search|hyperpage}{164}
+\indexentry{bisection method|hyperpage}{165}
+\indexentry{root ﬁnding algorithms|hyperpage}{165}
+\indexentry{square roots|hyperpage}{165}
+\indexentry{chessboard coverage|hyperpage}{165}
+\indexentry{best-ﬁrst search|hyperpage}{166}
+\indexentry{branch and bound search|hyperpage}{166}
+\indexentry{traveling salesman problem|hyperpage}{166}
+\indexentry{recurrence relations|hyperpage}{168}
+\indexentry{derangement|hyperpage}{168}
+\indexentry{multiset|hyperpage}{168}
+\indexentry{Dijkstra’s algorithm|hyperpage}{168}
+\indexentry{factorial function|hyperpage}{169}
+\indexentry{Fibonacci numbers|hyperpage}{169}
+\indexentry{heap construction|hyperpage}{169}
+\indexentry{242|hyperpage}{170}
+\indexentry{master theorem|hyperpage}{170}
+\indexentry{matrix multiplication|hyperpage}{172}
+\indexentry{edit distance|hyperpage}{173}
+\indexentry{spelling correction|hyperpage}{173}
+\indexentry{exponential time|hyperpage}{174}
+\indexentry{parallel algorithms|hyperpage}{175}
+\indexentry{alpha-beta pruning|hyperpage}{176}
+\indexentry{debugging parallel programs|hyperpage}{176}
+\indexentry{game-tree search – parallel|hyperpage}{176}
+\indexentry{minimax search|hyperpage}{176}
+\indexentry{speedup – parallel|hyperpage}{176}
+\indexentry{index manipulation|hyperpage}{177}
+\indexentry{substring matching|hyperpage}{177}
+\indexentry{hypercube|hyperpage}{177}
+\indexentry{Nobel Prize|hyperpage}{177}
+\indexentry{Waring’s problem|hyperpage}{177}
+\indexentry{dynamic graph algorithms!eﬃciency|hyperpage}{177}
+\indexentry{NP!minimization|hyperpage}{187}
+\indexentry{experiment|hyperpage}{189}
+\indexentry{probability|hyperpage}{189}
+\indexentry{sample space|hyperpage}{189}
+\indexentry{event|hyperpage}{191}
+\indexentry{expected value|hyperpage}{191}
+\indexentry{probability of an event|hyperpage}{191}
+\indexentry{probability of an outcome|hyperpage}{191}
+\indexentry{random variable|hyperpage}{191}
+\indexentry{conditional probability|hyperpage}{192}
+\indexentry{independence|hyperpage}{192}
+\indexentry{probability density function|hyperpage}{194}
+\indexentry{probability distribution|hyperpage}{194}
+\indexentry{standard deviation|hyperpage}{195}
+\indexentry{variance|hyperpage}{195}
+\indexentry{bandersnatch problem|hyperpage}{195}
+\indexentry{reduction|hyperpage}{195}
+\indexentry{reduction – direction of|hyperpage}{202}
+\indexentry{vertex cover – hardness proof|hyperpage}{202}
+\indexentry{birthday paradox|hyperpage}{202}
+\indexentry{derangement|hyperpage}{217}
+\indexentry{graph|hyperpage}{218}
+\indexentry{electrical circuits|hyperpage}{220}
+\indexentry{graph algorithms|hyperpage}{220}
+\indexentry{graph theory|hyperpage}{220}
+\indexentry{road network|hyperpage}{220}
+\indexentry{directed graph|hyperpage}{222}
+\indexentry{edge|hyperpage}{222}
+\indexentry{undirected graph|hyperpage}{222}
+\indexentry{vertex|hyperpage}{222}
+\indexentry{acyclic graph|hyperpage}{224}
+\indexentry{cycle in graph|hyperpage}{224}
+\indexentry{multiedge|hyperpage}{224}
+\indexentry{program ﬂow graph|hyperpage}{224}
+\indexentry{road network|hyperpage}{224}
+\indexentry{simple graph|hyperpage}{224}
+\indexentry{unweighted graph|hyperpage}{224}
+\indexentry{weighted graph|hyperpage}{224}
+\indexentry{DAG|hyperpage}{225}
+\indexentry{embedded graph|hyperpage}{225}
+\indexentry{explicit graph|hyperpage}{225}
+\indexentry{implicit graph|hyperpage}{225}
+\indexentry{labeled graphs|hyperpage}{225}
+\indexentry{topological graph|hyperpage}{225}
+\indexentry{unlabeled graphs|hyperpage}{225}
+\indexentry{directed graph|hyperpage}{226}
+\indexentry{friendship graph|hyperpage}{226}
+\indexentry{had-sex-with graph|hyperpage}{226}
+\indexentry{heard-of graph|hyperpage}{226}
+\indexentry{social networks|hyperpage}{226}
+\indexentry{undirected graph|hyperpage}{226}
+\indexentry{degree, vertex|hyperpage}{227}
+\indexentry{dense graphs|hyperpage}{227}
+\indexentry{multigraph|hyperpage}{227}
+\indexentry{self-loop|hyperpage}{227}
+\indexentry{simple graph|hyperpage}{227}
+\indexentry{sparse graph|hyperpage}{227}
+\indexentry{adjacency matrix|hyperpage}{228}
+\indexentry{adjacency list|hyperpage}{229}
+\indexentry{reading graphs|hyperpage}{230}
+\indexentry{Boost graph library|hyperpage}{232}
+\indexentry{graph data structures – Boost|hyperpage}{232}
+\indexentry{graph traversal|hyperpage}{237}
+\indexentry{factoring|hyperpage}{238}
+\indexentry{Gray code!359|hyperpage}{238}
+\indexentry{Shor’s algorithm|hyperpage}{238}
+\indexentry{dual graph|hyperpage}{238}
+\indexentry{triangle strips|hyperpage}{238}
+\indexentry{maze|hyperpage}{239}
+\indexentry{breadth-ﬁrst search (BFS)|hyperpage}{241}
+\indexentry{FIFO queue|hyperpage}{242}
+\indexentry{paths in graphs|hyperpage}{244}
+\indexentry{recursion|hyperpage}{244}
+\indexentry{shortest path, unweighted graph|hyperpage}{244}
+\indexentry{connected component|hyperpage}{245}
+\indexentry{BFS|hyperpage}{248}
+\indexentry{breadth-ﬁrst search|hyperpage}{248}
+\indexentry{queue – applications|hyperpage}{248}
+\indexentry{stack – applications|hyperpage}{248}
+\indexentry{back edge|hyperpage}{249}
+\indexentry{cycle detection|hyperpage}{249}
+\indexentry{in-order traversal|hyperpage}{249}
+\indexentry{tree edge|hyperpage}{249}
+\indexentry{recursion|hyperpage}{250}
+\indexentry{2/3 tree|hyperpage}{251}
+\indexentry{AVL tree|hyperpage}{251}
+\indexentry{B-tree|hyperpage}{251}
+\indexentry{balanced search tree|hyperpage}{251}
+\indexentry{binary search tree|hyperpage}{251}
+\indexentry{cache-oblivious algorithms|hyperpage}{251}
+\indexentry{disk access|hyperpage}{251}
+\indexentry{paging|hyperpage}{251}
+\indexentry{random search tree|hyperpage}{251}
+\indexentry{rebalancing|hyperpage}{251}
+\indexentry{red–black tree|hyperpage}{251}
+\indexentry{rotation|hyperpage}{251}
+\indexentry{search tree|hyperpage}{251}
+\indexentry{self-organizing tree|hyperpage}{251}
+\indexentry{splay tree|hyperpage}{251}
+\indexentry{swapping|hyperpage}{251}
+\indexentry{virtual memory|hyperpage}{251}
+\indexentry{DFS|hyperpage}{251}
+\indexentry{articulation vertex|hyperpage}{252}
+\indexentry{connected component|hyperpage}{252}
+\indexentry{connectivity|hyperpage}{252}
+\indexentry{network design|hyperpage}{252}
+\indexentry{terrorist|hyperpage}{252}
+\indexentry{binary search – applications|hyperpage}{254}
+\indexentry{incremental change methods!suﬃx trees|hyperpage}{254}
+\indexentry{palindrome|hyperpage}{254}
+\indexentry{sorting – strings|hyperpage}{254}
+\indexentry{suﬃx arrays|hyperpage}{254}
+\indexentry{adjacency list|hyperpage}{255}
+\indexentry{adjacency matrix|hyperpage}{255}
+\indexentry{all-pairs shortest path|hyperpage}{255}
+\indexentry{complement|hyperpage}{255}
+\indexentry{dense graphs|hyperpage}{255}
+\indexentry{graph complement|hyperpage}{255}
+\indexentry{graph data structures|hyperpage}{255}
+\indexentry{graph density|hyperpage}{255}
+\indexentry{size of graph|hyperpage}{255}
+\indexentry{sparse graph|hyperpage}{255}
+\indexentry{strongly connected component|hyperpage}{260}
+\indexentry{Prim’s algorithm|hyperpage}{274}
+\indexentry{Hamiltonian cycle – counting|hyperpage}{276}
+\indexentry{maximum spanning tree|hyperpage}{286}
+\indexentry{minimum product spanning tree|hyperpage}{286}
+\indexentry{bottleneck spanning tree|hyperpage}{287}
+\indexentry{printed circuit boards|hyperpage}{287}
+\indexentry{clustering|hyperpage}{288}
+\indexentry{244!applications|hyperpage}{291}
+\indexentry{shortest path|hyperpage}{291}
+\indexentry{distance metrics|hyperpage}{292}
+\indexentry{L∞metric|hyperpage}{292}
+\indexentry{Prim’s algorithm|hyperpage}{293}
+\indexentry{Floyd’s algorithm|hyperpage}{297}
+\indexentry{shortest path – applications|hyperpage}{301}
+\indexentry{Ford-Fulkerson algorithm|hyperpage}{305}
+\indexentry{comparisons – minimizing|hyperpage}{305}
+\indexentry{element uniqueness problem|hyperpage}{305}
+\indexentry{lower bound|hyperpage}{305}
+\indexentry{priority queues – related problems|hyperpage}{305}
+\indexentry{sorting – rationales for!447|hyperpage}{305}
+\indexentry{bucketing techniques – graphics|hyperpage}{310}
+\indexentry{DNA sequencing|hyperpage}{310}
+\indexentry{DOS ﬁle names|hyperpage}{310}
+\indexentry{fragment ordering|hyperpage}{310}
+\indexentry{independent set|hyperpage}{310}
+\indexentry{porting code|hyperpage}{310}
+\indexentry{vertex coloring|hyperpage}{310}
+\indexentry{segmentation|hyperpage}{311}
+\indexentry{shortest path – applications|hyperpage}{311}
+\indexentry{242|hyperpage}{317}
+\indexentry{circuit testing|hyperpage}{319}
+\indexentry{exponential-time algorithms|hyperpage}{319}
+\indexentry{one million|hyperpage}{319}
+\indexentry{depth-ﬁrst search – backtracking|hyperpage}{322}
+\indexentry{subset generation – backtracking|hyperpage}{324}
+\indexentry{path generation – backtracking|hyperpage}{326}
+\indexentry{pruning – backtracking|hyperpage}{329}
+\indexentry{symmetry removal|hyperpage}{329}
+\indexentry{breadth-ﬁrst search|hyperpage}{329}
+\indexentry{fan out minimization for networks|hyperpage}{329}
+\indexentry{geometric spanning tree|hyperpage}{329}
+\indexentry{Hamiltonian path|hyperpage}{329}
+\indexentry{low-degree spanning tree|hyperpage}{329}
+\indexentry{turnpike reconstruction problem|hyperpage}{345}
+\indexentry{Fibonacci numbers|hyperpage}{350}
+\indexentry{rabbits|hyperpage}{350}
+\indexentry{recurrence relations|hyperpage}{350}
+\indexentry{memoization|hyperpage}{352}
+\indexentry{binomial coeﬃcients|hyperpage}{358}
+\indexentry{paths across a grid, counting|hyperpage}{358}
+\indexentry{recurrence relations – evaluation|hyperpage}{358}
+\indexentry{driving time minimization|hyperpage}{363}
+\indexentry{Hamiltonian cycle|hyperpage}{363}
+\indexentry{manufacturing applications|hyperpage}{363}
+\indexentry{notorious NP-complete problem|hyperpage}{363}
+\indexentry{printed circuit boards|hyperpage}{363}
+\indexentry{robot assembly|hyperpage}{363}
+\indexentry{tool path optimization|hyperpage}{363}
+\indexentry{transportation problems|hyperpage}{363}
+\indexentry{traveling salesman problem (TSP)|hyperpage}{363}
+\indexentry{triangle inequality|hyperpage}{363}
+\indexentry{TSP|hyperpage}{363}
+\indexentry{dynamic programming traceback|hyperpage}{364}
+\indexentry{path reconstruction|hyperpage}{364}
+\indexentry{traceback, dynamic programming|hyperpage}{364}
+\indexentry{boundaries!programming|hyperpage}{367}
+\indexentry{penalty costs|hyperpage}{368}
+\indexentry{decreasing subsequence|hyperpage}{370}
+\indexentry{increasing subsequences|hyperpage}{370}
+\indexentry{longest common preﬁx!(LCS)|hyperpage}{370}
+\indexentry{monotone subsequence|hyperpage}{370}
+\indexentry{bar codes|hyperpage}{372}
+\indexentry{OCR|hyperpage}{372}
+\indexentry{PDF-417|hyperpage}{372}
+\indexentry{Symbol Technologies|hyperpage}{372}
+\indexentry{data compression|hyperpage}{374}
+\indexentry{mode-switching|hyperpage}{374}
+\indexentry{text compression|hyperpage}{374}
+\indexentry{bookshelves|hyperpage}{380}
+\indexentry{linear partitioning|hyperpage}{380}
+\indexentry{partitioning problems|hyperpage}{380}
+\indexentry{decomposing polygons|hyperpage}{386}
+\indexentry{function interpolation|hyperpage}{386}
+\indexentry{mesh generation|hyperpage}{386}
+\indexentry{surface interpolation|hyperpage}{386}
+\indexentry{tetrahedralization|hyperpage}{386}
+\indexentry{triangulation|hyperpage}{386}
+\indexentry{left-to-right ordering|hyperpage}{386}
+\indexentry{principle of optimality|hyperpage}{387}
+\indexentry{compiler optimization|hyperpage}{391}
+\indexentry{logic programming|hyperpage}{391}
+\indexentry{Prolog|hyperpage}{391}
+\indexentry{trie|hyperpage}{391}
+\indexentry{242|hyperpage}{401}
+\indexentry{traveling salesman!problem|hyperpage}{404}
+\indexentry{NP-completeness|hyperpage}{405}
+\indexentry{Hamiltonian cycle – counting!proof|hyperpage}{413}
+\indexentry{abracadabra|hyperpage}{414}
+\indexentry{Aho–Corasick algorithm|hyperpage}{414}
+\indexentry{Bible – searching the|hyperpage}{414}
+\indexentry{Boyer–Moore algorithm|hyperpage}{414}
+\indexentry{fgrep|hyperpage}{414}
+\indexentry{ﬁnite automata minimization|hyperpage}{414}
+\indexentry{Knuth–Morris–Pratt algorithm|hyperpage}{414}
+\indexentry{pattern recognition – automata|hyperpage}{414}
+\indexentry{regular expressions|hyperpage}{414}
+\indexentry{string data structures|hyperpage}{414}
+\indexentry{suﬃx trees|hyperpage}{414}
+\indexentry{text data structures|hyperpage}{414}
+\indexentry{independent set – hardness proof|hyperpage}{414}
+\indexentry{vertex cover – hardness proof|hyperpage}{414}
+\indexentry{clique – deﬁnition|hyperpage}{417}
+\indexentry{clique – hardness proof|hyperpage}{417}
+\indexentry{NP-completeness – theory of|hyperpage}{418}
+\indexentry{satisﬁability|hyperpage}{418}
+\indexentry{3-SAT|hyperpage}{420}
+\indexentry{integer programming!proof|hyperpage}{422}
+\indexentry{induction and recursion!assignments|hyperpage}{429}
+\indexentry{P|hyperpage}{435}
+\indexentry{NP|hyperpage}{435}
+\indexentry{NP-completeness – deﬁnition of|hyperpage}{436}
+\indexentry{242|hyperpage}{444}
+\indexentry{approximation algorithms|hyperpage}{445}
+\indexentry{guarantees – importance of|hyperpage}{446}
+\indexentry{vertex cover!algorithm|hyperpage}{446}
+\indexentry{airline distance metric|hyperpage}{449}
+\indexentry{Euclidean traveling salesman|hyperpage}{449}
+\indexentry{triangle inequality|hyperpage}{449}
+\indexentry{traveling salesman!algorithms|hyperpage}{449}
+\indexentry{244!applications|hyperpage}{450}
+\indexentry{DAG|hyperpage}{453}
+\indexentry{maximum acyclic subgraph|hyperpage}{453}
+\indexentry{heuristics|hyperpage}{456}
+\indexentry{simulated annealing – theory|hyperpage}{465}
+\indexentry{thermodynamics|hyperpage}{465}
+\indexentry{cooling schedules|hyperpage}{465}
+\indexentry{independent set – hardness proof!annealing|hyperpage}{471}
+\indexentry{maximum acyclic subgraph!annealing|hyperpage}{471}
+\indexentry{circuit board assembly!simulated annealing|hyperpage}{473}
+\indexentry{DNA sequencing|hyperpage}{477}
+\indexentry{oligonucleotide arrays|hyperpage}{477}
+\indexentry{walk-through!375|hyperpage}{477}
+\indexentry{quantum computing|hyperpage}{483}
+\indexentry{quantum gates|hyperpage}{484}
+\indexentry{qubits|hyperpage}{484}
+\indexentry{Grover’s algorithm|hyperpage}{485}
+\indexentry{quantum complexity theory|hyperpage}{486}
+\indexentry{satisﬁability|hyperpage}{486}
+\indexentry{FFT|hyperpage}{488}
+\indexentry{Fourier transform|hyperpage}{488}
+\indexentry{complex numbers|hyperpage}{490}
+\indexentry{exam scheduling!383|hyperpage}{491}
+\indexentry{H-index!388|hyperpage}{493}
+\indexentry{242|hyperpage}{493}
+\indexentry{algorithm design|hyperpage}{495}
+\indexentry{attitude of the algorithm designer|hyperpage}{495}
+\indexentry{brainstorming|hyperpage}{495}
+\indexentry{design process|hyperpage}{495}
+\indexentry{freedom to hang yourself|hyperpage}{495}
+\indexentry{mindset|hyperpage}{495}
+\indexentry{problem-solving techniques|hyperpage}{495}
+\indexentry{strategy|hyperpage}{495}
+\indexentry{tactics|hyperpage}{495}
+\indexentry{modeling|hyperpage}{496}
+\indexentry{pilots|hyperpage}{496}
+\indexentry{questions|hyperpage}{496}
+\indexentry{Right Stuﬀ, The|hyperpage}{496}
+\indexentry{rules of algorithm design|hyperpage}{496}
+\indexentry{technical skills|hyperpage}{496}
+\indexentry{test pilots|hyperpage}{496}
+\indexentry{consulting services|hyperpage}{498}
+\indexentry{How to Solve It|hyperpage}{499}
+\indexentry{problem-solving techniques|hyperpage}{499}
+\indexentry{clustering|hyperpage}{504}
+\indexentry{discussion section|hyperpage}{504}
+\indexentry{index – how to use|hyperpage}{504}
+\indexentry{input–output graphics|hyperpage}{504}
+\indexentry{244|hyperpage}{504}
+\indexentry{problem descriptions|hyperpage}{504}
+\indexentry{advice – caveat|hyperpage}{505}
+\indexentry{catalog website|hyperpage}{505}
+\indexentry{caveat|hyperpage}{505}
+\indexentry{cookbook|hyperpage}{505}
+\indexentry{disclaimer|hyperpage}{505}
+\indexentry{history|hyperpage}{505}
+\indexentry{implementations, caveats|hyperpage}{505}
+\indexentry{recommendations, caveat|hyperpage}{505}
+\indexentry{Website|hyperpage}{505}
+\indexentry{data structures|hyperpage}{505}
+\indexentry{Ada|hyperpage}{506}
+\indexentry{unknown data structures|hyperpage}{506}
+\indexentry{balanced search tree|hyperpage}{507}
+\indexentry{dictionary|hyperpage}{507}
+\indexentry{procedure call overhead|hyperpage}{507}
+\indexentry{subroutine call overhead|hyperpage}{507}
+\indexentry{heart-lung machine|hyperpage}{508}
+\indexentry{linked lists vs. arrays|hyperpage}{508}
+\indexentry{locality of reference|hyperpage}{508}
+\indexentry{move to front rule|hyperpage}{508}
+\indexentry{self-organizing list|hyperpage}{508}
+\indexentry{skewed distribution|hyperpage}{508}
+\indexentry{uniform distribution|hyperpage}{508}
+\indexentry{unsorted array|hyperpage}{508}
+\indexentry{unsorted list|hyperpage}{508}
+\indexentry{array|hyperpage}{508}
+\indexentry{RAM|hyperpage}{508}
+\indexentry{ASCII|hyperpage}{510}
+\indexentry{bucketing techniques|hyperpage}{510}
+\indexentry{duplicate elimination|hyperpage}{510}
+\indexentry{hash function|hyperpage}{510}
+\indexentry{hash tables|hyperpage}{510}
+\indexentry{Horner’s rule|hyperpage}{510}
+\indexentry{prime number|hyperpage}{510}
+\indexentry{sorted array|hyperpage}{510}
+\indexentry{sorted linked list|hyperpage}{510}
+\indexentry{amortized analysis|hyperpage}{511}
+\indexentry{average-case analysis|hyperpage}{511}
+\indexentry{DIMACS|hyperpage}{511}
+\indexentry{perfect hashing|hyperpage}{511}
+\indexentry{searching – related problems|hyperpage}{511}
+\indexentry{skip list|hyperpage}{511}
+\indexentry{dictionary|hyperpage}{512}
+\indexentry{heap|hyperpage}{512}
+\indexentry{queue|hyperpage}{512}
+\indexentry{future events|hyperpage}{512}
+\indexentry{244|hyperpage}{512}
+\indexentry{priority queues|hyperpage}{512}
+\indexentry{simulations|hyperpage}{512}
+\indexentry{sorting|hyperpage}{512}
+\indexentry{stack|hyperpage}{512}
+\indexentry{binary heap|hyperpage}{513}
+\indexentry{binary search tree|hyperpage}{513}
+\indexentry{bounded-height priority queue|hyperpage}{513}
+\indexentry{graph algorithms|hyperpage}{513}
+\indexentry{implicit binary tree|hyperpage}{513}
+\indexentry{search tree|hyperpage}{513}
+\indexentry{sorted array|hyperpage}{513}
+\indexentry{sorted linked list|hyperpage}{513}
+\indexentry{vertex degree|hyperpage}{513}
+\indexentry{decrease-key|hyperpage}{514}
+\indexentry{dictionary – related problems|hyperpage}{514}
+\indexentry{Fibonacci heap|hyperpage}{514}
+\indexentry{pairing heap|hyperpage}{514}
+\indexentry{partial order|hyperpage}{514}
+\indexentry{shortest path|hyperpage}{514}
+\indexentry{van Emde Boas priority queue|hyperpage}{514}
+\indexentry{preﬁx – string|hyperpage}{515}
+\indexentry{string data structures|hyperpage}{515}
+\indexentry{string matching|hyperpage}{515}
+\indexentry{substring matching|hyperpage}{515}
+\indexentry{suﬃx arrays|hyperpage}{515}
+\indexentry{suﬃx trees|hyperpage}{515}
+\indexentry{text data structures|hyperpage}{515}
+\indexentry{trie|hyperpage}{515}
+\indexentry{longest common substring|hyperpage}{516}
+\indexentry{LCA – least common ancestor|hyperpage}{520}
+\indexentry{least common ancestor|hyperpage}{520}
+\indexentry{longest common preﬁx|hyperpage}{520}
+\indexentry{longest common substring!related problems|hyperpage}{520}
+\indexentry{Pat tree|hyperpage}{520}
+\indexentry{retrieval|hyperpage}{520}
+\indexentry{attribute – graph|hyperpage}{522}
+\indexentry{bipartite incidence structures|hyperpage}{522}
+\indexentry{committee – congressional|hyperpage}{522}
+\indexentry{graph databases|hyperpage}{522}
+\indexentry{graph embedding|hyperpage}{522}
+\indexentry{hypergraph|hyperpage}{522}
+\indexentry{incidence matrices|hyperpage}{522}
+\indexentry{Neo4j|hyperpage}{522}
+\indexentry{planar drawings|hyperpage}{522}
+\indexentry{planar graph|hyperpage}{522}
+\indexentry{trees|hyperpage}{522}
+\indexentry{abstract graph type|hyperpage}{523}
+\indexentry{bit vector|hyperpage}{523}
+\indexentry{graph partition|hyperpage}{523}
+\indexentry{hierarchical decomposition|hyperpage}{523}
+\indexentry{hierarchical graph structures|hyperpage}{523}
+\indexentry{large graphs – representation|hyperpage}{523}
+\indexentry{paging|hyperpage}{523}
+\indexentry{Stanford GraphBase|hyperpage}{523}
+\indexentry{string|hyperpage}{523}
+\indexentry{set|hyperpage}{524}
+\indexentry{bit representation of graphs|hyperpage}{524}
+\indexentry{dynamic graph algorithms|hyperpage}{524}
+\indexentry{hierarchical graph structures|hyperpage}{524}
+\indexentry{hypergraph|hyperpage}{524}
+\indexentry{linear-time graph algorithms|hyperpage}{524}
+\indexentry{sparsiﬁcation|hyperpage}{524}
+\indexentry{VLSI design problems|hyperpage}{524}
+\indexentry{container|hyperpage}{525}
+\indexentry{dictionary|hyperpage}{525}
+\indexentry{canonical order|hyperpage}{526}
+\indexentry{intersection – set|hyperpage}{526}
+\indexentry{ordered set|hyperpage}{526}
+\indexentry{set data structures|hyperpage}{526}
+\indexentry{union, set|hyperpage}{526}
+\indexentry{universal set|hyperpage}{526}
+\indexentry{set data structures – applications!problems|hyperpage}{526}
+\indexentry{bit vector|hyperpage}{527}
+\indexentry{disjoint subsets|hyperpage}{527}
+\indexentry{hypergraph|hyperpage}{527}
+\indexentry{merging subsets|hyperpage}{527}
+\indexentry{party aﬃliations|hyperpage}{527}
+\indexentry{set partition|hyperpage}{527}
+\indexentry{sparse subset|hyperpage}{527}
+\indexentry{attribute|hyperpage}{528}
+\indexentry{ﬁnd operation|hyperpage}{528}
+\indexentry{244|hyperpage}{528}
+\indexentry{rooted tree|hyperpage}{528}
+\indexentry{union-ﬁnd data structure|hyperpage}{528}
+\indexentry{Ackerman function|hyperpage}{530}
+\indexentry{disjoint set union|hyperpage}{530}
+\indexentry{inverse Ackerman function|hyperpage}{530}
+\indexentry{power set|hyperpage}{530}
+\indexentry{symbolic set representation|hyperpage}{530}
+\indexentry{generating partitions!problems|hyperpage}{530}
+\indexentry{minimum spanning tree – drawing!problems|hyperpage}{530}
+\indexentry{decompose space|hyperpage}{532}
+\indexentry{higher-dimensional data structures|hyperpage}{532}
+\indexentry{kd-trees|hyperpage}{532}
+\indexentry{partitioning point sets|hyperpage}{532}
+\indexentry{space decomposition|hyperpage}{532}
+\indexentry{axis-parallel planes|hyperpage}{532}
+\indexentry{cubic regions|hyperpage}{532}
+\indexentry{fat cells|hyperpage}{532}
+\indexentry{hierarchical decomposition|hyperpage}{532}
+\indexentry{image data|hyperpage}{532}
+\indexentry{octtree|hyperpage}{532}
+\indexentry{orthogonal planes|hyperpage}{532}
+\indexentry{point location|hyperpage}{532}
+\indexentry{quadtree|hyperpage}{532}
+\indexentry{animation – sorting!search|hyperpage}{534}
+\indexentry{key search|hyperpage}{534}
+\indexentry{nearest neighbor search|hyperpage}{534}
+\indexentry{partial key search|hyperpage}{534}
+\indexentry{range search|hyperpage}{534}
+\indexentry{unit cube|hyperpage}{534}
+\indexentry{unit sphere|hyperpage}{534}
+\indexentry{DIMACS|hyperpage}{535}
+\indexentry{image simpliﬁcation!444|hyperpage}{535}
+\indexentry{nearest neighbor search!problems|hyperpage}{536}
+\indexentry{error|hyperpage}{537}
+\indexentry{libraries|hyperpage}{537}
+\indexentry{Numerical Recipes|hyperpage}{537}
+\indexentry{precision|hyperpage}{537}
+\indexentry{program libraries|hyperpage}{537}
+\indexentry{round-oﬀerror|hyperpage}{537}
+\indexentry{scientiﬁc computing|hyperpage}{537}
+\indexentry{single-precision numbers|hyperpage}{537}
+\indexentry{stock exchange|hyperpage}{537}
+\indexentry{Vancouver Stock Exchange|hyperpage}{537}
+\indexentry{root ﬁnding algorithms|hyperpage}{538}
+\indexentry{splines|hyperpage}{538}
+\indexentry{circuit analysis|hyperpage}{540}
+\indexentry{degenerate system of equations|hyperpage}{540}
+\indexentry{determinant|hyperpage}{540}
+\indexentry{electronic circuit analysis|hyperpage}{540}
+\indexentry{Gaussian elimination|hyperpage}{540}
+\indexentry{high school algebra|hyperpage}{540}
+\indexentry{intersection point|hyperpage}{540}
+\indexentry{Kirchhoﬀ’s laws|hyperpage}{540}
+\indexentry{linear regression|hyperpage}{540}
+\indexentry{mechanical truss analysis|hyperpage}{540}
+\indexentry{scientiﬁc computing|hyperpage}{540}
+\indexentry{singular matrix|hyperpage}{540}
+\indexentry{singular matrix!(SVD)|hyperpage}{540}
+\indexentry{solving linear equations|hyperpage}{540}
+\indexentry{variable elimination|hyperpage}{540}
+\indexentry{matrix multiplication!problems|hyperpage}{540}
+\indexentry{back substitution|hyperpage}{541}
+\indexentry{banded systems|hyperpage}{541}
+\indexentry{bandwidth|hyperpage}{541}
+\indexentry{iterative methods – linear systems|hyperpage}{541}
+\indexentry{lower triangular matrix|hyperpage}{541}
+\indexentry{LU-decomposition|hyperpage}{541}
+\indexentry{numerical stability|hyperpage}{541}
+\indexentry{pivoting rules|hyperpage}{541}
+\indexentry{round-oﬀerror|hyperpage}{541}
+\indexentry{scaling|hyperpage}{541}
+\indexentry{sparse systems|hyperpage}{541}
+\indexentry{upper triangular matrix|hyperpage}{541}
+\indexentry{graph algorithms!problem|hyperpage}{541}
+\indexentry{determinant – related problems|hyperpage}{542}
+\indexentry{inverse matrix|hyperpage}{542}
+\indexentry{LAPACK|hyperpage}{542}
+\indexentry{LINPACK|hyperpage}{542}
+\indexentry{matrix inversion|hyperpage}{542}
+\indexentry{Numerical Recipes|hyperpage}{542}
+\indexentry{parallel algorithms|hyperpage}{542}
+\indexentry{Strassen’s algorithm|hyperpage}{542}
+\indexentry{approximation algorithms|hyperpage}{543}
+\indexentry{banded systems|hyperpage}{543}
+\indexentry{bandwidth reduction|hyperpage}{543}
+\indexentry{circuit layout|hyperpage}{543}
+\indexentry{ﬁle layout|hyperpage}{543}
+\indexentry{Gaussian elimination|hyperpage}{543}
+\indexentry{hypertext layout|hyperpage}{543}
+\indexentry{linear arrangement|hyperpage}{543}
+\indexentry{magnetic tape|hyperpage}{543}
+\indexentry{matrix bandwidth|hyperpage}{543}
+\indexentry{NP!bandwidth|hyperpage}{543}
+\indexentry{numerical analysis|hyperpage}{543}
+\indexentry{proﬁle minimization|hyperpage}{543}
+\indexentry{scientiﬁc computing!magnetic media|hyperpage}{543}
+\indexentry{signal propagation minimization|hyperpage}{543}
+\indexentry{vertex ordering|hyperpage}{543}
+\indexentry{wire length minimization|hyperpage}{543}
+\indexentry{gerrymandering!algorithm|hyperpage}{543}
+\indexentry{breadth-ﬁrst search – applications|hyperpage}{544}
+\indexentry{Cuthill–McKee algorithm|hyperpage}{544}
+\indexentry{pruning – backtracking|hyperpage}{544}
+\indexentry{trees – hard problem in|hyperpage}{544}
+\indexentry{backtracking – applications!problem|hyperpage}{544}
+\indexentry{problems|hyperpage}{544}
+\indexentry{solving linear equations!problems|hyperpage}{544}
+\indexentry{computer graphics|hyperpage}{547}
+\indexentry{coordinate transformations|hyperpage}{547}
+\indexentry{linear algebra|hyperpage}{547}
+\indexentry{matrix inversion|hyperpage}{547}
+\indexentry{matrix multiplication|hyperpage}{547}
+\indexentry{permutation matrix|hyperpage}{547}
+\indexentry{transitive closure|hyperpage}{547}
+\indexentry{transitive reduction|hyperpage}{547}
+\indexentry{associative operation|hyperpage}{548}
+\indexentry{bandwidth – matrix|hyperpage}{548}
+\indexentry{chain of matrices|hyperpage}{548}
+\indexentry{counting paths|hyperpage}{548}
+\indexentry{LAPACK|hyperpage}{548}
+\indexentry{LINPACK|hyperpage}{548}
+\indexentry{multiplication, matrix|hyperpage}{548}
+\indexentry{parenthesization|hyperpage}{548}
+\indexentry{paths – counting|hyperpage}{548}
+\indexentry{square of a graph|hyperpage}{548}
+\indexentry{Strassen’s algorithm|hyperpage}{548}
+\indexentry{biconnected graphs|hyperpage}{549}
+\indexentry{Boolean matrix multiplication|hyperpage}{549}
+\indexentry{four Russians algorithm|hyperpage}{549}
+\indexentry{Hamiltonian cycle|hyperpage}{549}
+\indexentry{solving linear equations!problems|hyperpage}{549}
+\indexentry{square of a graph|hyperpage}{549}
+\indexentry{square root of a graph|hyperpage}{549}
+\indexentry{Strassen’s algorithm|hyperpage}{549}
+\indexentry{Winograd’s algorithm|hyperpage}{549}
+\indexentry{above-below test|hyperpage}{549}
+\indexentry{co-planar points|hyperpage}{549}
+\indexentry{degenerate conﬁguration|hyperpage}{549}
+\indexentry{determinants and permanents|hyperpage}{549}
+\indexentry{inverse matrix|hyperpage}{549}
+\indexentry{inversions|hyperpage}{549}
+\indexentry{left-right test|hyperpage}{549}
+\indexentry{permutation|hyperpage}{549}
+\indexentry{sign – permutation|hyperpage}{549}
+\indexentry{simplicial complex|hyperpage}{549}
+\indexentry{singular matrix|hyperpage}{549}
+\indexentry{volume computations|hyperpage}{549}
+\indexentry{geometric degeneracy!problems|hyperpage}{550}
+\indexentry{solving linear equations!problems|hyperpage}{550}
+\indexentry{linear algebra|hyperpage}{551}
+\indexentry{matrix multiplication!applications|hyperpage}{552}
+\indexentry{#P-completeness|hyperpage}{552}
+\indexentry{cofactor method|hyperpage}{552}
+\indexentry{counting matchings|hyperpage}{552}
+\indexentry{Cramer’s rule|hyperpage}{552}
+\indexentry{LINPACK|hyperpage}{552}
+\indexentry{LU-decomposition|hyperpage}{552}
+\indexentry{matching – number of perfect|hyperpage}{552}
+\indexentry{NP-hard problems|hyperpage}{552}
+\indexentry{permanent|hyperpage}{552}
+\indexentry{sign – determinant|hyperpage}{552}
+\indexentry{chess program|hyperpage}{553}
+\indexentry{energy function|hyperpage}{553}
+\indexentry{evaluation function|hyperpage}{553}
+\indexentry{global optimization|hyperpage}{553}
+\indexentry{machine learning|hyperpage}{553}
+\indexentry{objective function|hyperpage}{553}
+\indexentry{optimization|hyperpage}{553}
+\indexentry{potential function|hyperpage}{553}
+\indexentry{scientiﬁc computing|hyperpage}{553}
+\indexentry{stock picking|hyperpage}{553}
+\indexentry{computer algebra system|hyperpage}{554}
+\indexentry{derivatives – calculus|hyperpage}{554}
+\indexentry{hill climbing|hyperpage}{554}
+\indexentry{linear programming|hyperpage}{554}
+\indexentry{local optima|hyperpage}{554}
+\indexentry{mathematical programming|hyperpage}{554}
+\indexentry{maxima|hyperpage}{554}
+\indexentry{minima|hyperpage}{554}
+\indexentry{mountain climbing|hyperpage}{554}
+\indexentry{symbolic computation|hyperpage}{554}
+\indexentry{board evaluation function|hyperpage}{555}
+\indexentry{conjugate gradient methods|hyperpage}{555}
+\indexentry{grid search|hyperpage}{555}
+\indexentry{numerical root ﬁnding|hyperpage}{555}
+\indexentry{penalty functions|hyperpage}{555}
+\indexentry{root ﬁnding algorithms|hyperpage}{555}
+\indexentry{satisfying constraints|hyperpage}{555}
+\indexentry{smoothness|hyperpage}{555}
+\indexentry{steepest descent methods|hyperpage}{555}
+\indexentry{linear programming – models!problems|hyperpage}{556}
+\indexentry{adaptive compression algorithms!(ASA)|hyperpage}{557}
+\indexentry{ASA|hyperpage}{557}
+\indexentry{GAMS|hyperpage}{557}
+\indexentry{genetic algorithms|hyperpage}{557}
+\indexentry{Lagrangian relaxation|hyperpage}{557}
+\indexentry{Metropolis algorithm|hyperpage}{557}
+\indexentry{Monte Carlo techniques|hyperpage}{557}
+\indexentry{NEOS|hyperpage}{557}
+\indexentry{network reliability!System (NEOS)|hyperpage}{557}
+\indexentry{integer programming|hyperpage}{558}
+\indexentry{airline scheduling|hyperpage}{558}
+\indexentry{inconsistent linear equations|hyperpage}{558}
+\indexentry{linear programming|hyperpage}{558}
+\indexentry{mathematical programming|hyperpage}{558}
+\indexentry{operations research|hyperpage}{558}
+\indexentry{over-determined linear systems|hyperpage}{558}
+\indexentry{proﬁt maximization|hyperpage}{558}
+\indexentry{resource allocation|hyperpage}{558}
+\indexentry{commercial implementations|hyperpage}{559}
+\indexentry{convex region|hyperpage}{559}
+\indexentry{cutting plane methods|hyperpage}{559}
+\indexentry{integrality constraints|hyperpage}{559}
+\indexentry{interior-point methods|hyperpage}{559}
+\indexentry{intersection – halfspaces|hyperpage}{559}
+\indexentry{knapsack|hyperpage}{559}
+\indexentry{mixed-integer programming|hyperpage}{559}
+\indexentry{network ﬂow|hyperpage}{559}
+\indexentry{numerical stability|hyperpage}{559}
+\indexentry{pivoting rule|hyperpage}{559}
+\indexentry{set cover|hyperpage}{559}
+\indexentry{shortest path|hyperpage}{559}
+\indexentry{simplex method|hyperpage}{559}
+\indexentry{traveling salesman|hyperpage}{559}
+\indexentry{curve ﬁtting|hyperpage}{560}
+\indexentry{least-squares curve ﬁtting|hyperpage}{560}
+\indexentry{quadratic programming|hyperpage}{560}
+\indexentry{slack variables|hyperpage}{560}
+\indexentry{standard form|hyperpage}{560}
+\indexentry{ellipsoid algorithm|hyperpage}{562}
+\indexentry{Karmarkar’s algorithm|hyperpage}{562}
+\indexentry{NC – Nick’s class|hyperpage}{562}
+\indexentry{NEOS|hyperpage}{562}
+\indexentry{network reliability!System (NEOS)|hyperpage}{562}
+\indexentry{P-completeness|hyperpage}{562}
+\indexentry{brute-force search|hyperpage}{563}
+\indexentry{casino poker|hyperpage}{563}
+\indexentry{cryptography – keys|hyperpage}{563}
+\indexentry{discrete event simulation|hyperpage}{563}
+\indexentry{Internet|hyperpage}{563}
+\indexentry{Monte Carlo techniques|hyperpage}{563}
+\indexentry{password|hyperpage}{563}
+\indexentry{pseudorandom numbers|hyperpage}{563}
+\indexentry{security|hyperpage}{563}
+\indexentry{simulations – accuracy|hyperpage}{563}
+\indexentry{sin, state of|hyperpage}{563}
+\indexentry{built-in random number generator|hyperpage}{564}
+\indexentry{clock|hyperpage}{564}
+\indexentry{compiler|hyperpage}{564}
+\indexentry{debugging randomized algorithms|hyperpage}{564}
+\indexentry{linear congruential generator|hyperpage}{564}
+\indexentry{machine clock|hyperpage}{564}
+\indexentry{roulette wheels|hyperpage}{564}
+\indexentry{seed|hyperpage}{564}
+\indexentry{acceptance-rejection method|hyperpage}{565}
+\indexentry{circle|hyperpage}{565}
+\indexentry{cycle length|hyperpage}{565}
+\indexentry{Gaussian distribution|hyperpage}{565}
+\indexentry{period|hyperpage}{565}
+\indexentry{uniform distribution|hyperpage}{565}
+\indexentry{unbounded search!related problems|hyperpage}{565}
+\indexentry{information theory|hyperpage}{566}
+\indexentry{Kolmogorov complexity|hyperpage}{566}
+\indexentry{middle-square method|hyperpage}{566}
+\indexentry{shift-register sequences|hyperpage}{566}
+\indexentry{text compression|hyperpage}{566}
+\indexentry{bit vector – applications|hyperpage}{566}
+\indexentry{composite integer|hyperpage}{566}
+\indexentry{division|hyperpage}{566}
+\indexentry{factoring and primality testing|hyperpage}{566}
+\indexentry{games directory|hyperpage}{566}
+\indexentry{hash tables – size|hyperpage}{566}
+\indexentry{number theory|hyperpage}{566}
+\indexentry{primality testing|hyperpage}{566}
+\indexentry{RSA algorithm|hyperpage}{566}
+\indexentry{trial division|hyperpage}{566}
+\indexentry{NP|hyperpage}{567}
+\indexentry{Fermat’s theorem|hyperpage}{567}
+\indexentry{gaps between primes|hyperpage}{567}
+\indexentry{number ﬁeld sieve|hyperpage}{567}
+\indexentry{PARI|hyperpage}{567}
+\indexentry{PGP|hyperpage}{567}
+\indexentry{prime number theorem|hyperpage}{567}
+\indexentry{Carmichael numbers|hyperpage}{569}
+\indexentry{co-NP|hyperpage}{569}
+\indexentry{complexity classes|hyperpage}{569}
+\indexentry{computational number theory|hyperpage}{569}
+\indexentry{elliptic-curve method|hyperpage}{569}
+\indexentry{mechanical computers|hyperpage}{569}
+\indexentry{Miller-Rabin algorithm|hyperpage}{569}
+\indexentry{quadratic-sieve method|hyperpage}{569}
+\indexentry{RSA-129|hyperpage}{569}
+\indexentry{sieving devices – mechanical|hyperpage}{569}
+\indexentry{high school cliques!problems|hyperpage}{570}
+\indexentry{addition|hyperpage}{570}
+\indexentry{arbitrary-precision arithmetic|hyperpage}{570}
+\indexentry{computer algebra system|hyperpage}{570}
+\indexentry{division|hyperpage}{570}
+\indexentry{Gray code!359|hyperpage}{570}
+\indexentry{Maple|hyperpage}{570}
+\indexentry{multiplication|hyperpage}{570}
+\indexentry{national debt|hyperpage}{570}
+\indexentry{number theory|hyperpage}{570}
+\indexentry{public key cryptography|hyperpage}{570}
+\indexentry{Python|hyperpage}{570}
+\indexentry{RSA algorithm|hyperpage}{570}
+\indexentry{single-precision numbers|hyperpage}{570}
+\indexentry{subtraction|hyperpage}{570}
+\indexentry{assembly language|hyperpage}{571}
+\indexentry{base – arithmetic|hyperpage}{571}
+\indexentry{base – conversion|hyperpage}{571}
+\indexentry{borrowing|hyperpage}{571}
+\indexentry{decimal arithmetic|hyperpage}{571}
+\indexentry{hardware arithmetic|hyperpage}{571}
+\indexentry{schoolhouse method|hyperpage}{571}
+\indexentry{subroutine call overhead|hyperpage}{571}
+\indexentry{two’s complement arithmetic|hyperpage}{571}
+\indexentry{Chinese remainder theorem|hyperpage}{572}
+\indexentry{exponentiation|hyperpage}{572}
+\indexentry{Fourier transform – multiplication|hyperpage}{572}
+\indexentry{Horner’s rule|hyperpage}{572}
+\indexentry{Karatsuba’s algorithm|hyperpage}{572}
+\indexentry{long division|hyperpage}{572}
+\indexentry{modular arithmetic|hyperpage}{572}
+\indexentry{polynomial evaluation|hyperpage}{572}
+\indexentry{computational number theory|hyperpage}{574}
+\indexentry{cryptography – keys!492|hyperpage}{574}
+\indexentry{Euclid’s algorithm|hyperpage}{574}
+\indexentry{FFT|hyperpage}{574}
+\indexentry{MIX assembly language|hyperpage}{574}
+\indexentry{factoring and primality testing!related problems|hyperpage}{574}
+\indexentry{0/1 knapsack problem|hyperpage}{575}
+\indexentry{backpacker|hyperpage}{575}
+\indexentry{budget, ﬁxed|hyperpage}{575}
+\indexentry{ﬁnancial constraints|hyperpage}{575}
+\indexentry{knapsack problem|hyperpage}{575}
+\indexentry{price-per-pound|hyperpage}{575}
+\indexentry{resource allocation|hyperpage}{575}
+\indexentry{sorting – applications|hyperpage}{575}
+\indexentry{integer partition|hyperpage}{575}
+\indexentry{subset sum problem|hyperpage}{575}
+\indexentry{backtracking – applications|hyperpage}{576}
+\indexentry{bin packing – knapsack problem|hyperpage}{576}
+\indexentry{multiple knapsacks|hyperpage}{576}
+\indexentry{scaling|hyperpage}{576}
+\indexentry{integer programming!applications|hyperpage}{578}
+\indexentry{approximation scheme|hyperpage}{578}
+\indexentry{polynomial multiplication!scheme (PTAS)|hyperpage}{578}
+\indexentry{PTAS|hyperpage}{578}
+\indexentry{public key cryptography|hyperpage}{578}
+\indexentry{integer programming!problems|hyperpage}{578}
+\indexentry{compression – image|hyperpage}{579}
+\indexentry{convolution – sequences|hyperpage}{579}
+\indexentry{deconvolution|hyperpage}{579}
+\indexentry{discrete Fourier transform|hyperpage}{579}
+\indexentry{duality|hyperpage}{579}
+\indexentry{electrical engineers|hyperpage}{579}
+\indexentry{ﬁltering signals|hyperpage}{579}
+\indexentry{frequency domain|hyperpage}{579}
+\indexentry{image ﬁltering|hyperpage}{579}
+\indexentry{inverse Fourier transform|hyperpage}{579}
+\indexentry{signal processing|hyperpage}{579}
+\indexentry{sine functions|hyperpage}{579}
+\indexentry{smoothing|hyperpage}{579}
+\indexentry{time-series analysis|hyperpage}{579}
+\indexentry{correlation function|hyperpage}{580}
+\indexentry{discrete Fourier transform|hyperpage}{580}
+\indexentry{fast Fourier transform (FFT)|hyperpage}{580}
+\indexentry{FFT|hyperpage}{580}
+\indexentry{Gaussian distribution|hyperpage}{580}
+\indexentry{multiplication|hyperpage}{580}
+\indexentry{periodicities|hyperpage}{580}
+\indexentry{point-spread function|hyperpage}{580}
+\indexentry{polynomial multiplication|hyperpage}{580}
+\indexentry{scanner, OCR|hyperpage}{580}
+\indexentry{assembly language|hyperpage}{581}
+\indexentry{FFTPACK|hyperpage}{581}
+\indexentry{hardware implementation|hyperpage}{581}
+\indexentry{wavelets|hyperpage}{581}
+\indexentry{high school cliques!problems|hyperpage}{582}
+\indexentry{combinatorial problems|hyperpage}{583}
+\indexentry{non-numerical problems|hyperpage}{583}
+\indexentry{partial order|hyperpage}{583}
+\indexentry{ranking combinatorial objects|hyperpage}{583}
+\indexentry{unranking combinatorial objects|hyperpage}{583}
+\indexentry{bubblesort|hyperpage}{584}
+\indexentry{duplicate keys|hyperpage}{584}
+\indexentry{external-memory sorting|hyperpage}{584}
+\indexentry{heapsort|hyperpage}{584}
+\indexentry{insertion sort|hyperpage}{584}
+\indexentry{mergesort|hyperpage}{584}
+\indexentry{musical scales|hyperpage}{584}
+\indexentry{paradigms of algorithms design|hyperpage}{584}
+\indexentry{quicksort|hyperpage}{584}
+\indexentry{shellsort|hyperpage}{584}
+\indexentry{sorting|hyperpage}{584}
+\indexentry{bit vector|hyperpage}{586}
+\indexentry{bucket sort|hyperpage}{586}
+\indexentry{distribution sort|hyperpage}{586}
+\indexentry{external-memory sorting|hyperpage}{586}
+\indexentry{long keys|hyperpage}{586}
+\indexentry{radix sort|hyperpage}{586}
+\indexentry{secondary key|hyperpage}{586}
+\indexentry{Smith Society|hyperpage}{586}
+\indexentry{stable sorting|hyperpage}{586}
+\indexentry{tape drive|hyperpage}{586}
+\indexentry{problems|hyperpage}{586}
+\indexentry{B-tree|hyperpage}{587}
+\indexentry{insertion sort|hyperpage}{587}
+\indexentry{median – application|hyperpage}{587}
+\indexentry{merging tapes|hyperpage}{587}
+\indexentry{quicksort|hyperpage}{587}
+\indexentry{randomized quicksort|hyperpage}{587}
+\indexentry{stack size|hyperpage}{587}
+\indexentry{tail recursion|hyperpage}{587}
+\indexentry{virtual memory|hyperpage}{587}
+\indexentry{animation – sorting|hyperpage}{588}
+\indexentry{history|hyperpage}{588}
+\indexentry{lower bound – sorting|hyperpage}{588}
+\indexentry{models of computation|hyperpage}{588}
+\indexentry{presortedness measures|hyperpage}{588}
+\indexentry{priority queues – arithmetic model|hyperpage}{588}
+\indexentry{searching – related problems|hyperpage}{588}
+\indexentry{Timsort|hyperpage}{588}
+\indexentry{von Neumann, J.|hyperpage}{588}
+\indexentry{alpha-beta pruning|hyperpage}{589}
+\indexentry{binary search|hyperpage}{589}
+\indexentry{dictionary – searching|hyperpage}{589}
+\indexentry{game-tree search|hyperpage}{589}
+\indexentry{information retrieval|hyperpage}{589}
+\indexentry{retrieval|hyperpage}{589}
+\indexentry{searching|hyperpage}{589}
+\indexentry{sequential search|hyperpage}{589}
+\indexentry{static tables|hyperpage}{589}
+\indexentry{unbounded search!484|hyperpage}{589}
+\indexentry{defenestrate|hyperpage}{590}
+\indexentry{English language|hyperpage}{590}
+\indexentry{locality of reference|hyperpage}{590}
+\indexentry{move to front rule|hyperpage}{590}
+\indexentry{non-uniform access|hyperpage}{590}
+\indexentry{popular keys|hyperpage}{590}
+\indexentry{programming time|hyperpage}{590}
+\indexentry{self-organizing list|hyperpage}{590}
+\indexentry{sorting – cost of|hyperpage}{590}
+\indexentry{Zipf’s law|hyperpage}{590}
+\indexentry{B-tree|hyperpage}{592}
+\indexentry{binary search – one-sided|hyperpage}{592}
+\indexentry{clustered access|hyperpage}{592}
+\indexentry{English to French|hyperpage}{592}
+\indexentry{external memory|hyperpage}{592}
+\indexentry{interpolation search|hyperpage}{592}
+\indexentry{one-sided binary search|hyperpage}{592}
+\indexentry{telephone books|hyperpage}{592}
+\indexentry{unbounded search|hyperpage}{592}
+\indexentry{diameter of a point set!509|hyperpage}{592}
+\indexentry{Grover’s algorithm|hyperpage}{592}
+\indexentry{linear interpolation search|hyperpage}{592}
+\indexentry{optimal binary search trees|hyperpage}{592}
+\indexentry{quantum computing|hyperpage}{592}
+\indexentry{self-organizing tree|hyperpage}{592}
+\indexentry{sorting – rationales for!447|hyperpage}{592}
+\indexentry{mode|hyperpage}{593}
+\indexentry{average|hyperpage}{594}
+\indexentry{chess program|hyperpage}{594}
+\indexentry{data ﬁltering|hyperpage}{594}
+\indexentry{ﬁltering outlying elements|hyperpage}{594}
+\indexentry{Gates, William|hyperpage}{594}
+\indexentry{largest element|hyperpage}{594}
+\indexentry{mean|hyperpage}{594}
+\indexentry{median and selection|hyperpage}{594}
+\indexentry{order statistics|hyperpage}{594}
+\indexentry{outlying elements|hyperpage}{594}
+\indexentry{smallest element|hyperpage}{594}
+\indexentry{statistics|hyperpage}{594}
+\indexentry{selection|hyperpage}{595}
+\indexentry{expected-time, linear|hyperpage}{596}
+\indexentry{quicksort – applications|hyperpage}{596}
+\indexentry{sorting – applications|hyperpage}{596}
+\indexentry{arrangement of objects|hyperpage}{597}
+\indexentry{bandwidth|hyperpage}{597}
+\indexentry{exhaustive search|hyperpage}{597}
+\indexentry{generating permutations|hyperpage}{597}
+\indexentry{graph isomorphism|hyperpage}{597}
+\indexentry{incremental change methods|hyperpage}{597}
+\indexentry{ordering|hyperpage}{597}
+\indexentry{permutation generation|hyperpage}{597}
+\indexentry{ranked embedding!23|hyperpage}{597}
+\indexentry{traveling salesman|hyperpage}{597}
+\indexentry{bit vector|hyperpage}{597}
+\indexentry{duplicate elimination – graphs!permutations|hyperpage}{598}
+\indexentry{inverse operations|hyperpage}{598}
+\indexentry{Lotto problem|hyperpage}{598}
+\indexentry{random permutations|hyperpage}{598}
+\indexentry{ranking permutations|hyperpage}{598}
+\indexentry{sequencing permutations|hyperpage}{598}
+\indexentry{unranking permutations|hyperpage}{598}
+\indexentry{distinguishable elements|hyperpage}{600}
+\indexentry{multiset|hyperpage}{600}
+\indexentry{statistical signiﬁcance|hyperpage}{600}
+\indexentry{swap elements|hyperpage}{600}
+\indexentry{transposition|hyperpage}{600}
+\indexentry{uniform distribution|hyperpage}{600}
+\indexentry{generating partitions!problems|hyperpage}{600}
+\indexentry{random variable!related problems|hyperpage}{600}
+\indexentry{adjacent swaps|hyperpage}{601}
+\indexentry{cycle structure of permutations|hyperpage}{601}
+\indexentry{Markov chain random generation|hyperpage}{601}
+\indexentry{minimum-change order|hyperpage}{601}
+\indexentry{random permutations|hyperpage}{601}
+\indexentry{canonical order|hyperpage}{603}
+\indexentry{exhaustive search – subsets|hyperpage}{603}
+\indexentry{generating subsets|hyperpage}{603}
+\indexentry{knapsack problem|hyperpage}{603}
+\indexentry{selection – subsets|hyperpage}{603}
+\indexentry{set packing|hyperpage}{603}
+\indexentry{subset generation|hyperpage}{603}
+\indexentry{vertex cover|hyperpage}{603}
+\indexentry{bijection|hyperpage}{604}
+\indexentry{binary representation – subsets|hyperpage}{604}
+\indexentry{coin ﬂip|hyperpage}{604}
+\indexentry{Gray code|hyperpage}{604}
+\indexentry{k-subsets|hyperpage}{604}
+\indexentry{minimum change order – subsets|hyperpage}{604}
+\indexentry{next subset|hyperpage}{604}
+\indexentry{previous subset|hyperpage}{604}
+\indexentry{random subset|hyperpage}{604}
+\indexentry{ranking subsets|hyperpage}{604}
+\indexentry{unranking subsets|hyperpage}{604}
+\indexentry{analog channel|hyperpage}{605}
+\indexentry{Gray code|hyperpage}{605}
+\indexentry{Hamiltonian cycle – hypercube|hyperpage}{605}
+\indexentry{hypercube|hyperpage}{605}
+\indexentry{Spinout puzzle|hyperpage}{605}
+\indexentry{strings – generating|hyperpage}{605}
+\indexentry{generating partitions!problems|hyperpage}{606}
+\indexentry{atom smashing|hyperpage}{607}
+\indexentry{generating partitions|hyperpage}{607}
+\indexentry{integer partition|hyperpage}{607}
+\indexentry{nuclear ﬁssion|hyperpage}{607}
+\indexentry{set partition|hyperpage}{607}
+\indexentry{vertex coloring|hyperpage}{607}
+\indexentry{counting integer partitions|hyperpage}{607}
+\indexentry{Ferrer’s diagram|hyperpage}{607}
+\indexentry{block – set partition|hyperpage}{609}
+\indexentry{counting set partitions|hyperpage}{609}
+\indexentry{H-index|hyperpage}{609}
+\indexentry{restricted growth function|hyperpage}{609}
+\indexentry{Stirling numbers|hyperpage}{609}
+\indexentry{combinatorial generation|hyperpage}{610}
+\indexentry{compositions|hyperpage}{610}
+\indexentry{integer compositions|hyperpage}{610}
+\indexentry{k-subsets|hyperpage}{610}
+\indexentry{Young tableaux|hyperpage}{610}
+\indexentry{experimental graph theory|hyperpage}{611}
+\indexentry{four-color problem|hyperpage}{611}
+\indexentry{generating graphs|hyperpage}{611}
+\indexentry{labeled graphs|hyperpage}{611}
+\indexentry{test data|hyperpage}{611}
+\indexentry{unlabeled graphs|hyperpage}{611}
+\indexentry{Erd˝os-R´enyi graphs|hyperpage}{612}
+\indexentry{hyperlinks|hyperpage}{612}
+\indexentry{k-subsets – applications|hyperpage}{612}
+\indexentry{random graphs – generation|hyperpage}{612}
+\indexentry{transportation problems|hyperpage}{612}
+\indexentry{degree sequence|hyperpage}{613}
+\indexentry{edge ﬂipping operation|hyperpage}{613}
+\indexentry{ﬁxed degree sequence graphs|hyperpage}{613}
+\indexentry{integer partition|hyperpage}{613}
+\indexentry{leaves – tree|hyperpage}{613}
+\indexentry{Pr¨ufer codes|hyperpage}{613}
+\indexentry{random variable!502|hyperpage}{613}
+\indexentry{strings – combinatorial|hyperpage}{613}
+\indexentry{trees – generation|hyperpage}{613}
+\indexentry{vertex degree|hyperpage}{613}
+\indexentry{graph isomorphism!problems|hyperpage}{614}
+\indexentry{isomorphism|hyperpage}{614}
+\indexentry{Erd˝os-Gallai conditions|hyperpage}{614}
+\indexentry{graph isomorphism|hyperpage}{614}
+\indexentry{graphic partitions|hyperpage}{614}
+\indexentry{graphical enumeration|hyperpage}{614}
+\indexentry{nauty|hyperpage}{614}
+\indexentry{Pr¨ufer codes|hyperpage}{614}
+\indexentry{random graph theory|hyperpage}{614}
+\indexentry{calendrical calculations|hyperpage}{615}
+\indexentry{Chinese calendar|hyperpage}{615}
+\indexentry{day of the week calculation|hyperpage}{615}
+\indexentry{Hebrew calendar|hyperpage}{615}
+\indexentry{historical objects|hyperpage}{615}
+\indexentry{lunar calendar|hyperpage}{615}
+\indexentry{millennium bug|hyperpage}{615}
+\indexentry{month and year|hyperpage}{615}
+\indexentry{ranked embedding!23|hyperpage}{615}
+\indexentry{Gregorian calendar|hyperpage}{616}
+\indexentry{impress your friends algorithms|hyperpage}{616}
+\indexentry{Julian calendar|hyperpage}{616}
+\indexentry{leap year|hyperpage}{616}
+\indexentry{riots ensuing|hyperpage}{616}
+\indexentry{solar year|hyperpage}{616}
+\indexentry{arbitrary-precision arithmetic!related problems|hyperpage}{617}
+\indexentry{bipartite incidence structures!275|hyperpage}{619}
+\indexentry{consistent schedule|hyperpage}{619}
+\indexentry{delivery routing|hyperpage}{619}
+\indexentry{edge coloring – applications|hyperpage}{619}
+\indexentry{Eulerian cycle – applications|hyperpage}{619}
+\indexentry{Hamiltonian cycle – applications|hyperpage}{619}
+\indexentry{job scheduling|hyperpage}{619}
+\indexentry{parallel processor scheduling|hyperpage}{619}
+\indexentry{precedence-constrained scheduling|hyperpage}{619}
+\indexentry{scheduling|hyperpage}{619}
+\indexentry{time slot scheduling|hyperpage}{619}
+\indexentry{topological sorting!275|hyperpage}{619}
+\indexentry{vertex coloring – applications|hyperpage}{619}
+\indexentry{problems|hyperpage}{619}
+\indexentry{Catch-22 situation|hyperpage}{619}
+\indexentry{completion time – minimum|hyperpage}{619}
+\indexentry{integer programming!applications|hyperpage}{619}
+\indexentry{longest path, DAG|hyperpage}{619}
+\indexentry{worker assignment – scheduling|hyperpage}{619}
+\indexentry{proﬁt maximization!Technique|hyperpage}{621}
+\indexentry{bin packing – applications|hyperpage}{621}
+\indexentry{bin packing – knapsack problem!500|hyperpage}{621}
+\indexentry{critical path method|hyperpage}{621}
+\indexentry{job-shop scheduling|hyperpage}{621}
+\indexentry{PERT/CPM|hyperpage}{621}
+\indexentry{preemptive scheduling|hyperpage}{621}
+\indexentry{Xerox machines – scheduling|hyperpage}{621}
+\indexentry{NP!satisﬁability|hyperpage}{623}
+\indexentry{traveling salesman!problems|hyperpage}{623}
+\indexentry{clauses|hyperpage}{624}
+\indexentry{conjunctive normal form (CNF)|hyperpage}{624}
+\indexentry{Davis-Putnam procedure|hyperpage}{624}
+\indexentry{De Morgan’s laws|hyperpage}{624}
+\indexentry{negation|hyperpage}{624}
+\indexentry{simulated annealing – satisﬁability|hyperpage}{624}
+\indexentry{consistent schedule!485|hyperpage}{625}
+\indexentry{polynomial-time problems|hyperpage}{627}
+\indexentry{breadth-ﬁrst search|hyperpage}{628}
+\indexentry{cluster identiﬁcation|hyperpage}{628}
+\indexentry{connected component!524|hyperpage}{628}
+\indexentry{debugging graph algorithms|hyperpage}{628}
+\indexentry{path|hyperpage}{628}
+\indexentry{pieces of a graph|hyperpage}{628}
+\indexentry{preprocessing – graph algorithms|hyperpage}{628}
+\indexentry{network reliability|hyperpage}{629}
+\indexentry{reliability, network|hyperpage}{629}
+\indexentry{road network|hyperpage}{629}
+\indexentry{strength of a graph|hyperpage}{629}
+\indexentry{strongly connected graphs|hyperpage}{629}
+\indexentry{weakly connected graphs|hyperpage}{629}
+\indexentry{edge tour!problems|hyperpage}{630}
+\indexentry{biconnected components|hyperpage}{630}
+\indexentry{connectivity|hyperpage}{630}
+\indexentry{cycle detection|hyperpage}{630}
+\indexentry{deadlock|hyperpage}{630}
+\indexentry{tree identiﬁcation|hyperpage}{630}
+\indexentry{precedence constraints|hyperpage}{630}
+\indexentry{scheduling!constraints|hyperpage}{630}
+\indexentry{maze|hyperpage}{631}
+\indexentry{Dinic’s algorithm!535|hyperpage}{632}
+\indexentry{directed cycle|hyperpage}{632}
+\indexentry{linear extension|hyperpage}{632}
+\indexentry{sink vertex|hyperpage}{632}
+\indexentry{source vertex|hyperpage}{632}
+\indexentry{feedback edge/vertex set!problems|hyperpage}{633}
+\indexentry{topological sorting|hyperpage}{633}
+\indexentry{counting linear extensions|hyperpage}{633}
+\indexentry{feedback edge/vertex set|hyperpage}{633}
+\indexentry{#P-completeness|hyperpage}{634}
+\indexentry{sorting – rationales for!447|hyperpage}{634}
+\indexentry{union-ﬁnd data structure!applications|hyperpage}{635}
+\indexentry{cluster identiﬁcation|hyperpage}{635}
+\indexentry{greedy heuristic – Huﬀman codes!spanning trees|hyperpage}{635}
+\indexentry{244|hyperpage}{635}
+\indexentry{network design!spanning tree|hyperpage}{635}
+\indexentry{phone company|hyperpage}{635}
+\indexentry{point set clusters|hyperpage}{635}
+\indexentry{spanning tree|hyperpage}{635}
+\indexentry{unweighted graph!trees|hyperpage}{637}
+\indexentry{Prim’s algorithm|hyperpage}{638}
+\indexentry{Delaunay triangulation!applications|hyperpage}{638}
+\indexentry{Boruvka’s algorithm|hyperpage}{639}
+\indexentry{Fibonacci heap|hyperpage}{639}
+\indexentry{Kolmogorov complexity!550|hyperpage}{639}
+\indexentry{memory accesses|hyperpage}{639}
+\indexentry{mems|hyperpage}{639}
+\indexentry{Pascal|hyperpage}{639}
+\indexentry{traveling salesman!problems|hyperpage}{640}
+\indexentry{counting spanning trees|hyperpage}{640}
+\indexentry{low-degree spanning tree|hyperpage}{640}
+\indexentry{matrix-tree theorem|hyperpage}{640}
+\indexentry{matroids|hyperpage}{640}
+\indexentry{Steiner tree – related problems|hyperpage}{640}
+\indexentry{Vizing’s theorem|hyperpage}{640}
+\indexentry{shortest path|hyperpage}{641}
+\indexentry{communications networks|hyperpage}{642}
+\indexentry{digitized images|hyperpage}{642}
+\indexentry{image segmentation|hyperpage}{642}
+\indexentry{segmentation|hyperpage}{642}
+\indexentry{sentence structure|hyperpage}{642}
+\indexentry{transportation problems|hyperpage}{642}
+\indexentry{Bellman–Ford algorithm|hyperpage}{643}
+\indexentry{breadth-ﬁrst search|hyperpage}{643}
+\indexentry{center vertex|hyperpage}{643}
+\indexentry{Dijkstra’s algorithm|hyperpage}{643}
+\indexentry{geometric shortest path|hyperpage}{643}
+\indexentry{negative-cost cycle|hyperpage}{643}
+\indexentry{negative-cost edges|hyperpage}{643}
+\indexentry{obstacle-ﬁlled rooms|hyperpage}{643}
+\indexentry{single-source shortest path|hyperpage}{643}
+\indexentry{all-pairs shortest path|hyperpage}{644}
+\indexentry{cycle – shortest|hyperpage}{644}
+\indexentry{DAG – shortest path in|hyperpage}{644}
+\indexentry{dynamic graph algorithms!498|hyperpage}{644}
+\indexentry{Floyd’s algorithm|hyperpage}{644}
+\indexentry{girth|hyperpage}{644}
+\indexentry{longest path|hyperpage}{644}
+\indexentry{motion planning|hyperpage}{644}
+\indexentry{shortest cycle|hyperpage}{644}
+\indexentry{Bellman–Ford algorithm|hyperpage}{646}
+\indexentry{center vertex|hyperpage}{646}
+\indexentry{diameter of a graph|hyperpage}{646}
+\indexentry{Dijkstra’s algorithm|hyperpage}{646}
+\indexentry{eccentricity of a graph|hyperpage}{646}
+\indexentry{Fibonacci heap|hyperpage}{646}
+\indexentry{Floyd’s algorithm|hyperpage}{646}
+\indexentry{longest cycle|hyperpage}{646}
+\indexentry{radius of a graph|hyperpage}{646}
+\indexentry{simple cycle|hyperpage}{646}
+\indexentry{motion planning!problems|hyperpage}{646}
+\indexentry{network ﬂow – applications!485|hyperpage}{647}
+\indexentry{closure|hyperpage}{647}
+\indexentry{Floyd’s algorithm|hyperpage}{647}
+\indexentry{propagating consequences|hyperpage}{647}
+\indexentry{reachability problems|hyperpage}{647}
+\indexentry{spreadsheet updates|hyperpage}{647}
+\indexentry{transitive reduction|hyperpage}{647}
+\indexentry{Warshall’s algorithm|hyperpage}{647}
+\indexentry{connected component!problems|hyperpage}{648}
+\indexentry{graph drawings – clutter|hyperpage}{648}
+\indexentry{matrix multiplication|hyperpage}{648}
+\indexentry{minimum equivalent digraph|hyperpage}{648}
+\indexentry{space minimization – digraphs|hyperpage}{648}
+\indexentry{Strassen’s algorithm|hyperpage}{648}
+\indexentry{database query optimization|hyperpage}{650}
+\indexentry{empirical results|hyperpage}{650}
+\indexentry{estimating closure sizes|hyperpage}{650}
+\indexentry{Hamiltonian cycle|hyperpage}{650}
+\indexentry{assignment problem|hyperpage}{651}
+\indexentry{employees to jobs – matching|hyperpage}{651}
+\indexentry{job matching|hyperpage}{651}
+\indexentry{marriage problems|hyperpage}{651}
+\indexentry{matching|hyperpage}{651}
+\indexentry{augmenting path|hyperpage}{654}
+\indexentry{Berge’s theorem|hyperpage}{654}
+\indexentry{blossoms|hyperpage}{654}
+\indexentry{CSA|hyperpage}{654}
+\indexentry{even-length cycles|hyperpage}{654}
+\indexentry{maximum-cardinality matchings|hyperpage}{654}
+\indexentry{odd-length cycles|hyperpage}{654}
+\indexentry{perfect matching|hyperpage}{654}
+\indexentry{replicating vertices|hyperpage}{654}
+\indexentry{weighted graphs, applications|hyperpage}{654}
+\indexentry{Challenge|hyperpage}{655}
+\indexentry{Edmond’s algorithm|hyperpage}{655}
+\indexentry{Hungarian algorithm|hyperpage}{655}
+\indexentry{median and selection!matching|hyperpage}{655}
+\indexentry{Mona Lisa|hyperpage}{655}
+\indexentry{network ﬂow – applications!485|hyperpage}{655}
+\indexentry{stable marriages|hyperpage}{655}
+\indexentry{Chinese postman problem|hyperpage}{656}
+\indexentry{deliveries and pickups|hyperpage}{656}
+\indexentry{drawing puzzles|hyperpage}{656}
+\indexentry{Eulerian cycle|hyperpage}{656}
+\indexentry{Eulerian path|hyperpage}{656}
+\indexentry{garbage trucks|hyperpage}{656}
+\indexentry{mail routing|hyperpage}{656}
+\indexentry{snow plows|hyperpage}{656}
+\indexentry{394|hyperpage}{657}
+\indexentry{even-degree vertices|hyperpage}{657}
+\indexentry{Hierholzer’s algorithm|hyperpage}{657}
+\indexentry{odd-degree vertices|hyperpage}{657}
+\indexentry{splicing cycles|hyperpage}{657}
+\indexentry{bridges of K¨onigsberg|hyperpage}{658}
+\indexentry{counting Eulerian cycles|hyperpage}{658}
+\indexentry{de Bruijn sequence|hyperpage}{658}
+\indexentry{Fleury’s algorithm|hyperpage}{658}
+\indexentry{history – graph theory|hyperpage}{658}
+\indexentry{K¨onigsberg|hyperpage}{658}
+\indexentry{matching – number of perfect!536|hyperpage}{658}
+\indexentry{mixed graphs|hyperpage}{658}
+\indexentry{parallel algorithms – graphs|hyperpage}{658}
+\indexentry{safe cracker sequence|hyperpage}{658}
+\indexentry{Hamiltonian cycle – line graphs!problems|hyperpage}{658}
+\indexentry{articulation vertex|hyperpage}{660}
+\indexentry{biconnected graphs|hyperpage}{660}
+\indexentry{bridge|hyperpage}{660}
+\indexentry{connectivity|hyperpage}{660}
+\indexentry{edge and vertex connectivity|hyperpage}{660}
+\indexentry{network reliability|hyperpage}{660}
+\indexentry{strongly connected graphs|hyperpage}{660}
+\indexentry{terrorist|hyperpage}{660}
+\indexentry{weakly connected graphs|hyperpage}{660}
+\indexentry{call graph|hyperpage}{661}
+\indexentry{cut set|hyperpage}{661}
+\indexentry{disjoint paths|hyperpage}{661}
+\indexentry{edge disjoint paths|hyperpage}{661}
+\indexentry{graph partition|hyperpage}{661}
+\indexentry{Menger’s theorem|hyperpage}{661}
+\indexentry{network ﬂow|hyperpage}{661}
+\indexentry{program structure|hyperpage}{661}
+\indexentry{s-t connectivity|hyperpage}{661}
+\indexentry{software engineering|hyperpage}{661}
+\indexentry{vertex disjoint paths|hyperpage}{661}
+\indexentry{CSA|hyperpage}{663}
+\indexentry{graph partition – related problems|hyperpage}{663}
+\indexentry{max-ﬂow, min-cut theorem|hyperpage}{663}
+\indexentry{network ﬂow – applications!485|hyperpage}{663}
+\indexentry{randomization!552|hyperpage}{663}
+\indexentry{triconnected components|hyperpage}{663}
+\indexentry{connected component!problems|hyperpage}{663}
+\indexentry{shortest path|hyperpage}{663}
+\indexentry{communications networks|hyperpage}{664}
+\indexentry{linear programming – models|hyperpage}{664}
+\indexentry{linear programming – special cases|hyperpage}{664}
+\indexentry{network ﬂow|hyperpage}{664}
+\indexentry{plumbing|hyperpage}{664}
+\indexentry{scheduling problems|hyperpage}{664}
+\indexentry{shipping problems|hyperpage}{664}
+\indexentry{augmenting path|hyperpage}{665}
+\indexentry{multicommodity ﬂow|hyperpage}{665}
+\indexentry{sinks – multiple|hyperpage}{665}
+\indexentry{sources – multiple|hyperpage}{665}
+\indexentry{CS|hyperpage}{666}
+\indexentry{Challenge|hyperpage}{666}
+\indexentry{Dinic’s algorithm|hyperpage}{667}
+\indexentry{HIPR|hyperpage}{667}
+\indexentry{Karazanov’s algorithm|hyperpage}{667}
+\indexentry{matching – number of perfect!536|hyperpage}{667}
+\indexentry{preﬂow-push methods|hyperpage}{667}
+\indexentry{PRF|hyperpage}{667}
+\indexentry{edge tour!problems|hyperpage}{667}
+\indexentry{linear programming – models!problems|hyperpage}{667}
+\indexentry{aesthetically pleasing drawings|hyperpage}{667}
+\indexentry{angular resolution|hyperpage}{667}
+\indexentry{area minimization|hyperpage}{667}
+\indexentry{crossings|hyperpage}{667}
+\indexentry{drawing graphs nicely|hyperpage}{667}
+\indexentry{edge length|hyperpage}{667}
+\indexentry{Petersen graph|hyperpage}{667}
+\indexentry{road network|hyperpage}{670}
+\indexentry{aspect ratio|hyperpage}{670}
+\indexentry{incremental algorithms|hyperpage}{670}
+\indexentry{orthogonal polyline drawings|hyperpage}{670}
+\indexentry{planar graph|hyperpage}{670}
+\indexentry{polyline graph drawings|hyperpage}{670}
+\indexentry{straight-line graph drawings|hyperpage}{670}
+\indexentry{trees – drawings|hyperpage}{670}
+\indexentry{planar sweep algorithms!problems|hyperpage}{672}
+\indexentry{bin packing – applications|hyperpage}{672}
+\indexentry{circular embeddings|hyperpage}{672}
+\indexentry{energy minimization|hyperpage}{672}
+\indexentry{label placement|hyperpage}{672}
+\indexentry{spring embedding heuristics|hyperpage}{672}
+\indexentry{debugging tools|hyperpage}{674}
+\indexentry{directory ﬁle structures|hyperpage}{674}
+\indexentry{drawing trees|hyperpage}{674}
+\indexentry{family tree|hyperpage}{674}
+\indexentry{free trees|hyperpage}{674}
+\indexentry{hierarchical drawings|hyperpage}{674}
+\indexentry{minimum spanning tree – drawing|hyperpage}{674}
+\indexentry{planar drawings|hyperpage}{674}
+\indexentry{rooted tree|hyperpage}{674}
+\indexentry{software tools|hyperpage}{674}
+\indexentry{center vertex|hyperpage}{676}
+\indexentry{corporate ladder|hyperpage}{676}
+\indexentry{radial embeddings|hyperpage}{676}
+\indexentry{ranked embedding|hyperpage}{676}
+\indexentry{spring embedding heuristics|hyperpage}{676}
+\indexentry{planar drawings!problems|hyperpage}{676}
+\indexentry{drawing graphs – related problems|hyperpage}{677}
+\indexentry{NP!drawing|hyperpage}{677}
+\indexentry{elimination ordering|hyperpage}{678}
+\indexentry{embeddings – planar|hyperpage}{678}
+\indexentry{Euler’s formula|hyperpage}{678}
+\indexentry{K5|hyperpage}{678}
+\indexentry{non-crossing drawing|hyperpage}{678}
+\indexentry{planar sweep algorithms!embedding|hyperpage}{678}
+\indexentry{sparse graph|hyperpage}{678}
+\indexentry{surface structures|hyperpage}{678}
+\indexentry{crossing number|hyperpage}{679}
+\indexentry{394|hyperpage}{679}
+\indexentry{grid embeddings|hyperpage}{679}
+\indexentry{layered printed circuit boards|hyperpage}{679}
+\indexentry{NP!number|hyperpage}{679}
+\indexentry{overpasses – highway|hyperpage}{679}
+\indexentry{testing planarity|hyperpage}{679}
+\indexentry{incremental change methods!graph drawing|hyperpage}{680}
+\indexentry{drawing trees!577|hyperpage}{680}
+\indexentry{Fary’s theorem|hyperpage}{680}
+\indexentry{graph drawing – related problems|hyperpage}{680}
+\indexentry{homeomorphism|hyperpage}{680}
+\indexentry{K3,3|hyperpage}{680}
+\indexentry{Kuratowski’s theorem|hyperpage}{680}
+\indexentry{outerplanar graphs|hyperpage}{680}
+\indexentry{straight-line graph drawings|hyperpage}{680}
+\indexentry{exponential-time algorithms|hyperpage}{682}
+\indexentry{clique|hyperpage}{683}
+\indexentry{clustering|hyperpage}{683}
+\indexentry{fraud – tax|hyperpage}{683}
+\indexentry{friendship graph|hyperpage}{683}
+\indexentry{hardness of approximation|hyperpage}{683}
+\indexentry{high school cliques|hyperpage}{683}
+\indexentry{Internal Revenue Service (IRS)|hyperpage}{683}
+\indexentry{maximal clique|hyperpage}{683}
+\indexentry{dense subgraph|hyperpage}{685}
+\indexentry{induced subgraph|hyperpage}{685}
+\indexentry{planar graph – clique|hyperpage}{685}
+\indexentry{branch-and-bound search|hyperpage}{686}
+\indexentry{Challenge|hyperpage}{686}
+\indexentry{vertex cover – hardness proof!564|hyperpage}{686}
+\indexentry{coding theory|hyperpage}{687}
+\indexentry{complement graph|hyperpage}{687}
+\indexentry{dispersion problems|hyperpage}{687}
+\indexentry{facility location|hyperpage}{687}
+\indexentry{independent set|hyperpage}{687}
+\indexentry{noisy channels|hyperpage}{687}
+\indexentry{separation problems|hyperpage}{687}
+\indexentry{clique – related problems|hyperpage}{688}
+\indexentry{matching – dual to|hyperpage}{688}
+\indexentry{trees – independent set|hyperpage}{688}
+\indexentry{vertex coloring – bipartite graphs!536|hyperpage}{688}
+\indexentry{vertex cover – hardness proof!564|hyperpage}{688}
+\indexentry{Boolean logic minimization|hyperpage}{689}
+\indexentry{reduction|hyperpage}{689}
+\indexentry{set cover|hyperpage}{689}
+\indexentry{vertex cover|hyperpage}{689}
+\indexentry{edge cover|hyperpage}{690}
+\indexentry{maximal matching|hyperpage}{690}
+\indexentry{performance guarantee|hyperpage}{690}
+\indexentry{independent set – hardness proof!588|hyperpage}{692}
+\indexentry{branch-and-bound search|hyperpage}{695}
+\indexentry{cutting plane methods|hyperpage}{695}
+\indexentry{distance graph|hyperpage}{695}
+\indexentry{geometric TSP|hyperpage}{695}
+\indexentry{hub site|hyperpage}{695}
+\indexentry{linear programming – relaxation|hyperpage}{695}
+\indexentry{nearest neighbor graph|hyperpage}{695}
+\indexentry{exhaustive search – application!results|hyperpage}{696}
+\indexentry{394|hyperpage}{696}
+\indexentry{Euclidean minimum spanning tree|hyperpage}{696}
+\indexentry{furthest-point insertion heuristic|hyperpage}{696}
+\indexentry{heuristics – empirical results|hyperpage}{696}
+\indexentry{incremental change methods!TSP|hyperpage}{696}
+\indexentry{k-optimal tours|hyperpage}{696}
+\indexentry{Kernighan–Lin heuristic|hyperpage}{696}
+\indexentry{Hamiltonian cycle – line graphs!problems|hyperpage}{696}
+\indexentry{minimum spanning tree – drawing!problems|hyperpage}{696}
+\indexentry{approximation scheme|hyperpage}{699}
+\indexentry{Christoﬁdes heuristic|hyperpage}{699}
+\indexentry{matching – applications|hyperpage}{699}
+\indexentry{TSPLIB|hyperpage}{699}
+\indexentry{Hamiltonian cycle|hyperpage}{700}
+\indexentry{longest cycle|hyperpage}{700}
+\indexentry{longest path|hyperpage}{700}
+\indexentry{traveling salesman!problems|hyperpage}{700}
+\indexentry{biconnected graphs|hyperpage}{701}
+\indexentry{DAG – longest path in|hyperpage}{701}
+\indexentry{de Bruijn sequence|hyperpage}{701}
+\indexentry{dense graphs|hyperpage}{701}
+\indexentry{densest sphere packing!568|hyperpage}{701}
+\indexentry{dynamic graph algorithms!498|hyperpage}{701}
+\indexentry{edge tour|hyperpage}{701}
+\indexentry{244|hyperpage}{701}
+\indexentry{repeated vertices|hyperpage}{701}
+\indexentry{around the world game|hyperpage}{702}
+\indexentry{asymmetric longest path problem|hyperpage}{702}
+\indexentry{Avogadro’s number|hyperpage}{702}
+\indexentry{biocomputing|hyperpage}{702}
+\indexentry{Eulerian cycle – related problems|hyperpage}{702}
+\indexentry{football program|hyperpage}{702}
+\indexentry{collapsing dense subgraphs|hyperpage}{703}
+\indexentry{cut set|hyperpage}{703}
+\indexentry{distribution sort!502|hyperpage}{703}
+\indexentry{graph partition|hyperpage}{703}
+\indexentry{network ﬂow – applications|hyperpage}{703}
+\indexentry{virtual memory – performance|hyperpage}{703}
+\indexentry{edge tour!problems|hyperpage}{704}
+\indexentry{NP!561|hyperpage}{704}
+\indexentry{communication in circuits|hyperpage}{705}
+\indexentry{max-cut|hyperpage}{705}
+\indexentry{planar separators|hyperpage}{705}
+\indexentry{separator theorems|hyperpage}{705}
+\indexentry{trees – partition|hyperpage}{705}
+\indexentry{Kernighan–Lin heuristic|hyperpage}{705}
+\indexentry{network ﬂow – applications!485|hyperpage}{705}
+\indexentry{randomization!552|hyperpage}{705}
+\indexentry{semideﬁnite programming|hyperpage}{705}
+\indexentry{bipartite graph|hyperpage}{706}
+\indexentry{chromatic number|hyperpage}{706}
+\indexentry{coloring graphs|hyperpage}{706}
+\indexentry{compiler optimization|hyperpage}{706}
+\indexentry{register allocation|hyperpage}{706}
+\indexentry{vertex coloring|hyperpage}{706}
+\indexentry{bipartite incidence structures!562|hyperpage}{708}
+\indexentry{backpacker!599|hyperpage}{708}
+\indexentry{color interchange|hyperpage}{708}
+\indexentry{394|hyperpage}{708}
+\indexentry{edge coloring|hyperpage}{708}
+\indexentry{incremental change methods!coloring|hyperpage}{708}
+\indexentry{planar graph – coloring|hyperpage}{708}
+\indexentry{chromatic polynomials|hyperpage}{709}
+\indexentry{combinatorial problems!580|hyperpage}{709}
+\indexentry{Challenge|hyperpage}{709}
+\indexentry{DSATUR|hyperpage}{709}
+\indexentry{empirical results|hyperpage}{709}
+\indexentry{induced subgraph|hyperpage}{709}
+\indexentry{matching shapes!580|hyperpage}{709}
+\indexentry{random graph theory|hyperpage}{709}
+\indexentry{Brook’s theorem|hyperpage}{710}
+\indexentry{edge coloring – applications!536|hyperpage}{710}
+\indexentry{four-color problem|hyperpage}{710}
+\indexentry{independent set – hardness proof!588|hyperpage}{710}
+\indexentry{odd-length cycles|hyperpage}{710}
+\indexentry{chromatic index|hyperpage}{711}
+\indexentry{edge chromatic number|hyperpage}{711}
+\indexentry{edge coloring|hyperpage}{711}
+\indexentry{exam scheduling|hyperpage}{711}
+\indexentry{football scheduling|hyperpage}{711}
+\indexentry{interfering tasks|hyperpage}{711}
+\indexentry{interview scheduling|hyperpage}{711}
+\indexentry{National Football League (NFL)|hyperpage}{711}
+\indexentry{Vizing’s theorem|hyperpage}{711}
+\indexentry{Eulerian cycle – line graphs|hyperpage}{712}
+\indexentry{Hamiltonian cycle – line graphs|hyperpage}{712}
+\indexentry{line graph|hyperpage}{712}
+\indexentry{vertex coloring|hyperpage}{712}
+\indexentry{vertex coloring – bipartite graphs!536|hyperpage}{712}
+\indexentry{automorphisms|hyperpage}{715}
+\indexentry{duplicate elimination – graphs|hyperpage}{715}
+\indexentry{graph isomorphism|hyperpage}{715}
+\indexentry{group – automorphism|hyperpage}{715}
+\indexentry{identical graphs|hyperpage}{715}
+\indexentry{isomorphism – graph|hyperpage}{715}
+\indexentry{symmetry detection|hyperpage}{715}
+\indexentry{backpacker!599|hyperpage}{718}
+\indexentry{induced subgraph isomorphism|hyperpage}{718}
+\indexentry{labeled graphs|hyperpage}{718}
+\indexentry{language pattern matching|hyperpage}{718}
+\indexentry{parse trees|hyperpage}{718}
+\indexentry{subgraph isomorphism|hyperpage}{718}
+\indexentry{trees – matching|hyperpage}{718}
+\indexentry{unlabeled graphs|hyperpage}{718}
+\indexentry{computational complexity|hyperpage}{720}
+\indexentry{counting paths|hyperpage}{720}
+\indexentry{degree, vertex|hyperpage}{720}
+\indexentry{equivalence classes|hyperpage}{720}
+\indexentry{integer factorization|hyperpage}{720}
+\indexentry{invariant – graph|hyperpage}{720}
+\indexentry{paths – counting|hyperpage}{720}
+\indexentry{powers of graphs|hyperpage}{720}
+\indexentry{pruning – backtracking|hyperpage}{720}
+\indexentry{shortest-path matrix|hyperpage}{720}
+\indexentry{canonically labeled graphs|hyperpage}{721}
+\indexentry{isomorphism-complete|hyperpage}{721}
+\indexentry{nauty|hyperpage}{721}
+\indexentry{planar graph – isomorphism|hyperpage}{721}
+\indexentry{string matching!451|hyperpage}{721}
+\indexentry{geometric Steiner tree|hyperpage}{722}
+\indexentry{heating ducts|hyperpage}{722}
+\indexentry{network design|hyperpage}{722}
+\indexentry{Steiner tree|hyperpage}{722}
+\indexentry{VLSI circuit layout|hyperpage}{722}
+\indexentry{water pipes|hyperpage}{722}
+\indexentry{wiring layout problems|hyperpage}{722}
+\indexentry{backtracking – applications|hyperpage}{723}
+\indexentry{branch-and-bound search|hyperpage}{723}
+\indexentry{classiﬁcation|hyperpage}{723}
+\indexentry{evolutionary tree|hyperpage}{723}
+\indexentry{phylogenic tree|hyperpage}{723}
+\indexentry{rectilinear Steiner tree|hyperpage}{723}
+\indexentry{minimum spanning tree – drawing!problems|hyperpage}{723}
+\indexentry{scheduling|hyperpage}{724}
+\indexentry{equilateral triangle|hyperpage}{724}
+\indexentry{molecular sequence data|hyperpage}{724}
+\indexentry{PAUP|hyperpage}{724}
+\indexentry{PHYLIP|hyperpage}{724}
+\indexentry{phylogenic tree|hyperpage}{724}
+\indexentry{Steiner ratio|hyperpage}{724}
+\indexentry{empirical results – heuristics|hyperpage}{726}
+\indexentry{energy minimization|hyperpage}{726}
+\indexentry{Fermat|hyperpage}{726}
+\indexentry{Gilbert and Pollak conjecture|hyperpage}{726}
+\indexentry{soap ﬁlms|hyperpage}{726}
+\indexentry{acyclic subgraph|hyperpage}{729}
+\indexentry{constraint elimination|hyperpage}{729}
+\indexentry{Dinic’s algorithm!535|hyperpage}{729}
+\indexentry{feedback edge/vertex set|hyperpage}{729}
+\indexentry{maximum acyclic subgraph|hyperpage}{729}
+\indexentry{precedence constraints|hyperpage}{729}
+\indexentry{bandwidth reduction!problems|hyperpage}{729}
+\indexentry{problems|hyperpage}{729}
+\indexentry{cycle breaking|hyperpage}{729}
+\indexentry{trees – acyclic graphs|hyperpage}{729}
+\indexentry{economics – applications to|hyperpage}{730}
+\indexentry{ﬁxed-parameter tractability|hyperpage}{730}
+\indexentry{graph traversal!600|hyperpage}{730}
+\indexentry{producer/consumer sectors|hyperpage}{730}
+\indexentry{scheduling!609|hyperpage}{730}
+\indexentry{CGAL|hyperpage}{732}
+\indexentry{computational geometry|hyperpage}{732}
+\indexentry{degeneracy|hyperpage}{733}
+\indexentry{geometric degeneracy|hyperpage}{733}
+\indexentry{line intersection|hyperpage}{733}
+\indexentry{parallel lines|hyperpage}{733}
+\indexentry{robot motion planning!476|hyperpage}{733}
+\indexentry{arbitrary-precision arithmetic!geometry|hyperpage}{734}
+\indexentry{DOS ﬁle names!493|hyperpage}{734}
+\indexentry{ﬂoating-point arithmetic|hyperpage}{734}
+\indexentry{integer arithmetic|hyperpage}{734}
+\indexentry{numerical precision|hyperpage}{734}
+\indexentry{random perturbations|hyperpage}{734}
+\indexentry{above-below test|hyperpage}{735}
+\indexentry{area computations – triangles|hyperpage}{735}
+\indexentry{line segment intersection|hyperpage}{735}
+\indexentry{volume computations|hyperpage}{735}
+\indexentry{in-circle test|hyperpage}{736}
+\indexentry{intersection detection!problems|hyperpage}{737}
+\indexentry{mail routing!related problems|hyperpage}{737}
+\indexentry{convex hull|hyperpage}{738}
+\indexentry{diameter of a point set|hyperpage}{738}
+\indexentry{rotating-calipers method|hyperpage}{738}
+\indexentry{shape of a point set|hyperpage}{738}
+\indexentry{duality|hyperpage}{738}
+\indexentry{facets|hyperpage}{738}
+\indexentry{gift-wrapping algorithm|hyperpage}{738}
+\indexentry{half-space intersection|hyperpage}{738}
+\indexentry{alpha-shapes|hyperpage}{740}
+\indexentry{concavities|hyperpage}{740}
+\indexentry{Graham scan|hyperpage}{740}
+\indexentry{non self intersecting polygons|hyperpage}{740}
+\indexentry{Qhull|hyperpage}{740}
+\indexentry{simple polygon – construction|hyperpage}{740}
+\indexentry{dynamic convex hulls|hyperpage}{742}
+\indexentry{lhs|hyperpage}{742}
+\indexentry{lifting-map construction|hyperpage}{742}
+\indexentry{lower bound|hyperpage}{742}
+\indexentry{reverse-search algorithms|hyperpage}{742}
+\indexentry{sorting – rationales for!447|hyperpage}{742}
+\indexentry{polygon partitioning!problems|hyperpage}{743}
+\indexentry{consistent schedule!triangulation|hyperpage}{743}
+\indexentry{Delaunay triangulation|hyperpage}{743}
+\indexentry{NP!tetrahedralization|hyperpage}{743}
+\indexentry{skinny triangles|hyperpage}{743}
+\indexentry{Voronoi diagram|hyperpage}{743}
+\indexentry{Triangle|hyperpage}{744}
+\indexentry{ﬁnite element analysis|hyperpage}{744}
+\indexentry{polygon triangulation|hyperpage}{744}
+\indexentry{Qhull|hyperpage}{744}
+\indexentry{Steiner points|hyperpage}{744}
+\indexentry{algorithms|hyperpage}{745}
+\indexentry{dynamic graph algorithms!498|hyperpage}{745}
+\indexentry{minimum weight triangulation|hyperpage}{745}
+\indexentry{monotone polygons|hyperpage}{745}
+\indexentry{NC – Nick’s class!problems|hyperpage}{746}
+\indexentry{convex hull|hyperpage}{746}
+\indexentry{empty circle – largest|hyperpage}{747}
+\indexentry{facility location|hyperpage}{747}
+\indexentry{factory location|hyperpage}{747}
+\indexentry{McDonald’s restaurants|hyperpage}{747}
+\indexentry{nearest neighbor search|hyperpage}{747}
+\indexentry{region of inﬂuence|hyperpage}{747}
+\indexentry{Voronoi diagram|hyperpage}{747}
+\indexentry{Fortune’s algorithm|hyperpage}{748}
+\indexentry{mesh generation|hyperpage}{748}
+\indexentry{non-Euclidean distance metrics|hyperpage}{748}
+\indexentry{path planning|hyperpage}{748}
+\indexentry{perpendicular bisector|hyperpage}{748}
+\indexentry{quality triangulations|hyperpage}{748}
+\indexentry{shortest path – geometric|hyperpage}{748}
+\indexentry{sweep line algorithms|hyperpage}{748}
+\indexentry{furthest-site diagrams|hyperpage}{749}
+\indexentry{kth-order Voronoi diagrams|hyperpage}{749}
+\indexentry{naming concepts|hyperpage}{749}
+\indexentry{NEOS!632|hyperpage}{749}
+\indexentry{point location!463|hyperpage}{749}
+\indexentry{power diagrams|hyperpage}{749}
+\indexentry{radio stations|hyperpage}{749}
+\indexentry{transmitter power|hyperpage}{749}
+\indexentry{Delaunay triangulation|hyperpage}{749}
+\indexentry{Qhull|hyperpage}{749}
+\indexentry{classiﬁcation – nearest-neighbor|hyperpage}{750}
+\indexentry{closest point|hyperpage}{750}
+\indexentry{delivery routing!identiﬁcation|hyperpage}{750}
+\indexentry{ﬁrehouse|hyperpage}{750}
+\indexentry{image compression|hyperpage}{750}
+\indexentry{nearest neighbor search|hyperpage}{750}
+\indexentry{vector quantiﬁcation|hyperpage}{750}
+\indexentry{balltrees|hyperpage}{751}
+\indexentry{higher-dimensional data structures!635|hyperpage}{751}
+\indexentry{kd-trees|hyperpage}{751}
+\indexentry{sequential search|hyperpage}{751}
+\indexentry{Voronoi diagram!neighbor search|hyperpage}{751}
+\indexentry{Delaunay triangulation|hyperpage}{752}
+\indexentry{animation – sorting!search|hyperpage}{752}
+\indexentry{closest-pair problem|hyperpage}{752}
+\indexentry{dynamic data structures|hyperpage}{752}
+\indexentry{nearest neighbor graph|hyperpage}{752}
+\indexentry{Pascal|hyperpage}{752}
+\indexentry{range search!463|hyperpage}{753}
+\indexentry{axis-oriented rectangles|hyperpage}{754}
+\indexentry{convex decomposition|hyperpage}{754}
+\indexentry{database application|hyperpage}{754}
+\indexentry{genetic algorithms!(GIS)|hyperpage}{754}
+\indexentry{orthogonal range query|hyperpage}{754}
+\indexentry{poor thin people|hyperpage}{754}
+\indexentry{range search|hyperpage}{754}
+\indexentry{aggregate range queries|hyperpage}{755}
+\indexentry{dominance orderings|hyperpage}{755}
+\indexentry{kd-trees – applications|hyperpage}{755}
+\indexentry{lower bound – range searching|hyperpage}{756}
+\indexentry{point location!463|hyperpage}{756}
+\indexentry{point location|hyperpage}{757}
+\indexentry{algorithms|hyperpage}{757}
+\indexentry{inside–outside polygon|hyperpage}{757}
+\indexentry{point in polygon|hyperpage}{757}
+\indexentry{spiral polygon|hyperpage}{757}
+\indexentry{disk drives!637|hyperpage}{758}
+\indexentry{grid ﬁle|hyperpage}{759}
+\indexentry{slab method|hyperpage}{759}
+\indexentry{Arrange|hyperpage}{760}
+\indexentry{binary search tree|hyperpage}{760}
+\indexentry{planar subdivisions|hyperpage}{760}
+\indexentry{bucketing techniques|hyperpage}{761}
+\indexentry{dynamic data structures|hyperpage}{761}
+\indexentry{kd-trees – applications!643|hyperpage}{761}
+\indexentry{nearest neighbor search!problems|hyperpage}{761}
+\indexentry{triangle reﬁnement method|hyperpage}{761}
+\indexentry{architectural models|hyperpage}{762}
+\indexentry{design rule checking|hyperpage}{762}
+\indexentry{intersection detection|hyperpage}{762}
+\indexentry{virtual reality applications|hyperpage}{762}
+\indexentry{VLSI circuit layout|hyperpage}{762}
+\indexentry{walk-through|hyperpage}{762}
+\indexentry{algorithms|hyperpage}{763}
+\indexentry{convex polygons – intersection|hyperpage}{763}
+\indexentry{hidden-surface elimination|hyperpage}{763}
+\indexentry{line intersection|hyperpage}{763}
+\indexentry{output-sensitive algorithms|hyperpage}{763}
+\indexentry{Picasso, P.|hyperpage}{763}
+\indexentry{robot motion planning|hyperpage}{763}
+\indexentry{segment intersection|hyperpage}{763}
+\indexentry{visibility graphs|hyperpage}{763}
+\indexentry{motion planning!problems|hyperpage}{764}
+\indexentry{bounding boxes|hyperpage}{764}
+\indexentry{C sorting library!646|hyperpage}{764}
+\indexentry{enclosing boxes|hyperpage}{764}
+\indexentry{event queue|hyperpage}{764}
+\indexentry{leaves – tree!646|hyperpage}{764}
+\indexentry{planar sweep algorithms|hyperpage}{764}
+\indexentry{priority queues!116|hyperpage}{764}
+\indexentry{sweep line algorithms|hyperpage}{764}
+\indexentry{union of polygons|hyperpage}{764}
+\indexentry{horizon|hyperpage}{764}
+\indexentry{CGAL|hyperpage}{764}
+\indexentry{axis-oriented rectangles|hyperpage}{765}
+\indexentry{mail routing!related problems|hyperpage}{765}
+\indexentry{Qhull|hyperpage}{765}
+\indexentry{rectangle|hyperpage}{765}
+\indexentry{knapsack problem – applications!problems|hyperpage}{766}
+\indexentry{bin packing|hyperpage}{766}
+\indexentry{cutting stock problem|hyperpage}{766}
+\indexentry{heuristics|hyperpage}{766}
+\indexentry{integer partition|hyperpage}{766}
+\indexentry{jigsaw puzzle|hyperpage}{766}
+\indexentry{manufacturing applications|hyperpage}{766}
+\indexentry{packaging applications|hyperpage}{766}
+\indexentry{shipping applications|hyperpage}{766}
+\indexentry{ﬁrst-ﬁt – decreasing|hyperpage}{767}
+\indexentry{oﬀ-line problem|hyperpage}{767}
+\indexentry{on-line problem|hyperpage}{767}
+\indexentry{clothing – manufacturing|hyperpage}{768}
+\indexentry{densest sphere packing|hyperpage}{768}
+\indexentry{empty rectangle|hyperpage}{768}
+\indexentry{enclosing rectangle|hyperpage}{768}
+\indexentry{Ford-Fulkerson algorithm!606|hyperpage}{768}
+\indexentry{Kepler conjecture|hyperpage}{768}
+\indexentry{sphere packing|hyperpage}{768}
+\indexentry{computer vision|hyperpage}{769}
+\indexentry{image processing|hyperpage}{769}
+\indexentry{medial-axis transform|hyperpage}{769}
+\indexentry{shape representation|hyperpage}{769}
+\indexentry{skeleton|hyperpage}{769}
+\indexentry{thinning|hyperpage}{769}
+\indexentry{brush ﬁre|hyperpage}{770}
+\indexentry{digital geometry|hyperpage}{770}
+\indexentry{line segment Voronoi diagram|hyperpage}{770}
+\indexentry{pixel geometry|hyperpage}{770}
+\indexentry{medial-axis transform|hyperpage}{771}
+\indexentry{Voronoi diagram!647|hyperpage}{771}
+\indexentry{convex decomposition|hyperpage}{772}
+\indexentry{gerrymandering|hyperpage}{772}
+\indexentry{polygon partitioning|hyperpage}{772}
+\indexentry{triangulation!645|hyperpage}{772}
+\indexentry{dynamic graph algorithms!applications|hyperpage}{773}
+\indexentry{counting spanning trees!pieces|hyperpage}{773}
+\indexentry{Hertel–Mehlhorn heuristic|hyperpage}{773}
+\indexentry{partitioning point sets!pieces|hyperpage}{773}
+\indexentry{reﬂex vertices|hyperpage}{773}
+\indexentry{Steiner vertices|hyperpage}{773}
+\indexentry{art gallery problems|hyperpage}{774}
+\indexentry{Ford-Fulkerson algorithm!606|hyperpage}{774}
+\indexentry{GEOMPACK|hyperpage}{774}
+\indexentry{guarding art galleries|hyperpage}{774}
+\indexentry{monotone decomposition|hyperpage}{774}
+\indexentry{operations research!655|hyperpage}{774}
+\indexentry{set cover – exact!593|hyperpage}{774}
+\indexentry{Stanford GraphBase!decomposition|hyperpage}{774}
+\indexentry{trapezoidal decomposition|hyperpage}{774}
+\indexentry{triangulation!636|hyperpage}{774}
+\indexentry{computer graphics – rendering|hyperpage}{775}
+\indexentry{concavity elimination|hyperpage}{775}
+\indexentry{image compression|hyperpage}{775}
+\indexentry{motion planning!simpliﬁcation|hyperpage}{775}
+\indexentry{noisy images|hyperpage}{775}
+\indexentry{shape simpliﬁcation|hyperpage}{775}
+\indexentry{simplifying polygons|hyperpage}{775}
+\indexentry{Douglas–Puecker algorithm|hyperpage}{777}
+\indexentry{Fourier transform – applications|hyperpage}{777}
+\indexentry{image simpliﬁcation|hyperpage}{777}
+\indexentry{link distance|hyperpage}{777}
+\indexentry{Minkowski sum – applications|hyperpage}{777}
+\indexentry{polyhedral simpliﬁcation|hyperpage}{777}
+\indexentry{self-intersecting polygons|hyperpage}{777}
+\indexentry{simple polygons|hyperpage}{777}
+\indexentry{split-and-merge algorithm|hyperpage}{777}
+\indexentry{Fourier transform – multiplication!problems|hyperpage}{777}
+\indexentry{skeleton|hyperpage}{778}
+\indexentry{intersection detection!applications|hyperpage}{778}
+\indexentry{subgraph isomorphism!applications|hyperpage}{778}
+\indexentry{convex hull!597|hyperpage}{778}
+\indexentry{simplicity testing|hyperpage}{778}
+\indexentry{Hamming distance|hyperpage}{779}
+\indexentry{matching shapes|hyperpage}{779}
+\indexentry{operations research!655|hyperpage}{779}
+\indexentry{pattern recognition|hyperpage}{779}
+\indexentry{shape similarity|hyperpage}{779}
+\indexentry{symmetric diﬀerence|hyperpage}{779}
+\indexentry{area computations – applications|hyperpage}{780}
+\indexentry{Hausdorﬀdistance|hyperpage}{780}
+\indexentry{noisy images|hyperpage}{780}
+\indexentry{pixel geometry|hyperpage}{780}
+\indexentry{graph isomorphism!problems|hyperpage}{781}
+\indexentry{Minkowski sum|hyperpage}{781}
+\indexentry{cars and tanks|hyperpage}{782}
+\indexentry{cloudy days|hyperpage}{782}
+\indexentry{feature sets|hyperpage}{782}
+\indexentry{image features|hyperpage}{782}
+\indexentry{machine learning – classiﬁcation|hyperpage}{782}
+\indexentry{sunny days|hyperpage}{782}
+\indexentry{thinning – related problems|hyperpage}{782}
+\indexentry{animation – motion planning|hyperpage}{782}
+\indexentry{drug discovery|hyperpage}{782}
+\indexentry{furniture moving|hyperpage}{782}
+\indexentry{geometric shortest path|hyperpage}{782}
+\indexentry{molecular docking|hyperpage}{782}
+\indexentry{motion planning|hyperpage}{782}
+\indexentry{moving furniture|hyperpage}{782}
+\indexentry{point robots|hyperpage}{782}
+\indexentry{robot motion planning|hyperpage}{782}
+\indexentry{scene interpolation|hyperpage}{782}
+\indexentry{visibility graphs|hyperpage}{782}
+\indexentry{degrees of freedom|hyperpage}{784}
+\indexentry{enclosing disk|hyperpage}{784}
+\indexentry{expanded obstacles approach|hyperpage}{784}
+\indexentry{rotation – polygon|hyperpage}{784}
+\indexentry{shape simpliﬁcation!645|hyperpage}{784}
+\indexentry{translation – polygon|hyperpage}{784}
+\indexentry{arm, robot|hyperpage}{785}
+\indexentry{blind man’s algorithm|hyperpage}{785}
+\indexentry{conﬁguration space|hyperpage}{785}
+\indexentry{map making|hyperpage}{785}
+\indexentry{random sampling – applications|hyperpage}{785}
+\indexentry{arrangement|hyperpage}{786}
+\indexentry{database query optimization!459|hyperpage}{786}
+\indexentry{free space|hyperpage}{786}
+\indexentry{Minkowski sum – applications!657|hyperpage}{786}
+\indexentry{piano mover’s problem|hyperpage}{786}
+\indexentry{shortest path – geometric!617|hyperpage}{786}
+\indexentry{arrangements of lines|hyperpage}{787}
+\indexentry{degeneracy testing|hyperpage}{787}
+\indexentry{line arrangements|hyperpage}{787}
+\indexentry{linear constraint satisfaction|hyperpage}{787}
+\indexentry{maintaining line arrangements|hyperpage}{787}
+\indexentry{regions formed by lines|hyperpage}{787}
+\indexentry{algorithms|hyperpage}{787}
+\indexentry{intersection detection!problems|hyperpage}{787}
+\indexentry{combinatorial geometry|hyperpage}{788}
+\indexentry{duality transformations|hyperpage}{788}
+\indexentry{incremental change methods!arrangements|hyperpage}{788}
+\indexentry{line-point duality|hyperpage}{788}
+\indexentry{sweep line algorithms|hyperpage}{788}
+\indexentry{three-points-on-a-line|hyperpage}{788}
+\indexentry{zone theorem|hyperpage}{788}
+\indexentry{Arrange|hyperpage}{789}
+\indexentry{database query optimization!459|hyperpage}{789}
+\indexentry{hyperplanes|hyperpage}{789}
+\indexentry{point location!463|hyperpage}{789}
+\indexentry{topological sweep|hyperpage}{789}
+\indexentry{zone theorem|hyperpage}{789}
+\indexentry{fattening polygons|hyperpage}{790}
+\indexentry{link distance|hyperpage}{790}
+\indexentry{Minkowski sum|hyperpage}{790}
+\indexentry{robot motion planning|hyperpage}{790}
+\indexentry{smoothing|hyperpage}{790}
+\indexentry{vector sums|hyperpage}{790}
+\indexentry{convex polygons|hyperpage}{791}
+\indexentry{motion planning!problems|hyperpage}{791}
+\indexentry{simplifying polygons!problems|hyperpage}{791}
+\indexentry{convolution – polygon|hyperpage}{792}
+\indexentry{rasterized images|hyperpage}{792}
+\indexentry{triangulation!645|hyperpage}{792}
+\indexentry{union of polygons – applications|hyperpage}{792}
+\indexentry{thinning – related problems|hyperpage}{792}
+\indexentry{canonical order|hyperpage}{794}
+\indexentry{set algorithms|hyperpage}{794}
+\indexentry{string algorithms|hyperpage}{794}
+\indexentry{Boolean logic minimization|hyperpage}{795}
+\indexentry{buying ﬁxed lots|hyperpage}{795}
+\indexentry{covering set elements|hyperpage}{795}
+\indexentry{disjoint subsets!538|hyperpage}{795}
+\indexentry{logic minimization|hyperpage}{795}
+\indexentry{set cover|hyperpage}{795}
+\indexentry{edge cover|hyperpage}{796}
+\indexentry{ethnic groups in Congress|hyperpage}{796}
+\indexentry{hitting set|hyperpage}{796}
+\indexentry{matching|hyperpage}{796}
+\indexentry{packing vs. covering|hyperpage}{796}
+\indexentry{representative selection|hyperpage}{796}
+\indexentry{backpacker!599|hyperpage}{796}
+\indexentry{Gray code!590|hyperpage}{796}
+\indexentry{priority queues!116|hyperpage}{796}
+\indexentry{simplifying polygons!619|hyperpage}{796}
+\indexentry{experimental analysis – set cover|hyperpage}{798}
+\indexentry{inapproximability results|hyperpage}{798}
+\indexentry{matching – number of perfect!536|hyperpage}{798}
+\indexentry{Pascal|hyperpage}{798}
+\indexentry{set packing!654|hyperpage}{798}
+\indexentry{vertex cover – hardness proof!564|hyperpage}{798}
+\indexentry{airline scheduling|hyperpage}{800}
+\indexentry{ﬂight crew scheduling|hyperpage}{800}
+\indexentry{independent set!formulations|hyperpage}{800}
+\indexentry{partitioning problems|hyperpage}{800}
+\indexentry{personality conﬂicts – avoiding|hyperpage}{800}
+\indexentry{set packing|hyperpage}{800}
+\indexentry{backpacker!599|hyperpage}{800}
+\indexentry{exact cover problem|hyperpage}{800}
+\indexentry{Gray code!590|hyperpage}{800}
+\indexentry{NP!packing|hyperpage}{800}
+\indexentry{set cover – exact|hyperpage}{800}
+\indexentry{simplifying polygons!619|hyperpage}{800}
+\indexentry{independent set – hardness proof!588|hyperpage}{801}
+\indexentry{Pascal|hyperpage}{801}
+\indexentry{set cover – exact!593|hyperpage}{801}
+\indexentry{pattern matching|hyperpage}{804}
+\indexentry{awk|hyperpage}{804}
+\indexentry{database algorithms|hyperpage}{804}
+\indexentry{pattern matching|hyperpage}{804}
+\indexentry{Perl|hyperpage}{804}
+\indexentry{string matching|hyperpage}{804}
+\indexentry{text processing algorithms|hyperpage}{804}
+\indexentry{animation – sorting!related problems|hyperpage}{805}
+\indexentry{context-free grammars|hyperpage}{805}
+\indexentry{empirical results – string matching|hyperpage}{805}
+\indexentry{parsing|hyperpage}{805}
+\indexentry{Rabin–Karp algorithm|hyperpage}{805}
+\indexentry{spelling correction|hyperpage}{805}
+\indexentry{suﬃx trees – related problems|hyperpage}{805}
+\indexentry{deletions – text|hyperpage}{809}
+\indexentry{diﬀ– how it works|hyperpage}{809}
+\indexentry{dynamic graph algorithms!applications|hyperpage}{809}
+\indexentry{exact string matching|hyperpage}{809}
+\indexentry{ﬁle diﬀerence comparison|hyperpage}{809}
+\indexentry{Genbank searching|hyperpage}{809}
+\indexentry{insertions – text|hyperpage}{809}
+\indexentry{operations research!system testing|hyperpage}{809}
+\indexentry{spelling correction|hyperpage}{809}
+\indexentry{substitutions, text|hyperpage}{809}
+\indexentry{text searching with errors|hyperpage}{809}
+\indexentry{alignment costs|hyperpage}{810}
+\indexentry{dynamic graph algorithms!initialization|hyperpage}{810}
+\indexentry{substring matching|hyperpage}{810}
+\indexentry{longest common substring!related problems|hyperpage}{810}
+\indexentry{space minimization – digraphs!matching|hyperpage}{810}
+\indexentry{recursion – applications|hyperpage}{811}
+\indexentry{agrep|hyperpage}{812}
+\indexentry{name variations, recognizing|hyperpage}{812}
+\indexentry{sound-alike strings|hyperpage}{812}
+\indexentry{Soundex|hyperpage}{812}
+\indexentry{four Russians algorithm|hyperpage}{813}
+\indexentry{longest cycle!324|hyperpage}{813}
+\indexentry{Metaphone|hyperpage}{813}
+\indexentry{Soundex|hyperpage}{813}
+\indexentry{string matching!451|hyperpage}{813}
+\indexentry{compaction|hyperpage}{814}
+\indexentry{compression|hyperpage}{814}
+\indexentry{data transmission|hyperpage}{814}
+\indexentry{disk drives|hyperpage}{814}
+\indexentry{image compression|hyperpage}{814}
+\indexentry{lossless encodings|hyperpage}{814}
+\indexentry{lossy encodings|hyperpage}{814}
+\indexentry{secondary storage devices|hyperpage}{814}
+\indexentry{space-eﬃcient encodings|hyperpage}{814}
+\indexentry{text compression|hyperpage}{814}
+\indexentry{video compression|hyperpage}{814}
+\indexentry{image compression|hyperpage}{815}
+\indexentry{JPEG|hyperpage}{815}
+\indexentry{Lempel–Ziv algorithms|hyperpage}{815}
+\indexentry{LZW algorithm|hyperpage}{815}
+\indexentry{MPEG|hyperpage}{815}
+\indexentry{patented algorithms|hyperpage}{815}
+\indexentry{run-length coding|hyperpage}{815}
+\indexentry{video compression|hyperpage}{815}
+\indexentry{adaptive compression algorithms|hyperpage}{816}
+\indexentry{greedy heuristic – Huﬀman codes|hyperpage}{816}
+\indexentry{gzip|hyperpage}{816}
+\indexentry{Huﬀman codes|hyperpage}{816}
+\indexentry{Lempel–Ziv algorithms|hyperpage}{816}
+\indexentry{LZW algorithm|hyperpage}{816}
+\indexentry{variable length encodings|hyperpage}{816}
+\indexentry{shortest common superstring!related problems|hyperpage}{816}
+\indexentry{DES|hyperpage}{816}
+\indexentry{cryptography – keys!492|hyperpage}{817}
+\indexentry{identical graphs!Conference|hyperpage}{817}
+\indexentry{skiing|hyperpage}{817}
+\indexentry{Utah|hyperpage}{817}
+\indexentry{Advanced Encryption Standard|hyperpage}{818}
+\indexentry{Caesar shifts|hyperpage}{818}
+\indexentry{cipher|hyperpage}{818}
+\indexentry{cryptography|hyperpage}{818}
+\indexentry{Data Encryption Standard (DES)|hyperpage}{818}
+\indexentry{decryption|hyperpage}{818}
+\indexentry{encryption|hyperpage}{818}
+\indexentry{key length|hyperpage}{818}
+\indexentry{security|hyperpage}{818}
+\indexentry{shuﬄing|hyperpage}{818}
+\indexentry{substitution cipher|hyperpage}{818}
+\indexentry{ﬁnal examination|hyperpage}{819}
+\indexentry{integer factorization|hyperpage}{819}
+\indexentry{maﬁa|hyperpage}{819}
+\indexentry{National Security Agency (NSA)|hyperpage}{819}
+\indexentry{paranoia level|hyperpage}{819}
+\indexentry{password|hyperpage}{819}
+\indexentry{primality testing|hyperpage}{819}
+\indexentry{public key cryptography|hyperpage}{819}
+\indexentry{Rivest-Shamir-Adelman|hyperpage}{819}
+\indexentry{RSA algorithm|hyperpage}{819}
+\indexentry{checksum|hyperpage}{820}
+\indexentry{CRC|hyperpage}{820}
+\indexentry{cyclic-redundancy check (CRC)|hyperpage}{820}
+\indexentry{data validation|hyperpage}{820}
+\indexentry{disk drives|hyperpage}{820}
+\indexentry{PGP|hyperpage}{820}
+\indexentry{validation|hyperpage}{820}
+\indexentry{pattern matching|hyperpage}{821}
+\indexentry{Bitcoin|hyperpage}{821}
+\indexentry{digital signatures|hyperpage}{821}
+\indexentry{factoring and primality testing!related problems|hyperpage}{822}
+\indexentry{history – cryptography|hyperpage}{824}
+\indexentry{MD5|hyperpage}{824}
+\indexentry{secure hashing function|hyperpage}{824}
+\indexentry{special-purpose hardware|hyperpage}{824}
+\indexentry{graph data structures!applications|hyperpage}{824}
+\indexentry{compiler construction|hyperpage}{825}
+\indexentry{control systems – minimization|hyperpage}{825}
+\indexentry{determinants and permanents!(DFA)|hyperpage}{825}
+\indexentry{DFA|hyperpage}{825}
+\indexentry{directed graphs – automata|hyperpage}{825}
+\indexentry{edge labeled graphs|hyperpage}{825}
+\indexentry{ﬁnite automata|hyperpage}{825}
+\indexentry{ﬁnite state machine minimization|hyperpage}{825}
+\indexentry{hardware design applications|hyperpage}{825}
+\indexentry{regular expressions|hyperpage}{825}
+\indexentry{transition matrix|hyperpage}{825}
+\indexentry{ϵ-moves|hyperpage}{826}
+\indexentry{epsilon-moves|hyperpage}{826}
+\indexentry{equivalence classes!states|hyperpage}{826}
+\indexentry{minimizing automata|hyperpage}{826}
+\indexentry{non-deterministic automata|hyperpage}{826}
+\indexentry{partitioning automata states|hyperpage}{826}
+\indexentry{state elimination, automata|hyperpage}{826}
+\indexentry{derivatives – automata|hyperpage}{827}
+\indexentry{Grail|hyperpage}{827}
+\indexentry{JFLAP|hyperpage}{827}
+\indexentry{pattern matching|hyperpage}{827}
+\indexentry{satisﬁability!481|hyperpage}{828}
+\indexentry{string matching!451|hyperpage}{828}
+\indexentry{aligning DNA sequences|hyperpage}{828}
+\indexentry{animation – sorting!687|hyperpage}{828}
+\indexentry{common substrings|hyperpage}{828}
+\indexentry{consensus sequences|hyperpage}{828}
+\indexentry{394|hyperpage}{828}
+\indexentry{DNA sequence comparisons|hyperpage}{828}
+\indexentry{dynamic graph algorithms!498|hyperpage}{828}
+\indexentry{edit distance|hyperpage}{828}
+\indexentry{longest common substring|hyperpage}{828}
+\indexentry{scattered subsequences|hyperpage}{828}
+\indexentry{suﬃx trees – applications|hyperpage}{828}
+\indexentry{binary search – applications|hyperpage}{829}
+\indexentry{increasing subsequences|hyperpage}{829}
+\indexentry{multiple sequence alignment|hyperpage}{829}
+\indexentry{permutation comparisons|hyperpage}{829}
+\indexentry{combinatorial problems!580|hyperpage}{831}
+\indexentry{four Russians algorithm|hyperpage}{831}
+\indexentry{matching shapes!580|hyperpage}{831}
+\indexentry{shortest common superstring!related problems|hyperpage}{831}
+\indexentry{Young tableaux|hyperpage}{831}
+\indexentry{DNA sequencing|hyperpage}{832}
+\indexentry{matrix compression|hyperpage}{832}
+\indexentry{shortest common superstring|hyperpage}{832}
+\indexentry{shotgun sequencing|hyperpage}{832}
+\indexentry{sparse matrices – compression|hyperpage}{832}
+\indexentry{superstrings – shortest common|hyperpage}{832}
+\indexentry{animation – sorting!related problems|hyperpage}{832}
+\indexentry{asymmetric TSPs|hyperpage}{833}
+\indexentry{buying ﬁxed lots!673|hyperpage}{833}
+\indexentry{CAP3|hyperpage}{833}
+\indexentry{concatenation – string|hyperpage}{833}
+\indexentry{Contig Assembly Program|hyperpage}{833}
+\indexentry{NP!superstrings|hyperpage}{833}
+\indexentry{overlap graph|hyperpage}{833}
+\indexentry{string overlaps|hyperpage}{833}
+\indexentry{suﬃx trees – applications|hyperpage}{833}
+\indexentry{traveling salesman!255|hyperpage}{833}
+\indexentry{suﬃx trees – related problems|hyperpage}{833}
+\indexentry{academic institutions – licensing|hyperpage}{835}
+\indexentry{algorithmic resources|hyperpage}{835}
+\indexentry{artists steal|hyperpage}{835}
+\indexentry{licensing arrangements|hyperpage}{835}
+\indexentry{Picasso, P.|hyperpage}{835}
+\indexentry{resources – algorithm|hyperpage}{835}
+\indexentry{C++ templates|hyperpage}{836}
+\indexentry{CGAL|hyperpage}{836}
+\indexentry{graph data structures – Boost!207|hyperpage}{836}
+\indexentry{leaves – tree!646|hyperpage}{836}
+\indexentry{collapsing dense subgraphs!499|hyperpage}{837}
+\indexentry{Ford-Fulkerson algorithm!606|hyperpage}{837}
+\indexentry{GAMS|hyperpage}{837}
+\indexentry{guarding art galleries!Software|hyperpage}{837}
+\indexentry{mathematical software – netlib|hyperpage}{837}
+\indexentry{NEOS!632|hyperpage}{837}
+\indexentry{combinatorial generation!algorithms|hyperpage}{838}
+\indexentry{combinatorial problems!580|hyperpage}{838}
+\indexentry{CWEB|hyperpage}{838}
+\indexentry{discrete mathematics software|hyperpage}{838}
+\indexentry{expander graphs|hyperpage}{838}
+\indexentry{graph theory packages|hyperpage}{838}
+\indexentry{graph traversal!600|hyperpage}{838}
+\indexentry{literate program|hyperpage}{838}
+\indexentry{matching shapes!580|hyperpage}{838}
+\indexentry{Stanford GraphBase|hyperpage}{838}
+\indexentry{textbooks|hyperpage}{838}
+\indexentry{word ladders|hyperpage}{838}
+\indexentry{Ford-Fulkerson algorithm!606|hyperpage}{839}
+\indexentry{Algorist Technologies—consulting|hyperpage}{840}
+\indexentry{bibliographic databases|hyperpage}{840}
+\indexentry{consulting services|hyperpage}{840}
+\indexentry{Internet|hyperpage}{840}
+\indexentry{online algorithm resources|hyperpage}{840}
+\indexentry{TSPLIB|hyperpage}{840}

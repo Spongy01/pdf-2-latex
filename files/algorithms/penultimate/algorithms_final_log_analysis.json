@@ -1,0 +1,52 @@
+{
+  "log_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/algorithms/penultimate/algorithms_final.log",
+  "errors": [],
+  "warnings": [
+    {
+      "source": "inputenc",
+      "description": "inputenc package ignored with utf8 based engines",
+      "count": 1,
+      "sources": [
+        "inputenc"
+      ]
+    },
+    {
+      "source": "xeCJK",
+      "description": "Unknown CJK family `\\CJKttdefault' is being ignored",
+      "count": 1,
+      "sources": [
+        "xeCJK"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Characters dropped after `\\end{verbatim}' on input line 4152",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Float too large for page by 35",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    }
+  ],
+  "summary": {
+    "total_errors": 0,
+    "total_warnings": 4,
+    "unique_errors": 0,
+    "unique_warnings": 4,
+    "compilation_successful": true
+  },
+  "compilation_info": {
+    "pages_compiled": 848,
+    "total_pages": 0,
+    "compilation_time": null,
+    "latex_version": null,
+    "output_file": "algorithms_final.xdv"
+  }
+}

@@ -1,0 +1,654 @@
+\indexentry{Artiﬁcial Intelligence (AI)|hyperpage}{1}
+\indexentry{Braitenberg vehicle|hyperpage}{1}
+\indexentry{Bayesian network|hyperpage}{5}
+\indexentry{General Problem Solver (GPS)|hyperpage}{5}
+\indexentry{LISP|hyperpage}{5}
+\indexentry{Locally weighted linear regression!higher-order|hyperpage}{5}
+\indexentry{Logic Theorist|hyperpage}{5}
+\indexentry{Multi-agent systems|hyperpage}{5}
+\indexentry{Neural network|hyperpage}{5}
+\indexentry{PROLOG|hyperpage}{5}
+\indexentry{Resolution!calculus|hyperpage}{5}
+\indexentry{Chatterbots|hyperpage}{5}
+\indexentry{E-learning|hyperpage}{5}
+\indexentry{Eliza|hyperpage}{5}
+\indexentry{Truth table!test|hyperpage}{5}
+\indexentry{Agent|hyperpage}{5}
+\indexentry{Brain science|hyperpage}{5}
+\indexentry{Cognitive science|hyperpage}{5}
+\indexentry{Neuroscience|hyperpage}{5}
+\indexentry{Agent!autonomous|hyperpage}{7}
+\indexentry{Agent!distributed|hyperpage}{7}
+\indexentry{Bayesian network|hyperpage}{7}
+\indexentry{Braitenberg vehicle|hyperpage}{7}
+\indexentry{Distributed Artiﬁcial Intelligence (DAI)|hyperpage}{7}
+\indexentry{Fuzzy logic|hyperpage}{7}
+\indexentry{Connectionism|hyperpage}{7}
+\indexentry{Principal Component Analysis (PCA)!reasoning|hyperpage}{7}
+\indexentry{PROLOG|hyperpage}{7}
+\indexentry{LISP|hyperpage}{7}
+\indexentry{Logic Theorist|hyperpage}{7}
+\indexentry{Resolution|hyperpage}{7}
+\indexentry{Theorem prover|hyperpage}{7}
+\indexentry{Neural network|hyperpage}{7}
+\indexentry{AlphaGo|hyperpage}{10}
+\indexentry{Church, Alonso|hyperpage}{10}
+\indexentry{Goal!incompleteness theorem|hyperpage}{10}
+\indexentry{Goal!Kurt|hyperpage}{10}
+\indexentry{Goal!’s completeness theorem|hyperpage}{10}
+\indexentry{Halting problem|hyperpage}{10}
+\indexentry{Monte Carlo Tree Search (MCTS)|hyperpage}{10}
+\indexentry{Predicate logic|hyperpage}{10}
+\indexentry{RoboCup|hyperpage}{10}
+\indexentry{Truth table!Alan|hyperpage}{10}
+\indexentry{Agent!learning|hyperpage}{12}
+\indexentry{Autonomous robots|hyperpage}{12}
+\indexentry{Industry 4.0|hyperpage}{12}
+\indexentry{Internet of Things|hyperpage}{12}
+\indexentry{Jobs|hyperpage}{12}
+\indexentry{Knowledge!engineer|hyperpage}{12}
+\indexentry{Science ﬁction|hyperpage}{12}
+\indexentry{Automation|hyperpage}{14}
+\indexentry{Economic growth|hyperpage}{14}
+\indexentry{Economy|hyperpage}{14}
+\indexentry{Environment|hyperpage}{14}
+\indexentry{Transportation|hyperpage}{14}
+\indexentry{Conjunction|hyperpage}{14}
+\indexentry{Disjunction|hyperpage}{14}
+\indexentry{Equivalence|hyperpage}{14}
+\indexentry{Implication|hyperpage}{14}
+\indexentry{Interpretation|hyperpage}{14}
+\indexentry{Negation|hyperpage}{14}
+\indexentry{Truth table|hyperpage}{14}
+\indexentry{Car|hyperpage}{15}
+\indexentry{Robot!car|hyperpage}{15}
+\indexentry{Minimum cash reserve ratio|hyperpage}{15}
+\indexentry{Sustainability|hyperpage}{15}
+\indexentry{Service robotics|hyperpage}{16}
+\indexentry{Robot!car|hyperpage}{16}
+\indexentry{Self-driving car|hyperpage}{16}
+\indexentry{Automotive industry|hyperpage}{16}
+\indexentry{Road transportation|hyperpage}{16}
+\indexentry{Robot!taxi|hyperpage}{16}
+\indexentry{Home automation|hyperpage}{17}
+\indexentry{Internet of Things|hyperpage}{17}
+\indexentry{IT security|hyperpage}{17}
+\indexentry{Agent!learning|hyperpage}{18}
+\indexentry{Actuators|hyperpage}{18}
+\indexentry{Agent|hyperpage}{18}
+\indexentry{Agent!goal-based|hyperpage}{18}
+\indexentry{Agent!hardware|hyperpage}{18}
+\indexentry{Agent!intelligent|hyperpage}{18}
+\indexentry{Agent!reﬂex|hyperpage}{18}
+\indexentry{Agent!software|hyperpage}{18}
+\indexentry{Agent!with memory|hyperpage}{18}
+\indexentry{Environment|hyperpage}{18}
+\indexentry{Markov Decision Process (MDP)|hyperpage}{18}
+\indexentry{Robot|hyperpage}{18}
+\indexentry{Sensor|hyperpage}{18}
+\indexentry{Resolution|hyperpage}{18}
+\indexentry{Resolution!rule|hyperpage}{18}
+\indexentry{Resolvent|hyperpage}{18}
+\indexentry{Knowledge|hyperpage}{19}
+\indexentry{Knowledge!engineer|hyperpage}{19}
+\indexentry{Agent!cost-based|hyperpage}{19}
+\indexentry{Agent!utility-based|hyperpage}{19}
+\indexentry{Agents, distributed|hyperpage}{19}
+\indexentry{Environment!continuous|hyperpage}{19}
+\indexentry{Environment!deterministic|hyperpage}{19}
+\indexentry{Environment!discrete|hyperpage}{19}
+\indexentry{Environment!nondeterministic|hyperpage}{19}
+\indexentry{Environment!observable|hyperpage}{19}
+\indexentry{Environment!partially observable|hyperpage}{19}
+\indexentry{Environment|hyperpage}{20}
+\indexentry{Inference mechanism|hyperpage}{20}
+\indexentry{Locally weighted linear regression!probabilistic|hyperpage}{20}
+\indexentry{PL1|hyperpage}{20}
+\indexentry{Knowledge!sources|hyperpage}{21}
+\indexentry{Goal|hyperpage}{21}
+\indexentry{Goal!stack|hyperpage}{21}
+\indexentry{Semantic trees|hyperpage}{21}
+\indexentry{Subgoal|hyperpage}{21}
+\indexentry{Predicate logic!ﬁrst-order|hyperpage}{21}
+\indexentry{Principal Component Analysis (PCA)!logic|hyperpage}{21}
+\indexentry{Proof system!calculus|hyperpage}{21}
+\indexentry{Watson|hyperpage}{21}
+\indexentry{Closed formula|hyperpage}{22}
+\indexentry{First-order sentence|hyperpage}{22}
+\indexentry{Free variables|hyperpage}{22}
+\indexentry{Interpretation|hyperpage}{22}
+\indexentry{Constant|hyperpage}{22}
+\indexentry{First we solidify|hyperpage}{22}
+\indexentry{Function symbol|hyperpage}{22}
+\indexentry{PL1|hyperpage}{22}
+\indexentry{Predicate logic!ﬁrst-order|hyperpage}{22}
+\indexentry{Clustering!hierarchical|hyperpage}{25}
+\indexentry{Normal equations!prenex|hyperpage}{27}
+\indexentry{Proof system!logic|hyperpage}{27}
+\indexentry{Proposition variables|hyperpage}{27}
+\indexentry{Signature|hyperpage}{27}
+\indexentry{Logically valid|hyperpage}{29}
+\indexentry{Model|hyperpage}{29}
+\indexentry{Satisﬁable|hyperpage}{29}
+\indexentry{Unsatisﬁable|hyperpage}{29}
+\indexentry{Valid|hyperpage}{29}
+\indexentry{Proof system|hyperpage}{30}
+\indexentry{Tautology|hyperpage}{30}
+\indexentry{Factorization|hyperpage}{31}
+\indexentry{Truth table!method|hyperpage}{32}
+\indexentry{Complete|hyperpage}{32}
+\indexentry{Calculus|hyperpage}{32}
+\indexentry{Derivation|hyperpage}{32}
+\indexentry{Resolution!calculus|hyperpage}{32}
+\indexentry{Sound|hyperpage}{32}
+\indexentry{Complementary|hyperpage}{38}
+\indexentry{Consistent|hyperpage}{38}
+\indexentry{Factorization|hyperpage}{38}
+\indexentry{Literal!complementary|hyperpage}{38}
+\indexentry{Score!space|hyperpage}{38}
+\indexentry{Clause!deﬁnite|hyperpage}{40}
+\indexentry{Clause!-head|hyperpage}{40}
+\indexentry{Conclusion|hyperpage}{40}
+\indexentry{Fact|hyperpage}{40}
+\indexentry{Horn clause|hyperpage}{40}
+\indexentry{Premise|hyperpage}{40}
+\indexentry{Backward chaining|hyperpage}{41}
+\indexentry{Forward chaining|hyperpage}{41}
+\indexentry{Resolution!SLD|hyperpage}{41}
+\indexentry{Score!space|hyperpage}{41}
+\indexentry{Bayesian network|hyperpage}{42}
+\indexentry{Fuzzy logic|hyperpage}{42}
+\indexentry{Binary decision diagram|hyperpage}{42}
+\indexentry{Backtracking|hyperpage}{44}
+\indexentry{Bayesian network|hyperpage}{44}
+\indexentry{Subgoal|hyperpage}{44}
+\indexentry{LIPS|hyperpage}{44}
+\indexentry{Warren Abstract Machine (WAM)|hyperpage}{44}
+\indexentry{Variable|hyperpage}{45}
+\indexentry{SLD resolution|hyperpage}{46}
+\indexentry{Genetic programming|hyperpage}{46}
+\indexentry{Planning|hyperpage}{46}
+\indexentry{Naive reverse|hyperpage}{46}
+\indexentry{Self-organizing maps!procedural (PROLOG)|hyperpage}{46}
+\indexentry{Warren Abstract Machine (WAM)|hyperpage}{46}
+\indexentry{Valid|hyperpage}{47}
+\indexentry{True|hyperpage}{47}
+\indexentry{Branching factor!average|hyperpage}{52}
+\indexentry{Score!heuristic|hyperpage}{52}
+\indexentry{Score!uninformed|hyperpage}{52}
+\indexentry{De Morgan|hyperpage}{52}
+\indexentry{Substitution axiom|hyperpage}{52}
+\indexentry{Deterministic|hyperpage}{54}
+\indexentry{Learning!reinforcement|hyperpage}{54}
+\indexentry{Observable|hyperpage}{54}
+\indexentry{Skolemization|hyperpage}{54}
+\indexentry{Depth limit|hyperpage}{55}
+\indexentry{Iterative deepening|hyperpage}{55}
+\indexentry{Calculus!Gentzen|hyperpage}{55}
+\indexentry{Calculus!natural reasoning|hyperpage}{55}
+\indexentry{Calculus!sequent|hyperpage}{55}
+\indexentry{Space|hyperpage}{55}
+\indexentry{Cost estimate function|hyperpage}{56}
+\indexentry{Ground term|hyperpage}{56}
+\indexentry{Inference machine|hyperpage}{56}
+\indexentry{Theorem prover|hyperpage}{56}
+\indexentry{Uniﬁcation|hyperpage}{58}
+\indexentry{A⋆-algorithm|hyperpage}{58}
+\indexentry{Admissible|hyperpage}{58}
+\indexentry{Cost function|hyperpage}{58}
+\indexentry{Greedy search|hyperpage}{58}
+\indexentry{Heuristic evaluation function|hyperpage}{58}
+\indexentry{MGU|hyperpage}{59}
+\indexentry{Uniﬁable|hyperpage}{59}
+\indexentry{Uniﬁer|hyperpage}{59}
+\indexentry{Uniﬁer!most general|hyperpage}{59}
+\indexentry{Contraction hierarchies|hyperpage}{59}
+\indexentry{Equation, directed|hyperpage}{60}
+\indexentry{Input resolution|hyperpage}{60}
+\indexentry{Pure literal rule|hyperpage}{60}
+\indexentry{Set of support strategy|hyperpage}{60}
+\indexentry{Subsumption|hyperpage}{60}
+\indexentry{Uniform cost search!clause|hyperpage}{60}
+\indexentry{Uniform cost search!resolution|hyperpage}{60}
+\indexentry{Demodulation|hyperpage}{62}
+\indexentry{Paramodulation|hyperpage}{62}
+\indexentry{Teaching-Box!rewriting|hyperpage}{62}
+\indexentry{Alpha-beta pruning|hyperpage}{62}
+\indexentry{CASC|hyperpage}{63}
+\indexentry{Monte Carlo Tree Search (MCTS)|hyperpage}{66}
+\indexentry{Precondition|hyperpage}{67}
+\indexentry{Program veriﬁcation|hyperpage}{67}
+\indexentry{Software reuse|hyperpage}{67}
+\indexentry{Postcondition|hyperpage}{68}
+\indexentry{Semantic web|hyperpage}{68}
+\indexentry{Vienna Development Method Speciﬁcation Language (VDM-SL)|hyperpage}{68}
+\indexentry{OWL|hyperpage}{69}
+\indexentry{Ontology|hyperpage}{69}
+\indexentry{RDF|hyperpage}{69}
+\indexentry{A priori probability|hyperpage}{70}
+\indexentry{Independent|hyperpage}{70}
+\indexentry{Semi-decidable|hyperpage}{73}
+\indexentry{Modus ponens|hyperpage}{74}
+\indexentry{Goal!’s incompleteness theorem|hyperpage}{75}
+\indexentry{Paradox|hyperpage}{75}
+\indexentry{Monotonic|hyperpage}{76}
+\indexentry{Non-monotonic logic|hyperpage}{76}
+\indexentry{PIT|hyperpage}{76}
+\indexentry{Tweety example|hyperpage}{76}
+\indexentry{MaxEnt|hyperpage}{76}
+\indexentry{Principal Component Analysis (PCA)!logic|hyperpage}{79}
+\indexentry{Diagnosis system|hyperpage}{81}
+\indexentry{Indifferent variables|hyperpage}{81}
+\indexentry{MYCIN|hyperpage}{81}
+\indexentry{Score|hyperpage}{81}
+\indexentry{Distribution|hyperpage}{81}
+\indexentry{Machine learning|hyperpage}{81}
+\indexentry{Default logic|hyperpage}{82}
+\indexentry{Default rule|hyperpage}{82}
+\indexentry{Frame problem|hyperpage}{82}
+\indexentry{Situation calculus|hyperpage}{82}
+\indexentry{Cost matrix|hyperpage}{82}
+\indexentry{Statistical induction|hyperpage}{82}
+\indexentry{Least squares|hyperpage}{86}
+\indexentry{Naive Bayes|hyperpage}{86}
+\indexentry{ROC curve|hyperpage}{86}
+\indexentry{Score|hyperpage}{86}
+\indexentry{PROLOG|hyperpage}{86}
+\indexentry{Self-organizing maps!declarative (PROLOG)|hyperpage}{88}
+\indexentry{Self-organizing maps!procedural (PROLOG)|hyperpage}{88}
+\indexentry{Bayesian network|hyperpage}{88}
+\indexentry{Conditionally independent|hyperpage}{88}
+\indexentry{CPT|hyperpage}{88}
+\indexentry{Independent!conditionally|hyperpage}{88}
+\indexentry{Knowledge!base|hyperpage}{88}
+\indexentry{Alarm-example|hyperpage}{88}
+\indexentry{Naive Bayes|hyperpage}{88}
+\indexentry{And branches|hyperpage}{91}
+\indexentry{Or branches|hyperpage}{91}
+\indexentry{Horn clause|hyperpage}{92}
+\indexentry{Bayes theorem|hyperpage}{92}
+\indexentry{Conditioning|hyperpage}{92}
+\indexentry{Negation as failure|hyperpage}{93}
+\indexentry{Cut|hyperpage}{94}
+\indexentry{Chain rule for Bayesian networks|hyperpage}{95}
+\indexentry{And-or tree|hyperpage}{95}
+\indexentry{Built-in predicate|hyperpage}{95}
+\indexentry{D-separation|hyperpage}{96}
+\indexentry{Penguin problem|hyperpage}{96}
+\indexentry{Plans|hyperpage}{96}
+\indexentry{Symbol grounding|hyperpage}{96}
+\indexentry{PIT|hyperpage}{96}
+\indexentry{Constraint logic programming|hyperpage}{98}
+\indexentry{Constraint Satisfaction Problem (CSP)|hyperpage}{98}
+\indexentry{Finite domain constraint solver|hyperpage}{99}
+\indexentry{Rapid prototyping|hyperpage}{99}
+\indexentry{Learning!reinforcement|hyperpage}{99}
+\indexentry{Machine learning|hyperpage}{99}
+\indexentry{Decision tree!induction|hyperpage}{103}
+\indexentry{Naive Bayes|hyperpage}{103}
+\indexentry{Preference learning|hyperpage}{103}
+\indexentry{Linearly separable|hyperpage}{104}
+\indexentry{Linearly separable|hyperpage}{104}
+\indexentry{Branching factor|hyperpage}{104}
+\indexentry{Goal!state|hyperpage}{106}
+\indexentry{Score!algorithm|hyperpage}{106}
+\indexentry{Score!tree|hyperpage}{106}
+\indexentry{Starting state|hyperpage}{106}
+\indexentry{State|hyperpage}{106}
+\indexentry{State|hyperpage}{106}
+\indexentry{Solution|hyperpage}{109}
+\indexentry{Branching factor!effective|hyperpage}{109}
+\indexentry{Cost function|hyperpage}{109}
+\indexentry{Branching factor|hyperpage}{109}
+\indexentry{Naive Bayes!classiﬁcation|hyperpage}{109}
+\indexentry{Navier–Stokes equation!classiﬁcation|hyperpage}{109}
+\indexentry{Noise|hyperpage}{109}
+\indexentry{Overﬁtting|hyperpage}{109}
+\indexentry{Voronoi diagram|hyperpage}{109}
+\indexentry{Space|hyperpage}{110}
+\indexentry{State!space|hyperpage}{110}
+\indexentry{Action|hyperpage}{110}
+\indexentry{Backtracking|hyperpage}{111}
+\indexentry{Uniform cost search|hyperpage}{111}
+\indexentry{Action|hyperpage}{113}
+\indexentry{Attribute|hyperpage}{115}
+\indexentry{Decision tree!induction|hyperpage}{115}
+\indexentry{KNIME|hyperpage}{115}
+\indexentry{Sample|hyperpage}{115}
+\indexentry{WEKA|hyperpage}{115}
+\indexentry{Iterative deepening|hyperpage}{117}
+\indexentry{Heuristic|hyperpage}{119}
+\indexentry{Heuristic evaluation function|hyperpage}{120}
+\indexentry{Limited resources|hyperpage}{120}
+\indexentry{Real-time decision|hyperpage}{120}
+\indexentry{LEXMED|hyperpage}{123}
+\indexentry{Greedy search|hyperpage}{123}
+\indexentry{Landmark!heuristic|hyperpage}{125}
+\indexentry{CART|hyperpage}{125}
+\indexentry{Cross-validation|hyperpage}{125}
+\indexentry{Pruning|hyperpage}{125}
+\indexentry{Cross-validation|hyperpage}{125}
+\indexentry{k-nearest neighbor method|hyperpage}{125}
+\indexentry{Model complexity|hyperpage}{125}
+\indexentry{Overﬁtting|hyperpage}{125}
+\indexentry{Data mining|hyperpage}{125}
+\indexentry{Law of economy|hyperpage}{125}
+\indexentry{Occam’s razor|hyperpage}{125}
+\indexentry{Overﬁtting|hyperpage}{125}
+\indexentry{Bias variance tradeoff|hyperpage}{127}
+\indexentry{Leave-one-out cross-validation|hyperpage}{127}
+\indexentry{Model complexity|hyperpage}{127}
+\indexentry{Admissible|hyperpage}{127}
+\indexentry{Landmark|hyperpage}{127}
+\indexentry{Score!bidirectional|hyperpage}{129}
+\indexentry{Evaluation function|hyperpage}{129}
+\indexentry{Go|hyperpage}{129}
+\indexentry{IDA⋆-algorithm|hyperpage}{132}
+\indexentry{Checkers|hyperpage}{134}
+\indexentry{Chess|hyperpage}{134}
+\indexentry{Deterministic|hyperpage}{134}
+\indexentry{Observable|hyperpage}{134}
+\indexentry{Othello|hyperpage}{134}
+\indexentry{Real-time requirement|hyperpage}{134}
+\indexentry{Classiﬁer|hyperpage}{135}
+\indexentry{Nearest neighbor method|hyperpage}{135}
+\indexentry{Nearest neighbor data description|hyperpage}{135}
+\indexentry{Normalization|hyperpage}{135}
+\indexentry{One-class learning|hyperpage}{135}
+\indexentry{Outlier detection|hyperpage}{135}
+\indexentry{Support vector data description|hyperpage}{135}
+\indexentry{Cluster|hyperpage}{135}
+\indexentry{Distance metric|hyperpage}{135}
+\indexentry{Learning!supervised|hyperpage}{135}
+\indexentry{Clustering|hyperpage}{135}
+\indexentry{Receiver operating characteristic!learning|hyperpage}{138}
+\indexentry{Attribute|hyperpage}{138}
+\indexentry{Feature|hyperpage}{138}
+\indexentry{Chess|hyperpage}{139}
+\indexentry{Chess|hyperpage}{139}
+\indexentry{Checkers|hyperpage}{140}
+\indexentry{Go|hyperpage}{140}
+\indexentry{AlphaGo|hyperpage}{140}
+\indexentry{Credit assignment|hyperpage}{140}
+\indexentry{Monte Carlo Tree Search (MCTS)|hyperpage}{140}
+\indexentry{Gaussian process|hyperpage}{140}
+\indexentry{Learning!semi-supervised|hyperpage}{140}
+\indexentry{Semi-supervised learning|hyperpage}{140}
+\indexentry{AlphaGo|hyperpage}{143}
+\indexentry{Deep learning|hyperpage}{143}
+\indexentry{Google DeepMind|hyperpage}{143}
+\indexentry{Chess|hyperpage}{143}
+\indexentry{Go|hyperpage}{145}
+\indexentry{Hopﬁeld network|hyperpage}{148}
+\indexentry{Auto-associative memory|hyperpage}{148}
+\indexentry{Hopﬁeld network|hyperpage}{148}
+\indexentry{Certainty factors|hyperpage}{148}
+\indexentry{Modus ponens|hyperpage}{148}
+\indexentry{MYCIN|hyperpage}{148}
+\indexentry{Probability|hyperpage}{148}
+\indexentry{Bayesian network|hyperpage}{149}
+\indexentry{Dempster–Schäfer theory|hyperpage}{149}
+\indexentry{Entropy!maximum|hyperpage}{149}
+\indexentry{Fuzzy logic|hyperpage}{149}
+\indexentry{LEXMED|hyperpage}{149}
+\indexentry{Locally weighted linear regression!fuzzy|hyperpage}{149}
+\indexentry{Material implication|hyperpage}{149}
+\indexentry{MaxEnt|hyperpage}{149}
+\indexentry{Elementary event|hyperpage}{150}
+\indexentry{Event|hyperpage}{150}
+\indexentry{Probability|hyperpage}{150}
+\indexentry{Random variables|hyperpage}{150}
+\indexentry{Laplace assumption|hyperpage}{152}
+\indexentry{Laplace probabilities|hyperpage}{152}
+\indexentry{Distribution|hyperpage}{155}
+\indexentry{Probability!distribution|hyperpage}{155}
+\indexentry{Chain rule for Bayesian networks|hyperpage}{156}
+\indexentry{Product rule|hyperpage}{156}
+\indexentry{Overﬁtting|hyperpage}{156}
+\indexentry{Least squares|hyperpage}{157}
+\indexentry{Normal equations|hyperpage}{157}
+\indexentry{Overﬁtting|hyperpage}{157}
+\indexentry{Appendicitis|hyperpage}{158}
+\indexentry{Marginal distribution|hyperpage}{158}
+\indexentry{Marginalization|hyperpage}{158}
+\indexentry{Theorem|hyperpage}{158}
+\indexentry{Conditional probability|hyperpage}{160}
+\indexentry{Marginalization|hyperpage}{161}
+\indexentry{Entropy!maximum|hyperpage}{161}
+\indexentry{LEXMED|hyperpage}{161}
+\indexentry{A⋆-algorithm|hyperpage}{162}
+\indexentry{Autoencoder|hyperpage}{163}
+\indexentry{Cross-validation|hyperpage}{163}
+\indexentry{Sparse coding|hyperpage}{163}
+\indexentry{Stacked denoising autoencoder|hyperpage}{163}
+\indexentry{Indifference|hyperpage}{163}
+\indexentry{MaxEnt|hyperpage}{163}
+\indexentry{MaxEnt!distribution|hyperpage}{163}
+\indexentry{PIT|hyperpage}{166}
+\indexentry{Material implication|hyperpage}{166}
+\indexentry{Appendicitis|hyperpage}{170}
+\indexentry{Expert system|hyperpage}{170}
+\indexentry{LEXMED|hyperpage}{170}
+\indexentry{MaxEnt|hyperpage}{170}
+\indexentry{Markov Decision Process (MDP)|hyperpage}{172}
+\indexentry{MaxEnt|hyperpage}{172}
+\indexentry{Probability!rules|hyperpage}{172}
+\indexentry{BDD.!principle|hyperpage}{174}
+\indexentry{Agent|hyperpage}{174}
+\indexentry{Dynamic programming|hyperpage}{174}
+\indexentry{Correlation|hyperpage}{174}
+\indexentry{Dependency graph|hyperpage}{174}
+\indexentry{Learning!machine|hyperpage}{174}
+\indexentry{Q-learning|hyperpage}{175}
+\indexentry{Backpropagation|hyperpage}{175}
+\indexentry{Decision|hyperpage}{179}
+\indexentry{Curse of dimensionality|hyperpage}{182}
+\indexentry{Distributed learning|hyperpage}{182}
+\indexentry{Hierarchical learning|hyperpage}{182}
+\indexentry{Learning!by demonstration|hyperpage}{182}
+\indexentry{Learning!distributed|hyperpage}{182}
+\indexentry{Learning!hierarchical|hyperpage}{182}
+\indexentry{Learning!multi-agent|hyperpage}{182}
+\indexentry{Bayesian network|hyperpage}{184}
+\indexentry{Computer diagnostic|hyperpage}{184}
+\indexentry{Expert system|hyperpage}{184}
+\indexentry{Sensitivity|hyperpage}{188}
+\indexentry{Hugin|hyperpage}{190}
+\indexentry{JavaBayes|hyperpage}{190}
+\indexentry{MaxEnt|hyperpage}{190}
+\indexentry{PIT|hyperpage}{190}
+\indexentry{Backpropagation|hyperpage}{190}
+\indexentry{CPT|hyperpage}{195}
+\indexentry{MaxEnt|hyperpage}{195}
+\indexentry{Chain rule for Bayesian networks|hyperpage}{196}
+\indexentry{Conditionally independent|hyperpage}{196}
+\indexentry{Conditioning|hyperpage}{196}
+\indexentry{DAG|hyperpage}{196}
+\indexentry{Independent!conditionally|hyperpage}{196}
+\indexentry{Marginalization|hyperpage}{196}
+\indexentry{Theorem|hyperpage}{196}
+\indexentry{Learning|hyperpage}{199}
+\indexentry{Naive Bayes|hyperpage}{199}
+\indexentry{Feature|hyperpage}{204}
+\indexentry{Learning|hyperpage}{204}
+\indexentry{Learning!supervised|hyperpage}{204}
+\indexentry{Memorization|hyperpage}{204}
+\indexentry{Feature space|hyperpage}{206}
+\indexentry{Scatterplot diagram|hyperpage}{206}
+\indexentry{Approximation|hyperpage}{208}
+\indexentry{Classiﬁcation|hyperpage}{208}
+\indexentry{Classiﬁer|hyperpage}{208}
+\indexentry{Learning agent|hyperpage}{208}
+\indexentry{Learning phase|hyperpage}{208}
+\indexentry{Target function|hyperpage}{208}
+\indexentry{Test data|hyperpage}{208}
+\indexentry{Training data|hyperpage}{208}
+\indexentry{Agent!learning|hyperpage}{211}
+\indexentry{Data mining|hyperpage}{211}
+\indexentry{Data mining|hyperpage}{211}
+\indexentry{Mining|hyperpage}{211}
+\indexentry{Test data!mining|hyperpage}{211}
+\indexentry{Generalization|hyperpage}{212}
+\indexentry{Correlation!coefﬁcient|hyperpage}{215}
+\indexentry{Feature|hyperpage}{217}
+\indexentry{Bias unit|hyperpage}{219}
+\indexentry{Naive Bayes|hyperpage}{225}
+\indexentry{Naive Bayes!method|hyperpage}{225}
+\indexentry{Navier–Stokes equation!method|hyperpage}{225}
+\indexentry{Similarity|hyperpage}{225}
+\indexentry{k-nearest neighbor method|hyperpage}{226}
+\indexentry{Perceptron|hyperpage}{226}
+\indexentry{Approximation|hyperpage}{226}
+\indexentry{Braitenberg vehicle|hyperpage}{226}
+\indexentry{Neural network|hyperpage}{230}
+\indexentry{Neural network|hyperpage}{230}
+\indexentry{k-nearest neighbor method|hyperpage}{230}
+\indexentry{Gaussian process|hyperpage}{233}
+\indexentry{Kernel|hyperpage}{233}
+\indexentry{Support vector machine|hyperpage}{233}
+\indexentry{Eager learning|hyperpage}{233}
+\indexentry{Lazy learning|hyperpage}{233}
+\indexentry{Memory-based learning|hyperpage}{233}
+\indexentry{Perceptron|hyperpage}{236}
+\indexentry{Learning|hyperpage}{237}
+\indexentry{Feature|hyperpage}{237}
+\indexentry{Case base|hyperpage}{238}
+\indexentry{Case-based reasoning|hyperpage}{238}
+\indexentry{Data mining|hyperpage}{238}
+\indexentry{Locally weighted linear regression|hyperpage}{238}
+\indexentry{Memory-based learning|hyperpage}{238}
+\indexentry{Information gain|hyperpage}{239}
+\indexentry{Entropy|hyperpage}{243}
+\indexentry{Information content|hyperpage}{244}
+\indexentry{Information gain|hyperpage}{244}
+\indexentry{Pruning|hyperpage}{248}
+\indexentry{Training data|hyperpage}{252}
+\indexentry{C4.5|hyperpage}{258}
+\indexentry{CPT|hyperpage}{258}
+\indexentry{DAG|hyperpage}{258}
+\indexentry{Batch learning|hyperpage}{260}
+\indexentry{EM algorithm|hyperpage}{260}
+\indexentry{Overﬁtting|hyperpage}{260}
+\indexentry{Greedy search|hyperpage}{261}
+\indexentry{CPT|hyperpage}{261}
+\indexentry{Learning!incremental|hyperpage}{261}
+\indexentry{Naive Bayes|hyperpage}{261}
+\indexentry{Naive Bayes!classiﬁer|hyperpage}{261}
+\indexentry{Naive Bayes|hyperpage}{263}
+\indexentry{Naive Bayes!classiﬁer|hyperpage}{263}
+\indexentry{Spam|hyperpage}{263}
+\indexentry{Spam!ﬁlter|hyperpage}{263}
+\indexentry{Test data!classiﬁcation|hyperpage}{263}
+\indexentry{Learning!one-class|hyperpage}{267}
+\indexentry{One-class learning|hyperpage}{267}
+\indexentry{Score|hyperpage}{269}
+\indexentry{K-means|hyperpage}{271}
+\indexentry{Manhattan distance|hyperpage}{271}
+\indexentry{EM algorithm|hyperpage}{273}
+\indexentry{Nearest neighbor algorithm|hyperpage}{273}
+\indexentry{Minimum spanning tree|hyperpage}{274}
+\indexentry{Farthest neighbor algorithm|hyperpage}{275}
+\indexentry{Silhouette width criterion|hyperpage}{277}
+\indexentry{EM algorithm|hyperpage}{277}
+\indexentry{Greedy search|hyperpage}{278}
+\indexentry{OMRk algorithm|hyperpage}{278}
+\indexentry{KNIME|hyperpage}{280}
+\indexentry{WEKA|hyperpage}{280}
+\indexentry{Confusion matrix|hyperpage}{282}
+\indexentry{ROC curve|hyperpage}{283}
+\indexentry{Clustering|hyperpage}{284}
+\indexentry{Eager learning|hyperpage}{286}
+\indexentry{Feature|hyperpage}{286}
+\indexentry{Information gain|hyperpage}{286}
+\indexentry{Correlation!matrix|hyperpage}{289}
+\indexentry{Bayesian network!learning|hyperpage}{290}
+\indexentry{Naive Bayes|hyperpage}{292}
+\indexentry{Score|hyperpage}{292}
+\indexentry{Neural network|hyperpage}{296}
+\indexentry{Neurotransmitter|hyperpage}{300}
+\indexentry{Activation function|hyperpage}{301}
+\indexentry{Hebb rule|hyperpage}{304}
+\indexentry{Learning rate|hyperpage}{304}
+\indexentry{Perceptron|hyperpage}{304}
+\indexentry{Sigmoid function|hyperpage}{304}
+\indexentry{Phase transition|hyperpage}{311}
+\indexentry{Neural network!recurrent|hyperpage}{311}
+\indexentry{Neuroinformatics|hyperpage}{313}
+\indexentry{Associative memory|hyperpage}{315}
+\indexentry{Boltzmann machine|hyperpage}{315}
+\indexentry{Simulated annealing|hyperpage}{315}
+\indexentry{Auto-associative memory|hyperpage}{316}
+\indexentry{Neural network!recurrent|hyperpage}{316}
+\indexentry{Activation function|hyperpage}{317}
+\indexentry{Hebb rule|hyperpage}{317}
+\indexentry{Orthonormal|hyperpage}{317}
+\indexentry{Hebb rule!binary|hyperpage}{319}
+\indexentry{Hopﬁeld network|hyperpage}{319}
+\indexentry{Auto-associative memory|hyperpage}{320}
+\indexentry{Learning!supervised|hyperpage}{321}
+\indexentry{Least squares|hyperpage}{326}
+\indexentry{Sigmoid function|hyperpage}{326}
+\indexentry{Gradient descent|hyperpage}{329}
+\indexentry{Learning rate|hyperpage}{329}
+\indexentry{Least squares|hyperpage}{329}
+\indexentry{Sigmoid function|hyperpage}{329}
+\indexentry{Classiﬁer|hyperpage}{331}
+\indexentry{Delta rule|hyperpage}{331}
+\indexentry{Incremental gradient descent|hyperpage}{331}
+\indexentry{Linear approximation|hyperpage}{331}
+\indexentry{Backpropagation!learning rule|hyperpage}{333}
+\indexentry{Delta rule!generalized|hyperpage}{333}
+\indexentry{Hebb rule|hyperpage}{333}
+\indexentry{Momentum|hyperpage}{340}
+\indexentry{Quickprop|hyperpage}{340}
+\indexentry{RProp|hyperpage}{340}
+\indexentry{Overﬁtting|hyperpage}{342}
+\indexentry{Support vector machine|hyperpage}{342}
+\indexentry{Convolutional Neural Network (CNN)|hyperpage}{342}
+\indexentry{Data scientist|hyperpage}{342}
+\indexentry{Deep belief network|hyperpage}{342}
+\indexentry{Deep learning|hyperpage}{342}
+\indexentry{Feature|hyperpage}{342}
+\indexentry{Kernel|hyperpage}{342}
+\indexentry{Kernel methods|hyperpage}{342}
+\indexentry{Object classiﬁcation|hyperpage}{342}
+\indexentry{Principal Component Analysis (PCA)|hyperpage}{342}
+\indexentry{Backpropagation|hyperpage}{342}
+\indexentry{Learning!unsupervised|hyperpage}{345}
+\indexentry{RProp|hyperpage}{346}
+\indexentry{Convolutional Neural Network (CNN)|hyperpage}{346}
+\indexentry{Deep belief network|hyperpage}{346}
+\indexentry{Kernel PCA|hyperpage}{346}
+\indexentry{Normalization|hyperpage}{346}
+\indexentry{Principal Component Analysis (PCA)|hyperpage}{346}
+\indexentry{Stacked denoising autoencoder|hyperpage}{346}
+\indexentry{Support vector machine|hyperpage}{346}
+\indexentry{Whitening|hyperpage}{346}
+\indexentry{Cross-validation|hyperpage}{349}
+\indexentry{Metaparameter|hyperpage}{349}
+\indexentry{Object classiﬁcation|hyperpage}{349}
+\indexentry{Convolutional Neural Network (CNN)|hyperpage}{351}
+\indexentry{Creativity|hyperpage}{351}
+\indexentry{Neural network!recurrent|hyperpage}{351}
+\indexentry{Creativity|hyperpage}{352}
+\indexentry{Feedforward networks|hyperpage}{354}
+\indexentry{Self-organizing maps|hyperpage}{354}
+\indexentry{Adaptive Resonance Theory (ART)|hyperpage}{356}
+\indexentry{Robot|hyperpage}{358}
+\indexentry{Agent|hyperpage}{359}
+\indexentry{Robot!walking|hyperpage}{359}
+\indexentry{Walking robot|hyperpage}{360}
+\indexentry{Receiver operating characteristic!learning|hyperpage}{363}
+\indexentry{Agent|hyperpage}{363}
+\indexentry{Agent|hyperpage}{363}
+\indexentry{Receiver operating characteristic!negative|hyperpage}{363}
+\indexentry{Receiver operating characteristic!positive|hyperpage}{363}
+\indexentry{Credit assignment|hyperpage}{363}
+\indexentry{Immediate reward|hyperpage}{363}
+\indexentry{Policy|hyperpage}{363}
+\indexentry{Policy!policy based on its|hyperpage}{363}
+\indexentry{Resolvent!discounted|hyperpage}{363}
+\indexentry{Resolvent!immediate|hyperpage}{363}
+\indexentry{State!transition function|hyperpage}{363}
+\indexentry{Transition function|hyperpage}{363}
+\indexentry{Robot|hyperpage}{365}

@@ -1,0 +1,350 @@
+{
+  "applied_bold": 6,
+  "applied_italic": 0,
+  "applied_both": 0,
+  "total_applied": 6,
+  "expected_bold": 12,
+  "expected_italic": 10,
+  "expected_both": 0,
+  "not_found": 6,
+  "protected": 0,
+  "skipped": 10,
+  "total_matchable": 12,
+  "match_ratio_percent": 50.0,
+  "per_page": {
+    "page_2": [],
+    "page_3": [],
+    "page_4": [],
+    "page_5": [],
+    "page_6": [],
+    "page_7": [],
+    "page_8": [],
+    "page_9": [],
+    "page_10": [],
+    "page_12": [],
+    "page_13": [],
+    "page_14": [],
+    "page_15": [],
+    "page_16": [],
+    "page_20": [
+      {
+        "text": "Label   Opcode Operand Comment",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "not_found"
+      }
+    ],
+    "page_23": [],
+    "page_25": [],
+    "page_26": [],
+    "page_27": [],
+    "page_29": [],
+    "page_30": [],
+    "page_31": [],
+    "page_34": [],
+    "page_35": [],
+    "page_36": [],
+    "page_37": [],
+    "page_48": [],
+    "page_49": [],
+    "page_50": [],
+    "page_56": [],
+    "page_60": [],
+    "page_62": [],
+    "page_64": [],
+    "page_65": [],
+    "page_66": [],
+    "page_67": [],
+    "page_68": [],
+    "page_69": [],
+    "page_70": [],
+    "page_74": [],
+    "page_75": [],
+    "page_76": [],
+    "page_77": [],
+    "page_78": [],
+    "page_79": [],
+    "page_80": [],
+    "page_82": [],
+    "page_84": [],
+    "page_89": [],
+    "page_90": [],
+    "page_91": [],
+    "page_93": [],
+    "page_94": [],
+    "page_95": [],
+    "page_96": [],
+    "page_98": [],
+    "page_100": [],
+    "page_101": [],
+    "page_102": [
+      {
+        "text": "xn",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "n",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "n",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "n",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "x",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      },
+      {
+        "text": "n",
+        "is_bold": false,
+        "is_italic": true,
+        "matched": false,
+        "reason": "skipped"
+      }
+    ],
+    "page_107": [],
+    "page_110": [
+      {
+        "text": "Operation Logic",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "not_found"
+      }
+    ],
+    "page_111": [
+      {
+        "text": "And instructions Or instructions Xor instructions Not instructions",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "not_found"
+      }
+    ],
+    "page_113": [],
+    "page_114": [],
+    "page_118": [],
+    "page_121": [],
+    "page_122": [],
+    "page_127": [],
+    "page_128": [],
+    "page_133": [],
+    "page_138": [],
+    "page_139": [],
+    "page_143": [],
+    "page_145": [],
+    "page_146": [],
+    "page_148": [],
+    "page_149": [],
+    "page_150": [],
+    "page_151": [],
+    "page_152": [
+      {
+        "text": "Directive Meaning",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "not_found"
+      }
+    ],
+    "page_154": [],
+    "page_159": [],
+    "page_161": [],
+    "page_163": [
+      {
+        "text": "Accumulator Operand Iteration Answer Answer corrected",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "not_found"
+      }
+    ],
+    "page_169": [],
+    "page_172": [],
+    "page_173": [],
+    "page_174": [],
+    "page_175": [],
+    "page_176": [],
+    "page_177": [],
+    "page_178": [],
+    "page_179": [],
+    "page_180": [],
+    "page_182": [],
+    "page_184": [
+      {
+        "text": "Variable Address Contents",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": false,
+        "reason": "not_found"
+      }
+    ],
+    "page_185": [],
+    "page_186": [],
+    "page_187": [],
+    "page_189": [],
+    "page_190": [],
+    "page_191": [],
+    "page_192": [],
+    "page_196": [],
+    "page_198": [],
+    "page_201": [],
+    "page_202": [],
+    "page_204": [],
+    "page_207": [],
+    "page_209": [],
+    "page_213": [],
+    "page_215": [],
+    "page_217": [],
+    "page_218": [],
+    "page_219": [],
+    "page_221": [],
+    "page_222": [],
+    "page_223": [],
+    "page_224": [],
+    "page_226": [],
+    "page_227": [],
+    "page_228": [],
+    "page_230": [],
+    "page_231": [],
+    "page_232": [],
+    "page_233": [],
+    "page_234": [],
+    "page_236": [],
+    "page_237": [],
+    "page_238": [],
+    "page_240": [],
+    "page_241": [],
+    "page_245": [],
+    "page_247": [],
+    "page_250": [],
+    "page_251": [],
+    "page_252": [],
+    "page_256": [],
+    "page_258": [],
+    "page_259": [],
+    "page_260": [],
+    "page_261": [],
+    "page_262": [],
+    "page_263": [],
+    "page_264": [],
+    "page_265": [],
+    "page_268": [],
+    "page_269": [],
+    "page_271": [],
+    "page_273": [],
+    "page_276": [],
+    "page_279": [],
+    "page_280": [],
+    "page_281": [],
+    "page_282": [],
+    "page_283": [],
+    "page_284": [],
+    "page_285": [],
+    "page_286": [],
+    "page_287": [],
+    "page_288": [],
+    "page_289": [],
+    "page_290": [],
+    "page_291": [],
+    "page_292": [],
+    "page_293": [],
+    "page_296": [],
+    "page_297": [],
+    "page_339": [
+      {
+        "text": "Chapter 3",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": true
+      }
+    ],
+    "page_341": [
+      {
+        "text": "Chapter 8",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": true
+      },
+      {
+        "text": "Chapter 9",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": true
+      },
+      {
+        "text": "Chapter 10",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": true
+      }
+    ],
+    "page_342": [
+      {
+        "text": "Chapter 12",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": true
+      },
+      {
+        "text": "Appendix B",
+        "is_bold": true,
+        "is_italic": false,
+        "matched": true
+      }
+    ],
+    "page_345": [],
+    "page_346": [],
+    "page_349": [],
+    "page_350": [],
+    "page_351": []
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "log_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/assembly/penultimate/assembly_final.log",
+  "errors": [
+    {
+      "source": "LaTeX",
+      "description": "Not in outer par mode",
+      "count": 3,
+      "sources": [
+        "LaTeX"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "source": "inputenc",
+      "description": "inputenc package ignored with utf8 based engines",
+      "count": 1,
+      "sources": [
+        "inputenc"
+      ]
+    },
+    {
+      "source": "xeCJK",
+      "description": "Unknown CJK family `\\CJKttdefault' is being ignored",
+      "count": 1,
+      "sources": [
+        "xeCJK"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Characters dropped after `\\end{verbatim}' on input line 554",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Characters dropped after `\\end{verbatim}' on input line 1366",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Characters dropped after `\\end{verbatim}' on input line 3497",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    }
+  ],
+  "summary": {
+    "total_errors": 3,
+    "total_warnings": 5,
+    "unique_errors": 1,
+    "unique_warnings": 5,
+    "compilation_successful": false
+  },
+  "compilation_info": {
+    "pages_compiled": 333,
+    "total_pages": 0,
+    "compilation_time": null,
+    "latex_version": null,
+    "output_file": "assembly_final.xdv"
+  }
+}

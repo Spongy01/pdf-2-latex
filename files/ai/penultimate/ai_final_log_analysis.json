@@ -1,0 +1,69 @@
+{
+  "log_file": "/Users/aliasgar/Desktop/Ali Asgar/Stony Brook/Advanced Project/local/files/ai/penultimate/ai_final.log",
+  "errors": [
+    {
+      "source": "LaTeX",
+      "description": "Not in outer par mode",
+      "count": 4,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "There's no line here to end",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "source": "inputenc",
+      "description": "inputenc package ignored with utf8 based engines",
+      "count": 1,
+      "sources": [
+        "inputenc"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Float too large for page by 291",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "LaTeX",
+      "description": "Float too large for page by 305",
+      "count": 1,
+      "sources": [
+        "LaTeX"
+      ]
+    },
+    {
+      "source": "xeCJK",
+      "description": "Unknown CJK family `\\CJKttdefault' is being ignored",
+      "count": 1,
+      "sources": [
+        "xeCJK"
+      ]
+    }
+  ],
+  "summary": {
+    "total_errors": 5,
+    "total_warnings": 4,
+    "unique_errors": 2,
+    "unique_warnings": 4,
+    "compilation_successful": false
+  },
+  "compilation_info": {
+    "pages_compiled": 365,
+    "total_pages": 0,
+    "compilation_time": null,
+    "latex_version": null,
+    "output_file": "ai_final.xdv"
+  }
+}

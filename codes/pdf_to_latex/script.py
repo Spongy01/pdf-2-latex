@@ -305,16 +305,17 @@ def run_pipeline(
             #     use_parallel=use_parallel,
             # )
             current_tex_path = make_book(current_tex_path, paths["gpt_path"]) # converts article type to book type.
-            current_tex_path = process_tex_figures(current_tex_path, paths["gpt_path"]) # will need to update the paths after changes made.
+            # current_tex_path = process_tex_figures(current_tex_path, paths["gpt_path"]) # will need to update the paths after changes made.
 
             # Apply bold and italic formatting from PDF
-            print("🔤 Applying bold and italic formatting from PDF...")
-            current_tex_path = apply_bold_italic_formatting(
-                paths["book_path"],
-                current_tex_path,
-                paths["gpt_path"],
-                paths["output_folder"]
-            )
+
+            # print("🔤 Applying bold and italic formatting from PDF...")
+            # current_tex_path = apply_bold_italic_formatting(
+            #     paths["book_path"],
+            #     current_tex_path,
+            #     paths["gpt_path"],
+            #     paths["output_folder"]
+            # )
 
             # Fix figure and table positioning options
             print("🔧 Fixing figure and table positioning options...")

@@ -1,0 +1,2010 @@
+\begin{theindex}
+
+  \item #P-completeness, \hyperpage{552}, \hyperpage{634}
+  \item 0/1 knapsack problem, \hyperpage{575}
+  \item 2/3 tree, \hyperpage{251}
+  \item 3-SAT, \hyperpage{420}
+
+  \indexspace
+
+  \item 242, \hyperpage{170}, \hyperpage{317}, \hyperpage{401}, 
+		\hyperpage{444}, \hyperpage{493}
+  \item 244, \hyperpage{504}, \hyperpage{512}, \hyperpage{528}, 
+		\hyperpage{635}, \hyperpage{701}
+    \subitem applications, \hyperpage{291}, \hyperpage{450}
+  \item 394, \hyperpage{657}, \hyperpage{679}, \hyperpage{696}, 
+		\hyperpage{708}, \hyperpage{828}
+
+  \indexspace
+
+  \item above-below test, \hyperpage{549}, \hyperpage{735}
+  \item abracadabra, \hyperpage{414}
+  \item abstract graph type, \hyperpage{523}
+  \item academic institutions – licensing, \hyperpage{835}
+  \item acceptance-rejection method, \hyperpage{565}
+  \item Ackerman function, \hyperpage{530}
+  \item acyclic graph, \hyperpage{224}
+  \item acyclic subgraph, \hyperpage{729}
+  \item Ada, \hyperpage{506}
+  \item adaptive compression algorithms, \hyperpage{816}
+    \subitem (ASA), \hyperpage{557}
+  \item addition, \hyperpage{570}
+  \item adjacency list, \hyperpage{229}, \hyperpage{255}
+  \item adjacency matrix, \hyperpage{228}, \hyperpage{255}
+  \item adjacent swaps, \hyperpage{601}
+  \item Advanced Encryption Standard, \hyperpage{818}
+  \item advice – caveat, \hyperpage{505}
+  \item aesthetically pleasing drawings, \hyperpage{667}
+  \item aggregate range queries, \hyperpage{755}
+  \item agrep, \hyperpage{812}
+  \item Aho–Corasick algorithm, \hyperpage{414}
+  \item air travel pricing, \hyperpage{140}
+  \item airline distance metric, \hyperpage{449}
+  \item airline scheduling, \hyperpage{558}, \hyperpage{800}
+  \item algorist, \hyperpage{24}
+  \item Algorist Technologies—consulting, \hyperpage{840}
+  \item algorithm design, \hyperpage{495}
+  \item algorithmic resources, \hyperpage{835}
+  \item algorithms, \hyperpage{745}, \hyperpage{757}, \hyperpage{763}, 
+		\hyperpage{787}
+  \item aligning DNA sequences, \hyperpage{828}
+  \item alignment costs, \hyperpage{810}
+  \item all-pairs shortest path, \hyperpage{146}, \hyperpage{255}, 
+		\hyperpage{644}
+  \item alpha-beta pruning, \hyperpage{176}, \hyperpage{589}
+  \item alpha-shapes, \hyperpage{740}
+  \item amortized analysis, \hyperpage{511}
+  \item analog channel, \hyperpage{605}
+  \item ancestor, \hyperpage{20}
+  \item angular resolution, \hyperpage{667}
+  \item animation – motion planning, \hyperpage{782}
+  \item animation – sorting, \hyperpage{588}
+    \subitem 687, \hyperpage{828}
+    \subitem related problems, \hyperpage{805}, \hyperpage{832}
+    \subitem search, \hyperpage{534}, \hyperpage{752}
+  \item approximation algorithms, \hyperpage{445}, \hyperpage{543}
+  \item approximation scheme, \hyperpage{578}, \hyperpage{699}
+  \item arbitrary-precision arithmetic, \hyperpage{570}
+    \subitem geometry, \hyperpage{734}
+    \subitem related problems, \hyperpage{617}
+  \item architectural models, \hyperpage{762}
+  \item area computations – applications, \hyperpage{780}
+  \item area computations – triangles, \hyperpage{735}
+  \item area minimization, \hyperpage{667}
+  \item arm, robot, \hyperpage{785}
+  \item around the world game, \hyperpage{702}
+  \item Arrange, \hyperpage{760}, \hyperpage{789}
+  \item arrangement, \hyperpage{19}, \hyperpage{786}
+  \item arrangement of objects, \hyperpage{597}
+  \item arrangements of lines, \hyperpage{787}
+  \item array, \hyperpage{508}
+  \item art gallery problems, \hyperpage{774}
+  \item articulation vertex, \hyperpage{252}, \hyperpage{660}
+  \item artists steal, \hyperpage{835}
+  \item ASA, \hyperpage{557}
+  \item ASCII, \hyperpage{510}
+  \item aspect ratio, \hyperpage{670}
+  \item assembly language, \hyperpage{571}, \hyperpage{581}
+  \item assignment problem, \hyperpage{651}
+  \item associative operation, \hyperpage{548}
+  \item asymmetric longest path problem, \hyperpage{702}
+  \item asymmetric TSPs, \hyperpage{833}
+  \item asymptotic analysis, \hyperpage{34}
+  \item atom smashing, \hyperpage{607}
+  \item attitude of the algorithm designer, \hyperpage{495}
+  \item attribute, \hyperpage{528}
+  \item attribute – graph, \hyperpage{522}
+  \item augmenting path, \hyperpage{654}, \hyperpage{665}
+  \item automorphisms, \hyperpage{715}
+  \item average, \hyperpage{594}
+  \item average-case analysis, \hyperpage{511}
+  \item average-case complexity, \hyperpage{36}
+  \item AVL tree, \hyperpage{251}
+  \item Avogadro’s number, \hyperpage{702}
+  \item awk, \hyperpage{804}
+  \item axis-oriented rectangles, \hyperpage{754}, \hyperpage{765}
+  \item axis-parallel planes, \hyperpage{532}
+
+  \indexspace
+
+  \item B-tree, \hyperpage{251}, \hyperpage{587}, \hyperpage{592}
+  \item back edge, \hyperpage{249}
+  \item back substitution, \hyperpage{541}
+  \item backpacker, \hyperpage{575}
+    \subitem 599, \hyperpage{708}, \hyperpage{718}, \hyperpage{796}, 
+		\hyperpage{800}
+  \item backtracking – applications, \hyperpage{576}, \hyperpage{723}
+    \subitem problem, \hyperpage{544}
+  \item balanced search tree, \hyperpage{49}, \hyperpage{251}, 
+		\hyperpage{507}
+  \item balltrees, \hyperpage{751}
+  \item banded systems, \hyperpage{541}, \hyperpage{543}
+  \item bandersnatch problem, \hyperpage{195}
+  \item bandwidth, \hyperpage{541}, \hyperpage{597}
+  \item bandwidth reduction, \hyperpage{543}
+    \subitem problems, \hyperpage{729}
+  \item bandwidth – matrix, \hyperpage{548}
+  \item bar codes, \hyperpage{372}
+  \item base of logarithm, \hyperpage{57}
+  \item base – arithmetic, \hyperpage{571}
+  \item base – conversion, \hyperpage{571}
+  \item Bellman–Ford algorithm, \hyperpage{643}, \hyperpage{646}
+  \item Berge’s theorem, \hyperpage{654}
+  \item best-case complexity, \hyperpage{36}
+  \item best-ﬁrst search, \hyperpage{166}
+  \item BFS, \hyperpage{248}
+  \item Bible – searching the, \hyperpage{414}
+  \item bibliographic databases, \hyperpage{840}
+  \item biconnected components, \hyperpage{630}
+  \item biconnected graphs, \hyperpage{549}, \hyperpage{660}, 
+		\hyperpage{701}
+  \item Big Oh notation, \hyperpage{22}, \hyperpage{67}
+  \item bijection, \hyperpage{604}
+  \item bin packing, \hyperpage{766}
+  \item bin packing – applications, \hyperpage{621}, \hyperpage{672}
+  \item bin packing – knapsack problem, \hyperpage{576}
+    \subitem 500, \hyperpage{621}
+  \item binary heap, \hyperpage{513}
+  \item binary representation – subsets, \hyperpage{604}
+  \item binary search, \hyperpage{31}, \hyperpage{164}, \hyperpage{589}
+  \item binary search tree, \hyperpage{46}, \hyperpage{251}, 
+		\hyperpage{513}, \hyperpage{760}
+  \item binary search tree - applications, \hyperpage{89}
+    \subitem experience, \hyperpage{56}
+  \item binary search – applications, \hyperpage{254}, 
+		\hyperpage{829}
+    \subitem occurrences, \hyperpage{164}
+  \item binary search – one-sided, \hyperpage{164}, \hyperpage{592}
+  \item binomial coeﬃcients, \hyperpage{358}
+  \item biocomputing, \hyperpage{702}
+  \item biology, \hyperpage{56}
+  \item bipartite graph, \hyperpage{149}, \hyperpage{706}
+  \item bipartite incidence structures, \hyperpage{522}
+    \subitem 275, \hyperpage{619}
+    \subitem 562, \hyperpage{708}
+  \item birthday paradox, \hyperpage{202}
+  \item bisection method, \hyperpage{165}
+  \item bit representation of graphs, \hyperpage{524}
+  \item bit vector, \hyperpage{523}, \hyperpage{527}, \hyperpage{586}, 
+		\hyperpage{597}
+  \item bit vector – applications, \hyperpage{26}, \hyperpage{566}
+  \item Bitcoin, \hyperpage{821}
+  \item blind man’s algorithm, \hyperpage{785}
+  \item block – set partition, \hyperpage{609}
+  \item blossoms, \hyperpage{654}
+  \item board evaluation function, \hyperpage{555}
+  \item bookshelves, \hyperpage{380}
+  \item Boolean logic minimization, \hyperpage{689}, \hyperpage{795}
+  \item Boolean matrix multiplication, \hyperpage{549}
+  \item Boost graph library, \hyperpage{232}
+  \item borrowing, \hyperpage{571}
+  \item Boruvka’s algorithm, \hyperpage{639}
+  \item boss’s delight, \hyperpage{4}
+  \item bottleneck spanning tree, \hyperpage{287}
+  \item boundaries, \hyperpage{20}
+    \subitem programming, \hyperpage{367}
+  \item bounded-height priority queue, \hyperpage{513}
+  \item bounding boxes, \hyperpage{764}
+  \item Boyer–Moore algorithm, \hyperpage{414}
+  \item brainstorming, \hyperpage{495}
+  \item branch and bound search, \hyperpage{166}
+  \item branch-and-bound search, \hyperpage{686}, \hyperpage{695}, 
+		\hyperpage{723}
+  \item breadth-ﬁrst search, \hyperpage{248}, \hyperpage{329}, 
+		\hyperpage{628}, \hyperpage{643}
+  \item breadth-ﬁrst search (BFS), \hyperpage{241}
+  \item breadth-ﬁrst search – applications, \hyperpage{544}
+  \item bridge, \hyperpage{660}
+  \item bridges of K¨onigsberg, \hyperpage{658}
+  \item Brook’s theorem, \hyperpage{710}
+  \item brush ﬁre, \hyperpage{770}
+  \item brute-force search, \hyperpage{563}
+  \item bubblesort, \hyperpage{584}
+  \item bucket sort, \hyperpage{586}
+  \item bucketing techniques, \hyperpage{77}, \hyperpage{510}, 
+		\hyperpage{761}
+  \item bucketing techniques – graphics, \hyperpage{310}
+  \item budget, ﬁxed, \hyperpage{575}
+  \item built-in random number generator, \hyperpage{564}
+  \item buying ﬁxed lots, \hyperpage{795}
+    \subitem 673, \hyperpage{833}
+
+  \indexspace
+
+  \item C sorting library, \hyperpage{126}
+    \subitem 646, \hyperpage{764}
+  \item C++ templates, \hyperpage{836}
+  \item cache, \hyperpage{34}
+  \item cache-oblivious algorithms, \hyperpage{251}
+  \item Caesar shifts, \hyperpage{818}
+  \item calendrical calculations, \hyperpage{615}
+  \item call graph, \hyperpage{661}
+  \item canonical order, \hyperpage{526}, \hyperpage{603}, 
+		\hyperpage{794}
+  \item canonicalization, \hyperpage{105}
+  \item canonically labeled graphs, \hyperpage{721}
+  \item CAP3, \hyperpage{833}
+  \item Carmichael numbers, \hyperpage{569}
+  \item cars and tanks, \hyperpage{782}
+  \item cartoons, \hyperpage{20}
+  \item casino analysis, \hyperpage{36}
+  \item casino poker, \hyperpage{563}
+  \item catalog website, \hyperpage{505}
+  \item Catch-22 situation, \hyperpage{619}
+  \item caveat, \hyperpage{505}
+  \item center vertex, \hyperpage{643}, \hyperpage{646}, 
+		\hyperpage{676}
+  \item CGAL, \hyperpage{732}, \hyperpage{764}, \hyperpage{836}
+  \item chain of matrices, \hyperpage{548}
+  \item chaining, \hyperpage{99}
+  \item Challenge, \hyperpage{655}, \hyperpage{666}, \hyperpage{686}, 
+		\hyperpage{709}
+  \item characters, \hyperpage{20}
+  \item checksum, \hyperpage{820}
+  \item chess program, \hyperpage{553}, \hyperpage{594}
+  \item chessboard coverage, \hyperpage{165}
+  \item Chinese calendar, \hyperpage{615}
+  \item Chinese postman problem, \hyperpage{656}
+  \item Chinese remainder theorem, \hyperpage{572}
+  \item Christoﬁdes heuristic, \hyperpage{699}
+  \item chromatic index, \hyperpage{711}
+  \item chromatic number, \hyperpage{706}
+  \item chromatic polynomials, \hyperpage{709}
+  \item cipher, \hyperpage{818}
+  \item circle, \hyperpage{565}
+  \item circuit analysis, \hyperpage{540}
+  \item circuit board assembly, \hyperpage{3}
+    \subitem simulated annealing, \hyperpage{473}
+  \item circuit layout, \hyperpage{543}
+  \item circuit testing, \hyperpage{319}
+  \item circular embeddings, \hyperpage{672}
+  \item classiﬁcation, \hyperpage{723}
+  \item classiﬁcation – nearest-neighbor, \hyperpage{750}
+  \item clauses, \hyperpage{624}
+  \item clique, \hyperpage{683}
+  \item clique – deﬁnition, \hyperpage{417}
+  \item clique – hardness proof, \hyperpage{417}
+  \item clique – related problems, \hyperpage{688}
+  \item clock, \hyperpage{564}
+  \item closest point, \hyperpage{750}
+  \item closest-pair heuristic, \hyperpage{5}
+  \item closest-pair problem, \hyperpage{120}, \hyperpage{752}
+  \item closure, \hyperpage{647}
+  \item clothing – manufacturing, \hyperpage{768}
+  \item cloudy days, \hyperpage{782}
+  \item cluster, \hyperpage{20}
+  \item cluster identiﬁcation, \hyperpage{628}, \hyperpage{635}
+  \item clustered access, \hyperpage{592}
+  \item clustering, \hyperpage{288}, \hyperpage{504}, \hyperpage{683}
+  \item co-NP, \hyperpage{569}
+  \item co-planar points, \hyperpage{549}
+  \item coding theory, \hyperpage{687}
+  \item cofactor method, \hyperpage{552}
+  \item coin ﬂip, \hyperpage{604}
+  \item collapsing dense subgraphs, \hyperpage{703}
+    \subitem 499, \hyperpage{837}
+  \item collection, \hyperpage{20}
+  \item color interchange, \hyperpage{708}
+  \item coloring graphs, \hyperpage{706}
+  \item combinatorial generation, \hyperpage{610}
+    \subitem algorithms, \hyperpage{838}
+  \item combinatorial geometry, \hyperpage{788}
+  \item combinatorial problems, \hyperpage{583}
+    \subitem 580, \hyperpage{709}, \hyperpage{831}, \hyperpage{838}
+  \item commercial implementations, \hyperpage{559}
+  \item committee, \hyperpage{20}
+  \item committee – congressional, \hyperpage{522}
+  \item common substrings, \hyperpage{828}
+  \item communication in circuits, \hyperpage{705}
+  \item communications networks, \hyperpage{642}, \hyperpage{664}
+  \item compaction, \hyperpage{814}
+  \item comparison function, \hyperpage{127}
+  \item comparisons – minimizing, \hyperpage{305}
+  \item compiler, \hyperpage{564}
+  \item compiler construction, \hyperpage{825}
+  \item compiler optimization, \hyperpage{391}, \hyperpage{706}
+    \subitem performance, \hyperpage{60}
+  \item complement, \hyperpage{255}
+  \item complement graph, \hyperpage{687}
+  \item completion time – minimum, \hyperpage{619}
+  \item complex numbers, \hyperpage{490}
+  \item complexity classes, \hyperpage{569}
+  \item composite integer, \hyperpage{566}
+  \item compositions, \hyperpage{610}
+  \item compression, \hyperpage{814}
+  \item compression – image, \hyperpage{579}
+  \item computational biology, \hyperpage{56}
+  \item computational complexity, \hyperpage{720}
+  \item computational geometry, \hyperpage{732}
+  \item computational number theory, \hyperpage{569}, \hyperpage{574}
+  \item computer algebra system, \hyperpage{554}, \hyperpage{570}
+  \item computer graphics, \hyperpage{547}
+  \item computer graphics – applications, \hyperpage{96}
+  \item computer graphics – rendering, \hyperpage{775}
+  \item computer vision, \hyperpage{769}
+  \item concatenation – string, \hyperpage{833}
+  \item concavities, \hyperpage{740}
+  \item concavity elimination, \hyperpage{775}
+  \item conditional probability, \hyperpage{98}, \hyperpage{192}
+  \item conjugate gradient methods, \hyperpage{555}
+  \item conjunctive normal form (CNF), \hyperpage{624}
+  \item connected component, \hyperpage{245}, \hyperpage{252}
+    \subitem 524, \hyperpage{628}
+    \subitem problems, \hyperpage{648}, \hyperpage{663}
+  \item connectivity, \hyperpage{252}, \hyperpage{630}, \hyperpage{660}
+  \item consensus sequences, \hyperpage{828}
+  \item consistent schedule, \hyperpage{619}
+    \subitem 485, \hyperpage{625}
+    \subitem triangulation, \hyperpage{743}
+  \item constraint elimination, \hyperpage{729}
+  \item consulting services, \hyperpage{498}, \hyperpage{840}
+  \item container, \hyperpage{81}, \hyperpage{525}
+  \item context-free grammars, \hyperpage{805}
+  \item Contig Assembly Program, \hyperpage{833}
+  \item control systems – minimization, \hyperpage{825}
+  \item convex decomposition, \hyperpage{754}, \hyperpage{772}
+  \item convex hull, \hyperpage{122}, \hyperpage{738}, \hyperpage{746}
+    \subitem 597, \hyperpage{778}
+  \item convex polygons, \hyperpage{791}
+  \item convex polygons – intersection, \hyperpage{763}
+  \item convex region, \hyperpage{559}
+  \item convolution – polygon, \hyperpage{792}
+  \item convolution – sequences, \hyperpage{579}
+  \item conﬁguration space, \hyperpage{785}
+  \item conﬁgurations, \hyperpage{20}
+  \item cookbook, \hyperpage{505}
+  \item cooling schedules, \hyperpage{465}
+  \item coordinate transformations, \hyperpage{547}
+  \item copying a graph, \hyperpage{122}
+  \item corporate ladder, \hyperpage{676}
+  \item correctness – algorithm, \hyperpage{3}
+  \item correlation function, \hyperpage{580}
+  \item counterexample construction, \hyperpage{7}
+  \item counting edges and vertices, \hyperpage{122}
+  \item counting Eulerian cycles, \hyperpage{658}
+  \item counting integer partitions, \hyperpage{607}
+  \item counting linear extensions, \hyperpage{633}
+  \item counting matchings, \hyperpage{552}
+  \item counting paths, \hyperpage{548}, \hyperpage{720}
+  \item counting set partitions, \hyperpage{609}
+  \item counting spanning trees, \hyperpage{640}
+    \subitem pieces, \hyperpage{773}
+  \item covering set elements, \hyperpage{795}
+  \item Cramer’s rule, \hyperpage{552}
+  \item CRC, \hyperpage{820}
+  \item critical path method, \hyperpage{621}
+  \item crossing number, \hyperpage{679}
+  \item crossings, \hyperpage{667}
+  \item cryptography, \hyperpage{818}
+  \item cryptography – keys, \hyperpage{563}
+    \subitem 492, \hyperpage{574}, \hyperpage{817}
+  \item CS, \hyperpage{666}
+  \item CSA, \hyperpage{654}, \hyperpage{663}
+  \item cubic regions, \hyperpage{532}
+  \item curve ﬁtting, \hyperpage{560}
+  \item cut set, \hyperpage{661}, \hyperpage{703}
+  \item Cuthill–McKee algorithm, \hyperpage{544}
+  \item cutting plane methods, \hyperpage{559}, \hyperpage{695}
+  \item cutting stock problem, \hyperpage{766}
+  \item CWEB, \hyperpage{838}
+  \item cycle breaking, \hyperpage{729}
+  \item cycle detection, \hyperpage{249}, \hyperpage{630}
+  \item cycle in graph, \hyperpage{224}
+  \item cycle length, \hyperpage{565}
+  \item cycle structure of permutations, \hyperpage{601}
+  \item cycle – shortest, \hyperpage{644}
+  \item cyclic-redundancy check (CRC), \hyperpage{820}
+
+  \indexspace
+
+  \item DAG, \hyperpage{225}, \hyperpage{453}
+  \item DAG – longest path in, \hyperpage{701}
+  \item DAG – shortest path in, \hyperpage{644}
+  \item data compression, \hyperpage{374}
+  \item Data Encryption Standard (DES), \hyperpage{818}
+  \item data records, \hyperpage{20}
+  \item data structures, \hyperpage{75}, \hyperpage{505}
+  \item data transmission, \hyperpage{814}
+  \item data validation, \hyperpage{820}
+  \item data ﬁltering, \hyperpage{594}
+  \item database algorithms, \hyperpage{804}
+  \item database application, \hyperpage{754}
+  \item database query optimization, \hyperpage{650}
+    \subitem 459, \hyperpage{786}, \hyperpage{789}
+  \item Davis-Putnam procedure, \hyperpage{624}
+  \item day of the week calculation, \hyperpage{615}
+  \item de Bruijn sequence, \hyperpage{658}, \hyperpage{701}
+  \item De Morgan’s laws, \hyperpage{624}
+  \item deadlock, \hyperpage{630}
+  \item debugging graph algorithms, \hyperpage{628}
+  \item debugging parallel programs, \hyperpage{176}
+  \item debugging randomized algorithms, \hyperpage{564}
+  \item debugging tools, \hyperpage{674}
+  \item decimal arithmetic, \hyperpage{571}
+  \item decompose space, \hyperpage{532}
+  \item decomposing polygons, \hyperpage{386}
+  \item deconvolution, \hyperpage{579}
+  \item decrease-key, \hyperpage{514}
+  \item decreasing subsequence, \hyperpage{370}
+  \item decryption, \hyperpage{818}
+  \item defenestrate, \hyperpage{590}
+  \item degeneracy, \hyperpage{733}
+  \item degeneracy testing, \hyperpage{787}
+  \item degenerate conﬁguration, \hyperpage{549}
+  \item degenerate system of equations, \hyperpage{540}
+  \item degree sequence, \hyperpage{613}
+  \item degree, vertex, \hyperpage{227}, \hyperpage{720}
+  \item degrees of freedom, \hyperpage{784}
+  \item Delaunay triangulation, \hyperpage{743}, \hyperpage{749}, 
+		\hyperpage{752}
+    \subitem applications, \hyperpage{638}
+  \item deletion from binary search tree, \hyperpage{92}
+  \item deletions – text, \hyperpage{809}
+  \item deliveries and pickups, \hyperpage{656}
+  \item delivery routing, \hyperpage{619}
+    \subitem identiﬁcation, \hyperpage{750}
+  \item dense graphs, \hyperpage{227}, \hyperpage{255}, \hyperpage{701}
+  \item dense subgraph, \hyperpage{685}
+  \item densest sphere packing, \hyperpage{768}
+    \subitem 568, \hyperpage{701}
+  \item depth-ﬁrst search – backtracking, \hyperpage{322}
+  \item dequeue, \hyperpage{44}
+  \item derangement, \hyperpage{168}, \hyperpage{217}
+  \item derivatives – automata, \hyperpage{827}
+  \item derivatives – calculus, \hyperpage{554}
+  \item DES, \hyperpage{816}
+  \item descendant, \hyperpage{20}
+  \item design process, \hyperpage{495}
+  \item design rule checking, \hyperpage{762}
+  \item determinant, \hyperpage{540}
+  \item determinant – related problems, \hyperpage{542}
+  \item determinants and permanents, \hyperpage{549}
+    \subitem (DFA), \hyperpage{825}
+  \item DFA, \hyperpage{825}
+  \item DFS, \hyperpage{251}
+  \item diameter of a graph, \hyperpage{646}
+  \item diameter of a point set, \hyperpage{738}
+    \subitem 509, \hyperpage{592}
+  \item dictionary, \hyperpage{44}, \hyperpage{507}, \hyperpage{512}, 
+		\hyperpage{525}
+  \item dictionary – applications, \hyperpage{98}
+  \item dictionary – related problems, \hyperpage{514}
+  \item dictionary – searching, \hyperpage{589}
+  \item digital geometry, \hyperpage{770}
+  \item digital signatures, \hyperpage{821}
+  \item digitized images, \hyperpage{642}
+  \item Dijkstra’s algorithm, \hyperpage{168}, \hyperpage{643}, 
+		\hyperpage{646}
+  \item DIMACS, \hyperpage{511}, \hyperpage{535}
+  \item Dinic’s algorithm, \hyperpage{667}
+    \subitem 535, \hyperpage{632}, \hyperpage{729}
+  \item directed cycle, \hyperpage{632}
+  \item directed graph, \hyperpage{222}, \hyperpage{226}
+  \item directed graphs – automata, \hyperpage{825}
+  \item directory ﬁle structures, \hyperpage{674}
+  \item disclaimer, \hyperpage{505}
+  \item discrete event simulation, \hyperpage{563}
+  \item discrete Fourier transform, \hyperpage{579, 580}
+  \item discrete mathematics software, \hyperpage{838}
+  \item discussion section, \hyperpage{504}
+  \item disjoint paths, \hyperpage{661}
+  \item disjoint set union, \hyperpage{530}
+  \item disjoint subsets, \hyperpage{527}
+    \subitem 538, \hyperpage{795}
+  \item disk access, \hyperpage{251}
+  \item disk drives, \hyperpage{814}, \hyperpage{820}
+    \subitem 637, \hyperpage{758}
+  \item dispersion problems, \hyperpage{687}
+  \item distance graph, \hyperpage{695}
+  \item distance metrics, \hyperpage{292}
+  \item distinguishable elements, \hyperpage{600}
+  \item distribution sort, \hyperpage{77}, \hyperpage{586}
+    \subitem 502, \hyperpage{703}
+  \item division, \hyperpage{566}, \hyperpage{570}
+  \item diﬀ– how it works, \hyperpage{809}
+  \item DNA, \hyperpage{56}
+  \item DNA sequence comparisons, \hyperpage{828}
+  \item DNA sequencing, \hyperpage{310}, \hyperpage{477}, 
+		\hyperpage{832}
+  \item dominance orderings, \hyperpage{20}, \hyperpage{755}
+  \item DOS ﬁle names, \hyperpage{310}
+    \subitem 493, \hyperpage{734}
+  \item Douglas–Puecker algorithm, \hyperpage{777}
+  \item drawing graphs nicely, \hyperpage{667}
+  \item drawing graphs – related problems, \hyperpage{677}
+  \item drawing puzzles, \hyperpage{656}
+  \item drawing trees, \hyperpage{674}
+    \subitem 577, \hyperpage{680}
+  \item driving time minimization, \hyperpage{363}
+  \item drug discovery, \hyperpage{782}
+  \item DSATUR, \hyperpage{709}
+  \item dual graph, \hyperpage{96}, \hyperpage{238}
+  \item duality, \hyperpage{579}, \hyperpage{738}
+  \item duality transformations, \hyperpage{788}
+  \item duplicate elimination, \hyperpage{510}
+  \item duplicate elimination – graphs, \hyperpage{715}
+    \subitem permutations, \hyperpage{598}
+  \item duplicate keys, \hyperpage{584}
+  \item dynamic convex hulls, \hyperpage{742}
+  \item dynamic data structures, \hyperpage{752}, \hyperpage{761}
+  \item dynamic graph algorithms, \hyperpage{524}
+    \subitem 498, \hyperpage{644}, \hyperpage{701}, \hyperpage{745}, 
+		\hyperpage{828}
+    \subitem applications, \hyperpage{773}, \hyperpage{809}
+    \subitem eﬃciency, \hyperpage{177}
+    \subitem initialization, \hyperpage{810}
+    \subitem paths, \hyperpage{149}
+  \item dynamic programming traceback, \hyperpage{364}
+
+  \indexspace
+
+  \item eccentricity of a graph, \hyperpage{646}
+  \item economics – applications to, \hyperpage{730}
+  \item edge, \hyperpage{222}
+  \item edge and vertex connectivity, \hyperpage{660}
+  \item edge chromatic number, \hyperpage{711}
+  \item edge coloring, \hyperpage{708}, \hyperpage{711}
+  \item edge coloring – applications, \hyperpage{619}
+    \subitem 536, \hyperpage{710}
+  \item edge cover, \hyperpage{690}, \hyperpage{796}
+  \item edge disjoint paths, \hyperpage{661}
+  \item edge labeled graphs, \hyperpage{825}
+  \item edge length, \hyperpage{667}
+  \item edge tour, \hyperpage{701}
+    \subitem problems, \hyperpage{630}, \hyperpage{667}, 
+		\hyperpage{704}
+  \item edge ﬂipping operation, \hyperpage{613}
+  \item edit distance, \hyperpage{173}, \hyperpage{828}
+  \item Edmond’s algorithm, \hyperpage{655}
+  \item electrical circuits, \hyperpage{220}
+  \item electrical engineers, \hyperpage{579}
+  \item electronic circuit analysis, \hyperpage{540}
+  \item element uniqueness problem, \hyperpage{120}, \hyperpage{305}
+  \item elimination ordering, \hyperpage{678}
+  \item ellipsoid algorithm, \hyperpage{562}
+  \item elliptic-curve method, \hyperpage{569}
+  \item embedded graph, \hyperpage{225}
+  \item embeddings – planar, \hyperpage{678}
+  \item empirical results, \hyperpage{650}, \hyperpage{709}
+  \item empirical results – heuristics, \hyperpage{726}
+  \item empirical results – string matching, \hyperpage{805}
+  \item employees to jobs – matching, \hyperpage{651}
+  \item empty circle – largest, \hyperpage{747}
+  \item empty rectangle, \hyperpage{768}
+  \item enclosing boxes, \hyperpage{764}
+  \item enclosing disk, \hyperpage{784}
+  \item enclosing rectangle, \hyperpage{768}
+  \item encryption, \hyperpage{818}
+  \item energy function, \hyperpage{553}
+  \item energy minimization, \hyperpage{672}, \hyperpage{726}
+  \item English language, \hyperpage{13}, \hyperpage{590}
+  \item English to French, \hyperpage{592}
+  \item enqueue, \hyperpage{44}
+  \item epsilon-moves, \hyperpage{826}
+  \item equilateral triangle, \hyperpage{724}
+  \item equivalence classes, \hyperpage{720}
+    \subitem states, \hyperpage{826}
+  \item Erd˝os-Gallai conditions, \hyperpage{614}
+  \item Erd˝os-R´enyi graphs, \hyperpage{612}
+  \item error, \hyperpage{537}
+  \item estimating closure sizes, \hyperpage{650}
+  \item ethnic groups in Congress, \hyperpage{796}
+  \item Euclidean minimum spanning tree, \hyperpage{696}
+  \item Euclidean traveling salesman, \hyperpage{449}
+  \item Euclid’s algorithm, \hyperpage{574}
+  \item Eulerian cycle, \hyperpage{656}
+  \item Eulerian cycle – applications, \hyperpage{619}
+  \item Eulerian cycle – line graphs, \hyperpage{712}
+  \item Eulerian cycle – related problems, \hyperpage{702}
+  \item Eulerian path, \hyperpage{656}
+  \item Euler’s formula, \hyperpage{678}
+  \item evaluation function, \hyperpage{553}
+  \item even-degree vertices, \hyperpage{657}
+  \item even-length cycles, \hyperpage{654}
+  \item event, \hyperpage{191}
+  \item event queue, \hyperpage{764}
+  \item evolutionary tree, \hyperpage{723}
+  \item exact cover problem, \hyperpage{800}
+  \item exact string matching, \hyperpage{809}
+  \item exam scheduling, \hyperpage{711}
+    \subitem 383, \hyperpage{491}
+  \item exhaustive search, \hyperpage{26}, \hyperpage{597}
+  \item exhaustive search – application, \hyperpage{7}
+    \subitem results, \hyperpage{696}
+  \item exhaustive search – subsets, \hyperpage{603}
+  \item expanded obstacles approach, \hyperpage{784}
+  \item expander graphs, \hyperpage{838}
+  \item expected time, \hyperpage{36}
+  \item expected value, \hyperpage{191}
+  \item expected-time, linear, \hyperpage{596}
+  \item experiment, \hyperpage{189}
+  \item experimental analysis – set cover, \hyperpage{798}
+  \item experimental graph theory, \hyperpage{611}
+  \item explicit graph, \hyperpage{225}
+  \item exponential time, \hyperpage{174}
+  \item exponential-time algorithms, \hyperpage{319}, \hyperpage{682}
+  \item exponentiation, \hyperpage{54}, \hyperpage{572}
+  \item external memory, \hyperpage{592}
+  \item external-memory sorting, \hyperpage{584}, \hyperpage{586}
+  \item eﬃciency of algorithms, \hyperpage{3}
+
+  \indexspace
+
+  \item facets, \hyperpage{738}
+  \item facility location, \hyperpage{687}, \hyperpage{747}
+  \item factorial function, \hyperpage{169}
+  \item factoring, \hyperpage{238}
+  \item factoring and primality testing, \hyperpage{566}
+    \subitem related problems, \hyperpage{574}, \hyperpage{822}
+  \item factory location, \hyperpage{747}
+  \item family tree, \hyperpage{20}, \hyperpage{674}
+  \item fan out minimization for networks, \hyperpage{329}
+  \item Fary’s theorem, \hyperpage{680}
+  \item fast Fourier transform (FFT), \hyperpage{580}
+  \item fat cells, \hyperpage{532}
+  \item fattening polygons, \hyperpage{790}
+  \item feature sets, \hyperpage{782}
+  \item Federal Sentencing Guidelines, \hyperpage{55}
+  \item feedback edge/vertex set, \hyperpage{633}, \hyperpage{729}
+    \subitem problems, \hyperpage{633}
+  \item Fermat, \hyperpage{726}
+  \item Fermat’s theorem, \hyperpage{567}
+  \item Ferrer’s diagram, \hyperpage{607}
+  \item FFT, \hyperpage{488}, \hyperpage{574}, \hyperpage{580}
+  \item FFTPACK, \hyperpage{581}
+  \item fgrep, \hyperpage{414}
+  \item Fibonacci heap, \hyperpage{514}, \hyperpage{639}, 
+		\hyperpage{646}
+  \item Fibonacci numbers, \hyperpage{169}, \hyperpage{350}
+  \item FIFO, \hyperpage{81}
+  \item FIFO queue, \hyperpage{242}
+  \item Fleury’s algorithm, \hyperpage{658}
+  \item Floyd’s algorithm, \hyperpage{297}, \hyperpage{644}, 
+		\hyperpage{646, 647}
+  \item football program, \hyperpage{702}
+  \item football scheduling, \hyperpage{711}
+  \item Ford-Fulkerson algorithm, \hyperpage{305}
+    \subitem 606, \hyperpage{768}, \hyperpage{774}, \hyperpage{837}, 
+		\hyperpage{839}
+  \item Fortune’s algorithm, \hyperpage{748}
+  \item four Russians algorithm, \hyperpage{549}, \hyperpage{813}, 
+		\hyperpage{831}
+  \item four-color problem, \hyperpage{611}, \hyperpage{710}
+  \item Fourier transform, \hyperpage{488}
+  \item Fourier transform – applications, \hyperpage{777}
+  \item Fourier transform – multiplication, \hyperpage{572}
+    \subitem problems, \hyperpage{777}
+  \item fragment ordering, \hyperpage{310}
+  \item fraud – tax, \hyperpage{683}
+  \item free space, \hyperpage{786}
+  \item free trees, \hyperpage{674}
+  \item freedom to hang yourself, \hyperpage{495}
+  \item frequency distribution, \hyperpage{120}
+  \item frequency domain, \hyperpage{579}
+  \item friendship graph, \hyperpage{226}, \hyperpage{683}
+  \item function interpolation, \hyperpage{386}
+  \item furniture moving, \hyperpage{782}
+  \item furthest-point insertion heuristic, \hyperpage{696}
+  \item furthest-site diagrams, \hyperpage{749}
+  \item future events, \hyperpage{512}
+
+  \indexspace
+
+  \item game-tree search, \hyperpage{589}
+  \item game-tree search – parallel, \hyperpage{176}
+  \item games directory, \hyperpage{566}
+  \item GAMS, \hyperpage{557}, \hyperpage{837}
+  \item gaps between primes, \hyperpage{567}
+  \item garbage trucks, \hyperpage{656}
+  \item Gates, William, \hyperpage{594}
+  \item Gaussian distribution, \hyperpage{565}, \hyperpage{580}
+  \item Gaussian elimination, \hyperpage{540}, \hyperpage{543}
+  \item Genbank searching, \hyperpage{809}
+  \item generating graphs, \hyperpage{611}
+  \item generating partitions, \hyperpage{607}
+    \subitem problems, \hyperpage{530}, \hyperpage{600}, 
+		\hyperpage{606}
+  \item generating permutations, \hyperpage{597}
+  \item generating subsets, \hyperpage{603}
+  \item generating subsets – applications, \hyperpage{24}
+  \item genetic algorithms, \hyperpage{557}
+    \subitem (GIS), \hyperpage{754}
+  \item geometric data structure, \hyperpage{107}
+  \item geometric degeneracy, \hyperpage{733}
+    \subitem problems, \hyperpage{550}
+  \item geometric shortest path, \hyperpage{643}, \hyperpage{782}
+  \item geometric spanning tree, \hyperpage{329}
+  \item geometric Steiner tree, \hyperpage{722}
+    \subitem problem, \hyperpage{3}
+  \item geometric TSP, \hyperpage{695}
+  \item GEOMPACK, \hyperpage{774}
+  \item gerrymandering, \hyperpage{772}
+    \subitem algorithm, \hyperpage{543}
+  \item gift-wrapping algorithm, \hyperpage{738}
+  \item Gilbert and Pollak conjecture, \hyperpage{726}
+  \item girth, \hyperpage{644}
+  \item global optimization, \hyperpage{553}
+  \item Graham scan, \hyperpage{740}
+  \item Grail, \hyperpage{827}
+  \item graph, \hyperpage{218}
+  \item graph algorithms, \hyperpage{220}, \hyperpage{513}
+    \subitem problem, \hyperpage{541}
+  \item graph complement, \hyperpage{255}
+  \item graph data structures, \hyperpage{107}, \hyperpage{137}, 
+		\hyperpage{255}
+    \subitem applications, \hyperpage{824}
+  \item graph data structures – Boost, \hyperpage{232}
+    \subitem 207, \hyperpage{836}
+  \item graph databases, \hyperpage{522}
+  \item graph density, \hyperpage{255}
+  \item graph drawing – related problems, \hyperpage{680}
+  \item graph drawings – clutter, \hyperpage{648}
+  \item graph embedding, \hyperpage{522}
+  \item graph isomorphism, \hyperpage{597}, \hyperpage{614}, 
+		\hyperpage{715}
+    \subitem problems, \hyperpage{614}, \hyperpage{781}
+  \item graph partition, \hyperpage{523}, \hyperpage{661}, 
+		\hyperpage{703}
+  \item graph partition – related problems, \hyperpage{663}
+  \item graph theory, \hyperpage{220}
+  \item graph theory packages, \hyperpage{838}
+  \item graph traversal, \hyperpage{237}
+    \subitem 600, \hyperpage{730}, \hyperpage{838}
+  \item graphic partitions, \hyperpage{614}
+  \item graphical enumeration, \hyperpage{614}
+  \item graphs, \hyperpage{19}
+  \item Gray code, \hyperpage{604, 605}
+    \subitem 359, \hyperpage{238}, \hyperpage{570}
+    \subitem 590, \hyperpage{796}, \hyperpage{800}
+  \item greedy heuristic – Huﬀman codes, \hyperpage{816}
+    \subitem spanning trees, \hyperpage{635}
+  \item Gregorian calendar, \hyperpage{616}
+  \item grid embeddings, \hyperpage{679}
+  \item grid search, \hyperpage{555}
+  \item grid ﬁle, \hyperpage{759}
+  \item group – automorphism, \hyperpage{715}
+  \item Grover’s algorithm, \hyperpage{485}, \hyperpage{592}
+  \item growth rates, \hyperpage{40}
+  \item guarantees – importance of, \hyperpage{446}
+  \item guarding art galleries, \hyperpage{774}
+    \subitem Software, \hyperpage{837}
+  \item gzip, \hyperpage{816}
+
+  \indexspace
+
+  \item H-index, \hyperpage{609}
+    \subitem 388, \hyperpage{493}
+  \item had-sex-with graph, \hyperpage{226}
+  \item half-space intersection, \hyperpage{738}
+  \item Hamiltonian cycle, \hyperpage{363}, \hyperpage{549}, 
+		\hyperpage{650}, \hyperpage{700}
+  \item Hamiltonian cycle – applications, \hyperpage{619}
+  \item Hamiltonian cycle – counting, \hyperpage{276}
+    \subitem proof, \hyperpage{413}
+  \item Hamiltonian cycle – hypercube, \hyperpage{605}
+  \item Hamiltonian cycle – line graphs, \hyperpage{712}
+    \subitem problems, \hyperpage{658}, \hyperpage{696}
+  \item Hamiltonian path, \hyperpage{329}
+  \item Hamiltonian path – applications, \hyperpage{96}
+  \item Hamming distance, \hyperpage{779}
+  \item hardness of approximation, \hyperpage{683}
+  \item hardware arithmetic, \hyperpage{571}
+  \item hardware design applications, \hyperpage{825}
+  \item hardware implementation, \hyperpage{581}
+  \item hash function, \hyperpage{510}
+  \item hash tables, \hyperpage{99}, \hyperpage{510}
+    \subitem experience, \hyperpage{56}
+  \item hash tables – size, \hyperpage{566}
+  \item Hausdorﬀdistance, \hyperpage{780}
+  \item heap, \hyperpage{512}
+  \item heap construction, \hyperpage{169}
+  \item heapsort, \hyperpage{129}, \hyperpage{584}
+  \item heard-of graph, \hyperpage{226}
+  \item heart-lung machine, \hyperpage{508}
+  \item heating ducts, \hyperpage{722}
+  \item Hebrew calendar, \hyperpage{615}
+  \item Hertel–Mehlhorn heuristic, \hyperpage{773}
+  \item heuristics, \hyperpage{456}, \hyperpage{766}
+  \item heuristics – empirical results, \hyperpage{696}
+  \item hidden-surface elimination, \hyperpage{763}
+  \item hierarchical decomposition, \hyperpage{523}, \hyperpage{532}
+  \item hierarchical drawings, \hyperpage{674}
+  \item hierarchical graph structures, \hyperpage{523, 524}
+  \item hierarchy, \hyperpage{20}
+  \item Hierholzer’s algorithm, \hyperpage{657}
+  \item high school algebra, \hyperpage{540}
+  \item high school cliques, \hyperpage{683}
+    \subitem problems, \hyperpage{570}, \hyperpage{582}
+  \item higher-dimensional data structures, \hyperpage{532}
+    \subitem 635, \hyperpage{751}
+  \item hill climbing, \hyperpage{554}
+  \item HIPR, \hyperpage{667}
+  \item historical objects, \hyperpage{615}
+  \item history, \hyperpage{505}, \hyperpage{588}
+  \item history – cryptography, \hyperpage{824}
+  \item history – graph theory, \hyperpage{658}
+  \item hitting set, \hyperpage{796}
+  \item homeomorphism, \hyperpage{680}
+  \item horizon, \hyperpage{764}
+  \item Horner’s rule, \hyperpage{30}, \hyperpage{510}, 
+		\hyperpage{572}
+  \item How to Solve It, \hyperpage{499}
+  \item hub site, \hyperpage{695}
+  \item human genome, \hyperpage{56}
+  \item Hungarian algorithm, \hyperpage{655}
+  \item Huﬀman codes, \hyperpage{816}
+  \item hypercube, \hyperpage{177}, \hyperpage{605}
+  \item hypergraph, \hyperpage{522}, \hyperpage{524}, \hyperpage{527}
+  \item hyperlinks, \hyperpage{612}
+  \item hyperplanes, \hyperpage{789}
+  \item hypertext layout, \hyperpage{543}
+
+  \indexspace
+
+  \item identical graphs, \hyperpage{715}
+    \subitem Conference, \hyperpage{817}
+  \item image compression, \hyperpage{750}, \hyperpage{775}, 
+		\hyperpage{814, 815}
+  \item image data, \hyperpage{532}
+  \item image features, \hyperpage{782}
+  \item image processing, \hyperpage{769}
+  \item image segmentation, \hyperpage{642}
+  \item image simpliﬁcation, \hyperpage{777}
+    \subitem 444, \hyperpage{535}
+  \item image ﬁltering, \hyperpage{579}
+  \item implementations, caveats, \hyperpage{505}
+  \item implicit binary tree, \hyperpage{513}
+  \item implicit graph, \hyperpage{225}
+  \item impress your friends algorithms, \hyperpage{616}
+  \item in-circle test, \hyperpage{736}
+  \item in-order traversal, \hyperpage{249}
+  \item inapproximability results, \hyperpage{798}
+  \item incidence matrices, \hyperpage{522}
+  \item inconsistent linear equations, \hyperpage{558}
+  \item increasing subsequences, \hyperpage{370}, \hyperpage{829}
+  \item incremental algorithms, \hyperpage{670}
+  \item incremental change methods, \hyperpage{597}
+    \subitem arrangements, \hyperpage{788}
+    \subitem coloring, \hyperpage{708}
+    \subitem graph drawing, \hyperpage{680}
+    \subitem sorting, \hyperpage{139}
+    \subitem suﬃx trees, \hyperpage{254}
+    \subitem TSP, \hyperpage{696}
+  \item independence, \hyperpage{192}
+  \item independent set, \hyperpage{310}, \hyperpage{687}
+    \subitem formulations, \hyperpage{800}
+  \item independent set – hardness proof, \hyperpage{414}
+    \subitem 588, \hyperpage{692}, \hyperpage{710}, \hyperpage{801}
+    \subitem annealing, \hyperpage{471}
+  \item index manipulation, \hyperpage{177}
+  \item index – how to use, \hyperpage{504}
+  \item induced subgraph, \hyperpage{685}, \hyperpage{709}
+  \item induced subgraph isomorphism, \hyperpage{718}
+  \item induction and recursion, \hyperpage{17}
+    \subitem assignments, \hyperpage{429}
+  \item information retrieval, \hyperpage{589}
+  \item information theory, \hyperpage{566}
+  \item input–output graphics, \hyperpage{504}
+  \item insertion into binary search tree, \hyperpage{89}
+  \item insertion sort, \hyperpage{2}, \hyperpage{137}, \hyperpage{584}, 
+		\hyperpage{587}
+  \item insertions – text, \hyperpage{809}
+  \item inside–outside polygon, \hyperpage{757}
+  \item instance – deﬁnition, \hyperpage{2}
+  \item integer arithmetic, \hyperpage{734}
+  \item integer compositions, \hyperpage{610}
+  \item integer factorization, \hyperpage{720}, \hyperpage{819}
+  \item integer partition, \hyperpage{575}, \hyperpage{607}, 
+		\hyperpage{613}, \hyperpage{766}
+  \item integer programming, \hyperpage{558}
+    \subitem applications, \hyperpage{578}, \hyperpage{619}
+    \subitem problems, \hyperpage{578}
+    \subitem proof, \hyperpage{422}
+  \item integrality constraints, \hyperpage{559}
+  \item interfering tasks, \hyperpage{711}
+  \item interior-point methods, \hyperpage{559}
+  \item Internal Revenue Service (IRS), \hyperpage{683}
+  \item Internet, \hyperpage{563}, \hyperpage{840}
+  \item interpolation search, \hyperpage{592}
+  \item intersection detection, \hyperpage{762}
+    \subitem applications, \hyperpage{778}
+    \subitem problems, \hyperpage{737}, \hyperpage{787}
+  \item intersection point, \hyperpage{540}
+  \item intersection – halfspaces, \hyperpage{559}
+  \item intersection – set, \hyperpage{526}
+  \item interview scheduling, \hyperpage{711}
+  \item invariant – graph, \hyperpage{720}
+  \item inverse Ackerman function, \hyperpage{530}
+  \item inverse Fourier transform, \hyperpage{579}
+  \item inverse matrix, \hyperpage{542}, \hyperpage{549}
+  \item inverse operations, \hyperpage{598}
+  \item inversions, \hyperpage{549}
+  \item isomorphism, \hyperpage{614}
+  \item isomorphism – graph, \hyperpage{715}
+  \item isomorphism-complete, \hyperpage{721}
+  \item iterative methods – linear systems, \hyperpage{541}
+
+  \indexspace
+
+  \item JFLAP, \hyperpage{827}
+  \item jigsaw puzzle, \hyperpage{766}
+  \item job matching, \hyperpage{651}
+  \item job scheduling, \hyperpage{619}
+  \item job-shop scheduling, \hyperpage{621}
+  \item JPEG, \hyperpage{815}
+  \item Julian calendar, \hyperpage{616}
+
+  \indexspace
+
+  \item k-optimal tours, \hyperpage{696}
+  \item k-subsets, \hyperpage{604}, \hyperpage{610}
+  \item k-subsets – applications, \hyperpage{612}
+  \item K3,3, \hyperpage{680}
+  \item K5, \hyperpage{678}
+  \item Karatsuba’s algorithm, \hyperpage{572}
+  \item Karazanov’s algorithm, \hyperpage{667}
+  \item Karmarkar’s algorithm, \hyperpage{562}
+  \item kd-trees, \hyperpage{532}, \hyperpage{751}
+  \item kd-trees – applications, \hyperpage{755}
+    \subitem 643, \hyperpage{761}
+  \item Kepler conjecture, \hyperpage{768}
+  \item Kernighan–Lin heuristic, \hyperpage{696}, \hyperpage{705}
+  \item key length, \hyperpage{818}
+  \item key search, \hyperpage{534}
+  \item Kirchhoﬀ’s laws, \hyperpage{540}
+  \item knapsack, \hyperpage{559}
+  \item knapsack problem, \hyperpage{575}, \hyperpage{603}
+  \item knapsack problem – applications, \hyperpage{59}
+    \subitem problems, \hyperpage{766}
+  \item Knuth–Morris–Pratt algorithm, \hyperpage{414}
+  \item Kolmogorov complexity, \hyperpage{566}
+    \subitem 550, \hyperpage{639}
+  \item kth-order Voronoi diagrams, \hyperpage{749}
+  \item Kuratowski’s theorem, \hyperpage{680}
+  \item K¨onigsberg, \hyperpage{658}
+
+  \indexspace
+
+  \item label placement, \hyperpage{672}
+  \item labeled graphs, \hyperpage{225}, \hyperpage{611}, 
+		\hyperpage{718}
+  \item labels, \hyperpage{20}
+  \item Lagrangian relaxation, \hyperpage{557}
+  \item language pattern matching, \hyperpage{718}
+  \item LAPACK, \hyperpage{542}, \hyperpage{548}
+  \item large graphs – representation, \hyperpage{523}
+  \item largest element, \hyperpage{594}
+  \item last in, ﬁrst out, \hyperpage{81}
+  \item layered printed circuit boards, \hyperpage{679}
+  \item LCA – least common ancestor, \hyperpage{520}
+  \item leap year, \hyperpage{616}
+  \item least common ancestor, \hyperpage{520}
+  \item least-squares curve ﬁtting, \hyperpage{560}
+  \item leaves – tree, \hyperpage{613}
+    \subitem 646, \hyperpage{764}, \hyperpage{836}
+  \item left-right test, \hyperpage{549}
+  \item left-to-right ordering, \hyperpage{386}
+  \item Lempel–Ziv algorithms, \hyperpage{815, 816}
+  \item lhs, \hyperpage{742}
+  \item libraries, \hyperpage{537}
+  \item licensing arrangements, \hyperpage{835}
+  \item LIFO, \hyperpage{81}
+  \item lifting-map construction, \hyperpage{742}
+  \item line arrangements, \hyperpage{787}
+  \item line graph, \hyperpage{712}
+  \item line intersection, \hyperpage{733}, \hyperpage{763}
+  \item line segment intersection, \hyperpage{735}
+  \item line segment Voronoi diagram, \hyperpage{770}
+  \item line-point duality, \hyperpage{788}
+  \item linear algebra, \hyperpage{547}, \hyperpage{551}
+  \item linear arrangement, \hyperpage{543}
+  \item linear congruential generator, \hyperpage{564}
+  \item linear constraint satisfaction, \hyperpage{787}
+  \item linear extension, \hyperpage{632}
+  \item linear interpolation search, \hyperpage{592}
+  \item linear partitioning, \hyperpage{380}
+  \item linear programming, \hyperpage{554}, \hyperpage{558}
+  \item linear programming – models, \hyperpage{664}
+    \subitem problems, \hyperpage{556}, \hyperpage{667}
+  \item linear programming – relaxation, \hyperpage{695}
+  \item linear programming – special cases, \hyperpage{664}
+  \item linear regression, \hyperpage{540}
+  \item linear-time graph algorithms, \hyperpage{524}
+  \item link distance, \hyperpage{777}, \hyperpage{790}
+  \item linked lists vs. arrays, \hyperpage{44}, \hyperpage{508}
+  \item LINPACK, \hyperpage{542}, \hyperpage{548}, \hyperpage{552}
+  \item literate program, \hyperpage{838}
+  \item little oh notation, \hyperpage{63}
+  \item local optima, \hyperpage{554}
+  \item locality of reference, \hyperpage{508}, \hyperpage{590}
+  \item locations, \hyperpage{20}
+  \item logarithms, \hyperpage{31}
+  \item logic minimization, \hyperpage{795}
+  \item logic programming, \hyperpage{391}
+  \item long division, \hyperpage{572}
+  \item long keys, \hyperpage{586}
+  \item longest common preﬁx, \hyperpage{520}
+    \subitem (LCS), \hyperpage{370}
+  \item longest common substring, \hyperpage{516}, \hyperpage{828}
+    \subitem related problems, \hyperpage{520}, \hyperpage{810}
+  \item longest cycle, \hyperpage{646}, \hyperpage{700}
+    \subitem 324, \hyperpage{813}
+  \item longest path, \hyperpage{644}, \hyperpage{700}
+  \item longest path, DAG, \hyperpage{619}
+  \item loop, \hyperpage{34}
+  \item lossless encodings, \hyperpage{814}
+  \item lossy encodings, \hyperpage{814}
+  \item lottery problems, \hyperpage{24}
+  \item Lotto problem, \hyperpage{598}
+  \item low-degree spanning tree, \hyperpage{329}, \hyperpage{640}
+  \item lower bound, \hyperpage{37}, \hyperpage{158}, \hyperpage{305}, 
+		\hyperpage{742}
+  \item lower bound – range searching, \hyperpage{756}
+  \item lower bound – sorting, \hyperpage{588}
+  \item lower triangular matrix, \hyperpage{541}
+  \item LU-decomposition, \hyperpage{541}, \hyperpage{552}
+  \item lunar calendar, \hyperpage{615}
+  \item LZW algorithm, \hyperpage{815, 816}
+  \item L∞metric, \hyperpage{292}
+
+  \indexspace
+
+  \item machine clock, \hyperpage{564}
+  \item machine learning, \hyperpage{553}
+  \item machine learning – classiﬁcation, \hyperpage{782}
+  \item magnetic tape, \hyperpage{543}
+  \item mail routing, \hyperpage{656}
+    \subitem related problems, \hyperpage{737}, \hyperpage{765}
+  \item maintaining line arrangements, \hyperpage{787}
+  \item Malawi, \hyperpage{140}
+  \item manufacturing applications, \hyperpage{363}, \hyperpage{766}
+  \item map making, \hyperpage{785}
+  \item Maple, \hyperpage{570}
+  \item Markov chain random generation, \hyperpage{601}
+  \item marriage problems, \hyperpage{651}
+  \item master theorem, \hyperpage{170}
+  \item matching, \hyperpage{149}, \hyperpage{651}, \hyperpage{796}
+  \item matching shapes, \hyperpage{779}
+    \subitem 580, \hyperpage{709}, \hyperpage{831}, \hyperpage{838}
+  \item matching – applications, \hyperpage{699}
+  \item matching – dual to, \hyperpage{688}
+  \item matching – number of perfect, \hyperpage{552}
+    \subitem 536, \hyperpage{658}, \hyperpage{667}, \hyperpage{798}
+  \item mathematical notation, \hyperpage{34}
+  \item mathematical programming, \hyperpage{554}, \hyperpage{558}
+  \item mathematical software – netlib, \hyperpage{837}
+  \item matrix bandwidth, \hyperpage{543}
+  \item matrix compression, \hyperpage{832}
+  \item matrix inversion, \hyperpage{542}, \hyperpage{547}
+  \item matrix multiplication, \hyperpage{172}, \hyperpage{547}, 
+		\hyperpage{648}
+    \subitem applications, \hyperpage{552}
+    \subitem problems, \hyperpage{540}
+  \item matrix-tree theorem, \hyperpage{640}
+  \item matroids, \hyperpage{640}
+  \item max-cut, \hyperpage{705}
+  \item max-ﬂow, min-cut theorem, \hyperpage{663}
+  \item maxima, \hyperpage{554}
+  \item maximal clique, \hyperpage{683}
+  \item maximal matching, \hyperpage{690}
+  \item maximum acyclic subgraph, \hyperpage{453}, \hyperpage{729}
+    \subitem annealing, \hyperpage{471}
+  \item maximum spanning tree, \hyperpage{286}
+  \item maximum-cardinality matchings, \hyperpage{654}
+  \item maze, \hyperpage{239}, \hyperpage{631}
+  \item maﬁa, \hyperpage{819}
+  \item McDonald’s restaurants, \hyperpage{747}
+  \item MD5, \hyperpage{824}
+  \item mean, \hyperpage{594}
+  \item mechanical computers, \hyperpage{569}
+  \item mechanical truss analysis, \hyperpage{540}
+  \item medial-axis transform, \hyperpage{769}, \hyperpage{771}
+  \item median and selection, \hyperpage{594}
+    \subitem matching, \hyperpage{655}
+  \item median – application, \hyperpage{587}
+  \item memoization, \hyperpage{352}
+  \item memory accesses, \hyperpage{639}
+  \item mems, \hyperpage{639}
+  \item Menger’s theorem, \hyperpage{661}
+  \item mergesort, \hyperpage{143}, \hyperpage{162}, \hyperpage{584}
+  \item merging subsets, \hyperpage{527}
+  \item merging tapes, \hyperpage{587}
+  \item mesh generation, \hyperpage{386}, \hyperpage{748}
+  \item Metaphone, \hyperpage{813}
+  \item Metropolis algorithm, \hyperpage{557}
+  \item middle-square method, \hyperpage{566}
+  \item millennium bug, \hyperpage{615}
+  \item Miller-Rabin algorithm, \hyperpage{569}
+  \item mindset, \hyperpage{495}
+  \item minima, \hyperpage{554}
+  \item minimax search, \hyperpage{176}
+  \item minimizing automata, \hyperpage{826}
+  \item minimum change order – subsets, \hyperpage{604}
+  \item minimum equivalent digraph, \hyperpage{648}
+  \item minimum product spanning tree, \hyperpage{286}
+  \item minimum spanning tree – drawing, \hyperpage{674}
+    \subitem problems, \hyperpage{530}, \hyperpage{696}, 
+		\hyperpage{723}
+  \item minimum weight triangulation, \hyperpage{745}
+  \item minimum-change order, \hyperpage{601}
+  \item Minkowski sum, \hyperpage{781}, \hyperpage{790}
+  \item Minkowski sum – applications, \hyperpage{777}
+    \subitem 657, \hyperpage{786}
+  \item MIX assembly language, \hyperpage{574}
+  \item mixed graphs, \hyperpage{658}
+  \item mixed-integer programming, \hyperpage{559}
+  \item mode, \hyperpage{154}, \hyperpage{593}
+  \item mode-switching, \hyperpage{374}
+  \item modeling, \hyperpage{496}
+  \item modeling algorithm problems, \hyperpage{19}
+  \item modeling graph problems, \hyperpage{153}
+  \item models of computation, \hyperpage{588}
+  \item modular arithmetic, \hyperpage{572}
+  \item molecular docking, \hyperpage{782}
+  \item molecular sequence data, \hyperpage{724}
+  \item Mona Lisa, \hyperpage{655}
+  \item monotone decomposition, \hyperpage{774}
+  \item monotone polygons, \hyperpage{745}
+  \item monotone subsequence, \hyperpage{370}
+  \item Monte Carlo techniques, \hyperpage{557}, \hyperpage{563}
+  \item month and year, \hyperpage{615}
+  \item motion planning, \hyperpage{644}, \hyperpage{782}
+    \subitem problems, \hyperpage{646}, \hyperpage{764}, 
+		\hyperpage{791}
+    \subitem simpliﬁcation, \hyperpage{775}
+  \item mountain climbing, \hyperpage{554}
+  \item move to front rule, \hyperpage{508}, \hyperpage{590}
+  \item moving furniture, \hyperpage{782}
+  \item MPEG, \hyperpage{815}
+  \item multicommodity ﬂow, \hyperpage{665}
+  \item multiedge, \hyperpage{224}
+  \item multigraph, \hyperpage{227}
+  \item multiple knapsacks, \hyperpage{576}
+  \item multiple sequence alignment, \hyperpage{829}
+  \item multiplication, \hyperpage{570}, \hyperpage{580}
+  \item multiplication algorithms, \hyperpage{70}
+  \item multiplication, matrix, \hyperpage{548}
+  \item multiset, \hyperpage{168}, \hyperpage{600}
+  \item musical scales, \hyperpage{584}
+
+  \indexspace
+
+  \item name variations, recognizing, \hyperpage{812}
+  \item naming concepts, \hyperpage{749}
+  \item nanosecond, \hyperpage{40}
+  \item national debt, \hyperpage{570}
+  \item National Football League (NFL), \hyperpage{711}
+  \item National Security Agency (NSA), \hyperpage{819}
+  \item nauty, \hyperpage{614}, \hyperpage{721}
+  \item NC – Nick’s class, \hyperpage{562}
+    \subitem problems, \hyperpage{746}
+  \item nearest neighbor graph, \hyperpage{695}, \hyperpage{752}
+  \item nearest neighbor heuristic, \hyperpage{4}
+  \item nearest neighbor search, \hyperpage{534}, \hyperpage{747}, 
+		\hyperpage{750}
+    \subitem problems, \hyperpage{536}, \hyperpage{761}
+  \item negation, \hyperpage{624}
+  \item negative-cost cycle, \hyperpage{643}
+  \item negative-cost edges, \hyperpage{146}, \hyperpage{643}
+  \item Neo4j, \hyperpage{522}
+  \item NEOS, \hyperpage{557}, \hyperpage{562}
+    \subitem 632, \hyperpage{749}, \hyperpage{837}
+  \item network, \hyperpage{19}
+  \item network design, \hyperpage{252}, \hyperpage{722}
+    \subitem spanning tree, \hyperpage{635}
+  \item network reliability, \hyperpage{629}, \hyperpage{660}
+    \subitem System (NEOS), \hyperpage{557}, \hyperpage{562}
+  \item network ﬂow, \hyperpage{149}, \hyperpage{559}, 
+		\hyperpage{661}, \hyperpage{664}
+  \item network ﬂow – applications, \hyperpage{703}
+    \subitem 485, \hyperpage{647}, \hyperpage{655}, \hyperpage{663}, 
+		\hyperpage{705}
+  \item next subset, \hyperpage{604}
+  \item Nobel Prize, \hyperpage{58}, \hyperpage{177}
+  \item noisy channels, \hyperpage{687}
+  \item noisy images, \hyperpage{775}, \hyperpage{780}
+  \item non self intersecting polygons, \hyperpage{740}
+  \item non-crossing drawing, \hyperpage{678}
+  \item non-deterministic automata, \hyperpage{826}
+  \item non-Euclidean distance metrics, \hyperpage{748}
+  \item non-numerical problems, \hyperpage{583}
+  \item non-uniform access, \hyperpage{590}
+  \item notorious NP-complete problem, \hyperpage{363}
+  \item NP, \hyperpage{435}, \hyperpage{567}
+    \subitem 561, \hyperpage{704}
+    \subitem bandwidth, \hyperpage{543}
+    \subitem drawing, \hyperpage{677}
+    \subitem minimization, \hyperpage{187}
+    \subitem number, \hyperpage{679}
+    \subitem packing, \hyperpage{800}
+    \subitem satisﬁability, \hyperpage{623}
+    \subitem superstrings, \hyperpage{833}
+    \subitem tetrahedralization, \hyperpage{743}
+  \item NP-completeness, \hyperpage{405}
+  \item NP-completeness – deﬁnition of, \hyperpage{436}
+  \item NP-completeness – theory of, \hyperpage{418}
+  \item NP-hard problems, \hyperpage{552}
+  \item nuclear ﬁssion, \hyperpage{607}
+  \item number theory, \hyperpage{566}, \hyperpage{570}
+  \item number ﬁeld sieve, \hyperpage{567}
+  \item numerical analysis, \hyperpage{543}
+  \item numerical precision, \hyperpage{734}
+  \item Numerical Recipes, \hyperpage{537}, \hyperpage{542}
+  \item numerical root ﬁnding, \hyperpage{555}
+  \item numerical stability, \hyperpage{541}, \hyperpage{559}
+
+  \indexspace
+
+  \item O-notation, \hyperpage{22}
+  \item objective function, \hyperpage{553}
+  \item obstacle-ﬁlled rooms, \hyperpage{643}
+  \item OCR, \hyperpage{372}
+  \item octtree, \hyperpage{532}
+  \item odd-degree vertices, \hyperpage{657}
+  \item odd-length cycles, \hyperpage{654}, \hyperpage{710}
+  \item oligonucleotide arrays, \hyperpage{477}
+  \item on-line problem, \hyperpage{767}
+  \item one million, \hyperpage{319}
+  \item one-sided binary search, \hyperpage{164}, \hyperpage{592}
+  \item online algorithm resources, \hyperpage{840}
+  \item open addressing, \hyperpage{100}
+  \item OpenGL graphics library, \hyperpage{96}
+  \item operations research, \hyperpage{558}
+    \subitem 655, \hyperpage{774}, \hyperpage{779}
+    \subitem system testing, \hyperpage{809}
+  \item optimal binary search trees, \hyperpage{592}
+  \item optimization, \hyperpage{553}
+  \item order statistics, \hyperpage{594}
+  \item ordered set, \hyperpage{526}
+  \item ordering, \hyperpage{20}, \hyperpage{597}
+  \item organ transplant, \hyperpage{75}
+  \item orthogonal planes, \hyperpage{532}
+  \item orthogonal polyline drawings, \hyperpage{670}
+  \item orthogonal range query, \hyperpage{754}
+  \item outerplanar graphs, \hyperpage{680}
+  \item outlying elements, \hyperpage{594}
+  \item output-sensitive algorithms, \hyperpage{763}
+  \item over-determined linear systems, \hyperpage{558}
+  \item overlap graph, \hyperpage{833}
+  \item overpasses – highway, \hyperpage{679}
+  \item Oxford English Dictionary, \hyperpage{24}
+  \item oﬀ-line problem, \hyperpage{767}
+
+  \indexspace
+
+  \item P, \hyperpage{435}
+  \item P-completeness, \hyperpage{562}
+  \item packaging, \hyperpage{20}
+  \item packaging applications, \hyperpage{766}
+  \item packing vs. covering, \hyperpage{796}
+  \item paging, \hyperpage{251}, \hyperpage{523}
+  \item pairing heap, \hyperpage{514}
+  \item palindrome, \hyperpage{254}
+  \item paradigms of algorithms design, \hyperpage{584}
+  \item parallel algorithms, \hyperpage{175}, \hyperpage{542}
+  \item parallel algorithms – graphs, \hyperpage{658}
+  \item parallel lines, \hyperpage{733}
+  \item parallel processor scheduling, \hyperpage{619}
+  \item paranoia level, \hyperpage{819}
+  \item parenthesization, \hyperpage{548}
+  \item PARI, \hyperpage{567}
+  \item parse trees, \hyperpage{718}
+  \item parsing, \hyperpage{805}
+  \item partial key search, \hyperpage{534}
+  \item partial order, \hyperpage{514}, \hyperpage{583}
+  \item partitioning automata states, \hyperpage{826}
+  \item partitioning point sets, \hyperpage{532}
+    \subitem pieces, \hyperpage{773}
+  \item partitioning problems, \hyperpage{380}, \hyperpage{800}
+  \item party aﬃliations, \hyperpage{527}
+  \item Pascal, \hyperpage{639}, \hyperpage{752}, \hyperpage{798}, 
+		\hyperpage{801}
+  \item password, \hyperpage{563}, \hyperpage{819}
+  \item Pat tree, \hyperpage{520}
+  \item patented algorithms, \hyperpage{815}
+  \item path, \hyperpage{628}
+  \item path generation – backtracking, \hyperpage{326}
+  \item path planning, \hyperpage{748}
+  \item path reconstruction, \hyperpage{364}
+  \item paths across a grid, counting, \hyperpage{358}
+  \item paths in graphs, \hyperpage{244}
+  \item paths – counting, \hyperpage{548}, \hyperpage{720}
+  \item pattern matching, \hyperpage{804}, \hyperpage{821}, 
+		\hyperpage{827}
+  \item pattern recognition, \hyperpage{779}
+  \item pattern recognition – automata, \hyperpage{414}
+  \item patterns, \hyperpage{20}
+  \item PAUP, \hyperpage{724}
+  \item PDF-417, \hyperpage{372}
+  \item penalty costs, \hyperpage{368}
+  \item penalty functions, \hyperpage{555}
+  \item perfect hashing, \hyperpage{511}
+  \item perfect matching, \hyperpage{654}
+  \item performance guarantee, \hyperpage{690}
+  \item performance in practice, \hyperpage{7}
+  \item period, \hyperpage{565}
+  \item periodicities, \hyperpage{580}
+  \item Perl, \hyperpage{804}
+  \item permanent, \hyperpage{552}
+  \item permutation, \hyperpage{20}, \hyperpage{549}
+  \item permutation comparisons, \hyperpage{829}
+  \item permutation generation, \hyperpage{597}
+  \item permutation matrix, \hyperpage{547}
+  \item perpendicular bisector, \hyperpage{748}
+  \item personality conﬂicts – avoiding, \hyperpage{800}
+  \item PERT/CPM, \hyperpage{621}
+  \item Petersen graph, \hyperpage{667}
+  \item PGP, \hyperpage{567}, \hyperpage{820}
+  \item phone company, \hyperpage{635}
+  \item PHYLIP, \hyperpage{724}
+  \item phylogenic tree, \hyperpage{723, 724}
+  \item piano mover’s problem, \hyperpage{786}
+  \item Picasso, P., \hyperpage{763}, \hyperpage{835}
+  \item pieces of a graph, \hyperpage{628}
+  \item pilots, \hyperpage{496}
+  \item pink panther, \hyperpage{153}
+  \item pivoting rule, \hyperpage{559}
+  \item pivoting rules, \hyperpage{541}
+  \item pixel geometry, \hyperpage{770}, \hyperpage{780}
+  \item planar drawings, \hyperpage{522}, \hyperpage{674}
+    \subitem problems, \hyperpage{676}
+  \item planar graph, \hyperpage{522}, \hyperpage{670}
+  \item planar graph – clique, \hyperpage{685}
+  \item planar graph – coloring, \hyperpage{708}
+  \item planar graph – isomorphism, \hyperpage{721}
+  \item planar separators, \hyperpage{705}
+  \item planar subdivisions, \hyperpage{760}
+  \item planar sweep algorithms, \hyperpage{764}
+    \subitem embedding, \hyperpage{678}
+    \subitem problems, \hyperpage{672}
+  \item plumbing, \hyperpage{664}
+  \item point in polygon, \hyperpage{757}
+  \item point location, \hyperpage{532}, \hyperpage{757}
+    \subitem 463, \hyperpage{749}, \hyperpage{756}, \hyperpage{789}
+  \item point robots, \hyperpage{782}
+  \item point set clusters, \hyperpage{635}
+  \item point-spread function, \hyperpage{580}
+  \item pointer manipulation, \hyperpage{75}
+  \item points, \hyperpage{20}
+  \item polygon partitioning, \hyperpage{772}
+    \subitem problems, \hyperpage{743}
+  \item polygon triangulation, \hyperpage{744}
+  \item polygonal data structure, \hyperpage{107}
+  \item polygons, \hyperpage{20}
+  \item polyhedral simpliﬁcation, \hyperpage{777}
+  \item polyline graph drawings, \hyperpage{670}
+  \item polynomial evaluation, \hyperpage{572}
+  \item polynomial multiplication, \hyperpage{580}
+    \subitem scheme (PTAS), \hyperpage{578}
+  \item polynomial-time problems, \hyperpage{627}
+  \item poor thin people, \hyperpage{754}
+  \item pop, \hyperpage{81}
+  \item popular keys, \hyperpage{590}
+  \item porting code, \hyperpage{310}
+  \item positions, \hyperpage{20}
+  \item potential function, \hyperpage{553}
+  \item power diagrams, \hyperpage{749}
+  \item power set, \hyperpage{530}
+  \item powers of graphs, \hyperpage{720}
+  \item precedence constraints, \hyperpage{630}, \hyperpage{729}
+  \item precedence-constrained scheduling, \hyperpage{619}
+  \item precision, \hyperpage{537}
+  \item preemptive scheduling, \hyperpage{621}
+  \item preprocessing – graph algorithms, \hyperpage{628}
+  \item presortedness measures, \hyperpage{588}
+  \item previous subset, \hyperpage{604}
+  \item preﬁx – string, \hyperpage{515}
+  \item preﬂow-push methods, \hyperpage{667}
+  \item PRF, \hyperpage{667}
+  \item price-per-pound, \hyperpage{575}
+  \item pricing rules, \hyperpage{140}
+  \item primality testing, \hyperpage{566}, \hyperpage{819}
+  \item prime number, \hyperpage{510}
+  \item prime number theorem, \hyperpage{567}
+  \item Prim’s algorithm, \hyperpage{274}, \hyperpage{293}, 
+		\hyperpage{638}
+  \item principle of optimality, \hyperpage{387}
+  \item printed circuit boards, \hyperpage{287}, \hyperpage{363}
+  \item printing a graph, \hyperpage{122}
+  \item priority queues, \hyperpage{95}, \hyperpage{512}
+    \subitem 116, \hyperpage{764}, \hyperpage{796}
+  \item priority queues – arithmetic model, \hyperpage{588}
+  \item priority queues – related problems, \hyperpage{305}
+  \item probability, \hyperpage{189}
+  \item probability density function, \hyperpage{194}
+  \item probability distribution, \hyperpage{194}
+  \item probability of an event, \hyperpage{191}
+  \item probability of an outcome, \hyperpage{191}
+  \item problem descriptions, \hyperpage{504}
+  \item problem instance, \hyperpage{2}
+  \item problem – deﬁnition, \hyperpage{2}
+  \item problem-solving techniques, \hyperpage{495}, \hyperpage{499}
+  \item problems, \hyperpage{544}, \hyperpage{586}, \hyperpage{619}, 
+		\hyperpage{729}
+  \item procedure call overhead, \hyperpage{507}
+  \item producer/consumer sectors, \hyperpage{730}
+  \item program libraries, \hyperpage{537}
+  \item program structure, \hyperpage{661}
+  \item program ﬂow graph, \hyperpage{224}
+  \item programming languages, \hyperpage{13}
+  \item programming time, \hyperpage{590}
+  \item Prolog, \hyperpage{391}
+  \item proof of correctness, \hyperpage{3}
+  \item propagating consequences, \hyperpage{647}
+  \item proﬁle minimization, \hyperpage{543}
+  \item proﬁt maximization, \hyperpage{558}
+    \subitem Technique, \hyperpage{621}
+  \item pruning – backtracking, \hyperpage{329}, \hyperpage{544}, 
+		\hyperpage{720}
+  \item Pr¨ufer codes, \hyperpage{613, 614}
+  \item pseudocode, \hyperpage{13}
+  \item pseudorandom numbers, \hyperpage{563}
+  \item psychic lotto prediction, \hyperpage{24}
+  \item PTAS, \hyperpage{578}
+  \item public key cryptography, \hyperpage{570}, \hyperpage{578}, 
+		\hyperpage{819}
+  \item push, \hyperpage{81}
+  \item Python, \hyperpage{570}
+
+  \indexspace
+
+  \item Qhull, \hyperpage{740}, \hyperpage{744}, \hyperpage{749}, 
+		\hyperpage{765}
+  \item qsort(), \hyperpage{127}
+  \item quadratic programming, \hyperpage{560}
+  \item quadratic-sieve method, \hyperpage{569}
+  \item quadtree, \hyperpage{532}
+  \item quality triangulations, \hyperpage{748}
+  \item quantum complexity theory, \hyperpage{486}
+  \item quantum computing, \hyperpage{483}, \hyperpage{592}
+  \item quantum gates, \hyperpage{484}
+  \item qubits, \hyperpage{484}
+  \item questions, \hyperpage{496}
+  \item queue, \hyperpage{81}, \hyperpage{512}
+  \item queue – applications, \hyperpage{248}
+  \item quicksort, \hyperpage{144}, \hyperpage{584}, \hyperpage{587}
+  \item quicksort – applications, \hyperpage{596}
+
+  \indexspace
+
+  \item rabbits, \hyperpage{350}
+  \item Rabin–Karp algorithm, \hyperpage{805}
+  \item radial embeddings, \hyperpage{676}
+  \item radio stations, \hyperpage{749}
+  \item radius of a graph, \hyperpage{646}
+  \item radix sort, \hyperpage{586}
+  \item RAM, \hyperpage{508}
+  \item Random Access Machine (RAM), \hyperpage{34}
+  \item random graph theory, \hyperpage{614}, \hyperpage{709}
+  \item random graphs – generation, \hyperpage{612}
+  \item random permutations, \hyperpage{598}, \hyperpage{601}
+  \item random perturbations, \hyperpage{734}
+  \item random sampling – applications, \hyperpage{785}
+  \item random search tree, \hyperpage{251}
+  \item random subset, \hyperpage{604}
+  \item random variable, \hyperpage{191}
+    \subitem 502, \hyperpage{613}
+    \subitem related problems, \hyperpage{600}
+  \item randomization, \hyperpage{144}
+    \subitem 552, \hyperpage{663}, \hyperpage{705}
+  \item randomized quicksort, \hyperpage{587}
+  \item randomized search – applications, \hyperpage{26}
+  \item range search, \hyperpage{534}, \hyperpage{754}
+    \subitem 463, \hyperpage{753}
+  \item ranked embedding, \hyperpage{676}
+    \subitem 23, \hyperpage{597}, \hyperpage{615}
+  \item ranking combinatorial objects, \hyperpage{583}
+  \item ranking permutations, \hyperpage{598}
+  \item ranking subsets, \hyperpage{604}
+  \item rasterized images, \hyperpage{792}
+  \item reachability problems, \hyperpage{647}
+  \item reading graphs, \hyperpage{230}
+  \item rebalancing, \hyperpage{251}
+  \item recommendations, caveat, \hyperpage{505}
+  \item rectangle, \hyperpage{765}
+  \item rectilinear Steiner tree, \hyperpage{723}
+  \item recurrence relations, \hyperpage{168}, \hyperpage{350}
+  \item recurrence relations – evaluation, \hyperpage{358}
+  \item recursion, \hyperpage{244}, \hyperpage{250}
+  \item recursion and induction, \hyperpage{17}
+  \item recursion – applications, \hyperpage{811}
+  \item reduction, \hyperpage{195}, \hyperpage{689}
+  \item reduction – direction of, \hyperpage{202}
+  \item red–black tree, \hyperpage{251}
+  \item region of inﬂuence, \hyperpage{747}
+  \item regions, \hyperpage{20}
+  \item regions formed by lines, \hyperpage{787}
+  \item register allocation, \hyperpage{706}
+  \item regular expressions, \hyperpage{414}, \hyperpage{825}
+  \item relationship, \hyperpage{20}
+  \item reliability, network, \hyperpage{629}
+  \item repeated vertices, \hyperpage{701}
+  \item replicating vertices, \hyperpage{654}
+  \item representative selection, \hyperpage{796}
+  \item resource allocation, \hyperpage{558}, \hyperpage{575}
+  \item resources – algorithm, \hyperpage{835}
+  \item restricted growth function, \hyperpage{609}
+  \item retrieval, \hyperpage{520}, \hyperpage{589}
+  \item reverse-search algorithms, \hyperpage{742}
+  \item reﬂex vertices, \hyperpage{773}
+  \item Right Stuﬀ, The, \hyperpage{496}
+  \item riots ensuing, \hyperpage{616}
+  \item Rivest-Shamir-Adelman, \hyperpage{819}
+  \item road network, \hyperpage{220}, \hyperpage{224}, \hyperpage{629}, 
+		\hyperpage{670}
+  \item robot assembly, \hyperpage{3}, \hyperpage{363}
+  \item robot motion planning, \hyperpage{763}, \hyperpage{782}, 
+		\hyperpage{790}
+    \subitem 476, \hyperpage{733}
+  \item root ﬁnding algorithms, \hyperpage{165}, \hyperpage{538}, 
+		\hyperpage{555}
+  \item rooted tree, \hyperpage{528}, \hyperpage{674}
+  \item rotating-calipers method, \hyperpage{738}
+  \item rotation, \hyperpage{251}
+  \item rotation – polygon, \hyperpage{784}
+  \item roulette wheels, \hyperpage{564}
+  \item round-oﬀerror, \hyperpage{537}, \hyperpage{541}
+  \item RSA algorithm, \hyperpage{566}, \hyperpage{570}, 
+		\hyperpage{819}
+  \item RSA-129, \hyperpage{569}
+  \item rules of algorithm design, \hyperpage{496}
+  \item run-length coding, \hyperpage{815}
+
+  \indexspace
+
+  \item s-t connectivity, \hyperpage{661}
+  \item safe cracker sequence, \hyperpage{658}
+  \item sample space, \hyperpage{189}
+  \item satisfying constraints, \hyperpage{555}
+  \item satisﬁability, \hyperpage{418}, \hyperpage{486}
+    \subitem 481, \hyperpage{828}
+  \item SBH, \hyperpage{56}
+  \item scaling, \hyperpage{541}, \hyperpage{576}
+  \item scanner, OCR, \hyperpage{580}
+  \item scattered subsequences, \hyperpage{828}
+  \item scene interpolation, \hyperpage{782}
+  \item scheduling, \hyperpage{619}, \hyperpage{724}
+    \subitem 609, \hyperpage{730}
+    \subitem constraints, \hyperpage{630}
+  \item scheduling problems, \hyperpage{664}
+  \item schoolhouse method, \hyperpage{571}
+  \item scientiﬁc computing, \hyperpage{537}, \hyperpage{540}, 
+		\hyperpage{553}
+    \subitem magnetic media, \hyperpage{543}
+  \item search tree, \hyperpage{251}, \hyperpage{513}
+  \item searching, \hyperpage{589}
+  \item searching – related problems, \hyperpage{511}, 
+		\hyperpage{588}
+  \item secondary key, \hyperpage{586}
+  \item secondary storage devices, \hyperpage{814}
+  \item secure hashing function, \hyperpage{824}
+  \item security, \hyperpage{563}, \hyperpage{818}
+  \item seed, \hyperpage{564}
+  \item segment intersection, \hyperpage{763}
+  \item segmentation, \hyperpage{311}, \hyperpage{642}
+  \item selection, \hyperpage{20}, \hyperpage{122}, \hyperpage{595}
+  \item selection sort, \hyperpage{127}
+  \item selection – subsets, \hyperpage{603}
+  \item self-intersecting polygons, \hyperpage{777}
+  \item self-loop, \hyperpage{227}
+  \item self-organizing list, \hyperpage{508}, \hyperpage{590}
+  \item self-organizing tree, \hyperpage{251}, \hyperpage{592}
+  \item semideﬁnite programming, \hyperpage{705}
+  \item sentence structure, \hyperpage{642}
+  \item separation problems, \hyperpage{687}
+  \item separator theorems, \hyperpage{705}
+  \item sequence, \hyperpage{20}
+    \subitem (SBH), \hyperpage{56}
+  \item sequencing permutations, \hyperpage{598}
+  \item sequential search, \hyperpage{589}, \hyperpage{751}
+  \item set, \hyperpage{524}
+  \item set algorithms, \hyperpage{794}
+  \item set cover, \hyperpage{559}, \hyperpage{689}, \hyperpage{795}
+  \item set cover – applications, \hyperpage{24}
+  \item set cover – exact, \hyperpage{800}
+    \subitem 593, \hyperpage{774}, \hyperpage{801}
+  \item set data structures, \hyperpage{45}, \hyperpage{107}, 
+		\hyperpage{526}
+  \item set data structures – applications, \hyperpage{26}
+    \subitem problems, \hyperpage{526}
+  \item set packing, \hyperpage{603}, \hyperpage{800}
+    \subitem 654, \hyperpage{798}
+  \item set partition, \hyperpage{527}, \hyperpage{607}
+  \item shape of a point set, \hyperpage{738}
+  \item shape representation, \hyperpage{769}
+  \item shape similarity, \hyperpage{779}
+  \item shape simpliﬁcation, \hyperpage{775}
+    \subitem 645, \hyperpage{784}
+  \item shapes, \hyperpage{20}
+  \item shellsort, \hyperpage{584}
+  \item shift-register sequences, \hyperpage{566}
+  \item shipping applications, \hyperpage{766}
+  \item shipping problems, \hyperpage{664}
+  \item Shiﬄett, \hyperpage{77}
+  \item shortest common superstring, \hyperpage{832}
+    \subitem related problems, \hyperpage{816}, \hyperpage{831}
+  \item shortest cycle, \hyperpage{644}
+  \item shortest path, \hyperpage{291}, \hyperpage{514}, 
+		\hyperpage{559}, \hyperpage{641}, \hyperpage{663}
+  \item shortest path – applications, \hyperpage{301}, 
+		\hyperpage{311}
+  \item shortest path – geometric, \hyperpage{153}, \hyperpage{748}
+    \subitem 617, \hyperpage{786}
+  \item shortest path, unweighted graph, \hyperpage{244}
+  \item shortest-path matrix, \hyperpage{720}
+  \item Shor’s algorithm, \hyperpage{238}
+  \item shotgun sequencing, \hyperpage{832}
+  \item shuﬄing, \hyperpage{818}
+  \item sieving devices – mechanical, \hyperpage{569}
+  \item sign – determinant, \hyperpage{552}
+  \item sign – permutation, \hyperpage{549}
+  \item signal processing, \hyperpage{579}
+  \item signal propagation minimization, \hyperpage{543}
+  \item simple cycle, \hyperpage{646}
+  \item simple graph, \hyperpage{224}, \hyperpage{227}
+  \item simple polygon – construction, \hyperpage{740}
+  \item simple polygons, \hyperpage{777}
+  \item simplex method, \hyperpage{559}
+  \item simplicial complex, \hyperpage{549}
+  \item simplicity testing, \hyperpage{778}
+  \item simplifying polygons, \hyperpage{775}
+    \subitem 619, \hyperpage{796}, \hyperpage{800}
+    \subitem problems, \hyperpage{791}
+  \item simulated annealing – satisﬁability, \hyperpage{624}
+  \item simulated annealing – theory, \hyperpage{465}
+  \item simulations, \hyperpage{512}
+  \item simulations – accuracy, \hyperpage{563}
+  \item sin, state of, \hyperpage{563}
+  \item sine functions, \hyperpage{579}
+  \item single-precision numbers, \hyperpage{537}, \hyperpage{570}
+  \item single-source shortest path, \hyperpage{643}
+  \item singular matrix, \hyperpage{540}, \hyperpage{549}
+    \subitem (SVD), \hyperpage{540}
+  \item sink vertex, \hyperpage{632}
+  \item sinks – multiple, \hyperpage{665}
+  \item sites, \hyperpage{20}
+  \item size of graph, \hyperpage{255}
+  \item skeleton, \hyperpage{769}, \hyperpage{778}
+  \item skewed distribution, \hyperpage{508}
+  \item Skiena, Len, \hyperpage{7}, \hyperpage{20}
+  \item skiing, \hyperpage{817}
+  \item skinny triangles, \hyperpage{743}
+  \item skip list, \hyperpage{511}
+  \item slab method, \hyperpage{759}
+  \item slack variables, \hyperpage{560}
+  \item smallest element, \hyperpage{594}
+  \item Smith Society, \hyperpage{586}
+  \item smoothing, \hyperpage{579}, \hyperpage{790}
+  \item smoothness, \hyperpage{555}
+  \item snow plows, \hyperpage{656}
+  \item soap ﬁlms, \hyperpage{726}
+  \item social networks, \hyperpage{226}
+  \item software engineering, \hyperpage{661}
+  \item software tools, \hyperpage{674}
+  \item solar year, \hyperpage{616}
+  \item solving linear equations, \hyperpage{540}
+    \subitem problems, \hyperpage{544}, \hyperpage{549, 550}
+  \item sorted array, \hyperpage{510}, \hyperpage{513}
+  \item sorted linked list, \hyperpage{510}, \hyperpage{513}
+  \item sorting, \hyperpage{2}, \hyperpage{512}, \hyperpage{584}
+  \item sorting - applications, \hyperpage{120}
+  \item sorting X + Y, \hyperpage{71}
+  \item sorting – applications, \hyperpage{575}, \hyperpage{596}
+  \item sorting – cost of, \hyperpage{590}
+  \item sorting – rationales for, \hyperpage{120}
+    \subitem 447, \hyperpage{305}, \hyperpage{592}, \hyperpage{634}, 
+		\hyperpage{742}
+  \item sorting – strings, \hyperpage{254}
+  \item sound-alike strings, \hyperpage{812}
+  \item Soundex, \hyperpage{105}, \hyperpage{812, 813}
+  \item source vertex, \hyperpage{632}
+  \item sources – multiple, \hyperpage{665}
+  \item space decomposition, \hyperpage{532}
+  \item space minimization – digraphs, \hyperpage{648}
+    \subitem matching, \hyperpage{810}
+  \item space-eﬃcient encodings, \hyperpage{814}
+  \item spanning tree, \hyperpage{635}
+  \item sparse graph, \hyperpage{227}, \hyperpage{255}, \hyperpage{678}
+  \item sparse matrices – compression, \hyperpage{832}
+  \item sparse subset, \hyperpage{527}
+  \item sparse systems, \hyperpage{541}
+  \item sparsiﬁcation, \hyperpage{524}
+  \item spatial data structure, \hyperpage{107}
+  \item special-purpose hardware, \hyperpage{824}
+  \item speedup – parallel, \hyperpage{176}
+  \item spelling correction, \hyperpage{173}, \hyperpage{805}, 
+		\hyperpage{809}
+  \item sphere packing, \hyperpage{768}
+  \item Spinout puzzle, \hyperpage{605}
+  \item spiral polygon, \hyperpage{757}
+  \item splay tree, \hyperpage{251}
+  \item splicing cycles, \hyperpage{657}
+  \item splines, \hyperpage{538}
+  \item split-and-merge algorithm, \hyperpage{777}
+  \item spreadsheet updates, \hyperpage{647}
+  \item spring embedding heuristics, \hyperpage{672}, \hyperpage{676}
+  \item square of a graph, \hyperpage{135}, \hyperpage{548, 549}
+  \item square root of a graph, \hyperpage{549}
+  \item square roots, \hyperpage{165}
+  \item stable marriages, \hyperpage{655}
+  \item stable sorting, \hyperpage{586}
+  \item stack, \hyperpage{81}, \hyperpage{512}
+  \item stack size, \hyperpage{587}
+  \item stack – applications, \hyperpage{248}
+  \item standard deviation, \hyperpage{195}
+  \item standard form, \hyperpage{560}
+  \item Stanford GraphBase, \hyperpage{523}, \hyperpage{838}
+    \subitem decomposition, \hyperpage{774}
+  \item state elimination, automata, \hyperpage{826}
+  \item static tables, \hyperpage{589}
+  \item statistical signiﬁcance, \hyperpage{600}
+  \item statistics, \hyperpage{594}
+  \item steepest descent methods, \hyperpage{555}
+  \item Steiner points, \hyperpage{744}
+  \item Steiner ratio, \hyperpage{724}
+  \item Steiner tree, \hyperpage{722}
+  \item Steiner tree – related problems, \hyperpage{640}
+  \item Steiner vertices, \hyperpage{773}
+  \item Stirling numbers, \hyperpage{609}
+  \item stock exchange, \hyperpage{537}
+  \item stock picking, \hyperpage{553}
+  \item straight-line graph drawings, \hyperpage{670}, \hyperpage{680}
+  \item Strassen’s algorithm, \hyperpage{542}, \hyperpage{548, 549}, 
+		\hyperpage{648}
+  \item strategy, \hyperpage{495}
+  \item strength of a graph, \hyperpage{629}
+  \item string, \hyperpage{523}
+  \item string algorithms, \hyperpage{794}
+  \item string data structures, \hyperpage{107}, \hyperpage{414}, 
+		\hyperpage{515}
+  \item string matching, \hyperpage{515}, \hyperpage{804}
+    \subitem 451, \hyperpage{721}, \hyperpage{813}, \hyperpage{828}
+  \item string overlaps, \hyperpage{833}
+  \item strings, \hyperpage{20}
+  \item strings – combinatorial, \hyperpage{613}
+  \item strings – generating, \hyperpage{605}
+  \item strongly connected component, \hyperpage{260}
+  \item strongly connected graphs, \hyperpage{629}, \hyperpage{660}
+  \item subgraph isomorphism, \hyperpage{718}
+    \subitem applications, \hyperpage{778}
+  \item subroutine call overhead, \hyperpage{507}, \hyperpage{571}
+  \item subset, \hyperpage{20}
+  \item subset generation, \hyperpage{603}
+  \item subset generation – backtracking, \hyperpage{324}
+  \item subset sum problem, \hyperpage{575}
+  \item substitution cipher, \hyperpage{818}
+  \item substitutions, text, \hyperpage{809}
+  \item substring matching, \hyperpage{177}, \hyperpage{515}, 
+		\hyperpage{810}
+  \item subtraction, \hyperpage{570}
+  \item sunny days, \hyperpage{782}
+  \item supercomputer, \hyperpage{58}
+  \item superstrings – shortest common, \hyperpage{832}
+  \item surface interpolation, \hyperpage{386}
+  \item surface structures, \hyperpage{678}
+  \item suﬃx arrays, \hyperpage{254}, \hyperpage{515}
+  \item suﬃx trees, \hyperpage{107}, \hyperpage{414}, \hyperpage{515}
+  \item suﬃx trees – applications, \hyperpage{828}, \hyperpage{833}
+    \subitem experience, \hyperpage{108}
+  \item suﬃx trees – related problems, \hyperpage{805}, 
+		\hyperpage{833}
+  \item swap elements, \hyperpage{600}
+  \item swapping, \hyperpage{251}
+  \item sweep line algorithms, \hyperpage{748}, \hyperpage{764}, 
+		\hyperpage{788}
+  \item Symbol Technologies, \hyperpage{372}
+  \item symbolic computation, \hyperpage{554}
+  \item symbolic set representation, \hyperpage{530}
+  \item symmetric diﬀerence, \hyperpage{779}
+  \item symmetry detection, \hyperpage{715}
+  \item symmetry removal, \hyperpage{329}
+
+  \indexspace
+
+  \item tactics, \hyperpage{495}
+  \item tail recursion, \hyperpage{587}
+  \item tape drive, \hyperpage{586}
+  \item taxonomy, \hyperpage{20}
+  \item technical skills, \hyperpage{496}
+  \item telephone books, \hyperpage{31}, \hyperpage{77}, 
+		\hyperpage{592}
+  \item terrorist, \hyperpage{252}, \hyperpage{660}
+  \item test data, \hyperpage{611}
+  \item test pilots, \hyperpage{496}
+  \item testing planarity, \hyperpage{679}
+  \item tetrahedralization, \hyperpage{386}
+  \item text, \hyperpage{20}
+  \item text compression, \hyperpage{374}, \hyperpage{566}, 
+		\hyperpage{814}
+  \item text data structures, \hyperpage{414}, \hyperpage{515}
+  \item text processing algorithms, \hyperpage{804}
+  \item text searching with errors, \hyperpage{809}
+  \item textbooks, \hyperpage{838}
+  \item thermodynamics, \hyperpage{465}
+  \item thinning, \hyperpage{769}
+  \item thinning – related problems, \hyperpage{782}, \hyperpage{792}
+  \item three-points-on-a-line, \hyperpage{788}
+  \item tight bound, \hyperpage{37}
+  \item time slot scheduling, \hyperpage{619}
+  \item time-series analysis, \hyperpage{579}
+  \item Timsort, \hyperpage{588}
+  \item tool path optimization, \hyperpage{363}
+  \item topological graph, \hyperpage{225}
+  \item topological sorting, \hyperpage{633}
+    \subitem 275, \hyperpage{619}
+  \item topological sweep, \hyperpage{789}
+  \item tour, \hyperpage{20}
+  \item traceback, dynamic programming, \hyperpage{364}
+  \item transition matrix, \hyperpage{825}
+  \item transitive closure, \hyperpage{547}
+  \item transitive reduction, \hyperpage{547}, \hyperpage{647}
+  \item translation – polygon, \hyperpage{784}
+  \item transmitter power, \hyperpage{749}
+  \item transportation problems, \hyperpage{363}, \hyperpage{612}, 
+		\hyperpage{642}
+  \item transpose of a graph, \hyperpage{133}
+  \item transposition, \hyperpage{600}
+  \item trapezoidal decomposition, \hyperpage{774}
+  \item traveling salesman, \hyperpage{7}, \hyperpage{559}, 
+		\hyperpage{597}
+    \subitem 255, \hyperpage{833}
+    \subitem algorithms, \hyperpage{449}
+    \subitem problem, \hyperpage{404}
+    \subitem problems, \hyperpage{623}, \hyperpage{640}, 
+		\hyperpage{700}
+  \item traveling salesman problem, \hyperpage{166}
+  \item traveling salesman problem (TSP), \hyperpage{363}
+  \item tree edge, \hyperpage{249}
+  \item tree identiﬁcation, \hyperpage{630}
+  \item trees, \hyperpage{19}, \hyperpage{522}
+  \item trees – acyclic graphs, \hyperpage{729}
+  \item trees – drawings, \hyperpage{670}
+  \item trees – generation, \hyperpage{613}
+  \item trees – hard problem in, \hyperpage{544}
+  \item trees – independent set, \hyperpage{688}
+  \item trees – matching, \hyperpage{718}
+  \item trees – partition, \hyperpage{705}
+  \item trial division, \hyperpage{566}
+  \item Triangle, \hyperpage{744}
+  \item triangle inequality, \hyperpage{363}, \hyperpage{449}
+  \item triangle reﬁnement method, \hyperpage{761}
+  \item triangle strips, \hyperpage{96}, \hyperpage{238}
+  \item triangulated surfaces, \hyperpage{96}
+  \item triangulation, \hyperpage{386}
+    \subitem 636, \hyperpage{774}
+    \subitem 645, \hyperpage{772}, \hyperpage{792}
+  \item triconnected components, \hyperpage{663}
+  \item trie, \hyperpage{391}, \hyperpage{515}
+  \item TSP, \hyperpage{363}
+  \item TSPLIB, \hyperpage{699}, \hyperpage{840}
+  \item turnpike reconstruction problem, \hyperpage{345}
+  \item twenty questions, \hyperpage{163}
+  \item two’s complement arithmetic, \hyperpage{571}
+
+  \indexspace
+
+  \item unbounded search, \hyperpage{164}, \hyperpage{592}
+    \subitem 484, \hyperpage{589}
+    \subitem related problems, \hyperpage{565}
+  \item undirected graph, \hyperpage{222}, \hyperpage{226}
+  \item uniform distribution, \hyperpage{508}, \hyperpage{565}, 
+		\hyperpage{600}
+  \item union of polygons, \hyperpage{764}
+  \item union of polygons – applications, \hyperpage{792}
+  \item union, set, \hyperpage{526}
+  \item union-ﬁnd data structure, \hyperpage{528}
+    \subitem applications, \hyperpage{635}
+  \item unit cube, \hyperpage{534}
+  \item unit sphere, \hyperpage{534}
+  \item universal set, \hyperpage{526}
+  \item unknown data structures, \hyperpage{506}
+  \item unlabeled graphs, \hyperpage{225}, \hyperpage{611}, 
+		\hyperpage{718}
+  \item unranking combinatorial objects, \hyperpage{583}
+  \item unranking permutations, \hyperpage{598}
+  \item unranking subsets, \hyperpage{604}
+  \item unsorted array, \hyperpage{508}
+  \item unsorted list, \hyperpage{508}
+  \item unweighted graph, \hyperpage{224}
+    \subitem trees, \hyperpage{637}
+  \item upper bound, \hyperpage{37}
+  \item upper triangular matrix, \hyperpage{541}
+  \item Utah, \hyperpage{817}
+
+  \indexspace
+
+  \item validation, \hyperpage{820}
+  \item van Emde Boas priority queue, \hyperpage{514}
+  \item Vancouver Stock Exchange, \hyperpage{537}
+  \item variable elimination, \hyperpage{540}
+  \item variable length encodings, \hyperpage{816}
+  \item variance, \hyperpage{195}
+  \item vector quantiﬁcation, \hyperpage{750}
+  \item vector sums, \hyperpage{790}
+  \item vertex, \hyperpage{222}
+  \item vertex coloring, \hyperpage{310}, \hyperpage{607}, 
+		\hyperpage{706}, \hyperpage{712}
+  \item vertex coloring – applications, \hyperpage{619}
+  \item vertex coloring – bipartite graphs
+    \subitem 536, \hyperpage{688}, \hyperpage{712}
+  \item vertex cover, \hyperpage{603}, \hyperpage{689}
+    \subitem algorithm, \hyperpage{446}
+  \item vertex cover – hardness proof, \hyperpage{202}, 
+		\hyperpage{414}
+    \subitem 564, \hyperpage{686}, \hyperpage{688}, \hyperpage{798}
+  \item vertex degree, \hyperpage{513}, \hyperpage{613}
+  \item vertex disjoint paths, \hyperpage{661}
+  \item vertex ordering, \hyperpage{543}
+  \item video compression, \hyperpage{814, 815}
+  \item virtual memory, \hyperpage{251}, \hyperpage{587}
+  \item virtual memory – performance, \hyperpage{703}
+  \item virtual reality applications, \hyperpage{762}
+  \item visibility graphs, \hyperpage{763}, \hyperpage{782}
+  \item Viterbi algorithm, \hyperpage{149}
+  \item Vizing’s theorem, \hyperpage{640}, \hyperpage{711}
+  \item VLSI circuit layout, \hyperpage{722}, \hyperpage{762}
+  \item VLSI design problems, \hyperpage{524}
+  \item volume computations, \hyperpage{549}, \hyperpage{735}
+  \item von Neumann, J., \hyperpage{588}
+  \item Voronoi diagram, \hyperpage{743}, \hyperpage{747}
+    \subitem 647, \hyperpage{771}
+    \subitem neighbor search, \hyperpage{751}
+
+  \indexspace
+
+  \item walk-through, \hyperpage{762}
+    \subitem 375, \hyperpage{477}
+  \item Waring’s problem, \hyperpage{58}, \hyperpage{177}
+  \item Warshall’s algorithm, \hyperpage{647}
+  \item water pipes, \hyperpage{722}
+  \item wavelets, \hyperpage{581}
+  \item weakly connected graphs, \hyperpage{629}, \hyperpage{660}
+  \item web, \hyperpage{20}
+  \item Website, \hyperpage{505}
+  \item weighted graph, \hyperpage{224}
+  \item weighted graphs, applications, \hyperpage{654}
+  \item Winograd’s algorithm, \hyperpage{549}
+  \item wire length minimization, \hyperpage{543}
+  \item wiring layout problems, \hyperpage{722}
+  \item word ladders, \hyperpage{838}
+  \item worker assignment – scheduling, \hyperpage{619}
+  \item worst-case complexity, \hyperpage{36}
+
+  \indexspace
+
+  \item Xerox machines – scheduling, \hyperpage{621}
+
+  \indexspace
+
+  \item Young tableaux, \hyperpage{610}, \hyperpage{831}
+
+  \indexspace
+
+  \item Zipf’s law, \hyperpage{590}
+  \item zone theorem, \hyperpage{788, 789}
+
+  \indexspace
+
+  \item ϵ-moves, \hyperpage{826}
+  \item ﬁle diﬀerence comparison, \hyperpage{809}
+  \item ﬁle layout, \hyperpage{543}
+  \item ﬁltering outlying elements, \hyperpage{594}
+  \item ﬁltering signals, \hyperpage{579}
+  \item ﬁnal examination, \hyperpage{819}
+  \item ﬁnancial constraints, \hyperpage{575}
+  \item ﬁnd operation, \hyperpage{528}
+  \item ﬁnite automata, \hyperpage{825}
+  \item ﬁnite automata minimization, \hyperpage{414}
+  \item ﬁnite element analysis, \hyperpage{744}
+  \item ﬁnite state machine minimization, \hyperpage{825}
+  \item ﬁrehouse, \hyperpage{750}
+  \item ﬁrst-in, ﬁrst-out (FIFO), \hyperpage{81}
+  \item ﬁrst-ﬁt – decreasing, \hyperpage{767}
+  \item ﬁxed degree sequence graphs, \hyperpage{613}
+  \item ﬁxed-parameter tractability, \hyperpage{730}
+  \item ﬂat-earth model, \hyperpage{35}
+  \item ﬂight crew scheduling, \hyperpage{800}
+  \item ﬂight ticket pricing, \hyperpage{140}
+  \item ﬂoating-point arithmetic, \hyperpage{734}
+
+\end{theindex}

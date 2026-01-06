@@ -1,0 +1,1238 @@
+[
+    {
+        "page_number": 2,
+        "latex_position": 5167,
+        "content_length": 869,
+        "page_last_content": "of Computer Science, Durham University, Durham, UK",
+        "last_location": 685699,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 3,
+        "latex_position": 6145,
+        "content_length": 968,
+        "page_last_content": "this series at http://www.springer.com/series/7592",
+        "last_location": 685699,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 4,
+        "latex_position": 6285,
+        "content_length": 84,
+        "page_last_content": "Language A Concise Introduction Second Edition 123",
+        "last_location": 685699,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 5,
+        "latex_position": 8066,
+        "content_length": 1760,
+        "page_last_content": "ress is: Gewerbestrasse 11, 6330 Cham, Switzerland",
+        "last_location": 685699,
+        "method": "exact_match"
+    },
+    {
+        "page_number": 6,
+        "latex_position": 9873,
+        "content_length": 1714,
+        "page_last_content": "t is easier. Further one can gain some \ufb01rst-hand v",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 7,
+        "latex_position": 12478,
+        "content_length": 2533,
+        "page_last_content": " of each chapter include the following: vi Preface",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 8,
+        "latex_position": 14912,
+        "content_length": 2320,
+        "page_last_content": "tion to the general-purpose registers. Preface vii",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 9,
+        "latex_position": 17939,
+        "content_length": 2900,
+        "page_last_content": "e terms are discussed in more detail. viii Preface",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 10,
+        "latex_position": 20248,
+        "content_length": 2311,
+        "page_last_content": "rved as a reviewer of the \ufb01rst edition. Preface ix",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 12,
+        "latex_position": 21946,
+        "content_length": 2544,
+        "page_last_content": "mplementing I/O and Arithmetic . . . . . . . 42 xi",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 13,
+        "latex_position": 23584,
+        "content_length": 3545,
+        "page_last_content": ". . . . . . . . . . . . . . . . . 127 xii Contents",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 14,
+        "latex_position": 25373,
+        "content_length": 3433,
+        "page_last_content": " . . . . . . . . . . . . . . . . 223 Contents xiii",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 15,
+        "latex_position": 27037,
+        "content_length": 3460,
+        "page_last_content": ". . . . . . . . . . . . . . . . . 283 xiv Contents",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 16,
+        "latex_position": 27523,
+        "content_length": 1047,
+        "page_last_content": " . . . . . . . . . . . . . . . . . 341 Contents xv",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 20,
+        "latex_position": 34508,
+        "content_length": 2520,
+        "page_last_content": " \ufb01elds 4 1 Variables, Registers, and Data Movement",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 23,
+        "latex_position": 44430,
+        "content_length": 2943,
+        "page_last_content": " original four register names 1.4 Immediate Data 7",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 25,
+        "latex_position": 49697,
+        "content_length": 2492,
+        "page_last_content": " Flag \ufb02ags Status and control \ufb02ags 1.5 Registers 9",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 26,
+        "latex_position": 52177,
+        "content_length": 2337,
+        "page_last_content": "ction 10 1 Variables, Registers, and Data Movement",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 27,
+        "latex_position": 55118,
+        "content_length": 2875,
+        "page_last_content": "be enclosed in double quotes: 1.6 Data Movement 11",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 29,
+        "latex_position": 60035,
+        "content_length": 2839,
+        "page_last_content": " assembly can be convenient. 1.7 Character Data 13",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 30,
+        "latex_position": 62186,
+        "content_length": 1989,
+        "page_last_content": "gram. 14 1 Variables, Registers, and Data Movement",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 31,
+        "latex_position": 64091,
+        "content_length": 1726,
+        "page_last_content": " what is wrong with the statement: 1.10 Summary 15",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 34,
+        "latex_position": 69031,
+        "content_length": 2232,
+        "page_last_content": "e could be rewritten as follows: 18 2 Input/Output",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 35,
+        "latex_position": 70748,
+        "content_length": 1729,
+        "page_last_content": "this is that the integer output 2.2 Hello World 19",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 36,
+        "latex_position": 72652,
+        "content_length": 1574,
+        "page_last_content": "es in the string as shown below: 20 2 Input/Output",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 37,
+        "latex_position": 74053,
+        "content_length": 1442,
+        "page_last_content": "following C program inputs a 2.3 Integer Output 21",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 48,
+        "latex_position": 94074,
+        "content_length": 3017,
+        "page_last_content": " in a memory location 32 3 Arithmetic Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 49,
+        "latex_position": 96669,
+        "content_length": 2450,
+        "page_last_content": "mul instruction 3.2 Multiplication and Division 33",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 50,
+        "latex_position": 99375,
+        "content_length": 2410,
+        "page_last_content": "er pair by a register 34 3 Arithmetic Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 56,
+        "latex_position": 113214,
+        "content_length": 2417,
+        "page_last_content": " statement correctly. 40 3 Arithmetic Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 60,
+        "latex_position": 120513,
+        "content_length": 1502,
+        "page_last_content": "ess ++ or \u0002\u0002 is used. 44 3 Arithmetic Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 62,
+        "latex_position": 122744,
+        "content_length": 630,
+        "page_last_content": "es in Celsius is: 35  46 3 Arithmetic Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 64,
+        "latex_position": 127433,
+        "content_length": 2487,
+        "page_last_content": "and two registers can be 48 4 Selection Structures",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 65,
+        "latex_position": 130435,
+        "content_length": 2900,
+        "page_last_content": "ap. 9. In addition to the 4.2 If-Then Structure 49",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 66,
+        "latex_position": 133366,
+        "content_length": 2209,
+        "page_last_content": "a register to a register 50 4 Selection Structures",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 67,
+        "latex_position": 134142,
+        "content_length": 2467,
+        "page_last_content": "jng Jump not greater than 4.2 If-Then Structure 51",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 68,
+        "latex_position": 139168,
+        "content_length": 2892,
+        "page_last_content": "01  dec number  @C0001:  52 4 Selection Structures",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 69,
+        "latex_position": 140912,
+        "content_length": 1477,
+        "page_last_content": " else03 label as follows: 4.2 If-Then Structure 53",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 70,
+        "latex_position": 142630,
+        "content_length": 1728,
+        "page_last_content": "he else of the outer if. 54 4 Selection Structures",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 74,
+        "latex_position": 151090,
+        "content_length": 2278,
+        "page_last_content": "e used in a program. For 58 4 Selection Structures",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 75,
+        "latex_position": 152912,
+        "content_length": 1608,
+        "page_last_content": "count++;  inc count  .endif  4.5 Case Structure 59",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 76,
+        "latex_position": 153315,
+        "content_length": 2526,
+        "page_last_content": "al to jna Jump not above 60 4 Selection Structures",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 77,
+        "latex_position": 158134,
+        "content_length": 2250,
+        "page_last_content": "reversed. 4.6 Characters and Logical Operations 61",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 78,
+        "latex_position": 160043,
+        "content_length": 1940,
+        "page_last_content": "d assembly language code 62 4 Selection Structures",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 79,
+        "latex_position": 162595,
+        "content_length": 2267,
+        "page_last_content": "rectives: 4.6 Characters and Logical Operations 63",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 80,
+        "latex_position": 164500,
+        "content_length": 1495,
+        "page_last_content": "means that if the result 64 4 Selection Structures",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 82,
+        "latex_position": 169683,
+        "content_length": 2854,
+        "page_last_content": "ro \ufb02ag and the sign \ufb02ag. 66 4 Selection Structures",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 84,
+        "latex_position": 175908,
+        "content_length": 2208,
+        "page_last_content": " is left as an exercise: 68 4 Selection Structures",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 89,
+        "latex_position": 183127,
+        "content_length": 2155,
+        "page_last_content": "n the Intel proces- sor: 74 5 Iteration Structures",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 90,
+        "latex_position": 184669,
+        "content_length": 1533,
+        "page_last_content": "he segment, all the 5.1 Pre-test Loop Structure 75",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 91,
+        "latex_position": 186942,
+        "content_length": 2115,
+        "page_last_content": "ge appears on the right: 76 5 Iteration Structures",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 93,
+        "latex_position": 191470,
+        "content_length": 2487,
+        "page_last_content": "dy of the loop .untilcxz 78 5 Iteration Structures",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 94,
+        "latex_position": 194487,
+        "content_length": 3014,
+        "page_last_content": "ctive would 5.3 Fixed-Iteration Loop Structures 79",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 95,
+        "latex_position": 196956,
+        "content_length": 2344,
+        "page_last_content": "nt with those languages. 80 5 Iteration Structures",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 96,
+        "latex_position": 199405,
+        "content_length": 1830,
+        "page_last_content": "ogram is as follows: 5.4 Loops and Input/Output 81",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 98,
+        "latex_position": 203480,
+        "content_length": 2336,
+        "page_last_content": "e break is executed: 5.4 Loops and Input/Output 83",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 100,
+        "latex_position": 207245,
+        "content_length": 1657,
+        "page_last_content": "tion as shown below: 5.4 Loops and Input/Output 85",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 101,
+        "latex_position": 208746,
+        "content_length": 1587,
+        "page_last_content": " One way is to store the 86 5 Iteration Structures",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 102,
+        "latex_position": 210426,
+        "content_length": 1510,
+        "page_last_content": "mplements the above de\ufb01nition: 5.5 Nested Loops 87",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 107,
+        "latex_position": 216608,
+        "content_length": 1115,
+        "page_last_content": "m+i; i i-2; } while i>0; 92 5 Iteration Structures",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 110,
+        "latex_position": 221933,
+        "content_length": 2210,
+        "page_last_content": "unt++;  96 6 Logic, Shifting, Rotating, and Stacks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 111,
+        "latex_position": 223781,
+        "content_length": 1552,
+        "page_last_content": "askit inc count  .endif  6.2 Logic Instructions 97",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 113,
+        "latex_position": 228793,
+        "content_length": 2260,
+        "page_last_content": "ld accomplish that task: 6.2 Logic Instructions 99",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 114,
+        "latex_position": 231027,
+        "content_length": 2163,
+        "page_last_content": "bit in 100 6 Logic, Shifting, Rotating, and Stacks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 118,
+        "latex_position": 241950,
+        "content_length": 2218,
+        "page_last_content": "below: 104 6 Logic, Shifting, Rotating, and Stacks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 121,
+        "latex_position": 248197,
+        "content_length": 2297,
+        "page_last_content": "lementation: 6.4 Arithmetic Shift Instructions 107",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 122,
+        "latex_position": 250409,
+        "content_length": 2319,
+        "page_last_content": "ortly. 108 6 Logic, Shifting, Rotating, and Stacks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 127,
+        "latex_position": 260728,
+        "content_length": 2263,
+        "page_last_content": " line of code as follows: 6.6 Stack Operations 113",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 128,
+        "latex_position": 262531,
+        "content_length": 1726,
+        "page_last_content": "alues. 114 6 Logic, Shifting, Rotating, and Stacks",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 133,
+        "latex_position": 270926,
+        "content_length": 1223,
+        "page_last_content": ".8 Complete Program: Simulating an OCR Machine 119",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 138,
+        "latex_position": 280335,
+        "content_length": 1735,
+        "page_last_content": "s to be multiplied, but instead 7.1 Procedures 125",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 139,
+        "latex_position": 282926,
+        "content_length": 2240,
+        "page_last_content": "g of the ecx register: 126 7 Procedures and Macros",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 143,
+        "latex_position": 289887,
+        "content_length": 3113,
+        "page_last_content": "ve register locations. 130 7 Procedures and Macros",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 145,
+        "latex_position": 294030,
+        "content_length": 2541,
+        "page_last_content": " the macro is invoked. 132 7 Procedures and Macros",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 146,
+        "latex_position": 295909,
+        "content_length": 1804,
+        "page_last_content": " and pop been included in the macro 7.4 Macros 133",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 148,
+        "latex_position": 301196,
+        "content_length": 2420,
+        "page_last_content": "out parameters because the argument 7.4 Macros 135",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 149,
+        "latex_position": 303710,
+        "content_length": 2404,
+        "page_last_content": "struction of the macro 136 7 Procedures and Macros",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 150,
+        "latex_position": 305383,
+        "content_length": 1446,
+        "page_last_content": "d in the following macro expansion: 7.4 Macros 137",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 151,
+        "latex_position": 308126,
+        "content_length": 2761,
+        "page_last_content": "c instruction, that is 138 7 Procedures and Macros",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 152,
+        "latex_position": 308582,
+        "content_length": 1888,
+        "page_last_content": "ent case insensitive  7.5 Conditional Assembly 139",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 154,
+        "latex_position": 312922,
+        "content_length": 1760,
+        "page_last_content": "e would be generated: 7.5 Conditional Assembly 141",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 159,
+        "latex_position": 321251,
+        "content_length": 1680,
+        "page_last_content": "the loop only needs to 146 7 Procedures and Macros",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 161,
+        "latex_position": 324380,
+        "content_length": 1946,
+        "page_last_content": "re given in Table 7.3. 148 7 Procedures and Macros",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 163,
+        "latex_position": 328997,
+        "content_length": 1789,
+        "page_last_content": "-2 + -2 = -6 -(-6) = 6 150 7 Procedures and Macros",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 169,
+        "latex_position": 339083,
+        "content_length": 2117,
+        "page_last_content": " macro as an example.) 156 7 Procedures and Macros",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 172,
+        "latex_position": 343895,
+        "content_length": 2188,
+        "page_last_content": "0000007  Fig. 8.1 Signed double words 160 8 Arrays",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 173,
+        "latex_position": 346307,
+        "content_length": 2013,
+        "page_last_content": "uble word 8.1 Array Declaration and Addressing 161",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 174,
+        "latex_position": 348473,
+        "content_length": 2094,
+        "page_last_content": "pying individual elements of an array 162 8 Arrays",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 175,
+        "latex_position": 350661,
+        "content_length": 2191,
+        "page_last_content": "rocessing 8.2 Indexing Using the Base Register 163",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 176,
+        "latex_position": 352335,
+        "content_length": 1637,
+        "page_last_content": "rtial .data and .code segments below: 164 8 Arrays",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 177,
+        "latex_position": 354105,
+        "content_length": 1607,
+        "page_last_content": "irective. 8.2 Indexing Using the Base Register 165",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 178,
+        "latex_position": 356159,
+        "content_length": 2046,
+        "page_last_content": "ts implement the preceding C program: 166 8 Arrays",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 179,
+        "latex_position": 358046,
+        "content_length": 1748,
+        "page_last_content": "hile loop would not loop at all. 8.3 Searching 167",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 180,
+        "latex_position": 360698,
+        "content_length": 2332,
+        "page_last_content": "x register to access a single element 168 8 Arrays",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 182,
+        "latex_position": 366607,
+        "content_length": 3033,
+        "page_last_content": "f, then a 100 would be moved into eax 170 8 Arrays",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 184,
+        "latex_position": 370992,
+        "content_length": 1809,
+        "page_last_content": "0009  0000000C  Fig. 8.8 Swap routine 172 8 Arrays",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 185,
+        "latex_position": 372540,
+        "content_length": 2173,
+        "page_last_content": ". 8.4 Indexing Using the esi and edi Registers 173",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 186,
+        "latex_position": 375292,
+        "content_length": 2453,
+        "page_last_content": "by one sal eax,2  ; multiply eax by 4 174 8 Arrays",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 187,
+        "latex_position": 377297,
+        "content_length": 2189,
+        "page_last_content": "mething to a 8.5 Lengthof and Sizeof Operators 175",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 189,
+        "latex_position": 382392,
+        "content_length": 1067,
+        "page_last_content": "am: 8.6 Complete Program: Implementing a Queue 177",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 190,
+        "latex_position": 382869,
+        "content_length": 1127,
+        "page_last_content": "dif endm dequeue macro .if count > 0  178 8 Arrays",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 191,
+        "latex_position": 384127,
+        "content_length": 1578,
+        "page_last_content": "a 4 8.6 Complete Program: Implementing a Queue 179",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 192,
+        "latex_position": 386963,
+        "content_length": 2803,
+        "page_last_content": "s in the array. If the array is to be 180 8 Arrays",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 196,
+        "latex_position": 393749,
+        "content_length": 1414,
+        "page_last_content": "t, it points to the smallest element. 184 8 Arrays",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 198,
+        "latex_position": 397153,
+        "content_length": 1379,
+        "page_last_content": "election sort presented in Sect. 8.6. 186 8 Arrays",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 201,
+        "latex_position": 400932,
+        "content_length": 1684,
+        "page_last_content": "1 Using esi and edi to move a string 190 9 Strings",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 202,
+        "latex_position": 403741,
+        "content_length": 2681,
+        "page_last_content": "he byte pointed at by the esi 9.1 Introduction 191",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 204,
+        "latex_position": 408909,
+        "content_length": 2116,
+        "page_last_content": ".2 String Instructions: Moving Strings (movsb) 193",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 207,
+        "latex_position": 413692,
+        "content_length": 1635,
+        "page_last_content": "ould be viewed as shown in Fig. 9.3. 196 9 Strings",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 209,
+        "latex_position": 417669,
+        "content_length": 2183,
+        "page_last_content": "ained James and Jamie, respectively? 198 9 Strings",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 213,
+        "latex_position": 423731,
+        "content_length": 1378,
+        "page_last_content": " easier as discussed previously? The 202 9 Strings",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 215,
+        "latex_position": 427795,
+        "content_length": 1746,
+        "page_last_content": " prior to the end of the outer loop: 204 9 Strings",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 217,
+        "latex_position": 431477,
+        "content_length": 2286,
+        "page_last_content": "remented based on the direction \ufb02ag. 206 9 Strings",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 218,
+        "latex_position": 433264,
+        "content_length": 1692,
+        "page_last_content": " would be the contents of string2? 9.7 Summary 207",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 219,
+        "latex_position": 434239,
+        "content_length": 598,
+        "page_last_content": "characters long. Do not use a stack. 208 9 Strings",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 221,
+        "latex_position": 437295,
+        "content_length": 1512,
+        "page_last_content": "to the stack, a 210 10 Floating-Point Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 222,
+        "latex_position": 438493,
+        "content_length": 982,
+        "page_last_content": " be used instead. But 10.3 Pushing and Popping 211",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 223,
+        "latex_position": 440207,
+        "content_length": 1456,
+        "page_last_content": "ear as follows: 212 10 Floating-Point Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 224,
+        "latex_position": 441117,
+        "content_length": 995,
+        "page_last_content": "er as declared below, 10.3 Pushing and Popping 213",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 226,
+        "latex_position": 445531,
+        "content_length": 2123,
+        "page_last_content": "as follows: 10.4 Simple Arithmetic Expressions 215",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 227,
+        "latex_position": 447151,
+        "content_length": 877,
+        "page_last_content": " onto the stack 216 10 Floating-Point Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 228,
+        "latex_position": 447879,
+        "content_length": 632,
+        "page_last_content": "s follows: 10.5 Complex Arithmetic Expressions 217",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 230,
+        "latex_position": 451315,
+        "content_length": 1897,
+        "page_last_content": "stp ansdbl 10.5 Complex Arithmetic Expressions 219",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 231,
+        "latex_position": 453307,
+        "content_length": 1921,
+        "page_last_content": "his difference. 220 10 Floating-Point Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 232,
+        "latex_position": 456116,
+        "content_length": 2758,
+        "page_last_content": "ogram. 10.6 Mixing Floating-Point and Integers 221",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 233,
+        "latex_position": 458006,
+        "content_length": 1293,
+        "page_last_content": "e that follows: 222 10 Floating-Point Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 234,
+        "latex_position": 458925,
+        "content_length": 1307,
+        "page_last_content": "C program using type double: 10.7 Input/Output 223",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 236,
+        "latex_position": 461396,
+        "content_length": 1451,
+        "page_last_content": "ansfer of x to y as follows: 10.7 Input/Output 225",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 237,
+        "latex_position": 463519,
+        "content_length": 2006,
+        "page_last_content": "e the fcomi and 226 10 Floating-Point Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 238,
+        "latex_position": 465587,
+        "content_length": 1886,
+        "page_last_content": "t(1) 10.8 Comparisons and Selection Structures 227",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 240,
+        "latex_position": 469419,
+        "content_length": 1796,
+        "page_last_content": "nted 10.8 Comparisons and Selection Structures 229",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 241,
+        "latex_position": 471697,
+        "content_length": 1288,
+        "page_last_content": "mplete program: 230 10 Floating-Point Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 245,
+        "latex_position": 476560,
+        "content_length": 1582,
+        "page_last_content": ", respectively. 234 10 Floating-Point Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 247,
+        "latex_position": 478634,
+        "content_length": 332,
+        "page_last_content": "he \ufb01ve numbers. 236 10 Floating-Point Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 250,
+        "latex_position": 483924,
+        "content_length": 1527,
+        "page_last_content": "xd rax,ebx 11.1 Four General Purpose Registers 239",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 251,
+        "latex_position": 486238,
+        "content_length": 2228,
+        "page_last_content": "ding 64-bit register rip. 240 11 64-Bit Processing",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 252,
+        "latex_position": 487235,
+        "content_length": 2333,
+        "page_last_content": "= byte) r8b \u2013 r16b 11.2 Other 64-Bit Registers 241",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 256,
+        "latex_position": 496172,
+        "content_length": 1151,
+        "page_last_content": "hen outputs number: 11.3 64-Bit Integer Output 245",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 258,
+        "latex_position": 498700,
+        "content_length": 928,
+        "page_last_content": " instruction for the 11.4 64-Bit Integer Input 247",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 259,
+        "latex_position": 500665,
+        "content_length": 1854,
+        "page_last_content": " ax,8 mov r8b,al rol ax,8 248 11 64-Bit Processing",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 260,
+        "latex_position": 502401,
+        "content_length": 1602,
+        "page_last_content": "ollows: 11.5 Logic and Arithmetic Applications 249",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 261,
+        "latex_position": 504493,
+        "content_length": 2011,
+        "page_last_content": "ially in the 128-bit rdx: 250 11 64-Bit Processing",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 262,
+        "latex_position": 506781,
+        "content_length": 2001,
+        "page_last_content": " below: 11.5 Logic and Arithmetic Applications 251",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 263,
+        "latex_position": 508305,
+        "content_length": 1659,
+        "page_last_content": "mount of time to execute. 252 11 64-Bit Processing",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 264,
+        "latex_position": 509872,
+        "content_length": 1437,
+        "page_last_content": "nning suf\ufb01cient tests. 11.6 Control Structures 253",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 265,
+        "latex_position": 511425,
+        "content_length": 1445,
+        "page_last_content": "eeding with this section. 254 11 64-Bit Processing",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 268,
+        "latex_position": 518386,
+        "content_length": 2336,
+        "page_last_content": "save is as follows: 11.8 Procedures and Macros 257",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 269,
+        "latex_position": 520811,
+        "content_length": 1576,
+        "page_last_content": " cessing and shown below: 258 11 64-Bit Processing",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 271,
+        "latex_position": 522554,
+        "content_length": 1764,
+        "page_last_content": "r rbx, by 8 instead of 4. 260 11 64-Bit Processing",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 273,
+        "latex_position": 525103,
+        "content_length": 936,
+        "page_last_content": " ebx,0 with lea rsi,arry. 262 11 64-Bit Processing",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 276,
+        "latex_position": 532345,
+        "content_length": 1752,
+        "page_last_content": " inc instruction 12.2 inc and dec Instructions 265",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 279,
+        "latex_position": 539118,
+        "content_length": 2162,
+        "page_last_content": "tion 268 12 Selected Machine Language Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 280,
+        "latex_position": 541440,
+        "content_length": 1922,
+        "page_last_content": " instead of a 0 and bit 5 12.3 mov Instruction 269",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 281,
+        "latex_position": 541917,
+        "content_length": 2465,
+        "page_last_content": "ions 270 12 Selected Machine Language Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 282,
+        "latex_position": 546943,
+        "content_length": 2229,
+        "page_last_content": "2.7 Format of mod reg r/m 12.3 mov Instruction 271",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 283,
+        "latex_position": 549466,
+        "content_length": 2181,
+        "page_last_content": " 101 272 12 Selected Machine Language Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 284,
+        "latex_position": 552489,
+        "content_length": 2784,
+        "page_last_content": "ases were 12.5 mov offset and lea Instructions 273",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 285,
+        "latex_position": 555063,
+        "content_length": 2400,
+        "page_last_content": "r is 274 12 Selected Machine Language Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 286,
+        "latex_position": 558055,
+        "content_length": 3018,
+        "page_last_content": "llion cycles per second, 12.6 jmp Instructions 275",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 287,
+        "latex_position": 560924,
+        "content_length": 2855,
+        "page_last_content": "ion. 276 12 Selected Machine Language Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 288,
+        "latex_position": 563208,
+        "content_length": 2008,
+        "page_last_content": "ns 12.8 Floating-Point and 64-Bit Instructions 277",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 289,
+        "latex_position": 566047,
+        "content_length": 2455,
+        "page_last_content": "3210 278 12 Selected Machine Language Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 290,
+        "latex_position": 569030,
+        "content_length": 2611,
+        "page_last_content": "r. 12.8 Floating-Point and 64-Bit Instructions 279",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 291,
+        "latex_position": 572130,
+        "content_length": 2801,
+        "page_last_content": "ter. 280 12 Selected Machine Language Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 292,
+        "latex_position": 574260,
+        "content_length": 1443,
+        "page_last_content": "12.9 Complete Program: 32-Bit Assembly Listing 281",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 293,
+        "latex_position": 576188,
+        "content_length": 1287,
+        "page_last_content": " end 282 12 Selected Machine Language Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 296,
+        "latex_position": 582502,
+        "content_length": 2130,
+        "page_last_content": "nt between the two instructions. 12.11 Summary 285",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 297,
+        "latex_position": 584362,
+        "content_length": 1803,
+        "page_last_content": " one 286 12 Selected Machine Language Instructions",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 339,
+        "latex_position": 670747,
+        "content_length": 655,
+        "page_last_content": "eax  330 Appendix D: Answers to Selected Exercises",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 341,
+        "latex_position": 672540,
+        "content_length": 665,
+        "page_last_content": "wer  332 Appendix D: Answers to Selected Exercises",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 342,
+        "latex_position": 673392,
+        "content_length": 624,
+        "page_last_content": "0012 Appendix D: Answers to Selected Exercises 333",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 345,
+        "latex_position": 678301,
+        "content_length": 2809,
+        "page_last_content": "akes the stack a LIFO data structure. 336 Glossary",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 346,
+        "latex_position": 678536,
+        "content_length": 226,
+        "page_last_content": "mediate value into a memory location. Glossary 337",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 349,
+        "latex_position": 682388,
+        "content_length": 1692,
+        "page_last_content": "uctions, 51, 60, 66, 327\u2013328 jz, 66, 328 342 Index",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 350,
+        "latex_position": 684498,
+        "content_length": 1845,
+        "page_last_content": "30 S sal, 105\u2013107, 331 sar, 105\u2013108, 331 Index 343",
+        "method": "fuzzy_matching"
+    },
+    {
+        "page_number": 351,
+        "latex_position": 685694,
+        "content_length": 1061,
+        "page_last_content": "9, 332 Z Zero \ufb02ag, 50 ZERO? operator, 50 344 Index",
+        "method": "fuzzy_matching"
+    }
+]

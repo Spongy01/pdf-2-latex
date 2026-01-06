@@ -1,0 +1,382 @@
+\indexentry{Assembler|hyperpage}{1}
+\indexentry{Assembly language|hyperpage}{1}
+\indexentry{Variables|hyperpage}{1}
+\indexentry{Low-level languages|hyperpage}{1}
+\indexentry{Machine language|hyperpage}{1}
+\indexentry{Mnemonics|hyperpage}{1}
+\indexentry{ret|hyperpage}{2}
+\indexentry{Central Processing Unit (CPU)|hyperpage}{2}
+\indexentry{.code directive|hyperpage}{2}
+\indexentry{.data directive|hyperpage}{2}
+\indexentry{.686 directive|hyperpage}{2}
+\indexentry{model directive|hyperpage}{2}
+\indexentry{proc directive|hyperpage}{2}
+\indexentry{Stacks!.stack directive|hyperpage}{2}
+\indexentry{Comments|hyperpage}{2}
+\indexentry{endp directive|hyperpage}{2}
+\indexentry{Label ﬁeld|hyperpage}{2}
+\indexentry{Opcode ﬁeld|hyperpage}{2}
+\indexentry{Operand ﬁeld|hyperpage}{2}
+\indexentry{byte directive|hyperpage}{3}
+\indexentry{dword directive|hyperpage}{3}
+\indexentry{sword directive|hyperpage}{3}
+\indexentry{word directive|hyperpage}{3}
+\indexentry{High-level languages|hyperpage}{5}
+\indexentry{Immediate data|hyperpage}{5}
+\indexentry{mov|hyperpage}{5}
+\indexentry{Central Processing Unit (CPU)|hyperpage}{6}
+\indexentry{Random Access Memory (RAM)|hyperpage}{6}
+\indexentry{Store operation|hyperpage}{6}
+\indexentry{Registers!edi|hyperpage}{7}
+\indexentry{Registers|hyperpage}{8}
+\indexentry{Registers!eax|hyperpage}{8}
+\indexentry{Registers!ebx|hyperpage}{8}
+\indexentry{Registers!ecx|hyperpage}{8}
+\indexentry{Registers!edx|hyperpage}{8}
+\indexentry{Registers!esp|hyperpage}{9}
+\indexentry{ADDR operator|hyperpage}{9}
+\indexentry{Conditional jump!printf|hyperpage}{9}
+\indexentry{INVOKE directive|hyperpage}{9}
+\indexentry{Integers|hyperpage}{9}
+\indexentry{Output|hyperpage}{9}
+\indexentry{printf (C instruction)|hyperpage}{9}
+\indexentry{PROTO directive|hyperpage}{9}
+\indexentry{eﬂags register|hyperpage}{9}
+\indexentry{Registers!ebp|hyperpage}{9}
+\indexentry{Registers!eﬂags|hyperpage}{9}
+\indexentry{Registers!eip|hyperpage}{9}
+\indexentry{Registers!esi|hyperpage}{9}
+\indexentry{Load operation|hyperpage}{10}
+\indexentry{byte directive|hyperpage}{11}
+\indexentry{sdword directive|hyperpage}{11}
+\indexentry{Input|hyperpage}{11}
+\indexentry{Errors|hyperpage}{12}
+\indexentry{Inline assembly|hyperpage}{12}
+\indexentry{Syntax errors|hyperpage}{12}
+\indexentry{mov|hyperpage}{13}
+\indexentry{Conditional jump!scanf|hyperpage}{13}
+\indexentry{add|hyperpage}{16}
+\indexentry{Arithmetic instructions|hyperpage}{16}
+\indexentry{scanf (C instruction)|hyperpage}{20}
+\indexentry{Branch instructions|hyperpage}{24}
+\indexentry{Selection structures|hyperpage}{24}
+\indexentry{Conditional jump!if|hyperpage}{24}
+\indexentry{Operator precedence|hyperpage}{24}
+\indexentry{Precedence|hyperpage}{24}
+\indexentry{ja|hyperpage}{28}
+\indexentry{jae|hyperpage}{28}
+\indexentry{jb|hyperpage}{28}
+\indexentry{jbe|hyperpage}{28}
+\indexentry{jna|hyperpage}{28}
+\indexentry{jnae|hyperpage}{28}
+\indexentry{jnb|hyperpage}{28}
+\indexentry{jnbe|hyperpage}{28}
+\indexentry{Jump instructions|hyperpage}{28}
+\indexentry{Not operator (!)|hyperpage}{28}
+\indexentry{break (C instruction)|hyperpage}{28}
+\indexentry{Case structure|hyperpage}{28}
+\indexentry{Conditional jump!switch|hyperpage}{28}
+\indexentry{switch (C instruction)|hyperpage}{28}
+\indexentry{If statements|hyperpage}{28}
+\indexentry{And operator (&&)|hyperpage}{29}
+\indexentry{add|hyperpage}{29}
+\indexentry{Registers!edx|hyperpage}{30}
+\indexentry{sub|hyperpage}{33}
+\indexentry{Division instructions|hyperpage}{34}
+\indexentry{imul|hyperpage}{34}
+\indexentry{Multiplication instructions|hyperpage}{34}
+\indexentry{mul|hyperpage}{35}
+\indexentry{cbw|hyperpage}{35}
+\indexentry{cdq|hyperpage}{35}
+\indexentry{cwd|hyperpage}{35}
+\indexentry{dec|hyperpage}{36}
+\indexentry{Unary operations|hyperpage}{36}
+\indexentry{neg|hyperpage}{48}
+\indexentry{neg|hyperpage}{48}
+\indexentry{Comparisons|hyperpage}{49}
+\indexentry{Direction ﬂag|hyperpage}{49}
+\indexentry{eﬂags register|hyperpage}{49}
+\indexentry{Registers!eﬂags|hyperpage}{49}
+\indexentry{Flags|hyperpage}{51}
+\indexentry{Overﬂow ﬂag|hyperpage}{51}
+\indexentry{Parity ﬂag|hyperpage}{51}
+\indexentry{Sign ﬂag|hyperpage}{51}
+\indexentry{SIGN? operator|hyperpage}{51}
+\indexentry{Zero ﬂag|hyperpage}{51}
+\indexentry{ZERO? operator|hyperpage}{51}
+\indexentry{Logical shifts|hyperpage}{53}
+\indexentry{Shift instructions|hyperpage}{53}
+\indexentry{Branch instructions|hyperpage}{54}
+\indexentry{cmp|hyperpage}{54}
+\indexentry{Conditional jump|hyperpage}{54}
+\indexentry{.if directive|hyperpage}{54}
+\indexentry{je|hyperpage}{54}
+\indexentry{jg|hyperpage}{54}
+\indexentry{jge|hyperpage}{54}
+\indexentry{jl|hyperpage}{54}
+\indexentry{jle|hyperpage}{54}
+\indexentry{jne|hyperpage}{54}
+\indexentry{jng|hyperpage}{54}
+\indexentry{jnge|hyperpage}{54}
+\indexentry{jnl|hyperpage}{54}
+\indexentry{jnle|hyperpage}{54}
+\indexentry{Jump instructions|hyperpage}{54}
+\indexentry{Arithmetic shift|hyperpage}{55}
+\indexentry{sal|hyperpage}{55}
+\indexentry{sar|hyperpage}{55}
+\indexentry{shr|hyperpage}{55}
+\indexentry{rol|hyperpage}{56}
+\indexentry{ror|hyperpage}{56}
+\indexentry{xchg|hyperpage}{58}
+\indexentry{Conditional jump|hyperpage}{59}
+\indexentry{Branch instructions|hyperpage}{62}
+\indexentry{Or operator (|hyperpage}{62}
+\indexentry{If statements|hyperpage}{65}
+\indexentry{endp directive|hyperpage}{66}
+\indexentry{Logic errors|hyperpage}{66}
+\indexentry{proc directive|hyperpage}{66}
+\indexentry{Branch instructions|hyperpage}{66}
+\indexentry{eﬂags register|hyperpage}{66}
+\indexentry{jnz|hyperpage}{66}
+\indexentry{jo|hyperpage}{66}
+\indexentry{jp|hyperpage}{66}
+\indexentry{js|hyperpage}{66}
+\indexentry{jz|hyperpage}{66}
+\indexentry{Registers!eﬂags|hyperpage}{66}
+\indexentry{Conditional jump|hyperpage}{67}
+\indexentry{Jump instructions|hyperpage}{67}
+\indexentry{jc|hyperpage}{67}
+\indexentry{jnc|hyperpage}{67}
+\indexentry{jno|hyperpage}{67}
+\indexentry{jnp|hyperpage}{67}
+\indexentry{jns|hyperpage}{67}
+\indexentry{endm directive|hyperpage}{68}
+\indexentry{macro directive|hyperpage}{68}
+\indexentry{Macros|hyperpage}{68}
+\indexentry{Macros!invocation|hyperpage}{68}
+\indexentry{popad|hyperpage}{68}
+\indexentry{pushad|hyperpage}{68}
+\indexentry{Conditional assembly|hyperpage}{70}
+\indexentry{Conditional assembly directives|hyperpage}{70}
+\indexentry{Conditional assembly directives!EQ,GE,GT,LT,LE,NE|hyperpage}{70}
+\indexentry{Conditional assembly directives!if|hyperpage}{70}
+\indexentry{Conditional assembly directives!ifb|hyperpage}{70}
+\indexentry{Conditional assembly directives!ifdiﬁ|hyperpage}{70}
+\indexentry{Conditional assembly directives!iﬁdn|hyperpage}{70}
+\indexentry{Conditional assembly directives!iﬁdni|hyperpage}{70}
+\indexentry{Conditional assembly directives!ifnb|hyperpage}{70}
+\indexentry{Execution errors|hyperpage}{70}
+\indexentry{Macros|hyperpage}{70}
+\indexentry{Conditional assembly directives!if|hyperpage}{74}
+\indexentry{Conditional assembly directives!ifdiﬁ|hyperpage}{74}
+\indexentry{Conditional assembly directives!iﬁdni|hyperpage}{74}
+\indexentry{De Morgan’s rules|hyperpage}{75}
+\indexentry{Branch instructions|hyperpage}{79}
+\indexentry{Do-while loops|hyperpage}{79}
+\indexentry{Post-test loops|hyperpage}{79}
+\indexentry{Repeat– until instructions|hyperpage}{79}
+\indexentry{.until directive|hyperpage}{79}
+\indexentry{Fixed iteration loop|hyperpage}{82}
+\indexentry{For loop|hyperpage}{82}
+\indexentry{Loop instructions|hyperpage}{82}
+\indexentry{Registers!ecx|hyperpage}{82}
+\indexentry{.repeat directive|hyperpage}{82}
+\indexentry{.repeat–.untilcxz directives|hyperpage}{82}
+\indexentry{.untilcxz directive|hyperpage}{82}
+\indexentry{Arrays|hyperpage}{82}
+\indexentry{jecxz|hyperpage}{83}
+\indexentry{loop|hyperpage}{83}
+\indexentry{Conditional jump!for|hyperpage}{83}
+\indexentry{Dynamic|hyperpage}{85}
+\indexentry{Static|hyperpage}{85}
+\indexentry{offset operator|hyperpage}{85}
+\indexentry{Registers!edi|hyperpage}{85}
+\indexentry{Registers!esi|hyperpage}{85}
+\indexentry{Search (sequential)|hyperpage}{85}
+\indexentry{Sequential search|hyperpage}{85}
+\indexentry{lodsb|hyperpage}{100}
+\indexentry{repne|hyperpage}{100}
+\indexentry{scasb|hyperpage}{100}
+\indexentry{stosb|hyperpage}{100}
+\indexentry{Registers!esi|hyperpage}{100}
+\indexentry{Stacks|hyperpage}{100}
+\indexentry{not|hyperpage}{101}
+\indexentry{Bit-bucket!test|hyperpage}{102}
+\indexentry{cmpsb|hyperpage}{104}
+\indexentry{Bit-wise|hyperpage}{105}
+\indexentry{Exclusive or|hyperpage}{105}
+\indexentry{xor|hyperpage}{105}
+\indexentry{Bit-bucket|hyperpage}{107}
+\indexentry{Carry ﬂag|hyperpage}{107}
+\indexentry{shl|hyperpage}{107}
+\indexentry{shr|hyperpage}{107}
+\indexentry{test|hyperpage}{109}
+\indexentry{Rotate instructions|hyperpage}{114}
+\indexentry{fcomi|hyperpage}{114}
+\indexentry{fcomip|hyperpage}{114}
+\indexentry{Selection structures!ﬂoating-point|hyperpage}{114}
+\indexentry{Last In First Out (LIFO)|hyperpage}{115}
+\indexentry{pop|hyperpage}{115}
+\indexentry{push|hyperpage}{115}
+\indexentry{Stacks!.stack directive|hyperpage}{115}
+\indexentry{fcomip|hyperpage}{116}
+\indexentry{Swap|hyperpage}{118}
+\indexentry{Inclusive or|hyperpage}{126}
+\indexentry{Macros!64-bit|hyperpage}{126}
+\indexentry{call|hyperpage}{128}
+\indexentry{Arrays!64-bit arrays|hyperpage}{128}
+\indexentry{ret|hyperpage}{131}
+\indexentry{Procedures|hyperpage}{132}
+\indexentry{Subprograms|hyperpage}{132}
+\indexentry{sub|hyperpage}{133}
+\indexentry{Instruction timings|hyperpage}{138}
+\indexentry{Macros!parameters|hyperpage}{145}
+\indexentry{Macros!deﬁnition|hyperpage}{146}
+\indexentry{Macros!expansion|hyperpage}{146}
+\indexentry{Conditional assembly directives!else|hyperpage}{148}
+\indexentry{Conditional assembly directives!endif|hyperpage}{148}
+\indexentry{Conditional assembly directives!ifdif|hyperpage}{148}
+\indexentry{Decimal numbers|hyperpage}{152}
+\indexentry{Hexadecimal numbers|hyperpage}{152}
+\indexentry{Aliasing|hyperpage}{169}
+\indexentry{Floating-point numbers|hyperpage}{174}
+\indexentry{idiv|hyperpage}{174}
+\indexentry{imul|hyperpage}{174}
+\indexentry{inc|hyperpage}{174}
+\indexentry{ja|hyperpage}{174}
+\indexentry{jae|hyperpage}{174}
+\indexentry{jb|hyperpage}{174}
+\indexentry{jbe|hyperpage}{174}
+\indexentry{je|hyperpage}{174}
+\indexentry{jecxz|hyperpage}{174}
+\indexentry{jg|hyperpage}{174}
+\indexentry{jge|hyperpage}{174}
+\indexentry{jl|hyperpage}{174}
+\indexentry{jle|hyperpage}{174}
+\indexentry{jmp|hyperpage}{174}
+\indexentry{jna|hyperpage}{174}
+\indexentry{jnae|hyperpage}{174}
+\indexentry{jnb|hyperpage}{174}
+\indexentry{jnbe|hyperpage}{174}
+\indexentry{jne|hyperpage}{174}
+\indexentry{jng|hyperpage}{174}
+\indexentry{jnge|hyperpage}{174}
+\indexentry{jnl|hyperpage}{174}
+\indexentry{jnle|hyperpage}{174}
+\indexentry{Jump instructions|hyperpage}{174}
+\indexentry{Inclusive or|hyperpage}{174}
+\indexentry{mul|hyperpage}{174}
+\indexentry{nop|hyperpage}{174}
+\indexentry{not|hyperpage}{174}
+\indexentry{pop|hyperpage}{174}
+\indexentry{popad|hyperpage}{174}
+\indexentry{jc|hyperpage}{174}
+\indexentry{jnc|hyperpage}{174}
+\indexentry{jno|hyperpage}{174}
+\indexentry{jnp|hyperpage}{174}
+\indexentry{jns|hyperpage}{174}
+\indexentry{jnz|hyperpage}{174}
+\indexentry{jo|hyperpage}{174}
+\indexentry{jp|hyperpage}{174}
+\indexentry{js|hyperpage}{174}
+\indexentry{jz|hyperpage}{174}
+\indexentry{lea|hyperpage}{174}
+\indexentry{lodsb|hyperpage}{174}
+\indexentry{loop|hyperpage}{174}
+\indexentry{mov|hyperpage}{174}
+\indexentry{movsb|hyperpage}{174}
+\indexentry{neg|hyperpage}{174}
+\indexentry{Masks|hyperpage}{174}
+\indexentry{Normalization|hyperpage}{174}
+\indexentry{One’s complement|hyperpage}{174}
+\indexentry{Two’s compliment|hyperpage}{174}
+\indexentry{Overﬂow ﬂag|hyperpage}{174}
+\indexentry{Sign bit|hyperpage}{174}
+\indexentry{push|hyperpage}{174}
+\indexentry{pushad|hyperpage}{174}
+\indexentry{rep|hyperpage}{174}
+\indexentry{repe|hyperpage}{174}
+\indexentry{repne|hyperpage}{174}
+\indexentry{ret|hyperpage}{174}
+\indexentry{rol|hyperpage}{174}
+\indexentry{ror|hyperpage}{174}
+\indexentry{Rotate instructions|hyperpage}{174}
+\indexentry{sal|hyperpage}{174}
+\indexentry{sar|hyperpage}{174}
+\indexentry{scasb|hyperpage}{174}
+\indexentry{Shift instructions|hyperpage}{174}
+\indexentry{shl|hyperpage}{174}
+\indexentry{shr|hyperpage}{174}
+\indexentry{std|hyperpage}{174}
+\indexentry{stosb|hyperpage}{174}
+\indexentry{Signed numbers|hyperpage}{174}
+\indexentry{Sign magnitude|hyperpage}{174}
+\indexentry{sub|hyperpage}{174}
+\indexentry{test|hyperpage}{174}
+\indexentry{xchg|hyperpage}{174}
+\indexentry{xor|hyperpage}{174}
+\indexentry{add|hyperpage}{175}
+\indexentry{Addition|hyperpage}{175}
+\indexentry{American Standard Code for Information Interchange (ASCII)|hyperpage}{175}
+\indexentry{Characters|hyperpage}{175}
+\indexentry{American Standard Code for Information Interchange (ASCII)|hyperpage}{175}
+\indexentry{and|hyperpage}{175}
+\indexentry{Binary Coded Decimal (BCD)|hyperpage}{175}
+\indexentry{IEEE standard|hyperpage}{175}
+\indexentry{Bit-bucket!set|hyperpage}{175}
+\indexentry{Bit-bucket!test|hyperpage}{175}
+\indexentry{Bit-bucket!toggle|hyperpage}{175}
+\indexentry{Unsigned numbers|hyperpage}{175}
+\indexentry{call|hyperpage}{175}
+\indexentry{cdq|hyperpage}{175}
+\indexentry{cld|hyperpage}{175}
+\indexentry{cmp|hyperpage}{175}
+\indexentry{cmpsb|hyperpage}{175}
+\indexentry{dec|hyperpage}{175}
+\indexentry{div|hyperpage}{175}
+\indexentry{sizeof operator|hyperpage}{181}
+\indexentry{Lengthof operator|hyperpage}{182}
+\indexentry{First In First Out (FIFO)|hyperpage}{183}
+\indexentry{Queues|hyperpage}{183}
+\indexentry{Selection sort|hyperpage}{189}
+\indexentry{Sort (selection)|hyperpage}{189}
+\indexentry{Registers!edi|hyperpage}{200}
+\indexentry{Registers!esi|hyperpage}{200}
+\indexentry{lodsb|hyperpage}{200}
+\indexentry{scasb|hyperpage}{200}
+\indexentry{Strings|hyperpage}{200}
+\indexentry{movsb|hyperpage}{201}
+\indexentry{std|hyperpage}{201}
+\indexentry{rep|hyperpage}{204}
+\indexentry{repe|hyperpage}{204}
+\indexentry{Array of strings|hyperpage}{216}
+\indexentry{Floating-point instructions|hyperpage}{222}
+\indexentry{ﬁld|hyperpage}{230}
+\indexentry{ﬁstp|hyperpage}{230}
+\indexentry{Bankers rounding|hyperpage}{232}
+\indexentry{Inline assembly|hyperpage}{240}
+\indexentry{Iteration structures|hyperpage}{245}
+\indexentry{Arrays!ﬂoating-point arrays|hyperpage}{248}
+\indexentry{Registers!rbx|hyperpage}{253}
+\indexentry{Registers!rcx|hyperpage}{253}
+\indexentry{Registers!rdx|hyperpage}{253}
+\indexentry{movsxd|hyperpage}{256}
+\indexentry{Registers!rax|hyperpage}{256}
+\indexentry{Output!64-bit output|hyperpage}{257}
+\indexentry{Registers!r8–r15|hyperpage}{257}
+\indexentry{sqword directive|hyperpage}{259}
+\indexentry{Input!64-bit input|hyperpage}{262}
+\indexentry{cqo|hyperpage}{265}
+\indexentry{dec|hyperpage}{277}
+\indexentry{lea|hyperpage}{285}
+\indexentry{offset operator|hyperpage}{285}
+\indexentry{Absolute address|hyperpage}{289}
+\indexentry{jmp|hyperpage}{289}
+\indexentry{add|hyperpage}{294}
+\indexentry{Little endian order|hyperpage}{299}
+\indexentry{.asm|hyperpage}{304}
+\indexentry{.lst ﬁle|hyperpage}{305}
+\indexentry{Binary numbers|hyperpage}{306}
+\indexentry{Number systems|hyperpage}{306}
+\indexentry{Bit|hyperpage}{307}
+\indexentry{Logic|hyperpage}{323}

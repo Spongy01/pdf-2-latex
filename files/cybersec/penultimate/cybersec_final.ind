@@ -1,0 +1,1455 @@
+\begin{theindex}
+
+  \item 0-day attack, \hyperpage{380}, \hyperpage{412}
+  \item 3-way handshake, \hyperpage{165}
+  \item 3DES, \hyperpage{83}, \hyperpage{351}
+
+  \indexspace
+
+  \item A5/1, \hyperpage{90}
+  \item access, \hyperpage{54}
+    \subitem for CPU, \hyperpage{342}
+    \subitem for hardware units, \hyperpage{341}
+    \subitem hardware based, \hyperpage{338}
+    \subitem in Android, \hyperpage{345}
+    \subitem in memory, \hyperpage{338}
+    \subitem in ﬁle system, \hyperpage{329}
+  \item access control matrix (ACM), \hyperpage{326}
+  \item accountability, \hyperpage{449}
+  \item ack, \hyperpage{165}
+  \item ACL, \hyperpage{331, 332}
+    \subitem compressed, \hyperpage{330}
+  \item activation code, \hyperpage{67}
+  \item active attacker, \hyperpage{136}
+  \item active server page, \hyperpage{202}
+  \item ActiveX, \hyperpage{404}
+    \subitem security, \hyperpage{405}
+  \item actor, \hyperpage{54}
+  \item actuator, \hyperpage{3}
+  \item Ad hoc Mode, \hyperpage{96}
+  \item ADB, \hyperpage{424}
+  \item address, \hyperpage{159}
+  \item administrator, \hyperpage{321}
+    \subitem privileges, \hyperpage{330}
+  \item AES, \hyperpage{87}, \hyperpage{351}
+  \item AKA, \hyperpage{129}
+  \item ampliﬁcation, \hyperpage{275}
+  \item ampliﬁer, \hyperpage{275}, \hyperpage{278}
+  \item analysis group, \hyperpage{53}
+  \item Android, \hyperpage{345}
+  \item Android Debug Bridge, \hyperpage{424}
+  \item anomaly detection, \hyperpage{181}, \hyperpage{252}
+  \item ANT catalog, \hyperpage{294}
+  \item anti-terror laws, \hyperpage{222}
+  \item API, \hyperpage{348}, \hyperpage{485}
+  \item App, \hyperpage{485}
+  \item applet, \hyperpage{202}, \hyperpage{404}
+    \subitem encryption, \hyperpage{211}, \hyperpage{215}
+    \subitem sandbox, \hyperpage{404}
+    \subitem security, \hyperpage{404}
+  \item application program, \hyperpage{487}, \hyperpage{492}
+  \item APT, \hyperpage{3}, \hyperpage{423}
+  \item arbitrator, \hyperpage{125}
+    \subitem client-server, \hyperpage{2}, \hyperpage{187}
+    \subitem P2P, \hyperpage{2}
+  \item ARP, \hyperpage{169}
+  \item ARP cache, \hyperpage{169}
+  \item ASCII character set, \hyperpage{104}
+  \item ASP.NET, \hyperpage{409}
+  \item asset, \hyperpage{10}, \hyperpage{54}
+    \subitem data, \hyperpage{11}
+    \subitem equipment, \hyperpage{11}
+    \subitem software, \hyperpage{9}
+  \item attack, \hyperpage{43}, \hyperpage{68}, \hyperpage{270}
+    \subitem 0-day, \hyperpage{380}, \hyperpage{412}
+    \subitem adaptive chosen plaintext, \hyperpage{68}
+    \subitem brute-force, \hyperpage{68}, \hyperpage{124}, 
+		\hyperpage{260}, \hyperpage{308}
+    \subitem chosen plaintext, \hyperpage{68}, \hyperpage{107}
+    \subitem ciphertext alone, \hyperpage{68}
+    \subitem cold boot, \hyperpage{351}
+    \subitem costs, \hyperpage{11}
+    \subitem dictionary, \hyperpage{308}, \hyperpage{311}
+    \subitem DoS, \hyperpage{256}, \hyperpage{272}
+    \subitem known cleartext, \hyperpage{395}
+    \subitem known plaintext, \hyperpage{68}, \hyperpage{74}
+    \subitem length extension, \hyperpage{121}
+  \item attribute, \hyperpage{385}
+  \item attribution error, fundamental, \hyperpage{27}
+  \item AuC, \hyperpage{181}, \hyperpage{262}, \hyperpage{266}
+  \item authentication, \hyperpage{130}, \hyperpage{153}
+    \subitem biometric, \hyperpage{304}
+    \subitem evidence, \hyperpage{130}
+    \subitem kerberos, \hyperpage{317}
+    \subitem multi-factor, \hyperpage{316}
+    \subitem one-time password, \hyperpage{313}
+    \subitem password, \hyperpage{308}
+    \subitem pattern lock, \hyperpage{314}
+    \subitem pre-boot, \hyperpage{351}
+    \subitem protocol, \hyperpage{130}
+    \subitem server, \hyperpage{66}, \hyperpage{131}, \hyperpage{256}, 
+		\hyperpage{314}
+    \subitem strong, \hyperpage{130}, \hyperpage{133}
+    \subitem through the net, \hyperpage{316}
+    \subitem trends, \hyperpage{316}
+    \subitem weak, \hyperpage{130}
+    \subitem with PKCS, \hyperpage{66}
+    \subitem with SKCS, \hyperpage{131}
+    \subitem zero-knowledge, \hyperpage{131}
+  \item authentication code, \hyperpage{313}
+  \item authenticator, \hyperpage{131}, \hyperpage{152}
+  \item Authenticode, \hyperpage{405}
+  \item authorisation, \hyperpage{321}
+  \item authoritative DNS-server, \hyperpage{280}
+  \item AV system, \hyperpage{379}
+    \subitem anomaly detection, \hyperpage{181}
+    \subitem behaviour based, \hyperpage{181}, \hyperpage{379}
+    \subitem in telephone, \hyperpage{380}
+    \subitem misuse detection, \hyperpage{181}
+    \subitem signature based, \hyperpage{379}
+  \item availability, \hyperpage{12}, \hyperpage{14}, \hyperpage{210}, 
+		\hyperpage{272}
+  \item avalanche eﬀect, \hyperpage{121}
+  \item awareness campaign, \hyperpage{434, 435}
+
+  \indexspace
+
+  \item backdoor, \hyperpage{21}, \hyperpage{375}, \hyperpage{469}
+  \item backup, \hyperpage{429}
+  \item base, \hyperpage{502}
+  \item base64 encoding, \hyperpage{197}, \hyperpage{394}
+  \item baseline based analysis, \hyperpage{253}
+  \item basic authentication, \hyperpage{393}
+  \item bastion host, \hyperpage{245}, \hyperpage{248}, \hyperpage{250}
+  \item BCP, \hyperpage{425}
+    \subitem resource requirements, \hyperpage{427}
+  \item Big Brother society, \hyperpage{447}
+  \item bigram, \hyperpage{71}
+  \item binary data, \hyperpage{74}
+  \item binary digit, \hyperpage{500}
+  \item biometric authentication, \hyperpage{304}
+  \item biometric parameter, \hyperpage{304}
+  \item biometric property, \hyperpage{483}
+  \item BIOS, \hyperpage{348}, \hyperpage{356}, \hyperpage{488}
+  \item birthday paradox, \hyperpage{120}, \hyperpage{514}
+    \subitem period, \hyperpage{88}
+    \subitem pseudo-random, \hyperpage{42}
+    \subitem random, \hyperpage{42}
+    \subitem shift register based, \hyperpage{88}
+  \item BitLocker, \hyperpage{349}
+  \item Blaise de Vigenère, \hyperpage{74}
+  \item block cipher, \hyperpage{124}
+    \subitem mode, \hyperpage{84}, \hyperpage{86}, \hyperpage{124}, 
+		\hyperpage{225}, \hyperpage{317}
+  \item Bluebugging, \hyperpage{262}
+  \item Bluejacking, \hyperpage{262}
+  \item Bluesnarﬁng, \hyperpage{262}
+    \subitem authentication, \hyperpage{260}
+    \subitem encryption key, \hyperpage{258}
+    \subitem link key, \hyperpage{259}
+    \subitem pairing, \hyperpage{259}
+    \subitem security, \hyperpage{257}
+    \subitem SSP, \hyperpage{260}
+  \item BluRay disk, \hyperpage{481}
+  \item boot, \hyperpage{488}
+  \item boot loader, \hyperpage{356}
+  \item boot manager, \hyperpage{356}
+  \item boot sector, \hyperpage{356}
+  \item bootkit, \hyperpage{348}, \hyperpage{356}
+  \item botnet, \hyperpage{6}, \hyperpage{9}, \hyperpage{277}
+  \item brain mode of operation, \hyperpage{25}
+  \item breach of copyright, \hyperpage{445}
+  \item bridge, \hyperpage{170}, \hyperpage{483}
+  \item brute-force attack, \hyperpage{68}, \hyperpage{124}, 
+		\hyperpage{260}, \hyperpage{308}
+  \item Btrfs, \hyperpage{432}
+  \item BTS, \hyperpage{179}
+    \subitem false, \hyperpage{268}
+  \item bus, \hyperpage{476}, \hyperpage{483}
+  \item buﬀer overread, \hyperpage{370}
+  \item buﬀer overﬂow, \hyperpage{367}, \hyperpage{377}
+  \item BYOD, \hyperpage{270}
+  \item bytecode, \hyperpage{345}, \hyperpage{404}, \hyperpage{409}
+
+  \indexspace
+
+  \item C, \hyperpage{367}, \hyperpage{372}
+  \item cache, \hyperpage{169}, \hyperpage{477}
+    \subitem ARP, \hyperpage{169}
+    \subitem CPU, \hyperpage{421}, \hyperpage{477}
+    \subitem disk, \hyperpage{421}
+    \subitem DNS, \hyperpage{169}, \hyperpage{280}
+    \subitem HTTP, \hyperpage{205}
+  \item cache poisoning, \hyperpage{280}
+  \item Caesar code, \hyperpage{67}
+  \item camera, \hyperpage{483}
+  \item canoniﬁcation, \hyperpage{385}
+  \item capability, \hyperpage{328}
+  \item Capsicum, \hyperpage{329}
+  \item CAPTCHA, \hyperpage{30}
+  \item CBC, \hyperpage{84}, \hyperpage{124}, \hyperpage{152}, 
+		\hyperpage{225}, \hyperpage{230}
+  \item CCM, \hyperpage{124}, \hyperpage{230}, \hyperpage{258}
+  \item CD, \hyperpage{481}
+  \item CEO fraud, \hyperpage{23}
+  \item certiﬁcate, \hyperpage{66}, \hyperpage{138}, \hyperpage{215}, 
+		\hyperpage{217}
+    \subitem chain, \hyperpage{141}
+    \subitem EV, \hyperpage{138}
+    \subitem OCSP, \hyperpage{238}
+    \subitem qualiﬁed, \hyperpage{147}
+    \subitem revocation, \hyperpage{139}, \hyperpage{238}
+    \subitem risks, \hyperpage{231}
+    \subitem root, \hyperpage{141}
+    \subitem self-signed, \hyperpage{141}, \hyperpage{143}, 
+		\hyperpage{404}
+  \item Certiﬁcate Authority (CA), \hyperpage{138}
+  \item Certiﬁcate Signing Policy (CSP), \hyperpage{67}
+  \item ChaCha20, \hyperpage{96}, \hyperpage{230}
+  \item chain of responsibility, \hyperpage{423}
+  \item challenge-response, \hyperpage{313}
+  \item Change Permissions, \hyperpage{335}
+    \subitem cryptographic, \hyperpage{117}, \hyperpage{258}
+  \item child pornography, \hyperpage{445}
+  \item Chinese remainder theorem, \hyperpage{106}, \hyperpage{507}
+  \item CIA target, \hyperpage{11}, \hyperpage{154}, \hyperpage{210}
+    \subitem deﬁnition, \hyperpage{12}
+  \item CIP, \hyperpage{292}
+  \item ciphertext, \hyperpage{65, 66}
+  \item CIRP, \hyperpage{427}
+  \item Claude Shannon, \hyperpage{74}
+  \item client, \hyperpage{2}
+  \item client nonce, \hyperpage{397}
+  \item client-server architecture, \hyperpage{187}
+  \item cloud, \hyperpage{2}, \hyperpage{107}, \hyperpage{181}, 
+		\hyperpage{213}, \hyperpage{373}, \hyperpage{451}
+  \item cluster, \hyperpage{2}
+  \item CNIC, \hyperpage{424}
+  \item co-domain, \hyperpage{498}
+  \item COBIT, \hyperpage{47}
+  \item Code Red, \hyperpage{379}
+    \subitem signature, \hyperpage{379}
+  \item cognitive overload, \hyperpage{30}
+  \item cold site, \hyperpage{432, 433}
+  \item Colonial Pipeline, \hyperpage{7}
+  \item Common Criteria (CC), \hyperpage{360}, \hyperpage{410}, 
+		\hyperpage{470}
+    \subitem environment, \hyperpage{470}
+    \subitem evaluation, \hyperpage{361}, \hyperpage{470}, 
+		\hyperpage{472}
+    \subitem life cycle, \hyperpage{470}
+  \item Common Name (CN), \hyperpage{139}
+  \item communication node, \hyperpage{151}
+  \item communication plan, \hyperpage{430}
+  \item communication unit, \hyperpage{484}
+  \item community string, \hyperpage{289}
+    \subitem default, \hyperpage{287}
+  \item computer architecture, \hyperpage{476}
+  \item computer crime, \hyperpage{441}
+  \item computer forensics, \hyperpage{420}
+  \item computer system, \hyperpage{3}
+  \item concatenation, \hyperpage{58}, \hyperpage{118}, \hyperpage{127}
+  \item conformance test, \hyperpage{433}
+  \item confusion, \hyperpage{74}, \hyperpage{81}
+  \item congruence, \hyperpage{98}
+  \item connection, \hyperpage{154}
+  \item consent, \hyperpage{449}, \hyperpage{461}
+  \item Content Management System (CMS), \hyperpage{408}
+  \item control, \hyperpage{42}
+  \item control system, \hyperpage{485}
+  \item conﬁdentiality, \hyperpage{12}, \hyperpage{14}, 
+		\hyperpage{96}, \hyperpage{210}
+  \item cookie, \hyperpage{393}, \hyperpage{397}, \hyperpage{462}
+    \subitem domain, \hyperpage{398}
+    \subitem expiry, \hyperpage{398}
+    \subitem HttpOnly, \hyperpage{398}
+    \subitem max-age, \hyperpage{398}
+    \subitem path, \hyperpage{398}
+    \subitem persistent, \hyperpage{398}
+    \subitem risici, \hyperpage{399}
+    \subitem secure, \hyperpage{398}
+    \subitem store, \hyperpage{396}
+    \subitem third-party, \hyperpage{401}, \hyperpage{462}
+  \item Copy-on-write (COW), \hyperpage{432}
+  \item core, \hyperpage{477}
+  \item COSO, \hyperpage{47}
+    \subitem Cybercrime, \hyperpage{441}
+    \subitem Personal data, \hyperpage{447}
+    \subitem Terrorism, \hyperpage{222}
+  \item countermeasure, \hyperpage{42}, \hyperpage{45}
+  \item Country (C), \hyperpage{139}
+  \item COW, \hyperpage{432}
+  \item CPU, \hyperpage{476}
+    \subitem core, \hyperpage{477}
+    \subitem mode, \hyperpage{341}
+  \item critical asset, \hyperpage{53}
+  \item critical infrastructure, \hyperpage{7}, \hyperpage{290}
+  \item CRL, \hyperpage{139}, \hyperpage{238}
+  \item cryptanalysis, \hyperpage{68}
+    \subitem diﬀerential, \hyperpage{84}
+    \subitem frequency analytic, \hyperpage{70}
+  \item cryptographic random number generator, \hyperpage{80}
+  \item Cryptolocker, \hyperpage{6}
+  \item cryptosystem, \hyperpage{66}
+    \subitem asymmetric, \hyperpage{68}, \hyperpage{96}
+    \subitem broken, \hyperpage{67}
+    \subitem ElGamal, \hyperpage{63}
+    \subitem malleable, \hyperpage{107}, \hyperpage{125}
+    \subitem reversible, \hyperpage{127}
+    \subitem symmetric, \hyperpage{66, 67}
+  \item CTS, \hyperpage{152}
+  \item cursor, \hyperpage{481}
+  \item customer proﬁle, \hyperpage{461}
+  \item CVE system, \hyperpage{353}
+  \item cyberattack, \hyperpage{2}
+  \item cyberspace, \hyperpage{1}
+  \item cybersquatting, \hyperpage{29}
+  \item cyberwar, \hyperpage{9}
+  \item cyclic permutation, \hyperpage{67}
+
+  \indexspace
+
+  \item DAC, \hyperpage{321}
+  \item Dalvik, \hyperpage{345}
+  \item dark Internet, \hyperpage{223}
+  \item data leakage, \hyperpage{226}
+  \item datamining, \hyperpage{460}
+  \item DDoS attack, \hyperpage{272}, \hyperpage{277}
+  \item decapsulation, \hyperpage{158}
+  \item decryption, \hyperpage{65}
+    \subitem function, \hyperpage{66}
+    \subitem key, \hyperpage{66}
+  \item Deep Crack, \hyperpage{83}
+  \item deniable encryption, \hyperpage{425}
+  \item DES, \hyperpage{80}
+  \item dictionary attack, \hyperpage{308}
+  \item digest authentication, \hyperpage{129}, \hyperpage{393}
+  \item digital signature, \hyperpage{356}
+  \item directory, \hyperpage{328}
+  \item discoverable, \hyperpage{260}
+  \item discriminator, \hyperpage{253}
+  \item disk, \hyperpage{477}
+    \subitem copy, \hyperpage{422, 423}
+    \subitem forensic acquisition, \hyperpage{425}
+    \subitem mounted, \hyperpage{422}
+    \subitem sector, \hyperpage{478}
+    \subitem track, \hyperpage{478}
+  \item Distinguished Name (DN), \hyperpage{385}
+  \item DIT, \hyperpage{384}, \hyperpage{388}
+  \item divide-and-conquer, \hyperpage{265}
+  \item diﬀusion, \hyperpage{74}, \hyperpage{81}, \hyperpage{85}
+  \item Diﬃe-Hellman key agreement, \hyperpage{136}
+    \subitem attack, \hyperpage{136}
+    \subitem in Bluetooth, \hyperpage{260}
+  \item DKIM, \hyperpage{283}, \hyperpage{285}
+    \subitem signature, \hyperpage{285}
+    \subitem tag, \hyperpage{287}
+  \item DMZ, \hyperpage{248}, \hyperpage{250}
+    \subitem split, \hyperpage{248}
+  \item DNS, \hyperpage{144}, \hyperpage{168}, \hyperpage{189}, 
+		\hyperpage{283}
+    \subitem authentication, \hyperpage{280}
+    \subitem cache, \hyperpage{169}
+    \subitem conﬁdentiality, \hyperpage{283}
+    \subitem integrity, \hyperpage{280}
+    \subitem operation, \hyperpage{168}
+    \subitem resolver, \hyperpage{168, 169}, \hyperpage{280}
+    \subitem root server, \hyperpage{168}
+    \subitem RR, \hyperpage{93}
+    \subitem security, \hyperpage{280}
+    \subitem server, \hyperpage{280}
+    \subitem zone transfer, \hyperpage{93}, \hyperpage{283}
+  \item DNSSEC, \hyperpage{280}
+  \item domain, \hyperpage{160}, \hyperpage{498}
+  \item DoS attack, \hyperpage{172}, \hyperpage{272}
+    \subitem fast, \hyperpage{272}
+    \subitem slow, \hyperpage{272, 273}
+  \item driver, \hyperpage{341}, \hyperpage{348}, \hyperpage{487}
+  \item DRP, \hyperpage{427}
+    \subitem testing, \hyperpage{433}
+  \item DSA, \hyperpage{63}, \hyperpage{198}
+  \item DSS, \hyperpage{63}
+  \item dual-homed host, \hyperpage{245}
+  \item DVD, \hyperpage{481}
+  \item dynamic analysis, \hyperpage{374}
+  \item dynamic packet ﬁlter, \hyperpage{243}
+
+  \indexspace
+
+  \item E0, \hyperpage{90}, \hyperpage{259}
+  \item EAL, \hyperpage{361}, \hyperpage{407}, \hyperpage{469}
+  \item EAP, \hyperpage{258}
+  \item eBay, \hyperpage{143}
+  \item ECB, \hyperpage{84}
+  \item ECDSA, \hyperpage{63}
+    \subitem underground, \hyperpage{11}
+  \item EDGE, \hyperpage{177}
+  \item EDVAC, \hyperpage{476}
+  \item egress ﬁlter, \hyperpage{243}, \hyperpage{280}
+  \item eID, \hyperpage{144}, \hyperpage{316}
+  \item electronic identity, \hyperpage{147}
+    \subitem authentication, \hyperpage{145}
+    \subitem quality of credential, \hyperpage{147}
+    \subitem quality of issuer, \hyperpage{147}
+  \item Electronic Patient Record, \hyperpage{458}
+  \item electronic signature, \hyperpage{66}, \hyperpage{126}, 
+		\hyperpage{133}, \hyperpage{138}, \hyperpage{280}
+    \subitem anonymous, \hyperpage{464}
+    \subitem future planning, \hyperpage{63}
+    \subitem requirements, \hyperpage{125}
+    \subitem veriﬁcation, \hyperpage{125}
+    \subitem with appendix, \hyperpage{63}, \hyperpage{198}
+    \subitem with PKCS, \hyperpage{127}
+    \subitem with recovery, \hyperpage{127}
+  \item encapsulation, \hyperpage{158}
+  \item encryption, \hyperpage{65}, \hyperpage{210}
+    \subitem asymmetric, \hyperpage{96}
+    \subitem Full Disk (FDE), \hyperpage{349}, \hyperpage{425}
+    \subitem function, \hyperpage{66}
+    \subitem in Application layer, \hyperpage{211}, \hyperpage{215}
+    \subitem in layered architecture, \hyperpage{210}
+    \subitem in Link layer, \hyperpage{214}
+    \subitem in operating system, \hyperpage{349}
+    \subitem in Physical layer, \hyperpage{215}
+    \subitem key, \hyperpage{66}
+    \subitem symmetric, \hyperpage{67}
+    \subitem transparent, \hyperpage{349}
+  \item end systems, \hyperpage{151}
+  \item end-to-end, \hyperpage{157}
+  \item Enhanced privacy ID (EPID), \hyperpage{464}
+  \item entertainment device, \hyperpage{3}
+  \item entry point, \hyperpage{377}
+  \item escaping, \hyperpage{392}
+  \item eStream stream cipher, \hyperpage{96}
+  \item Ethernet, \hyperpage{172}
+    \subitem switched, \hyperpage{175}
+  \item ethical hacker, \hyperpage{380}
+  \item ethics, \hyperpage{459}
+  \item EU Directive, \hyperpage{447}
+  \item EU Regulation, \hyperpage{449}
+  \item Euclid’s algorithm, \hyperpage{504}
+  \item Euclid’s extended algorithm, \hyperpage{101}, \hyperpage{107}, 
+		\hyperpage{505}, \hyperpage{513}
+  \item Euler’s totient function, \hyperpage{99}, \hyperpage{511}
+  \item European Data Protection Supervisor (EDPS), \hyperpage{456}
+    \subitem legal responsibility, \hyperpage{457}
+    \subitem personal data breach, \hyperpage{449}
+    \subitem pictures and sounds, \hyperpage{452}
+    \subitem processor, \hyperpage{449}
+    \subitem proﬁling, \hyperpage{449}, \hyperpage{461}
+    \subitem pseudonymisation, \hyperpage{449}
+    \subitem recipient, \hyperpage{449}
+    \subitem rights, \hyperpage{454}
+    \subitem security of processing, \hyperpage{226}, \hyperpage{454}
+    \subitem security targets, \hyperpage{454}
+    \subitem standard contractual clause, \hyperpage{452}
+    \subitem Supervisory Authority, \hyperpage{456}
+    \subitem third country, \hyperpage{452}
+  \item EV certiﬁcate, \hyperpage{67}
+  \item Evolved HSPA, \hyperpage{177}
+  \item existential forgery, \hyperpage{58}
+  \item exponent, \hyperpage{138}, \hyperpage{500}
+  \item Extended Validation (EV) certiﬁcate, \hyperpage{67}
+  \item extension, \hyperpage{136}
+  \item extradite-or-prosecute, \hyperpage{222}, \hyperpage{447}
+  \item exﬁltration, \hyperpage{6}
+
+  \indexspace
+
+  \item face recognition, \hyperpage{305}
+  \item Facebook Like, \hyperpage{462}
+  \item Fail-safe Defaults, \hyperpage{326}
+  \item FAIR, \hyperpage{47}
+  \item false acceptance, \hyperpage{304}
+  \item false negative, \hyperpage{181}, \hyperpage{253}
+  \item false positive, \hyperpage{181}, \hyperpage{253}
+  \item false rejection, \hyperpage{304}
+  \item Faraday cage, \hyperpage{422}, \hyperpage{424}
+  \item FDE, \hyperpage{349}, \hyperpage{425}
+  \item fear appeal, \hyperpage{32}
+  \item Feistel network, \hyperpage{81}
+  \item fence register, \hyperpage{338}
+    \subitem deletion, \hyperpage{422}
+  \item FileVault, \hyperpage{349}
+  \item Firewire, \hyperpage{483}
+  \item FNR, \hyperpage{253}
+  \item forensic acquisition disk, \hyperpage{425}
+  \item Forensic Toolkit (FTK®), \hyperpage{423}
+  \item forensics, \hyperpage{420}
+    \subitem encrypted data, \hyperpage{425}
+    \subitem memory, \hyperpage{423}
+    \subitem smartphone, \hyperpage{423}
+  \item FPR, \hyperpage{253}
+  \item frame, \hyperpage{169}
+  \item FreeBSD, \hyperpage{321}, \hyperpage{329}, \hyperpage{332}, 
+		\hyperpage{348}
+  \item frequency analysis, \hyperpage{39}, \hyperpage{70}
+    \subitem Al-Kindi, \hyperpage{70}
+  \item Friedrich Kasiski, \hyperpage{74}
+  \item Fuchsia, \hyperpage{329}
+  \item Full Control, \hyperpage{335}
+  \item function, \hyperpage{498}
+    \subitem co-domain, \hyperpage{498}
+    \subitem compression, \hyperpage{121}
+    \subitem domain, \hyperpage{498}
+    \subitem graph, \hyperpage{120}, \hyperpage{498}
+    \subitem image, \hyperpage{498}
+    \subitem linear, \hyperpage{90}, \hyperpage{500}
+    \subitem non-linear, \hyperpage{90}, \hyperpage{121}, 
+		\hyperpage{500}
+    \subitem one-way, \hyperpage{98}, \hyperpage{115}, \hyperpage{121}
+    \subitem pre-image, \hyperpage{118}, \hyperpage{500}
+    \subitem total, \hyperpage{498}
+    \subitem value, \hyperpage{498}
+  \item fuzz test, \hyperpage{373}
+
+  \indexspace
+
+  \item gateway, \hyperpage{170}
+  \item GCC, \hyperpage{374}
+  \item GDPR, \hyperpage{447}, \hyperpage{472}
+    \subitem accountability, \hyperpage{449}, \hyperpage{456}
+    \subitem authorities, \hyperpage{455}
+    \subitem certiﬁcation, \hyperpage{456}
+    \subitem code of conduct, \hyperpage{456}
+    \subitem consent, \hyperpage{449}
+    \subitem controller, \hyperpage{449}
+    \subitem data class, \hyperpage{451}
+    \subitem data protection impact assessment, \hyperpage{454}
+    \subitem Data Protection Oﬃcer (DPO), \hyperpage{226}
+    \subitem European Data Protection Board, \hyperpage{456}
+  \item geolocation software, \hyperpage{163}
+  \item GPRS, \hyperpage{177}
+  \item GPU, \hyperpage{477}, \hyperpage{481}
+  \item graphic user interface, \hyperpage{481}
+  \item graphics card, \hyperpage{481}
+  \item greatest common divisor, \hyperpage{504}
+  \item group, \hyperpage{330}, \hyperpage{335}
+  \item GSM, \hyperpage{177}
+    \subitem authentication, \hyperpage{260}
+    \subitem encryption, \hyperpage{262}
+    \subitem security, \hyperpage{260}
+
+  \indexspace
+
+  \item hack, \hyperpage{44}
+  \item Hamming weight, \hyperpage{104}
+  \item hard problem, \hyperpage{63}, \hyperpage{100, 101}, 
+		\hyperpage{108}
+  \item hardening, \hyperpage{245}
+  \item hardware, \hyperpage{476}
+    \subitem interface, \hyperpage{483}
+    \subitem SHA-1, \hyperpage{123}
+  \item hash function, \hyperpage{123}
+    \subitem collision resistent, \hyperpage{58}, \hyperpage{118}
+    \subitem cryptographic, \hyperpage{118}
+    \subitem MD5, \hyperpage{63}, \hyperpage{123, 124}
+    \subitem non-invertible, \hyperpage{58}, \hyperpage{118}
+    \subitem one-way, \hyperpage{115}
+    \subitem security strength, \hyperpage{120}
+    \subitem SHA-1, \hyperpage{63}, \hyperpage{124}
+    \subitem SHA-2, \hyperpage{63}, \hyperpage{123}
+    \subitem SHA-3, \hyperpage{63}, \hyperpage{123}
+  \item HDD, \hyperpage{478}
+  \item header, \hyperpage{163}
+    \subitem access, \hyperpage{456}
+    \subitem protection, \hyperpage{456}
+  \item Heartbleed bug, \hyperpage{370}
+  \item hexadecimal digit, \hyperpage{500}
+  \item hibernate state, \hyperpage{352}
+  \item HIDS, \hyperpage{254}
+  \item HMAC, \hyperpage{58}
+  \item Home Location Register (HLR), \hyperpage{178}
+  \item host, \hyperpage{151}
+  \item hot site, \hyperpage{432}
+  \item household apparatus, \hyperpage{3}
+  \item HSM, \hyperpage{283}
+  \item HTML, \hyperpage{202}, \hyperpage{270}
+    \subitem anchor, \hyperpage{202}, \hyperpage{270}
+    \subitem character code, \hyperpage{202}
+    \subitem href, \hyperpage{201}, \hyperpage{270}
+    \subitem link, \hyperpage{202}
+    \subitem webform, \hyperpage{402}
+  \item HTTP, \hyperpage{199}
+    \subitem applications, \hyperpage{392}
+    \subitem architecture, \hyperpage{198}
+    \subitem authentication, \hyperpage{393}
+    \subitem cache, \hyperpage{205}
+    \subitem cookie, \hyperpage{393}, \hyperpage{396}, \hyperpage{462}
+    \subitem form dataset, \hyperpage{403}
+    \subitem header ﬁeld, \hyperpage{393}
+    \subitem link, \hyperpage{198}
+    \subitem method, \hyperpage{202}, \hyperpage{392}
+    \subitem operation of, \hyperpage{200}
+    \subitem request, \hyperpage{199}, \hyperpage{205}, \hyperpage{392}
+    \subitem response, \hyperpage{200}, \hyperpage{205}, 
+		\hyperpage{392}
+    \subitem return code, \hyperpage{200}
+    \subitem script, \hyperpage{393}
+    \subitem SessionID, \hyperpage{401}
+    \subitem webform, \hyperpage{393}, \hyperpage{402}
+  \item human rights, \hyperpage{446}
+  \item hyperlink, \hyperpage{199}
+  \item hypertext, \hyperpage{199}
+  \item hypervisor, \hyperpage{345}
+
+  \indexspace
+
+  \item I/O control hub, \hyperpage{483}
+    \subitem attachment, \hyperpage{483}
+  \item IANA, \hyperpage{163}
+  \item IDE, \hyperpage{422}
+  \item identity module (IM), \hyperpage{178}, \hyperpage{423}
+  \item identity theft, \hyperpage{461}, \hyperpage{464}
+  \item IDPS, \hyperpage{252}
+  \item IDS, \hyperpage{252}, \hyperpage{354}
+    \subitem 802 series, \hyperpage{175}
+    \subitem 802.11, \hyperpage{96}, \hyperpage{175}
+    \subitem 802.11i, \hyperpage{258}
+    \subitem 802.15, \hyperpage{175}
+    \subitem 802.16, \hyperpage{175}
+    \subitem 802.1X, \hyperpage{258, 259}
+    \subitem 802.3, \hyperpage{172}
+    \subitem anomaly detection, \hyperpage{252}
+    \subitem in host, \hyperpage{254}
+    \subitem in network, \hyperpage{254}
+    \subitem misuse detection, \hyperpage{252}
+  \item IEEE standard 1394 bus, \hyperpage{483}
+  \item IMAP, \hyperpage{187}
+  \item impact analysis, \hyperpage{427}
+  \item IMSI, \hyperpage{129}, \hyperpage{178}
+  \item IMSI catcher, \hyperpage{129}
+  \item Incident Response, \hyperpage{416}
+  \item incomplete mediation, \hyperpage{371}
+  \item industrial espionage, \hyperpage{423}
+  \item Infrastructure Mode, \hyperpage{96}
+  \item ingress ﬁlter, \hyperpage{243}, \hyperpage{280}
+  \item instruction, \hyperpage{476}
+  \item integer, \hyperpage{496}
+    \subitem Fermat, \hyperpage{103}, \hyperpage{500}
+    \subitem Number Field Sieve, \hyperpage{106}, \hyperpage{502}
+    \subitem Quadratic Sieve, \hyperpage{106}, \hyperpage{502}
+  \item integrity, \hyperpage{12}, \hyperpage{94}, \hyperpage{106}, 
+		\hyperpage{117}, \hyperpage{210}
+  \item Internet layer, \hyperpage{157}
+  \item Internet name, \hyperpage{144}, \hyperpage{160}
+  \item interoperability, \hyperpage{175}
+  \item interpreter, \hyperpage{404}
+  \item inverse, \hyperpage{99}, \hyperpage{505}, \hyperpage{513}
+  \item investigation, \hyperpage{445}
+  \item IOT, \hyperpage{3}, \hyperpage{163}, \hyperpage{179}, 
+		\hyperpage{278}, \hyperpage{472}
+  \item IP address, \hyperpage{159}
+    \subitem range, \hyperpage{284}
+  \item IP Version 4 (IPv4), \hyperpage{161}
+  \item IP Version 6 (IPv6), \hyperpage{161}
+  \item IPsec, \hyperpage{221}
+  \item iris recognition, \hyperpage{306}
+    \subitem 8859-1, \hyperpage{195}
+    \subitem 9796, \hyperpage{127}
+    \subitem 9798, \hyperpage{66}
+  \item ISO-latin-1 printable, \hyperpage{310}
+    \subitem 11889:2009, \hyperpage{351}
+    \subitem 27000 series, \hyperpage{49}
+    \subitem 27005:2011, \hyperpage{64}
+    \subitem 27001, \hyperpage{473}
+    \subitem 27002, \hyperpage{12}, \hyperpage{47}
+  \item ISP, \hyperpage{170}
+    \subitem X.500 series, \hyperpage{385}
+    \subitem X.520, \hyperpage{388}
+  \item IV, \hyperpage{84}, \hyperpage{88}, \hyperpage{120}
+
+  \indexspace
+
+  \item Java, \hyperpage{374}, \hyperpage{405}, \hyperpage{409}
+  \item job scheduling, \hyperpage{352}
+  \item John von Neumann, \hyperpage{476}
+  \item jurisdiction, \hyperpage{446}
+    \subitem universal, \hyperpage{222}
+
+  \indexspace
+
+  \item Keccak, \hyperpage{123}
+  \item kerberos, \hyperpage{133}, \hyperpage{317}, \hyperpage{397}
+  \item Kerckhoﬀ’s Principle, \hyperpage{66}
+  \item key agreement, \hyperpage{133}
+    \subitem Diﬃe-Hellman, \hyperpage{136}
+    \subitem in Bluetooth, \hyperpage{260}
+    \subitem station-to-station, \hyperpage{138}
+  \item key distribution, \hyperpage{133}
+  \item Key Exchange Key (KEK), \hyperpage{356}
+  \item key logger, \hyperpage{377}
+  \item key schedule, \hyperpage{83}, \hyperpage{87}
+  \item key transport, \hyperpage{133}
+  \item key wheel, \hyperpage{67}, \hyperpage{70}
+  \item Key-Scheduling Algorithm (KSA), \hyperpage{93}
+  \item keyboard, \hyperpage{481}
+  \item keylogger, \hyperpage{358}
+  \item keyring, \hyperpage{351}
+  \item keystore, \hyperpage{351}
+  \item keystream, \hyperpage{42}
+
+  \indexspace
+
+  \item LAN, \hyperpage{151}, \hyperpage{175}
+    \subitem Application, \hyperpage{158}
+    \subitem Physical, \hyperpage{158}
+  \item LDAP, \hyperpage{384}
+    \subitem attribute, \hyperpage{385}, \hyperpage{388}
+    \subitem DIT, \hyperpage{384}
+    \subitem escaping, \hyperpage{392}
+    \subitem injection, \hyperpage{384}
+    \subitem input control, \hyperpage{392}
+    \subitem metacharacters, \hyperpage{392}
+    \subitem object class, \hyperpage{387}
+    \subitem search, \hyperpage{389}
+    \subitem type control, \hyperpage{392}
+    \subitem URI, \hyperpage{387}
+  \item Least Privilege, \hyperpage{321}, \hyperpage{332}
+  \item legal person, \hyperpage{441}
+  \item LFSR, \hyperpage{88}
+    \subitem period, \hyperpage{88}, \hyperpage{90}
+  \item lifecycle, \hyperpage{470}
+  \item lifetime, \hyperpage{133}
+  \item link, \hyperpage{198}, \hyperpage{202}, \hyperpage{270}
+  \item link key, \hyperpage{259, 260}
+  \item Link layer, \hyperpage{157}
+    \subitem encryption, \hyperpage{214}
+  \item Lithium-ion (LiON), \hyperpage{485}
+  \item log ﬁle, \hyperpage{420}, \hyperpage{488}
+  \item logic bomb, \hyperpage{375}
+  \item long-term key, \hyperpage{93}
+  \item LPC bus, \hyperpage{484}
+  \item LTE Advanced, \hyperpage{179}
+
+  \indexspace
+
+  \item MAC, \hyperpage{58}, \hyperpage{321}, \hyperpage{360}
+    \subitem hash-based, \hyperpage{58}
+  \item MAC address, \hyperpage{159}
+  \item MAC key, \hyperpage{58}
+  \item MAC protocol, \hyperpage{172}
+  \item mail relay, \hyperpage{103}
+  \item mailbox, \hyperpage{103}, \hyperpage{187}
+  \item mainframe, \hyperpage{2}, \hyperpage{349}
+  \item malicious code, \hyperpage{375}
+  \item malleable, \hyperpage{94}, \hyperpage{107}, \hyperpage{125}, 
+		\hyperpage{150}
+  \item malware, \hyperpage{2}, \hyperpage{44}, \hyperpage{348}, 
+		\hyperpage{365}, \hyperpage{375}
+    \subitem backdoor, \hyperpage{375}, \hyperpage{469}
+    \subitem logic bomb, \hyperpage{375}
+    \subitem rabbit, \hyperpage{375}
+    \subitem ransomware, \hyperpage{375}
+    \subitem spyware, \hyperpage{375}, \hyperpage{469}
+    \subitem trojan horse, \hyperpage{375}
+    \subitem virus, \hyperpage{375}
+    \subitem worm, \hyperpage{375}
+  \item MAN, \hyperpage{152}, \hyperpage{173}
+  \item man-in-the-middle, \hyperpage{32}, \hyperpage{133}, 
+		\hyperpage{136}, \hyperpage{231}, \hyperpage{256}, 
+		\hyperpage{260}, \hyperpage{268}
+    \subitem psychological, \hyperpage{20}
+    \subitem redirection, \hyperpage{225}
+    \subitem related key, \hyperpage{68}, \hyperpage{94}
+    \subitem ROCA, \hyperpage{470}
+    \subitem supply-chain, \hyperpage{7}
+    \subitem virus-based, \hyperpage{376}
+    \subitem worm-based, \hyperpage{377}
+    \subitem zero-day, \hyperpage{354}
+  \item Man-machine interface, \hyperpage{481}
+  \item Management Information Base (MIB), \hyperpage{289}
+  \item Master Boot Record, \hyperpage{348}, \hyperpage{422}
+  \item MBR, \hyperpage{356}
+  \item MD5, \hyperpage{63}, \hyperpage{110}, \hyperpage{123, 124}, 
+		\hyperpage{217}, \hyperpage{397}
+  \item Media Access protocol, \hyperpage{172}
+  \item mediation, \hyperpage{371}
+  \item memory, \hyperpage{477}
+    \subitem control hub, \hyperpage{483}
+    \subitem paging, \hyperpage{338}
+    \subitem physical, \hyperpage{421}
+    \subitem segmented, \hyperpage{338}
+    \subitem volatile, \hyperpage{488}
+  \item memory card, \hyperpage{257}, \hyperpage{480}
+  \item memory leak, \hyperpage{374}
+  \item memory unit, \hyperpage{476}
+  \item Merkle-Damgaard construction, \hyperpage{121}
+    \subitem corruption, \hyperpage{154}
+    \subitem forgery, \hyperpage{154}, \hyperpage{256}
+    \subitem loss, \hyperpage{154}
+  \item message digest, \hyperpage{63}, \hyperpage{118}
+    \subitem function, \hyperpage{115}
+  \item message format, \hyperpage{155}
+  \item metacharacters, \hyperpage{384}
+  \item metadata, \hyperpage{226}, \hyperpage{349}
+  \item method, \hyperpage{199}
+  \item Michael cryptographic checksum, \hyperpage{258}
+  \item Microsoft Exchange data breach, \hyperpage{7}
+  \item Milgram’s eksperiment, \hyperpage{23}
+  \item MIME, \hyperpage{104}
+    \subitem entity, \hyperpage{195}
+    \subitem header ﬁeld, \hyperpage{195}
+    \subitem subtype, \hyperpage{197}, \hyperpage{215}, \hyperpage{220}
+    \subitem type, \hyperpage{195}, \hyperpage{215}
+  \item misuse detection, \hyperpage{181}, \hyperpage{252}
+  \item MLS, \hyperpage{360}
+  \item MMI code, \hyperpage{270}
+  \item MMI unit, \hyperpage{481}
+  \item MMU, \hyperpage{338}
+  \item mobile code, \hyperpage{404}
+  \item mobile device security, \hyperpage{268}
+  \item mobile telephone network, \hyperpage{177}
+    \subitem 2G, \hyperpage{177}
+    \subitem 3G, \hyperpage{177}
+    \subitem 4G, \hyperpage{179}
+    \subitem 5G, \hyperpage{179}, \hyperpage{469}
+    \subitem AuC, \hyperpage{181}
+    \subitem core network, \hyperpage{179}
+    \subitem GPRS, \hyperpage{177}
+    \subitem GSM, \hyperpage{177}, \hyperpage{179}
+    \subitem HLR, \hyperpage{178}
+    \subitem security, \hyperpage{260}
+    \subitem surveillance, \hyperpage{129}
+    \subitem UMTS, \hyperpage{177}, \hyperpage{266}
+    \subitem VLR, \hyperpage{178}
+  \item mobile unit, \hyperpage{178}, \hyperpage{423}
+  \item modular arithmetic, \hyperpage{98}
+  \item modular exponentiation, \hyperpage{99, 100}
+  \item modular squaring, \hyperpage{100}
+  \item modulus, \hyperpage{126}, \hyperpage{138}
+    \subitem passive, \hyperpage{256}
+  \item monoalphabetic cipher, \hyperpage{70}
+  \item motivation, \hyperpage{434}
+  \item motive, \hyperpage{54}
+  \item mouse, \hyperpage{481}
+  \item MSISDN, \hyperpage{178}
+  \item MTA, \hyperpage{103}
+  \item MUA, \hyperpage{103}
+  \item multi-factor authentication, \hyperpage{316}
+  \item multiprogramming, \hyperpage{487}
+  \item MX record, \hyperpage{103}
+
+  \indexspace
+
+  \item name administrator, \hyperpage{160}
+  \item native code, \hyperpage{345}, \hyperpage{405}
+  \item natural person, \hyperpage{441}
+  \item NEED, \hyperpage{278}
+  \item network, \hyperpage{2}
+  \item Network access layer, \hyperpage{158}
+  \item Network technology, \hyperpage{169}
+  \item neural network, \hyperpage{253}
+  \item NIDS, \hyperpage{254}
+  \item non-repudiation, \hyperpage{125}, \hyperpage{154}
+  \item nonce, \hyperpage{85}, \hyperpage{88}, \hyperpage{93, 94}, 
+		\hyperpage{118}, \hyperpage{129, 130}, 
+		\hyperpage{132, 133}, \hyperpage{395}, \hyperpage{397}
+    \subitem deﬁnition, \hyperpage{85}
+  \item nonce counter, \hyperpage{397}
+  \item NotPetya, \hyperpage{6}
+  \item NSA, \hyperpage{290}
+  \item NTP, \hyperpage{152}
+  \item number system, \hyperpage{500}
+    \subitem binary, \hyperpage{500}
+    \subitem hexadecimal, \hyperpage{500}
+    \subitem positional, \hyperpage{500}
+
+  \indexspace
+
+  \item object, \hyperpage{321}, \hyperpage{326}
+    \subitem owner, \hyperpage{321}, \hyperpage{326}
+  \item OCSP, \hyperpage{238}
+    \subitem responder, \hyperpage{238}
+    \subitem response, \hyperpage{238}
+    \subitem stapling, \hyperpage{238}
+  \item OCTAVE, \hyperpage{47}, \hyperpage{50}
+    \subitem Phase 1, \hyperpage{51}
+    \subitem threat analysis, \hyperpage{30}
+    \subitem threat classes, \hyperpage{54}
+    \subitem threat proﬁle, \hyperpage{54}
+    \subitem threat tree, \hyperpage{54}
+  \item One-Time Pad, \hyperpage{80}
+  \item one-time password, \hyperpage{313}
+  \item one-way function, \hyperpage{98}
+  \item OpenSSL, \hyperpage{370}
+  \item oracle, \hyperpage{58}
+  \item Organisation (O), \hyperpage{139}
+  \item Organizational Unit (OU), \hyperpage{139}
+  \item Orion, \hyperpage{7}
+  \item OS, \hyperpage{483}
+    \subitem module, \hyperpage{348}
+    \subitem security, \hyperpage{300}
+    \subitem trusted, \hyperpage{360}
+    \subitem updating, \hyperpage{353}
+  \item OTP device, \hyperpage{313}
+  \item outcome, \hyperpage{54}
+  \item owner, \hyperpage{330}
+  \item Oﬃce of Public Management (OPM), \hyperpage{2}
+
+  \indexspace
+
+  \item padding, \hyperpage{74}, \hyperpage{107}
+  \item page table, \hyperpage{338}
+  \item pairing, \hyperpage{259}
+  \item PAN, \hyperpage{151}, \hyperpage{175}
+  \item passive attacker, \hyperpage{136}
+  \item passkey, \hyperpage{316}
+  \item password, \hyperpage{308}
+    \subitem choice, \hyperpage{311}
+    \subitem protection, \hyperpage{311}
+    \subitem strength, \hyperpage{308}
+  \item password tiredness, \hyperpage{152}
+  \item pattern lock, \hyperpage{314}
+  \item payload, \hyperpage{163}
+  \item PCI Expressbus, \hyperpage{483}
+  \item PDCA process, \hyperpage{32}, \hyperpage{61}, \hyperpage{427}
+  \item PDoS, \hyperpage{278}
+  \item peer-to-peer (P2P), \hyperpage{2}, \hyperpage{277}
+  \item pentest, \hyperpage{373}
+  \item permissions, \hyperpage{333}
+  \item person, \hyperpage{441}
+  \item personal data, \hyperpage{449}
+    \subitem protection, \hyperpage{447}
+  \item personal ﬁrewall, \hyperpage{250}
+  \item PGP, \hyperpage{143}, \hyperpage{215}, \hyperpage{218}
+  \item phishing, \hyperpage{28}, \hyperpage{462}
+    \subitem bait, \hyperpage{28}
+    \subitem e-mail, \hyperpage{28}, \hyperpage{30}, \hyperpage{190}
+    \subitem social media, \hyperpage{28}
+  \item PHP, \hyperpage{374}, \hyperpage{409}
+  \item Physical layer, \hyperpage{157, 158}
+    \subitem encryption, \hyperpage{215}
+  \item physical security, \hyperpage{358}
+  \item pigpen cipher, \hyperpage{71}
+  \item PKCS, \hyperpage{68}, \hyperpage{96}
+  \item PKCS#1, \hyperpage{63}, \hyperpage{107}
+  \item PKCS#10, \hyperpage{67}
+  \item PKCS#12, \hyperpage{67}, \hyperpage{147}
+  \item PKCS#7, \hyperpage{198}, \hyperpage{217}
+  \item PKI system, \hyperpage{138}, \hyperpage{141}
+  \item plaintext, \hyperpage{65, 66}
+  \item Platform Key (PK), \hyperpage{356}
+  \item point-to-point, \hyperpage{172}
+  \item polyalphabetic cipher, \hyperpage{74}
+  \item POP3, \hyperpage{187}
+    \subitem allocated, \hyperpage{163}
+    \subitem freely available, \hyperpage{163}
+    \subitem registered, \hyperpage{163}
+    \subitem TCP, \hyperpage{163}
+    \subitem UDP, \hyperpage{163}
+  \item port number, \hyperpage{159}
+  \item power supply, \hyperpage{485}
+  \item PQC, \hyperpage{63}
+    \subitem competition, \hyperpage{63}
+  \item pre-boot authentication, \hyperpage{351}, \hyperpage{425}
+  \item preimage resistance, \hyperpage{118}
+  \item prime factor, \hyperpage{496}
+  \item prime number, \hyperpage{496}
+    \subitem mutual, \hyperpage{504}
+  \item priming, \hyperpage{26}
+  \item primitive polynomial, \hyperpage{90}
+  \item Privacy-Enhancing Technology (PET), \hyperpage{463}
+  \item private key, \hyperpage{66}, \hyperpage{96}, \hyperpage{127}
+  \item privilege escalation, \hyperpage{345}
+  \item proactive control, \hyperpage{150}
+  \item process hollowing, \hyperpage{181}, \hyperpage{377}
+  \item processor, \hyperpage{476}
+  \item program, \hyperpage{476}
+    \subitem dynamic, \hyperpage{374}
+    \subitem static, \hyperpage{374}
+  \item program vulnerability, \hyperpage{366}
+  \item protection, \hyperpage{487}
+  \item protection ring, \hyperpage{342}
+  \item protocol, \hyperpage{130}
+    \subitem ARP, \hyperpage{169}
+    \subitem DNS, \hyperpage{168}
+    \subitem HTTP, \hyperpage{198}, \hyperpage{392}
+    \subitem ICMP, \hyperpage{275}
+    \subitem IMAP, \hyperpage{187}
+    \subitem LDAP, \hyperpage{384}
+    \subitem POP3, \hyperpage{187}
+    \subitem SMTP, \hyperpage{187}, \hyperpage{283}
+    \subitem SNMP, \hyperpage{287}
+    \subitem station-to-station, \hyperpage{138}
+    \subitem TCP, \hyperpage{163}, \hyperpage{273}
+  \item Protocol Control Information (PCI), \hyperpage{155}
+  \item proxy, \hyperpage{245}
+  \item public key, \hyperpage{66}, \hyperpage{126}
+
+  \indexspace
+
+  \item qop, \hyperpage{396}
+  \item quality of protection, \hyperpage{395}
+  \item qualiﬁed certiﬁcate, \hyperpage{147}
+  \item quantum computer, \hyperpage{108}
+  \item query, \hyperpage{408}
+
+  \indexspace
+
+  \item rabbit, \hyperpage{375}
+  \item race condition, \hyperpage{372}
+  \item Rainbow Series, \hyperpage{1}
+  \item random permutation, \hyperpage{70}
+  \item ransomware, \hyperpage{6}, \hyperpage{213}, \hyperpage{375}
+  \item RC4, \hyperpage{93}, \hyperpage{255}
+    \subitem keystream generator, \hyperpage{93}
+    \subitem vulnerabilities, \hyperpage{230}
+    \subitem weakness, \hyperpage{93}
+  \item reactive control, \hyperpage{150}
+    \subitem data, \hyperpage{430}
+    \subitem system functionality, \hyperpage{432}
+  \item recovery target, \hyperpage{427}
+  \item redirection attack, \hyperpage{225}
+  \item Redline, \hyperpage{423}
+  \item redundancy, \hyperpage{290}, \hyperpage{427}
+  \item Reference Monitor (RM), \hyperpage{303}, \hyperpage{348}, 
+		\hyperpage{471}
+  \item reference number, \hyperpage{117}
+    \subitem CPU, \hyperpage{477}
+  \item Registration Authority (RA), \hyperpage{67}
+  \item Registry, \hyperpage{341}
+    \subitem key, \hyperpage{338}
+    \subitem subkey, \hyperpage{341}
+  \item remote wipe, \hyperpage{424}
+  \item replaying, \hyperpage{256}
+  \item request, \hyperpage{199}
+  \item residual risk, \hyperpage{42}, \hyperpage{59}
+    \subitem matrix, \hyperpage{42}, \hyperpage{60}
+  \item resolver, \hyperpage{168, 169}, \hyperpage{280}
+  \item resource, \hyperpage{392}
+  \item Resource Record (RR), \hyperpage{93}, \hyperpage{103}
+  \item response, \hyperpage{200}
+  \item return code, \hyperpage{200}
+  \item RFC, \hyperpage{183}
+  \item right, \hyperpage{321}, \hyperpage{454}
+  \item right to be forgotten, \hyperpage{463}
+  \item Rijndael, \hyperpage{87}
+  \item risk, \hyperpage{41, 42}
+    \subitem analysis, \hyperpage{50}
+    \subitem avoidance, \hyperpage{46}
+    \subitem management, \hyperpage{46}
+    \subitem matrix, \hyperpage{42}, \hyperpage{60}
+    \subitem mitigation, \hyperpage{46}
+    \subitem objective, \hyperpage{41}
+    \subitem reduction, \hyperpage{46}
+    \subitem residual, \hyperpage{42}
+    \subitem retention, \hyperpage{46}
+    \subitem sharing, \hyperpage{46}
+    \subitem subjective, \hyperpage{41}
+    \subitem transfer, \hyperpage{46}
+  \item RNC, \hyperpage{266}
+  \item roaming, \hyperpage{178}
+  \item robustness, \hyperpage{374}
+  \item ROCA attack, \hyperpage{469}
+  \item role, \hyperpage{321}
+  \item Role Based Access Control (RBAC), \hyperpage{321}
+  \item root, \hyperpage{321}
+    \subitem privileges, \hyperpage{330}
+  \item root certiﬁcate, \hyperpage{141}, \hyperpage{143}
+  \item root keys, \hyperpage{341}
+  \item root server, \hyperpage{168}
+  \item rootkit, \hyperpage{345}
+    \subitem BIOS, \hyperpage{348}
+    \subitem bootkit, \hyperpage{348}
+    \subitem kernel mode, \hyperpage{348}
+    \subitem user mode, \hyperpage{345}
+  \item round key, \hyperpage{87}, \hyperpage{351}
+  \item router, \hyperpage{159}, \hyperpage{170}
+  \item RPO, \hyperpage{427}, \hyperpage{430}
+  \item RR, \hyperpage{93}, \hyperpage{189}
+  \item RSA, \hyperpage{100}, \hyperpage{125}, \hyperpage{138}, 
+		\hyperpage{198}, \hyperpage{508}
+    \subitem key generation, \hyperpage{101}, \hyperpage{469}
+    \subitem modulus, \hyperpage{100}
+    \subitem private exponent, \hyperpage{100}
+    \subitem private key, \hyperpage{100}
+    \subitem public exponent, \hyperpage{100}
+    \subitem public key, \hyperpage{100}
+    \subitem vulnerabilities, \hyperpage{106}
+  \item RSA number, \hyperpage{104}, \hyperpage{502}
+  \item RSN, \hyperpage{258}
+  \item RTO, \hyperpage{427}, \hyperpage{430}
+  \item rule of procedure, \hyperpage{155}
+
+  \indexspace
+
+  \item S/MIME, \hyperpage{198}, \hyperpage{215}
+    \subitem type, \hyperpage{215}
+  \item safe harbour, \hyperpage{452}, \hyperpage{460}
+  \item safe library, \hyperpage{369}
+  \item salt, \hyperpage{311}
+  \item sandbox, \hyperpage{345}
+  \item scheme, \hyperpage{200, 201}, \hyperpage{270}
+  \item Schrems II, \hyperpage{461}
+  \item screen, \hyperpage{481}
+  \item screened host, \hyperpage{248}
+  \item screened subnet, \hyperpage{248}
+  \item screening router, \hyperpage{245}
+  \item script, \hyperpage{391}
+  \item second-preimage resistance, \hyperpage{118}
+  \item secret key, \hyperpage{125}, \hyperpage{131}, \hyperpage{133}
+  \item sector, \hyperpage{478}
+  \item Secure Boot, \hyperpage{354}
+  \item Secure Digital (SD), \hyperpage{257}
+  \item Secure Hash Algorithm (SHA), \hyperpage{217}
+  \item Secure Shell (SSH), \hyperpage{316}
+    \subitem breach, \hyperpage{416}
+    \subitem failure, \hyperpage{366}
+    \subitem incident, \hyperpage{416}
+    \subitem policy, \hyperpage{13}
+    \subitem systematic, \hyperpage{47}
+    \subitem target, \hyperpage{11}, \hyperpage{154}
+  \item security awareness, \hyperpage{35}, \hyperpage{434}, 
+		\hyperpage{472}
+  \item security device, \hyperpage{481}
+  \item security in depth, \hyperpage{248}
+  \item security parameter, \hyperpage{225}
+  \item security zone, \hyperpage{405}
+  \item segment, \hyperpage{338}
+  \item segment table, \hyperpage{338}
+  \item self-eﬃcacy, \hyperpage{33}
+  \item SELinux, \hyperpage{321}, \hyperpage{348}, \hyperpage{471}
+  \item Semalt, \hyperpage{6}
+  \item sensor, \hyperpage{3}
+  \item separation, \hyperpage{321}
+  \item seq, \hyperpage{163}
+  \item sequence number, \hyperpage{163}
+  \item server, \hyperpage{2}
+  \item server script, \hyperpage{202}
+  \item service, \hyperpage{153}
+    \subitem complex, \hyperpage{2}
+    \subitem connection-oriented, \hyperpage{154}
+    \subitem connectionless, \hyperpage{154}
+    \subitem cybercriminal, \hyperpage{9}
+    \subitem error-free, \hyperpage{154}
+    \subitem secure, \hyperpage{153}
+    \subitem sequence preserving, \hyperpage{153}
+    \subitem SMS, \hyperpage{177}
+    \subitem stream-oriented, \hyperpage{155}
+  \item service extension, \hyperpage{188}
+  \item servlet, \hyperpage{408}
+  \item session key, \hyperpage{152}, \hyperpage{215}, \hyperpage{217}, 
+		\hyperpage{265}, \hyperpage{317}
+  \item SessionID, \hyperpage{401}
+    \subitem risici, \hyperpage{401}
+  \item set, \hyperpage{493}
+    \subitem cardinality, \hyperpage{497}
+    \subitem containment, \hyperpage{497}
+    \subitem diﬀerence, \hyperpage{497}
+    \subitem intersection, \hyperpage{497}
+    \subitem membership, \hyperpage{497}
+    \subitem subset, \hyperpage{497}
+    \subitem union, \hyperpage{497}
+  \item Set Groupid, \hyperpage{332}
+  \item Set Userid, \hyperpage{332}
+  \item setgid, \hyperpage{332}
+  \item setuid, \hyperpage{332}
+  \item SHA-1, \hyperpage{63}, \hyperpage{123, 124}
+  \item SHA-2, \hyperpage{63}, \hyperpage{123}, \hyperpage{397}
+  \item SHA-3, \hyperpage{63}, \hyperpage{123}
+  \item shared medium, \hyperpage{157}, \hyperpage{173}
+    \subitem cable-based, \hyperpage{172}
+    \subitem wireless, \hyperpage{175}
+  \item side eﬀect, \hyperpage{403}
+  \item sidetabel, \hyperpage{340}
+  \item signature, \hyperpage{252}, \hyperpage{379}
+  \item signature based analysis, \hyperpage{252}
+  \item SIM card, \hyperpage{178}, \hyperpage{262}
+  \item single sign-on (SSO), \hyperpage{152}
+  \item SKCS, \hyperpage{68}
+  \item Slowloris, \hyperpage{272}
+  \item smartcard, \hyperpage{67}, \hyperpage{147}, \hyperpage{178}, 
+		\hyperpage{303}, \hyperpage{351}
+    \subitem forensics, \hyperpage{423}
+    \subitem UICC, \hyperpage{266}, \hyperpage{424}
+  \item SMTP, \hyperpage{187}
+    \subitem command, \hyperpage{187}
+    \subitem error code, \hyperpage{285}
+    \subitem header line, \hyperpage{192}, \hyperpage{285}
+    \subitem mailbox, \hyperpage{103}, \hyperpage{187}
+    \subitem Message-ID, \hyperpage{192}
+    \subitem operation, \hyperpage{188}
+    \subitem response, \hyperpage{187}
+    \subitem risks, \hyperpage{188}
+    \subitem security, \hyperpage{280}
+    \subitem service extension, \hyperpage{120}
+    \subitem spooﬁng, \hyperpage{190}, \hyperpage{283}
+    \subitem tracking, \hyperpage{192}
+  \item Smurf attack, \hyperpage{275}
+  \item snapshot, \hyperpage{431}
+  \item sniﬀer, \hyperpage{159}, \hyperpage{172}, \hyperpage{214}
+  \item SNMP, \hyperpage{287}
+    \subitem security, \hyperpage{287}
+  \item social engineering, \hyperpage{20}, \hyperpage{308}, 
+		\hyperpage{377}
+  \item social media, \hyperpage{28}, \hyperpage{460}
+  \item soft certiﬁcate, \hyperpage{147}
+  \item software, \hyperpage{484}
+    \subitem application, \hyperpage{492}
+    \subitem injection, \hyperpage{371}
+    \subitem operating system, \hyperpage{487}
+    \subitem system utility, \hyperpage{492}
+    \subitem test, \hyperpage{372}
+    \subitem vulnerability, \hyperpage{369}, \hyperpage{378}
+  \item sound card, \hyperpage{481}
+  \item spam mail, \hyperpage{190}
+  \item spearphishing, \hyperpage{29}
+  \item special permissions, \hyperpage{333}
+  \item SPF, \hyperpage{283}
+    \subitem mechanism, \hyperpage{282}
+    \subitem policy, \hyperpage{284}
+    \subitem qualiﬁer, \hyperpage{284}
+  \item spooﬁng, \hyperpage{283}
+    \subitem DNS, \hyperpage{278}
+    \subitem e-mail, \hyperpage{30}, \hyperpage{190}
+    \subitem ICMP, \hyperpage{275}
+    \subitem IP, \hyperpage{211}, \hyperpage{231}
+    \subitem TCP SYN, \hyperpage{273}
+  \item spyware, \hyperpage{375}, \hyperpage{401}, \hyperpage{469}
+  \item square-and-multiply method, \hyperpage{104}
+  \item SS code, \hyperpage{270}
+  \item SSD, \hyperpage{480}
+    \subitem wear levelling, \hyperpage{480}
+  \item SSID, \hyperpage{96}
+  \item SSL, \hyperpage{119}, \hyperpage{221}, \hyperpage{406}
+    \subitem Alert protocol, \hyperpage{119}
+    \subitem Change Cipher Spec protocol, \hyperpage{119}
+    \subitem Handshake protocol, \hyperpage{119}
+    \subitem Record protocol, \hyperpage{119}
+    \subitem securing application protocols, \hyperpage{230}
+    \subitem security parameter set, \hyperpage{225}
+  \item stack, \hyperpage{367}
+  \item stack overﬂow, \hyperpage{367}
+  \item Standard Contractual Clause (SCC), \hyperpage{461}
+  \item standby state, \hyperpage{351}
+  \item Stanley Milgram, \hyperpage{23}
+  \item STARTTLS, \hyperpage{230}
+  \item state machine, \hyperpage{120}
+  \item static analysis, \hyperpage{374, 375}
+  \item StingRay, \hyperpage{268}
+  \item storage unit, \hyperpage{476}
+  \item stream cipher, \hyperpage{42}
+  \item STRIDE, \hyperpage{53}
+  \item Stuxnet, \hyperpage{6}, \hyperpage{345}
+  \item stylus, \hyperpage{481}
+  \item subject, \hyperpage{321}, \hyperpage{335}
+  \item Subscriber Identity Module, \hyperpage{178}
+  \item substitution cipher, \hyperpage{67}
+  \item swap area, \hyperpage{340}, \hyperpage{349}
+  \item switch, \hyperpage{175}, \hyperpage{214}
+  \item symmetric stream cipher, \hyperpage{42}
+    \subitem eStream, \hyperpage{96}
+    \subitem RC4, \hyperpage{93}
+  \item SYN spoof, \hyperpage{273}
+  \item SYN ﬂood, \hyperpage{273}
+  \item System 1, \hyperpage{25}
+  \item System 2, \hyperpage{25}
+  \item system history, \hyperpage{420}
+  \item system of systems, \hyperpage{2}
+  \item system program, \hyperpage{485}, \hyperpage{492}
+  \item system state, \hyperpage{420}
+    \subitem volatile, \hyperpage{421}
+  \item system utility, \hyperpage{492}
+
+  \indexspace
+
+  \item tag, \hyperpage{58}
+  \item Take Ownership, \hyperpage{335}
+    \subitem port, \hyperpage{161}
+    \subitem ﬂag, \hyperpage{163}
+  \item telephone modem, \hyperpage{484}
+  \item template, \hyperpage{307}
+  \item Temporal Key Integrity Protocol
+    \subitem blackbox, \hyperpage{373}
+    \subitem fuzz, \hyperpage{373}
+    \subitem penetration, \hyperpage{373}
+    \subitem whitebox, \hyperpage{373}
+  \item texting, \hyperpage{522}
+  \item TGT, \hyperpage{317}
+  \item The Sleuth Kit (TSK), \hyperpage{423}
+  \item threat, \hyperpage{41}
+    \subitem data related, \hyperpage{45}
+    \subitem hardware related, \hyperpage{44}
+    \subitem in IT system, \hyperpage{44}
+    \subitem liveware related, \hyperpage{45}
+    \subitem software related, \hyperpage{44}
+  \item threat analysis, \hyperpage{30}, \hyperpage{427}
+  \item threat proﬁle, \hyperpage{53}
+  \item threat tree, \hyperpage{54}
+  \item Ticket Granting Server (TGS), \hyperpage{317}
+  \item tickets, \hyperpage{317}
+  \item tiered architecture, \hyperpage{265}
+  \item time stamp, \hyperpage{117}
+  \item timeout time, \hyperpage{273}
+  \item TKIP, \hyperpage{258}
+  \item TLS, \hyperpage{96}, \hyperpage{119}, \hyperpage{221}, 
+		\hyperpage{406}
+    \subitem Heartbleed, \hyperpage{370}
+  \item TOCTTOU ﬂaw, \hyperpage{371}
+  \item Tor, \hyperpage{222}, \hyperpage{461}
+  \item touch sensitive, \hyperpage{481}
+  \item tracking, \hyperpage{461}
+  \item transaction, \hyperpage{462}
+  \item transparent encryption, \hyperpage{349}
+  \item Transport layer, \hyperpage{157}
+  \item transposition cipher, \hyperpage{39}
+  \item trapdoor function, \hyperpage{96}
+  \item trigram, \hyperpage{71}
+  \item Triple-DES (3DES), \hyperpage{83}, \hyperpage{217}
+  \item trojan horse, \hyperpage{30}, \hyperpage{375}
+  \item TrueCrypt, \hyperpage{349}
+  \item trust, \hyperpage{104}
+  \item trust model, \hyperpage{141}
+    \subitem hierarchical, \hyperpage{141}
+    \subitem reputation-based, \hyperpage{141}
+    \subitem web-of-trust, \hyperpage{141}
+  \item Trusted Platform Module (TPM), \hyperpage{351}
+  \item TrustedBSD, \hyperpage{321}
+  \item TSP, \hyperpage{145}
+  \item tunneling, \hyperpage{220}
+  \item type control, \hyperpage{392}
+
+  \indexspace
+
+  \item UDP, \hyperpage{168}, \hyperpage{280}
+    \subitem port, \hyperpage{161}
+  \item UEFI, \hyperpage{356}, \hyperpage{488}
+    \subitem boot loader, \hyperpage{356}
+    \subitem boot manager, \hyperpage{356}
+    \subitem KEK, \hyperpage{356}
+    \subitem PK, \hyperpage{356}
+    \subitem trust, \hyperpage{356}
+  \item UMTS, \hyperpage{177}
+    \subitem AKA, \hyperpage{129}
+    \subitem authentication vector, \hyperpage{266}
+    \subitem security, \hyperpage{266}
+  \item URI, \hyperpage{199}, \hyperpage{391}
+    \subitem password, \hyperpage{200}
+    \subitem path, \hyperpage{201}
+    \subitem port number, \hyperpage{200}
+    \subitem query, \hyperpage{201}
+    \subitem scheme, \hyperpage{200, 201}, \hyperpage{270}
+    \subitem userid, \hyperpage{200}
+  \item usability, \hyperpage{220}
+  \item USB, \hyperpage{483}
+    \subitem hub, \hyperpage{483}
+    \subitem key, \hyperpage{480}
+    \subitem port, \hyperpage{479}
+  \item user control, \hyperpage{488}
+  \item user interface, \hyperpage{488}
+  \item utility program, \hyperpage{492}
+
+  \indexspace
+
+  \item vein pattern, \hyperpage{307}
+  \item Vigenère cipher, \hyperpage{74}
+    \subitem encoding table, \hyperpage{39}
+  \item virtual memory, \hyperpage{340}
+  \item virus, \hyperpage{375}
+    \subitem attack, \hyperpage{374}
+    \subitem code, \hyperpage{377}
+    \subitem concealment, \hyperpage{376}
+    \subitem execution, \hyperpage{376}
+    \subitem placement, \hyperpage{376, 377}
+  \item Visitor Location Register (VLR), \hyperpage{178}
+  \item VM, \hyperpage{345}, \hyperpage{421}
+    \subitem guest, \hyperpage{345}
+    \subitem host, \hyperpage{345}
+  \item Volatility, \hyperpage{423}
+  \item von Neumann architecture, \hyperpage{477}
+  \item VPN, \hyperpage{220}
+  \item vulnerability, \hyperpage{41}
+    \subitem psychological, \hyperpage{41}
+    \subitem technical, \hyperpage{41}
+
+  \indexspace
+
+  \item walkthrough, \hyperpage{433}
+  \item WAN, \hyperpage{150}, \hyperpage{175}
+  \item WannaCry, \hyperpage{353}
+  \item warm site, \hyperpage{432, 433}
+  \item weakness, \hyperpage{41}
+  \item wear levelling, \hyperpage{480}
+  \item Web-of-trust, \hyperpage{141}
+  \item webform, \hyperpage{393}, \hyperpage{402}
+    \subitem BUTTON element, \hyperpage{402}
+    \subitem checkbox, \hyperpage{403}
+    \subitem hidden ﬁeld, \hyperpage{403}
+    \subitem INPUT element, \hyperpage{402}
+    \subitem menu, \hyperpage{403}
+    \subitem password, \hyperpage{400}
+    \subitem radio button, \hyperpage{403}
+    \subitem reset, \hyperpage{402}
+    \subitem risks, \hyperpage{403}
+    \subitem SELECT element, \hyperpage{403}
+    \subitem submit, \hyperpage{402}
+    \subitem TEXTAREA element, \hyperpage{403}
+    \subitem vulnerability, \hyperpage{405}
+    \subitem ﬁle, \hyperpage{403}
+  \item WEP, \hyperpage{94}
+  \item whois, \hyperpage{161}
+  \item WiFi, \hyperpage{175}
+    \subitem Access Point (AP), \hyperpage{96}
+    \subitem BSS, \hyperpage{96}
+    \subitem ESS, \hyperpage{175}
+    \subitem RSN, \hyperpage{258}
+    \subitem SSID, \hyperpage{96}
+    \subitem WPA, \hyperpage{258}
+    \subitem WPA2, \hyperpage{258}
+  \item WiMAX, \hyperpage{179}
+    \subitem VSS, \hyperpage{432}
+    \subitem XP, \hyperpage{348}, \hyperpage{469}
+  \item wireless network, \hyperpage{175}
+    \subitem security, \hyperpage{254}
+  \item worm, \hyperpage{375}
+    \subitem attack, \hyperpage{376}
+    \subitem payload, \hyperpage{377}
+    \subitem propagator, \hyperpage{377}
+  \item WPA, \hyperpage{258}
+  \item WPA2, \hyperpage{258}
+
+  \indexspace
+
+  \item X-as-a-service, \hyperpage{9}
+  \item X.500 Directory, \hyperpage{141}, \hyperpage{385}
+  \item X.500 name, \hyperpage{139}, \hyperpage{388}
+  \item X.509v3 certiﬁcate, \hyperpage{138}
+  \item XOR function, \hyperpage{42}, \hyperpage{80, 81}
+  \item XSS, \hyperpage{406}
+
+  \indexspace
+
+  \item zero-day attack, \hyperpage{354}
+  \item ZFS, \hyperpage{432}
+  \item zombie, \hyperpage{277}
+  \item zone transfer, \hyperpage{93}, \hyperpage{283}
+  \item Zone Walking, \hyperpage{283}
+
+  \indexspace
+
+  \item ﬁle descriptor, \hyperpage{371}
+    \subitem Unix, \hyperpage{331}
+    \subitem Windows, \hyperpage{333}
+  \item ﬁle system, \hyperpage{329}, \hyperpage{488}
+  \item ﬁnger pattern, \hyperpage{306}
+  \item ﬁngerprint, \hyperpage{304}
+  \item ﬁngerprint reader, \hyperpage{483}
+    \subitem 140, \hyperpage{469}
+    \subitem 197, \hyperpage{87}
+    \subitem PUB 46, \hyperpage{81}
+  \item ﬁrewall, \hyperpage{170}, \hyperpage{242}
+    \subitem application proxy, \hyperpage{243}
+    \subitem packet ﬁlter (PF), \hyperpage{242}
+    \subitem personal, \hyperpage{250}
+    \subitem placement, \hyperpage{245}
+    \subitem residual risks, \hyperpage{250}
+    \subitem Stateful Packet Inspection (SPI), \hyperpage{243}
+    \subitem tre-benet, \hyperpage{248}
+  \item ﬁrmware, \hyperpage{354}, \hyperpage{488}
+    \subitem BIOS, \hyperpage{488}
+    \subitem TCP, \hyperpage{163}
+  \item ﬂash drive, \hyperpage{480}
+  \item ﬂight mode, \hyperpage{424}
+
+\end{theindex}

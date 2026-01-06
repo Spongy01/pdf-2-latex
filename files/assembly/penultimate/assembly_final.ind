@@ -1,0 +1,350 @@
+\begin{theindex}
+
+  \item .686 directive, \hyperpage{2}
+  \item .asm, \hyperpage{304}
+  \item .code directive, \hyperpage{2}
+  \item .data directive, \hyperpage{2}
+  \item .if directive, \hyperpage{54}
+  \item .lst ﬁle, \hyperpage{305}
+  \item .repeat directive, \hyperpage{82}
+  \item .repeat–.untilcxz directives, \hyperpage{82}
+  \item .until directive, \hyperpage{79}
+  \item .untilcxz directive, \hyperpage{82}
+
+  \indexspace
+
+  \item Absolute address, \hyperpage{289}
+  \item add, \hyperpage{16}, \hyperpage{29}, \hyperpage{175}, 
+		\hyperpage{294}
+  \item Addition, \hyperpage{175}
+  \item ADDR operator, \hyperpage{9}
+  \item Aliasing, \hyperpage{169}
+  \item American Standard Code for Information Interchange (ASCII), 
+		\hyperpage{175}
+  \item and, \hyperpage{175}
+  \item And operator (&&), \hyperpage{29}
+  \item Arithmetic instructions, \hyperpage{16}
+  \item Arithmetic shift, \hyperpage{55}
+  \item Array of strings, \hyperpage{216}
+  \item Arrays, \hyperpage{82}
+    \subitem 64-bit arrays, \hyperpage{128}
+    \subitem ﬂoating-point arrays, \hyperpage{248}
+  \item Assembler, \hyperpage{1}
+  \item Assembly language, \hyperpage{1}
+
+  \indexspace
+
+  \item Bankers rounding, \hyperpage{232}
+  \item Binary Coded Decimal (BCD), \hyperpage{175}
+  \item Binary numbers, \hyperpage{306}
+  \item Bit, \hyperpage{307}
+  \item Bit-bucket, \hyperpage{107}
+    \subitem set, \hyperpage{175}
+    \subitem test, \hyperpage{102}, \hyperpage{175}
+    \subitem toggle, \hyperpage{175}
+  \item Bit-wise, \hyperpage{105}
+  \item Branch instructions, \hyperpage{24}, \hyperpage{54}, 
+		\hyperpage{62}, \hyperpage{66}, \hyperpage{79}
+  \item break (C instruction), \hyperpage{28}
+  \item byte directive, \hyperpage{3}, \hyperpage{11}
+
+  \indexspace
+
+  \item call, \hyperpage{128}, \hyperpage{175}
+  \item Carry ﬂag, \hyperpage{107}
+  \item Case structure, \hyperpage{28}
+  \item cbw, \hyperpage{35}
+  \item cdq, \hyperpage{35}, \hyperpage{175}
+  \item Central Processing Unit (CPU), \hyperpage{2}, \hyperpage{6}
+  \item Characters, \hyperpage{175}
+  \item cld, \hyperpage{175}
+  \item cmp, \hyperpage{54}, \hyperpage{175}
+  \item cmpsb, \hyperpage{104}, \hyperpage{175}
+  \item Comments, \hyperpage{2}
+  \item Comparisons, \hyperpage{49}
+  \item Conditional assembly, \hyperpage{70}
+  \item Conditional assembly directives, \hyperpage{70}
+    \subitem else, \hyperpage{148}
+    \subitem endif, \hyperpage{148}
+    \subitem EQ,GE,GT,LT,LE,NE, \hyperpage{70}
+    \subitem if, \hyperpage{70}, \hyperpage{74}
+    \subitem ifb, \hyperpage{70}
+    \subitem ifdif, \hyperpage{148}
+    \subitem ifdiﬁ, \hyperpage{70}, \hyperpage{74}
+    \subitem ifnb, \hyperpage{70}
+    \subitem iﬁdn, \hyperpage{70}
+    \subitem iﬁdni, \hyperpage{70}, \hyperpage{74}
+  \item Conditional jump, \hyperpage{54}, \hyperpage{59}, 
+		\hyperpage{67}
+    \subitem for, \hyperpage{83}
+    \subitem if, \hyperpage{24}
+    \subitem printf, \hyperpage{9}
+    \subitem scanf, \hyperpage{13}
+    \subitem switch, \hyperpage{28}
+  \item cqo, \hyperpage{265}
+  \item cwd, \hyperpage{35}
+
+  \indexspace
+
+  \item De Morgan’s rules, \hyperpage{75}
+  \item dec, \hyperpage{36}, \hyperpage{175}, \hyperpage{277}
+  \item Decimal numbers, \hyperpage{152}
+  \item Direction ﬂag, \hyperpage{49}
+  \item div, \hyperpage{175}
+  \item Division instructions, \hyperpage{34}
+  \item Do-while loops, \hyperpage{79}
+  \item dword directive, \hyperpage{3}
+  \item Dynamic, \hyperpage{85}
+
+  \indexspace
+
+  \item endm directive, \hyperpage{68}
+  \item endp directive, \hyperpage{2}, \hyperpage{66}
+  \item Errors, \hyperpage{12}
+  \item Exclusive or, \hyperpage{105}
+  \item Execution errors, \hyperpage{70}
+  \item eﬂags register, \hyperpage{9}, \hyperpage{49}, \hyperpage{66}
+
+  \indexspace
+
+  \item fcomi, \hyperpage{114}
+  \item fcomip, \hyperpage{114}, \hyperpage{116}
+  \item First In First Out (FIFO), \hyperpage{183}
+  \item Fixed iteration loop, \hyperpage{82}
+  \item Flags, \hyperpage{51}
+  \item Floating-point instructions, \hyperpage{222}
+  \item Floating-point numbers, \hyperpage{174}
+  \item For loop, \hyperpage{82}
+
+  \indexspace
+
+  \item Hexadecimal numbers, \hyperpage{152}
+  \item High-level languages, \hyperpage{5}
+
+  \indexspace
+
+  \item idiv, \hyperpage{174}
+  \item IEEE standard, \hyperpage{175}
+  \item If statements, \hyperpage{28}, \hyperpage{65}
+  \item Immediate data, \hyperpage{5}
+  \item imul, \hyperpage{34}, \hyperpage{174}
+  \item inc, \hyperpage{174}
+  \item Inclusive or, \hyperpage{126}, \hyperpage{174}
+  \item Inline assembly, \hyperpage{12}, \hyperpage{240}
+  \item Input, \hyperpage{11}
+    \subitem 64-bit input, \hyperpage{262}
+  \item Instruction timings, \hyperpage{138}
+  \item Integers, \hyperpage{9}
+  \item INVOKE directive, \hyperpage{9}
+  \item Iteration structures, \hyperpage{245}
+
+  \indexspace
+
+  \item ja, \hyperpage{28}, \hyperpage{174}
+  \item jae, \hyperpage{28}, \hyperpage{174}
+  \item jb, \hyperpage{28}, \hyperpage{174}
+  \item jbe, \hyperpage{28}, \hyperpage{174}
+  \item jc, \hyperpage{67}, \hyperpage{174}
+  \item je, \hyperpage{54}, \hyperpage{174}
+  \item jecxz, \hyperpage{83}, \hyperpage{174}
+  \item jg, \hyperpage{54}, \hyperpage{174}
+  \item jge, \hyperpage{54}, \hyperpage{174}
+  \item jl, \hyperpage{54}, \hyperpage{174}
+  \item jle, \hyperpage{54}, \hyperpage{174}
+  \item jmp, \hyperpage{174}, \hyperpage{289}
+  \item jna, \hyperpage{28}, \hyperpage{174}
+  \item jnae, \hyperpage{28}, \hyperpage{174}
+  \item jnb, \hyperpage{28}, \hyperpage{174}
+  \item jnbe, \hyperpage{28}, \hyperpage{174}
+  \item jnc, \hyperpage{67}, \hyperpage{174}
+  \item jne, \hyperpage{54}, \hyperpage{174}
+  \item jng, \hyperpage{54}, \hyperpage{174}
+  \item jnge, \hyperpage{54}, \hyperpage{174}
+  \item jnl, \hyperpage{54}, \hyperpage{174}
+  \item jnle, \hyperpage{54}, \hyperpage{174}
+  \item jno, \hyperpage{67}, \hyperpage{174}
+  \item jnp, \hyperpage{67}, \hyperpage{174}
+  \item jns, \hyperpage{67}, \hyperpage{174}
+  \item jnz, \hyperpage{66}, \hyperpage{174}
+  \item jo, \hyperpage{66}, \hyperpage{174}
+  \item jp, \hyperpage{66}, \hyperpage{174}
+  \item js, \hyperpage{66}, \hyperpage{174}
+  \item Jump instructions, \hyperpage{28}, \hyperpage{54}, 
+		\hyperpage{67}, \hyperpage{174}
+  \item jz, \hyperpage{66}, \hyperpage{174}
+
+  \indexspace
+
+  \item Label ﬁeld, \hyperpage{2}
+  \item Last In First Out (LIFO), \hyperpage{115}
+  \item lea, \hyperpage{174}, \hyperpage{285}
+  \item Lengthof operator, \hyperpage{182}
+  \item Little endian order, \hyperpage{299}
+  \item Load operation, \hyperpage{10}
+  \item lodsb, \hyperpage{100}, \hyperpage{174}, \hyperpage{200}
+  \item Logic, \hyperpage{323}
+  \item Logic errors, \hyperpage{66}
+  \item Logical shifts, \hyperpage{53}
+  \item loop, \hyperpage{83}, \hyperpage{174}
+  \item Loop instructions, \hyperpage{82}
+  \item Low-level languages, \hyperpage{1}
+
+  \indexspace
+
+  \item Machine language, \hyperpage{1}
+  \item macro directive, \hyperpage{68}
+  \item Macros, \hyperpage{68}, \hyperpage{70}
+    \subitem 64-bit, \hyperpage{126}
+    \subitem deﬁnition, \hyperpage{146}
+    \subitem expansion, \hyperpage{146}
+    \subitem invocation, \hyperpage{68}
+    \subitem parameters, \hyperpage{145}
+  \item Masks, \hyperpage{174}
+  \item Mnemonics, \hyperpage{1}
+  \item model directive, \hyperpage{2}
+  \item mov, \hyperpage{5}, \hyperpage{13}, \hyperpage{174}
+  \item movsb, \hyperpage{174}, \hyperpage{201}
+  \item movsxd, \hyperpage{256}
+  \item mul, \hyperpage{35}, \hyperpage{174}
+  \item Multiplication instructions, \hyperpage{34}
+
+  \indexspace
+
+  \item neg, \hyperpage{48}, \hyperpage{174}
+  \item nop, \hyperpage{174}
+  \item Normalization, \hyperpage{174}
+  \item not, \hyperpage{101}, \hyperpage{174}
+  \item Not operator (
+    \subitem ), \hyperpage{28}
+  \item Number systems, \hyperpage{306}
+
+  \indexspace
+
+  \item offset operator, \hyperpage{85}, \hyperpage{285}
+  \item One’s complement, \hyperpage{174}
+  \item Opcode ﬁeld, \hyperpage{2}
+  \item Operand ﬁeld, \hyperpage{2}
+  \item Operator precedence, \hyperpage{24}
+  \item Or operator (, \hyperpage{62}
+  \item Output, \hyperpage{9}
+    \subitem 64-bit output, \hyperpage{257}
+  \item Overﬂow ﬂag, \hyperpage{51}, \hyperpage{174}
+
+  \indexspace
+
+  \item Parity ﬂag, \hyperpage{51}
+  \item pop, \hyperpage{115}, \hyperpage{174}
+  \item popad, \hyperpage{68}, \hyperpage{174}
+  \item Post-test loops, \hyperpage{79}
+  \item Precedence, \hyperpage{24}
+  \item printf (C instruction), \hyperpage{9}
+  \item proc directive, \hyperpage{2}, \hyperpage{66}
+  \item Procedures, \hyperpage{132}
+  \item PROTO directive, \hyperpage{9}
+  \item push, \hyperpage{115}, \hyperpage{174}
+  \item pushad, \hyperpage{68}, \hyperpage{174}
+
+  \indexspace
+
+  \item Queues, \hyperpage{183}
+
+  \indexspace
+
+  \item Random Access Memory (RAM), \hyperpage{6}
+  \item Registers, \hyperpage{8}
+    \subitem eax, \hyperpage{8}
+    \subitem ebp, \hyperpage{9}
+    \subitem ebx, \hyperpage{8}
+    \subitem ecx, \hyperpage{8}, \hyperpage{82}
+    \subitem edi, \hyperpage{7}, \hyperpage{85}, \hyperpage{200}
+    \subitem edx, \hyperpage{8}, \hyperpage{30}
+    \subitem eip, \hyperpage{9}
+    \subitem esi, \hyperpage{9}, \hyperpage{85}, \hyperpage{100}, 
+		\hyperpage{200}
+    \subitem esp, \hyperpage{9}
+    \subitem eﬂags, \hyperpage{9}, \hyperpage{49}, \hyperpage{66}
+    \subitem r8–r15, \hyperpage{257}
+    \subitem rax, \hyperpage{256}
+    \subitem rbx, \hyperpage{253}
+    \subitem rcx, \hyperpage{253}
+    \subitem rdx, \hyperpage{253}
+  \item rep, \hyperpage{174}, \hyperpage{204}
+  \item repe, \hyperpage{174}, \hyperpage{204}
+  \item Repeat– until instructions, \hyperpage{79}
+  \item repne, \hyperpage{100}, \hyperpage{174}
+  \item ret, \hyperpage{2}, \hyperpage{131}, \hyperpage{174}
+  \item rol, \hyperpage{56}, \hyperpage{174}
+  \item ror, \hyperpage{56}, \hyperpage{174}
+  \item Rotate instructions, \hyperpage{114}, \hyperpage{174}
+
+  \indexspace
+
+  \item sal, \hyperpage{55}, \hyperpage{174}
+  \item sar, \hyperpage{55}, \hyperpage{174}
+  \item scanf (C instruction), \hyperpage{20}
+  \item scasb, \hyperpage{100}, \hyperpage{174}, \hyperpage{200}
+  \item sdword directive, \hyperpage{11}
+  \item Search (sequential), \hyperpage{85}
+  \item Selection sort, \hyperpage{189}
+  \item Selection structures, \hyperpage{24}
+    \subitem ﬂoating-point, \hyperpage{114}
+  \item Sequential search, \hyperpage{85}
+  \item Shift instructions, \hyperpage{53}, \hyperpage{174}
+  \item shl, \hyperpage{107}, \hyperpage{174}
+  \item shr, \hyperpage{55}, \hyperpage{107}, \hyperpage{174}
+  \item Sign bit, \hyperpage{174}
+  \item Sign magnitude, \hyperpage{174}
+  \item Sign ﬂag, \hyperpage{51}
+  \item SIGN? operator, \hyperpage{51}
+  \item Signed numbers, \hyperpage{174}
+  \item sizeof operator, \hyperpage{181}
+  \item Sort (selection), \hyperpage{189}
+  \item sqword directive, \hyperpage{259}
+  \item Stacks, \hyperpage{100}
+    \subitem .stack directive, \hyperpage{2}, \hyperpage{115}
+  \item Static, \hyperpage{85}
+  \item std, \hyperpage{174}, \hyperpage{201}
+  \item Store operation, \hyperpage{6}
+  \item stosb, \hyperpage{100}, \hyperpage{174}
+  \item Strings, \hyperpage{200}
+  \item sub, \hyperpage{33}, \hyperpage{133}, \hyperpage{174}
+  \item Subprograms, \hyperpage{132}
+  \item Swap, \hyperpage{118}
+  \item switch (C instruction), \hyperpage{28}
+  \item sword directive, \hyperpage{3}
+  \item Syntax errors, \hyperpage{12}
+
+  \indexspace
+
+  \item test, \hyperpage{109}, \hyperpage{174}
+  \item Two’s compliment, \hyperpage{174}
+
+  \indexspace
+
+  \item Unary operations, \hyperpage{36}
+  \item Unsigned numbers, \hyperpage{175}
+
+  \indexspace
+
+  \item Variables, \hyperpage{1}
+
+  \indexspace
+
+  \item word directive, \hyperpage{3}
+
+  \indexspace
+
+  \item xchg, \hyperpage{58}, \hyperpage{174}
+  \item xor, \hyperpage{105}, \hyperpage{174}
+
+  \indexspace
+
+  \item Zero ﬂag, \hyperpage{51}
+  \item ZERO? operator, \hyperpage{51}
+
+  \indexspace
+
+  \item ﬁld, \hyperpage{230}
+  \item ﬁstp, \hyperpage{230}
+
+\end{theindex}
